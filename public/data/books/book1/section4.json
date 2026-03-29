@@ -1,0 +1,332 @@
+{
+  "bookId": "book1",
+  "sectionId": "section4",
+  "sectionTitle": "Excuse Me. How Much Does That Cost in Total?",
+  "items": [
+    {
+      "id": 1,
+      "chinese": "一共",
+      "pinyin": "yígòng",
+      "english": "altogether",
+      "sentenceChinese": "一共多少錢？",
+      "sentencePinyin": "Yígòng duōshǎo qián?",
+      "sentenceEnglish": "How much is it altogether?"
+    },
+    {
+      "id": 2,
+      "chinese": "多少",
+      "pinyin": "duōshǎo",
+      "english": "how much, how many",
+      "sentenceChinese": "這個多少錢？",
+      "sentencePinyin": "Zhège duōshǎo qián?",
+      "sentenceEnglish": "How much is this?"
+    },
+    {
+      "id": 3,
+      "chinese": "錢",
+      "pinyin": "qián",
+      "english": "money",
+      "sentenceChinese": "我沒有很多錢。",
+      "sentencePinyin": "Wǒ méiyǒu hěn duō qián.",
+      "sentenceEnglish": "I do not have much money."
+    },
+    {
+      "id": 4,
+      "chinese": "老闆",
+      "pinyin": "lǎobǎn",
+      "english": "store-owner, boss",
+      "sentenceChinese": "老闆，這個很貴嗎？",
+      "sentencePinyin": "Lǎobǎn, zhège hěn guì ma?",
+      "sentenceEnglish": "Boss, is this expensive?"
+    },
+    {
+      "id": 5,
+      "chinese": "買",
+      "pinyin": "mǎi",
+      "english": "to buy",
+      "sentenceChinese": "我想買一杯茶。",
+      "sentencePinyin": "Wǒ xiǎng mǎi yì bēi chá.",
+      "sentenceEnglish": "I want to buy a cup of tea."
+    },
+    {
+      "id": 6,
+      "chinese": "杯",
+      "pinyin": "bēi",
+      "english": "cup",
+      "sentenceChinese": "我要一杯熱茶。",
+      "sentencePinyin": "Wǒ yào yì bēi rè chá.",
+      "sentenceEnglish": "I want a cup of hot tea."
+    },
+    {
+      "id": 7,
+      "chinese": "熱",
+      "pinyin": "rè",
+      "english": "hot",
+      "sentenceChinese": "這個包子很熱。",
+      "sentencePinyin": "Zhège bāozi hěn rè.",
+      "sentenceEnglish": "This steamed bun is hot."
+    },
+    {
+      "id": 8,
+      "chinese": "包子",
+      "pinyin": "bāozi",
+      "english": "steamed buns with meat stuffing filling",
+      "sentenceChinese": "我買了兩個包子。",
+      "sentencePinyin": "Wǒ mǎile liǎng ge bāozi.",
+      "sentenceEnglish": "I bought two steamed buns."
+    },
+    {
+      "id": 9,
+      "chinese": "要",
+      "pinyin": "yào",
+      "english": "to want, to need",
+      "sentenceChinese": "你要大的還是小的？",
+      "sentencePinyin": "Nǐ yào dà de háishì xiǎo de?",
+      "sentenceEnglish": "Do you want the large one or the small one?"
+    },
+    {
+      "id": 10,
+      "chinese": "大",
+      "pinyin": "dà",
+      "english": "large",
+      "sentenceChinese": "我要大的。",
+      "sentencePinyin": "Wǒ yào dà de.",
+      "sentenceEnglish": "I want the large one."
+    },
+    {
+      "id": 11,
+      "chinese": "中",
+      "pinyin": "zhōng",
+      "english": "medium",
+      "sentenceChinese": "中杯也可以。",
+      "sentencePinyin": "Zhōng bēi yě kěyǐ.",
+      "sentenceEnglish": "A medium cup is also fine."
+    },
+    {
+      "id": 12,
+      "chinese": "小",
+      "pinyin": "xiǎo",
+      "english": "small",
+      "sentenceChinese": "小杯比較便宜。",
+      "sentencePinyin": "Xiǎo bēi bǐjiào piányí.",
+      "sentenceEnglish": "A small cup is cheaper."
+    },
+    {
+      "id": 13,
+      "chinese": "幫",
+      "pinyin": "bāng",
+      "english": "for",
+      "sentenceChinese": "請幫我微波一下。",
+      "sentencePinyin": "Qǐng bāng wǒ wēibō yíxià.",
+      "sentenceEnglish": "Please microwave it for me."
+    },
+    {
+      "id": 14,
+      "chinese": "微波",
+      "pinyin": "wēibō",
+      "english": "to microwave",
+      "sentenceChinese": "可以幫我微波嗎？",
+      "sentencePinyin": "Kěyǐ bāng wǒ wēibō ma?",
+      "sentenceEnglish": "Can you microwave it for me?"
+    },
+    {
+      "id": 15,
+      "chinese": "百",
+      "pinyin": "bǎi",
+      "english": "hundred",
+      "sentenceChinese": "一百塊可以嗎？",
+      "sentencePinyin": "Yì bǎi kuài kěyǐ ma?",
+      "sentenceEnglish": "Is one hundred dollars okay?"
+    },
+    {
+      "id": 16,
+      "chinese": "塊",
+      "pinyin": "kuài",
+      "english": "measure word for Chinese money",
+      "sentenceChinese": "這個二十塊。",
+      "sentencePinyin": "Zhège èrshí kuài.",
+      "sentenceEnglish": "This is twenty dollars."
+    },
+    {
+      "id": 17,
+      "chinese": "好的",
+      "pinyin": "hǎode",
+      "english": "OK",
+      "sentenceChinese": "好的，謝謝。",
+      "sentencePinyin": "Hǎode, xièxie.",
+      "sentenceEnglish": "Okay, thank you."
+    },
+    {
+      "id": 18,
+      "chinese": "外帶",
+      "pinyin": "wàidài",
+      "english": "take out, to go",
+      "sentenceChinese": "我要外帶。",
+      "sentencePinyin": "Wǒ yào wàidài.",
+      "sentenceEnglish": "I want it to go."
+    },
+    {
+      "id": 19,
+      "chinese": "內用",
+      "pinyin": "nèiyòng",
+      "english": "for here",
+      "sentenceChinese": "你要內用還是外帶？",
+      "sentencePinyin": "Nǐ yào nèiyòng háishì wàidài?",
+      "sentenceEnglish": "For here or to go?"
+    },
+    {
+      "id": 20,
+      "chinese": "支",
+      "pinyin": "zhī",
+      "english": "measure word for cell phones",
+      "sentenceChinese": "我想買一支手機。",
+      "sentencePinyin": "Wǒ xiǎng mǎi yì zhī shǒujī.",
+      "sentenceEnglish": "I want to buy a cell phone."
+    },
+    {
+      "id": 21,
+      "chinese": "新",
+      "pinyin": "xīn",
+      "english": "new",
+      "sentenceChinese": "這是新的手機。",
+      "sentencePinyin": "Zhè shì xīn de shǒujī.",
+      "sentenceEnglish": "This is a new cell phone."
+    },
+    {
+      "id": 22,
+      "chinese": "手機",
+      "pinyin": "shǒujī",
+      "english": "cell phone",
+      "sentenceChinese": "我的手機很舊。",
+      "sentencePinyin": "Wǒ de shǒujī hěn jiù.",
+      "sentenceEnglish": "My cell phone is very old."
+    },
+    {
+      "id": 23,
+      "chinese": "太",
+      "pinyin": "tài",
+      "english": "too",
+      "sentenceChinese": "這支手機太貴了。",
+      "sentencePinyin": "Zhè zhī shǒujī tài guì le.",
+      "sentenceEnglish": "This cell phone is too expensive."
+    },
+    {
+      "id": 24,
+      "chinese": "舊",
+      "pinyin": "jiù",
+      "english": "old",
+      "sentenceChinese": "那支手機太舊了。",
+      "sentencePinyin": "Nà zhī shǒujī tài jiù le.",
+      "sentenceEnglish": "That cell phone is too old."
+    },
+    {
+      "id": 25,
+      "chinese": "了",
+      "pinyin": "le",
+      "english": "sentence-final particle indicating certainty",
+      "sentenceChinese": "太便宜了！",
+      "sentencePinyin": "Tài piányí le!",
+      "sentenceEnglish": "It is too cheap!"
+    },
+    {
+      "id": 26,
+      "chinese": "種",
+      "pinyin": "zhǒng",
+      "english": "kind, type",
+      "sentenceChinese": "這種手機很新。",
+      "sentencePinyin": "Zhè zhǒng shǒujī hěn xīn.",
+      "sentenceEnglish": "This kind of cell phone is very new."
+    },
+    {
+      "id": 27,
+      "chinese": "能",
+      "pinyin": "néng",
+      "english": "can, to be able to",
+      "sentenceChinese": "這支手機能上網嗎？",
+      "sentencePinyin": "Zhè zhī shǒujī néng shàngwǎng ma?",
+      "sentenceEnglish": "Can this cell phone access the internet?"
+    },
+    {
+      "id": 28,
+      "chinese": "上網",
+      "pinyin": "shàngwǎng",
+      "english": "to access the internet, to use the internet",
+      "sentenceChinese": "我每天都用手機上網。",
+      "sentencePinyin": "Wǒ měitiān dōu yòng shǒujī shàngwǎng.",
+      "sentenceEnglish": "I use my phone to access the internet every day."
+    },
+    {
+      "id": 29,
+      "chinese": "那",
+      "pinyin": "nà / nèi",
+      "english": "that",
+      "sentenceChinese": "那支手機多少錢？",
+      "sentencePinyin": "Nà zhī shǒujī duōshǎo qián?",
+      "sentenceEnglish": "How much is that cell phone?"
+    },
+    {
+      "id": 30,
+      "chinese": "貴",
+      "pinyin": "guì",
+      "english": "expensive",
+      "sentenceChinese": "這個太貴了。",
+      "sentencePinyin": "Zhège tài guì le.",
+      "sentenceEnglish": "This is too expensive."
+    },
+    {
+      "id": 31,
+      "chinese": "賣",
+      "pinyin": "mài",
+      "english": "to sell",
+      "sentenceChinese": "你們賣手機嗎？",
+      "sentencePinyin": "Nǐmen mài shǒujī ma?",
+      "sentenceEnglish": "Do you sell cell phones?"
+    },
+    {
+      "id": 32,
+      "chinese": "便宜",
+      "pinyin": "piányí",
+      "english": "cheap, inexpensive",
+      "sentenceChinese": "這支比較便宜。",
+      "sentencePinyin": "Zhè zhī bǐjiào piányí.",
+      "sentenceEnglish": "This one is cheaper."
+    },
+    {
+      "id": 33,
+      "chinese": "要",
+      "pinyin": "yào",
+      "english": "to take, to require",
+      "sentenceChinese": "我要這支手機。",
+      "sentencePinyin": "Wǒ yào zhè zhī shǒujī.",
+      "sentenceEnglish": "I want this cell phone."
+    },
+    {
+      "id": 34,
+      "chinese": "萬",
+      "pinyin": "wàn",
+      "english": "ten thousand",
+      "sentenceChinese": "一萬太貴了。",
+      "sentencePinyin": "Yí wàn tài guì le.",
+      "sentenceEnglish": "Ten thousand is too expensive."
+    },
+    {
+      "id": 35,
+      "chinese": "千",
+      "pinyin": "qiān",
+      "english": "thousand",
+      "sentenceChinese": "三千塊可以嗎？",
+      "sentencePinyin": "Sān qiān kuài kěyǐ ma?",
+      "sentenceEnglish": "Is three thousand dollars okay?"
+    },
+    {
+      "id": 36,
+      "chinese": "為什麼",
+      "pinyin": "wèishénme",
+      "english": "why",
+      "sentenceChinese": "這支手機為什麼這麼貴？",
+      "sentencePinyin": "Zhè zhī shǒujī wèishénme zhème guì?",
+      "sentenceEnglish": "Why is this cell phone so expensive?"
+    }
+  ],
+  "theme": "Shopping"
+}

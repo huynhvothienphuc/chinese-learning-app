@@ -1,0 +1,122 @@
+[
+  {
+    "id": "section1",
+    "order": 1,
+    "title": "Welcome to Taiwan!",
+    "file": "section1.json",
+    "enabled": true,
+    "theme": "Introducing Myself"
+  },
+  {
+    "id": "section2",
+    "order": 2,
+    "title": "My Family",
+    "file": "section2.json",
+    "enabled": true,
+    "theme": "Family Members"
+  },
+  {
+    "id": "section3",
+    "order": 3,
+    "title": "What Are You Doing Over the Weekend?",
+    "file": "section3.json",
+    "enabled": true,
+    "theme": "Hobbies"
+  },
+  {
+    "id": "section4",
+    "order": 4,
+    "title": "Excuse Me. How Much Does That Cost in Total?",
+    "file": "section4.json",
+    "enabled": true,
+    "theme": "Shopping"
+  },
+  {
+    "id": "section5",
+    "order": 5,
+    "title": "Beef Noodles Are Really Delicious",
+    "file": "section5.json",
+    "enabled": true,
+    "theme": "Food and Drink"
+  },
+  {
+    "id": "section6",
+    "order": 6,
+    "title": "Their School Is Up in the Mountains",
+    "file": "section6.json",
+    "enabled": false,
+    "theme": "Locations and Positions"
+  },
+  {
+    "id": "section7",
+    "order": 7,
+    "title": "Going to KTV at 9 O’clock in the Morning",
+    "file": "section7.json",
+    "enabled": false,
+    "theme": "Time (Time-When and Time-Duration)"
+  },
+  {
+    "id": "section8",
+    "order": 8,
+    "title": "Taking a Train to Tainan",
+    "file": "section8.json",
+    "enabled": false,
+    "theme": "Transportation"
+  },
+  {
+    "id": "section9",
+    "order": 9,
+    "title": "Where Will You Go for the Holidays?",
+    "file": "section9.json",
+    "enabled": false,
+    "theme": "Leisure"
+  },
+  {
+    "id": "section10",
+    "order": 10,
+    "title": "The Fruit in Taiwan Tastes Really Good",
+    "file": "section10.json",
+    "enabled": false,
+    "theme": "The Appearance of People and Things"
+  },
+  {
+    "id": "section11",
+    "order": 11,
+    "title": "I Would Like to Rent a Place",
+    "file": "section11.json",
+    "enabled": false,
+    "theme": "Renting a Place"
+  },
+  {
+    "id": "section12",
+    "order": 12,
+    "title": "How Long Will You Be Studying Chinese in Taiwan?",
+    "file": "section12.json",
+    "enabled": false,
+    "theme": "Study, Work"
+  },
+  {
+    "id": "section13",
+    "order": 13,
+    "title": "Happy Birthday",
+    "file": "section13.json",
+    "enabled": false,
+    "theme": "Social Life"
+  },
+  {
+    "id": "section14",
+    "order": 14,
+    "title": "It’s So Cold!",
+    "file": "section14.json",
+    "enabled": false,
+    "theme": "The Weather"
+  },
+  {
+    "id": "section15",
+    "order": 15,
+    "title": "I Don’t Feel Well",
+    "file": "section15.json",
+    "enabled": false,
+    "theme": "Falling Sick"
+  }
+]

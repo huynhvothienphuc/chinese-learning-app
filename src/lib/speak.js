@@ -1,11 +1,12 @@
 export function getChineseVoice() {
-  const voices = window.speechSynthesis.getVoices();
+  if (!("speechSynthesis" in window)) return null;
 
+  const voices = window.speechSynthesis.getVoices();
   return (
-    voices.find((v) => v.lang === "zh-TW") ||
-    voices.find((v) => v.lang === "zh-HK") ||
-    voices.find((v) => v.lang === "zh-CN") ||
-    voices.find((v) => v.lang?.toLowerCase().startsWith("zh")) ||
+    voices.find((voice) => voice.lang === 'zh-TW') ||
+    voices.find((voice) => voice.lang === 'zh-HK') ||
+    voices.find((voice) => voice.lang === 'zh-CN') ||
+    voices.find((voice) => voice.lang?.toLowerCase().startsWith('zh')) ||
     null
   );
 }
@@ -13,14 +14,7 @@ export function getChineseVoice() {
 export function speakChinese(text, options = {}) {
   if (!text || !("speechSynthesis" in window)) return;
 
-  const {
-    rate = 0.9,
-    pitch = 1,
-    volume = 1,
-    lang = "zh-TW",
-  } = options;
-
-  // stop previous speech so repeated taps feel responsive
+  const { rate = 0.88, pitch = 1, volume = 1, lang = 'zh-TW' } = options;
   window.speechSynthesis.cancel();
 
   const utterance = new SpeechSynthesisUtterance(text);
@@ -33,10 +27,4 @@ export function speakChinese(text, options = {}) {
   utterance.volume = volume;
 
   window.speechSynthesis.speak(utterance);
-}
-
-export function stopSpeaking() {
-  if ("speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
-  }
 }

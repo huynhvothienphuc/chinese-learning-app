@@ -4,10 +4,8 @@
 
 .flashcard-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.7s ease;
   transform-style: preserve-3d;
+  transition: transform 0.7s ease;
 }
 
 .flashcard-inner.is-flipped {
@@ -17,11 +15,8 @@
 .flashcard-face {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  overflow: hidden;
 }
 
 .flashcard-front {

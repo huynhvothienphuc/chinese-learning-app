@@ -1,0 +1,395 @@
+{
+  "bookId": "book1",
+  "sectionId": "section1",
+  "sectionTitle": "Welcome to Taiwan!",
+  "items": [
+    {
+      "id": 1,
+      "chinese": "陳月美",
+      "pinyin": "Chén Yuèměi",
+      "english": "a woman from Vietnam",
+      "sentenceChinese": "陳月美是越南人。",
+      "sentencePinyin": "Chén Yuèměi shì Yuènán rén.",
+      "sentenceEnglish": "Chen Yuemei is a woman from Vietnam."
+    },
+    {
+      "id": 2,
+      "chinese": "李明華",
+      "pinyin": "Lǐ Mínghuá",
+      "english": "a man from Taiwan",
+      "sentenceChinese": "李明華是台灣人。",
+      "sentencePinyin": "Lǐ Mínghuá shì Táiwān rén.",
+      "sentenceEnglish": "Li Minghua is a man from Taiwan."
+    },
+    {
+      "id": 3,
+      "chinese": "王開文",
+      "pinyin": "Wáng Kāiwén",
+      "english": "a man from the US",
+      "sentenceChinese": "王開文是美國人。",
+      "sentencePinyin": "Wáng Kāiwén shì Měiguó rén.",
+      "sentenceEnglish": "Wang Kaiwen is a man from the US."
+    },
+    {
+      "id": 4,
+      "chinese": "你",
+      "pinyin": "nǐ",
+      "english": "you",
+      "sentenceChinese": "你好嗎？",
+      "sentencePinyin": "Nǐ hǎo ma?",
+      "sentenceEnglish": "How are you?"
+    },
+    {
+      "id": 5,
+      "chinese": "來",
+      "pinyin": "lái",
+      "english": "to come",
+      "sentenceChinese": "你今天來嗎？",
+      "sentencePinyin": "Nǐ jīntiān lái ma?",
+      "sentenceEnglish": "Are you coming today?"
+    },
+    {
+      "id": 6,
+      "chinese": "是",
+      "pinyin": "shì",
+      "english": "to be",
+      "sentenceChinese": "我是老師。",
+      "sentencePinyin": "Wǒ shì lǎoshī.",
+      "sentenceEnglish": "I am a teacher."
+    },
+    {
+      "id": 7,
+      "chinese": "小姐",
+      "pinyin": "xiǎojiě",
+      "english": "Miss, Ms.",
+      "sentenceChinese": "王小姐，你好。",
+      "sentencePinyin": "Wáng xiǎojiě, nǐ hǎo.",
+      "sentenceEnglish": "Hello, Miss Wang."
+    },
+    {
+      "id": 8,
+      "chinese": "嗎",
+      "pinyin": "ma",
+      "english": "sentence-final particle",
+      "sentenceChinese": "你是台灣人嗎？",
+      "sentencePinyin": "Nǐ shì Táiwān rén ma?",
+      "sentenceEnglish": "Are you Taiwanese?"
+    },
+    {
+      "id": 9,
+      "chinese": "接",
+      "pinyin": "jiē",
+      "english": "to pick someone up",
+      "sentenceChinese": "我來接你。",
+      "sentencePinyin": "Wǒ lái jiē nǐ.",
+      "sentenceEnglish": "I came to pick you up."
+    },
+    {
+      "id": 10,
+      "chinese": "我們",
+      "pinyin": "wǒmen",
+      "english": "we, us",
+      "sentenceChinese": "我們都是學生。",
+      "sentencePinyin": "Wǒmen dōu shì xuéshēng.",
+      "sentenceEnglish": "We are all students."
+    },
+    {
+      "id": 11,
+      "chinese": "我",
+      "pinyin": "wǒ",
+      "english": "I, me",
+      "sentenceChinese": "我姓李。",
+      "sentencePinyin": "Wǒ xìng Lǐ.",
+      "sentenceEnglish": "My surname is Li."
+    },
+    {
+      "id": 12,
+      "chinese": "這",
+      "pinyin": "zhè / zhèi",
+      "english": "this",
+      "sentenceChinese": "這是我的書。",
+      "sentencePinyin": "Zhè shì wǒ de shū.",
+      "sentenceEnglish": "This is my book."
+    },
+    {
+      "id": 13,
+      "chinese": "先生",
+      "pinyin": "xiānsheng",
+      "english": "Mr.",
+      "sentenceChinese": "李先生，歡迎。",
+      "sentencePinyin": "Lǐ xiānsheng, huānyíng.",
+      "sentenceEnglish": "Welcome, Mr. Li."
+    },
+    {
+      "id": 14,
+      "chinese": "好",
+      "pinyin": "hǎo",
+      "english": "fine, well",
+      "sentenceChinese": "我很好。",
+      "sentencePinyin": "Wǒ hěn hǎo.",
+      "sentenceEnglish": "I am fine."
+    },
+    {
+      "id": 15,
+      "chinese": "姓",
+      "pinyin": "xìng",
+      "english": "to be surnamed",
+      "sentenceChinese": "你姓什麼？",
+      "sentencePinyin": "Nǐ xìng shénme?",
+      "sentenceEnglish": "What is your surname?"
+    },
+    {
+      "id": 16,
+      "chinese": "叫",
+      "pinyin": "jiào",
+      "english": "to be called",
+      "sentenceChinese": "我叫明華。",
+      "sentencePinyin": "Wǒ jiào Mínghuá.",
+      "sentenceEnglish": "My name is Minghua."
+    },
+    {
+      "id": 17,
+      "chinese": "你們",
+      "pinyin": "nǐmen",
+      "english": "you, plural",
+      "sentenceChinese": "你們好。",
+      "sentencePinyin": "Nǐmen hǎo.",
+      "sentenceEnglish": "Hello, everyone."
+    },
+    {
+      "id": 18,
+      "chinese": "台灣",
+      "pinyin": "Táiwān",
+      "english": "Taiwan",
+      "sentenceChinese": "我朋友住在台灣。",
+      "sentencePinyin": "Wǒ péngyou zhù zài Táiwān.",
+      "sentenceEnglish": "My friend lives in Taiwan."
+    },
+    {
+      "id": 19,
+      "chinese": "歡迎",
+      "pinyin": "huānyíng",
+      "english": "welcome",
+      "sentenceChinese": "歡迎你來我家。",
+      "sentencePinyin": "Huānyíng nǐ lái wǒ jiā.",
+      "sentenceEnglish": "Welcome to my home."
+    },
+    {
+      "id": 20,
+      "chinese": "請問",
+      "pinyin": "qǐngwèn",
+      "english": "May I ask... / Excuse me, ...",
+      "sentenceChinese": "請問，你叫什麼名字？",
+      "sentencePinyin": "Qǐngwèn, nǐ jiào shénme míngzi?",
+      "sentenceEnglish": "Excuse me, what is your name?"
+    },
+    {
+      "id": 21,
+      "chinese": "是的",
+      "pinyin": "shìde",
+      "english": "yes",
+      "sentenceChinese": "是的，我是王先生。",
+      "sentencePinyin": "Shìde, wǒ shì Wáng xiānsheng.",
+      "sentenceEnglish": "Yes, I am Mr. Wang."
+    },
+    {
+      "id": 22,
+      "chinese": "謝謝",
+      "pinyin": "xièxie",
+      "english": "Thank you.",
+      "sentenceChinese": "謝謝你來接我。",
+      "sentencePinyin": "Xièxie nǐ lái jiē wǒ.",
+      "sentenceEnglish": "Thank you for coming to pick me up."
+    },
+    {
+      "id": 23,
+      "chinese": "不客氣",
+      "pinyin": "bú kèqì",
+      "english": "You're welcome.",
+      "sentenceChinese": "不客氣，很高興認識你。",
+      "sentencePinyin": "Bú kèqì, hěn gāoxìng rènshi nǐ.",
+      "sentenceEnglish": "You're welcome. Nice to meet you."
+    },
+    {
+      "id": 24,
+      "chinese": "你好",
+      "pinyin": "nǐ hǎo",
+      "english": "Hello. / How are you?",
+      "sentenceChinese": "李先生，你好。",
+      "sentencePinyin": "Lǐ xiānsheng, nǐ hǎo.",
+      "sentenceEnglish": "Hello, Mr. Li."
+    },
+    {
+      "id": 25,
+      "chinese": "請",
+      "pinyin": "qǐng",
+      "english": "please",
+      "sentenceChinese": "請坐。",
+      "sentencePinyin": "Qǐng zuò.",
+      "sentenceEnglish": "Please sit down."
+    },
+    {
+      "id": 26,
+      "chinese": "喝",
+      "pinyin": "hē",
+      "english": "to drink",
+      "sentenceChinese": "你喝茶嗎？",
+      "sentencePinyin": "Nǐ hē chá ma?",
+      "sentenceEnglish": "Do you drink tea?"
+    },
+    {
+      "id": 27,
+      "chinese": "茶",
+      "pinyin": "chá",
+      "english": "tea",
+      "sentenceChinese": "這杯茶很好喝。",
+      "sentencePinyin": "Zhè bēi chá hěn hǎohē.",
+      "sentenceEnglish": "This cup of tea tastes very good."
+    },
+    {
+      "id": 28,
+      "chinese": "很",
+      "pinyin": "hěn",
+      "english": "very",
+      "sentenceChinese": "我很喜歡咖啡。",
+      "sentencePinyin": "Wǒ hěn xǐhuān kāfēi.",
+      "sentenceEnglish": "I really like coffee."
+    },
+    {
+      "id": 29,
+      "chinese": "好喝",
+      "pinyin": "hǎohē",
+      "english": "to taste good",
+      "sentenceChinese": "烏龍茶很好喝。",
+      "sentencePinyin": "Wūlóng chá hěn hǎohē.",
+      "sentenceEnglish": "Oolong tea tastes very good."
+    },
+    {
+      "id": 30,
+      "chinese": "什麼",
+      "pinyin": "shénme",
+      "english": "what",
+      "sentenceChinese": "你要喝什麼？",
+      "sentencePinyin": "Nǐ yào hē shénme?",
+      "sentenceEnglish": "What would you like to drink?"
+    },
+    {
+      "id": 31,
+      "chinese": "人",
+      "pinyin": "rén",
+      "english": "person, people",
+      "sentenceChinese": "他是美國人。",
+      "sentencePinyin": "Tā shì Měiguó rén.",
+      "sentenceEnglish": "He is American."
+    },
+    {
+      "id": 32,
+      "chinese": "喜歡",
+      "pinyin": "xǐhuān",
+      "english": "to like",
+      "sentenceChinese": "我喜歡喝茶。",
+      "sentencePinyin": "Wǒ xǐhuān hē chá.",
+      "sentenceEnglish": "I like drinking tea."
+    },
+    {
+      "id": 33,
+      "chinese": "呢",
+      "pinyin": "ne",
+      "english": "sentence-final particle",
+      "sentenceChinese": "你呢？",
+      "sentencePinyin": "Nǐ ne?",
+      "sentenceEnglish": "How about you?"
+    },
+    {
+      "id": 34,
+      "chinese": "他",
+      "pinyin": "tā",
+      "english": "he, him",
+      "sentenceChinese": "他是我朋友。",
+      "sentencePinyin": "Tā shì wǒ péngyou.",
+      "sentenceEnglish": "He is my friend."
+    },
+    {
+      "id": 35,
+      "chinese": "不",
+      "pinyin": "bù",
+      "english": "not",
+      "sentenceChinese": "我不喝咖啡。",
+      "sentencePinyin": "Wǒ bù hē kāfēi.",
+      "sentenceEnglish": "I do not drink coffee."
+    },
+    {
+      "id": 36,
+      "chinese": "哪",
+      "pinyin": "nǎ / něi",
+      "english": "which",
+      "sentenceChinese": "你喜歡哪一個？",
+      "sentencePinyin": "Nǐ xǐhuān nǎ yí ge?",
+      "sentenceEnglish": "Which one do you like?"
+    },
+    {
+      "id": 37,
+      "chinese": "要",
+      "pinyin": "yào",
+      "english": "to want to",
+      "sentenceChinese": "我要喝茶。",
+      "sentencePinyin": "Wǒ yào hē chá.",
+      "sentenceEnglish": "I want to drink tea."
+    },
+    {
+      "id": 38,
+      "chinese": "咖啡",
+      "pinyin": "kāfēi",
+      "english": "coffee",
+      "sentenceChinese": "他喜歡喝咖啡。",
+      "sentencePinyin": "Tā xǐhuān hē kāfēi.",
+      "sentenceEnglish": "He likes to drink coffee."
+    },
+    {
+      "id": 39,
+      "chinese": "烏龍茶",
+      "pinyin": "Wūlóng chá",
+      "english": "Oolong tea",
+      "sentenceChinese": "我想喝烏龍茶。",
+      "sentencePinyin": "Wǒ xiǎng hē Wūlóng chá.",
+      "sentenceEnglish": "I want to drink Oolong tea."
+    },
+    {
+      "id": 40,
+      "chinese": "日本",
+      "pinyin": "Rìběn",
+      "english": "Japan",
+      "sentenceChinese": "他朋友是日本人。",
+      "sentencePinyin": "Tā péngyou shì Rìběn rén.",
+      "sentenceEnglish": "His friend is Japanese."
+    },
+    {
+      "id": 41,
+      "chinese": "美國",
+      "pinyin": "Měiguó",
+      "english": "America",
+      "sentenceChinese": "王開文來自美國。",
+      "sentencePinyin": "Wáng Kāiwén láizì Měiguó.",
+      "sentenceEnglish": "Wang Kaiwen is from America."
+    },
+    {
+      "id": 42,
+      "chinese": "對不起",
+      "pinyin": "duìbùqǐ",
+      "english": "I'm sorry.",
+      "sentenceChinese": "對不起，我來晚了。",
+      "sentencePinyin": "Duìbùqǐ, wǒ lái wǎn le.",
+      "sentenceEnglish": "I'm sorry, I came late."
+    },
+    {
+      "id": 43,
+      "chinese": "哪國",
+      "pinyin": "nǎ guó / něi guó",
+      "english": "Which country?",
+      "sentenceChinese": "你是哪國人？",
+      "sentencePinyin": "Nǐ shì nǎ guó rén?",
+      "sentenceEnglish": "Which country are you from?"
+    }
+  ],
+  "theme": "Introducing Myself"
+}

@@ -14,24 +14,25 @@ export function shuffleArray(items) {
   return next;
 }
 
-export function parseVocabularyText(text) {
-  return text
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter((line) => line && !line.startsWith('#'))
-    .map((line, index) => {
-      const parts = line.split('|').map((part) => part.trim());
-      if (parts.length < 5) {
-        return null;
-      }
 
-      const [chinese, pinyinEnglishRaw, sentenceChinese, sentencePinyin, sentenceEnglish] = parts;
-      const match = pinyinEnglishRaw.match(/^(.+?)\s*\((.+)\)$/);
-      const pinyin = match ? match[1].trim() : pinyinEnglishRaw;
-      const english = match ? match[2].trim() : '';
+export function normalizeVocabularyItems(items) {
+  if (!Array.isArray(items)) return [];
+
+  return items
+    .map((item, index) => {
+      if (!item || typeof item !== 'object') return null;
+
+      const chinese = String(item.chinese || '').trim();
+      const pinyin = String(item.pinyin || '').trim();
+      const english = String(item.english || '').trim();
+      const sentenceChinese = String(item.sentenceChinese || '').trim();
+      const sentencePinyin = String(item.sentencePinyin || '').trim();
+      const sentenceEnglish = String(item.sentenceEnglish || '').trim();
+
+      if (!chinese || !pinyin) return null;
 
       return {
-        id: `${chinese}-${index}`,
+        id: item.id || `${chinese}-${pinyin}-${index}`,
         chinese,
         pinyin,
         english,
@@ -43,9 +44,38 @@ export function parseVocabularyText(text) {
     .filter(Boolean);
 }
 
+export function parseVocabularyText(text) {
+  return text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith('#'))
+    .map((line, index) => {
+      const parts = line.split('|').map((part) => part.trim());
+      if (parts.length < 5) return null;
+
+      const [chinese, pinyinEnglishRaw, sentenceChinese, sentencePinyin, sentenceEnglish] = parts;
+      const match = pinyinEnglishRaw.match(/^(.+?)\s*\((.+)\)$/);
+      const pinyin = match ? match[1].trim() : pinyinEnglishRaw;
+      const english = match ? match[2].trim() : '';
+
+      if (!chinese || !pinyin || !sentenceChinese) return null;
+
+      return normalizeVocabularyItems([{
+        id: `${chinese}-${pinyin}-${index}`,
+        chinese,
+        pinyin,
+        english,
+        sentenceChinese,
+        sentencePinyin,
+        sentenceEnglish,
+      }])[0];
+    })
+    .filter(Boolean);
+}
+
 export function formatSectionName(filename) {
   return filename
-    .replace('.txt', '')
+    .replace(/\.(txt|json)$/i, '')
     .split(/[-_]/)
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
@@ -53,6 +83,7 @@ export function formatSectionName(filename) {
 
 export function buildQuizChoices(vocabulary, currentItem) {
   const wrongPool = vocabulary.filter((item) => item.id !== currentItem.id);
-  const shuffledWrong = shuffleArray(wrongPool).slice(0, 3);
+  const wrongCount = Math.min(3, wrongPool.length);
+  const shuffledWrong = shuffleArray(wrongPool).slice(0, wrongCount);
   return shuffleArray([currentItem, ...shuffledWrong]);
 }

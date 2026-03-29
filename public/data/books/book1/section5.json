@@ -1,0 +1,350 @@
+{
+  "bookId": "book1",
+  "sectionId": "section5",
+  "sectionTitle": "Beef Noodles Are Really Delicious",
+  "items": [
+    {
+      "id": 1,
+      "chinese": "牛肉",
+      "pinyin": "niúròu",
+      "english": "beef",
+      "sentenceChinese": "我想吃牛肉。",
+      "sentencePinyin": "Wǒ xiǎng chī niúròu.",
+      "sentenceEnglish": "I want to eat beef."
+    },
+    {
+      "id": 2,
+      "chinese": "麵",
+      "pinyin": "miàn",
+      "english": "noodles",
+      "sentenceChinese": "這家店的麵很好吃。",
+      "sentencePinyin": "Zhè jiā diàn de miàn hěn hǎochī.",
+      "sentenceEnglish": "The noodles at this shop are delicious."
+    },
+    {
+      "id": 3,
+      "chinese": "真",
+      "pinyin": "zhēn",
+      "english": "really",
+      "sentenceChinese": "這個真的很好吃。",
+      "sentencePinyin": "Zhège zhēn de hěn hǎochī.",
+      "sentenceEnglish": "This is really delicious."
+    },
+    {
+      "id": 4,
+      "chinese": "好吃",
+      "pinyin": "hǎochī",
+      "english": "delicious",
+      "sentenceChinese": "牛肉麵很好吃。",
+      "sentencePinyin": "Niúròu miàn hěn hǎochī.",
+      "sentenceEnglish": "Beef noodles are delicious."
+    },
+    {
+      "id": 5,
+      "chinese": "說",
+      "pinyin": "shuō",
+      "english": "to say",
+      "sentenceChinese": "老師說這家店很有名。",
+      "sentencePinyin": "Lǎoshī shuō zhè jiā diàn hěn yǒumíng.",
+      "sentenceEnglish": "The teacher says this shop is famous."
+    },
+    {
+      "id": 6,
+      "chinese": "少",
+      "pinyin": "shǎo",
+      "english": "few in number",
+      "sentenceChinese": "這家店的人比較少。",
+      "sentencePinyin": "Zhè jiā diàn de rén bǐjiào shǎo.",
+      "sentenceEnglish": "There are fewer people at this shop."
+    },
+    {
+      "id": 7,
+      "chinese": "有名",
+      "pinyin": "yǒumíng",
+      "english": "well known, famous",
+      "sentenceChinese": "臺南的小吃很有名。",
+      "sentencePinyin": "Táinán de xiǎochī hěn yǒumíng.",
+      "sentenceEnglish": "Tainan's snacks are very famous."
+    },
+    {
+      "id": 8,
+      "chinese": "小吃",
+      "pinyin": "xiǎochī",
+      "english": "light repast, snack",
+      "sentenceChinese": "我喜歡臺灣小吃。",
+      "sentencePinyin": "Wǒ xǐhuān Táiwān xiǎochī.",
+      "sentenceEnglish": "I like Taiwanese snacks."
+    },
+    {
+      "id": 9,
+      "chinese": "最",
+      "pinyin": "zuì",
+      "english": "most",
+      "sentenceChinese": "我最喜歡牛肉麵。",
+      "sentencePinyin": "Wǒ zuì xǐhuān niúròu miàn.",
+      "sentenceEnglish": "I like beef noodles the most."
+    },
+    {
+      "id": 10,
+      "chinese": "湯",
+      "pinyin": "tāng",
+      "english": "soup, broth",
+      "sentenceChinese": "這碗湯很熱。",
+      "sentencePinyin": "Zhè wǎn tāng hěn rè.",
+      "sentenceEnglish": "This bowl of soup is hot."
+    },
+    {
+      "id": 11,
+      "chinese": "這麼",
+      "pinyin": "zhème",
+      "english": "so",
+      "sentenceChinese": "這麼辣，我不敢吃。",
+      "sentencePinyin": "Zhème là, wǒ bù gǎn chī.",
+      "sentenceEnglish": "It is so spicy that I don't dare eat it."
+    },
+    {
+      "id": 12,
+      "chinese": "知道",
+      "pinyin": "zhīdào",
+      "english": "to know",
+      "sentenceChinese": "你知道哪一家店最好吃嗎？",
+      "sentencePinyin": "Nǐ zhīdào nǎ yī jiā diàn zuì hǎochī ma?",
+      "sentenceEnglish": "Do you know which shop is the most delicious?"
+    },
+    {
+      "id": 13,
+      "chinese": "家",
+      "pinyin": "jiā",
+      "english": "measure word for restaurants, shops, etc.",
+      "sentenceChinese": "這家餐廳很有名。",
+      "sentencePinyin": "Zhè jiā cāntīng hěn yǒumíng.",
+      "sentenceEnglish": "This restaurant is very famous."
+    },
+    {
+      "id": 14,
+      "chinese": "店",
+      "pinyin": "diàn",
+      "english": "shop, store",
+      "sentenceChinese": "那家店賣很多甜點。",
+      "sentencePinyin": "Nà jiā diàn mài hěn duō tiándiǎn.",
+      "sentenceEnglish": "That shop sells many desserts."
+    },
+    {
+      "id": 15,
+      "chinese": "一定",
+      "pinyin": "yídìng",
+      "english": "really must, definitely",
+      "sentenceChinese": "你一定要吃小籠包。",
+      "sentencePinyin": "Nǐ yídìng yào chī xiǎolóngbāo.",
+      "sentenceEnglish": "You definitely must eat xiaolongbao."
+    },
+    {
+      "id": 16,
+      "chinese": "點",
+      "pinyin": "diǎn",
+      "english": "to order (meals)",
+      "sentenceChinese": "我要點一碗牛肉麵。",
+      "sentencePinyin": "Wǒ yào diǎn yì wǎn niúròu miàn.",
+      "sentenceEnglish": "I want to order a bowl of beef noodles."
+    },
+    {
+      "id": 17,
+      "chinese": "碗",
+      "pinyin": "wǎn",
+      "english": "a bowl of",
+      "sentenceChinese": "我吃一碗麵。",
+      "sentencePinyin": "Wǒ chī yì wǎn miàn.",
+      "sentenceEnglish": "I eat a bowl of noodles."
+    },
+    {
+      "id": 18,
+      "chinese": "是啊",
+      "pinyin": "shì a",
+      "english": "That's right.",
+      "sentenceChinese": "這家店很有名。是啊！",
+      "sentencePinyin": "Zhè jiā diàn hěn yǒumíng. Shì a!",
+      "sentenceEnglish": "This shop is very famous. That's right!"
+    },
+    {
+      "id": 19,
+      "chinese": "小籠包",
+      "pinyin": "xiǎolóngbāo",
+      "english": "xiaolongbao, e.g., small meat and cabbage-filled steamed buns",
+      "sentenceChinese": "這家的小籠包很好吃。",
+      "sentencePinyin": "Zhè jiā de xiǎolóngbāo hěn hǎochī.",
+      "sentenceEnglish": "The xiaolongbao here are delicious."
+    },
+    {
+      "id": 20,
+      "chinese": "臭豆腐",
+      "pinyin": "chòudòufu",
+      "english": "stinky tofu (fermented tofu)",
+      "sentenceChinese": "很多人喜歡吃臭豆腐。",
+      "sentencePinyin": "Hěn duō rén xǐhuān chī chòudòufu.",
+      "sentenceEnglish": "Many people like to eat stinky tofu."
+    },
+    {
+      "id": 21,
+      "chinese": "太好了",
+      "pinyin": "tài hǎo le",
+      "english": "Excellent. Great.",
+      "sentenceChinese": "我們去吃牛肉麵吧！太好了！",
+      "sentencePinyin": "Wǒmen qù chī niúròu miàn ba! Tài hǎo le!",
+      "sentenceEnglish": "Let's go eat beef noodles! Great!"
+    },
+    {
+      "id": 22,
+      "chinese": "昨天",
+      "pinyin": "zuótiān",
+      "english": "yesterday",
+      "sentenceChinese": "昨天我去餐廳吃飯。",
+      "sentencePinyin": "Zuótiān wǒ qù cāntīng chīfàn.",
+      "sentenceEnglish": "Yesterday I went to a restaurant to eat."
+    },
+    {
+      "id": 23,
+      "chinese": "餐廳",
+      "pinyin": "cāntīng",
+      "english": "restaurant",
+      "sentenceChinese": "那家餐廳很有名。",
+      "sentencePinyin": "Nà jiā cāntīng hěn yǒumíng.",
+      "sentenceEnglish": "That restaurant is very famous."
+    },
+    {
+      "id": 24,
+      "chinese": "可是",
+      "pinyin": "kěshì",
+      "english": "but, however",
+      "sentenceChinese": "我想去，可是我沒有時間。",
+      "sentencePinyin": "Wǒ xiǎng qù, kěshì wǒ méiyǒu shíjiān.",
+      "sentenceEnglish": "I want to go, but I don't have time."
+    },
+    {
+      "id": 25,
+      "chinese": "辣",
+      "pinyin": "là",
+      "english": "hot (spicy)",
+      "sentenceChinese": "這個菜很辣。",
+      "sentencePinyin": "Zhège cài hěn là.",
+      "sentenceEnglish": "This dish is very spicy."
+    },
+    {
+      "id": 26,
+      "chinese": "怕",
+      "pinyin": "pà",
+      "english": "(here) to not like, to fear",
+      "sentenceChinese": "我怕辣，所以不吃。",
+      "sentencePinyin": "Wǒ pà là, suǒyǐ bù chī.",
+      "sentenceEnglish": "I am afraid of spicy food, so I don't eat it."
+    },
+    {
+      "id": 27,
+      "chinese": "所以",
+      "pinyin": "suǒyǐ",
+      "english": "therefore, so",
+      "sentenceChinese": "這家店很有名，所以人很多。",
+      "sentencePinyin": "Zhè jiā diàn hěn yǒumíng, suǒyǐ rén hěn duō.",
+      "sentenceEnglish": "This shop is famous, so there are many people."
+    },
+    {
+      "id": 28,
+      "chinese": "自己",
+      "pinyin": "zìjǐ",
+      "english": "self",
+      "sentenceChinese": "我喜歡自己做飯。",
+      "sentencePinyin": "Wǒ xǐhuān zìjǐ zuòfàn.",
+      "sentenceEnglish": "I like cooking by myself."
+    },
+    {
+      "id": 29,
+      "chinese": "做飯",
+      "pinyin": "zuòfàn",
+      "english": "to cook",
+      "sentenceChinese": "媽媽會做飯。",
+      "sentencePinyin": "Māma huì zuòfàn.",
+      "sentenceEnglish": "Mom can cook."
+    },
+    {
+      "id": 30,
+      "chinese": "得",
+      "pinyin": "de",
+      "english": "complement marker",
+      "sentenceChinese": "他做得很好。",
+      "sentencePinyin": "Tā zuò de hěn hǎo.",
+      "sentenceEnglish": "He does it very well."
+    },
+    {
+      "id": 31,
+      "chinese": "會",
+      "pinyin": "huì",
+      "english": "to be able to, can",
+      "sentenceChinese": "我會做牛肉麵。",
+      "sentencePinyin": "Wǒ huì zuò niúròu miàn.",
+      "sentenceEnglish": "I can make beef noodles."
+    },
+    {
+      "id": 32,
+      "chinese": "甜點",
+      "pinyin": "tiándiǎn",
+      "english": "dessert",
+      "sentenceChinese": "我想吃甜點。",
+      "sentencePinyin": "Wǒ xiǎng chī tiándiǎn.",
+      "sentenceEnglish": "I want to eat dessert."
+    },
+    {
+      "id": 33,
+      "chinese": "不錯",
+      "pinyin": "búcuò",
+      "english": "not bad",
+      "sentenceChinese": "這家店不錯。",
+      "sentencePinyin": "Zhè jiā diàn búcuò.",
+      "sentenceEnglish": "This shop is not bad."
+    },
+    {
+      "id": 34,
+      "chinese": "可以",
+      "pinyin": "kěyǐ",
+      "english": "could (possibility)",
+      "sentenceChinese": "你可以教我做飯嗎？",
+      "sentencePinyin": "Nǐ kěyǐ jiāo wǒ zuòfàn ma?",
+      "sentenceEnglish": "Could you teach me to cook?"
+    },
+    {
+      "id": 35,
+      "chinese": "教",
+      "pinyin": "jiāo",
+      "english": "to teach",
+      "sentenceChinese": "老師教我們中文。",
+      "sentencePinyin": "Lǎoshī jiāo wǒmen Zhōngwén.",
+      "sentenceEnglish": "The teacher teaches us Chinese."
+    },
+    {
+      "id": 36,
+      "chinese": "到",
+      "pinyin": "dào",
+      "english": "to",
+      "sentenceChinese": "我走到餐廳。",
+      "sentencePinyin": "Wǒ zǒu dào cāntīng.",
+      "sentenceEnglish": "I walk to the restaurant."
+    },
+    {
+      "id": 37,
+      "chinese": "有一點",
+      "pinyin": "yǒu yīdiǎn",
+      "english": "a little",
+      "sentenceChinese": "這個菜有一點辣。",
+      "sentencePinyin": "Zhège cài yǒu yīdiǎn là.",
+      "sentenceEnglish": "This dish is a little spicy."
+    },
+    {
+      "id": 38,
+      "chinese": "不好",
+      "pinyin": "bù hǎo",
+      "english": "not well",
+      "sentenceChinese": "今天我覺得不好。",
+      "sentencePinyin": "Jīntiān wǒ juéde bù hǎo.",
+      "sentenceEnglish": "I don't feel well today."
+    }
+  ],
+  "theme": "Food and Drink"
+}

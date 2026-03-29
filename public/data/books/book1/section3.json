@@ -1,0 +1,377 @@
+{
+  "bookId": "book1",
+  "sectionId": "section3",
+  "sectionTitle": "What Are You Doing Over the Weekend?",
+  "items": [
+    {
+      "id": 1,
+      "chinese": "週末",
+      "pinyin": "zhōumò",
+      "english": "weekend",
+      "sentenceChinese": "週末我喜歡聽音樂。",
+      "sentencePinyin": "Zhōumò wǒ xǐhuān tīng yīnyuè.",
+      "sentenceEnglish": "I like listening to music on weekends."
+    },
+    {
+      "id": 2,
+      "chinese": "聽",
+      "pinyin": "tīng",
+      "english": "to listen",
+      "sentenceChinese": "我常聽中文歌。",
+      "sentencePinyin": "Wǒ cháng tīng Zhōngwén gē.",
+      "sentenceEnglish": "I often listen to Chinese songs."
+    },
+    {
+      "id": 3,
+      "chinese": "音樂",
+      "pinyin": "yīnyuè",
+      "english": "music",
+      "sentenceChinese": "她現在在聽音樂。",
+      "sentencePinyin": "Tā xiànzài zài tīng yīnyuè.",
+      "sentenceEnglish": "She is listening to music now."
+    },
+    {
+      "id": 4,
+      "chinese": "運動",
+      "pinyin": "yùndòng",
+      "english": "to exercise",
+      "sentenceChinese": "我每天早上都運動。",
+      "sentencePinyin": "Wǒ měitiān zǎoshàng dōu yùndòng.",
+      "sentenceEnglish": "I exercise every morning."
+    },
+    {
+      "id": 5,
+      "chinese": "打",
+      "pinyin": "dǎ",
+      "english": "to play ball games",
+      "sentenceChinese": "他下午要打網球。",
+      "sentencePinyin": "Tā xiàwǔ yào dǎ wǎngqiú.",
+      "sentenceEnglish": "He is going to play tennis this afternoon."
+    },
+    {
+      "id": 6,
+      "chinese": "網球",
+      "pinyin": "wǎngqiú",
+      "english": "tennis",
+      "sentenceChinese": "我哥哥很喜歡打網球。",
+      "sentencePinyin": "Wǒ gēge hěn xǐhuān dǎ wǎngqiú.",
+      "sentenceEnglish": "My older brother really likes playing tennis."
+    },
+    {
+      "id": 7,
+      "chinese": "棒球",
+      "pinyin": "bàngqiú",
+      "english": "baseball",
+      "sentenceChinese": "他們週末常常打棒球。",
+      "sentencePinyin": "Tāmen zhōumò chángcháng dǎ bàngqiú.",
+      "sentenceEnglish": "They often play baseball on weekends."
+    },
+    {
+      "id": 8,
+      "chinese": "和",
+      "pinyin": "hàn",
+      "english": "and, as well as",
+      "sentenceChinese": "我喜歡咖啡和茶。",
+      "sentencePinyin": "Wǒ xǐhuān kāfēi hàn chá.",
+      "sentenceEnglish": "I like coffee and tea."
+    },
+    {
+      "id": 9,
+      "chinese": "游泳",
+      "pinyin": "yóuyǒng",
+      "english": "to swim",
+      "sentenceChinese": "夏天我喜歡去游泳。",
+      "sentencePinyin": "Xiàtiān wǒ xǐhuān qù yóuyǒng.",
+      "sentenceEnglish": "I like to go swimming in summer."
+    },
+    {
+      "id": 10,
+      "chinese": "常",
+      "pinyin": "cháng",
+      "english": "often",
+      "sentenceChinese": "我常跟朋友一起吃晚飯。",
+      "sentencePinyin": "Wǒ cháng gēn péngyǒu yìqǐ chī wǎnfàn.",
+      "sentenceEnglish": "I often have dinner with friends."
+    },
+    {
+      "id": 11,
+      "chinese": "籃球",
+      "pinyin": "lánqiú",
+      "english": "basketball",
+      "sentenceChinese": "弟弟放學後去打籃球。",
+      "sentencePinyin": "Dìdi fàngxué hòu qù dǎ lánqiú.",
+      "sentenceEnglish": "My younger brother goes to play basketball after school."
+    },
+    {
+      "id": 12,
+      "chinese": "也",
+      "pinyin": "yě",
+      "english": "also",
+      "sentenceChinese": "我喜歡游泳，他也喜歡。",
+      "sentencePinyin": "Wǒ xǐhuān yóuyǒng, tā yě xǐhuān.",
+      "sentenceEnglish": "I like swimming, and he does too."
+    },
+    {
+      "id": 13,
+      "chinese": "踢",
+      "pinyin": "tī",
+      "english": "to kick",
+      "sentenceChinese": "他們明天要踢足球。",
+      "sentencePinyin": "Tāmen míngtiān yào tī zúqiú.",
+      "sentenceEnglish": "They are going to play soccer tomorrow."
+    },
+    {
+      "id": 14,
+      "chinese": "足球",
+      "pinyin": "zúqiú",
+      "english": "soccer",
+      "sentenceChinese": "我弟弟最喜歡的運動是足球。",
+      "sentencePinyin": "Wǒ dìdi zuì xǐhuān de yùndòng shì zúqiú.",
+      "sentenceEnglish": "My younger brother's favorite sport is soccer."
+    },
+    {
+      "id": 15,
+      "chinese": "覺得",
+      "pinyin": "juéde",
+      "english": "to feel, to think",
+      "sentenceChinese": "我覺得這部電影很好看。",
+      "sentencePinyin": "Wǒ juéde zhè bù diànyǐng hěn hǎokàn.",
+      "sentenceEnglish": "I think this movie is very good."
+    },
+    {
+      "id": 16,
+      "chinese": "好玩",
+      "pinyin": "hǎowán",
+      "english": "interesting, fun",
+      "sentenceChinese": "這個遊戲很好玩。",
+      "sentencePinyin": "Zhège yóuxì hěn hǎowán.",
+      "sentenceEnglish": "This game is very fun."
+    },
+    {
+      "id": 17,
+      "chinese": "明天",
+      "pinyin": "míngtiān",
+      "english": "tomorrow",
+      "sentenceChinese": "明天我們一起去看電影吧。",
+      "sentencePinyin": "Míngtiān wǒmen yìqǐ qù kàn diànyǐng ba.",
+      "sentenceEnglish": "Let's go watch a movie together tomorrow."
+    },
+    {
+      "id": 18,
+      "chinese": "早上",
+      "pinyin": "zǎoshàng",
+      "english": "morning",
+      "sentenceChinese": "我早上七點起床。",
+      "sentencePinyin": "Wǒ zǎoshàng qī diǎn qǐchuáng.",
+      "sentenceEnglish": "I get up at seven in the morning."
+    },
+    {
+      "id": 19,
+      "chinese": "去",
+      "pinyin": "qù",
+      "english": "to go",
+      "sentenceChinese": "今天晚上你想去哪裡？",
+      "sentencePinyin": "Jīntiān wǎnshàng nǐ xiǎng qù nǎlǐ?",
+      "sentenceEnglish": "Where do you want to go tonight?"
+    },
+    {
+      "id": 20,
+      "chinese": "怎麼樣",
+      "pinyin": "zěnmeyàng",
+      "english": "how about it; what do you think",
+      "sentenceChinese": "明天去運動，怎麼樣？",
+      "sentencePinyin": "Míngtiān qù yùndòng, zěnmeyàng?",
+      "sentenceEnglish": "How about going to exercise tomorrow?"
+    },
+    {
+      "id": 21,
+      "chinese": "啊",
+      "pinyin": "a",
+      "english": "sentence-final particle",
+      "sentenceChinese": "好啊，我們一起去吧。",
+      "sentencePinyin": "Hǎo a, wǒmen yìqǐ qù ba.",
+      "sentenceEnglish": "Okay, let's go together."
+    },
+    {
+      "id": 22,
+      "chinese": "做什麼",
+      "pinyin": "zuò shénme",
+      "english": "do what",
+      "sentenceChinese": "你週末想做什麼？",
+      "sentencePinyin": "Nǐ zhōumò xiǎng zuò shénme?",
+      "sentenceEnglish": "What do you want to do on the weekend?"
+    },
+    {
+      "id": 23,
+      "chinese": "好啊",
+      "pinyin": "hǎo a",
+      "english": "OK",
+      "sentenceChinese": "晚上去吃晚飯，好啊！",
+      "sentencePinyin": "Wǎnshàng qù chī wǎnfàn, hǎo a!",
+      "sentenceEnglish": "Go have dinner tonight? Okay!"
+    },
+    {
+      "id": 24,
+      "chinese": "白如玉",
+      "pinyin": "Bái Rúyù",
+      "english": "a woman from the US",
+      "sentenceChinese": "白如玉今天晚上想看電影。",
+      "sentencePinyin": "Bái Rúyù jīntiān wǎnshàng xiǎng kàn diànyǐng.",
+      "sentenceEnglish": "Bai Ruyu wants to watch a movie tonight."
+    },
+    {
+      "id": 25,
+      "chinese": "今天",
+      "pinyin": "jīntiān",
+      "english": "today",
+      "sentenceChinese": "今天我很忙。",
+      "sentencePinyin": "Jīntiān wǒ hěn máng.",
+      "sentenceEnglish": "I am very busy today."
+    },
+    {
+      "id": 26,
+      "chinese": "晚上",
+      "pinyin": "wǎnshàng",
+      "english": "evening; night",
+      "sentenceChinese": "今天晚上我們吃晚飯吧。",
+      "sentencePinyin": "Jīntiān wǎnshàng wǒmen chī wǎnfàn ba.",
+      "sentenceEnglish": "Let's have dinner tonight."
+    },
+    {
+      "id": 27,
+      "chinese": "看",
+      "pinyin": "kàn",
+      "english": "to see; to watch",
+      "sentenceChinese": "我想看一部新電影。",
+      "sentencePinyin": "Wǒ xiǎng kàn yí bù xīn diànyǐng.",
+      "sentenceEnglish": "I want to watch a new movie."
+    },
+    {
+      "id": 28,
+      "chinese": "電影",
+      "pinyin": "diànyǐng",
+      "english": "movie",
+      "sentenceChinese": "這部電影很有意思。",
+      "sentencePinyin": "Zhè bù diànyǐng hěn yǒu yìsi.",
+      "sentenceEnglish": "This movie is very interesting."
+    },
+    {
+      "id": 29,
+      "chinese": "妳",
+      "pinyin": "nǐ",
+      "english": "you, female",
+      "sentenceChinese": "妳今天晚上有空嗎？",
+      "sentencePinyin": "Nǐ jīntiān wǎnshàng yǒu kòng ma?",
+      "sentenceEnglish": "Are you free tonight?"
+    },
+    {
+      "id": 30,
+      "chinese": "想",
+      "pinyin": "xiǎng",
+      "english": "to want; to think",
+      "sentenceChinese": "我想學中文。",
+      "sentencePinyin": "Wǒ xiǎng xué Zhōngwén.",
+      "sentenceEnglish": "I want to learn Chinese."
+    },
+    {
+      "id": 31,
+      "chinese": "還是",
+      "pinyin": "háishì",
+      "english": "or, used in a question",
+      "sentenceChinese": "妳想看電影還是吃晚飯？",
+      "sentencePinyin": "Nǐ xiǎng kàn diànyǐng háishì chī wǎnfàn?",
+      "sentenceEnglish": "Do you want to watch a movie or have dinner?"
+    },
+    {
+      "id": 32,
+      "chinese": "吧",
+      "pinyin": "ba",
+      "english": "sentence-final particle for suggestion",
+      "sentenceChinese": "我們一起去吧。",
+      "sentencePinyin": "Wǒmen yìqǐ qù ba.",
+      "sentenceEnglish": "Let's go together."
+    },
+    {
+      "id": 33,
+      "chinese": "可以",
+      "pinyin": "kěyǐ",
+      "english": "can; could",
+      "sentenceChinese": "今天晚上可以一起學中文嗎？",
+      "sentencePinyin": "Jīntiān wǎnshàng kěyǐ yìqǐ xué Zhōngwén ma?",
+      "sentenceEnglish": "Can we study Chinese together tonight?"
+    },
+    {
+      "id": 34,
+      "chinese": "學",
+      "pinyin": "xué",
+      "english": "to learn; to study",
+      "sentenceChinese": "我妹妹在學中文。",
+      "sentencePinyin": "Wǒ mèimei zài xué Zhōngwén.",
+      "sentenceEnglish": "My younger sister is learning Chinese."
+    },
+    {
+      "id": 35,
+      "chinese": "中文",
+      "pinyin": "Zhōngwén",
+      "english": "Chinese language",
+      "sentenceChinese": "中文很有意思。",
+      "sentencePinyin": "Zhōngwén hěn yǒu yìsi.",
+      "sentenceEnglish": "Chinese is very interesting."
+    },
+    {
+      "id": 36,
+      "chinese": "一起",
+      "pinyin": "yìqǐ",
+      "english": "together",
+      "sentenceChinese": "我們明天一起去游泳。",
+      "sentencePinyin": "Wǒmen míngtiān yìqǐ qù yóuyǒng.",
+      "sentenceEnglish": "We will go swimming together tomorrow."
+    },
+    {
+      "id": 37,
+      "chinese": "吃",
+      "pinyin": "chī",
+      "english": "to eat",
+      "sentenceChinese": "我晚上想吃菜和飯。",
+      "sentencePinyin": "Wǒ wǎnshàng xiǎng chī cài hàn fàn.",
+      "sentenceEnglish": "I want to eat vegetables and rice tonight."
+    },
+    {
+      "id": 38,
+      "chinese": "晚飯",
+      "pinyin": "wǎnfàn",
+      "english": "dinner",
+      "sentenceChinese": "我們七點吃晚飯。",
+      "sentencePinyin": "Wǒmen qī diǎn chī wǎnfàn.",
+      "sentenceEnglish": "We eat dinner at seven."
+    },
+    {
+      "id": 39,
+      "chinese": "菜",
+      "pinyin": "cài",
+      "english": "cuisine; dish; vegetables",
+      "sentenceChinese": "這家餐廳的菜很好吃。",
+      "sentencePinyin": "Zhè jiā cāntīng de cài hěn hǎochī.",
+      "sentenceEnglish": "The dishes at this restaurant are delicious."
+    },
+    {
+      "id": 40,
+      "chinese": "越南",
+      "pinyin": "Yuènán",
+      "english": "Vietnam",
+      "sentenceChinese": "她是越南人。",
+      "sentencePinyin": "Tā shì Yuènán rén.",
+      "sentenceEnglish": "She is Vietnamese."
+    },
+    {
+      "id": 41,
+      "chinese": "好不好",
+      "pinyin": "hǎo bù hǎo",
+      "english": "how about...; how does that sound",
+      "sentenceChinese": "明天一起看電影，好不好？",
+      "sentencePinyin": "Míngtiān yìqǐ kàn diànyǐng, hǎo bù hǎo?",
+      "sentenceEnglish": "How about watching a movie together tomorrow?"
+    }
+  ],
+  "theme": "Hobbies"
+}

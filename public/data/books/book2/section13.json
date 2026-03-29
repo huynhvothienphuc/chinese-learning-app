@@ -1,0 +1,358 @@
+{
+  "bookId": "book2",
+  "sectionId": "section13",
+  "sectionTitle": "I Lost My Cell Phone",
+  "items": [
+    {
+      "id": 1,
+      "chinese": "掉",
+      "pinyin": "diào",
+      "english": "to lose",
+      "sentenceChinese": "我的手機掉了。",
+      "sentencePinyin": "Wǒ de shǒujī diào le.",
+      "sentenceEnglish": "I lost my cell phone."
+    },
+    {
+      "id": 2,
+      "chinese": "低頭",
+      "pinyin": "dītóu",
+      "english": "to lower one’s head",
+      "sentenceChinese": "他一直低頭看手機。",
+      "sentencePinyin": "Tā yìzhí dītóu kàn shǒujī.",
+      "sentenceEnglish": "He keeps looking down at his cell phone."
+    },
+    {
+      "id": 3,
+      "chinese": "傳",
+      "pinyin": "chuán",
+      "english": "to send",
+      "sentenceChinese": "我先傳簡訊給你。",
+      "sentencePinyin": "Wǒ xiān chuán jiǎnxùn gěi nǐ.",
+      "sentenceEnglish": "I’ll send you a text message first."
+    },
+    {
+      "id": 4,
+      "chinese": "過",
+      "pinyin": "guò",
+      "english": "phase particle indicating completion of an action",
+      "sentenceChinese": "我看過那部電影。",
+      "sentencePinyin": "Wǒ kànguo nà bù diànyǐng.",
+      "sentenceEnglish": "I have seen that movie."
+    },
+    {
+      "id": 5,
+      "chinese": "簡訊",
+      "pinyin": "jiǎnxùn",
+      "english": "text message",
+      "sentenceChinese": "我收到你的簡訊了。",
+      "sentencePinyin": "Wǒ shōudào nǐ de jiǎnxùn le.",
+      "sentenceEnglish": "I received your text message."
+    },
+    {
+      "id": 6,
+      "chinese": "功能",
+      "pinyin": "gōngnéng",
+      "english": "function",
+      "sentenceChinese": "這支手機的功能很多。",
+      "sentencePinyin": "Zhè zhī shǒujī de gōngnéng hěn duō.",
+      "sentenceEnglish": "This cell phone has many functions."
+    },
+    {
+      "id": 7,
+      "chinese": "生氣",
+      "pinyin": "shēngqì",
+      "english": "to get angry at",
+      "sentenceChinese": "你不要為這件事生氣。",
+      "sentencePinyin": "Nǐ búyào wèi zhè jiàn shì shēngqì.",
+      "sentenceEnglish": "Don’t get angry about this matter."
+    },
+    {
+      "id": 8,
+      "chinese": "叫",
+      "pinyin": "jiào",
+      "english": "to tell",
+      "sentenceChinese": "老師叫我們先回家。",
+      "sentencePinyin": "Lǎoshī jiào wǒmen xiān huí jiā.",
+      "sentenceEnglish": "The teacher told us to go home first."
+    },
+    {
+      "id": 9,
+      "chinese": "罵",
+      "pinyin": "mà",
+      "english": "to yell at, to scold, to tell off",
+      "sentenceChinese": "媽媽沒有罵我。",
+      "sentencePinyin": "Māma méiyǒu mà wǒ.",
+      "sentenceEnglish": "Mom did not scold me."
+    },
+    {
+      "id": 10,
+      "chinese": "健身房",
+      "pinyin": "jiànshēnfáng",
+      "english": "gym",
+      "sentenceChinese": "我晚上要去健身房。",
+      "sentencePinyin": "Wǒ wǎnshàng yào qù jiànshēnfáng.",
+      "sentenceEnglish": "I am going to the gym tonight."
+    },
+    {
+      "id": 11,
+      "chinese": "啦",
+      "pinyin": "la",
+      "english": "sentence-final particle indicating a question, 了+啊",
+      "sentenceChinese": "別生氣啦！",
+      "sentencePinyin": "Bié shēngqì la!",
+      "sentenceEnglish": "Don’t be angry!"
+    },
+    {
+      "id": 12,
+      "chinese": "查",
+      "pinyin": "chá",
+      "english": "to check, to look up",
+      "sentenceChinese": "我先上網查班機。",
+      "sentencePinyin": "Wǒ xiān shàngwǎng chá bānjī.",
+      "sentenceEnglish": "I’ll check the flight online first."
+    },
+    {
+      "id": 13,
+      "chinese": "班機",
+      "pinyin": "bānjī",
+      "english": "flight",
+      "sentenceChinese": "這班機晚上九點起飛。",
+      "sentencePinyin": "Zhè bānjī wǎnshàng jiǔ diǎn qǐfēi.",
+      "sentenceEnglish": "This flight takes off at 9 p.m."
+    },
+    {
+      "id": 14,
+      "chinese": "訂位",
+      "pinyin": "dìngwèi",
+      "english": "to make reservations",
+      "sentenceChinese": "我已經訂位了。",
+      "sentencePinyin": "Wǒ yǐjīng dìngwèi le.",
+      "sentenceEnglish": "I have already made a reservation."
+    },
+    {
+      "id": 15,
+      "chinese": "電",
+      "pinyin": "diàn",
+      "english": "electric power",
+      "sentenceChinese": "我的手機快沒電了。",
+      "sentencePinyin": "Wǒ de shǒujī kuài méi diàn le.",
+      "sentenceEnglish": "My cell phone is almost out of power."
+    },
+    {
+      "id": 16,
+      "chinese": "充電",
+      "pinyin": "chōngdiàn",
+      "english": "to charge the battery of an electronic device",
+      "sentenceChinese": "你可以先幫手機充電嗎？",
+      "sentencePinyin": "Nǐ kěyǐ xiān bāng shǒujī chōngdiàn ma?",
+      "sentenceEnglish": "Can you charge the phone first?"
+    },
+    {
+      "id": 17,
+      "chinese": "糊塗",
+      "pinyin": "hútú",
+      "english": "muddle-headed",
+      "sentenceChinese": "我今天太糊塗了。",
+      "sentencePinyin": "Wǒ jīntiān tài hútú le.",
+      "sentenceEnglish": "I was too muddle-headed today."
+    },
+    {
+      "id": 18,
+      "chinese": "喔",
+      "pinyin": "ō",
+      "english": "sentence-final particle indicating a suggestion",
+      "sentenceChinese": "你先休息一下喔。",
+      "sentencePinyin": "Nǐ xiān xiūxi yíxià ō.",
+      "sentenceEnglish": "Rest a little first, okay?"
+    },
+    {
+      "id": 19,
+      "chinese": "網路",
+      "pinyin": "wǎnglù",
+      "english": "the internet",
+      "sentenceChinese": "這裡的網路很快。",
+      "sentencePinyin": "Zhèlǐ de wǎnglù hěn kuài.",
+      "sentenceEnglish": "The internet here is fast."
+    },
+    {
+      "id": 20,
+      "chinese": "發生",
+      "pinyin": "fāshēng",
+      "english": "to happen",
+      "sentenceChinese": "今天發生了很多事。",
+      "sentencePinyin": "Jīntiān fāshēng le hěn duō shì.",
+      "sentenceEnglish": "A lot of things happened today."
+    },
+    {
+      "id": 21,
+      "chinese": "事情",
+      "pinyin": "shìqíng",
+      "english": "event, happening",
+      "sentenceChinese": "這件事情很重要。",
+      "sentencePinyin": "Zhè jiàn shìqíng hěn zhòngyào.",
+      "sentenceEnglish": "This matter is very important."
+    },
+    {
+      "id": 22,
+      "chinese": "消息",
+      "pinyin": "xiāoxí",
+      "english": "news, information",
+      "sentenceChinese": "你有新消息嗎？",
+      "sentencePinyin": "Nǐ yǒu xīn xiāoxí ma?",
+      "sentenceEnglish": "Do you have any new information?"
+    },
+    {
+      "id": 23,
+      "chinese": "透過",
+      "pinyin": "tòuguò",
+      "english": "through",
+      "sentenceChinese": "我透過朋友認識他。",
+      "sentencePinyin": "Wǒ tòuguò péngyou rènshi tā.",
+      "sentenceEnglish": "I got to know him through a friend."
+    },
+    {
+      "id": 24,
+      "chinese": "世界",
+      "pinyin": "shìjiè",
+      "english": "the world",
+      "sentenceChinese": "我想看看這個世界。",
+      "sentencePinyin": "Wǒ xiǎng kànkan zhège shìjiè.",
+      "sentenceEnglish": "I want to see the world."
+    },
+    {
+      "id": 25,
+      "chinese": "節省",
+      "pinyin": "jiéshěng",
+      "english": "to save",
+      "sentenceChinese": "我們要節省時間。",
+      "sentencePinyin": "Wǒmen yào jiéshěng shíjiān.",
+      "sentenceEnglish": "We need to save time."
+    },
+    {
+      "id": 26,
+      "chinese": "起床",
+      "pinyin": "qǐchuáng",
+      "english": "to get out of bed",
+      "sentenceChinese": "我每天七點起床。",
+      "sentencePinyin": "Wǒ měitiān qī diǎn qǐchuáng.",
+      "sentenceEnglish": "I get out of bed at seven every day."
+    },
+    {
+      "id": 27,
+      "chinese": "檢查",
+      "pinyin": "jiǎnchá",
+      "english": "to check",
+      "sentenceChinese": "醫生要先檢查一下。",
+      "sentencePinyin": "Yīshēng yào xiān jiǎnchá yíxià.",
+      "sentenceEnglish": "The doctor needs to check first."
+    },
+    {
+      "id": 28,
+      "chinese": "郵件",
+      "pinyin": "yóujiàn",
+      "english": "mail",
+      "sentenceChinese": "我剛剛收到一封郵件。",
+      "sentencePinyin": "Wǒ gānggāng shōudào yì fēng yóujiàn.",
+      "sentenceEnglish": "I just received an email."
+    },
+    {
+      "id": 29,
+      "chinese": "立刻",
+      "pinyin": "lìkè",
+      "english": "immediately",
+      "sentenceChinese": "你要立刻回家。",
+      "sentencePinyin": "Nǐ yào lìkè huí jiā.",
+      "sentenceEnglish": "You need to go home immediately."
+    },
+    {
+      "id": 30,
+      "chinese": "上傳",
+      "pinyin": "shàngchuán",
+      "english": "to upload, to post",
+      "sentenceChinese": "請把照片上傳到系統。",
+      "sentencePinyin": "Qǐng bǎ zhàopiàn shàngchuán dào xìtǒng.",
+      "sentenceEnglish": "Please upload the photos to the system."
+    },
+    {
+      "id": 31,
+      "chinese": "正常",
+      "pinyin": "zhèngcháng",
+      "english": "to be normal",
+      "sentenceChinese": "一切都很正常。",
+      "sentencePinyin": "Yíqiè dōu hěn zhèngcháng.",
+      "sentenceEnglish": "Everything is normal."
+    },
+    {
+      "id": 32,
+      "chinese": "談",
+      "pinyin": "tán",
+      "english": "to talk over, to talk about, to discuss",
+      "sentenceChinese": "我們明天再談吧。",
+      "sentencePinyin": "Wǒmen míngtiān zài tán ba.",
+      "sentenceEnglish": "Let’s talk again tomorrow."
+    },
+    {
+      "id": 33,
+      "chinese": "現代人",
+      "pinyin": "xiàndài rén",
+      "english": "modern day people, people today",
+      "sentenceChinese": "現代人常常用手機。",
+      "sentencePinyin": "Xiàndài rén chángcháng yòng shǒujī.",
+      "sentenceEnglish": "People today often use cell phones."
+    },
+    {
+      "id": 34,
+      "chinese": "比方說",
+      "pinyin": "bǐfāng shuō",
+      "english": "for example",
+      "sentenceChinese": "比方說，你可以先打電話。",
+      "sentencePinyin": "Bǐfāng shuō, nǐ kěyǐ xiān dǎ diànhuà.",
+      "sentenceEnglish": "For example, you can call first."
+    },
+    {
+      "id": 35,
+      "chinese": "做到",
+      "pinyin": "zuòdào",
+      "english": "to be able to achieve, to succeed in doing",
+      "sentenceChinese": "只要努力，你一定做得到。",
+      "sentencePinyin": "Zhǐyào nǔlì, nǐ yídìng zuòdào。",
+      "sentenceEnglish": "As long as you work hard, you can definitely do it."
+    },
+    {
+      "id": 36,
+      "chinese": "第一手",
+      "pinyin": "dìyīshǒu",
+      "english": "first hand",
+      "sentenceChinese": "這是第一手消息。",
+      "sentencePinyin": "Zhè shì dìyīshǒu xiāoxí.",
+      "sentenceEnglish": "This is first-hand information."
+    },
+    {
+      "id": 37,
+      "chinese": "急著",
+      "pinyin": "jízhe",
+      "english": "in a hurry to",
+      "sentenceChinese": "你不要急著做決定。",
+      "sentencePinyin": "Nǐ búyào jízhe zuò juédìng.",
+      "sentenceEnglish": "Don’t be in a hurry to make a decision."
+    },
+    {
+      "id": 38,
+      "chinese": "打招呼",
+      "pinyin": "dǎ zhāohu",
+      "english": "to greet someone; to say hello; to wave at someone",
+      "sentenceChinese": "我看到老師先打招呼。",
+      "sentencePinyin": "Wǒ kàndào lǎoshī xiān dǎ zhāohu.",
+      "sentenceEnglish": "I greet the teacher first when I see him."
+    },
+    {
+      "id": 39,
+      "chinese": "面對面",
+      "pinyin": "miànduì miàn",
+      "english": "face-to-face",
+      "sentenceChinese": "我們可以面對面談。",
+      "sentencePinyin": "Wǒmen kěyǐ miànduì miàn tán.",
+      "sentenceEnglish": "We can talk face-to-face."
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "bookId": "book1",
+  "sectionId": "section2",
+  "sectionTitle": "My Family",
+  "items": [
+    {
+      "id": 1,
+      "chinese": "張怡君",
+      "pinyin": "Zhāng Yíjūn",
+      "english": "a woman from Taiwan",
+      "sentenceChinese": "她是張怡君。",
+      "sentencePinyin": "Tā shì Zhāng Yíjūn.",
+      "sentenceEnglish": "She is Zhang Yijun."
+    },
+    {
+      "id": 2,
+      "chinese": "馬安同",
+      "pinyin": "Mǎ Āntóng",
+      "english": "a man from the Republic of Honduras",
+      "sentenceChinese": "他是馬安同。",
+      "sentencePinyin": "Tā shì Mǎ Āntóng.",
+      "sentenceEnglish": "He is Ma Antong."
+    },
+    {
+      "id": 3,
+      "chinese": "的",
+      "pinyin": "de",
+      "english": "modification marker",
+      "sentenceChinese": "這是我的書。",
+      "sentencePinyin": "Zhè shì wǒ de shū.",
+      "sentenceEnglish": "This is my book."
+    },
+    {
+      "id": 4,
+      "chinese": "家人",
+      "pinyin": "jiārén",
+      "english": "family members",
+      "sentenceChinese": "我家人都很好。",
+      "sentencePinyin": "Wǒ jiārén dōu hěn hǎo.",
+      "sentenceEnglish": "My family members are all well."
+    },
+    {
+      "id": 5,
+      "chinese": "家",
+      "pinyin": "jiā",
+      "english": "home, house",
+      "sentenceChinese": "我家很大。",
+      "sentencePinyin": "Wǒ jiā hěn dà.",
+      "sentenceEnglish": "My home is very big."
+    },
+    {
+      "id": 6,
+      "chinese": "漂亮",
+      "pinyin": "piàoliang",
+      "english": "pretty",
+      "sentenceChinese": "她的房子很漂亮。",
+      "sentencePinyin": "Tā de fángzi hěn piàoliang.",
+      "sentenceEnglish": "Her house is very pretty."
+    },
+    {
+      "id": 7,
+      "chinese": "房子",
+      "pinyin": "fángzi",
+      "english": "house",
+      "sentenceChinese": "這個房子很漂亮。",
+      "sentencePinyin": "Zhège fángzi hěn piàoliang.",
+      "sentenceEnglish": "This house is very pretty."
+    },
+    {
+      "id": 8,
+      "chinese": "坐",
+      "pinyin": "zuò",
+      "english": "to sit",
+      "sentenceChinese": "請坐。",
+      "sentencePinyin": "Qǐng zuò.",
+      "sentenceEnglish": "Please sit down."
+    },
+    {
+      "id": 9,
+      "chinese": "好",
+      "pinyin": "hǎo",
+      "english": "OK",
+      "sentenceChinese": "好，我們進去吧。",
+      "sentencePinyin": "Hǎo, wǒmen jìnqù ba.",
+      "sentenceEnglish": "OK, let's go in."
+    },
+    {
+      "id": 10,
+      "chinese": "有",
+      "pinyin": "yǒu",
+      "english": "to have",
+      "sentenceChinese": "我有兩本書。",
+      "sentencePinyin": "Wǒ yǒu liǎng běn shū.",
+      "sentenceEnglish": "I have two books."
+    },
+    {
+      "id": 11,
+      "chinese": "多",
+      "pinyin": "duō",
+      "english": "many",
+      "sentenceChinese": "她有很多照片。",
+      "sentencePinyin": "Tā yǒu hěn duō zhàopiàn.",
+      "sentenceEnglish": "She has many photos."
+    },
+    {
+      "id": 12,
+      "chinese": "照片",
+      "pinyin": "zhàopiàn",
+      "english": "photo",
+      "sentenceChinese": "這是我姐姐的照片。",
+      "sentencePinyin": "Zhè shì wǒ jiějie de zhàopiàn.",
+      "sentenceEnglish": "This is my older sister's photo."
+    },
+    {
+      "id": 13,
+      "chinese": "都",
+      "pinyin": "dōu",
+      "english": "all, both",
+      "sentenceChinese": "我們都喜歡看書。",
+      "sentencePinyin": "Wǒmen dōu xǐhuan kànshū.",
+      "sentenceEnglish": "We all like reading."
+    },
+    {
+      "id": 14,
+      "chinese": "照相",
+      "pinyin": "zhàoxiàng",
+      "english": "to take a photo",
+      "sentenceChinese": "我想跟家人照相。",
+      "sentencePinyin": "Wǒ xiǎng gēn jiārén zhàoxiàng.",
+      "sentenceEnglish": "I want to take a photo with my family."
+    },
+    {
+      "id": 15,
+      "chinese": "張",
+      "pinyin": "zhāng",
+      "english": "measure word for flat objects",
+      "sentenceChinese": "我有三張照片。",
+      "sentencePinyin": "Wǒ yǒu sān zhāng zhàopiàn.",
+      "sentenceEnglish": "I have three photos."
+    },
+    {
+      "id": 16,
+      "chinese": "好看",
+      "pinyin": "hǎokàn",
+      "english": "good-looking",
+      "sentenceChinese": "這張照片很好看。",
+      "sentencePinyin": "Zhè zhāng zhàopiàn hěn hǎokàn.",
+      "sentenceEnglish": "This photo looks nice."
+    },
+    {
+      "id": 17,
+      "chinese": "誰",
+      "pinyin": "shéi",
+      "english": "who",
+      "sentenceChinese": "她是誰？",
+      "sentencePinyin": "Tā shì shéi?",
+      "sentenceEnglish": "Who is she?"
+    },
+    {
+      "id": 18,
+      "chinese": "姐姐",
+      "pinyin": "jiějie",
+      "english": "older sister",
+      "sentenceChinese": "我姐姐很漂亮。",
+      "sentencePinyin": "Wǒ jiějie hěn piàoliang.",
+      "sentenceEnglish": "My older sister is very pretty."
+    },
+    {
+      "id": 19,
+      "chinese": "妹妹",
+      "pinyin": "mèimei",
+      "english": "younger sister",
+      "sentenceChinese": "我妹妹喜歡照相。",
+      "sentencePinyin": "Wǒ mèimei xǐhuan zhàoxiàng.",
+      "sentenceEnglish": "My younger sister likes taking photos."
+    },
+    {
+      "id": 20,
+      "chinese": "爸爸",
+      "pinyin": "bàba",
+      "english": "dad",
+      "sentenceChinese": "我爸爸在家。",
+      "sentencePinyin": "Wǒ bàba zài jiā.",
+      "sentenceEnglish": "My dad is at home."
+    },
+    {
+      "id": 21,
+      "chinese": "媽媽",
+      "pinyin": "māma",
+      "english": "mom",
+      "sentenceChinese": "我媽媽請你進來。",
+      "sentencePinyin": "Wǒ māma qǐng nǐ jìnlái.",
+      "sentenceEnglish": "My mom invites you to come in."
+    },
+    {
+      "id": 22,
+      "chinese": "請進",
+      "pinyin": "qǐng jìn",
+      "english": "please come in",
+      "sentenceChinese": "老師說：「請進。」",
+      "sentencePinyin": "Lǎoshī shuō: “Qǐng jìn.”",
+      "sentenceEnglish": "The teacher said, \"Please come in.\""
+    },
+    {
+      "id": 23,
+      "chinese": "田中誠一",
+      "pinyin": "Tiánzhōng Chéngyī",
+      "english": "a man from Japan",
+      "sentenceChinese": "他是田中誠一。",
+      "sentencePinyin": "Tā shì Tiánzhōng Chéngyī.",
+      "sentenceEnglish": "He is Tanaka Seiichi."
+    },
+    {
+      "id": 24,
+      "chinese": "伯母",
+      "pinyin": "bómǔ",
+      "english": "aunt; polite term for a friend's mother regardless of age",
+      "sentenceChinese": "伯母，您好！",
+      "sentencePinyin": "Bómǔ, nín hǎo!",
+      "sentenceEnglish": "Hello, Auntie!"
+    },
+    {
+      "id": 25,
+      "chinese": "您",
+      "pinyin": "nín",
+      "english": "you, honorific",
+      "sentenceChinese": "您好，老師。",
+      "sentencePinyin": "Nín hǎo, lǎoshī.",
+      "sentenceEnglish": "Hello, teacher."
+    },
+    {
+      "id": 26,
+      "chinese": "名字",
+      "pinyin": "míngzi",
+      "english": "name",
+      "sentenceChinese": "你的名字是什麼？",
+      "sentencePinyin": "Nǐ de míngzi shì shénme?",
+      "sentenceEnglish": "What is your name?"
+    },
+    {
+      "id": 27,
+      "chinese": "書",
+      "pinyin": "shū",
+      "english": "book",
+      "sentenceChinese": "這本書很好看。",
+      "sentencePinyin": "Zhè běn shū hěn hǎokàn.",
+      "sentenceEnglish": "This book is very interesting."
+    },
+    {
+      "id": 28,
+      "chinese": "哥哥",
+      "pinyin": "gēge",
+      "english": "older brother",
+      "sentenceChinese": "我哥哥有很多書。",
+      "sentencePinyin": "Wǒ gēge yǒu hěn duō shū.",
+      "sentenceEnglish": "My older brother has many books."
+    },
+    {
+      "id": 29,
+      "chinese": "老師",
+      "pinyin": "lǎoshī",
+      "english": "teacher",
+      "sentenceChinese": "我老師很好。",
+      "sentencePinyin": "Wǒ lǎoshī hěn hǎo.",
+      "sentenceEnglish": "My teacher is very kind."
+    },
+    {
+      "id": 30,
+      "chinese": "看書",
+      "pinyin": "kànshū",
+      "english": "to read",
+      "sentenceChinese": "我晚上喜歡看書。",
+      "sentencePinyin": "Wǒ wǎnshàng xǐhuan kànshū.",
+      "sentenceEnglish": "I like reading at night."
+    },
+    {
+      "id": 31,
+      "chinese": "幾",
+      "pinyin": "jǐ",
+      "english": "how many",
+      "sentenceChinese": "你有幾個姐姐？",
+      "sentencePinyin": "Nǐ yǒu jǐ ge jiějie?",
+      "sentenceEnglish": "How many older sisters do you have?"
+    },
+    {
+      "id": 32,
+      "chinese": "個",
+      "pinyin": "ge",
+      "english": "general measure word",
+      "sentenceChinese": "我有三個哥哥。",
+      "sentencePinyin": "Wǒ yǒu sān ge gēge.",
+      "sentenceEnglish": "I have three older brothers."
+    },
+    {
+      "id": 33,
+      "chinese": "沒",
+      "pinyin": "méi",
+      "english": "not",
+      "sentenceChinese": "我沒有妹妹。",
+      "sentencePinyin": "Wǒ méiyǒu mèimei.",
+      "sentenceEnglish": "I do not have a younger sister."
+    },
+    {
+      "id": 34,
+      "chinese": "兄弟",
+      "pinyin": "xiōngdì",
+      "english": "brothers",
+      "sentenceChinese": "他們是兄弟。",
+      "sentencePinyin": "Tāmen shì xiōngdì.",
+      "sentenceEnglish": "They are brothers."
+    },
+    {
+      "id": 35,
+      "chinese": "姐妹",
+      "pinyin": "jiěmèi",
+      "english": "sisters",
+      "sentenceChinese": "我們是姐妹。",
+      "sentencePinyin": "Wǒmen shì jiěmèi.",
+      "sentenceEnglish": "We are sisters."
+    },
+    {
+      "id": 36,
+      "chinese": "五",
+      "pinyin": "wǔ",
+      "english": "five",
+      "sentenceChinese": "我家有五個人。",
+      "sentencePinyin": "Wǒ jiā yǒu wǔ ge rén.",
+      "sentenceEnglish": "There are five people in my family."
+    },
+    {
+      "id": 37,
+      "chinese": "兩",
+      "pinyin": "liǎng",
+      "english": "two",
+      "sentenceChinese": "我有兩個姐姐。",
+      "sentencePinyin": "Wǒ yǒu liǎng ge jiějie.",
+      "sentenceEnglish": "I have two older sisters."
+    }
+  ],
+  "theme": "Family Members"
+}

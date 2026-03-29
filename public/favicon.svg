@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Raccoon favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#bg)" />
+  <path d="M28 44 18 26l20 8Zm72 0 10-18-20 8Z" fill="#475569" />
+  <path d="M64 104c23 0 42-18 42-40S87 24 64 24 22 42 22 64s19 40 42 40Z" fill="#94a3b8" />
+  <path d="M64 94c15 0 28-12 28-28S79 38 64 38 36 51 36 66s13 28 28 28Z" fill="#f8fafc" />
+  <path d="M39 60c8-13 20-20 25-20 6 0 17 7 25 20-6 4-15 7-25 7s-19-3-25-7Z" fill="#1e293b" opacity=".95" />
+  <ellipse cx="49" cy="60" rx="8" ry="10" fill="#0f172a" />
+  <ellipse cx="79" cy="60" rx="8" ry="10" fill="#0f172a" />
+  <circle cx="50" cy="59" r="2.5" fill="#f8fafc" />
+  <circle cx="80" cy="59" r="2.5" fill="#f8fafc" />
+  <path d="M64 66c-6 0-11 5-11 11 0 7 5 12 11 12s11-5 11-12c0-6-5-11-11-11Z" fill="#334155" />
+  <path d="M64 72 58 80h12Z" fill="#0f172a" />
+  <path d="M52 88c7 6 17 6 24 0" fill="none" stroke="#475569" stroke-linecap="round" stroke-width="4" />
+</svg>
