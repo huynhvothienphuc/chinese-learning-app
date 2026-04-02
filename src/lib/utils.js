@@ -14,6 +14,21 @@ export function shuffleArray(items) {
   return next;
 }
 
+export function getItemMeaning(item, language = 'en') {
+  if (!item) return '';
+  if (language === 'vi') {
+    return String(item.vietnamese || item.meaning?.vi || item.english || item.meaning?.en || '').trim();
+  }
+  return String(item.english || item.meaning?.en || item.vietnamese || item.meaning?.vi || '').trim();
+}
+
+export function getSentenceMeaning(item, language = 'en') {
+  if (!item) return '';
+  if (language === 'vi') {
+    return String(item.sentenceVietnamese || item.translation?.vi || item.sentenceEnglish || item.translation?.en || '').trim();
+  }
+  return String(item.sentenceEnglish || item.translation?.en || item.sentenceVietnamese || item.translation?.vi || '').trim();
+}
 
 export function normalizeVocabularyItems(items) {
   if (!Array.isArray(items)) return [];
@@ -24,10 +39,12 @@ export function normalizeVocabularyItems(items) {
 
       const chinese = String(item.chinese || '').trim();
       const pinyin = String(item.pinyin || '').trim();
-      const english = String(item.english || '').trim();
+      const english = String(item.english || item.meaning?.en || '').trim();
+      const vietnamese = String(item.vietnamese || item.meaning?.vi || english).trim();
       const sentenceChinese = String(item.sentenceChinese || '').trim();
       const sentencePinyin = String(item.sentencePinyin || '').trim();
-      const sentenceEnglish = String(item.sentenceEnglish || '').trim();
+      const sentenceEnglish = String(item.sentenceEnglish || item.translation?.en || '').trim();
+      const sentenceVietnamese = String(item.sentenceVietnamese || item.translation?.vi || sentenceEnglish).trim();
 
       if (!chinese || !pinyin) return null;
 
@@ -36,9 +53,19 @@ export function normalizeVocabularyItems(items) {
         chinese,
         pinyin,
         english,
+        vietnamese,
         sentenceChinese,
         sentencePinyin,
         sentenceEnglish,
+        sentenceVietnamese,
+        meaning: {
+          en: english,
+          vi: vietnamese,
+        },
+        translation: {
+          en: sentenceEnglish,
+          vi: sentenceVietnamese,
+        },
       };
     })
     .filter(Boolean);
@@ -60,22 +87,26 @@ export function parseVocabularyText(text) {
 
       if (!chinese || !pinyin || !sentenceChinese) return null;
 
-      return normalizeVocabularyItems([{
-        id: `${chinese}-${pinyin}-${index}`,
-        chinese,
-        pinyin,
-        english,
-        sentenceChinese,
-        sentencePinyin,
-        sentenceEnglish,
-      }])[0];
+      return normalizeVocabularyItems([
+        {
+          id: `${chinese}-${pinyin}-${index}`,
+          chinese,
+          pinyin,
+          english,
+          vietnamese: english,
+          sentenceChinese,
+          sentencePinyin,
+          sentenceEnglish,
+          sentenceVietnamese: sentenceEnglish,
+        },
+      ])[0];
     })
     .filter(Boolean);
 }
 
 export function formatSectionName(filename) {
   return filename
-    .replace(/\.(txt|json)$/i, '')
+    .replace(/\.(txt|json|xlsx)$/i, '')
     .split(/[-_]/)
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');

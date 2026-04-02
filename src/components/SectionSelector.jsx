@@ -1,12 +1,13 @@
 import { Select } from '@/components/ui/select';
 
-export default function SectionSelector({ sections, selectedSection, onChange }) {
+export default function SectionSelector({ sections, selectedSection, onChange, noSectionsLabel, comingSoonLabel }) {
   return (
     <Select className="w-full min-w-0" value={selectedSection} onChange={(event) => onChange(event.target.value)}>
-      {sections.length === 0 ? <option value="">No sections</option> : null}
+      {sections.length === 0 ? <option value="">{noSectionsLabel}</option> : null}
       {sections.map((section) => (
-        <option key={section.file} value={section.file} disabled={section.enabled === false}>
-          {section.title}{section.enabled === false ? ' (Coming soon)' : ''}
+        <option key={section.id || section.file} value={section.file} disabled={section.enabled === false}>
+          {section.order ? `Lesson ${section.order} - ${section.title}` : section.title}
+          {section.enabled === false ? ` (${comingSoonLabel})` : ''}
         </option>
       ))}
     </Select>

@@ -4,30 +4,40 @@ import {
   ArrowRight,
   BookHeart,
   Heart,
-  RotateCcw,
-  Shuffle,
+  Moon,
+  Sun,
   Upload,
 } from 'lucide-react';
 import FavoritesPanel from '@/components/FavoritesPanel';
 import Flashcard from '@/components/Flashcard';
 import Quiz from '@/components/Quiz';
-import SectionSelector from '@/components/SectionSelector';
 import UploadGuide from '@/components/UploadGuide';
+import StudyDeckPanel from '@/components/StudyDeckPanel';
+import StudyModeTabs from '@/components/StudyModeTabs';
 import { Select } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { formatSectionName, normalizeVocabularyItems, parseVocabularyText, shuffleArray } from '@/lib/utils';
+import {
+  formatSectionName,
+  normalizeVocabularyItems,
+  parseVocabularyText,
+  shuffleArray,
+} from '@/lib/utils';
+import { parseVocabularyWorkbook } from '@/lib/excel';
+import { initGoogleAnalytics, trackEvent } from '@/lib/analytics';
+import { localeMap } from '@/locales';
 import './App.css';
 
 const INITIAL_SCORE = { correct: 0, total: 0 };
-const SESSION_UPLOADS_KEY = 'uploaded-sections';
+const UPLOADED_LESSONS_STORAGE_KEY = 'uploaded-lessons-json';
+const LEGACY_SESSION_UPLOADS_KEY = 'uploaded-sections';
 const SESSION_SELECTED_BOOK_KEY = 'selected-book';
 const SESSION_SELECTED_SECTION_KEY = 'selected-sections-by-book';
+const SESSION_LANGUAGE_KEY = 'selected-language';
 const FAVORITES_STORAGE_KEY = 'favorite-vocabulary';
-const MAX_UPLOAD_BYTES = 300 * 1024;
+const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
-const APP_VERSION = 'v1.0.3';
-const LANGUAGE_OPTIONS = [{ id: 'vi', label: '🇻🇳 Viet Nam' }];
+const APP_VERSION = 'v1.3.1';
 
 function formatFileSize(bytes) {
   if (bytes < 1024) return `${bytes} B`;
@@ -44,29 +54,40 @@ function normalizeUploadedLessons(rawValue) {
       return parsed
         .map((lesson, index) => {
           if (!lesson || typeof lesson !== 'object') return null;
+
+          const items = Array.isArray(lesson.items)
+            ? normalizeVocabularyItems(lesson.items)
+            : typeof lesson.text === 'string'
+              ? parseVocabularyText(lesson.text)
+              : [];
+
           return {
             id: lesson.id || `user-upload-${index + 1}`,
-            fileName: lesson.fileName || lesson.name || `upload-${index + 1}.txt`,
-            title: lesson.title || (index === 0 ? 'User upload' : `User upload ${index + 1}`),
-            text: lesson.text || '',
+            fileName: lesson.fileName || lesson.name || `upload-${index + 1}.xlsx`,
+            title:
+              lesson.title ||
+              formatSectionName(lesson.fileName || lesson.name || `upload-${index + 1}.xlsx`),
+            items,
+            uploadedAt: lesson.uploadedAt || null,
           };
         })
-        .filter(Boolean);
+        .filter((lesson) => lesson && Array.isArray(lesson.items));
     }
 
     if (parsed && typeof parsed === 'object') {
       return Object.entries(parsed).map(([fileName, text], index) => ({
         id: `user-upload-${index + 1}`,
         fileName,
-        title: index === 0 ? 'User upload' : `User upload ${index + 1}`,
-        text: typeof text === 'string' ? text : '',
+        title: formatSectionName(fileName),
+        items: typeof text === 'string' ? parseVocabularyText(text) : [],
+        uploadedAt: null,
       }));
     }
-
-    return [];
   } catch {
     return [];
   }
+
+  return [];
 }
 
 export default function App() {
@@ -74,13 +95,13 @@ export default function App() {
   const [selectedBook, setSelectedBook] = useState('');
   const [sections, setSections] = useState([]);
   const [selectedSection, setSelectedSection] = useState('');
-  const [selectedLanguage, setSelectedLanguage] = useState('vi');
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
   const [vocabulary, setVocabulary] = useState([]);
   const [originalVocabulary, setOriginalVocabulary] = useState([]);
   const [uploadedLessons, setUploadedLessons] = useState([]);
   const [isShuffled, setIsShuffled] = useState(false);
   const [mode, setMode] = useState('flashcard');
-  const [quizSource, setQuizSource] = useState('all');
+  const [deckSource, setDeckSource] = useState('all');
   const [activeView, setActiveView] = useState('learn');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -94,19 +115,30 @@ export default function App() {
   const [favorites, setFavorites] = useState([]);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
   const [lastUploadedName, setLastUploadedName] = useState('');
+  const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('dark-mode') === 'true');
   const fileInputRef = useRef(null);
+
+  const t = localeMap[selectedLanguage] || localeMap.en;
 
   const books = useMemo(() => {
     const nextBooks = [...baseBooks];
     if (uploadedLessons.length > 0) {
       nextBooks.push({
         id: USER_UPLOAD_BOOK_ID,
-        title: 'User upload',
-        description: 'Session-only uploaded lessons',
+        title: t.userUploadBook,
+        description: 'Saved in this browser',
       });
     }
     return nextBooks;
-  }, [baseBooks, uploadedLessons]);
+  }, [baseBooks, uploadedLessons, t.userUploadBook]);
+
+  const languageOptions = useMemo(
+    () => [
+      { id: 'en', label: t.englishOption },
+      { id: 'vi', label: t.vietnameseOption },
+    ],
+    [t.englishOption, t.vietnameseOption],
+  );
 
   function resetInteractiveState() {
     setCurrentIndex(0);
@@ -118,6 +150,26 @@ export default function App() {
   }
 
   useEffect(() => {
+    document.documentElement.classList.toggle('dark', isDarkMode);
+    localStorage.setItem('dark-mode', isDarkMode);
+  }, [isDarkMode]);
+
+  useEffect(() => {
+    initGoogleAnalytics();
+  }, []);
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem(SESSION_LANGUAGE_KEY);
+    if (savedLanguage && localeMap[savedLanguage]) {
+      setSelectedLanguage(savedLanguage);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem(SESSION_LANGUAGE_KEY, selectedLanguage);
+  }, [selectedLanguage]);
+
+  useEffect(() => {
     async function loadInitialData() {
       try {
         setIsLoading(true);
@@ -125,7 +177,7 @@ export default function App() {
 
         const [booksResponse, savedUploadsRaw] = await Promise.all([
           fetch('/data/books.json'),
-          Promise.resolve(sessionStorage.getItem(SESSION_UPLOADS_KEY)),
+          Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
         ]);
 
         const booksData = await booksResponse.json();
@@ -133,17 +185,19 @@ export default function App() {
 
         setBaseBooks(booksData);
         setUploadedLessons(normalizedUploads);
+        if (normalizedUploads.length > 0) {
+          localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(normalizedUploads));
+        }
 
         const savedBook = sessionStorage.getItem(SESSION_SELECTED_BOOK_KEY);
         const availableBookIds = [
           ...booksData.map((book) => book.id),
           ...(normalizedUploads.length > 0 ? [USER_UPLOAD_BOOK_ID] : []),
         ];
-        const nextBook =
-          savedBook && availableBookIds.includes(savedBook) ? savedBook : availableBookIds[0] || '';
-        setSelectedBook(nextBook);
+
+        setSelectedBook(savedBook && availableBookIds.includes(savedBook) ? savedBook : availableBookIds[0] || '');
       } catch {
-        setError('Unable to load books. Please check the local data files.');
+        setError(t.uploadBooksError);
       } finally {
         setIsLoading(false);
       }
@@ -155,10 +209,8 @@ export default function App() {
     const loadVoices = () => window.speechSynthesis.getVoices();
     loadVoices();
     window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
-    return () => {
-      window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
-    };
-  }, []);
+    return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+  }, [t.uploadBooksError]);
 
   useEffect(() => {
     try {
@@ -187,9 +239,9 @@ export default function App() {
   }, [books, selectedBook]);
 
   useEffect(() => {
-    if (selectedBook) {
-      sessionStorage.setItem(SESSION_SELECTED_BOOK_KEY, selectedBook);
-    }
+    if (!selectedBook) return;
+    sessionStorage.setItem(SESSION_SELECTED_BOOK_KEY, selectedBook);
+    trackEvent('select_book', { book_id: selectedBook });
   }, [selectedBook]);
 
   useEffect(() => {
@@ -226,6 +278,7 @@ export default function App() {
         const savedByBook = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
         const savedSection = savedByBook[selectedBook];
         const firstEnabledSection = nextSections.find((section) => section.enabled !== false)?.file || nextSections[0]?.file || '';
+
         if (savedSection && nextSections.some((section) => section.file === savedSection && section.enabled !== false)) {
           setSelectedSection(savedSection);
         } else {
@@ -234,27 +287,26 @@ export default function App() {
       } catch {
         setSections([]);
         setSelectedSection('');
-        setError('Unable to load sections for this book.');
+        setError(t.uploadSectionsError);
       } finally {
         setIsLoading(false);
       }
     }
 
     loadSectionsForBook();
-  }, [selectedBook, uploadedLessons]);
+  }, [selectedBook, uploadedLessons, t.uploadSectionsError]);
 
   useEffect(() => {
     if (!selectedBook || !selectedSection) return;
     const savedByBook = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
     savedByBook[selectedBook] = selectedSection;
     sessionStorage.setItem(SESSION_SELECTED_SECTION_KEY, JSON.stringify(savedByBook));
+    trackEvent('select_section', { book_id: selectedBook, section_id: selectedSection });
   }, [selectedBook, selectedSection]);
 
   useEffect(() => {
     if (!selectedBook || !selectedSection) return;
-    if (selectedBook !== USER_UPLOAD_BOOK_ID && !sections.some((section) => section.file === selectedSection)) {
-      return;
-    }
+    if (selectedBook !== USER_UPLOAD_BOOK_ID && !sections.some((section) => section.file === selectedSection)) return;
 
     async function loadVocabulary() {
       try {
@@ -263,8 +315,7 @@ export default function App() {
 
         let parsed = [];
         if (selectedBook === USER_UPLOAD_BOOK_ID) {
-          const text = uploadedLessons.find((lesson) => lesson.id === selectedSection)?.text || '';
-          parsed = parseVocabularyText(text);
+          parsed = uploadedLessons.find((lesson) => lesson.id === selectedSection)?.items || [];
         } else {
           const response = await fetch(`/data/books/${selectedBook}/${selectedSection}`);
           const data = await response.json();
@@ -276,7 +327,7 @@ export default function App() {
         resetInteractiveState();
         setIsShuffled(false);
       } catch {
-        setError('Unable to load vocabulary. Please verify the selected file.');
+        setError(t.uploadVocabularyError);
         setOriginalVocabulary([]);
         setVocabulary([]);
         resetInteractiveState();
@@ -286,7 +337,7 @@ export default function App() {
     }
 
     loadVocabulary();
-  }, [selectedBook, selectedSection, uploadedLessons, sections]);
+  }, [selectedBook, selectedSection, uploadedLessons, sections, t.uploadVocabularyError]);
 
   const favoriteVocabulary = useMemo(
     () =>
@@ -295,14 +346,16 @@ export default function App() {
         chinese: favorite.chinese,
         pinyin: favorite.pinyin,
         english: favorite.english,
+        vietnamese: favorite.vietnamese || favorite.english,
         sentenceChinese: favorite.sentenceChinese,
         sentencePinyin: favorite.sentencePinyin,
         sentenceEnglish: favorite.sentenceEnglish,
+        sentenceVietnamese: favorite.sentenceVietnamese || favorite.sentenceEnglish,
       })),
     [favorites],
   );
 
-  const activeVocabulary = mode === 'quiz' && quizSource === 'favorites' ? favoriteVocabulary : vocabulary;
+  const activeVocabulary = deckSource === 'favorites' ? favoriteVocabulary : vocabulary;
 
   useEffect(() => {
     if (mode !== 'flashcard' || activeView !== 'learn') return undefined;
@@ -339,13 +392,11 @@ export default function App() {
   const selectedBookMeta = books.find((book) => book.id === selectedBook);
   const currentSectionMeta = sections.find((section) => section.file === selectedSection);
   const sectionLabel = currentSectionMeta?.title || formatSectionName(selectedSection || '');
-  const bookLabel = selectedBookMeta?.title || 'User upload';
+  const bookLabel = selectedBookMeta?.title || t.userUploadBook;
   const showNoData = !isLoading && !error && activeView === 'learn' && activeVocabulary.length === 0;
-
-  const headerScore = useMemo(() => {
-    if (mode !== 'quiz' || activeView !== 'learn') return null;
-    return `${score.correct} / ${score.total}`;
-  }, [activeView, mode, score.correct, score.total]);
+  const favoriteCount = favorites.length;
+  const headerSourceLabel = deckSource === 'favorites' ? t.sourceFavoriteWords : t.sourceAllWords;
+  const activeTab = mode === 'quiz' ? 'quiz' : deckSource === 'favorites' ? 'review' : 'flashcard';
 
   function getFavoriteKey(item, section = selectedSection) {
     return `${selectedBook}__${section}__${item.chinese}__${item.pinyin}`;
@@ -377,12 +428,20 @@ export default function App() {
           chinese: item.chinese,
           pinyin: item.pinyin,
           english: item.english,
+          vietnamese: item.vietnamese || item.english,
           sentenceChinese: item.sentenceChinese,
           sentencePinyin: item.sentencePinyin,
           sentenceEnglish: item.sentenceEnglish,
+          sentenceVietnamese: item.sentenceVietnamese || item.sentenceEnglish,
         },
         ...prev,
       ];
+    });
+
+    trackEvent('toggle_favorite', {
+      book_id: selectedBook,
+      section_id: selectedSection,
+      word: item.chinese,
     });
   }
 
@@ -391,26 +450,70 @@ export default function App() {
   }
 
   function startFlashcards() {
+    setActiveView('learn');
     setMode('flashcard');
-    setQuizSource('all');
+    setDeckSource('all');
     resetInteractiveState();
+    trackEvent('start_flashcards', { book_id: selectedBook, section_id: selectedSection, source: 'all' });
   }
 
-  function startQuizAll() {
+  function startQuiz() {
+    setActiveView('learn');
     setMode('quiz');
-    setQuizSource('all');
     resetInteractiveState();
+    trackEvent('start_quiz', { source: deckSource, book_id: selectedBook, section_id: selectedSection });
+  }
+
+  function startReviewFavorites() {
+    if (favorites.length === 0) return;
+    setIsFavoritesOpen(false);
+    setActiveView('learn');
+    setMode('flashcard');
+    setDeckSource('favorites');
+    resetInteractiveState();
+    trackEvent('start_review_favorites');
   }
 
   function startQuizFavorites() {
     if (favorites.length === 0) return;
+    setIsFavoritesOpen(false);
+    setActiveView('learn');
     setMode('quiz');
-    setQuizSource('favorites');
+    setDeckSource('favorites');
+    resetInteractiveState();
+    trackEvent('start_quiz', { source: 'favorites' });
+  }
+
+  function handleModeTabChange(nextTab) {
+    if (nextTab === 'favorites') {
+      setIsFavoritesOpen(true);
+      return;
+    }
+
+    if (nextTab === 'review') {
+      startReviewFavorites();
+      return;
+    }
+
+    if (nextTab === 'quiz') {
+      setDeckSource('all');
+      setMode('quiz');
+      setActiveView('learn');
+      resetInteractiveState();
+      return;
+    }
+
+    startFlashcards();
+  }
+
+  function handleSourceChange(nextSource) {
+    setDeckSource(nextSource);
+    setMode((prev) => (prev === 'quiz' ? 'quiz' : 'flashcard'));
     resetInteractiveState();
   }
 
   function handleShuffleToggle() {
-    if (originalVocabulary.length === 0 || mode !== 'flashcard') return;
+    if (originalVocabulary.length === 0 || mode !== 'flashcard' || deckSource === 'favorites') return;
 
     if (isShuffled) {
       setVocabulary(originalVocabulary);
@@ -477,175 +580,95 @@ export default function App() {
       setError('');
       if (!file) return;
 
-      if (!file.name.toLowerCase().endsWith('.txt')) {
-        setUploadError('Only .txt files are allowed.');
+      if (!file.name.toLowerCase().endsWith('.xlsx')) {
+        setUploadError(t.xlsxOnly);
         return;
       }
 
       if (file.size > MAX_UPLOAD_BYTES) {
-        setUploadError(`File is too large. Maximum size is ${formatFileSize(MAX_UPLOAD_BYTES)}.`);
+        setUploadError(`${t.maxSize}: ${formatFileSize(MAX_UPLOAD_BYTES)}.`);
         return;
       }
 
       setIsLoading(true);
-      const text = await file.text();
-      const nextIndex = uploadedLessons.length + 1;
+      const items = await parseVocabularyWorkbook(file);
+
+      if (!items.length) {
+        setUploadError(t.uploadNeedsRows);
+        return;
+      }
+
       const nextLesson = {
         id: `user-upload-${Date.now()}`,
         fileName: file.name,
-        title: nextIndex === 1 ? 'User upload' : `User upload ${nextIndex}`,
-        text,
+        title: formatSectionName(file.name),
+        items,
+        uploadedAt: new Date().toISOString(),
       };
 
-      const nextUploads = [...uploadedLessons, nextLesson];
+      const nextUploads = [nextLesson, ...uploadedLessons.filter((lesson) => lesson.id !== nextLesson.id)];
       setUploadedLessons(nextUploads);
-      sessionStorage.setItem(SESSION_UPLOADS_KEY, JSON.stringify(nextUploads));
+      localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(nextUploads));
+      sessionStorage.removeItem(LEGACY_SESSION_UPLOADS_KEY);
 
       setLastUploadedName(nextLesson.title);
       setSelectedBook(USER_UPLOAD_BOOK_ID);
       setSelectedSection(nextLesson.id);
       setActiveView('learn');
-      startFlashcards();
+      setMode('flashcard');
+      setDeckSource('all');
+      resetInteractiveState();
+      trackEvent('upload_lesson', { file_name: file.name, size: file.size, rows: items.length, format: 'xlsx' });
     } catch {
-      setUploadError('Unable to read uploaded file.');
+      setUploadError(t.uploadReadError);
       setOriginalVocabulary([]);
       setVocabulary([]);
       resetInteractiveState();
     } finally {
       setIsLoading(false);
-      if (fileInputRef.current) {
-        fileInputRef.current.value = '';
-      }
+      if (fileInputRef.current) fileInputRef.current.value = '';
     }
   }
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.12),_transparent_32%),linear-gradient(180deg,#f8fbff_0%,#eef5ff_100%)] px-3 py-4 text-slate-900 sm:px-4 sm:py-6 md:px-8">
-      <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-6xl flex-col gap-6">
-        <Card className="overflow-hidden border-white/60 bg-white/80 shadow-soft backdrop-blur-xl">
-          <CardContent className="space-y-4 p-4 sm:p-5">
-            <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-              <div className="flex items-start gap-3">
-                <img
-                  src="/favicon.svg"
-                  alt="Raccoon logo"
-                  className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm"
-                />
+    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,rgba(167,139,250,0.2),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(147,197,253,0.15),transparent_55%),linear-gradient(160deg,#fdfbff_0%,#eef0ff_50%,#ecfeff_100%)] px-4 py-4 text-slate-900 dark:bg-slate-950 dark:bg-none dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
+      <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-7xl flex-col gap-6">
+        <Card className="border-white/60 bg-white/90 shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
+          <CardContent className="p-4 sm:p-6">
+            <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
+              <button type="button" onClick={() => setActiveView('learn')} className="flex items-center gap-4 text-left">
+                <img src="/favicon.svg" alt="Raccoon logo" className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
                 <div>
-                  <h1 className="text-xl font-black tracking-tight text-slate-900 sm:text-2xl">Raccoon Chinese Cards</h1>
-                  <p className="mt-1 text-sm leading-6 text-slate-500">Learn, test, and review your favorite list.</p>
+                  <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
+                  <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
                 </div>
-              </div>
+              </button>
 
-              <div className="flex flex-wrap items-center gap-2 self-start lg:justify-end">
-                <Button
-                  type="button"
-                  variant={activeView === 'learn' ? 'default' : 'outline'}
-                  className="gap-2"
-                  onClick={() => setActiveView('learn')}
-                >
-                  Learn
-                </Button>
-                <Button
-                  type="button"
-                  variant={activeView === 'upload' ? 'default' : 'outline'}
-                  className="gap-2"
-                  onClick={() => setActiveView('upload')}
-                >
+              <div className="flex flex-wrap items-end gap-2 lg:justify-end">
+                <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('upload')}>
                   <Upload className="h-4 w-4" />
-                  Upload Lesson
+                  {t.uploadLesson}
                 </Button>
                 <Button type="button" variant="outline" className="gap-2" onClick={() => setIsFavoritesOpen(true)}>
                   <BookHeart className="h-4 w-4" />
-                  Favorite List ({favorites.length})
+                  {t.favoriteList}
                 </Button>
-                <Select
-                  className="w-[160px] min-w-[160px]"
-                  value={selectedLanguage}
-                  onChange={(event) => setSelectedLanguage(event.target.value)}
-                >
-                  {LANGUAGE_OPTIONS.map((language) => (
-                    <option key={language.id} value={language.id}>
-                      {language.label}
-                    </option>
-                  ))}
-                </Select>
-                {headerScore ? (
-                  <div className="rounded-full bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">Score: {headerScore}</div>
-                ) : null}
+                <div className="min-w-[170px]">
+                  <Select className="w-[170px] min-w-[170px]" value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
+                    {languageOptions.map((language) => (
+                      <option key={language.id} value={language.id}>{language.label}</option>
+                    ))}
+                  </Select>
+                </div>
+                <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
+                  {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+                </Button>
               </div>
             </div>
-
-            {activeView === 'learn' ? (
-              <div className="grid gap-3 xl:grid-cols-[minmax(170px,0.85fr)_minmax(220px,1fr)_auto_auto] xl:items-center">
-                <Select className="w-full min-w-0" value={selectedBook} onChange={(event) => setSelectedBook(event.target.value)}>
-                  {books.map((book) => (
-                    <option key={book.id} value={book.id}>
-                      {book.title}
-                    </option>
-                  ))}
-                </Select>
-
-                <SectionSelector sections={sections} selectedSection={selectedSection} onChange={setSelectedSection} />
-
-                <div className="flex flex-wrap items-center rounded-2xl border border-slate-200 bg-slate-50 p-1">
-                  <button
-                    type="button"
-                    onClick={startFlashcards}
-                    className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
-                      mode === 'flashcard' ? 'bg-blue-600 text-white shadow-sm' : 'text-slate-600 hover:text-slate-900'
-                    }`}
-                  >
-                    Learn
-                  </button>
-                  <button
-                    type="button"
-                    onClick={startQuizAll}
-                    className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
-                      mode === 'quiz' && quizSource === 'all'
-                        ? 'bg-blue-600 text-white shadow-sm'
-                        : 'text-slate-600 hover:text-slate-900'
-                    }`}
-                  >
-                    Test
-                  </button>
-                  <button
-                    type="button"
-                    onClick={startQuizFavorites}
-                    disabled={favorites.length === 0}
-                    className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${
-                      mode === 'quiz' && quizSource === 'favorites'
-                        ? 'bg-emerald-600 text-white shadow-sm'
-                        : favorites.length === 0
-                          ? 'cursor-not-allowed text-slate-300'
-                          : 'text-slate-600 hover:text-slate-900'
-                    }`}
-                  >
-                    Test Favorites
-                  </button>
-                </div>
-
-                <Button
-                  variant="outline"
-                  onClick={handleShuffleToggle}
-                  disabled={activeVocabulary.length === 0 || mode !== 'flashcard'}
-                  className={`min-w-fit gap-2 border-0 text-white hover:text-white ${
-                    isShuffled ? 'bg-emerald-500 hover:bg-emerald-600' : 'bg-orange-500 hover:bg-orange-600'
-                  }`}
-                >
-                  {isShuffled ? <RotateCcw className="h-4 w-4" /> : <Shuffle className="h-4 w-4" />}
-                  {isShuffled ? 'Reset Order' : 'Mix'}
-                </Button>
-              </div>
-            ) : (
-              <div className="rounded-3xl border border-dashed border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-500">
-                Upload custom lesson files for this browser session. Uploaded lessons will appear under the book named User upload.
-              </div>
-            )}
           </CardContent>
         </Card>
 
-        <input ref={fileInputRef} type="file" accept=".txt,text/plain" className="hidden" onChange={handleUploadFile} />
+        <input ref={fileInputRef} type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" className="hidden" onChange={handleUploadFile} />
 
         {activeView === 'upload' ? (
           <UploadGuide
@@ -654,79 +677,118 @@ export default function App() {
             maxUploadLabel={formatFileSize(MAX_UPLOAD_BYTES)}
             lastUploadedName={lastUploadedName}
             uploadError={uploadError}
+            t={t}
           />
-        ) : error ? (
-          <Card className="shadow-soft">
-            <CardContent className="p-8 text-center text-rose-600">{error}</CardContent>
-          </Card>
-        ) : isLoading ? (
-          <Card className="shadow-soft">
-            <CardContent className="p-8 text-center text-slate-600">Loading vocabulary…</CardContent>
-          </Card>
-        ) : showNoData ? (
-          <Card className="shadow-soft">
-            <CardContent className="p-8 text-center text-slate-500">No data found in this section.</CardContent>
-          </Card>
-        ) : mode === 'flashcard' ? (
-          <div className="space-y-5">
-            <Flashcard
-              item={currentItem}
-              flipped={isFlipped}
-              onFlip={() => setIsFlipped((prev) => !prev)}
-              isFavorite={currentItem ? isFavorite(currentItem) : false}
-              onToggleFavorite={() => toggleFavorite(currentItem)}
+        ) : (
+          <>
+            <StudyDeckPanel
+              t={t}
+              canUseFavorites={favoriteCount > 0}
+              books={books}
+              selectedBook={selectedBook}
+              onBookChange={setSelectedBook}
+              sections={sections}
+              selectedSection={selectedSection}
+              onSectionChange={setSelectedSection}
+              source={deckSource}
+              onSourceChange={handleSourceChange}
+              deckCount={activeVocabulary.length}
+              lessonCount={vocabulary.length}
+              favoriteCount={favoriteCount}
+              currentIndex={currentIndex}
+              mode={mode}
             />
 
-            <Card className="border-white/60 bg-white/85 shadow-soft">
-              <CardContent className="space-y-4 p-4 sm:p-5">
-                <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-                  <Button onClick={handlePrevious} disabled={currentIndex === 0} className="w-full gap-2 md:w-auto">
-                    <ArrowLeft className="h-4 w-4" />
-                    Previous
-                  </Button>
+            <StudyModeTabs t={t} activeTab={activeTab} onChange={handleModeTabChange} />
 
-                  <div className="rounded-full bg-slate-100 px-5 py-2 text-sm font-semibold text-slate-700">
-                    {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
-                  </div>
+            {error ? (
+              <Card className="shadow-soft">
+                <CardContent className="p-8 text-center text-rose-600">{error}</CardContent>
+              </Card>
+            ) : isLoading ? (
+              <Card className="shadow-soft">
+                <CardContent className="p-8 text-center text-slate-600">{t.loadingVocabulary}</CardContent>
+              </Card>
+            ) : showNoData ? (
+              <Card className="shadow-soft">
+                <CardContent className="p-8 text-center text-slate-500">{t.noData}</CardContent>
+              </Card>
+            ) : (
+              <div className="space-y-5">
+                {mode === 'flashcard' ? (
+                  <>
+                    <Flashcard
+                      item={currentItem}
+                      flipped={isFlipped}
+                      onFlip={() => setIsFlipped((prev) => !prev)}
+                      isFavorite={currentItem ? isFavorite(currentItem) : false}
+                      onToggleFavorite={() => toggleFavorite(currentItem)}
+                      language={selectedLanguage}
+                      canShuffle={deckSource === 'all' && originalVocabulary.length > 0}
+                      isShuffled={isShuffled}
+                      onShuffle={handleShuffleToggle}
+                      t={t}
+                    />
 
-                  <Button
-                    onClick={handleNextFlashcard}
-                    disabled={currentIndex === activeVocabulary.length - 1}
-                    className="w-full gap-2 md:w-auto"
-                  >
-                    Next
-                    <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </div>
+                    <Card className="border-white/60 bg-white/90 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+                      <CardContent className="space-y-4 p-4 sm:p-5">
+                        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
+                          <Button onClick={handlePrevious} disabled={currentIndex === 0} className="w-full gap-2 md:w-auto" variant={currentIndex === activeVocabulary.length - 1 ? 'default' : 'outline'}>
+                            <ArrowLeft className="h-4 w-4" />
+                            {t.previous}
+                          </Button>
 
-                <div className="rounded-3xl border border-dashed border-slate-200 bg-slate-50 px-4 py-3 text-center text-sm text-slate-500">
-                  {'['} Previous <span className="font-semibold px-2">←</span> {']'}
-                  {'['} Next <span className="font-semibold px-2">→</span> {']'}
-                  {'['} Flip <span className="font-semibold px-2">↑</span> {']'}
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        ) : (
-          <Quiz
-            vocabulary={activeVocabulary}
-            currentIndex={currentIndex}
-            answeredQuestion={answeredQuestion}
-            onAnswer={handleAnswer}
-            onNext={handleNextQuestion}
-            score={score}
-            isComplete={quizComplete}
-            wrongAnswers={wrongAnswers}
-            onRestart={handleRestartQuiz}
-            isFavorite={currentItem ? isFavorite(currentItem) : false}
-            onToggleFavorite={() => toggleFavorite(currentItem)}
-          />
+                          <div className="rounded-full bg-violet-100 px-5 py-2 text-sm font-semibold text-violet-700 dark:bg-slate-700 dark:text-slate-300">
+                            {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
+                          </div>
+
+                          <div className="flex w-full flex-col gap-3 sm:flex-row md:w-auto">
+                            <Button onClick={() => setIsFlipped((prev) => !prev)} className="w-full gap-2 md:w-auto" variant="secondary">
+                              {t.flipCardAction}
+                            </Button>
+                            <Button onClick={handleNextFlashcard} disabled={currentIndex === activeVocabulary.length - 1} className="w-full gap-2 md:w-auto" variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}>
+                              {t.next}
+                              <ArrowRight className="h-4 w-4" />
+                            </Button>
+                          </div>
+                        </div>
+
+                        <div className="rounded-3xl border border-dashed border-violet-200 bg-violet-50/50 px-4 py-3 text-center text-sm text-violet-500 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
+                          {'['} {t.previous}<span className="font-semibold px-2">←</span> {']'}
+                          {'['} {t.next} <span className="font-semibold px-2">→</span>{']'}
+                          {'['} {t.flipLabel} <span className="font-semibold px-2">↑</span>{']'}
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </>
+                ) : (
+                  <Quiz
+                    vocabulary={activeVocabulary}
+                    choicePool={deckSource === 'favorites' ? vocabulary : undefined}
+                    currentIndex={currentIndex}
+                    answeredQuestion={answeredQuestion}
+                    onAnswer={handleAnswer}
+                    onNext={handleNextQuestion}
+                    score={score}
+                    isComplete={quizComplete}
+                    wrongAnswers={wrongAnswers}
+                    onRestart={handleRestartQuiz}
+                    isFavorite={currentItem ? isFavorite(currentItem) : false}
+                    onToggleFavorite={() => toggleFavorite(currentItem)}
+                    language={selectedLanguage}
+                    deckSource={deckSource}
+                    t={t}
+                  />
+                )}
+              </div>
+            )}
+          </>
         )}
 
-        <footer className="mt-auto border-t border-slate-200/80 py-6 text-center text-sm text-slate-500">
+        <footer className="mt-auto border-t border-slate-200/80 py-6 text-center text-sm text-slate-500 dark:border-slate-700/80">
           <div className="flex flex-wrap items-center justify-center gap-2">
             <Heart className="h-4 w-4 fill-green-500 text-green-500" />
-            <span className="font-medium">Made by Phuc Huynh - 黃武天福</span>
+            <span className="font-medium">{t.madeBy} ^^</span>
             <span className="text-slate-400">·</span>
             <span>{APP_VERSION}</span>
           </div>
@@ -738,6 +800,10 @@ export default function App() {
         favorites={favorites}
         onClose={() => setIsFavoritesOpen(false)}
         onRemove={removeFavorite}
+        onStudyFavorites={startReviewFavorites}
+        onQuizFavorites={startQuizFavorites}
+        language={selectedLanguage}
+        t={t}
       />
     </div>
   );
