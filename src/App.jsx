@@ -610,15 +610,14 @@ export default function App() {
                   <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
                 </div>
               </button>
-
               <div className="flex flex-wrap items-end gap-2 lg:justify-end">
-                <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('upload')}>
-                  <Upload className="h-4 w-4" />
-                  {t.uploadLesson}
-                </Button>
                 <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('myquiz')}>
                   <Wand2 className="h-4 w-4" />
                   <span className="hidden sm:inline">{t.myQuizTitle}</span>
+                </Button>
+                <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('upload')}>
+                  <Upload className="h-4 w-4" />
+                  {t.uploadLesson}
                 </Button>
                 <div className="min-w-[170px]">
                   <Select className="w-[170px] min-w-[170px]" value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
