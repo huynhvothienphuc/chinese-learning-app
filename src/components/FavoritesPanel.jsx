@@ -1,4 +1,4 @@
-import { BookOpenText, CirclePlay, Search, X } from 'lucide-react';
+import { CirclePlay, Search, X } from 'lucide-react';
 import { useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import { Button } from '@/components/ui/button';
@@ -10,7 +10,6 @@ export default function FavoritesPanel({
   favorites,
   onClose,
   onRemove,
-  onStudyFavorites,
   onQuizFavorites,
   language = 'en',
   t,
@@ -56,10 +55,6 @@ export default function FavoritesPanel({
                   className="h-10 rounded-xl border border-[#CAE8BD] bg-white pl-9 pr-3 text-sm outline-none focus:border-[#B0DB9C] focus:ring-2 focus:ring-[#B0DB9C]/30 dark:border-slate-600 dark:bg-slate-700 dark:text-white dark:placeholder-slate-400"
                 />
               </div>
-              <Button type="button" className="gap-2" disabled={!favorites.length} onClick={onStudyFavorites}>
-                <BookOpenText className="h-4 w-4" />
-                {t.studyAllFavorites}
-              </Button>
               <Button type="button" variant="outline" className="gap-2" disabled={!favorites.length} onClick={onQuizFavorites}>
                 <CirclePlay className="h-4 w-4" />
                 {t.quizAllFavorites}
@@ -87,7 +82,7 @@ export default function FavoritesPanel({
               </div>
             ) : filtered.length === 0 ? (
               <div className="rounded-3xl border border-dashed border-green-200 bg-green-50/40 p-10 text-center text-green-500 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
-                No results for "{query}"
+                {t.noSearchResults?.replace('{query}', query) ?? `No results for "${query}"`}
               </div>
             ) : (
               <div className="space-y-3">

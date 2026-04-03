@@ -1,24 +1,22 @@
-import { BookOpenText, Heart, NotebookTabs, ScrollText } from 'lucide-react';
+import { BookOpenText, NotebookTabs, ScrollText } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const tabs = [
   { id: 'flashcard', icon: BookOpenText },
-  { id: 'quiz', icon: ScrollText },
-  { id: 'review', icon: NotebookTabs },
-  { id: 'favorites', icon: Heart },
+  { id: 'quiz',      icon: ScrollText },
+  { id: 'review',    icon: NotebookTabs },
 ];
 
 export default function StudyModeTabs({ t, activeTab, onChange }) {
   const labels = {
     flashcard: t.flashCardTab,
-    quiz: t.quizTab,
-    review: t.reviewTab,
-    favorites: t.favoritesTab,
+    quiz:      t.quizTab,
+    review:    t.reviewTab,
   };
 
   return (
     <div className="rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-2 shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
-      <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+      <div className="grid grid-cols-3 gap-2">
         {tabs.map(({ id, icon: Icon }) => {
           const active = activeTab === id;
           return (

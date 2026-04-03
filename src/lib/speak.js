@@ -1,12 +1,29 @@
+// Known female Chinese voice name patterns across macOS, Windows, iOS, and Android
+const FEMALE_VOICE_NAMES = ['ting-ting', 'sin-ji', 'mei-jia', 'yaoyao', 'hanhan', 'xiaoxiao', 'female', 'yunxi'];
+
+function isChineseVoice(voice) {
+  return voice.lang?.toLowerCase().startsWith('zh');
+}
+
+function isFemaleVoice(voice) {
+  const name = voice.name.toLowerCase();
+  return FEMALE_VOICE_NAMES.some((pattern) => name.includes(pattern));
+}
+
 export function getChineseVoice() {
   if (!("speechSynthesis" in window)) return null;
 
   const voices = window.speechSynthesis.getVoices();
+  const chineseVoices = voices.filter(isChineseVoice);
+
   return (
-    voices.find((voice) => voice.lang === 'zh-TW') ||
-    voices.find((voice) => voice.lang === 'zh-HK') ||
-    voices.find((voice) => voice.lang === 'zh-CN') ||
-    voices.find((voice) => voice.lang?.toLowerCase().startsWith('zh')) ||
+    chineseVoices.find((v) => isFemaleVoice(v) && v.lang === 'zh-TW') ||
+    chineseVoices.find((v) => isFemaleVoice(v) && v.lang === 'zh-CN') ||
+    chineseVoices.find((v) => isFemaleVoice(v)) ||
+    chineseVoices.find((v) => v.lang === 'zh-TW') ||
+    chineseVoices.find((v) => v.lang === 'zh-HK') ||
+    chineseVoices.find((v) => v.lang === 'zh-CN') ||
+    chineseVoices[0] ||
     null
   );
 }

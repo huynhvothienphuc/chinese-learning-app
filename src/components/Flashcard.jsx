@@ -50,7 +50,7 @@ export default function Flashcard({
           }}
         >
           <Languages className="h-4 w-4" />
-          {showPinyin ? t.hidePinyin : t.showPinyin}
+          <span className="hidden sm:inline">{showPinyin ? t.hidePinyin : t.showPinyin}</span>
         </Button>
         <Button
           type="button"
@@ -63,7 +63,7 @@ export default function Flashcard({
           }}
         >
           {showMeaning ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-          {showMeaning ? t.hideMeaning : t.showMeaning}
+          <span className="hidden sm:inline">{showMeaning ? t.hideMeaning : t.showMeaning}</span>
         </Button>
         <Button
           type="button"
@@ -76,7 +76,7 @@ export default function Flashcard({
           }}
         >
           <Heart className={cn('h-4 w-4', isFavorite && 'fill-current')} />
-          {isFavorite ? t.savedWords : t.addFavorite}
+          <span className="hidden sm:inline">{isFavorite ? t.savedWords : t.addFavorite}</span>
         </Button>
         <Button
           type="button"
@@ -90,14 +90,14 @@ export default function Flashcard({
           }}
         >
           <Shuffle className="h-4 w-4" />
-          {isShuffled ? t.resetOrder : t.mix}
+          <span className="hidden sm:inline">{isShuffled ? t.resetOrder : t.mix}</span>
         </Button>
       </div>
 
       <div
         role="button"
         tabIndex={0}
-        className="flashcard-scene block h-[460px] w-full cursor-pointer text-left sm:h-[520px]"
+        className="flashcard-scene block h-[380px] w-full cursor-pointer text-left focus:outline-none sm:h-[460px] lg:h-[520px]"
         onClick={onFlip}
         onKeyDown={(event) => {
           if (event.key === 'Enter' || event.key === ' ') {

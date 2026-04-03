@@ -14,32 +14,25 @@ export function shuffleArray(items) {
   return next;
 }
 
+function pickByLanguage(primary, fallback, fallbackLabel) {
+  const p = String(primary || '').trim();
+  if (p) return p;
+  const f = String(fallback || '').trim();
+  return f ? `${fallbackLabel}: ${f}` : '';
+}
+
 export function getItemMeaning(item, language = 'en') {
   if (!item) return '';
-  if (language === 'vi') {
-    const vi = String(item.vietnamese || item.meaning?.vi || '').trim();
-    if (vi) return vi;
-    const en = String(item.english || item.meaning?.en || '').trim();
-    return en ? `English: ${en}` : '';
-  }
-  const en = String(item.english || item.meaning?.en || '').trim();
-  if (en) return en;
-  const vi = String(item.vietnamese || item.meaning?.vi || '').trim();
-  return vi ? `Tiếng Việt: ${vi}` : '';
+  return language === 'vi'
+    ? pickByLanguage(item.vietnamese || item.meaning?.vi, item.english || item.meaning?.en, 'English')
+    : pickByLanguage(item.english || item.meaning?.en, item.vietnamese || item.meaning?.vi, 'Tiếng Việt');
 }
 
 export function getSentenceMeaning(item, language = 'en') {
   if (!item) return '';
-  if (language === 'vi') {
-    const vi = String(item.sentenceVietnamese || item.translation?.vi || '').trim();
-    if (vi) return vi;
-    const en = String(item.sentenceEnglish || item.translation?.en || '').trim();
-    return en ? `English: ${en}` : '';
-  }
-  const en = String(item.sentenceEnglish || item.translation?.en || '').trim();
-  if (en) return en;
-  const vi = String(item.sentenceVietnamese || item.translation?.vi || '').trim();
-  return vi ? `Tiếng Việt: ${vi}` : '';
+  return language === 'vi'
+    ? pickByLanguage(item.sentenceVietnamese || item.translation?.vi, item.sentenceEnglish || item.translation?.en, 'English')
+    : pickByLanguage(item.sentenceEnglish || item.translation?.en, item.sentenceVietnamese || item.translation?.vi, 'Tiếng Việt');
 }
 
 export function normalizeVocabularyItems(items) {

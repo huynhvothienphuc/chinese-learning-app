@@ -1,16 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import {
-  ArrowLeft,
-  ArrowRight,
-  BookHeart,
-  Heart,
-  Moon,
-  Sun,
-  Upload,
-} from 'lucide-react';
+import { ArrowLeft, ArrowRight, Heart, Moon, Sun, Upload, Wand2 } from 'lucide-react';
+import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import FavoritesPanel from '@/components/FavoritesPanel';
 import Flashcard from '@/components/Flashcard';
 import Quiz from '@/components/Quiz';
+import WordListView from '@/components/WordListView';
+import MyQuizPage from '@/components/MyQuizPage';
 import UploadGuide from '@/components/UploadGuide';
 import StudyDeckPanel from '@/components/StudyDeckPanel';
 import StudyModeTabs from '@/components/StudyModeTabs';
@@ -95,7 +90,10 @@ export default function App() {
   const [selectedBook, setSelectedBook] = useState('');
   const [sections, setSections] = useState([]);
   const [selectedSection, setSelectedSection] = useState('');
-  const [selectedLanguage, setSelectedLanguage] = useState('en');
+  const [selectedLanguage, setSelectedLanguage] = useState(() => {
+    const saved = localStorage.getItem(SESSION_LANGUAGE_KEY);
+    return saved && localeMap[saved] ? saved : 'en';
+  });
   const [vocabulary, setVocabulary] = useState([]);
   const [originalVocabulary, setOriginalVocabulary] = useState([]);
   const [uploadedLessons, setUploadedLessons] = useState([]);
@@ -112,10 +110,12 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
   const [uploadError, setUploadError] = useState('');
-  const [favorites, setFavorites] = useState([]);
+  const [favorites, setFavorites] = useLocalStorageState(FAVORITES_STORAGE_KEY, []);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [customQuizWords, setCustomQuizWords] = useState(null);
+  const [customQuizPool, setCustomQuizPool] = useState(null);
   const [lastUploadedName, setLastUploadedName] = useState('');
-  const [isDarkMode, setIsDarkMode] = useState(() => localStorage.getItem('dark-mode') === 'true');
+  const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
   const fileInputRef = useRef(null);
 
   const t = localeMap[selectedLanguage] || localeMap.en;
@@ -151,23 +151,15 @@ export default function App() {
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', isDarkMode);
-    localStorage.setItem('dark-mode', isDarkMode);
   }, [isDarkMode]);
-
-  useEffect(() => {
-    initGoogleAnalytics();
-  }, []);
-
-  useEffect(() => {
-    const savedLanguage = localStorage.getItem(SESSION_LANGUAGE_KEY);
-    if (savedLanguage && localeMap[savedLanguage]) {
-      setSelectedLanguage(savedLanguage);
-    }
-  }, []);
 
   useEffect(() => {
     localStorage.setItem(SESSION_LANGUAGE_KEY, selectedLanguage);
   }, [selectedLanguage]);
+
+  useEffect(() => {
+    initGoogleAnalytics();
+  }, []);
 
   useEffect(() => {
     async function loadInitialData() {
@@ -180,6 +172,7 @@ export default function App() {
           Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
         ]);
 
+        if (!booksResponse.ok) throw new Error('Failed to load books');
         const booksData = await booksResponse.json();
         const normalizedUploads = normalizeUploadedLessons(savedUploadsRaw);
 
@@ -212,24 +205,6 @@ export default function App() {
     return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
   }, [t.uploadBooksError]);
 
-  useEffect(() => {
-    try {
-      const savedFavorites = localStorage.getItem(FAVORITES_STORAGE_KEY);
-      if (savedFavorites) {
-        setFavorites(JSON.parse(savedFavorites));
-      }
-    } catch {
-      setFavorites([]);
-    }
-  }, []);
-
-  useEffect(() => {
-    try {
-      localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favorites));
-    } catch {
-      // ignore localStorage write errors
-    }
-  }, [favorites]);
 
   useEffect(() => {
     if (!books.length) return;
@@ -265,6 +240,7 @@ export default function App() {
             .sort((a, b) => a.title.localeCompare(b.title));
         } else {
           const response = await fetch(`/data/books/${selectedBook}/sections.json`);
+          if (!response.ok) throw new Error('Failed to load sections');
           const data = await response.json();
           nextSections = data.map((section) => ({
             ...section,
@@ -318,6 +294,7 @@ export default function App() {
           parsed = uploadedLessons.find((lesson) => lesson.id === selectedSection)?.items || [];
         } else {
           const response = await fetch(`/data/books/${selectedBook}/${selectedSection}`);
+          if (!response.ok) throw new Error('Failed to load vocabulary');
           const data = await response.json();
           parsed = normalizeVocabularyItems(data?.items || data);
         }
@@ -355,7 +332,7 @@ export default function App() {
     [favorites],
   );
 
-  const activeVocabulary = deckSource === 'favorites' ? favoriteVocabulary : vocabulary;
+  const activeVocabulary = customQuizWords ?? (deckSource === 'favorites' ? favoriteVocabulary : vocabulary);
 
   useEffect(() => {
     if (mode !== 'flashcard' || activeView !== 'learn') return undefined;
@@ -389,14 +366,13 @@ export default function App() {
   }, [activeView, activeVocabulary.length, currentIndex, mode]);
 
   const currentItem = activeVocabulary[currentIndex];
-  const selectedBookMeta = books.find((book) => book.id === selectedBook);
-  const currentSectionMeta = sections.find((section) => section.file === selectedSection);
+  const selectedBookMeta = useMemo(() => books.find((book) => book.id === selectedBook), [books, selectedBook]);
+  const currentSectionMeta = useMemo(() => sections.find((section) => section.file === selectedSection), [sections, selectedSection]);
   const sectionLabel = currentSectionMeta?.title || formatSectionName(selectedSection || '');
   const bookLabel = selectedBookMeta?.title || t.userUploadBook;
   const showNoData = !isLoading && !error && activeView === 'learn' && activeVocabulary.length === 0;
   const favoriteCount = favorites.length;
-  const headerSourceLabel = deckSource === 'favorites' ? t.sourceFavoriteWords : t.sourceAllWords;
-  const activeTab = mode === 'quiz' ? 'quiz' : deckSource === 'favorites' ? 'review' : 'flashcard';
+  const activeTab = mode === 'quiz' ? 'quiz' : mode === 'review' ? 'review' : 'flashcard';
 
   function getFavoriteKey(item, section = selectedSection) {
     return `${selectedBook}__${section}__${item.chinese}__${item.pinyin}`;
@@ -464,16 +440,6 @@ export default function App() {
     trackEvent('start_quiz', { source: deckSource, book_id: selectedBook, section_id: selectedSection });
   }
 
-  function startReviewFavorites() {
-    if (favorites.length === 0) return;
-    setIsFavoritesOpen(false);
-    setActiveView('learn');
-    setMode('flashcard');
-    setDeckSource('favorites');
-    resetInteractiveState();
-    trackEvent('start_review_favorites');
-  }
-
   function startQuizFavorites() {
     if (favorites.length === 0) return;
     setIsFavoritesOpen(false);
@@ -485,15 +451,8 @@ export default function App() {
   }
 
   function handleModeTabChange(nextTab) {
-    if (nextTab === 'favorites') {
-      setIsFavoritesOpen(true);
-      return;
-    }
-
-    if (nextTab === 'review') {
-      startReviewFavorites();
-      return;
-    }
+    setCustomQuizWords(null);
+    setCustomQuizPool(null);
 
     if (nextTab === 'quiz') {
       setDeckSource('all');
@@ -503,12 +462,20 @@ export default function App() {
       return;
     }
 
+    if (nextTab === 'review') {
+      setMode('review');
+      setActiveView('learn');
+      return;
+    }
+
     startFlashcards();
   }
 
-  function handleSourceChange(nextSource) {
-    setDeckSource(nextSource);
-    setMode((prev) => (prev === 'quiz' ? 'quiz' : 'flashcard'));
+  function handleStartCustomQuiz(words, pool) {
+    setCustomQuizWords(words);
+    setCustomQuizPool(pool);
+    setActiveView('learn');
+    setMode('quiz');
     resetInteractiveState();
   }
 
@@ -649,6 +616,10 @@ export default function App() {
                   <Upload className="h-4 w-4" />
                   {t.uploadLesson}
                 </Button>
+                <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('myquiz')}>
+                  <Wand2 className="h-4 w-4" />
+                  <span className="hidden sm:inline">{t.myQuizTitle}</span>
+                </Button>
                 <div className="min-w-[170px]">
                   <Select className="w-[170px] min-w-[170px]" value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
                     {languageOptions.map((language) => (
@@ -656,6 +627,11 @@ export default function App() {
                     ))}
                   </Select>
                 </div>
+                <Button type="button" variant="outline" className="gap-2" onClick={() => setIsFavoritesOpen(true)}>
+                  <Heart className="h-4 w-4" />
+                  {favoriteCount > 0 && <span className="rounded-full bg-rose-100 px-1.5 py-0.5 text-xs font-bold text-rose-600 dark:bg-rose-900/40 dark:text-rose-400">{favoriteCount}</span>}
+                  <span className="hidden sm:inline">{t.favoriteList}</span>
+                </Button>
                 <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                   {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                 </Button>
@@ -666,7 +642,16 @@ export default function App() {
 
         <input ref={fileInputRef} type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" className="hidden" onChange={handleUploadFile} />
 
-        {activeView === 'upload' ? (
+        {activeView === 'myquiz' ? (
+          <MyQuizPage
+            books={books}
+            uploadedLessons={uploadedLessons}
+            favoriteVocabulary={favoriteVocabulary}
+            onStart={handleStartCustomQuiz}
+            onBack={() => setActiveView('learn')}
+            t={t}
+          />
+        ) : activeView === 'upload' ? (
           <UploadGuide
             onBackToLearn={() => setActiveView('learn')}
             onOpenPicker={() => fileInputRef.current?.click()}
@@ -679,20 +664,14 @@ export default function App() {
           <>
             <StudyDeckPanel
               t={t}
-              canUseFavorites={favoriteCount > 0}
               books={books}
               selectedBook={selectedBook}
               onBookChange={setSelectedBook}
               sections={sections}
               selectedSection={selectedSection}
               onSectionChange={setSelectedSection}
-              source={deckSource}
-              onSourceChange={handleSourceChange}
-              deckCount={activeVocabulary.length}
               lessonCount={vocabulary.length}
               favoriteCount={favoriteCount}
-              currentIndex={currentIndex}
-              mode={mode}
             />
 
             <StudyModeTabs t={t} activeTab={activeTab} onChange={handleModeTabChange} />
@@ -711,7 +690,15 @@ export default function App() {
               </Card>
             ) : (
               <div className="space-y-5">
-                {mode === 'flashcard' ? (
+                {mode === 'review' ? (
+                  <WordListView
+                    vocabulary={vocabulary}
+                    isFavorite={isFavorite}
+                    onToggleFavorite={toggleFavorite}
+                    language={selectedLanguage}
+                    t={t}
+                  />
+                ) : mode === 'flashcard' ? (
                   <>
                     <Flashcard
                       item={currentItem}
@@ -749,7 +736,7 @@ export default function App() {
                           </div>
                         </div>
 
-                        <div className="rounded-3xl border border-dashed border-green-200 bg-green-50/50 px-4 py-3 text-center text-sm text-green-600 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
+                        <div className="hidden md:block rounded-3xl border border-dashed border-green-200 bg-green-50/50 px-4 py-3 text-center text-sm text-green-600 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
                           {'['} {t.previous}<span className="font-semibold px-2">←</span> {']'}
                           {'['} {t.next} <span className="font-semibold px-2">→</span>{']'}
                           {'['} {t.flipLabel} <span className="font-semibold px-2">↑</span>{']'}
@@ -760,7 +747,7 @@ export default function App() {
                 ) : (
                   <Quiz
                     vocabulary={activeVocabulary}
-                    choicePool={deckSource === 'favorites' ? vocabulary : undefined}
+                    choicePool={customQuizPool ?? (deckSource === 'favorites' ? vocabulary : undefined)}
                     currentIndex={currentIndex}
                     answeredQuestion={answeredQuestion}
                     onAnswer={handleAnswer}
@@ -796,7 +783,6 @@ export default function App() {
         favorites={favorites}
         onClose={() => setIsFavoritesOpen(false)}
         onRemove={removeFavorite}
-        onStudyFavorites={startReviewFavorites}
         onQuizFavorites={startQuizFavorites}
         language={selectedLanguage}
         t={t}
