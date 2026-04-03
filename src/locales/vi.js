@@ -21,7 +21,7 @@ export default {
   noData: 'Không có dữ liệu trong bộ thẻ này.',
   previous: 'Trước',
   next: 'Tiếp',
-  madeBy: 'Tác giả: Phúc Huỳnh & Thục Quyên (Winnie)',
+  madeBy: 'Tác giả: Phúc Huỳnh & Thục Quyên (Winnie) & Minh Châu',
   noSections: 'Không có bài học',
   comingSoon: 'Sắp có',
   multipleChoice: 'Trắc nghiệm',
