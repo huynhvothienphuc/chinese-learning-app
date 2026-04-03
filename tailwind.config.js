@@ -45,7 +45,7 @@ export default {
         'float-in': 'floatIn 0.35s ease-out',
       },
       boxShadow: {
-        soft: '0 18px 50px -18px rgba(59, 130, 246, 0.25)',
+        soft: '0 18px 50px -18px rgba(80, 160, 100, 0.2)',
       },
     },
   },

@@ -20,7 +20,7 @@ export default function QuickInfoPanel({
       <Card className="border-white/60 bg-white/90 shadow-soft">
         <CardHeader className="pb-4">
           <CardTitle className="flex items-center gap-2 text-lg font-black text-slate-900">
-            <Info className="h-5 w-5 text-blue-500" />
+            <Info className="h-5 w-5 text-green-600" />
             {t.quickInfoTitle}
           </CardTitle>
         </CardHeader>

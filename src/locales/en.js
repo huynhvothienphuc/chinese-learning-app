@@ -21,7 +21,7 @@ export default {
   noData: 'No data found in this deck.',
   previous: 'Previous',
   next: 'Next',
-  madeBy: 'Made by Phuc Huynh - 黃武天福',
+  madeBy: 'Made by Phuc Huynh & Thuc Quyen (Winnie) ',
   noSections: 'No lessons',
   comingSoon: 'Coming soon',
   multipleChoice: 'Multiple choice',

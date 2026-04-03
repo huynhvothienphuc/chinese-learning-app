@@ -631,9 +631,9 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,rgba(167,139,250,0.2),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(147,197,253,0.15),transparent_55%),linear-gradient(160deg,#fdfbff_0%,#eef0ff_50%,#ecfeff_100%)] px-4 py-4 text-slate-900 dark:bg-slate-950 dark:bg-none dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
+    <div className="min-h-screen bg-white px-4 py-4 text-slate-900 dark:bg-slate-950 dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-7xl flex-col gap-6">
-        <Card className="border-white/60 bg-white/90 shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
+        <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
               <button type="button" onClick={() => setActiveView('learn')} className="flex items-center gap-4 text-left">
@@ -730,7 +730,7 @@ export default function App() {
                       t={t}
                     />
 
-                    <Card className="border-white/60 bg-white/90 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+                    <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
                       <CardContent className="space-y-4 p-4 sm:p-5">
                         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
                           <Button onClick={handlePrevious} disabled={currentIndex === 0} className="w-full gap-2 md:w-auto" variant={currentIndex === activeVocabulary.length - 1 ? 'default' : 'outline'}>
@@ -738,7 +738,7 @@ export default function App() {
                             {t.previous}
                           </Button>
 
-                          <div className="rounded-full bg-violet-100 px-5 py-2 text-sm font-semibold text-violet-700 dark:bg-slate-700 dark:text-slate-300">
+                          <div className="rounded-full bg-green-100 px-5 py-2 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
                             {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
                           </div>
 
@@ -753,7 +753,7 @@ export default function App() {
                           </div>
                         </div>
 
-                        <div className="rounded-3xl border border-dashed border-violet-200 bg-violet-50/50 px-4 py-3 text-center text-sm text-violet-500 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
+                        <div className="rounded-3xl border border-dashed border-green-200 bg-green-50/50 px-4 py-3 text-center text-sm text-green-600 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
                           {'['} {t.previous}<span className="font-semibold px-2">←</span> {']'}
                           {'['} {t.next} <span className="font-semibold px-2">→</span>{']'}
                           {'['} {t.flipLabel} <span className="font-semibold px-2">↑</span>{']'}
@@ -788,7 +788,7 @@ export default function App() {
         <footer className="mt-auto border-t border-slate-200/80 py-6 text-center text-sm text-slate-500 dark:border-slate-700/80">
           <div className="flex flex-wrap items-center justify-center gap-2">
             <Heart className="h-4 w-4 fill-green-500 text-green-500" />
-            <span className="font-medium">{t.madeBy} ^^</span>
+            <span className="font-medium">{t.madeBy}</span>
             <span className="text-slate-400">·</span>
             <span>{APP_VERSION}</span>
           </div>

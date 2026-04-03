@@ -5,16 +5,16 @@ import SectionSelector from '@/components/SectionSelector';
 
 function StatPill({ icon: Icon, label, value, tone = 'slate' }) {
   const toneMap = {
-    slate: 'bg-indigo-100/70 text-indigo-700 dark:bg-slate-700 dark:text-slate-200',
-    rose: 'bg-rose-100/70 text-rose-600 dark:bg-rose-950/40 dark:text-rose-300',
-    emerald: 'bg-teal-100/70 text-teal-700 dark:bg-emerald-950/40 dark:text-emerald-300',
+    slate: 'bg-white text-green-600 dark:bg-slate-700 dark:text-slate-200',
+    rose: 'bg-white text-rose-500 dark:bg-rose-950/40 dark:text-rose-300',
+    emerald: 'bg-white text-teal-600 dark:bg-emerald-950/40 dark:text-emerald-300',
   };
 
   return (
     <div className={`inline-flex items-center gap-2 rounded-2xl px-3 py-2 text-sm font-semibold ${toneMap[tone] || toneMap.slate}`}>
       <Icon className="h-4 w-4" />
       <span>{label}</span>
-      <span className="rounded-full bg-white/80 px-2 py-0.5 text-xs font-bold dark:bg-slate-900/60 dark:text-white">{value}</span>
+      <span className="rounded-full bg-[#ECFAE5] px-2 py-0.5 text-xs font-bold dark:bg-slate-900/60 dark:text-white">{value}</span>
     </div>
   );
 }
@@ -39,7 +39,7 @@ export default function StudyDeckPanel({
   const remaining = Math.max(deckCount - (mode === 'quiz' || mode === 'flashcard' ? currentIndex + 1 : 0), 0);
 
   return (
-    <Card className="animate-float-in border-white/60 bg-white/90 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+    <Card className="animate-float-in border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
       <CardContent className="space-y-5 p-4 sm:p-5">
         <div className="grid gap-4 lg:grid-cols-[minmax(180px,0.9fr)_minmax(260px,1.2fr)_minmax(180px,0.9fr)]">
           <div className="space-y-2">

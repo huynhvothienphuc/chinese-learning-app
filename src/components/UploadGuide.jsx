@@ -40,14 +40,14 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
     <div className="space-y-6 animate-float-in">
       <Card className="overflow-hidden border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
         <CardHeader className="space-y-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-blue-500">{t.uploadLesson}</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.uploadLesson}</p>
           <CardTitle className="text-3xl font-black text-slate-900 dark:text-white">{t.uploadTitle}</CardTitle>
           <CardDescription className="max-w-3xl text-base leading-7">{t.uploadDescription}</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {steps.map(({ icon: Icon, title, description }) => (
-            <div key={title} className="rounded-3xl border border-violet-100 bg-violet-50/50 p-5 dark:border-slate-600 dark:bg-slate-700">
-              <div className="mb-4 inline-flex rounded-2xl bg-blue-100 p-3 text-blue-600 dark:bg-blue-900/40 dark:text-blue-400">
+            <div key={title} className="rounded-3xl border border-green-100 bg-green-50/50 p-5 dark:border-slate-600 dark:bg-slate-700">
+              <div className="mb-4 inline-flex rounded-2xl bg-green-100 p-3 text-green-700 dark:bg-blue-900/40 dark:text-blue-400">
                 <Icon className="h-5 w-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 dark:text-white">{title}</h3>
@@ -64,15 +64,15 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
             <CardDescription>{t.requiredColumnsHelp}</CardDescription>
           </CardHeader>
           <CardContent className="space-y-5">
-            <div className="rounded-3xl border border-violet-100 bg-violet-50/50 p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-violet-500 dark:text-slate-400">{t.columnHeaderLabel}</p>
+            <div className="rounded-3xl border border-green-100 bg-green-50/50 p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-green-600 dark:text-slate-400">{t.columnHeaderLabel}</p>
               <div className="flex flex-wrap gap-2">
                 {columns.map((column) => (
                   <span
                     key={column.key}
                     className={`rounded-full px-3 py-2 text-xs font-semibold ${
                       column.required
-                        ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300'
+                        ? 'bg-green-100 text-green-700 dark:bg-blue-900/40 dark:text-blue-300'
                         : 'bg-slate-100 text-slate-600 dark:bg-slate-600 dark:text-slate-300'
                     }`}
                   >
@@ -83,8 +83,8 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
               </div>
             </div>
 
-            <div className="rounded-3xl border border-violet-100 bg-violet-50/50 p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-violet-500 dark:text-slate-400">{t.sampleRows}</p>
+            <div className="rounded-3xl border border-green-100 bg-green-50/50 p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-green-600 dark:text-slate-400">{t.sampleRows}</p>
               <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white dark:border-slate-600 dark:bg-slate-800">
                 <table className="min-w-full text-left text-sm text-slate-700 dark:text-slate-200">
                   <thead className="bg-slate-100 text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-700 dark:text-slate-400">
@@ -132,9 +132,9 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
                 {t.uploadLessonFile}
               </Button>
 
-              <div className="rounded-3xl bg-blue-50 p-4 text-sm text-blue-800 dark:bg-blue-900/30 dark:text-blue-300">
+              <div className="rounded-3xl bg-green-50 p-4 text-sm text-green-800 dark:bg-blue-900/30 dark:text-blue-300">
                 <p className="font-semibold">{t.uploadRules}</p>
-                <ul className="mt-2 space-y-2 text-blue-700 dark:text-blue-400">
+                <ul className="mt-2 space-y-2 text-green-700 dark:text-blue-400">
                   <li>• {t.xlsxOnly}</li>
                   <li>• {t.maxSize}: {maxUploadLabel}</li>
                   <li>• {t.savedInBrowser}</li>

@@ -21,7 +21,7 @@ export default {
   noData: 'Không có dữ liệu trong bộ thẻ này.',
   previous: 'Trước',
   next: 'Tiếp',
-  madeBy: 'Made by Phuc Huynh - 黃武天福',
+  madeBy: 'Tác giả: Phúc Huỳnh & Thục Quyên (Winnie)',
   noSections: 'Không có bài học',
   comingSoon: 'Sắp có',
   multipleChoice: 'Trắc nghiệm',

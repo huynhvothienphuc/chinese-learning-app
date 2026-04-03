@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { CheckCircle2, CircleX, Heart, Trophy } from 'lucide-react';
 import SpeakButton from '@/components/SpeakButton';
 import { Button } from '@/components/ui/button';
@@ -23,7 +23,7 @@ function ChoiceButton({ choice, label, isAnswered, isCorrect, isWrongSelection, 
       )}
     >
       <div className="flex items-start gap-4">
-        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-indigo-100 text-sm font-black text-indigo-700 dark:bg-slate-600 dark:text-slate-100">
+        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-green-100 text-sm font-black text-green-700 dark:bg-slate-600 dark:text-slate-100">
           {label}
         </div>
 
@@ -56,9 +56,9 @@ function Summary({ totalQuestions, score, wrongAnswers, onRestart, t, language }
           <CardDescription>{t.greatWork}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
-          <div className="rounded-3xl bg-indigo-50/60 p-5 text-center dark:bg-slate-700">
+          <div className="rounded-3xl bg-green-50/60 p-5 text-center dark:bg-slate-700">
             <p className="text-4xl font-black text-slate-900 dark:text-slate-100">{score.correct} / {totalQuestions}</p>
-            <p className="mt-2 text-lg font-semibold text-blue-600">{percentage}% {t.correct}</p>
+            <p className="mt-2 text-lg font-semibold text-green-700">{percentage}% {t.correct}</p>
           </div>
           <Button className="w-full" onClick={onRestart}>
             {t.startNewQuiz}
@@ -79,7 +79,7 @@ function Summary({ totalQuestions, score, wrongAnswers, onRestart, t, language }
           ) : (
             <div className="max-h-96 space-y-4 overflow-y-auto pr-1">
               {wrongAnswers.map(({ item, selectedAnswer }) => (
-                <div key={`${item.id}-${selectedAnswer}`} className="rounded-3xl border border-violet-100 bg-violet-50/40 p-4 dark:border-slate-600 dark:bg-slate-700">
+                <div key={`${item.id}-${selectedAnswer}`} className="rounded-3xl border border-green-100 bg-green-50/40 p-4 dark:border-slate-600 dark:bg-slate-700">
                   <p className="text-lg font-bold text-slate-900 dark:text-slate-100">
                     {item.pinyin} <span className="font-medium text-slate-500">({getItemMeaning(item, language)})</span>
                   </p>
@@ -118,11 +118,16 @@ export default function Quiz({
   deckSource = 'all',
   t,
 }) {
+  const cardRef = useRef(null);
   const currentItem = vocabulary[currentIndex];
   const choices = useMemo(() => {
     if (!currentItem) return [];
     return buildQuizChoices(choicePool || vocabulary, currentItem);
   }, [currentItem, vocabulary, choicePool]);
+
+  useEffect(() => {
+    cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [currentIndex]);
 
   if (isComplete) {
     return <Summary totalQuestions={vocabulary.length} score={score} wrongAnswers={wrongAnswers} onRestart={onRestart} t={t} language={language} />;
@@ -136,44 +141,49 @@ export default function Quiz({
   const isLastQuestion = currentIndex === vocabulary.length - 1;
 
   return (
-    <Card className="overflow-hidden border-white/60 bg-white/95 shadow-lg animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
-      <CardHeader className="space-y-5 border-b border-slate-100 bg-white/80 dark:border-slate-700 dark:bg-slate-800/70">
+    <Card ref={cardRef} className="overflow-hidden border-[#CAE8BD] bg-[#ECFAE5] shadow-lg animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
+      <CardHeader className="space-y-5 border-b border-[#CAE8BD] bg-[#ECFAE5] dark:border-slate-700 dark:bg-slate-800/70">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-700 dark:bg-blue-900/40 dark:text-blue-300">{t.quizInstructionLabel}</span>
-          <span className="rounded-full bg-violet-100/70 px-3 py-1 text-xs font-semibold text-violet-600 dark:bg-slate-700 dark:text-slate-300">{deckSource === 'favorites' ? t.sourceFavoriteWords : t.sourceAllWords}</span>
-          <span className="rounded-full bg-violet-100/70 px-3 py-1 text-xs font-semibold text-violet-600 dark:bg-slate-700 dark:text-slate-300">{t.score}: {score.correct}/{score.total}</span>
+          <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700 dark:bg-blue-900/40 dark:text-blue-300">{t.quizInstructionLabel}</span>
+          <span className="rounded-full bg-green-100/70 px-3 py-1 text-xs font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">{deckSource === 'favorites' ? t.sourceFavoriteWords : t.sourceAllWords}</span>
+          <span className="rounded-full bg-green-100/70 px-3 py-1 text-xs font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">{t.score}: {score.correct}/{score.total}</span>
         </div>
 
         <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
           <div className="space-y-3">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-blue-500">{t.quizTab}</p>
-              <CardTitle className="mt-3 text-3xl font-black text-blue-600 md:text-4xl">{currentItem.pinyin}</CardTitle>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.quizTab}</p>
+              <CardTitle className="mt-3 text-3xl font-black text-green-700 md:text-4xl">{currentItem.pinyin}</CardTitle>
               <CardDescription className="mt-2 text-base">{getItemMeaning(currentItem, language)}</CardDescription>
             </div>
             <p className="text-sm text-slate-500">{t.quizInstructionText}</p>
           </div>
 
-          <div className="flex items-center gap-2 self-start">
-            <div className="rounded-full bg-violet-100/70 px-4 py-2 text-sm font-semibold text-violet-600 dark:bg-slate-700 dark:text-slate-300">
-              {currentIndex + 1} / {vocabulary.length}
+          <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-end md:justify-between md:self-stretch">
+            <div className="flex items-center gap-2">
+              <div className="rounded-full bg-green-100/70 px-4 py-2 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+                {currentIndex + 1} / {vocabulary.length}
+              </div>
+              <Button
+                type="button"
+                variant="outline"
+                size="icon"
+                className={cn(isFavorite && 'border-rose-200 bg-rose-50 text-rose-600 dark:border-rose-800 dark:bg-rose-900/30 dark:text-rose-400')}
+                onClick={onToggleFavorite}
+                aria-label={isFavorite ? t.removeFavorite : t.addFavorite}
+              >
+                <Heart className={cn('h-4 w-4', isFavorite && 'fill-current')} />
+              </Button>
+              <SpeakButton text={currentItem.chinese} label={t.speakQuizAnswer} size="icon" variant="outline" />
             </div>
-            <Button
-              type="button"
-              variant="outline"
-              size="icon"
-              className={cn(isFavorite && 'border-rose-200 bg-rose-50 text-rose-600 dark:border-rose-800 dark:bg-rose-900/30 dark:text-rose-400')}
-              onClick={onToggleFavorite}
-              aria-label={isFavorite ? t.removeFavorite : t.addFavorite}
-            >
-              <Heart className={cn('h-4 w-4', isFavorite && 'fill-current')} />
-            </Button>
-            <SpeakButton text={currentItem.chinese} label={t.speakQuizAnswer} size="icon" variant="outline" />
+            {isAnswered ? (
+              <Button className="md:mt-4" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
+            ) : null}
           </div>
         </div>
       </CardHeader>
 
-      <CardContent className="space-y-6 p-4 sm:p-6">
+      <CardContent className="space-y-6 bg-[#ECFAE5] p-4 sm:p-6 dark:bg-slate-800/90">
         <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
           {choices.map((choice, index) => {
             const choiceIsCorrect = isAnswered && choice.id === currentItem.id;
@@ -194,27 +204,6 @@ export default function Quiz({
           })}
         </div>
 
-        {isAnswered ? (
-          <div className="space-y-4 rounded-3xl border border-violet-100 bg-violet-50/40 p-5 dark:border-slate-600 dark:bg-slate-700/50">
-            <div className={cn('flex items-center gap-2 text-lg font-bold', isCorrect ? 'text-emerald-700' : 'text-rose-700')}>
-              {isCorrect ? <CheckCircle2 className="h-5 w-5" /> : <CircleX className="h-5 w-5" />}
-              {isCorrect ? t.correct : t.incorrect}
-            </div>
-
-            <div className="rounded-2xl bg-white p-4 dark:bg-slate-700">
-              <div className="mb-3 flex items-center justify-between gap-3">
-                <p className="font-semibold text-slate-900 dark:text-slate-100">{t.exampleSentence}</p>
-                <SpeakButton text={currentItem.sentenceChinese} label={t.speakSentence} size="icon" variant="secondary" />
-              </div>
-              <p className="font-semibold text-slate-900 dark:text-slate-100 break-words">{currentItem.sentenceChinese}</p>
-              <p className="mt-1 text-sm text-slate-500 break-words">{getSentenceMeaning(currentItem, language)}</p>
-            </div>
-
-            <div className="flex justify-end">
-              <Button onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
-            </div>
-          </div>
-        ) : null}
       </CardContent>
     </Card>
   );

@@ -38,7 +38,7 @@ export default function Flashcard({
 
   return (
     <div className="mx-auto w-full max-w-5xl">
-      <div className="mb-4 flex flex-wrap items-center justify-end gap-2 rounded-3xl border border-white/60 bg-white/85 px-4 py-3 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/85">
+      <div className="mb-4 flex flex-wrap items-center justify-end gap-2 rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] px-4 py-3 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/85">
         <Button
           type="button"
           variant="outline"
@@ -107,7 +107,7 @@ export default function Flashcard({
         }}
       >
         <div className={`flashcard-inner ${flipped ? 'is-flipped' : ''}`}>
-          <Card className="flashcard-face flashcard-front rounded-[2rem] border-white/60 bg-white shadow-xl dark:border-slate-700/60 dark:bg-slate-800">
+          <Card className="flashcard-face flashcard-front rounded-[2rem] border-[#CAE8BD] bg-[#ECFAE5] shadow-xl dark:border-slate-700/60 dark:bg-slate-800">
             <div className="relative flex h-full flex-col items-center justify-center px-6 text-center sm:px-8">
               <div className="flex max-w-full flex-wrap items-center justify-center gap-3">
                 <div className={cn('break-words text-6xl font-black text-slate-900 dark:text-slate-100 sm:text-7xl md:text-8xl', !flipped && 'animate-text-zoom')}>{item.chinese}</div>
@@ -119,32 +119,32 @@ export default function Flashcard({
             </div>
           </Card>
 
-          <Card className="flashcard-face flashcard-back rounded-[2rem] border-0 bg-gradient-to-br from-blue-500 via-blue-600 to-sky-600 text-white shadow-xl dark:from-blue-800 dark:via-blue-900 dark:to-slate-800">
+          <Card className="flashcard-face flashcard-back rounded-[2rem] border-[#CAE8BD] bg-[#DDF6D2] shadow-xl dark:border-slate-700/60 dark:bg-slate-800">
             <div className="flex h-full flex-col justify-between gap-5 p-5 sm:p-6 md:p-8">
               <div className="min-h-0 space-y-5">
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-3">
-                    <h3 className="break-words text-4xl font-black text-white sm:text-5xl">{item.chinese}</h3>
-                    <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="secondary" className="shrink-0" />
+                    <h3 className="break-words text-4xl font-black text-slate-800 sm:text-5xl dark:text-slate-100">{item.chinese}</h3>
+                    <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="outline" className="shrink-0" />
                   </div>
-                  {showPinyin ? <p className="mt-2 break-words text-lg font-medium text-blue-100 sm:text-xl">{item.pinyin}</p> : null}
-                  {showMeaning ? <p className="mt-3 break-words text-lg font-medium text-blue-50 sm:text-xl">{meaning}</p> : null}
+                  {showPinyin ? <p className="mt-2 break-words text-lg font-medium text-slate-600 sm:text-xl dark:text-slate-300">{item.pinyin}</p> : null}
+                  {showMeaning ? <p className="mt-3 break-words text-lg font-medium text-slate-700 sm:text-xl dark:text-slate-200">{meaning}</p> : null}
                 </div>
 
-                <div className="rounded-3xl border border-white/20 bg-white/10 p-4 backdrop-blur-sm sm:p-5">
+                <div className="rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700/50">
                   <div className="mb-3 flex items-center justify-between gap-3">
-                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-100">{t.exampleSentence}</p>
-                    <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="secondary" />
+                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-700 dark:text-slate-300">{t.exampleSentence}</p>
+                    <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="outline" />
                   </div>
                   <div className="space-y-3 text-sm sm:text-base md:text-lg">
-                    <p className="break-words font-semibold">{item.sentenceChinese}</p>
-                    {item.sentencePinyin && showPinyin ? <p className="break-words text-blue-100">{item.sentencePinyin}</p> : null}
-                    <p className="break-words border-t border-white/20 pt-3 text-blue-50">{sentenceMeaning}</p>
+                    <p className="break-words font-semibold text-slate-800 dark:text-slate-100">{item.sentenceChinese}</p>
+                    {item.sentencePinyin && showPinyin ? <p className="break-words text-slate-500 dark:text-slate-400">{item.sentencePinyin}</p> : null}
+                    <p className="break-words border-t border-[#CAE8BD] pt-3 text-slate-600 dark:border-slate-600 dark:text-slate-300">{sentenceMeaning}</p>
                   </div>
                 </div>
               </div>
 
-              <p className="mx-auto max-w-full px-2 text-center text-xs leading-5 text-blue-100/90">{t.tapAgainToFlipBack}</p>
+              <p className="mx-auto max-w-full px-2 text-center text-xs leading-5 text-slate-500 dark:text-slate-400">{t.tapAgainToFlipBack}</p>
             </div>
           </Card>
         </div>
