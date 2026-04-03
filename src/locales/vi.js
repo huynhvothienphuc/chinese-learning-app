@@ -1,6 +1,6 @@
 export default {
   appTitle: 'Raccoon Cards',
-  appSubtitle: 'Học, kiểm tra và ôn lại từ vựng yêu thích của bạn.',
+  appSubtitle: 'Dựa trên giáo trình Đương Đại Ngữ Văn (Phồn thể)',
   learn: 'Học',
   uploadLesson: 'Nhập bài học',
   favoriteList: 'Yêu thích',

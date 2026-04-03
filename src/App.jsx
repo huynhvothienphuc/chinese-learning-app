@@ -649,10 +649,6 @@ export default function App() {
                   <Upload className="h-4 w-4" />
                   {t.uploadLesson}
                 </Button>
-                <Button type="button" variant="outline" className="gap-2" onClick={() => setIsFavoritesOpen(true)}>
-                  <BookHeart className="h-4 w-4" />
-                  {t.favoriteList}
-                </Button>
                 <div className="min-w-[170px]">
                   <Select className="w-[170px] min-w-[170px]" value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
                     {languageOptions.map((language) => (

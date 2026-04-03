@@ -1,4 +1,4 @@
-import { BookOpenText, CirclePlay, LayoutList, List, Search, X } from 'lucide-react';
+import { BookOpenText, CirclePlay, Search, X } from 'lucide-react';
 import { useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import { Button } from '@/components/ui/button';
@@ -35,8 +35,8 @@ export default function FavoritesPanel({
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/50 backdrop-blur-sm">
       <div className="flex min-h-full items-end justify-center p-3 sm:items-center sm:p-6">
-        <div className={`w-full overflow-hidden rounded-[2rem] border border-[#CAE8BD] bg-[#ECFAE5] shadow-2xl dark:border-slate-700/60 dark:bg-slate-800 ${fullMode ? 'max-w-7xl' : 'max-w-5xl'}`}>
-          <div className="flex items-center justify-between gap-4 border-b border-[#CAE8BD] px-5 py-4 dark:border-slate-700 sm:px-6">
+        <div className={`w-full overflow-hidden rounded-[2rem] border border-[#CAE8BD] bg-[#DDF6D2] shadow-2xl dark:border-slate-700/60 dark:bg-slate-800 ${fullMode ? 'max-w-7xl' : 'max-w-5xl'}`}>
+          <div className="flex items-center justify-between gap-4 border-b border-[#ECFAE5] px-5 py-4 dark:border-slate-700 sm:px-6">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.savedWords}</p>
               <h2 className="text-xl font-black text-slate-900 dark:text-white">{t.favoriteList}</h2>
@@ -64,9 +64,16 @@ export default function FavoritesPanel({
                 <CirclePlay className="h-4 w-4" />
                 {t.quizAllFavorites}
               </Button>
-              <Button type="button" variant="outline" size="icon" onClick={() => setFullMode((p) => !p)} aria-label="Toggle view mode">
-                {fullMode ? <List className="h-4 w-4" /> : <LayoutList className="h-4 w-4" />}
-              </Button>
+              <button
+                type="button"
+                onClick={() => setFullMode((p) => !p)}
+                className="flex items-center gap-2 rounded-xl border border-[#CAE8BD] bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-[#ECFAE5] dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300"
+              >
+                <div className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border-2 transition ${fullMode ? 'border-green-500 bg-green-500' : 'border-slate-400 bg-white dark:bg-slate-600'}`}>
+                  {fullMode && <svg className="h-2.5 w-2.5 text-white" viewBox="0 0 10 10" fill="none"><path d="M1.5 5l2.5 2.5 4.5-4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>}
+                </div>
+                {t.exampleSentence}
+              </button>
               <Button type="button" variant="outline" size="icon" onClick={onClose}>
                 <X className="h-4 w-4" />
               </Button>
@@ -92,22 +99,17 @@ export default function FavoritesPanel({
                           <div className="min-w-0 flex-1 space-y-1">
                             <div className="flex flex-wrap items-center gap-2">
                               <span className="text-2xl font-black text-slate-900 dark:text-white">{favorite.chinese}</span>
-                              <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500 dark:bg-slate-600 dark:text-slate-300">
-                                {favorite.sectionLabel || favorite.section}
-                              </span>
-                              <SpeakButton text={favorite.chinese} label={t.speakWord} size="icon" variant="outline" />
+                              <SpeakButton text={favorite.chinese} label={t.speakWord} size="sm" variant="outline" className="h-7 w-7 p-0" iconSize="sm" />
                             </div>
                             <p className="text-sm font-medium text-slate-600 dark:text-slate-300">{getItemMeaning(favorite, language)}</p>
                           </div>
 
-                          <div className="min-w-0 flex-[2] rounded-2xl bg-green-50/50 px-4 py-3 text-sm dark:bg-slate-600">
-                            <div className="flex items-start justify-between gap-3">
-                              <div className="min-w-0 space-y-1">
-                                <p className="break-words font-semibold text-slate-900 dark:text-white">{favorite.sentenceChinese}</p>
-                                <p className="break-words text-slate-500 dark:text-slate-400">{getSentenceMeaning(favorite, language)}</p>
-                              </div>
-                              <SpeakButton text={favorite.sentenceChinese} label={t.speakSentence} size="icon" variant="secondary" />
+                          <div className="min-w-0 flex-[2] rounded-2xl bg-[#ECFAE5] px-4 py-3 text-sm dark:bg-slate-600">
+                            <div className="flex flex-wrap items-center gap-2">
+                              <p className="break-words font-semibold text-slate-900 dark:text-white">{favorite.sentenceChinese}</p>
+                              <SpeakButton text={favorite.sentenceChinese} label={t.speakSentence} size="sm" variant="secondary" className="h-7 w-7 shrink-0 p-0" iconSize="sm" />
                             </div>
+                            <p className="mt-1 break-words text-slate-500 dark:text-slate-400">{getSentenceMeaning(favorite, language)}</p>
                           </div>
 
                           <button
@@ -121,15 +123,10 @@ export default function FavoritesPanel({
                         </div>
                       ) : (
                         <div className="flex items-center gap-3">
-                          <div className="min-w-0 flex-1">
-                            <div className="flex flex-wrap items-center gap-2">
-                              <span className="text-2xl font-black text-slate-900 dark:text-white">{favorite.chinese}</span>
-                              <SpeakButton text={favorite.chinese} label={t.speakWord} size="icon" variant="outline" />
-                              <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500 dark:bg-slate-600 dark:text-slate-300">
-                                {favorite.sectionLabel || favorite.section}
-                              </span>
-                            </div>
-                            <p className="mt-1 text-sm font-medium text-slate-600 dark:text-slate-300">{getItemMeaning(favorite, language)}</p>
+                          <div className="min-w-0 flex-1 flex flex-wrap items-center gap-2">
+                            <span className="text-2xl font-black text-slate-900 dark:text-white">{favorite.chinese}</span>
+                            <SpeakButton text={favorite.chinese} label={t.speakWord} size="sm" variant="outline" className="h-7 w-7 p-0" iconSize="sm" />
+                            <span className="text-sm font-medium text-slate-600 dark:text-slate-300">{getItemMeaning(favorite, language)}</span>
                           </div>
 
                           <button

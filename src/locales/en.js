@@ -1,6 +1,6 @@
 export default {
   appTitle: 'Raccoon Cards',
-  appSubtitle: 'Learn, test, and review your favorite vocabulary.',
+  appSubtitle: 'Based on A Course in Contemporary Chinese (Traditional)',
   learn: 'Learn',
   uploadLesson: 'Import Lesson',
   favoriteList: 'Favorites',
