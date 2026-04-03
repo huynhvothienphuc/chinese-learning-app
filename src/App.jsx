@@ -339,7 +339,7 @@ export default function App() {
 
     const onKeyDown = (event) => {
       const targetTag = event.target?.tagName ?? '';
-      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(targetTag)) return;
+      if (['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON'].includes(targetTag)) return;
 
       const key = event.key;
       if ([' ', 'ArrowUp', 'ArrowLeft', 'ArrowRight', ',', '.', '<', '>'].includes(key)) {

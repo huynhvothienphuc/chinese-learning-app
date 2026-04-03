@@ -21,7 +21,6 @@ export default function Flashcard({
   const [showMeaning, setShowMeaning] = useState(true);
 
   useEffect(() => {
-    setShowPinyin(false);
     setShowMeaning(true);
   }, [item?.id]);
 
