@@ -6,7 +6,7 @@ export default {
   favoriteList: 'Yêu thích',
   score: 'Điểm',
   bookLabel: 'Giáo trình',
-  bookSeriesName: 'Giáo trình tiếng Trung phồn thể hiện đại -Quyển ',
+  bookSeriesName: 'Giáo trình tiếng Trung phồn thể hiện đại - Tập ',
   lessonLabel: 'Bài học',
   sectionLabel: 'Mục',
   sourceLabel: 'Nguồn từ vựng',

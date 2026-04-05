@@ -28,14 +28,24 @@ export default function StudyDeckPanel({
   onSectionChange,
   activeTab,
   onTabChange,
+  booksLoading,
+  booksError,
 }) {
   return (
     <Card className="animate-float-in border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
       <CardContent className="space-y-5 p-4 sm:p-5">
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2">
           <div className="space-y-2">
-            <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.bookLabel}</label>
-            <Select className="w-full" value={selectedBook} onChange={(event) => onBookChange(event.target.value)}>
+            <div className="flex min-h-[20px] flex-wrap items-center gap-2">
+              <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.bookLabel}</label>
+              {booksLoading && (
+                <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-green-400 border-t-transparent" />
+              )}
+              {booksError && !booksLoading && (
+                <span className="text-xs text-rose-500">{booksError}</span>
+              )}
+            </div>
+            <Select className="w-full min-w-0" value={selectedBook} onChange={(event) => onBookChange(event.target.value)} disabled={booksLoading && books.length === 0}>
               {books.map((book) => (
                 <option key={book.id} value={book.id}>{getBookOptionLabel(book, t)}</option>
               ))}
@@ -43,7 +53,9 @@ export default function StudyDeckPanel({
           </div>
 
           <div className="space-y-2">
-            <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.lessonLabel}</label>
+            <div className="flex min-h-[20px] items-center">
+              <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.lessonLabel}</label>
+            </div>
             <SectionSelector
               sections={sections}
               selectedSection={selectedSection}
