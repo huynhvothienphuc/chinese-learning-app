@@ -7,7 +7,7 @@ const tabs = [
   { id: 'review',    icon: NotebookTabs },
 ];
 
-export default function StudyModeTabs({ t, activeTab, onChange }) {
+export default function StudyModeTabs({ t, activeTab, onChange, embedded = false }) {
   const labels = {
     flashcard: t.flashCardTab,
     quiz:      t.quizTab,
@@ -15,7 +15,10 @@ export default function StudyModeTabs({ t, activeTab, onChange }) {
   };
 
   return (
-    <div className="rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-2 shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
+    <div className={cn(
+      'rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-2 dark:border-slate-700/60 dark:bg-slate-800/90',
+      embedded ? 'shadow-none animate-none' : 'shadow-soft animate-float-in',
+    )}>
       <div className="grid grid-cols-3 gap-2">
         {tabs.map(({ id, icon: Icon }) => {
           const active = activeTab === id;

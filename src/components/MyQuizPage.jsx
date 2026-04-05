@@ -3,6 +3,7 @@ import { ArrowLeft, CheckSquare2, Heart, Loader2, Square } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
+import Divider from './ui/divider';
 
 const USER_UPLOAD_BOOK_ID = 'user-upload';
 const FAVORITES_ID = 'favorites';
@@ -58,8 +59,8 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
       selectedBook === USER_UPLOAD_BOOK_ID
         ? Promise.resolve(uploadedLessons.find((l) => l.id === sectionFile)?.items || [])
         : fetch(`/data/books/${selectedBook}/${sectionFile}`)
-            .then((r) => (r.ok ? r.json() : []))
-            .then((data) => normalizeVocabularyItems(data?.items || data));
+          .then((r) => (r.ok ? r.json() : []))
+          .then((data) => normalizeVocabularyItems(data?.items || data));
 
     request
       .then((items) => setSectionVocab((prev) => ({ ...prev, [sectionFile]: items })))
@@ -114,8 +115,6 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
 
   return (
     <div className="mx-auto w-full max-w-5xl space-y-5">
-
-      {/* Title */}
       <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
         <CardContent className="p-4 sm:p-5">
           <button
@@ -127,15 +126,8 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
             {t.myQuizBack}
           </button>
           <h1 className="text-xl font-black text-slate-900 dark:text-white sm:text-2xl">{t.myQuizTitle}</h1>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{t.myQuizSubtitle}</p>
-        </CardContent>
-      </Card>
-
-      {/* Book + Favorites selector */}
-      <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
-        <CardContent className="p-4 sm:p-5">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.myQuizBookLabel}</p>
-          <div className="flex flex-wrap gap-2">
+          {/* <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.myQuizBookLabel}</p> */}
+          <div className="flex flex-wrap gap-2 pt-3">
             {books.map((book) => (
               <button
                 key={book.id}
@@ -151,6 +143,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                 {book.title}
               </button>
             ))}
+            <Divider />
             <button
               type="button"
               disabled={favoriteVocabulary.length === 0}
@@ -176,7 +169,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
       </Card>
 
       {/* Word count */}
-      <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+      {/* <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
         <CardContent className="p-4 sm:p-5">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.myQuizCountLabel}</p>
           <div className="flex flex-wrap gap-2">
@@ -201,7 +194,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
             })}
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Lessons OR favorites info */}
       <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">

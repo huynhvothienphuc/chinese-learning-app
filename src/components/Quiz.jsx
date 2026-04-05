@@ -153,7 +153,7 @@ export default function Quiz({
           <div className="space-y-3">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.quizTab}</p>
-              <CardTitle className="mt-3 text-3xl font-black text-green-700 md:text-4xl">{currentItem.pinyin}</CardTitle>
+              <CardTitle className="mt-3 text-3xl font-black text-green-700 dark:text-primary md:text-4xl">{currentItem.pinyin}</CardTitle>
               <CardDescription className="mt-2 text-base">{getItemMeaning(currentItem, language)}</CardDescription>
             </div>
             <p className="text-sm text-slate-500">{t.quizInstructionText}</p>

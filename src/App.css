@@ -26,7 +26,7 @@
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   outline: 1px solid transparent;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .flashcard-front {

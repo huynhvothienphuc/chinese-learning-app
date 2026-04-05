@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep -o \"dark:border-slate-700/60 dark:bg-slate-800/90\" src/components/*.jsx)"
+      "Bash(grep -o \"dark:border-slate-700/60 dark:bg-slate-800/90\" src/components/*.jsx)",
+      "Bash(npm install:*)"
     ]
   }
 }

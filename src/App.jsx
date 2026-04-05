@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Heart, Moon, Sun, Upload, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import FavoritesPanel from '@/components/FavoritesPanel';
@@ -8,7 +9,6 @@ import WordListView from '@/components/WordListView';
 import MyQuizPage from '@/components/MyQuizPage';
 import UploadGuide from '@/components/UploadGuide';
 import StudyDeckPanel from '@/components/StudyDeckPanel';
-import StudyModeTabs from '@/components/StudyModeTabs';
 import { Select } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -100,7 +100,9 @@ export default function App() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [mode, setMode] = useState('flashcard');
   const [deckSource, setDeckSource] = useState('all');
-  const [activeView, setActiveView] = useState('learn');
+  const navigate = useNavigate();
+  const location = useLocation();
+  const activeView = location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : 'learn';
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [score, setScore] = useState(INITIAL_SCORE);
@@ -426,7 +428,7 @@ export default function App() {
   }
 
   function startFlashcards() {
-    setActiveView('learn');
+    navigate('/');
     setMode('flashcard');
     setDeckSource('all');
     resetInteractiveState();
@@ -434,7 +436,7 @@ export default function App() {
   }
 
   function startQuiz() {
-    setActiveView('learn');
+    navigate('/');
     setMode('quiz');
     resetInteractiveState();
     trackEvent('start_quiz', { source: deckSource, book_id: selectedBook, section_id: selectedSection });
@@ -443,7 +445,7 @@ export default function App() {
   function startQuizFavorites() {
     if (favorites.length === 0) return;
     setIsFavoritesOpen(false);
-    setActiveView('learn');
+    navigate('/');
     setMode('quiz');
     setDeckSource('favorites');
     resetInteractiveState();
@@ -457,14 +459,14 @@ export default function App() {
     if (nextTab === 'quiz') {
       setDeckSource('all');
       setMode('quiz');
-      setActiveView('learn');
+      navigate('/');
       resetInteractiveState();
       return;
     }
 
     if (nextTab === 'review') {
       setMode('review');
-      setActiveView('learn');
+      navigate('/');
       return;
     }
 
@@ -474,7 +476,7 @@ export default function App() {
   function handleStartCustomQuiz(words, pool) {
     setCustomQuizWords(words);
     setCustomQuizPool(pool);
-    setActiveView('learn');
+    navigate('/');
     setMode('quiz');
     resetInteractiveState();
   }
@@ -536,7 +538,7 @@ export default function App() {
   function handleRestartQuiz() {
     resetInteractiveState();
     setMode('quiz');
-    setActiveView('learn');
+    navigate('/');
   }
 
   async function handleUploadFile(event) {
@@ -581,7 +583,7 @@ export default function App() {
       setLastUploadedName(nextLesson.title);
       setSelectedBook(USER_UPLOAD_BOOK_ID);
       setSelectedSection(nextLesson.id);
-      setActiveView('learn');
+      navigate('/');
       setMode('flashcard');
       setDeckSource('all');
       resetInteractiveState();
@@ -603,19 +605,19 @@ export default function App() {
         <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-              <button type="button" onClick={() => setActiveView('learn')} className="flex items-center gap-4 text-left">
-                <img src="/favicon.svg" alt="Raccoon logo" className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
+              <button type="button" onClick={() => navigate('/')} className="flex items-center gap-4 text-left">
+                <img src="/logo.svg" alt="Logo" className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
                 <div>
                   <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
                   <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
                 </div>
               </button>
               <div className="flex flex-wrap items-end gap-2 lg:justify-end">
-                <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('myquiz')}>
+                <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
                   <Wand2 className="h-4 w-4" />
                   <span className="hidden sm:inline">{t.myQuizTitle}</span>
                 </Button>
-                <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => setActiveView('upload')}>
+                <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/upload-word')}>
                   <Upload className="h-4 w-4" />
                   {t.uploadLesson}
                 </Button>
@@ -647,12 +649,12 @@ export default function App() {
             uploadedLessons={uploadedLessons}
             favoriteVocabulary={favoriteVocabulary}
             onStart={handleStartCustomQuiz}
-            onBack={() => setActiveView('learn')}
+            onBack={() => navigate('/')}
             t={t}
           />
         ) : activeView === 'upload' ? (
           <UploadGuide
-            onBackToLearn={() => setActiveView('learn')}
+            onBackToLearn={() => navigate('/')}
             onOpenPicker={() => fileInputRef.current?.click()}
             maxUploadLabel={formatFileSize(MAX_UPLOAD_BYTES)}
             lastUploadedName={lastUploadedName}
@@ -661,21 +663,19 @@ export default function App() {
           />
         ) : (
           <>
-            <StudyDeckPanel
-              t={t}
-              books={books}
-              selectedBook={selectedBook}
-              onBookChange={setSelectedBook}
-              sections={sections}
-              selectedSection={selectedSection}
-              onSectionChange={setSelectedSection}
-              lessonCount={vocabulary.length}
-              favoriteCount={favoriteCount}
-            />
+	            <StudyDeckPanel
+	              t={t}
+	              books={books}
+	              selectedBook={selectedBook}
+	              onBookChange={setSelectedBook}
+	              sections={sections}
+	              selectedSection={selectedSection}
+	              onSectionChange={setSelectedSection}
+                activeTab={activeTab}
+                onTabChange={handleModeTabChange}
+	            />
 
-            <StudyModeTabs t={t} activeTab={activeTab} onChange={handleModeTabChange} />
-
-            {error ? (
+	            {error ? (
               <Card className="shadow-soft">
                 <CardContent className="p-8 text-center text-rose-600">{error}</CardContent>
               </Card>
@@ -687,21 +687,21 @@ export default function App() {
               <Card className="shadow-soft">
                 <CardContent className="p-8 text-center text-slate-500">{t.noData}</CardContent>
               </Card>
-            ) : (
-              <div className="space-y-5">
-                {mode === 'review' ? (
-                  <WordListView
+	            ) : (
+	              <div className="space-y-5">
+	                {mode === 'review' ? (
+	                  <WordListView
                     vocabulary={vocabulary}
                     isFavorite={isFavorite}
                     onToggleFavorite={toggleFavorite}
                     language={selectedLanguage}
                     t={t}
                   />
-                ) : mode === 'flashcard' ? (
-                  <>
-                    <Flashcard
-                      item={currentItem}
-                      flipped={isFlipped}
+	                ) : mode === 'flashcard' ? (
+	                  <>
+	                    <Flashcard
+	                      item={currentItem}
+	                      flipped={isFlipped}
                       onFlip={() => setIsFlipped((prev) => !prev)}
                       isFavorite={currentItem ? isFavorite(currentItem) : false}
                       onToggleFavorite={() => toggleFavorite(currentItem)}
@@ -712,38 +712,66 @@ export default function App() {
                       t={t}
                     />
 
-                    <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
-                      <CardContent className="space-y-4 p-4 sm:p-5">
-                        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-                          <Button onClick={handlePrevious} disabled={currentIndex === 0} className="w-full gap-2 md:w-auto" variant={currentIndex === activeVocabulary.length - 1 ? 'default' : 'outline'}>
-                            <ArrowLeft className="h-4 w-4" />
-                            {t.previous}
-                          </Button>
+	                    <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+	                      <CardContent className="p-4 sm:p-5">
+	                        <div className="md:hidden">
+	                          <div className="flex items-center gap-2">
+	                          <Button
+	                            onClick={handlePrevious}
+	                            disabled={currentIndex === 0}
+	                            size="sm"
+	                            className="min-w-0 px-3"
+	                            variant={currentIndex === activeVocabulary.length - 1 ? 'default' : 'outline'}
+	                            aria-label={t.previous}
+	                            title={t.previous}
+	                          >
+	                            <ArrowLeft className="h-4 w-4" />
+	                          </Button>
+	                          <Button
+	                            onClick={handleNextFlashcard}
+	                            disabled={currentIndex === activeVocabulary.length - 1}
+	                            size="sm"
+	                            className="min-w-0 px-3"
+	                            variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}
+	                            aria-label={t.next}
+	                            title={t.next}
+	                          >
+	                            <ArrowRight className="h-4 w-4" />
+	                          </Button>
+	                          <Button onClick={() => setIsFlipped((prev) => !prev)} size="sm" className="flex-1" variant="secondary">
+	                            {t.flipCardAction}
+	                          </Button>
+	                          <div className="shrink-0 rounded-full bg-green-100 px-3 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+	                            {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
+	                          </div>
+	                          </div>
+	                        </div>
 
-                          <div className="rounded-full bg-green-100 px-5 py-2 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
-                            {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
-                          </div>
+	                        <div className="hidden md:flex md:items-center md:justify-between md:gap-4">
+	                          <Button onClick={handlePrevious} className="gap-2" disabled={currentIndex === 0} variant={currentIndex === activeVocabulary.length - 1 ? 'default' : 'outline'}>
+	                            <ArrowLeft className="h-4 w-4" />
+	                            {t.previous}
+	                          </Button>
 
-                          <div className="flex w-full flex-col gap-3 sm:flex-row md:w-auto">
-                            <Button onClick={() => setIsFlipped((prev) => !prev)} className="w-full gap-2 md:w-auto" variant="secondary">
-                              {t.flipCardAction}
-                            </Button>
-                            <Button onClick={handleNextFlashcard} disabled={currentIndex === activeVocabulary.length - 1} className="w-full gap-2 md:w-auto" variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}>
-                              {t.next}
-                              <ArrowRight className="h-4 w-4" />
-                            </Button>
-                          </div>
-                        </div>
+	                          <div className="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+	                            {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
+	                          </div>
 
-                        <div className="hidden md:block rounded-3xl border border-dashed border-green-200 bg-green-50/50 px-4 py-3 text-center text-sm text-green-600 dark:border-slate-600 dark:bg-slate-700/40 dark:text-slate-400">
-                          {'['} {t.previous}<span className="font-semibold px-2">←</span> {']'}
-                          {'['} {t.next} <span className="font-semibold px-2">→</span>{']'}
-                          {'['} {t.flipLabel} <span className="font-semibold px-2">↑</span>{']'}
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </>
-                ) : (
+	                          <div className="flex gap-3">
+	                            <Button onClick={() => setIsFlipped((prev) => !prev)} className="gap-2" variant="secondary">
+	                              {t.flipCardAction}
+	                            </Button>
+	                            <Button onClick={handleNextFlashcard} className="gap-2" disabled={currentIndex === activeVocabulary.length - 1} variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}>
+	                              {t.next}
+	                              <ArrowRight className="h-4 w-4" />
+	                            </Button>
+	                          </div>
+	                        </div>
+
+	                      </CardContent>
+	                    </Card>
+	                  </>
+	                ) : (
                   <Quiz
                     vocabulary={activeVocabulary}
                     choicePool={customQuizPool ?? (deckSource === 'favorites' ? vocabulary : undefined)}

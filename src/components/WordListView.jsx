@@ -69,7 +69,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                       <span className="text-xl font-black text-slate-900 dark:text-slate-100">{item.chinese}</span>
                       <span className="text-sm text-slate-500 dark:text-slate-400">{item.pinyin}</span>
                     </div>
-                    <p className="mt-0.5 truncate text-sm text-slate-600 dark:text-slate-300">{meaning}</p>
+                    <p className="mt-0.5 break-words text-sm text-slate-600 dark:text-slate-300">{meaning}</p>
                   </div>
 
                   <div className="flex shrink-0 items-center gap-1">

@@ -1,5 +1,5 @@
 import { CirclePlay, Search, X } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -16,6 +16,9 @@ export default function FavoritesPanel({
 }) {
   const [fullMode, setFullMode] = useState(false);
   const [query, setQuery] = useState('');
+  const dialogTitleId = useId();
+  const dialogDescriptionId = useId();
+  const searchInputRef = useRef(null);
 
   const filtered = query.trim()
     ? favorites.filter((f) => {
@@ -29,17 +32,44 @@ export default function FavoritesPanel({
       })
     : favorites;
 
+  useEffect(() => {
+    if (!isOpen) return undefined;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    searchInputRef.current?.focus();
+
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    window.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/50 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 bg-slate-950/50 backdrop-blur-sm" onClick={onClose}>
       <div className="flex min-h-full items-end justify-center p-3 sm:items-center sm:p-6">
-        <div className={`w-full overflow-hidden rounded-[2rem] border border-[#CAE8BD] bg-[#DDF6D2] shadow-2xl dark:border-slate-700/60 dark:bg-slate-800 ${fullMode ? 'max-w-7xl' : 'max-w-5xl'}`}>
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={dialogTitleId}
+          aria-describedby={dialogDescriptionId}
+          className={`w-full overflow-hidden rounded-[2rem] border border-[#CAE8BD] bg-[#DDF6D2] shadow-2xl dark:border-slate-700/60 dark:bg-slate-800 ${fullMode ? 'max-w-7xl' : 'max-w-5xl'}`}
+          onClick={(event) => event.stopPropagation()}
+        >
           <div className="flex items-center justify-between gap-4 border-b border-[#ECFAE5] px-5 py-4 dark:border-slate-700 sm:px-6">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.savedWords}</p>
-              <h2 className="text-xl font-black text-slate-900 dark:text-white">{t.favoriteList}</h2>
-              <p className="text-sm text-slate-500">
+              <h2 id={dialogTitleId} className="text-xl font-black text-slate-900 dark:text-white">{t.favoriteList}</h2>
+              <p id={dialogDescriptionId} className="text-sm text-slate-500">
                 {favorites.length} {favorites.length === 1 ? t.savedItem : t.savedItems}
               </p>
             </div>
@@ -48,10 +78,12 @@ export default function FavoritesPanel({
               <div className="relative">
                 <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
                 <input
+                  ref={searchInputRef}
                   type="text"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search..."
+                  placeholder={t.searchFavoritesPlaceholder}
+                  aria-label={t.searchFavoritesPlaceholder}
                   className="h-10 rounded-xl border border-[#CAE8BD] bg-white pl-9 pr-3 text-sm outline-none focus:border-[#B0DB9C] focus:ring-2 focus:ring-[#B0DB9C]/30 dark:border-slate-600 dark:bg-slate-700 dark:text-white dark:placeholder-slate-400"
                 />
               </div>
@@ -62,14 +94,15 @@ export default function FavoritesPanel({
               <button
                 type="button"
                 onClick={() => setFullMode((p) => !p)}
+                aria-pressed={fullMode}
                 className="flex items-center gap-2 rounded-xl border border-[#CAE8BD] bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-[#ECFAE5] dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300"
               >
                 <div className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border-2 transition ${fullMode ? 'border-green-500 bg-green-500' : 'border-slate-400 bg-white dark:bg-slate-600'}`}>
                   {fullMode && <svg className="h-2.5 w-2.5 text-white" viewBox="0 0 10 10" fill="none"><path d="M1.5 5l2.5 2.5 4.5-4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>}
                 </div>
-                {t.exampleSentence}
+                {fullMode ? t.hideExampleDetails : t.showExampleDetails}
               </button>
-              <Button type="button" variant="outline" size="icon" onClick={onClose}>
+              <Button type="button" variant="outline" size="icon" onClick={onClose} aria-label={t.closeFavorites}>
                 <X className="h-4 w-4" />
               </Button>
             </div>
