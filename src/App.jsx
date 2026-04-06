@@ -1,7 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Heart, Moon, Sun, Upload, Wand2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Flame, Heart, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
+import { useStreak } from '@/hooks/useStreak';
+import { useAuth } from '@/contexts/AuthContext';
+import { supabase } from '@/lib/supabase';
+import LoginPage from '@/pages/LoginPage';
+import TeacherDashboard from '@/pages/teacher/TeacherDashboard';
+import BookEditor from '@/pages/teacher/BookEditor';
+import SectionEditor from '@/pages/teacher/SectionEditor';
+import SharedBookPage from '@/pages/SharedBookPage';
+import AdminDashboard from '@/pages/AdminDashboard';
 import FavoritesPanel from '@/components/FavoritesPanel';
 import Flashcard from '@/components/Flashcard';
 import Quiz from '@/components/Quiz';
@@ -98,19 +107,24 @@ export default function App() {
   const [originalVocabulary, setOriginalVocabulary] = useState([]);
   const [uploadedLessons, setUploadedLessons] = useState([]);
   const [isShuffled, setIsShuffled] = useState(false);
-  const [mode, setMode] = useState('flashcard');
+  const [mode, setMode] = useState('review');
   const [deckSource, setDeckSource] = useState('all');
   const navigate = useNavigate();
   const location = useLocation();
-  const activeView = location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : 'learn';
+  const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/login' ? 'login' : 'learn';
+  const { user, role, signOut, loading: authLoading } = useAuth();
+  const { streak, markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [score, setScore] = useState(INITIAL_SCORE);
   const [answeredQuestion, setAnsweredQuestion] = useState(null);
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [quizComplete, setQuizComplete] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
+  const [booksLoading, setBooksLoading] = useState(false);
+  const [booksError, setBooksError] = useState('');
   const [uploadError, setUploadError] = useState('');
   const [favorites, setFavorites] = useLocalStorageState(FAVORITES_STORAGE_KEY, []);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
@@ -119,6 +133,7 @@ export default function App() {
   const [lastUploadedName, setLastUploadedName] = useState('');
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
   const fileInputRef = useRef(null);
+  const initialLoadDoneRef = useRef(false);
 
   const t = localeMap[selectedLanguage] || localeMap.en;
 
@@ -164,21 +179,37 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    // Wait for auth to resolve — avoids fetching twice on startup (once unauthenticated, once after session restores)
+    if (authLoading) return;
+
+    // On logout: strip private teacher books but keep publicly shared ones
+    if (!user && initialLoadDoneRef.current) {
+      setBaseBooks((prev) => prev.filter((b) => b.source !== 'teacher' || b.share_enabled));
+      return;
+    }
+
     async function loadInitialData() {
       try {
-        setIsLoading(true);
-        setError('');
+        setBooksLoading(true);
+        setBooksError('');
+        initialLoadDoneRef.current = true;
 
-        const [booksResponse, savedUploadsRaw] = await Promise.all([
+        const [booksResponse, savedUploadsRaw, teacherBooksResult] = await Promise.all([
           fetch('/data/books.json'),
           Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
+          supabase
+            .from('user_books')
+            .select('id, title, description, share_enabled')
+            .eq('share_enabled', true)
+            .order('created_at', { ascending: false }),
         ]);
 
         if (!booksResponse.ok) throw new Error('Failed to load books');
         const booksData = await booksResponse.json();
         const normalizedUploads = normalizeUploadedLessons(savedUploadsRaw);
+        const teacherBooks = (teacherBooksResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
 
-        setBaseBooks(booksData);
+        setBaseBooks([...booksData, ...teacherBooks]);
         setUploadedLessons(normalizedUploads);
         if (normalizedUploads.length > 0) {
           localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(normalizedUploads));
@@ -187,25 +218,26 @@ export default function App() {
         const savedBook = sessionStorage.getItem(SESSION_SELECTED_BOOK_KEY);
         const availableBookIds = [
           ...booksData.map((book) => book.id),
+          ...teacherBooks.map((book) => book.id),
           ...(normalizedUploads.length > 0 ? [USER_UPLOAD_BOOK_ID] : []),
         ];
 
         setSelectedBook(savedBook && availableBookIds.includes(savedBook) ? savedBook : availableBookIds[0] || '');
       } catch {
-        setError(t.uploadBooksError);
+        setBooksError(t.uploadBooksError);
       } finally {
-        setIsLoading(false);
+        setBooksLoading(false);
       }
     }
 
     loadInitialData();
 
-    if (!('speechSynthesis' in window)) return undefined;
+    if (!('speechSynthesis' in window)) return undefined; // eslint-disable-line consistent-return
     const loadVoices = () => window.speechSynthesis.getVoices();
     loadVoices();
     window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
     return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
-  }, [t.uploadBooksError]);
+  }, [t.uploadBooksError, user, authLoading]);
 
 
   useEffect(() => {
@@ -230,6 +262,8 @@ export default function App() {
         setIsLoading(true);
 
         let nextSections = [];
+        const currentBook = books.find((b) => b.id === selectedBook);
+
         if (selectedBook === USER_UPLOAD_BOOK_ID) {
           nextSections = uploadedLessons
             .map((lesson) => ({
@@ -240,6 +274,21 @@ export default function App() {
               enabled: true,
             }))
             .sort((a, b) => a.title.localeCompare(b.title));
+        } else if (currentBook?.source === 'teacher') {
+          const { data, error } = await supabase
+            .from('user_sections')
+            .select('id, title, order, words')
+            .eq('book_id', selectedBook)
+            .order('order');
+          if (error) throw new Error(error.message);
+          nextSections = (data ?? []).map((sec) => ({
+            id: sec.id,
+            file: sec.id,
+            title: sec.title,
+            source: 'teacher',
+            enabled: true,
+            _words: sec.words ?? [],
+          }));
         } else {
           const response = await fetch(`/data/books/${selectedBook}/sections.json`);
           if (!response.ok) throw new Error('Failed to load sections');
@@ -284,7 +333,8 @@ export default function App() {
 
   useEffect(() => {
     if (!selectedBook || !selectedSection) return;
-    if (selectedBook !== USER_UPLOAD_BOOK_ID && !sections.some((section) => section.file === selectedSection)) return;
+    const isTeacherBook = books.find((b) => b.id === selectedBook)?.source === 'teacher';
+    if (selectedBook !== USER_UPLOAD_BOOK_ID && !isTeacherBook && !sections.some((section) => section.file === selectedSection)) return;
 
     async function loadVocabulary() {
       try {
@@ -292,8 +342,12 @@ export default function App() {
         setError('');
 
         let parsed = [];
+        const currentSection = sections.find((s) => s.file === selectedSection);
+
         if (selectedBook === USER_UPLOAD_BOOK_ID) {
           parsed = uploadedLessons.find((lesson) => lesson.id === selectedSection)?.items || [];
+        } else if (currentSection?.source === 'teacher') {
+          parsed = normalizeVocabularyItems(currentSection._words ?? []);
         } else {
           const response = await fetch(`/data/books/${selectedBook}/${selectedSection}`);
           if (!response.ok) throw new Error('Failed to load vocabulary');
@@ -500,6 +554,11 @@ export default function App() {
     setIsFlipped(false);
   }
 
+  function handleFlipCard() {
+    markStudied();
+    setIsFlipped((prev) => !prev);
+  }
+
   function handleNextFlashcard() {
     if (currentIndex >= activeVocabulary.length - 1) return;
     setCurrentIndex((prev) => prev + 1);
@@ -508,6 +567,7 @@ export default function App() {
 
   function handleAnswer(choice) {
     if (!currentItem || answeredQuestion) return;
+    markStudied();
 
     const correct = choice.id === currentItem.id;
     setAnsweredQuestion({
@@ -539,6 +599,16 @@ export default function App() {
     resetInteractiveState();
     setMode('quiz');
     navigate('/');
+  }
+
+  function handleRetryWrongWords() {
+    const words = wrongAnswers.map((w) => w.item);
+    handleStartCustomQuiz(words, words);
+  }
+
+  async function handleSignOut() {
+    await signOut();
+    navigate('/login');
   }
 
   async function handleUploadFile(event) {
@@ -599,6 +669,42 @@ export default function App() {
     }
   }
 
+  // Redirect away from protected routes based on auth + role
+  useEffect(() => {
+    if (authLoading) return;
+    if (!user && (activeView === 'teacher' || activeView === 'admin')) {
+      navigate('/login');
+    } else if (user && activeView === 'admin' && role !== 'admin') {
+      navigate('/teacher');
+    } else if (user && activeView === 'teacher' && role !== 'teacher' && role !== 'admin') {
+      navigate('/');
+    }
+  }, [authLoading, user, role, activeView]);
+
+
+  if (activeView === 'shared') return <SharedBookPage token={sharedMatch[1]} />;
+  if (activeView === 'login') return <LoginPage />;
+
+  // Show spinner while auth is restoring session for protected routes
+  if (authLoading && (activeView === 'teacher' || activeView === 'admin')) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-white dark:bg-slate-950">
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-green-500 border-t-transparent" />
+      </div>
+    );
+  }
+
+  if (activeView === 'admin') return user && role === 'admin' ? <AdminDashboard /> : null;
+  if (activeView === 'teacher') {
+    if (!user || (role !== 'teacher' && role !== 'admin')) return null;
+    const path = location.pathname;
+    const sectionMatch = path.match(/^\/teacher\/books\/([^/]+)\/sections\/([^/]+)/);
+    const bookMatch = path.match(/^\/teacher\/books\/([^/]+)/);
+    if (sectionMatch) return <SectionEditor bookId={sectionMatch[1]} sectionId={sectionMatch[2]} />;
+    if (bookMatch) return <BookEditor bookId={bookMatch[1]} onShareChange={(updated) => setBaseBooks((prev) => updated.share_enabled ? prev.map((b) => b.id === updated.id ? { ...b, ...updated, source: 'teacher' } : b) : prev.filter((b) => b.id !== updated.id))} />;
+    return <TeacherDashboard />;
+  }
+
   return (
     <div className="min-h-screen bg-white px-4 py-4 text-slate-900 dark:bg-slate-950 dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-7xl flex-col gap-6">
@@ -609,10 +715,16 @@ export default function App() {
                 <img src="/logo.svg" alt="Logo" className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
                 <div>
                   <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
-                  <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
+                  <p className="mt-1 text-sm leading-6 text-slate-500 whitespace-nowrap">{t.appSubtitle}</p>
                 </div>
               </button>
               <div className="flex flex-wrap items-end gap-2 lg:justify-end">
+                {streak > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-full bg-orange-100 px-3 py-2 text-sm font-bold text-orange-600 dark:bg-orange-900/30 dark:text-orange-400">
+                    <Flame className="h-4 w-4" />
+                    {streak}
+                  </div>
+                )}
                 <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
                   <Wand2 className="h-4 w-4" />
                   <span className="hidden sm:inline">{t.myQuizTitle}</span>
@@ -636,6 +748,24 @@ export default function App() {
                 <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                   {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                 </Button>
+                {user && (
+                  <>
+                    {role === 'admin' && (
+                      <Button type="button" variant="outline" className="gap-2" onClick={() => navigate('/admin')}>
+                        <span className="hidden sm:inline">Admin</span>
+                      </Button>
+                    )}
+                    {(role === 'teacher' || role === 'admin') && (
+                      <Button type="button" variant="outline" className="gap-2" onClick={() => navigate('/teacher')}>
+                        <span className="hidden sm:inline">Dashboard</span>
+                      </Button>
+                    )}
+                    <Button type="button" variant="outline" className="gap-2" onClick={handleSignOut}>
+                      <LogOut className="h-4 w-4" />
+                      <span className="hidden sm:inline">Sign out</span>
+                    </Button>
+                  </>
+                )}
               </div>
             </div>
           </CardContent>
@@ -673,6 +803,8 @@ export default function App() {
 	              onSectionChange={setSelectedSection}
                 activeTab={activeTab}
                 onTabChange={handleModeTabChange}
+                booksLoading={booksLoading}
+                booksError={booksError}
 	            />
 
 	            {error ? (
@@ -702,7 +834,7 @@ export default function App() {
 	                    <Flashcard
 	                      item={currentItem}
 	                      flipped={isFlipped}
-                      onFlip={() => setIsFlipped((prev) => !prev)}
+                      onFlip={handleFlipCard}
                       isFavorite={currentItem ? isFavorite(currentItem) : false}
                       onToggleFavorite={() => toggleFavorite(currentItem)}
                       language={selectedLanguage}
@@ -738,7 +870,7 @@ export default function App() {
 	                          >
 	                            <ArrowRight className="h-4 w-4" />
 	                          </Button>
-	                          <Button onClick={() => setIsFlipped((prev) => !prev)} size="sm" className="flex-1" variant="secondary">
+	                          <Button onClick={handleFlipCard} size="sm" className="flex-1" variant="secondary">
 	                            {t.flipCardAction}
 	                          </Button>
 	                          <div className="shrink-0 rounded-full bg-green-100 px-3 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
@@ -758,7 +890,7 @@ export default function App() {
 	                          </div>
 
 	                          <div className="flex gap-3">
-	                            <Button onClick={() => setIsFlipped((prev) => !prev)} className="gap-2" variant="secondary">
+	                            <Button onClick={handleFlipCard} className="gap-2" variant="secondary">
 	                              {t.flipCardAction}
 	                            </Button>
 	                            <Button onClick={handleNextFlashcard} className="gap-2" disabled={currentIndex === activeVocabulary.length - 1} variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}>
@@ -783,6 +915,7 @@ export default function App() {
                     isComplete={quizComplete}
                     wrongAnswers={wrongAnswers}
                     onRestart={handleRestartQuiz}
+                    onRetryWrong={handleRetryWrongWords}
                     isFavorite={currentItem ? isFavorite(currentItem) : false}
                     onToggleFavorite={() => toggleFavorite(currentItem)}
                     language={selectedLanguage}
