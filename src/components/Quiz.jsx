@@ -42,7 +42,7 @@ function ChoiceButton({ choice, label, isAnswered, isCorrect, isWrongSelection, 
   );
 }
 
-function Summary({ totalQuestions, score, wrongAnswers, onRestart, t, language }) {
+function Summary({ totalQuestions, score, wrongAnswers, onRestart, onRetryWrong, t, language }) {
   const percentage = totalQuestions === 0 ? 0 : Math.round((score.correct / totalQuestions) * 100);
 
   return (
@@ -60,7 +60,12 @@ function Summary({ totalQuestions, score, wrongAnswers, onRestart, t, language }
             <p className="text-4xl font-black text-slate-900 dark:text-slate-100">{score.correct} / {totalQuestions}</p>
             <p className="mt-2 text-lg font-semibold text-green-700">{percentage}% {t.correct}</p>
           </div>
-          <Button className="w-full" onClick={onRestart}>
+          {wrongAnswers.length > 0 && (
+            <Button className="w-full" variant="destructive" onClick={onRetryWrong}>
+              Practice {wrongAnswers.length} wrong word{wrongAnswers.length > 1 ? 's' : ''}
+            </Button>
+          )}
+          <Button className="w-full" variant={wrongAnswers.length > 0 ? 'outline' : 'default'} onClick={onRestart}>
             {t.startNewQuiz}
           </Button>
         </CardContent>
@@ -112,6 +117,7 @@ export default function Quiz({
   isComplete,
   wrongAnswers,
   onRestart,
+  onRetryWrong,
   isFavorite,
   onToggleFavorite,
   language = 'en',
@@ -130,7 +136,7 @@ export default function Quiz({
   }, [currentIndex]);
 
   if (isComplete) {
-    return <Summary totalQuestions={vocabulary.length} score={score} wrongAnswers={wrongAnswers} onRestart={onRestart} t={t} language={language} />;
+    return <Summary totalQuestions={vocabulary.length} score={score} wrongAnswers={wrongAnswers} onRestart={onRestart} onRetryWrong={onRetryWrong} t={t} language={language} />;
   }
 
   if (!currentItem) return null;

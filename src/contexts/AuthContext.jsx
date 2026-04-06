@@ -20,22 +20,23 @@ export function AuthProvider({ children }) {
   }
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    // Restore session and fetch role before unblocking — prevents stale role on startup
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       if (session?.user) {
         setUser(session.user);
+        const r = await fetchRole(session.user.id).catch(() => null);
+        setRole(r);
       }
-      setLoading(false); // Unblock immediately — role arrives via onAuthStateChange
+      setLoading(false);
     });
 
-    // Keep in sync with Supabase auth events
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      // INITIAL_SESSION is already handled by getSession above
+      if (event === 'INITIAL_SESSION') return;
       if (session?.user) {
         setUser(session.user);
-        setLoading(false); // Unblock immediately — don't wait for fetchRole
-        // Fetch role in background so it doesn't block navigation
-        fetchRole(session.user.id)
-          .then((r) => { setRole(r); })
-          .catch(() => { setRole(null); });
+        setLoading(false);
+        fetchRole(session.user.id).then((r) => setRole(r)).catch(() => setRole(null));
       } else {
         setUser(null);
         setRole(null);
@@ -48,12 +49,15 @@ export function AuthProvider({ children }) {
 
   async function signIn(email, password) {
     setLoading(true);
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) {
       setLoading(false);
       throw error;
     }
-    // setLoading(false) is handled by onAuthStateChange after role is fetched
+    const r = await fetchRole(data.user.id).catch(() => null);
+    setRole(r);
+    // setLoading(false) is handled by onAuthStateChange
+    return r;
   }
 
   async function signOut() {

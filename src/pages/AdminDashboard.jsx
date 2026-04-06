@@ -46,8 +46,11 @@ export default function AdminDashboard() {
 
   async function toggleActive(userId, currentState) {
     setTogglingId(userId);
+    setError('');
     const { data, error } = await supabase.rpc('toggle_teacher_active', { p_user_id: userId });
-    if (!error && data !== null) {
+    if (error) {
+      setError(error.message);
+    } else if (data !== null) {
       setTeachers((prev) => prev.map((t) =>
         t.user_id === userId ? { ...t, is_active: data } : t
       ));

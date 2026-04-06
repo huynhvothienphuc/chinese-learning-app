@@ -1,1 +1,57 @@
-{ "bookId": "book4", "sectionId": "section3", "sectionTitle": "Lesson 3", "items": [] }
+{
+  "bookId": "book4",
+  "sections": [
+    {
+      "sectionId": "section3",
+      "sectionTitle": "Cloud Technology | 雲端科技",
+      "items": [
+        { "id": 1, "chinese": "縮短", "pinyin": "suōduǎn", "english": "to shorten", "vietnamese": "rút ngắn", "theme": "General" },
+        { "id": 2, "chinese": "人們", "pinyin": "rénmen", "english": "people in general", "vietnamese": "mọi người", "theme": "General" },
+        { "id": 3, "chinese": "距離", "pinyin": "jùlí", "english": "distance", "vietnamese": "khoảng cách", "theme": "General" },
+        { "id": 4, "chinese": "取代", "pinyin": "qǔdài", "english": "to replace", "vietnamese": "thay thế", "theme": "General" },
+        { "id": 5, "chinese": "信", "pinyin": "xìn", "english": "letter, mail", "vietnamese": "thư từ", "theme": "Communication" },
+        { "id": 6, "chinese": "影集", "pinyin": "yǐngjí", "english": "(TV) series", "vietnamese": "phim bộ, phim truyền hình", "theme": "Entertainment" },
+        { "id": 7, "chinese": "取得", "pinyin": "qǔdé", "english": "to obtain, access", "vietnamese": "đạt được, có được", "theme": "General" },
+        { "id": 8, "chinese": "例如", "pinyin": "lìrú", "english": "for example", "vietnamese": "ví dụ như", "theme": "Grammar" },
+        { "id": 9, "chinese": "民眾", "pinyin": "mínzhòng", "english": "the public", "vietnamese": "dân chúng, quần chúng", "theme": "Society" },
+        { "id": 10, "chinese": "高速公路", "pinyin": "gāosù gōnglù", "english": "highway, freeway", "vietnamese": "đường cao tốc", "theme": "Travel" },
+        { "id": 11, "chinese": "前", "pinyin": "qián", "english": "before (formal)", "vietnamese": "trước khi", "theme": "Time" },
+        { "id": 12, "chinese": "查詢", "pinyin": "cháxún", "english": "to look up, check", "vietnamese": "tra cứu, truy vấn", "theme": "Technology" },
+        { "id": 13, "chinese": "路況", "pinyin": "lùkuàng", "english": "road situation, traffic situation", "vietnamese": "tình trạng giao thông", "theme": "Travel" },
+        { "id": 14, "chinese": "避開", "pinyin": "bìkāi", "english": "to avoid", "vietnamese": "tránh né", "theme": "General" },
+        { "id": 15, "chinese": "路段", "pinyin": "lùduàn", "english": "section of road", "vietnamese": "đoạn đường", "theme": "Travel" },
+        { "id": 16, "chinese": "若", "pinyin": "ruò", "english": "if, supposing", "vietnamese": "nếu, giả sử", "theme": "Grammar" },
+        { "id": 17, "chinese": "運用", "pinyin": "yùnyòng", "english": "to use, employ", "vietnamese": "vận dụng", "theme": "General" },
+        { "id": 18, "chinese": "病歷", "pinyin": "bìnglì", "english": "medical records", "vietnamese": "bệnh án", "theme": "Medical" },
+        { "id": 19, "chinese": "例子", "pinyin": "lìzi", "english": "example", "vietnamese": "ví dụ", "theme": "General" },
+        { "id": 20, "chinese": "更加", "pinyin": "gèngjiā", "english": "even more", "vietnamese": "càng thêm", "theme": "Grammar" },
+        { "id": 21, "chinese": "原本", "pinyin": "yuánběn", "english": "originally", "vietnamese": "vốn dĩ, ban đầu", "theme": "General" },
+        { "id": 22, "chinese": "忙碌", "pinyin": "mánglù", "english": "busy", "vietnamese": "bận rộn", "theme": "General" },
+        { "id": 23, "chinese": "確實", "pinyin": "quèshí", "english": "indeed", "vietnamese": "thực sự, xác thực", "theme": "General" },
+        { "id": 24, "chinese": "控制", "pinyin": "kòngzhì", "english": "to control", "vietnamese": "khống chế, kiểm soát", "theme": "General" },
+        { "id": 25, "chinese": "表弟", "pinyin": "biǎodì", "english": "younger male cousin (maternal/paternal aunt)", "vietnamese": "em họ", "theme": "Family" },
+        { "id": 26, "chinese": "退步", "pinyin": "tuìbù", "english": "to regress, get worse", "vietnamese": "thụt lùi, sa sút", "theme": "General" },
+        { "id": 27, "chinese": "過度", "pinyin": "guòdù", "english": "overly, excessively", "vietnamese": "quá độ, quá mức", "theme": "Grammar" },
+        { "id": 28, "chinese": "與", "pinyin": "yǔ", "english": "and (formal)", "vietnamese": "và, cùng với", "theme": "Grammar" },
+        { "id": 29, "chinese": "生理", "pinyin": "shēnglǐ", "english": "physical health, physiology", "vietnamese": "sinh lý", "theme": "Medical" },
+        { "id": 30, "chinese": "盯", "pinyin": "dīng", "english": "to stare", "vietnamese": "nhìn chằm chằm", "theme": "General" },
+        { "id": 31, "chinese": "螢幕", "pinyin": "yíngmù", "english": "screen, monitor", "vietnamese": "màn hình", "theme": "Technology" },
+        { "id": 32, "chinese": "疲倦", "pinyin": "píjuàn", "english": "tired, fatigued", "vietnamese": "mệt mỏi", "theme": "Medical" },
+        { "id": 33, "chinese": "視力", "pinyin": "shìlì", "english": "vision, eyesight", "vietnamese": "thị lực", "theme": "Medical" },
+        { "id": 34, "chinese": "家長", "pinyin": "jiāzhǎng", "english": "parent", "vietnamese": "phụ huynh", "theme": "Family" },
+        { "id": 35, "chinese": "此外", "pinyin": "cǐwài", "english": "in addition", "vietnamese": "ngoài ra", "theme": "Grammar" },
+        { "id": 36, "chinese": "戶外", "pinyin": "hùwài", "english": "outdoor", "vietnamese": "ngoài trời", "theme": "General" },
+        { "id": 37, "chinese": "人類", "pinyin": "rénlèi", "english": "mankind, humans", "vietnamese": "nhân loại, loài người", "theme": "Society" },
+        { "id": 38, "chinese": "正面", "pinyin": "zhèngmiàn", "english": "positive", "vietnamese": "tích cực, mặt chính", "theme": "Philosophy" },
+        { "id": 39, "chinese": "同時", "pinyin": "tóngshí", "english": "at the same time", "vietnamese": "đồng thời", "theme": "Time" },
+        { "id": 40, "chinese": "負面", "pinyin": "fùmiàn", "english": "negative", "vietnamese": "tiêu cực, mặt trái", "theme": "Philosophy" },
+        { "id": 41, "chinese": "沉迷", "pinyin": "chénmí", "english": "to be obsessed with, wallow in", "vietnamese": "đắm chìm, say mê quá mức", "theme": "Psychology" },
+        { "id": 42, "chinese": "無形中", "pinyin": "wúxíng zhōng", "english": "imperceptibly", "vietnamese": "một cách vô hình", "theme": "Idiom" },
+        { "id": 43, "chinese": "遠距教學", "pinyin": "yuǎnjù jiāoxué", "english": "distance learning", "vietnamese": "đào tạo từ xa", "theme": "Education" },
+        { "id": 44, "chinese": "大吵大鬧", "pinyin": "dàchǎo dànào", "english": "to make a scene, kick up a row", "vietnamese": "làm ầm ĩ, cãi lộn", "theme": "Communication" },
+        { "id": 45, "chinese": "焦慮不安", "pinyin": "jiāolǜ bù'ān", "english": "to be anxious", "vietnamese": "lo âu bất an", "theme": "Psychology" },
+        { "id": 46, "chinese": "總而言之", "pinyin": "zǒng'ér yánzhī", "english": "in conclusion, in short", "vietnamese": "tóm lại là", "theme": "Grammar" }
+      ]
+    }
+  ]
+}

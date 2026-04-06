@@ -38,15 +38,15 @@ export default function SharedBookPage({ token }) {
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [isComplete, setIsComplete] = useState(false);
 
-  useEffect(() => { tryPublic(); }, []);
+  useEffect(() => { tryPublic(); }, [token]);
 
   async function tryPublic() {
     setStatus('loading');
     const { data, error } = await supabase.rpc('get_shared_book', { p_token: token });
     if (error) { setStatus('error'); setErrorMsg('Failed to load shared book.'); return; }
-    if (data) { loadBook(data); return; }
-    // null = either private or doesn't exist — show password form
-    setStatus('password');
+    if (data === null) { setStatus('error'); setErrorMsg('This link is invalid or has been deleted.'); return; }
+    if (data.private) { setStatus('password'); return; }
+    loadBook(data);
   }
 
   async function tryPassword(e) {
@@ -100,18 +100,23 @@ export default function SharedBookPage({ token }) {
   // Quiz handlers
   function handleAnswer(choice) {
     const current = vocabulary[currentIndex];
-    const isCorrect = choice === current.chinese;
-    setAnsweredQuestion(choice);
+    const isCorrect = choice.id === current.id;
+    setAnsweredQuestion({ selectedAnswer: choice.chinese, isCorrect });
     setScore((s) => ({ correct: s.correct + (isCorrect ? 1 : 0), total: s.total + 1 }));
-    if (!isCorrect) setWrongAnswers((w) => [...w, { item: current, selectedAnswer: choice }]);
+    if (!isCorrect) setWrongAnswers((w) => [...w, { item: current, selectedAnswer: choice.chinese }]);
   }
   function handleNext_quiz() {
-    if (currentIndex >= vocabulary.length - 1) { setIsComplete(true); return; }
+    if (currentIndex >= vocabulary.length - 1) { setIsComplete(true); setAnsweredQuestion(null); return; }
     setCurrentIndex((i) => i + 1);
     setAnsweredQuestion(null);
   }
   function handleRestart() {
     setVocabulary(shuffleArray(vocabulary));
+    resetStudy();
+  }
+  function handleRetryWrong() {
+    const words = wrongAnswers.map((w) => w.item);
+    setVocabulary(words);
     resetStudy();
   }
 
@@ -267,6 +272,7 @@ export default function SharedBookPage({ token }) {
             isComplete={isComplete}
             wrongAnswers={wrongAnswers}
             onRestart={handleRestart}
+            onRetryWrong={handleRetryWrong}
             language={language}
             deckSource="all"
             t={t}

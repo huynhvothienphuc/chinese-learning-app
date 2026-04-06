@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Heart, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Flame, Heart, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
+import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
 import { supabase } from '@/lib/supabase';
 import LoginPage from '@/pages/LoginPage';
@@ -106,13 +107,14 @@ export default function App() {
   const [originalVocabulary, setOriginalVocabulary] = useState([]);
   const [uploadedLessons, setUploadedLessons] = useState([]);
   const [isShuffled, setIsShuffled] = useState(false);
-  const [mode, setMode] = useState('flashcard');
+  const [mode, setMode] = useState('review');
   const [deckSource, setDeckSource] = useState('all');
   const navigate = useNavigate();
   const location = useLocation();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
   const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/login' ? 'login' : 'learn';
   const { user, role, signOut, loading: authLoading } = useAuth();
+  const { streak, markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [score, setScore] = useState(INITIAL_SCORE);
@@ -180,9 +182,9 @@ export default function App() {
     // Wait for auth to resolve — avoids fetching twice on startup (once unauthenticated, once after session restores)
     if (authLoading) return;
 
-    // On logout: just strip teacher books from state, no re-fetch needed
+    // On logout: strip private teacher books but keep publicly shared ones
     if (!user && initialLoadDoneRef.current) {
-      setBaseBooks((prev) => prev.filter((b) => b.source !== 'teacher'));
+      setBaseBooks((prev) => prev.filter((b) => b.source !== 'teacher' || b.share_enabled));
       return;
     }
 
@@ -195,7 +197,11 @@ export default function App() {
         const [booksResponse, savedUploadsRaw, teacherBooksResult] = await Promise.all([
           fetch('/data/books.json'),
           Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
-          user ? supabase.from('user_books').select('id, title, description').order('created_at', { ascending: false }) : Promise.resolve({ data: [] }),
+          supabase
+            .from('user_books')
+            .select('id, title, description, share_enabled')
+            .eq('share_enabled', true)
+            .order('created_at', { ascending: false }),
         ]);
 
         if (!booksResponse.ok) throw new Error('Failed to load books');
@@ -548,6 +554,11 @@ export default function App() {
     setIsFlipped(false);
   }
 
+  function handleFlipCard() {
+    markStudied();
+    setIsFlipped((prev) => !prev);
+  }
+
   function handleNextFlashcard() {
     if (currentIndex >= activeVocabulary.length - 1) return;
     setCurrentIndex((prev) => prev + 1);
@@ -556,6 +567,7 @@ export default function App() {
 
   function handleAnswer(choice) {
     if (!currentItem || answeredQuestion) return;
+    markStudied();
 
     const correct = choice.id === currentItem.id;
     setAnsweredQuestion({
@@ -589,9 +601,14 @@ export default function App() {
     navigate('/');
   }
 
+  function handleRetryWrongWords() {
+    const words = wrongAnswers.map((w) => w.item);
+    handleStartCustomQuiz(words, words);
+  }
+
   async function handleSignOut() {
     await signOut();
-    navigate('/');
+    navigate('/login');
   }
 
   async function handleUploadFile(event) {
@@ -652,13 +669,17 @@ export default function App() {
     }
   }
 
-  // Redirect unauthenticated users away from protected routes (useEffect avoids navigate-in-render)
+  // Redirect away from protected routes based on auth + role
   useEffect(() => {
     if (authLoading) return;
     if (!user && (activeView === 'teacher' || activeView === 'admin')) {
       navigate('/login');
+    } else if (user && activeView === 'admin' && role !== 'admin') {
+      navigate('/teacher');
+    } else if (user && activeView === 'teacher' && role !== 'teacher' && role !== 'admin') {
+      navigate('/');
     }
-  }, [authLoading, user, activeView]);
+  }, [authLoading, user, role, activeView]);
 
 
   if (activeView === 'shared') return <SharedBookPage token={sharedMatch[1]} />;
@@ -673,14 +694,14 @@ export default function App() {
     );
   }
 
-  if (activeView === 'admin') return user ? <AdminDashboard /> : null;
+  if (activeView === 'admin') return user && role === 'admin' ? <AdminDashboard /> : null;
   if (activeView === 'teacher') {
-    if (!user) return null;
+    if (!user || (role !== 'teacher' && role !== 'admin')) return null;
     const path = location.pathname;
     const sectionMatch = path.match(/^\/teacher\/books\/([^/]+)\/sections\/([^/]+)/);
     const bookMatch = path.match(/^\/teacher\/books\/([^/]+)/);
     if (sectionMatch) return <SectionEditor bookId={sectionMatch[1]} sectionId={sectionMatch[2]} />;
-    if (bookMatch) return <BookEditor bookId={bookMatch[1]} />;
+    if (bookMatch) return <BookEditor bookId={bookMatch[1]} onShareChange={(updated) => setBaseBooks((prev) => updated.share_enabled ? prev.map((b) => b.id === updated.id ? { ...b, ...updated, source: 'teacher' } : b) : prev.filter((b) => b.id !== updated.id))} />;
     return <TeacherDashboard />;
   }
 
@@ -698,6 +719,12 @@ export default function App() {
                 </div>
               </button>
               <div className="flex flex-wrap items-end gap-2 lg:justify-end">
+                {streak > 0 && (
+                  <div className="flex items-center gap-1.5 rounded-full bg-orange-100 px-3 py-2 text-sm font-bold text-orange-600 dark:bg-orange-900/30 dark:text-orange-400">
+                    <Flame className="h-4 w-4" />
+                    {streak}
+                  </div>
+                )}
                 <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
                   <Wand2 className="h-4 w-4" />
                   <span className="hidden sm:inline">{t.myQuizTitle}</span>
@@ -807,7 +834,7 @@ export default function App() {
 	                    <Flashcard
 	                      item={currentItem}
 	                      flipped={isFlipped}
-                      onFlip={() => setIsFlipped((prev) => !prev)}
+                      onFlip={handleFlipCard}
                       isFavorite={currentItem ? isFavorite(currentItem) : false}
                       onToggleFavorite={() => toggleFavorite(currentItem)}
                       language={selectedLanguage}
@@ -843,7 +870,7 @@ export default function App() {
 	                          >
 	                            <ArrowRight className="h-4 w-4" />
 	                          </Button>
-	                          <Button onClick={() => setIsFlipped((prev) => !prev)} size="sm" className="flex-1" variant="secondary">
+	                          <Button onClick={handleFlipCard} size="sm" className="flex-1" variant="secondary">
 	                            {t.flipCardAction}
 	                          </Button>
 	                          <div className="shrink-0 rounded-full bg-green-100 px-3 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
@@ -863,7 +890,7 @@ export default function App() {
 	                          </div>
 
 	                          <div className="flex gap-3">
-	                            <Button onClick={() => setIsFlipped((prev) => !prev)} className="gap-2" variant="secondary">
+	                            <Button onClick={handleFlipCard} className="gap-2" variant="secondary">
 	                              {t.flipCardAction}
 	                            </Button>
 	                            <Button onClick={handleNextFlashcard} className="gap-2" disabled={currentIndex === activeVocabulary.length - 1} variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}>
@@ -888,6 +915,7 @@ export default function App() {
                     isComplete={quizComplete}
                     wrongAnswers={wrongAnswers}
                     onRestart={handleRestartQuiz}
+                    onRetryWrong={handleRetryWrongWords}
                     isFavorite={currentItem ? isFavorite(currentItem) : false}
                     onToggleFavorite={() => toggleFavorite(currentItem)}
                     language={selectedLanguage}

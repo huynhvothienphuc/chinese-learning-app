@@ -5,7 +5,7 @@ import StudyModeTabs from '@/components/StudyModeTabs';
 
 function getBookOptionLabel(book, t) {
   if (!book) return '';
-  if (book.id === 'user-upload') return book.title;
+  if (book.id === 'user-upload' || book.source === 'teacher') return book.title;
 
   const bookNumber =
     String(book.shortTitle || book.id || '')

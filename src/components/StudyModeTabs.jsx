@@ -2,9 +2,9 @@ import { BookOpenText, NotebookTabs, ScrollText } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const tabs = [
+  { id: 'review',    icon: NotebookTabs },
   { id: 'flashcard', icon: BookOpenText },
   { id: 'quiz',      icon: ScrollText },
-  { id: 'review',    icon: NotebookTabs },
 ];
 
 export default function StudyModeTabs({ t, activeTab, onChange, embedded = false }) {

@@ -4,7 +4,10 @@
       "Bash(grep -o \"dark:border-slate-700/60 dark:bg-slate-800/90\" src/components/*.jsx)",
       "Bash(npm install:*)",
       "Bash(git checkout:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(grep -l \"Flame\" /Users/phuchuynh/Desktop/chinese-learning-app/node_modules/lucide-react/dist/*.js)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
     ]
   }
 }
