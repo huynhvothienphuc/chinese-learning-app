@@ -1,4 +1,4 @@
-import { Heart } from 'lucide-react';
+import { ChevronDown, Heart } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import { Card, CardContent } from '@/components/ui/card';
@@ -88,7 +88,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                   <button
                     type="button"
                     onClick={() => setExpandedId(expanded ? null : id)}
-                    className="flex w-full items-center gap-3 px-4 py-3 text-left"
+                    className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-green-50 dark:hover:bg-slate-700/80 rounded-2xl"
                   >
                     <span className="w-7 shrink-0 text-center text-xs font-bold text-slate-400">{index + 1}</span>
                     <div className="min-w-0 flex-1">
@@ -99,6 +99,9 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                       <p className="mt-0.5 break-words text-sm text-slate-600 dark:text-slate-300">{meaning}</p>
                     </div>
                     <div className="flex shrink-0 items-center gap-1">
+                      {item.sentenceChinese && (
+                        <ChevronDown className={cn('h-4 w-4 text-slate-400 transition-transform duration-200', expanded && 'rotate-180')} />
+                      )}
                       <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="ghost" className="h-8 w-8" />
                       <button
                         type="button"
