@@ -43,7 +43,7 @@ const SESSION_LANGUAGE_KEY = 'selected-language';
 const FAVORITES_STORAGE_KEY = 'favorite-vocabulary';
 const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
-const APP_VERSION = 'v1.4.0';
+const APP_VERSION = 'v1.5.0';
 
 function formatFileSize(bytes) {
   if (bytes < 1024) return `${bytes} B`;
