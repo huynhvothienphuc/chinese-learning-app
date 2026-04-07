@@ -24,7 +24,7 @@ export default {
   previous: 'Previous',
   next: 'Next',
   madeBy: 'Made by Phuc Huynh & Thuc Quyen (Winnie)',
-  contributor: 'Contributors: Minh Chau & Bao Phuc',
+  contributor: 'Contributors: Bao Phuc & Minh Chau',
   noSections: 'No lessons',
   comingSoon: 'Coming soon',
   multipleChoice: 'Multiple choice',

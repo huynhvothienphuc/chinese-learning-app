@@ -3,6 +3,7 @@ import { ArrowLeft, CheckSquare2, Heart, Loader2, Square } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
+import { fetchJSON } from '@/lib/fetchCache';
 import Divider from './ui/divider';
 import Quiz from './Quiz';
 
@@ -55,8 +56,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
     }
 
     setLoadingSections(true);
-    fetch(`/data/books/${selectedBook}/sections.json`)
-      .then((r) => (r.ok ? r.json() : []))
+    fetchJSON(`/data/books/${selectedBook}/sections.json`)
       .then((data) => setSections(data.filter((s) => s.enabled !== false)))
       .catch(() => setSections([]))
       .finally(() => setLoadingSections(false));
@@ -70,8 +70,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
     const request =
       selectedBook === USER_UPLOAD_BOOK_ID
         ? Promise.resolve(uploadedLessons.find((l) => l.id === sectionFile)?.items || [])
-        : fetch(`/data/books/${selectedBook}/${sectionFile}`)
-          .then((r) => (r.ok ? r.json() : []))
+        : fetchJSON(`/data/books/${selectedBook}/${sectionFile}`)
           .then((data) => normalizeVocabularyItems(data?.items || data));
 
     request

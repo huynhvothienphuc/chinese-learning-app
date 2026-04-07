@@ -24,7 +24,7 @@ export default {
   previous: 'Trước',
   next: 'Tiếp',
   madeBy: 'Tác giả: Phúc Huỳnh & Thục Quyên (Winnie)',
-  contributor: 'Đóng góp: Minh Châu & Bảo Phúc',
+  contributor: 'Đóng góp: Bảo Phúc & Minh Châu ',
   noSections: 'Không có bài học',
   comingSoon: 'Sắp có',
   multipleChoice: 'Trắc nghiệm',

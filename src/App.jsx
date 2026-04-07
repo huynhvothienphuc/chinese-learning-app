@@ -5,6 +5,7 @@ import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
 import { supabase } from '@/lib/supabase';
+import { fetchJSON } from '@/lib/fetchCache';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
 const TeacherDashboard = lazy(() => import('@/pages/teacher/TeacherDashboard'));
@@ -197,14 +198,11 @@ export default function App() {
         setBooksError('');
         initialLoadDoneRef.current = true;
 
-        const [booksResponse, savedUploadsRaw, teacherBooksResult] = await Promise.all([
-          fetch('/data/books.json'),
+        const [booksData, savedUploadsRaw, teacherBooksResult] = await Promise.all([
+          fetchJSON('/data/books.json'),
           Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
           user ? supabase.rpc('list_shared_books') : Promise.resolve({ data: [] }),
         ]);
-
-        if (!booksResponse.ok) throw new Error('Failed to load books');
-        const booksData = await booksResponse.json();
         const normalizedUploads = normalizeUploadedLessons(savedUploadsRaw);
         const teacherBooks = (teacherBooksResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
 
@@ -289,9 +287,7 @@ export default function App() {
             _words: sec.words ?? [],
           }));
         } else {
-          const response = await fetch(`/data/books/${selectedBook}/sections.json`);
-          if (!response.ok) throw new Error('Failed to load sections');
-          const data = await response.json();
+          const data = await fetchJSON(`/data/books/${selectedBook}/sections.json`);
           nextSections = data.map((section) => ({
             ...section,
             title: section.title || formatSectionName(section.file),
@@ -348,9 +344,7 @@ export default function App() {
         } else if (currentSection?.source === 'teacher') {
           parsed = normalizeVocabularyItems(currentSection._words ?? []);
         } else {
-          const response = await fetch(`/data/books/${selectedBook}/${selectedSection}`);
-          if (!response.ok) throw new Error('Failed to load vocabulary');
-          const data = await response.json();
+          const data = await fetchJSON(`/data/books/${selectedBook}/${selectedSection}`);
           parsed = normalizeVocabularyItems(data?.items || data);
         }
 
