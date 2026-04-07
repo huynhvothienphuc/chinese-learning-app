@@ -42,7 +42,7 @@
       "pinyin": "chúfáng",
       "english": "kitchen",
       "sentenceChinese": "客廳左邊是廚房。",
-      "sentencePinyin": "Kètīng zuǒbiān {shì} chúfáng.",
+      "sentencePinyin": "Kètīng zuǒbiān shì chúfáng.",
       "sentenceEnglish": "To the left of the living room is the kitchen.",
       "vietnamese": "nhà bếp",
       "sentenceVietnamese": "Bên trái phòng khách là nhà bếp."
@@ -195,11 +195,11 @@
       "chinese": "想",
       "pinyin": "xiǎng",
       "english": "to think",
-      "sentenceChinese": "我想我想租這間房。",
-      "sentencePinyin": "Wǒ xiǎng wǒ xiǎng zū zhè jiān fáng.",
-      "sentenceEnglish": "I think I want to rent this room.",
+      "sentenceChinese": "我想租這間房。",
+      "sentencePinyin": "Wǒ xiǎng zū zhè jiān fáng.",
+      "sentenceEnglish": "I want to rent this room.",
       "vietnamese": "nghĩ",
-      "sentenceVietnamese": "Tôi nghĩ tôi muốn thuê căn phòng này."
+      "sentenceVietnamese": "Tôi muốn thuê căn phòng này."
     },
     {
       "id": 19,
@@ -241,9 +241,9 @@
       "english": "Chinese last name, common in Taiwan",
       "sentenceChinese": "林先生人很好。",
       "sentencePinyin": "Lín xiānsheng rén hěn hǎo.",
-      "sentenceEnglish": "Mr. Lin is a very good person.",
+      "sentenceEnglish": "Mr. Lin is a very kind person.",
       "vietnamese": "họ Lâm",
-      "sentenceVietnamese": "Ông Lâm là một người rất tốt."
+      "sentenceVietnamese": "Ông Lâm là một người rất tốt bụng."
     },
     {
       "id": 23,
@@ -272,7 +272,7 @@
       "chinese": "房租",
       "pinyin": "fángzū",
       "english": "rent (for a room or a house)",
-      "sentenceChinese": "這間房間의房租很貴。",
+      "sentenceChinese": "這間房間的房租很貴。",
       "sentencePinyin": "Zhè jiān fángjiān de fángzū hěn guì.",
       "sentenceEnglish": "The rent for this room is very expensive.",
       "vietnamese": "tiền thuê nhà",

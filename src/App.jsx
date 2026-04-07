@@ -1,23 +1,25 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Flame, Heart, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
 import { supabase } from '@/lib/supabase';
-import LoginPage from '@/pages/LoginPage';
-import TeacherDashboard from '@/pages/teacher/TeacherDashboard';
-import BookEditor from '@/pages/teacher/BookEditor';
-import SectionEditor from '@/pages/teacher/SectionEditor';
-import SharedBookPage from '@/pages/SharedBookPage';
-import AdminDashboard from '@/pages/AdminDashboard';
-import FavoritesPanel from '@/components/FavoritesPanel';
-import Flashcard from '@/components/Flashcard';
-import Quiz from '@/components/Quiz';
-import WordListView from '@/components/WordListView';
-import MyQuizPage from '@/components/MyQuizPage';
-import UploadGuide from '@/components/UploadGuide';
+
+const LoginPage = lazy(() => import('@/pages/LoginPage'));
+const TeacherDashboard = lazy(() => import('@/pages/teacher/TeacherDashboard'));
+const BookEditor = lazy(() => import('@/pages/teacher/BookEditor'));
+const SectionEditor = lazy(() => import('@/pages/teacher/SectionEditor'));
+const SharedBookPage = lazy(() => import('@/pages/SharedBookPage'));
+const AdminDashboard = lazy(() => import('@/pages/AdminDashboard'));
 import StudyDeckPanel from '@/components/StudyDeckPanel';
+
+const FavoritesPanel = lazy(() => import('@/components/FavoritesPanel'));
+const Flashcard = lazy(() => import('@/components/Flashcard'));
+const Quiz = lazy(() => import('@/components/Quiz'));
+const WordListView = lazy(() => import('@/components/WordListView'));
+const MyQuizPage = lazy(() => import('@/components/MyQuizPage'));
+const UploadGuide = lazy(() => import('@/components/UploadGuide'));
 import { Select } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -197,11 +199,7 @@ export default function App() {
         const [booksResponse, savedUploadsRaw, teacherBooksResult] = await Promise.all([
           fetch('/data/books.json'),
           Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
-          supabase
-            .from('user_books')
-            .select('id, title, description, share_enabled')
-            .eq('share_enabled', true)
-            .order('created_at', { ascending: false }),
+          user ? supabase.rpc('list_shared_books') : Promise.resolve({ data: [] }),
         ]);
 
         if (!booksResponse.ok) throw new Error('Failed to load books');
@@ -372,6 +370,9 @@ export default function App() {
     loadVocabulary();
   }, [selectedBook, selectedSection, uploadedLessons, sections, t.uploadVocabularyError]);
 
+  // O(1) lookup set — avoids O(n) favorites.some() per item per render
+  const favoriteKeySet = useMemo(() => new Set(favorites.map((f) => f.favoriteKey)), [favorites]);
+
   const favoriteVocabulary = useMemo(
     () =>
       favorites.map((favorite, index) => ({
@@ -427,7 +428,6 @@ export default function App() {
   const sectionLabel = currentSectionMeta?.title || formatSectionName(selectedSection || '');
   const bookLabel = selectedBookMeta?.title || t.userUploadBook;
   const showNoData = !isLoading && !error && activeView === 'learn' && activeVocabulary.length === 0;
-  const favoriteCount = favorites.length;
   const activeTab = mode === 'quiz' ? 'quiz' : mode === 'review' ? 'review' : 'flashcard';
 
   function getFavoriteKey(item, section = selectedSection) {
@@ -436,11 +436,10 @@ export default function App() {
 
   function isFavorite(item, section = selectedSection) {
     if (!item) return false;
-    const key = getFavoriteKey(item, section);
-    return favorites.some((favorite) => favorite.favoriteKey === key);
+    return favoriteKeySet.has(getFavoriteKey(item, section));
   }
 
-  function toggleFavorite(item) {
+  const toggleFavorite = useCallback((item) => {
     if (!item) return;
 
     const favoriteKey = getFavoriteKey(item);
@@ -475,7 +474,7 @@ export default function App() {
       section_id: selectedSection,
       word: item.chinese,
     });
-  }
+  }, [selectedBook, selectedSection, bookLabel, sectionLabel]);
 
   function removeFavorite(favoriteKey) {
     setFavorites((prev) => prev.filter((favorite) => favorite.favoriteKey !== favoriteKey));
@@ -682,27 +681,29 @@ export default function App() {
   }, [authLoading, user, role, activeView]);
 
 
-  if (activeView === 'shared') return <SharedBookPage token={sharedMatch[1]} />;
-  if (activeView === 'login') return <LoginPage />;
+  const pageFallback = (
+    <div className="flex min-h-screen items-center justify-center bg-white dark:bg-slate-950">
+      <div className="h-8 w-8 animate-spin rounded-full border-4 border-green-500 border-t-transparent" />
+    </div>
+  );
+
+  if (activeView === 'shared') return <Suspense fallback={pageFallback}><SharedBookPage token={sharedMatch[1]} /></Suspense>;
+  if (activeView === 'login') return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
 
   // Show spinner while auth is restoring session for protected routes
   if (authLoading && (activeView === 'teacher' || activeView === 'admin')) {
-    return (
-      <div className="flex min-h-screen items-center justify-center bg-white dark:bg-slate-950">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-green-500 border-t-transparent" />
-      </div>
-    );
+    return pageFallback;
   }
 
-  if (activeView === 'admin') return user && role === 'admin' ? <AdminDashboard /> : null;
+  if (activeView === 'admin') return user && role === 'admin' ? <Suspense fallback={pageFallback}><AdminDashboard /></Suspense> : null;
   if (activeView === 'teacher') {
     if (!user || (role !== 'teacher' && role !== 'admin')) return null;
     const path = location.pathname;
     const sectionMatch = path.match(/^\/teacher\/books\/([^/]+)\/sections\/([^/]+)/);
     const bookMatch = path.match(/^\/teacher\/books\/([^/]+)/);
-    if (sectionMatch) return <SectionEditor bookId={sectionMatch[1]} sectionId={sectionMatch[2]} />;
-    if (bookMatch) return <BookEditor bookId={bookMatch[1]} onShareChange={(updated) => setBaseBooks((prev) => updated.share_enabled ? prev.map((b) => b.id === updated.id ? { ...b, ...updated, source: 'teacher' } : b) : prev.filter((b) => b.id !== updated.id))} />;
-    return <TeacherDashboard />;
+    if (sectionMatch) return <Suspense fallback={pageFallback}><SectionEditor bookId={sectionMatch[1]} sectionId={sectionMatch[2]} /></Suspense>;
+    if (bookMatch) return <Suspense fallback={pageFallback}><BookEditor bookId={bookMatch[1]} onShareChange={(updated) => setBaseBooks((prev) => updated.share_enabled ? prev.map((b) => b.id === updated.id ? { ...b, ...updated, source: 'teacher' } : b) : prev.filter((b) => b.id !== updated.id))} /></Suspense>;
+    return <Suspense fallback={pageFallback}><TeacherDashboard /></Suspense>;
   }
 
   return (
@@ -715,7 +716,7 @@ export default function App() {
                 <img src="/logo.svg" alt="Logo" className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
                 <div>
                   <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
-                  <p className="mt-1 text-sm leading-6 text-slate-500 whitespace-nowrap">{t.appSubtitle}</p>
+                  <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
                 </div>
               </button>
               <div className="flex flex-wrap items-end gap-2 lg:justify-end">
@@ -731,21 +732,16 @@ export default function App() {
                 </Button>
                 <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/upload-word')}>
                   <Upload className="h-4 w-4" />
-                  {t.uploadLesson}
+                  <span className="hidden sm:inline">{t.uploadLesson}</span>
                 </Button>
-                <div className="min-w-[170px]">
-                  <Select className="w-[170px] min-w-[170px]" value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
+                <div className="w-[140px]">
+                  <Select value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
                     {languageOptions.map((language) => (
                       <option key={language.id} value={language.id}>{language.label}</option>
                     ))}
                   </Select>
                 </div>
-                <Button type="button" variant="outline" className="gap-2" onClick={() => setIsFavoritesOpen(true)}>
-                  <Heart className="h-4 w-4" />
-                  {favoriteCount > 0 && <span className="rounded-full bg-rose-100 px-1.5 py-0.5 text-xs font-bold text-rose-600 dark:bg-rose-900/40 dark:text-rose-400">{favoriteCount}</span>}
-                  <span className="hidden sm:inline">{t.favoriteList}</span>
-                </Button>
-                <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
+<Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                   {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                 </Button>
                 {user && (
@@ -774,23 +770,27 @@ export default function App() {
         <input ref={fileInputRef} type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" className="hidden" onChange={handleUploadFile} />
 
         {activeView === 'myquiz' ? (
-          <MyQuizPage
-            books={books}
-            uploadedLessons={uploadedLessons}
-            favoriteVocabulary={favoriteVocabulary}
-            onStart={handleStartCustomQuiz}
-            onBack={() => navigate('/')}
-            t={t}
-          />
+          <Suspense fallback={null}>
+            <MyQuizPage
+              books={books}
+              uploadedLessons={uploadedLessons}
+              favoriteVocabulary={favoriteVocabulary}
+              onStart={handleStartCustomQuiz}
+              onBack={() => navigate('/')}
+              t={t}
+            />
+          </Suspense>
         ) : activeView === 'upload' ? (
-          <UploadGuide
-            onBackToLearn={() => navigate('/')}
-            onOpenPicker={() => fileInputRef.current?.click()}
-            maxUploadLabel={formatFileSize(MAX_UPLOAD_BYTES)}
-            lastUploadedName={lastUploadedName}
-            uploadError={uploadError}
-            t={t}
-          />
+          <Suspense fallback={null}>
+            <UploadGuide
+              onBackToLearn={() => navigate('/')}
+              onOpenPicker={() => fileInputRef.current?.click()}
+              maxUploadLabel={formatFileSize(MAX_UPLOAD_BYTES)}
+              lastUploadedName={lastUploadedName}
+              uploadError={uploadError}
+              t={t}
+            />
+          </Suspense>
         ) : (
           <>
 	            <StudyDeckPanel
@@ -822,15 +822,18 @@ export default function App() {
 	            ) : (
 	              <div className="space-y-5">
 	                {mode === 'review' ? (
-	                  <WordListView
-                    vocabulary={vocabulary}
-                    isFavorite={isFavorite}
-                    onToggleFavorite={toggleFavorite}
-                    language={selectedLanguage}
-                    t={t}
-                  />
+	                  <Suspense fallback={null}>
+                    <WordListView
+                      vocabulary={vocabulary}
+                      isFavorite={isFavorite}
+                      onToggleFavorite={toggleFavorite}
+                      language={selectedLanguage}
+                      t={t}
+                    />
+                  </Suspense>
 	                ) : mode === 'flashcard' ? (
 	                  <>
+                    <Suspense fallback={null}>
 	                    <Flashcard
 	                      item={currentItem}
 	                      flipped={isFlipped}
@@ -843,6 +846,7 @@ export default function App() {
                       onShuffle={handleShuffleToggle}
                       t={t}
                     />
+                    </Suspense>
 
 	                    <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
 	                      <CardContent className="p-4 sm:p-5">
@@ -904,6 +908,7 @@ export default function App() {
 	                    </Card>
 	                  </>
 	                ) : (
+                  <Suspense fallback={null}>
                   <Quiz
                     vocabulary={activeVocabulary}
                     choicePool={customQuizPool ?? (deckSource === 'favorites' ? vocabulary : undefined)}
@@ -922,6 +927,7 @@ export default function App() {
                     deckSource={deckSource}
                     t={t}
                   />
+                  </Suspense>
                 )}
               </div>
             )}
@@ -938,6 +944,7 @@ export default function App() {
         </footer>
       </div>
 
+      <Suspense fallback={null}>
       <FavoritesPanel
         isOpen={isFavoritesOpen}
         favorites={favorites}
@@ -947,6 +954,7 @@ export default function App() {
         language={selectedLanguage}
         t={t}
       />
+      </Suspense>
     </div>
   );
 }

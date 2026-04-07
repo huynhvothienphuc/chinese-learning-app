@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls public/data/books/book2/section*.json)",
+      "Bash(ls public/data/books/book3/section*.json)",
+      "Bash(ls public/data/books/book4/section*.json)",
+      "Bash(ls /Users/phuchuynh/Desktop/chinese-learning-app/.env*)",
+      "Bash(wc -l /Users/phuchuynh/Desktop/chinese-learning-app/src/App.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/components/*.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/pages/**/*.jsx)",
+      "Bash(node -e ':*)"
+    ]
+  }
+}

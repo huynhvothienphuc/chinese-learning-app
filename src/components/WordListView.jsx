@@ -1,5 +1,5 @@
 import { Heart } from 'lucide-react';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
@@ -9,12 +9,14 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedId, setExpandedId] = useState(null);
 
-  const filteredBySource = filter === 'favorites' ? vocabulary.filter((item) => isFavorite(item)) : vocabulary;
   const normalizedQuery = searchQuery.trim().toLowerCase();
-  const displayed = normalizedQuery
-    ? filteredBySource.filter((item) =>
-      [item.chinese, item.english].some((value) => (value ?? '').toLowerCase().includes(normalizedQuery)))
-    : filteredBySource;
+  const displayed = useMemo(() => {
+    const base = filter === 'favorites' ? vocabulary.filter((item) => isFavorite(item)) : vocabulary;
+    if (!normalizedQuery) return base;
+    return base.filter((item) =>
+      [item.chinese, item.english].some((value) => (value ?? '').toLowerCase().includes(normalizedQuery))
+    );
+  }, [vocabulary, filter, normalizedQuery, isFavorite]);
 
   if (!vocabulary || vocabulary.length === 0) {
     return (

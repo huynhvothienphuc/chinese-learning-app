@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { memo, useEffect, useMemo, useRef } from 'react';
 import { CheckCircle2, CircleX, Heart, Trophy } from 'lucide-react';
 import SpeakButton from '@/components/SpeakButton';
 import { Button } from '@/components/ui/button';
@@ -7,7 +7,7 @@ import { buildQuizChoices, cn, getItemMeaning, getSentenceMeaning } from '@/lib/
 
 const choiceLetters = ['A', 'B', 'C', 'D'];
 
-function ChoiceButton({ choice, label, isAnswered, isCorrect, isWrongSelection, onSelect, language }) {
+const ChoiceButton = memo(function ChoiceButton({ choice, label, isAnswered, isCorrect, isWrongSelection, onSelect, language }) {
   return (
     <button
       type="button"
@@ -40,7 +40,7 @@ function ChoiceButton({ choice, label, isAnswered, isCorrect, isWrongSelection, 
       </div>
     </button>
   );
-}
+});
 
 function Summary({ totalQuestions, score, wrongAnswers, onRestart, onRetryWrong, t, language }) {
   const percentage = totalQuestions === 0 ? 0 : Math.round((score.correct / totalQuestions) * 100);

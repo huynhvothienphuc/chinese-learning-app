@@ -12,9 +12,12 @@ alter table user_sections enable row level security;
 -- 3. RLS policies — drop first to avoid duplicates
 drop policy if exists "owner" on user_books;
 drop policy if exists "owner" on user_sections;
+drop policy if exists "public_shared" on user_books;
 
 create policy "owner" on user_books for all using (auth.uid() = user_id);
 create policy "owner" on user_sections for all using (auth.uid() = user_id);
+-- Guests can read publicly shared books (share_enabled = true, share_type = 'public')
+create policy "public_shared" on user_books for select using (share_enabled = true and share_type = 'public');
 
 -- 4. Ensure share columns exist (safe if already there)
 alter table user_books add column if not exists share_enabled boolean default false;
@@ -87,6 +90,21 @@ begin
     and b.share_type = 'private'
     and b.share_password_hash = crypt(p_password, b.share_password_hash);
   return result;
+end;
+$$;
+
+-- Returns id, title, description, share_enabled for all publicly shared books (safe for guests)
+create or replace function list_shared_books()
+returns json language plpgsql security definer as $$
+begin
+  return (
+    select json_agg(
+      json_build_object('id', b.id, 'title', b.title, 'description', b.description, 'share_enabled', b.share_enabled)
+      order by b.created_at desc
+    )
+    from user_books b
+    where b.share_enabled = true
+  );
 end;
 $$;
 

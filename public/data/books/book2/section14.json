@@ -23,7 +23,7 @@
       "sentencePinyin": "Zhōngwén de shēngdiào duì wàiguórén lái shuō hěn nán.",
       "sentenceEnglish": "Chinese tones are very difficult for foreigners.",
       "vietnamese": "thanh điệu",
-      "sentenceVietnamese": "Thanh điệu tiếng Trung đối với người nước ngoài mà nói rất khó."
+      "sentenceVietnamese": "Đối với người nước ngoài, thanh điệu tiếng Trung rất khó."
     },
     {
       "id": 3,
@@ -100,7 +100,7 @@
       "sentencePinyin": "Xièxiè nǐ gěi wǒ de bāngzhù.",
       "sentenceEnglish": "Thank you for the help you gave me.",
       "vietnamese": "giúp đỡ",
-      "sentenceVietnamese": "Cảm ơn sự giúp đỡ bạn dành cho tôi."
+      "sentenceVietnamese": "Cảm ơn bạn đã giúp đỡ tôi."
     },
     {
       "id": 10,
@@ -133,7 +133,7 @@
       "sentencePinyin": "Tā zài yánjiùsuǒ yánjiù guójì guānxì.",
       "sentenceEnglish": "He is researching international relations in graduate school.",
       "vietnamese": "nghiên cứu",
-      "sentenceVietnamese": "Anh ấy nghiên cứu quan hệ quốc tế ở viện nghiên cứu."
+      "sentenceVietnamese": "Anh ấy nghiên cứu quan hệ quốc tế ở bậc cao học."
     },
     {
       "id": 13,
@@ -221,7 +221,7 @@
       "sentencePinyin": "Wǒ xiǎng lìyòng shǔjià chōngshí zìjǐ de nénglì.",
       "sentenceEnglish": "I want to use the summer vacation to enrich my abilities.",
       "vietnamese": "làm phong phú / củng cố",
-      "sentenceVietnamese": "Tôi muốn lợi dụng kỳ nghỉ hè để củng cố năng lực của bản thân."
+      "sentenceVietnamese": "Tôi muốn tận dụng kỳ nghỉ hè để nâng cao năng lực của mình."
     },
     {
       "id": 21,
@@ -243,18 +243,18 @@
       "sentencePinyin": "Tā gōngzuò de nénglì hěn qiáng.",
       "sentenceEnglish": "His work ability is very strong.",
       "vietnamese": "năng lực",
-      "sentenceVietnamese": "Năng lực làm việc của anh ấy rất mạnh."
+      "sentenceVietnamese": "Năng lực làm việc của anh ấy rất tốt."
     },
     {
       "id": 23,
       "chinese": "加拿大",
       "pinyin": "Jiānádà",
       "english": "Canada",
-      "sentenceChinese": "他是從加拿大來的學生。",
-      "sentencePinyin": "Tā shì cóng Jiānádà lái de xuéshēng.",
-      "sentenceEnglish": "He is a student from Canada.",
+      "sentenceChinese": "他是從加拿大來的留學生。",
+      "sentencePinyin": "Tā shì cóng Jiānádà lái de liúxuéshēng.",
+      "sentenceEnglish": "He is an international student from Canada.",
       "vietnamese": "Canada",
-      "sentenceVietnamese": "Anh ấy là sinh viên đến từ Canada."
+      "sentenceVietnamese": "Anh ấy là du học sinh đến từ Canada."
     },
     {
       "id": 24,
@@ -276,7 +276,7 @@
       "sentencePinyin": "Zài yánjiùsuǒ niàn guójì guānxì hěn xīnkǔ.",
       "sentenceEnglish": "Studying international relations in graduate school is very hard.",
       "vietnamese": "quan hệ quốc tế",
-      "sentenceVietnamese": "Học quan hệ quốc tế ở viện nghiên cứu rất vất vả."
+      "sentenceVietnamese": "Học quan hệ quốc tế ở bậc cao học rất vất vả."
     },
     {
       "id": 26,
@@ -340,7 +340,7 @@
       "english": "to develop",
       "sentenceChinese": "這家公司的發展很快。",
       "sentencePinyin": "Zhè jiā gōngsī de fāzhǎn hěn kuài.",
-      "sentenceEnglish": "The development of this company is very fast.",
+      "sentenceEnglish": "This company is growing very quickly.",
       "vietnamese": "phát triển",
       "sentenceVietnamese": "Sự phát triển của công ty này rất nhanh."
     },
@@ -349,11 +349,11 @@
       "chinese": "連",
       "pinyin": "lián",
       "english": "even",
-      "sentenceChinese": "這個字太難了，連老師也不認識。",
-      "sentencePinyin": "Zhège zì tài nán le, lián lǎoshī yě bú rènshì.",
-      "sentenceEnglish": "This character is too difficult; even the teacher doesn't know it.",
+      "sentenceChinese": "這個字太難了，連老師也不會念。",
+      "sentencePinyin": "Zhège zì tài nán le, lián lǎoshī yě bú huì niàn.",
+      "sentenceEnglish": "This character is so difficult that even the teacher doesn't know how to read it.",
       "vietnamese": "đến cả / ngay cả",
-      "sentenceVietnamese": "Chữ này khó quá, đến cả thầy giáo cũng không biết."
+      "sentenceVietnamese": "Chữ này khó quá, đến cả thầy giáo cũng không biết đọc."
     },
     {
       "id": 33,
@@ -371,9 +371,9 @@
       "chinese": "不但",
       "pinyin": "búdàn",
       "english": "not only",
-      "sentenceChinese": "他不不但會說中文，也會說日文。",
+      "sentenceChinese": "他不但會說中文，也會說日文。",
       "sentencePinyin": "Tā búdàn huì shuō Zhōngwén, yě huì shuō Rìwén.",
-      "sentenceEnglish": "He not only can speak Chinese but also Japanese.",
+      "sentenceEnglish": "He can speak not only Chinese but also Japanese.",
       "vietnamese": "không những",
       "sentenceVietnamese": "Anh ấy không những biết nói tiếng Trung, mà còn biết nói tiếng Nhật."
     },
@@ -422,13 +422,13 @@
       "sentenceVietnamese": "Cảm ơn sự tiếp đãi nồng hậu của bạn ngày hôm nay."
     },
     {
-      "id": 14,
+      "id": 47,
       "chinese": "研究所",
       "pinyin": "yánjiùsuǒ",
       "english": "graduate school",
       "sentenceChinese": "他大學畢業後想考研究所。",
       "sentencePinyin": "Tā dàxué bìyè hòu xiǎng kǎo yánjiùsuǒ.",
-      "sentenceEnglish": "He wants to take the exam for graduate school after graduating university.",
+      "sentenceEnglish": "He wants to apply to graduate school after finishing university.",
       "vietnamese": "viện nghiên cứu / cao học",
       "sentenceVietnamese": "Anh ấy muốn thi cao học sau khi tốt nghiệp đại học."
     },

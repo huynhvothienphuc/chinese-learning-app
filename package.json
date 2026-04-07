@@ -19,6 +19,7 @@
     "tailwind-merge": "3.5.0"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.82.0",
     "@vitejs/plugin-react": "4.2.1",
     "autoprefixer": "10.4.27",
     "postcss": "8.5.6",
