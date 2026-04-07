@@ -713,19 +713,19 @@ export default function App() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
               <button type="button" onClick={() => navigate('/')} className="flex items-center gap-4 text-left">
-                <img src="/logo.svg" alt="Logo" className="h-12 w-12 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
+                <img src="/logo.png" alt="Logo" className="h-12 w-12 rounded-3xl p-1.5 " />
                 <div>
                   <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
                   <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
                 </div>
               </button>
               <div className="flex flex-wrap items-end gap-2 lg:justify-end">
-                {streak > 0 && (
+                {/* {streak > 0 && (
                   <div className="flex items-center gap-1.5 rounded-full bg-orange-100 px-3 py-2 text-sm font-bold text-orange-600 dark:bg-orange-900/30 dark:text-orange-400">
                     <Flame className="h-4 w-4" />
                     {streak}
                   </div>
-                )}
+                )} */}
                 <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
                   <Wand2 className="h-4 w-4" />
                   <span className="hidden sm:inline">{t.myQuizTitle}</span>
