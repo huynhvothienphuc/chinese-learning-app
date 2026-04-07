@@ -775,8 +775,8 @@ export default function App() {
               books={books}
               uploadedLessons={uploadedLessons}
               favoriteVocabulary={favoriteVocabulary}
-              onStart={handleStartCustomQuiz}
               onBack={() => navigate('/')}
+              language={selectedLanguage}
               t={t}
             />
           </Suspense>

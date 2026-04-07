@@ -2,7 +2,7 @@ export default {
   appTitle: 'Chinese EZ Cards',
   appSubtitle: 'Dựa trên giáo trình Đương Đại Ngữ Văn (Phồn thể)',
   learn: 'Học',
-  uploadLesson: 'Nhập bài',
+  uploadLesson: 'Tạo từ vựng của bạn',
   favoriteList: 'Yêu thích',
   score: 'Điểm',
   bookLabel: 'Giáo trình',
