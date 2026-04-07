@@ -13,6 +13,7 @@ const SectionEditor = lazy(() => import('@/pages/teacher/SectionEditor'));
 const SharedBookPage = lazy(() => import('@/pages/SharedBookPage'));
 const AdminDashboard = lazy(() => import('@/pages/AdminDashboard'));
 import StudyDeckPanel from '@/components/StudyDeckPanel';
+import NotFoundPage from '@/pages/NotFoundPage';
 
 const FavoritesPanel = lazy(() => import('@/components/FavoritesPanel'));
 const Flashcard = lazy(() => import('@/components/Flashcard'));
@@ -114,7 +115,7 @@ export default function App() {
   const navigate = useNavigate();
   const location = useLocation();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/login' ? 'login' : 'learn';
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/login' ? 'login' : location.pathname === '/' ? 'learn' : 'notfound';
   const { user, role, signOut, loading: authLoading } = useAuth();
   const { streak, markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -695,6 +696,7 @@ export default function App() {
     return pageFallback;
   }
 
+  if (activeView === 'notfound') return <NotFoundPage onGoHome={() => navigate('/')} />;
   if (activeView === 'admin') return user && role === 'admin' ? <Suspense fallback={pageFallback}><AdminDashboard /></Suspense> : null;
   if (activeView === 'teacher') {
     if (!user || (role !== 'teacher' && role !== 'admin')) return null;
