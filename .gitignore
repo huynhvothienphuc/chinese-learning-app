@@ -30,3 +30,6 @@ coverage/
 
 # misc
 *.local
+
+# local AI tool settings
+.claude/settings.json

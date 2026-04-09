@@ -47,7 +47,11 @@ export function AuthProvider({ children }) {
     return () => subscription.unsubscribe();
   }, []);
 
-  async function signIn(email, password) {
+  async function signIn(usernameOrEmail, password) {
+    // Teachers use real email; members use username → converted to username@member.local
+    const email = usernameOrEmail.includes('@')
+      ? usernameOrEmail
+      : `${usernameOrEmail.toLowerCase()}@member.local`;
     setLoading(true);
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) {
@@ -60,6 +64,32 @@ export function AuthProvider({ children }) {
     return r;
   }
 
+  async function signUp(username, password) {
+    const email = `${username.toLowerCase()}@member.local`;
+    setLoading(true);
+    // Check username is not already taken
+    const { data: existing } = await supabase
+      .from('profiles')
+      .select('user_id')
+      .eq('username', username.toLowerCase())
+      .maybeSingle();
+    if (existing) {
+      setLoading(false);
+      throw new Error('Username already taken.');
+    }
+    const { data, error } = await supabase.auth.signUp({ email, password });
+    if (error) { setLoading(false); throw error; }
+    if (data.user) {
+      await supabase.from('profiles').insert({
+        user_id: data.user.id,
+        username: username.toLowerCase(),
+        role: 'member',
+        is_active: true,
+      });
+    }
+    setLoading(false);
+  }
+
   async function signOut() {
     setUser(null);
     setRole(null);
@@ -70,7 +100,7 @@ export function AuthProvider({ children }) {
   }
 
   return (
-    <AuthContext.Provider value={{ user, role, loading, signIn, signOut }}>
+    <AuthContext.Provider value={{ user, role, loading, signIn, signUp, signOut }}>
       {children}
     </AuthContext.Provider>
   );

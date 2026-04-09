@@ -93,3 +93,25 @@ export async function parseVocabularyWorkbook(file) {
   const validRows = mappedRows.filter((item) => item.chinese && item.pinyin && item.vietnamese);
   return normalizeVocabularyItems(validRows);
 }
+
+export async function exportVocabularyToExcel(items, fileName = 'vocabulary') {
+  const XLSX = await ensureSheetJS();
+
+  const rows = items.map((item) => ({
+    chinese: item.chinese || '',
+    pinyin: item.pinyin || '',
+    vietnamese: item.vietnamese || '',
+    english: item.english || '',
+    sentence_chinese: item.sentenceChinese || '',
+    sentence_pinyin: item.sentencePinyin || '',
+    sentence_vietnamese: item.sentenceVietnamese || '',
+    sentence_english: item.sentenceEnglish || '',
+  }));
+
+  const worksheet = XLSX.utils.json_to_sheet(rows);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Vocabulary');
+
+  const safeName = fileName.replace(/[^\w\s-]/g, '').trim() || 'vocabulary';
+  XLSX.writeFile(workbook, `${safeName}.xlsx`);
+}

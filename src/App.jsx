@@ -1,10 +1,10 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Flame, Heart, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Flame, Heart, Info, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
-import { supabase } from '@/lib/supabase';
+import { supabase, saveStudentSet, loadStudentSets, deleteStudentSet } from '@/lib/supabase';
 import { fetchJSON } from '@/lib/fetchCache';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
@@ -21,11 +21,14 @@ const Flashcard = lazy(() => import('@/components/Flashcard'));
 const Quiz = lazy(() => import('@/components/Quiz'));
 const WordListView = lazy(() => import('@/components/WordListView'));
 const MyQuizPage = lazy(() => import('@/components/MyQuizPage'));
+const WriteMode = lazy(() => import('@/components/WriteMode'));
 const UploadGuide = lazy(() => import('@/components/UploadGuide'));
+const InfoPage = lazy(() => import('@/pages/InfoPage'));
 import { Select } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
+  buildQuizChoices,
   formatSectionName,
   normalizeVocabularyItems,
   parseVocabularyText,
@@ -45,7 +48,7 @@ const SESSION_LANGUAGE_KEY = 'selected-language';
 const FAVORITES_STORAGE_KEY = 'favorite-vocabulary';
 const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
-const APP_VERSION = 'v1.5.0';
+const APP_VERSION = 'v2.0.0';
 
 function formatFileSize(bytes) {
   if (bytes < 1024) return `${bytes} B`;
@@ -116,7 +119,7 @@ export default function App() {
   const navigate = useNavigate();
   const location = useLocation();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/login' ? 'login' : location.pathname === '/' ? 'learn' : 'notfound';
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/login' ? 'login' : location.pathname === '/' ? 'learn' : 'notfound';
   const { user, role, signOut, loading: authLoading } = useAuth();
   const { streak, markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -134,8 +137,11 @@ export default function App() {
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
   const [customQuizWords, setCustomQuizWords] = useState(null);
   const [customQuizPool, setCustomQuizPool] = useState(null);
+  const [quizSeed, setQuizSeed] = useState(0);
   const [lastUploadedName, setLastUploadedName] = useState('');
+  const [supabaseSets, setSupabaseSets] = useState([]);
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
+  const [fontSize, setFontSize] = useLocalStorageState('font-size', 'md');
   const fileInputRef = useRef(null);
   const initialLoadDoneRef = useRef(false);
 
@@ -168,11 +174,17 @@ export default function App() {
     setAnsweredQuestion(null);
     setWrongAnswers([]);
     setQuizComplete(false);
+    setQuizSeed((s) => s + 1);
   }
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', isDarkMode);
   }, [isDarkMode]);
+
+  useEffect(() => {
+    const sizeMap = { sm: '14px', md: '16px', lg: '18px', xl: '20px', xll: '22px' };
+    document.documentElement.style.setProperty('--app-font-size', sizeMap[fontSize] ?? '16px');
+  }, [fontSize]);
 
   useEffect(() => {
     localStorage.setItem(SESSION_LANGUAGE_KEY, selectedLanguage);
@@ -198,16 +210,18 @@ export default function App() {
         setBooksError('');
         initialLoadDoneRef.current = true;
 
-        const [booksData, savedUploadsRaw, teacherBooksResult] = await Promise.all([
+        const [booksData, savedUploadsRaw, teacherBooksResult, studentSetsResult] = await Promise.all([
           fetchJSON('/data/books.json'),
           Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
           user ? supabase.rpc('list_shared_books') : Promise.resolve({ data: [] }),
+          user ? loadStudentSets(user.id).catch(() => []) : Promise.resolve([]),
         ]);
         const normalizedUploads = normalizeUploadedLessons(savedUploadsRaw);
         const teacherBooks = (teacherBooksResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
 
         setBaseBooks([...booksData, ...teacherBooks]);
         setUploadedLessons(normalizedUploads);
+        setSupabaseSets(studentSetsResult);
         if (normalizedUploads.length > 0) {
           localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(normalizedUploads));
         }
@@ -386,6 +400,12 @@ export default function App() {
 
   const activeVocabulary = customQuizWords ?? (deckSource === 'favorites' ? favoriteVocabulary : vocabulary);
 
+  const pool = customQuizPool ?? (deckSource === 'favorites' ? vocabulary : activeVocabulary);
+  const allChoices = useMemo(
+    () => activeVocabulary.map((item) => buildQuizChoices(pool, item)),
+    [activeVocabulary, pool, quizSeed],
+  );
+
   useEffect(() => {
     if (mode !== 'flashcard' || activeView !== 'learn') return undefined;
 
@@ -423,7 +443,7 @@ export default function App() {
   const sectionLabel = currentSectionMeta?.title || formatSectionName(selectedSection || '');
   const bookLabel = selectedBookMeta?.title || t.userUploadBook;
   const showNoData = !isLoading && !error && activeView === 'learn' && activeVocabulary.length === 0;
-  const activeTab = mode === 'quiz' ? 'quiz' : mode === 'review' ? 'review' : 'flashcard';
+  const activeTab = mode === 'quiz' ? 'quiz' : mode === 'review' ? 'review' : mode === 'write' ? 'write' : 'flashcard';
 
   function getFavoriteKey(item, section = selectedSection) {
     return `${selectedBook}__${section}__${item.chinese}__${item.pinyin}`;
@@ -515,6 +535,13 @@ export default function App() {
     if (nextTab === 'review') {
       setMode('review');
       navigate('/');
+      return;
+    }
+
+    if (nextTab === 'write') {
+      setMode('write');
+      navigate('/');
+      resetInteractiveState();
       return;
     }
 
@@ -624,34 +651,64 @@ export default function App() {
       }
 
       setIsLoading(true);
-      const items = await parseVocabularyWorkbook(file);
+      const rawItems = await parseVocabularyWorkbook(file);
 
-      if (!items.length) {
+      if (!rawItems.length) {
         setUploadError(t.uploadNeedsRows);
         return;
       }
 
+      const MAX_WORDS = 100;
+      const items = rawItems.slice(0, MAX_WORDS);
+      const wasTrimmed = rawItems.length > MAX_WORDS;
+
+      const title = formatSectionName(file.name);
+
+      // Logged-in student: try to save to Supabase first (max 3 slots)
+      if (user && supabaseSets.length < 3) {
+        try {
+          const saved = await saveStudentSet(user.id, { title, items });
+          setSupabaseSets((prev) => [saved, ...prev]);
+          if (wasTrimmed) {
+            setUploadError(t.uploadTrimmedWarning.replace('{max}', MAX_WORDS).replace('{total}', rawItems.length));
+            return; // stay on upload page so user sees the warning
+          }
+          setDeckSource('all');
+          resetInteractiveState();
+          navigate('/');
+          setMode('flashcard');
+          trackEvent('upload_lesson', { file_name: file.name, size: file.size, rows: items.length, format: 'xlsx', storage: 'supabase' });
+          return;
+        } catch {
+          // fall through to localStorage if Supabase fails
+        }
+      }
+
+      // Guest or Supabase full/failed: save to localStorage
       const nextLesson = {
         id: `user-upload-${Date.now()}`,
         fileName: file.name,
-        title: formatSectionName(file.name),
+        title,
         items,
         uploadedAt: new Date().toISOString(),
       };
 
-      const nextUploads = [nextLesson, ...uploadedLessons.filter((lesson) => lesson.id !== nextLesson.id)];
+      const nextUploads = [nextLesson, ...uploadedLessons];
       setUploadedLessons(nextUploads);
       localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(nextUploads));
       sessionStorage.removeItem(LEGACY_SESSION_UPLOADS_KEY);
 
-      setLastUploadedName(nextLesson.title);
+      if (wasTrimmed) {
+        setUploadError(t.uploadTrimmedWarning.replace('{max}', MAX_WORDS).replace('{total}', rawItems.length));
+        return; // stay on upload page so user sees the warning
+      }
       setSelectedBook(USER_UPLOAD_BOOK_ID);
       setSelectedSection(nextLesson.id);
       navigate('/');
       setMode('flashcard');
       setDeckSource('all');
       resetInteractiveState();
-      trackEvent('upload_lesson', { file_name: file.name, size: file.size, rows: items.length, format: 'xlsx' });
+      trackEvent('upload_lesson', { file_name: file.name, size: file.size, rows: items.length, format: 'xlsx', storage: 'localstorage' });
     } catch {
       setUploadError(t.uploadReadError);
       setOriginalVocabulary([]);
@@ -722,13 +779,24 @@ export default function App() {
                     {streak}
                   </div>
                 )} */}
+                {!user && (
+                  <Button type="button" variant={activeView === 'info' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/info')}>
+                    <Info className="h-4 w-4" />
+                    <span className="text-xs font-medium sm:text-sm">{t.aboutNavLabel}</span>
+                  </Button>
+                )}
                 <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
                   <Wand2 className="h-4 w-4" />
-                  <span className="hidden sm:inline">{t.myQuizTitle}</span>
+                  <span className="text-xs font-medium sm:text-sm">{t.myQuizTitle}</span>
                 </Button>
-                <Button type="button" variant={activeView === 'upload' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/upload-word')}>
+                <Button type="button" variant="outline" className="gap-2 opacity-60" disabled aria-disabled="true">
                   <Upload className="h-4 w-4" />
-                  <span className="hidden sm:inline">{t.uploadLesson}</span>
+                  <span className="text-xs font-medium sm:text-sm">{t.uploadLesson}</span>
+                  {(uploadedLessons.length + supabaseSets.length) > 0 && (
+                    <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-green-600 px-1.5 text-xs font-bold text-white">
+                      {uploadedLessons.length + supabaseSets.length}
+                    </span>
+                  )}
                 </Button>
                 <div className="w-[140px]">
                   <Select value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
@@ -737,24 +805,39 @@ export default function App() {
                     ))}
                   </Select>
                 </div>
-<Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
+                <label className="flex items-center gap-2 rounded-xl border border-border bg-background px-3 shadow-sm">
+                  <span className="text-xs font-medium text-slate-500 dark:text-slate-400">{t.fontSizeLabel}</span>
+                  <select
+                    value={fontSize}
+                    onChange={(e) => setFontSize(e.target.value)}
+                    aria-label={t.fontSizeLabel}
+                    className="h-10 appearance-none bg-transparent text-sm font-medium outline-none"
+                  >
+                    <option value="sm">14</option>
+                    <option value="md">16</option>
+                    <option value="lg">18</option>
+                    <option value="xl">20</option>
+                    <option value="xll">22</option>
+                  </select>
+                </label>
+                <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                   {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                 </Button>
                 {user && (
                   <>
                     {role === 'admin' && (
                       <Button type="button" variant="outline" className="gap-2" onClick={() => navigate('/admin')}>
-                        <span className="hidden sm:inline">Admin</span>
+                        <span className="text-xs font-medium sm:text-sm">Admin</span>
                       </Button>
                     )}
                     {(role === 'teacher' || role === 'admin') && (
                       <Button type="button" variant="outline" className="gap-2" onClick={() => navigate('/teacher')}>
-                        <span className="hidden sm:inline">Dashboard</span>
+                        <span className="text-xs font-medium sm:text-sm">Dashboard</span>
                       </Button>
                     )}
                     <Button type="button" variant="outline" className="gap-2" onClick={handleSignOut}>
                       <LogOut className="h-4 w-4" />
-                      <span className="hidden sm:inline">Sign out</span>
+                      <span className="text-xs font-medium sm:text-sm">Sign out</span>
                     </Button>
                   </>
                 )}
@@ -765,7 +848,11 @@ export default function App() {
 
         <input ref={fileInputRef} type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" className="hidden" onChange={handleUploadFile} />
 
-        {activeView === 'myquiz' ? (
+        {activeView === 'info' ? (
+          <Suspense fallback={null}>
+            <InfoPage t={t} />
+          </Suspense>
+        ) : activeView === 'myquiz' ? (
           <Suspense fallback={null}>
             <MyQuizPage
               books={books}
@@ -782,8 +869,19 @@ export default function App() {
               onBackToLearn={() => navigate('/')}
               onOpenPicker={() => fileInputRef.current?.click()}
               maxUploadLabel={formatFileSize(MAX_UPLOAD_BYTES)}
-              lastUploadedName={lastUploadedName}
               uploadError={uploadError}
+              uploadedLessons={uploadedLessons}
+              onDeleteLesson={(id) => {
+                const next = uploadedLessons.filter((l) => l.id !== id);
+                setUploadedLessons(next);
+                localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(next));
+              }}
+              supabaseSets={supabaseSets}
+              supabaseSlotsUsed={supabaseSets.length}
+              onDeleteSupabaseSet={async (id) => {
+                await deleteStudentSet(id);
+                setSupabaseSets((prev) => prev.filter((s) => s.id !== id));
+              }}
               t={t}
             />
           </Suspense>
@@ -852,7 +950,7 @@ export default function App() {
 	                            onClick={handlePrevious}
 	                            disabled={currentIndex === 0}
 	                            size="sm"
-	                            className="min-w-0 px-3"
+	                            className="order-3 min-w-0 px-3"
 	                            variant={currentIndex === activeVocabulary.length - 1 ? 'default' : 'outline'}
 	                            aria-label={t.previous}
 	                            title={t.previous}
@@ -863,17 +961,17 @@ export default function App() {
 	                            onClick={handleNextFlashcard}
 	                            disabled={currentIndex === activeVocabulary.length - 1}
 	                            size="sm"
-	                            className="min-w-0 px-3"
+	                            className="order-4 min-w-0 px-3"
 	                            variant={currentIndex === activeVocabulary.length - 1 ? 'outline' : 'default'}
 	                            aria-label={t.next}
 	                            title={t.next}
 	                          >
 	                            <ArrowRight className="h-4 w-4" />
 	                          </Button>
-	                          <Button onClick={handleFlipCard} size="sm" className="flex-1" variant="secondary">
+	                          <Button onClick={handleFlipCard} size="sm" className="order-2 flex-1" variant="secondary">
 	                            {t.flipCardAction}
 	                          </Button>
-	                          <div className="shrink-0 rounded-full bg-green-100 px-3 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+	                          <div className="order-1 shrink-0 rounded-full bg-green-100 px-3 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
 	                            {activeVocabulary.length === 0 ? 0 : currentIndex + 1} / {activeVocabulary.length}
 	                          </div>
 	                          </div>
@@ -903,11 +1001,20 @@ export default function App() {
 	                      </CardContent>
 	                    </Card>
 	                  </>
-	                ) : (
+	                ) : mode === 'write' ? (
+                  <Suspense fallback={null}>
+                    <WriteMode
+                      key={activeVocabulary.map((i) => i.id).join(',')}
+                      vocabulary={activeVocabulary}
+                      language={selectedLanguage}
+                      t={t}
+                    />
+                  </Suspense>
+                ) : (
                   <Suspense fallback={null}>
                   <Quiz
                     vocabulary={activeVocabulary}
-                    choicePool={customQuizPool ?? (deckSource === 'favorites' ? vocabulary : undefined)}
+                    allChoices={allChoices}
                     currentIndex={currentIndex}
                     answeredQuestion={answeredQuestion}
                     onAnswer={handleAnswer}

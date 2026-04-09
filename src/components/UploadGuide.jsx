@@ -1,6 +1,9 @@
-import { Download, FileSpreadsheet, Upload, WandSparkles } from 'lucide-react';
+import { useState } from 'react';
+import { Download, FileSpreadsheet, Loader2, Trash2, Upload, WandSparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { exportVocabularyToExcel } from '@/lib/excel';
+import { cn } from '@/lib/utils';
 
 const columns = [
   { key: 'chinese', required: true },
@@ -14,27 +17,97 @@ const columns = [
 ];
 
 const sampleRows = [
-  {
-    chinese: '一共',
-    pinyin: 'yígòng',
-    vietnamese: 'tổng cộng',
-    english: 'altogether',
-  },
-  {
-    chinese: '多少',
-    pinyin: 'duōshǎo',
-    vietnamese: 'bao nhiêu',
-    english: 'how much, how many',
-  },
+  { chinese: '一共', pinyin: 'yígòng', vietnamese: 'tổng cộng', english: 'altogether' },
+  { chinese: '多少', pinyin: 'duōshǎo', vietnamese: 'bao nhiêu', english: 'how much, how many' },
 ];
 
-export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabel, lastUploadedName, uploadError, t }) {
+function SetCard({ lesson, onDelete, t }) {
+  const [exporting, setExporting] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+
+  async function handleDownload() {
+    setExporting(true);
+    try {
+      await exportVocabularyToExcel(lesson.items, lesson.title);
+    } finally {
+      setExporting(false);
+    }
+  }
+
+  async function handleDelete() {
+    setDeleting(true);
+    try {
+      await onDelete(lesson.id);
+    } finally {
+      setDeleting(false);
+    }
+  }
+
+  const isSupabase = lesson.source === 'supabase';
+
+  return (
+    <div className="flex items-center gap-3 rounded-2xl border border-[#CAE8BD] bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-700">
+      <FileSpreadsheet className="h-4 w-4 shrink-0 text-green-600 dark:text-green-400" />
+      <div className="min-w-0 flex-1">
+        <p className="truncate text-sm font-semibold text-slate-800 dark:text-slate-200">{lesson.title}</p>
+        <p className="text-xs text-slate-400 dark:text-slate-500">
+          {lesson.items?.length ?? 0} {t.wordsLabel}
+          {' · '}
+          {isSupabase ? (
+            <span className="text-green-600 dark:text-green-400">{t.savedPermanently}</span>
+          ) : (
+            <span className="text-amber-600 dark:text-amber-400">{t.savedInBrowserShort}</span>
+          )}
+        </p>
+      </div>
+      <button
+        type="button"
+        onClick={handleDownload}
+        disabled={exporting}
+        className="flex h-8 w-8 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-500 hover:bg-slate-50 disabled:opacity-50 dark:border-slate-600 dark:bg-slate-600 dark:text-slate-300"
+        aria-label={t.downloadSet}
+      >
+        {exporting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Download className="h-3.5 w-3.5" />}
+      </button>
+      <button
+        type="button"
+        onClick={handleDelete}
+        disabled={deleting}
+        className="flex h-8 w-8 items-center justify-center rounded-xl border border-rose-200 bg-rose-50 text-rose-500 hover:bg-rose-100 disabled:opacity-50 dark:border-rose-800 dark:bg-rose-900/30 dark:text-rose-400"
+        aria-label={t.deleteSet}
+      >
+        {deleting ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Trash2 className="h-3.5 w-3.5" />}
+      </button>
+    </div>
+  );
+}
+
+export default function UploadGuide({
+  onBackToLearn,
+  onOpenPicker,
+  maxUploadLabel,
+  uploadError,
+  uploadedLessons = [],
+  onDeleteLesson,
+  supabaseSets = [],
+  onDeleteSupabaseSet,
+  supabaseSlotsUsed = 0,
+  t,
+}) {
   const steps = [
     { icon: Download, title: t.step1Title, description: t.step1Description },
     { icon: WandSparkles, title: t.step2Title, description: t.step2Description },
     { icon: FileSpreadsheet, title: t.step3Title, description: t.step3Description },
     { icon: Upload, title: t.step4Title, description: t.step4Description },
   ];
+
+  const allSets = [
+    ...supabaseSets.map((s) => ({ ...s, source: 'supabase', items: s.items ?? [] })),
+    ...uploadedLessons.map((l) => ({ ...l, source: 'browser' })),
+  ];
+
+  const SUPABASE_LIMIT = 3;
+  const supabaseFull = supabaseSlotsUsed >= SUPABASE_LIMIT;
 
   return (
     <div className="space-y-6 animate-float-in">
@@ -70,11 +143,12 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
                 {columns.map((column) => (
                   <span
                     key={column.key}
-                    className={`rounded-full px-3 py-2 text-xs font-semibold ${
+                    className={cn(
+                      'rounded-full px-3 py-2 text-xs font-semibold',
                       column.required
                         ? 'bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300'
-                        : 'bg-slate-100 text-slate-600 dark:bg-slate-600 dark:text-slate-300'
-                    }`}
+                        : 'bg-slate-100 text-slate-600 dark:bg-slate-600 dark:text-slate-300',
+                    )}
                   >
                     {column.key}
                     {column.required ? ` · ${t.requiredTag}` : ` · ${t.optionalTag}`}
@@ -129,24 +203,22 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
 
               <Button type="button" className="h-11 w-full gap-2" onClick={onOpenPicker}>
                 <Upload className="h-4 w-4" />
-                {t.uploadLessonFile}
+                {t.uploadLesson}
               </Button>
+
+              <div className="rounded-3xl bg-amber-50 p-4 text-sm text-amber-800 dark:bg-amber-900/20 dark:text-amber-300">
+                <p className="font-semibold">{t.browserStorageWarningTitle}</p>
+                <p className="mt-1 text-amber-700 dark:text-amber-400">{t.browserStorageWarningBody}</p>
+              </div>
 
               <div className="rounded-3xl bg-green-50 p-4 text-sm text-green-800 dark:bg-green-900/30 dark:text-green-300">
                 <p className="font-semibold">{t.uploadRules}</p>
                 <ul className="mt-2 space-y-2 text-green-700 dark:text-green-400">
                   <li>• {t.xlsxOnly}</li>
                   <li>• {t.maxSize}: {maxUploadLabel}</li>
-                  <li>• {t.savedInBrowser}</li>
+                  <li>• {t.maxWordsPerSet}: 100</li>
                 </ul>
               </div>
-
-              {lastUploadedName ? (
-                <div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300">
-                  {t.currentUploadedSection}: <span className="font-semibold">{lastUploadedName}</span>{' '}
-                  <span className="text-emerald-700 dark:text-emerald-400">{t.inUserUpload}</span>
-                </div>
-              ) : null}
 
               {uploadError ? (
                 <div className="rounded-3xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-700 dark:border-rose-800 dark:bg-rose-900/30 dark:text-rose-300">{uploadError}</div>
@@ -157,6 +229,34 @@ export default function UploadGuide({ onBackToLearn, onOpenPicker, maxUploadLabe
               </Button>
             </CardContent>
           </Card>
+
+          {allSets.length > 0 && (
+            <Card className="border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
+              <CardHeader>
+                <CardTitle className="text-xl font-black">{t.mySetsTitle}</CardTitle>
+                <CardDescription>
+                  {supabaseSlotsUsed > 0
+                    ? t.mySetsSubtitle.replace('{used}', supabaseSlotsUsed).replace('{max}', SUPABASE_LIMIT)
+                    : t.mySetsSubtitleGuest}
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-2">
+                {supabaseFull && (
+                  <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-700 dark:border-amber-800 dark:bg-amber-900/20 dark:text-amber-300">
+                    {t.supabaseSlotsFull}
+                  </div>
+                )}
+                {allSets.map((set) => (
+                  <SetCard
+                    key={set.id}
+                    lesson={set}
+                    t={t}
+                    onDelete={set.source === 'supabase' ? onDeleteSupabaseSet : onDeleteLesson}
+                  />
+                ))}
+              </CardContent>
+            </Card>
+          )}
 
           <Card className="border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
             <CardHeader>

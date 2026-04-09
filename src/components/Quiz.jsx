@@ -1,9 +1,9 @@
-import { memo, useEffect, useMemo, useRef } from 'react';
-import { CheckCircle2, CircleX, Heart, Trophy } from 'lucide-react';
+import { memo, useEffect, useRef } from 'react';
+import { CheckCircle2, CircleX, Trophy } from 'lucide-react';
 import SpeakButton from '@/components/SpeakButton';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { buildQuizChoices, cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
+import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
 
 const choiceLetters = ['A', 'B', 'C', 'D'];
 
@@ -14,7 +14,7 @@ const ChoiceButton = memo(function ChoiceButton({ choice, label, isAnswered, isC
       disabled={isAnswered}
       onClick={onSelect}
       className={cn(
-        'w-full rounded-3xl border px-4 py-4 text-left transition-all duration-200 sm:px-5',
+        'w-full rounded-2xl border px-3 py-2 text-left transition-all duration-200 sm:px-4',
         'bg-white hover:-translate-y-0.5 hover:shadow-md dark:bg-slate-700 dark:border-slate-600',
         isAnswered && 'cursor-default hover:translate-y-0 hover:shadow-none',
         !isAnswered && 'border-slate-200 dark:border-slate-600',
@@ -22,19 +22,19 @@ const ChoiceButton = memo(function ChoiceButton({ choice, label, isAnswered, isC
         isWrongSelection && 'border-rose-300 bg-rose-50 ring-2 ring-rose-200 dark:border-rose-700 dark:bg-rose-900/30 dark:ring-rose-800',
       )}
     >
-      <div className="flex items-start gap-4">
-        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-green-100 text-sm font-black text-green-700 dark:bg-slate-600 dark:text-slate-100">
+      <div className="flex items-center gap-3">
+        <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-green-100 text-xs font-black text-green-700 dark:bg-slate-600 dark:text-slate-100">
           {label}
         </div>
 
         <div className="min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-3">
-            <div>
-              <p className="text-lg font-black text-slate-900 dark:text-white sm:text-xl">{choice.chinese}</p>
-              {isAnswered ? <p className="mt-1 text-sm text-slate-500">{getItemMeaning(choice, language)}</p> : null}
+          <div className="flex items-center justify-between gap-2">
+            <div className="min-w-0">
+              <p className="break-words font-black text-slate-900 dark:text-white" style={{ fontSize: 'var(--app-font-size, 1.125rem)' }}>{choice.chinese}</p>
+              {isAnswered ? <p className="text-sm text-slate-500">{getItemMeaning(choice, language)}</p> : null}
             </div>
-            {isCorrect ? <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-emerald-600" /> : null}
-            {isWrongSelection ? <CircleX className="mt-1 h-5 w-5 shrink-0 text-rose-600" /> : null}
+            {isCorrect ? <CheckCircle2 className="h-5 w-5 shrink-0 text-emerald-600" /> : null}
+            {isWrongSelection ? <CircleX className="h-5 w-5 shrink-0 text-rose-600" /> : null}
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ function Summary({ totalQuestions, score, wrongAnswers, onRestart, onRetryWrong,
 
 export default function Quiz({
   vocabulary,
-  choicePool,
+  allChoices,
   currentIndex,
   answeredQuestion,
   onAnswer,
@@ -118,19 +118,13 @@ export default function Quiz({
   wrongAnswers,
   onRestart,
   onRetryWrong,
-  isFavorite,
-  onToggleFavorite,
   language = 'en',
-  deckSource = 'all',
   deckLabel,
   t,
 }) {
   const cardRef = useRef(null);
   const currentItem = vocabulary[currentIndex];
-  const choices = useMemo(() => {
-    if (!currentItem) return [];
-    return buildQuizChoices(choicePool || vocabulary, currentItem);
-  }, [currentItem, vocabulary, choicePool]);
+  const choices = allChoices?.[currentIndex] ?? [];
 
   useEffect(() => {
     cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -150,43 +144,40 @@ export default function Quiz({
   return (
     <Card ref={cardRef} className="overflow-hidden border-[#CAE8BD] bg-[#ECFAE5] shadow-lg animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
       <CardHeader className="space-y-5 border-b border-[#CAE8BD] bg-[#ECFAE5] dark:border-slate-700 dark:bg-slate-800/70">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700 dark:bg-blue-900/40 dark:text-blue-300">{t.quizInstructionLabel}</span>
-          <span className="rounded-full bg-green-100/70 px-3 py-1 text-xs font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">{deckSource === 'favorites' ? t.sourceFavoriteWords : t.sourceAllWords}</span>
+        {/* Row 1: status + actions */}
+        {/* Row 1: score + counter + ? */}
+        <div className="flex items-center gap-2">
           <span className="rounded-full bg-green-100/70 px-3 py-1 text-xs font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">{t.score}: {score.correct}/{score.total}</span>
-        </div>
-
-        <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-          <div className="space-y-3">
-            <div>
-              <CardTitle className="mt-3 text-3xl font-black text-green-700 dark:text-primary md:text-4xl">{currentItem.pinyin}</CardTitle>
-              <CardDescription className="mt-2 text-base">{getItemMeaning(currentItem, language)}</CardDescription>
-            </div>
-            <p className="text-sm text-slate-500">{t.quizInstructionText}</p>
+          <div className="rounded-full bg-green-100/70 px-4 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+            {currentIndex + 1} / {vocabulary.length}
           </div>
-
-          <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-end md:justify-between md:self-stretch">
-            <div className="flex items-center gap-2">
-              <div className="rounded-full bg-green-100/70 px-4 py-2 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
-                {currentIndex + 1} / {vocabulary.length}
-              </div>
-              <Button
-                type="button"
-                variant="outline"
-                size="icon"
-                className={cn(isFavorite && 'border-rose-200 bg-rose-50 text-rose-600 dark:border-rose-800 dark:bg-rose-900/30 dark:text-rose-400')}
-                onClick={onToggleFavorite}
-                aria-label={isFavorite ? t.removeFavorite : t.addFavorite}
-              >
-                <Heart className={cn('h-4 w-4', isFavorite && 'fill-current')} />
-              </Button>
-              <SpeakButton text={currentItem.chinese} label={t.speakQuizAnswer} size="icon" variant="outline" />
+          <div className="group relative ml-auto">
+            <button
+              type="button"
+              className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-200 text-xs font-bold text-slate-500 hover:bg-green-200 hover:text-green-700 dark:bg-slate-600 dark:text-slate-400 dark:hover:bg-slate-500"
+              aria-label="How to use"
+            >
+              ?
+            </button>
+            <div className="pointer-events-none absolute right-0 top-10 z-10 w-56 rounded-2xl border border-green-100 bg-white p-3 text-xs text-slate-600 opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300">
+              <p className="text-slate-600 dark:text-slate-300">Choose 1 of 4 answers that matches the pinyin &amp; meaning shown.</p>
             </div>
-            {isAnswered ? (
-              <Button className="md:mt-4" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
-            ) : null}
           </div>
         </div>
+
+        {/* Row 2: pinyin + speak */}
+        <div className="flex items-center justify-between gap-4">
+          <div className="flex min-w-0 items-center gap-2">
+            <CardTitle className="truncate text-3xl font-black text-green-700 dark:text-primary md:text-4xl">{currentItem.pinyin}</CardTitle>
+            <SpeakButton text={currentItem.chinese} label={t.speakQuizAnswer} size="icon" variant="ghost" />
+          </div>
+          {isAnswered && (
+            <Button className="shrink-0" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
+          )}
+        </div>
+
+        {/* Row 3: meaning */}
+        <CardDescription className="text-base">{getItemMeaning(currentItem, language)}</CardDescription>
       </CardHeader>
 
       <CardContent className="space-y-6 bg-[#ECFAE5] p-4 sm:p-6 dark:bg-slate-800/90">

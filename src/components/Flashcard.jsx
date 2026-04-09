@@ -1,6 +1,7 @@
-import { Eye, EyeOff, Heart, Languages, Shuffle } from 'lucide-react';
+import { Heart, Shuffle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
+import ToggleSwitch from '@/components/ToggleSwitch';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
@@ -17,12 +18,12 @@ export default function Flashcard({
   onShuffle,
   t,
 }) {
-  const [showPinyin, setShowPinyin] = useState(false);
-  const [showMeaning, setShowMeaning] = useState(false);
+  const [showDetails, setShowDetails] = useState(false);
+  const showPinyin = showDetails;
+  const showMeaning = showDetails;
 
   useEffect(() => {
-    setShowPinyin(false);
-    setShowMeaning(false);
+    setShowDetails(false);
   }, [item?.id]);
 
   if (!item) {
@@ -39,52 +40,19 @@ export default function Flashcard({
   return (
     <div className="mx-auto w-full max-w-5xl">
       <div className="mb-4 rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] px-3 py-3 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/85 sm:px-4">
-        <div className="flex flex-col gap-3 md:flex-row md:flex-wrap md:items-center md:justify-end">
-        <div className="grid grid-cols-4 gap-2 md:flex md:flex-wrap md:items-center md:justify-end">
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-          className={cn(
-            'h-10 w-full gap-2 px-0 md:h-9 md:w-auto md:px-3',
-            showPinyin && 'border-amber-300 bg-amber-50 text-amber-700 dark:border-amber-700 dark:bg-amber-900/30 dark:text-amber-300',
-          )}
-            aria-label={showPinyin ? t.hidePinyin : t.showPinyin}
-            title={showPinyin ? t.hidePinyin : t.showPinyin}
-            onClick={(event) => {
-              event.stopPropagation();
-              setShowPinyin((prev) => !prev);
-              event.currentTarget.blur();
-            }}
-          >
-            <Languages className="h-4 w-4" />
-            <span className="hidden sm:inline">{showPinyin ? t.hidePinyin : t.showPinyin}</span>
-          </Button>
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-          className={cn(
-            'h-10 w-full gap-2 px-0 md:h-9 md:w-auto md:px-3',
-            showMeaning && 'border-amber-300 bg-amber-50 text-amber-700 dark:border-amber-700 dark:bg-amber-900/30 dark:text-amber-300',
-          )}
-            aria-label={showMeaning ? t.hideMeaning : t.showMeaning}
-            title={showMeaning ? t.hideMeaning : t.showMeaning}
-            onClick={(event) => {
-              event.stopPropagation();
-              setShowMeaning((prev) => !prev);
-              event.currentTarget.blur();
-            }}
-          >
-            {showMeaning ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-            <span className="hidden sm:inline">{showMeaning ? t.hideMeaning : t.showMeaning}</span>
-          </Button>
+        <div className="flex flex-wrap items-center gap-2">
+          <ToggleSwitch
+            checked={showDetails}
+            onChange={setShowDetails}
+            label={t.showPinyin}
+            className="h-10 rounded-2xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-600 hover:bg-green-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 md:h-9"
+          />
           <Button
             type="button"
             variant="outline"
             size="sm"
             className={cn(
-              'h-10 w-full gap-2 px-0 md:h-9 md:w-auto md:px-3',
+              'h-10 gap-2 px-3 md:h-9',
               isFavorite && 'border-rose-200 bg-rose-50 text-rose-600 dark:border-rose-800 dark:bg-rose-900/30 dark:text-rose-400',
             )}
             aria-label={isFavorite ? t.removeFavorite : t.addFavorite}
@@ -104,7 +72,7 @@ export default function Flashcard({
             size="sm"
             disabled={!canShuffle}
             className={cn(
-              'h-10 w-full gap-2 px-0 md:h-9 md:w-auto md:px-3',
+              'h-10 gap-2 px-3 md:h-9',
               isShuffled && 'border-emerald-200 bg-emerald-50 text-emerald-700',
             )}
             aria-label={isShuffled ? t.resetOrder : t.mix}
@@ -118,7 +86,6 @@ export default function Flashcard({
             <Shuffle className="h-4 w-4" />
             <span className="hidden sm:inline">{isShuffled ? t.resetOrder : t.mix}</span>
           </Button>
-        </div>
         </div>
       </div>
 
@@ -165,12 +132,11 @@ export default function Flashcard({
                 </div>
 
                 <div className="rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700/50">
-                  <div className="mb-3 flex items-center justify-between gap-3">
-                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-green-700 dark:text-slate-300">{t.exampleSentence}</p>
-                    <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="outline" />
-                  </div>
                   <div className="space-y-3 text-sm sm:text-base md:text-lg">
-                    <p className="break-words font-semibold text-slate-800 dark:text-slate-100">{item.sentenceChinese}</p>
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">{item.sentenceChinese}</p>
+                      <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="outline" />
+                    </div>
                     {item.sentencePinyin && showPinyin ? <p className="break-words text-slate-500 dark:text-slate-400">{item.sentencePinyin}</p> : null}
                     <p className="break-words border-t border-[#CAE8BD] pt-3 text-slate-600 dark:border-slate-600 dark:text-slate-300">{sentenceMeaning}</p>
                   </div>
