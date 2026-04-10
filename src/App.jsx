@@ -36,6 +36,8 @@ import {
 } from '@/lib/utils';
 import { parseVocabularyWorkbook } from '@/lib/excel';
 import { initGoogleAnalytics, trackEvent } from '@/lib/analytics';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { localeMap } from '@/locales';
 import './App.css';
 
@@ -108,7 +110,7 @@ export default function App() {
   const [selectedSection, setSelectedSection] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState(() => {
     const saved = localStorage.getItem(SESSION_LANGUAGE_KEY);
-    return saved && localeMap[saved] ? saved : 'en';
+    return saved && localeMap[saved] ? saved : 'vi';
   });
   const [vocabulary, setVocabulary] = useState([]);
   const [originalVocabulary, setOriginalVocabulary] = useState([]);
@@ -141,8 +143,9 @@ export default function App() {
   const [lastUploadedName, setLastUploadedName] = useState('');
   const [supabaseSets, setSupabaseSets] = useState([]);
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
-  const [fontSize, setFontSize] = useLocalStorageState('font-size', 'md');
+  const [fontSize, setFontSize] = useLocalStorageState('font-size', 'lg');
   const fileInputRef = useRef(null);
+  const fontSizeSelectRef = useRef(null);
   const initialLoadDoneRef = useRef(false);
 
   const t = localeMap[selectedLanguage] || localeMap.en;
@@ -182,7 +185,7 @@ export default function App() {
   }, [isDarkMode]);
 
   useEffect(() => {
-    const sizeMap = { sm: '14px', md: '16px', lg: '18px', xl: '20px', xll: '22px' };
+    const sizeMap = { sm: '16px', md: '18px', lg: '20px', xl: '22px', xll: '24px', xxl: '26px' };
     document.documentElement.style.setProperty('--app-font-size', sizeMap[fontSize] ?? '16px');
   }, [fontSize]);
 
@@ -760,6 +763,9 @@ export default function App() {
   }
 
   return (
+    <>
+    <Analytics />
+    <SpeedInsights />
     <div className="min-h-screen bg-white px-4 py-4 text-slate-900 dark:bg-slate-950 dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-7xl flex-col gap-6">
         <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
@@ -805,21 +811,24 @@ export default function App() {
                     ))}
                   </Select>
                 </div>
-                <label className="flex items-center gap-2 rounded-xl border border-border bg-background px-3 shadow-sm">
-                  <span className="text-xs font-medium text-slate-500 dark:text-slate-400">{t.fontSizeLabel}</span>
+                <div className="relative flex cursor-pointer items-center gap-2 rounded-xl border border-border bg-background px-3 shadow-sm">
+                  <span className="pointer-events-none text-xs font-medium text-slate-500 dark:text-slate-400">{t.fontSizeLabel}</span>
+                  <span className="pointer-events-none text-sm font-medium">{{ sm: 16, md: 18, lg: 20, xl: 22, xll: 24, xxl: 26 }[fontSize]}</span>
                   <select
+                    ref={fontSizeSelectRef}
                     value={fontSize}
                     onChange={(e) => setFontSize(e.target.value)}
                     aria-label={t.fontSizeLabel}
-                    className="h-10 appearance-none bg-transparent text-sm font-medium outline-none"
+                    className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
                   >
-                    <option value="sm">14</option>
-                    <option value="md">16</option>
-                    <option value="lg">18</option>
-                    <option value="xl">20</option>
-                    <option value="xll">22</option>
+                    <option value="sm">16</option>
+                    <option value="md">18</option>
+                    <option value="lg">20</option>
+                    <option value="xl">22</option>
+                    <option value="xll">24</option>
+                    <option value="xxl">26</option>
                   </select>
-                </label>
+                </div>
                 <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                   {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                 </Button>
@@ -1062,5 +1071,6 @@ export default function App() {
       />
       </Suspense>
     </div>
+    </>
   );
 }

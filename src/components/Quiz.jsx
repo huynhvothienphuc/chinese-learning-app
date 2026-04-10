@@ -172,7 +172,7 @@ export default function Quiz({
             <SpeakButton text={currentItem.chinese} label={t.speakQuizAnswer} size="icon" variant="ghost" />
           </div>
           {isAnswered && (
-            <Button className="shrink-0" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
+            <Button className="hidden shrink-0 sm:flex" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
           )}
         </div>
 
@@ -201,6 +201,9 @@ export default function Quiz({
           })}
         </div>
 
+        {isAnswered && (
+          <Button className="w-full sm:hidden" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
+        )}
       </CardContent>
     </Card>
   );
