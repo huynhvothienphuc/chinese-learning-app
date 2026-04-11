@@ -52,7 +52,7 @@ const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
 const APP_VERSION = 'v2.0.0';
 
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
 
 function MaintenancePage() {
   return (
