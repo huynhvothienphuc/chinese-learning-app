@@ -52,6 +52,65 @@ const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
 const APP_VERSION = 'v2.0.0';
 
+const MAINTENANCE_MODE = true;
+
+function MaintenancePage() {
+  return (
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      background: 'linear-gradient(135deg, #14532d 0%, #166534 50%, #15803d 100%)',
+      color: '#fff',
+      fontFamily: 'sans-serif',
+      textAlign: 'center',
+      padding: '2rem',
+    }}>
+      <div style={{
+        fontSize: '4rem',
+        marginBottom: '1rem',
+      }}>🔧</div>
+      <h1 style={{
+        fontSize: '2rem',
+        fontWeight: 'bold',
+        marginBottom: '0.75rem',
+        color: '#86efac',
+      }}>
+        Đang bảo trì
+      </h1>
+      <p style={{
+        fontSize: '1.25rem',
+        color: '#bbf7d0',
+        marginBottom: '0.5rem',
+      }}>
+        We'll be back soon!
+      </p>
+      <p style={{
+        fontSize: '1.5rem',
+        fontWeight: '600',
+        color: '#fff',
+        background: 'rgba(134,239,172,0.15)',
+        border: '1px solid rgba(134,239,172,0.3)',
+        borderRadius: '0.75rem',
+        padding: '0.6rem 1.5rem',
+        marginTop: '0.5rem',
+      }}>
+        🕑 Back at <span style={{ color: '#4ade80' }}>2:00 PM</span> Vietnam Time (ICT)
+      </p>
+      <p style={{
+        marginTop: '1.5rem',
+        fontSize: '0.9rem',
+        color: '#86efac',
+        opacity: 0.7,
+      }}>
+        Xin lỗi vì sự bất tiện này. Vui lòng quay lại lúc 14:00 ICT.
+      </p>
+    </div>
+  );
+}
+
 function formatFileSize(bytes) {
   if (bytes < 1024) return `${bytes} B`;
   return `${(bytes / 1024).toFixed(1)} KB`;
@@ -104,6 +163,11 @@ function normalizeUploadedLessons(rawValue) {
 }
 
 export default function App() {
+  if (MAINTENANCE_MODE) return <MaintenancePage />;
+  return <AppContent />;
+}
+
+function AppContent() {
   const [baseBooks, setBaseBooks] = useState([]);
   const [selectedBook, setSelectedBook] = useState('');
   const [sections, setSections] = useState([]);
