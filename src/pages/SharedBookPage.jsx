@@ -136,7 +136,7 @@ export default function SharedBookPage({ token }) {
 
   if (status === 'password') return (
     <div className="flex min-h-screen items-center justify-center bg-white px-4 dark:bg-slate-950">
-      <Card className="w-full max-w-sm border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+      <Card className="w-full max-w-sm border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-6">
           <div className="mb-5 flex flex-col items-center gap-2">
             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-green-100 dark:bg-green-900/40">
@@ -178,7 +178,7 @@ export default function SharedBookPage({ token }) {
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-4xl flex-col gap-6">
 
         {/* Header */}
-        <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+        <Card className="border-theme-border bg-theme-surface shadow-soft">
           <CardContent className="p-4 sm:p-5">
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-3">

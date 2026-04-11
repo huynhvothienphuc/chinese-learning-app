@@ -31,7 +31,7 @@ export default function StudyDeckPanel({
   booksLoading,
 }) {
   return (
-    <Card className="animate-float-in border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+    <Card className="animate-float-in border-theme-border bg-theme-surface shadow-soft">
       <CardContent className="space-y-2 p-3 sm:p-4">
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
           <div className="space-y-1 min-w-0">

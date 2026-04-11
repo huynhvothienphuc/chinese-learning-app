@@ -81,7 +81,7 @@ export default function TeacherDashboard() {
 
   return (
     <TeacherLayout>
-      <Card className="overflow-hidden border-[#CAE8BD] bg-gradient-to-br from-[#ECFAE5] via-white to-[#F8FFF5] shadow-soft dark:border-slate-700/60 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
+      <Card className="overflow-hidden border-theme-border bg-gradient-to-br from-[#ECFAE5] via-white to-[#F8FFF5] shadow-soft dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
         <CardContent className="flex flex-col gap-6 p-6 sm:p-7">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
             <div className="max-w-2xl space-y-2">
@@ -105,7 +105,7 @@ export default function TeacherDashboard() {
           </div>
 
           <div className="grid gap-3 sm:grid-cols-3">
-            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:border-slate-700/60 dark:bg-slate-900/60">
+            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60">
               <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
                 <Library className="h-4 w-4 text-green-600 dark:text-green-400" />
                 Books
@@ -114,7 +114,7 @@ export default function TeacherDashboard() {
               <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Teaching books in your workspace</p>
             </div>
 
-            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:border-slate-700/60 dark:bg-slate-900/60">
+            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60">
               <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
                 <BookOpen className="h-4 w-4 text-green-600 dark:text-green-400" />
                 Workflow
@@ -123,7 +123,7 @@ export default function TeacherDashboard() {
               <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Create structure first, then fill content</p>
             </div>
 
-            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:border-slate-700/60 dark:bg-slate-900/60">
+            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60">
               <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
                 <FileText className="h-4 w-4 text-green-600 dark:text-green-400" />
                 Best Next Step
@@ -199,7 +199,7 @@ export default function TeacherDashboard() {
       ) : (
         <div className="grid gap-4 lg:grid-cols-2">
           {books.map((book) => (
-            <Card key={book.id} className="group overflow-hidden border-slate-200/80 transition-shadow hover:shadow-md dark:border-slate-700/70">
+            <Card key={book.id} className="group overflow-hidden border-slate-200/80 transition-shadow hover:shadow-md/70">
               <CardContent className="flex h-full flex-col gap-5 p-5">
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0 flex-1">

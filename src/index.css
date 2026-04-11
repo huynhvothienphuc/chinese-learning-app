@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  /* ─── BASE (shadcn tokens — Green light default) ──────────────────────────── */
   :root {
     --background: 0 0% 100%;
     --foreground: 120 15% 12%;
@@ -24,8 +25,14 @@
     --input: 120 8% 88%;
     --ring: 101 47% 74%;
     --radius: 1rem;
+    /* Fallbacks — overridden by [data-theme] once applied */
+    --theme-surface:           107 72% 94%;
+    --theme-border:            107 42% 83%;
+    --theme-surface-secondary: 107 55% 90%;
+    --theme-shadow-rgb:        80, 160, 100;
   }
 
+  /* ─── GREEN DARK ────────────────────────────────────────────────────────────── */
   .dark {
     --background: 222.2 47% 8%;
     --foreground: 210 40% 98%;
@@ -46,6 +53,125 @@
     --border: 146 16% 24%;
     --input: 146 16% 24%;
     --ring: 101 45% 62%;
+    /* Fallbacks — overridden by [data-theme].dark once applied */
+    --theme-surface:           222 25% 13%;
+    --theme-border:            220 18% 22%;
+    --theme-surface-secondary: 222 25% 10%;
+    --theme-shadow-rgb:        30, 60, 40;
+  }
+
+  /* ─── THEME SURFACE TOKENS ──────────────────────────────────────────────────
+     These override per-theme and per-mode.
+     Components use bg-theme-surface / border-theme-border / bg-theme-surface-secondary
+     instead of hardcoded #ECFAE5 / #CAE8BD / #e4f5d8
+  ─────────────────────────────────────────────────────────────────────────── */
+
+  /* GREEN light (default) */
+  [data-theme="green"] {
+    --theme-surface:           107 72% 94%;   /* #ECFAE5 */
+    --theme-border:            107 42% 83%;   /* #CAE8BD */
+    --theme-surface-secondary: 107 55% 90%;   /* #e4f5d8 */
+    --theme-shadow-rgb:        80, 160, 100;
+  }
+
+  /* GREEN dark */
+  [data-theme="green"].dark {
+    --theme-surface:           222 25% 13%;
+    --theme-border:            220 18% 22%;
+    --theme-surface-secondary: 222 25% 10%;
+    --theme-shadow-rgb:        30, 60, 40;
+  }
+
+  /* ── ORANGE (warm pastel) ── */
+  [data-theme="orange"] {
+    --primary:                 0 90% 72%;     /* #FF9494-ish soft */
+    --primary-foreground:      20 70% 18%;
+    --accent:                  3 100% 94%;    /* #FFE3E1 */
+    --accent-foreground:       20 70% 18%;
+    --border:                  0 100% 88%;
+    --input:                   0 100% 88%;
+    --ring:                    0 90% 72%;
+    --secondary:               37 100% 96%;
+    --secondary-foreground:    20 70% 18%;
+    --muted:                   37 100% 96%;
+    --muted-foreground:        20 25% 45%;
+    --theme-surface:           37 100% 95%;   /* #FFF5E4 */
+    --theme-border:            0  100% 88%;   /* #FFD1D1-ish */
+    --theme-surface-secondary: 3  100% 93%;   /* #FFE3E1 */
+    --theme-shadow-rgb:        255, 148, 148;
+  }
+
+  /* ORANGE dark */
+  [data-theme="orange"].dark {
+    --background:              20 40% 8%;
+    --foreground:              20 20% 95%;
+    --card:                    20 35% 11%;
+    --card-foreground:         20 20% 95%;
+    --popover:                 20 35% 11%;
+    --popover-foreground:      20 20% 95%;
+    --primary:                 0 90% 75%;
+    --primary-foreground:      20 70% 10%;
+    --secondary:               20 35% 16%;
+    --secondary-foreground:    20 20% 90%;
+    --muted:                   20 35% 14%;
+    --muted-foreground:        20 20% 60%;
+    --accent:                  20 35% 18%;
+    --accent-foreground:       20 20% 90%;
+    --destructive:             0 62.8% 30.6%;
+    --destructive-foreground:  210 40% 98%;
+    --border:                  20 35% 22%;
+    --input:                   20 35% 22%;
+    --ring:                    0 90% 75%;
+    --theme-surface:           20 38% 12%;
+    --theme-border:            20 35% 22%;
+    --theme-surface-secondary: 20 38% 10%;
+    --theme-shadow-rgb:        200, 100, 80;
+  }
+
+  /* ── TEAL (cool pastel) ── */
+  [data-theme="teal"] {
+    --primary:                 183 80% 34%;   /* #11999E */
+    --primary-foreground:      0 0% 100%;
+    --accent:                  168 67% 90%;
+    --accent-foreground:       183 60% 15%;
+    --border:                  173 40% 75%;
+    --input:                   173 40% 75%;
+    --ring:                    183 80% 34%;
+    --secondary:               168 67% 95%;
+    --secondary-foreground:    183 50% 20%;
+    --muted:                   168 67% 95%;
+    --muted-foreground:        183 20% 45%;
+    --theme-surface:           168 67% 93%;   /* #E4F9F5 */
+    --theme-border:            173 45% 78%;   /* softer #30E3CA */
+    --theme-surface-secondary: 168 55% 88%;
+    --theme-shadow-rgb:        17, 153, 158;
+  }
+
+  /* TEAL dark */
+  [data-theme="teal"].dark {
+    --background:              183 40% 8%;
+    --foreground:              168 20% 95%;
+    --card:                    183 35% 11%;
+    --card-foreground:         168 20% 95%;
+    --popover:                 183 35% 11%;
+    --popover-foreground:      168 20% 95%;
+    --primary:                 173 74% 54%;   /* #30E3CA */
+    --primary-foreground:      183 80% 10%;
+    --secondary:               183 30% 16%;
+    --secondary-foreground:    168 20% 90%;
+    --muted:                   183 30% 14%;
+    --muted-foreground:        183 20% 60%;
+    --accent:                  183 30% 18%;
+    --accent-foreground:       168 20% 90%;
+    --destructive:             0 62.8% 30.6%;
+    --destructive-foreground:  210 40% 98%;
+    --border:                  183 25% 22%;
+    --input:                   183 25% 22%;
+    --ring:                    173 74% 54%;
+    --theme-surface:           183 38% 12%;
+    --theme-border:            183 25% 22%;
+    --theme-surface-secondary: 183 38% 10%;
+    --theme-shadow-rgb:        48, 227, 202;
   }
 
   * {
@@ -70,7 +196,7 @@
 
 @layer utilities {
   .shadow-soft {
-    box-shadow: 0 20px 50px -28px rgba(80, 160, 100, 0.2);
+    box-shadow: 0 20px 50px -28px rgba(var(--theme-shadow-rgb, 80, 160, 100), 0.25);
   }
 
   .animate-float-in {

@@ -128,7 +128,7 @@ export default function BookEditor({ bookId, onShareChange }) {
 
   return (
     <TeacherLayout crumbs={[{ label: book?.title ?? 'Book', path: `/teacher/books/${bookId}` }]}>
-      <Card className="overflow-hidden border-[#CAE8BD] bg-gradient-to-br from-[#ECFAE5] via-white to-[#F8FFF5] shadow-soft dark:border-slate-700/60 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
+      <Card className="overflow-hidden border-theme-border bg-gradient-to-br from-[#ECFAE5] via-white to-[#F8FFF5] shadow-soft dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
         <CardContent className="p-4 sm:p-5">
           <div className="flex flex-col gap-3">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
@@ -233,7 +233,7 @@ export default function BookEditor({ bookId, onShareChange }) {
         <div className="max-h-[70vh] overflow-y-auto pr-1 sm:max-h-[620px]">
           <div className="flex flex-col gap-3">
           {sections.map((section) => (
-            <Card key={section.id} className="group overflow-hidden border-slate-200/80 transition-shadow hover:shadow-md dark:border-slate-700/70">
+            <Card key={section.id} className="group overflow-hidden border-slate-200/80 transition-shadow hover:shadow-md/70">
               <CardContent className="flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between">
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
@@ -277,7 +277,7 @@ export default function BookEditor({ bookId, onShareChange }) {
           onClick={cancelEditingBookDetails}
         >
           <Card
-            className="w-full max-w-lg border-slate-200 shadow-2xl dark:border-slate-700"
+            className="w-full max-w-lg border-slate-200 shadow-2xl"
             onClick={(event) => event.stopPropagation()}
           >
             <CardContent className="p-5 sm:p-6">

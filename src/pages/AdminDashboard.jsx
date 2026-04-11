@@ -81,7 +81,7 @@ export default function AdminDashboard() {
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-3xl flex-col gap-6">
 
         {/* Header */}
-        <div className="flex items-center justify-between rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] px-5 py-4 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+        <div className="flex items-center justify-between rounded-3xl border border-theme-border bg-theme-surface px-5 py-4 shadow-soft">
           <div className="flex items-center gap-3">
             <button type="button" onClick={() => navigate('/')}>
               <img src="/logo.svg" alt="Logo" className="h-9 w-9 rounded-2xl border border-slate-200 bg-white p-1 shadow-sm dark:border-slate-600 dark:bg-slate-700" />

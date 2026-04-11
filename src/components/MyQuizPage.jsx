@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
-import { ArrowLeft, CheckSquare2, Heart, Loader2, PencilLine, ListChecks, Square } from 'lucide-react';
+import { CheckSquare2, Heart, Loader2, PencilLine, ListChecks, Square } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { buildQuizChoices, cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
 import { fetchJSON } from '@/lib/fetchCache';
-import Divider from './ui/divider';
 import Quiz from './Quiz';
 import WriteMode from './WriteMode';
 
@@ -37,7 +36,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
   const [checkedSections, setCheckedSections] = useState(new Set());
   const [sectionVocab, setSectionVocab] = useState({});
   const [loadingVocab, setLoadingVocab] = useState(new Set());
-  const [count] = useState('all');
+  const [count, setCount] = useState('all');
   const [quizMode, setQuizMode] = useState('multiple-choice');
 
   // Quiz state — quizQuestions is pre-built [{item, choices}] or null when not active
@@ -125,6 +124,11 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
 
   const available = pool.length;
   const tooFew = quizMode === 'write' ? available < 1 : available < 4;
+
+  // Reset count if current selection exceeds available words
+  useEffect(() => {
+    if (count !== 'all' && available < count) setCount('all');
+  }, [available, count]);
   const isLoadingAny = loadingVocab.size > 0;
 
   const deckLabel = isFavoritesMode
@@ -188,17 +192,41 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
 
   return (
     <div className="mx-auto w-full max-w-5xl space-y-5">
-      <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+      {isQuizActive ? (
+        <Card className="border-theme-border bg-theme-surface shadow-soft">
+          <CardContent className="grid grid-cols-[1fr_auto] items-center gap-4 p-3 sm:p-4">
+            {/* Left: book + lessons */}
+            <div className="min-w-0 space-y-1.5">
+              <div className="flex items-center gap-1.5">
+                <span className="w-14 shrink-0 text-xs font-semibold text-slate-400">Book:</span>
+                <span className="rounded-2xl bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
+                  {books.find((b) => b.id === selectedBook)?.title ?? selectedBook}
+                </span>
+              </div>
+              <div className="flex flex-wrap items-center gap-1.5">
+                <span className="w-14 shrink-0 text-xs font-semibold text-slate-400">Lessons:</span>
+                {sections.filter((s) => checkedSections.has(s.file)).map((s) => (
+                  <span key={s.file} className="rounded-2xl bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
+                    {s.title}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Right: New Quiz */}
+            <button
+              type="button"
+              onClick={handleRestart}
+              className="shrink-0 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-500 transition-colors hover:border-slate-300 hover:text-slate-700 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+            >
+              New Quiz
+            </button>
+          </CardContent>
+        </Card>
+      ) : (
+        <Card className="border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-4 sm:p-5">
-          <button
-            type="button"
-            onClick={isQuizActive ? handleRestart : onBack}
-            className="mb-3 flex items-center gap-1.5 text-sm font-medium text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            {isQuizActive ? t.myQuizBack : t.myQuizBack}
-          </button>
-          <h1 className="text-xl font-black text-slate-900 dark:text-white sm:text-2xl">{t.myQuizTitle}</h1>
+          <p className="inline-block rounded-2xl bg-primary/20 px-4 py-2 text-base font-medium text-primary">{t.myQuizSubtitle}</p>
 
           <div className="mt-3 space-y-2">
             <div className="flex flex-wrap items-center gap-2">
@@ -212,36 +240,16 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                     'rounded-2xl px-4 py-2 text-sm font-semibold transition-colors disabled:cursor-default',
                     selectedBook === book.id
                       ? 'bg-primary text-primary-foreground'
-                      : 'bg-white text-slate-700 hover:bg-green-50 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                      : 'bg-white text-slate-700 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                   )}
                 >
                   {book.title}
                 </button>
               ))}
-              <Divider />
-              <button
-                type="button"
-                disabled={favoriteVocabulary.length === 0 || isQuizActive}
-                onClick={() => setSelectedBook(FAVORITES_ID)}
-                className={cn(
-                  'flex items-center gap-1.5 rounded-2xl px-4 py-2 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-40',
-                  selectedBook === FAVORITES_ID
-                    ? 'bg-rose-500 text-white'
-                    : 'bg-white text-slate-700 hover:bg-rose-50 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
-                )}
-              >
-                <Heart className={cn('h-3.5 w-3.5', selectedBook === FAVORITES_ID && 'fill-current')} />
-                {t.favoriteList}
-                <span className={cn(
-                  'rounded-full px-1.5 py-0.5 text-xs font-bold',
-                  selectedBook === FAVORITES_ID ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500 dark:bg-slate-600 dark:text-slate-300',
-                )}>
-                  {favoriteVocabulary.length}
-                </span>
-              </button>
+              {/* TODO: Re-enable favorites quiz mode once improved */}
             </div>
 
-            <div className="flex items-center gap-2 border-t border-[#CAE8BD] pt-2 dark:border-slate-700">
+            <div className="flex flex-wrap items-center gap-2 border-t border-theme-border pt-2">
               <span className="text-xs font-semibold text-slate-400">{t.quizInstructionLabel}:</span>
               <button
                 type="button"
@@ -251,7 +259,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                   'flex items-center gap-1.5 rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-default',
                   quizMode === 'multiple-choice'
                     ? 'bg-primary text-primary-foreground'
-                    : 'bg-white text-slate-600 hover:bg-green-50 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                    : 'bg-white text-slate-600 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                 )}
               >
                 <ListChecks className="h-4 w-4" />
@@ -265,16 +273,38 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                   'flex items-center gap-1.5 rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-default',
                   quizMode === 'write'
                     ? 'bg-primary text-primary-foreground'
-                    : 'bg-white text-slate-600 hover:bg-green-50 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                    : 'bg-white text-slate-600 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                 )}
               >
                 <PencilLine className="h-4 w-4" />
                 {t.writeTab}
               </button>
+
+              <span className="text-xs font-semibold text-slate-400 sm:ml-2">{t.myQuizCountLabel}:</span>
+              {['all', 20, 40, 60].map((opt) => {
+                const notEnough = opt !== 'all' && available < opt;
+                return (
+                  <button
+                    key={opt}
+                    type="button"
+                    disabled={isQuizActive || notEnough}
+                    onClick={() => { if (!notEnough) setCount(opt); }}
+                    className={cn(
+                      'rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-40',
+                      count === opt
+                        ? 'bg-primary text-primary-foreground'
+                        : 'bg-white text-slate-600 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                    )}
+                  >
+                    {opt === 'all' ? t.myQuizCountAll : opt}
+                  </button>
+                );
+              })}
             </div>
           </div>
         </CardContent>
       </Card>
+      )}
 
       {isQuizActive ? (
         quizMode === 'write' ? (
@@ -306,7 +336,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
         />
         )
       ) : (
-        <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+        <Card className="border-theme-border bg-theme-surface shadow-soft">
           <CardContent className="p-4 sm:p-5">
             {isFavoritesMode ? (
               <div className="flex items-center gap-3 rounded-2xl border border-rose-200 bg-rose-50 px-4 py-4 dark:border-rose-800/60 dark:bg-rose-900/20">
@@ -323,7 +353,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                     <button
                       type="button"
                       onClick={toggleAll}
-                      className="text-xs font-semibold text-green-600 hover:text-green-700 dark:text-green-400 dark:hover:text-green-300"
+                      className="text-xs font-semibold text-primary hover:opacity-80"
                     >
                       {allChecked ? t.myQuizDeselectAll : t.myQuizSelectAll}
                     </button>
@@ -351,12 +381,12 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                           className={cn(
                             'flex w-full items-center gap-3 rounded-2xl border px-3 py-2.5 text-left transition-colors',
                             checked
-                              ? 'border-green-300 bg-green-50 dark:border-green-700/60 dark:bg-green-900/20'
-                              : 'border-[#CAE8BD] bg-white hover:bg-green-50/60 dark:border-slate-600 dark:bg-slate-700/60 dark:hover:bg-slate-700',
+                              ? 'border-primary/40 bg-primary/10 dark:border-primary/30 dark:bg-primary/10'
+                              : 'border-theme-border bg-white hover:bg-primary/5 dark:border-slate-600 dark:bg-slate-700/60 dark:hover:bg-slate-700',
                           )}
                         >
                           {checked
-                            ? <CheckSquare2 className="h-4 w-4 shrink-0 text-green-600 dark:text-green-400" />
+                            ? <CheckSquare2 className="h-4 w-4 shrink-0 text-primary" />
                             : <Square className="h-4 w-4 shrink-0 text-slate-300 dark:text-slate-500" />
                           }
                           <span className="flex-1 truncate text-sm font-medium text-slate-800 dark:text-slate-200">{section.title}</span>

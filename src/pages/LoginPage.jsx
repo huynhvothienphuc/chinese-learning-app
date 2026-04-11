@@ -89,7 +89,7 @@ export default function LoginPage() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-white px-4 dark:bg-slate-950">
-      <Card className="w-full max-w-sm border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+      <Card className="w-full max-w-sm border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-6">
           <div className="mb-6 flex flex-col items-center gap-2">
             <img src="/logo.svg" alt="Logo" className="h-14 w-14 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
@@ -98,7 +98,7 @@ export default function LoginPage() {
           </div>
 
           {/* Tab toggle */}
-          <div className="mb-5 flex rounded-xl border border-[#CAE8BD] bg-white p-1 dark:border-slate-600 dark:bg-slate-700">
+          <div className="mb-5 flex rounded-xl border border-theme-border bg-white p-1 dark:border-slate-600 dark:bg-slate-700">
             {['login', 'register'].map((t) => (
               <button
                 key={t}

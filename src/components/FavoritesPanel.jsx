@@ -62,10 +62,10 @@ export default function FavoritesPanel({
           aria-modal="true"
           aria-labelledby={dialogTitleId}
           aria-describedby={dialogDescriptionId}
-          className={`w-full overflow-hidden rounded-[2rem] border border-[#CAE8BD] bg-[#DDF6D2] shadow-2xl dark:border-slate-700/60 dark:bg-slate-800 ${fullMode ? 'max-w-7xl' : 'max-w-5xl'}`}
+          className={`w-full overflow-hidden rounded-[2rem] border border-theme-border bg-[#DDF6D2] shadow-2xl dark:bg-slate-800 ${fullMode ? 'max-w-7xl' : 'max-w-5xl'}`}
           onClick={(event) => event.stopPropagation()}
         >
-          <div className="flex items-center justify-between gap-4 border-b border-[#ECFAE5] px-5 py-4 dark:border-slate-700 sm:px-6">
+          <div className="flex items-center justify-between gap-4 border-b border-[#ECFAE5] px-5 py-4 sm:px-6">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.savedWords}</p>
               <h2 id={dialogTitleId} className="text-xl font-black text-slate-900 dark:text-white">{t.favoriteList}</h2>
@@ -84,7 +84,7 @@ export default function FavoritesPanel({
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder={t.searchFavoritesPlaceholder}
                   aria-label={t.searchFavoritesPlaceholder}
-                  className="h-10 rounded-xl border border-[#CAE8BD] bg-white pl-9 pr-3 text-sm outline-none focus:border-[#B0DB9C] focus:ring-2 focus:ring-[#B0DB9C]/30 dark:border-slate-600 dark:bg-slate-700 dark:text-white dark:placeholder-slate-400"
+                  className="h-10 rounded-xl border border-theme-border bg-white pl-9 pr-3 text-sm outline-none focus:border-[#B0DB9C] focus:ring-2 focus:ring-[#B0DB9C]/30 dark:border-slate-600 dark:bg-slate-700 dark:text-white dark:placeholder-slate-400"
                 />
               </div>
               <Button type="button" variant="outline" className="gap-2" disabled={!favorites.length} onClick={onQuizFavorites}>
@@ -95,7 +95,7 @@ export default function FavoritesPanel({
                 type="button"
                 onClick={() => setFullMode((p) => !p)}
                 aria-pressed={fullMode}
-                className="flex items-center gap-2 rounded-xl border border-[#CAE8BD] bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-[#ECFAE5] dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300"
+                className="flex items-center gap-2 rounded-xl border border-theme-border bg-white px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-theme-surface dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300"
               >
                 <div className={`flex h-4 w-4 shrink-0 items-center justify-center rounded border-2 transition ${fullMode ? 'border-green-500 bg-green-500' : 'border-slate-400 bg-white dark:bg-slate-600'}`}>
                   {fullMode && <svg className="h-2.5 w-2.5 text-white" viewBox="0 0 10 10" fill="none"><path d="M1.5 5l2.5 2.5 4.5-4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>}
@@ -132,7 +132,7 @@ export default function FavoritesPanel({
                             <p className="text-sm font-medium text-slate-600 dark:text-slate-300">{getItemMeaning(favorite, language)}</p>
                           </div>
 
-                          <div className="min-w-0 flex-[2] rounded-2xl bg-[#ECFAE5] px-4 py-3 text-sm dark:bg-slate-600">
+                          <div className="min-w-0 flex-[2] rounded-2xl bg-theme-surface px-4 py-3 text-sm dark:bg-slate-600">
                             <div className="flex flex-wrap items-center gap-2">
                               <p className="break-words font-semibold text-slate-900 dark:text-white">{favorite.sentenceChinese}</p>
                               <SpeakButton text={favorite.sentenceChinese} label={t.speakSentence} size="sm" variant="secondary" className="h-7 w-7 shrink-0 p-0" iconSize="sm" />

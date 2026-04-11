@@ -46,7 +46,7 @@ function SetCard({ lesson, onDelete, t }) {
   const isSupabase = lesson.source === 'supabase';
 
   return (
-    <div className="flex items-center gap-3 rounded-2xl border border-[#CAE8BD] bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-700">
+    <div className="flex items-center gap-3 rounded-2xl border border-theme-border bg-white px-4 py-3 dark:border-slate-600 dark:bg-slate-700">
       <FileSpreadsheet className="h-4 w-4 shrink-0 text-green-600 dark:text-green-400" />
       <div className="min-w-0 flex-1">
         <p className="truncate text-sm font-semibold text-slate-800 dark:text-slate-200">{lesson.title}</p>
@@ -111,7 +111,7 @@ export default function UploadGuide({
 
   return (
     <div className="space-y-6 animate-float-in">
-      <Card className="overflow-hidden border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
+      <Card className="overflow-hidden border-white/60 bg-white/90 shadow-lg">
         <CardHeader className="space-y-3">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-green-600">{t.uploadLesson}</p>
           <CardTitle className="text-3xl font-black text-slate-900 dark:text-white">{t.uploadTitle}</CardTitle>
@@ -131,7 +131,7 @@ export default function UploadGuide({
       </Card>
 
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <Card className="border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
+        <Card className="border-white/60 bg-white/90 shadow-lg">
           <CardHeader>
             <CardTitle className="text-2xl font-black">{t.templateFormat}</CardTitle>
             <CardDescription>{t.requiredColumnsHelp}</CardDescription>
@@ -186,7 +186,7 @@ export default function UploadGuide({
         </Card>
 
         <div className="space-y-6">
-          <Card className="border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
+          <Card className="border-white/60 bg-white/90 shadow-lg">
             <CardHeader>
               <CardTitle className="text-2xl font-black">{t.downloadAndUpload}</CardTitle>
               <CardDescription>{t.templateTools}</CardDescription>
@@ -231,7 +231,7 @@ export default function UploadGuide({
           </Card>
 
           {allSets.length > 0 && (
-            <Card className="border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
+            <Card className="border-white/60 bg-white/90 shadow-lg">
               <CardHeader>
                 <CardTitle className="text-xl font-black">{t.mySetsTitle}</CardTitle>
                 <CardDescription>
@@ -258,7 +258,7 @@ export default function UploadGuide({
             </Card>
           )}
 
-          <Card className="border-white/60 bg-white/90 shadow-lg dark:border-slate-700/60 dark:bg-slate-800/90">
+          <Card className="border-white/60 bg-white/90 shadow-lg">
             <CardHeader>
               <CardTitle className="text-xl font-black">{t.helpfulNote}</CardTitle>
             </CardHeader>

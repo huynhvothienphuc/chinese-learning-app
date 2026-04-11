@@ -6,7 +6,16 @@
       "Bash(ls public/data/books/book4/section*.json)",
       "Bash(ls /Users/phuchuynh/Desktop/chinese-learning-app/.env*)",
       "Bash(wc -l /Users/phuchuynh/Desktop/chinese-learning-app/src/App.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/components/*.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/pages/**/*.jsx)",
-      "Bash(node -e ':*)"
+      "Bash(node -e ':*)",
+      "Bash(npm list:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)",
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/border-\\\\[#CAE8BD\\\\] bg-\\\\[#ECFAE5\\\\] shadow-soft dark:border-slate-700\\\\/60 dark:bg-slate-800\\\\/90/border-theme-border bg-theme-surface shadow-soft/g' '{}' ';')",
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/border-\\\\[#CAE8BD\\\\] bg-\\\\[#ECFAE5\\\\] dark:border-slate-700 dark:bg-slate-800\\\\/70/border-theme-border bg-theme-surface/g' '{}' ';')",
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/bg-\\\\[#ECFAE5\\\\]/bg-theme-surface/g' '{}' ';')",
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/border-\\\\[#CAE8BD\\\\] dark:border-slate-700\\\\/60/border-theme-border/g' '{}' ';')",
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/border-\\\\[#CAE8BD\\\\] dark:border-slate-600/border-theme-border/g' '{}' ';')",
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/ dark:bg-slate-800\\\\/90//g; s/ dark:border-slate-700\\\\/60//g; s/ dark:bg-slate-800\\\\/70//g; s/ dark:border-slate-700//g' '{}' ';')"
     ]
   }
 }

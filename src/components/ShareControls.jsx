@@ -172,7 +172,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
         <div className="flex flex-col gap-3">
           <div className={isEnabled
             ? 'flex items-center gap-3 rounded-2xl border border-green-300 bg-green-100 px-4 py-2 shadow-sm dark:border-green-700/50 dark:bg-green-900/30'
-            : 'flex items-center gap-3 rounded-2xl border border-[#CAE8BD] bg-[#DDF2D1] px-4 py-2 shadow-sm dark:border-slate-700/70 dark:bg-slate-800/80'
+            : 'flex items-center gap-3 rounded-2xl border border-theme-border bg-[#DDF2D1] px-4 py-2 shadow-sm/70 dark:bg-slate-800/80'
           }>
             {header}
           </div>
@@ -188,7 +188,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
     return (
       <div className={isEnabled
         ? 'rounded-2xl border border-green-200 bg-green-50/80 p-4 dark:border-green-800/40 dark:bg-green-900/10'
-        : 'rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:border-slate-700/60 dark:bg-slate-900/60'
+        : 'rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60'
       }>
         {content}
       </div>
@@ -198,7 +198,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
   return (
     <Card className={isEnabled
       ? 'border-green-200 bg-green-50 dark:border-green-800/40 dark:bg-green-900/10'
-      : 'border-slate-200 dark:border-slate-700'
+      : 'border-slate-200'
     }>
       <CardContent className="p-5">{content}</CardContent>
     </Card>

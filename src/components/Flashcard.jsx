@@ -28,7 +28,7 @@ export default function Flashcard({
 
   if (!item) {
     return (
-      <div className="rounded-3xl border bg-white p-10 text-center shadow-md dark:border-slate-700 dark:bg-slate-800">
+      <div className="rounded-3xl border bg-white p-10 text-center shadow-md dark:bg-slate-800">
         <p className="text-muted-foreground">—</p>
       </div>
     );
@@ -39,13 +39,13 @@ export default function Flashcard({
 
   return (
     <div className="mx-auto w-full max-w-5xl">
-      <div className="mb-4 rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] px-3 py-3 shadow-soft dark:border-slate-700/60 dark:bg-slate-800/85 sm:px-4">
+      <div className="mb-4 rounded-3xl border border-theme-border bg-theme-surface px-3 py-3 shadow-soft dark:bg-slate-800/85 sm:px-4">
         <div className="flex flex-wrap items-center gap-2">
           <ToggleSwitch
             checked={showDetails}
             onChange={setShowDetails}
             label={t.showPinyin}
-            className="h-10 rounded-2xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-600 hover:bg-green-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 md:h-9"
+            className="h-10 rounded-2xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-600 hover:bg-green-50 dark:bg-slate-800 dark:text-slate-300 md:h-9"
           />
           <Button
             type="button"
@@ -103,7 +103,7 @@ export default function Flashcard({
         }}
       >
         <div className={`flashcard-inner ${flipped ? 'is-flipped' : ''}`}>
-          <Card className="flashcard-face flashcard-front rounded-[2rem] border-[#CAE8BD] bg-[#ECFAE5] shadow-xl dark:border-slate-700/60 dark:bg-slate-800">
+          <Card className="flashcard-face flashcard-front rounded-[2rem] border-theme-border bg-background shadow-xl">
             <div className="relative flex h-full flex-col items-center justify-center px-4 text-center sm:px-8">
               <div className="flex max-w-full flex-wrap items-center justify-center gap-3">
                 <div className={cn('break-words text-5xl font-black text-slate-900 dark:text-slate-100 sm:text-7xl md:text-8xl', !flipped && 'animate-text-zoom')}>{item.chinese}</div>
@@ -119,7 +119,7 @@ export default function Flashcard({
             </div>
           </Card>
 
-          <Card className="flashcard-face flashcard-back rounded-[2rem] border-[#CAE8BD] bg-[#DDF6D2] shadow-xl dark:border-slate-700/60 dark:bg-slate-800">
+          <Card className="flashcard-face flashcard-back rounded-[2rem] border-theme-border bg-theme-surface shadow-xl">
             <div className="flex h-full flex-col gap-4 p-4 sm:p-6 md:p-8">
               <div className="min-h-0 flex-1 space-y-5 overflow-y-auto pr-1">
                 <div className="min-w-0">
@@ -132,7 +132,7 @@ export default function Flashcard({
                 </div>
 
                 {item.samples?.length > 0 ? (
-                  <div className="rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700/50">
+                  <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5 dark:bg-card">
                     <div className="space-y-4">
                       {(() => {
                         const seen = new Set();
@@ -141,8 +141,8 @@ export default function Flashcard({
                           seen.add(ex.type);
                           return true;
                         }).slice(0, 2).map((ex, i) => (
-                          <div key={i} className={i > 0 ? 'border-t border-[#CAE8BD] pt-4 dark:border-slate-600' : ''}>
-                            <span className="mb-1.5 inline-block rounded-full bg-green-100 px-2 py-0.5 text-xs font-semibold text-green-700 dark:bg-green-900/40 dark:text-green-300">
+                          <div key={i} className={i > 0 ? 'border-t border-theme-border pt-4 dark:border-slate-600' : ''}>
+                            <span className="mb-1.5 inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
                               {ex.type}
                             </span>
                             <div className="flex items-start justify-between gap-2">
@@ -159,14 +159,14 @@ export default function Flashcard({
                     </div>
                   </div>
                 ) : (
-                  <div className="rounded-3xl border border-[#CAE8BD] bg-[#ECFAE5] p-4 sm:p-5 dark:border-slate-600 dark:bg-slate-700/50">
+                  <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5 dark:bg-card">
                     <div className="space-y-3 text-sm sm:text-base md:text-lg">
                       <div className="flex items-start justify-between gap-2">
                         <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">{item.sentenceChinese}</p>
                         <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="outline" />
                       </div>
                       {item.sentencePinyin && showPinyin ? <p className="break-words text-slate-500 dark:text-slate-400">{item.sentencePinyin}</p> : null}
-                      <p className="break-words border-t border-[#CAE8BD] pt-3 text-slate-600 dark:border-slate-600 dark:text-slate-300">{sentenceMeaning}</p>
+                      <p className="break-words border-t border-theme-border pt-3 text-slate-600 dark:border-slate-600 dark:text-slate-300">{sentenceMeaning}</p>
                     </div>
                   </div>
                 )}

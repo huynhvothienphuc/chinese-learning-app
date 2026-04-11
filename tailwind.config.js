@@ -24,6 +24,10 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
+        /* ── Theme surface tokens ── */
+        'theme-surface':           'hsl(var(--theme-surface))',
+        'theme-border':            'hsl(var(--theme-border))',
+        'theme-surface-secondary': 'hsl(var(--theme-surface-secondary))',
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -45,7 +49,7 @@ export default {
         'float-in': 'floatIn 0.35s ease-out',
       },
       boxShadow: {
-        soft: '0 18px 50px -18px rgba(80, 160, 100, 0.2)',
+        soft: '0 18px 50px -18px rgba(var(--theme-shadow-rgb, 80, 160, 100), 0.2)',
       },
     },
   },

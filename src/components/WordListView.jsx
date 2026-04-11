@@ -1,16 +1,21 @@
-import { Check, ChevronDown, Copy, Heart } from 'lucide-react';
+import { Check, ChevronDown, Copy, Flag, Heart, Loader2, SendHorizonal } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
+import { submitWordFeedback } from '@/lib/supabase';
 
-export default function WordListView({ vocabulary, isFavorite, onToggleFavorite, language, t }) {
+export default function WordListView({ vocabulary, isFavorite, onToggleFavorite, language, t, bookId, sectionId }) {
   const [filter, setFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedId, setExpandedId] = useState(null);
   const [showDetails, setShowDetails] = useState(true);
   const [copiedId, setCopiedId] = useState(null);
+  const [reportingId, setReportingId] = useState(null);
+  const [reportMessage, setReportMessage] = useState('');
+  const [reportSubmitting, setReportSubmitting] = useState(false);
+  const [reportDoneId, setReportDoneId] = useState(null);
   const showPinyin = showDetails;
   const showMeaning = showDetails;
 
@@ -32,6 +37,35 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
     }
   }
 
+  function openReport(e, id) {
+    e.stopPropagation();
+    setReportingId((prev) => (prev === id ? null : id));
+    setReportMessage('');
+    setReportDoneId(null);
+  }
+
+  async function handleSubmitReport(e, item) {
+    e.preventDefault();
+    if (reportSubmitting) return;
+    setReportSubmitting(true);
+    try {
+      await submitWordFeedback({
+        message: reportMessage,
+        bookId: bookId ?? '',
+        sectionId: sectionId ?? '',
+        wordId: item.id ?? item.chinese,
+        chinese: item.chinese,
+      });
+      setReportDoneId(item.id ?? item.chinese);
+      setReportingId(null);
+      setReportMessage('');
+    } catch (err) {
+      alert(err.message ?? 'Failed to submit.');
+    } finally {
+      setReportSubmitting(false);
+    }
+  }
+
   const normalizedQuery = searchQuery.trim().toLowerCase();
   const displayed = useMemo(() => {
     const base = filter === 'favorites' ? vocabulary.filter((item) => isFavorite(item)) : vocabulary;
@@ -43,14 +77,14 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
 
   if (!vocabulary || vocabulary.length === 0) {
     return (
-      <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+      <Card className="border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-8 text-center text-slate-500">{t.noData}</CardContent>
       </Card>
     );
   }
 
   return (
-    <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+    <Card className="border-theme-border bg-theme-surface shadow-soft">
       <CardContent className="p-3 sm:p-4">
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <input
@@ -68,7 +102,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
               'rounded-2xl px-4 py-1.5 text-sm font-semibold transition-colors',
               filter === 'all'
                 ? 'bg-primary text-primary-foreground'
-                : 'bg-white text-slate-600 hover:bg-green-50 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                : 'bg-white text-slate-600 hover:bg-primary/10 dark:bg-card dark:text-slate-300',
             )}
           >
             {t.sourceAllWords}
@@ -90,7 +124,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
             checked={showDetails}
             onChange={setShowDetails}
             label={t.showPinyin}
-            className="rounded-2xl bg-white px-4 py-1.5 text-sm font-semibold text-slate-600 hover:bg-green-50 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600"
+            className="rounded-2xl bg-white px-4 py-1.5 text-sm font-semibold text-slate-600 hover:bg-primary/10 dark:bg-card dark:text-slate-300"
           />
         </div>
 
@@ -110,14 +144,19 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
               return (
                 <div
                   key={id}
-                  className="rounded-2xl border border-[#CAE8BD] bg-white dark:border-slate-600 dark:bg-slate-700/60"
+                  className={cn(
+                    'overflow-hidden rounded-2xl border transition-colors',
+                    expanded
+                      ? 'border-2 border-primary/40 bg-white shadow-sm dark:bg-card'
+                      : 'border border-theme-border bg-white dark:bg-card',
+                  )}
                 >
                   <div
                     role="button"
                     tabIndex={0}
                     onClick={() => setExpandedId(expanded ? null : id)}
                     onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpandedId(expanded ? null : id); } }}
-                    className="grid w-full cursor-pointer items-center gap-x-3 rounded-2xl px-3 py-1.5 transition-colors hover:bg-green-50 dark:hover:bg-slate-700/80
+                    className="grid w-full cursor-pointer items-center gap-x-3 px-3 py-1.5 transition-colors hover:bg-primary/10
                       grid-cols-[1.5rem_minmax(0,1fr)_auto]
                       sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_auto]"
                   >
@@ -127,7 +166,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     {/* Chinese + pinyin + meaning stacked on mobile */}
                     <div className="min-w-0">
                       <span
-                        className="block font-black text-slate-900 dark:text-slate-100"
+                        className="block text-slate-900 dark:text-slate-100"
                         style={{ fontSize: 'var(--app-font-size, 1rem)' }}
                       >
                         {item.chinese}
@@ -149,7 +188,15 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     {/* Actions */}
                     <div className="flex shrink-0 items-center gap-0.5">
                       {(item.sentenceChinese || item.samples?.length > 0) && (
-                        <ChevronDown className={cn('h-4 w-4 text-slate-400 transition-transform duration-200', expanded && 'rotate-180')} />
+                        <span className={cn(
+                          'flex items-center gap-0.5 rounded-lg px-1.5 py-0.5 text-xs font-medium transition-colors',
+                          expanded
+                            ? 'text-green-600 dark:text-green-400'
+                            : 'text-slate-400 dark:text-slate-500',
+                        )}>
+                          <span className="hidden sm:inline">{expanded ? 'Collapse' : 'See more'}</span>
+                          <ChevronDown className={cn('h-4 w-4 transition-transform duration-200', expanded && 'rotate-180')} />
+                        </span>
                       )}
                       <button
                         type="button"
@@ -178,17 +225,66 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                       >
                         <Heart className={cn('h-4 w-4', favorited && 'fill-current')} />
                       </button>
+                      <button
+                        type="button"
+                        onClick={(e) => openReport(e, id)}
+                        aria-label="Report an issue with this word"
+                        title="Report issue"
+                        className={cn(
+                          'flex h-8 w-8 items-center justify-center rounded-full transition-colors',
+                          reportingId === id
+                            ? 'text-amber-500'
+                            : reportDoneId === id
+                              ? 'text-emerald-500'
+                              : 'text-slate-300 hover:text-amber-400 dark:text-slate-500 dark:hover:text-amber-400',
+                        )}
+                      >
+                        <Flag className="h-4 w-4" />
+                      </button>
                     </div>
                   </div>
 
+                  {reportingId === id && (
+                    <form
+                      onSubmit={(e) => { void handleSubmitReport(e, item); }}
+                      onClick={(e) => e.stopPropagation()}
+                      className="border-t border-amber-200 bg-amber-50 px-3 py-3 dark:border-amber-800/40 dark:bg-amber-900/10"
+                    >
+                      <p className="mb-2 text-xs font-semibold text-amber-700 dark:text-amber-400">
+                        Report issue for: <span className="font-black">{item.chinese}</span>
+                      </p>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          value={reportMessage}
+                          onChange={(e) => setReportMessage(e.target.value)}
+                          placeholder="Describe the issue (e.g. wrong translation)…"
+                          maxLength={500}
+                          className="min-w-0 flex-1 rounded-xl border border-amber-200 bg-white px-3 py-1.5 text-sm outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100 dark:border-amber-700 dark:bg-slate-800 dark:text-white"
+                          autoFocus
+                        />
+                        <button
+                          type="submit"
+                          disabled={reportSubmitting || reportMessage.trim().length < 2}
+                          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500 text-white transition-colors hover:bg-amber-600 disabled:opacity-40"
+                          aria-label="Submit report"
+                        >
+                          {reportSubmitting
+                            ? <Loader2 className="h-4 w-4 animate-spin" />
+                            : <SendHorizonal className="h-4 w-4" />}
+                        </button>
+                      </div>
+                    </form>
+                  )}
+
                   {expanded && (item.sentenceChinese || item.samples?.length > 0) && (
-                    <div className="border-t border-[#CAE8BD] px-3 py-3 pl-[calc(1.5rem+0.75rem)] dark:border-slate-600">
+                    <div className="border-t border-theme-border bg-theme-surface px-3 py-4 pl-[calc(1.5rem+0.75rem)] dark:border-slate-600 dark:bg-slate-800/60">
                       {item.samples?.length > 0 ? (
                         <div className="space-y-3">
                           {item.samples.map((ex, i) => (
-                            <div key={i} className={cn('flex items-start gap-3', i > 0 && 'border-t border-[#CAE8BD] pt-3 dark:border-slate-600')}>
+                            <div key={i} className={cn('flex items-start gap-3', i > 0 && 'border-t border-theme-border pt-3 dark:border-slate-600')}>
                               <div className="min-w-0 flex-1 space-y-0.5">
-                                <span className="inline-block rounded-full bg-green-100 px-2 py-0.5 text-xs font-semibold text-green-700 dark:bg-green-900/40 dark:text-green-300">
+                                <span className="inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
                                   {ex.type}
                                 </span>
                                 {ex.meaning && <p className="break-words text-xs italic text-slate-400">{ex.meaning}</p>}

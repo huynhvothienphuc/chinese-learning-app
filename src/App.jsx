@@ -1,6 +1,6 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Sun, Upload, Wand2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Settings, Sun, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
@@ -209,7 +209,12 @@ function AppContent() {
   const [quizSeed, setQuizSeed] = useState(0);
   const [supabaseSets, setSupabaseSets] = useState([]);
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
+  const [theme, setTheme] = useLocalStorageState('app-theme', 'green');
   const [fontSize, setFontSize] = useLocalStorageState('font-size', 'lg');
+  const [themeDropdownOpen, setThemeDropdownOpen] = useState(false);
+  const themeDropdownRef = useRef(null);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const settingsRef = useRef(null);
   const fileInputRef = useRef(null);
   const fontSizeSelectRef = useRef(null);
   const initialLoadDoneRef = useRef(false);
@@ -250,6 +255,32 @@ function AppContent() {
   useEffect(() => {
     document.documentElement.classList.toggle('dark', isDarkMode);
   }, [isDarkMode]);
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  useEffect(() => {
+    if (!themeDropdownOpen) return undefined;
+    function handleClick(e) {
+      if (themeDropdownRef.current && !themeDropdownRef.current.contains(e.target)) {
+        setThemeDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, [themeDropdownOpen]);
+
+  useEffect(() => {
+    if (!settingsOpen) return undefined;
+    function handleClick(e) {
+      if (settingsRef.current && !settingsRef.current.contains(e.target)) {
+        setSettingsOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, [settingsOpen]);
 
   useEffect(() => {
     const sizeMap = { sm: '16px', md: '18px', lg: '20px', xl: '22px', xll: '24px', xxl: '26px' };
@@ -835,7 +866,7 @@ function AppContent() {
     <SpeedInsights />
     <div className="min-h-screen bg-white px-4 py-4 text-slate-900 dark:bg-slate-950 dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-7xl flex-col gap-6">
-        <div className="rounded-2xl border border-[#CAE8BD] bg-[#ECFAE5] px-4 py-4 animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90 sm:px-6">
+        <div className="rounded-2xl border border-theme-border bg-theme-surface px-4 py-4 animate-float-in sm:px-6">
             <div className="flex flex-col gap-4">
               {/* Row 1: Logo + guest nav */}
               <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
@@ -843,22 +874,18 @@ function AppContent() {
                   <img src="/logo.png" alt="Logo" className="h-12 w-12 rounded-3xl p-1.5" />
                   <div>
                     <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
-                    <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
+                    <p className="mt-1 flex flex-wrap items-center gap-1.5 text-sm leading-6 text-slate-500">
+                      {t.appSubtitle.replace('Traditional', '').replace('Phồn thể', '').trim().replace(/\(\)/, '').trim()}
+                      <span className="inline-flex items-center rounded-full bg-primary/20 px-2.5 py-0.5 text-xs font-bold text-primary">
+                        {selectedLanguage === 'vi' ? 'Phồn thể' : 'Traditional'}
+                      </span>
+                    </p>
                   </div>
                 </button>
                 <div className="flex flex-wrap items-center gap-2 lg:justify-end">
                   <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
                     <Wand2 className="h-4 w-4" />
                     <span className="text-xs font-medium sm:text-sm">{t.myQuizTitle}</span>
-                  </Button>
-                  <Button type="button" variant="outline" className="gap-2 opacity-60" disabled aria-disabled="true">
-                    <Upload className="h-4 w-4" />
-                    <span className="text-xs font-medium sm:text-sm">{t.uploadLesson}</span>
-                    {(uploadedLessons.length + supabaseSets.length) > 0 && (
-                      <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-green-600 px-1.5 text-xs font-bold text-white">
-                        {uploadedLessons.length + supabaseSets.length}
-                      </span>
-                    )}
                   </Button>
                   <Tooltip text="Language">
                     <div className="relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-border bg-background shadow-sm">
@@ -875,8 +902,9 @@ function AppContent() {
                       </select>
                     </div>
                   </Tooltip>
+                  {/* Font size — desktop only */}
                   <Tooltip text="Font size">
-                  <div className="relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-border bg-background shadow-sm">
+                  <div className="relative hidden h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-border bg-background shadow-sm lg:flex">
                     <span className="pointer-events-none text-sm font-bold leading-none">Aa</span>
                     <select
                       ref={fontSizeSelectRef}
@@ -894,29 +922,181 @@ function AppContent() {
                     </select>
                   </div>
                   </Tooltip>
+
+                  {/* Theme dropdown — desktop only */}
+                  <div className="relative hidden lg:block" ref={themeDropdownRef}>
+                    <Tooltip text="Theme">
+                      <button
+                        type="button"
+                        onClick={() => setThemeDropdownOpen((o) => !o)}
+                        aria-label="Change theme"
+                        className="flex h-9 items-center gap-2 rounded-xl border border-border bg-background px-2.5 transition-colors hover:bg-accent"
+                      >
+                        {(() => {
+                          const themes = { green: { color: '#ECFAE5', border: '#CAE8BD' }, orange: { color: '#FFF5E4', border: '#FF9494' }, teal: { color: '#E4F9F5', border: '#11999E' } };
+                          const cur = themes[theme];
+                          return <span className="h-4 w-4 rounded-full border-2" style={{ background: cur.color, borderColor: cur.border }} />;
+                        })()}
+                        <span className="hidden text-xs font-medium capitalize text-slate-600 dark:text-slate-300 sm:inline">{theme}</span>
+                        <svg className="h-3 w-3 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
+                      </button>
+                    </Tooltip>
+                    {themeDropdownOpen && (
+                      <div className="absolute right-0 top-11 z-50 min-w-[140px] overflow-hidden rounded-2xl border border-border bg-background shadow-lg">
+                        {[
+                          { key: 'green',  label: 'Green',  color: '#ECFAE5', border: '#CAE8BD', accent: '#a8d5a2' },
+                          { key: 'orange', label: 'Orange', color: '#FFF5E4', border: '#FF9494', accent: '#ffb6b6' },
+                          { key: 'teal',   label: 'Teal',   color: '#E4F9F5', border: '#11999E', accent: '#30E3CA' },
+                        ].map((opt) => (
+                          <button
+                            key={opt.key}
+                            type="button"
+                            onClick={() => { setTheme(opt.key); setThemeDropdownOpen(false); }}
+                            className={cn(
+                              'flex w-full items-center gap-3 px-3 py-2.5 text-sm font-medium transition-colors',
+                              theme === opt.key
+                                ? 'bg-accent text-foreground'
+                                : 'text-slate-600 hover:bg-accent dark:text-slate-300',
+                            )}
+                          >
+                            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2" style={{ background: opt.color, borderColor: opt.border }}>
+                              {theme === opt.key && (
+                                <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
+                              )}
+                            </span>
+                            {opt.label}
+                            <span className="ml-auto h-2 w-2 rounded-full" style={{ background: opt.accent }} />
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Dark mode — always visible */}
                   <Tooltip text={isDarkMode ? 'Light mode' : 'Dark mode'}>
                     <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                       {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                     </Button>
                   </Tooltip>
-                  <Tooltip text="Feedback">
-                    <Button type="button" variant={activeView === 'feedback' ? 'default' : 'outline'} size="icon" onClick={() => navigate('/feedback')} aria-label="Feedback">
+
+                  {/* Feedback — desktop only */}
+                  <Tooltip text={t.feedbackNav}>
+                    <Button type="button" variant={activeView === 'feedback' ? 'default' : 'outline'} size="icon" className="hidden w-auto gap-1.5 px-3 lg:flex" onClick={() => navigate('/feedback')} aria-label={t.feedbackNav}>
                       <MessageSquare className="h-4 w-4" />
+                      <span className="text-xs">{t.feedbackNav}</span>
                     </Button>
                   </Tooltip>
+
+                  {/* About — desktop only */}
                   {!user && (
                     <Tooltip text="About">
-                      <Button type="button" variant={activeView === 'info' ? 'default' : 'outline'} size="icon" onClick={() => navigate('/info')} aria-label="About">
+                      <Button type="button" variant={activeView === 'info' ? 'default' : 'outline'} size="icon" className="hidden lg:flex" onClick={() => navigate('/info')} aria-label="About">
                         <Info className="h-4 w-4" />
                       </Button>
                     </Tooltip>
                   )}
+
+                  {/* Settings popover — mobile/tablet only */}
+                  <div className="relative lg:hidden" ref={settingsRef}>
+                    <Button
+                      type="button"
+                      variant={settingsOpen ? 'default' : 'outline'}
+                      size="icon"
+                      onClick={() => setSettingsOpen((o) => !o)}
+                      aria-label="Settings"
+                    >
+                      <Settings className="h-4 w-4" />
+                    </Button>
+                    {settingsOpen && (
+                      <div className="absolute right-0 top-11 z-50 w-64 overflow-hidden rounded-2xl border border-border bg-background shadow-xl">
+                        {/* Font size */}
+                        <div className="flex items-center justify-between gap-3 px-4 py-3 border-b border-border">
+                          <span className="text-sm font-medium text-slate-600 dark:text-slate-300">Font size</span>
+                          <div className="relative flex h-9 w-9 cursor-pointer items-center justify-center rounded-xl border border-border bg-background">
+                            <span className="pointer-events-none text-sm font-bold leading-none">Aa</span>
+                            <select
+                              value={fontSize}
+                              onChange={(e) => setFontSize(e.target.value)}
+                              aria-label={t.fontSizeLabel}
+                              className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
+                            >
+                              <option value="sm">16</option>
+                              <option value="md">18</option>
+                              <option value="lg">20</option>
+                              <option value="xl">22</option>
+                              <option value="xll">24</option>
+                              <option value="xxl">26</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        {/* Theme */}
+                        <div className="border-b border-border px-4 py-3">
+                          <p className="mb-2 text-sm font-medium text-slate-600 dark:text-slate-300">Theme</p>
+                          <div className="flex gap-2">
+                            {[
+                              { key: 'green',  label: 'Green',  color: '#ECFAE5', border: '#CAE8BD' },
+                              { key: 'orange', label: 'Orange', color: '#FFF5E4', border: '#FF9494' },
+                              { key: 'teal',   label: 'Teal',   color: '#E4F9F5', border: '#11999E' },
+                            ].map((opt) => (
+                              <button
+                                key={opt.key}
+                                type="button"
+                                onClick={() => setTheme(opt.key)}
+                                className={cn(
+                                  'flex flex-1 flex-col items-center gap-1.5 rounded-xl border-2 py-2 text-xs font-medium transition-colors',
+                                  theme === opt.key
+                                    ? 'border-primary bg-primary/10 text-primary'
+                                    : 'border-border text-slate-500 hover:border-primary/40',
+                                )}
+                              >
+                                <span className="h-5 w-5 rounded-full border-2" style={{ background: opt.color, borderColor: opt.border }} />
+                                {opt.label}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+
+                        {/* Feedback */}
+                        <button
+                          type="button"
+                          onClick={() => { navigate('/feedback'); setSettingsOpen(false); }}
+                          className={cn(
+                            'flex w-full items-center gap-3 px-4 py-3 text-sm font-medium transition-colors border-b border-border',
+                            activeView === 'feedback'
+                              ? 'bg-primary/10 text-primary'
+                              : 'text-slate-600 hover:bg-accent dark:text-slate-300',
+                          )}
+                        >
+                          <MessageSquare className="h-4 w-4" />
+                          {t.feedbackNav}
+                        </button>
+
+                        {/* About */}
+                        {!user && (
+                          <button
+                            type="button"
+                            onClick={() => { navigate('/info'); setSettingsOpen(false); }}
+                            className={cn(
+                              'flex w-full items-center gap-3 px-4 py-3 text-sm font-medium transition-colors',
+                              activeView === 'info'
+                                ? 'bg-primary/10 text-primary'
+                                : 'text-slate-600 hover:bg-accent dark:text-slate-300',
+                            )}
+                          >
+                            <Info className="h-4 w-4" />
+                            About
+                          </button>
+                        )}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
 
               {/* Row 2: Admin nav — only for logged-in users */}
               {user && (
-                <div className="flex flex-wrap items-center justify-between gap-2 border-t border-[#CAE8BD] pt-3 dark:border-slate-700">
+                <div className="-mx-4 -mb-4 flex flex-wrap items-center justify-between gap-2 rounded-b-2xl border-t border-theme-border bg-theme-surface-secondary px-4 pb-3 pt-3 dark:bg-slate-900/40 sm:-mx-6 sm:-mb-4 sm:px-6">
                   {/* Left: identity */}
                   <span className="truncate text-xs text-slate-400 dark:text-slate-500">{user.email}</span>
                   {/* Right: role-based actions */}
@@ -1024,6 +1204,8 @@ function AppContent() {
                       onToggleFavorite={toggleFavorite}
                       language={selectedLanguage}
                       t={t}
+                      bookId={selectedBook}
+                      sectionId={selectedSection}
                     />
                   </Suspense>
 	                ) : mode === 'flashcard' ? (
@@ -1043,7 +1225,7 @@ function AppContent() {
                     />
                     </Suspense>
 
-	                    <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft dark:border-slate-700/60 dark:bg-slate-800/90">
+	                    <Card className="border-theme-border bg-theme-surface shadow-soft">
 	                      <CardContent className="p-4 sm:p-5">
 	                        <div className="md:hidden">
 	                          <div className="flex items-center gap-2">
@@ -1138,7 +1320,7 @@ function AppContent() {
           </>
         )}
 
-        <footer className="mt-auto border-t border-slate-200/80 py-6 text-center text-sm text-slate-500 dark:border-slate-700/80">
+        <footer className="mt-auto border-t border-slate-200/80 py-6 text-center text-sm text-slate-500/80">
           <div className="flex flex-wrap items-center justify-center gap-2">
             <Heart className="h-4 w-4 fill-green-500 text-green-500" />
             <span className="font-medium">{t.madeBy}</span>

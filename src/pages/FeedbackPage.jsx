@@ -45,8 +45,8 @@ export default function FeedbackPage({ onBack }) {
           Back
         </button>
 
-        <Card className="border-[#CAE8BD] bg-white shadow-lg dark:border-slate-700 dark:bg-slate-800">
-          <CardHeader className="space-y-1 border-b border-[#CAE8BD] pb-4 dark:border-slate-700">
+        <Card className="border-theme-border bg-white shadow-lg dark:bg-slate-800">
+          <CardHeader className="space-y-1 border-b border-theme-border pb-4">
             <CardTitle className="text-2xl font-black text-slate-900 dark:text-white">
               Send Feedback
             </CardTitle>

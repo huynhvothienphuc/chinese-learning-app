@@ -64,6 +64,41 @@ export async function resolveFeedback(id, resolved) {
   if (error) throw error;
 }
 
+// ── Word Feedback ─────────────────────────────────────────────────────────────
+
+export async function submitWordFeedback({ message, bookId, sectionId, wordId, chinese }) {
+  const clean = message.trim().replace(/<[^>]*>/g, '').replace(/[\u0000-\u001F\u007F]/g, '').slice(0, 500);
+  if (clean.length < 2) throw new Error('Message too short.');
+
+  const { error } = await supabase.from('word_feedback').insert({
+    message: clean,
+    book_id: bookId,
+    section_id: sectionId,
+    word_id: String(wordId),
+    chinese,
+  });
+  if (error) throw error;
+}
+
+export async function loadWordFeedback() {
+  const { data, error } = await supabase
+    .from('word_feedback')
+    .select('id, message, book_id, section_id, word_id, chinese, created_at, resolved')
+    .order('created_at', { ascending: false });
+  if (error) throw error;
+  return data ?? [];
+}
+
+export async function resolveWordFeedback(id, resolved) {
+  const { error } = await supabase.from('word_feedback').update({ resolved }).eq('id', id);
+  if (error) throw error;
+}
+
+export async function deleteWordFeedback(id) {
+  const { error } = await supabase.from('word_feedback').delete().eq('id', id);
+  if (error) throw error;
+}
+
 const FEEDBACK_COOLDOWN_KEY = 'feedback_last_submitted';
 const FEEDBACK_COOLDOWN_MS = 60_000; // 1 minute between submissions
 const FEEDBACK_MAX_LENGTH = 1000;

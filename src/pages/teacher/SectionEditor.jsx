@@ -451,7 +451,7 @@ export default function SectionEditor({ bookId, sectionId }) {
           <div className="overflow-x-auto">
             <table className="min-w-[1400px] text-sm">
               <thead className="bg-slate-50 dark:bg-slate-800/80">
-                <tr className="border-b border-slate-200 dark:border-slate-700">
+                <tr className="border-b border-slate-200">
                   <th className="w-12 px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">#</th>
                   <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Chinese</th>
                   <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Pinyin</th>
@@ -525,7 +525,7 @@ export default function SectionEditor({ bookId, sectionId }) {
           onClick={closeEditWordModal}
         >
           <Card
-            className="w-full max-w-4xl border-slate-200 shadow-2xl dark:border-slate-700"
+            className="w-full max-w-4xl border-slate-200 shadow-2xl"
             onClick={(event) => event.stopPropagation()}
           >
             <CardContent className="p-5 sm:p-6">
