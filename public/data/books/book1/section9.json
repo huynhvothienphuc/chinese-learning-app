@@ -7,331 +7,975 @@
       "id": 1,
       "chinese": "星期",
       "pinyin": "xīngqí",
-      "english": "week",
-      "sentenceChinese": "一個星期有七天。",
-      "sentencePinyin": "Yí ge xīngqí yǒu qī tiān.",
-      "sentenceEnglish": "A week has seven days.",
-      "vietnamese": "tuần",
-      "sentenceVietnamese": "Một tuần có bảy ngày."
+      "en": "week",
+      "vi": "tuần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sunday",
+          "sentence": "星期休息。",
+          "pinyin": "xīngqī xīuxi.",
+          "en": "Sunday is a holiday.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sunday",
+          "sentence": "明天是星期。",
+          "pinyin": "míngtiān shì xīngqī.",
+          "en": "Tomorrow is Sunday.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "回國",
       "pinyin": "huíguó",
-      "english": "to return to one's country",
-      "sentenceChinese": "他畢業以後想回國。",
-      "sentencePinyin": "Tā bìyè yǐhòu xiǎng huíguó.",
-      "sentenceEnglish": "He wants to return to his country after graduation.",
-      "vietnamese": "về nước",
-      "sentenceVietnamese": "Sau khi tốt nghiệp anh ấy muốn về nước."
+      "en": "to return to one's country",
+      "vi": "về nước",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "return to one's country (native land)",
+          "sentence": "你什麼時候迴國？",
+          "pinyin": "nǐ shénme shíhòu huíguó?",
+          "en": "When are you going back to your country?",
+          "vi": "Khi nào bạn về nước?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "return to one's country (native land)",
+          "sentence": "我明天要迴國。",
+          "pinyin": "wǒ míngtiān yào huíguó.",
+          "en": "I am going back to my country tomorrow.",
+          "vi": "Ngày mai tôi về nước."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "打算",
       "pinyin": "dǎsuàn",
-      "english": "to plan to",
-      "sentenceChinese": "我打算下個星期去旅行。",
-      "sentencePinyin": "Wǒ dǎsuàn xià ge xīngqí qù lǚxíng.",
-      "sentenceEnglish": "I plan to go traveling next week.",
-      "vietnamese": "dự định",
-      "sentenceVietnamese": "Tôi dự định tuần sau đi du lịch."
+      "en": "to plan to",
+      "vi": "dự định",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "intend; plan; caculate",
+          "sentence": "你打算在哪兒過春節？",
+          "pinyin": "nǐ dǎsuàn zài nǎr guò chūnjié?",
+          "en": "Where do you plan to celebrate the Spring Festival?",
+          "vi": "Em định đón Tết ở đâu?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "intend; plan; caculate",
+          "sentence": "我打算明天去爬山。",
+          "pinyin": "wǒ dǎsuàn míngtiān qù páshān.",
+          "en": "I plan to go hiking tomorrow.",
+          "vi": "Tôi dự định mai đi leo núi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; intention; consideration; calculation",
+          "sentence": "他心裡/裏有個創業的打算。",
+          "pinyin": "tā xīn lǐ yǒu gè chuàngyè de dǎsuàn.",
+          "en": "He has a plan for starting a business in his heart.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; intention; consideration; calculation",
+          "sentence": "畢業後你有什麼打算？",
+          "pinyin": "bìyè hòu nǐ yǒu shén me dǎsuàn?",
+          "en": "What are your plans after graduation?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "電視",
       "pinyin": "diànshì",
-      "english": "TV",
-      "sentenceChinese": "他在家看電視。",
-      "sentencePinyin": "Tā zài jiā kàn diànshì.",
-      "sentenceEnglish": "He is watching TV at home.",
-      "vietnamese": "tivi",
-      "sentenceVietnamese": "Anh ấy ở nhà xem tivi."
+      "en": "TV",
+      "vi": "tivi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "television; T.V",
+          "sentence": "媽媽在看電視。",
+          "pinyin": "māma zài kàn diànshì.",
+          "en": "Mom is watching TV.",
+          "vi": "Mẹ tôi đang xem ti vi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "television; T.V",
+          "sentence": "這些日子他們很少看電視。",
+          "pinyin": "zhèxiē rìzi tāmen hěn shǎo kàn diànshì.",
+          "en": "They seldom watch television these days.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "影片",
       "pinyin": "yǐngpiàn",
-      "english": "film/video",
-      "sentenceChinese": "這部影片很有意思。",
-      "sentencePinyin": "Zhè bù yǐngpiàn hěn yǒuyìsi.",
-      "sentenceEnglish": "This video is very interesting.",
-      "vietnamese": "phim / video",
-      "sentenceVietnamese": "Bộ phim này rất thú vị."
+      "en": "film/video",
+      "vi": "phim / video",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "film; movie; picture",
+          "sentence": "這部影片很感人。",
+          "pinyin": "zhè bù yǐngpiàn hěn gǎnrén.",
+          "en": "This movie is very touching.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "film; movie; picture",
+          "sentence": "你看過這部影片嗎？",
+          "pinyin": "nǐ kànguò zhè bù yǐngpiàn ma?",
+          "en": "Have you seen this movie?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "旅行",
       "pinyin": "lǚxíng",
-      "english": "to travel",
-      "sentenceChinese": "我想去日本旅行。",
-      "sentencePinyin": "Wǒ xiǎng qù Rìběn lǚxíng.",
-      "sentenceEnglish": "I want to travel to Japan.",
-      "vietnamese": "du lịch",
-      "sentenceVietnamese": "Tôi muốn đi Nhật Bản du lịch."
+      "en": "to travel",
+      "vi": "du lịch",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "travel; tour; journey",
+          "sentence": "你有這次旅行的照片嗎？",
+          "pinyin": "nǐ yǒu zhè cì lǚxíng de zhàopiàn ma?",
+          "en": "Have you got any pictures of your trip?",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "travel; tour; journey",
+          "sentence": "我們下個月要去旅行。",
+          "pinyin": "wǒmen xià gè yuè yào qù lǚxíng.",
+          "en": "We are going to travel next month.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "功課",
       "pinyin": "gōngkè",
-      "english": "homework",
-      "sentenceChinese": "功課很多，我寫不完。",
-      "sentencePinyin": "Gōngkè hěnduō, wǒ xiě bù wán.",
-      "sentenceEnglish": "There is a lot of homework; I can't finish it.",
-      "vietnamese": "bài tập về nhà",
-      "sentenceVietnamese": "Bài tập rất nhiều, tôi viết không hết."
+      "en": "homework",
+      "vi": "bài tập về nhà",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "schoolwork; homework",
+          "sentence": "做完功課再看電視。",
+          "pinyin": "zuò wán gōngkè zài kàn diànshì.",
+          "en": "Watch TV after you finish your homework.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "schoolwork; homework",
+          "sentence": "小清和麗麗一起做功課。",
+          "pinyin": "xiǎo qīng hé lì lì yīqǐ zuò gōngkè.",
+          "en": "Xiaoqing and Lili are studying together.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "出去",
       "pinyin": "chūqù",
-      "english": "to go out",
-      "sentenceChinese": "外面很冷，不要出去。",
-      "sentencePinyin": "Wàimiàn hěn lěng, búyào chūqù.",
-      "sentenceEnglish": "It's very cold outside; don't go out.",
-      "vietnamese": "ra ngoài",
-      "sentenceVietnamese": "Bên ngoài rất lạnh, đừng có ra ngoài."
+      "en": "to go out",
+      "vi": "ra ngoài",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go out; get out",
+          "sentence": "我想齣去散步。",
+          "pinyin": "wǒ xiǎng chūqù sànbù.",
+          "en": "I want to go out for a walk.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "go out; get out",
+          "sentence": "我們齣去玩吧！",
+          "pinyin": "wǒmen chūqù wán ba!",
+          "en": "Let’s go out and have fun!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "大概",
       "pinyin": "dǎgài",
-      "english": "approximately, probably",
-      "sentenceChinese": "去臺東大概要多久？",
-      "sentencePinyin": "Qù Táidōng dǎgài yào duō jiǔ?",
-      "sentenceEnglish": "Approximately how long does it take to go to Taitung?",
-      "vietnamese": "khoảng / đại khái",
-      "sentenceVietnamese": "Đi Đài Đông khoảng mất bao lâu?"
+      "en": "approximately, probably",
+      "vi": "khoảng / đại khái",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "general idea; broad outline",
+          "sentence": "這本書我看了個大概。",
+          "pinyin": "zhè běn shū wǒ kànle gè dàgài.",
+          "en": "I have read this book roughly.",
+          "vi": "Cuốn sách này tớ đã xem đại khái rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "general idea; broad outline",
+          "sentence": "我隻了解個大概。",
+          "pinyin": "wǒ zhǐ liǎojiě gè dàgài.",
+          "en": "I only understand the main idea.",
+          "vi": "Tôi chỉ tìm hiểu ý chính thôi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "general; rough; approximate",
+          "sentence": "他給了我一個大概的描述。",
+          "pinyin": "tā gěile wǒ yīgè dàgài de miáoshù.",
+          "en": "He gave me a rough description.",
+          "vi": "Anh ấy đã cho tôi một mô tả sơ sơ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "general; rough; approximate",
+          "sentence": "這隻是一個大概的數字。",
+          "pinyin": "zhè zhǐshì yīgè dàgài de shùzì.",
+          "en": "This is just an approximate number.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "about; probably",
+          "sentence": "現在大概十點多了吧。",
+          "pinyin": "xiànzài dàgài shí diǎn duōle ba.",
+          "en": "It's probably a little past ten o'clock now.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "about; probably",
+          "sentence": "這箱梨大概有三十多斤。",
+          "pinyin": "zhè xiāng lí dàgài yǒu sānshí duō jīn.",
+          "en": "This box of pears weighs about thirty pounds or more.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "放假",
       "pinyin": "fàngjià",
-      "english": "to have a holiday",
-      "sentenceChinese": "你放假的時候想去哪裡？",
-      "sentencePinyin": "Nǐ fàngjià de shíhòu xiǎng qù nǎlǐ?",
-      "sentenceEnglish": "Where do you want to go when you have a holiday?",
-      "vietnamese": "nghỉ lễ",
-      "sentenceVietnamese": "Lúc nghỉ lễ bạn muốn đi đâu?"
+      "en": "to have a holiday",
+      "vi": "nghỉ lễ",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "have a holiday (or vacation); begin a vacation; have a day off; be on holiday (vacation)",
+          "sentence": "國慶節放兩天假。",
+          "pinyin": "guóqìng jié fàng liǎng tiān jiǎ.",
+          "en": "There will be a two-day holiday for National Day.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "have a holiday (or vacation); begin a vacation; have a day off; be on holiday (vacation)",
+          "sentence": "你們什麼時候放假？",
+          "pinyin": "nǐmen shénme shíhòu fàngjià?",
+          "en": "When do you guys get holidays?",
+          "vi": "Khi nào thì mọi người được nghỉ lễ?"
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "下個星期",
       "pinyin": "xià ge xīngqí",
-      "english": "next week",
-      "sentenceChinese": "我們下個星期有考試。",
-      "sentencePinyin": "Wǒmen xià ge xīngqí yǒu kǎoshì.",
-      "sentenceEnglish": "We have an exam next week.",
-      "vietnamese": "tuần sau",
-      "sentenceVietnamese": "Tuần sau chúng tôi có kỳ thi."
+      "en": "next week",
+      "vi": "tuần sau",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "next week",
+          "sentence": "他下個星期被釋放。",
+          "pinyin": "tā xiàgèxīngqī bèi shìfàng",
+          "en": "He's being released next week.",
+          "vi": "Anh ấy sẽ được trả tự do vào tuần tới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "next week",
+          "sentence": "下個星期我們有考試。",
+          "pinyin": "xià gè xīng qī wǒmen yǒu kǎoshì.",
+          "en": "We have an exam next week.",
+          "vi": "Tuần sau chúng tớ có kỳ thi."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "有時候",
       "pinyin": "yǒu shíhòu",
-      "english": "sometimes",
-      "sentenceChinese": "我有時候在家看影片。",
-      "sentencePinyin": "Wǒ yǒu shíhòu zài jiā kàn yǐngpiàn.",
-      "sentenceEnglish": "Sometimes I watch videos at home.",
-      "vietnamese": "có lúc / đôi khi",
-      "sentenceVietnamese": "Đôi khi tôi ở nhà xem phim."
+      "en": "sometimes",
+      "vi": "có lúc / đôi khi",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "sometimes",
+          "sentence": "有時候我覺得工作好纍啊。",
+          "pinyin": "yǒu shíhou wǒ juéde gōngzuò hǎo lèi a.",
+          "en": "Sometimes I feel work is very tiring.",
+          "vi": "Đôi khi tôi cảm thấy công việc rất mệt mỏi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "sometimes",
+          "sentence": "我髮/發現我有時候記性特別差。",
+          "pinyin": "wǒ fāxiàn wǒ yǒu shíhou jìxìng tèbié chà.",
+          "en": "I find that I have a particularly bad memory.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "多久",
       "pinyin": "duō jiǔ",
-      "english": "how long",
-      "sentenceChinese": "你要在台灣待多久？",
-      "sentencePinyin": "Nǐ yào zài Táiwān dāi duō jiǔ?",
-      "sentenceEnglish": "How long are you going to stay in Taiwan?",
-      "vietnamese": "bao lâu",
-      "sentenceVietnamese": "Bạn định ở Đài Loan bao lâu?"
+      "en": "how long",
+      "vi": "bao lâu",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "how long?; how long",
+          "sentence": "他走了多久了?",
+          "pinyin": "tā zǒule duōjiǔle?",
+          "en": "How long has he been gone?",
+          "vi": "Anh ta đã đi bao lâu rồi?"
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "how long?; how long",
+          "sentence": "你要多久完成作業？",
+          "pinyin": "nǐ yào duōjiǔ wánchéng zuòyè?",
+          "en": "How long do you need to finish the homework?",
+          "vi": "Bạn cần bao lâu để hoàn thiện bài tập?"
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "臺東",
       "pinyin": "Táidōng",
-      "english": "Taitung (city)",
-      "sentenceChinese": "臺東的海邊很美。",
-      "sentencePinyin": "Táidōng de hǎibiān hěn měi.",
-      "sentenceEnglish": "The seaside in Taitung is beautiful.",
-      "vietnamese": "Đài Đông",
-      "sentenceVietnamese": "Bờ biển ở Đài Đông rất đẹp."
+      "en": "Taitung (city)",
+      "vi": "Đài Đông",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Taidong or Taitung city and county in Taiwan",
+          "sentence": "我計劃去臺東旅遊。",
+          "pinyin": "Wǒ jìhuà qù Táidōng lǚyóu.",
+          "en": "I plan to travel to Taitung.",
+          "vi": "Tôi dự định đi du lịch Đài Đông."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "女",
       "pinyin": "nǚ",
-      "english": "girl, female",
-      "sentenceChinese": "她是一位女醫生。",
-      "sentencePinyin": "Tā shì yí wèi nǚ yīshēng.",
-      "sentenceEnglish": "She is a female doctor.",
-      "vietnamese": "nữ / con gái",
-      "sentenceVietnamese": "Cô ấy là một nữ bác sĩ."
+      "en": "girl, female",
+      "vi": "nữ / con gái",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "girl; daughter",
+          "sentence": "我的女兒非常可愛。",
+          "pinyin": "wǒ de nǚ'ér fēicháng kě'ài.",
+          "en": "My daughter is very cute.",
+          "vi": "Con gái tôi rất dễ thương."
+        },
+        {
+          "type": "Noun",
+          "meaning": "girl; daughter",
+          "sentence": "聰明的女兒學習棒。",
+          "pinyin": "cōngmíng de nǚ'ér xuéxí bàng.",
+          "en": "My smart daughter studies well.",
+          "vi": "Con gái thông minh học giỏi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "woman; female",
+          "sentence": "那個女衕學很聰明。",
+          "pinyin": "nàgè nǚ tóngxué hěn cōngmíng.",
+          "en": "That female classmate is very smart.",
+          "vi": "Cô bạn cùng lớp đó rất thông minh."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "woman; female",
+          "sentence": "那個女生跳舞很好看。",
+          "pinyin": "nàgè nǚshēng tiàowǔ hěn hǎokàn.",
+          "en": "That girl dances very beautifully.",
+          "vi": "Cô gái đó nhảy rất đẹp."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "月",
       "pinyin": "yuè",
-      "english": "month of a year",
-      "sentenceChinese": "一年有十二個月。",
-      "sentencePinyin": "Yì nián yǒu shí'èr ge yuè.",
-      "sentenceEnglish": "A year has twelve months.",
-      "vietnamese": "tháng",
-      "sentenceVietnamese": "Một năm có mười hai tháng."
+      "en": "month of a year",
+      "vi": "tháng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "month",
+          "sentence": "我來中國兩個月了。",
+          "pinyin": "wǒ lái zhōngguó liǎng gè yuèle.",
+          "en": "I have been in China for two months.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "month",
+          "sentence": "這幾個月我在學漢語。",
+          "pinyin": "zhè jǐ gè yuè wǒ zàixué hànyǔ.",
+          "en": "I have been learning Chinese these months.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "號",
       "pinyin": "hào",
-      "english": "date, day of a month",
-      "sentenceChinese": "今天是三月十號。",
-      "sentencePinyin": "Jīntiān shì sān yuè shí hào.",
-      "sentenceEnglish": "Today is March 10th.",
-      "vietnamese": "ngày (số ngày trong tháng)",
-      "sentenceVietnamese": "Hôm nay là ngày 10 tháng 3."
+      "en": "date, day of a month",
+      "vi": "ngày (số ngày trong tháng)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "name",
+          "sentence": "他起了獨特的名號。",
+          "pinyin": "tā qǐle dútè de míng hào.",
+          "en": "He came up with a unique name.",
+          "vi": "Anh ấy đặt một cái tên độc đáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "name",
+          "sentence": "她給自己選個名號。",
+          "pinyin": "tā jǐ zìjǐ xuǎn gè míng hào.",
+          "en": "She chose a name for herself.",
+          "vi": "Cô ấy chọn cho mình một cái tên."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for the number of people",
+          "sentence": "那幾號人在聊天。",
+          "pinyin": "nà jǐ hào rén zài liáotiān.",
+          "en": "Those people are chatting.",
+          "vi": "Những người đó đang trò chuyện."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for the number of people",
+          "sentence": "這兩號人是夫妻。",
+          "pinyin": "zhè liǎng hào rén shì fūqī.",
+          "en": "These two people are husband and wife.",
+          "vi": "Hai người này là vợ chồng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "mark",
+          "sentence": "請你在這本書上號一下。",
+          "pinyin": "qǐng nǐ zài zhè běn shū shàng hào yīxià.",
+          "en": "Please mark this book.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "mark",
+          "sentence": "老師用紅筆號作業。",
+          "pinyin": "lǎoshī yòng hóng bǐ hào zuòyè.",
+          "en": "The teacher marks homework with a red pen.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "帶",
       "pinyin": "dài",
-      "english": "to take / to bring",
-      "sentenceChinese": "我帶她去逛街。",
-      "sentencePinyin": "Wǒ dài tā qù guàngjiē.",
-      "sentenceEnglish": "I'll take her to go window shopping.",
-      "vietnamese": "dẫn / mang theo",
-      "sentenceVietnamese": "Tôi dẫn cô ấy đi dạo phố."
+      "en": "to take / to bring",
+      "vi": "dẫn / mang theo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "take; bring; carry",
+          "sentence": "請帶上安全帽。",
+          "pinyin": "qǐng dài shàng ānquán mào.",
+          "en": "Please put on your safety helmet.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "take; bring; carry",
+          "sentence": "他忘了帶領帶。",
+          "pinyin": "tā wàngle dàilǐng dài.",
+          "en": "He forgot to wear a tie.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "belt; girdle; ribbon; band; tape",
+          "sentence": "這個包帶很結實。",
+          "pinyin": "zhège bāo dài hěn jiēshi.",
+          "en": "The strap of this bag is very sturdy.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "belt; girdle; ribbon; band; tape",
+          "sentence": "請把帶子拿過來。",
+          "pinyin": "qǐng bǎ dàizi ná guòlái.",
+          "en": "Please bring the strap over here.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "她",
       "pinyin": "tā",
-      "english": "she, her",
-      "sentenceChinese": "她很有禮貌。",
-      "sentencePinyin": "Tā hěn yǒu lǐmào.",
-      "sentenceEnglish": "She is very polite.",
-      "vietnamese": "cô ấy / chị ấy",
-      "sentenceVietnamese": "Cô ấy rất có lễ phép."
+      "en": "she, her",
+      "vi": "cô ấy / chị ấy",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "she; her",
+          "sentence": "她就是我的閨蜜。",
+          "pinyin": "tā jiùshì wǒ de guīmì.",
+          "en": "She is my best friend.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "she; her",
+          "sentence": "她的眼睛真好看。",
+          "pinyin": "tā de yǎnjīng zhēn hǎokàn.",
+          "en": "Her eyes are really beautiful.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "還",
       "pinyin": "hái",
-      "english": "still, additionally",
-      "sentenceChinese": "你還想喝咖啡嗎？",
-      "sentencePinyin": "Nǐ hái xiǎng hē kāfēi ma?",
-      "sentenceEnglish": "Do you still want to drink coffee?",
-      "vietnamese": "vẫn / còn",
-      "sentenceVietnamese": "Bạn vẫn còn muốn uống cà phê không?"
+      "en": "still, additionally",
+      "vi": "vẫn / còn",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "still; yet",
+          "sentence": "我還沒吃/喫晚飯。",
+          "pinyin": "wǒ hái méi chī wǎnfàn.",
+          "en": "I haven’t had dinner yet.",
+          "vi": "Tôi còn chưa ăn tối."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "still; yet",
+          "sentence": "他還在學習中文。",
+          "pinyin": "tā hái zài xuéxí Zhōngwén.",
+          "en": "He is still learning Chinese.",
+          "vi": "Anh ấy vẫn đang học tiếng Trung."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "建議",
       "pinyin": "jiànyì",
-      "english": "suggestion / to suggest",
-      "sentenceChinese": "謝謝你的建議。",
-      "sentencePinyin": "Xièxiè nǐ de jiànyì.",
-      "sentenceEnglish": "Thank you for your suggestion.",
-      "vietnamese": "gợi ý / lời khuyên",
-      "sentenceVietnamese": "Cảm ơn lời gợi ý của bạn."
+      "en": "suggestion / to suggest",
+      "vi": "gợi ý / lời khuyên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to propose; to suggest; to recommend",
+          "sentence": "醫生建議我多做點戶外活動。",
+          "pinyin": "Yīshēng jiànyì wǒ duō zuò diǎn hùwài huódòng.",
+          "en": "The doctor suggested I should have more outdoor exercise.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to propose; to suggest; to recommend",
+          "sentence": "我們建議立即採取措施。",
+          "pinyin": "wǒmen jiànyì lìjí cǎiqǔ cuòshī.",
+          "en": "We advise that steps be taken at once.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "proposal; suggestion",
+          "sentence": "他的建議很有建設性。",
+          "pinyin": "tā de jiànyì hěn yǒu jiànshè xìng.",
+          "en": "His suggestion is very constructive.",
+          "vi": "Những đề xuất của ông rất mang tính xây dựng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "proposal; suggestion",
+          "sentence": "他的建議很有價值。",
+          "pinyin": "tā de jiànyì hěn yǒu jiàzhí.",
+          "en": "His suggestion is very valuable.",
+          "vi": "Lời khuyên của ông rất có giá trị."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "夜市",
       "pinyin": "yèshì",
-      "english": "night market",
-      "sentenceChinese": "我們今天晚上去逛夜市吧。",
-      "sentencePinyin": "Wǒmen jīntiān wǎnshàng qù guàng yèshì ba.",
-      "sentenceEnglish": "Let's go to the night market tonight.",
-      "vietnamese": "chợ đêm",
-      "sentenceVietnamese": "Tối nay chúng ta đi dạo chợ đêm đi."
+      "en": "night market",
+      "vi": "chợ đêm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "night fair; night market",
+          "sentence": "夜市裡/裏有很多小吃/喫。",
+          "pinyin": "yèshì li yǒu hěnduō xiǎochī.",
+          "en": "There are many snacks at the night market.",
+          "vi": "Ở chợ đêm có rất nhiều món ăn vặt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "night fair; night market",
+          "sentence": "我們週末去夜市吧。",
+          "pinyin": "wǒmen zhōumò qù yèshì ba.",
+          "en": "Let's go to the night market this weekend.",
+          "vi": "Cuối tuần chúng ta đi chợ đêm nhé."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "應該",
       "pinyin": "yīnggāi",
-      "english": "should",
-      "sentenceChinese": "你應該多喝水。",
-      "sentencePinyin": "Nǐ yīnggāi duō hē shuǐ.",
-      "sentenceEnglish": "You should drink more water.",
-      "vietnamese": "nên",
-      "sentenceVietnamese": "Bạn nên uống nhiều nước."
+      "en": "should",
+      "vi": "nên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "should; ought to",
+          "sentence": "這是我應該做的。",
+          "pinyin": "zhè shì wǒ yīnggāi zuò de.",
+          "en": "This is what I should do.",
+          "vi": "Đây là việc tôi nên làm mà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "should; ought to",
+          "sentence": "你應該早點起床/牀。",
+          "pinyin": "nǐ yīnggāi zǎodiǎn qǐchuáng.",
+          "en": "You should get up earlier.",
+          "vi": "Bạn nên dậy sớm hơn chút."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "逛",
       "pinyin": "guàng",
-      "english": "to wander around / to stroll",
-      "sentenceChinese": "我們去逛夜市吧。",
-      "sentencePinyin": "Wǒmen qù guàng yèshì ba.",
-      "sentenceEnglish": "Let's go wander around the night market.",
-      "vietnamese": "đi dạo / đi chơi",
-      "sentenceVietnamese": "Chúng ta đi dạo chợ đêm đi."
+      "en": "to wander around / to stroll",
+      "vi": "đi dạo / đi chơi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "roam; stroll; ramble",
+          "sentence": "週末我喜歡逛商店。",
+          "pinyin": "zhōumò wǒ xǐhuan guàng shāngdiàn.",
+          "en": "I like to stroll around shops on weekends.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "roam; stroll; ramble",
+          "sentence": "我們一起去逛大街吧！",
+          "pinyin": "wǒmen yīqǐ qù guàng dàjiē ba!",
+          "en": "Let's go stroll around the streets together!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "特別",
       "pinyin": "tèbié",
-      "english": "special / especially",
-      "sentenceChinese": "這家茶館很特別。",
-      "sentencePinyin": "Zhè jiā cháguǎn hěn tèbié.",
-      "sentenceEnglish": "This tea house is very special.",
-      "vietnamese": "đặc biệt",
-      "sentenceVietnamese": "Quán trà này rất đặc biệt."
+      "en": "special / especially",
+      "vi": "đặc biệt",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "special; particular; out of the ordinary",
+          "sentence": "這個菜的做法很特別。",
+          "pinyin": "zhège cài de zuòfǎ hěn tèbié.",
+          "en": "The method of preparing this dish is very special.",
+          "vi": "Cách chế biến món ăn này rất đặc biệt."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "special; particular; out of the ordinary",
+          "sentence": "你的花插得很特別。",
+          "pinyin": "nǐ de huā chā de hěn tèbié.",
+          "en": "Your flower arrangement is very special.",
+          "vi": "Cách cắm hoa của bạn rất đặc biệt."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "especially; particularly",
+          "sentence": "今天的天空特別藍。",
+          "pinyin": "jīntiān de tiānkōng tèbié lán.",
+          "en": "The sky is especially blue today.",
+          "vi": "Bầu trời hôm nay đặc biệt trong xanh."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "especially; particularly",
+          "sentence": "那個地方特別安靜。",
+          "pinyin": "nàgè dìfang tèbié ānjìng.",
+          "en": "That place is particularly quiet.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "茶館",
       "pinyin": "cháguǎn",
-      "english": "tea house",
-      "sentenceChinese": "我們去茶館喝茶。",
-      "sentencePinyin": "Wǒmen qù cháguǎn hē chá.",
-      "sentenceEnglish": "We are going to the tea house to drink tea.",
-      "vietnamese": "quán trà",
-      "sentenceVietnamese": "Chúng tôi đi quán trà uống trà."
+      "en": "tea house",
+      "vi": "quán trà",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "teahouse",
+          "sentence": "這間茶館就在河邊。",
+          "pinyin": "zhè jiān cháguǎn jiù zài hébiān.",
+          "en": "This teahouse is right by the river.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "teahouse",
+          "sentence": "老茶館一個一個地消失了。",
+          "pinyin": "lǎo cháguǎn yīgè yīgè de xiāoshīle.",
+          "en": "The old teahouses are disappearing one by one.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "決定",
       "pinyin": "juédìng",
-      "english": "to decide",
-      "sentenceChinese": "你決定好去哪裡了嗎？",
-      "sentencePinyin": "Nǐ juédìng hǎo qù nǎlǐ le ma?",
-      "sentenceEnglish": "Have you decided where to go?",
-      "vietnamese": "quyết định",
-      "sentenceVietnamese": "Bạn đã quyết định đi đâu chưa?"
+      "en": "to decide",
+      "vi": "quyết định",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "decision; resolution",
+          "sentence": "這是一個重要的決定。",
+          "pinyin": "zhè shì yīgè zhòngyào de juédìng.",
+          "en": "This is a weighty decision.",
+          "vi": "Đây là một quyết định quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "decision; resolution",
+          "sentence": "這是一個艱難的決定。",
+          "pinyin": "zhè shì yīgè jiānnán de juédìng.",
+          "en": "This is a tough decision.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "decisive",
+          "sentence": "這是一個決定性的時刻。",
+          "pinyin": "zhè shì yīgè juédìngxìng de shíkè.",
+          "en": "This is a decisive moment.",
+          "vi": "Đây là một khoảnh khắc mang tính quyết định."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "decisive",
+          "sentence": "這是一個決定性因素。",
+          "pinyin": "zhè shì yīgè juédìngxìng yīnsù.",
+          "en": "This is a decisive factor.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "decide; determine",
+          "sentence": "物質決定意識。",
+          "pinyin": "wùzhì juédìng yìshi.",
+          "en": "Matter determines consciousness.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "decide; determine",
+          "sentence": "努力決定成功。",
+          "pinyin": "nǔlì juédìng chénggōng.",
+          "en": "Success is determined by hard work.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "要是",
       "pinyin": "yàoshì",
-      "english": "if",
-      "sentenceChinese": "要是下雨，我就不出去。",
-      "sentencePinyin": "Yàoshì xiàyǔ, wǒ jiù bù chūqù.",
-      "sentenceEnglish": "If it rains, then I won't go out.",
-      "vietnamese": "nếu / nếu như",
-      "sentenceVietnamese": "Nếu trời mưa thì tôi không đi ra ngoài."
+      "en": "if",
+      "vi": "nếu / nếu như",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "if; suppose; in case",
+          "sentence": "要是下雨，我們就不去了。",
+          "pinyin": "yàoshi xià yǔ, wǒmen jiù bù qùle.",
+          "en": "If it rains, we won’t go.",
+          "vi": "Nếu trời mưa, chúng tôi sẽ không đi."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if; suppose; in case",
+          "sentence": "要是你不喜歡，就不要買。",
+          "pinyin": "yàoshi nǐ bù xǐhuān, jiù bù yāo mǎi.",
+          "en": "If you don’t like it, then don’t buy it.",
+          "vi": "Nếu bạn không thích, thì đừng mua."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "就",
       "pinyin": "jiù",
-      "english": "then",
-      "sentenceChinese": "如果你不來，我就走。",
-      "sentencePinyin": "Rúguǒ nǐ bù lái, wǒ jiù zǒu.",
-      "sentenceEnglish": "If you don't come, then I'll leave.",
-      "vietnamese": "thì",
-      "sentenceVietnamese": "Nếu bạn không đến thì tôi đi."
+      "en": "then",
+      "vi": "thì",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "at once; right away",
+          "sentence": "電影馬上就要開始。",
+          "pinyin": "diànyǐng mǎshàng jiù yào kāishǐ.",
+          "en": "The movie is about to start soon.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "as early as; already; long since",
+          "sentence": "我早就知道這個消息。",
+          "pinyin": "wǒ zǎo jiù zhīdào zhège xiāoxi.",
+          "en": "I have known this news for a long time.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "take advantage of someone (something)",
+          "sentence": "就著這個機會，我們去旅行。",
+          "pinyin": "jiùzhe zhège jīhuì, wǒmen qù lǚxíng.",
+          "en": "Taking advantage of this opportunity, let's go on a trip.",
+          "vi": "Nhân cơ hội này, chúng ta đi du lịch,"
+        },
+        {
+          "type": "Preposition",
+          "meaning": "when it comes to someone (something); concerning; with regard to; on",
+          "sentence": "就電影來説，這部很精綵。",
+          "pinyin": "jiù diànyǐng lái shuō, zhè bù hěn jīngcǎi.",
+          "en": "When it comes to movies, this one is excellent.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be eaten with; go with",
+          "sentence": "她喜歡麵包就果醬。",
+          "pinyin": "tā xǐhuan miànbāo jiù guǒjiàng.",
+          "en": "She likes to eat bread with jam.",
+          "vi": "Cô ấy thích ăn bánh mì kèm với mứt."
+        },
+        {
+          "type": "Verb",
+          "meaning": "come near; move towards",
+          "sentence": "你就著窗口看風景。",
+          "pinyin": "nǐ jiùzhe chuāngkǒu kàn fēngjǐng.",
+          "en": "You look at the scenery by the window.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "even if",
+          "sentence": "就算下雨，我們也要去。",
+          "pinyin": "jiùsuàn xià yǔ, wǒmen yě yào qù.",
+          "en": "Even if it rains, we still have to go.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "貓空",
       "pinyin": "Māokōng",
-      "english": "Maokong (Taipei landmark)",
-      "sentenceChinese": "貓空是喝茶的好地方。",
-      "sentencePinyin": "Māokōng shì hē chá de hǎo dìfāng.",
-      "sentenceEnglish": "Maokong is a good place to drink tea.",
-      "vietnamese": "Miêu Không",
-      "sentenceVietnamese": "Miêu Không là một nơi uống trà rất tốt."
+      "en": "Maokong (Taipei landmark)",
+      "vi": "Miêu Không",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cat",
+          "sentence": "這隻老貓生病了。",
+          "pinyin": "zhè zhī lǎo māo shēngbìngle.",
+          "en": "This old cat is sick.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cat",
+          "sentence": "我傢養了三隻貓。",
+          "pinyin": "wǒ jiāyǎngle sān zhī māo.",
+          "en": "My family has three cats.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hide oneself; go into hide",
+          "sentence": "小貓在床/牀下貓了很久。",
+          "pinyin": "xiǎo māo zài chuángxià māole hěnjiǔ.",
+          "en": "The kitten has been hiding under the bed for a long time.",
+          "vi": "Con mèo nhỏ đã trốn dưới giường lâu rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "hide oneself; go into hide",
+          "sentence": "你已經貓了兩個月了。",
+          "pinyin": "nǐ yǐjīng māole liǎng gè yuèle.",
+          "en": "You have been hiding for two months already.",
+          "vi": ""
+        }
+      ]
     }
   ]
 }

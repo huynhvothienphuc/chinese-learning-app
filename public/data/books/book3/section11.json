@@ -7,937 +7,2413 @@
       "id": 1,
       "chinese": "建",
       "pinyin": "jiàn",
-      "english": "to build (Classical Chinese)",
-      "sentenceChinese": "這座城是荷蘭人建的。",
-      "sentencePinyin": "Zhè zuò chéng shì Hélán rén jiàn de.",
-      "sentenceEnglish": "This city was built by the Dutch.",
-      "vietnamese": "xây",
-      "sentenceVietnamese": "Thành này là do người Hà Lan xây."
+      "en": "to build (Classical Chinese)",
+      "vi": "xây",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "build; erect; construct",
+          "sentence": "這裡/裏建了一座大樓。",
+          "pinyin": "zhèlǐ jiànle yīzuò dàlóu.",
+          "en": "A building has been constructed here.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "build; erect; construct",
+          "sentence": "政府建了很多學校。",
+          "pinyin": "zhèngfǔ jiànle hěnduō xuéxiào.",
+          "en": "The government has built many schools.",
+          "vi": "Chính phủ đã xây rất nhiều trường học."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Fujian (Province)",
+          "sentence": "福建是一個很美的地方。",
+          "pinyin": "fújiàn shì yīgè hěn měi de dìfāng.",
+          "en": "Fujian is a very beautiful place.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Fujian (Province)",
+          "sentence": "我曾經去過福建旅行。",
+          "pinyin": "wǒ céngjīng qùguò fújiàn lǚxíng.",
+          "en": "I have traveled to Fujian before.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "重建",
       "pinyin": "chóngjiàn",
-      "english": "to rebuild",
-      "sentenceChinese": "戰爭結束以後，人們開始重建家園。",
-      "sentencePinyin": "Zhànzhēng jiéshù yǐhòu, rénmen kāishǐ chóngjiàn jiāyuán.",
-      "sentenceEnglish": "After the war ended, people began rebuilding their homes.",
-      "vietnamese": "xây lại; tái thiết",
-      "sentenceVietnamese": "Sau khi chiến tranh kết thúc, mọi người bắt đầu tái thiết quê hương."
+      "en": "to rebuild",
+      "vi": "xây lại; tái thiết",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rebuild; reconstruct",
+          "sentence": "我們要重建這座橋。",
+          "pinyin": "wǒmen yào chóngjiàn zhè zuò qiáo.",
+          "en": "We are going to rebuild this bridge.",
+          "vi": "Chúng ta cần xây lại cây cầu này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "rebuild; reconstruct",
+          "sentence": "他們在重建老房子。",
+          "pinyin": "tāmen zài chóngjiàn lǎo fángzǐ.",
+          "en": "They are rebuilding the old house.",
+          "vi": "Họ đang xây lại căn nhà cũ."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "到底",
       "pinyin": "dàodǐ",
-      "english": "after all; in the end",
-      "sentenceChinese": "台灣到底經過了很多不同的歷史時期。",
-      "sentencePinyin": "Táiwān dàodǐ jīngguò le hěn duō bùtóng de lìshǐ shíqí.",
-      "sentenceEnglish": "Taiwan has, after all, gone through many different historical periods.",
-      "vietnamese": "rốt cuộc; suy cho cùng",
-      "sentenceVietnamese": "Suy cho cùng Đài Loan đã trải qua rất nhiều thời kỳ lịch sử khác nhau."
+      "en": "after all; in the end",
+      "vi": "rốt cuộc; suy cho cùng",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "on earth (used in interrogative sentences to express one’s determination in finding a definite answer)",
+          "sentence": "你跟他到底有什麼關繫?",
+          "pinyin": "nǐ gēn tā dàodǐ yǒu shén me guānxi?",
+          "en": "What exactly is your relationship with him?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "on earth (used in interrogative sentences to express one’s determination in finding a definite answer)",
+          "sentence": "你到底是什麼意思？",
+          "pinyin": "nǐ dàodǐ shì shénme yìsi?",
+          "en": "What on earth do you mean?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "世紀",
       "pinyin": "shìjì",
-      "english": "century",
-      "sentenceChinese": "十七世紀的台灣已經很熱鬧了。",
-      "sentencePinyin": "Shíqī shìjì de Táiwān yǐjīng hěn rènào le.",
-      "sentenceEnglish": "Taiwan in the seventeenth century was already lively.",
-      "vietnamese": "thế kỷ",
-      "sentenceVietnamese": "Đài Loan vào thế kỷ mười bảy đã rất nhộn nhịp."
+      "en": "century",
+      "vi": "thế kỷ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "century",
+          "sentence": "這是21世紀。",
+          "pinyin": "zhè shì 21 shìjì.",
+          "en": "This is the 21st century.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "century",
+          "sentence": "20世紀有許多變化。",
+          "pinyin": "20 shìjì yǒu xǔduō biànhuà.",
+          "en": "The 20th century had many changes.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "貿易",
       "pinyin": "màoyì",
-      "english": "trade",
-      "sentenceChinese": "當時台灣和外國有很多貿易往來。",
-      "sentencePinyin": "Dāngshí Táiwān hé wàiguó yǒu hěn duō màoyì wǎnglái.",
-      "sentenceEnglish": "At that time Taiwan had a lot of trade with foreign countries.",
-      "vietnamese": "thương mại",
-      "sentenceVietnamese": "Lúc đó Đài Loan có rất nhiều giao thương với nước ngoài."
+      "en": "trade",
+      "vi": "thương mại",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trade; exchange; commerce",
+          "sentence": "他從事進齣口貿易。",
+          "pinyin": "tā cóngshì jìn chūkǒu màoyì.",
+          "en": "He is engaged in import and export trade.",
+          "vi": "Anh ấy làm thương mại xuất nhập khẩu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "trade; exchange; commerce",
+          "sentence": "貿易增長帶動經濟。",
+          "pinyin": "màoyì zēngzhǎng dàidòng jīngjì.",
+          "en": "Trade growth drives the economy.",
+          "vi": "Tăng trưởng thương mại thúc đẩy kinh tế."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "商業",
       "pinyin": "shāngyè",
-      "english": "commerce; business",
-      "sentenceChinese": "淡水以前是一個很重要的商業港口。",
-      "sentencePinyin": "Dànshuǐ yǐqián shì yí gè hěn zhòngyào de shāngyè gǎngkǒu.",
-      "sentenceEnglish": "Tamsui used to be an important commercial port.",
-      "vietnamese": "thương nghiệp",
-      "sentenceVietnamese": "Tamsui trước đây là một cảng thương mại rất quan trọng."
+      "en": "commerce; business",
+      "vi": "thương nghiệp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trade; business; commerce",
+          "sentence": "這是一傢成功的商業公司。",
+          "pinyin": "zhè shì yījiā chénggōng de shāngyè gōngsī.",
+          "en": "This is a successful business.",
+          "vi": "Đây là một công ty thương mại thành công."
+        },
+        {
+          "type": "Noun",
+          "meaning": "trade; business; commerce",
+          "sentence": "商業區的髮/發展很迅速。",
+          "pinyin": "shāngyè qū de fāzhǎn hěn xùnsù.",
+          "en": "The commercial area is developing rapidly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "利益",
       "pinyin": "lìyì",
-      "english": "benefit; interest",
-      "sentenceChinese": "很多國家都為了自己的利益來到台灣。",
-      "sentencePinyin": "Hěn duō guójiā dōu wèile zìjǐ de lìyì láidào Táiwān.",
-      "sentenceEnglish": "Many countries came to Taiwan for their own interests.",
-      "vietnamese": "lợi ích",
-      "sentenceVietnamese": "Nhiều quốc gia đến Đài Loan vì lợi ích của mình."
+      "en": "benefit; interest",
+      "vi": "lợi ích",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "gain; profit; interest; benefit",
+          "sentence": "我們應關註公眾/衆利益。",
+          "pinyin": "wǒmen yīng guānzhù gōngzhòng lìyì.",
+          "en": "We should focus on public interests.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "gain; profit; interest; benefit",
+          "sentence": "項目的利益在於節省成本。",
+          "pinyin": "xiàngmù de lìyì zàiyú jiéshěng chéngběn.",
+          "en": "The project's benefit is cost savings.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "派",
       "pinyin": "pài",
-      "english": "to send; to dispatch",
-      "sentenceChinese": "當時政府派很多軍隊到台灣。",
-      "sentencePinyin": "Dāngshí zhèngfǔ pài hěn duō jūnduì dào Táiwān.",
-      "sentenceEnglish": "At that time the government sent many troops to Taiwan.",
-      "vietnamese": "phái; cử",
-      "sentenceVietnamese": "Lúc đó chính phủ cử rất nhiều quân đội đến Đài Loan."
+      "en": "to send; to dispatch",
+      "vi": "phái; cử",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to send; dispatch",
+          "sentence": "公司派我去北京齣差。",
+          "pinyin": "gōngsī pài wǒ qù běijīng chūchāi.",
+          "en": "The company sent me to Beijing for a business trip.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to send; dispatch",
+          "sentence": "他們派人脩理空調了。",
+          "pinyin": "tāmen pài rén xiūlǐ kòngtiáole.",
+          "en": "They sent someone to fix the air conditioner.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "clique; faction",
+          "sentence": "我的老師是一個樂觀派。",
+          "pinyin": "wǒ de lǎoshī shì yīgè lèguān pài.",
+          "en": "My teacher is an optimist.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "clique; faction",
+          "sentence": "這位演員是一位實力派。",
+          "pinyin": "zhè wèi yǎnyuán shì yī wèi shílì pài.",
+          "en": "The actor is a powerhouse.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for groups, schools of thought or art, etc.",
+          "sentence": "他們在會上分成了兩派。",
+          "pinyin": "tāmen zài huì shàng fēnchéngle liǎng pài.",
+          "en": "They were divided into two factions at the meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for groups, schools of thought or art, etc.",
+          "sentence": "我們公司的人分成兩派。",
+          "pinyin": "wǒmen gōngsī de rén fēnchéng liǎng pài.",
+          "en": "The people in our company are divided into two groups.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "stylish; handsome",
+          "sentence": "他穿上這件風衣真派！",
+          "pinyin": "tā chuān shàng zhè jiàn fēngyī zhēn pài!",
+          "en": "He looks really stylish in this trench coat!",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "stylish; handsome",
+          "sentence": "他穿這身衣服特別派。",
+          "pinyin": "tā chuān zhè shēn yīfu tèbié pài.",
+          "en": "He looks especially fashionable in this outfit.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "軍隊",
       "pinyin": "jūnduì",
-      "english": "army; troops",
-      "sentenceChinese": "軍隊進城以後，情況變得很緊張。",
-      "sentencePinyin": "Jūnduì jìn chéng yǐhòu, qíngkuàng biàn de hěn jǐnzhāng.",
-      "sentenceEnglish": "After the troops entered the city, the situation became tense.",
-      "vietnamese": "quân đội",
-      "sentenceVietnamese": "Sau khi quân đội vào thành, tình hình trở nên rất căng thẳng."
+      "en": "army; troops",
+      "vi": "quân đội",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "armed forces; army; troops",
+          "sentence": "軍隊正在訓練。",
+          "pinyin": "jūnduì zhèngzài xùnliàn.",
+          "en": "The army is training.",
+          "vi": "Quân đội đang huấn luyện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "armed forces; army; troops",
+          "sentence": "他在軍隊服役。",
+          "pinyin": "tā zài jūnduì fúyì.",
+          "en": "He is serving in the army.",
+          "vi": "Anh ấy phục vụ trong quân đội."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "燒",
       "pinyin": "shāo",
-      "english": "to burn",
-      "sentenceChinese": "戰爭的時候很多房子都被燒了。",
-      "sentencePinyin": "Zhànzhēng de shíhou hěn duō fángzi dōu bèi shāo le.",
-      "sentenceEnglish": "During the war many houses were burned.",
-      "vietnamese": "đốt; cháy",
-      "sentenceVietnamese": "Trong chiến tranh có rất nhiều ngôi nhà bị đốt cháy."
+      "en": "to burn",
+      "vi": "đốt; cháy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "burn",
+          "sentence": "那片森林燃燒了很久。",
+          "pinyin": "nà piàn sēnlín ránshāole hěnjiǔ.",
+          "en": "That forest burned for a long time.",
+          "vi": "Rừng kia đã cháy rất lâu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "burn",
+          "sentence": "雷電燒譭了電線桿。",
+          "pinyin": "léidiàn shāohuǐle diànxiàn gān.",
+          "en": "Lightning burned down the utility pole.",
+          "vi": "Sấm sét thiêu hủy cột điện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fever",
+          "sentence": "他的燒退了，身體好多了。",
+          "pinyin": "tā de shāo tuìle, shēntǐ hǎoduōle.",
+          "en": "His fever went down, and he feels much better.",
+          "vi": "Cơn sốt của anh ấy đã giảm, cơ thể khỏe hơn nhiều."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fever",
+          "sentence": "吃/喫了藥後，她的燒退了。",
+          "pinyin": "chīle yào hòu, tā de shāo tuìle.",
+          "en": "After taking medicine, her fever subsided.",
+          "vi": "Sau khi uống thuốc, cơn sốt của cô ấy giảm rồi."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "城牆",
       "pinyin": "chéngqiáng",
-      "english": "city wall",
-      "sentenceChinese": "以前的城市外面常常有城牆。",
-      "sentencePinyin": "Yǐqián de chéngshì wàimiàn chángcháng yǒu chéngqiáng.",
-      "sentenceEnglish": "Cities in the past often had walls around them.",
-      "vietnamese": "tường thành",
-      "sentenceVietnamese": "Thành phố ngày xưa thường có tường thành bao quanh."
+      "en": "city wall",
+      "vi": "tường thành",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(city) wall",
+          "sentence": "他們正在脩復老舊的城墻。",
+          "pinyin": "tāmen zhèngzài xiūfù lǎo jiù de chéngqiáng.",
+          "en": "They are repairing the old city wall.",
+          "vi": "Họ đang sửa chữa tường thành cũ kỹ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "(city) wall",
+          "sentence": "城墻上種滿了綠色的植物。",
+          "pinyin": "chéngqiáng shàng zhòng mǎnle lǜsè de zhíwù.",
+          "en": "The city wall is covered with green plants.",
+          "vi": "Trên tường thành trồng đầy cây xanh."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "頭髮",
       "pinyin": "tóufa",
-      "english": "hair",
-      "sentenceChinese": "有些外國人的頭髮顏色和我們不一樣。",
-      "sentencePinyin": "Yǒuxiē wàiguórén de tóufa yánsè hé wǒmen bù yíyàng.",
-      "sentenceEnglish": "Some foreigners have different hair colors from us.",
-      "vietnamese": "tóc",
-      "sentenceVietnamese": "Màu tóc của một số người nước ngoài khác với chúng ta."
+      "en": "hair",
+      "vi": "tóc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hair",
+          "sentence": "頭髮/發需要定期脩剪。",
+          "pinyin": "tóu fa xūyào dìngqī xiūjiǎn.",
+          "en": "Hair needs to be trimmed regularly.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hair",
+          "sentence": "她常常做頭髮/發護理。",
+          "pinyin": "tā chángcháng zuò tóu fa hùlǐ.",
+          "en": "She often does hair care treatments.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "甚至",
       "pinyin": "shènzhì",
-      "english": "even; to the point that",
-      "sentenceChinese": "有些人甚至不會說自己的祖先從哪裡來。",
-      "sentencePinyin": "Yǒuxiē rén shènzhì bú huì shuō zìjǐ de zǔxiān cóng nǎlǐ lái.",
-      "sentenceEnglish": "Some people do not even know where their ancestors came from.",
-      "vietnamese": "thậm chí",
-      "sentenceVietnamese": "Có người thậm chí còn không biết tổ tiên mình đến từ đâu."
+      "en": "even; to the point that",
+      "vi": "thậm chí",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "and even; not even",
+          "sentence": "這一點對物理學甚至更適用。",
+          "pinyin": "zhè yī diǎn duì wù lǐ xué shèn zhì gèng shì yòng.",
+          "en": "This applies even more to physics.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and even; not even",
+          "sentence": "她甚至連 “再見”都沒説就走了。",
+          "pinyin": "tā shènzhì lián “zàijiàn” dōu méi shuō jiù zǒule.",
+          "en": "She left without so much as saying “good-bye”.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "打仗",
       "pinyin": "dǎzhàng",
-      "english": "to wage war",
-      "sentenceChinese": "以前很多地方常常打仗。",
-      "sentencePinyin": "Yǐqián hěn duō dìfang chángcháng dǎzhàng.",
-      "sentenceEnglish": "In the past many places were often at war.",
-      "vietnamese": "đánh trận; chiến tranh",
-      "sentenceVietnamese": "Ngày xưa nhiều nơi thường xuyên có chiến tranh."
+      "en": "to wage war",
+      "vi": "đánh trận; chiến tranh",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "fight; go to war; make war",
+          "sentence": "這個國傢正在打仗。",
+          "pinyin": "zhège guójiā zhèngzài dǎzhàng.",
+          "en": "The country is now at war.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "fight; go to war; make war",
+          "sentence": "我們必須停止打仗。",
+          "pinyin": "wǒmen bìxū tíngzhǐ dǎzhàng.",
+          "en": "We have to stop fighting.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "少數",
       "pinyin": "shǎoshù",
-      "english": "minority; a few",
-      "sentenceChinese": "只有少數的人知道這段歷史。",
-      "sentencePinyin": "Zhǐyǒu shǎoshù de rén zhīdào zhè duàn lìshǐ.",
-      "sentenceEnglish": "Only a minority of people know this part of history.",
-      "vietnamese": "thiểu số; một số ít",
-      "sentenceVietnamese": "Chỉ có một số ít người biết đoạn lịch sử này."
+      "en": "minority; a few",
+      "vi": "thiểu số; một số ít",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "small number; few; minority",
+          "sentence": "他是少數成功者之一。",
+          "pinyin": "tā shì shǎoshù chénggōng zhě zhī yī.",
+          "en": "He is one of the few successful people.",
+          "vi": "Anh ấy là một trong số ít người thành công."
+        },
+        {
+          "type": "Noun",
+          "meaning": "small number; few; minority",
+          "sentence": "持反對意見的不是少數。",
+          "pinyin": "chí fǎnduì yìjiàn de bùshì shǎoshù.",
+          "en": "Those who hold opposing opinions are not in the minority.",
+          "vi": "Những người phản đối không phải là số ít."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "開墾",
       "pinyin": "kāikěn",
-      "english": "to open up land for farming",
-      "sentenceChinese": "早期來台灣的人要自己開墾土地。",
-      "sentencePinyin": "Zǎoqí lái Táiwān de rén yào zìjǐ kāikěn tǔdì.",
-      "sentenceEnglish": "People who came to Taiwan early had to open up land themselves.",
-      "vietnamese": "khai khẩn",
-      "sentenceVietnamese": "Người đến Đài Loan thời kỳ đầu phải tự khai khẩn đất đai."
+      "en": "to open up land for farming",
+      "vi": "khai khẩn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reclaim land; cultivate wasteland",
+          "sentence": "他開墾了一塊荒地。",
+          "pinyin": "tā kāikěnle yīkuài huāngdì.",
+          "en": "He reclaimed a piece of wasteland.",
+          "vi": "Anh ấy đã khai hoang một mảnh đất hoang."
+        },
+        {
+          "type": "Verb",
+          "meaning": "reclaim land; cultivate wasteland",
+          "sentence": "農民開墾了新的耕地。",
+          "pinyin": "nóngmín kāikěnle xīn de gēngdì.",
+          "en": "The farmers cultivated new farmland.",
+          "vi": "Nông dân đã khai hoang đất canh tác mới."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "將軍",
       "pinyin": "jiāngjūn",
-      "english": "general",
-      "sentenceChinese": "那位將軍在歷史上很有名。",
-      "sentencePinyin": "Nà wèi jiāngjūn zài lìshǐ shàng hěn yǒumíng.",
-      "sentenceEnglish": "That general is very famous in history.",
-      "vietnamese": "tướng quân",
-      "sentenceVietnamese": "Vị tướng quân đó rất nổi tiếng trong lịch sử."
+      "en": "general",
+      "vi": "tướng quân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "general",
+          "sentence": "他是一位有名的將軍。",
+          "pinyin": "tā shì yī wèi yǒumíng de jiāngjūn.",
+          "en": "He is a famous general.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "general",
+          "sentence": "你説你不認識李將軍？",
+          "pinyin": "nǐ shuō nǐ bù rènshi Lǐ jiāngjūn?",
+          "en": "You don't know General Lee?",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "to checkmate; to get sb into big trouble",
+          "sentence": "誰知他突然將我一軍。",
+          "pinyin": "shéi zhī tā tū rán jiāng wǒ yī jūn.",
+          "en": "I never expected him to blindside me like that.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "to checkmate; to get sb into big trouble",
+          "sentence": "沒想到有人將了他一軍。",
+          "pinyin": "méi xiǎngdào yǒurén jiāngle tā yī jūn.",
+          "en": "I didn't expect someone to corner him with a clever move.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "軍人",
       "pinyin": "jūnrén",
-      "english": "soldier; military service member",
-      "sentenceChinese": "那時候很多軍人跟著政府來台灣。",
-      "sentencePinyin": "Nà shíhou hěn duō jūnrén gēnzhe zhèngfǔ lái Táiwān.",
-      "sentenceEnglish": "At that time many soldiers came to Taiwan with the government.",
-      "vietnamese": "quân nhân",
-      "sentenceVietnamese": "Lúc đó rất nhiều quân nhân theo chính phủ đến Đài Loan."
+      "en": "soldier; military service member",
+      "vi": "quân nhân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "soldier; serviceman; military personnel",
+          "sentence": "軍人訓練很嚴格。",
+          "pinyin": "jūnrén xùnliàn hěn yángé.",
+          "en": "Soldiers undergo very strict training.",
+          "vi": "Quân nhân huấn luyện rất nghiêm ngặt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "soldier; serviceman; military personnel",
+          "sentence": "軍人忠誠於祖國。",
+          "pinyin": "jūnrén zhōngchéng yú zǔguó.",
+          "en": "Soldiers are loyal to their country.",
+          "vi": "Quân nhân trung thành với tổ quốc."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "平原",
       "pinyin": "píngyuán",
-      "english": "plain; flatland",
-      "sentenceChinese": "平原地區比較適合種田。",
-      "sentencePinyin": "Píngyuán dìqū bǐjiào shìhé zhòngtián.",
-      "sentenceEnglish": "Plain areas are more suitable for farming.",
-      "vietnamese": "đồng bằng",
-      "sentenceVietnamese": "Khu vực đồng bằng phù hợp để trồng trọt hơn."
+      "en": "plain; flatland",
+      "vi": "đồng bằng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "field; flatland",
+          "sentence": "這個地區是一個大平原。",
+          "pinyin": "zhège dìqū shì yīgè dà píngyuán.",
+          "en": "This area is a vast plain.",
+          "vi": "Khu vực này là một đồng bằng lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "field; flatland",
+          "sentence": "我愛在平原上散步。",
+          "pinyin": "wǒ ài zài píngyuán shàng sànbù.",
+          "en": "I love walking on the plain.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "人口",
       "pinyin": "rénkǒu",
-      "english": "population",
-      "sentenceChinese": "台灣的人口越來越多。",
-      "sentencePinyin": "Táiwān de rénkǒu yuè lái yuè duō.",
-      "sentenceEnglish": "Taiwan's population is growing.",
-      "vietnamese": "dân số",
-      "sentenceVietnamese": "Dân số Đài Loan ngày càng đông."
+      "en": "population",
+      "vi": "dân số",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "population",
+          "sentence": "這個城市的人口很多。",
+          "pinyin": "zhège chéngshì de rénkǒu hěnduō.",
+          "en": "The population of this city is very large.",
+          "vi": "Dân số của thành phố này rất nhiều."
+        },
+        {
+          "type": "Noun",
+          "meaning": "population",
+          "sentence": "鄉村人口逐漸減少。",
+          "pinyin": "xiāngcūn rénkǒu zhújiàn jiǎnshǎo.",
+          "en": "The population in the countryside is gradually decreasing.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "血統",
       "pinyin": "xuètǒng",
-      "english": "bloodline",
-      "sentenceChinese": "很多人的血統其實很複雜。",
-      "sentencePinyin": "Hěn duō rén de xuètǒng qíshí hěn fùzá.",
-      "sentenceEnglish": "Many people's bloodlines are actually quite complex.",
-      "vietnamese": "huyết thống",
-      "sentenceVietnamese": "Huyết thống của nhiều người thật ra rất phức tạp."
+      "en": "bloodline",
+      "vi": "huyết thống",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lineage; bloodline; ancestry",
+          "sentence": "他有一半法國血統。",
+          "pinyin": "tā yǒu yībàn fàguó xuètǒng.",
+          "en": "He has half French ancestry.",
+          "vi": "Cậu ấy có một nửa dòng máu Pháp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "lineage; bloodline; ancestry",
+          "sentence": "孩子繼承了父親的血統。",
+          "pinyin": "háizǐ jìchéngle fùqīn de xuètǒng.",
+          "en": "The child inherited the father’s bloodline.",
+          "vi": "Đứa trẻ thừa hưởng huyết thống từ cha."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "嘍",
       "pinyin": "lou",
-      "english": "then; in that case (sentence-final particle)",
-      "sentenceChinese": "你都這麼說了，那就去看看嘍。",
-      "sentencePinyin": "Nǐ dōu zhème shuō le, nà jiù qù kànkan lou.",
-      "sentenceEnglish": "Since you've put it that way, then let's go have a look.",
-      "vietnamese": "vậy thì; thế nhé",
-      "sentenceVietnamese": "Bạn đã nói vậy rồi thì đi xem thử nhé."
+      "en": "then; in that case (sentence-final particle)",
+      "vi": "vậy thì; thế nhé",
+      "samples": [
+        {
+          "type": "particle",
+          "meaning": "Used for expected or hypothetical actions.",
+          "sentence": "他要知道嘍一定很難過。",
+          "pinyin": "tā yào zhīdào lóu yīdìng hěn nán guò.",
+          "en": "He must be very sad to hear it.",
+          "vi": ""
+        },
+        {
+          "type": "particle",
+          "meaning": "In a tone that reminds to pay attention.",
+          "sentence": "水開嘍。",
+          "pinyin": "shuǐ kāi lóu.",
+          "en": "Look, the water is boiling.",
+          "vi": ""
+        },
+        {
+          "type": "colloquial",
+          "meaning": "[after a verb to indicate the completion of an envisaged action]",
+          "sentence": "他要知道嘍一定很高興。",
+          "pinyin": "Tā yào zhīdao lou yīdìng hěn gāoxìng.",
+          "en": "He’ll be glad to hear it.",
+          "vi": ""
+        },
+        {
+          "type": "colloquial",
+          "meaning": "[at the end of a sentence to call attention]",
+          "sentence": "起床/牀嘍。",
+          "pinyin": "Qǐchuáng lou.",
+          "en": "Look, it’s time to get up.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "孫子",
       "pinyin": "sūnzi",
-      "english": "grandson",
-      "sentenceChinese": "他常常跟孫子說以前的故事。",
-      "sentencePinyin": "Tā chángcháng gēn sūnzi shuō yǐqián de gùshi.",
-      "sentenceEnglish": "He often tells his grandson stories from the past.",
-      "vietnamese": "cháu trai",
-      "sentenceVietnamese": "Ông ấy thường kể chuyện ngày xưa cho cháu trai nghe."
+      "en": "grandson",
+      "vi": "cháu trai",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "grandson",
+          "sentence": "我的孫子喜歡踢足球。",
+          "pinyin": "wǒ de sūnzi xǐhuan tī zúqiú.",
+          "en": "My grandson loves to play soccer.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "grandson",
+          "sentence": "孫子正在學習騎自行車。",
+          "pinyin": "sūnzi zhèngzài xuéxí qí zìxíngchē.",
+          "en": "The grandson is learning how to ride a bike.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "領土",
       "pinyin": "lǐngtǔ",
-      "english": "territory",
-      "sentenceChinese": "這塊領土以前有不同的人來統治。",
-      "sentencePinyin": "Zhè kuài lǐngtǔ yǐqián yǒu bùtóng de rén lái tǒngzhì.",
-      "sentenceEnglish": "Different peoples used to rule this territory.",
-      "vietnamese": "lãnh thổ",
-      "sentenceVietnamese": "Vùng lãnh thổ này trước đây từng bị nhiều nhóm người cai trị."
+      "en": "territory",
+      "vi": "lãnh thổ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "territory",
+          "sentence": "保衛國傢的領土完整。",
+          "pinyin": "bǎo wèi guó jiā de lǐng tǔ wán zhěng",
+          "en": "Safeguard a country's territorial integrity",
+          "vi": "Bảo vệ toàn vẹn lãnh thổ của đất nước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "territory",
+          "sentence": "蠶食別國領土。",
+          "pinyin": "cánshí bié guó lǐngtǔ",
+          "en": "Nibble away at another country’s territory",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "男性",
       "pinyin": "nánxìng",
-      "english": "male",
-      "sentenceChinese": "以前只有男性可以有一些權利。",
-      "sentencePinyin": "Yǐqián zhǐyǒu nánxìng kěyǐ yǒu yìxiē quánlì.",
-      "sentenceEnglish": "In the past only males had certain rights.",
-      "vietnamese": "nam giới",
-      "sentenceVietnamese": "Ngày xưa chỉ nam giới mới có một số quyền nhất định."
+      "en": "male",
+      "vi": "nam giới",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "male",
+          "sentence": "那些男性都穿著西裝。",
+          "pinyin": "nàxiē nánxìng dōu chuānzhe xīzhuāng.",
+          "en": "Those men are all wearing suits.",
+          "vi": "Những người đàn ông đó đều mặc đồ vest."
+        },
+        {
+          "type": "Noun",
+          "meaning": "male",
+          "sentence": "這是一位40歲左右的男性。",
+          "pinyin": "zhè shì yī wèi 40 suì zuǒyòu de nánxìng.",
+          "en": "This is a man in his 40s.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "禁止",
       "pinyin": "jìnzhǐ",
-      "english": "to forbid",
-      "sentenceChinese": "以前有些規定禁止不同族群通婚。",
-      "sentencePinyin": "Yǐqián yǒuxiē guīdìng jìnzhǐ bùtóng zúqún tōnghūn.",
-      "sentenceEnglish": "Some rules in the past forbade intermarriage between different groups.",
-      "vietnamese": "cấm",
-      "sentenceVietnamese": "Ngày xưa có những quy định cấm các nhóm khác nhau kết hôn với nhau."
+      "en": "to forbid",
+      "vi": "cấm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "ban; forbid; prohibit",
+          "sentence": "香煙廣告已遭禁止。",
+          "pinyin": "xiāngyān guǎnggào yǐ zāo jìnzhǐ.",
+          "en": "Cigarette advertising has been banned.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "ban; forbid; prohibit",
+          "sentence": "這個區域禁止停車。",
+          "pinyin": "zhège qūyù jìnzhǐ tíngchē.",
+          "en": "Parking is prohibited in this area.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "娶",
       "pinyin": "qǔ",
-      "english": "to marry (a woman)",
-      "sentenceChinese": "他娶了一位台灣太太。",
-      "sentencePinyin": "Tā qǔ le yí wèi Táiwān tàitai.",
-      "sentenceEnglish": "He married a Taiwanese woman.",
-      "vietnamese": "lấy vợ",
-      "sentenceVietnamese": "Anh ấy lấy một người vợ Đài Loan."
+      "en": "to marry (a woman)",
+      "vi": "lấy vợ",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "marry (a woman); take to wife",
+          "sentence": "小王打算年底娶她。",
+          "pinyin": "xiǎo wáng dǎsuàn niándǐ qǔ tā.",
+          "en": "Xiao Wang plans to marry her at the end of the year.",
+          "vi": "Ông Vương có kế hoạch cưới cô ấy vào cuối năm."
+        },
+        {
+          "type": "verb",
+          "meaning": "marry (a woman); take to wife",
+          "sentence": "朋友上月剛剛娶妻。",
+          "pinyin": "péngyǒu shàng yuè gānggāng qǔ qī.",
+          "en": "My friend just got married last month.",
+          "vi": "Bạn của tôi mới cưới vợ tháng trước."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "相信",
       "pinyin": "xiāngxìn",
-      "english": "to believe",
-      "sentenceChinese": "很多人相信這個傳說是真的。",
-      "sentencePinyin": "Hěn duō rén xiāngxìn zhège chuánshuō shì zhēn de.",
-      "sentenceEnglish": "Many people believe this legend is true.",
-      "vietnamese": "tin",
-      "sentenceVietnamese": "Nhiều người tin truyền thuyết này là thật."
+      "en": "to believe",
+      "vi": "tin",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "believe in; be convinced of; have faith in; take stock in",
+          "sentence": "我相信他的話。",
+          "pinyin": "wǒ xiāngxìn tā dehuà.",
+          "en": "I believe in his words.",
+          "vi": "Tôi tin lời của anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "believe in; be convinced of; have faith in; take stock in",
+          "sentence": "我們都相信你。",
+          "pinyin": "wǒmen dōu xiāngxìn nǐ.",
+          "en": "We all believe in you.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "精彩",
       "pinyin": "jīngcǎi",
-      "english": "wonderful; splendid",
-      "sentenceChinese": "導遊把那段歷史講得很精彩。",
-      "sentencePinyin": "Dǎoyóu bǎ nà duàn lìshǐ jiǎng de hěn jīngcǎi.",
-      "sentenceEnglish": "The tour guide told that part of history in a wonderful way.",
-      "vietnamese": "đặc sắc; hấp dẫn",
-      "sentenceVietnamese": "Hướng dẫn viên kể đoạn lịch sử đó rất hấp dẫn."
+      "en": "wonderful; splendid",
+      "vi": "đặc sắc; hấp dẫn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "brilliant; splendid; wonderful",
+          "sentence": "這場演齣很精綵。",
+          "pinyin": "zhè chǎng yǎnchū hěn jīngcǎi.",
+          "en": "This performance is brilliant.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "brilliant; splendid; wonderful",
+          "sentence": "他的演講非常精綵。",
+          "pinyin": "tā de yǎnjiǎng fēicháng jīngcǎi.",
+          "en": "His speech is very wonderful.",
+          "vi": "Bài phát biểu của anh ấy thật tuyệt vời."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "紅毛城",
       "pinyin": "Hóngmáo chéng",
-      "english": "Fort Santo Domingo",
-      "sentenceChinese": "到淡水旅遊的人常常會去參觀紅毛城。",
-      "sentencePinyin": "Dào Dànshuǐ lǚyóu de rén chángcháng huì qù cānguān Hóngmáo chéng.",
-      "sentenceEnglish": "People who travel to Tamsui often go visit Fort Santo Domingo.",
-      "vietnamese": "Hồng Mao Thành",
-      "sentenceVietnamese": "Người đi du lịch Tamsui thường ghé tham quan Hồng Mao Thành."
+      "en": "Fort Santo Domingo",
+      "vi": "Hồng Mao Thành",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(of an animal, plant, etc.) hair; feather; down",
+          "sentence": "桃毛容易引起過敏。",
+          "pinyin": "táo máo róngyì yǐnqǐ guòmǐn.",
+          "en": "Peach fuzz can easily cause allergies.",
+          "vi": "Lông đào dễ gây dị ứng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "(of an animal, plant, etc.) hair; feather; down",
+          "sentence": "牛毛刷子非常耐用。",
+          "pinyin": "niúmáo shuāzi fēicháng nàiyòng.",
+          "en": "Brushes made of cow hair are very durable.",
+          "vi": "Bàn chải lông bò rất bền."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "scared; afraid; nervous; panic",
+          "sentence": "她看起來很毛。",
+          "pinyin": "tā kàn qǐlái hěn máo.",
+          "en": "Cô ấy trông rất hoảng sợ.",
+          "vi": "Cô ấy trông rất hoảng sợ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "scared; afraid; nervous; panic",
+          "sentence": "他的臉色很毛。",
+          "pinyin": "tā de liǎnsè hěn máo.",
+          "en": "His face looked very scared.",
+          "vi": "Khuôn mặt anh ấy trông rất sợ hãi."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "mao, a fractional unit of money in China; ten cents; a ten-cent piece",
+          "sentence": "我口袋裡/裏有一毛錢。",
+          "pinyin": "wǒ kǒudài li yǒuyī máo qián.",
+          "en": "I have a dime in my pocket.",
+          "vi": "Trong túi tôi có một hào."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "mao, a fractional unit of money in China; ten cents; a ten-cent piece",
+          "sentence": "那個蘋果兩毛錢。",
+          "pinyin": "nàgè píngguǒ liǎng máo qián.",
+          "en": "That apple costs two cents.",
+          "vi": "Quả táo đó giá hai hào."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "preliminary",
+          "sentence": "他隻是毛算了個預算。",
+          "pinyin": "tā zhǐshì máo suànle gè yùsuàn.",
+          "en": "He only did a rough estimate.",
+          "vi": "Anh ấy chỉ tính toán sơ lược ngân sách."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "preliminary",
+          "sentence": "毛算結果併不精確。",
+          "pinyin": "máo suàn jiéguǒ bìng bù jīngquè.",
+          "en": "The preliminary calculation results are not accurate.",
+          "vi": "Kết quả tính toán sơ bộ không chính xác."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "東方",
       "pinyin": "dōngfāng",
-      "english": "the East; the Orient",
-      "sentenceChinese": "台灣在很多西方人眼中是東方的一部分。",
-      "sentencePinyin": "Táiwān zài hěn duō Xīfāng rén yǎnzhōng shì dōngfāng de yí bùfèn.",
-      "sentenceEnglish": "In the eyes of many Westerners, Taiwan is part of the East.",
-      "vietnamese": "phương Đông",
-      "sentenceVietnamese": "Trong mắt nhiều người phương Tây, Đài Loan là một phần của phương Đông."
+      "en": "the East; the Orient",
+      "vi": "phương Đông",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "east",
+          "sentence": "太陽從東方昇起。",
+          "pinyin": "tài yáng cóng dōng fāng shēng qǐ.",
+          "en": "The sun rises in the east.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "east",
+          "sentence": "我們要朝東方走。",
+          "pinyin": "Wǒmen yào cháo dōngfāng zǒu.",
+          "en": "We should head towards the east.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "淡水",
       "pinyin": "Dànshuǐ",
-      "english": "Tamsui",
-      "sentenceChinese": "淡水的老街很有味道。",
-      "sentencePinyin": "Dànshuǐ de lǎojiē hěn yǒu wèidào.",
-      "sentenceEnglish": "Tamsui's old street has a lot of charm.",
-      "vietnamese": "Đạm Thủy",
-      "sentenceVietnamese": "Phố cổ Đạm Thủy rất có nét riêng."
+      "en": "Tamsui",
+      "vi": "Đạm Thủy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "fresh water",
+          "sentence": "我們要保護淡水資源。",
+          "pinyin": "wǒmen yào bǎohù dànshuǐ zīyuán.",
+          "en": "We need to protect freshwater resources.",
+          "vi": "Chúng ta phải bảo vệ tài nguyên nước ngọt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fresh water",
+          "sentence": "淡水可以用來灌溉。",
+          "pinyin": "dànshuǐ kěyǐ yòng lái guàngài.",
+          "en": "Freshwater is used to irrigate crops.",
+          "vi": "Nước ngọt có thể dùng để tưới cây."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "漢人",
       "pinyin": "Hànrén",
-      "english": "Han Chinese",
-      "sentenceChinese": "現在台灣很多人都是漢人的後代。",
-      "sentencePinyin": "Xiànzài Táiwān hěn duō rén dōu shì Hànrén de hòudài.",
-      "sentenceEnglish": "Many people in Taiwan today are descendants of Han Chinese.",
-      "vietnamese": "người Hán",
-      "sentenceVietnamese": "Hiện nay ở Đài Loan có rất nhiều người là hậu duệ của người Hán."
+      "en": "Han Chinese",
+      "vi": "người Hán",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hans; han people",
+          "sentence": "他們是漢人還是少數民族？",
+          "pinyin": "tāmen shì hànrén háishì shǎoshù mínzú?",
+          "en": "Are they Han or an ethnic minority?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hans; han people",
+          "sentence": "漢人建築風格精美。",
+          "pinyin": "hànrén jiàn zhù fēnggé jīngměi.",
+          "en": "The architectural style of the Han people is exquisite.",
+          "vi": "Kiến trúc của người Hán tinh xảo."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "鄭成功",
       "pinyin": "Zhèng Chénggōng",
-      "english": "Koxinga",
-      "sentenceChinese": "鄭成功在台灣歷史上非常有名。",
-      "sentencePinyin": "Zhèng Chénggōng zài Táiwān lìshǐ shàng fēicháng yǒumíng.",
-      "sentenceEnglish": "Koxinga is very famous in Taiwan's history.",
-      "vietnamese": "Trịnh Thành Công",
-      "sentenceVietnamese": "Trịnh Thành Công rất nổi tiếng trong lịch sử Đài Loan."
+      "en": "Koxinga",
+      "vi": "Trịnh Thành Công",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Koxinga (1624-1662), military leader",
+          "sentence": "鄭成功收復臺灣。",
+          "pinyin": "Zhèng Chénggōng shōufù Táiwān.",
+          "en": "Zheng Chenggong recaptured Taiwan.",
+          "vi": "Trịnh Thành Công thu hồi Đài Loan."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "明朝",
       "pinyin": "Míngcháo",
-      "english": "the Ming Dynasty",
-      "sentenceChinese": "鄭成功支持明朝。",
-      "sentencePinyin": "Zhèng Chénggōng zhīchí Míngcháo.",
-      "sentenceEnglish": "Koxinga supported the Ming Dynasty.",
-      "vietnamese": "nhà Minh",
-      "sentenceVietnamese": "Trịnh Thành Công ủng hộ nhà Minh."
+      "en": "the Ming Dynasty",
+      "vi": "nhà Minh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tomorrow (regional usage)",
+          "sentence": "明朝的考試你準備好了嗎？",
+          "pinyin": "míng cháo de kǎoshì nǐ zhǔnbèi hǎole ma?",
+          "en": "Are you ready for tomorrow’s exam?",
+          "vi": "Kỳ thi ngày mai bạn đã chuẩn bị xong chưa?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "tomorrow (regional usage)",
+          "sentence": "明朝的天氣預報説會下雨。",
+          "pinyin": "míng cháo de tiānqì yùbào shuō huì xià yǔ.",
+          "en": "The weather forecast says it will rain tomorrow.",
+          "vi": "Dự báo thời tiết ngày mai nói là sẽ có mưa."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "中南美洲",
       "pinyin": "Zhōng Nán Měizhōu",
-      "english": "Central and South America",
-      "sentenceChinese": "有些商品是從中南美洲進口的。",
-      "sentencePinyin": "Yǒuxiē shāngpǐn shì cóng Zhōng Nán Měizhōu jìnkǒu de.",
-      "sentenceEnglish": "Some products are imported from Central and South America.",
-      "vietnamese": "Trung và Nam Mỹ",
-      "sentenceVietnamese": "Có một số mặt hàng được nhập khẩu từ Trung và Nam Mỹ."
+      "en": "Central and South America",
+      "vi": "Trung và Nam Mỹ",
+      "samples": [
+        {
+          "type": "nlocal, n",
+          "meaning": "american continent",
+          "sentence": "南, 北美洲。",
+          "pinyin": "Nán, běi Měizhōu",
+          "en": "North and South America",
+          "vi": ""
+        },
+        {
+          "type": "nlocal, n",
+          "meaning": "America (including North, Central and South America); AMERICAS",
+          "sentence": "腰果樹在南美洲原産。",
+          "pinyin": "yāoguǒ shù zài nánměizhōu yuán chǎn.",
+          "en": "Cashew trees are native to South America.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "清朝",
       "pinyin": "Qīngcháo",
-      "english": "the Qing Dynasty",
-      "sentenceChinese": "很多客家人的祖先是在清朝來台灣的。",
-      "sentencePinyin": "Hěn duō Kèjiārén de zǔxiān shì zài Qīngcháo lái Táiwān de.",
-      "sentenceEnglish": "Many Hakka people's ancestors came to Taiwan during the Qing Dynasty.",
-      "vietnamese": "nhà Thanh",
-      "sentenceVietnamese": "Tổ tiên của nhiều người Khách Gia đến Đài Loan vào thời nhà Thanh."
+      "en": "the Qing Dynasty",
+      "vi": "nhà Thanh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Qing dynasty (1644-1911)",
+          "sentence": "清朝的皇帝住在紫禁城。",
+          "pinyin": "qīngcháo de huángdì zhù zài zǐjìnchéng.",
+          "en": "The Qing emperors lived in the Forbidden City.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Qing dynasty (1644-1911)",
+          "sentence": "清朝最後一位皇帝是溥儀。",
+          "pinyin": "qīngcháo zuìhòu yī wèi huángdì shì pǔyí.",
+          "en": "The last emperor of the Qing Dynasty was Puyi.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "大清帝國",
       "pinyin": "Dà Qīng dìguó",
-      "english": "the Qing Empire",
-      "sentenceChinese": "那時候台灣屬於大清帝國。",
-      "sentencePinyin": "Nà shíhou Táiwān shǔyú Dà Qīng dìguó.",
-      "sentenceEnglish": "At that time Taiwan belonged to the Qing Empire.",
-      "vietnamese": "Đại Thanh đế quốc",
-      "sentenceVietnamese": "Lúc đó Đài Loan thuộc về Đại Thanh đế quốc."
+      "en": "the Qing Empire",
+      "vi": "Đại Thanh đế quốc",
+      "samples": []
     },
     {
       "id": 39,
       "chinese": "輪到",
       "pinyin": "lúndào",
-      "english": "to be one's turn",
-      "sentenceChinese": "輪到我介紹台灣的歷史了。",
-      "sentencePinyin": "Lúndào wǒ jièshào Táiwān de lìshǐ le.",
-      "sentenceEnglish": "Now it is my turn to introduce Taiwan's history.",
-      "vietnamese": "đến lượt",
-      "sentenceVietnamese": "Đến lượt tôi giới thiệu lịch sử Đài Loan rồi."
+      "en": "to be one's turn",
+      "vi": "đến lượt",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to be (sb's or sth's) turn",
+          "sentence": "今天輪到我值日。",
+          "pinyin": "jīntiān lún dào wǒ zhí rì.",
+          "en": "It's my turn to be on duty today.",
+          "vi": "Hôm nay tới phiên tôi trực nhật."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be (sb's or sth's) turn",
+          "sentence": "現在輪到你髮/發言了。",
+          "pinyin": "xiànzài lún dào nǐ fāyánle.",
+          "en": "It's your turn to speak.",
+          "vi": "Bây giờ đến lượt bạn phát biểu."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "十七世紀初",
       "pinyin": "shíqī shìjì chū",
-      "english": "the early 17th century",
-      "sentenceChinese": "十七世紀初，很多外國人開始來到台灣。",
-      "sentencePinyin": "Shíqī shìjì chū, hěn duō wàiguórén kāishǐ láidào Táiwān.",
-      "sentenceEnglish": "In the early seventeenth century, many foreigners started coming to Taiwan.",
-      "vietnamese": "đầu thế kỷ mười bảy",
-      "sentenceVietnamese": "Đầu thế kỷ mười bảy có nhiều người nước ngoài bắt đầu đến Đài Loan."
+      "en": "the early 17th century",
+      "vi": "đầu thế kỷ mười bảy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "century",
+          "sentence": "這是21世紀。",
+          "pinyin": "zhè shì 21 shìjì.",
+          "en": "This is the 21st century.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "century",
+          "sentence": "20世紀有許多變化。",
+          "pinyin": "20 shìjì yǒu xǔduō biànhuà.",
+          "en": "The 20th century had many changes.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "打敗",
       "pinyin": "dǎbài",
-      "english": "to defeat",
-      "sentenceChinese": "那支軍隊最後被打敗了。",
-      "sentencePinyin": "Nà zhī jūnduì zuìhòu bèi dǎbài le.",
-      "sentenceEnglish": "That army was defeated in the end.",
-      "vietnamese": "đánh bại",
-      "sentenceVietnamese": "Đội quân đó cuối cùng đã bị đánh bại."
+      "en": "to defeat",
+      "vi": "đánh bại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "defeat; beat; worst",
+          "sentence": "她努力打敗挑戰者了。",
+          "pinyin": "tā nǔlì dǎbài tiǎozhàn zhě le.",
+          "en": "She tried hard to defeat the challenger.",
+          "vi": "Cô ấy đã nỗ lực đánh bại người thách đấu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "defeat; beat; worst",
+          "sentence": "他想打敗所有的敵人。",
+          "pinyin": "tā xiǎng dǎbài suǒyǒu de dírén.",
+          "en": "He wants to defeat all his enemies.",
+          "vi": "Anh ấy muốn đánh bại tất cả kẻ địch."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "十七世紀末",
       "pinyin": "shíqī shìjì mò",
-      "english": "the late 17th century",
-      "sentenceChinese": "十七世紀末，台灣又進入另一個時期。",
-      "sentencePinyin": "Shíqī shìjì mò, Táiwān yòu jìnrù lìng yí gè shíqí.",
-      "sentenceEnglish": "In the late seventeenth century, Taiwan entered another period.",
-      "vietnamese": "cuối thế kỷ mười bảy",
-      "sentenceVietnamese": "Cuối thế kỷ mười bảy, Đài Loan lại bước vào một giai đoạn khác."
+      "en": "the late 17th century",
+      "vi": "cuối thế kỷ mười bảy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "century",
+          "sentence": "這是21世紀。",
+          "pinyin": "zhè shì 21 shìjì.",
+          "en": "This is the 21st century.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "century",
+          "sentence": "20世紀有許多變化。",
+          "pinyin": "20 shìjì yǒu xǔduō biànhuà.",
+          "en": "The 20th century had many changes.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "餐桌",
       "pinyin": "cānzhuō",
-      "english": "dining table",
-      "sentenceChinese": "餐桌上的食物也能看出歷史。",
-      "sentencePinyin": "Cānzhuō shàng de shíwù yě néng kàn chū lìshǐ.",
-      "sentenceEnglish": "The food on the dining table can also reveal history.",
-      "vietnamese": "bàn ăn",
-      "sentenceVietnamese": "Món ăn trên bàn cũng có thể cho thấy lịch sử."
+      "en": "dining table",
+      "vi": "bàn ăn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dining table",
+          "sentence": "餐桌上擺滿了美味佳餚。",
+          "pinyin": "cānzhuō shàng bǎi mǎnle měiwèi jiāyáo.",
+          "en": "On the dining table are many delicious dishes.",
+          "vi": "Trên bàn ăn bày đầy món ngon."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dining table",
+          "sentence": "餐桌上的花瓶很漂亮。",
+          "pinyin": "cānzhuō shàng de huāpíng hěn piàoliang.",
+          "en": "The vase on the dining table is very beautiful.",
+          "vi": "Bình hoa trên bàn ăn rất đẹp."
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "中式",
       "pinyin": "Zhōngshì",
-      "english": "Chinese-style",
-      "sentenceChinese": "這家店賣的是中式早餐。",
-      "sentencePinyin": "Zhè jiā diàn mài de shì Zhōngshì zǎocān.",
-      "sentenceEnglish": "This shop sells Chinese-style breakfast.",
-      "vietnamese": "kiểu Trung Quốc",
-      "sentenceVietnamese": "Cửa hàng này bán bữa sáng kiểu Trung Quốc."
+      "en": "Chinese-style",
+      "vi": "kiểu Trung Quốc",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "Chinese style",
+          "sentence": "這是一個中式餐館。",
+          "pinyin": "zhè shì yīgè zhōngshì cānguǎn.",
+          "en": "This is a Chinese-style restaurant.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Chinese style",
+          "sentence": "我喜歡中式的設計。",
+          "pinyin": "wǒ xǐhuan zhōngshì de shèjì.",
+          "en": "I like Chinese-style design.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "套",
       "pinyin": "tào",
-      "english": "set; combo",
-      "sentenceChinese": "我點了一套燒餅油條。",
-      "sentencePinyin": "Wǒ diǎn le yí tào shāobǐng yóutiáo.",
-      "sentenceEnglish": "I ordered a shaobing-and-youtiao combo.",
-      "vietnamese": "suất; bộ",
-      "sentenceVietnamese": "Tôi gọi một suất bánh nướng mè và quẩy."
+      "en": "set; combo",
+      "vi": "suất; bộ",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "set; suit; suite; series",
+          "sentence": "我買了一套設備。",
+          "pinyin": "wǒ mǎile yī tào shèbèi.",
+          "en": "I bought a set of equipment.",
+          "vi": "Tôi đã mua một bộ thiết bị."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "set; suit; suite; series",
+          "sentence": "我想買一套茶具。",
+          "pinyin": "wǒ xiǎng mǎi yī tào chájù.",
+          "en": "I want to buy a tea set.",
+          "vi": "Tôi muốn mua một bộ ấm trà."
+        },
+        {
+          "type": "Noun",
+          "meaning": "case; cover; sheath",
+          "sentence": "他買了個皮套子。",
+          "pinyin": "tā mǎile gè pí tàozi.",
+          "en": "He bought a leather case.",
+          "vi": "Anh ấy mua một chiếc bao da."
+        },
+        {
+          "type": "Noun",
+          "meaning": "case; cover; sheath",
+          "sentence": "手機套子很漂亮。",
+          "pinyin": "shǒujī tàozi hěn piàoliang.",
+          "en": "The phone case is very beautiful.",
+          "vi": "Bao điện thoại rất xinh đẹp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "overlap; interlink",
+          "sentence": "這兩個環套在一起。",
+          "pinyin": "zhè liǎng gè huán tào zài yīqǐ.",
+          "en": "These two rings overlap.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "overlap; interlink",
+          "sentence": "我們的計劃環環相套。",
+          "pinyin": "wǒmen de jìhuà huán huán xiāng tào.",
+          "en": "Our plan interlinks.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "燒餅",
       "pinyin": "shāobǐng",
-      "english": "clay-oven sesame flatbread",
-      "sentenceChinese": "燒餅配豆漿是很常見的早餐。",
-      "sentencePinyin": "Shāobǐng pèi dòujiāng shì hěn chángjiàn de zǎocān.",
-      "sentenceEnglish": "Shaobing with soy milk is a very common breakfast.",
-      "vietnamese": "bánh nướng mè",
-      "sentenceVietnamese": "Bánh nướng mè với sữa đậu nành là bữa sáng rất phổ biến."
+      "en": "clay-oven sesame flatbread",
+      "vi": "bánh nướng mè",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "baked cake",
+          "sentence": "芝麻燒餅",
+          "pinyin": "zhīmashāobing",
+          "en": "Baked sesame seed cake",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "baked sesame seed-coated cake",
+          "sentence": "我每天早晨常吃/喫燒餅。",
+          "pinyin": "Wǒ měitiān zǎochen cháng chī shāobǐng.",
+          "en": "I eat shāobing every morning.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "油條",
       "pinyin": "yóutiáo",
-      "english": "fried dough stick",
-      "sentenceChinese": "很多人喜歡把油條泡進豆漿裡吃。",
-      "sentencePinyin": "Hěn duō rén xǐhuān bǎ yóutiáo pào jìn dòujiāng lǐ chī.",
-      "sentenceEnglish": "Many people like to dip fried dough sticks into soy milk.",
-      "vietnamese": "quẩy",
-      "sentenceVietnamese": "Nhiều người thích nhúng quẩy vào sữa đậu nành để ăn."
+      "en": "fried dough stick",
+      "vi": "quẩy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "deep-fried twisted dough sticks",
+          "sentence": "我非常喜歡吃/喫油條。",
+          "pinyin": "wǒ fēicháng xǐhuan chī yóutiáo.",
+          "en": "I really like eating fried dough sticks.",
+          "vi": "Tôi rất thích ăn bánh quẩy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "deep-fried twisted dough sticks",
+          "sentence": "媽媽買了幾根油條。",
+          "pinyin": "māma mǎile jǐ gēn yóutiáo.",
+          "en": "Mom bought a few fried dough sticks.",
+          "vi": "Mẹ đã mua vài cái bánh quẩy."
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "飯糰",
       "pinyin": "fàntuán",
-      "english": "rice roll; rice ball",
-      "sentenceChinese": "早餐店的飯糰很大一個。",
-      "sentencePinyin": "Zǎocāndiàn de fàntuán hěn dà yí gè.",
-      "sentenceEnglish": "The rice rolls at the breakfast shop are very big.",
-      "vietnamese": "cơm nắm",
-      "sentenceVietnamese": "Cơm nắm ở tiệm ăn sáng rất to."
+      "en": "rice roll; rice ball",
+      "vi": "cơm nắm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "onigiri (Japanese-style rice ball)",
+          "sentence": "她喜歡自己做飯團吃/喫。",
+          "pinyin": "tā xǐhuan zìjǐ zuò fàntuán chī.",
+          "en": "She likes making rice balls herself.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "onigiri (Japanese-style rice ball)",
+          "sentence": "便利店裡/裏賣很多飯團。",
+          "pinyin": "biànlì diàn lǐ mài hěnduō fàntuán.",
+          "en": "Convenience stores sell many rice balls.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "豆漿",
       "pinyin": "dòujiāng",
-      "english": "soy milk",
-      "sentenceChinese": "我比較喜歡喝甜豆漿。",
-      "sentencePinyin": "Wǒ bǐjiào xǐhuān hē tián dòujiāng.",
-      "sentenceEnglish": "I prefer sweet soy milk.",
-      "vietnamese": "sữa đậu nành",
-      "sentenceVietnamese": "Tôi thích uống sữa đậu nành ngọt hơn."
+      "en": "soy milk",
+      "vi": "sữa đậu nành",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "soy milk; soybean milk",
+          "sentence": "我每天早上喝豆漿。",
+          "pinyin": "wǒ měitiān zǎoshang hē dòujiāng.",
+          "en": "I drink soy milk every morning.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "soy milk; soybean milk",
+          "sentence": "她喜歡喝熱豆漿。",
+          "pinyin": "tā xǐhuan hē rè dòujiāng.",
+          "en": "She likes to drink hot soy milk.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "內戰",
       "pinyin": "nèizhàn",
-      "english": "civil war",
-      "sentenceChinese": "那場內戰改變了很多人的命運。",
-      "sentencePinyin": "Nà chǎng nèizhàn gǎibiàn le hěn duō rén de mìngyùn.",
-      "sentenceEnglish": "That civil war changed the fate of many people.",
-      "vietnamese": "nội chiến",
-      "sentenceVietnamese": "Cuộc nội chiến đó đã thay đổi số phận của rất nhiều người."
+      "en": "civil war",
+      "vi": "nội chiến",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "civil war",
+          "sentence": "挑起內戰",
+          "pinyin": "tiāo qǐ nèi zhàn",
+          "en": "Stir up a civil war",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "civil war",
+          "sentence": "挑動內戰",
+          "pinyin": "tiǎodòng nèizhàn",
+          "en": "Provoke civil war",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "人民",
       "pinyin": "rénmín",
-      "english": "the people",
-      "sentenceChinese": "人民的生活也受歷史影響。",
-      "sentencePinyin": "Rénmín de shēnghuó yě shòu lìshǐ yǐngxiǎng.",
-      "sentenceEnglish": "The lives of the people are also affected by history.",
-      "vietnamese": "nhân dân",
-      "sentenceVietnamese": "Cuộc sống của người dân cũng chịu ảnh hưởng của lịch sử."
+      "en": "the people",
+      "vi": "nhân dân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the people",
+          "sentence": "強化人民的國傢機器。",
+          "pinyin": "qiánghuà rénmín de guójiā jīqì.",
+          "en": "Strengthen the people's state apparatus.",
+          "vi": "Tăng cường bộ máy nhà nước nhân dân."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the people",
+          "sentence": "人民是曆史的創造者。",
+          "pinyin": "rénmín shì lìshǐ de chuàngzào zhě.",
+          "en": "The people are the makers of history.",
+          "vi": "Nhân dân là người sáng tạo ra lịch sử."
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "攤子",
       "pinyin": "tānzi",
-      "english": "vendor's stall",
-      "sentenceChinese": "夜市裡有很多賣小吃的攤子。",
-      "sentencePinyin": "Yèshì lǐ yǒu hěn duō mài xiǎochī de tānzi.",
-      "sentenceEnglish": "There are many stalls selling snacks in the night market.",
-      "vietnamese": "sạp hàng",
-      "sentenceVietnamese": "Trong chợ đêm có rất nhiều sạp bán đồ ăn vặt."
+      "en": "vendor's stall",
+      "vi": "sạp hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "stall; booth; vendor's stand",
+          "sentence": "他在街上開了一個攤子。",
+          "pinyin": "tā zài jiē shàng kāile yīgè tānzi.",
+          "en": "He set up a stall on the street.",
+          "vi": "Anh ấy mở một quầy hàng trên phố."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stall; booth; vendor's stand",
+          "sentence": "這個攤子賣水果很便宜。",
+          "pinyin": "zhège tānzi mài shuǐguǒ hěn piányí.",
+          "en": "The fruits at this stall are very cheap.",
+          "vi": "Quầy hàng này bán trái cây rất rẻ."
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "菜單",
       "pinyin": "càidān",
-      "english": "menu",
-      "sentenceChinese": "菜單上有很多台灣小吃。",
-      "sentencePinyin": "Càidān shàng yǒu hěn duō Táiwān xiǎochī.",
-      "sentenceEnglish": "There are many Taiwanese snacks on the menu.",
-      "vietnamese": "thực đơn",
-      "sentenceVietnamese": "Trên thực đơn có rất nhiều món ăn vặt Đài Loan."
+      "en": "menu",
+      "vi": "thực đơn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "menu; bill of fare",
+          "sentence": "我在菜單上找不到素菜。",
+          "pinyin": "wǒ zài càidān shàng zhǎo bù dào sùcài.",
+          "en": "I can't find vegetarian dishes on the menu.",
+          "vi": "Tôi không tìm thấy món chay trên thực đơn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "menu; bill of fare",
+          "sentence": "服務員把菜單遞給我們。",
+          "pinyin": "fúwùyuán bǎ càidān dì gěi wǒmen.",
+          "en": "The waiter handed us the menu.",
+          "vi": "Nhân viên phục vụ đưa thực đơn cho chúng tôi."
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "蘿蔔",
       "pinyin": "luóbo",
-      "english": "daikon radish",
-      "sentenceChinese": "冬天常常可以看到蘿蔔。",
-      "sentencePinyin": "Dōngtiān chángcháng kěyǐ kàndào luóbo.",
-      "sentenceEnglish": "You can often see daikon radishes in winter.",
-      "vietnamese": "củ cải trắng",
-      "sentenceVietnamese": "Mùa đông thường hay thấy củ cải trắng."
+      "en": "daikon radish",
+      "vi": "củ cải trắng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "radish; turnip",
+          "sentence": "這個蘿蔔特別新鮮。",
+          "pinyin": "zhège luóbo tèbié xīnxiān.",
+          "en": "This radish is especially fresh.",
+          "vi": "Củ cải này rất tươi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "radish; turnip",
+          "sentence": "我喜歡吃/喫白蘿蔔湯。",
+          "pinyin": "wǒ xǐhuan chī bái luóbo tāng.",
+          "en": "I like to eat white radish soup.",
+          "vi": "Tôi thích ăn canh củ cải trắng."
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "接著",
       "pinyin": "jiēzhe",
-      "english": "then; next",
-      "sentenceChinese": "他先介紹早餐，接著講台灣歷史。",
-      "sentencePinyin": "Tā xiān jièshào zǎocān, jiēzhe jiǎng Táiwān lìshǐ.",
-      "sentenceEnglish": "He first introduced the breakfast, then talked about Taiwan's history.",
-      "vietnamese": "tiếp theo",
-      "sentenceVietnamese": "Anh ấy giới thiệu bữa sáng trước, tiếp theo mới nói về lịch sử Đài Loan."
+      "en": "then; next",
+      "vi": "tiếp theo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "follow; proceed; carry on; go on",
+          "sentence": "一個接著一個走齣會場。",
+          "pinyin": "yīgè jiēzhe yīgè zǒuchū huìchǎng.",
+          "en": "One after another, they left the venue.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow; proceed; carry on; go on",
+          "sentence": "你説完了，我接著説幾句。",
+          "pinyin": "nǐ shuō wánle, wǒ jiēzhe shuō jǐ jù.",
+          "en": "You've finished, let me add a few more words.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in turn; with one following another",
+          "sentence": "我講完了你接著講下去。",
+          "pinyin": "wǒ jiǎng wánle nǐ jiēzhe jiǎng xiàqù.",
+          "en": "I'm finished. You can continue.",
+          "vi": "Tôi nói xong rồi, anh nói tiếp đi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in turn; with one following another",
+          "sentence": "這本書，你看完了我接著看。",
+          "pinyin": "zhè běn shū, nǐ kàn wánle wǒ jiēzhe kàn.",
+          "en": "When you finish this book, I'll read it next.",
+          "vi": "Quyển sách này, anh xem xong tôi sẽ xem."
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "戰爭",
       "pinyin": "zhànzhēng",
-      "english": "war",
-      "sentenceChinese": "戰爭讓很多人離開家鄉。",
-      "sentencePinyin": "Zhànzhēng ràng hěn duō rén líkāi jiāxiāng.",
-      "sentenceEnglish": "War forced many people to leave their hometowns.",
-      "vietnamese": "chiến tranh",
-      "sentenceVietnamese": "Chiến tranh khiến nhiều người phải rời xa quê hương."
+      "en": "war",
+      "vi": "chiến tranh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "war; warfare",
+          "sentence": "世界人民反對侵略戰爭。",
+          "pinyin": "shìjiè rénmín fǎnduì qīnlüè zhànzhēng.",
+          "en": "There is global opposition to wars of aggression.",
+          "vi": "Nhân dân thế giới phản đối chiến tranh xâm lược."
+        },
+        {
+          "type": "Noun",
+          "meaning": "war; warfare",
+          "sentence": "這場戰爭持續了五年。",
+          "pinyin": "zhè chǎng zhànzhēng chíxùle wǔ nián.",
+          "en": "The war lasted for five years.",
+          "vi": "Cuộc chiến tranh này kéo dài năm năm."
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "不斷",
       "pinyin": "búduàn",
-      "english": "continually; without stopping",
-      "sentenceChinese": "因為戰爭不斷，很多人只好搬家。",
-      "sentencePinyin": "Yīnwèi zhànzhēng búduàn, hěn duō rén zhǐhǎo bānjiā.",
-      "sentenceEnglish": "Because war kept happening, many people had no choice but to move.",
-      "vietnamese": "không ngừng",
-      "sentenceVietnamese": "Vì chiến tranh không ngừng nên nhiều người đành phải chuyển nhà."
+      "en": "continually; without stopping",
+      "vi": "không ngừng",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "unceasingly; uninterruptedly; continuously; constantly",
+          "sentence": "天氣不斷變化。",
+          "pinyin": "tiānqì bùduàn biànhuà.",
+          "en": "The weather keeps changing.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "unceasingly; uninterruptedly; continuously; constantly",
+          "sentence": "她不斷努力工作。",
+          "pinyin": "tā bùduàn nǔlì gōngzuò.",
+          "en": "She works tirelessly.",
+          "vi": "Cô ấy làm việc không ngừng nghỉ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "continue",
+          "sentence": "客人接連不斷地到來。",
+          "pinyin": "kèrén jiēlián bùduàn de dàolái.",
+          "en": "Guests keep arriving continuously.",
+          "vi": "Khách đến liên tục không ngớt."
+        },
+        {
+          "type": "Verb",
+          "meaning": "continue",
+          "sentence": "噪音接連不斷地傳來。",
+          "pinyin": "zàoyīn jiēlián bùduàn de chuán lái.",
+          "en": "The noise keeps coming continuously.",
+          "vi": "Tiếng ồn truyền đến liên tục."
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "遷移",
       "pinyin": "qiānyí",
-      "english": "to migrate",
-      "sentenceChinese": "客家人因為戰爭往南方遷移。",
-      "sentencePinyin": "Kèjiārén yīnwèi zhànzhēng wǎng nánfāng qiānyí.",
-      "sentenceEnglish": "The Hakka migrated south because of war.",
-      "vietnamese": "di cư",
-      "sentenceVietnamese": "Người Khách Gia vì chiến tranh mà di cư xuống phía nam."
+      "en": "to migrate",
+      "vi": "di cư",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "move; migrate",
+          "sentence": "我們計劃遷移到新城市。",
+          "pinyin": "wǒmen jìhuà qiānyí dào xīn chéngshì.",
+          "en": "We plan to relocate to a new city.",
+          "vi": "Chúng tôi dự định chuyển đến thành phố mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move; migrate",
+          "sentence": "他打算遷移到國外工作。",
+          "pinyin": "tā dǎsuàn qiānyí dào guówài gōngzuò.",
+          "en": "He intends to relocate abroad for work.",
+          "vi": "Anh ấy dự định chuyển ra nước ngoài làm việc."
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "多半",
       "pinyin": "duōbàn",
-      "english": "mostly; in most cases",
-      "sentenceChinese": "現在台灣的客家人多半是那時候移民來的後代。",
-      "sentencePinyin": "Xiànzài Táiwān de Kèjiārén duōbàn shì nà shíhou yímín lái de hòudài.",
-      "sentenceEnglish": "Most Hakka people in Taiwan today are descendants of those immigrants.",
-      "vietnamese": "đa phần",
-      "sentenceVietnamese": "Người Khách Gia ở Đài Loan hiện nay đa phần là hậu duệ của những người nhập cư lúc đó."
+      "en": "mostly; in most cases",
+      "vi": "đa phần",
+      "samples": [
+        {
+          "type": "numb",
+          "meaning": "most; majority; the greater part",
+          "sentence": "多半的人衕意這個計劃。",
+          "pinyin": "duōbàn de rén tóngyì zhège jìhuà.",
+          "en": "Most people agree with this plan.",
+          "vi": "Hơn một nửa số người đồng ý với kế hoạch này."
+        },
+        {
+          "type": "numb",
+          "meaning": "most; majority; the greater part",
+          "sentence": "多半水果都賣完了。",
+          "pinyin": "duōbàn shuǐguǒ dōu mài wánle.",
+          "en": "Most of the fruit has been sold out.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "usually; more often than not",
+          "sentence": "他多半會遲到。",
+          "pinyin": "tā duōbàn huì chídào.",
+          "en": "He will most likely be late.",
+          "vi": "Anh ấy có lẽ sẽ đến muộn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "usually; more often than not",
+          "sentence": "今天多半會下雨。",
+          "pinyin": "jīntiān duōbàn huì xià yǔ.",
+          "en": "It will most likely rain today.",
+          "vi": "Hôm nay có lẽ sẽ mưa."
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "困難",
       "pinyin": "kùnnán",
-      "english": "difficult",
-      "sentenceChinese": "以前住在山邊，生活比較困難。",
-      "sentencePinyin": "Yǐqián zhù zài shānbiān, shēnghuó bǐjiào kùnnán.",
-      "sentenceEnglish": "In the past, living near the mountains was more difficult.",
-      "vietnamese": "khó khăn",
-      "sentenceVietnamese": "Ngày xưa sống ở ven núi thì cuộc sống khó khăn hơn."
+      "en": "difficult",
+      "vi": "khó khăn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "financial difficulties; straitened circumstances",
+          "sentence": "他生活很睏難。",
+          "pinyin": "tā shēnghuó hěn kùnnan.",
+          "en": "His life is very difficult.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "financial difficulties; straitened circumstances",
+          "sentence": "我沒有那麼睏難。",
+          "pinyin": "wǒ méiyǒu nàme kùnnan.",
+          "en": "My life is not that harsh.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "difficulty",
+          "sentence": "有睏難找警察。",
+          "pinyin": "yǒu kùnnan zhǎo jǐngchá.",
+          "en": "When in trouble, turn to the police.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "difficulty",
+          "sentence": "我們要剋服睏難。",
+          "pinyin": "wǒmen yào kèfú kùnnan.",
+          "en": "We should overcome difficulties.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "節儉",
       "pinyin": "jiéjiǎn",
-      "english": "frugal",
-      "sentenceChinese": "客家人向來給人節儉的印象。",
-      "sentencePinyin": "Kèjiārén xiànglái gěi rén jiéjiǎn de yìnxiàng.",
-      "sentenceEnglish": "Hakka people have long given people the impression of being frugal.",
-      "vietnamese": "tiết kiệm",
-      "sentenceVietnamese": "Người Khách Gia từ lâu đã để lại ấn tượng là rất tiết kiệm."
+      "en": "frugal",
+      "vi": "tiết kiệm",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "thrifty; frugal; economical",
+          "sentence": "他們的傢庭很節儉。",
+          "pinyin": "tāmen de jiātíng hěn jiéjiǎn.",
+          "en": "Their family is very frugal.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thrifty; frugal; economical",
+          "sentence": "她一直很節儉。",
+          "pinyin": "tā yīzhí hěn jiéjiǎn.",
+          "en": "She has always been thrifty.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "主婦",
       "pinyin": "zhǔfù",
-      "english": "housewife",
-      "sentenceChinese": "那位主婦很會做客家菜。",
-      "sentencePinyin": "Nà wèi zhǔfù hěn huì zuò Kèjiācài.",
-      "sentenceEnglish": "That housewife is very good at cooking Hakka dishes.",
-      "vietnamese": "nội trợ; bà nội trợ",
-      "sentenceVietnamese": "Người nội trợ đó rất giỏi nấu món Khách Gia."
+      "en": "housewife",
+      "vi": "nội trợ; bà nội trợ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hostess; housewife; lady of the house",
+          "sentence": "主婦安排了一切傢務。",
+          "pinyin": "zhǔfù ānpáile yīqiè jiāwù.",
+          "en": "The housewife arranged all the household chores.",
+          "vi": "Bà chủ đã sắp xếp tất cả công việc nhà."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hostess; housewife; lady of the house",
+          "sentence": "作為主婦，她很忙碌。",
+          "pinyin": "zuòwéi zhǔfù, tā hěn mánglù.",
+          "en": "As a housewife, she is very busy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "煎",
       "pinyin": "jiān",
-      "english": "to pan-fry",
-      "sentenceChinese": "她把蘿蔔乾和蛋一起煎。",
-      "sentencePinyin": "Tā bǎ luóbogān hé dàn yìqǐ jiān.",
-      "sentenceEnglish": "She pan-fried dried radish together with eggs.",
-      "vietnamese": "rán; áp chảo",
-      "sentenceVietnamese": "Cô ấy rán củ cải khô với trứng cùng nhau."
+      "en": "to pan-fry",
+      "vi": "rán; áp chảo",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "fry (in shallow oil without stirring)",
+          "sentence": "他在煎雞蛋。",
+          "pinyin": "tā zài jiān jīdàn.",
+          "en": "He was frying eggs.",
+          "vi": "Cậu ấy đang chiên trứng gà."
+        },
+        {
+          "type": "verb",
+          "meaning": "fry (in shallow oil without stirring)",
+          "sentence": "小楊喜歡煎豆腐。",
+          "pinyin": "xiǎo yáng xǐhuān jiān dòufu.",
+          "en": "Xiao Yang likes to pan-fried tofu.",
+          "vi": "Tiểu Dương thích rán đậu."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "Number of times to decoct Chinese medicine",
+          "sentence": "這病吃/喫一煎藥就好。",
+          "pinyin": "zhè bìng chī yī jiān yào jiù hǎo.",
+          "en": "This illness can be cured with just one decoction of medicine.",
+          "vi": "Bệnh này uống thuốc sắc nước một thì sẽ khoẻ ngay."
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "菜色",
       "pinyin": "càisè",
-      "english": "variety of dishes",
-      "sentenceChinese": "這家餐廳的菜色很豐富。",
-      "sentencePinyin": "Zhè jiā cāntīng de càisè hěn fēngfù.",
-      "sentenceEnglish": "This restaurant has a rich variety of dishes.",
-      "vietnamese": "món ăn",
-      "sentenceVietnamese": "Các món ăn của nhà hàng này rất phong phú."
+      "en": "variety of dishes",
+      "vi": "món ăn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sickly pallor; famished (or emaciated) look",
+          "sentence": "麵有菜色",
+          "pinyin": "miànyǒucàisè",
+          "en": "Look famished",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dish",
+          "sentence": "這道菜色香味俱全，非常好吃/喫。",
+          "pinyin": "Zhè dào cài sè xiāngwèi jùquán, fēicháng hǎochī.",
+          "en": "This dish is perfect in color, aroma, and taste, very delicious.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "以及",
       "pinyin": "yǐjí",
-      "english": "as well as",
-      "sentenceChinese": "早餐店賣豆漿、燒餅以及飯糰。",
-      "sentencePinyin": "Zǎocāndiàn mài dòujiāng, shāobǐng yǐjí fàntuán.",
-      "sentenceEnglish": "The breakfast shop sells soy milk, shaobing, as well as rice rolls.",
-      "vietnamese": "cũng như",
-      "sentenceVietnamese": "Tiệm ăn sáng bán sữa đậu nành, bánh nướng mè cũng như cơm nắm."
+      "en": "as well as",
+      "vi": "cũng như",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "too; as well as",
+          "sentence": "我喜歡閱讀書籍以及雜誌。",
+          "pinyin": "wǒ xǐhuan yuèdú shūjí yǐjí zázhì.",
+          "en": "I enjoy reading books and magazines.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "too; as well as",
+          "sentence": "他擅長音樂以及繪畫。",
+          "pinyin": "tā shàncháng yīnyuè yǐjí huìhuà.",
+          "en": "He is good at music and painting.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "美味",
       "pinyin": "měiwèi",
-      "english": "delicious",
-      "sentenceChinese": "這家店的早餐很美味。",
-      "sentencePinyin": "Zhè jiā diàn de zǎocān hěn měiwèi.",
-      "sentenceEnglish": "The breakfast at this shop is delicious.",
-      "vietnamese": "ngon",
-      "sentenceVietnamese": "Bữa sáng của tiệm này rất ngon."
+      "en": "delicious",
+      "vi": "ngon",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "delicious food; delicacy",
+          "sentence": "我想品嘗美味佳餚。",
+          "pinyin": "wǒ xiǎng pǐncháng měiwèi jiāyáo.",
+          "en": "I want to taste delicious dishes.",
+          "vi": "Tôi muốn thưởng thức các món ăn ngon."
+        },
+        {
+          "type": "Noun",
+          "meaning": "delicious food; delicacy",
+          "sentence": "他製作美味點心。",
+          "pinyin": "tā zhìzuò měiwèi diǎnxīn.",
+          "en": "He makes delicious snacks.",
+          "vi": "Anh ấy làm các món điểm tâm ngon."
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "點心",
       "pinyin": "diǎnxīn",
-      "english": "dessert; snack",
-      "sentenceChinese": "台灣有很多傳統點心。",
-      "sentencePinyin": "Táiwān yǒu hěn duō chuántǒng diǎnxīn.",
-      "sentenceEnglish": "Taiwan has many traditional snacks.",
-      "vietnamese": "điểm tâm; món ăn vặt",
-      "sentenceVietnamese": "Đài Loan có rất nhiều món điểm tâm truyền thống."
+      "en": "dessert; snack",
+      "vi": "điểm tâm; món ăn vặt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pastry; dessert; light refreshments",
+          "sentence": "她喜歡吃/喫中式點心。",
+          "pinyin": "tā xǐhuan chī zhōngshì diǎnxīn.",
+          "en": "She likes to eat Chinese dim sum.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pastry; dessert; light refreshments",
+          "sentence": "點心通常配茶一起享用。",
+          "pinyin": "diǎnxīn tōngcháng pèi chá yīqǐ xiǎngyòng.",
+          "en": "Dim sum is usually enjoyed with tea.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "日式",
       "pinyin": "Rìshì",
-      "english": "Japanese-style",
-      "sentenceChinese": "便利商店賣的常常是日式飯糰。",
-      "sentencePinyin": "Biànlì shāngdiàn mài de chángcháng shì Rìshì fàntuán.",
-      "sentenceEnglish": "Convenience stores often sell Japanese-style rice rolls.",
-      "vietnamese": "kiểu Nhật",
-      "sentenceVietnamese": "Cơm nắm bán ở cửa hàng tiện lợi thường là kiểu Nhật."
+      "en": "Japanese-style",
+      "vi": "kiểu Nhật",
+      "samples": [
+        {
+          "type": "adj, n",
+          "meaning": "japanese style",
+          "sentence": "我喜歡日式料理。",
+          "pinyin": "Wǒ xǐhuān rì shì liàolǐ.",
+          "en": "I like Japanese cuisine.",
+          "vi": "Tôi thích món ăn phong cách Nhật Bản."
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "飲食",
       "pinyin": "yǐnshí",
-      "english": "diet; food",
-      "sentenceChinese": "台灣的飲食文化很有特色。",
-      "sentencePinyin": "Táiwān de yǐnshí wénhuà hěn yǒu tèsè.",
-      "sentenceEnglish": "Taiwan's food culture has a lot of unique characteristics.",
-      "vietnamese": "ẩm thực",
-      "sentenceVietnamese": "Văn hóa ẩm thực của Đài Loan rất có nét riêng."
+      "en": "diet; food",
+      "vi": "ẩm thực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "diet; food and drink",
+          "sentence": "越南的飲食文化很豐富。",
+          "pinyin": "yuènán de yǐnshí wénhuà hěn fēngfù.",
+          "en": "Vietnamese food culture is very rich.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "diet; food and drink",
+          "sentence": "我們要註意飲食衛生。",
+          "pinyin": "wǒmen yào zhùyì yǐnshí wèishēng.",
+          "en": "We need to pay attention to food hygiene.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "eat; drink",
+          "sentence": "肥胖是飲食過多造成的。",
+          "pinyin": "féipàng shì yǐnshíguò duō zàochéng de.",
+          "en": "Obesity is caused by overeating.",
+          "vi": "Béo phì là do ăn uống quá nhiều gây ra."
+        },
+        {
+          "type": "Verb",
+          "meaning": "eat; drink",
+          "sentence": "飲食不當會引髮/發拉肚子。",
+          "pinyin": "yǐnshí bùdāng huì yǐnfā lādùzi.",
+          "en": "Improper diet can lead to diarrhea.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "深",
       "pinyin": "shēn",
-      "english": "deep",
-      "sentenceChinese": "日本文化對台灣的影響很深。",
-      "sentencePinyin": "Rìběn wénhuà duì Táiwān de yǐngxiǎng hěn shēn.",
-      "sentenceEnglish": "Japanese culture has had a deep influence on Taiwan.",
-      "vietnamese": "sâu",
-      "sentenceVietnamese": "Văn hóa Nhật Bản có ảnh hưởng rất sâu đến Đài Loan."
+      "en": "deep",
+      "vi": "sâu",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "deep",
+          "sentence": "他挖了一個很深的洞。",
+          "pinyin": "tā wāle yīgè hěn shēn de dòng.",
+          "en": "He dug a very deep hole.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "deep",
+          "sentence": "她的眼睛深邃又美麗。",
+          "pinyin": "tā de yǎnjīng shēnsuì yòu měilì.",
+          "en": "Her eyes are deep and beautiful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "depth",
+          "sentence": "景深影響照片的清晰度。",
+          "pinyin": "jǐngshēn yǐngxiǎng zhàopiàn de qīngxī dù.",
+          "en": "Depth of field affects photo clarity.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "depth",
+          "sentence": "這個洞穴的深難以測量。",
+          "pinyin": "zhège dòngxué de shēn nányǐ cèliáng.",
+          "en": "The depth of this cave is hard to measure.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; deeply; greatly",
+          "sentence": "他深愛著自己的傢人。",
+          "pinyin": "tā shēn àizhe zìjǐ de jiārén.",
+          "en": "He deeply loves his family.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; deeply; greatly",
+          "sentence": "她對藝術深感興趣。",
+          "pinyin": "tā duì yìshù shēn gǎn xìngqù.",
+          "en": "She is very interested in art.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 71,
       "chinese": "蔣介石",
       "pinyin": "Jiǎng Jièshí",
-      "english": "Chiang Kai-shek",
-      "sentenceChinese": "蔣介石在1949年來到台灣。",
-      "sentencePinyin": "Jiǎng Jièshí zài yījiǔsìjiǔ nián láidào Táiwān.",
-      "sentenceEnglish": "Chiang Kai-shek came to Taiwan in 1949.",
-      "vietnamese": "Tưởng Giới Thạch",
-      "sentenceVietnamese": "Tưởng Giới Thạch đến Đài Loan vào năm 1949."
+      "en": "Chiang Kai-shek",
+      "vi": "Tưởng Giới Thạch",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Chiang Kai-shek (1887-1975), military leader, head of the Nationalist government in China 1928-1949 and the government in exile on Taiwan 1950-1975",
+          "sentence": "蔣介石和毛澤東曾是對手。",
+          "pinyin": "jiǎngjièshí hé máozédōng céng shì duìshǒu.",
+          "en": "Chiang Kai-shek and Mao Zedong were once rivals.",
+          "vi": "Tưởng Giới Thạch và Mao Trạch Đông từng là đối thủ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Chiang Kai-shek (1887-1975), military leader, head of the Nationalist government in China 1928-1949 and the government in exile on Taiwan 1950-1975",
+          "sentence": "蔣介石曾是國民黨的領導人。",
+          "pinyin": "jiǎngjièshí céng shì guómíndǎng de lǐngdǎo rén.",
+          "en": "Chiang Kai-shek was once the leader of the Kuomintang.",
+          "vi": "Tưởng Giới Thạch từng là lãnh đạo của Quốc Dân Đảng."
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "國共內戰",
       "pinyin": "Guó Gòng nèizhàn",
-      "english": "the Chinese Civil War",
-      "sentenceChinese": "國共內戰改變了很多人的人生。",
-      "sentencePinyin": "Guó Gòng nèizhàn gǎibiàn le hěn duō rén de rénshēng.",
-      "sentenceEnglish": "The Chinese Civil War changed the lives of many people.",
-      "vietnamese": "nội chiến Quốc-Cộng",
-      "sentenceVietnamese": "Nội chiến Quốc-Cộng đã thay đổi cuộc đời của rất nhiều người."
+      "en": "the Chinese Civil War",
+      "vi": "nội chiến Quốc-Cộng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Chinese Civil War, also known as War of Liberation 解放战争",
+          "sentence": "國共內戰持續多年。",
+          "pinyin": "Guógòng nèizhàn chíxù duōnián.",
+          "en": "The Chinese Civil War lasted for many years.",
+          "vi": "Nội chiến Trung Quốc kéo dài nhiều năm."
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "客家人",
       "pinyin": "Kèjiārén",
-      "english": "the Hakka people",
-      "sentenceChinese": "台灣有很多客家人。",
-      "sentencePinyin": "Táiwān yǒu hěn duō Kèjiārén.",
-      "sentenceEnglish": "There are many Hakka people in Taiwan.",
-      "vietnamese": "người Khách Gia",
-      "sentenceVietnamese": "Đài Loan có rất nhiều người Khách Gia."
+      "en": "the Hakka people",
+      "vi": "người Khách Gia",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hakka people",
+          "sentence": "很多客傢人住在南方。",
+          "pinyin": "Hěn duō Kèjiā rén zhù zài nánfāng.",
+          "en": "Many Hakka people live in the south.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "閩南人",
       "pinyin": "Mǐnnánrén",
-      "english": "the Southern Min people",
-      "sentenceChinese": "閩南人對台灣文化也有很大的影響。",
-      "sentencePinyin": "Mǐnnánrén duì Táiwān wénhuà yě yǒu hěn dà de yǐngxiǎng.",
-      "sentenceEnglish": "The Southern Min people have also greatly influenced Taiwanese culture.",
-      "vietnamese": "người Mân Nam",
-      "sentenceVietnamese": "Người Mân Nam cũng có ảnh hưởng rất lớn đến văn hóa Đài Loan."
+      "en": "the Southern Min people",
+      "vi": "người Mân Nam",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "south",
+          "sentence": "小鳥往南邊兒飛去了。",
+          "pinyin": "xiǎo niǎo wǎng nánbianr fēi qùle.",
+          "en": "The little bird flew south.",
+          "vi": "Con chim nhỏ bay về phía nam rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "south",
+          "sentence": "他住在村子的南頭兒。",
+          "pinyin": "tā zhù zài cūnzi de nán tóur.",
+          "en": "He lives at the south end of the village.",
+          "vi": "Anh ấy sống ở đầu phía nam của làng."
+        }
+      ]
     },
     {
       "id": 75,
       "chinese": "蛋餅",
       "pinyin": "dànbǐng",
-      "english": "egg wrap",
-      "sentenceChinese": "蛋餅是很多人愛吃的早餐。",
-      "sentencePinyin": "Dànbǐng shì hěn duō rén ài chī de zǎocān.",
-      "sentenceEnglish": "Danbing is a breakfast that many people love.",
-      "vietnamese": "bánh trứng cuộn",
-      "sentenceVietnamese": "Bánh trứng cuộn là món sáng rất nhiều người thích ăn."
+      "en": "egg wrap",
+      "vi": "bánh trứng cuộn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mooncake",
+          "sentence": "這是傳統的月餅。",
+          "pinyin": "zhè shì chuántǒng de yuèbǐng.",
+          "en": "This is a traditional mooncake.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "mooncake",
+          "sentence": "他送我一個月餅。",
+          "pinyin": "tā sòng wǒ yīgè yuèbǐng.",
+          "en": "He gave me a mooncake.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 76,
       "chinese": "打輸",
       "pinyin": "dǎshū",
-      "english": "to be defeated",
-      "sentenceChinese": "那場戰爭打輸以後，他們只好離開家鄉。",
-      "sentencePinyin": "Nà chǎng zhànzhēng dǎshū yǐhòu, tāmen zhǐhǎo líkāi jiāxiāng.",
-      "sentenceEnglish": "After losing that war, they had no choice but to leave their hometown.",
-      "vietnamese": "đánh thua",
-      "sentenceVietnamese": "Sau khi đánh thua trận đó, họ đành phải rời quê hương."
+      "en": "to be defeated",
+      "vi": "đánh thua",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "transport; convey",
+          "sentence": "他們負責這次的貨物運輸。",
+          "pinyin": "tāmen fùzé zhè cì de huòwù yùnshū.",
+          "en": "They are responsible for this shipment of goods.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "transport; convey",
+          "sentence": "他失了很多血，要馬上輸血。",
+          "pinyin": "tā shīle hěnduō xiě, yào mǎshàng shūxiě.",
+          "en": "He lost a lot of blood and needs a transfusion immediately.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 77,
       "chinese": "擺攤子",
       "pinyin": "bǎi tānzi",
-      "english": "to set up a vendor's stall",
-      "sentenceChinese": "為了生活，他們只好擺攤子賣早餐。",
-      "sentencePinyin": "Wèile shēnghuó, tāmen zhǐhǎo bǎi tānzi mài zǎocān.",
-      "sentenceEnglish": "To make a living, they had no choice but to set up a stall selling breakfast.",
-      "vietnamese": "bày sạp bán hàng",
-      "sentenceVietnamese": "Để kiếm sống, họ đành phải bày sạp bán đồ ăn sáng."
+      "en": "to set up a vendor's stall",
+      "vi": "bày sạp bán hàng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "set up a stall; have a stall",
+          "sentence": "我們每天都去擺攤子。",
+          "pinyin": "Wǒmen měitiān dōu qù bǎi tānzi.",
+          "en": "We go set up a stall every day.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "maintain a large staff or organization",
+          "sentence": "公司不能隻會擺攤子。",
+          "pinyin": "Gōng sī bù néng zhǐ huì bǎi tān zi",
+          "en": "A company can't just maintain a large staff (do nothing but keep up appearances).",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 78,
       "chinese": "蘿蔔糕",
       "pinyin": "luóbogāo",
-      "english": "fried daikon cake",
-      "sentenceChinese": "蘿蔔糕是台灣很常見的早餐。",
-      "sentencePinyin": "Luóbogāo shì Táiwān hěn chángjiàn de zǎocān.",
-      "sentenceEnglish": "Daikon cake is a very common breakfast food in Taiwan.",
-      "vietnamese": "bánh củ cải",
-      "sentenceVietnamese": "Bánh củ cải là món ăn sáng rất phổ biến ở Đài Loan."
+      "en": "fried daikon cake",
+      "vi": "bánh củ cải",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "fried radish cake (a type of dim sum, commonly called \"turnip cake\")",
+          "sentence": "我爸爸最喜歡吃/喫蘿蔔糕。",
+          "pinyin": "wǒ bàba zuì xǐhuān chī luóbo gāo.",
+          "en": "My dad likes eating radish cake the most.",
+          "vi": "Bố tôi thích ăn bánh củ cải nhất."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fried radish cake (a type of dim sum, commonly called \"turnip cake\")",
+          "sentence": "這傢店的蘿蔔糕很好吃/喫。",
+          "pinyin": "zhè jiā diàn de luóbo gāo hěn hǎo chī.",
+          "en": "The radish cake at this shop is very delicious.",
+          "vi": "Bánh củ cải của quán này rất ngon."
+        }
+      ]
     },
     {
       "id": 79,
       "chinese": "烹飪課",
       "pinyin": "pēngrèn kè",
-      "english": "cooking class",
-      "sentenceChinese": "她上烹飪課的時候學會做蘿蔔糕。",
-      "sentencePinyin": "Tā shàng pēngrèn kè de shíhou xuéhuì zuò luóbogāo.",
-      "sentenceEnglish": "She learned to make daikon cake in cooking class.",
-      "vietnamese": "lớp nấu ăn",
-      "sentenceVietnamese": "Cô ấy học làm bánh củ cải khi tham gia lớp nấu ăn."
+      "en": "cooking class",
+      "vi": "lớp nấu ăn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "class",
+          "sentence": "我們要準時上課。",
+          "pinyin": "wǒmen yào zhǔnshí shàngkè.",
+          "en": "We must attend class on time.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "class",
+          "sentence": "星期六下午沒課。",
+          "pinyin": "xīng qīliù xiàwǔ méi kè.",
+          "en": "There are no classes on Saturday afternoon.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "lesson",
+          "sentence": "一節課有四十分鍾。",
+          "pinyin": "yī jié kè yǒu sìshí fēnzhōng.",
+          "en": "A class lasts forty minutes.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "lesson",
+          "sentence": "明天我們有兩節課。",
+          "pinyin": "míngtiān wǒmen yǒu liǎng jié kè.",
+          "en": "Tomorrow we have two classes.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "levy; impose",
+          "sentence": "違法者將被課以罰款。",
+          "pinyin": "wéifǎ zhě jiāng bèi kè yǐ fákuǎn.",
+          "en": "Offenders will be fined.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 80,
       "chinese": "曬乾",
       "pinyin": "shài gān",
-      "english": "to sun-dry",
-      "sentenceChinese": "他們把蘿蔔曬乾以後留到冬天吃。",
-      "sentencePinyin": "Tāmen bǎ luóbo shài gān yǐhòu liú dào dōngtiān chī.",
-      "sentenceEnglish": "They sun-dry the radishes and save them to eat in winter.",
-      "vietnamese": "phơi khô",
-      "sentenceVietnamese": "Họ đem củ cải phơi khô rồi để dành ăn vào mùa đông."
+      "en": "to sun-dry",
+      "vi": "phơi khô",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "dry in the sun",
+          "sentence": "太陽很快就會把道路曬幹的。",
+          "pinyin": "tài yáng hěn kuài jiù huì bǎ dào lù shài gān de.",
+          "en": "The sun will soon dry up the roads.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "dry in the sun",
+          "sentence": "鹹魚在太陽下就要曬幹了。",
+          "pinyin": "xián yú zài tàiyáng xià jiù yào shài gān le.",
+          "en": "The salted fish is frizzling up in the sun.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 81,
       "chinese": "各種各樣",
       "pinyin": "gèzhǒng gèyàng",
-      "english": "all kinds of",
-      "sentenceChinese": "夜市裡有各種各樣的小吃。",
-      "sentencePinyin": "Yèshì lǐ yǒu gèzhǒng gèyàng de xiǎochī.",
-      "sentenceEnglish": "There are all kinds of snacks in the night market.",
-      "vietnamese": "đủ loại",
-      "sentenceVietnamese": "Trong chợ đêm có đủ loại đồ ăn vặt."
+      "en": "all kinds of",
+      "vi": "đủ loại",
+      "samples": [
+        {
+          "type": "Idiom",
+          "meaning": "various; all kinds of",
+          "sentence": "這裡/裏有各種各樣的水果。",
+          "pinyin": "zhè li yǒu gè zhǒng gè yàng de shuǐguǒ.",
+          "en": "There are all kinds of fruits here.",
+          "vi": "Ở đây có nhiều loại trái cây."
+        },
+        {
+          "type": "Idiom",
+          "meaning": "various; all kinds of",
+          "sentence": "他穿著各種各樣的衣服。",
+          "pinyin": "tā chuānzhuó gè zhǒng gè yàng de yīfu.",
+          "en": "He wears clothes of all kinds.",
+          "vi": "Anh ấy mặc nhiều loại trang phục."
+        }
+      ]
     },
     {
       "id": 82,
       "chinese": "殖民統治",
       "pinyin": "zhímín tǒngzhì",
-      "english": "colonial rule",
-      "sentenceChinese": "台灣曾經受過日本的殖民統治。",
-      "sentencePinyin": "Táiwān céngjīng shòu guò Rìběn de zhímín tǒngzhì.",
-      "sentenceEnglish": "Taiwan was once under Japanese colonial rule.",
-      "vietnamese": "chế độ thống trị thuộc địa",
-      "sentenceVietnamese": "Đài Loan từng chịu sự thống trị thuộc địa của Nhật Bản."
+      "en": "colonial rule",
+      "vi": "chế độ thống trị thuộc địa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rule; dominate",
+          "sentence": "這個皇朝統治了數百年。",
+          "pinyin": "zhège huángcháo tǒngzhìle shù bǎi nián.",
+          "en": "This dynasty ruled for hundreds of years.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rule; dominate",
+          "sentence": "統治階級製定了新的法律。",
+          "pinyin": "tǒngzhì jiējí zhìdìngle xīn de fǎlǜ.",
+          "en": "The ruling class enacted new laws.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 83,
       "chinese": "味噌湯",
       "pinyin": "wèizēng tāng",
-      "english": "miso soup",
-      "sentenceChinese": "台灣也很常喝味噌湯。",
-      "sentencePinyin": "Táiwān yě hěn cháng hē wèizēng tāng.",
-      "sentenceEnglish": "Miso soup is also commonly drunk in Taiwan.",
-      "vietnamese": "canh miso",
-      "sentenceVietnamese": "Ở Đài Loan cũng rất hay uống canh miso."
+      "en": "miso soup",
+      "vi": "canh miso",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "miso soup",
+          "sentence": "海帶味噌湯。",
+          "pinyin": "hǎi dài wèi zēng tāng.",
+          "en": "Miso soup with seaweed.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "miso shiru",
+          "sentence": "早餐喝味噌湯最好。",
+          "pinyin": "zǎocān hē wèi zēng tāng zuì hǎo.",
+          "en": "It's best to drink miso soup for breakfast.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 84,
       "chinese": "蘿蔔乾",
       "pinyin": "luóbogān",
-      "english": "dried daikon",
-      "sentenceChinese": "有些飯糰裡會放蘿蔔乾。",
-      "sentencePinyin": "Yǒuxiē fàntuán lǐ huì fàng luóbogān.",
-      "sentenceEnglish": "Some rice rolls contain dried daikon.",
-      "vietnamese": "củ cải khô",
-      "sentenceVietnamese": "Có loại cơm nắm bên trong sẽ cho củ cải khô."
+      "en": "dried daikon",
+      "vi": "củ cải khô",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "radish; turnip",
+          "sentence": "這個蘿蔔特別新鮮。",
+          "pinyin": "zhège luóbo tèbié xīnxiān.",
+          "en": "This radish is especially fresh.",
+          "vi": "Củ cải này rất tươi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "radish; turnip",
+          "sentence": "我喜歡吃/喫白蘿蔔湯。",
+          "pinyin": "wǒ xǐhuan chī bái luóbo tāng.",
+          "en": "I like to eat white radish soup.",
+          "vi": "Tôi thích ăn canh củ cải trắng."
+        }
+      ]
     },
     {
       "id": 85,
       "chinese": "進一步",
       "pinyin": "jìn yí bù",
-      "english": "further; one step further",
-      "sentenceChinese": "這頓早餐讓他對台灣有了更進一步的了解。",
-      "sentencePinyin": "Zhè dùn zǎocān ràng tā duì Táiwān yǒu le gèng jìn yí bù de liǎojiě.",
-      "sentenceEnglish": "This breakfast gave him a further understanding of Taiwan.",
-      "vietnamese": "hơn nữa; thêm một bước",
-      "sentenceVietnamese": "Bữa sáng này giúp anh ấy hiểu thêm một bước về Đài Loan."
+      "en": "further; one step further",
+      "vi": "hơn nữa; thêm một bước",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "further; go a step further; advance a step",
+          "sentence": "我國進一步實現農業機械化。",
+          "pinyin": "wǒguó jìnyībù shíxiàn nóngyè jīxièhuà.",
+          "en": "Our country has further advanced agricultural mechanization.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "further; go a step further; advance a step",
+          "sentence": "我們團隊進一步實現夢想了。",
+          "pinyin": "wǒmen tuánduì jìnyībù shíxiàn mèngxiǎngle.",
+          "en": "Our team has taken another step towards realizing our dream.",
+          "vi": ""
+        }
+      ]
     }
-  ],
-  "theme": "The Story of Taiwan"
+  ]
 }

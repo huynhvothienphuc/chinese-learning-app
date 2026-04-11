@@ -7,662 +7,1556 @@
       "id": 1,
       "chinese": "鄉關何處",
       "pinyin": "xiāngguān héchù",
-      "english": "Where is home?",
-      "sentenceChinese": "長期在海外漂泊，他常不禁感嘆鄉關何處。",
-      "sentencePinyin": "Chángqī zài hǎiwài piāobó, tā cháng bùjīn gǎntàn xiāngguān héchù.",
-      "sentenceEnglish": "Wandering abroad for a long time, he often couldn't help but wonder where home was.",
-      "vietnamese": "quê hương nơi nao",
-      "sentenceVietnamese": "Phiêu bạt ở nước ngoài thời gian dài, anh ấy thường không khỏi cảm thán quê hương nơi nao."
+      "en": "Where is home?",
+      "vi": "quê hương nơi nao",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shut; close",
+          "sentence": "他關上了窗戶。",
+          "pinyin": "tā guānshàngle chuānghù.",
+          "en": "He closed the window.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "shut; close",
+          "sentence": "她把門關上了。",
+          "pinyin": "tā bǎmén guānshàngle.",
+          "en": "She closed the door.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pass; check point",
+          "sentence": "貨物在關口被檢查。",
+          "pinyin": "huòwù zài guānkǒu bèi jiǎnchá.",
+          "en": "Goods are inspected at the checkpoint.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pass; check point",
+          "sentence": "關口檢查很嚴格。",
+          "pinyin": "guānkǒu jiǎnchá hěn yángé.",
+          "en": "The inspection at the checkpoint is very strict.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "開啟",
       "pinyin": "kāiqǐ",
-      "english": "to open up; to unlock",
-      "sentenceChinese": "這把鑰匙開啟了他的童年回憶。",
-      "sentencePinyin": "Zhè bǎ yàoshi kāiqǐ le tā de tóngnián huíyì.",
-      "sentenceEnglish": "This key unlocked his childhood memories.",
-      "vietnamese": "mở ra",
-      "sentenceVietnamese": "Chiếc chìa khóa này đã mở ra những ký ức tuổi thơ của anh ấy."
+      "en": "to open up; to unlock",
+      "vi": "mở ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to open",
+          "sentence": "門突然開啟/啓了。",
+          "pinyin": "mén tū rán kāiqǐle.",
+          "en": "The door suddenly opened.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to open",
+          "sentence": "他開啟/啓了電腦。",
+          "pinyin": "tā kāiqǐle diànnǎo.",
+          "en": "He turned on the computer.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "浪遊",
       "pinyin": "làngyóu",
-      "english": "to wander; to roam",
-      "sentenceChinese": "年輕時，他曾獨自在歐洲浪遊了半年。",
-      "sentencePinyin": "Niánqīng shí, tā céng dúzì zài Ōuzhōu làngyóu le bànnián.",
-      "sentenceEnglish": "When he was young, he roamed Europe alone for half a year.",
-      "vietnamese": "lãng du, phiêu bạt",
-      "sentenceVietnamese": "Khi còn trẻ, anh ấy từng một mình lãng du khắp châu Âu trong nửa năm."
+      "en": "to wander; to roam",
+      "vi": "lãng du, phiêu bạt",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "travel about aimlessly; loaf; stroll about; roam",
+          "sentence": "浪遊四方",
+          "pinyin": "làng yóu sìfāng",
+          "en": "Wander from place to place",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "泰半",
       "pinyin": "tàibàn",
-      "english": "most; the majority of",
-      "sentenceChinese": "他一生的時間，泰半都在異地度過。",
-      "sentencePinyin": "Tā yìshēng de shíjiān, tàibàn dōu zài yìdì dùguò.",
-      "sentenceEnglish": "He spent the majority of his life in a foreign land.",
-      "vietnamese": "quá nửa, đại đa số",
-      "sentenceVietnamese": "Thời gian cả đời của anh ấy, quá nửa đều trải qua ở nơi đất khách."
+      "en": "most; the majority of",
+      "vi": "quá nửa, đại đa số",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a majority",
+          "sentence": "泰半的人不太衕意。",
+          "pinyin": "tài bàn de rén bù tài tóng yì.",
+          "en": "A majority of the people don't quite agree.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "more than half",
+          "sentence": "泰半人都支持他。",
+          "pinyin": "tài bàn rén dōu zhīchí tā",
+          "en": "More than half of the people support him.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "遷移",
       "pinyin": "qiānyí",
-      "english": "migrating; moving",
-      "sentenceChinese": "這群候鳥每年都會向南遷移。",
-      "sentencePinyin": "Zhè qún hòuniǎo měinián dōu huì xiàng nán qiānyí.",
-      "sentenceEnglish": "This group of migratory birds migrates south every year.",
-      "vietnamese": "di cư, chuyển dịch",
-      "sentenceVietnamese": "Đàn chim di cư này năm nào cũng di cư về phương nam."
+      "en": "migrating; moving",
+      "vi": "di cư, chuyển dịch",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "move; migrate",
+          "sentence": "我們計劃遷移到新城市。",
+          "pinyin": "wǒmen jìhuà qiānyí dào xīn chéngshì.",
+          "en": "We plan to relocate to a new city.",
+          "vi": "Chúng tôi dự định chuyển đến thành phố mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move; migrate",
+          "sentence": "他打算遷移到國外工作。",
+          "pinyin": "tā dǎsuàn qiānyí dào guówài gōngzuò.",
+          "en": "He intends to relocate abroad for work.",
+          "vi": "Anh ấy dự định chuyển ra nước ngoài làm việc."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "變換",
       "pinyin": "biànhuàn",
-      "english": "changes; to alternate",
-      "sentenceChinese": "四季的變換讓人感受到生命的節奏。",
-      "sentencePinyin": "Sìjì de biànhuàn ràng rén gǎnshòu dào shēngmìng de jiézòu.",
-      "sentenceEnglish": "The changing of the four seasons makes people feel the rhythm of life.",
-      "vietnamese": "biến đổi, thay đổi",
-      "sentenceVietnamese": "Sự biến đổi của bốn mùa khiến con người cảm nhận được nhịp điệu của sự sống."
+      "en": "changes; to alternate",
+      "vi": "biến đổi, thay đổi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "vary; alternate",
+          "sentence": "我們可以變換毛的顏色。",
+          "pinyin": "wǒmen kěyǐ biànhuàn máo de yánsè.",
+          "en": "We can change the color of our fur.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "vary; alternate",
+          "sentence": "等待交通燈變換顏色。",
+          "pinyin": "děngdài jiāotōng dēng biànhuàn yánsè.",
+          "en": "Wait for the traffic lights to change.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "安身",
       "pinyin": "ānshēn",
-      "english": "to settle down; to establish oneself",
-      "sentenceChinese": "他只想找一個可以安身立命的地方。",
-      "sentencePinyin": "Tā zhǐ xiǎng zhǎo yí ge kěyǐ ānshēn lìmìng de dìfāng.",
-      "sentenceEnglish": "He just wants to find a place where he can settle down and lead a stable life.",
-      "vietnamese": "an thân, định cư",
-      "sentenceVietnamese": "Anh ấy chỉ muốn tìm một nơi có thể an thân lập nghiệp."
+      "en": "to settle down; to establish oneself",
+      "vi": "an thân, định cư",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "have a roof over one's head; take shelter",
+          "sentence": "他終於找到了安身之處。",
+          "pinyin": "Tā zhōngyú zhǎodào le ān shēn zhī chù.",
+          "en": "He finally found a place to settle down.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "have a roof over one's head; take shelter",
+          "sentence": "他在鄉下安身立命了。",
+          "pinyin": "Tā zài xiāng xià ān shēn lì mìng le.",
+          "en": "He settled down and made a life in the countryside.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "念頭",
       "pinyin": "niàntou",
-      "english": "idea; desire; thought",
-      "sentenceChinese": "他腦海中突然閃過一個奇怪的念頭。",
-      "sentencePinyin": "Tā nǎohǎi zhōng tūrán shǎnguò yí ge qíguài de niàntou.",
-      "sentenceEnglish": "A strange thought suddenly flashed through his mind.",
-      "vietnamese": "ý niệm, suy nghĩ",
-      "sentenceVietnamese": "Trong đầu anh ấy đột nhiên lóe lên một ý nghĩ kỳ lạ."
+      "en": "idea; desire; thought",
+      "vi": "ý niệm, suy nghĩ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "idea; thought; intention",
+          "sentence": "他腦子裡/裏閃過一個唸頭。",
+          "pinyin": "tā nǎozi lǐ shǎn guò yī gè niàn tóu.",
+          "en": "An idea flashed into his mind.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "idea; thought; intention",
+          "sentence": "他放棄了齣國的唸頭。",
+          "pinyin": "tā fàngqìle chūguó de niàntóu.",
+          "en": "He gives up the idea of going abroad.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "前提",
       "pinyin": "qiántí",
-      "english": "condition; precondition",
-      "sentenceChinese": "合作的前提是雙方必須有基本的互信。",
-      "sentencePinyin": "Hézuò de qiántí shì shuāngfāng bìxū yǒu jīběn de hùxìn.",
-      "sentenceEnglish": "The precondition for cooperation is that both parties must have basic mutual trust.",
-      "vietnamese": "tiền đề",
-      "sentenceVietnamese": "Tiền đề của hợp tác là hai bên phải có sự tin tưởng lẫn nhau cơ bản."
+      "en": "condition; precondition",
+      "vi": "tiền đề",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "premise",
+          "sentence": "小前提是這本書重要。",
+          "pinyin": "xiǎo qiántí shì zhè běn shū zhòngyào.",
+          "en": "The minor premise is that this book is important.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "premise",
+          "sentence": "推理需要清楚的前提。",
+          "pinyin": "tuīlǐ xūyào qīngchu de qiántí.",
+          "en": "Reasoning requires clear premises.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "遠行",
       "pinyin": "yuǎnxíng",
-      "english": "go on a long journey",
-      "sentenceChinese": "臨行前，母親為即將遠行的兒子準備了乾糧。",
-      "sentencePinyin": "Línxíng qián, mǔqīn wèi jíjiāng yuǎnxíng de érzi zhǔnbèi le gānliáng.",
-      "sentenceEnglish": "Before he left, the mother prepared dry food for her son who was about to go on a long journey.",
-      "vietnamese": "đi xa, viễn hành",
-      "sentenceVietnamese": "Trước khi đi, người mẹ đã chuẩn bị lương khô cho đứa con sắp đi xa."
+      "en": "go on a long journey",
+      "vi": "đi xa, viễn hành",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "go on a long journey",
+          "sentence": "我決定明年去遠行。",
+          "pinyin": "wǒ juédìng míngnián qù yuǎn xíng.",
+          "en": "I decided to go on a long journey next year.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "a long journey",
+          "sentence": "凜於遠行",
+          "pinyin": "lǐn yú yuǎn xíng",
+          "en": "Be afraid of going on a long journey",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "山洞",
       "pinyin": "shāndòng",
-      "english": "mountain cave",
-      "sentenceChinese": "探險隊在半山腰發現了一個巨大的山洞。",
-      "sentencePinyin": "Tànxiǎnduì zài bànshānyāo fāxiàn le yí ge jùdà de shāndòng.",
-      "sentenceEnglish": "The exploration team discovered a huge cave halfway up the mountain.",
-      "vietnamese": "hang núi",
-      "sentenceVietnamese": "Đội thám hiểm đã phát hiện một hang núi khổng lồ ở lưng chừng núi."
+      "en": "mountain cave",
+      "vi": "hang núi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cave; cavern",
+          "sentence": "陰暗潮濕的山洞。",
+          "pinyin": "yīn àn cháo shī de shān dòng",
+          "en": "A dark and damp cave",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cave; cavern",
+          "sentence": "在山洞裡/裏棲身。",
+          "pinyin": "zài shān dòng lǐ qī shēn",
+          "en": "Inhabit the caves",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "姑媽",
       "pinyin": "gūmā",
-      "english": "aunt (father's sister)",
-      "sentenceChinese": "過年時，姑媽特地從國外回來團聚。",
-      "sentencePinyin": "Guònián shí, gūmā tèdì cóng guówài huílái tuánjù.",
-      "sentenceEnglish": "During the New Year, my aunt specifically came back from abroad for a reunion.",
-      "vietnamese": "cô",
-      "sentenceVietnamese": "Hồi Tết, cô đã đặc biệt từ nước ngoài trở về đoàn viên."
+      "en": "aunt (father's sister)",
+      "vi": "cô",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "aunt; father's (married) sister",
+          "sentence": "我的姑媽很喜歡旅行。",
+          "pinyin": "wǒ de gūmā hěn xǐhuān lǚxíng.",
+          "en": "My aunt loves traveling.",
+          "vi": "Bác tôi rất thích du lịch."
+        },
+        {
+          "type": "Noun",
+          "meaning": "aunt; father's (married) sister",
+          "sentence": "姑媽常常給我買零食。",
+          "pinyin": "gūmā chángcháng gěi wǒ mǎi língshí.",
+          "en": "My aunt often buys me snacks.",
+          "vi": "Cô tôi thường xuyên mua đồ ăn vặt cho tôi."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "自助餐",
       "pinyin": "zìzhùcān",
-      "english": "cafeteria style; buffet",
-      "sentenceChinese": "為了方便，我們午餐吃附近的自助餐。",
-      "sentencePinyin": "Wèile fāngbiàn, wǒmen wǔcān chī fùjìn de zìzhùcān.",
-      "sentenceEnglish": "For convenience, we had lunch at a nearby cafeteria-style restaurant.",
-      "vietnamese": "cơm tự chọn",
-      "sentenceVietnamese": "Để thuận tiện, bữa trưa chúng tôi ăn cơm tự chọn ở gần đây."
+      "en": "cafeteria style; buffet",
+      "vi": "cơm tự chọn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "buffet; help-yourself; self-service meal",
+          "sentence": "咱們去吃/喫自助餐吧。",
+          "pinyin": "zánmen qù chī zìzhùcān ba.",
+          "en": "Let's go eat a buffet.",
+          "vi": "Chúng mình đi ăn buffet đi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "buffet; help-yourself; self-service meal",
+          "sentence": "自助餐也屬於這一類。",
+          "pinyin": "zìzhùcān yě shǔyú zhè yī lèi.",
+          "en": "Buffets fall into this category, too.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "寄宿生",
       "pinyin": "jìsùshēng",
-      "english": "boarding student",
-      "sentenceChinese": "他從國中開始就一直是寄宿生。",
-      "sentencePinyin": "Tā cóng guózhōng kāishǐ jiù yìzhí shì jìsùshēng.",
-      "sentenceEnglish": "He has been a boarding student since middle school.",
-      "vietnamese": "học sinh nội trú",
-      "sentenceVietnamese": "Anh ấy đã là học sinh nội trú kể từ khi học cấp hai."
+      "en": "boarding student",
+      "vi": "học sinh nội trú",
+      "samples": []
     },
     {
       "id": 15,
       "chinese": "爛漫",
       "pinyin": "lànmàn",
-      "english": "brilliant; colorful; innocent",
-      "sentenceChinese": "孩子們天真爛漫的笑聲充滿了校園。",
-      "sentencePinyin": "Háizimen tiānzhēn lànmàn de xiàoshēng chōngmǎn le xiàoyuán.",
-      "sentenceEnglish": "The children's innocent and brilliant laughter filled the campus.",
-      "vietnamese": "rực rỡ, hồn nhiên",
-      "sentenceVietnamese": "Tiếng cười hồn nhiên của trẻ thơ tràn ngập sân trường."
+      "en": "brilliant; colorful; innocent",
+      "vi": "rực rỡ, hồn nhiên",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "brilliant; bright-coloured",
+          "sentence": "春光爛漫，百花齊放。",
+          "pinyin": "chūnguāng lànmàn, bǎihuāqífàng.",
+          "en": "The spring scenery is brilliant, with flowers in full bloom.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "brilliant; bright-coloured",
+          "sentence": "山間草地花朵爛漫。",
+          "pinyin": "shān jiān cǎodì huāduǒ lànmàn.",
+          "en": "The flowers on the mountain meadow are bright-coloured.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "年歲",
       "pinyin": "niánsuì",
-      "english": "age; years",
-      "sentenceChinese": "隨著年歲增長，他對故鄉的思念越發強烈。",
-      "sentencePinyin": "Suízhe niánsuì zēngzhǎng, tā duì gùxiāng de sīniàn yuèfā qiángliè.",
-      "sentenceEnglish": "As the years go by, his longing for his hometown grows stronger.",
-      "vietnamese": "năm tháng, tuổi tác",
-      "sentenceVietnamese": "Cùng với sự tăng thêm của tuổi tác, nỗi nhớ quê hương của anh ấy càng thêm mãnh liệt."
+      "en": "age; years",
+      "vi": "năm tháng, tuổi tác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "age",
+          "sentence": "上了年歲的人。",
+          "pinyin": "shàng le nián suì de rén",
+          "en": "A person who is advanced in age",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "years",
+          "sentence": "年歲使他衰頹。",
+          "pinyin": "nián suì shǐ tā shuāi tuí.",
+          "en": "His years weigh him down.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "鄉愁",
       "pinyin": "xiāngchóu",
-      "english": "homesickness",
-      "sentenceChinese": "一首老歌勾起了他濃濃的鄉愁。",
-      "sentencePinyin": "Yì shǒu lǎogē gōuqǐ le tā nóngnóng de xiāngchóu.",
-      "sentenceEnglish": "An old song evoked his deep homesickness.",
-      "vietnamese": "lòng nhớ quê",
-      "sentenceVietnamese": "Một bản nhạc cũ đã khơi dậy lòng nhớ quê da diết trong anh ấy."
+      "en": "homesickness",
+      "vi": "lòng nhớ quê",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "homesickness",
+          "sentence": "鄉愁滿腸",
+          "pinyin": "xiāngchóumǎncháng",
+          "en": "Filled with homesickness",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "nostalgia",
+          "sentence": "強烈的鄉愁。",
+          "pinyin": "qiángliè de xiāngchóu",
+          "en": "Pronounced homesickness",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "他鄉",
       "pinyin": "tāxiāng",
-      "english": "a strange land; abroad",
-      "sentenceChinese": "隻身在他鄉生活，必須學會照顧自己。",
-      "sentencePinyin": "Zhīshēn zài tāxiāng shēnghuó, bìxū xuéhuì zhàogù zìjǐ.",
-      "sentenceEnglish": "Living alone in a foreign land, one must learn to take care of oneself.",
-      "vietnamese": "đất khách quê người",
-      "sentenceVietnamese": "Sống một mình nơi đất khách quê người, phải học cách tự chăm sóc bản thân."
+      "en": "a strange land; abroad",
+      "vi": "đất khách quê người",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a place far away from home; an alien land",
+          "sentence": "他鄉遇故知。",
+          "pinyin": "tā xiāng yù gù zhī",
+          "en": "Run into an old friend in a distant land",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "異地",
       "pinyin": "yìdì",
-      "english": "a place other than hometown; remote",
-      "sentenceChinese": "長期異地辦公對團隊協作來說是個挑戰。",
-      "sentencePinyin": "Chángqī yìdì bàngōng duì tuánduì xiézuò láishuō shì ge tiǎozhàn.",
-      "sentenceEnglish": "Long-term remote working (in different locations) is a challenge for team collaboration.",
-      "vietnamese": "nơi đất lạ, từ xa",
-      "sentenceVietnamese": "Làm việc từ xa trong thời gian dài là một thách thức đối với sự cộng tác nhóm."
+      "en": "a place other than hometown; remote",
+      "vi": "nơi đất lạ, từ xa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a place far away from home; strange land",
+          "sentence": "他已經在異地生活多年。",
+          "pinyin": "tā yǐjīng zài yìdì shēnghuó duōnián.",
+          "en": "He has been living in another place for many years.",
+          "vi": "Anh ấy đã sống ở đất khách nhiều năm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a place far away from home; strange land",
+          "sentence": "他決定去異地工作一年。",
+          "pinyin": "tā juédìng qù yìdì gōngzuò yī nián.",
+          "en": "He decided to work in a different place for a year.",
+          "vi": "Anh ấy quyết định đi làm ở xứ lạ một năm."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "腳步",
       "pinyin": "jiǎobù",
-      "english": "footstep; pace",
-      "sentenceChinese": "他加快腳步，想趕上前面的隊伍。",
-      "sentencePinyin": "Tā jiākuài jiǎobù, xiǎng gǎnshàng qiánmiàn de duìwǔ.",
-      "sentenceEnglish": "He quickened his pace, trying to catch up with the team ahead.",
-      "vietnamese": "bước chân",
-      "sentenceVietnamese": "Anh ấy tăng tốc bước chân, muốn đuổi kịp đội ngũ phía trước."
+      "en": "footstep; pace",
+      "vi": "bước chân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "foot; step; tread",
+          "sentence": "沉重的腳步在夜晚迴響。",
+          "pinyin": "chénzhòng de jiǎobù zài yèwǎn huíxiǎng.",
+          "en": "The heavy footsteps echoed in the night.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "foot; step; tread",
+          "sentence": "她輕快的腳步讓人感到愉快。",
+          "pinyin": "tā qīngkuài de jiǎobù ràng rén gǎndào yúkuài.",
+          "en": "Her light steps make people feel happy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "算計",
       "pinyin": "suànjì",
-      "english": "to calculate; to scheme",
-      "sentenceChinese": "過日子不能總是精打細算地算計每一分錢。",
-      "sentencePinyin": "Guò rìzi bùnéng zǒngshì jīngdǎ xìsuàn de suànjì měi yì fēn qián.",
-      "sentenceEnglish": "One cannot live by always calculating every single cent so meticulously.",
-      "vietnamese": "tính toán, trù tính",
-      "sentenceVietnamese": "Sống qua ngày không thể lúc nào cũng tính toán chi ly từng đồng một."
+      "en": "to calculate; to scheme",
+      "vi": "tính toán, trù tính",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to reckon; to calculate; figure out",
+          "sentence": "他在算計今天的花費。",
+          "pinyin": "tā zài suànjì jīntiān de huāfèi.",
+          "en": "He is calculating today's expenses.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to reckon; to calculate; figure out",
+          "sentence": "她正在算計旅行的費用。",
+          "pinyin": "tā zhèngzài suànjì lǚxíng de fèiyòng.",
+          "en": "She is reckoning the travel costs.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "飄泊",
       "pinyin": "piāobó",
-      "english": "to drift aimlessly; wander",
-      "sentenceChinese": "他厭倦了四處飄泊的生活。",
-      "sentencePinyin": "Tā yànjuàn le sìchù piāobó de shēnghuó.",
-      "sentenceEnglish": "He is tired of a life of wandering everywhere.",
-      "vietnamese": "phiêu bạt",
-      "sentenceVietnamese": "Anh ấy đã chán ngấy cuộc sống phiêu bạt khắp nơi rồi."
+      "en": "to drift aimlessly; wander",
+      "vi": "phiêu bạt",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lead a wandering life; drift",
+          "sentence": "漂泊異鄉",
+          "pinyin": "piāobó yìxiāng",
+          "en": "Wander aimlessly in a strange land",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "不時",
       "pinyin": "bùshí",
-      "english": "often; from time to time",
-      "sentenceChinese": "窗外不時傳來陣陣鳥鳴聲。",
-      "sentencePinyin": "Chuāngwài bùshí chuánlái zhènzhèn niǎomíng shēng.",
-      "sentenceEnglish": "The sound of birds chirping came from outside the window from time to time.",
-      "vietnamese": "thường xuyên, thi thoảng",
-      "sentenceVietnamese": "Bên ngoài cửa sổ thi thoảng lại vang lên tiếng chim hót."
+      "en": "often; from time to time",
+      "vi": "thường xuyên, thi thoảng",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "often",
+          "sentence": "他不時嚮窗外探望。",
+          "pinyin": "tā bùshí xiàng chuāngwài tànwàng.",
+          "en": "He occasionally looks out of the window.",
+          "vi": "Anh ấy chốc chốc nhìn ra ngoài cửa sổ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often",
+          "sentence": "她不時會給我髮/發消息。",
+          "pinyin": "tā bùshí huì gěi wǒ fā xiāoxi.",
+          "en": "She often sends me messages.",
+          "vi": "Cô ấy thỉnh thoảng sẽ gửi tin nhắn cho tôi."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "居留",
       "pinyin": "jūliú",
-      "english": "to reside; stay",
-      "sentenceChinese": "他正在申請在台灣的永久居留權。",
-      "sentencePinyin": "Tā zhèngzài shēnqǐng zài Táiwān de yǒngjiǔ jūliúquán.",
-      "sentenceEnglish": "He is applying for permanent residency in Taiwan.",
-      "vietnamese": "cư trú",
-      "sentenceVietnamese": "Anh ấy đang xin quyền cư trú vĩnh viễn tại Đài Loan."
+      "en": "to reside; stay",
+      "vi": "cư trú",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reside",
+          "sentence": "長期居留",
+          "pinyin": "chángqī jūliú",
+          "en": "Permanent residence",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "reside",
+          "sentence": "在國外居留。",
+          "pinyin": "zài guówài jūliú",
+          "en": "Reside abroad",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "來日",
       "pinyin": "láirì",
-      "english": "days ahead; future",
-      "sentenceChinese": "我們來日方長，以後還有見面的機會。",
-      "sentencePinyin": "Wǒmen láirì fāngcháng, yǐhòu hái yǒu jiànmiàn de jīhuì.",
-      "sentenceEnglish": "We have a long future ahead of us; there will be other opportunities to meet.",
-      "vietnamese": "ngày sau, tương lai",
-      "sentenceVietnamese": "Chúng ta ngày sau còn dài, sau này vẫn còn cơ hội gặp lại."
+      "en": "days ahead; future",
+      "vi": "ngày sau, tương lai",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "days to come; future",
+          "sentence": "來日方長。",
+          "pinyin": "láirì fāng cháng",
+          "en": "There will be ample time. or There will be time for that.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "days to come; future",
+          "sentence": "今後還有機會來日方長。",
+          "pinyin": "jīn hòu hái yǒu jī huì lái rì fāng cháng",
+          "en": "There will be more opportunities in the future; we'll have plenty of time.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "認定",
       "pinyin": "rèndìng",
-      "english": "to be committed to; to identify",
-      "sentenceChinese": "一旦認定了目標，他就絕不輕言放棄。",
-      "sentencePinyin": "Yídàn rèndìng le mùbiāo, tā jiù juébù qīngyán fàngqì.",
-      "sentenceEnglish": "Once he has identified his goal, he will never give up easily.",
-      "vietnamese": "xác định, cho rằng",
-      "sentenceVietnamese": "Một khi đã xác định được mục tiêu, anh ấy tuyệt đối không dễ dàng bỏ cuộc."
+      "en": "to be committed to; to identify",
+      "vi": "xác định, cho rằng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "affirm; maintain; firmly believe",
+          "sentence": "警方認定他就是兇手。",
+          "pinyin": "jǐngfāng rèndìng tā jiùshì xiōngshǒu",
+          "en": "The police identified him as the murderer",
+          "vi": "Cảnh sát kết luận chính anh ta là hung thủ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "affirm; maintain; firmly believe",
+          "sentence": "他們認定這是一個機會。",
+          "pinyin": "tāmen rèndìng zhè shì yīgè jīhuì.",
+          "en": "They have identified this as an opportunity.",
+          "vi": "Họ xác định đây là một cơ hội."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "形態",
       "pinyin": "xíngtài",
-      "english": "form; status quo; shape",
-      "sentenceChinese": "這種新興的商業形態正在改變市場規則。",
-      "sentencePinyin": "Zhè zhǒng xīnxīng de shāngyè xíngtài zhèngzài gǎibiàn shìchǎng guīzé.",
-      "sentenceEnglish": "This emerging business form is changing the market rules.",
-      "vietnamese": "hình thái",
-      "sentenceVietnamese": "Mô hình kinh doanh mới nổi này đang thay đổi các quy tắc của thị trường."
+      "en": "form; status quo; shape",
+      "vi": "hình thái",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "shape",
+          "sentence": "動物的形態多樣。",
+          "pinyin": "dòngwù de xíngtài duōyàng.",
+          "en": "The shapes of animals are diverse.",
+          "vi": "Hình dạng của động vật đa dạng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "shape",
+          "sentence": "植物的形態很獨特。",
+          "pinyin": "zhíwù de xíngtài hěn dútè.",
+          "en": "The shapes of plants are very unique.",
+          "vi": "Hình dạng của thực vật rất độc đáo."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "彷彿",
       "pinyin": "fǎngfú",
-      "english": "to seem; as if",
-      "sentenceChinese": "聽著這首歌，我彷彿回到了童年。",
-      "sentencePinyin": "Tīngzhe zhè shǒu gē, wǒ fǎngfú huídào le tóngnián.",
-      "sentenceEnglish": "Listening to this song, it's as if I've returned to my childhood.",
-      "vietnamese": "ngỡ như, hình như",
-      "sentenceVietnamese": "Nghe bài hát này, tôi ngỡ như mình đã trở lại thời thơ ấu."
+      "en": "to seem; as if",
+      "vi": "ngỡ như, hình như",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "as if; seemingly; apparently",
+          "sentence": "他彷彿看見了什麼。",
+          "pinyin": "Tā fǎngfú kànjiàn le shénme.",
+          "en": "He seemed to see something.",
+          "vi": "Anh ấy như thể đã nhìn thấy gì đó."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "旅程",
       "pinyin": "lǚchéng",
-      "english": "trip; journey",
-      "sentenceChinese": "這是一段充滿驚喜的旅程。",
-      "sentencePinyin": "Zhè shì yí duàn chōngmǎn jīngxǐ de lǚchéng.",
-      "sentenceEnglish": "This is a journey full of surprises.",
-      "vietnamese": "hành trình",
-      "sentenceVietnamese": "Đây là một hành trình tràn đầy những bất ngờ."
+      "en": "trip; journey",
+      "vi": "hành trình",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "route; itinerary; journey; distance travelled",
+          "sentence": "我們的旅程開始了。",
+          "pinyin": "wǒmen de lǚchéng kāishǐle.",
+          "en": "Our journey has started.",
+          "vi": "Hành trình của chúng tôi bắt đầu rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "route; itinerary; journey; distance travelled",
+          "sentence": "我們的旅程有點兒麴摺。",
+          "pinyin": "wǒmen de lǚchéng yǒudiǎnr qūzhé.",
+          "en": "Our journey has been a bit winding.",
+          "vi": "Chặng đường đi của chúng tôi có chút quanh co."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "前移",
       "pinyin": "qiányí",
-      "english": "to move forward",
-      "sentenceChinese": "隨著技術進步，開發重心正在不斷前移。",
-      "sentencePinyin": "Suízhe jìshù jìnbù, kāifā zhòngxīn zhèngzài búduàn qiányí.",
-      "sentenceEnglish": "With technological progress, the focus of development is constantly moving forward.",
-      "vietnamese": "di chuyển về phía trước",
-      "sentenceVietnamese": "Cùng với sự tiến bộ kỹ thuật, trọng tâm phát triển đang không ngừng được đẩy về phía trước."
+      "en": "to move forward",
+      "vi": "di chuyển về phía trước",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "孩子們在前院玩耍。",
+          "pinyin": "háizimen zài qián yuàn wánshuǎ.",
+          "en": "The children are playing in the front yard.",
+          "vi": "Bọn trẻ đang chơi ở sân trước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "汽車的前燈壞了。",
+          "pinyin": "qìchē de qián dēng huàile.",
+          "en": "The car's front light is broken.",
+          "vi": "Đèn trước của ô tô hỏng rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move forward; go ahead",
+          "sentence": "不要猶豫，勇敢前行。",
+          "pinyin": "bùyào yóuyù, yǒnggǎn qián xíng.",
+          "en": "Don’t hesitate, march forward bravely.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "move forward; go ahead",
+          "sentence": "我們依然要摸索著前進。",
+          "pinyin": "wǒmen yīrán yào mōsuǒzhe qiánjìn.",
+          "en": "We still have to move forward while exploring.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "邁進",
       "pinyin": "màijìn",
-      "english": "to take a step forward; stride forward",
-      "sentenceChinese": "公司正向著國際市場大步邁進。",
-      "sentencePinyin": "Gōngsī zhèng xiàngzhe guójì shìchǎng dàbù màijìn.",
-      "sentenceEnglish": "The company is making great strides toward the international market.",
-      "vietnamese": "tiến bước",
-      "sentenceVietnamese": "Công ty đang từng bước tiến ra thị trường quốc tế."
+      "en": "to take a step forward; stride forward",
+      "vi": "tiến bước",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stride forward; forge ahead; advance with big stride",
+          "sentence": "他朝夢想邁進。",
+          "pinyin": "tā cháo mèngxiǎng màijìn.",
+          "en": "He is stepping toward his dream.",
+          "vi": "Anh ấy tiến bước về giấc mơ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "stride forward; forge ahead; advance with big stride",
+          "sentence": "我們朝目標邁進。",
+          "pinyin": "wǒmen cháo mùbiāo màijìn.",
+          "en": "We are moving toward our goal.",
+          "vi": "Chúng ta tiến về phía mục tiêu."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "不巧",
       "pinyin": "bùqiǎo",
-      "english": "unfortunately; as luck would have it",
-      "sentenceChinese": "真不巧，他剛剛出去了。",
-      "sentencePinyin": "Zhēn bùqiǎo, tā gānggāng chūqù le.",
-      "sentenceEnglish": "How unfortunate, he just went out.",
-      "vietnamese": "không may, không khéo",
-      "sentenceVietnamese": "Thật không khéo, anh ấy vừa mới đi ra ngoài rồi."
+      "en": "unfortunately; as luck would have it",
+      "vi": "không may, không khéo",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "unfortunately; as luck would have it",
+          "sentence": "我到那兒，不巧他剛走。",
+          "pinyin": "wǒ dào nà'er, bù qiǎo tā gāng zǒu.",
+          "en": "As luck would have it，he had just left when I arrived.",
+          "vi": ""
+        },
+        {
+          "type": "adverb",
+          "meaning": "unfortunately",
+          "sentence": "我到那兒, 不巧他剛走。",
+          "pinyin": "Wǒ dào nàr, bùqiǎo tā gāng zǒu.",
+          "en": "As luck would have it, he had just left when I arrived.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "派駐",
       "pinyin": "pàizhù",
-      "english": "be stationed at; dispatched",
-      "sentenceChinese": "他被公司派駐到紐約辦公室兩年。",
-      "sentencePinyin": "Tā bèi gōngsī pàizhù dào Niǔyuē bàngōngshì liǎng nián.",
-      "sentenceEnglish": "He was stationed at the New York office by the company for two years.",
-      "vietnamese": "cử đi làm việc tại",
-      "sentenceVietnamese": "Anh ấy được công ty cử đi làm việc tại văn phòng New York trong hai năm."
+      "en": "be stationed at; dispatched",
+      "vi": "cử đi làm việc tại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "dispatch; station; assign",
+          "sentence": "他們派駐了一位新大使到法國。",
+          "pinyin": "tāmen pàizhùle yī wèi xīn dàshǐ dào fàguó.",
+          "en": "They dispatched a new ambassador to france.",
+          "vi": "Họ đã cử một đại sứ mới đến Pháp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dispatch; station; assign",
+          "sentence": "他經常被派駐到邊境地區。",
+          "pinyin": "tā jīngcháng bèi pàizhù dào biānjìng dìqū.",
+          "en": "He is often assigned to border areas.",
+          "vi": "Ông ấy thường được phái đi vùng biên giới."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "流轉",
       "pinyin": "liúzhuǎn",
-      "english": "to flow; to circulate",
-      "sentenceChinese": "資金的流轉速度對企業運營至關重要。",
-      "sentencePinyin": "Zījīn de liúzhuǎn sùdù duì qǐyè yùnyíng zhìguān zhòngyào.",
-      "sentenceEnglish": "The speed of capital circulation is vital to business operations.",
-      "vietnamese": "luân chuyển",
-      "sentenceVietnamese": "Tốc độ luân chuyển vốn vô cùng quan trọng đối với vận hành doanh nghiệp."
+      "en": "to flow; to circulate",
+      "vi": "luân chuyển",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "wander about; roam; be on the move",
+          "sentence": "戰爭讓他們流轉四方。",
+          "pinyin": "zhànzhēng ràng tāmen liúzhuàn sìfāng.",
+          "en": "The war made them move around everywhere.",
+          "vi": "Chiến tranh khiến họ chuyển đi khắp nơi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "wander about; roam; be on the move",
+          "sentence": "他流轉各地尋找機會。",
+          "pinyin": "tā liúzhuàn gèdì xúnzhǎo jīhuì.",
+          "en": "He travels around looking for opportunities.",
+          "vi": "Anh ta đi khắp nơi để tìm kiếm cơ hội."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "(of writings, peoms, etc.) smooth; flowing; fluent",
+          "sentence": "他的詩寫得非常流轉。",
+          "pinyin": "tā de shī xiě dé fēicháng liúzhuǎn.",
+          "en": "His poems are written very fluently.",
+          "vi": "Thơ của anh ấy viết rất trôi chảy."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "(of writings, peoms, etc.) smooth; flowing; fluent",
+          "sentence": "這篇文章的文筆很流轉。",
+          "pinyin": "zhè piān wénzhāng de wénbǐ hěn liúzhuǎn.",
+          "en": "The writing of this article is very smooth.",
+          "vi": "Văn phong của bài văn này rất trôi chảy."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "之類",
       "pinyin": "zhīlèi",
-      "english": "and the like; such as",
-      "sentenceChinese": "我不喜歡吃漢堡、薯條之類的速食。",
-      "sentencePinyin": "Wǒ bù xǐhuān chī hànbǎo, shǔtiáo zhīlèi de sùshí.",
-      "sentenceEnglish": "I don't like eating fast food such as hamburgers and fries.",
-      "vietnamese": "các loại như vậy",
-      "sentenceVietnamese": "Tôi không thích ăn các loại đồ ăn nhanh như hambuger hay khoai tây chiên."
+      "en": "and the like; such as",
+      "vi": "các loại như vậy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "used for giving examples (things of the like, of the kind, like that)",
+          "sentence": "我喜歡蘋果、香蕉之類的水果。",
+          "pinyin": "wǒ xǐhuan píngguǒ, xiāngjiāo zhī lèi de shuǐguǒ.",
+          "en": "I like fruits such as apples and bananas.",
+          "vi": "Tôi thích trái cây như táo, chuối, v.v."
+        },
+        {
+          "type": "Noun",
+          "meaning": "used for giving examples (things of the like, of the kind, like that)",
+          "sentence": "她收藏了古董、畫作之類的物品。",
+          "pinyin": "tā shōucángle gǔdǒng, huàzuò zhī lèi de wùpǐn.",
+          "en": "She collects things like antiques and paintings.",
+          "vi": "Cô ấy sưu tầm đồ cổ, tranh, v.v."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "度假",
       "pinyin": "dùjià",
-      "english": "to vacation",
-      "sentenceChinese": "我們計畫下個月去海邊度假。",
-      "sentencePinyin": "Wǒmen jìhuà xià ge yuè qù hǎibiān dùjià.",
-      "sentenceEnglish": "We plan to go to the seaside for a vacation next month.",
-      "vietnamese": "đi nghỉ dưỡng",
-      "sentenceVietnamese": "Chúng tôi lên kế hoạch đi nghỉ dưỡng ở bờ biển vào tháng tới."
+      "en": "to vacation",
+      "vi": "đi nghỉ dưỡng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go vacationing; spend one's holidays",
+          "sentence": "他們正在國外度假。",
+          "pinyin": "tāmen zhèngzài guówài dùjià.",
+          "en": "They are on vacation abroad.",
+          "vi": "Họ đang đi nghỉ dưỡng ở nước ngoài."
+        },
+        {
+          "type": "Verb",
+          "meaning": "go vacationing; spend one's holidays",
+          "sentence": "我們計劃去海邊度假。",
+          "pinyin": "wǒmen jìhuà qù hǎibiān dùjià.",
+          "en": "We are planning a vacation to the beach.",
+          "vi": "Chúng tôi dự định đi biển nghỉ mát."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "居所",
       "pinyin": "jūsuǒ",
-      "english": "living place; residence",
-      "sentenceChinese": "他在市郊找了一處寧靜的居所。",
-      "sentencePinyin": "Tā zài shìjiāo zhǎo le yí chù níngjìng de jūsuǒ.",
-      "sentenceEnglish": "He found a peaceful residence in the suburbs.",
-      "vietnamese": "nơi ở",
-      "sentenceVietnamese": "Anh ấy đã tìm được một nơi ở yên tĩnh ở ngoại ô thành phố."
+      "en": "living place; residence",
+      "vi": "nơi ở",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "residence",
+          "sentence": "這裡/裏是私人居所。",
+          "pinyin": "zhèlǐ shì sīrén jūsuǒ",
+          "en": "This is a private residence.",
+          "vi": "Đây là một nơi ở tư nhân."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "恆常不變",
       "pinyin": "héngcháng búbiàn",
-      "english": "unchanging; permanent",
-      "sentenceChinese": "世界上沒有什麼東西是恆常不變的。",
-      "sentencePinyin": "Shìjiè shàng méiyǒu shéme dōngxi shì héngcháng búbiàn de.",
-      "sentenceEnglish": "Nothing in the world is permanent and unchanging.",
-      "vietnamese": "không bao giờ thay đổi",
-      "sentenceVietnamese": "Trên thế giới này không có gì là không bao giờ thay đổi."
+      "en": "unchanging; permanent",
+      "vi": "không bao giờ thay đổi",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "frequently; often; usually",
+          "sentence": "晚上你常常做些什麼？",
+          "pinyin": "wǎnshàng nǐ chángcháng zuò xiē shénme",
+          "en": "What do you often do in the evening?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "frequently; often; usually",
+          "sentence": "他常常去公園散步。",
+          "pinyin": "tā chángcháng qù gōngyuán sànbù.",
+          "en": "He often goes for a walk in the park.",
+          "vi": "Anh ấy thường xuyên đi dạo công viên."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "地址",
       "pinyin": "dìzhǐ",
-      "english": "address",
-      "sentenceChinese": "請在表格上填寫你的正確地址。",
-      "sentencePinyin": "Qǐng zài biǎogé shàng tiánxiě nǐ de zhèngquè dìzhǐ.",
-      "sentenceEnglish": "Please fill in your correct address on the form.",
-      "vietnamese": "địa chỉ",
-      "sentenceVietnamese": "Vui lòng điền đúng địa chỉ của bạn vào biểu mẫu."
+      "en": "address",
+      "vi": "địa chỉ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "address",
+          "sentence": "這是我的新地址。",
+          "pinyin": "zhè shì wǒ de xīn dìzhǐ.",
+          "en": "This is my new address.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "address",
+          "sentence": "我忘記了他的地址。",
+          "pinyin": "wǒ wàngjìle tā dì dìzhǐ.",
+          "en": "I forgot his address.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "養老",
       "pinyin": "yǎngláo",
-      "english": "care for in old age; retirement",
-      "sentenceChinese": "這筆退休金是他以後養老的保障。",
-      "sentencePinyin": "Zhè bǐ tuìxiūjīn shì tā yǐhòu yǎngláo de bǎozhàng.",
-      "sentenceEnglish": "This pension is the guarantee for his care in old age.",
-      "vietnamese": "dưỡng lão",
-      "sentenceVietnamese": "Khoản tiền hưu trí này là sự bảo đảm cho việc dưỡng lão của anh ấy sau này."
+      "en": "care for in old age; retirement",
+      "vi": "dưỡng lão",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "provide for the aged (usually one's parents)",
+          "sentence": "他選擇鄉村作為養老之地。",
+          "pinyin": "tā xuǎnzé xiāngcūn zuòwéi yǎnglǎo zhī dì.",
+          "en": "He chose the countryside as his retirement place.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "provide for the aged (usually one's parents)",
+          "sentence": "養老需要經濟和心理支持。",
+          "pinyin": "yǎnglǎo xūyào jīngjì hé xīnlǐ zhīchí.",
+          "en": "Providing for the aged requires financial and emotional support.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "愕然",
       "pinyin": "èrán",
-      "english": "stunned; astounded",
-      "sentenceChinese": "聽到這個噩耗，大家都感到非常愕然。",
-      "sentencePinyin": "Tīngdào zhè ge èhào, dàjiā dōu gǎndào fēicháng èrán.",
-      "sentenceEnglish": "Everyone was stunned to hear this terrible news.",
-      "vietnamese": "kinh ngạc, sửng sốt",
-      "sentenceVietnamese": "Nghe thấy tin dữ này, tất cả mọi người đều cảm thấy vô cùng sửng sốt."
+      "en": "stunned; astounded",
+      "vi": "kinh ngạc, sửng sốt",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "astonished; shocked",
+          "sentence": "消息傳來，大傢都為之愕然。",
+          "pinyin": "xiāoxī chuán lái, dàjiā dōu wéi zhī èrán.",
+          "en": "When the news came, everyone was shocked.",
+          "vi": "Khi tin đưa đến, mọi người đều ngạc nhiên."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "astonished; shocked",
+          "sentence": "聽到這消息，他很愕然。",
+          "pinyin": "tīng dào zhè xiāoxī, tā hěn èrán.",
+          "en": "Hearing the news, he felt shocked.",
+          "vi": "Anh ấy đã bị sốc khi nghe tin này."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "驚醒",
       "pinyin": "jīngxǐng",
-      "english": "to wake with a start; startled awake",
-      "sentenceChinese": "他被窗外的一陣巨響驚醒。",
-      "sentencePinyin": "Tā bèi chuāngwài de yí zhèn jùxiǎng jīngxǐng.",
-      "sentenceEnglish": "He was startled awake by a loud noise outside the window.",
-      "vietnamese": "giật mình tỉnh giấc",
-      "sentenceVietnamese": "Anh ấy bị giật mình tỉnh giấc bởi một tiếng nổ lớn bên ngoài cửa sổ."
+      "en": "to wake with a start; startled awake",
+      "vi": "giật mình tỉnh giấc",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to wake with a start",
+          "sentence": "她的哭聲驚醒了孩子。",
+          "pinyin": "tā de kū shēng jīngxǐngle háizi.",
+          "en": "Her crying woke the child up.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to wake with a start",
+          "sentence": "事故的消息驚醒了他。",
+          "pinyin": "shìgù de xiāoxī jīngxǐngle tā.",
+          "en": "The news of the accident woke him up.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "已然",
       "pinyin": "yǐrán",
-      "english": "actually; already so",
-      "sentenceChinese": "當他趕到車站時，火車已然離去。",
-      "sentencePinyin": "Dāng tā gǎndào chēzhàn shí, huǒchē yǐrán líqù.",
-      "sentenceEnglish": "By the time he reached the station, the train had already left.",
-      "vietnamese": "đã như vậy, thực tế là",
-      "sentenceVietnamese": "Khi anh ấy đến ga, con tàu thực tế đã rời đi rồi."
+      "en": "actually; already so",
+      "vi": "đã như vậy, thực tế là",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "already",
+          "sentence": "事情已然是這樣了, 就不要再埋怨他了。",
+          "pinyin": "shìqingyǐrán shì zhèyàng le, jiù bùyào zài mányuàn tā le.",
+          "en": "It’s already so. Do not blame him any more.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "already",
+          "sentence": "生活安排已然無虞。",
+          "pinyin": "shēng huó ān pái yǐ rán wú yú",
+          "en": "Living arrangements are already all taken care of.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "have already become a fact",
+          "sentence": "與其補救於已然, 不如防患於未然。",
+          "pinyin": "yǔ qǐ bǔ jiù yú yǐ rán, bù rú fáng huàn yú wèi rán.",
+          "en": "To forestall is better than to amend. or Prevention is better than cure.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "失根",
       "pinyin": "shīgēn",
-      "english": "to lose one's roots",
-      "sentenceChinese": "許多移民在異國他鄉常有失根的感覺。",
-      "sentencePinyin": "Xǔduō yímín zài yìguó tāxiāng cháng yǒu shīgēn de gǎnjué.",
-      "sentenceEnglish": "Many immigrants often feel like they have lost their roots in a foreign land.",
-      "vietnamese": "mất gốc",
-      "sentenceVietnamese": "Rất nhiều người di cư nơi đất khách thường có cảm giác bị mất gốc."
+      "en": "to lose one's roots",
+      "vi": "mất gốc",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "root (of a plant)",
+          "sentence": "滅草必須從根消滅。",
+          "pinyin": "miè cǎo bìxū cóng gēn xiāomiè.",
+          "en": "Weeds must be eradicated at their root.",
+          "vi": "Diệt cỏ phải diệt tận gốc."
+        },
+        {
+          "type": "noun",
+          "meaning": "root (of a plant)",
+          "sentence": "這棵樹的根很大。",
+          "pinyin": "zhè kē shù de gēn hěn dà.",
+          "en": "The tree has very large roots.",
+          "vi": "Rễ của cây này rất to."
+        },
+        {
+          "type": "adverb",
+          "meaning": "thoroughly; completely; entirely",
+          "sentence": "這個病很難被根治。",
+          "pinyin": "zhège bìng hěn nán bèi gēnzhì.",
+          "en": "This disease is very difficult to cure completely.",
+          "vi": "Bệnh này rất khó được trị tận gốc."
+        },
+        {
+          "type": "adverb",
+          "meaning": "thoroughly; completely; entirely",
+          "sentence": "必須根絕一切不良行為。",
+          "pinyin": "bìxū gēnjué yīqiè bùliáng xíngwéi.",
+          "en": "All bad behavior must be eradicated.",
+          "vi": "Phải loại bỏ triệt để mọi hành vi xấu."
+        },
+        {
+          "type": "measure word",
+          "meaning": "for slender objects.",
+          "sentence": "他買了一根香蕉。",
+          "pinyin": "tā mǎile yī gēn xiāngjiāo.",
+          "en": "He bought a banana.",
+          "vi": "Anh ấy mua một quả chuối."
+        },
+        {
+          "type": "measure word",
+          "meaning": "for slender objects.",
+          "sentence": "地上有一根頭髮/發。",
+          "pinyin": "dìshàng yǒuyī gēn tóufǎ.",
+          "en": "There is a hair on the ground.",
+          "vi": "Trên đất có một sợi tóc."
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "理所當然",
       "pinyin": "lǐsuǒ dāngrán",
-      "english": "take for granted; as it should be",
-      "sentenceChinese": "別把父母的付出視為理所當然。",
-      "sentencePinyin": "Bié bǎ fùmǔ de fùchū shìwéi lǐsuǒ dāngrán.",
-      "sentenceEnglish": "Don't take your parents' sacrifices for granted.",
-      "vietnamese": "lẽ dĩ nhiên",
-      "sentenceVietnamese": "Đừng xem những hy sinh của cha mẹ là lẽ dĩ nhiên."
+      "en": "take for granted; as it should be",
+      "vi": "lẽ dĩ nhiên",
+      "samples": [
+        {
+          "type": "Idiom",
+          "meaning": "of course; as a matter of course; naturally",
+          "sentence": "這本來就是理所當然的事。",
+          "pinyin": "zhè běnlái jiùshì lǐsuǒdāngrán de shì.",
+          "en": "This is a matter of course.",
+          "vi": "Đây vốn là chuyện đương nhiên."
+        },
+        {
+          "type": "Idiom",
+          "meaning": "of course; as a matter of course; naturally",
+          "sentence": "你竟然認為這是理所當然。",
+          "pinyin": "nǐ jìngrán rènwéi zhè shì lǐsuǒdāngrán.",
+          "en": "I can't believe you take this for granted.",
+          "vi": "Cậu lại cho rằng đây là chuyện đương nhiên."
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "依舊",
       "pinyin": "yījiù",
-      "english": "still; as before",
-      "sentenceChinese": "多年過去了，這條老街依舊熱鬧。",
-      "sentencePinyin": "Duōnián guòqù le, zhè tiáo lǎojiē yījiù rènào.",
-      "sentenceEnglish": "Many years have passed, and this old street is still as lively as ever.",
-      "vietnamese": "vẫn thế, y như cũ",
-      "sentenceVietnamese": "Nhiều năm trôi qua, con phố cổ này vẫn nhộn nhịp như xưa."
+      "en": "still; as before",
+      "vi": "vẫn thế, y như cũ",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "still; as before",
+          "sentence": "天氣依舊很冷。",
+          "pinyin": "tiānqì yījiù hěn lěng.",
+          "en": "The weather is still very cold.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "still; as before",
+          "sentence": "她依舊每天鍛煉身體。",
+          "pinyin": "tā yījiù měitiān duànliàn shēntǐ.",
+          "en": "She still exercises every day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "碧綠",
       "pinyin": "bìlǜ",
-      "english": "dark green; verdant",
-      "sentenceChinese": "湖水碧綠，清澈見底。",
-      "sentencePinyin": "Húshuǐ bìlǜ, qīngchè jiàndǐ.",
-      "sentenceEnglish": "The lake water is verdant and crystal clear.",
-      "vietnamese": "xanh biếc",
-      "sentenceVietnamese": "Nước hồ xanh biếc, trong vắt nhìn thấy đáy."
+      "en": "dark green; verdant",
+      "vi": "xanh biếc",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "jade green",
+          "sentence": "這隻青蛙是碧綠色的。",
+          "pinyin": "zhè zhī qīngwā shì bì lǜsè de.",
+          "en": "This frog is emerald green.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "jade green",
+          "sentence": "媽媽的手鐲碧綠碧綠的。",
+          "pinyin": "māma de shǒuzhuó bìlǜ bìlǜ de.",
+          "en": "Mom's bracelet is a vibrant emerald green.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "寧靜",
       "pinyin": "níngjìng",
-      "english": "peaceful; serene",
-      "sentenceChinese": "清晨的森林非常寧靜。",
-      "sentencePinyin": "Qīngchén de sēnlín fēicháng níngjìng.",
-      "sentenceEnglish": "The forest is very peaceful in the early morning.",
-      "vietnamese": "thanh bình, yên tĩnh",
-      "sentenceVietnamese": "Khu rừng vào buổi sáng sớm vô cùng yên tĩnh."
+      "en": "peaceful; serene",
+      "vi": "thanh bình, yên tĩnh",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "quiet; tranquil; peaceful",
+          "sentence": "這是一個甯靜的小鎮。",
+          "pinyin": "zhèshìyīgèníngjìngdexiǎozhèn.",
+          "en": "It's a peaceful and small town.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "quiet; tranquil; peaceful",
+          "sentence": "她過著十分甯靜的生活。",
+          "pinyin": "tāguòzhe shífēn níngjìng de shēnghuó.",
+          "en": "She lived a very peaceful life.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "住所",
       "pinyin": "zhùsuǒ",
-      "english": "residence; dwelling",
-      "sentenceChinese": "這棟公寓是他的臨時住所。",
-      "sentencePinyin": "Zhè dòng gōngyù shì tā de línshí zhùsuǒ.",
-      "sentenceEnglish": "This apartment is his temporary residence.",
-      "vietnamese": "nơi cư trú",
-      "sentenceVietnamese": "Tòa chung cư này là nơi cư trú tạm thời của anh ấy."
+      "en": "residence; dwelling",
+      "vi": "nơi cư trú",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "abode; domicile; residence; dwelling place",
+          "sentence": "我們迴到了上海的住所。",
+          "pinyin": "wǒmen huí dàole shànghǎi de zhùsuǒ.",
+          "en": "We returned to our residence in Shanghai.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "abode; domicile; residence; dwelling place",
+          "sentence": "他住在一處古老的住所。",
+          "pinyin": "tā zhù zài yī chù gǔlǎo de zhùsuǒ.",
+          "en": "He lives in an ancient residence.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "落地窗",
       "pinyin": "luòdìchuāng",
-      "english": "French window; floor-to-ceiling window",
-      "sentenceChinese": "客廳有一大面落地窗，採光很好。",
-      "sentencePinyin": "Kètīng yǒu yí dà miàn luòdìchuāng, cǎiguāng hěn hǎo.",
-      "sentenceEnglish": "The living room has a large floor-to-ceiling window, so the lighting is very good.",
-      "vietnamese": "cửa kính sát đất",
-      "sentenceVietnamese": "Phòng khách có một ô cửa kính sát đất lớn nên ánh sáng rất tốt."
+      "en": "French window; floor-to-ceiling window",
+      "vi": "cửa kính sát đất",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "french window",
+          "sentence": "我喜歡客廳的落地窗。",
+          "pinyin": "Wǒ xǐhuān kètīng de luò dì chuāng",
+          "en": "I like the living room's French windows.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "望見",
       "pinyin": "wàngjiàn",
-      "english": "to see; to catch sight of",
-      "sentenceChinese": "從窗戶望見，可以看到遠處的海景。",
-      "sentencePinyin": "Cóng chuānghu wàngjiàn, kěyǐ kàndào yuǎnchù de hǎijǐng.",
-      "sentenceEnglish": "Looking out from the window, you can see the distant sea view.",
-      "vietnamese": "nhìn thấy",
-      "sentenceVietnamese": "Nhìn ra từ cửa sổ có thể thấy được cảnh biển ở phía xa."
+      "en": "to see; to catch sight of",
+      "vi": "nhìn thấy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to spot",
+          "sentence": "我在山頂望見海麵。",
+          "pinyin": "Wǒ zài shān dǐng wàng jiàn hǎi miàn.",
+          "en": "I spotted the sea from the mountaintop.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "星空",
       "pinyin": "xīngkōng",
-      "english": "starry sky",
-      "sentenceChinese": "夏夜的星空非常燦爛。",
-      "sentencePinyin": "Xiàyè de xīngkōng fēicháng cànlàn.",
-      "sentenceEnglish": "The starry sky on a summer night is very brilliant.",
-      "vietnamese": "bầu trời sao",
-      "sentenceVietnamese": "Bầu trời sao đêm mùa hè vô cùng rực rỡ."
+      "en": "starry sky",
+      "vi": "bầu trời sao",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "starry sky; star-studded sky; starlit sky",
+          "sentence": "他仰望星空，心情甯靜。",
+          "pinyin": "tā yǎngwàng xīngkōng, xīnqíng níngjìng.",
+          "en": "He looked up at the starry sky, feeling peaceful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "starry sky; star-studded sky; starlit sky",
+          "sentence": "星空深邃，充滿神秘/祕。",
+          "pinyin": "xīngkōng shēnsuì, chōngmǎn shénmì.",
+          "en": "The starry sky is deep and mysterious.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "後院",
       "pinyin": "hòuyuàn",
-      "english": "backyard",
-      "sentenceChinese": "孩子們正在後院玩耍。",
-      "sentencePinyin": "Háizimen zhèngzài hòuyuàn wánshuǎ.",
-      "sentenceEnglish": "The children are playing in the backyard.",
-      "vietnamese": "sân sau",
-      "sentenceVietnamese": "Lũ trẻ đang chơi đùa ở sân sau."
+      "en": "backyard",
+      "vi": "sân sau",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "backyard (also fig.)",
+          "sentence": "你去後院看看。",
+          "pinyin": "nǐ qù hòuyuàn kànkàn",
+          "en": "Go look in the backyard.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "rear; inside",
+          "sentence": "我們在後院種了菜。",
+          "pinyin": "wǒ men zài hòu yuàn zhòng le cài",
+          "en": "We planted vegetables in the backyard.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "樹",
       "pinyin": "shù",
-      "english": "tree",
-      "sentenceChinese": "這棵老樹已經有上百年的歷史了。",
-      "sentencePinyin": "Zhè kē lǎoshù yǐjīng yǒu shàng bǎi nián de lìshǐ le.",
-      "sentenceEnglish": "This old tree has a history of over a hundred years.",
-      "vietnamese": "cây",
-      "sentenceVietnamese": "Cái cây cổ thụ này đã có lịch sử hơn trăm năm rồi."
+      "en": "tree",
+      "vi": "cây",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tree",
+          "sentence": "這是一棵大樹。",
+          "pinyin": "zhè shì yī kē dà shù.",
+          "en": "This is a big tree.",
+          "vi": "Đây là một cái cây lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "tree",
+          "sentence": "公園裡/裏有很多樹。",
+          "pinyin": "gōngyuán li yǒu hěnduō shù.",
+          "en": "There are many trees in the park.",
+          "vi": "Trong công viên có nhiều cây."
+        },
+        {
+          "type": "Verb",
+          "meaning": "plant; cultivate",
+          "sentence": "他在院子裡/裏樹了一棵蘋果樹。",
+          "pinyin": "tā zài yuànzi lǐ shùle yī kē píngguǒ shù.",
+          "en": "He planted an apple tree in the yard.",
+          "vi": "Anh ấy đã trồng một cây táo trong sân."
+        },
+        {
+          "type": "Verb",
+          "meaning": "plant; cultivate",
+          "sentence": "我們在公園裡/裏樹了很多花。",
+          "pinyin": "wǒmen zài gōngyuán lǐ shùle hěnduō huā.",
+          "en": "We planted many flowers in the park.",
+          "vi": "Chúng tôi đã trồng nhiều hoa trong công viên."
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "松鼠",
       "pinyin": "sōngshǔ",
-      "english": "squirrel",
-      "sentenceChinese": "公園裡常可以看到松鼠在樹上跳躍。",
-      "sentencePinyin": "Gōngyuán lǐ cháng kěyǐ kàndào sōngshǔ zài shù shàng tiàoyuè.",
-      "sentenceEnglish": "You can often see squirrels jumping in the trees in the park.",
-      "vietnamese": "con sóc",
-      "sentenceVietnamese": "Trong công viên thường có thể thấy sóc đang nhảy nhót trên cây."
+      "en": "squirrel",
+      "vi": "con sóc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "squirrel",
+          "sentence": "我看到一隻鬆鼠。",
+          "pinyin": "wǒ kàn dào yī zhī sōngshǔ.",
+          "en": "I saw a squirrel.",
+          "vi": "Tôi thấy một con sóc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "squirrel",
+          "sentence": "鬆鼠喜歡吃/喫堅果。",
+          "pinyin": "sōngshǔ xǐhuān chī jiānguǒ.",
+          "en": "Squirrels like to eat nuts.",
+          "vi": "Sóc thích ăn hạt."
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "麻雀",
       "pinyin": "máquè",
-      "english": "sparrow",
-      "sentenceChinese": "麻雀雖小，五臟俱全。",
-      "sentencePinyin": "Máquè suī xiǎo, wǔzàng jùquán.",
-      "sentenceEnglish": "A sparrow may be small, but it has all the vital organs (small but complete).",
-      "vietnamese": "chim sẻ",
-      "sentenceVietnamese": "Con chim sẻ tuy nhỏ nhưng nội tạng đều đầy đủ (nhỏ nhưng có võ)."
+      "en": "sparrow",
+      "vi": "chim sẻ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(house) sparrow",
+          "sentence": "麻雀喜歡在樹洞棲息。",
+          "pinyin": "máquè xǐhuān zài shù dòng qīxī.",
+          "en": "Sparrows like to rest in tree hollows.",
+          "vi": "Chim sẻ thích sống trong hốc cây."
+        },
+        {
+          "type": "Noun",
+          "meaning": "(house) sparrow",
+          "sentence": "我傢屋簷下有麻雀。",
+          "pinyin": "wǒjiā wūyán xià yǒu máquè.",
+          "en": "There are sparrows under the eaves of my house.",
+          "vi": "Dưới mái nhà tôi có chim sẻ."
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "嬉戲",
       "pinyin": "xīxì",
-      "english": "to play; to frolic",
-      "sentenceChinese": "小狗們在草地上開心地嬉戲。",
-      "sentencePinyin": "Xiǎogǒu men zài cǎodì shàng kāixīn de xīxì.",
-      "sentenceEnglish": "The puppies are frolicking happily on the grass.",
-      "vietnamese": "đùa vui",
-      "sentenceVietnamese": "Lũ chó con đang chơi đùa vui vẻ trên bãi cỏ."
+      "en": "to play; to frolic",
+      "vi": "đùa vui",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "play; sport; gambol",
+          "sentence": "湖麵上鴨群/羣在嬉戲。",
+          "pinyin": "hú miàn shàng yā qún zài xī xì.",
+          "en": "Ducks are sporting on the lake.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "play; sport; gambol",
+          "sentence": "仙女在瑤池間嬉戲。",
+          "pinyin": "Xiān nǚ zài Yáochí jiān xī xì.",
+          "en": "Immortal maidens play around the Jade Lake.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "具體",
       "pinyin": "jùtǐ",
-      "english": "concrete; specific",
-      "sentenceChinese": "請說明一下具體的執行計畫。",
-      "sentencePinyin": "Qǐng shuōmíng yíxià jùtǐ de zhíxíng jìhuà.",
-      "sentenceEnglish": "Please explain the specific implementation plan.",
-      "vietnamese": "cụ thể",
-      "sentenceVietnamese": "Vui lòng giải thích rõ kế hoạch thực thi cụ thể."
+      "en": "concrete; specific",
+      "vi": "cụ thể",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "specific; particular",
+          "sentence": "請告訴我具體的要求。",
+          "pinyin": "qǐng gàosù wǒ jùtǐ de yāoqiú.",
+          "en": "Please tell me the specific requirements.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "specific; particular",
+          "sentence": "她對具體細節很關註。",
+          "pinyin": "tā duì jùtǐ xìjié hěn guānzhù.",
+          "en": "She pays close attention to specific details.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "embody; objectify",
+          "sentence": "他的建議具體了我們的目標。",
+          "pinyin": "tā de jiànyì jùtǐle wǒmen de mùbiāo.",
+          "en": "His suggestions embodied our goals.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "embody; objectify",
+          "sentence": "計劃需要進一步具體到細節。",
+          "pinyin": "jìhuà xūyào jìnyībù jùtǐ dào xìjié.",
+          "en": "The plan needs to be further embodied in details.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "基隆",
       "pinyin": "Jīlóng",
-      "english": "Keelung (Taiwan)",
-      "sentenceChinese": "基隆是一座著名的港口城市。",
-      "sentencePinyin": "Jīlóng shì yí zuò zhùmíng de gǎngkǒu chéngshì.",
-      "sentenceEnglish": "Keelung is a famous port city.",
-      "vietnamese": "Cơ Long",
-      "sentenceVietnamese": "Cơ Long là một thành phố cảng nổi tiếng."
+      "en": "Keelung (Taiwan)",
+      "vi": "Cơ Long",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Chilung or Keelung, city and major port in north Taiwan",
+          "sentence": "我們週末去基隆看海。",
+          "pinyin": "Wǒmen zhōumò qù Jīlóng kàn hǎi.",
+          "en": "We're going to Keelung to see the sea this weekend.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "亞力山大",
       "pinyin": "Yǎlìshāndà",
-      "english": "Alexander",
-      "sentenceChinese": "亞力山大大帝是歷史上著名的軍事家。",
-      "sentencePinyin": "Yǎlìshāndà Dàdì shì lìshǐ shàng zhùmíng de jūnshìjiā.",
-      "sentenceEnglish": "Alexander the Great was a famous military strategist in history.",
-      "vietnamese": "Alexander",
-      "sentenceVietnamese": "Alexander Đại đế là một nhà quân sự lỗi lạc trong lịch sử."
+      "en": "Alexander",
+      "vi": "Alexander",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "energetically; vigorously",
+          "sentence": "她大力跳起來。",
+          "pinyin": "tā dàlì tiào qǐlái.",
+          "en": "She jumped up forcefully.",
+          "vi": "Cô ấy nhảy lên rất mạnh."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "energetically; vigorously",
+          "sentence": "他大力拉著我。",
+          "pinyin": "tā dàlì lāzhe wǒ.",
+          "en": "He tugged at me forcefully.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "great power",
+          "sentence": "他有大力氣。",
+          "pinyin": "tā yǒu dà lìqì.",
+          "en": "He is very strong.",
+          "vi": "Anh ấy có sức mạnh lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "great power",
+          "sentence": "我沒有大力氣。",
+          "pinyin": "wǒ méiyǒu dà lìqì.",
+          "en": "I don't have much strength.",
+          "vi": "Tôi không có sức mạnh lớn."
+        }
+      ]
     }
-  ],
-  "theme": "Where is My Hometown? (Nostalgia/Sense of Belonging)"
+  ]
 }

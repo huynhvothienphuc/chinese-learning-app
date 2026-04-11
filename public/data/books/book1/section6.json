@@ -7,452 +7,1258 @@
       "id": 1,
       "chinese": "他們",
       "pinyin": "tāmen",
-      "english": "they (used for people only)",
-      "sentenceChinese": "他們都是我的同學。",
-      "sentencePinyin": "Tāmen dōu shì wǒ de tóngxué.",
-      "sentenceEnglish": "They are all my classmates.",
-      "vietnamese": "họ",
-      "sentenceVietnamese": "Họ đều là bạn học của tôi."
+      "en": "they (used for people only)",
+      "vi": "họ",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "they; them",
+          "sentence": "他們是我的好朋友。",
+          "pinyin": "tāmen shì wǒ de hǎo péngyǒu.",
+          "en": "They are my good friends.",
+          "vi": "Họ là những người bạn tốt của tôi."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "they; them",
+          "sentence": "我怕他們聽不懂。",
+          "pinyin": "wǒ pà tāmen tīng bù dǒng.",
+          "en": "I'm afraid they do not understand.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "學校",
       "pinyin": "xuéxiào",
-      "english": "school",
-      "sentenceChinese": "我的學校在山下。",
-      "sentencePinyin": "Wǒ de xuéxiào zài shānxià.",
-      "sentenceEnglish": "My school is at the bottom of the mountain.",
-      "vietnamese": "trường học",
-      "sentenceVietnamese": "Trường học của tôi ở dưới núi."
+      "en": "school",
+      "vi": "trường học",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "school",
+          "sentence": "他今天沒去學校。",
+          "pinyin": "tā jīntiān méi qù xuéxiào.",
+          "en": "He didn't go to school today.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "school",
+          "sentence": "學校規定不許抽煙。",
+          "pinyin": "xuéxiào guīdìng bùxǔ chōuyān.",
+          "en": "The school rules forbid smoking.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "在",
       "pinyin": "zài",
-      "english": "to be located at",
-      "sentenceChinese": "老師不在辦公室。",
-      "sentencePinyin": "Lǎoshī bú zài bàngōngshì.",
-      "sentenceEnglish": "The teacher is not in the office.",
-      "vietnamese": "ở",
-      "sentenceVietnamese": "Thầy giáo không ở văn phòng."
+      "en": "to be located at",
+      "vi": "ở",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "exist; be alive",
+          "sentence": "你真倖福，父母都還在。",
+          "pinyin": "nǐ zhēn xìngfú, fùmǔ dōu hái zài.",
+          "en": "You are really fortunate; both of your parents are still alive.",
+          "vi": "Bạn thật hạnh phúc, bố mẹ đều còn sống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "exist; be alive",
+          "sentence": "那張照片現在還在。",
+          "pinyin": "nà zhāng zhàopiàn xiànzài hái zài.",
+          "en": "That photo still exists now.",
+          "vi": "Bức ảnh đó bây giờ vẫn còn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in process of; in course of",
+          "sentence": "姐姐在做功課。",
+          "pinyin": "jiějie zài zuò gōngkè.",
+          "en": "My elder sister is doing homework.",
+          "vi": "Chị đang làm bài tập."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in process of; in course of",
+          "sentence": "我在聽音樂呢。",
+          "pinyin": "wǒ zài tīng yīnyuè ne.",
+          "en": "I am listening to music.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "at; in; on (a place or time)",
+          "sentence": "我們在學校學習漢語。",
+          "pinyin": "wǒmen zài xuéxiào xuéxí hànyǔ.",
+          "en": "We study Chinese at school.",
+          "vi": "Chúng tôi học tiếng Trung ở trường."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "at; in; on (a place or time)",
+          "sentence": "火車在下午六點到達。",
+          "pinyin": "huǒchē zài xiàwǔ liù diǎn dàodá.",
+          "en": "The train arrives at 6 PM.",
+          "vi": "Tàu hỏa đến vào lúc 6 giờ chiều."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "山上",
       "pinyin": "shānshàng",
-      "english": "on a mountain, in the mountains",
-      "sentenceChinese": "山上有很多樹。",
-      "sentencePinyin": "Shānshàng yǒu hěnduō shù.",
-      "sentenceEnglish": "There are many trees on the mountain.",
-      "vietnamese": "trên núi",
-      "sentenceVietnamese": "Trên núi có rất nhiều cây."
+      "en": "on a mountain, in the mountains",
+      "vi": "trên núi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "on the mountain",
+          "sentence": "山上的空氣很清新。",
+          "pinyin": "shānshàng de kōngqì hěn qīngxīn.",
+          "en": "The air on the mountain is very fresh.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "on the mountain",
+          "sentence": "山上有很多美麗的花。",
+          "pinyin": "shānshàng yǒu hěnduō měilì de huā.",
+          "en": "There are many beautiful flowers on the mountain.",
+          "vi": "Trên núi có rất nhiều hoa đẹp."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "哪裡",
       "pinyin": "nǎlǐ",
-      "english": "where",
-      "sentenceChinese": "你的家在哪裡？",
-      "sentencePinyin": "Nǐ de jiā zài nǎlǐ?",
-      "sentenceEnglish": "Where is your home?",
-      "vietnamese": "đâu, ở đâu",
-      "sentenceVietnamese": "Nhà của bạn ở đâu?"
+      "en": "where",
+      "vi": "đâu, ở đâu",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "where",
+          "sentence": "這條路通往哪裡/裏？",
+          "pinyin": "zhè tiáo lù tōng wǎng nǎlǐ?",
+          "en": "Where does this road lead to?",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "where",
+          "sentence": "你知道她在哪裡/裏嗎？",
+          "pinyin": "nǐ zhīdào tā zài nǎlǐ ma?",
+          "en": "Do you know where she is?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "遠",
       "pinyin": "yuǎn",
-      "english": "far",
-      "sentenceChinese": "這裡離海邊很遠。",
-      "sentencePinyin": "Zhèlǐ lí hǎibiān hěn yuǎn.",
-      "sentenceEnglish": "This place is very far from the seaside.",
-      "vietnamese": "xa",
-      "sentenceVietnamese": "Nơi này cách bờ biển rất xa."
+      "en": "far",
+      "vi": "xa",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "far (in time or space); distant; remote",
+          "sentence": "廣州離北京很遠。",
+          "pinyin": "guǎngzhōu lí běijīng hěn yuǎn.",
+          "en": "Guangzhou is far from Beijing.",
+          "vi": "Quảng châu cách bắc kinh rất xa."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "far (in time or space); distant; remote",
+          "sentence": "我傢離學校很遠。",
+          "pinyin": "wǒjiā lí xuéxiào hěn yuǎn.",
+          "en": "My home is far from the school.",
+          "vi": "Nhà tôi cách trường rất xa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "keep away from",
+          "sentence": "他對噁人敬而遠之。",
+          "pinyin": "tā duì èrén jìng'éryuǎnzhī.",
+          "en": "He respects but keeps away from bad people.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "keep away from",
+          "sentence": "我們應當遠小人。",
+          "pinyin": "wǒmen yīngdāng yuǎn xiǎo rén.",
+          "en": "We should keep away from vile people.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "遠先生來自北京。",
+          "pinyin": "Yuǎn xiānshēng láizì běijīng.",
+          "en": "Mr. Yuan is from Beijing.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "你認識遠小姐嗎？",
+          "pinyin": "nǐ rènshi Yuǎn xiǎojiě ma?",
+          "en": "Do you know Miss Yuan?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "那裡",
       "pinyin": "nàlǐ",
-      "english": "that place, there",
-      "sentenceChinese": "那裡有一家商店。",
-      "sentencePinyin": "Nàlǐ yǒu yì jiā shāngdiàn.",
-      "sentenceEnglish": "There is a shop over there.",
-      "vietnamese": "chỗ đó, kia",
-      "sentenceVietnamese": "Chỗ đó có một cửa hàng."
+      "en": "that place, there",
+      "vi": "chỗ đó, kia",
+      "samples": [
+        {
+          "type": "n, pro",
+          "meaning": "there; that place",
+          "sentence": "我想及早趕到那裡/裏，免得擁擠。",
+          "pinyin": "wǒ xiǎng jízǎo gǎn dào nàlǐ, miǎndé yǒngjǐ.",
+          "en": "I want to get there early to avoid the crowds.",
+          "vi": ""
+        },
+        {
+          "type": "n, pro",
+          "meaning": "there; that place",
+          "sentence": "我希望我們及時到達那裡/裏。",
+          "pinyin": "wǒ xīwàng wǒmen jíshí dàodá nàlǐ.",
+          "en": "I hope we get there in time.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "風景",
       "pinyin": "fēngjǐng",
-      "english": "scenery, landscape",
-      "sentenceChinese": "那裡的風景非常美。",
-      "sentencePinyin": "Nàlǐ de fēngjǐng fēicháng měi.",
-      "sentenceEnglish": "The scenery there is extremely beautiful.",
-      "vietnamese": "phong cảnh",
-      "sentenceVietnamese": "Phong cảnh ở đó vô cùng đẹp."
+      "en": "scenery, landscape",
+      "vi": "phong cảnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "scenery; landscape",
+          "sentence": "這個地方風景很美。",
+          "pinyin": "zhège dìfāng fēngjǐng hěn měi.",
+          "en": "The scenery here is beautiful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "scenery; landscape",
+          "sentence": "我喜歡看山間風景。",
+          "pinyin": "wǒ xǐhuān kàn shān jiān fēngjǐng.",
+          "en": "I enjoy watching mountain scenery.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "美",
       "pinyin": "měi",
-      "english": "beautiful",
-      "sentenceChinese": "這件衣服很美。",
-      "sentencePinyin": "Zhè jiàn yīfú hěn měi.",
-      "sentenceEnglish": "This piece of clothing is beautiful.",
-      "vietnamese": "đẹp",
-      "sentenceVietnamese": "Bộ quần áo này rất đẹp."
+      "en": "beautiful",
+      "vi": "đẹp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "beauty (opp. 丑)",
+          "sentence": "美醜",
+          "pinyin": "měi-chǒu",
+          "en": "Beauty and ugliness",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "beauty (opp. 丑)",
+          "sentence": "心靈美",
+          "pinyin": "xīnlíngměi",
+          "en": "Inner beauty",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "beautify; prettify",
+          "sentence": "我們要美化校園。",
+          "pinyin": "wǒmen yào měihuà xiàoyuán.",
+          "en": "We want to beautify the campus.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "beautify; prettify",
+          "sentence": "他想美化這條街道。",
+          "pinyin": "tā xiǎng měihuà zhè tiáo jiēdào.",
+          "en": "He wants to beautify this street.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "beautiful; pretty (opp. 丑)",
+          "sentence": "風景多美啊！",
+          "pinyin": "Fēngjǐng duō měi a!",
+          "en": "What beautiful scenery!",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "beautiful; pretty (opp. 丑)",
+          "sentence": "她長得很美。",
+          "pinyin": "Tā zhǎng de hěn měi.",
+          "en": "She’s very pretty.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "前面",
       "pinyin": "qiánmiàn",
-      "english": "front",
-      "sentenceChinese": "學校前面有一家商店。",
-      "sentencePinyin": "Xuéxiào qiánmiàn yǒu yì jiā shāngdiàn.",
-      "sentenceEnglish": "There is a shop in front of the school.",
-      "vietnamese": "phía trước",
-      "sentenceVietnamese": "Phía trước trường học có một cửa hàng."
+      "en": "front",
+      "vi": "phía trước",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "前麵有一傢商店。",
+          "pinyin": "qiánmiàn yǒu yījiā shāngdiàn.",
+          "en": "There is a shop in front.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "前麵是中醫醫院。",
+          "pinyin": "qiánmiàn shì zhōngyī yīyuàn.",
+          "en": "There is a traditional Chinese medicine hospital ahead.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "海",
       "pinyin": "hǎi",
-      "english": "ocean",
-      "sentenceChinese": "海邊的風景很美。",
-      "sentencePinyin": "Hǎibiān de fēngjǐng hěn měi.",
-      "sentenceEnglish": "The scenery by the seaside is beautiful.",
-      "vietnamese": "biển",
-      "sentenceVietnamese": "Phong cảnh bên bờ biển rất đẹp."
+      "en": "ocean",
+      "vi": "biển",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sea; big lake",
+          "sentence": "這個海港很繁忙。",
+          "pinyin": "zhège hǎigǎng hěn fánmáng.",
+          "en": "This seaport is very busy.",
+          "vi": "Cảng biển này rất nhộn nhịp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sea; big lake",
+          "sentence": "渤海是中國的內海。",
+          "pinyin": "bóhǎi shì zhōngguó de nèihǎi.",
+          "en": "The Bohai Sea is an inland sea of China.",
+          "vi": "Bột Hải là vùng biển nội địa của Trung Quốc."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "extra large; of great capacity",
+          "sentence": "這個海碗裝得下很多東西。",
+          "pinyin": "zhège hǎiwǎn zhuāng de xià hěnduō dōngxi.",
+          "en": "This large bowl can hold a lot of things.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "extra large; of great capacity",
+          "sentence": "他做的海報吸引了很多人。",
+          "pinyin": "tā zuò de hǎibào xīyǐnle hěnduō rén.",
+          "en": "The poster he made attracted many people.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "randomly; aimlessly",
+          "sentence": "他們海吃/喫海喝了一天。",
+          "pinyin": "tāmen hǎi chī hǎi hēle yītiān.",
+          "en": "They ate and drank excessively all day.",
+          "vi": "Họ ăn uống buông tuồng cả ngày."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "randomly; aimlessly",
+          "sentence": "他海花錢，生活奢侈。",
+          "pinyin": "tā hǎi huā qián, shēnghuó shēchǐ.",
+          "en": "He spends money extravagantly and lives a luxurious life.",
+          "vi": "Anh ấy tiêu tiền phóng túng, sống xa hoa."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "後面",
       "pinyin": "hòumiàn",
-      "english": "back",
-      "sentenceChinese": "學校後面是山。",
-      "sentencePinyin": "Xuéxiào hòumiàn shì shān.",
-      "sentenceEnglish": "Behind the school is a mountain.",
-      "vietnamese": "phía sau",
-      "sentenceVietnamese": "Phía sau trường học là núi."
+      "en": "back",
+      "vi": "phía sau",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "back; rear",
+          "sentence": "房子後麵有一個花園。",
+          "pinyin": "fángzi hòumiàn yǒu yīgè huāyuán.",
+          "en": "There is a garden behind the house.",
+          "vi": "Phía sau nhà có một vườn hoa."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "back; rear",
+          "sentence": "書架後麵有個盒子。",
+          "pinyin": "shūjià hòumiàn yǒu gè hézi.",
+          "en": "There is a box behind the bookshelf.",
+          "vi": "Phía sau giá sách có một chiếc hộp."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "山",
       "pinyin": "shān",
-      "english": "mountain",
-      "sentenceChinese": "那座山很高。",
-      "sentencePinyin": "Nà zuò shān hěn gāo.",
-      "sentenceEnglish": "That mountain is very high.",
-      "vietnamese": "núi",
-      "sentenceVietnamese": "Ngọn núi đó rất cao."
+      "en": "mountain",
+      "vi": "núi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hill; massif; mountain",
+          "sentence": "我愛那高山。",
+          "pinyin": "wǒ ài nà gāoshān.",
+          "en": "I love that high mountain.",
+          "vi": "Tôi yêu núi cao đó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hill; massif; mountain",
+          "sentence": "那座山很高。",
+          "pinyin": "nà zuò shān hěn gāo.",
+          "en": "That mountain is very high.",
+          "vi": "Ngọn núi đó rất cao."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "真的",
       "pinyin": "zhēnde",
-      "english": "really, truly",
-      "sentenceChinese": "那是真的嗎？",
-      "sentencePinyin": "Nà shì zhēnde ma?",
-      "sentenceEnglish": "Is that true?",
-      "vietnamese": "thật sự",
-      "sentenceVietnamese": "Đó là thật sao?"
+      "en": "really, truly",
+      "vi": "thật sự",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "really",
+          "sentence": "莫非真的戒酒了?",
+          "pinyin": "mòfēi zhēn de jiè jiǔle?",
+          "en": "Could it be that (he/she) has really quit drinking?",
+          "vi": "Chẳng lẽ đã cai rượu thật rồi sao?"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really",
+          "sentence": "這事真的髮/發生了？",
+          "pinyin": "zhè shì zhēn de fāshēng le?",
+          "en": "Did this really happen?",
+          "vi": "Việc này thật sự đã xảy ra ư?"
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "地方",
       "pinyin": "dìfāng",
-      "english": "place",
-      "sentenceChinese": "這是一個好地方。",
-      "sentencePinyin": "Zhè shì yí ge hǎo dìfāng.",
-      "sentenceEnglish": "This is a good place.",
-      "vietnamese": "nơi, địa điểm",
-      "sentenceVietnamese": "Đây là một nơi tốt."
+      "en": "place",
+      "vi": "nơi, địa điểm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "district; locality",
+          "sentence": "中央工業和地方工業衕時併舉。",
+          "pinyin": "zhōngyāng gōngyè hé dìfāng gōngyè tóngshí bìngjǔ.",
+          "en": "Central and local industries are developed simultaneously.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "district; locality",
+          "sentence": "這個工程和新的橋是地方管理。",
+          "pinyin": "zhège gōngchéng hé xīn de qiáo shì dìfāng guǎnlǐ.",
+          "en": "This project and the new bridge are managed at the local level.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "現在",
       "pinyin": "xiànzài",
-      "english": "now",
-      "sentenceChinese": "現在幾點？",
-      "sentencePinyin": "Xiànzài jǐ diǎn?",
-      "sentenceEnglish": "What time is it now?",
-      "vietnamese": "bây giờ",
-      "sentenceVietnamese": "Bây giờ là mấy giờ?"
+      "en": "now",
+      "vi": "bây giờ",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "now; at present; nowadays",
+          "sentence": "你現在幹什麼？",
+          "pinyin": "nǐ xiànzài gànshénme?",
+          "en": "What are you doing now?",
+          "vi": "Bây giờ bạn đang làm gì?"
+        },
+        {
+          "type": "n, time",
+          "meaning": "now; at present; nowadays",
+          "sentence": "現在霧很大。",
+          "pinyin": "xiànzài wù hěn dà.",
+          "en": "It's quite foggy now.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "附近",
       "pinyin": "fùjìn",
-      "english": "vicinity, near",
-      "sentenceChinese": "我家附近沒有游泳池。",
-      "sentencePinyin": "Wǒ jiā fùjìn méiyǒu yóuyǒngchí.",
-      "sentenceEnglish": "There is no swimming pool near my house.",
-      "vietnamese": "vùng lân cận / gần đây",
-      "sentenceVietnamese": "Gần nhà tôi không có hồ bơi."
+      "en": "vicinity, near",
+      "vi": "vùng lân cận / gần đây",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "nearby; neighbouring",
+          "sentence": "附近居民都很友好。",
+          "pinyin": "fùjìn jūmín dōu hěn yǒuhǎo.",
+          "en": "The people who live nearby are very friendly.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "nearby; neighbouring",
+          "sentence": "我喜歡在附近的公園散步。",
+          "pinyin": "wǒ xǐhuan zài fùjìn de gōngyuán sànbù.",
+          "en": "I like to take a walk in the park nearby.",
+          "vi": "Tôi thích đi dạo ở công viên gần đây."
+        },
+        {
+          "type": "Noun",
+          "meaning": "vicinity; neighbourhood",
+          "sentence": "我不喜歡住在廣場附近。",
+          "pinyin": "wǒ bù xǐhuan zhù zài guǎngchǎng fùjìn.",
+          "en": "I don't like living near the plaza.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "vicinity; neighbourhood",
+          "sentence": "我們學校附近有很多飯館。",
+          "pinyin": "wǒmen xuéxiào fùjìn yǒu hěnduō fànguǎn.",
+          "en": "There are many restaurants near our school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "樓下",
       "pinyin": "lóuxià",
-      "english": "downstairs",
-      "sentenceChinese": "他在樓下等妳。",
-      "sentencePinyin": "Tā zài lóuxià děng nǐ.",
-      "sentenceEnglish": "He is waiting for you downstairs.",
-      "vietnamese": "dưới lầu",
-      "sentenceVietnamese": "Anh ấy đang đợi bạn ở dưới lầu."
+      "en": "downstairs",
+      "vi": "dưới lầu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "downstairs",
+          "sentence": "請把這本書帶到樓下。",
+          "pinyin": "qǐng bǎ zhè běn shū dài dào lóu xià.",
+          "en": "Please bring this book downstairs.",
+          "vi": "Vui lòng mang cuốn sách này xuống tầng dưới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "downstairs",
+          "sentence": "孩子們在樓下玩遊戲。",
+          "pinyin": "háizimen zài lóu xià wán yóuxì.",
+          "en": "The children are playing games downstairs.",
+          "vi": "Các em nhỏ đang chơi ở tầng dưới."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "找",
       "pinyin": "zhǎo",
-      "english": "to meet, to see",
-      "sentenceChinese": "我要去辦公室找老師。",
-      "sentencePinyin": "Wǒ yào qù bàngōngshì zhǎo lǎoshī.",
-      "sentenceEnglish": "I'm going to the office to see the teacher.",
-      "vietnamese": "tìm / gặp",
-      "sentenceVietnamese": "Tôi đi đến văn phòng tìm thầy giáo."
+      "en": "to meet, to see",
+      "vi": "tìm / gặp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "look for; try to find; seek",
+          "sentence": "找到油田",
+          "pinyin": "zhǎodào yóutián",
+          "en": "Discover an oil field",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "want to see; call on; approach; ask for",
+          "sentence": "幹嗎不去找老楊幫忙？",
+          "pinyin": "Gànmá bù qù zhǎo lǎo yáng bāngmáng？",
+          "en": "Why not go and ask Lao Yang for help?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "朋友",
       "pinyin": "péngyǒu",
-      "english": "friend",
-      "sentenceChinese": "他是我的好朋友。",
-      "sentencePinyin": "Tā shì wǒ de hǎo péngyǒu.",
-      "sentenceEnglish": "He is my good friend.",
-      "vietnamese": "bạn bè",
-      "sentenceVietnamese": "Anh ấy là bạn tốt của tôi."
+      "en": "friend",
+      "vi": "bạn bè",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "friend",
+          "sentence": "他是我的好朋友。",
+          "pinyin": "tā shì wǒ de hǎo péngyou.",
+          "en": "He is my good friend.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "friend",
+          "sentence": "這是我的朋友湯姆。",
+          "pinyin": "zhè shì wǒ de péngyǒu tāngmǔ.",
+          "en": "This is my friend Tom.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "上課",
       "pinyin": "shàngkè",
-      "english": "to go to class",
-      "sentenceChinese": "我們九點上課。",
-      "sentencePinyin": "Wǒmen jiǔ diǎn shàngkè.",
-      "sentenceEnglish": "We have class at nine o'clock.",
-      "vietnamese": "đi học / lên lớp",
-      "sentenceVietnamese": "Chúng tôi lên lớp lúc 9 giờ."
+      "en": "to go to class",
+      "vi": "đi học / lên lớp",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "attend class; go to class; give a lesson",
+          "sentence": "我們每天都要按時上課。",
+          "pinyin": "wǒmen měitiān dōu yào ànshí shàngkè.",
+          "en": "We should attend classes on time every day.",
+          "vi": "Chúng tôi phải đến lớp đúng giờ mỗi ngày."
+        },
+        {
+          "type": "sv",
+          "meaning": "attend class; go to class; give a lesson",
+          "sentence": "我每天早上八點上課。",
+          "pinyin": "wǒ měitiān zǎoshang bā diǎn shàngkè.",
+          "en": "I attend classes at eight o'clock every morning.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "花蓮",
       "pinyin": "Huālián",
-      "english": "Hualien (city)",
-      "sentenceChinese": "花蓮的風景很美。",
-      "sentencePinyin": "Huālián de fēngjǐng hěn měi.",
-      "sentenceEnglish": "The scenery in Hualien is beautiful.",
-      "vietnamese": "Hoa Liên",
-      "sentenceVietnamese": "Phong cảnh ở Hoa Liên rất đẹp."
+      "en": "Hualien (city)",
+      "vi": "Hoa Liên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Hualien, city and county on the east coast of Taiwan",
+          "sentence": "我想去花蓮旅遊一下。",
+          "pinyin": "wǒ xiǎng qù huā lián lǚyóu yíxià",
+          "en": "I want to take a trip to Hualien.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "聽說",
       "pinyin": "tīngshuō",
-      "english": "hear that",
-      "sentenceChinese": "我聽說那裡的咖啡很好喝。",
-      "sentencePinyin": "Wǒ tīngshuō nàlǐ de kāfēi hěn hǎo hē.",
-      "sentenceEnglish": "I heard the coffee there is really good.",
-      "vietnamese": "nghe nói",
-      "sentenceVietnamese": "Tôi nghe nói cà phê ở đó rất ngon."
+      "en": "hear that",
+      "vi": "nghe nói",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be told; to hear of",
+          "sentence": "我聽説你搬傢了。",
+          "pinyin": "wǒ tīng shuō nǐ bānjiāle.",
+          "en": "I heard that you moved.",
+          "vi": "Tôi nghe nói bạn đã chuyển nhà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "be told; to hear of",
+          "sentence": "聽説那傢店打摺。",
+          "pinyin": "tīng shuō nà jiā diàn dǎzhé.",
+          "en": "I heard that store is having a sale.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "近",
       "pinyin": "jìn",
-      "english": "near",
-      "sentenceChinese": "超市離我家很近。",
-      "sentencePinyin": "Chāoshì lí wǒ jiā hěn jìn.",
-      "sentenceEnglish": "The supermarket is very near my house.",
-      "vietnamese": "gần",
-      "sentenceVietnamese": "Siêu thị rất gần nhà tôi."
+      "en": "near",
+      "vi": "gần",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "near; close",
+          "sentence": "他住得離學校很近。",
+          "pinyin": "tā zhù de lí xuéxiào hěn jìn.",
+          "en": "He lives very close to the school.",
+          "vi": "Anh ấy sống rất gần trường học."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "near; close",
+          "sentence": "那傢商店離這兒相當近。",
+          "pinyin": "nà jiā shāngdiàn lí zhèr xiāngdāng jìn.",
+          "en": "That shop is quite close to here.",
+          "vi": "Cửa hàng cách đây khá gần."
+        },
+        {
+          "type": "Verb",
+          "meaning": "approach; approximate; be close to",
+          "sentence": "他走近那扇門。",
+          "pinyin": "tā zǒu jìn nà shàn mén.",
+          "en": "He walked near that door.",
+          "vi": "Anh ấy đến gần cửa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "approach; approximate; be close to",
+          "sentence": "他們的興趣相近。",
+          "pinyin": "tāmen de xìngqù xiāngjìn.",
+          "en": "Their interests are similar.",
+          "vi": "Sở thích của họ gần giống nhau."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "方便",
       "pinyin": "fāngbiàn",
-      "english": "convenient",
-      "sentenceChinese": "住在宿舍很方便。",
-      "sentencePinyin": "Zhù zài sùshè hěn fāngbiàn.",
-      "sentenceEnglish": "Living in the dormitory is very convenient.",
-      "vietnamese": "tiện lợi",
-      "sentenceVietnamese": "Sống ở ký túc xá rất tiện lợi."
+      "en": "convenient",
+      "vi": "tiện lợi",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "convenient",
+          "sentence": "北京市的交通很方便。",
+          "pinyin": "běijīng shì de jiāotōng hěn fāngbiàn.",
+          "en": "The transportation in Beijing is very convenient.",
+          "vi": "Giao thông ở Bắc Kinh rất thuận tiện."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "convenient",
+          "sentence": "這裡/裏的生活非常方便。",
+          "pinyin": "zhèlǐ de shēnghuó fēicháng fāngbiàn.",
+          "en": "Life here is very convenient.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to go to the toilet",
+          "sentence": "我得去方便一下。",
+          "pinyin": "wǒ děi qù fāngbiàn yīxià.",
+          "en": "I need to go to the restroom.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to go to the toilet",
+          "sentence": "有誰要去方便嗎?",
+          "pinyin": "yǒu shéi yào qù fāngbiàn ma?",
+          "en": "Does anyone need to go to the restroom?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "convenience",
+          "sentence": "手機給我們帶來了方便。",
+          "pinyin": "shǒujī gěi wǒmen dài láile fāngbiàn.",
+          "en": "Mobile phones have brought us convenience.",
+          "vi": "Điện thoại di động mang lại sự thuận tiện cho chúng ta."
+        },
+        {
+          "type": "Noun",
+          "meaning": "convenience",
+          "sentence": "行個方便，請您讓一下。",
+          "pinyin": "xíng gè fāngbiàn, qǐng nín ràng yīxià.",
+          "en": "Would you please make way for me?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "這裡",
       "pinyin": "zhèlǐ",
-      "english": "here, this place",
-      "sentenceChinese": "這裡有很多好吃的餐廳。",
-      "sentencePinyin": "Zhèlǐ yǒu hěnduō hǎochī de cāntīng.",
-      "sentenceEnglish": "There are many delicious restaurants here.",
-      "vietnamese": "ở đây / nơi này",
-      "sentenceVietnamese": "Ở đây có rất nhiều nhà hàng ngon."
+      "en": "here, this place",
+      "vi": "ở đây / nơi này",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "here",
+          "sentence": "請在這裡/裏籤名。",
+          "pinyin": "qǐng zài zhèlǐ qiānmíng.",
+          "en": "Please sign here.",
+          "vi": "Vui lòng ký tên tại đây."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "here",
+          "sentence": "這裡/裏的風景很美。",
+          "pinyin": "zhèlǐ de fēngjǐng hěn měi.",
+          "en": "The scenery here is very beautiful.",
+          "vi": "Cảnh vật ở đây rất đẹp."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "學生",
       "pinyin": "xuéshēng",
-      "english": "student",
-      "sentenceChinese": "他是這所學校的學生。",
-      "sentencePinyin": "Tā shì zhè suǒ xuéxiào de xuéshēng.",
-      "sentenceEnglish": "He is a student of this school.",
-      "vietnamese": "học sinh / sinh viên",
-      "sentenceVietnamese": "Anh ấy là sinh viên của ngôi trường này."
+      "en": "student",
+      "vi": "học sinh / sinh viên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pupil; student",
+          "sentence": "我們班有二十個學生。",
+          "pinyin": "wǒmen bān yǒu èrshí gè xuéshēng.",
+          "en": "There are twenty students in our class.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pupil; student",
+          "sentence": "我想找一個中國學生。",
+          "pinyin": "wǒ xiǎng zhǎo yīgè zhōngguó xuéshēng.",
+          "en": "I want to find a Chinese student.",
+          "vi": "Tôi cần tìm một học sinh Trung Quốc."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "在",
       "pinyin": "zài",
-      "english": "at",
-      "sentenceChinese": "他在家吃飯。",
-      "sentencePinyin": "Tā zài jiā chīfàn.",
-      "sentenceEnglish": "He is eating at home.",
-      "vietnamese": "tại / ở",
-      "sentenceVietnamese": "Anh ấy đang ăn cơm ở nhà."
+      "en": "at",
+      "vi": "tại / ở",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "exist; be alive",
+          "sentence": "你真倖福，父母都還在。",
+          "pinyin": "nǐ zhēn xìngfú, fùmǔ dōu hái zài.",
+          "en": "You are really fortunate; both of your parents are still alive.",
+          "vi": "Bạn thật hạnh phúc, bố mẹ đều còn sống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "exist; be alive",
+          "sentence": "那張照片現在還在。",
+          "pinyin": "nà zhāng zhàopiàn xiànzài hái zài.",
+          "en": "That photo still exists now.",
+          "vi": "Bức ảnh đó bây giờ vẫn còn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in process of; in course of",
+          "sentence": "姐姐在做功課。",
+          "pinyin": "jiějie zài zuò gōngkè.",
+          "en": "My elder sister is doing homework.",
+          "vi": "Chị đang làm bài tập."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in process of; in course of",
+          "sentence": "我在聽音樂呢。",
+          "pinyin": "wǒ zài tīng yīnyuè ne.",
+          "en": "I am listening to music.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "at; in; on (a place or time)",
+          "sentence": "我們在學校學習漢語。",
+          "pinyin": "wǒmen zài xuéxiào xuéxí hànyǔ.",
+          "en": "We study Chinese at school.",
+          "vi": "Chúng tôi học tiếng Trung ở trường."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "at; in; on (a place or time)",
+          "sentence": "火車在下午六點到達。",
+          "pinyin": "huǒchē zài xiàwǔ liù diǎn dàodá.",
+          "en": "The train arrives at 6 PM.",
+          "vi": "Tàu hỏa đến vào lúc 6 giờ chiều."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "東西",
       "pinyin": "dōngxi",
-      "english": "things, stuff",
-      "sentenceChinese": "他在商店買東西。",
-      "sentencePinyin": "Tā zài shāngdiàn mǎi dōngxi.",
-      "sentenceEnglish": "He is buying things at the store.",
-      "vietnamese": "đồ đạc / thứ",
-      "sentenceVietnamese": "Anh ấy đang mua đồ ở cửa hàng."
+      "en": "things, stuff",
+      "vi": "đồ đạc / thứ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "thing",
+          "sentence": "東西都放得亂七八糟。",
+          "pinyin": "dōngxi dōu fàng de luànqībāzāo.",
+          "en": "Everything is all over the place.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "thing",
+          "sentence": "天上那是什麼東西？",
+          "pinyin": "tiānshàng nà shì shénme dōngxi?",
+          "en": "What's that in the sky?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "外面",
       "pinyin": "wàimiàn",
-      "english": "outside",
-      "sentenceChinese": "外面在下雨。",
-      "sentencePinyin": "Wàimiàn zài xiàyǔ.",
-      "sentenceEnglish": "It is raining outside.",
-      "vietnamese": "bên ngoài",
-      "sentenceVietnamese": "Bên ngoài đang mưa."
+      "en": "outside",
+      "vi": "bên ngoài",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "the outside",
+          "sentence": "院子外麵有一條小河。",
+          "pinyin": "yuànzi wàimiàn yǒu yītiáo xiǎohé.",
+          "en": "There is a small river outside the yard.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "the outside",
+          "sentence": "窗戶外麵下著小雨。",
+          "pinyin": "chuānghù wàimiàn xiàzhe xiǎoyǔ.",
+          "en": "It was raining lightly outside the window.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "裡面",
       "pinyin": "lǐmiàn",
-      "english": "inside",
-      "sentenceChinese": "商店裡面有很多人。",
-      "sentencePinyin": "Shāngdiàn lǐmiàn yǒu hěnduō rén.",
-      "sentenceEnglish": "There are many people inside the store.",
-      "vietnamese": "bên trong",
-      "sentenceVietnamese": "Bên trong cửa hàng có rất nhiều người."
+      "en": "inside",
+      "vi": "bên trong",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "inside; interior",
+          "sentence": "箱子裡/裏麵有很多書。",
+          "pinyin": "xiāngzi lǐmiàn yǒu hěnduō shū.",
+          "en": "There are many books inside the box.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "inside; interior",
+          "sentence": "房子裡/裏麵很溫暖。",
+          "pinyin": "fángzi lǐmiàn hěn wēnnuǎn.",
+          "en": "It is warm inside the house.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "商店",
       "pinyin": "shāngdiàn",
-      "english": "store, shop",
-      "sentenceChinese": "這家商店賣很多東西。",
-      "sentencePinyin": "Zhè jiā shāngdiàn mài hěn duō dōngxi.",
-      "sentenceEnglish": "This store sells a lot of things.",
-      "vietnamese": "cửa hàng",
-      "sentenceVietnamese": "Cửa hàng này bán rất nhiều đồ."
+      "en": "store, shop",
+      "vi": "cửa hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "shop; store",
+          "sentence": "我在商店買了很多東西。",
+          "pinyin": "wǒ zài shāngdiàn mǎile hěnduō dōngxi.",
+          "en": "I bought a lot of things in the store.",
+          "vi": "Tôi ở cửa hàng mua rất nhiều đồ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "shop; store",
+          "sentence": "我傢附近有一個小商店。",
+          "pinyin": "wǒjiā fùjìn yǒu yīgè xiǎo shāngdiàn.",
+          "en": "There is a small store near my home.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "吃飯",
       "pinyin": "chīfàn",
-      "english": "to have a meal",
-      "sentenceChinese": "我們一起去吃飯吧。",
-      "sentencePinyin": "Wǒmen yìqǐ qù chīfàn ba.",
-      "sentenceEnglish": "Let's go have a meal together.",
-      "vietnamese": "ăn cơm",
-      "sentenceVietnamese": "Chúng ta cùng đi ăn cơm đi."
+      "en": "to have a meal",
+      "vi": "ăn cơm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "eat; have a meal",
+          "sentence": "你想去哪兒吃/喫飯？",
+          "pinyin": "nǐ xiǎng qù nǎr chīfàn?",
+          "en": "Where do you want to go to eat?",
+          "vi": "Bạn muốn đi đâu ăn cơm?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "eat; have a meal",
+          "sentence": "我們到外麵吃/喫飯吧。",
+          "pinyin": "wǒmen dào wàimiàn chīfàn ba.",
+          "en": "Let's eat outside.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "宿舍",
       "pinyin": "sùshè",
-      "english": "dormitory",
-      "sentenceChinese": "他在宿舍吃飯。",
-      "sentencePinyin": "Tā zài sùshè chīfàn.",
-      "sentenceEnglish": "He is eating in the dormitory.",
-      "vietnamese": "ký túc xá",
-      "sentenceVietnamese": "Anh ấy đang ăn cơm ở ký túc xá."
+      "en": "dormitory",
+      "vi": "ký túc xá",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "living quarters; dorm; diggings; hostel; dormitory",
+          "sentence": "我的宿捨在五樓。",
+          "pinyin": "wǒ de sùshè zài wǔ lóu.",
+          "en": "My dormitory is on the fifth floor.",
+          "vi": "Ký túc xá của tôi ở tầng năm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "living quarters; dorm; diggings; hostel; dormitory",
+          "sentence": "這是大學的宿捨。",
+          "pinyin": "zhè shì dàxué de sùshè.",
+          "en": "This is the university dormitory.",
+          "vi": "Đây là ký túc xá của trường đại học."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "樓",
       "pinyin": "lóu",
-      "english": "a storey, a floor",
-      "sentenceChinese": "這棟大樓有十層樓。",
-      "sentencePinyin": "Zhè dòng dàlóu yǒu shí céng lóu.",
-      "sentenceEnglish": "This building has ten floors.",
-      "vietnamese": "tầng",
-      "sentenceVietnamese": "Tòa nhà này có 10 tầng."
+      "en": "a storey, a floor",
+      "vi": "tầng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a storied building",
+          "sentence": "這座樓剛剛建成。",
+          "pinyin": "zhè zuò lóu gānggāng jiànchéng.",
+          "en": "This building has just been completed.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a storied building",
+          "sentence": "我住在這座樓裡/裏。",
+          "pinyin": "wǒ zhù zài zhè zuò lóu lǐ.",
+          "en": "I live in this building.",
+          "vi": "Tôi sống trong tòa nhà này."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "棟",
       "pinyin": "dòng",
-      "english": "measure word for buildings",
-      "sentenceChinese": "那棟大樓是宿舍。",
-      "sentencePinyin": "Nà dòng dàlóu shì sùshè.",
-      "sentenceEnglish": "That building is a dormitory.",
-      "vietnamese": "tòa (lượng từ)",
-      "sentenceVietnamese": "Tòa nhà đó là ký túc xá."
+      "en": "measure word for buildings",
+      "vi": "tòa (lượng từ)",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "ridgepole",
+          "sentence": "新屋的棟嶄新漂亮。",
+          "pinyin": "xīnwū de dòng zhǎnxīn piàoliang.",
+          "en": "The new ridgepole is brand new and beautiful.",
+          "vi": "Xà nhà mới sáng bóng đẹp đẽ."
+        },
+        {
+          "type": "noun",
+          "meaning": "ridgepole",
+          "sentence": "那屋的棟十分堅固。",
+          "pinyin": "nà wū de dòng shífēn jiāngù.",
+          "en": "That ridgepole is very sturdy.",
+          "vi": "Xà nhà kia rất chắc chắn."
+        },
+        {
+          "type": "measure word",
+          "meaning": "used to count houses, buildings",
+          "sentence": "這裡/裏有一棟小房子。",
+          "pinyin": "zhè li yǒuyī dòng xiǎo fángzǐ.",
+          "en": "There is a small house here.",
+          "vi": "Ở đây có một ngôi nhà nhỏ."
+        },
+        {
+          "type": "measure word",
+          "meaning": "used to count houses, buildings",
+          "sentence": "路邊有一棟舊樓房。",
+          "pinyin": "lù biān yǒuyī dòng jiù lóufáng.",
+          "en": "There is an old building by the roadside.",
+          "vi": "Bên đường có một tòa nhà cũ."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "大樓",
       "pinyin": "dàlóu",
-      "english": "a multi-storey building",
-      "sentenceChinese": "他在那棟大樓上班。",
-      "sentencePinyin": "Tā zài nà dòng dàlóu shàngbān.",
-      "sentenceEnglish": "He works in that building.",
-      "vietnamese": "tòa nhà / cao ốc",
-      "sentenceVietnamese": "Anh ấy làm việc ở tòa nhà đó."
+      "en": "a multi-storey building",
+      "vi": "tòa nhà / cao ốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "building; mansion",
+          "sentence": "這座大樓非常高。",
+          "pinyin": "zhè zuò dàlóu fēicháng gāo.",
+          "en": "This building is very tall.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "building; mansion",
+          "sentence": "大樓裡/裏有很多商店。",
+          "pinyin": "dàlóu li yǒu hěnduō shāngdiàn.",
+          "en": "There are many shops in the building.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "圖書館",
       "pinyin": "túshūguǎn",
-      "english": "library",
-      "sentenceChinese": "圖書館在教室旁邊。",
-      "sentencePinyin": "Túshūguǎn zài jiàoshì pángbiān.",
-      "sentenceEnglish": "The library is next to the classroom.",
-      "vietnamese": "thư viện",
-      "sentenceVietnamese": "Thư viện ở bên cạnh phòng học."
+      "en": "library",
+      "vi": "thư viện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "library",
+          "sentence": "圖書館的工作人員很熱情。",
+          "pinyin": "túshū guǎn de gōngzuò rényuán hěn rèqíng.",
+          "en": "The staff at the library are very friendly.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "library",
+          "sentence": "我們學校的圖書館很大。",
+          "pinyin": "wǒmen xuéxiào de túshū guǎn hěn dà.",
+          "en": "The library at our school is very large.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "旁邊",
       "pinyin": "pángbiān",
-      "english": "next to",
-      "sentenceChinese": "游泳池就在大樓旁邊。",
-      "sentencePinyin": "Yóuyǒngchí jiù zài dàlóu pángbiān.",
-      "sentenceEnglish": "The swimming pool is right next to the building.",
-      "vietnamese": "bên cạnh",
-      "sentenceVietnamese": "Hồ bơi nằm ngay bên cạnh tòa nhà."
+      "en": "next to",
+      "vi": "bên cạnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "side",
+          "sentence": "廚房在客廳的旁邊。",
+          "pinyin": "chúfáng zài kètīng de pángbiān.",
+          "en": "The kitchen is next to the living room.",
+          "vi": "Nhà bếp ở bên cạnh phòng khách."
+        },
+        {
+          "type": "Noun",
+          "meaning": "side",
+          "sentence": "我傢就在學校旁邊。",
+          "pinyin": "wǒjiā jiù zài xuéxiào pángbiān.",
+          "en": "My house is right next to the school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "教室",
       "pinyin": "jiàoshì",
-      "english": "classroom",
-      "sentenceChinese": "我們在教室上課。",
-      "sentencePinyin": "Wǒmen zài jiàoshì shàngkè.",
-      "sentenceEnglish": "We are having class in the classroom.",
-      "vietnamese": "phòng học",
-      "sentenceVietnamese": "Chúng tôi đang lên lớp ở phòng học."
+      "en": "classroom",
+      "vi": "phòng học",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "classroom; schoolroom",
+          "sentence": "教室的燈亮著。",
+          "pinyin": "jiàoshì de dēngliàngzhe.",
+          "en": "The classroom light is on.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "classroom; schoolroom",
+          "sentence": "那是我們的教室。",
+          "pinyin": "nà shì wǒmen de jiàoshì.",
+          "en": "That is our classroom.",
+          "vi": "Đó là phòng học của chúng tôi."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "游泳池",
       "pinyin": "yóuyǒngchí",
-      "english": "swimming pool",
-      "sentenceChinese": "學校裡有一個大游泳池。",
-      "sentencePinyin": "Xuéxiào lǐ yǒu yí ge dà yóuyǒngchí.",
-      "sentenceEnglish": "There is a large swimming pool in the school.",
-      "vietnamese": "hồ bơi",
-      "sentenceVietnamese": "Trong trường học có một cái hồ bơi lớn."
+      "en": "swimming pool",
+      "vi": "hồ bơi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "swimming pool",
+          "sentence": "我們去遊泳池吧。",
+          "pinyin": "wǒmen qù yóuyǒngchí ba.",
+          "en": "Let’s go to the swimming pool.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "swimming pool",
+          "sentence": "她喜歡在遊泳池遊泳。",
+          "pinyin": "tā xǐhuan zài yóuyǒngchí yóuyǒng.",
+          "en": "She likes to swim in the pool.",
+          "vi": ""
+        }
+      ]
     }
   ]
 }

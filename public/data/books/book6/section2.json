@@ -7,838 +7,2252 @@
       "id": 1,
       "chinese": "洞察",
       "pinyin": "dòngchá",
-      "english": "to perceive keenly; gain insight into",
-      "sentenceChinese": "他能敏銳地洞察市場的變化。",
-      "sentencePinyin": "Tā néng mǐnruì de dòngchá shìchǎng de biànhuà.",
-      "sentenceEnglish": "He can keenly perceive changes in the market.",
-      "vietnamese": "thấu hiểu, nhìn thấu",
-      "sentenceVietnamese": "Anh ấy có thể nhạy bén nhận ra những thay đổi của thị trường."
+      "en": "to perceive keenly; gain insight into",
+      "vi": "thấu hiểu, nhìn thấu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "discern; see clearly; have an insight into",
+          "sentence": "我能洞察到他的意圖。",
+          "pinyin": "wǒ néng dòngchá dào tā de yìtú.",
+          "en": "I can perceive his intentions.",
+          "vi": "Tôi có thể thấy rõ ý đồ của anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "discern; see clearly; have an insight into",
+          "sentence": "我們洞察了他的心情。",
+          "pinyin": "wǒmen dòngchále tā de xīnqíng.",
+          "en": "We perceived his feelings.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "鍥而不捨",
       "pinyin": "qiè'ér bùshě",
-      "english": "work unflaggingly; persevere",
-      "sentenceChinese": "只要鍥而不捨地努力，一定會成功。",
-      "sentencePinyin": "Zhǐyào qiè'ér bùshě de nǔlì, yídìng huì chénggōng.",
-      "sentenceEnglish": "As long as you work unflaggingly, you will surely succeed.",
-      "vietnamese": "kiên trì bền bỉ",
-      "sentenceVietnamese": "Chỉ cần nỗ lực kiên trì bền bỉ, nhất định sẽ thành công."
+      "en": "work unflaggingly; persevere",
+      "vi": "kiên trì bền bỉ",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "to do sth relentlessly; to persevere; to make unflagging effort",
+          "sentence": "成功的秘/祕訣在於鍥而不捨。",
+          "pinyin": "chénggōng de mìjué zàiyú qiè'érbùshě.",
+          "en": "The secret of success is patience.",
+          "vi": "Bí quyết thành công là kiên nhẫn."
+        },
+        {
+          "type": "idioms",
+          "meaning": "to do sth relentlessly; to persevere; to make unflagging effort",
+          "sentence": "他鍥而不捨地追求夢想。",
+          "pinyin": "tā qiè'érbùshě de zhuīqiú mèngxiǎng.",
+          "en": "He pursued his dream relentlessly.",
+          "vi": "Anh kiên nhẫn theo đuổi ước mơ."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "專精",
       "pinyin": "zhuānjīng",
-      "english": "specialized; expert in",
-      "sentenceChinese": "他在前端開發領域非常專精。",
-      "sentencePinyin": "Tā zài qiánduān kāifā lǐngyù fēicháng zhuānjīng.",
-      "sentenceEnglish": "He is highly specialized in the field of frontend development.",
-      "vietnamese": "tinh thông, chuyên sâu",
-      "sentenceVietnamese": "Anh ấy rất chuyên sâu trong lĩnh vực phát triển Frontend."
+      "en": "specialized; expert in",
+      "vi": "tinh thông, chuyên sâu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "refined; picked; choice",
+          "sentence": "她用精鹽調味菜餚。",
+          "pinyin": "tā yòng jīngyán tiáowèi càiyáo.",
+          "en": "She seasons the dishes with refined salt.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "refined; picked; choice",
+          "sentence": "這個菜需要加入精鹽。",
+          "pinyin": "zhège cài xūyào jiārù jīngyán.",
+          "en": "This dish requires the addition of refined salt.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely",
+          "sentence": "雨把衣服淋得精濕。",
+          "pinyin": "yǔ bǎ yīfu líndé jīngshī.",
+          "en": "The rain soaked his clothes through.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely",
+          "sentence": "那部電影精心製作。",
+          "pinyin": "nà bù diànyǐng jīngxīn zhìzuò.",
+          "en": "That movie was carefully made.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "開創",
       "pinyin": "kāichuàng",
-      "english": "to create; to start",
-      "sentenceChinese": "這家公司開創了新的商業模式。",
-      "sentencePinyin": "Zhè jiā gōngsī kāichuàng le xīn de shāngyè móshì.",
-      "sentenceEnglish": "This company created a new business model.",
-      "vietnamese": "sáng lập, mở ra",
-      "sentenceVietnamese": "Công ty này đã mở ra một mô hình kinh doanh mới."
+      "en": "to create; to start",
+      "vi": "sáng lập, mở ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "start; initiate; found; pioneer; set up",
+          "sentence": "我們要開創新模式。",
+          "pinyin": "wǒmen yào kāi chuàngxīn móshì.",
+          "en": "We are going to create a new model.",
+          "vi": "Chúng ta phải tạo ra mô hình mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "start; initiate; found; pioneer; set up",
+          "sentence": "他已開創新的産品線。",
+          "pinyin": "tā yǐ kāi chuàngxīn de chǎnpǐn xiàn.",
+          "en": "He has created a new product line.",
+          "vi": "Anh ấy đã mở ra dòng sản phẩm mới."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "契機",
       "pinyin": "qìjī",
-      "english": "opportunity; turning point",
-      "sentenceChinese": "這次危機反而成了公司轉型的契機。",
-      "sentencePinyin": "Zhè cì wēijī fǎn'ér chéng le gōngsī zhuǎnxíng de qìjī.",
-      "sentenceEnglish": "This crisis actually became a turning point for the company's transformation.",
-      "vietnamese": "cơ hội, bước ngoặt",
-      "sentenceVietnamese": "Cuộc khủng hoảng này ngược lại đã trở thành bước ngoặt cho sự chuyển đổi của công ty."
+      "en": "opportunity; turning point",
+      "vi": "cơ hội, bước ngoặt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "opportunity; turning point",
+          "sentence": "這次改變是契機。",
+          "pinyin": "zhè cì gǎibiàn shì qìjī.",
+          "en": "This change is a turning point.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "opportunity; turning point",
+          "sentence": "這場比賽是關鍵契機。",
+          "pinyin": "zhè chǎng bǐsài shì guānjiàn qìjī.",
+          "en": "This match is a key opportunity.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "未必",
       "pinyin": "wèibì",
-      "english": "not necessarily",
-      "sentenceChinese": "貴的產品品質未必是最好的。",
-      "sentencePinyin": "Guì de chǎnpǐn pǐnzhì wèibì shì zuì hǎo de.",
-      "sentenceEnglish": "Expensive products are not necessarily of the best quality.",
-      "vietnamese": "chưa hẳn",
-      "sentenceVietnamese": "Sản phẩm đắt tiền chưa hẳn chất lượng đã là tốt nhất."
+      "en": "not necessarily",
+      "vi": "chưa hẳn",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "not sure; may not; not necessarily",
+          "sentence": "他們未必會來參加會議。",
+          "pinyin": "tāmen wèibì huì lái cānjiā huìyì.",
+          "en": "They may not necessarily come to the meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "not sure; may not; not necessarily",
+          "sentence": "這件事未必如你所想。",
+          "pinyin": "zhè jiàn shì wèibì rú nǐ suǒ xiǎng.",
+          "en": "This matter may not be as you think.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "出發",
       "pinyin": "chūfā",
-      "english": "to proceed from; to start from",
-      "sentenceChinese": "我們應該從使用者的需求出發。",
-      "sentencePinyin": "Wǒmen yīnggāi cóng shǐyòngzhě de xūqiú chūfā.",
-      "sentenceEnglish": "We should proceed from the needs of the users.",
-      "vietnamese": "xuất phát từ",
-      "sentenceVietnamese": "Chúng ta nên xuất phát từ nhu cầu của người dùng."
+      "en": "to proceed from; to start from",
+      "vi": "xuất phát từ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "set out; start off; leave; depart",
+          "sentence": "我們明天早上齣髮/發。",
+          "pinyin": "wǒmen míngtiān zǎoshang chūfā.",
+          "en": "We will set off tomorrow morning.",
+          "vi": "Chúng tôi sẽ xuất phát vào sáng mai."
+        },
+        {
+          "type": "Verb",
+          "meaning": "set out; start off; leave; depart",
+          "sentence": "她已經齣髮/發去機場。",
+          "pinyin": "tā yǐjīng chūfā qù jīchǎng.",
+          "en": "She has already departed for the airport.",
+          "vi": "Cô ấy đã xuất phát đến sân bay."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "特殊",
       "pinyin": "tèshū",
-      "english": "special; extraordinary",
-      "sentenceChinese": "這種情況需要特殊的處理方法。",
-      "sentencePinyin": "Zhè zhǒng qíngkuàng xūyào tèshū de chǔlǐ fāngfǎ.",
-      "sentenceEnglish": "This situation requires a special handling method.",
-      "vietnamese": "đặc biệt",
-      "sentenceVietnamese": "Tình huống này cần một phương pháp xử lý đặc biệt."
+      "en": "special; extraordinary",
+      "vi": "đặc biệt",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "special; particular; peculiar; exceptional",
+          "sentence": "他的情況很特殊。",
+          "pinyin": "tā de qíngkuàng hěn tèshū.",
+          "en": "His situation is very special.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "special; particular; peculiar; exceptional",
+          "sentence": "我們要給予特殊的關心。",
+          "pinyin": "wǒmen yào jǐyǔ tèshū de guānxīn.",
+          "en": "We must take particular care.",
+          "vi": "Chúng ta phải dành sự quan tâm đặc biệt."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "群",
       "pinyin": "qún",
-      "english": "group of; crowd",
-      "sentenceChinese": "有一群志同道合的人一起創業很幸福。",
-      "sentencePinyin": "Yǒu yì qún zhìtóngdàohé de rén yìqǐ chuàngyè hěn xìngfú.",
-      "sentenceEnglish": "It's very happy to start a business with a group of like-minded people.",
-      "vietnamese": "nhóm, bầy",
-      "sentenceVietnamese": "Có một nhóm người cùng chí hướng khởi nghiệp cùng nhau thật là hạnh phúc."
+      "en": "group of; crowd",
+      "vi": "nhóm, bầy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "crowd; group",
+          "sentence": "廣場上有一大群/羣人。",
+          "pinyin": "guǎngchǎng shàng yǒuyī dàqún rén.",
+          "en": "There is a large crowd in the square.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "crowd; group",
+          "sentence": "這座城市有許多樓群/羣。",
+          "pinyin": "zhè zuò chéngshì yǒu xǔduō lóu qún.",
+          "en": "This city has many building complexes.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for people or animals] herd; flock; group",
+          "sentence": "一群/羣人在公園裡/裏跳舞。",
+          "pinyin": "yīqún rén zài gōngyuán lǐ tiàowǔ.",
+          "en": "A group of people is dancing in the park.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for people or animals] herd; flock; group",
+          "sentence": "一群/羣鳥飛過天空。",
+          "pinyin": "yīqún niǎo fēiguò tiānkōng.",
+          "en": "A flock of birds flew across the sky.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "legion",
+          "sentence": "他從小就博覽群/羣書。",
+          "pinyin": "tā cóngxiǎo jiù bólǎn qún shū.",
+          "en": "He has read extensively since childhood.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "legion",
+          "sentence": "我想去那些群/羣島旅行。",
+          "pinyin": "wǒ xiǎng qù nàxiē qúndǎo lǚxíng.",
+          "en": "I want to travel to those archipelagos.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "突發奇想",
       "pinyin": "tūfā qíxiǎng",
-      "english": "have a flash of inspiration",
-      "sentenceChinese": "他突發奇想，決定用不同的材料做實驗。",
-      "sentencePinyin": "Tā tūfā qíxiǎng, juédìng yòng bùtóng de cáiliào zuò shíyàn.",
-      "sentenceEnglish": "He had a flash of inspiration and decided to experiment with different materials.",
-      "vietnamese": "chợt nảy ra ý tưởng",
-      "sentenceVietnamese": "Anh ấy chợt nảy ra ý tưởng, quyết định dùng những vật liệu khác nhau để làm thí nghiệm."
+      "en": "have a flash of inspiration",
+      "vi": "chợt nảy ra ý tưởng",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "suddenly be inspired to do something; whims",
+          "sentence": "我突髮/發奇想開了個店。",
+          "pinyin": "Wǒ tū fā qí xiǎng kāi le gè diàn.",
+          "en": "I suddenly had the idea to open a shop.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "suddenly have a thought (idiom)",
+          "sentence": "我突髮/發奇想買了花。",
+          "pinyin": "wǒ tū fā qí xiǎng mǎi le huā",
+          "en": "I suddenly thought of buying flowers.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "原理",
       "pinyin": "yuánlǐ",
-      "english": "principle; theory",
-      "sentenceChinese": "這台機器的運作原理非常簡單。",
-      "sentencePinyin": "Zhè tái jīqì de yùnzuò yuánlǐ fēicháng jiǎndān.",
-      "sentenceEnglish": "The operating principle of this machine is very simple.",
-      "vietnamese": "nguyên lý",
-      "sentenceVietnamese": "Nguyên lý vận hành của chiếc máy này rất đơn giản."
+      "en": "principle; theory",
+      "vi": "nguyên lý",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tenet; axiom; theory; principle",
+          "sentence": "我們需要理解這個原理。",
+          "pinyin": "wǒmen xūyào lǐjiě zhège yuánlǐ.",
+          "en": "We need to understand this principle.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "tenet; axiom; theory; principle",
+          "sentence": "這個原理在科學中很重要。",
+          "pinyin": "zhège yuánlǐ zài kēxué zhōng hěn zhòngyào.",
+          "en": "This principle is very important in science.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "醫師",
       "pinyin": "yīshī",
-      "english": "doctor",
-      "sentenceChinese": "醫師建議他多休息。",
-      "sentencePinyin": "Yīshī jiànyì tā duō xiūxi.",
-      "sentenceEnglish": "The doctor suggested that he rest more.",
-      "vietnamese": "bác sĩ",
-      "sentenceVietnamese": "Bác sĩ khuyên anh ấy nên nghỉ ngơi nhiều hơn."
+      "en": "doctor",
+      "vi": "bác sĩ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(qualified) doctor; physician",
+          "sentence": "中醫師正在研製藥膏。",
+          "pinyin": "zhōngyī shī zhèngzài yánzhì yàogāo.",
+          "en": "The Chinese medicine doctor is preparing ointment.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(qualified) doctor; physician",
+          "sentence": "醫師傳下了古方子。",
+          "pinyin": "yī shī chuán xià le gǔ fāng zi",
+          "en": "The physician passed down an ancient formula.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "配",
       "pinyin": "pèi",
-      "english": "to get (glasses); to match",
-      "sentenceChinese": "我最近視力模糊，想去配一副新眼鏡。",
-      "sentencePinyin": "Wǒ zuìjìn shìlì móhu, xiǎng qù pèi yí fù xīn yǎnjìng.",
-      "sentenceEnglish": "My vision has been blurry lately, so I want to get a new pair of glasses.",
-      "vietnamese": "cắt kính; phối",
-      "sentenceVietnamese": "Dạo này thị lực của tôi bị mờ, tôi muốn đi cắt một cặp kính mới."
+      "en": "to get (glasses); to match",
+      "vi": "cắt kính; phối",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "join in marriage",
+          "sentence": "她們終於決定配對。",
+          "pinyin": "tāmen zhōngyú juédìng pèiduì.",
+          "en": "They finally decided to pair up.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "join in marriage",
+          "sentence": "他們已經配在一起了。",
+          "pinyin": "tāmen yǐjīng pèi zài yīqǐle.",
+          "en": "They are already matched together.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "spouse [usu. referring to a wife]",
+          "sentence": "他與配相親相愛。",
+          "pinyin": "tā yǔ pèi xiāngqīn xiāng'ài.",
+          "en": "He and she are a perfect match and love each other deeply.",
+          "vi": "Anh ấy và vợ rất yêu thương nhau."
+        },
+        {
+          "type": "Noun",
+          "meaning": "spouse [usu. referring to a wife]",
+          "sentence": "他們是很好的配。",
+          "pinyin": "tāmen shì hěn hǎo de pèi.",
+          "en": "They are a great match.",
+          "vi": "Người vợ của anh ấy rất chu đáo."
+        },
+        {
+          "type": "av",
+          "meaning": "suit; deserve; qualified",
+          "sentence": "他的品質不配當老師。",
+          "pinyin": "tā de pǐnzhì bù pèidāng lǎoshī.",
+          "en": "His character is not fit to be a teacher.",
+          "vi": "Nhân phẩm anh ta không xứng làm giáo viên."
+        },
+        {
+          "type": "av",
+          "meaning": "suit; deserve; qualified",
+          "sentence": "他配做這個職位的經理。",
+          "pinyin": "tā pèi zuò zhège zhíwèi de jīnglǐ.",
+          "en": "He is qualified to be the manager of this position.",
+          "vi": "Anh ấy phù hợp với vị trí quản lý này."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "suited",
+          "sentence": "這衣服和你性格很配。",
+          "pinyin": "zhè yīfu hé nǐ xìnggé hěn pèi.",
+          "en": "These clothes match your personality well.",
+          "vi": "Quần áo rất hợp với tính cách của bạn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "suited",
+          "sentence": "新傢具和舊裝飾很配。",
+          "pinyin": "xīn jiājù hé jiù zhuāngshì hěn pèi.",
+          "en": "The new furniture matches the old decorations well.",
+          "vi": "Nội thất mới và đồ trang trí cũ rất phù hợp."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "眼鏡",
       "pinyin": "yǎnjìng",
-      "english": "glasses",
-      "sentenceChinese": "戴上眼鏡後，世界變得清楚多了。",
-      "sentencePinyin": "Dàishàng yǎnjìng hòu, shìjiè biàndé qīngchǔ duō le.",
-      "sentenceEnglish": "After putting on glasses, the world became much clearer.",
-      "vietnamese": "mắt kính",
-      "sentenceVietnamese": "Sau khi đeo kính vào, thế giới trở nên rõ ràng hơn nhiều."
+      "en": "glasses",
+      "vi": "mắt kính",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "glasses; spectacles",
+          "sentence": "他戴著一副老光眼鏡。",
+          "pinyin": "tā dàizhe yī fù lǎo guāng yǎnjìng.",
+          "en": "He is wearing a pair of presbyopic glasses.",
+          "vi": "Ông ấy đeo một cặp kính lão."
+        },
+        {
+          "type": "Noun",
+          "meaning": "glasses; spectacles",
+          "sentence": "沒有眼鏡我看不清楚。",
+          "pinyin": "méiyǒu yǎnjìng wǒ kàn bù qīngchu.",
+          "en": "I can't see clearly without glasses.",
+          "vi": "Không có kính tôi nhìn không rõ."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "相對",
       "pinyin": "xiāngduì",
-      "english": "relatively",
-      "sentenceChinese": "這項任務相對來說比較簡單。",
-      "sentencePinyin": "Zhè xiàng rènwù xiāngduì láishuō bǐjiào jiǎndān.",
-      "sentenceEnglish": "This task is relatively simple.",
-      "vietnamese": "tương đối",
-      "sentenceVietnamese": "Nhiệm vụ này tương đối mà nói thì khá đơn giản."
+      "en": "relatively",
+      "vi": "tương đối",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "opposite; face to face",
+          "sentence": "我們兩個人四目相對。",
+          "pinyin": "wǒmen liǎng gèrén sì mù xiāngduì.",
+          "en": "The two of us locked eyes.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "opposite; face to face",
+          "sentence": "此次麵試相對輕鬆。",
+          "pinyin": "cǐ cì miànshì xiāngduì qīngsōng.",
+          "en": "The interview was relatively painless.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "relative (to given conditions)",
+          "sentence": "肉和魚相對較貴。",
+          "pinyin": "ròu hé yú xiāngduì jiào guì.",
+          "en": "Meat and fish are relatively expensive.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "relative (to given conditions)",
+          "sentence": "所需金額相對較小。",
+          "pinyin": "suǒ xū jīn'é xiāngduì jiào xiǎo.",
+          "en": "The sums needed are relatively small.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "窮困",
       "pinyin": "qióngkùn",
-      "english": "impoverished; poor",
-      "sentenceChinese": "他出生在一個窮困的農村。",
-      "sentencePinyin": "Tā chūshēng zài yí ge qióngkùn de nóngcūn.",
-      "sentenceEnglish": "He was born in an impoverished rural village.",
-      "vietnamese": "nghèo khổ",
-      "sentenceVietnamese": "Anh ấy sinh ra ở một vùng nông thôn nghèo khổ."
+      "en": "impoverished; poor",
+      "vi": "nghèo khổ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "poverty-stricken; destitute; in straitened circumstances",
+          "sentence": "一個被戰爭弄得窮睏的國傢。",
+          "pinyin": "yī gè bèi zhàn zhēng nòng dé qióng kùn de guó jiā",
+          "en": "A country impoverished by war",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "poverty-stricken; destitute; in straitened circumstances",
+          "sentence": "窮睏潦倒忍飢捱餓。",
+          "pinyin": "qióngkùn liáodǎo rěnjī ái'è",
+          "en": "Destitute and starving.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "任務",
       "pinyin": "rènwù",
-      "english": "mission; task",
-      "sentenceChinese": "我們必須在期限內完成這項任務。",
-      "sentencePinyin": "Wǒmen bìxū zài qīxiàn nèi wánchéng zhè xiàng rènwù.",
-      "sentenceEnglish": "We must complete this task within the deadline.",
-      "vietnamese": "nhiệm vụ",
-      "sentenceVietnamese": "Chúng ta phải hoàn thành nhiệm vụ này trong thời hạn."
+      "en": "mission; task",
+      "vi": "nhiệm vụ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "task; duty; mission; assignment",
+          "sentence": "她成功地完成了任務。",
+          "pinyin": "tā chénggōng de wánchéngle rènwù.",
+          "en": "She successfully completed the mission.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "task; duty; mission; assignment",
+          "sentence": "她正在努力完成任務。",
+          "pinyin": "tā zhèngzài nǔlì wánchéng rènwù.",
+          "en": "She is working hard to finish the task.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "估計",
       "pinyin": "gūjì",
-      "english": "to estimate",
-      "sentenceChinese": "我估計這項工程需要三個月的時間。",
-      "sentencePinyin": "Wǒ gūjì zhè xiàng gōngchéng xūyào sān ge yuè de shíjiān.",
-      "sentenceEnglish": "I estimate that this project will take three months.",
-      "vietnamese": "ước tính",
-      "sentenceVietnamese": "Tôi ước tính công trình này cần thời gian ba tháng."
+      "en": "to estimate",
+      "vi": "ước tính",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to reckon; to estimate",
+          "sentence": "我估計那項損失達8000元。",
+          "pinyin": "wǒ gūjì nà xiàng sǔnshī dá 8000 yuán.",
+          "en": "I estimate the damage at 8000 yuan.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to reckon; to estimate",
+          "sentence": "這次旅行的花費估計不會少。",
+          "pinyin": "zhè cì lǚxíng de huāfèi gūjì bù huì shǎo.",
+          "en": "The cost of this trip is estimated to be quite high.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "發明",
       "pinyin": "fāmíng",
-      "english": "to invent; invention",
-      "sentenceChinese": "愛迪生發明了電燈。",
-      "sentencePinyin": "Àidíshēng fāmíng le diàndēng.",
-      "sentenceEnglish": "Edison invented the light bulb.",
-      "vietnamese": "phát minh",
-      "sentenceVietnamese": "Edison đã phát minh ra đèn điện."
+      "en": "to invent; invention",
+      "vi": "phát minh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "invent",
+          "sentence": "這個工具是他髮/發明的。",
+          "pinyin": "zhège gōngjù shì tā fāmíng de.",
+          "en": "This tool was invented by him.",
+          "vi": "Dụng cụ này là do anh ấy phát minh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "invent",
+          "sentence": "我想髮/發明一種新方法。",
+          "pinyin": "wǒ xiǎng fāmíng yī zhǒng xīn fāngfǎ.",
+          "en": "I want to invent a new method.",
+          "vi": "Tôi muốn phát minh một phương pháp mới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "invention",
+          "sentence": "這個髮/發明很有用。",
+          "pinyin": "zhège fāmíng hěn yǒuyòng.",
+          "en": "This invention is very useful.",
+          "vi": "Phát minh này rất hữu ích."
+        },
+        {
+          "type": "Noun",
+          "meaning": "invention",
+          "sentence": "我喜歡這個髮/發明。",
+          "pinyin": "wǒ xǐhuān zhège fāmíng.",
+          "en": "I like this invention.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "自行",
       "pinyin": "zìxíng",
-      "english": "by oneself; of one's own accord",
-      "sentenceChinese": "這副眼鏡可以讓使用者自行調整度數。",
-      "sentencePinyin": "Zhè fù yǎnjìng kěyǐ ràng shǐyòngzhě zìxíng tiáozhěng dùshù.",
-      "sentenceEnglish": "These glasses allow users to adjust the prescription by themselves.",
-      "vietnamese": "tự mình",
-      "sentenceVietnamese": "Cặp kính này cho phép người dùng tự điều chỉnh độ cận."
+      "en": "by oneself; of one's own accord",
+      "vi": "tự mình",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "autonomously; by oneself",
+          "sentence": "他自行決定了這個問題。",
+          "pinyin": "tā zìxíng juédìngle zhège wèntí.",
+          "en": "He decided this issue by himself.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "autonomously; by oneself",
+          "sentence": "我們自行解決了問題。",
+          "pinyin": "wǒmen zìxíng jiějuéle wèntí.",
+          "en": "We solved the problem by ourselves.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "度數",
       "pinyin": "dùshù",
-      "english": "eyesight prescription; degree",
-      "sentenceChinese": "我的近視度數又增加了。",
-      "sentencePinyin": "Wǒ de jìnshì dùshù yòu zēngjiā le.",
-      "sentenceEnglish": "My nearsightedness prescription has increased again.",
-      "vietnamese": "độ (cận/viễn)",
-      "sentenceVietnamese": "Độ cận thị của tôi lại tăng rồi."
+      "en": "eyesight prescription; degree",
+      "vi": "độ (cận/viễn)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "number of degrees; reading",
+          "sentence": "那個錶上的度數是多少？",
+          "pinyin": "Nàge biǎo shàng de dùshu shì duōshao？",
+          "en": "What does that meter read?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "eyeglass prescription",
+          "sentence": "我的近視度數又加深了。",
+          "pinyin": "wǒ de jìn shì dù shù yòu jiā shēn le.",
+          "en": "My nearsighted prescription has deepened again.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "副",
       "pinyin": "fù",
-      "english": "measure word for glasses",
-      "sentenceChinese": "他在地攤買了一副便宜的太陽眼鏡。",
-      "sentencePinyin": "Tā zài dìtān mǎi le yí fù piányí de tàiyáng yǎnjìng.",
-      "sentenceEnglish": "He bought a cheap pair of sunglasses at a street stall.",
-      "vietnamese": "cặp, bộ",
-      "sentenceVietnamese": "Anh ấy đã mua một cặp kính râm rẻ tiền ở vỉa hè."
+      "en": "measure word for glasses",
+      "vi": "cặp, bộ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "assistant",
+          "sentence": "她做了主任的副手。",
+          "pinyin": "tā zuòle zhǔrèn de fùshǒu.",
+          "en": "She became the director's assistant.",
+          "vi": "Cô ấy trở thành trợ lý của chủ nhiệm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "assistant",
+          "sentence": "他是經理的副手。",
+          "pinyin": "tā shì jīnglǐ de fùshǒu.",
+          "en": "He is one of the manager's assistants.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "fit; correspond to",
+          "sentence": "這結果與預期相副。",
+          "pinyin": "zhè jiéguǒ yú yùqī xiāng fù.",
+          "en": "This result matches the expectation.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "fit; correspond to",
+          "sentence": "他的行為與言語不副。",
+          "pinyin": "tā de xíngwéi yǔ yányǔ bù fù.",
+          "en": "His actions do not correspond to his words.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "second in office; deputy; vice-",
+          "sentence": "找那位副機長來。",
+          "pinyin": "zhǎo nà wèi fù jī zhǎng lái.",
+          "en": "Find that co-pilot.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "second in office; deputy; vice-",
+          "sentence": "有個名副指揮在呢。",
+          "pinyin": "yǒu gè míng fù zhǐhuī zài ne.",
+          "en": "There is a deputy commander here.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for complete sets of items",
+          "sentence": "他戴著一副眼鏡。",
+          "pinyin": "tā dàizhe yī fù yǎnjìng.",
+          "en": "He wears a pair of glasses.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for complete sets of items",
+          "sentence": "他手裡/裏拿著一副撲剋。",
+          "pinyin": "tā shǒu lǐ názhe yī fù pūkè.",
+          "en": "He has a deck of cards in his hand.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "鏡片",
       "pinyin": "jìngpiàn",
-      "english": "lens",
-      "sentenceChinese": "鏡片髒了，需要擦乾淨。",
-      "sentencePinyin": "Jìngpiàn zāng le, xūyào cā gānjìng.",
-      "sentenceEnglish": "The lens is dirty and needs to be wiped clean.",
-      "vietnamese": "tròng kính",
-      "sentenceVietnamese": "Tròng kính bị bẩn rồi, cần phải lau sạch."
+      "en": "lens",
+      "vi": "tròng kính",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lens; eyeglass",
+          "sentence": "我的鏡片上有很多灰塵。",
+          "pinyin": "wǒ de jìngpiàn shàng yǒu hěnduō huīchén.",
+          "en": "There is a lot of dust on my lenses.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lens; eyeglass",
+          "sentence": "這副鏡片非常清晰耐用。",
+          "pinyin": "zhè fù jìngpiàn fēicháng qīngxī nàiyòng.",
+          "en": "These lenses are very clear and durable.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "充滿",
       "pinyin": "chōngmǎn",
-      "english": "filled with; full of",
-      "sentenceChinese": "這間教室充滿了孩子們的笑聲。",
-      "sentencePinyin": "Zhè jiān jiàoshì chōngmǎn le háizimen de xiàoshēng.",
-      "sentenceEnglish": "This classroom is filled with children's laughter.",
-      "vietnamese": "tràn đầy",
-      "sentenceVietnamese": "Căn phòng này tràn đầy tiếng cười của trẻ con."
+      "en": "filled with; full of",
+      "vi": "tràn đầy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fill",
+          "sentence": "整個教室充滿了歡呼聲。",
+          "pinyin": "zhěnggè jiàoshì chōngmǎnle huānhū shēng.",
+          "en": "The whole classroom was filled with cheers.",
+          "vi": "Cả lớp tràn ngập tiếng vỗ tay."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fill",
+          "sentence": "這雙眼睛充滿了淚水。",
+          "pinyin": "zhè shuāng yǎnjīng chōngmǎnle lèishuǐ.",
+          "en": "These eyes were filled with tears.",
+          "vi": "Đôi mắt ngập tràn nước mắt."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "液體",
       "pinyin": "yìtǐ",
-      "english": "liquid",
-      "sentenceChinese": "有些鏡片中間充滿了特殊的液體。",
-      "sentencePinyin": "Yǒuxiē jìngpiàn zhōngjiān chōngmǎn le tèshū de yìtǐ.",
-      "sentenceEnglish": "Some lenses are filled with a special liquid in the middle.",
-      "vietnamese": "chất lỏng",
-      "sentenceVietnamese": "Một số tròng kính ở giữa có chứa một loại chất lỏng đặc biệt."
+      "en": "liquid",
+      "vi": "chất lỏng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "fluid; liquid; liquor",
+          "sentence": "水是無色透明的液體。",
+          "pinyin": "shuǐ shì wú sè tòumíng de yètǐ.",
+          "en": "Water is a colorless and transparent liquid.",
+          "vi": "Nước là chất lỏng trong suốt không màu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fluid; liquid; liquor",
+          "sentence": "水是最常見的液體。",
+          "pinyin": "shuǐ shì zuì chángjiàn de yètǐ.",
+          "en": "Water is the most common liquid.",
+          "vi": "Nước là chất lỏng phổ biến nhất."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "創見",
       "pinyin": "chuàngjiàn",
-      "english": "original idea; creative vision",
-      "sentenceChinese": "這份報告提出了一些極具價值的創見。",
-      "sentencePinyin": "Zhè fèn bàogào tíchū le yìxiē jí jù jiàzhí de chuàngjiàn.",
-      "sentenceEnglish": "This report proposes some highly valuable original ideas.",
-      "vietnamese": "ý kiến sáng tạo",
-      "sentenceVietnamese": "Bản báo cáo này đã đưa ra một số ý kiến sáng tạo cực kỳ giá trị."
+      "en": "original idea; creative vision",
+      "vi": "ý kiến sáng tạo",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "original (or creative) idea",
+          "sentence": "有創見的思想傢。",
+          "pinyin": "yǒu chuàngjiàn de sīxiǎngjiā",
+          "en": "An original thinker",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "original idea (view); creative idea; brand-new idea; creative viewpoint",
+          "sentence": "創見管理",
+          "pinyin": "chuàng jiàn guǎn lǐ",
+          "en": "Creative management",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "原始",
       "pinyin": "yuánshǐ",
-      "english": "original; primitive",
-      "sentenceChinese": "這是這項發明的原始設計圖。",
-      "sentencePinyin": "Zhè shì zhè xiàng fāmíng de yuánshǐ shèjìtú.",
-      "sentenceEnglish": "This is the original design drawing of this invention.",
-      "vietnamese": "nguyên thủy, ban đầu",
-      "sentenceVietnamese": "Đây là bản vẽ thiết kế ban đầu của phát minh này."
+      "en": "original; primitive",
+      "vi": "nguyên thủy, ban đầu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "original; firsthand",
+          "sentence": "這是一個原始的文化。",
+          "pinyin": "zhè shì yīgè yuánshǐ de wénhuà.",
+          "en": "This is an original culture.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "original; firsthand",
+          "sentence": "原始的文獻很珍貴。",
+          "pinyin": "yuánshǐ de wénxiàn hěn zhēnguì.",
+          "en": "Original documents are precious.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "出自",
       "pinyin": "chūzì",
-      "english": "to be from; to come from",
-      "sentenceChinese": "這句話出自一位著名的科學家。",
-      "sentencePinyin": "Zhè jù huà chūzì yí wèi zhùmíng de kēxuéjiā.",
-      "sentenceEnglish": "This sentence comes from a famous scientist.",
-      "vietnamese": "đến từ",
-      "sentenceVietnamese": "Câu nói này đến từ một nhà khoa học nổi tiếng."
+      "en": "to be from; to come from",
+      "vi": "đến từ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come from; originate from; stem from",
+          "sentence": "這句話齣自一本書。",
+          "pinyin": "zhè jù huà chūzì yī běn shū.",
+          "en": "This sentence comes from a book.",
+          "vi": "Câu này xuất phát từ một cuốn sách."
+        },
+        {
+          "type": "Verb",
+          "meaning": "come from; originate from; stem from",
+          "sentence": "她的靈感齣自大自然。",
+          "pinyin": "tā de línggǎn chūzì dà zìrán.",
+          "en": "Her inspiration comes from nature.",
+          "vi": "Cảm hứng của cô ấy xuất phát từ thiên nhiên."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "儀器",
       "pinyin": "yíqì",
-      "english": "instrument; apparatus",
-      "sentenceChinese": "实验室裡有很多精密儀器。",
-      "sentencePinyin": "Shíyànshì lǐ yǒu hěnduō jīngmì yíqì.",
-      "sentenceEnglish": "There are many precision instruments in the laboratory.",
-      "vietnamese": "thiết bị, dụng cụ",
-      "sentenceVietnamese": "Trong phòng thí nghiệm có rất nhiều thiết bị tinh vi."
+      "en": "instrument; apparatus",
+      "vi": "thiết bị, dụng cụ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "apparatus; instrument",
+          "sentence": "醫療儀器越來越先進。",
+          "pinyin": "yīliáo yíqì yuè lái yuè xiānjìn.",
+          "en": "Medical instruments are becoming more and more advanced.",
+          "vi": "Thiết bị y tế ngày càng hiện đại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "apparatus; instrument",
+          "sentence": "實驗室裡/裏有很多儀器。",
+          "pinyin": "shíyàn shì li yǒu hěnduō yíqì.",
+          "en": "There are many instruments in the laboratory.",
+          "vi": "Trong phòng thí nghiệm có rất nhiều thiết bị."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "製造商",
       "pinyin": "zhìzàoshāng",
-      "english": "manufacturer",
-      "sentenceChinese": "手機製造商正致力於開發更持久的電池。",
-      "sentencePinyin": "Shǒujī zhìzàoshāng zhèng zhìlì yú kāifā gèng chíjiǔ de diànchí.",
-      "sentenceEnglish": "Mobile phone manufacturers are dedicated to developing longer-lasting batteries.",
-      "vietnamese": "nhà sản xuất",
-      "sentenceVietnamese": "Các nhà sản xuất điện thoại đang nỗ lực phát triển loại pin bền hơn."
+      "en": "manufacturer",
+      "vi": "nhà sản xuất",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "manufacturing company",
+          "sentence": "這傢製造商信譽很好。",
+          "pinyin": "zhè jiā zhì zào shāng xìn yù hěn hǎo.",
+          "en": "This manufacturer has a good reputation.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "manufacturer",
+          "sentence": "上麵標明了製造商和髮/發明者。",
+          "pinyin": "shàngmiàn biāomíng le zhìzàoshāng hé fāmíngzhě",
+          "en": "On it was listed the manufacturer and the inventor.",
+          "vi": "Trên đó có ghi nhà sản xuất và nhà phát minh."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "矯正",
       "pinyin": "jiǎozhèng",
-      "english": "to correct; to rectify",
-      "sentenceChinese": "戴眼鏡是矯正視力的最簡單方法。",
-      "sentencePinyin": "Dài yǎnjìng shì jiǎozhèng shìlì de zuì jiǎndān fāngfǎ.",
-      "sentenceEnglish": "Wearing glasses is the simplest way to correct vision.",
-      "vietnamese": "điều chỉnh, nắn chỉnh",
-      "sentenceVietnamese": "Đeo kính là phương pháp đơn giản nhất để điều chỉnh thị lực."
+      "en": "to correct; to rectify",
+      "vi": "điều chỉnh, nắn chỉnh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "correct; rectify",
+          "sentence": "我們需要矯正自己的心態。",
+          "pinyin": "wǒmen xūyào jiǎozhèng zìjǐ de xīntài.",
+          "en": "We need to correct our mindset.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "correct; rectify",
+          "sentence": "你應該矯正你的學習方法。",
+          "pinyin": "nǐ yīnggāi jiǎozhèng nǐ de xuéxí fāngfǎ.",
+          "en": "You should correct your study methods.",
+          "vi": "Bạn nên sửa lại phương pháp học của mình."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "視力",
       "pinyin": "shìlì",
-      "english": "vision; eyesight",
-      "sentenceChinese": "長時間看電腦會損害視力。",
-      "sentencePinyin": "Cháng shíjiān kàn diànnǎo huì sǔnhài shìlì.",
-      "sentenceEnglish": "Looking at the computer for a long time will damage your eyesight.",
-      "vietnamese": "thị lực",
-      "sentenceVietnamese": "Nhìn máy tính trong thời gian dài sẽ gây hại cho thị lực."
+      "en": "vision; eyesight",
+      "vi": "thị lực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "vision; sight",
+          "sentence": "這位老人視力不好。",
+          "pinyin": "zhè wèi lǎorén shìlì bù hǎo.",
+          "en": "The old man's vision is poor.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "vision; sight",
+          "sentence": "她的視力日漸衰退。",
+          "pinyin": "tā de shìlì rìjiàn shuāituì.",
+          "en": "Her eyesight is failing.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "大放光明",
       "pinyin": "dàfàng guāngmíng",
-      "english": "shine forth in glory; shine brightly",
-      "sentenceChinese": "當燈火亮起時，整個城市大放光明。",
-      "sentencePinyin": "Dāng dēnghuǒ liàngqǐ shí, zhěnggè chéngshì dàfàng guāngmíng.",
-      "sentenceEnglish": "When the lights come on, the whole city shines brightly.",
-      "vietnamese": "tỏa sáng rực rỡ",
-      "sentenceVietnamese": "Khi đèn đuốc sáng lên, cả thành phố tỏa sáng rực rỡ."
+      "en": "shine forth in glory; shine brightly",
+      "vi": "tỏa sáng rực rỡ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "great release of light (idiom)",
+          "sentence": "太陽大放光明，溫暖大地。",
+          "pinyin": "Tàiyáng dà fàng guāngmíng, wēnnuǎn dàdì.",
+          "en": "The sun shines brightly, warming the earth.",
+          "vi": "Mặt trời tỏa sáng rực rỡ, sưởi ấm mặt đất."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "影像",
       "pinyin": "yǐngxiàng",
-      "english": "image; video",
-      "sentenceChinese": "現在的手機可以拍攝高品質的影像。",
-      "sentencePinyin": "Xiànzài de shǒujī kěyǐ pāishè gāo pǐnzhì de yǐngxiàng.",
-      "sentenceEnglish": "Current mobile phones can capture high-quality images.",
-      "vietnamese": "hình ảnh số",
-      "sentenceVietnamese": "Điện thoại hiện nay có thể chụp được những hình ảnh chất lượng cao."
+      "en": "image; video",
+      "vi": "hình ảnh số",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "portrait",
+          "sentence": "墻上掛著祖先的影像。",
+          "pinyin": "qiáng shàng guàzhe zǔxiān de yǐngxiàng.",
+          "en": "Portraits of ancestors hang on the walls.",
+          "vi": "Trên tường treo ảnh chân dung tổ tiên."
+        },
+        {
+          "type": "Noun",
+          "meaning": "portrait",
+          "sentence": "影像被掛在正中間。",
+          "pinyin": "yǐngxiàng bèi guà zài zhèng zhòng jiān.",
+          "en": "The portrait is hung in the center.",
+          "vi": "Ảnh chân dung được treo ở giữa."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "開發中國家",
       "pinyin": "kāifāzhōng guójiā",
-      "english": "developing nation",
-      "sentenceChinese": "許多開發中國家面臨電力不足的問題。",
-      "sentencePinyin": "Xǔduō kāifāzhōng guójiā miànlín diànlì bùzú de wèntí.",
-      "sentenceEnglish": "Many developing countries face the problem of insufficient electric power.",
-      "vietnamese": "quốc gia đang phát triển",
-      "sentenceVietnamese": "Nhiều quốc gia đang phát triển đối mặt với vấn đề thiếu điện."
+      "en": "developing nation",
+      "vi": "quốc gia đang phát triển",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "China",
+          "sentence": "我打算去中國旅遊。",
+          "pinyin": "wǒ dǎsuàn qù zhōngguó lǚyóu.",
+          "en": "I plan to travel to China.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "China",
+          "sentence": "我喜歡吃/喫中國菜。",
+          "pinyin": "wǒ xǐhuān chī zhōngguó cài.",
+          "en": "I like Chinese food.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "需求量",
       "pinyin": "xūqiúliàng",
-      "english": "level of demand",
-      "sentenceChinese": "市場對這款新產品的需求量很大。",
-      "sentencePinyin": "Shìchǎng duì zhè kuǎn xīn chǎnpǐn de xūqiúliàng hěn dà.",
-      "sentenceEnglish": "There is a high level of demand for this new product in the market.",
-      "vietnamese": "nhu cầu, lượng cầu",
-      "sentenceVietnamese": "Nhu cầu thị trường đối với sản phẩm mới này rất lớn."
+      "en": "level of demand",
+      "vi": "nhu cầu, lượng cầu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "need; want; require; demand",
+          "sentence": "他需要你的幫助。",
+          "pinyin": "tā xūyào nǐ de bāngzhù.",
+          "en": "He demands your help.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "need; want; require; demand",
+          "sentence": "這本書我非常需要。",
+          "pinyin": "zhè běn shū wǒ fēicháng xūyào.",
+          "en": "I need this book very much.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "need",
+          "sentence": "我們要滿足人們的需要。",
+          "pinyin": "wǒmen yào mǎnzú rénmen de xūyào.",
+          "en": "We need to meet people's needs.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "need",
+          "sentence": "你要根據自己的需要買東西。",
+          "pinyin": "nǐ yào gēnjù zìjǐ de xū yāo mǎi dōngxi.",
+          "en": "You should buy things based on your own needs.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "極",
       "pinyin": "jí",
-      "english": "highly; extremely",
-      "sentenceChinese": "這是一個極其複雜的問題。",
-      "sentencePinyin": "Zhè shì yí ge jíqí fùzá de wèntí.",
-      "sentenceEnglish": "This is an extremely complex problem.",
-      "vietnamese": "cực kỳ",
-      "sentenceVietnamese": "Đây là một vấn đề cực kỳ phức tạp."
+      "en": "highly; extremely",
+      "vi": "cực kỳ",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "utmost point; end point; limit point",
+          "sentence": "成功之路沒有終極。",
+          "pinyin": "chénggōng zhī lù méiyǒu zhōngjí.",
+          "en": "There is no end to the road to success.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "utmost point; end point; limit point",
+          "sentence": "快樂似乎永無至極。",
+          "pinyin": "kuàilè sìhū yǒng wú zhìjí.",
+          "en": "Happiness seems to have no end.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "put in best effort; give it one's all",
+          "sentence": "他考試總是極儘全力。",
+          "pinyin": "tā kǎoshì zǒng shì jí jìn quánlì.",
+          "en": "He always puts in his best effort during exams.",
+          "vi": "Anh ấy luôn cố gắng hết mình trong các kỳ thi."
+        },
+        {
+          "type": "verb",
+          "meaning": "put in best effort; give it one's all",
+          "sentence": "運動員比賽極儘全力。",
+          "pinyin": "yùndòngyuán bǐsài jí jìn quánlì.",
+          "en": "The athletes gave it their all in the competition.",
+          "vi": "Các vận động viên thi đấu bằng tất cả sức lực của mình."
+        },
+        {
+          "type": "adjective",
+          "meaning": "ultimate; of the highest degree",
+          "sentence": "此為終極的目標追求。",
+          "pinyin": "cǐ wéi zhōngjí de mùbiāo zhuīqiú.",
+          "en": "This is the ultimate goal to pursue.",
+          "vi": "Đây là mục tiêu cuối cùng để theo đuổi."
+        },
+        {
+          "type": "adjective",
+          "meaning": "ultimate; of the highest degree",
+          "sentence": "那是最高極的榮譽。",
+          "pinyin": "nà shì zuìgāo jí de róngyù.",
+          "en": "That is the highest honor.",
+          "vi": "Đó là vinh dự cao nhất."
+        },
+        {
+          "type": "adverb",
+          "meaning": "extremely; to the greatest extent; exceedingly",
+          "sentence": "這部電影極為感人。",
+          "pinyin": "zhè bù diànyǐng jíwéi gǎnrén.",
+          "en": "This movie is extremely touching.",
+          "vi": ""
+        },
+        {
+          "type": "adverb",
+          "meaning": "extremely; to the greatest extent; exceedingly",
+          "sentence": "這隻小狗聰明極了。",
+          "pinyin": "zhè zhī xiǎo gǒu cōngmíng jíle.",
+          "en": "This little dog is extremely intelligent.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "供不應求",
       "pinyin": "gōngbù yìngqiú",
-      "english": "supply cannot keep up with demand",
-      "sentenceChinese": "這款熱門商品目前在市場上供不應求。",
-      "sentencePinyin": "Zhè kuǎn rèmén shāngpǐn mùqián zài shìchǎng shàng gōngbù yìngqiú.",
-      "sentenceEnglish": "This popular item is currently in short supply in the market.",
-      "vietnamese": "cung không đủ cầu",
-      "sentenceVietnamese": "Mặt hàng hot này hiện đang rơi vào tình trạng cung không đủ cầu trên thị trường."
+      "en": "supply cannot keep up with demand",
+      "vi": "cung không đủ cầu",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "The supply is not adequate to the demand.; Demand exceeds supply.; Supply falls short of demand.; Supply fails to meet the demand.; The supply does not meet the demand.; The demand outstrips the supply.; The supply can hardly keep pace (up) with the demand.; The supply cannot keep pace with the increasing demand.; The supply is far from meeting the crying demand of the public.; The supply is unable to meet the demand.",
+          "sentence": "這些貨物供不應求。",
+          "pinyin": "zhèxiē huòwù gōng bù yìngqiú.",
+          "en": "The demand for these goods exceeds the supply.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "Supply falls short of demand. or Demand exceeds supply.",
+          "sentence": "疫情期間口罩供不應求。",
+          "pinyin": "yì qíng qī jiān kǒu zhào gōng bù yìng qiú",
+          "en": "Masks were in short supply during the pandemic.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "貢獻",
       "pinyin": "gòngxiàn",
-      "english": "contribution; to contribute",
-      "sentenceChinese": "他對這項科學發明有很大的貢獻。",
-      "sentencePinyin": "Tā duì zhè xiàng kēxué fāmíng yǒu hěn dà de gòngxiàn.",
-      "sentenceEnglish": "He made a great contribution to this scientific invention.",
-      "vietnamese": "đóng góp",
-      "sentenceVietnamese": "Anh ấy có đóng góp rất lớn cho phát minh khoa học này."
+      "en": "contribution; to contribute",
+      "vi": "đóng góp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "devote; dedicate; contribute; contributed",
+          "sentence": "他為國傢貢獻了很多力量。",
+          "pinyin": "tā wèi guójiā gòngxiànle hěnduō lìliàng.",
+          "en": "He contributed a lot of strength to the country.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "devote; dedicate; contribute; contributed",
+          "sentence": "我們應該貢獻自己的經驗。",
+          "pinyin": "wǒmen yīnggāi gòngxiàn zìjǐ de jīngyàn.",
+          "en": "We should contribute our experience.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "contribution",
+          "sentence": "他為國傢做齣了很大貢獻。",
+          "pinyin": "tā wèi guójiā zuò chūle hěn dà gòngxiàn.",
+          "en": "He made a great contribution to the country.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "contribution",
+          "sentence": "她的貢獻得到了認可。",
+          "pinyin": "tā de gòngxiàn dédàole rènkě.",
+          "en": "Her contribution was recognized.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "根源",
       "pinyin": "gēnyuán",
-      "english": "source; root",
-      "sentenceChinese": "我們必須找到問題的根源才能解決它。",
-      "sentencePinyin": "Wǒmen bìxū zhǎodào wèntí de gēnyuán cáinéng jiějué tā.",
-      "sentenceEnglish": "We must find the root of the problem to solve it.",
-      "vietnamese": "nguồn gốc",
-      "sentenceVietnamese": "Chúng ta phải tìm ra nguồn gốc của vấn đề mới có thể giải quyết được nó."
+      "en": "source; root",
+      "vi": "nguồn gốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "source; origin; root",
+          "sentence": "這個問題的根源很復雜。",
+          "pinyin": "zhège wèntí de gēnyuán hěn fùzá.",
+          "en": "The root of this problem is very complex.",
+          "vi": "Nguồn gốc của vấn đề này rất phức tạp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "source; origin; root",
+          "sentence": "他在尋找痛苦的根源。",
+          "pinyin": "tā zài xúnzhǎo tòngkǔ de gēnyuán.",
+          "en": "He is searching for the source of the pain.",
+          "vi": "Anh ấy đang tìm kiếm nguồn gốc của nỗi đau."
+        },
+        {
+          "type": "verb",
+          "meaning": "originate; stem from",
+          "sentence": "焦慮根源於傢庭壓力。",
+          "pinyin": "jiāolǜ gēnyuán yú jiātíng yālì.",
+          "en": "Anxiety stems from family pressure.",
+          "vi": "Lo âu bắt nguồn từ áp lực gia đình."
+        },
+        {
+          "type": "verb",
+          "meaning": "originate; stem from",
+          "sentence": "問題根源於管理不善。",
+          "pinyin": "wèntí gēnyuán yú guǎnlǐ bùshàn.",
+          "en": "The problem originates from mismanagement.",
+          "vi": "Vấn đề bắt nguồn từ việc quản lý không tốt."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "從而",
       "pinyin": "cóng'ér",
-      "english": "therefore; as a result",
-      "sentenceChinese": "他努力學習，從而獲得了獎學金。",
-      "sentencePinyin": "Tā nǔlì xuéxí, cóng'ér huòdé le jiǎngxuéjīn.",
-      "sentenceEnglish": "He studied hard and as a result, he obtained a scholarship.",
-      "vietnamese": "từ đó",
-      "sentenceVietnamese": "Anh ấy nỗ lực học tập, từ đó đã nhận được học bổng."
+      "en": "therefore; as a result",
+      "vi": "từ đó",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "thus; thereby; hence; therefore",
+          "sentence": "他努力工作，從而成功。",
+          "pinyin": "tā nǔlì gōngzuò, cóng'ér chénggōng.",
+          "en": "He worked hard, thus succeeded.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "thus; thereby; hence; therefore",
+          "sentence": "學習認真，從而進步。",
+          "pinyin": "xuéxí rènzhēn, cóng'ér jìnbù.",
+          "en": "Study seriously, hence make progress.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "人群",
       "pinyin": "rénqún",
-      "english": "crowd; masses",
-      "sentenceChinese": "他在人群中一眼就認出了他的朋友。",
-      "sentencePinyin": "Tā zài rénqún zhōng yì yǎn jiù rènchū le tā de péngyǒu.",
-      "sentenceEnglish": "He recognized his friend at a glance among the crowd.",
-      "vietnamese": "đám đông",
-      "sentenceVietnamese": "Anh ấy nhận ra bạn mình ngay lập tức trong đám đông."
+      "en": "crowd; masses",
+      "vi": "đám đông",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "crowd; throng; multitude; a group of people",
+          "sentence": "槍聲一響，人群/羣便逃散了。",
+          "pinyin": "qiāng shēng yī xiǎng, rénqún biàn táosànle.",
+          "en": "At the first gunshot, the crowd scattered.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "crowd; throng; multitude; a group of people",
+          "sentence": "竊賊很快混入人群/羣逃跑了。",
+          "pinyin": "qièzéi hěn kuài hùnrù rénqún táopǎole.",
+          "en": "The thieves soon blended in with the crowd and got away.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "場所",
       "pinyin": "chǎngsuǒ",
-      "english": "location; venue",
-      "sentenceChinese": "公共場所嚴禁吸菸。",
-      "sentencePinyin": "Gōnggòng chǎngsuǒ yánjìn xīyān.",
-      "sentenceEnglish": "Smoking is strictly prohibited in public places.",
-      "vietnamese": "địa điểm",
-      "sentenceVietnamese": "Nơi công cộng nghiêm cấm hút thuốc."
+      "en": "location; venue",
+      "vi": "địa điểm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "place; site; arena",
+          "sentence": "這個場所很安靜。",
+          "pinyin": "zhège chǎngsuǒ hěn ānjìng.",
+          "en": "His place is very quiet.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "place; site; arena",
+          "sentence": "會議場所在哪兒？",
+          "pinyin": "huìyì chǎngsuǒ zài nǎr?",
+          "en": "Where is the meeting venue?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "照明",
       "pinyin": "zhàomíng",
-      "english": "to illuminate; lighting",
-      "sentenceChinese": "充足的照明對工作環境很重要。",
-      "sentencePinyin": "Chōngzú de zhàomíng duì gōngzuò huánjìng hěn zhòngyào.",
-      "sentenceEnglish": "Adequate lighting is very important for the working environment.",
-      "vietnamese": "chiếu sáng",
-      "sentenceVietnamese": "Chiếu sáng đầy đủ rất quan trọng đối với môi trường làm việc."
+      "en": "to illuminate; lighting",
+      "vi": "chiếu sáng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "illuminate",
+          "sentence": "用手電筒照明很方便。",
+          "pinyin": "yòng shǒudiàntǒng zhàomíng hěn fāngbiàn.",
+          "en": "Using a flashlight to illuminate is very convenient.",
+          "vi": "Dùng đèn pin chiếu sáng rất tiện lợi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "illuminate",
+          "sentence": "燈光照明了整個房間。",
+          "pinyin": "dēngguāng zhàomíngle zhěnggè fángjiān.",
+          "en": "The lighting illuminated the whole room.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "習以為常",
       "pinyin": "xíyǐ wéicháng",
-      "english": "be accustomed to",
-      "sentenceChinese": "對現代人來說，使用手機已經習以為常。",
-      "sentencePinyin": "Duì xiàndàirén láishuō, shǐyòng shǒujī yǐjīng xíyǐ wéicháng.",
-      "sentenceEnglish": "For modern people, using mobile phones has become a common habit.",
-      "vietnamese": "trở nên quen thuộc",
-      "sentenceVietnamese": "Đối với người hiện đại, việc sử dụng điện thoại đã trở nên quen thuộc."
+      "en": "be accustomed to",
+      "vi": "trở nên quen thuộc",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "used (or accustomed, inured) to",
+          "sentence": "漸漸地人們對這種現象也習以為常了。",
+          "pinyin": "Jiànjiàn de rénmen duì zhèzhǒng xiànxiàng yě xíyǐwéicháng le.",
+          "en": "Gradually people got used to it.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "accustomed to",
+          "sentence": "醫生對這種情況習以為常。",
+          "pinyin": "yī shēng duì zhè zhǒng qíng kuàng xí yǐ wéi cháng",
+          "en": "Doctors are accustomed to this kind of situation.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "電力",
       "pinyin": "diànlì",
-      "english": "electric power",
-      "sentenceChinese": "沒有電力，現代生活將陷入混亂。",
-      "sentencePinyin": "Méiyǒu diànlì, xiàndài shēnghuó jiāng xiànrù hùnluàn.",
-      "sentenceEnglish": "Without electric power, modern life would fall into chaos.",
-      "vietnamese": "điện lực",
-      "sentenceVietnamese": "Không có điện lực, cuộc sống hiện đại sẽ rơi vào hỗn loạn."
+      "en": "electric power",
+      "vi": "điện lực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "electric power; power",
+          "sentence": "電力供給不足，部分地區停電。",
+          "pinyin": "diànlì gōngjǐ bùzú, bùfèn dìqū tíngdiàn.",
+          "en": "The power supply is insufficient, and some areas are experiencing power outages.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "electric power; power",
+          "sentence": "電力由國傢電網供給。",
+          "pinyin": "diànlì yóu guójiā diànwǎng gōngjǐ.",
+          "en": "Electricity is supplied by the national power grid.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "答案",
       "pinyin": "dá'àn",
-      "english": "answer",
-      "sentenceChinese": "這題的答案在課本的最後一頁。",
-      "sentencePinyin": "Zhè tí de dá'àn zài kèběn de zuìhòu yí yè.",
-      "sentenceEnglish": "The answer to this question is on the last page of the textbook.",
-      "vietnamese": "đáp án",
-      "sentenceVietnamese": "Đáp án của câu này nằm ở trang cuối của sách giáo khoa."
+      "en": "answer",
+      "vi": "đáp án",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "key; answer; solution",
+          "sentence": "請給我正確的答案。",
+          "pinyin": "qǐng gěi wǒ zhèngquè de dá'àn.",
+          "en": "Please give me the correct answer.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "key; answer; solution",
+          "sentence": "我還沒有找到答案。",
+          "pinyin": "wǒ hái méiyǒu zhǎodào dá'àn.",
+          "en": "I haven't found the answer yet.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "入夜",
       "pinyin": "rùyè",
-      "english": "at nightfall; as night falls",
-      "sentenceChinese": "入夜後，山上的氣溫會迅速下降。",
-      "sentencePinyin": "Rùyè hòu, shān shàng de qìwēn huì xùnsù xiàjiàng.",
-      "sentenceEnglish": "As night falls, the temperature on the mountain will drop rapidly.",
-      "vietnamese": "đêm xuống",
-      "sentenceVietnamese": "Sau khi đêm xuống, nhiệt độ trên núi sẽ giảm xuống nhanh chóng."
+      "en": "at nightfall; as night falls",
+      "vi": "đêm xuống",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "at nightfall",
+          "sentence": "入夜，工地上燈火通明。",
+          "pinyin": "Rù yè, gōngdì shàng dēnghuǒ tōngmíng.",
+          "en": "When night fell, the construction site was ablaze with light.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "村落",
       "pinyin": "cūnluò",
-      "english": "village",
-      "sentenceChinese": "這個古老的村落保有著傳統的習俗。",
-      "sentencePinyin": "Zhè ge gǔlǎo de cūnluò bǎoyǒuzhe chuántǒng de xísú.",
-      "sentenceEnglish": "This ancient village preserves traditional customs.",
-      "vietnamese": "ngôi làng",
-      "sentenceVietnamese": "Ngôi làng cổ này vẫn giữ được những tập tục truyền thống."
+      "en": "village",
+      "vi": "ngôi làng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hamlet; village",
+          "sentence": "郊外的村落非常安靜。",
+          "pinyin": "jiāowài de cūnluò fēicháng ānjìng.",
+          "en": "The village in the suburbs is very quiet.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hamlet; village",
+          "sentence": "那個村落被群/羣山包圍。",
+          "pinyin": "nàgè cūnluò bèi qún shān bāowéi.",
+          "en": "The village is surrounded by mountains.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "貼補家用",
       "pinyin": "tiēbǔ jiāyòng",
-      "english": "help out with family expenses",
-      "sentenceChinese": "他在課餘時間打工，希望能貼補家用。",
-      "sentencePinyin": "Tā zài kèyú shíjiān dǎgōng, xīwàng néng tiēbǔ jiāyòng.",
-      "sentenceEnglish": "He works part-time in his spare time, hoping to help with family expenses.",
-      "vietnamese": "phụ giúp chi tiêu",
-      "sentenceVietnamese": "Anh ấy làm thêm vào thời gian rảnh, hy vọng có thể phụ giúp chi tiêu gia đình."
+      "en": "help out with family expenses",
+      "vi": "phụ giúp chi tiêu",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "paste; stick; glue",
+          "sentence": "把宣傳畫貼在墻上。",
+          "pinyin": "bǎ xuānchuán huà tiē zài qiáng shàng.",
+          "en": "Put the posters on the wall.",
+          "vi": "Dán tranh tuyên truyền lên tường."
+        },
+        {
+          "type": "verb",
+          "meaning": "paste; stick; glue",
+          "sentence": "他正在給信封貼郵票。",
+          "pinyin": "tā zhèngzài gěi xìnfēng tiē yóupiào.",
+          "en": "He is putting stamps on envelopes.",
+          "vi": "Anh ấy đang dán tem thư cho phong bì."
+        },
+        {
+          "type": "noun",
+          "meaning": "subsidy; allowance",
+          "sentence": "他每個月都能領到房貼。",
+          "pinyin": "tā měi gè yuè dōu néng lǐng dào fáng tiē.",
+          "en": "He receives a housing allowance every month.",
+          "vi": "Anh ấy có thể nhận được trợ cấp nhà ở mỗi tháng."
+        },
+        {
+          "type": "noun",
+          "meaning": "subsidy; allowance",
+          "sentence": "公司給員工提供了房貼。",
+          "pinyin": "gōngsī gěi yuángōng tígōngle fáng tiē.",
+          "en": "The company provides housing allowances for its employees.",
+          "vi": "Công ty cung cấp cho nhân viên một khoản tiền trợ cấp nhà ở."
+        },
+        {
+          "type": "measure word",
+          "meaning": "for use in plasters",
+          "sentence": "一貼治療眼睛紅腫的膏藥。",
+          "pinyin": "yī tiē zhìliáo yǎnjīng hóngzhǒng de gāoyao.",
+          "en": "A plaster for treating red and swollen eyes.",
+          "vi": "Một miếng dán trị mắt sưng đỏ."
+        },
+        {
+          "type": "measure word",
+          "meaning": "for use in plasters",
+          "sentence": "一盒有兩貼膏藥。",
+          "pinyin": "yī hé yǒu liǎng tiē gāoyao.",
+          "en": "There are two plasters in one box.",
+          "vi": "Một hộp có hai miếng cao dán."
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "煤油燈",
       "pinyin": "méiyóudēng",
-      "english": "kerosene lamp",
-      "sentenceChinese": "在電力普及之前，人們使用煤油燈照明。",
-      "sentencePinyin": "Zài diànlì pǔjí zhīqián, rénmen shǐyòng méiyóudēng zhàomíng.",
-      "sentenceEnglish": "Before electricity became widespread, people used kerosene lamps for lighting.",
-      "vietnamese": "đèn dầu hỏa",
-      "sentenceVietnamese": "Trước khi điện lực phổ biến, người ta sử dụng đèn dầu hỏa để chiếu sáng."
+      "en": "kerosene lamp",
+      "vi": "đèn dầu hỏa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "kerosene lamp",
+          "sentence": "一盞煤油燈。",
+          "pinyin": "yī zhǎn méiyóu dēng",
+          "en": "A kerosene lamp",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "有損",
       "pinyin": "yǒusǔn",
-      "english": "be harmful to; be detrimental to",
-      "sentenceChinese": "在昏暗的燈光下看書有損視力。",
-      "sentencePinyin": "Zài hūn'àn de dēngguāng xià kànshū yǒusǔn shìlì.",
-      "sentenceEnglish": "Reading under dim light is harmful to eyesight.",
-      "vietnamese": "có hại",
-      "sentenceVietnamese": "Đọc sách dưới ánh sáng mờ có hại cho thị lực."
+      "en": "be harmful to; be detrimental to",
+      "vi": "có hại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be harmful to",
+          "sentence": "有損健康",
+          "pinyin": "yǒu sǔn jiàn kāng",
+          "en": "Affect one’s health",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be harmful to",
+          "sentence": "有損名譽",
+          "pinyin": "yǒusǔn míngyù",
+          "en": "Compromise one’s reputation; derogate one’s fame",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "孩童",
       "pinyin": "háitóng",
-      "english": "child",
-      "sentenceChinese": "我們應該為孩童創造一個安全的成長環境。",
-      "sentencePinyin": "Wǒmen yīnggāi wèi háitóng chuàngzào yí ge ānquán de chéngzhǎng huánjìng.",
-      "sentenceEnglish": "We should create a safe growth environment for children.",
-      "vietnamese": "trẻ em",
-      "sentenceVietnamese": "Chúng ta nên tạo ra một môi trường trưởng thành an toàn cho trẻ em."
+      "en": "child",
+      "vi": "trẻ em",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "child",
+          "sentence": "他會侵犯孩童。",
+          "pinyin": "tāhùi qīnfàn háitóng",
+          "en": "He'd offend against a child.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "child",
+          "sentence": "孩童用棰敲打鼓麵。",
+          "pinyin": "hái tóng yòng chuí qiāo dǎ gǔ miàn",
+          "en": "The child beats the drum with a stick.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "燃燒",
       "pinyin": "ránshāo",
-      "english": "to burn; combustion",
-      "sentenceChinese": "木材燃燒時會產生大量的煙。",
-      "sentencePinyin": "Mùcái ránshāo shí huì chǎnshēng dàliàng de yān.",
-      "sentenceEnglish": "When wood burns, it produces a large amount of smoke.",
-      "vietnamese": "đốt cháy",
-      "sentenceVietnamese": "Khi gỗ cháy sẽ sinh ra một lượng khói lớn."
+      "en": "to burn; combustion",
+      "vi": "đốt cháy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "burn; kindle",
+          "sentence": "哪種燃料燃燒效果最佳？",
+          "pinyin": "nǎ zhǒng ránliào ránshāo xiàoguǒ zuì jiā?",
+          "en": "Which fuel burns most efficiently?",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "burn; kindle",
+          "sentence": "他們被睏在燃燒著的樓房裡/裏。",
+          "pinyin": "tāmen bèi kùn zài ránshāozhe de lóufáng lǐ.",
+          "en": "They were trapped in the burning building.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "呼吸道",
       "pinyin": "hūxīdào",
-      "english": "respiratory tract",
-      "sentenceChinese": "空氣污染會引發呼吸道疾病。",
-      "sentencePinyin": "Kōngqì wūrǎn huì yǐnfā hūxīdào jíbìng.",
-      "sentenceEnglish": "Air pollution can trigger respiratory diseases.",
-      "vietnamese": "đường hô hấp",
-      "sentenceVietnamese": "Ô nhiễm không khí sẽ gây ra các bệnh về đường hô hấp."
+      "en": "respiratory tract",
+      "vi": "đường hô hấp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "respiratory tract",
+          "sentence": "吸煙傷害呼吸道功能。",
+          "pinyin": "xīyān shānghài hūxīdào gōngnéng.",
+          "en": "Smoking damages respiratory function.",
+          "vi": "Hút thuốc làm hại chức năng đường hô hấp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "respiratory tract",
+          "sentence": "空氣汙染影響呼吸道。",
+          "pinyin": "kōngqì wūrǎn yǐngxiǎng hūxīdào.",
+          "en": "Air pollution affects the respiratory tract.",
+          "vi": "Ô nhiễm không khí ảnh hưởng đến đường hô hấp."
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "單單",
       "pinyin": "dāndān",
-      "english": "alone; just; merely",
-      "sentenceChinese": "他單單靠著自己的努力，完成了這項計畫。",
-      "sentencePinyin": "Tā dāndān kàozhe zìjǐ de nǔlì, wánchéng le zhè xiàng jìhuà.",
-      "sentenceEnglish": "He completed this project just by relying on his own efforts.",
-      "vietnamese": "chỉ, duy nhất",
-      "sentenceVietnamese": "Chỉ dựa vào nỗ lực của chính mình, anh ấy đã hoàn thành kế hoạch này."
+      "en": "alone; just; merely",
+      "vi": "chỉ, duy nhất",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "only; alone",
+          "sentence": "別人都去了，單單她沒去。",
+          "pinyin": "Bié rén dōu qùle, dān dān tā méi qù.",
+          "en": "Everybody has gone except her.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "only; alone",
+          "sentence": "別人都來了，單單他沒來。",
+          "pinyin": "Biéren dōu lái le, dān dān tā méi lái.",
+          "en": "He's the only one absent; everybody else is here.; Everybody has come except him.",
+          "vi": "Mọi người đều đến rồi, chỉ riêng anh ấy chưa đến."
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "病症",
       "pinyin": "bìngzhèng",
-      "english": "sickness; disease",
-      "sentenceChinese": "這種病症的初期反應並不明顯。",
-      "sentencePinyin": "Zhè zhǒng bìngzhèng de chūqī fǎnyìng bìng bù míngxiǎn.",
-      "sentenceEnglish": "The early reactions of this disease are not obvious.",
-      "vietnamese": "triệu chứng bệnh",
-      "sentenceVietnamese": "Phản ứng thời kỳ đầu của triệu chứng bệnh này không rõ ràng."
+      "en": "sickness; disease",
+      "vi": "triệu chứng bệnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "disease; illness",
+          "sentence": "這個病癥很嚴重。",
+          "pinyin": "zhège bìngzhèng hěn yánzhòng.",
+          "en": "This disease is very serious.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "disease; illness",
+          "sentence": "他的病癥復重了。",
+          "pinyin": "tā de bìngzhèng fù zhòngle.",
+          "en": "His illness has relapsed.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "室內",
       "pinyin": "shìnèi",
-      "english": "indoor",
-      "sentenceChinese": "室內空氣不流通會讓人感到不舒服。",
-      "sentencePinyin": "Shìnèi kōngqì bù liútōng huì ràng rén gǎndào bù shūfu.",
-      "sentenceEnglish": "Poor indoor air circulation can make people feel uncomfortable.",
-      "vietnamese": "trong nhà",
-      "sentenceVietnamese": "Không khí trong nhà không lưu thông sẽ khiến người ta cảm thấy khó chịu."
+      "en": "indoor",
+      "vi": "trong nhà",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "indoor; interior",
+          "sentence": "孩子們在室內玩遊戲。",
+          "pinyin": "háizǐmen zài shìnèi wán yóuxì.",
+          "en": "The children are playing games indoors.",
+          "vi": "Bọn trẻ chơi trò chơi trong nhà."
+        },
+        {
+          "type": "Noun",
+          "meaning": "indoor; interior",
+          "sentence": "他們在室內打羽毛球。",
+          "pinyin": "tāmen zài shìnèi dǎ yǔmáoqiú.",
+          "en": "They are playing badminton indoors.",
+          "vi": "Họ chơi cầu lông trong phòng."
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "照亮",
       "pinyin": "zhàoliàng",
-      "english": "to light up",
-      "sentenceChinese": "這盞燈照亮了黑暗的走廊。",
-      "sentencePinyin": "Zhè zhǎn dēng zhàoliàng le hēi'àn de zǒuláng.",
-      "sentenceEnglish": "This lamp lit up the dark corridor.",
-      "vietnamese": "soi sáng",
-      "sentenceVietnamese": "Ngọn đèn này đã soi sáng hành lang tối tăm."
+      "en": "to light up",
+      "vi": "soi sáng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lighting; illuminates; light up",
+          "sentence": "火柴的光照亮了他的臉。",
+          "pinyin": "huǒchái de guāng zhào liàngle tā de liǎn.",
+          "en": "The flare of the match lit up his face.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "lighting; illuminates; light up",
+          "sentence": "臥室被一支蠟燭照亮。",
+          "pinyin": "wòshì bèi yī zhī làzhú zhào liàng.",
+          "en": "The bedroom was lit by a single candle.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "基金會",
       "pinyin": "jījīnhuì",
-      "english": "foundation",
-      "sentenceChinese": "這間基金會致力於幫助貧困學生。",
-      "sentencePinyin": "Zhè jiān jījīnhuì zhìlì yú bāngzhù pínkùn xuéshēng.",
-      "sentenceEnglish": "This foundation is dedicated to helping impoverished students.",
-      "vietnamese": "quỹ, tổ chức",
-      "sentenceVietnamese": "Tổ chức này nỗ lực giúp đỡ những học sinh nghèo khổ."
+      "en": "foundation",
+      "vi": "quỹ, tổ chức",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "foundation (institution supported by an endowment)",
+          "sentence": "殘疾人福利基金會。",
+          "pinyin": "cánjírén fúlì jījīn huì",
+          "en": "Welfare foundation for the disabled",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "接",
       "pinyin": "jiē",
-      "english": "to connect; to link",
-      "sentenceChinese": "請幫我把這兩條電線接起來。",
-      "sentencePinyin": "Qǐng bāng wǒ bǎ zhè liǎng tiáo diànxiàn jiē qǐlái.",
-      "sentenceEnglish": "Please help me connect these two wires.",
-      "vietnamese": "kết nối",
-      "sentenceVietnamese": "Làm ơn giúp tôi kết nối hai sợi dây điện này lại."
+      "en": "to connect; to link",
+      "vi": "kết nối",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come into contact with; come close to",
+          "sentence": "他接觸到了我的手。",
+          "pinyin": "tā jiēchù dàole wǒ de shǒu.",
+          "en": "He touched my hand.",
+          "vi": "Anh ấy chạm vào tay tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "come into contact with; come close to",
+          "sentence": "不要接近危險區域。",
+          "pinyin": "bùyào jiējìn wēixiǎn qūyù.",
+          "en": "Don’t approach the dangerous area.",
+          "vi": "Đừng gần khu vực nguy hiểm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "接先生是我的老師。",
+          "pinyin": "jiē xiānshēng shì wǒ de lǎoshī.",
+          "en": "Mr. Jie is my teacher.",
+          "vi": "Ông Tiếp là thầy giáo của tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "接老師是我的朋友。",
+          "pinyin": "jiē lǎoshī shì wǒ de péngyou.",
+          "en": "Teacher Jie is my friend.",
+          "vi": "Thầy Tiếp là bạn của tôi."
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "動用",
       "pinyin": "dòngyòng",
-      "english": "to mobilize; to draw on",
-      "sentenceChinese": "為了救災，政府動用了大量的人力和物力。",
-      "sentencePinyin": "Wèile jiùzāi, zhèngfǔ dòngyòng le dàliàng de rénlì hé wùlì.",
-      "sentenceEnglish": "For disaster relief, the government mobilized a large amount of manpower and material resources.",
-      "vietnamese": "huy động",
-      "sentenceVietnamese": "Để cứu trợ thiên tai, chính phủ đã huy động lượng lớn nhân lực và vật lực."
+      "en": "to mobilize; to draw on",
+      "vi": "huy động",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "employ; draw on; put to use",
+          "sentence": "他動用存款買了新車。",
+          "pinyin": "tā dòngyòng cúnkuǎn mǎile xīnchē.",
+          "en": "He used his savings to buy a new car.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "employ; draw on; put to use",
+          "sentence": "政府動用資源救災。",
+          "pinyin": "zhèngfǔ dòngyòng zīyuán jiùzāi.",
+          "en": "The government used resources for disaster relief.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "人力",
       "pinyin": "rénlì",
-      "english": "manpower",
-      "sentenceChinese": "這項大型工程需要充足的人力支援。",
-      "sentencePinyin": "Zhè xiàng dàxíng gōngchéng xūyào chōngzú de rénlì zhīyuán.",
-      "sentenceEnglish": "This large-scale project requires sufficient manpower support.",
-      "vietnamese": "nhân lực",
-      "sentenceVietnamese": "Công trình quy mô lớn này cần sự hỗ trợ nhân lực đầy đủ."
+      "en": "manpower",
+      "vi": "nhân lực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "manpower; manual labour; labour power",
+          "sentence": "這個工廠需要更多的人力。",
+          "pinyin": "zhège gōngchǎng xūyào gèng duō de rénlì.",
+          "en": "This factory needs more manpower.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "manpower; manual labour; labour power",
+          "sentence": "他負責管理人力資源。",
+          "pinyin": "tā fùzé guǎnlǐ rénlì zīyuán.",
+          "en": "He is responsible for managing human resources.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "物力",
       "pinyin": "wùlì",
-      "english": "material resources",
-      "sentenceChinese": "這項計畫耗費了巨大的人力和物力。",
-      "sentencePinyin": "Zhè xiàng jìhuà hàofèi le jùdà de rénlì hé wùlì.",
-      "sentenceEnglish": "This plan consumed a huge amount of manpower and material resources.",
-      "vietnamese": "vật lực",
-      "sentenceVietnamese": "Kế hoạch này tiêu tốn lượng nhân lực và vật lực khổng lồ."
+      "en": "material resources",
+      "vi": "vật lực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "material resources; materiel",
+          "sentence": "節約人力物力。",
+          "pinyin": "jié yuē rén lì wù lì",
+          "en": "Economize on manpower and material resources",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "matériel",
+          "sentence": "物力有限需節約使用。",
+          "pinyin": "wù lì yǒu xiàn xū jié yuē shǐ yòng",
+          "en": "Material resources are limited and must be used sparingly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "架設",
       "pinyin": "jiàshè",
-      "english": "to erect; to set up",
-      "sentenceChinese": "工人們正在偏遠山區架設電纜。",
-      "sentencePinyin": "Gōngrénmen zhèngzài piānyuǎn shānqū jiàshè diànlǎn.",
-      "sentenceEnglish": "Workers are setting up electric cables in remote mountainous areas.",
-      "vietnamese": "lắp đặt",
-      "sentenceVietnamese": "Công nhân đang lắp đặt cáp điện ở vùng núi hẻo lánh."
+      "en": "to erect; to set up",
+      "vi": "lắp đặt",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "erect (above ground or water level, as on stilts or posts); put up",
+          "sentence": "架設輸電線路。",
+          "pinyin": "jià shè shū diàn xiàn lù",
+          "en": "Erect power transmission lines",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "erect (above ground or water level, as on stilts or posts); put up",
+          "sentence": "這兒正在架設一座天橋。",
+          "pinyin": "Zhèr zhèngzài jiàshè yī zuò tiānqiáo.",
+          "en": "A platform bridge is being erected here.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "電纜",
       "pinyin": "diànlǎn",
-      "english": "electric cable",
-      "sentenceChinese": "海底電纜是國際網路通訊的重要設施。",
-      "sentencePinyin": "Hǎidǐ diànlǎn shì guójì wǎnglù tōngxùn de zhòngyào shèshī.",
-      "sentenceEnglish": "Undersea cables are important facilities for international network communications.",
-      "vietnamese": "cáp điện",
-      "sentenceVietnamese": "Cáp điện dưới biển là thiết bị quan trọng của thông tin mạng quốc tế."
+      "en": "electric cable",
+      "vi": "cáp điện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cable; electric cable",
+          "sentence": "電纜用於輸送電力。",
+          "pinyin": "diànlǎn yòng yú shūsòng diànlì.",
+          "en": "Electric cables are used to transmit electricity.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cable; electric cable",
+          "sentence": "維脩工人正在脩理電纜。",
+          "pinyin": "wéixiū gōngrén zhèngzài xiūlǐ diànlǎn.",
+          "en": "The repair workers are fixing the electric cable.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "工程",
       "pinyin": "gōngchéng",
-      "english": "engineering project",
-      "sentenceChinese": "這項工程的難度非常高。",
-      "sentencePinyin": "Zhè xiàng gōngchéng de nándù fēicháng gāo.",
-      "sentenceEnglish": "The difficulty of this engineering project is very high.",
-      "vietnamese": "công trình",
-      "sentenceVietnamese": "Độ khó của công trình này rất cao."
+      "en": "engineering project",
+      "vi": "công trình",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "project; programme",
+          "sentence": "這個橋樑工程正在建設中。",
+          "pinyin": "zhège qiáoliáng gōngchéng zhèngzài jiànshè zhōng.",
+          "en": "This bridge project is under construction.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "project; programme",
+          "sentence": "道路脩復工程正在進行。",
+          "pinyin": "dàolù xiūfù gōngchéng zhèngzài jìnxíng.",
+          "en": "The road repair project is in progress.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "固態光源",
       "pinyin": "gùtài guāngyuán",
-      "english": "solid state lighting",
-      "sentenceChinese": "固態光源具有長壽命和高效率的優點。",
-      "sentencePinyin": "Gùtài guāngyuán jùyǒu cháng shòumìng hé gāo xiàolǜ de yōudiǎn.",
-      "sentenceEnglish": "Solid state lighting has the advantages of long life and high efficiency.",
-      "vietnamese": "nguồn sáng rắn",
-      "sentenceVietnamese": "Nguồn sáng rắn có ưu điểm tuổi thọ dài và hiệu quả cao."
+      "en": "solid state lighting",
+      "vi": "nguồn sáng rắn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "obstinate; stubborn",
+          "sentence": "不要像山羊一樣又笨又固執。",
+          "pinyin": "bùyào xiàng shānyáng yīyàng yòu bèn yòu gùzhí.",
+          "en": "Don't be stupid and obstinate, like a goat.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "obstinate; stubborn",
+          "sentence": "皮諾喬還是像之前一樣固執。",
+          "pinyin": "pí nuò qiáo háishì xiàng zhīqián yīyàng gùzhí.",
+          "en": "Pinocchio was as stubborn as ever.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "簡稱",
       "pinyin": "jiǎnchēng",
-      "english": "abbreviation",
-      "sentenceChinese": "「發光二極體」簡稱為 LED。",
-      "sentencePinyin": "Fāguāng èrjítǐ jiǎnchēng wéi LED.",
-      "sentenceEnglish": "Light Emitting Diode is abbreviated as LED.",
-      "vietnamese": "viết tắt là",
-      "sentenceVietnamese": "Đèn LED là tên viết tắt của đi-ốt phát quang."
+      "en": "abbreviation",
+      "vi": "viết tắt là",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the abbreviated form of a name; abbreviation; shorter form",
+          "sentence": "“北大”是北京大學的簡稱。",
+          "pinyin": "“běidà” shì běijīng dàxué de jiǎnchēng.",
+          "en": "\"PKU\" is an abbreviation of \"Peking University\".",
+          "vi": "\"Bắc Đại\" là tên gọi tắt của Đại học Bắc Kinh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the abbreviated form of a name; abbreviation; shorter form",
+          "sentence": "這個組織的簡稱是什麼？",
+          "pinyin": "zhège zǔzhī de jiǎnchēng shì shénme?",
+          "en": "What is the abbreviation for this organization?",
+          "vi": "Tên viết tắt của tổ chức này là gì?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be called sth. for short",
+          "sentence": "科技術語常常被簡稱。",
+          "pinyin": "kējì shùyǔ chángcháng bèi jiǎnchēng.",
+          "en": "Technical terms are often abbreviated.",
+          "vi": "Thuật ngữ công nghệ thường được gọi tắt."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be called sth. for short",
+          "sentence": "我們簡稱它為“中醫”。",
+          "pinyin": "wǒmen jiǎnchēng tā wèi “zhōngyī”.",
+          "en": "We call it \"Traditional Chinese Medicine\" or \"TCM\" for short.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "瓦",
       "pinyin": "wǎ",
-      "english": "watt",
-      "sentenceChinese": "這盞燈的功率只有五瓦。",
-      "sentencePinyin": "Zhè zhǎn dēng de gōnglǜ zhǐyǒu wǔ wǎ.",
-      "sentenceEnglish": "The power of this lamp is only five watts.",
-      "vietnamese": "oát",
-      "sentenceVietnamese": "Công suất của ngọn đèn này chỉ có 5 oát."
+      "en": "watt",
+      "vi": "oát",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "roof tile",
+          "sentence": "我們住在一間瓦房裡/裏。",
+          "pinyin": "wǒmen zhù zài yī jiàn wǎ fáng lǐ.",
+          "en": "We live in a tile-roofed house.",
+          "vi": "Chúng tôi sống trong một căn nhà ngói."
+        },
+        {
+          "type": "noun",
+          "meaning": "roof tile",
+          "sentence": "庭院裡/裏有很多瓦礫。",
+          "pinyin": "tíngyuàn li yǒu hěnduō wǎlì.",
+          "en": "There are many tiles in the courtyard.",
+          "vi": "Trong sân có rất nhiều gạch ngói vụn."
+        },
+        {
+          "type": "measure word",
+          "meaning": "watt",
+          "sentence": "這個燈泡需要60瓦的電力。",
+          "pinyin": "zhège dēngpào xūyào 60 wǎ de diànlì.",
+          "en": "This light bulb needs 60 watts of power.",
+          "vi": "Bóng đèn này cần 60 oát điện."
+        },
+        {
+          "type": "measure word",
+          "meaning": "watt",
+          "sentence": "電熱水壺的功率是1500瓦。",
+          "pinyin": "diànrè shuǐhú de gōnglǜ shì 1500 wǎ.",
+          "en": "The power of the electric kettle is 1500 watts.",
+          "vi": "Công suất của ấm đun nước là 1500 oát."
+        }
+      ]
     },
     {
       "id": 71,
       "chinese": "日光板",
       "pinyin": "rìguāngbǎn",
-      "english": "solar panel",
-      "sentenceChinese": "日光板可以將太陽能轉換為電力。",
-      "sentencePinyin": "Rìguāngbǎn kěyǐ jiāng tàiyángnéng zhuǎnhuàn wéi diànlì.",
-      "sentenceEnglish": "Solar panels can convert solar energy into electricity.",
-      "vietnamese": "tấm pin mặt trời",
-      "sentenceVietnamese": "Tấm pin mặt trời có thể chuyển hóa năng lượng mặt trời thành điện năng."
+      "en": "solar panel",
+      "vi": "tấm pin mặt trời",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sunbath; sunbathe; sunbathing",
+          "sentence": "他每天早上都會做日光浴。",
+          "pinyin": "tā měitiān zǎoshang dōuhuì zuò rìguāngyù.",
+          "en": "He sunbathes every morning.",
+          "vi": "Anh ấy tắm nắng mỗi buổi sáng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sunbath; sunbathe; sunbathing",
+          "sentence": "日光浴有助於補充維生素。",
+          "pinyin": "rìguāngyù yǒu zhù yú bǔchōng wéishēngsù.",
+          "en": "Sunbathing helps to supplement vitamin D.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "蓄電",
       "pinyin": "xùdiàn",
-      "english": "electric power storage",
-      "sentenceChinese": "這款電池的蓄電能力非常強。",
-      "sentencePinyin": "Zhè kuǎn diànchí de xùdiàn nénglì fēicháng qiáng.",
-      "sentenceEnglish": "This battery has a very strong power storage capacity.",
-      "vietnamese": "tích điện",
-      "sentenceVietnamese": "Khả năng tích điện của loại pin này rất mạnh."
+      "en": "electric power storage",
+      "vi": "tích điện",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "store electric power",
+          "sentence": "這傢工廠去年已改産蓄電池。",
+          "pinyin": "Zhè jiā gōngchǎng qùnián yǐ gǎichǎn xùdiànchí.",
+          "en": "The plant changed over to the manufacture of storage batteries last year.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "電池",
       "pinyin": "diànchí",
-      "english": "battery",
-      "sentenceChinese": "遙控器沒電了，需要換新電池。",
-      "sentencePinyin": "Yáokòngqì méi diàn le, xūyào huàn xīn diànchí.",
-      "sentenceEnglish": "The remote control is out of power and needs a new battery.",
-      "vietnamese": "pin",
-      "sentenceVietnamese": "Điều khiển hết pin rồi, cần phải thay pin mới."
+      "en": "battery",
+      "vi": "pin",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cell; battery",
+          "sentence": "我忘記充電池了。",
+          "pinyin": "wǒ wàngjì chōng diànchíle.",
+          "en": "I forgot to charge the battery.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cell; battery",
+          "sentence": "請換一下電池。",
+          "pinyin": "qǐng huàn yīxià diànchí.",
+          "en": "Please change the battery.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "發光二極體",
       "pinyin": "fāguāng èrjítǐ",
-      "english": "light emitting diode",
-      "sentenceChinese": "發光二極體現在被廣泛應用在照明上。",
-      "sentencePinyin": "Fāguāng èrjítǐ xiànzài bèi guǎngfàn yìngyòng zài zhàomíng shàng.",
-      "sentenceEnglish": "Light Emitting Diodes are now widely used in lighting.",
-      "vietnamese": "đèn LED",
-      "sentenceVietnamese": "Đèn LED hiện nay được ứng dụng rộng rãi trong chiếu sáng."
+      "en": "light emitting diode",
+      "vi": "đèn LED",
+      "samples": []
     },
     {
       "id": 75,
       "chinese": "牛津大學",
       "pinyin": "Niújīn Dàxué",
-      "english": "Oxford University",
-      "sentenceChinese": "牛津大學是世界頂尖的學府之一。",
-      "sentencePinyin": "Niújīn Dàxué shì shìjiè dǐngjiān de xuéfǔ zhī yī.",
-      "sentenceEnglish": "Oxford University is one of the top institutions in the world.",
-      "vietnamese": "Đại học Oxford",
-      "sentenceVietnamese": "Đại học Oxford là một trong những học viện hàng đầu thế giới."
+      "en": "Oxford University",
+      "vi": "Đại học Oxford",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "University of Oxford",
+          "sentence": "他申請了牛津大學。",
+          "pinyin": "Tā shēnqǐng le Niújīn Dàxué.",
+          "en": "He applied to the University of Oxford.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 76,
       "chinese": "喬許·席爾佛",
       "pinyin": "Qiáoxǔ Xí'ěrfó",
-      "english": "Joshua Silver",
-      "sentenceChinese": "喬許·席爾佛發明了可調式眼鏡。",
-      "sentencePinyin": "Qiáoxǔ Xí'ěrfó fāmíng le kětiáoshì yǎnjìng.",
-      "sentenceEnglish": "Joshua Silver invented adjustable glasses.",
-      "vietnamese": "Joshua Silver",
-      "sentenceVietnamese": "Joshua Silver đã phát minh ra loại kính có thể điều chỉnh được."
+      "en": "Joshua Silver",
+      "vi": "Joshua Silver",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "praise; approve",
+          "sentence": "我贊許你的決定。",
+          "pinyin": "wǒ zànxǔ nǐ de juédìng.",
+          "en": "I approve of your decision.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "praise; approve",
+          "sentence": "老師稱許他的進步。",
+          "pinyin": "lǎoshī chēngxǔ tā de jìnbù.",
+          "en": "The teacher praised his progress.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "maybe; perhaps",
+          "sentence": "他許是不喜歡我。",
+          "pinyin": "tā xǔ shì bù xǐhuan wǒ.",
+          "en": "He probably doesn't like me.",
+          "vi": "Có lẽ là anh ấy không thích tớ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "maybe; perhaps",
+          "sentence": "今天他許是不來。",
+          "pinyin": "jīntiān tā xǔ shì bù lái.",
+          "en": "He probably won't come today.",
+          "vi": "Hôm nay có lẽ anh ấy không đến."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Xu, a state in the Zhou Dynasty",
+          "sentence": "許是週朝的一個國傢。",
+          "pinyin": "xǔ shì zhōu cháo de yīgè guójiā.",
+          "en": "Xu was a state in the Zhou Dynasty.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Xu, a state in the Zhou Dynasty",
+          "sentence": "他研究許國的曆史。",
+          "pinyin": "tā yánjiū xǔ guó de lìshǐ.",
+          "en": "He studies the history of the Xu state.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "about; approximately",
+          "sentence": "他今天上午十時許到達。",
+          "pinyin": "tā jīntiān shàngwǔ shí shí xǔ dàodá.",
+          "en": "He arrived around 10 a.m. today.",
+          "vi": "Anh ấy sẽ đến khoảng 10 giờ sáng hôm nay."
+        },
+        {
+          "type": "Particle",
+          "meaning": "about; approximately",
+          "sentence": "他已經工作了三年許。",
+          "pinyin": "tā yǐjīng gōngzuòle sān nián xǔ.",
+          "en": "He has been working for about three years.",
+          "vi": "Anh ấy đã làm việc khoảng ba năm."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "many; a lot of",
+          "sentence": "他許多次來過這裡/裏。",
+          "pinyin": "tā xǔduō cì láiguò zhèlǐ.",
+          "en": "He has been here many times.",
+          "vi": "Anh ấy đã đến đây nhiều lần."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "many; a lot of",
+          "sentence": "我許久沒見到他了。",
+          "pinyin": "wǒ xǔjiǔ méi jiàn dào tāle.",
+          "en": "I haven’t seen him for a long time.",
+          "vi": "Tôi đã lâu không gặp anh ấy."
+        }
+      ]
     }
-  ],
-  "theme": "Technology and Life"
+  ]
 }

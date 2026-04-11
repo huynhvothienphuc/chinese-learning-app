@@ -7,485 +7,1597 @@
       "id": 1,
       "chinese": "走",
       "pinyin": "zǒu",
-      "english": "to get to",
-      "sentenceChinese": "請問去師大怎麼走？",
-      "sentencePinyin": "Qǐngwèn qù Shīdà zěnme zǒu?",
-      "sentenceEnglish": "Excuse me, how do I get to NTNU?",
-      "vietnamese": "đi / đến",
-      "sentenceVietnamese": "Cho hỏi đi đến Sư Đại đi thế nào?"
+      "en": "to get to",
+      "vi": "đi / đến",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go; walk",
+          "sentence": "老公啊，孩子會走啦。",
+          "pinyin": "lǎogōng a, háizi huì zǒu la.",
+          "en": "Honey, our child can walk now.",
+          "vi": "Chồng ơi, con biết đi rồi nè."
+        },
+        {
+          "type": "Verb",
+          "meaning": "go; walk",
+          "sentence": "你怎麼走得那麼慢？",
+          "pinyin": "nǐ zěnme zǒu de nàme màn?",
+          "en": "Why are you walking so slowly?",
+          "vi": "Sao mà cậu đi chậm thế?"
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "路人",
       "pinyin": "lùrén",
-      "english": "someone; lit. a person on the street",
-      "sentenceChinese": "我迷路了，只好問路人。",
-      "sentencePinyin": "Wǒ mílù le, zhǐhǎo wèn lùrén.",
-      "sentenceEnglish": "I got lost, so I had to ask a passerby.",
-      "vietnamese": "người qua đường",
-      "sentenceVietnamese": "Tôi bị lạc đường, đành phải hỏi người qua đường."
+      "en": "someone; lit. a person on the street",
+      "vi": "người qua đường",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "passer-by; stranger",
+          "sentence": "路人熱心幫我指路。",
+          "pinyin": "lùrén rèxīn bāng wǒ zhǐ lù.",
+          "en": "A passerby kindly helped me with directions.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "passer-by; stranger",
+          "sentence": "我嚮路人問了時間。",
+          "pinyin": "wǒ xiàng lùrén wènle shíjiān.",
+          "en": "I asked a passerby for the time.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "幫忙",
       "pinyin": "bāngmáng",
-      "english": "to help",
-      "sentenceChinese": "不好意思，你可以幫忙嗎？",
-      "sentencePinyin": "Bù hǎoyìsi, nǐ kěyǐ bāngmáng ma?",
-      "sentenceEnglish": "Excuse me, can you help me?",
-      "vietnamese": "giúp đỡ",
-      "sentenceVietnamese": "Ngại quá, bạn có thể giúp tôi một chút không?"
+      "en": "to help",
+      "vi": "giúp đỡ",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "help; give a hand; lend a hand; do a favour; do a good turn",
+          "sentence": "他需要你的幫忙。",
+          "pinyin": "tā xūyào nǐ de bāngmáng.",
+          "en": "He needs your help.",
+          "vi": "Anh ấy cần sự giúp đỡ của bạn."
+        },
+        {
+          "type": "sv",
+          "meaning": "help; give a hand; lend a hand; do a favour; do a good turn",
+          "sentence": "他來幫忙搬東西。",
+          "pinyin": "tā lái bāngmáng bān dōngxi.",
+          "en": "He came to help move things.",
+          "vi": "Anh ấy đến giúp chuyển đồ."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "迷路",
       "pinyin": "mílù",
-      "english": "to be lost, to have lost directions",
-      "sentenceChinese": "我在這附近迷路了。",
-      "sentencePinyin": "Wǒ zài zhè fùjìn mílù le.",
-      "sentenceEnglish": "I am lost in this vicinity.",
-      "vietnamese": "lạc đường",
-      "sentenceVietnamese": "Tôi bị lạc đường ở gần đây."
+      "en": "to be lost, to have lost directions",
+      "vi": "lạc đường",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stray; get lost; lose one's way; lose one's bearings; go the wrong way; can't find one's way",
+          "sentence": "我們已完全迷路了。",
+          "pinyin": "wǒmen yǐ wánquán mílùle.",
+          "en": "We are completely lost.",
+          "vi": "Chúng tôi hoàn toàn lạc đường rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "stray; get lost; lose one's way; lose one's bearings; go the wrong way; can't find one's way",
+          "sentence": "我們在森林裡/裏迷路了。",
+          "pinyin": "wǒmen zài sēnlín lǐ mílùle.",
+          "en": "We are lost in the forest.",
+          "vi": "Chúng ta bị lạc đường trong rừng."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "下",
       "pinyin": "xià",
-      "english": "next",
-      "sentenceChinese": "在下一個路口往右轉。",
-      "sentencePinyin": "Zài xià yí ge lùkǒu wǎng yòu zhuǎn.",
-      "sentenceEnglish": "Turn right at the next intersection.",
-      "vietnamese": "tiếp theo",
-      "sentenceVietnamese": "Rẽ phải ở giao lộ tiếp theo."
+      "en": "next",
+      "vi": "tiếp theo",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "below",
+          "sentence": "上有父母，下有兒女。",
+          "pinyin": "shàng yǒu fùmǔ, xià yǒu érnǚ.",
+          "en": "Above are parents, below are children.",
+          "vi": "Trên có cha mẹ, dưới có con cái."
+        },
+        {
+          "type": "Noun",
+          "meaning": "below",
+          "sentence": "上有老闆，下有員工。",
+          "pinyin": "shàng yǒu lǎobǎn, xià yǒu yuángōng.",
+          "en": "Above is the boss, below are employees.",
+          "vi": "Trên có sếp, dưới có nhân viên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "alight; descend; get off",
+          "sentence": "他剛剛下床/牀走來走去。",
+          "pinyin": "tā gānggāng xià chuáng zǒu lái zǒu qù.",
+          "en": "He just got out of bed and walked around.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "alight; descend; get off",
+          "sentence": "我們準備下山迴傢去了。",
+          "pinyin": "wǒmen zhǔnbèi xiàshān huí jiā qùle.",
+          "en": "We are ready to go down the mountain and head home.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "number of times for actions",
+          "sentence": "我試了一下這個遊戲。",
+          "pinyin": "wǒ shìle yīxià zhège yóuxì.",
+          "en": "I tried this game for a bit.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "number of times for actions",
+          "sentence": "她敲了兩下門。",
+          "pinyin": "tā qiāole liǎng xià mén.",
+          "en": "She knocked on the door twice.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "路口",
       "pinyin": "lùkǒu",
-      "english": "intersection",
-      "sentenceChinese": "過兩個路口就到了。",
-      "sentencePinyin": "Guò liǎng ge lùkǒu jiù dào le.",
-      "sentenceEnglish": "It's just two intersections away.",
-      "vietnamese": "giao lộ / ngã tư",
-      "sentenceVietnamese": "Đi qua hai giao lộ là tới."
+      "en": "intersection",
+      "vi": "giao lộ / ngã tư",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "crossing; intersection",
+          "sentence": "我們走錯了路口。",
+          "pinyin": "wǒmen zǒu cuòle lùkǒu.",
+          "en": "We took the wrong intersection.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "crossing; intersection",
+          "sentence": "她在路口遇到了老朋友。",
+          "pinyin": "tā zài lùkǒu yù dàole lǎo péngyǒu.",
+          "en": "She met an old friend at the intersection.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "段",
       "pinyin": "duàn",
-      "english": "section",
-      "sentenceChinese": "師大在和平東路一段。",
-      "sentencePinyin": "Shīdà zài Hépíng Dōng Lù yí duàn.",
-      "sentenceEnglish": "NTNU is on Section 1 of Heping East Road.",
-      "vietnamese": "đoạn (đường)",
-      "sentenceVietnamese": "Sư Đại nằm ở đoạn 1 đường Hòa Bình Đông."
+      "en": "section",
+      "vi": "đoạn (đường)",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "part; section; segment",
+          "sentence": "這段木頭很結實。",
+          "pinyin": "zhè duàn mùtou hěn jiēshi.",
+          "en": "This piece of wood is very solid.",
+          "vi": "Cái khúc gỗ này rất chắc chắn."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "part; section; segment",
+          "sentence": "我喜歡這兩段木頭。",
+          "pinyin": "wǒ xǐhuan zhè liǎng duàn mùtou.",
+          "en": "I like these two pieces of wood.",
+          "vi": "Tôi thích hai khúc gỗ này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他的姓是段。",
+          "pinyin": "tā de xìng shì duàn.",
+          "en": "His surname is Duan.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的朋友姓段。",
+          "pinyin": "wǒ de péngyou xìng duàn.",
+          "en": "My friend’s surname is Duan.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cut off; separate",
+          "sentence": "他段斷了關繫。",
+          "pinyin": "tā duàn duànle guānxi.",
+          "en": "He cut off the relationship.",
+          "vi": "Anh ấy đã cắt đứt mối quan hệ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cut off; separate",
+          "sentence": "他段斷了閤衕。",
+          "pinyin": "tā duàn duànle hétong.",
+          "en": "He terminated the contract.",
+          "vi": "Anh ấy chấm dứt hợp đồng."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "過",
       "pinyin": "guò",
-      "english": "to go past, to cross",
-      "sentenceChinese": "過第一個紅綠燈以後往左轉。",
-      "sentencePinyin": "Guò dì yī ge hónglǜdēng yǐhòu wǎng zuǒ zhuǎn.",
-      "sentenceEnglish": "Turn left after passing the first traffic light.",
-      "vietnamese": "qua / vượt qua",
-      "sentenceVietnamese": "Sau khi đi qua cột đèn giao thông đầu tiên thì rẽ trái."
+      "en": "to go past, to cross",
+      "vi": "qua / vượt qua",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cross; pass",
+          "sentence": "過了這條街就到了。",
+          "pinyin": "guòle zhè tiáo jiē jiù dàole.",
+          "en": "Once you cross this street, you're there.",
+          "vi": "Đi qua con phố này là tới rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cross; pass",
+          "sentence": "他們帶著孩子過河。",
+          "pinyin": "tāmen dàizhe háizi guò hé.",
+          "en": "They crossed the river with their child.",
+          "vi": "Bọn họ dắt con qua sông."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "excessively; over",
+          "sentence": "吃/喫得過多對身體不好。",
+          "pinyin": "chī dé guò duō duì shēntǐ bù hǎo.",
+          "en": "Eating too much is bad for your health.",
+          "vi": "Ăn quá nhiều không tốt cho sức khỏe."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "excessively; over",
+          "sentence": "這條褲子過長了。",
+          "pinyin": "zhè tiáo kùzi guò zhǎngle.",
+          "en": "These pants are too long.",
+          "vi": "Chiếc quần này quá dài."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "time",
+          "sentence": "這件衣服洗了三過。",
+          "pinyin": "zhè jiàn yīfu xǐle sānguò.",
+          "en": "This piece of clothing has been washed three times.",
+          "vi": "Cái áo này đã được giặt ba lần."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "time",
+          "sentence": "這個問題討論了幾過。",
+          "pinyin": "zhège wèntí tǎolùnle jǐguò.",
+          "en": "This issue has been discussed several times.",
+          "vi": "Vấn đề này đã được thảo luận vài lần."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fault; mistake; demerit; error",
+          "sentence": "他承認了自己的過錯。",
+          "pinyin": "tā chéngrènle zìjǐ de guòcuò.",
+          "en": "He admitted his mistake.",
+          "vi": "Anh ấy thừa nhận lỗi của mình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fault; mistake; demerit; error",
+          "sentence": "我們要勇於改過。",
+          "pinyin": "wǒmen yào yǒngyú gǎiguò.",
+          "en": "We should bravely correct our mistakes.",
+          "vi": "Chúng ta cần dũng cảm sửa sai lầm."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "第",
       "pinyin": "dì",
-      "english": "used to indicate ordinal numbers",
-      "sentenceChinese": "這是我的第一張地圖。",
-      "sentencePinyin": "Zhè shì wǒ de dì yī zhāng dìtú.",
-      "sentenceEnglish": "This is my first map.",
-      "vietnamese": "thứ (số thứ tự)",
-      "sentenceVietnamese": "Đây là tấm bản đồ đầu tiên của tôi."
+      "en": "used to indicate ordinal numbers",
+      "vi": "thứ (số thứ tự)",
+      "samples": [
+        {
+          "type": "pref",
+          "meaning": "auxiliary word for ordinal numbers",
+          "sentence": "這是我的第四個項目。",
+          "pinyin": "zhè shì wǒ de dì sì gè xiàngmù.",
+          "en": "This is my fourth project.",
+          "vi": "Đây là dự án thứ tư của tôi."
+        },
+        {
+          "type": "pref",
+          "meaning": "auxiliary word for ordinal numbers",
+          "sentence": "他是第三個到達的。",
+          "pinyin": "tā shì dì sān gè dàodá de.",
+          "en": "He was the third to arrive.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "different grades of successful candidates in the imperial examinations",
+          "sentence": "寒窗十年，終於及第。",
+          "pinyin": "hánchuāng shí nián, zhōngyú jí dì.",
+          "en": "After ten years of hard study, he finally passed the exam.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "different grades of successful candidates in the imperial examinations",
+          "sentence": "及第後，他喜極而泣。",
+          "pinyin": "jí dì hòu, tā xǐjí'érqì.",
+          "en": "After passing the exam, he cried for joy.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "but, only",
+          "sentence": "你第管説，我聽著。",
+          "pinyin": "nǐ dì guǎn shuō, wǒ tīngzhe.",
+          "en": "You just speak, I'm listening.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "but, only",
+          "sentence": "第嚮前走，別迴頭。",
+          "pinyin": "dì xiàng qián zǒu, bié huítóu.",
+          "en": "Just go forward, don't look back.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "but; however",
+          "sentence": "我想去旅行，第沒時間。",
+          "pinyin": "wǒ xiǎng qù lǚxíng, dì méi shíjiān.",
+          "en": "I want to travel, but have no time.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "but; however",
+          "sentence": "他很努力，第沒有成功。",
+          "pinyin": "tā hěn nǔlì, dì méiyǒu chénggōng.",
+          "en": "He worked hard but didn't succeed.",
+          "vi": "Anh ấy rất nỗ lực, nhưng không thành công."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "紅綠燈",
       "pinyin": "hónglǜdēng",
-      "english": "traffic light",
-      "sentenceChinese": "前面有一個紅綠燈。",
-      "sentencePinyin": "Qiánmiàn yǒu yí ge hónglǜdēng.",
-      "sentenceEnglish": "There is a traffic light ahead.",
-      "vietnamese": "đèn giao thông",
-      "sentenceVietnamese": "Phía trước có một cột đèn giao thông."
+      "en": "traffic light",
+      "vi": "đèn giao thông",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "traffic light; traffic signal",
+          "sentence": "請在紅綠燈前停車。",
+          "pinyin": "qǐng zài hónglǜdēng qián tíngchē.",
+          "en": "Please stop at the traffic light.",
+          "vi": "Vui lòng dừng xe trước đèn giao thông."
+        },
+        {
+          "type": "Noun",
+          "meaning": "traffic light; traffic signal",
+          "sentence": "那裡/裏有沒有紅綠燈？",
+          "pinyin": "nàlǐ yǒu méiyǒu hónglǜdēng?",
+          "en": "Is there a traffic light there?",
+          "vi": "Ở đó có đèn giao thông không?"
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "告訴",
       "pinyin": "gàosù",
-      "english": "to tell",
-      "sentenceChinese": "你可以告訴我怎麼去郵局嗎？",
-      "sentencePinyin": "Nǐ kěyǐ gàosù wǒ zěnme qù yóujú ma?",
-      "sentenceEnglish": "Can you tell me how to get to the post office?",
-      "vietnamese": "nói / bảo",
-      "sentenceVietnamese": "Bạn có thể bảo tôi làm sao đi đến bưu điện không?"
+      "en": "to tell",
+      "vi": "nói / bảo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "tell; let (make) know",
+          "sentence": "請先告訴我人數。",
+          "pinyin": "qǐng xiān gàosù wǒ rénshù.",
+          "en": "Please tell me the number of people first.",
+          "vi": "Hãy nói với tôi số người trước."
+        },
+        {
+          "type": "Verb",
+          "meaning": "tell; let (make) know",
+          "sentence": "請告訴我你的地址。",
+          "pinyin": "qǐng gàosù wǒ nǐ dì dìzhǐ.",
+          "en": "Please tell me your address.",
+          "vi": "Nói với tôi địa chỉ của cậu."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "提款機",
       "pinyin": "tíkuǎnjī",
-      "english": "ATM machine",
-      "sentenceChinese": "這間超商裡面有提款機。",
-      "sentencePinyin": "Zhè jiān chāoshāng lǐmiàn yǒu tíkuǎnjī.",
-      "sentenceEnglish": "There is an ATM inside this convenience store.",
-      "vietnamese": "máy rút tiền ATM",
-      "sentenceVietnamese": "Trong cửa hàng tiện lợi này có máy rút tiền."
+      "en": "ATM machine",
+      "vi": "máy rút tiền ATM",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ATM; bank autoteller",
+          "sentence": "我需要找到提款機。",
+          "pinyin": "wǒ xūyào zhǎodào tí kuǎn jī.",
+          "en": "I need to find an ATM.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "ATM; bank autoteller",
+          "sentence": "提款機就在銀行門口。",
+          "pinyin": "tí kuǎn jī jiù zài yínháng ménkǒu.",
+          "en": "The ATM is right at the bank entrance.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "超商",
       "pinyin": "chāo-shāng",
-      "english": "convenience store",
-      "sentenceChinese": "台灣有很多超商。",
-      "sentencePinyin": "Táiwān yǒu hěnduō chāoshāng.",
-      "sentenceEnglish": "There are many convenience stores in Taiwan.",
-      "vietnamese": "cửa hàng tiện lợi",
-      "sentenceVietnamese": "Đài Loan có rất nhiều cửa hàng tiện lợi."
+      "en": "convenience store",
+      "vi": "cửa hàng tiện lợi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "convenience store",
+          "sentence": "我在超商買咖啡了。",
+          "pinyin": "wǒ zài chāo shāng mǎi kā fēi le",
+          "en": "I'm buying coffee at the convenience store.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "supermarket",
+          "sentence": "我今天去超商買飲料。",
+          "pinyin": "wǒ jīn tiān qù chāo shāng mǎi yǐn liào",
+          "en": "I went to the supermarket today to buy drinks.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "應該",
       "pinyin": "yīnggāi",
-      "english": "should; ought to",
-      "sentenceChinese": "你應該先下載這張地圖。",
-      "sentencePinyin": "Nǐ yīnggāi xiān xiàzài zhè zhāng dìtú.",
-      "sentenceEnglish": "You should download this map first.",
-      "vietnamese": "nên",
-      "sentenceVietnamese": "Bạn nên tải bản đồ này xuống trước."
+      "en": "should; ought to",
+      "vi": "nên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "should; ought to",
+          "sentence": "這是我應該做的。",
+          "pinyin": "zhè shì wǒ yīnggāi zuò de.",
+          "en": "This is what I should do.",
+          "vi": "Đây là việc tôi nên làm mà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "should; ought to",
+          "sentence": "你應該早點起床/牀。",
+          "pinyin": "nǐ yīnggāi zǎodiǎn qǐchuáng.",
+          "en": "You should get up earlier.",
+          "vi": "Bạn nên dậy sớm hơn chút."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "郵局",
       "pinyin": "yóujú",
-      "english": "post office",
-      "sentenceChinese": "郵局在那邊。",
-      "sentencePinyin": "Yóujú zài nàbiān.",
-      "sentenceEnglish": "The post office is over there.",
-      "vietnamese": "bưu điện",
-      "sentenceVietnamese": "Bưu điện ở đằng kia."
+      "en": "post office",
+      "vi": "bưu điện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "post office",
+          "sentence": "昨天他去了郵局。",
+          "pinyin": "zuótiān tā qùle yóujú.",
+          "en": "He went to the post office yesterday.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "post office",
+          "sentence": "咱們幾點去郵局？",
+          "pinyin": "zánmen jǐ diǎn qù yóujú?",
+          "en": "What time shall we go to the post office?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "提",
       "pinyin": "tí",
-      "english": "to withdraw (money)",
-      "sentenceChinese": "我要去提錢。",
-      "sentencePinyin": "Wǒ yào qù tí qián.",
-      "sentenceEnglish": "I need to withdraw money.",
-      "vietnamese": "rút (tiền)",
-      "sentenceVietnamese": "Tôi phải đi rút tiền."
+      "en": "to withdraw (money)",
+      "vi": "rút (tiền)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "carry (in one's hand with the arm down)",
+          "sentence": "我去提一壺水來。",
+          "pinyin": "wǒ qù tí yī hú shuǐ lái.",
+          "en": "I’m going to fetch a kettle of water.",
+          "vi": "Tôi đi xách một ấm nước đến."
+        },
+        {
+          "type": "Verb",
+          "meaning": "carry (in one's hand with the arm down)",
+          "sentence": "他手裡/裏提著書包。",
+          "pinyin": "tā shǒu lǐ tízhe shūbāo.",
+          "en": "He is holding a schoolbag in his hand.",
+          "vi": "Anh ta đang xách cặp sách."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dipper",
+          "sentence": "他用提舀了一勺油。",
+          "pinyin": "tā yòng tí yǎole yī sháo yóu.",
+          "en": "He scooped oil with a dipper.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dipper",
+          "sentence": "他用油提舀油。",
+          "pinyin": "tā yòng yóu tí yǎo yóu.",
+          "en": "He uses an oil dipper to scoop oil.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "那邊",
       "pinyin": "nàbiān",
-      "english": "over there, yonder",
-      "sentenceChinese": "他在那邊等你。",
-      "sentencePinyin": "Tā zài nàbiān děng nǐ.",
-      "sentenceEnglish": "He is waiting for you over there.",
-      "vietnamese": "đằng kia",
-      "sentenceVietnamese": "Anh ấy đang đợi bạn ở đằng kia."
+      "en": "over there, yonder",
+      "vi": "đằng kia",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "there; over there",
+          "sentence": "那邊的店已經關門了。",
+          "pinyin": "nà bian de diàn yǐjīng guānménle.",
+          "en": "The shop over there has closed.",
+          "vi": "Cửa hàng đằng kia đã đóng cửa rồi."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "there; over there",
+          "sentence": "你看到那邊的貓了嗎？",
+          "pinyin": "nǐ kàn dào nà bian de māole ma?",
+          "en": "Did you see the cat over there?",
+          "vi": "Bạn có thấy con mèo bên đó không?"
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "師大",
       "pinyin": "Shīdà",
-      "english": "NTNU (National Taiwan Normal University)",
-      "sentenceChinese": "我每天去師大上課。",
-      "sentencePinyin": "Wǒ měitiān qù Shīdà shàngkè.",
-      "sentenceEnglish": "I go to NTNU for class every day.",
-      "vietnamese": "Sư Đại (Đại học Sư phạm Đài Loan)",
-      "sentenceVietnamese": "Mỗi ngày tôi đều đến Sư Đại lên lớp."
+      "en": "NTNU (National Taiwan Normal University)",
+      "vi": "Sư Đại (Đại học Sư phạm Đài Loan)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "normal university",
+          "sentence": "他在師大學習教育學。",
+          "pinyin": "tā zài shī dà xuéxí jiàoyù xué.",
+          "en": "He studies education at Normal University.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "normal university",
+          "sentence": "師大是我夢想的學校。",
+          "pinyin": "shī dà shì wǒ mèngxiǎng de xuéxiào.",
+          "en": "Normal University is my dream school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "和平東路",
       "pinyin": "Hépíng Dōng Lù",
-      "english": "Heping East Road",
-      "sentenceChinese": "和平東路在那邊。",
-      "sentencePinyin": "Hépíng Dōng Lù zài nàbiān.",
-      "sentenceEnglish": "Heping East Road is over there.",
-      "vietnamese": "đường Hòa Bình Đông",
-      "sentenceVietnamese": "Đường Hòa Bình Đông ở đằng kia."
+      "en": "Heping East Road",
+      "vi": "đường Hòa Bình Đông",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "peaceful",
+          "sentence": "他是一個和平的人。",
+          "pinyin": "tā shì yīgè hépíng de rén.",
+          "en": "He is a peaceful person.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "peaceful",
+          "sentence": "他的態度非常和平。",
+          "pinyin": "tā de tàidù fēicháng hépíng.",
+          "en": "His attitude is very peaceful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "peace",
+          "sentence": "我們希望世界能保持和平。",
+          "pinyin": "wǒmen xīwàng shìjiè néng bǎochí hépíng.",
+          "en": "We hope the world can maintain peace.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "peace",
+          "sentence": "我們要為世界和平而努力。",
+          "pinyin": "wǒmen yào wèi shìjiè hépíng ér nǔlì.",
+          "en": "We must work hard for world peace.",
+          "vi": "Chúng ta phải nỗ lực vì hòa bình thế giới."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "往前",
       "pinyin": "wǎng qián",
-      "english": "forward, ahead",
-      "sentenceChinese": "請一直往前走。",
-      "sentencePinyin": "Qǐng yìzhí wǎng qián zǒu.",
-      "sentenceEnglish": "Please keep going straight ahead.",
-      "vietnamese": "đi về phía trước",
-      "sentenceVietnamese": "Xin hãy cứ đi thẳng về phía trước."
+      "en": "forward, ahead",
+      "vi": "đi về phía trước",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "ahead; forward; in the future",
+          "sentence": "請大傢往前站一站。",
+          "pinyin": "qǐng dàjiā wǎng qián zhàn yí zhàn.",
+          "en": "Everybody please step forward.",
+          "vi": "Mời mọi người đứng về phía trước một chút."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "ahead; forward; in the future",
+          "sentence": "火車正在往前行駛。",
+          "pinyin": "huǒchē zhèngzài wǎng qián xíngshǐ.",
+          "en": "The train is moving forward.",
+          "vi": "Tàu hỏa đang chạy về phía trước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the place in front of you in space or time, the situation ahead or in the future",
+          "sentence": "我們要勇敢地走嚮往前。",
+          "pinyin": "wǒmen yào yǒnggǎn de zǒuxiàng wǎng qián.",
+          "en": "We must move forward bravely.",
+          "vi": "Chúng ta phải dũng cảm tiến về phía trước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the place in front of you in space or time, the situation ahead or in the future",
+          "sentence": "往前就是我們的未來。",
+          "pinyin": "wǎng qián jiùshì wǒmen de wèilái.",
+          "en": "Moving forward is our future.",
+          "vi": "Phía trước chính là tương lai của chúng ta."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "右轉",
       "pinyin": "yòu zhuǎn",
-      "english": "to turn right",
-      "sentenceChinese": "在下一個路口右轉。",
-      "sentencePinyin": "Zài xià yí ge lùkǒu yòu zhuǎn.",
-      "sentenceEnglish": "Turn right at the next intersection.",
-      "vietnamese": "rẽ phải",
-      "sentenceVietnamese": "Rẽ phải ở giao lộ tiếp theo."
+      "en": "to turn right",
+      "vi": "rẽ phải",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to turn right",
+          "sentence": "請在下個路口右轉。",
+          "pinyin": "qǐng zàixià gè lùkǒu yòu zhuǎn.",
+          "en": "Please turn right at the next intersection.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to turn right",
+          "sentence": "你到十字路口後右轉。",
+          "pinyin": "nǐ dào shízìlù kǒu hòu yòu zhuǎn.",
+          "en": "Turn right after you reach the intersection.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "聽起來",
       "pinyin": "tīng qǐlái",
-      "english": "to sound, sound like",
-      "sentenceChinese": "這聽起來很簡單。",
-      "sentencePinyin": "Zhè tīng qǐlái hěn jiǎndān.",
-      "sentenceEnglish": "This sounds very simple.",
-      "vietnamese": "nghe có vẻ",
-      "sentenceVietnamese": "Nghe có vẻ rất đơn giản."
+      "en": "to sound, sound like",
+      "vi": "nghe có vẻ",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "ring; sound",
+          "sentence": "這首歌聽起來很悲傷。",
+          "pinyin": "zhè shǒu gē tīng qǐlái hěn bēishāng.",
+          "en": "This song sounds very sad.",
+          "vi": "Bài hát này nghe rất buồn."
+        },
+        {
+          "type": "phrase",
+          "meaning": "ring; sound",
+          "sentence": "他的故事聽起來很有趣。",
+          "pinyin": "tā de gù shi tīng qǐlái hěn yǒuqù.",
+          "en": "His story sounds very interesting.",
+          "vi": "Câu chuyện của anh ấy nghe rất thú vị."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "看見",
       "pinyin": "kànjiàn",
-      "english": "to see, to have seen",
-      "sentenceChinese": "你看見提款機了嗎？",
-      "sentencePinyin": "Nǐ kànjiàn tíkuǎnjī le ma?",
-      "sentenceEnglish": "Did you see the ATM?",
-      "vietnamese": "nhìn thấy",
-      "sentenceVietnamese": "Bạn có nhìn thấy máy rút tiền không?"
+      "en": "to see, to have seen",
+      "vi": "nhìn thấy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "see; catch sight of",
+          "sentence": "你看見我的盃子了嗎？",
+          "pinyin": "nǐ kànjiàn wǒ de bēizile ma?",
+          "en": "Have you seen my cup?",
+          "vi": "Bạn có thấy cốc của tôi chưa?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "see; catch sight of",
+          "sentence": "我們都看見那個人了。",
+          "pinyin": "wǒmen dōu kànjiàn nàgè rénle.",
+          "en": "We all saw that person.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "下載",
       "pinyin": "xiàzài",
-      "english": "to download",
-      "sentenceChinese": "你可以先下載這張地圖。",
-      "sentencePinyin": "Nǐ kěyǐ xiān xiàzài zhè zhāng dìtú.",
-      "sentenceEnglish": "You can download this map first.",
-      "vietnamese": "tải xuống",
-      "sentenceVietnamese": "Bạn có thể tải bản đồ này xuống trước."
+      "en": "to download",
+      "vi": "tải xuống",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "download",
+          "sentence": "這張圖片無法下載。",
+          "pinyin": "zhè zhāng túpiàn wúfǎ xiàzài.",
+          "en": "This image cannot be downloaded.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "download",
+          "sentence": "這個遊戲是從網上下載的。",
+          "pinyin": "zhège yóuxì shì cóng wǎngshàng xiàzài de.",
+          "en": "This game was downloaded from the internet.",
+          "vi": "Game này tải từ trên mạng đó."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "地圖",
       "pinyin": "dìtú",
-      "english": "map",
-      "sentenceChinese": "這張地圖很好用。",
-      "sentencePinyin": "Zhè zhāng dìtú hěn hǎoyòng.",
-      "sentenceEnglish": "This map is very useful.",
-      "vietnamese": "bản đồ",
-      "sentenceVietnamese": "Tấm bản đồ này rất hữu dụng."
+      "en": "map",
+      "vi": "bản đồ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "map",
+          "sentence": "我有一張世界地圖。",
+          "pinyin": "wǒ yǒuyī zhāng shìjiè dìtú.",
+          "en": "I have a world map.",
+          "vi": "Tôi có một tấm bản đồ thế giới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "map",
+          "sentence": "墻上掛著一張地圖。",
+          "pinyin": "qiáng shàng guàzhe yī zhāng dìtú.",
+          "en": "There is a map hanging on the wall.",
+          "vi": "Trên tường treo một tấm bản đồ."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "好用",
       "pinyin": "hǎoyòng",
-      "english": "easy to use, handy",
-      "sentenceChinese": "這張地圖非常方便好用。",
-      "sentencePinyin": "Zhè zhāng dìtú fēicháng fāngbiàn hǎoyòng.",
-      "sentenceEnglish": "This map is very convenient and handy.",
-      "vietnamese": "dễ dùng / tiện dụng",
-      "sentenceVietnamese": "Tấm bản đồ này rất tiện lợi và dễ dùng."
+      "en": "easy to use, handy",
+      "vi": "dễ dùng / tiện dụng",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "convenient; easy to use; useful",
+          "sentence": "你這把雨傘可好用了。",
+          "pinyin": "nǐ zhè bǎ yǔsǎn kě hǎo yòngle.",
+          "en": "Your umbrella is very practical.",
+          "vi": "Cái ô của bạn rất tiện dụng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "convenient; easy to use; useful",
+          "sentence": "他買的這把刀很好用。",
+          "pinyin": "tā mǎi de zhè bǎ dāo hěn hǎo yòng.",
+          "en": "The knife he bought is very useful.",
+          "vi": "Con dao mà anh ấy mua rất dễ dùng."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "著",
       "pinyin": "zhe",
-      "english": "particle indicating progression",
-      "sentenceChinese": "他拿著地圖找路。",
-      "sentencePinyin": "Tā názhe dìtú zhǎo lù.",
-      "sentenceEnglish": "He is holding the map and looking for the way.",
-      "vietnamese": "đang (trợ từ)",
-      "sentenceVietnamese": "Anh ấy đang cầm bản đồ tìm đường."
+      "en": "particle indicating progression",
+      "vi": "đang (trợ từ)",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "add to a verb or adjective to indicate a continued action or state",
+          "sentence": "他穿著一件紅衣服。",
+          "pinyin": "tā chuānzhe yī jiàn hóng yīfu.",
+          "en": "He is wearing a red shirt.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "add to a verb or adjective to indicate a continued action or state",
+          "sentence": "他們笑著走進教室。",
+          "pinyin": "tāmen xiàozhe zǒu jìn jiàoshì.",
+          "en": "They walked into the classroom smiling.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "日用品",
       "pinyin": "rìyòngpǐn",
-      "english": "articles of daily use",
-      "sentenceChinese": "這間超商賣很多日用品。",
-      "sentencePinyin": "Zhè jiān chāoshāng mài hěnduō rìyòngpǐn.",
-      "sentenceEnglish": "This convenience store sells many daily necessities.",
-      "vietnamese": "nhu yếu phẩm / đồ dùng hàng ngày",
-      "sentenceVietnamese": "Cửa hàng tiện lợi này bán rất nhiều đồ nhu yếu phẩm."
+      "en": "articles of daily use",
+      "vi": "nhu yếu phẩm / đồ dùng hàng ngày",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "articles for daily use",
+          "sentence": "我需要買一些日用品。",
+          "pinyin": "wǒ xū yāo mǎi yīxiē rìyòngpǐn.",
+          "en": "I need to buy some daily necessities.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "articles for daily use",
+          "sentence": "她喜歡收集日用品。",
+          "pinyin": "tā xǐhuan shōují rìyòngpǐn.",
+          "en": "She likes to collect daily necessities.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "經過",
       "pinyin": "jīngguò",
-      "english": "to go past",
-      "sentenceChinese": "我每天經過這條巷子。",
-      "sentencePinyin": "Wǒ měitiān jīngguò zhè tiáo xiàngzi.",
-      "sentenceEnglish": "I pass through this alley every day.",
-      "vietnamese": "đi qua",
-      "sentenceVietnamese": "Mỗi ngày tôi đều đi qua con hẻm này."
+      "en": "to go past",
+      "vi": "đi qua",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pass; go through; go by",
+          "sentence": "從廣州去北京要經過武漢。",
+          "pinyin": "cóng Guǎngzhōu qù Běijīng yào jīngguò Wǔhàn.",
+          "en": "To travel from Guangzhou to Beijing, you have to pass through Wuhan.",
+          "vi": "Từ Quảng Châu đi Bắc Kinh phải đi qua Vũ Hán."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass; go through; go by",
+          "sentence": "從我傢到公司經過一所學校。",
+          "pinyin": "cóng wǒjiā dào gōngsī jīngguò yī suǒ xuéxiào.",
+          "en": "From my house to the company, I pass by a school.",
+          "vi": "Từ nhà tôi đến công ty đi qua một trường học."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "after; through; as a result of",
+          "sentence": "經過兩年，我學會説漢語了。",
+          "pinyin": "jīngguò liǎng nián, wǒ xuéhuì shuō hànyǔle.",
+          "en": "After two years, I learned to speak Chinese.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "after; through; as a result of",
+          "sentence": "經過討論，大傢決定放棄。",
+          "pinyin": "jīngguò tǎolùn, dàjiā juédìng fàngqì.",
+          "en": "After discussion, everyone decided to give up.",
+          "vi": "Sau khi thảo luận, mọi người quyết định từ bỏ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "process; course",
+          "sentence": "事情的全部經過是這樣。",
+          "pinyin": "shìqíng de quánbù jīngguò shì zhèyàng.",
+          "en": "This is the full course of the event.",
+          "vi": "Toàn bộ quá trình của sự việc là như thế này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "process; course",
+          "sentence": "説説你追求小張的經過吧！",
+          "pinyin": "shuōshuo nǐ zhuīqiú xiǎo Zhāng de jīngguò ba!",
+          "en": "Tell us about how you pursued Xiao Zhang!",
+          "vi": "Nói qua quá trình bạn theo đuổi Tiểu Trương đi!"
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "巷子",
       "pinyin": "xiàngzi",
-      "english": "alley",
-      "sentenceChinese": "那家麵店就在小巷子裡面。",
-      "sentencePinyin": "Nà jiā miàndiàn jiù zài xiǎo xiàngzi lǐmiàn.",
-      "sentenceEnglish": "That noodle shop is right inside the small alley.",
-      "vietnamese": "ngõ / hẻm",
-      "sentenceVietnamese": "Tiệm mì đó nằm ngay trong con hẻm nhỏ."
+      "en": "alley",
+      "vi": "ngõ / hẻm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "alley",
+          "sentence": "這條巷子很安靜。",
+          "pinyin": "zhè tiáo xiàngzi hěn ānjìng.",
+          "en": "This alley is very quiet.",
+          "vi": "Con ngõ này rất yên tĩnh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "alley",
+          "sentence": "她從巷子裡/裏走齣來。",
+          "pinyin": "tā cóng xiàngzi lǐ zǒu chūlái.",
+          "en": "She walked out of the alley.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "餓",
       "pinyin": "è",
-      "english": "hungry",
-      "sentenceChinese": "我一邊走路一邊發現我很餓。",
-      "sentencePinyin": "Wǒ yìbiān zǒulù yìbiān fāxiàn wǒ hěn è.",
-      "sentenceEnglish": "While walking, I discovered that I am hungry.",
-      "vietnamese": "đói",
-      "sentenceVietnamese": "Tôi vừa đi bộ vừa phát hiện ra mình rất đói."
+      "en": "hungry",
+      "vi": "đói",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "hungry",
+          "sentence": "我現在感覺很餓。",
+          "pinyin": "wǒ xiànzài gǎnjué hěn è.",
+          "en": "I feel very hungry right now.",
+          "vi": "Tôi bây giờ cảm thấy rất đói."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "hungry",
+          "sentence": "我有點餓了，想吃/喫飯。",
+          "pinyin": "wǒ yǒudiǎn èle, xiǎng chīfàn.",
+          "en": "I'm a bit hungry and want to eat.",
+          "vi": "Tôi hơi đói rồi, muốn ăn cơm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "starve; cause to starve",
+          "sentence": "老闆讓工人們餓了一天。",
+          "pinyin": "lǎobǎn ràng gōngrénmen èle yītiān.",
+          "en": "The boss made the workers go hungry for a day.",
+          "vi": "Ông chủ bỏ đói công nhân cả ngày."
+        },
+        {
+          "type": "Verb",
+          "meaning": "starve; cause to starve",
+          "sentence": "沒有食物，我們隻能餓著。",
+          "pinyin": "méiyǒu shíwù, wǒmen zhǐ néng èzhe.",
+          "en": "Without food, we can only stay hungry.",
+          "vi": "Không có thức ăn, chúng tôi chỉ có thể chết đói."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "一邊",
       "pinyin": "yìbiān",
-      "english": "while (simultaneous actions)",
-      "sentenceChinese": "他喜歡一邊吃飯一邊看電視。",
-      "sentencePinyin": "Tā xǐhuān yìbiān chīfàn yìbiān kàn diànshì.",
-      "sentenceEnglish": "He likes to watch TV while eating.",
-      "vietnamese": "vừa... vừa...",
-      "sentenceVietnamese": "Anh ấy thích vừa ăn cơm vừa xem tivi."
+      "en": "while (simultaneous actions)",
+      "vi": "vừa... vừa...",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "side; one side",
+          "sentence": "這塊木料有一邊不光滑。",
+          "pinyin": "zhè kuài mùliào yǒu yībiān bù guānghuá.",
+          "en": "This piece of wood has one side that is not smooth.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "side; one side",
+          "sentence": "兩方麵爭論，總有一邊理屈。",
+          "pinyin": "liǎng fāngmiàn zhēnglùn, zǒng yǒu yībiān lǐqū.",
+          "en": "In a debate between two sides, one side will always be unreasonable.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "while; as; at the same time; simultaneously",
+          "sentence": "他慢慢往前走，一邊唱著歌兒。",
+          "pinyin": "tā màn man wǎng qián zǒu, yībiān chàngzhe gēr.",
+          "en": "He walks slowly forward while singing a song.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "while; as; at the same time; simultaneously",
+          "sentence": "他一邊答應，一邊放下手裡/裏的書。",
+          "pinyin": "tā yībiān dāying, yībiān fàngxià shǒu lǐ de shū.",
+          "en": "He agrees while putting down the book in his hand.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "same; equal",
+          "sentence": "他們倆真是一邊高。",
+          "pinyin": "tāmen liǎ zhēnshi yībiān gāo.",
+          "en": "They are really the same height.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "same; equal",
+          "sentence": "天下烏鴉全是一邊黑。",
+          "pinyin": "tiānxià wūyā quán shì yībiān hēi.",
+          "en": "Crows everywhere are all black.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "發現",
       "pinyin": "fāxiàn",
-      "english": "to discover",
-      "sentenceChinese": "我剛發現我沒帶錢。",
-      "sentencePinyin": "Wǒ gāng fāxiàn wǒ méi dài qián.",
-      "sentenceEnglish": "I just discovered that I didn't bring any money.",
-      "vietnamese": "phát hiện",
-      "sentenceVietnamese": "Tôi vừa phát hiện ra mình không mang theo tiền."
+      "en": "to discover",
+      "vi": "phát hiện",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "find; discover; detect; identify",
+          "sentence": "牛頓髮/發現萬有引力。",
+          "pinyin": "niúdùn fāxiàn wànyǒuyǐnlì.",
+          "en": "Newton discovered the law of universal gravitation.",
+          "vi": "Newton khám phá ra lực hấp dẫn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "find; discover; detect; identify",
+          "sentence": "他們髮/發現了一顆小行星。",
+          "pinyin": "tāmen fāxiànle yī kē xiǎo xíngxīng.",
+          "en": "They discovered a small asteroid.",
+          "vi": "Họ tìm ra một tiểu hành tinh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "discover; find",
+          "sentence": "這個髮/發現引起了關註。",
+          "pinyin": "zhège fāxiàn yǐnqǐle guānzhù.",
+          "en": "This discovery has attracted attention.",
+          "vi": "Phát hiện này đã thu hút sự chú ý."
+        },
+        {
+          "type": "Noun",
+          "meaning": "discover; find",
+          "sentence": "他的髮/發現推動科技進步。",
+          "pinyin": "tā de fāxiàn tuīdòng kējì jìnbù.",
+          "en": "His discovery has propelled technological progress.",
+          "vi": "Phát hiện của anh ấy thúc đẩy sự tiến bộ kỹ thuật."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "離",
       "pinyin": "lí",
-      "english": "(away) from",
-      "sentenceChinese": "超商離這裡很遠嗎？",
-      "sentencePinyin": "Chāoshāng lí zhèlǐ hěn yuǎn ma?",
-      "sentenceEnglish": "Is the convenience store far from here?",
-      "vietnamese": "cách",
-      "sentenceVietnamese": "Cửa hàng tiện lợi có cách đây xa không?"
+      "en": "(away) from",
+      "vi": "cách",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "leave; part from; be away from; separate",
+          "sentence": "遠離傢鄉",
+          "pinyin": "yuǎn lí jiā xiāng",
+          "en": "Far from home",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "leave; part from; be away from; separate",
+          "sentence": "別離",
+          "pinyin": "bié lí",
+          "en": "Be separated",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "li, one of the Eight Diagrams",
+          "sentence": "他憤懣地離開了會場。",
+          "pinyin": "Tā fèn mèn de lí kāi le huì chǎng.",
+          "en": "He left the meeting resentfully.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "a surname",
+          "sentence": "離辛",
+          "pinyin": "lí xīn",
+          "en": "Li Xin",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "背包",
       "pinyin": "bēibāo",
-      "english": "backpack",
-      "sentenceChinese": "我的背包在那邊。",
-      "sentencePinyin": "Wǒ de bēibāo zài nàbiān.",
-      "sentenceEnglish": "My backpack is over there.",
-      "vietnamese": "ba lô",
-      "sentenceVietnamese": "Ba lô của tôi ở đằng kia."
+      "en": "backpack",
+      "vi": "ba lô",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "knapsack; rucksack; infantry pack",
+          "sentence": "她的背包裡/裏裝滿了書。",
+          "pinyin": "tā de bēibāo lǐ zhuāng mǎnle shū.",
+          "en": "Her backpack is full of books.",
+          "vi": "Balo của cô ấy đựng đầy sách."
+        },
+        {
+          "type": "Noun",
+          "meaning": "knapsack; rucksack; infantry pack",
+          "sentence": "她背著背包去爬山。",
+          "pinyin": "tā bèizhe bēibāo qù páshān.",
+          "en": "She is going hiking with a backpack.",
+          "vi": "Cô ấy mang theo balo để leo núi."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "正好",
       "pinyin": "zhènghǎo",
-      "english": "just, happen to",
-      "sentenceChinese": "我正好要去那裡。",
-      "sentencePinyin": "Wǒ zhènghǎo yào qù nàlǐ.",
-      "sentenceEnglish": "I happen to be going there.",
-      "vietnamese": "vừa hay / đúng lúc",
-      "sentenceVietnamese": "Tôi vừa hay cũng định đi đến đó."
+      "en": "just, happen to",
+      "vi": "vừa hay / đúng lúc",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "just right; just in time; just enough",
+          "sentence": "你來得正好。",
+          "pinyin": "nǐ lái de zhèng hǎo.",
+          "en": "You've come just at the right moment.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "just right; just in time; just enough",
+          "sentence": "這件衣服我穿正好。",
+          "pinyin": "zhè jiàn yīfu wǒ chuān zhèng hǎo.",
+          "en": "This jacket fits me perfectly.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "happen to; chance to; as it happens",
+          "sentence": "天氣不冷不熱，正好齣去旅行。",
+          "pinyin": "tiānqì bù lěng bù rè, zhèng hào chūqù lǚxíng.",
+          "en": "The weather is neither cold nor hot. It is just perfect for going on a trip.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "happen to; chance to; as it happens",
+          "sentence": "今年六一節, 正好是我的生日。",
+          "pinyin": "jīnnián liùyī jié, zhènghǎo shì wǒ de shēngrì.",
+          "en": "This year's Children's Day happens to be my birthday.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "最後",
       "pinyin": "zuìhòu",
-      "english": "in the end, finally",
-      "sentenceChinese": "最後，我終於找到了師大路。",
-      "sentencePinyin": "Zuìhòu, wǒ zhōngyú zhǎodào le Shīdà Lù.",
-      "sentenceEnglish": "In the end, I finally found Shida Road.",
-      "vietnamese": "cuối cùng",
-      "sentenceVietnamese": "Cuối cùng, tôi cũng đã tìm thấy đường Sư Đại."
+      "en": "in the end, finally",
+      "vi": "cuối cùng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "last; final; ultimate",
+          "sentence": "最後，他們隻好接受平局的結果。",
+          "pinyin": "zuìhòu, tāmen zhǐhǎo jiēshòu píngjú de jiéguǒ.",
+          "en": "In the end they had to settle for a draw.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "last; final; ultimate",
+          "sentence": "這是我們最後剩下的幾個蘋果。",
+          "pinyin": "zhè shì wǒmen zuìhòu shèng xià de jǐ gè píngguǒ.",
+          "en": "These are the last of our apples.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "枝",
       "pinyin": "zhī",
-      "english": "measure word for pens",
-      "sentenceChinese": "請給我一枝筆。",
-      "sentencePinyin": "Qǐng gěi wǒ yì zhī bǐ.",
-      "sentenceEnglish": "Please give me a pen.",
-      "vietnamese": "cái / cây (bút)",
-      "sentenceVietnamese": "Làm ơn cho tôi một cây bút."
+      "en": "measure word for pens",
+      "vi": "cái / cây (bút)",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "branch; twig",
+          "sentence": "這是一根樹枝。",
+          "pinyin": "zhè shì yī gēn shùzhī.",
+          "en": "This is a tree branch.",
+          "vi": "Đây là một cành cây."
+        },
+        {
+          "type": "noun",
+          "meaning": "branch; twig",
+          "sentence": "樹枝上長滿了蘋果。",
+          "pinyin": "shùzhī shàng zhǎng mǎnle píngguǒ.",
+          "en": "The branches were laden with apples.",
+          "vi": "Có đầy táo trên cành cây."
+        },
+        {
+          "type": "measure word",
+          "meaning": "Used for flowers with branches.",
+          "sentence": "他送給我一枝玫瑰花。",
+          "pinyin": "tā sòng gěi wǒ yīzhī méiguī huā.",
+          "en": "He gave me a rose.",
+          "vi": "Anh ấy tặng tôi một nhành hoa hồng."
+        },
+        {
+          "type": "measure word",
+          "meaning": "Used for flowers with branches.",
+          "sentence": "我點燃了一枝蠟燭。",
+          "pinyin": "wǒ diǎnránle yīzhī làzhú.",
+          "en": "I lit a candle.",
+          "vi": "Tôi đã thắp một cây nến."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "筆",
       "pinyin": "bǐ",
-      "english": "pen",
-      "sentenceChinese": "背包裡面有兩枝筆。",
-      "sentencePinyin": "Bēibāo lǐmiàn yǒu liǎng zhī bǐ.",
-      "sentenceEnglish": "There are two pens inside the backpack.",
-      "vietnamese": "bút",
-      "sentenceVietnamese": "Trong ba lô có hai cây bút."
+      "en": "pen",
+      "vi": "bút",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pen; pencil; writing brush",
+          "sentence": "我很喜歡這支毛筆。",
+          "pinyin": "wǒ hěn xǐhuan zhè zhī máobǐ.",
+          "en": "I really like this brush.",
+          "vi": "Tôi rất thích chiếc bút lông này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "pen; pencil; writing brush",
+          "sentence": "請把筆放在桌子上。",
+          "pinyin": "qǐng bǎ bǐ fàng zài zhuōzi shàng.",
+          "en": "Please put the pen on the table.",
+          "vi": "Xin hãy đặt bút lên bàn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "write",
+          "sentence": "他請朋友代筆寫信。",
+          "pinyin": "tā qǐng péngyou dàibǐ xiě xìn.",
+          "en": "He asked a friend to write the letter on his behalf.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "write",
+          "sentence": "我筆了一封親筆信。",
+          "pinyin": "wǒ bǐle yī fēng qīnbǐ xìn.",
+          "en": "I wrote a handwritten letter.",
+          "vi": "Tôi đã viết một bức thư tay."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for sums of money, financial accounts, debts, etc.",
+          "sentence": "他有一筆貸款要還。",
+          "pinyin": "tā yǒuyī bǐ dàikuǎn yào huán.",
+          "en": "He has a loan to repay.",
+          "vi": "Anh ta có một khoản vay phải trả."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for sums of money, financial accounts, debts, etc.",
+          "sentence": "他花了一筆鉅款買房。",
+          "pinyin": "tā huāle yī bǐ jù kuǎn mǎifáng.",
+          "en": "He spent a huge sum of money to buy a house.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "本",
       "pinyin": "běn",
-      "english": "measure word for books",
-      "sentenceChinese": "這本本子很好看。",
-      "sentencePinyin": "Zhè běn běnzi hěn hǎokàn.",
-      "sentenceEnglish": "This notebook looks very nice.",
-      "vietnamese": "cuốn / quyển",
-      "sentenceVietnamese": "Cuốn vở này rất đẹp."
+      "en": "measure word for books",
+      "vi": "cuốn / quyển",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "stem or root of plants",
+          "sentence": "蒜的本分成很多瓣。",
+          "pinyin": "suàn de běn fēnchéng hěnduō bàn.",
+          "en": "Garlic is divided into many cloves.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "stem or root of plants",
+          "sentence": "這棵植物的本非常結實。",
+          "pinyin": "zhè kē zhíwù de běn fēicháng jiēshi.",
+          "en": "The root of this plant is very strong.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "book; volume",
+          "sentence": "她買了四本詞典。",
+          "pinyin": "tā mǎile sì běn cídiǎn.",
+          "en": "She bought four dictionaries.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "book; volume",
+          "sentence": "那本雜誌很有意思。",
+          "pinyin": "nà běn zázhì hěn yǒuyìsi.",
+          "en": "That magazine is very interesting.",
+          "vi": "Quyển tạp chí kia rất hay."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "original",
+          "sentence": "他的本意不是這樣的。",
+          "pinyin": "tā de běnyì bùshì zhèyàng de.",
+          "en": "His original intention was not like this.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "original",
+          "sentence": "問題的本質很復雜。",
+          "pinyin": "wèntí de běnzhí hěn fùzá.",
+          "en": "The essence of the problem is very complicated.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "originally",
+          "sentence": "這本書本來是我的。",
+          "pinyin": "zhè běn shū běnlái shì wǒ de.",
+          "en": "This book was originally mine.",
+          "vi": "Quyển sách này vốn dĩ là của tôi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "originally",
+          "sentence": "我本想去看電影的。",
+          "pinyin": "wǒ běn xiǎng qù kàn diànyǐng de.",
+          "en": "I originally wanted to go see a movie.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow; base on; according to",
+          "sentence": "他本規榘辦事，很認真。",
+          "pinyin": "tā běn guījǔ bànshì, hěn rènzhēn.",
+          "en": "He acts according to the rules, very seriously.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow; base on; according to",
+          "sentence": "本計劃，我們下週齣髮/發。",
+          "pinyin": "běn jìhuà, wǒmen xià zhōu chūfā.",
+          "en": "According to the plan, we will leave next week.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "native; one's own",
+          "sentence": "本校有著優秀的師資隊伍。",
+          "pinyin": "běnxiào yǒuzhe yōuxiù de shīzī duìwǔ.",
+          "en": "Our school has an excellent teaching staff.",
+          "vi": "Trường chúng tôi có đội ngũ giáo viên xuất sắc."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "native; one's own",
+          "sentence": "本廠的産品質量非常好。",
+          "pinyin": "běn chǎng de chǎnpǐn zhì liàng fēicháng hǎo.",
+          "en": "The products of our factory are of very good quality.",
+          "vi": "Sản phẩm của chúng tôi có chất lượng rất tốt."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "according; in line with",
+          "sentence": "本著有關規定執行操作。",
+          "pinyin": "běnzhe yǒuguān guīdìng zhíxíng cāozuò.",
+          "en": "Operate in line with the relevant regulations.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "according; in line with",
+          "sentence": "本此原則，妥為處理此事。",
+          "pinyin": "běn cǐ yuánzé, tuǒ wéi chǔlǐ cǐ shì.",
+          "en": "Handle this matter properly based on this principle.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "本子",
       "pinyin": "běnzi",
-      "english": "notebook",
-      "sentenceChinese": "背包裡面有一本本子。",
-      "sentencePinyin": "Bēibāo lǐmiàn yǒu yì běn běnzi.",
-      "sentenceEnglish": "There is one notebook inside the backpack.",
-      "vietnamese": "cuốn vở / sổ tay",
-      "sentenceVietnamese": "Trong ba lô có một cuốn vở."
+      "en": "notebook",
+      "vi": "cuốn vở / sổ tay",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "book; notebook",
+          "sentence": "連本子一共120塊錢。",
+          "pinyin": "lián běnzi yīgòng 120 kuài qián.",
+          "en": "Including the notebook, it's 120 yuan in total.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "book; notebook",
+          "sentence": "請填寫結算本子上的金額。",
+          "pinyin": "Qǐng tiánxiě jiésuàn běnzi shàng de jīn'é.",
+          "en": "Please fill in the amount on the settlement book.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "左轉",
       "pinyin": "zuǒ zhuǎn",
-      "english": "to turn left",
-      "sentenceChinese": "在前面的路口左轉。",
-      "sentencePinyin": "Zài qiánmiàn de lùkǒu zuǒ zhuǎn.",
-      "sentenceEnglish": "Turn left at the intersection ahead.",
-      "vietnamese": "rẽ trái",
-      "sentenceVietnamese": "Rẽ trái ở giao lộ phía trước."
+      "en": "to turn left",
+      "vi": "rẽ trái",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to turn left",
+          "sentence": "嚮左轉，然後直走。",
+          "pinyin": "xiàng zuǒ zhuǎn, ránhòu zhí zǒu.",
+          "en": "Turn left and then walk straight.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to turn left",
+          "sentence": "下個交通燈左轉。",
+          "pinyin": "xià gè jiāotōng dēng zuǒ zhuǎn.",
+          "en": "At next traffic lights, we turn left.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "師大路上",
       "pinyin": "Shīdà Lù shàng",
-      "english": "on Shida Road",
-      "sentenceChinese": "他在師大路上找那家麵店。",
-      "sentencePinyin": "Tā zài Shīdà Lù shàng zhǎo nà jiā miàndiàn.",
-      "sentenceEnglish": "He is looking for that noodle shop on Shida Road.",
-      "vietnamese": "trên đường Sư Đại",
-      "sentenceVietnamese": "Anh ấy đang tìm tiệm mì đó trên đường Sư Đại."
+      "en": "on Shida Road",
+      "vi": "trên đường Sư Đại",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "road; path; way",
+          "sentence": "此路不通。",
+          "pinyin": "cǐ lù bù tōng.",
+          "en": "Not a Through Road.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "journey; distance",
+          "sentence": "路漫漫其脩遠兮, 吾將上下而求索。(屈原《離騷》)",
+          "pinyin": "lù mànmàn qí xiū yuǎn xī, wú jiāng shàng-xià ér qiú suǒ.",
+          "en": "The road ahead is long and far; I will search high and low with unyielding pursuit.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "kind; class; type",
+          "sentence": "這路人不可深交。",
+          "pinyin": "zhè lùrén bùkě shēnjiāo.",
+          "en": "This kind of person is not worth getting close to.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "row; line; column",
+          "sentence": "學生們很快就排成兩路。",
+          "pinyin": "xuéshēngmen hěn kuài jiù pái chéng liǎng lù.",
+          "en": "The students quickly lined up in two rows.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "麵店",
       "pinyin": "miàn diàn",
-      "english": "noodle shop",
-      "sentenceChinese": "這條巷子裡面有一家好吃的麵店。",
-      "sentencePinyin": "Zhè tiáo xiàngzi lǐmiàn yǒu yì jiā hǎochī de miàn diàn.",
-      "sentenceEnglish": "There is a delicious noodle shop inside this alley.",
-      "vietnamese": "tiệm mì",
-      "sentenceVietnamese": "Trong con hẻm này có một tiệm mì rất ngon."
+      "en": "noodle shop",
+      "vi": "tiệm mì",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "shop; store",
+          "sentence": "我在商店買了很多東西。",
+          "pinyin": "wǒ zài shāngdiàn mǎile hěnduō dōngxi.",
+          "en": "I bought a lot of things in the store.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "shop; store",
+          "sentence": "我傢附近有一個小商店。",
+          "pinyin": "wǒjiā fùjìn yǒu yīgè xiǎo shāngdiàn.",
+          "en": "There is a small store near my home.",
+          "vi": ""
+        }
+      ]
     }
   ]
 }

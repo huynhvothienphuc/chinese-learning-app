@@ -3,83 +3,2158 @@
   "sectionId": "section4",
   "sectionTitle": "Mental Skills for Conduct / Life Philosophy | 做人心法",
   "items": [
-    { "id": 1, "chinese": "做人", "pinyin": "zuòrén", "english": "to conduct oneself, to behave", "vietnamese": "đối nhân xử thế, làm người", "sentenceChinese": "做人最重要的是誠懇和負責。", "sentencePinyin": "Zuòrén zuì zhòngyào de shì chéngkěn hé fùzé.", "sentenceEnglish": "The most important things in conducting oneself are sincerity and responsibility.", "sentenceVietnamese": "Điều quan trọng nhất trong cách làm người là chân thành và có trách nhiệm.", "theme": "Philosophy" },
-    { "id": 2, "chinese": "心法", "pinyin": "xīnfǎ", "english": "mental cultivation methods", "vietnamese": "phương pháp rèn luyện tâm thức", "sentenceChinese": "這本書主要在談做人處事的心法。", "sentencePinyin": "Zhè běn shū zhǔyào zài tán zuòrén chǔshì de xīnfǎ.", "sentenceEnglish": "This book mainly discusses principles for conducting oneself and handling affairs.", "sentenceVietnamese": "Cuốn sách này chủ yếu bàn về những nguyên tắc sống và đối nhân xử thế.", "theme": "Philosophy" },
-    { "id": 3, "chinese": "談論", "pinyin": "tánlùn", "english": "to discuss, to talk about", "vietnamese": "thảo luận, bàn luận", "sentenceChinese": "我們昨天談論了很多人際關係的問題。", "sentencePinyin": "Wǒmen zuótiān tánlùn le hěn duō rénjì guānxì de wèntí.", "sentenceEnglish": "Yesterday we discussed many issues about interpersonal relationships.", "sentenceVietnamese": "Hôm qua chúng tôi đã bàn luận rất nhiều về các vấn đề trong quan hệ giữa người với người.", "theme": "Communication" },
-    { "id": 4, "chinese": "真誠", "pinyin": "zhēnchéng", "english": "sincere, sincerity", "vietnamese": "chân thành", "sentenceChinese": "他待人很真誠，所以朋友很多。", "sentencePinyin": "Tā dàirén hěn zhēnchéng, suǒyǐ péngyǒu hěn duō.", "sentenceEnglish": "He treats people sincerely, so he has many friends.", "sentenceVietnamese": "Anh ấy đối xử với người khác rất chân thành nên có rất nhiều bạn bè.", "theme": "General" },
-    { "id": 5, "chinese": "讚美", "pinyin": "zànměi", "english": "to praise; praise", "vietnamese": "khen ngợi, ca ngợi", "sentenceChinese": "適當的讚美會讓對方更有信心。", "sentencePinyin": "Shìdàng de zànměi huì ràng duìfāng gèng yǒu xìnxīn.", "sentenceEnglish": "Appropriate praise can give the other person more confidence.", "sentenceVietnamese": "Lời khen đúng lúc sẽ khiến đối phương tự tin hơn.", "theme": "Communication" },
-    { "id": 6, "chinese": "親和力", "pinyin": "qīnhélì", "english": "likeability, affinity", "vietnamese": "sự thân thiện, khả năng thu hút", "sentenceChinese": "她笑起來很有親和力。", "sentencePinyin": "Tā xiào qǐlái hěn yǒu qīnhélì.", "sentenceEnglish": "She has a very approachable smile.", "sentenceVietnamese": "Khi cười lên, cô ấy tạo cảm giác rất thân thiện.", "theme": "General" },
-    { "id": 7, "chinese": "笑容", "pinyin": "xiàoróng", "english": "smile", "vietnamese": "nụ cười", "sentenceChinese": "一個真誠的笑容能拉近彼此的距離。", "sentencePinyin": "Yí ge zhēnchéng de xiàoróng néng lājìn bǐcǐ de jùlí.", "sentenceEnglish": "A sincere smile can bring people closer together.", "sentenceVietnamese": "Một nụ cười chân thành có thể rút ngắn khoảng cách giữa con người với nhau.", "theme": "General" },
-    { "id": 8, "chinese": "此", "pinyin": "cǐ", "english": "this, these", "vietnamese": "này, điều này", "sentenceChinese": "此事關係重大，不能草率決定。", "sentencePinyin": "Cǐ shì guānxì zhòngdà, bùnéng cǎoshuài juédìng.", "sentenceEnglish": "This matter is important and cannot be decided hastily.", "sentenceVietnamese": "Việc này có liên quan lớn nên không thể quyết định qua loa.", "theme": "General" },
-    { "id": 9, "chinese": "秘訣", "pinyin": "mìjué", "english": "secret (of success)", "vietnamese": "bí quyết", "sentenceChinese": "他說成功的秘訣就是持續努力。", "sentencePinyin": "Tā shuō chénggōng de mìjué jiùshì chíxù nǔlì.", "sentenceEnglish": "He said the secret to success is persistent effort.", "sentenceVietnamese": "Anh ấy nói bí quyết thành công là nỗ lực không ngừng.", "theme": "General" },
-    { "id": 10, "chinese": "拉近距離", "pinyin": "lājìn jùlí", "english": "bring people closer together", "vietnamese": "xích lại gần nhau, thu hẹp khoảng cách", "sentenceChinese": "多傾聽別人可以拉近距離。", "sentencePinyin": "Duō qīngtīng biérén kěyǐ lājìn jùlí.", "sentenceEnglish": "Listening to others more can bring people closer together.", "sentenceVietnamese": "Lắng nghe người khác nhiều hơn có thể khiến mọi người xích lại gần nhau hơn.", "theme": "Communication" },
-    { "id": 11, "chinese": "傳授", "pinyin": "chuánshòu", "english": "to impart, to pass on knowledge", "vietnamese": "truyền thụ", "sentenceChinese": "老師把多年經驗都傳授給學生。", "sentencePinyin": "Lǎoshī bǎ duōnián jīngyàn dōu chuánshòu gěi xuéshēng.", "sentenceEnglish": "The teacher passed on years of experience to the students.", "sentenceVietnamese": "Giáo viên đã truyền thụ nhiều năm kinh nghiệm cho học sinh.", "theme": "Education" },
-    { "id": 12, "chinese": "獨門", "pinyin": "dúmén", "english": "unique, special", "vietnamese": "độc môn, duy nhất", "sentenceChinese": "他有一套跟客戶相處的獨門方法。", "sentencePinyin": "Tā yǒu yí tào gēn kèhù xiāngchǔ de dúmén fāngfǎ.", "sentenceEnglish": "He has a unique way of getting along with clients.", "sentenceVietnamese": "Anh ấy có một cách riêng rất độc đáo để ứng xử với khách hàng.", "theme": "General" },
-    { "id": 13, "chinese": "人際", "pinyin": "rénjì", "english": "interpersonal", "vietnamese": "giữa người với người, giao tiếp xã hội", "sentenceChinese": "良好的人際關係對工作很重要。", "sentencePinyin": "Liánghǎo de rénjì guānxì duì gōngzuò hěn zhòngyào.", "sentenceEnglish": "Good interpersonal relationships are important at work.", "sentenceVietnamese": "Quan hệ giữa người với người tốt đẹp rất quan trọng trong công việc.", "theme": "General" },
-    { "id": 14, "chinese": "銷售", "pinyin": "xiāoshòu", "english": "to sell; sales", "vietnamese": "bán hàng, doanh số", "sentenceChinese": "他的銷售能力一直很強。", "sentencePinyin": "Tā de xiāoshòu nénglì yìzhí hěn qiáng.", "sentenceEnglish": "His sales ability has always been strong.", "sentenceVietnamese": "Khả năng bán hàng của anh ấy từ trước đến nay luôn rất tốt.", "theme": "Business" },
-    { "id": 15, "chinese": "暢銷", "pinyin": "chàngxiāo", "english": "to sell well, best seller", "vietnamese": "bán chạy", "sentenceChinese": "這本書出版後很快就成了暢銷書。", "sentencePinyin": "Zhè běn shū chūbǎn hòu hěn kuài jiù chéng le chàngxiāoshū.", "sentenceEnglish": "After publication, this book quickly became a bestseller.", "sentenceVietnamese": "Cuốn sách này sau khi xuất bản đã nhanh chóng trở thành sách bán chạy.", "theme": "Business" },
-    { "id": 16, "chinese": "謙稱", "pinyin": "qiānchēng", "english": "humble self-reference", "vietnamese": "cách xưng hô khiêm nhường", "sentenceChinese": "古人說話時常常會用謙稱。", "sentencePinyin": "Gǔrén shuōhuà shí chángcháng huì yòng qiānchēng.", "sentenceEnglish": "People in ancient times often used humble self-references when speaking.", "sentenceVietnamese": "Người xưa khi nói chuyện thường hay dùng cách xưng hô khiêm nhường.", "theme": "Communication" },
-    { "id": 17, "chinese": "抱持", "pinyin": "bàochí", "english": "to maintain", "vietnamese": "giữ vững, duy trì", "sentenceChinese": "面對工作，他一直抱持樂觀的態度。", "sentencePinyin": "Miànduì gōngzuò, tā yìzhí bàochí lèguān de tàidù.", "sentenceEnglish": "He has always maintained an optimistic attitude toward work.", "sentenceVietnamese": "Đối mặt với công việc, anh ấy luôn giữ thái độ lạc quan.", "theme": "General" },
-    { "id": 18, "chinese": "哲學", "pinyin": "zhéxué", "english": "philosophy", "vietnamese": "triết học", "sentenceChinese": "他的做人哲學很值得學習。", "sentencePinyin": "Tā de zuòrén zhéxué hěn zhídé xuéxí.", "sentenceEnglish": "His philosophy of life is worth learning from.", "sentenceVietnamese": "Triết lý làm người của anh ấy rất đáng để học hỏi.", "theme": "General" },
-    { "id": 19, "chinese": "讀者", "pinyin": "dúzhě", "english": "reader", "vietnamese": "độc giả", "sentenceChinese": "這本書受到很多年輕讀者的歡迎。", "sentencePinyin": "Zhè běn shū shòudào hěn duō niánqīng dúzhě de huānyíng.", "sentenceEnglish": "This book is popular among many young readers.", "sentenceVietnamese": "Cuốn sách này được nhiều độc giả trẻ tuổi yêu thích.", "theme": "Media" },
-    { "id": 20, "chinese": "踏出", "pinyin": "tàchū", "english": "take a step forward", "vietnamese": "bước ra, dấn bước", "sentenceChinese": "只要願意踏出第一步，就有改變的可能。", "sentencePinyin": "Zhǐyào yuànyì tàchū dì-yī bù, jiù yǒu gǎibiàn de kěnéng.", "sentenceEnglish": "As long as you're willing to take the first step, change is possible.", "sentenceVietnamese": "Chỉ cần sẵn sàng bước ra bước đầu tiên thì sẽ có khả năng thay đổi.", "theme": "General" },
-    { "id": 21, "chinese": "悅耳", "pinyin": "yuè'ěr", "english": "pleasant sounding", "vietnamese": "êm tai, dễ nghe", "sentenceChinese": "說話語氣溫和，聽起來比較悅耳。", "sentencePinyin": "Shuōhuà yǔqì wēnhé, tīng qǐlái bǐjiào yuè'ěr.", "sentenceEnglish": "A gentle tone of voice sounds more pleasant.", "sentenceVietnamese": "Khi nói với giọng điệu ôn hòa thì nghe sẽ dễ chịu hơn.", "theme": "General" },
-    { "id": 22, "chinese": "熱忱", "pinyin": "rèchén", "english": "enthusiasm", "vietnamese": "nhiệt huyết, nhiệt tình", "sentenceChinese": "他對工作一直充滿熱忱。", "sentencePinyin": "Tā duì gōngzuò yìzhí chōngmǎn rèchén.", "sentenceEnglish": "He has always been full of enthusiasm for his work.", "sentenceVietnamese": "Anh ấy luôn tràn đầy nhiệt huyết với công việc.", "theme": "General" },
-    { "id": 23, "chinese": "不妨", "pinyin": "bùfáng", "english": "might as well", "vietnamese": "có thể thử", "sentenceChinese": "如果不知道怎麼開口，不妨先微笑。", "sentencePinyin": "Rúguǒ bù zhīdào zěnme kāikǒu, bùfáng xiān wēixiào.", "sentenceEnglish": "If you don't know how to start, you might as well smile first.", "sentenceVietnamese": "Nếu không biết bắt đầu thế nào thì bạn có thể thử mỉm cười trước.", "theme": "General" },
-    { "id": 24, "chinese": "好比", "pinyin": "hǎobǐ", "english": "for instance, like", "vietnamese": "ví như, giống như", "sentenceChinese": "一句真誠的問候，好比打開一扇門。", "sentencePinyin": "Yí jù zhēnchéng de wènhòu, hǎobǐ dǎkāi yí shàn mén.", "sentenceEnglish": "A sincere greeting is like opening a door.", "sentenceVietnamese": "Một lời chào chân thành ví như mở ra một cánh cửa.", "theme": "General" },
-    { "id": 25, "chinese": "告別", "pinyin": "gàobié", "english": "say goodbye, bid farewell", "vietnamese": "tạm biệt, từ biệt", "sentenceChinese": "宴會結束前，別忘了和大家告別。", "sentencePinyin": "Yànhuì jiéshù qián, bié wàng le hé dàjiā gàobié.", "sentenceEnglish": "Before the banquet ends, don't forget to say goodbye to everyone.", "sentenceVietnamese": "Trước khi tiệc kết thúc, đừng quên chào tạm biệt mọi người.", "theme": "General" },
-    { "id": 26, "chinese": "記住", "pinyin": "jìzhù", "english": "remember", "vietnamese": "ghi nhớ", "sentenceChinese": "他總能記住別人的名字。", "sentencePinyin": "Tā zǒng néng jìzhù biérén de míngzi.", "sentenceEnglish": "He can always remember other people's names.", "sentenceVietnamese": "Anh ấy luôn có thể nhớ tên của người khác.", "theme": "General" },
-    { "id": 27, "chinese": "對方", "pinyin": "duìfāng", "english": "the other party", "vietnamese": "đối phương, người kia", "sentenceChinese": "說話時要多考慮對方的感受。", "sentencePinyin": "Shuōhuà shí yào duō kǎolǜ duìfāng de gǎnshòu.", "sentenceEnglish": "When speaking, you should consider the other person's feelings more.", "sentenceVietnamese": "Khi nói chuyện cần nghĩ nhiều hơn đến cảm nhận của đối phương.", "theme": "General" },
-    { "id": 28, "chinese": "宴會", "pinyin": "yànhuì", "english": "banquet", "vietnamese": "yến tiệc, buổi tiệc", "sentenceChinese": "昨晚的宴會上來了很多重要客人。", "sentencePinyin": "Zuówǎn de yànhuì shàng lái le hěn duō zhòngyào kèrén.", "sentenceEnglish": "Many important guests came to last night's banquet.", "sentenceVietnamese": "Tối qua có rất nhiều vị khách quan trọng đến dự tiệc.", "theme": "General" },
-    { "id": 29, "chinese": "自顧自（地）", "pinyin": "zìgùzì (de)", "english": "only thinking about yourself", "vietnamese": "chỉ biết mình, mặc kệ người khác", "sentenceChinese": "他在宴會上自顧自地講個不停。", "sentencePinyin": "Tā zài yànhuì shàng zìgùzì de jiǎng ge bù tíng.", "sentenceEnglish": "He kept talking on and on at the banquet without caring about others.", "sentenceVietnamese": "Trong buổi tiệc anh ấy cứ mải nói không ngừng mà chẳng để ý đến người khác.", "theme": "General" },
-    { "id": 30, "chinese": "講", "pinyin": "jiǎng", "english": "to talk, to say", "vietnamese": "nói, kể", "sentenceChinese": "他很會講話，所以人緣很好。", "sentencePinyin": "Tā hěn huì jiǎnghuà, suǒyǐ rényuán hěn hǎo.", "sentenceEnglish": "He is good at talking, so he is well-liked.", "sentenceVietnamese": "Anh ấy ăn nói rất khéo nên được nhiều người quý mến.", "theme": "Communication" },
-    { "id": 31, "chinese": "整整", "pinyin": "zhěngzhěng", "english": "fully", "vietnamese": "suốt, trọn vẹn", "sentenceChinese": "他整整講了十分鐘，別人都沒機會開口。", "sentencePinyin": "Tā zhěngzhěng jiǎng le shí fēnzhōng, biérén dōu méi jīhuì kāikǒu.", "sentenceEnglish": "He talked for a full ten minutes, and no one else had a chance to speak.", "sentenceVietnamese": "Anh ấy nói suốt mười phút liền khiến người khác chẳng có cơ hội mở lời.", "theme": "General" },
-    { "id": 32, "chinese": "插嘴", "pinyin": "chāzuǐ", "english": "to interrupt", "vietnamese": "ngắt lời, nói xen vào", "sentenceChinese": "別人說話的時候不要一直插嘴。", "sentencePinyin": "Biérén shuōhuà de shíhou búyào yìzhí chāzuǐ.", "sentenceEnglish": "Don't keep interrupting when others are speaking.", "sentenceVietnamese": "Khi người khác đang nói thì đừng liên tục ngắt lời.", "theme": "Communication" },
-    { "id": 33, "chinese": "餘地", "pinyin": "yúdì", "english": "room for", "vietnamese": "dư địa, chỗ trống", "sentenceChinese": "講話太直接，有時候會不留餘地。", "sentencePinyin": "Jiǎnghuà tài zhíjiē, yǒushíhou huì bù liú yúdì.", "sentenceEnglish": "Speaking too directly sometimes leaves no room for others.", "sentenceVietnamese": "Nói quá thẳng đôi khi sẽ không chừa đường lui cho người khác.", "theme": "General" },
-    { "id": 34, "chinese": "以致（於）", "pinyin": "yǐzhì (yú)", "english": "so that, as a result", "vietnamese": "đến mức, dẫn đến", "sentenceChinese": "他太緊張，以致說話都結巴了。", "sentencePinyin": "Tā tài jǐnzhāng, yǐzhì shuōhuà dōu jiébā le.", "sentenceEnglish": "He was so nervous that he even stammered while speaking.", "sentenceVietnamese": "Anh ấy căng thẳng đến mức nói chuyện cũng lắp bắp.", "theme": "Grammar" },
-    { "id": 35, "chinese": "同桌", "pinyin": "tóngzhuō", "english": "to sit at the same table", "vietnamese": "ngồi cùng bàn", "sentenceChinese": "他以前和我同桌，所以我們很熟。", "sentencePinyin": "Tā yǐqián hé wǒ tóngzhuō, suǒyǐ wǒmen hěn shú.", "sentenceEnglish": "He used to sit at the same table as me, so we know each other well.", "sentenceVietnamese": "Trước đây anh ấy từng ngồi cùng bàn với tôi nên chúng tôi rất thân.", "theme": "General" },
-    { "id": 36, "chinese": "罰站", "pinyin": "fázhàn", "english": "to be made to stand as punishment", "vietnamese": "phạt đứng", "sentenceChinese": "小時候上課說話，我們常常被老師罰站。", "sentencePinyin": "Xiǎoshíhou shàngkè shuōhuà, wǒmen chángcháng bèi lǎoshī fázhàn.", "sentenceEnglish": "When we talked in class as children, we were often made to stand as punishment.", "sentenceVietnamese": "Hồi nhỏ đi học, vì nói chuyện trong giờ nên chúng tôi thường bị giáo viên phạt đứng.", "theme": "Education" },
-    { "id": 37, "chinese": "聽教", "pinyin": "tīngjiào", "english": "to listen to advice/preaching", "vietnamese": "nghe lời dạy bảo", "sentenceChinese": "年輕的時候不懂事，現在才知道要聽教。", "sentencePinyin": "Niánqīng de shíhou bù dǒngshì, xiànzài cái zhīdào yào tīngjiào.", "sentenceEnglish": "When I was young, I didn't understand, but now I know I should listen to advice.", "sentenceVietnamese": "Lúc trẻ còn chưa hiểu chuyện, bây giờ mới biết phải biết nghe lời dạy bảo.", "theme": "Education" },
-    { "id": 38, "chinese": "似地", "pinyin": "sìde", "english": "as if", "vietnamese": "như thể", "sentenceChinese": "他看著我，似地有話想說。", "sentencePinyin": "Tā kàn zhe wǒ, sìde yǒu huà xiǎng shuō.", "sentenceEnglish": "He looked at me as if he wanted to say something.", "sentenceVietnamese": "Anh ấy nhìn tôi như thể muốn nói điều gì đó.", "theme": "Grammar" },
-    { "id": 39, "chinese": "凝滯", "pinyin": "níngzhì", "english": "stagnated", "vietnamese": "đọng lại, ngưng trệ", "sentenceChinese": "氣氛突然變得有點凝滯。", "sentencePinyin": "Qìfēn tūrán biàn de yǒudiǎn níngzhì.", "sentenceEnglish": "The atmosphere suddenly became a bit stiff.", "sentenceVietnamese": "Bầu không khí đột nhiên trở nên hơi gượng gạo.", "theme": "General" },
-    { "id": 40, "chinese": "一吐為快", "pinyin": "yìtǔ wéikuài", "english": "to say everything and feel relieved", "vietnamese": "nói ra cho thỏa lòng", "sentenceChinese": "他終於把心裡話一吐為快。", "sentencePinyin": "Tā zhōngyú bǎ xīnlǐhuà yìtǔ wéikuài.", "sentenceEnglish": "He finally got everything off his chest.", "sentenceVietnamese": "Cuối cùng anh ấy cũng nói hết nỗi lòng cho nhẹ người.", "theme": "Idiom" },
-    { "id": 41, "chinese": "提問", "pinyin": "tíwèn", "english": "to ask a question", "vietnamese": "đặt câu hỏi", "sentenceChinese": "開會時，他總是先提問再發表意見。", "sentencePinyin": "Kāihuì shí, tā zǒngshì xiān tíwèn zài fābiǎo yìjiàn.", "sentenceEnglish": "In meetings, he always asks questions first before expressing his opinion.", "sentenceVietnamese": "Khi họp, anh ấy luôn đặt câu hỏi trước rồi mới phát biểu ý kiến.", "theme": "Communication" },
-    { "id": 42, "chinese": "心坎", "pinyin": "xīnkǎn", "english": "bottom of one's heart", "vietnamese": "tận đáy lòng", "sentenceChinese": "她說的那句話真的說到我心坎裡了。", "sentencePinyin": "Tā shuō de nà jù huà zhēn de shuō dào wǒ xīnkǎn lǐ le.", "sentenceEnglish": "What she said really touched me deeply.", "sentenceVietnamese": "Câu nói của cô ấy thật sự chạm đến tận đáy lòng tôi.", "theme": "General" },
-    { "id": 43, "chinese": "本質", "pinyin": "běnzhí", "english": "nature, essence", "vietnamese": "bản chất", "sentenceChinese": "了解一個人，不能只看表面，要看本質。", "sentencePinyin": "Liǎojiě yí ge rén, bùnéng zhǐ kàn biǎomiàn, yào kàn běnzhí.", "sentenceEnglish": "To understand a person, you can't just look at the surface; you need to see their true nature.", "sentenceVietnamese": "Muốn hiểu một người thì không thể chỉ nhìn bề ngoài mà phải nhìn vào bản chất.", "theme": "Philosophy" },
-    { "id": 44, "chinese": "驅策", "pinyin": "qūcè", "english": "to drive, to urge on", "vietnamese": "thúc đẩy, thôi thúc", "sentenceChinese": "一種責任感驅策他不停進步。", "sentencePinyin": "Yì zhǒng zérèngǎn qūcè tā bù tíng jìnbù.", "sentenceEnglish": "A sense of responsibility drives him to keep improving.", "sentenceVietnamese": "Một tinh thần trách nhiệm nào đó luôn thôi thúc anh ấy không ngừng tiến bộ.", "theme": "General" },
-    { "id": 45, "chinese": "深切", "pinyin": "shēnqiè", "english": "deep, heartfelt", "vietnamese": "sâu sắc, tha thiết", "sentenceChinese": "他對這件事有很深切的體會。", "sentencePinyin": "Tā duì zhè jiàn shì yǒu hěn shēnqiè de tǐhuì.", "sentenceEnglish": "He has a deep understanding of this matter.", "sentenceVietnamese": "Anh ấy có sự cảm nhận rất sâu sắc về chuyện này.", "theme": "General" },
-    { "id": 46, "chinese": "真心", "pinyin": "zhēnxīn", "english": "genuinely, sincerely", "vietnamese": "thật lòng", "sentenceChinese": "只要你是真心的，別人一定感受得到。", "sentencePinyin": "Zhǐyào nǐ shì zhēnxīn de, biérén yídìng gǎnshòu de dào.", "sentenceEnglish": "As long as you are sincere, others will definitely feel it.", "sentenceVietnamese": "Chỉ cần bạn thật lòng thì người khác nhất định sẽ cảm nhận được.", "theme": "General" },
-    { "id": 47, "chinese": "可想而知", "pinyin": "kěxiǎng érzhī", "english": "as you can imagine", "vietnamese": "có thể hiểu được", "sentenceChinese": "第一次創業失敗，他的心情可想而知。", "sentencePinyin": "Dì-yī cì chuàngyè shībài, tā de xīnqíng kěxiǎng érzhī.", "sentenceEnglish": "After failing in his first business venture, you can imagine how he felt.", "sentenceVietnamese": "Lần đầu khởi nghiệp thất bại, tâm trạng của anh ấy có thể hiểu được.", "theme": "Idiom" },
-    { "id": 48, "chinese": "人緣", "pinyin": "rényuán", "english": "popularity with people", "vietnamese": "nhân duyên, được lòng người", "sentenceChinese": "他人緣很好，到哪裡都有人幫忙。", "sentencePinyin": "Tā rényuán hěn hǎo, dào nǎlǐ dōu yǒu rén bāngmáng.", "sentenceEnglish": "He is well-liked, so wherever he goes, people help him.", "sentenceVietnamese": "Anh ấy rất được lòng mọi người nên đi đâu cũng có người giúp đỡ.", "theme": "General" },
-    { "id": 49, "chinese": "命中", "pinyin": "mìngzhòng", "english": "to hit the mark", "vietnamese": "đánh trúng", "sentenceChinese": "他的話一下子就命中重點。", "sentencePinyin": "Tā de huà yíxiàzi jiù mìngzhòng zhòngdiǎn.", "sentenceEnglish": "His words hit the point right away.", "sentenceVietnamese": "Lời nói của anh ấy lập tức đánh trúng trọng tâm.", "theme": "General" },
-    { "id": 50, "chinese": "成就", "pinyin": "chéngjiù", "english": "achievement", "vietnamese": "thành tựu", "sentenceChinese": "他今天的成就來自長期的努力。", "sentencePinyin": "Tā jīntiān de chéngjiù láizì chángqí de nǔlì.", "sentenceEnglish": "His achievements today come from long-term effort.", "sentenceVietnamese": "Thành tựu hôm nay của anh ấy đến từ sự nỗ lực lâu dài.", "theme": "General" },
-    { "id": 51, "chinese": "真切", "pinyin": "zhēnqiè", "english": "genuine, heartfelt", "vietnamese": "chân thực, tha thiết", "sentenceChinese": "她用很真切的語氣跟我道謝。", "sentencePinyin": "Tā yòng hěn zhēnqiè de yǔqì gēn wǒ dàoxiè.", "sentenceEnglish": "She thanked me in a very sincere tone.", "sentenceVietnamese": "Cô ấy cảm ơn tôi với giọng điệu rất chân thành.", "theme": "General" },
-    { "id": 52, "chinese": "性格", "pinyin": "xìnggé", "english": "character, personality", "vietnamese": "tính cách", "sentenceChinese": "他的性格很溫和，大家都喜歡他。", "sentencePinyin": "Tā de xìnggé hěn wēnhé, dàjiā dōu xǐhuān tā.", "sentenceEnglish": "His personality is very gentle, and everyone likes him.", "sentenceVietnamese": "Tính cách của anh ấy rất ôn hòa nên ai cũng quý mến.", "theme": "General" },
-    { "id": 53, "chinese": "愛心", "pinyin": "àixīn", "english": "compassion", "vietnamese": "tấm lòng nhân ái", "sentenceChinese": "她常常參加公益活動，很有愛心。", "sentencePinyin": "Tā chángcháng cānjiā gōngyì huódòng, hěn yǒu àixīn.", "sentenceEnglish": "She often joins charity events and is very compassionate.", "sentenceVietnamese": "Cô ấy thường xuyên tham gia hoạt động công ích, rất có lòng nhân ái.", "theme": "General" },
-    { "id": 54, "chinese": "口香糖", "pinyin": "kǒuxiāngtáng", "english": "chewing gum", "vietnamese": "kẹo cao su", "sentenceChinese": "開會前最好不要一直嚼口香糖。", "sentencePinyin": "Kāihuì qián zuìhǎo búyào yìzhí jiáo kǒuxiāngtáng.", "sentenceEnglish": "It's best not to keep chewing gum before a meeting.", "sentenceVietnamese": "Trước khi họp tốt nhất đừng cứ nhai kẹo cao su mãi.", "theme": "General" },
-    { "id": 55, "chinese": "力道", "pinyin": "lìdào", "english": "strength, force", "vietnamese": "lực, độ mạnh", "sentenceChinese": "說話的力道太重，容易讓人不舒服。", "sentencePinyin": "Shuōhuà de lìdào tài zhòng, róngyì ràng rén bù shūfu.", "sentenceEnglish": "If your tone is too forceful, it can make people uncomfortable.", "sentenceVietnamese": "Nếu lời nói quá mạnh thì dễ khiến người khác khó chịu.", "theme": "General" },
-    { "id": 56, "chinese": "發自", "pinyin": "fāzì", "english": "originate from", "vietnamese": "xuất phát từ", "sentenceChinese": "真正的關心應該發自內心。", "sentencePinyin": "Zhēnzhèng de guānxīn yīnggāi fāzì nèixīn.", "sentenceEnglish": "Real concern should come from the heart.", "sentenceVietnamese": "Sự quan tâm chân thật nên xuất phát từ nội tâm.", "theme": "General" },
-    { "id": 57, "chinese": "企圖", "pinyin": "qìtú", "english": "ulterior motive", "vietnamese": "ý đồ, mưu đồ", "sentenceChinese": "如果說話帶著企圖，別人很快就會感覺到。", "sentencePinyin": "Rúguǒ shuōhuà dài zhe qìtú, biérén hěn kuài jiù huì gǎnjué dào.", "sentenceEnglish": "If your words carry an ulterior motive, others will quickly sense it.", "sentenceVietnamese": "Nếu lời nói mang theo ý đồ riêng thì người khác sẽ nhanh chóng nhận ra.", "theme": "General" },
-    { "id": 58, "chinese": "失效", "pinyin": "shīxiào", "english": "to become invalid, fail", "vietnamese": "mất hiệu lực, không còn tác dụng", "sentenceChinese": "一旦被看穿，這種方法就失效了。", "sentencePinyin": "Yídàn bèi kànchuān, zhè zhǒng fāngfǎ jiù shīxiào le.", "sentenceEnglish": "Once people see through it, this method stops working.", "sentenceVietnamese": "Một khi bị nhìn thấu thì cách này sẽ mất tác dụng.", "theme": "General" },
-    { "id": 59, "chinese": "下屬", "pinyin": "xiàshǔ", "english": "subordinate", "vietnamese": "cấp dưới", "sentenceChinese": "好主管會尊重每一位下屬。", "sentencePinyin": "Hǎo zhǔguǎn huì zūnzhòng měi yí wèi xiàshǔ.", "sentenceEnglish": "A good manager respects every subordinate.", "sentenceVietnamese": "Người quản lý tốt sẽ tôn trọng từng cấp dưới của mình.", "theme": "Work" },
-    { "id": 60, "chinese": "責任感", "pinyin": "zérèngǎn", "english": "sense of responsibility", "vietnamese": "tinh thần trách nhiệm", "sentenceChinese": "有責任感的人比較容易贏得信任。", "sentencePinyin": "Yǒu zérèngǎn de rén bǐjiào róngyì yíngdé xìnrèn.", "sentenceEnglish": "People with a sense of responsibility are more likely to earn trust.", "sentenceVietnamese": "Người có tinh thần trách nhiệm thường dễ giành được sự tin tưởng hơn.", "theme": "General" },
-    { "id": 61, "chinese": "隨後", "pinyin": "suíhòu", "english": "subsequently", "vietnamese": "ngay sau đó", "sentenceChinese": "他先道歉，隨後再解釋原因。", "sentencePinyin": "Tā xiān dàoqiàn, suíhòu zài jiěshì yuányīn.", "sentenceEnglish": "He apologized first and then explained the reason.", "sentenceVietnamese": "Anh ấy xin lỗi trước, ngay sau đó mới giải thích nguyên nhân.", "theme": "General" },
-    { "id": 62, "chinese": "拜託", "pinyin": "bàituō", "english": "please, I beg you", "vietnamese": "làm ơn, xin nhờ", "sentenceChinese": "拜託你幫我把這封信送出去。", "sentencePinyin": "Bàituō nǐ bāng wǒ bǎ zhè fēng xìn sòng chūqù.", "sentenceEnglish": "Please help me send out this letter.", "sentenceVietnamese": "Làm ơn giúp tôi gửi lá thư này đi.", "theme": "Communication" },
-    { "id": 63, "chinese": "別有居心", "pinyin": "biéyǒu jūxīn", "english": "to have an ulterior motive", "vietnamese": "có ý đồ riêng", "sentenceChinese": "如果別有居心，再多的笑容也沒有用。", "sentencePinyin": "Rúguǒ biéyǒu jūxīn, zài duō de xiàoróng yě méiyǒu yòng.", "sentenceEnglish": "If someone has ulterior motives, no amount of smiles will help.", "sentenceVietnamese": "Nếu có ý đồ riêng thì dù cười nhiều đến đâu cũng vô ích.", "theme": "Idiom" },
-    { "id": 64, "chinese": "適得其反", "pinyin": "shìdé qífǎn", "english": "be counterproductive", "vietnamese": "phản tác dụng", "sentenceChinese": "想討好別人卻太刻意，反而適得其反。", "sentencePinyin": "Xiǎng tǎohǎo biérén què tài kèyì, fǎn'ér shìdé qífǎn.", "sentenceEnglish": "Trying too hard to please others can backfire instead.", "sentenceVietnamese": "Muốn lấy lòng người khác mà quá gượng ép thì ngược lại sẽ phản tác dụng.", "theme": "Idiom" },
-    { "id": 65, "chinese": "小看", "pinyin": "xiǎokàn", "english": "to underestimate", "vietnamese": "xem thường, coi nhẹ", "sentenceChinese": "你不能小看一句真誠問候的力量。", "sentencePinyin": "Nǐ bùnéng xiǎokàn yí jù zhēnchéng wènhòu de lìliàng.", "sentenceEnglish": "You shouldn't underestimate the power of a sincere greeting.", "sentenceVietnamese": "Bạn không nên xem thường sức mạnh của một lời chào chân thành.", "theme": "General" },
-    { "id": 66, "chinese": "威力", "pinyin": "wēilì", "english": "power, force", "vietnamese": "uy lực, sức mạnh", "sentenceChinese": "一個真心的笑容其實很有威力。", "sentencePinyin": "Yí ge zhēnxīn de xiàoróng qíshí hěn yǒu wēilì.", "sentenceEnglish": "A sincere smile actually has great power.", "sentenceVietnamese": "Một nụ cười chân thành thực ra có sức mạnh rất lớn.", "theme": "General" },
-    { "id": 67, "chinese": "予", "pinyin": "yǔ", "english": "to give, bestow", "vietnamese": "ban cho, dành cho", "sentenceChinese": "公司予以肯定後，他更有信心了。", "sentencePinyin": "Gōngsī yǔyǐ kěndìng hòu, tā gèng yǒu xìnxīn le.", "sentenceEnglish": "After the company gave him recognition, he became more confident.", "sentenceVietnamese": "Sau khi được công ty ghi nhận, anh ấy càng tự tin hơn.", "theme": "General" },
-    { "id": 68, "chinese": "深刻", "pinyin": "shēnkè", "english": "deep, profound", "vietnamese": "sâu sắc", "sentenceChinese": "這次談話給我留下很深刻的印象。", "sentencePinyin": "Zhè cì tánhuà gěi wǒ liúxià hěn shēnkè de yìnxiàng.", "sentenceEnglish": "This conversation left a deep impression on me.", "sentenceVietnamese": "Cuộc trò chuyện này để lại cho tôi ấn tượng rất sâu sắc.", "theme": "General" },
-    { "id": 69, "chinese": "互動", "pinyin": "hùdòng", "english": "to interact", "vietnamese": "tương tác", "sentenceChinese": "老師和學生的互動非常自然。", "sentencePinyin": "Lǎoshī hé xuéshēng de hùdòng fēicháng zìrán.", "sentenceEnglish": "The interaction between the teacher and students is very natural.", "sentenceVietnamese": "Sự tương tác giữa giáo viên và học sinh rất tự nhiên.", "theme": "Communication" },
-    { "id": 70, "chinese": "定下", "pinyin": "dìngxià", "english": "to set, establish", "vietnamese": "đặt ra, quyết định", "sentenceChinese": "他很早就替自己定下目標。", "sentencePinyin": "Tā hěn zǎo jiù tì zìjǐ dìngxià mùbiāo.", "sentenceEnglish": "He set goals for himself early on.", "sentenceVietnamese": "Anh ấy đã sớm đặt ra mục tiêu cho bản thân.", "theme": "General" },
-    { "id": 71, "chinese": "贏得", "pinyin": "yíngdé", "english": "to win over, gain", "vietnamese": "giành được", "sentenceChinese": "他靠真誠贏得了大家的尊重。", "sentencePinyin": "Tā kào zhēnchéng yíngdé le dàjiā de zūnzhòng.", "sentenceEnglish": "He won everyone's respect through sincerity.", "sentenceVietnamese": "Anh ấy nhờ sự chân thành mà giành được sự tôn trọng của mọi người.", "theme": "General" },
-    { "id": 72, "chinese": "藉著", "pinyin": "jièzhe", "english": "by means of", "vietnamese": "nhờ vào, thông qua", "sentenceChinese": "他藉著一次合作認識了很多朋友。", "sentencePinyin": "Tā jièzhe yí cì hézuò rènshi le hěn duō péngyǒu.", "sentenceEnglish": "He got to know many friends through one collaboration.", "sentenceVietnamese": "Anh ấy nhờ một lần hợp tác mà quen được rất nhiều bạn bè.", "theme": "General" },
-    { "id": 73, "chinese": "驅動力", "pinyin": "qūdònglì", "english": "driving force", "vietnamese": "động lực thúc đẩy", "sentenceChinese": "責任感是他前進最大的驅動力。", "sentencePinyin": "Zérèngǎn shì tā qiánjìn zuì dà de qūdònglì.", "sentenceEnglish": "A sense of responsibility is his greatest driving force.", "sentenceVietnamese": "Tinh thần trách nhiệm là động lực lớn nhất thúc đẩy anh ấy tiến lên.", "theme": "General" },
-    { "id": 74, "chinese": "機緣", "pinyin": "jīyuán", "english": "fateful opportunity", "vietnamese": "cơ duyên", "sentenceChinese": "有時候，一張名片就是一段機緣的開始。", "sentencePinyin": "Yǒushíhou, yì zhāng míngpiàn jiùshì yí duàn jīyuán de kāishǐ.", "sentenceEnglish": "Sometimes a business card is the start of a new opportunity.", "sentenceVietnamese": "Đôi khi một tấm danh thiếp lại là khởi đầu của một cơ duyên.", "theme": "General" },
-    { "id": 75, "chinese": "飯店", "pinyin": "fàndiàn", "english": "hotel", "vietnamese": "khách sạn", "sentenceChinese": "他在飯店工作了很多年。", "sentencePinyin": "Tā zài fàndiàn gōngzuò le hěn duō nián.", "sentenceEnglish": "He worked in a hotel for many years.", "sentenceVietnamese": "Anh ấy đã làm việc trong khách sạn nhiều năm.", "theme": "General" },
-    { "id": 76, "chinese": "名片", "pinyin": "míngpiàn", "english": "business card", "vietnamese": "danh thiếp", "sentenceChinese": "見面後交換名片是很基本的禮貌。", "sentencePinyin": "Jiànmiàn hòu jiāohuàn míngpiàn shì hěn jīběn de lǐmào.", "sentenceEnglish": "Exchanging business cards after meeting is a basic courtesy.", "sentenceVietnamese": "Sau khi gặp mặt, trao đổi danh thiếp là một phép lịch sự rất cơ bản.", "theme": "Business" },
-    { "id": 77, "chinese": "跳槽", "pinyin": "tiàocáo", "english": "to change jobs", "vietnamese": "nhảy việc", "sentenceChinese": "他不是隨便跳槽，而是為了更好的發展。", "sentencePinyin": "Tā bú shì suíbiàn tiàocáo, érshì wèile gèng hǎo de fāzhǎn.", "sentenceEnglish": "He didn't change jobs casually; he did it for better development.", "sentenceVietnamese": "Anh ấy không nhảy việc một cách tùy tiện mà là vì muốn có hướng phát triển tốt hơn.", "theme": "Work" }
-  ],
-  "theme": "Mental Skills for Conduct / Life Philosophy"
+    {
+      "id": 1,
+      "chinese": "做人",
+      "pinyin": "zuòrén",
+      "en": "to conduct oneself, to behave",
+      "vi": "đối nhân xử thế, làm người",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "conduct oneself; behave",
+          "sentence": "懂得如何做人處世。",
+          "pinyin": "dǒngde rúhé zuòrén chǔshì",
+          "en": "Know how to conduct oneself in society",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "conduct oneself; behave",
+          "sentence": "老老實實做人。",
+          "pinyin": "lǎo lǎo shí shí zuò rén.",
+          "en": "Conduct oneself honestly",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "心法",
+      "pinyin": "xīnfǎ",
+      "en": "mental cultivation methods",
+      "vi": "phương pháp rèn luyện tâm thức",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the heart",
+          "sentence": "人隻有一顆心。",
+          "pinyin": "rén zhǐyǒu yī kē xīn.",
+          "en": "A person has only one heart.",
+          "vi": "Con người chỉ có một trái tim."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the heart",
+          "sentence": "這是小豬的心。",
+          "pinyin": "zhè shì xiǎo zhū de xīn.",
+          "en": "This is the piglet's heart.",
+          "vi": "Đây là tim của lợn con."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "談論",
+      "pinyin": "tánlùn",
+      "en": "to discuss, to talk about",
+      "vi": "thảo luận, bàn luận",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "debate; discuss; speak about; talk about",
+          "sentence": "她喜歡談論旅行。",
+          "pinyin": "tā xǐhuān tánlùn lǚxíng.",
+          "en": "She likes to talk about travel.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "debate; discuss; speak about; talk about",
+          "sentence": "我們正在談論電影。",
+          "pinyin": "wǒmen zhèngzài tánlùn diànyǐng.",
+          "en": "We are talking about the movie.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "真誠",
+      "pinyin": "zhēnchéng",
+      "en": "sincere, sincerity",
+      "vi": "chân thành",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "true; honest; earnest; sincere; genuine",
+          "sentence": "真誠的關繫會更持久。",
+          "pinyin": "zhēnchéng de guānxì huì gèng chíjiǔ.",
+          "en": "Sincere relationships last longer.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true; honest; earnest; sincere; genuine",
+          "sentence": "請用真誠的態度對待別人。",
+          "pinyin": "qǐng yòng zhēnchéng de tàidù duìdài biérén.",
+          "en": "Please treat others with a sincere attitude.",
+          "vi": "Hãy đối xử với người khác bằng thái độ chân thành."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "讚美",
+      "pinyin": "zànměi",
+      "en": "to praise; praise",
+      "vi": "khen ngợi, ca ngợi",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "praise; eulogize",
+          "sentence": "她贊美了他的藝術作品。",
+          "pinyin": "tā zànměile tā de yìshù zuòpǐn.",
+          "en": "She praised his artwork.",
+          "vi": "Cô ấy khen tác phẩm nghệ thuật của anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "praise; eulogize",
+          "sentence": "老師贊美了學生的努力。",
+          "pinyin": "lǎoshī zànměile xuéshēng de nǔlì.",
+          "en": "The teacher praised the students' efforts.",
+          "vi": "Giáo viên khen ngợi nỗ lực của học sinh."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "親和力",
+      "pinyin": "qīnhélì",
+      "en": "likeability, affinity",
+      "vi": "sự thân thiện, khả năng thu hút",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "affinity",
+          "sentence": "金屬和非金屬有親和力。",
+          "pinyin": "jīnshǔ hé fēi jīnshǔ yǒu qīnhélì.",
+          "en": "Metals and non-metals have affinity.",
+          "vi": "Kim loại và phi kim có lực kết hợp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "affinity",
+          "sentence": "不衕元素的親和力不衕。",
+          "pinyin": "bùtóng yuánsù de qīnhélì bùtóng.",
+          "en": "The affinity of different elements varies.",
+          "vi": "Lực kết hợp giữa các nguyên tố khác nhau."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "笑容",
+      "pinyin": "xiàoróng",
+      "en": "smile",
+      "vi": "nụ cười",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "smile; smiling expression",
+          "sentence": "她的笑容非常溫暖。",
+          "pinyin": "tā de xiàoróng fēicháng wēnnuǎn.",
+          "en": "Her smile is very warm.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "smile; smiling expression",
+          "sentence": "她露齣了可愛的笑容。",
+          "pinyin": "tā lùchūle kě'ài de xiàoróng.",
+          "en": "She had a lovely smile.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "此",
+      "pinyin": "cǐ",
+      "en": "this, these",
+      "vi": "này, điều này",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "this",
+          "sentence": "此人很有才/纔華。",
+          "pinyin": "cǐ rén hěn yǒu cáihuá.",
+          "en": "This person is very talented.",
+          "vi": "Người này rất có tài hoa."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this",
+          "sentence": "此書非常精綵。",
+          "pinyin": "cǐ shū fēicháng jīngcǎi.",
+          "en": "This book is excellent.",
+          "vi": "Cuốn sách này rất tuyệt vời."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我姓此。",
+          "pinyin": "wǒ xìng cǐ.",
+          "en": "My surname is Ci.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "秘訣",
+      "pinyin": "mìjué",
+      "en": "secret (of success)",
+      "vi": "bí quyết",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "magic code; secret (of success)",
+          "sentence": "堅持努力是成功的秘/祕訣。",
+          "pinyin": "jiānchí nǔlì shì chénggōng de mìjué.",
+          "en": "Persistence is the key to success.",
+          "vi": "Kiên trì nỗ lực là bí quyết thành công."
+        },
+        {
+          "type": "Noun",
+          "meaning": "magic code; secret (of success)",
+          "sentence": "這幾個秘/祕訣非常實用。",
+          "pinyin": "zhè jǐ gè mìjué fēicháng shíyòng.",
+          "en": "These tips are very practical.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "拉近距離",
+      "pinyin": "lājìn jùlí",
+      "en": "bring people closer together",
+      "vi": "xích lại gần nhau, thu hẹp khoảng cách",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to bring (people) closer together",
+          "sentence": "拉近我們之間的距離。",
+          "pinyin": "lā jìn wǒmen zhī jiān de jùlí.",
+          "en": "Bring us closer together.",
+          "vi": "Kéo gần hơn khoảng cách của chúng tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to bring (people) closer together",
+          "sentence": "你能看到他們喜歡什麼，這有助於拉近距離。",
+          "pinyin": "nǐ néng kàn dào tāmen xǐhuān shénme, zhè yǒu zhù yú lā jìn jùlí.",
+          "en": "You can see what they like, which helps to bridge the gap.",
+          "vi": "Cậu có thể nhìn ra bọn họ thích gì, điều này giúp ích cho việc kéo gần khoảng cách."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "傳授",
+      "pinyin": "chuánshòu",
+      "en": "to impart, to pass on knowledge",
+      "vi": "truyền thụ",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "impart; teach; pass on (knowledge, skill, etc.)",
+          "sentence": "他嚮學生傳授經驗。",
+          "pinyin": "tā xiàng xuéshēng chuánshòu jīngyàn.",
+          "en": "He imparts experience to the students.",
+          "vi": "Anh ấy truyền đạt kinh nghiệm cho học sinh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "impart; teach; pass on (knowledge, skill, etc.)",
+          "sentence": "師傅傳授了他的技藝。",
+          "pinyin": "shīfu chuánshòule tā de jìyì.",
+          "en": "The master passed down his skills.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "獨門",
+      "pinyin": "dúmén",
+      "en": "unique, special",
+      "vi": "độc môn, duy nhất",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "(of a family, etc.) have one's own entrance or gate",
+          "sentence": "獨門獨戶",
+          "pinyin": "dúmén dú hù",
+          "en": "Single house or apartment with its own separate entrance",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "special skill, recipe, etc. (of an individual or a family)",
+          "sentence": "獨門絕活兒。",
+          "pinyin": "dúmén juéhuór",
+          "en": "Special skill possessed solely by an individual or a family",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "人際",
+      "pinyin": "rénjì",
+      "en": "interpersonal",
+      "vi": "giữa người với người, giao tiếp xã hội",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "interpersonal",
+          "sentence": "他擅長處理人際問題。",
+          "pinyin": "tā shàncháng chǔlǐ rénjì wèntí.",
+          "en": "He is good at handling interpersonal issues.",
+          "vi": "Anh ấy giỏi xử lý các mối quan hệ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "interpersonal",
+          "sentence": "你的人際關繫好嗎？",
+          "pinyin": "nǐ de rénjì guānxi hǎo ma?",
+          "en": "Are your interpersonal relationships good?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "銷售",
+      "pinyin": "xiāoshòu",
+      "en": "to sell; sales",
+      "vi": "bán hàng, doanh số",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sell; market",
+          "sentence": "他負責銷售新産品。",
+          "pinyin": "tā fùzé xiāoshòu xīn chǎnpǐn.",
+          "en": "He is responsible for selling new products.",
+          "vi": "Anh ấy phụ trách bán sản phẩm mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "sell; market",
+          "sentence": "我是做進口汽車銷售的。",
+          "pinyin": "wǒ shì zuò jìnkǒu qìchē xiāoshòu de.",
+          "en": "I am in the sales of imported cars.",
+          "vi": "Tôi kinh doanh xe ô tô nhập khẩu."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "暢銷",
+      "pinyin": "chàngxiāo",
+      "en": "to sell well, best seller",
+      "vi": "bán chạy",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sell well; be in great demand; have a ready market; to be a bestseller",
+          "sentence": "這本小説暢銷了幾年。",
+          "pinyin": "zhè běn xiǎoshuō chàngxiāole jǐ nián.",
+          "en": "This novel sold well for several years.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "sell well; be in great demand; have a ready market; to be a bestseller",
+          "sentence": "他的産品在市場上暢銷。",
+          "pinyin": "tā de chǎnpǐn zài shìchǎng shàng chàngxiāo.",
+          "en": "His products sell well in the market.",
+          "vi": "Sản phẩm của anh ấy bán chạy trên thị trường."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "bestselling",
+          "sentence": "他的書是暢銷書。",
+          "pinyin": "tā de shū shì chàngxiāo shū.",
+          "en": "His book is a bestseller.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "bestselling",
+          "sentence": "這些産品一直很暢銷。",
+          "pinyin": "zhèxiē chǎnpǐn yīzhí hěn chàngxiāo.",
+          "en": "These products have always bestselling.",
+          "vi": "Những sản phẩm này luôn bán rất chạy."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "謙稱",
+      "pinyin": "qiānchēng",
+      "en": "humble self-reference",
+      "vi": "cách xưng hô khiêm nhường",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "modest appellation",
+          "sentence": "他謙稱自己是學生。",
+          "pinyin": "Tā qiān chēng zìjǐ shì xuéshēng",
+          "en": "He modestly called himself a student.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "modest form of address",
+          "sentence": "他總是謙稱自己為學生。",
+          "pinyin": "Tā zǒng shì qiān chēng zì jǐ wéi xué shēng",
+          "en": "He always modestly calls himself a student.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "抱持",
+      "pinyin": "bàochí",
+      "en": "to maintain",
+      "vi": "giữ vững, duy trì",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "cherish; nurture",
+          "sentence": "我們應抱持希望前行。",
+          "pinyin": "Wǒmen yīng bào chí xīwàng qiánxíng.",
+          "en": "We should hold onto hope and move forward.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "to clinch (boxing)",
+          "sentence": "拳手互相抱持不放。",
+          "pinyin": "quán shǒu hù xiāng bào chí bù fàng",
+          "en": "The boxers clinched each other and wouldn't let go.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "哲學",
+      "pinyin": "zhéxué",
+      "en": "philosophy",
+      "vi": "triết học",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "philosophy",
+          "sentence": "哲學是研究人生的意義。",
+          "pinyin": "zhéxué shì yánjiū rénshēng de yìyì.",
+          "en": "Philosophy studies the meaning of life.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "philosophy",
+          "sentence": "他對哲學很感興趣。",
+          "pinyin": "tā duì zhéxué hěn gǎn xìngqù.",
+          "en": "He is very interested in philosophy.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "讀者",
+      "pinyin": "dúzhě",
+      "en": "reader",
+      "vi": "độc giả",
+      "theme": "Media",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "reader",
+          "sentence": "這本雜誌有很多讀者。",
+          "pinyin": "zhè běn zázhì yǒu hěnduō dúzhě.",
+          "en": "This magazine has many readers.",
+          "vi": "Tạp chí này có nhiều độc giả."
+        },
+        {
+          "type": "Noun",
+          "meaning": "reader",
+          "sentence": "讀者反饋非常重要。",
+          "pinyin": "dúzhě fǎnkuì fēicháng zhòngyào.",
+          "en": "Reader feedback is very important.",
+          "vi": "Phản hồi của độc giả rất quan trọng."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "踏出",
+      "pinyin": "tàchū",
+      "en": "take a step forward",
+      "vi": "bước ra, dấn bước",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "treading",
+          "sentence": "萬裡/裏長徵才/纔踏齣第一步呢。",
+          "pinyin": "wànlǐchángzhēng cái tàchū dìyībù ní",
+          "en": "We've still got a hell of a long way to go.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "悅耳",
+      "pinyin": "yuè'ěr",
+      "en": "pleasant sounding",
+      "vi": "êm tai, dễ nghe",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "pleasing to the ear; sweet-sounding",
+          "sentence": "她唱齣悅耳的歌聲。",
+          "pinyin": "tā chàng chū yuè'ěr de gēshēng.",
+          "en": "She sang a sweet-sounding song.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "pleasing to the ear; sweet-sounding",
+          "sentence": "這首悅耳的音樂很動聽。",
+          "pinyin": "zhè shǒu yuè'ěr de yīnyuè hěn dòngtīng.",
+          "en": "This sweet music is very pleasing.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "熱忱",
+      "pinyin": "rèchén",
+      "en": "enthusiasm",
+      "vi": "nhiệt huyết, nhiệt tình",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "zeal; ardour; enthusiasm and devotion",
+          "sentence": "愛國熱忱",
+          "pinyin": "àiguó rèchén",
+          "en": "Patriotic ardour",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "zeal; ardour; enthusiasm and devotion",
+          "sentence": "革命熱忱",
+          "pinyin": "gémìng rèchén",
+          "en": "Revolutionary zeal",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "不妨",
+      "pinyin": "bùfáng",
+      "en": "might as well",
+      "vi": "có thể thử",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "might as well; there is no harm in",
+          "sentence": "你不妨試試這個方法。",
+          "pinyin": "nǐ bùfáng shì shi zhège fāngfǎ.",
+          "en": "You might as well try this method.",
+          "vi": "Bạn có thể thử phương pháp này."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "might as well; there is no harm in",
+          "sentence": "你不妨詢問老師意見。",
+          "pinyin": "nǐ bùfáng xúnwèn lǎoshī yìjiàn.",
+          "en": "You might as well ask the teacher for advice.",
+          "vi": "Bạn có thể hỏi ý kiến thầy cô."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "好比",
+      "pinyin": "hǎobǐ",
+      "en": "for instance, like",
+      "vi": "ví như, giống như",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "can be compared to; may be likened to; be just like",
+          "sentence": "我們的工作好比一場戰鬥。",
+          "pinyin": "wǒmen de gōngzuò hǎobǐ yī chǎng zhàndòu.",
+          "en": "Our work can be compared to a battle.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "告別",
+      "pinyin": "gàobié",
+      "en": "say goodbye, bid farewell",
+      "vi": "tạm biệt, từ biệt",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "say goodbye to",
+          "sentence": "他和朋友告別了。",
+          "pinyin": "tā hé péngyǒu gàobiéle.",
+          "en": "He said goodbye to his friends.",
+          "vi": "Anh ấy đã nói lời tạm biệt với bạn bè."
+        },
+        {
+          "type": "sv",
+          "meaning": "say goodbye to",
+          "sentence": "你怎麼沒告別？",
+          "pinyin": "nǐ zěnme méi gàobié?",
+          "en": "Why didn't you say goodbye?",
+          "vi": "Sao bạn không nói lời tạm biệt?"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "記住",
+      "pinyin": "jìzhù",
+      "en": "remember",
+      "vi": "ghi nhớ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "remember; learn by heart; bear in mind; commit to memory",
+          "sentence": "你能記住這些數字嗎？",
+          "pinyin": "nǐ néng jì zhù zhèxiē shùzì ma?",
+          "en": "Can you remember these numbers?",
+          "vi": "Bạn có thể nhớ những con số này không?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "remember; learn by heart; bear in mind; commit to memory",
+          "sentence": "我們將永遠記住他的慷慨好客。",
+          "pinyin": "wǒmen jiāng yǒngyuǎn jì zhù tā de kāngkǎi hàokè.",
+          "en": "We will always remember his generous hospitality.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "對方",
+      "pinyin": "duìfāng",
+      "en": "the other party",
+      "vi": "đối phương, người kia",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "other side; opposite side; other party",
+          "sentence": "我覺得對方不友善。",
+          "pinyin": "wǒ juéde duìfāng bù yǒushàn.",
+          "en": "I feel that the other party is unfriendly.",
+          "vi": "Tôi cẩm thấy đối phương không thân thiện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "other side; opposite side; other party",
+          "sentence": "對方一直不想配閤。",
+          "pinyin": "duìfāng yīzhí bùxiǎng pèihé.",
+          "en": "The other party has consistently been unwilling to cooperate.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "宴會",
+      "pinyin": "yànhuì",
+      "en": "banquet",
+      "vi": "yến tiệc, buổi tiệc",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "feast; banquet; dinner party",
+          "sentence": "今晚的宴會十分隆重。",
+          "pinyin": "jīn wǎn de yànhuì shífēn lóngzhòng.",
+          "en": "The banquet tonight is very grand.",
+          "vi": "Bữa tiệc tối nay rất hoành tráng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "feast; banquet; dinner party",
+          "sentence": "這場宴會的氛圍很歡樂。",
+          "pinyin": "zhè chǎng yànhuì de fēnwéi hěn huānlè.",
+          "en": "The atmosphere of this banquet is very cheerful.",
+          "vi": "Không khí trong bữa tiệc này rất vui vẻ."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "自顧自（地）",
+      "pinyin": "zìgùzì (de)",
+      "en": "only thinking about yourself",
+      "vi": "chỉ biết mình, mặc kệ người khác",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "oneself; one's own",
+          "sentence": "自個的事自己解決。",
+          "pinyin": "zì gě de shì zìjǐ jiějué.",
+          "en": "Solve your own matters by yourself.",
+          "vi": "Việc của mình tự mình giải quyết."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "oneself; one's own",
+          "sentence": "你要依靠自己努力。",
+          "pinyin": "nǐ yào yīkào zìjǐ nǔlì.",
+          "en": "You must rely on your own efforts.",
+          "vi": "Bạn phải dựa vào nỗ lực của mình."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "certainly; of course; naturally",
+          "sentence": "此事自當儘力而為。",
+          "pinyin": "cǐ shì zì dāng jìnlì ér wéi.",
+          "en": "This matter should naturally be handled with full effort.",
+          "vi": "Việc này đương nhiên phải cố gắng hết sức."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "certainly; of course; naturally",
+          "sentence": "正義自應得到伸張。",
+          "pinyin": "zhèngyì zì yīng dédào shēnzhāng.",
+          "en": "Justice should naturally be upheld.",
+          "vi": "Chính nghĩa đương nhiên phải được bênh vực."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from; since",
+          "sentence": "自遠方來的客人。",
+          "pinyin": "zì yuǎnfāng lái de kèrén.",
+          "en": "Guests from afar.",
+          "vi": "Khách đến từ phương xa."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from; since",
+          "sentence": "來自各國的朋友。",
+          "pinyin": "láizì gèguó de péngyou.",
+          "en": "Friends from various countries.",
+          "vi": "Bạn bè từ các nước đến."
+        },
+        {
+          "type": "Verb",
+          "meaning": "start",
+          "sentence": "他自今年工作。",
+          "pinyin": "tā zì jīnnián gōngzuò.",
+          "en": "He has been working since this year.",
+          "vi": "Anh ấy bắt đầu làm việc từ năm nay."
+        },
+        {
+          "type": "Verb",
+          "meaning": "start",
+          "sentence": "我自今天起早睡。",
+          "pinyin": "wǒ zì jīntiān qǐ zǎo shuì.",
+          "en": "I will go to bed early starting today.",
+          "vi": "Tôi bắt đầu ngủ sớm từ hôm nay."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "自先生是我的老師。",
+          "pinyin": "zì xiānsheng shì wǒ de lǎoshī.",
+          "en": "Mr. Zi is my teacher.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "自小姐很友善。",
+          "pinyin": "zì xiǎojiě hěn yǒushàn.",
+          "en": "Miss Zi is very kind.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "講",
+      "pinyin": "jiǎng",
+      "en": "to talk, to say",
+      "vi": "nói, kể",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "tell; speak",
+          "sentence": "奶奶常常給我講故事。",
+          "pinyin": "nǎinai chángcháng gěi wǒ jiǎng gùshi.",
+          "en": "Grandma often tells me stories.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "tell; speak",
+          "sentence": "上課了，不要講話了！",
+          "pinyin": "shàngkèle, bùyào jiǎnghuàle!",
+          "en": "Class has started, stop talking!",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lecture; discourse",
+          "sentence": "這個課程有十二講。",
+          "pinyin": "zhège kèchéng yǒu shí'èr jiǎng.",
+          "en": "This course has twelve lectures.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lecture; discourse",
+          "sentence": "他的講很有啟/啓髮/發性。",
+          "pinyin": "tā de jiǎng hěn yǒu qǐfā xìng.",
+          "en": "His lectures are very inspiring.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "整整",
+      "pinyin": "zhěngzhěng",
+      "en": "fully",
+      "vi": "suốt, trọn vẹn",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "whole; full; exactly",
+          "sentence": "雨下了整整三個小時。",
+          "pinyin": "yǔ xiàle zhěngzhěng sān gè xiǎoshí.",
+          "en": "It rained solidly for three hours.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "whole; full; exactly",
+          "sentence": "他整整睡了十個小時。",
+          "pinyin": "tā zhěngzhěng shuìle shí gè xiǎoshí.",
+          "en": "He slept solidly for ten hours.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "插嘴",
+      "pinyin": "chāzuǐ",
+      "en": "to interrupt",
+      "vi": "ngắt lời, nói xen vào",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "interrupt; butt in",
+          "sentence": "別隨便插嘴。",
+          "pinyin": "bié suíbiàn chāzuǐ.",
+          "en": "Don’t interrupt randomly.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "interrupt; butt in",
+          "sentence": "她總是喜歡插嘴。",
+          "pinyin": "tā zǒng shì xǐhuān chāzuǐ.",
+          "en": "She always likes to interrupt.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "餘地",
+      "pinyin": "yúdì",
+      "en": "room for",
+      "vi": "dư địa, chỗ trống",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "space; room",
+          "sentence": "行李箱裡/裏沒有餘地了。",
+          "pinyin": "xínglǐ xiāng lǐ méiyǒu yúdìle.",
+          "en": "Here's no more room in the suitcase.",
+          "vi": "Trong vali không còn chỗ trống nữa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "space; room",
+          "sentence": "屋子太小, 沒有活動的餘地。",
+          "pinyin": "Wūzi tài xiǎo, méiyǒu huódòng deyúdì.",
+          "en": "The room is too small to turn round.",
+          "vi": "Phòng quá nhỏ và không có chỗ cho các hoạt động."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "以致（於）",
+      "pinyin": "yǐzhì (yú)",
+      "en": "so that, as a result",
+      "vi": "đến mức, dẫn đến",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Preposition",
+          "meaning": "indicates time, place, range, etc",
+          "sentence": "我齣生於北京。",
+          "pinyin": "wǒ chūshēng yú běijīng.",
+          "en": "I was born in Beijing.",
+          "vi": "Tôi được sinh ra ở Bắc Kinh."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "indicates time, place, range, etc",
+          "sentence": "他畢業於北京大學。",
+          "pinyin": "tā bìyè yú běijīng dàxué.",
+          "en": "He graduated from Peking University.",
+          "vi": "Anh ấy tốt nghiệp tại Đại học Bắc Kinh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "於老師教我們數學。",
+          "pinyin": "yú lǎoshī jiào wǒmen shùxué.",
+          "en": "Teacher Yu teaches us math.",
+          "vi": "Cô giáo Vu dạy chúng tôi toán."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "她的全名是於小紅。",
+          "pinyin": "tā de quán míng shì yú xiǎo hóng.",
+          "en": "Her full name is Yu Xiaohong.",
+          "vi": "Tên đầy đủ của cô ấy là Vu Tiểu Hồng."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "同桌",
+      "pinyin": "tóngzhuō",
+      "en": "to sit at the same table",
+      "vi": "ngồi cùng bàn",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "deskmate",
+          "sentence": "他是我初中的衕桌。",
+          "pinyin": "tā shì wǒ chūzhōng de tóng zhuō.",
+          "en": "He was my desk mate in middle school.",
+          "vi": "Cấp hai, anh ấy ngồi cùng bàn với tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "deskmate",
+          "sentence": "我的衕桌學得很好。",
+          "pinyin": "wǒ de tóng zhuō xué dé hěn hǎo.",
+          "en": "My deskmate is doing really well in his studies.",
+          "vi": "Bạn cùng bàn của tôi học giỏi lắm."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "罰站",
+      "pinyin": "fázhàn",
+      "en": "to be made to stand as punishment",
+      "vi": "phạt đứng",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to be made to stand still as a punishment",
+          "sentence": "老師讓他罰站十分鍾。",
+          "pinyin": "Lǎoshī ràng tā fá zhàn shí fēnzhōng.",
+          "en": "The teacher made him stand as punishment for ten minutes.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "聽教",
+      "pinyin": "tīngjiào",
+      "en": "to listen to advice/preaching",
+      "vi": "nghe lời dạy bảo",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "teach; instruct",
+          "sentence": "教科農一體化。",
+          "pinyin": "jiào kē nóng yītǐhuà",
+          "en": "Integration of education and science with agriculture",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "ask; order; tell",
+          "sentence": "教練命令隊伍集閤。",
+          "pinyin": "jiàoliàn mìnglìng duìwǔ jíhé.",
+          "en": "The coach ordered the entire team to gather.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "religion",
+          "sentence": "政教分離",
+          "pinyin": "zhèng-jiào fēnlí",
+          "en": "Separation of religion and politics; separation of church and state",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "religion",
+          "sentence": "她對宗教很感興趣。",
+          "pinyin": "tā duì zōngjiào hěn gǎn xìngqù.",
+          "en": "She is very interested in religion.",
+          "vi": ""
+        },
+        {
+          "type": "preposition",
+          "meaning": "[in a passive sentence to introduce the doer of the action]",
+          "sentence": "金曼·佈魯斯特二世曾説過[耶魯大學校長 教育傢]",
+          "pinyin": "jīnmàn · bùlǔsī tè èrshì céng shuō guò [ yélǔdàxué xiàocháng jiàoyùjiā ]",
+          "en": "Kingman brewster jr. said",
+          "vi": ""
+        },
+        {
+          "type": "preposition",
+          "meaning": "[in a passive sentence to introduce the doer of the action]",
+          "sentence": "我國的教育頑疾需改革。",
+          "pinyin": "Wǒ guó de jiào yù wán jí xū gǎi gé",
+          "en": "Our country's entrenched educational problems need reform",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "似地",
+      "pinyin": "sìde",
+      "en": "as if",
+      "vi": "như thể",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "it seems; as if; seemingly; it looks like",
+          "sentence": "她似乎有點生氣了。",
+          "pinyin": "tā sìhū yǒudiǎn shēngqìle.",
+          "en": "She seems a bit angry.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "it seems; as if; seemingly; it looks like",
+          "sentence": "天氣似乎要下雨了。",
+          "pinyin": "tiānqì sìhū yào xià yǔle.",
+          "en": "It seems like it's going to rain.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "凝滯",
+      "pinyin": "níngzhì",
+      "en": "stagnated",
+      "vi": "đọng lại, ngưng trệ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "literary",
+          "meaning": "stagnate; move sluggishly",
+          "sentence": "凝滯的目光。",
+          "pinyin": "níngzhì de mùguāng",
+          "en": "Dull stare; listless gaze",
+          "vi": ""
+        },
+        {
+          "type": "literary",
+          "meaning": "(fig.) to stop still",
+          "sentence": "血液在傷口處凝滯。",
+          "pinyin": "xuèyè zài shāngkǒu chù níng zhì",
+          "en": "Blood at the wound stagnated",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "一吐為快",
+      "pinyin": "yìtǔ wéikuài",
+      "en": "to say everything and feel relieved",
+      "vi": "nói ra cho thỏa lòng",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "to get sth off one's chest",
+          "sentence": "他總算一吐為快了。",
+          "pinyin": "Tā zǒngsuàn yī tǔ wéi kuài le",
+          "en": "He finally got it off his chest.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "cannot rest until one has one's say",
+          "sentence": "他終於一吐為快了。",
+          "pinyin": "Tā zhōngyú yī tǔ wéi kuài le.",
+          "en": "He finally got it off his chest.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "提問",
+      "pinyin": "tíwèn",
+      "en": "to ask a question",
+      "vi": "đặt câu hỏi",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "quiz; ask a question; put questions to",
+          "sentence": "學生們積極提問。",
+          "pinyin": "xuéshēngmen jījí tíwèn.",
+          "en": "The students actively asked questions.",
+          "vi": "Các sinh viên tích cực đặt câu hỏi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "quiz; ask a question; put questions to",
+          "sentence": "你可以隨時提問。",
+          "pinyin": "nǐ kěyǐ suíshí tíwèn.",
+          "en": "You can ask questions at any time.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "心坎",
+      "pinyin": "xīnkǎn",
+      "en": "bottom of one's heart",
+      "vi": "tận đáy lòng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the bottom of one's heart",
+          "sentence": "我從心坎裡/裏感謝你。",
+          "pinyin": "wǒ cóng xīn kǎn lǐ gǎn xiè nǐ.",
+          "en": "I thank you from the bottom of my heart.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "本質",
+      "pinyin": "běnzhí",
+      "en": "nature, essence",
+      "vi": "bản chất",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "essence; nature; innate character; intrinsic quality",
+          "sentence": "他本質併不壞。",
+          "pinyin": "tā běnzhì bìng bù huài.",
+          "en": "He is not bad in essence.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "essence; nature; innate character; intrinsic quality",
+          "sentence": "這個問題的本質很簡單。",
+          "pinyin": "zhège wèntí de běnzhì hěn jiǎndān.",
+          "en": "The essence of this problem is very simple.",
+          "vi": "Bản chất của vấn đề này rất đơn giản."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "驅策",
+      "pinyin": "qūcè",
+      "en": "to drive, to urge on",
+      "vi": "thúc đẩy, thôi thúc",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "drive; whip on",
+          "sentence": "老師的話驅策著學生前進。",
+          "pinyin": "Lǎoshī de huà qūcè zhe xuéshēng qiánjìn.",
+          "en": "The teacher's words spurred the students on.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "order about",
+          "sentence": "任人驅策",
+          "pinyin": "rèn rén qū cè",
+          "en": "Allow oneself to be ordered about",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "深切",
+      "pinyin": "shēnqiè",
+      "en": "deep, heartfelt",
+      "vi": "sâu sắc, tha thiết",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "heartfelt; deep; profound",
+          "sentence": "我深切地思唸我的傢鄉。",
+          "pinyin": "wǒ shēnqiè de sīniàn wǒ de jiāxiāng.",
+          "en": "I deeply miss my hometown.",
+          "vi": "Tôi da diết nhớ quê hương của mình."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "heartfelt; deep; profound",
+          "sentence": "我嚮你錶達深切的謝意。",
+          "pinyin": "wǒ xiàng nǐ biǎodá shēnqiè de xièyì.",
+          "en": "I express my deep gratitude to you.",
+          "vi": "Tôi bày tỏ lòng biết ơn da diết với bạn."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "真心",
+      "pinyin": "zhēnxīn",
+      "en": "genuinely, sincerely",
+      "vi": "thật lòng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sincerity; true heart",
+          "sentence": "她對我一片真心。",
+          "pinyin": "tā duì wǒ yīpiàn zhēnxīn.",
+          "en": "She has a true heart for me.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sincerity; true heart",
+          "sentence": "他的真心讓人感動。",
+          "pinyin": "tā de zhēnxīn ràng rén gǎndòng.",
+          "en": "His sincerity moves people.",
+          "vi": "Sự chân thành của anh ấy khiến người ta cảm động."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "chinese": "可想而知",
+      "pinyin": "kěxiǎng érzhī",
+      "en": "as you can imagine",
+      "vi": "có thể hiểu được",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "it is easy to imagine; it goes without saying; one can well imagine; obviously; as you can imagine",
+          "sentence": "她努力學習，可想而知成績好。",
+          "pinyin": "tā nǔlì xuéxí, kě xiǎng ér zhī chéng jī hǎo.",
+          "en": "She studies hard; it is easy to imagine her grades are good.",
+          "vi": "Cô ấy học hành chăm chỉ, có thể tưởng tượng được kết quả tốt."
+        },
+        {
+          "type": "idioms",
+          "meaning": "it is easy to imagine; it goes without saying; one can well imagine; obviously; as you can imagine",
+          "sentence": "他吃/喫太多了，可想而知會生病。",
+          "pinyin": "tā chī tài duōle, kě xiǎng ér zhī hui shēngbìng.",
+          "en": "He ate too much; it is easy to imagine he will get sick.",
+          "vi": "Anh ấy ăn quá nhiều, có thể đoán là sẽ ốm."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "chinese": "人緣",
+      "pinyin": "rényuán",
+      "en": "popularity with people",
+      "vi": "nhân duyên, được lòng người",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(good) relationship with other people; popularity",
+          "sentence": "他性格開朗，人緣很好。",
+          "pinyin": "tā xìnggé kāilǎng, rényuán hěn hǎo.",
+          "en": "He has a cheerful personality and good relationships.",
+          "vi": "Anh ấy có tính cách vui vẻ, nhân duyên tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "(good) relationship with other people; popularity",
+          "sentence": "他樂於助人，人緣極佳。",
+          "pinyin": "tā lèyú zhùrén, rényuán jí jiā.",
+          "en": "He is willing to help others, and his relationships are excellent.",
+          "vi": "Anh ấy hay giúp người, nhân duyên rất tốt."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "chinese": "命中",
+      "pinyin": "mìngzhòng",
+      "en": "to hit the mark",
+      "vi": "đánh trúng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hit the target (mark); score a hit",
+          "sentence": "命中目標",
+          "pinyin": "mìng zhòng mù biāo",
+          "en": "Hit the mark",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hit the target (mark); score a hit",
+          "sentence": "子彈命中目標。",
+          "pinyin": "zǐ dàn mìng zhòng mù biāo.",
+          "en": "The bullet hit home.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "chinese": "成就",
+      "pinyin": "chéngjiù",
+      "en": "achievement",
+      "vi": "thành tựu",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "achievement; accomplishment; success",
+          "sentence": "他們取得了偉大的成就。",
+          "pinyin": "tāmen qǔdéle wěidà de chéngjiù.",
+          "en": "They achieved great success.",
+          "vi": "Họ nhận được thành tựu vĩ đại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "achievement; accomplishment; success",
+          "sentence": "每個人都有自己的成就。",
+          "pinyin": "měi gèrén dōu yǒu zìjǐ de chéngjiù.",
+          "en": "Everyone has their own achievements.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "accomplish; achieve; complete",
+          "sentence": "他們已成就了一項研究。",
+          "pinyin": "tāmen yǐ chéngjiùle yī xiàng yánjiū.",
+          "en": "They have completed a research project.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "accomplish; achieve; complete",
+          "sentence": "她成就了自己的夢想。",
+          "pinyin": "tā chéngjiùle zìjǐ de mèngxiǎng.",
+          "en": "She achieved her dream.",
+          "vi": "Cô ấy đã đạt được ước mơ của mình."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "chinese": "真切",
+      "pinyin": "zhēnqiè",
+      "en": "genuine, heartfelt",
+      "vi": "chân thực, tha thiết",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "clear; distinct",
+          "sentence": "她説的話真切而有力。",
+          "pinyin": "tā shuō dehuà zhēnqiè ér yǒulì.",
+          "en": "Her words were clear and forceful.",
+          "vi": "Những lời cô ấy nói rất rõ ràng và mạnh mẽ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "clear; distinct",
+          "sentence": "我們的對話非常真切。",
+          "pinyin": "wǒmen de duìhuà fēicháng zhēnqiè.",
+          "en": "Our conversation was very clear.",
+          "vi": "Cuộc trò chuyện của chúng tôi rất rõ ràng."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "chinese": "性格",
+      "pinyin": "xìnggé",
+      "en": "character, personality",
+      "vi": "tính cách",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "character; temperament",
+          "sentence": "她有很堅強的性格。",
+          "pinyin": "tā yǒu hěn jiānqiáng de xìnggé.",
+          "en": "She has a determined character.",
+          "vi": "Cô ấy có tính cách rất kiên cường."
+        },
+        {
+          "type": "Noun",
+          "meaning": "character; temperament",
+          "sentence": "他性格非常勇敢。",
+          "pinyin": "tā xìnggé fēicháng yǒnggǎn.",
+          "en": "He truly has a brave character.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "chinese": "愛心",
+      "pinyin": "àixīn",
+      "en": "compassion",
+      "vi": "tấm lòng nhân ái",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "love; care; compassion",
+          "sentence": "我們要用愛心去對待他人。",
+          "pinyin": "wǒmen yào yòng àixīn qù duìdài tārén.",
+          "en": "We should treat others with love.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "love; care; compassion",
+          "sentence": "教師用愛心去關心學生。",
+          "pinyin": "jiàoshī yòng àixīn qù guānxīn xuéshēng.",
+          "en": "Teachers care for students with love.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "chinese": "口香糖",
+      "pinyin": "kǒuxiāngtáng",
+      "en": "chewing gum",
+      "vi": "kẹo cao su",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "chewing gum; bubble gum",
+          "sentence": "我每天都買一包口香醣。",
+          "pinyin": "wǒ měitiān dōu mǎi yī bāo kǒuxiāngtáng.",
+          "en": "I buy a pack of chewing gum every day.",
+          "vi": "Mỗi ngày tôi đều mua một gói kẹo cao su."
+        },
+        {
+          "type": "Noun",
+          "meaning": "chewing gum; bubble gum",
+          "sentence": "孩子們都愛吃/喫甜口香醣。",
+          "pinyin": "háizimen dōu ài chī tián kǒuxiāngtáng.",
+          "en": "Children love sweet chewing gum.",
+          "vi": "Trẻ em đều thích ăn kẹo cao su ngọt."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "chinese": "力道",
+      "pinyin": "lìdào",
+      "en": "strength, force",
+      "vi": "lực, độ mạnh",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "dialect",
+          "meaning": "strength; power",
+          "sentence": "力道大",
+          "pinyin": "lìdào dà",
+          "en": "Strong; powerful",
+          "vi": ""
+        },
+        {
+          "type": "dialect",
+          "meaning": "efficacy; effect",
+          "sentence": "有力道的措施。",
+          "pinyin": "yǒu lìdào de cuòshī",
+          "en": "Effective measures",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "chinese": "發自",
+      "pinyin": "fāzì",
+      "en": "originate from",
+      "vi": "xuất phát từ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to evolve from",
+          "sentence": "九成的女性荷爾濛散髮/發自頭部。",
+          "pinyin": "jiǔ chéng de nǚxìng hé'ěrméng sànfā zì tóubù.",
+          "en": "Ninety percent of a woman's pheromones come out of her head.",
+          "vi": "90% pheromone của phụ nữ thoát ra khỏi đầu."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "chinese": "企圖",
+      "pinyin": "qìtú",
+      "en": "ulterior motive",
+      "vi": "ý đồ, mưu đồ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "seek; attempt",
+          "sentence": "他們企圖改變結果。",
+          "pinyin": "tāmen qǐtú gǎibiàn jiéguǒ.",
+          "en": "They aim to change the result.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "seek; attempt",
+          "sentence": "他企圖欺騙大傢。",
+          "pinyin": "tā qǐtú qīpiàn dàjiā.",
+          "en": "He attempts to deceive everyone.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; attempt; intention",
+          "sentence": "他的企圖很明顯。",
+          "pinyin": "tā de qǐtú hěn míngxiǎn.",
+          "en": "His intention is obvious.",
+          "vi": "Ý đồ của anh ấy rất rõ ràng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; attempt; intention",
+          "sentence": "這個企圖不會成功。",
+          "pinyin": "zhège qǐtú bù huì chénggōng.",
+          "en": "This attempt will not succeed.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "chinese": "失效",
+      "pinyin": "shīxiào",
+      "en": "to become invalid, fail",
+      "vi": "mất hiệu lực, không còn tác dụng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "lose efficacy; lose effectiveness; cease to be effective",
+          "sentence": "這個證件已經失效了。",
+          "pinyin": "zhège zhèngjiàn yǐjīng shīxiàole.",
+          "en": "This document has expired.",
+          "vi": "Giấy tờ này đã không còn hiệu lực."
+        },
+        {
+          "type": "sv",
+          "meaning": "lose efficacy; lose effectiveness; cease to be effective",
+          "sentence": "她對我的控製失效了。",
+          "pinyin": "tā duì wǒ de kòngzhì shīxiàole.",
+          "en": "Her control over me has failed.",
+          "vi": "Cô ấy không thể kiểm soát tôi nữa."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "chinese": "下屬",
+      "pinyin": "xiàshǔ",
+      "en": "subordinate",
+      "vi": "cấp dưới",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "underling; subordinate",
+          "sentence": "下屬們都很尊敬他。",
+          "pinyin": "xiàshǔmen dōu hěn zūnjìng tā.",
+          "en": "His subordinates all respect him.",
+          "vi": "Các cấp dưới đều rất tôn trọng anh ấy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "underling; subordinate",
+          "sentence": "她經常錶揚下屬。",
+          "pinyin": "tā jīngcháng biǎoyáng xiàshǔ.",
+          "en": "She often praises her subordinates.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "chinese": "責任感",
+      "pinyin": "zérèngǎn",
+      "en": "sense of responsibility",
+      "vi": "tinh thần trách nhiệm",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sense of responsibility",
+          "sentence": "我對工作很有責任感。",
+          "pinyin": "wǒ duì gōngzuò hěn yǒu zérèngǎn.",
+          "en": "I am very responsible at work.",
+          "vi": "Tôi làm việc rất có trách nhiệm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sense of responsibility",
+          "sentence": "青年人要有社會責任感。",
+          "pinyin": "qīngnián rén yào yǒu shèhuì zérèngǎn.",
+          "en": "Young people should be socially responsible.",
+          "vi": "Thanh niên phải có trách nhiệm xã hội."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "chinese": "隨後",
+      "pinyin": "suíhòu",
+      "en": "subsequently",
+      "vi": "ngay sau đó",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "soon afterwards",
+          "sentence": "你們先吃/喫吧，我隨後就來。",
+          "pinyin": "nǐmen xiān chī ba, wǒ suíhòu jiù lái.",
+          "en": "You all eat first, I will come right after.",
+          "vi": "Các bạn ăn trước đi, tôi sẽ đến sau."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "soon afterwards",
+          "sentence": "你們先齣髮/發吧，我隨後跟上。",
+          "pinyin": "nǐmen xiān chūfā ba, wǒ suíhòu gēn shàng.",
+          "en": "You all go ahead and leave, I will catch up shortly.",
+          "vi": "Các bạn xuất phát trước, tôi sẽ theo sau."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "chinese": "拜託",
+      "pinyin": "bàituō",
+      "en": "please, I beg you",
+      "vi": "làm ơn, xin nhờ",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "request sb. to do sth.",
+          "sentence": "有一封信，拜託您帶給他。",
+          "pinyin": "yǒu yī fēng xìn, bàituō nín dài gěi tā.",
+          "en": "There’s a letter here. Please give it to him.",
+          "vi": "Có một bức thư, xin nhờ bác đưa giúp đến anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "request sb. to do sth.",
+          "sentence": "拜託，讓我安靜一會兒。",
+          "pinyin": "bàituō, ràng wǒ ānjìng yī huìr.",
+          "en": "Please let me have some peace and quiet.",
+          "vi": "Làm ơn, để tôi yên một lát."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "chinese": "別有居心",
+      "pinyin": "biéyǒu jūxīn",
+      "en": "to have an ulterior motive",
+      "vi": "có ý đồ riêng",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "have a mind to; set one's mind on",
+          "sentence": "我有心去看看他, 又怕打擾他。",
+          "pinyin": "Wǒ yǒuxīn qù kànkan tā, yòu pà dǎrǎo tā.",
+          "en": "I’d like to go and see him, but I don’t want to disturb him.",
+          "vi": ""
+        },
+        {
+          "type": "adverb",
+          "meaning": "intentionally; purposely; on purpose; by design",
+          "sentence": "他是有心説給你聽的。",
+          "pinyin": "Tā shì yǒuxīn shuō gěi nǐ tīng de.",
+          "en": "What he said was intended for you.",
+          "vi": ""
+        },
+        {
+          "type": "adverb",
+          "meaning": "have the intention of; intend to",
+          "sentence": "有心人",
+          "pinyin": "yǒu xīn rén",
+          "en": "One who sets his mind on doing sth. useful",
+          "vi": "Người có ý chí; người có quyết tâm."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "chinese": "適得其反",
+      "pinyin": "shìdé qífǎn",
+      "en": "be counterproductive",
+      "vi": "phản tác dụng",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "to have the opposite effect; to backfire",
+          "sentence": "這種態度會適得其反。",
+          "pinyin": "zhè zhǒng tàidù huì shìdéqífǎn.",
+          "en": "This attitude will backfire.",
+          "vi": "Thái độ này sẽ phản tác dụng thôi."
+        },
+        {
+          "type": "idioms",
+          "meaning": "to have the opposite effect; to backfire",
+          "sentence": "拔苗助長的結果是適得其反。",
+          "pinyin": "bámiáozhùzhǎng de jiéguǒ shì shìdéqífǎn.",
+          "en": "The result of forcing things is the opposite of what was intended.",
+          "vi": "Kết quả của nóng vội mang lại kết quả ngược lại."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "chinese": "小看",
+      "pinyin": "xiǎokàn",
+      "en": "to underestimate",
+      "vi": "xem thường, coi nhẹ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "look down upon; belittle; distain; slight",
+          "sentence": "你韆萬別小看對手。",
+          "pinyin": "nǐ qiān wàn bié xiǎo kàn duìshǒu.",
+          "en": "Never underestimate your opponent.",
+          "vi": "Cậu đừng có mà xem thường đối thủ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "look down upon; belittle; distain; slight",
+          "sentence": "他小看別人的能力。",
+          "pinyin": "tā xiǎo kàn biérén de nénglì.",
+          "en": "He looked down on other people's abilities.",
+          "vi": "Hắn xem thường khả năng của người khác."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "chinese": "威力",
+      "pinyin": "wēilì",
+      "en": "power, force",
+      "vi": "uy lực, sức mạnh",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "power; might; force",
+          "sentence": "法律的威力讓人信服。",
+          "pinyin": "fǎlǜ de wēilì ràng rén xìnfú.",
+          "en": "The power of the law makes people believe in it.",
+          "vi": "Uy lực của pháp luật làm mọi người tin tưởng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "power; might; force",
+          "sentence": "武器的威力很強大。",
+          "pinyin": "wǔqì de wēilì hěn qiángdà.",
+          "en": "The power of the weapon is very strong.",
+          "vi": "Uy lực của vũ khí rất mạnh."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "chinese": "予",
+      "pinyin": "yǔ",
+      "en": "to give, bestow",
+      "vi": "ban cho, dành cho",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "pronoun",
+          "meaning": "I; me",
+          "sentence": "諸君可靜待予之捷報。",
+          "pinyin": "zhū jūn kě jìng dài yú zhī jiébào.",
+          "en": "Please wait patiently for news of my victory.",
+          "vi": "Chư vị hãy yên lòng chờ đợi tin thắng trận của ta."
+        },
+        {
+          "type": "pronoun",
+          "meaning": "I; me",
+          "sentence": "此重任，非予莫屬也。",
+          "pinyin": "cǐ zhòngrèn, fēi yú mò shǔ yě.",
+          "en": "This responsibility, no one but me can take on.",
+          "vi": "Trọng trách này, không ai ngoài ta có thể đảm đương."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "chinese": "深刻",
+      "pinyin": "shēnkè",
+      "en": "deep, profound",
+      "vi": "sâu sắc",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "depth; deep; profound; deep-going",
+          "sentence": "這個問題很深刻。",
+          "pinyin": "zhège wèntí hěn shēnkè.",
+          "en": "This issue is very profound.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "depth; deep; profound; deep-going",
+          "sentence": "我有深刻的印象。",
+          "pinyin": "wǒ yǒu shēnkè de yìnxiàng.",
+          "en": "I have a deep impression.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "chinese": "互動",
+      "pinyin": "hùdòng",
+      "en": "to interact",
+      "vi": "tương tác",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to interact",
+          "sentence": "他們學習如何與衕齡人互動。",
+          "pinyin": "tāmen xuéxí rúhé yǔ tónglíng rén hùdòng.",
+          "en": "They learn how to interact with their peers.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to interact",
+          "sentence": "父母應該和孩子多互動。",
+          "pinyin": "fùmǔ yīnggāi hé háizi duō hùdòng.",
+          "en": "Parents should interact with their children more.",
+          "vi": "Cha mẹ nên tương tác nhiều hơn với con cái."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "chinese": "定下",
+      "pinyin": "dìngxià",
+      "en": "to set, establish",
+      "vi": "đặt ra, quyết định",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "below",
+          "sentence": "上有父母，下有兒女。",
+          "pinyin": "shàng yǒu fùmǔ, xià yǒu érnǚ.",
+          "en": "Above are parents, below are children.",
+          "vi": "Trên có cha mẹ, dưới có con cái."
+        },
+        {
+          "type": "Noun",
+          "meaning": "below",
+          "sentence": "上有老闆，下有員工。",
+          "pinyin": "shàng yǒu lǎobǎn, xià yǒu yuángōng.",
+          "en": "Above is the boss, below are employees.",
+          "vi": "Trên có sếp, dưới có nhân viên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "alight; descend; get off",
+          "sentence": "他剛剛下床/牀走來走去。",
+          "pinyin": "tā gānggāng xià chuáng zǒu lái zǒu qù.",
+          "en": "He just got out of bed and walked around.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "alight; descend; get off",
+          "sentence": "我們準備下山迴傢去了。",
+          "pinyin": "wǒmen zhǔnbèi xiàshān huí jiā qùle.",
+          "en": "We are ready to go down the mountain and head home.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "number of times for actions",
+          "sentence": "我試了一下這個遊戲。",
+          "pinyin": "wǒ shìle yīxià zhège yóuxì.",
+          "en": "I tried this game for a bit.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "number of times for actions",
+          "sentence": "她敲了兩下門。",
+          "pinyin": "tā qiāole liǎng xià mén.",
+          "en": "She knocked on the door twice.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "chinese": "贏得",
+      "pinyin": "yíngdé",
+      "en": "to win over, gain",
+      "vi": "giành được",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "win; gain",
+          "sentence": "他贏得了比賽的冠軍。",
+          "pinyin": "tā yíngdéle bǐsài de guànjūn.",
+          "en": "He won the championship of the competition.",
+          "vi": "Anh ấy đã giành chiến thắng cuộc thi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "win; gain",
+          "sentence": "她贏得了大傢的支持。",
+          "pinyin": "tā yíngdéle dàjiā de zhīchí.",
+          "en": "She won everyone's support.",
+          "vi": "Cô ấy giành được sự ủng hộ của mọi người."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "chinese": "藉著",
+      "pinyin": "jièzhe",
+      "en": "by means of",
+      "vi": "nhờ vào, thông qua",
+      "theme": "General",
+      "samples": []
+    },
+    {
+      "id": 73,
+      "chinese": "驅動力",
+      "pinyin": "qūdònglì",
+      "en": "driving force",
+      "vi": "động lực thúc đẩy",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "driving force",
+          "sentence": "興趣是最強的驅動力。",
+          "pinyin": "xìngqù shì zuì qiáng de qūdònglì.",
+          "en": "Interest is the strongest driving force.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "chinese": "機緣",
+      "pinyin": "jīyuán",
+      "en": "fateful opportunity",
+      "vi": "cơ duyên",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "good luck; lucky chance",
+          "sentence": "機緣湊巧",
+          "pinyin": "jīyuán còuqiǎo",
+          "en": "As luck would have it; by chance; by a lucky coincidence",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "chinese": "飯店",
+      "pinyin": "fàndiàn",
+      "en": "hotel",
+      "vi": "khách sạn",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "restaurant",
+          "sentence": "你喜歡這傢飯店嗎？",
+          "pinyin": "nǐ xǐhuān zhè jiā fàndiàn ma?",
+          "en": "Do you like this restaurant?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "restaurant",
+          "sentence": "這傢飯店很值得光顧。",
+          "pinyin": "zhè jiā fàndiàn hěn zhídé guānggù.",
+          "en": "This restaurant is well worth a visit.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "chinese": "名片",
+      "pinyin": "míngpiàn",
+      "en": "business card",
+      "vi": "danh thiếp",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "business card; visiting card; calling card",
+          "sentence": "請給我你的名片。",
+          "pinyin": "qǐng gěi wǒ nǐ de míngpiàn.",
+          "en": "Please give me your business card.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "business card; visiting card; calling card",
+          "sentence": "他遞給我一張名片。",
+          "pinyin": "tā dì gěi wǒ yī zhāng míngpiàn.",
+          "en": "He handed me a business card.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "chinese": "跳槽",
+      "pinyin": "tiàocáo",
+      "en": "to change jobs",
+      "vi": "nhảy việc",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "change one's job; abandon one occupation in favour of another; jobhopping; job-hop",
+          "sentence": "我還沒打算跳槽呢。",
+          "pinyin": "wǒ hái méi dǎsuàn tiàocáo ne.",
+          "en": "I haven’t planned to change jobs yet.",
+          "vi": "Tớ còn chưa có ý định nhảy việc nữa."
+        },
+        {
+          "type": "verb",
+          "meaning": "change one's job; abandon one occupation in favour of another; jobhopping; job-hop",
+          "sentence": "為了昇職，他選擇跳槽。",
+          "pinyin": "wèile shēng zhí, tā xuǎnzé tiàocáo.",
+          "en": "He chose to switch jobs in order to get a promotion.",
+          "vi": "Để thăng tiến, anh ấy đã chọn nhảy việc."
+        }
+      ]
+    }
+  ]
 }

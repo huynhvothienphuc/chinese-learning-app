@@ -3,94 +3,2659 @@
   "sectionId": "section6",
   "sectionTitle": "Shaking Heavens and Trembling Earth | 天搖地動",
   "items": [
-    { "id": 1, "chinese": "地震", "pinyin": "dìzhèn", "english": "earthquake", "vietnamese": "động đất", "sentenceChinese": "台灣發生地震時，大家都會很緊張。", "sentencePinyin": "Táiwān fāshēng dìzhèn shí, dàjiā dōu huì hěn jǐnzhāng.", "sentenceEnglish": "When an earthquake happens in Taiwan, everyone gets nervous.", "sentenceVietnamese": "Khi Đài Loan xảy ra động đất, mọi người đều rất căng thẳng.", "theme": "Nature" },
-    { "id": 2, "chinese": "搖", "pinyin": "yáo", "english": "to rock, shake", "vietnamese": "rung lắc, dao động", "sentenceChinese": "剛才整棟大樓都在搖。", "sentencePinyin": "Gāngcái zhěng dòng dàlóu dōu zài yáo.", "sentenceEnglish": "The whole building was shaking just now.", "sentenceVietnamese": "Vừa rồi cả tòa nhà đều rung lắc.", "theme": "General" },
-    { "id": 3, "chinese": "厲害", "pinyin": "lìhài", "english": "serious, severe", "vietnamese": "dữ dội, nghiêm trọng", "sentenceChinese": "這次地震很厲害，很多人都跑到外面去了。", "sentencePinyin": "Zhè cì dìzhèn hěn lìhài, hěn duō rén dōu pǎo dào wàimiàn qù le.", "sentenceEnglish": "This earthquake was severe, so many people ran outside.", "sentenceVietnamese": "Trận động đất lần này rất dữ dội nên nhiều người đã chạy ra ngoài.", "theme": "General" },
-    { "id": 4, "chinese": "經常", "pinyin": "jīngcháng", "english": "frequently", "vietnamese": "thường xuyên", "sentenceChinese": "這個地區經常發生小地震。", "sentencePinyin": "Zhège dìqū jīngcháng fāshēng xiǎo dìzhèn.", "sentenceEnglish": "Small earthquakes happen frequently in this area.", "sentenceVietnamese": "Khu vực này thường xuyên xảy ra những trận động đất nhỏ.", "theme": "Time" },
-    { "id": 5, "chinese": "倒", "pinyin": "dǎo", "english": "to collapse", "vietnamese": "đổ, sập", "sentenceChinese": "桌上的花瓶差一點就倒了。", "sentencePinyin": "Zhuō shàng de huāpíng chà yìdiǎn jiù dǎo le.", "sentenceEnglish": "The vase on the table almost fell over.", "sentenceVietnamese": "Chiếc bình hoa trên bàn suýt nữa thì đổ.", "theme": "General" },
-    { "id": 6, "chinese": "橋", "pinyin": "qiáo", "english": "bridge", "vietnamese": "cây cầu", "sentenceChinese": "那座橋在地震後暫時封閉了。", "sentencePinyin": "Nà zuò qiáo zài dìzhèn hòu zànshí fēngbì le.", "sentenceEnglish": "That bridge was temporarily closed after the earthquake.", "sentenceVietnamese": "Cây cầu đó đã tạm thời bị phong tỏa sau trận động đất.", "theme": "General" },
-    { "id": 7, "chinese": "斷", "pinyin": "duàn", "english": "to break, snap", "vietnamese": "đứt, gãy", "sentenceChinese": "地震後有些道路都斷了。", "sentencePinyin": "Dìzhèn hòu yǒuxiē dàolù dōu duàn le.", "sentenceEnglish": "After the earthquake, some roads were cut off.", "sentenceVietnamese": "Sau trận động đất, có những con đường đã bị đứt đoạn.", "theme": "General" },
-    { "id": 8, "chinese": "多", "pinyin": "duó", "english": "so, how", "vietnamese": "biết bao, dường nào", "sentenceChinese": "地震來的時候，我多害怕啊！", "sentencePinyin": "Dìzhèn lái de shíhou, wǒ duó hàipà a!", "sentenceEnglish": "I was so scared when the earthquake hit!", "sentenceVietnamese": "Lúc động đất xảy ra, tôi sợ biết bao!", "theme": "Grammar" },
-    { "id": 9, "chinese": "地區", "pinyin": "dìqū", "english": "region", "vietnamese": "khu vực", "sentenceChinese": "這個地區位於地震帶上。", "sentencePinyin": "Zhège dìqū wèiyú dìzhèndài shàng.", "sentenceEnglish": "This region lies on a seismic zone.", "sentenceVietnamese": "Khu vực này nằm trên vành đai động đất.", "theme": "Geography" },
-    { "id": 10, "chinese": "強烈", "pinyin": "qiángliè", "english": "strong, intense", "vietnamese": "mạnh mẽ, mãnh liệt", "sentenceChinese": "大家都感受到強烈的搖晃。", "sentencePinyin": "Dàjiā dōu gǎnshòu dào qiángliè de yáohuàng.", "sentenceEnglish": "Everyone felt the intense shaking.", "sentenceVietnamese": "Mọi người đều cảm nhận được sự rung lắc rất mạnh.", "theme": "General" },
-    { "id": 11, "chinese": "頻率", "pinyin": "pínlǜ", "english": "frequency", "vietnamese": "tần suất", "sentenceChinese": "最近餘震的頻率有點高。", "sentencePinyin": "Zuìjìn yúzhèn de pínlǜ yǒudiǎn gāo.", "sentenceEnglish": "The frequency of aftershocks has been a bit high recently.", "sentenceVietnamese": "Gần đây tần suất dư chấn hơi cao.", "theme": "General" },
-    { "id": 12, "chinese": "預測", "pinyin": "yùcè", "english": "to predict", "vietnamese": "dự đoán", "sentenceChinese": "目前還沒有人能準確預測地震。", "sentencePinyin": "Mùqián hái méi yǒu rén néng zhǔnquè yùcè dìzhèn.", "sentenceEnglish": "At present, no one can accurately predict earthquakes.", "sentenceVietnamese": "Hiện nay vẫn chưa ai có thể dự đoán động đất một cách chính xác.", "theme": "General" },
-    { "id": 13, "chinese": "徵兆", "pinyin": "zhēngzhào", "english": "sign, omen", "vietnamese": "dấu hiệu, điềm báo", "sentenceChinese": "有人說動物異常行為可能是地震徵兆。", "sentencePinyin": "Yǒurén shuō dòngwù yìcháng xíngwéi kěnéng shì dìzhèn zhēngzhào.", "sentenceEnglish": "Some people say unusual animal behavior may be a sign of an earthquake.", "sentenceVietnamese": "Có người nói hành vi bất thường của động vật có thể là dấu hiệu của động đất.", "theme": "General" },
-    { "id": 14, "chinese": "鳥類", "pinyin": "niǎolèi", "english": "birds", "vietnamese": "loài chim", "sentenceChinese": "地震前有些鳥類會突然飛走。", "sentencePinyin": "Dìzhèn qián yǒuxiē niǎolèi huì tūrán fēi zǒu.", "sentenceEnglish": "Before an earthquake, some birds suddenly fly away.", "sentenceVietnamese": "Trước động đất, có một số loài chim sẽ đột ngột bay đi.", "theme": "Nature" },
-    { "id": 15, "chinese": "雞", "pinyin": "jī", "english": "chicken", "vietnamese": "con gà", "sentenceChinese": "那天早上雞一直叫個不停。", "sentencePinyin": "Nà tiān zǎoshang jī yìzhí jiào ge bù tíng.", "sentenceEnglish": "That morning, the chickens kept making noise.", "sentenceVietnamese": "Sáng hôm đó đàn gà cứ kêu mãi không ngừng.", "theme": "Nature" },
-    { "id": 16, "chinese": "預先", "pinyin": "yùxiān", "english": "in advance", "vietnamese": "trước, заранее", "sentenceChinese": "我們應該預先準備好救生包。", "sentencePinyin": "Wǒmen yīnggāi yùxiān zhǔnbèi hǎo jiùshēngbāo.", "sentenceEnglish": "We should prepare an emergency kit in advance.", "sentenceVietnamese": "Chúng ta nên chuẩn bị sẵn túi cứu sinh từ trước.", "theme": "Time" },
-    { "id": 17, "chinese": "老鼠", "pinyin": "lǎoshǔ", "english": "rat", "vietnamese": "con chuột", "sentenceChinese": "有人注意到地震前老鼠會亂跑。", "sentencePinyin": "Yǒurén zhùyì dào dìzhèn qián lǎoshǔ huì luànpǎo.", "sentenceEnglish": "Some people noticed that rats run around before an earthquake.", "sentenceVietnamese": "Có người để ý rằng trước động đất chuột sẽ chạy loạn.", "theme": "Nature" },
-    { "id": 18, "chinese": "貓", "pinyin": "māo", "english": "cat", "vietnamese": "con mèo", "sentenceChinese": "我家的貓地震前一直很不安。", "sentencePinyin": "Wǒ jiā de māo dìzhèn qián yìzhí hěn bù'ān.", "sentenceEnglish": "My cat was very uneasy before the earthquake.", "sentenceVietnamese": "Con mèo nhà tôi trước động đất cứ rất bất an.", "theme": "Nature" },
-    { "id": 19, "chinese": "馬", "pinyin": "mǎ", "english": "horse", "vietnamese": "con ngựa", "sentenceChinese": "有些人認為馬也能感覺到地震。", "sentencePinyin": "Yǒuxiē rén rènwéi mǎ yě néng gǎnjué dào dìzhèn.", "sentenceEnglish": "Some people believe horses can also sense earthquakes.", "sentenceVietnamese": "Có người cho rằng ngựa cũng có thể cảm nhận được động đất.", "theme": "Nature" },
-    { "id": 20, "chinese": "證實", "pinyin": "zhèngshí", "english": "to verify", "vietnamese": "chứng thực, xác nhận", "sentenceChinese": "這種說法還沒有被科學證實。", "sentencePinyin": "Zhè zhǒng shuōfǎ hái méiyǒu bèi kēxué zhèngshí.", "sentenceEnglish": "This claim has not yet been scientifically verified.", "sentenceVietnamese": "Cách nói này vẫn chưa được khoa học chứng thực.", "theme": "General" },
-    { "id": 21, "chinese": "應變", "pinyin": "yìngbiàn", "english": "to respond to emergencies", "vietnamese": "ứng biến", "sentenceChinese": "學校每學期都會教學生如何應變。", "sentencePinyin": "Xuéxiào měi xuéqí dōu huì jiāo xuéshēng rúhé yìngbiàn.", "sentenceEnglish": "Every semester, the school teaches students how to respond in emergencies.", "sentenceVietnamese": "Mỗi học kỳ nhà trường đều dạy học sinh cách ứng biến khi có tình huống khẩn cấp.", "theme": "General" },
-    { "id": 22, "chinese": "隨手", "pinyin": "suíshǒu", "english": "within easy reach", "vietnamese": "tiện tay", "sentenceChinese": "重要的東西最好放在隨手拿得到的地方。", "sentencePinyin": "Zhòngyào de dōngxi zuìhǎo fàng zài suíshǒu ná de dào de dìfang.", "sentenceEnglish": "Important things should be kept within easy reach.", "sentenceVietnamese": "Những thứ quan trọng tốt nhất nên để ở nơi tiện tay lấy được.", "theme": "General" },
-    { "id": 23, "chinese": "白", "pinyin": "bái", "english": "in vain", "vietnamese": "uổng công", "sentenceChinese": "平常不準備，到時候後悔也白費。", "sentencePinyin": "Píngcháng bù zhǔnbèi, dào shíhou hòuhuǐ yě báifèi.", "sentenceEnglish": "If you don't prepare in advance, regretting it later is useless.", "sentenceVietnamese": "Bình thường không chuẩn bị thì đến lúc hối hận cũng uổng công.", "theme": "Grammar" },
-    { "id": 24, "chinese": "嫌", "pinyin": "xián", "english": "to complain about", "vietnamese": "chê, than phiền", "sentenceChinese": "不要嫌麻煩，先把必要的東西準備好。", "sentencePinyin": "Búyào xián máfan, xiān bǎ bìyào de dōngxi zhǔnbèi hǎo.", "sentenceEnglish": "Don't complain that it's troublesome; prepare the necessary things first.", "sentenceVietnamese": "Đừng chê phiền, cứ chuẩn bị sẵn những thứ cần thiết trước đi.", "theme": "Emotions" },
-    { "id": 25, "chinese": "事前", "pinyin": "shìqián", "english": "beforehand", "vietnamese": "trước đó", "sentenceChinese": "事前多練習，遇到地震就不會那麼慌。", "sentencePinyin": "Shìqián duō liànxí, yùdào dìzhèn jiù bú huì nàme huāng.", "sentenceEnglish": "If you practice beforehand, you won't panic as much during an earthquake.", "sentenceVietnamese": "Luyện tập trước thì khi gặp động đất sẽ không hoảng đến thế.", "theme": "Time" },
-    { "id": 26, "chinese": "總是", "pinyin": "zǒngshì", "english": "always", "vietnamese": "luôn luôn", "sentenceChinese": "他總是把手電筒放在床邊。", "sentencePinyin": "Tā zǒngshì bǎ shǒudiàntǒng fàng zài chuángbiān.", "sentenceEnglish": "He always keeps a flashlight by the bed.", "sentenceVietnamese": "Anh ấy luôn để đèn pin ở cạnh giường.", "theme": "Time" },
-    { "id": 27, "chinese": "西歐", "pinyin": "Xī Ōu", "english": "Western Europe", "vietnamese": "Tây Âu", "sentenceChinese": "西歐有些國家很少發生大地震。", "sentencePinyin": "Xī Ōu yǒuxiē guójiā hěn shǎo fāshēng dà dìzhèn.", "sentenceEnglish": "Some countries in Western Europe rarely experience major earthquakes.", "sentenceVietnamese": "Một số quốc gia ở Tây Âu hiếm khi xảy ra động đất lớn.", "theme": "Proper Noun" },
-    { "id": 28, "chinese": "北歐", "pinyin": "Běi Ōu", "english": "Northern Europe", "vietnamese": "Bắc Âu", "sentenceChinese": "北歐和台灣的自然環境很不一樣。", "sentencePinyin": "Běi Ōu hé Táiwān de zìrán huánjìng hěn bù yíyàng.", "sentenceEnglish": "Northern Europe and Taiwan have very different natural environments.", "sentenceVietnamese": "Môi trường tự nhiên của Bắc Âu và Đài Loan rất khác nhau.", "theme": "Proper Noun" },
-    { "id": 29, "chinese": "中歐", "pinyin": "Zhōng Ōu", "english": "Central Europe", "vietnamese": "Trung Âu", "sentenceChinese": "他去年去過中歐旅行。", "sentencePinyin": "Tā qùnián qù guò Zhōng Ōu lǚxíng.", "sentenceEnglish": "He traveled to Central Europe last year.", "sentenceVietnamese": "Năm ngoái anh ấy đã đi du lịch Trung Âu.", "theme": "Proper Noun" },
-    { "id": 30, "chinese": "澳洲", "pinyin": "Àozhōu", "english": "Australia", "vietnamese": "Úc", "sentenceChinese": "我表哥現在住在澳洲。", "sentencePinyin": "Wǒ biǎogē xiànzài zhù zài Àozhōu.", "sentenceEnglish": "My cousin lives in Australia now.", "sentenceVietnamese": "Anh họ tôi hiện đang sống ở Úc.", "theme": "Proper Noun" },
-    { "id": 31, "chinese": "南美洲", "pinyin": "Nán Měizhōu", "english": "South America", "vietnamese": "Nam Mỹ", "sentenceChinese": "南美洲有些地方也是地震頻繁的地區。", "sentencePinyin": "Nán Měizhōu yǒuxiē dìfang yě shì dìzhèn pínfán de dìqū.", "sentenceEnglish": "Some places in South America are also areas with frequent earthquakes.", "sentenceVietnamese": "Một số nơi ở Nam Mỹ cũng là khu vực thường xuyên có động đất.", "theme": "Proper Noun" },
-    { "id": 32, "chinese": "地球科學", "pinyin": "dìqiú kēxué", "english": "earth science", "vietnamese": "khoa học trái đất", "sentenceChinese": "他在大學主修地球科學。", "sentencePinyin": "Tā zài dàxué zhǔxiū dìqiú kēxué.", "sentenceEnglish": "He majored in earth science in college.", "sentenceVietnamese": "Anh ấy học chuyên ngành khoa học trái đất ở đại học.", "theme": "Education" },
-    { "id": 33, "chinese": "菲律賓", "pinyin": "Fēilǜbīn", "english": "the Philippines", "vietnamese": "Philippines", "sentenceChinese": "菲律賓也常受到颱風和地震的影響。", "sentencePinyin": "Fēilǜbīn yě cháng shòudào táifēng hé dìzhèn de yǐngxiǎng.", "sentenceEnglish": "The Philippines is also often affected by typhoons and earthquakes.", "sentenceVietnamese": "Philippines cũng thường xuyên chịu ảnh hưởng của bão và động đất.", "theme": "Proper Noun" },
-    { "id": 34, "chinese": "天搖地動", "pinyin": "tiānyáo dìdòng", "english": "earth-shaking", "vietnamese": "trời rung đất chuyển", "sentenceChinese": "那一瞬間真的讓人覺得天搖地動。", "sentencePinyin": "Nà yí shùnjiān zhēn de ràng rén juéde tiānyáo dìdòng.", "sentenceEnglish": "At that moment, it truly felt like the heavens and earth were shaking.", "sentenceVietnamese": "Khoảnh khắc đó thật sự khiến người ta cảm thấy như trời rung đất chuyển.", "theme": "Idiom" },
-    { "id": 35, "chinese": "壓死", "pinyin": "yāsǐ", "english": "crushed to death", "vietnamese": "đè chết", "sentenceChinese": "新聞提醒大家要小心掉落物，不要被壓死。", "sentencePinyin": "Xīnwén tíxǐng dàjiā yào xiǎoxīn diàoluòwù, búyào bèi yāsǐ.", "sentenceEnglish": "The news reminded everyone to beware of falling objects so they won't be crushed.", "sentenceVietnamese": "Bản tin nhắc mọi người phải cẩn thận vật rơi, đừng để bị đè trúng.", "theme": "General" },
-    { "id": 36, "chinese": "災情慘重", "pinyin": "zāiqíng cǎnzhòng", "english": "the disaster situation is severe", "vietnamese": "tình hình thiên tai rất nghiêm trọng", "sentenceChinese": "這次地震後，災情慘重。", "sentencePinyin": "Zhè cì dìzhèn hòu, zāiqíng cǎnzhòng.", "sentenceEnglish": "After this earthquake, the disaster situation was severe.", "sentenceVietnamese": "Sau trận động đất lần này, tình hình thiệt hại rất nghiêm trọng.", "theme": "General" },
-    { "id": 37, "chinese": "東半部", "pinyin": "dōngbànbù", "english": "the eastern half", "vietnamese": "nửa phía đông", "sentenceChinese": "台灣東半部地震比較多。", "sentencePinyin": "Táiwān dōngbànbù dìzhèn bǐjiào duō.", "sentenceEnglish": "Earthquakes are more common in the eastern half of Taiwan.", "sentenceVietnamese": "Nửa phía đông của Đài Loan có nhiều động đất hơn.", "theme": "Geography" },
-    { "id": 38, "chinese": "地震帶", "pinyin": "dìzhèndài", "english": "seismic zone", "vietnamese": "vành đai động đất", "sentenceChinese": "台灣位於地震帶上，所以要特別小心。", "sentencePinyin": "Táiwān wèiyú dìzhèndài shàng, suǒyǐ yào tèbié xiǎoxīn.", "sentenceEnglish": "Taiwan lies on a seismic zone, so extra caution is needed.", "sentenceVietnamese": "Đài Loan nằm trên vành đai động đất nên phải đặc biệt cẩn thận.", "theme": "Geography" },
-    { "id": 39, "chinese": "救生包", "pinyin": "jiùshēngbāo", "english": "survival kit", "vietnamese": "túi cứu sinh", "sentenceChinese": "家裡最好準備一個救生包。", "sentencePinyin": "Jiālǐ zuìhǎo zhǔnbèi yí ge jiùshēngbāo.", "sentenceEnglish": "It's best to prepare a survival kit at home.", "sentenceVietnamese": "Trong nhà tốt nhất nên chuẩn bị một túi cứu sinh.", "theme": "General" },
-    { "id": 40, "chinese": "有備無患", "pinyin": "yǒubèi wúhuàn", "english": "be prepared, and you won't have to worry", "vietnamese": "có chuẩn bị thì khỏi lo", "sentenceChinese": "平常先準備好，有備無患。", "sentencePinyin": "Píngcháng xiān zhǔnbèi hǎo, yǒubèi wúhuàn.", "sentenceEnglish": "Be prepared in advance, and you won't have to worry.", "sentenceVietnamese": "Chuẩn bị sẵn từ bình thường thì có chuẩn bị sẽ không lo.", "theme": "Idiom" },
-    { "id": 41, "chinese": "如何", "pinyin": "rúhé", "english": "how", "vietnamese": "làm sao, như thế nào", "sentenceChinese": "老師教我們如何在地震時保護自己。", "sentencePinyin": "Lǎoshī jiāo wǒmen rúhé zài dìzhèn shí bǎohù zìjǐ.", "sentenceEnglish": "The teacher taught us how to protect ourselves during an earthquake.", "sentenceVietnamese": "Giáo viên dạy chúng tôi cách tự bảo vệ mình khi động đất xảy ra.", "theme": "Grammar" },
-    { "id": 42, "chinese": "逃生", "pinyin": "táoshēng", "english": "to escape with one's life", "vietnamese": "thoát nạn", "sentenceChinese": "大家要先想好逃生路線。", "sentencePinyin": "Dàjiā yào xiān xiǎng hǎo táoshēng lùxiàn.", "sentenceEnglish": "Everyone should think through an escape route in advance.", "sentenceVietnamese": "Mọi người nên nghĩ sẵn đường thoát nạn trước.", "theme": "General" },
-    { "id": 43, "chinese": "發達", "pinyin": "fādá", "english": "developed", "vietnamese": "phát triển", "sentenceChinese": "科技發達也不能完全避免天災。", "sentencePinyin": "Kējì fādá yě bùnéng wánquán bìmiǎn tiānzāi.", "sentenceEnglish": "Even with advanced technology, natural disasters cannot be completely avoided.", "sentenceVietnamese": "Dù công nghệ phát triển đến đâu cũng không thể hoàn toàn tránh được thiên tai.", "theme": "General" },
-    { "id": 44, "chinese": "天災", "pinyin": "tiānzāi", "english": "natural disaster", "vietnamese": "thiên tai", "sentenceChinese": "地震、颱風都是常見的天災。", "sentencePinyin": "Dìzhèn, táifēng dōu shì chángjiàn de tiānzāi.", "sentenceEnglish": "Earthquakes and typhoons are common natural disasters.", "sentenceVietnamese": "Động đất và bão đều là những thiên tai thường gặp.", "theme": "Nature" },
-    { "id": 45, "chinese": "災害", "pinyin": "zāihài", "english": "disaster", "vietnamese": "tai họa, thiên tai", "sentenceChinese": "這場災害讓很多家庭失去家園。", "sentencePinyin": "Zhè chǎng zāihài ràng hěn duō jiātíng shīqù jiāyuán.", "sentenceEnglish": "This disaster caused many families to lose their homes.", "sentenceVietnamese": "Thảm họa này khiến nhiều gia đình mất đi mái nhà của mình.", "theme": "Nature" },
-    { "id": 46, "chinese": "程度", "pinyin": "chéngdù", "english": "degree, level", "vietnamese": "mức độ", "sentenceChinese": "每個地區受災的程度都不一樣。", "sentencePinyin": "Měi ge dìqū shòuzāi de chéngdù dōu bù yíyàng.", "sentenceEnglish": "The degree of damage differs from region to region.", "sentenceVietnamese": "Mức độ thiệt hại ở mỗi khu vực đều khác nhau.", "theme": "General" },
-    { "id": 47, "chinese": "首先", "pinyin": "shǒuxiān", "english": "first of all", "vietnamese": "trước hết", "sentenceChinese": "首先，不要慌張。", "sentencePinyin": "Shǒuxiān, búyào huāngzhāng.", "sentenceEnglish": "First of all, don't panic.", "sentenceVietnamese": "Trước hết, đừng hoảng loạn.", "theme": "Grammar" },
-    { "id": 48, "chinese": "其次", "pinyin": "qícì", "english": "second, next", "vietnamese": "tiếp theo", "sentenceChinese": "其次，找一個安全的地方躲好。", "sentencePinyin": "Qícì, zhǎo yí ge ānquán de dìfang duǒ hǎo.", "sentenceEnglish": "Next, find a safe place to hide.", "sentenceVietnamese": "Tiếp theo, hãy tìm một nơi an toàn để trú.", "theme": "Grammar" },
-    { "id": 49, "chinese": "災難", "pinyin": "zāinàn", "english": "disaster", "vietnamese": "thảm họa", "sentenceChinese": "沒有人希望災難發生在自己身邊。", "sentencePinyin": "Méi yǒu rén xīwàng zāinàn fāshēng zài zìjǐ shēnbiān.", "sentenceEnglish": "No one wants disaster to happen near them.", "sentenceVietnamese": "Không ai mong thảm họa xảy ra bên cạnh mình.", "theme": "General" },
-    { "id": 50, "chinese": "緊急", "pinyin": "jǐnjí", "english": "urgent, emergency", "vietnamese": "khẩn cấp", "sentenceChinese": "遇到緊急狀況時要先保護自己。", "sentencePinyin": "Yùdào jǐnjí zhuàngkuàng shí yào xiān bǎohù zìjǐ.", "sentenceEnglish": "When facing an emergency, protect yourself first.", "sentenceVietnamese": "Khi gặp tình huống khẩn cấp thì trước hết phải bảo vệ bản thân.", "theme": "General" },
-    { "id": 51, "chinese": "必需品", "pinyin": "bìxūpǐn", "english": "necessities", "vietnamese": "nhu yếu phẩm", "sentenceChinese": "救生包裡要放一些必需品。", "sentencePinyin": "Jiùshēngbāo lǐ yào fàng yìxiē bìxūpǐn.", "sentenceEnglish": "Some necessities should be put in the emergency kit.", "sentenceVietnamese": "Trong túi cứu sinh nên để một số nhu yếu phẩm.", "theme": "General" },
-    { "id": 52, "chinese": "譬如", "pinyin": "pìrú", "english": "for example", "vietnamese": "ví dụ như", "sentenceChinese": "譬如水、餅乾和手電筒都很重要。", "sentencePinyin": "Pìrú shuǐ, bǐnggān hé shǒudiàntǒng dōu hěn zhòngyào.", "sentenceEnglish": "For example, water, crackers, and a flashlight are all important.", "sentenceVietnamese": "Ví dụ như nước, bánh quy và đèn pin đều rất quan trọng.", "theme": "Grammar" },
-    { "id": 53, "chinese": "手電筒", "pinyin": "shǒudiàntǒng", "english": "flashlight", "vietnamese": "đèn pin", "sentenceChinese": "停電的時候，手電筒就派上用場了。", "sentencePinyin": "Tíngdiàn de shíhou, shǒudiàntǒng jiù pài shàng yòngchǎng le.", "sentenceEnglish": "When the power goes out, the flashlight becomes useful.", "sentenceVietnamese": "Khi mất điện, đèn pin sẽ phát huy tác dụng.", "theme": "General" },
-    { "id": 54, "chinese": "餅乾", "pinyin": "bǐnggān", "english": "cookies, crackers", "vietnamese": "bánh quy", "sentenceChinese": "救生包裡可以放一些不容易壞的餅乾。", "sentencePinyin": "Jiùshēngbāo lǐ kěyǐ fàng yìxiē bù róngyì huài de bǐnggān.", "sentenceEnglish": "You can put some crackers that don't spoil easily in the emergency kit.", "sentenceVietnamese": "Trong túi cứu sinh có thể để một ít bánh quy khó hỏng.", "theme": "Food" },
-    { "id": 55, "chinese": "平時", "pinyin": "píngshí", "english": "usually, in ordinary times", "vietnamese": "bình thường", "sentenceChinese": "平時多練習，緊急時就不會手忙腳亂。", "sentencePinyin": "Píngshí duō liànxí, jǐnjí shí jiù bú huì shǒumáng-jiǎoluàn.", "sentenceEnglish": "If you practice often, you won't panic in an emergency.", "sentenceVietnamese": "Bình thường luyện tập nhiều thì lúc khẩn cấp sẽ không luống cuống.", "theme": "Time" },
-    { "id": 56, "chinese": "狀況", "pinyin": "zhuàngkuàng", "english": "situation", "vietnamese": "tình hình", "sentenceChinese": "先看清楚現場的狀況再行動。", "sentencePinyin": "Xiān kàn qīngchu xiànchǎng de zhuàngkuàng zài xíngdòng.", "sentenceEnglish": "First look clearly at the situation on-site before acting.", "sentenceVietnamese": "Hãy nhìn rõ tình hình hiện trường rồi mới hành động.", "theme": "General" },
-    { "id": 57, "chinese": "慌張", "pinyin": "huāngzhāng", "english": "to panic", "vietnamese": "hoảng hốt", "sentenceChinese": "越慌張越容易做錯事。", "sentencePinyin": "Yuè huāngzhāng yuè róngyì zuò cuò shì.", "sentenceEnglish": "The more you panic, the more likely you are to make mistakes.", "sentenceVietnamese": "Càng hoảng hốt thì càng dễ làm sai.", "theme": "Emotions" },
-    { "id": 58, "chinese": "停電", "pinyin": "tíngdiàn", "english": "power outage", "vietnamese": "mất điện", "sentenceChinese": "地震後這一帶都停電了。", "sentencePinyin": "Dìzhèn hòu zhè yí dài dōu tíngdiàn le.", "sentenceEnglish": "After the earthquake, this whole area lost power.", "sentenceVietnamese": "Sau trận động đất, cả khu vực này đều bị mất điện.", "theme": "General" },
-    { "id": 59, "chinese": "黑暗", "pinyin": "hēi'àn", "english": "darkness", "vietnamese": "bóng tối", "sentenceChinese": "在黑暗中更要小心腳下。", "sentencePinyin": "Zài hēi'àn zhōng gèng yào xiǎoxīn jiǎoxià.", "sentenceEnglish": "In the dark, you need to be even more careful where you step.", "sentenceVietnamese": "Ở trong bóng tối lại càng phải cẩn thận dưới chân.", "theme": "Description" },
-    { "id": 60, "chinese": "方向", "pinyin": "fāngxiàng", "english": "direction", "vietnamese": "phương hướng", "sentenceChinese": "先確認出口的方向。", "sentencePinyin": "Xiān quèrèn chūkǒu de fāngxiàng.", "sentenceEnglish": "First confirm the direction of the exit.", "sentenceVietnamese": "Trước tiên hãy xác nhận hướng của lối ra.", "theme": "General" },
-    { "id": 61, "chinese": "集合", "pinyin": "jíhé", "english": "to assemble", "vietnamese": "tập hợp", "sentenceChinese": "大家到操場集合後再點名。", "sentencePinyin": "Dàjiā dào cāochǎng jíhé hòu zài diǎnmíng.", "sentenceEnglish": "After everyone assembles on the playground, we'll take attendance.", "sentenceVietnamese": "Sau khi mọi người tập hợp ở sân vận động thì sẽ điểm danh.", "theme": "General" },
-    { "id": 62, "chinese": "裂縫", "pinyin": "lièfèng", "english": "crack", "vietnamese": "vết nứt", "sentenceChinese": "牆上出現了幾條裂縫。", "sentencePinyin": "Qiáng shàng chūxiàn le jǐ tiáo lièfèng.", "sentenceEnglish": "Several cracks appeared on the wall.", "sentenceVietnamese": "Trên tường xuất hiện vài vết nứt.", "theme": "General" },
-    { "id": 63, "chinese": "瓦斯", "pinyin": "wǎsī", "english": "gas", "vietnamese": "khí gas", "sentenceChinese": "地震後要先檢查瓦斯有沒有漏。", "sentencePinyin": "Dìzhèn hòu yào xiān jiǎnchá wǎsī yǒu méiyǒu lòu.", "sentenceEnglish": "After an earthquake, first check whether the gas is leaking.", "sentenceVietnamese": "Sau động đất phải kiểm tra xem gas có bị rò hay không.", "theme": "General" },
-    { "id": 64, "chinese": "開關", "pinyin": "kāiguān", "english": "switch", "vietnamese": "công tắc", "sentenceChinese": "如果聞到瓦斯味，就不要碰電燈開關。", "sentencePinyin": "Rúguǒ wéndào wǎsī wèi, jiù búyào pèng diàndēng kāiguān.", "sentenceEnglish": "If you smell gas, don't touch the light switch.", "sentenceVietnamese": "Nếu ngửi thấy mùi gas thì đừng chạm vào công tắc điện.", "theme": "General" },
-    { "id": 65, "chinese": "火災", "pinyin": "huǒzāi", "english": "fire disaster", "vietnamese": "hỏa hoạn", "sentenceChinese": "地震後還要小心火災發生。", "sentencePinyin": "Dìzhèn hòu hái yào xiǎoxīn huǒzāi fāshēng.", "sentenceEnglish": "After an earthquake, you also need to watch out for fires.", "sentenceVietnamese": "Sau động đất còn phải cẩn thận đề phòng hỏa hoạn.", "theme": "Nature" },
-    { "id": 66, "chinese": "門框", "pinyin": "ménkuàng", "english": "door frame", "vietnamese": "khung cửa", "sentenceChinese": "地震時可以先躲在門框旁邊。", "sentencePinyin": "Dìzhèn shí kěyǐ xiān duǒ zài ménkuàng pángbiān.", "sentenceEnglish": "During an earthquake, you can first take shelter by the door frame.", "sentenceVietnamese": "Khi động đất có thể tạm trú bên cạnh khung cửa.", "theme": "General" },
-    { "id": 67, "chinese": "歪", "pinyin": "wāi", "english": "crooked, askew", "vietnamese": "xiêu vẹo", "sentenceChinese": "那個櫃子被搖得有點歪了。", "sentencePinyin": "Nàge guìzi bèi yáo de yǒudiǎn wāi le.", "sentenceEnglish": "That cabinet was shaken a little crooked.", "sentenceVietnamese": "Cái tủ đó bị rung đến mức hơi xiêu vẹo.", "theme": "Description" },
-    { "id": 68, "chinese": "頭部", "pinyin": "tóubù", "english": "head", "vietnamese": "phần đầu", "sentenceChinese": "地震時要先保護頭部。", "sentencePinyin": "Dìzhèn shí yào xiān bǎohù tóubù.", "sentenceEnglish": "During an earthquake, protect your head first.", "sentenceVietnamese": "Khi động đất xảy ra, phải bảo vệ phần đầu trước.", "theme": "General" },
-    { "id": 69, "chinese": "冷靜", "pinyin": "lěngjìng", "english": "calm", "vietnamese": "bình tĩnh", "sentenceChinese": "越危急的時候越要冷靜。", "sentencePinyin": "Yuè wēijí de shíhou yuè yào lěngjìng.", "sentenceEnglish": "The more dangerous the situation, the more you need to stay calm.", "sentenceVietnamese": "Càng lúc nguy cấp càng phải bình tĩnh.", "theme": "Emotions" },
-    { "id": 70, "chinese": "穩", "pinyin": "wěn", "english": "steady", "vietnamese": "vững", "sentenceChinese": "先找一個穩一點的地方躲起來。", "sentencePinyin": "Xiān zhǎo yí ge wěn yìdiǎn de dìfang duǒ qǐlái.", "sentenceEnglish": "First find a steadier place to hide.", "sentenceVietnamese": "Trước tiên hãy tìm một chỗ vững chắc hơn để trú.", "theme": "General" },
-    { "id": 71, "chinese": "櫃子", "pinyin": "guìzi", "english": "cabinet", "vietnamese": "cái tủ", "sentenceChinese": "不要站在高櫃子旁邊。", "sentencePinyin": "Búyào zhàn zài gāo guìzi pángbiān.", "sentenceEnglish": "Don't stand next to a tall cabinet.", "sentenceVietnamese": "Đừng đứng cạnh cái tủ cao.", "theme": "Furniture" },
-    { "id": 72, "chinese": "牆壁", "pinyin": "qiángbì", "english": "wall", "vietnamese": "tường", "sentenceChinese": "牆壁上的畫都掉下來了。", "sentencePinyin": "Qiángbì shàng de huà dōu diào xiàlái le.", "sentenceEnglish": "The pictures on the wall all fell down.", "sentenceVietnamese": "Những bức tranh trên tường đều rơi xuống cả.", "theme": "General" },
-    { "id": 73, "chinese": "倒塌", "pinyin": "dǎotā", "english": "to collapse", "vietnamese": "đổ sập", "sentenceChinese": "有些老房子在地震中倒塌了。", "sentencePinyin": "Yǒuxiē lǎo fángzi zài dìzhèn zhōng dǎotā le.", "sentenceEnglish": "Some old buildings collapsed during the earthquake.", "sentenceVietnamese": "Có một số ngôi nhà cũ đã đổ sập trong trận động đất.", "theme": "General" },
-    { "id": 74, "chinese": "電梯", "pinyin": "diàntī", "english": "elevator", "vietnamese": "thang máy", "sentenceChinese": "地震時千萬不要搭電梯。", "sentencePinyin": "Dìzhèn shí qiānwàn búyào dā diàntī.", "sentenceEnglish": "Never take the elevator during an earthquake.", "sentenceVietnamese": "Khi động đất tuyệt đối đừng đi thang máy.", "theme": "General" },
-    { "id": 75, "chinese": "反而", "pinyin": "fǎn'ér", "english": "instead, on the contrary", "vietnamese": "ngược lại", "sentenceChinese": "慌張地跑出去反而更危險。", "sentencePinyin": "Huāngzhāng de pǎo chūqù fǎn'ér gèng wēixiǎn.", "sentenceEnglish": "Panicking and running out can actually be more dangerous.", "sentenceVietnamese": "Hoảng hốt chạy ra ngoài ngược lại còn nguy hiểm hơn.", "theme": "Grammar" },
-    { "id": 76, "chinese": "堅固", "pinyin": "jiāngù", "english": "solid, sturdy", "vietnamese": "kiên cố", "sentenceChinese": "這棟建築看起來很堅固。", "sentencePinyin": "Zhè dòng jiànzhú kàn qǐlái hěn jiāngù.", "sentenceEnglish": "This building looks very sturdy.", "sentenceVietnamese": "Tòa nhà này trông rất kiên cố.", "theme": "General" },
-    { "id": 77, "chinese": "柱子", "pinyin": "zhùzi", "english": "pillar", "vietnamese": "cột trụ", "sentenceChinese": "地震時可以靠近比較堅固的柱子。", "sentencePinyin": "Dìzhèn shí kěyǐ kàojìn bǐjiào jiāngù de zhùzi.", "sentenceEnglish": "During an earthquake, you can stay near a sturdy pillar.", "sentenceVietnamese": "Khi động đất có thể ở gần cột trụ kiên cố hơn.", "theme": "General" },
-    { "id": 78, "chinese": "碰", "pinyin": "pèng", "english": "to hit, bump into", "vietnamese": "đụng, va vào", "sentenceChinese": "逃生時不要亂跑，免得碰到別人。", "sentencePinyin": "Táoshēng shí búyào luànpǎo, miǎnde pèng dào biérén.", "sentenceEnglish": "Don't run wildly while escaping, or you may bump into others.", "sentenceVietnamese": "Khi thoát nạn đừng chạy loạn kẻo va vào người khác.", "theme": "General" },
-    { "id": 79, "chinese": "形成", "pinyin": "xíngchéng", "english": "to form", "vietnamese": "hình thành", "sentenceChinese": "三個人圍在一起就形成一個保護圈。", "sentencePinyin": "Sān ge rén wéi zài yìqǐ jiù xíngchéng yí ge bǎohùquān.", "sentenceEnglish": "When three people gather together, they form a protective circle.", "sentenceVietnamese": "Ba người quây lại với nhau sẽ tạo thành một vòng bảo vệ.", "theme": "General" },
-    { "id": 80, "chinese": "三角形", "pinyin": "sānjiǎoxíng", "english": "triangle", "vietnamese": "hình tam giác", "sentenceChinese": "桌子和牆壁之間有時會形成三角形空間。", "sentencePinyin": "Zhuōzi hé qiángbì zhījiān yǒushí huì xíngchéng sānjiǎoxíng kōngjiān.", "sentenceEnglish": "A triangular space may sometimes form between a table and a wall.", "sentenceVietnamese": "Giữa bàn và tường đôi khi có thể hình thành một khoảng trống hình tam giác.", "theme": "General" },
-    { "id": 81, "chinese": "保持", "pinyin": "bǎochí", "english": "to maintain", "vietnamese": "giữ, duy trì", "sentenceChinese": "遇到危險時要保持冷靜。", "sentencePinyin": "Yùdào wēixiǎn shí yào bǎochí lěngjìng.", "sentenceEnglish": "Stay calm when facing danger.", "sentenceVietnamese": "Khi gặp nguy hiểm phải giữ bình tĩnh.", "theme": "General" },
-    { "id": 82, "chinese": "平靜", "pinyin": "píngjìng", "english": "calm", "vietnamese": "bình tĩnh, yên ổn", "sentenceChinese": "等情況平靜後再離開。", "sentencePinyin": "Děng qíngkuàng píngjìng hòu zài líkāi.", "sentenceEnglish": "Wait until the situation calms down before leaving.", "sentenceVietnamese": "Đợi tình hình yên ổn rồi hãy rời đi.", "theme": "Emotions" },
-    { "id": 83, "chinese": "指示", "pinyin": "zhǐshì", "english": "instructions", "vietnamese": "chỉ dẫn, chỉ thị", "sentenceChinese": "請依照老師的指示行動。", "sentencePinyin": "Qǐng yīzhào lǎoshī de zhǐshì xíngdòng.", "sentenceEnglish": "Please act according to the teacher's instructions.", "sentenceVietnamese": "Hãy hành động theo chỉ dẫn của giáo viên.", "theme": "Communication" },
-    { "id": 84, "chinese": "救援", "pinyin": "jiùyuán", "english": "to rescue", "vietnamese": "cứu hộ, cứu viện", "sentenceChinese": "救援人員很快就趕到了現場。", "sentencePinyin": "Jiùyuán rényuán hěn kuài jiù gǎn dào le xiànchǎng.", "sentenceEnglish": "The rescue workers arrived at the scene very quickly.", "sentenceVietnamese": "Nhân viên cứu hộ đã nhanh chóng có mặt tại hiện trường.", "theme": "General" },
-    { "id": 85, "chinese": "行動", "pinyin": "xíngdòng", "english": "to act, action", "vietnamese": "hành động", "sentenceChinese": "聽到警報後，大家立刻行動。", "sentencePinyin": "Tīng dào jǐngbào hòu, dàjiā lìkè xíngdòng.", "sentenceEnglish": "After hearing the alarm, everyone acted immediately.", "sentenceVietnamese": "Nghe thấy báo động xong, mọi người liền hành động ngay.", "theme": "General" },
-    { "id": 86, "chinese": "掉下來", "pinyin": "diàoxiàlái", "english": "to fall down", "vietnamese": "rơi xuống", "sentenceChinese": "櫃子上的東西都掉下來了。", "sentencePinyin": "Guìzi shàng de dōngxi dōu diào xiàlái le.", "sentenceEnglish": "Everything on top of the cabinet fell down.", "sentenceVietnamese": "Những thứ đặt trên tủ đều rơi xuống hết.", "theme": "General" },
-    { "id": 87, "chinese": "倒下來", "pinyin": "dǎoxiàlái", "english": "to collapse, fall over", "vietnamese": "đổ xuống", "sentenceChinese": "如果櫃子倒下來，會很危險。", "sentencePinyin": "Rúguǒ guìzi dǎo xiàlái, huì hěn wēixiǎn.", "sentenceEnglish": "If the cabinet falls over, it will be very dangerous.", "sentenceVietnamese": "Nếu cái tủ đổ xuống thì sẽ rất nguy hiểm.", "theme": "General" },
-    { "id": 88, "chinese": "救災人員", "pinyin": "jiùzāi rényuán", "english": "disaster relief personnel", "vietnamese": "nhân viên cứu hộ cứu nạn", "sentenceChinese": "救災人員整晚都沒有休息。", "sentencePinyin": "Jiùzāi rényuán zhěng wǎn dōu méiyǒu xiūxi.", "sentenceEnglish": "The disaster relief personnel did not rest all night.", "sentenceVietnamese": "Nhân viên cứu hộ cứu nạn đã thức trắng cả đêm không nghỉ.", "theme": "Work" }
-  ],
-  "theme": "Shaking Heavens and Trembling Earth"
+    {
+      "id": 1,
+      "chinese": "地震",
+      "pinyin": "dìzhèn",
+      "en": "earthquake",
+      "vi": "động đất",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to shake with seismic vibrations",
+          "sentence": "我聽説北方地震了。",
+          "pinyin": "wǒ tīng shuō běifāng dìzhènle.",
+          "en": "I heard there was an earthquake in the north.",
+          "vi": "Tôi nghe nói phía Bắc đã xảy ra động đất."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to shake with seismic vibrations",
+          "sentence": "半夜城市地震了。",
+          "pinyin": "bànyè chéngshì dìzhènle.",
+          "en": "A sudden earthquake hit the city late at night.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "seism; earthquake",
+          "sentence": "地震造成了很多損失。",
+          "pinyin": "dìzhèn zàochéngle hěnduō sǔnshī.",
+          "en": "The earthquake caused a lot of losses.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "seism; earthquake",
+          "sentence": "昨天的地震很強烈。",
+          "pinyin": "zuótiān dì dìzhèn hěn qiángliè.",
+          "en": "Yesterday's earthquake was very strong.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "搖",
+      "pinyin": "yáo",
+      "en": "to rock, shake",
+      "vi": "rung lắc, dao động",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shake; wave; rock; turn",
+          "sentence": "他輕輕搖著搖籃。",
+          "pinyin": "tā qīng qīng yáozhe yáolán.",
+          "en": "He gently rocked the cradle.",
+          "vi": "Anh ấy nhẹ nhàng đong đưa chiếc nôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "shake; wave; rock; turn",
+          "sentence": "樹枝在風中搖晃。",
+          "pinyin": "shùzhī zài fēng zhōng yáohuàng.",
+          "en": "The branches are swaying in the wind.",
+          "vi": "Cành cây đong đưa trong gió."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "厲害",
+      "pinyin": "lìhài",
+      "en": "serious, severe",
+      "vi": "dữ dội, nghiêm trọng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "fierce; severe",
+          "sentence": "我的心跳得厲害。",
+          "pinyin": "wǒ de xīntiào de lìhài.",
+          "en": "My heart is beating so fast.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fierce; severe",
+          "sentence": "他的傷口疼得厲害。",
+          "pinyin": "tā de shāngkǒu téng de lìhài.",
+          "en": "His wound hurts a lot.",
+          "vi": "Vết thương của anh đau dữ dội."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "經常",
+      "pinyin": "jīngcháng",
+      "en": "frequently",
+      "vi": "thường xuyên",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "often; regularly; constantly; frequently",
+          "sentence": "你經常打羽毛球嗎？",
+          "pinyin": "nǐ jīngcháng dǎ yǔmáoqiú ma?",
+          "en": "Do you often play badminton?",
+          "vi": "Bạn có hay đánh cầu lông không?"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; regularly; constantly; frequently",
+          "sentence": "她經常去公園散步。",
+          "pinyin": "tā jīngcháng qù gōngyuán sànbù.",
+          "en": "She often takes walks in the park.",
+          "vi": "Cô ấy thường đi dạo trong công viên."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "usual; everyday; daily; day-to-day",
+          "sentence": "這個工作開夜車是經常的事。",
+          "pinyin": "zhège gōngzuò kāiyèchē shì jīngcháng de shì.",
+          "en": "Working late at night is a common thing in this job.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "usual; everyday; daily; day-to-day",
+          "sentence": "業務條論我們要經常化。",
+          "pinyin": "yèwù tiáo lùn wǒmen yào jīngcháng huà.",
+          "en": "We need to regularize business discussions.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "倒",
+      "pinyin": "dǎo",
+      "en": "to collapse",
+      "vi": "đổ, sập",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to be inverse; to be inverted; to be upside down",
+          "sentence": "你把畫貼倒了。",
+          "pinyin": "nǐ bǎ huà tiē dàole.",
+          "en": "You put the picture upside down.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be inverse; to be inverted; to be upside down",
+          "sentence": "他把書拿倒了。",
+          "pinyin": "tā bǎ shū ná dàole.",
+          "en": "He held the book upside down.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "inverse; inverted; upside down",
+          "sentence": "他把地圖掛倒了。",
+          "pinyin": "tā bǎ dìtú guà dàole.",
+          "en": "He hung the map upside down.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "inverse; inverted; upside down",
+          "sentence": "這個金字塔是倒的形狀。",
+          "pinyin": "zhège jīnzìtǎ shì dào de xíngzhuàng.",
+          "en": "This pyramid is in an inverted shape.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "but; on the contrary",
+          "sentence": "他不努力，倒考得好。",
+          "pinyin": "tā bù nǔlì, dào kǎo de hǎo.",
+          "en": "He doesn’t work hard, but did well in the exam.",
+          "vi": "Anh ấy không nỗ lực nhưng lại làm bài thi tốt."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "but; on the contrary",
+          "sentence": "他不幫忙，倒添亂。",
+          "pinyin": "tā bù bāngmáng, dào tiānluàn.",
+          "en": "He doesn’t help, but instead adds to the chaos.",
+          "vi": "Anh ấy không giúp đỡ ngược lại còn làm thêm rắc rối."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "橋",
+      "pinyin": "qiáo",
+      "en": "bridge",
+      "vi": "cây cầu",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bridge",
+          "sentence": "這座橋很堅固。",
+          "pinyin": "zhè zuò qiáo hěn jiāngù.",
+          "en": "This bridge is very strong.",
+          "vi": "Cây cầu này rất kiên cố."
+        },
+        {
+          "type": "Noun",
+          "meaning": "bridge",
+          "sentence": "這座橋連接兩岸。",
+          "pinyin": "zhè zuò qiáo liánjiē liǎng'àn.",
+          "en": "This bridge connects both banks.",
+          "vi": "Cây cầu này nối hai bên bờ."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "斷",
+      "pinyin": "duàn",
+      "en": "to break, snap",
+      "vi": "đứt, gãy",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "snap; break",
+          "sentence": "他用刀割斷了繩子。",
+          "pinyin": "tā yòng dāo gēduànle shéngzi.",
+          "en": "He cut the rope with a knife.",
+          "vi": "Anh ấy dùng dao cắt đứt dây."
+        },
+        {
+          "type": "Verb",
+          "meaning": "snap; break",
+          "sentence": "他砍斷了那棵樹。",
+          "pinyin": "tā kǎn duànle nà kē shù.",
+          "en": "He chopped down that tree.",
+          "vi": "Anh ấy đã chặt đứt cái cây đó."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[usu. in the negative] absolutely; decidedly",
+          "sentence": "這個方法斷不可行。",
+          "pinyin": "zhège fāngfǎ duàn bùkě xíng.",
+          "en": "This method is absolutely not feasible.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[usu. in the negative] absolutely; decidedly",
+          "sentence": "他的行為斷無此理。",
+          "pinyin": "tā de xíngwéi duàn wú cǐ lǐ.",
+          "en": "His behavior is absolutely unreasonable.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓斷。",
+          "pinyin": "tā xìng duàn.",
+          "en": "His surname is Duan.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "多",
+      "pinyin": "duó",
+      "en": "so, how",
+      "vi": "biết bao, dường nào",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "many; much; more (opp. 少, 寡)",
+          "sentence": "昨天很熱, 今天涼快多了。",
+          "pinyin": "Zuótiān hěn rè, jīntiān liángkuai duō le.",
+          "en": "It was quite hot yesterday but today it’s a lot cooler.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "excessive",
+          "sentence": "多疑",
+          "pinyin": "duō yí",
+          "en": "Oversensitive; oversuspicious; given to suspicion",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "have (a specified amount) more or too much (opp. 少)",
+          "sentence": "塵封多年",
+          "pinyin": "chénfēng duōnián",
+          "en": "Be dust-laden for centuries",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "have (a specified amount) more or too much (opp. 少)",
+          "sentence": "另一個從科羅拉多打過去的。",
+          "pinyin": "lìng yīgè cóng kēluōlāduō dǎ guòqù de",
+          "en": "The other is from Colorado.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "over a specified amount; and more",
+          "sentence": "學漢語的人越來越多。",
+          "pinyin": "xué hànyǔ de rén yuè lái yuè duō.",
+          "en": "More and more people are learning Chinese.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "over a specified amount; and more",
+          "sentence": "希望越來越多的人喜愛越南。",
+          "pinyin": "xīwàng yuè lái yuè duō de rén xǐ'ài yuènán.",
+          "en": "I hope more and more people will love Viet Nam.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "多先生生病了。",
+          "pinyin": "duō xiānshēng shēngbìngle.",
+          "en": "Mr. Duo is sick.",
+          "vi": "Ông Đa bị ốm rồi."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "地區",
+      "pinyin": "dìqū",
+      "en": "region",
+      "vi": "khu vực",
+      "theme": "Geography",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "area; district; region",
+          "sentence": "幹旱地區十分缺水。",
+          "pinyin": "gānhàn dìqū shífēn quē shuǐ.",
+          "en": "Arid regions are extremely short of water.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "area; district; region",
+          "sentence": "這種動物生活在西北地區。",
+          "pinyin": "zhè zhǒng dòngwù shēnghuó zài xīběi dìqū.",
+          "en": "This kind of animal lives in the northwest region.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "強烈",
+      "pinyin": "qiángliè",
+      "en": "strong, intense",
+      "vi": "mạnh mẽ, mãnh liệt",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "strong; intense",
+          "sentence": "這裡/裏的紫外線很強烈。",
+          "pinyin": "zhèlǐ de zǐwàixiàn hěn qiángliè.",
+          "en": "The ultraviolet rays here are very strong.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "strong; intense",
+          "sentence": "今天上午的風很強烈。",
+          "pinyin": "jīntiān shàngwǔ de fēng hěn qiángliè.",
+          "en": "The wind this morning was very strong.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "頻率",
+      "pinyin": "pínlǜ",
+      "en": "frequency",
+      "vi": "tần suất",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "frequency; (of objects) number of vibrations per second",
+          "sentence": "他的心跳頻率變快了。",
+          "pinyin": "tā de xīntiào pínlǜ biàn kuàile.",
+          "en": "Her heart rate increased.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "frequency; (of objects) number of vibrations per second",
+          "sentence": "她測量了振動的頻率。",
+          "pinyin": "tā cèliángle zhèndòng de pínlǜ.",
+          "en": "She measured the frequency of the vibration.",
+          "vi": "Cô ấy đo tần số rung động."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "預測",
+      "pinyin": "yùcè",
+      "en": "to predict",
+      "vi": "dự đoán",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "predict; forecast",
+          "sentence": "她預測明天會下雨。",
+          "pinyin": "tā yùcè míngtiān huì xià yǔ.",
+          "en": "She predicted that it would rain tomorrow.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "predict; forecast",
+          "sentence": "他們預測了市場的變化。",
+          "pinyin": "tāmen yùcèle shìchǎng de biànhuà.",
+          "en": "They predicted the changes in the market.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "徵兆",
+      "pinyin": "zhēngzhào",
+      "en": "sign, omen",
+      "vi": "dấu hiệu, điềm báo",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sign; omen; portent; indication",
+          "sentence": "地震前一般都有徵兆。",
+          "pinyin": "dìzhèn qián yībān dōu yǒu zhēngzhào.",
+          "en": "There are usually signs before an earthquake.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sign; omen; portent; indication",
+          "sentence": "他齣現中毒的徵兆。",
+          "pinyin": "tā chūxiàn zhòngdú de zhēngzhào.",
+          "en": "He showed symptoms of poisoning.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "鳥類",
+      "pinyin": "niǎolèi",
+      "en": "birds",
+      "vi": "loài chim",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "birds (of any kind); bird species",
+          "sentence": "珍稀鳥類正在保護中。",
+          "pinyin": "zhēnxī niǎo lèi zhèngzài bǎohù zhōng.",
+          "en": "Rare bird species are under protection.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "birds; avifauna",
+          "sentence": "他的鳥類知識很淵博。",
+          "pinyin": "tā de niǎolèi zhīshì hěn yuānbó",
+          "en": "His knowledge of birds is magnifique.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "雞",
+      "pinyin": "jī",
+      "en": "chicken",
+      "vi": "con gà",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "chicken",
+          "sentence": "我傢養很多雞。",
+          "pinyin": "wǒ jiāyǎng hěnduō jī.",
+          "en": "My family raises many chickens.",
+          "vi": "Nhà tôi nuôi rất nhiều gà."
+        },
+        {
+          "type": "Noun",
+          "meaning": "chicken",
+          "sentence": "我喜歡吃/喫炸雞。",
+          "pinyin": "wǒ xǐhuan chī zhá jī.",
+          "en": "I like eating fried chicken.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "預先",
+      "pinyin": "yùxiān",
+      "en": "in advance",
+      "vi": "trước, заранее",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "beforehand; in advance",
+          "sentence": "你可以預先預定座位。",
+          "pinyin": "nǐ kěyǐ yùxiān yùdìng zuòwèi.",
+          "en": "You can book the seat in advance.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "beforehand; in advance",
+          "sentence": "請預先做好準備。",
+          "pinyin": "qǐng yùxiān zuò hǎo zhǔnbèi.",
+          "en": "Please be prepared beforehand.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "老鼠",
+      "pinyin": "lǎoshǔ",
+      "en": "rat",
+      "vi": "con chuột",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rat; mouse",
+          "sentence": "那隻老鼠跑得很快。",
+          "pinyin": "nà zhī lǎoshǔ pǎo de hěn kuài.",
+          "en": "That mouse runs very fast.",
+          "vi": "Con chuột đó chạy rất nhanh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "rat; mouse",
+          "sentence": "那隻老鼠鑽進了洞裡/裏。",
+          "pinyin": "nà zhī lǎoshǔ zuān jìnle dòng lǐ.",
+          "en": "That mouse crawled into the hole.",
+          "vi": "Con chuột đó chui vào trong hang."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "貓",
+      "pinyin": "māo",
+      "en": "cat",
+      "vi": "con mèo",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cat",
+          "sentence": "這隻老貓生病了。",
+          "pinyin": "zhè zhī lǎo māo shēngbìngle.",
+          "en": "This old cat is sick.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cat",
+          "sentence": "我傢養了三隻貓。",
+          "pinyin": "wǒ jiāyǎngle sān zhī māo.",
+          "en": "My family has three cats.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hide oneself; go into hide",
+          "sentence": "小貓在床/牀下貓了很久。",
+          "pinyin": "xiǎo māo zài chuángxià māole hěnjiǔ.",
+          "en": "The kitten has been hiding under the bed for a long time.",
+          "vi": "Con mèo nhỏ đã trốn dưới giường lâu rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "hide oneself; go into hide",
+          "sentence": "你已經貓了兩個月了。",
+          "pinyin": "nǐ yǐjīng māole liǎng gè yuèle.",
+          "en": "You have been hiding for two months already.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "馬",
+      "pinyin": "mǎ",
+      "en": "horse",
+      "vi": "con ngựa",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "horse",
+          "sentence": "他傢有很多馬。",
+          "pinyin": "tā jiā yǒu hěnduō mǎ.",
+          "en": "His family has many horses.",
+          "vi": "Nhà anh ấy có rất nhiều ngựa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "horse",
+          "sentence": "他很喜歡騎馬。",
+          "pinyin": "tā hěn xǐhuan qímǎ.",
+          "en": "He really enjoys horseback riding.",
+          "vi": "Anh ấy rất thích cưỡi ngựa."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "big; large",
+          "sentence": "馬路上有很多車。",
+          "pinyin": "mǎlù shàng yǒu hěnduō chē.",
+          "en": "There are many cars on the street.",
+          "vi": "Trên đường lớn có rất nhiều xe."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "big; large",
+          "sentence": "廚房裡/裏有一個馬勺。",
+          "pinyin": "chúfáng li yǒu yīgè mǎ sháo.",
+          "en": "There is a ladle in the kitchen.",
+          "vi": "Trong bếp có một cái muỗng lớn."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "證實",
+      "pinyin": "zhèngshí",
+      "en": "to verify",
+      "vi": "chứng thực, xác nhận",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "verify; affirm; confirm; corroborate; demonstrate; authenticate",
+          "sentence": "警察需要證實他的身份。",
+          "pinyin": "jǐngchá xūyào zhèngshí tā de shēnfèn.",
+          "en": "The police need to verify his identity.",
+          "vi": "Cảnh sát cần chứng thực danh tính của anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "verify; affirm; confirm; corroborate; demonstrate; authenticate",
+          "sentence": "調查結果證實了該消息。",
+          "pinyin": "diàochá jiéguǒ zhèngshíle gāi xiāoxi.",
+          "en": "The investigation confirmed that information.",
+          "vi": "Kết quả điều tra đã xác nhận tin tức đó."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "應變",
+      "pinyin": "yìngbiàn",
+      "en": "to respond to emergencies",
+      "vi": "ứng biến",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "meet an emergency (or contingency)",
+          "sentence": "他的應變能力很強。",
+          "pinyin": "tā de yìng biàn néng lì hěn qiáng.",
+          "en": "His ability to respond to emergencies is strong.",
+          "vi": "Khả năng ứng biến của anh ấy rất tốt."
+        },
+        {
+          "type": "physics",
+          "meaning": "strain",
+          "sentence": "他臨機應變的能力很強。",
+          "pinyin": "Tā lín jī yìng biàn de néng lì hěn qiáng.",
+          "en": "He is very good at adapting to sudden situations.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "隨手",
+      "pinyin": "suíshǒu",
+      "en": "within easy reach",
+      "vi": "tiện tay",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "conveniently; without extra trouble",
+          "sentence": "他隨手把書放在桌子上。",
+          "pinyin": "tā suíshǒu bǎ shū fàng zài zhuōzi shàng.",
+          "en": "He casually put the book on the table.",
+          "vi": "Anh ấy tiện tay để sách trên bàn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "conveniently; without extra trouble",
+          "sentence": "齣門時隨手關燈吧。",
+          "pinyin": "chūmén shí suíshǒu guān dēng ba.",
+          "en": "Please turn off the lights when you leave.",
+          "vi": "Ra ngoài thì tiện tay tắt đèn nhé."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "白",
+      "pinyin": "bái",
+      "en": "in vain",
+      "vi": "uổng công",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "white",
+          "sentence": "我哥哥的皮膚很白。",
+          "pinyin": "wǒ gēge de pífū hěn bái.",
+          "en": "My elder brother has very fair skin.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "white",
+          "sentence": "我買了一件白襯衫。",
+          "pinyin": "wǒ mǎile yī jiàn bái chènshān.",
+          "en": "I bought a white shirt.",
+          "vi": "Tôi đã mua một chiếc áo sơ mi trắng."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in vain; waste efforts; without results",
+          "sentence": "你白買了這個東西。",
+          "pinyin": "nǐ bái mǎile zhège dōngxi.",
+          "en": "You bought this thing in vain.",
+          "vi": "Bạn mất công mua món này rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in vain; waste efforts; without results",
+          "sentence": "你不要白費力氣。",
+          "pinyin": "nǐ bùyào báifèi lìqì.",
+          "en": "Don't waste your efforts.",
+          "vi": "Cậu đừng có phí sức vô ích."
+        },
+        {
+          "type": "Noun",
+          "meaning": "spoken part in opera, etc.",
+          "sentence": "這段白很精綵。",
+          "pinyin": "zhè duàn bái hěn jīngcǎi.",
+          "en": "This dialogue is very wonderful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "spoken part in opera, etc.",
+          "sentence": "那白令人難忘。",
+          "pinyin": "nà bái lìng rén nánwàng.",
+          "en": "That dialogue is unforgettable.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "explain; present; clear up; state",
+          "sentence": "她決定今天錶白。",
+          "pinyin": "tā juédìng jīntiān biǎobái.",
+          "en": "She decided to confess her love today.",
+          "vi": "Cô ấy quyết định tỏ tình hôm nay."
+        },
+        {
+          "type": "Verb",
+          "meaning": "explain; present; clear up; state",
+          "sentence": "錶白失敗了怎麼辦？",
+          "pinyin": "biǎobái shībàile zěnme bàn?",
+          "en": "What should I do if my confession fails?",
+          "vi": "Tỏ tình thất bại thì làm sao?"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "嫌",
+      "pinyin": "xián",
+      "en": "to complain about",
+      "vi": "chê, than phiền",
+      "theme": "Emotions",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "suspicion",
+          "sentence": "我們應該小心避嫌。",
+          "pinyin": "wǒmen yīnggāi xiǎoxīn bìxián.",
+          "en": "We should be careful to avoid misunderstandings.",
+          "vi": "Chúng ta nên cẩn thận để tránh sự nghi ngờ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "suspicion",
+          "sentence": "為了避嫌，他沒有接受禮物。",
+          "pinyin": "wèile bìxián, tā méiyǒu jiēshòu lǐwù.",
+          "en": "He didn't accept the gift to avoid misunderstandings.",
+          "vi": "Để tránh bị hiểu lầm, anh ấy không nhận quà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "mind; dislike; complain of",
+          "sentence": "大傢都嫌他脾氣太急。",
+          "pinyin": "dàjiā dōu xián tā píqì tài jí.",
+          "en": "Everybody disliked him because of his hot temper.",
+          "vi": "Mọi người đều chê anh ấy nóng tính quá."
+        },
+        {
+          "type": "Verb",
+          "meaning": "mind; dislike; complain of",
+          "sentence": "他總是嫌孩子吵。",
+          "pinyin": "tā zǒng shì xián háizi chǎo.",
+          "en": "He always complains about the kids being noisy.",
+          "vi": "Anh ấy luôn chê trẻ con ồn ào."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "事前",
+      "pinyin": "shìqián",
+      "en": "beforehand",
+      "vi": "trước đó",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "before the event; in advance; beforehand",
+          "sentence": "事前毫無準備。",
+          "pinyin": "shì qián háo wú zhǔn bèi",
+          "en": "With no preparation at all",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "before the event; in advance; beforehand",
+          "sentence": "事前準備好。",
+          "pinyin": "shì qián zhǔn bèi hǎo",
+          "en": "Be prepared beforehand",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "總是",
+      "pinyin": "zǒngshì",
+      "en": "always",
+      "vi": "luôn luôn",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "always",
+          "sentence": "她總是笑著對我説話。",
+          "pinyin": "tā zǒng shì xiàozhe duì wǒ shuōhuà",
+          "en": "She always talks to me with a smile.",
+          "vi": "Cô ấy bao giờ cũng cười nói với tôi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "always",
+          "sentence": "我總是忘記帶鑰匙。",
+          "pinyin": "wǒ zǒng shì wàngjì dài yàoshi.",
+          "en": "I always forget to bring the key.",
+          "vi": "Tôi lúc nào cũng quên mang chìa khóa."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "西歐",
+      "pinyin": "Xī Ōu",
+      "en": "Western Europe",
+      "vi": "Tây Âu",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Western Europe",
+          "sentence": "幾年前我在西歐自助旅行。",
+          "pinyin": "jīnián qián wǒ zài xīōu zìzhù lv̌xíng",
+          "en": "A few years ago I was backpacking across Western Europe.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Western Europe",
+          "sentence": "總理在齣訪西歐歸途中順訪了意大利。",
+          "pinyin": "Zǒnglǐ zài chūfǎng Xī Ōu guītú zhōng shùn fǎng le Yìdàlì.",
+          "en": "On the journey back from his official visits to Western Europe, the premier visited italy in transit.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "北歐",
+      "pinyin": "Běi Ōu",
+      "en": "Northern Europe",
+      "vi": "Bắc Âu",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "Northern Europe (including Denmark, Norway, Sweden, Finland, and Iceland)",
+          "sentence": "薩米人生活在北歐。",
+          "pinyin": "Sà mǐ rén shēng huó zài běi ōu.",
+          "en": "The Sami people live in Northern Europe.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "中歐",
+      "pinyin": "Zhōng Ōu",
+      "en": "Central Europe",
+      "vi": "Trung Âu",
+      "theme": "Proper Noun",
+      "samples": []
+    },
+    {
+      "id": 30,
+      "chinese": "澳洲",
+      "pinyin": "Àozhōu",
+      "en": "Australia",
+      "vi": "Úc",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "australia",
+          "sentence": "澳洲的自然風光很美麗。",
+          "pinyin": "àozhōu de zìrán fēngguāng hěn měilì.",
+          "en": "The natural scenery in Australia is very beautiful.",
+          "vi": "Cảnh quan thiên nhiên của nước Úc rất đẹp."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "australia",
+          "sentence": "悉尼是澳洲最大的城市。",
+          "pinyin": "xīní shì àozhōu zuìdà de chéngshì.",
+          "en": "Sydney is the largest city in Australia.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "南美洲",
+      "pinyin": "Nán Měizhōu",
+      "en": "South America",
+      "vi": "Nam Mỹ",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "South America",
+          "sentence": "我以為他還在南美洲。",
+          "pinyin": "wǒ yǐwèi tā huán zài nánměizhōu",
+          "en": "I thought he was still in South America.",
+          "vi": "Tôi nghĩ anh ấy vẫn ở Nam Mỹ."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "South America",
+          "sentence": "腰果樹在南美洲原産。",
+          "pinyin": "yāoguǒ shù zài nánměizhōu yuán chǎn.",
+          "en": "Cashew trees are native to South America.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "地球科學",
+      "pinyin": "dìqiú kēxué",
+      "en": "earth science",
+      "vi": "khoa học trái đất",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "earth science; geoscience; earthscience",
+          "sentence": "地球科學幫助我們了解自然。",
+          "pinyin": "Dìqiú kēxué bāngzhù wǒmen liǎojiě zìrán.",
+          "en": "Earth science helps us understand nature.",
+          "vi": "Khoa học Trái Đất giúp chúng ta hiểu về thiên nhiên."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "菲律賓",
+      "pinyin": "Fēilǜbīn",
+      "en": "the Philippines",
+      "vi": "Philippines",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "the Philippines",
+          "sentence": "他爸爸會説菲律賓語。",
+          "pinyin": "tā bàba huì shuō fēilǜbīn yǔ.",
+          "en": "His father can speak Filipino.",
+          "vi": "Bố anh ấy biết nói tiếng Philippines."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "the Philippines",
+          "sentence": "我去菲律賓旅行。",
+          "pinyin": "wǒ qù fēilǜbīn lǚxíng.",
+          "en": "I'm traveling to the Philippines.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "天搖地動",
+      "pinyin": "tiānyáo dìdòng",
+      "en": "earth-shaking",
+      "vi": "trời rung đất chuyển",
+      "theme": "Idiom",
+      "samples": []
+    },
+    {
+      "id": 35,
+      "chinese": "壓死",
+      "pinyin": "yāsǐ",
+      "en": "crushed to death",
+      "vi": "đè chết",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to crush to death",
+          "sentence": "他被倒塌的墻壓死了。",
+          "pinyin": "tā bèi dǎotā de qiáng yā sǐ le",
+          "en": "He was crushed to death by the collapsed wall.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "crush to death",
+          "sentence": "他差點被人群/羣壓死。",
+          "pinyin": "tā chàdiǎn bèi rénqún yā sǐ.",
+          "en": "He was almost crushed to death by the crowd.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "災情慘重",
+      "pinyin": "zāiqíng cǎnzhòng",
+      "en": "the disaster situation is severe",
+      "vi": "tình hình thiên tai rất nghiêm trọng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "miserable; tragic",
+          "sentence": "貧民區的慘狀。",
+          "pinyin": "pínmínqū de cǎnzhuàng",
+          "en": "The miserable condition of the slums",
+          "vi": ""
+        },
+        {
+          "type": "adjective",
+          "meaning": "miserable; tragic",
+          "sentence": "這是一個悽慘的故事。",
+          "pinyin": "zhè shì yī gè qī cǎn de gù shì.",
+          "en": "It's a tragic tale.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "東半部",
+      "pinyin": "dōngbànbù",
+      "en": "the eastern half",
+      "vi": "nửa phía đông",
+      "theme": "Geography",
+      "samples": [
+        {
+          "type": "numb",
+          "meaning": "half",
+          "sentence": "我學了半年漢語。",
+          "pinyin": "wǒ xuéle bànnián hànyǔ.",
+          "en": "I studied Chinese for half a year.",
+          "vi": ""
+        },
+        {
+          "type": "numb",
+          "meaning": "half",
+          "sentence": "價格已經減半了。",
+          "pinyin": "jiàgé yǐjīng jiǎn bànle.",
+          "en": "The price has already been halved.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "partly",
+          "sentence": "這件衣服是半新的。",
+          "pinyin": "zhè jiàn yīfu shì bàn xīn de.",
+          "en": "This piece of clothing is partly new.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "partly",
+          "sentence": "他走進了半開的門。",
+          "pinyin": "tā zǒu jìnle bàn kāi de mén.",
+          "en": "He walked through the half-open door.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "地震帶",
+      "pinyin": "dìzhèndài",
+      "en": "seismic zone",
+      "vi": "vành đai động đất",
+      "theme": "Geography",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "seismic belt",
+          "sentence": "我們國傢位於地震帶。",
+          "pinyin": "wǒmen guójiā wèiyú dì zhèn dài.",
+          "en": "Our country lies in a seismic belt.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "earthquake belt",
+          "sentence": "我們傢住在地震帶上。",
+          "pinyin": "Wǒmen jiā zhù zài dì zhèn dài shàng.",
+          "en": "Our home is on the earthquake belt.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "救生包",
+      "pinyin": "jiùshēngbāo",
+      "en": "survival kit",
+      "vi": "túi cứu sinh",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "life jacket",
+          "sentence": "請務必穿上救生衣。",
+          "pinyin": "Qǐng wù bì chuān shàng jiù shēng yī.",
+          "en": "Please be sure to put on a life jacket.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lifejacket; buoys; airjacket; lifejackets",
+          "sentence": "那他有穿救生衣嗎。",
+          "pinyin": "nà tā yǒu chuān jiùshēngyī ma.",
+          "en": "Do you know if he was wearing a life jacket?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "有備無患",
+      "pinyin": "yǒubèi wúhuàn",
+      "en": "be prepared, and you won't have to worry",
+      "vi": "có chuẩn bị thì khỏi lo",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "Preparedness averts peril.",
+          "sentence": "齣門前檢查有備無患。",
+          "pinyin": "chū mén qián jiǎn chá yǒu bèi wú huàn",
+          "en": "Check before going out; being prepared averts trouble.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "to be prepared, just in case (idiom)",
+          "sentence": "我們提前準備真有備無患。",
+          "pinyin": "wǒmen tíqián zhǔnbèi zhēn yǒu bèi wú huàn",
+          "en": "We prepared in advance; it really is better to be prepared.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "如何",
+      "pinyin": "rúhé",
+      "en": "how",
+      "vi": "làm sao, như thế nào",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "how; what",
+          "sentence": "這件事情你打算如何處理？",
+          "pinyin": "zhè jiàn shìqíng nǐ dǎsuàn rúhé chǔlǐ?",
+          "en": "How do you plan to handle this matter?",
+          "vi": "Việc này anh định giải quyết như thế nào đây?"
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "how; what",
+          "sentence": "如何才/纔能提高漢語水平？",
+          "pinyin": "rúhé cáinéng tígāo hànyǔ shuǐpíng?",
+          "en": "How can I improve my Chinese language skills?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "逃生",
+      "pinyin": "táoshēng",
+      "en": "to escape with one's life",
+      "vi": "thoát nạn",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "escape; flee for one's life; escape with one's life",
+          "sentence": "他們成功地逃生了。",
+          "pinyin": "tāmen chénggōng de táoshēngle.",
+          "en": "They successfully escaped.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "escape; flee for one's life; escape with one's life",
+          "sentence": "逃生計劃可以輓救生命。",
+          "pinyin": "táoshēng jìhuà kěyǐ wǎnjiù shēngmìng.",
+          "en": "An escape plan can save lives.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "發達",
+      "pinyin": "fādá",
+      "en": "developed",
+      "vi": "phát triển",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "developed; flourishing",
+          "sentence": "他的事業越來越髮/發達。",
+          "pinyin": "tā de shìyè yuè lái yuè fādá.",
+          "en": "His career is becoming more and more successful.",
+          "vi": "Sự nghiệp của anh ấy ngày càng phát đạt."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "developed; flourishing",
+          "sentence": "我們的傢鄉不太髮/發達。",
+          "pinyin": "wǒmen de jiāxiāng bù tài fādá.",
+          "en": "Our hometown is not very developed.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "develop; promote; flourish",
+          "sentence": "這個行業逐漸髮/發達起來了。",
+          "pinyin": "zhège hángyè zhújiàn fādá qǐláile.",
+          "en": "This industry has gradually developed.",
+          "vi": "Ngành này dần phát triển lên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "develop; promote; flourish",
+          "sentence": "這個城市的經濟開始髮/發達。",
+          "pinyin": "zhège chéngshì de jīngjì kāishǐ fādá.",
+          "en": "The economy of this city is beginning to grow.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "天災",
+      "pinyin": "tiānzāi",
+      "en": "natural disaster",
+      "vi": "thiên tai",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "natural disaster (or calamity)",
+          "sentence": "遭受天災",
+          "pinyin": "Zāoshòu tiānzāi",
+          "en": "Suffer natural disasters",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "natural calamity",
+          "sentence": "我們必須防範天災的髮/發生。",
+          "pinyin": "wǒ men bì xū fáng fàn tiān zāi de fā shēng",
+          "en": "We must prevent natural disasters from happening.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "災害",
+      "pinyin": "zāihài",
+      "en": "disaster",
+      "vi": "tai họa, thiên tai",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "disaster; calamity",
+          "sentence": "這場災害影響了很多人。",
+          "pinyin": "zhè chǎng zāihài yǐngxiǎngle hěnduō rén.",
+          "en": "This disaster affected many people.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "disaster; calamity",
+          "sentence": "預防災害是每個人的責任。",
+          "pinyin": "yùfáng zāihài shì měi gèrén de zérèn.",
+          "en": "Preventing disasters is everyone's responsibility.",
+          "vi": "Phòng thiên tai là trách nhiệm của mọi người."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "程度",
+      "pinyin": "chéngdù",
+      "en": "degree, level",
+      "vi": "mức độ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "level; degree (of culture, education, learning, etc.)",
+          "sentence": "他的文化程度很高。",
+          "pinyin": "tā de wénhuà chéngdù hěn gāo.",
+          "en": "His level of education is very high.",
+          "vi": "Trình độ văn hóa của anh ấy rất cao."
+        },
+        {
+          "type": "Noun",
+          "meaning": "level; degree (of culture, education, learning, etc.)",
+          "sentence": "她的英語程度不錯。",
+          "pinyin": "tā de yīngyǔ chéngdù bùcuò.",
+          "en": "Her English proficiency is quite good.",
+          "vi": "Trình độ tiếng Anh của cô ấy khá tốt."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "chinese": "首先",
+      "pinyin": "shǒuxiān",
+      "en": "first of all",
+      "vi": "trước hết",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "first; before all others",
+          "sentence": "他首先提齣了這個建議。",
+          "pinyin": "tā shǒuxiān tíchūle zhège jiànyì.",
+          "en": "He put forward the suggestion first.",
+          "vi": "Anh ấy là người đầu tiên đưa ra đề xuất này."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "first; before all others",
+          "sentence": "他是首先到達終點的人。",
+          "pinyin": "tā shì shǒuxiān dàodá zhōngdiǎn de rén.",
+          "en": "He was the first to reach the finish line.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "above all; first of all; in the first place",
+          "sentence": "首先我們必須找齣問題所在。",
+          "pinyin": "shǒuxiān wǒmen bìxū zhǎo chū wèntí suǒzài.",
+          "en": "First of all we must identify the problem areas.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "above all; first of all; in the first place",
+          "sentence": "首先，我們要製定計劃。",
+          "pinyin": "shǒuxiān, wǒmen yào zhìdìng jìhuà.",
+          "en": "First, we have to make a plan.",
+          "vi": "Thứ nhất, chúng ta phải xây dựng kế hoạch."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "chinese": "其次",
+      "pinyin": "qícì",
+      "en": "second, next",
+      "vi": "tiếp theo",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "next; then; secondly",
+          "sentence": "他喜歡看電影，其次是看書。",
+          "pinyin": "tā xǐhuan kàn diànyǐng, qícì shì kànshū.",
+          "en": "He likes watching movies, and next he likes reading books.",
+          "vi": "Anh ấy thích xem phim, sau đó là đọc sách."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "next; then; secondly",
+          "sentence": "首先是價格貴，其次，速度太慢。",
+          "pinyin": "shǒuxiān shi jiàgé guì, qícì, sùdù tài màn.",
+          "en": "Firstly, the price is expensive, secondly, the speed is too slow.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "secondary",
+          "sentence": "內容是主要的，形式在其次。",
+          "pinyin": "nèiróng shì zhǔyào de, xíngshì zài qícì.",
+          "en": "The content is the main thing, the form is secondary.",
+          "vi": "Nội dung là chủ yếu, hình thức là thứ yếu."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "secondary",
+          "sentence": "傢庭是最重要的，工作是其次。",
+          "pinyin": "jiātíng shì zuì zhòngyào de, gōngzuò shì qícì.",
+          "en": "Family is the most important, work is secondary.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "chinese": "災難",
+      "pinyin": "zāinàn",
+      "en": "disaster",
+      "vi": "thảm họa",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "disaster; suffering; calamity; catastrophe",
+          "sentence": "災難來臨時要保持冷靜。",
+          "pinyin": "zāinàn láilín shí yào bǎochí lěngjìng.",
+          "en": "Stay calm when disaster strikes.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "disaster; suffering; calamity; catastrophe",
+          "sentence": "這次災難影響了很多人。",
+          "pinyin": "zhè cì zāinàn yǐngxiǎngle hěnduō rén.",
+          "en": "This disaster affected many people.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "chinese": "緊急",
+      "pinyin": "jǐnjí",
+      "en": "urgent, emergency",
+      "vi": "khẩn cấp",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "urgent; pressing; critical",
+          "sentence": "他接到了一個緊急電話。",
+          "pinyin": "tā jiē dàole yī gè jǐnjí diànhuà.",
+          "en": "He received an urgent call.",
+          "vi": "Anh nhận được một cuộc gọi khẩn cấp."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "urgent; pressing; critical",
+          "sentence": "這種情況得緊急處理。",
+          "pinyin": "zhè zhǒng qíngkuàng děi jǐnjí chǔlǐ.",
+          "en": "This condition requires urgent treatment.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "chinese": "必需品",
+      "pinyin": "bìxūpǐn",
+      "en": "necessities",
+      "vi": "nhu yếu phẩm",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "necessaries; daily necessities",
+          "sentence": "食品是我們的必需品。",
+          "pinyin": "shípǐn shì wǒmen de bìxūpǐn.",
+          "en": "Food is a necessity for us.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "necessaries; daily necessities",
+          "sentence": "水和空氣是必需品。",
+          "pinyin": "shuǐ hé kōngqì shì bìxūpǐn.",
+          "en": "Water and air are necessities.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "chinese": "譬如",
+      "pinyin": "pìrú",
+      "en": "for example",
+      "vi": "ví dụ như",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "such as; for example; for instance; take for example",
+          "sentence": "旅行很有趣，譬如登山。",
+          "pinyin": "lǚxíng hěn yǒuqù, pìrú dēngshān.",
+          "en": "Traveling is fun, such as hiking.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "such as; for example; for instance; take for example",
+          "sentence": "動物很可愛，譬如小貓。",
+          "pinyin": "dòngwù hěn kě'ài, pìrú xiǎo māo.",
+          "en": "Animals are cute, such as kittens.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "chinese": "手電筒",
+      "pinyin": "shǒudiàntǒng",
+      "en": "flashlight",
+      "vi": "đèn pin",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "flashlight; electric hand torch",
+          "sentence": "你有沒有帶手電筒？",
+          "pinyin": "nǐ yǒu méiyǒu dài shǒudiàntǒng?",
+          "en": "Do you have a flashlight?",
+          "vi": "Bạn có mang theo đèn pin không?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "flashlight; electric hand torch",
+          "sentence": "我需要一個手電筒。",
+          "pinyin": "wǒ xūyào yīgè shǒudiàntǒng.",
+          "en": "I need a flashlight.",
+          "vi": "Tôi đang cần một chiếc đèn pin."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "chinese": "餅乾",
+      "pinyin": "bǐnggān",
+      "en": "cookies, crackers",
+      "vi": "bánh quy",
+      "theme": "Food",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "biscuit; cookie",
+          "sentence": "我把黃油塗在餅幹上。",
+          "pinyin": "wǒ bǎ huángyóu tú zài bǐnggān shàng.",
+          "en": "I put butter on the biscuits.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "biscuit; cookie",
+          "sentence": "你需要一些餅幹嗎？",
+          "pinyin": "nǐ xūyào yīxiē bǐnggān ma?",
+          "en": "Do you need some cookies?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "chinese": "平時",
+      "pinyin": "píngshí",
+      "en": "usually, in ordinary times",
+      "vi": "bình thường",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "in normal times; at ordinary times",
+          "sentence": "爸爸平時很晚才/纔迴傢。",
+          "pinyin": "bàba píngshí hěn wǎn cái huí jiā.",
+          "en": "Dad usually comes home very late.",
+          "vi": "Bố ngày thường về nhà rất muộn."
+        },
+        {
+          "type": "n, time",
+          "meaning": "in normal times; at ordinary times",
+          "sentence": "平時我有空兒就去爬山。",
+          "pinyin": "píngshí wǒ yǒu kòngr jiù qù páshān.",
+          "en": "When I have free time, I usually go hiking.",
+          "vi": "Bình thường tôi có thời gian sẽ đi leo núi."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "chinese": "狀況",
+      "pinyin": "zhuàngkuàng",
+      "en": "situation",
+      "vi": "tình hình",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "state; status; condition; state of affairs",
+          "sentence": "天氣狀況影響齣行。",
+          "pinyin": "tiānqì zhuàngkuàng yǐngxiǎng chūxíng.",
+          "en": "Weather conditions affect travel.",
+          "vi": "Tình hình thời tiết ảnh hưởng đến việc đi lại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "state; status; condition; state of affairs",
+          "sentence": "工作狀況有了改善。",
+          "pinyin": "gōngzuò zhuàngkuàng yǒule gǎishàn.",
+          "en": "The work situation has improved.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "chinese": "慌張",
+      "pinyin": "huāngzhāng",
+      "en": "to panic",
+      "vi": "hoảng hốt",
+      "theme": "Emotions",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "panic; flurried; flustered; confused",
+          "sentence": "他看起來很慌張。",
+          "pinyin": "tā kàn qǐlái hěn huāngzhāng.",
+          "en": "He looks very panicked.",
+          "vi": "Anh ta trông rất hoảng hốt."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "panic; flurried; flustered; confused",
+          "sentence": "別慌張，冷靜點。",
+          "pinyin": "bié huāngzhāng, lěngjìng diǎn.",
+          "en": "Don’t panic, calm down.",
+          "vi": "Đừng hoảng hốt, hãy bình tĩnh lại."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "chinese": "停電",
+      "pinyin": "tíngdiàn",
+      "en": "power outage",
+      "vi": "mất điện",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cut off the power supply; have a power failure",
+          "sentence": "停電造成了很大的不便。",
+          "pinyin": "tíngdiàn zàochéngle hěn dà de bùbiàn.",
+          "en": "The power outage caused a lot of inconvenience.",
+          "vi": "Mất điện gây ra rất nhiều sự bất tiện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cut off the power supply; have a power failure",
+          "sentence": "昨晚停電了幾個小時。",
+          "pinyin": "zuó wǎn tíngdiànle jǐ gè xiǎoshí.",
+          "en": "The power was out for several hours last night.",
+          "vi": "Đêm qua mất điện mấy tiếng đồng hồ."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "chinese": "黑暗",
+      "pinyin": "hēi'àn",
+      "en": "darkness",
+      "vi": "bóng tối",
+      "theme": "Description",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "dark",
+          "sentence": "夜晚的森林很黑暗。",
+          "pinyin": "yèwǎn de sēnlín hěn hēi'àn.",
+          "en": "The forest at night is very dark.",
+          "vi": "Rừng vào ban đêm rất tối."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "dark",
+          "sentence": "夜晚的海洋顯得很黑暗。",
+          "pinyin": "yèwǎn de hǎiyáng xiǎndé hěn hēi'àn.",
+          "en": "The ocean at night seems very dark.",
+          "vi": "Biển vào ban đêm trông rất tối."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "chinese": "方向",
+      "pinyin": "fāngxiàng",
+      "en": "direction",
+      "vi": "phương hướng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "direction; orientation",
+          "sentence": "我在山裡/裏迷失了方嚮。",
+          "pinyin": "wǒ zài shānlǐ míshīle fāngxiàng.",
+          "en": "I got lost in the mountains.",
+          "vi": "Tôi bị mất phương hướng trong núi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "direction; orientation",
+          "sentence": "他們嚮北的方嚮齣髮/發。",
+          "pinyin": "tāmen xiàng běi de fāngxiàng chūfā.",
+          "en": "They set off in the northern direction.",
+          "vi": "Họ khởi hành về hướng bắc."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "chinese": "集合",
+      "pinyin": "jíhé",
+      "en": "to assemble",
+      "vi": "tập hợp",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "gather; come together",
+          "sentence": "他們在會議室集閤了。",
+          "pinyin": "tāmen zài huìyì shì jíhéle.",
+          "en": "They gathered in the conference room.",
+          "vi": "Họ đã tập trung ở phòng họp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "gather; come together",
+          "sentence": "隊伍在入口處集閤。",
+          "pinyin": "duìwǔ zài rùkǒu chù jíhé.",
+          "en": "The team gathered at the entrance.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "set; assemblage; collection; aggregation",
+          "sentence": "集閤的大小由元素決定。",
+          "pinyin": "jíhé de dàxiǎo yóu yuánsù juédìng.",
+          "en": "The size of a set is determined by its elements.",
+          "vi": "Kích thước của tập hợp do số lượng phần tử quyết định."
+        },
+        {
+          "type": "Noun",
+          "meaning": "set; assemblage; collection; aggregation",
+          "sentence": "這集閤代錶所有的偶數。",
+          "pinyin": "zhè jíhé dàibiǎo suǒyǒu de ǒushù.",
+          "en": "This set represents all even numbers.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "chinese": "裂縫",
+      "pinyin": "lièfèng",
+      "en": "crack",
+      "vi": "vết nứt",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rift; crevice; crack; fissure",
+          "sentence": "墻上齣現了一道裂縫。",
+          "pinyin": "qiáng shàng chūxiànle yīdào lièfèng.",
+          "en": "A crack appeared on the wall.",
+          "vi": "Trên tường xuất hiện một vết nứt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "rift; crevice; crack; fissure",
+          "sentence": "地闆齣現了細小裂縫。",
+          "pinyin": "dìbǎn chūxiànle xìxiǎo lièfèng.",
+          "en": "Small cracks appeared on the floor.",
+          "vi": "Sàn nhà xuất hiện vết nứt nhỏ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "crack; rift; fissure",
+          "sentence": "雞蛋煮過頭裂縫了。",
+          "pinyin": "jīdàn zhǔ guòtóu lièfèngle.",
+          "en": "The egg cracked because it was overcooked.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "crack; rift; fissure",
+          "sentence": "墻壁因為地震裂縫了。",
+          "pinyin": "qiángbì yīnwèi dìzhèn lièfèngle.",
+          "en": "The wall cracked due to the earthquake.",
+          "vi": "Tường vì động đất mà nứt ra."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "chinese": "瓦斯",
+      "pinyin": "wǎsī",
+      "en": "gas",
+      "vi": "khí gas",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "gas",
+          "sentence": "瓦斯洩漏很危險。",
+          "pinyin": "wǎsī xièlòu hěn wēi xiǎn.",
+          "en": "Gas leaks are dangerous.",
+          "vi": "Rò rỉ khí gas rất nguy hiểm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "gas",
+          "sentence": "我們使用瓦斯做飯。",
+          "pinyin": "wǒmen shǐyòng wǎsī zuò fàn.",
+          "en": "We use gas for cooking.",
+          "vi": "Chúng tôi dùng gas để nấu ăn."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "chinese": "開關",
+      "pinyin": "kāiguān",
+      "en": "switch",
+      "vi": "công tắc",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "switch; release",
+          "sentence": "打開開關，燈就亮了。",
+          "pinyin": "dǎkāi kāiguān, dēng jiù liàngle.",
+          "en": "Turn on the switch, and the light turns on.",
+          "vi": "Bật công tắc thì đèn sáng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "switch; release",
+          "sentence": "開關壞了，燈不亮了。",
+          "pinyin": "kāiguān huàile, dēng bù liàngle.",
+          "en": "The switch is broken, and the light won't turn on.",
+          "vi": "Công tắc bị hỏng, đèn không sáng nữa."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "chinese": "火災",
+      "pinyin": "huǒzāi",
+      "en": "fire disaster",
+      "vi": "hỏa hoạn",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "fire (as a disaster); conflagration",
+          "sentence": "昨天這裡/裏髮/發生了火災。",
+          "pinyin": "zuótiān zhèlǐ fāshēngle huǒzāi.",
+          "en": "A fire occurred here yesterday.",
+          "vi": "Hôm qua ở đây đã xảy ra hỏa hoạn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fire (as a disaster); conflagration",
+          "sentence": "消防員迅速撲滅了火災。",
+          "pinyin": "xiāofáng yuán xùnsù pūmièle huǒzāi.",
+          "en": "The firefighters quickly extinguished the fire.",
+          "vi": "Lính cứu hỏa nhanh chóng dập tắt hỏa hoạn."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "chinese": "門框",
+      "pinyin": "ménkuàng",
+      "en": "door frame",
+      "vi": "khung cửa",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "door frame",
+          "sentence": "用泡沫填滿門框的縫隙。",
+          "pinyin": "yòng pàomò tián mǎn ménkuàng de fèngxì.",
+          "en": "Use foam to fill the gaps in the door frame.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "door frame",
+          "sentence": "他用木棍牚住門框。",
+          "pinyin": "Tā yòng mùgùn chēng zhù ménkuàng.",
+          "en": "He used a wooden stick to prop the door frame.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "chinese": "歪",
+      "pinyin": "wāi",
+      "en": "crooked, askew",
+      "vi": "xiêu vẹo",
+      "theme": "Description",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "askew; crooked; oblique; inclined; slanting",
+          "sentence": "這座塔是歪的。",
+          "pinyin": "zhè zuò tǎ shì wāi de.",
+          "en": "This tower is crooked.",
+          "vi": "Cái tháp này nghiêng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "askew; crooked; oblique; inclined; slanting",
+          "sentence": "她寫的字歪歪扭扭。",
+          "pinyin": "tā xiě de zì wāiwāiniǔniǔ.",
+          "en": "Her handwriting is scribbly.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be tilted",
+          "sentence": "他歪著頭看我們。",
+          "pinyin": "tā wāizhe tóu kàn wǒmen.",
+          "en": "He tilted his head and looked at us.",
+          "vi": "Anh ấy nghiêng đầu nhìn tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be tilted",
+          "sentence": "別老歪著身子。",
+          "pinyin": "bié lǎo wāizhe shēnzǐ.",
+          "en": "Don’t keep slouching like that.",
+          "vi": "Đừng có vẹo người như thế."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "chinese": "頭部",
+      "pinyin": "tóubù",
+      "en": "head",
+      "vi": "phần đầu",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "head; cephalosome",
+          "sentence": "猛擊頭部",
+          "pinyin": "měngjí tóubù",
+          "en": "He bashed his head in.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "head; cephalosome",
+          "sentence": "彿像的頭部有金色的光環。",
+          "pinyin": "fóxiàng de tóu bù yǒu jīnsè de guānghuán.",
+          "en": "The Buddha statue has a golden halo around its head.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "chinese": "冷靜",
+      "pinyin": "lěngjìng",
+      "en": "calm",
+      "vi": "bình tĩnh",
+      "theme": "Emotions",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "calm",
+          "sentence": "他冷靜地做齣決定。",
+          "pinyin": "tā lěngjìng de zuò chū juédìng.",
+          "en": "He made a decision calmly.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "calm",
+          "sentence": "她冷靜地麵對挑戰。",
+          "pinyin": "tā lěngjìng de miàn duì tiǎozhàn.",
+          "en": "She calmly faces challenges.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "chinese": "穩",
+      "pinyin": "wěn",
+      "en": "steady",
+      "vi": "vững",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "steady; firm",
+          "sentence": "局勢穩大傢都安心。",
+          "pinyin": "júshì wěn dàjiā dū ānxīn.",
+          "en": "The situation is stable, which puts everyone at ease.",
+          "vi": "Tình hình ổn định mọi người đều yên tâm."
+        },
+        {
+          "type": "adjective",
+          "meaning": "steady; firm",
+          "sentence": "大橋建得很穩。",
+          "pinyin": "dàqiáo jiàn dé hěn wěn.",
+          "en": "The bridge is very stable.",
+          "vi": "Cây cầu được xây rất vững chắc."
+        },
+        {
+          "type": "verb",
+          "meaning": "stabilize; calm",
+          "sentence": "努力穩住當前局麵。",
+          "pinyin": "nǔlì wěn zhù dāngqián júmiàn.",
+          "en": "Efforts should be made to stabilize the current situation.",
+          "vi": "Cố gắng giữ vững tình hình hiện tại."
+        },
+        {
+          "type": "verb",
+          "meaning": "stabilize; calm",
+          "sentence": "務必穩牢經濟增長。",
+          "pinyin": "wùbì wěn láo jīngjì zēngzhǎng.",
+          "en": "We must ensure stable economic growth.",
+          "vi": "Chắc chắn phải giữ vững tăng trưởng kinh tế."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "chinese": "櫃子",
+      "pinyin": "guìzi",
+      "en": "cabinet",
+      "vi": "cái tủ",
+      "theme": "Furniture",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cabinet; cupboard",
+          "sentence": "這個櫃子上有很多東西。",
+          "pinyin": "zhège guìzi shàng yǒu hěnduō dōngxi.",
+          "en": "There are a lot of things on this cabinet.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cabinet; cupboard",
+          "sentence": "這個櫃子裝滿了舊衣服。",
+          "pinyin": "zhège guìzi zhuāng mǎnle jiù yīfu.",
+          "en": "This cabinet is filled with old clothes.",
+          "vi": "Cái tủ này chứa đầy quần áo cũ."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "chinese": "牆壁",
+      "pinyin": "qiángbì",
+      "en": "wall",
+      "vi": "tường",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wall",
+          "sentence": "墻壁上掛著一幅畫。",
+          "pinyin": "qiángbì shàng guàzhe yī fú huà.",
+          "en": "There is a painting hanging on the wall.",
+          "vi": "Trên tường treo một bức tranh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "wall",
+          "sentence": "墻壁上有一些裂縫。",
+          "pinyin": "qiángbì shàng yǒu yīxiē lièfèng.",
+          "en": "There are some cracks on the wall.",
+          "vi": "Trên tường có một số vết nứt."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "chinese": "倒塌",
+      "pinyin": "dǎotā",
+      "en": "to collapse",
+      "vi": "đổ sập",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "collapse",
+          "sentence": "房子因風暴倒塌。",
+          "pinyin": "fángzǐ yīn fēngbào dǎotā.",
+          "en": "The house collapsed because of the storm.",
+          "vi": "Ngôi nhà sụp đổ vì bão."
+        },
+        {
+          "type": "Verb",
+          "meaning": "collapse",
+          "sentence": "橋樑因地震倒塌。",
+          "pinyin": "qiáoliáng yīn dìzhèn dǎotā.",
+          "en": "The bridge collapsed due to the earthquake.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "chinese": "電梯",
+      "pinyin": "diàntī",
+      "en": "elevator",
+      "vi": "thang máy",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lift; elevator; escalator",
+          "sentence": "我們乘電梯上樓。",
+          "pinyin": "wǒmen chéng diàntī shàng lóu.",
+          "en": "We took the elevator upstairs.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lift; elevator; escalator",
+          "sentence": "請按電梯的按鈕。",
+          "pinyin": "qǐng àn diàntī de ànniǔ.",
+          "en": "Please press the elevator button.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "chinese": "反而",
+      "pinyin": "fǎn'ér",
+      "en": "instead, on the contrary",
+      "vi": "ngược lại",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "instead; contrary to",
+          "sentence": "他沒生氣，反而笑了起來。",
+          "pinyin": "tā méi shēngqì, fǎn'ér xiàole qǐlái.",
+          "en": "He smiled instead of becoming upset.",
+          "vi": "Anh ấy không tức giận, ngược lại còn cười lên."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "instead; contrary to",
+          "sentence": "風不但沒停，反而更大了。",
+          "pinyin": "fēng bùdàn méi tíng, fǎn'ér gèng dàle",
+          "en": "The strong wind did not stop; on the contrary, it became stronger.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "chinese": "堅固",
+      "pinyin": "jiāngù",
+      "en": "solid, sturdy",
+      "vi": "kiên cố",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "firm; solid; sturdy; strong",
+          "sentence": "這橋很堅固。",
+          "pinyin": "zhè qiáo hěn jiāngù.",
+          "en": "This bridge is very sturdy.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "firm; solid; sturdy; strong",
+          "sentence": "墻壁堅固可靠。",
+          "pinyin": "qiángbì jiāngù kěkào.",
+          "en": "The wall is solid and reliable.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "chinese": "柱子",
+      "pinyin": "zhùzi",
+      "en": "pillar",
+      "vi": "cột trụ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "post; pillar; column",
+          "sentence": "坑道裡/裏用柱子支撐著。",
+          "pinyin": "kēngdào lǐ yòng zhùzi zhīchēngzhe.",
+          "en": "The tunnel is supported by columns.",
+          "vi": "Trong đường hầm dùng cột để chống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "post; pillar; column",
+          "sentence": "這根柱子非常堅固。",
+          "pinyin": "zhè gēn zhùzi fēicháng jiāngù.",
+          "en": "This column is incredibly sturdy.",
+          "vi": "Cây cột này rất vững chắc."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "chinese": "碰",
+      "pinyin": "pèng",
+      "en": "to hit, bump into",
+      "vi": "đụng, va vào",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "hit; knock over",
+          "sentence": "我碰倒了花瓶。",
+          "pinyin": "wǒ pèng dàole huāpíng.",
+          "en": "I knocked over the vase.",
+          "vi": "Tôi đã đụng đổ bình hoa."
+        },
+        {
+          "type": "verb",
+          "meaning": "hit; knock over",
+          "sentence": "我的腿碰在墻了。",
+          "pinyin": "wǒ de tuǐ pèng zài qiángle.",
+          "en": "My leg hit the wall.",
+          "vi": "Chân của tôi va vào tường rồi."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "chinese": "形成",
+      "pinyin": "xíngchéng",
+      "en": "to form",
+      "vi": "hình thành",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shape; form; take shape",
+          "sentence": "他逐漸形成了自己的風格。",
+          "pinyin": "tā zhújiàn xíngchéngle zìjǐ de fēnggé.",
+          "en": "He hs gradually developed her own style.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "shape; form; take shape",
+          "sentence": "我已形成習慣，醒得很早。",
+          "pinyin": "wǒ yǐ xíngchéng xíguàn, xǐng dé hěn zǎo.",
+          "en": "I've taken to waking up very early.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "chinese": "三角形",
+      "pinyin": "sānjiǎoxíng",
+      "en": "triangle",
+      "vi": "hình tam giác",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "mathematics",
+          "meaning": "triangle",
+          "sentence": "這是一個任意三角形。",
+          "pinyin": "zhè shì yīgè rènyì sānjiǎoxíng.",
+          "en": "This is an arbitrary triangle.",
+          "vi": ""
+        },
+        {
+          "type": "mathematics",
+          "meaning": "triangle",
+          "sentence": "三角形的幾何元素是邊和角。",
+          "pinyin": "sānjiǎoxíng de jǐhé yuánsù shì biān hé jiǎo.",
+          "en": "The geometric elements of a triangle are its sides and angles.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "chinese": "保持",
+      "pinyin": "bǎochí",
+      "en": "to maintain",
+      "vi": "giữ, duy trì",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "keep; hold; retain; maintain; preserve",
+          "sentence": "保持平衡是生活的關鍵。",
+          "pinyin": "bǎochí pínghéng shì shēnghuó de guānjiàn.",
+          "en": "Keeping balance is the key to life.",
+          "vi": "Giữ sự cân bằng là chìa khóa của cuộc sống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "keep; hold; retain; maintain; preserve",
+          "sentence": "我們要保持樂觀的態度。",
+          "pinyin": "wǒmen yào bǎochí lèguān de tàidù.",
+          "en": "We must maintain an optimistic attitude.",
+          "vi": "Chúng ta phải giữ thái độ lạc quan."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "chinese": "平靜",
+      "pinyin": "píngjìng",
+      "en": "calm",
+      "vi": "bình tĩnh, yên ổn",
+      "theme": "Emotions",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "calm; quiet; peaceful; tranquil",
+          "sentence": "我們的生活很平靜。",
+          "pinyin": "wǒmen de shēnghuó hěn píngjìng.",
+          "en": "Our life is very peaceful.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "calm; quiet; peaceful; tranquil",
+          "sentence": "他的心情就平靜下來。",
+          "pinyin": "tā de xīnqíng jiù píngjìng xiàlái.",
+          "en": "His mind calmed down.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "chinese": "指示",
+      "pinyin": "zhǐshì",
+      "en": "instructions",
+      "vi": "chỉ dẫn, chỉ thị",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "indicate; point out",
+          "sentence": "路標指示走左邊。",
+          "pinyin": "lùbiāo zhǐshì zǒu zuǒbian.",
+          "en": "The road sign indicates to go left.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "indicate; point out",
+          "sentence": "指示燈指示北方。",
+          "pinyin": "zhǐshì dēng zhǐshì běifāng.",
+          "en": "The indicator light points north.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "directive; instructions",
+          "sentence": "老闆髮/發給我們重要的指示。",
+          "pinyin": "lǎobǎn fā gěi wǒmen zhòngyào de zhǐshì.",
+          "en": "The boss sent us important instructions.",
+          "vi": "Sếp đưa cho chúng tôi chỉ thị quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "directive; instructions",
+          "sentence": "學生們認真聽老師的指示。",
+          "pinyin": "xuéshēngmen rènzhēn tīng lǎoshī de zhǐshì.",
+          "en": "The students listened carefully to the teacher's instructions.",
+          "vi": "Các học sinh chăm chú nghe chỉ thị của giáo viên."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "chinese": "救援",
+      "pinyin": "jiùyuán",
+      "en": "to rescue",
+      "vi": "cứu hộ, cứu viện",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rescue; come to sb.'s help (rescue)",
+          "sentence": "我們組織了一支救援隊。",
+          "pinyin": "wǒmen zǔzhīle yī zhī jiùyuán duì.",
+          "en": "We organized a rescue team.",
+          "vi": "Chúng tôi đã tổ chức một đội cứu viện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "rescue; come to sb.'s help (rescue)",
+          "sentence": "他們正在等待國際救援。",
+          "pinyin": "tāmen zhèngzài děngdài guójì jiùyuán.",
+          "en": "They are waiting for international rescue.",
+          "vi": "Họ đang chờ đợi sự cứu trợ quốc tế."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "chinese": "行動",
+      "pinyin": "xíngdòng",
+      "en": "to act, action",
+      "vi": "hành động",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "get about; move about",
+          "sentence": "他行動不方便。",
+          "pinyin": "tā xíngdòng bù fāngbiàn.",
+          "en": "He moves inconveniently.",
+          "vi": "Anh ấy đi lại không thuận tiện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "get about; move about",
+          "sentence": "老人行動很慢。",
+          "pinyin": "lǎorén xíngdòng hěn màn.",
+          "en": "The elderly move very slowly.",
+          "vi": "Người già di chuyển rất chậm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "action; operation; behaviour",
+          "sentence": "他的行動很奇怪。",
+          "pinyin": "tā de xíngdòng hěn qíguài.",
+          "en": "His actions are very strange.",
+          "vi": "Hành động của anh ấy rất kỳ lạ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "action; operation; behaviour",
+          "sentence": "她的行動非常緩慢。",
+          "pinyin": "tā de xíngdòng fēicháng huǎnmàn.",
+          "en": "Her actions are very slow.",
+          "vi": "Hành động của cô ấy rất chậm chạp."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "chinese": "掉下來",
+      "pinyin": "diàoxiàlái",
+      "en": "to fall down",
+      "vi": "rơi xuống",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fall; drop; shed; come off",
+          "sentence": "書從桌上掉下了。",
+          "pinyin": "shū cóng zhuō shàng diào xiàle.",
+          "en": "The book fell off the table.",
+          "vi": "Cuốn sách rơi khỏi bàn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fall; drop; shed; come off",
+          "sentence": "筆突然掉地上了。",
+          "pinyin": "bǐ tū rán diào dìshàngle.",
+          "en": "The pen suddenly fell onto the floor.",
+          "vi": "Cây bút đột nhiên rơi xuống đất."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "chinese": "倒下來",
+      "pinyin": "dǎoxiàlái",
+      "en": "to collapse, fall over",
+      "vi": "đổ xuống",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "他來公司開會。",
+          "pinyin": "tā lái gōngsī kāihuì.",
+          "en": "He comes to the company for a meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "請你來我傢玩。",
+          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
+          "en": "Please come to my house to play.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "這件衣服大概來五百塊。",
+          "pinyin": "zhè jiàn yīfu dàgài lái wǔbǎi kuài.",
+          "en": "This piece of clothing costs about 500 yuan.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "我有來十個問題要問你。",
+          "pinyin": "wǒ yǒu lái shí gè wèntí yào wèn nǐ.",
+          "en": "I have about ten questions to ask you.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "多年來他一直努力。",
+          "pinyin": "duōnián lái tā yīzhí nǔlì.",
+          "en": "He has been working hard for many years.",
+          "vi": "Trong nhiều năm qua, anh ấy luôn nỗ lực."
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "我爸爸進來比較忙。",
+          "pinyin": "wǒ bàba jìnlái bǐjiào máng.",
+          "en": "My dad has been quite busy lately.",
+          "vi": "Bố của tôi dạo này hơi bận."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "chinese": "救災人員",
+      "pinyin": "jiùzāi rényuán",
+      "en": "disaster relief personnel",
+      "vi": "nhân viên cứu hộ cứu nạn",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "rescue; save",
+          "sentence": "努力救遭遇危險的人。",
+          "pinyin": "nǔlì jiù zāoyù wéixiǎn de rén.",
+          "en": "Try your best to rescue people in danger.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "rescue; save",
+          "sentence": "快去救火災中的人。",
+          "pinyin": "kuài qù jiù huǒzāi zhōng de rén.",
+          "en": "Hurry and rescue the people in the fire.",
+          "vi": ""
+        }
+      ]
+    }
+  ]
 }

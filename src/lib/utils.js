@@ -63,6 +63,7 @@ export function normalizeVocabularyItems(items) {
         sentencePinyin,
         sentenceEnglish,
         sentenceVietnamese,
+        ...(Array.isArray(item.samples) && item.samples.length > 0 ? { samples: item.samples } : {}),
         meaning: {
           en: english,
           vi: vietnamese,

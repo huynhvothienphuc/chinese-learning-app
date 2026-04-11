@@ -7,518 +7,1536 @@
       "id": 1,
       "chinese": "當時",
       "pinyin": "dāngshí",
-      "english": "at that time",
-      "sentenceChinese": "我當時不在台灣，所以不知道這件事。",
-      "sentencePinyin": "Wǒ dāngshí búzài Táiwān, suǒyǐ bù zhīdào zhè jiàn shì.",
-      "sentenceEnglish": "I wasn't in Taiwan at that time, so I didn't know about this.",
-      "vietnamese": "lúc đó / khi đó",
-      "sentenceVietnamese": "Lúc đó tôi không ở Đài Loan, nên không biết chuyện này."
+      "en": "at that time",
+      "vi": "lúc đó / khi đó",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "that time",
+          "sentence": "當時的社會很動盪。",
+          "pinyin": "dāngshí de shèhuì hěn dòngdàng.",
+          "en": "The society at that time was turbulent.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "that time",
+          "sentence": "當時的情況很復雜。",
+          "pinyin": "dāngshí de qíngkuàng hěn fùzá.",
+          "en": "The situation at that time was complex.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be the proper time; to happen at the right time",
+          "sentence": "我來幫忙正當時。",
+          "pinyin": "wǒ lái bāngmáng zhèng dāng shí.",
+          "en": "I came to help at the right time.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be the proper time; to happen at the right time",
+          "sentence": "他到傢正當時。",
+          "pinyin": "tā dàojiā zhèng dāng shí.",
+          "en": "He arrived home at the right time.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "聲調",
       "pinyin": "shēngdiào",
-      "english": "tones",
-      "sentenceChinese": "中文的聲調對外國人來說很難。",
-      "sentencePinyin": "Zhōngwén de shēngdiào duì wàiguórén lái shuō hěn nán.",
-      "sentenceEnglish": "Chinese tones are very difficult for foreigners.",
-      "vietnamese": "thanh điệu",
-      "sentenceVietnamese": "Đối với người nước ngoài, thanh điệu tiếng Trung rất khó."
+      "en": "tones",
+      "vi": "thanh điệu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "note; tone; pitch of voice",
+          "sentence": "漢語有四個聲調。",
+          "pinyin": "hànyǔ yǒu sì gè shēngdiào.",
+          "en": "Chinese has four tones.",
+          "vi": "Tiếng Trung có bốn thanh điệu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "note; tone; pitch of voice",
+          "sentence": "學習聲調很重要。",
+          "pinyin": "xuéxí shēngdiào hěn zhòngyào.",
+          "en": "Learning tones is very important.",
+          "vi": "Học thanh điệu rất quan trọng."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "發音",
       "pinyin": "fāyīn",
-      "english": "pronunciation",
-      "sentenceChinese": "他的發音非常準。",
-      "sentencePinyin": "Tā de fāyīn fēicháng zhǔn.",
-      "sentenceEnglish": "His pronunciation is very accurate.",
-      "vietnamese": "phát âm",
-      "sentenceVietnamese": "Phát âm của anh ấy rất chuẩn."
+      "en": "pronunciation",
+      "vi": "phát âm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pronunciation",
+          "sentence": "我覺得髮/發音不太難。",
+          "pinyin": "wǒ juéde fāyīn bù tài nán.",
+          "en": "I don't think pronunciation is very difficult.",
+          "vi": "Tôi cảm thấy phát âm không khó lắm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "pronunciation",
+          "sentence": "他的漢語髮/發音很標準。",
+          "pinyin": "tā de hànyǔ fāyīn hěn biāozhǔn.",
+          "en": "His Mandarin pronunciation is very standard.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "pronounce; enunciate",
+          "sentence": "這個字怎麼髮/發音？",
+          "pinyin": "zhège zì zěnme fāyīn?",
+          "en": "How do you pronounce this character?",
+          "vi": "Từ này phát âm như thế nào?"
+        },
+        {
+          "type": "sv",
+          "meaning": "pronounce; enunciate",
+          "sentence": "髮/發音方法要正確。",
+          "pinyin": "fāyīn fāngfǎ yào zhèngquè.",
+          "en": "The pronunciation should be correct.",
+          "vi": "Phương pháp phát âm phải chính xác."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "準",
       "pinyin": "zhǔn",
-      "english": "to be accurate",
-      "sentenceChinese": "你說中文的聲調不夠準。",
-      "sentencePinyin": "Nǐ shuō Zhōngwén de shēngdiào búgòu zhǔn.",
-      "sentenceEnglish": "The tones of your Chinese are not accurate enough.",
-      "vietnamese": "chuẩn",
-      "sentenceVietnamese": "Thanh điệu tiếng Trung bạn nói chưa đủ chuẩn."
+      "en": "to be accurate",
+      "vi": "chuẩn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "norm; standard; criterion",
+          "sentence": "這個項目沒有什麼標準。",
+          "pinyin": "zhège xiàngmù méiyǒu shén me biāozhǔn.",
+          "en": "This project has no standards.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "norm; standard; criterion",
+          "sentence": "這個測試的標準很高。",
+          "pinyin": "zhège cèshì de biāozhǔn hěn gāo.",
+          "en": "The standard of this test is very high.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "follow; in accordance with",
+          "sentence": "準你的計劃，我們先去買菜。",
+          "pinyin": "zhǔn nǐ de jìhuà, wǒmen xiān qù mǎi cài.",
+          "en": "According to your plan, we'll go grocery shopping first.",
+          "vi": "Theo kế hoạch của bạn, chúng ta đi mua rau trước."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "follow; in accordance with",
+          "sentence": "準天氣預報，今天會下大雨。",
+          "pinyin": "zhǔn tiānqì yùbào, jīntiān huì xià dàyǔ.",
+          "en": "According to the weather forecast, it will rain heavily today.",
+          "vi": "Theo dự báo thời tiết, hôm nay sẽ mưa to."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "exact; accurate",
+          "sentence": "這個計劃準會成功。",
+          "pinyin": "zhège jìhuà zhǔn huì chénggōng.",
+          "en": "This plan will surely succeed.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "exact; accurate",
+          "sentence": "你的猜測準是對的。",
+          "pinyin": "nǐ de cāicè zhǔn shì duì de.",
+          "en": "Your guess is surely correct.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "definitely; certainly",
+          "sentence": "他們準能成功。",
+          "pinyin": "tāmen zhǔn néng chénggōng.",
+          "en": "They will surely succeed.",
+          "vi": "Bọn họ nhất định sẽ thành công."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "definitely; certainly",
+          "sentence": "他準會來參加晚會。",
+          "pinyin": "tā zhǔn huì lái cānjiā wǎnhuì.",
+          "en": "He will definitely come to the party.",
+          "vi": "Anh ấy chắc chắn sẽ đến tham gia buổi tiệc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "allow; grant; permit",
+          "sentence": "公司批準了我的請假。",
+          "pinyin": "gōngsī pīzhǔnle wǒ de qǐngjià.",
+          "en": "The company approved my leave.",
+          "vi": "Công ty đã phê duyệt đơn xin nghỉ của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "allow; grant; permit",
+          "sentence": "老師不準我們外齣。",
+          "pinyin": "lǎoshī bù zhǔn wǒmen wàichū.",
+          "en": "The teacher does not allow us to go out.",
+          "vi": "Giáo viên không cho phép chúng tôi ra ngoài."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "企業",
       "pinyin": "qìyè",
-      "english": "enterprise",
-      "sentenceChinese": "他畢業以後想去大企業工作。",
-      "sentencePinyin": "Tā bìyè yǐhòu xiǎng qù dà qìyè gōngzuò.",
-      "sentenceEnglish": "He wants to work for a large enterprise after graduation.",
-      "vietnamese": "xí nghiệp / doanh nghiệp",
-      "sentenceVietnamese": "Sau khi tốt nghiệp anh ấy muốn làm việc ở doanh nghiệp lớn."
+      "en": "enterprise",
+      "vi": "xí nghiệp / doanh nghiệp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "enterprise; establishment; business",
+          "sentence": "企業需要創新來生存。",
+          "pinyin": "qǐyè xūyào chuàngxīn lái shēngcún.",
+          "en": "Enterprises need innovation to survive.",
+          "vi": "Doanh nghiệp cần đổi mới để tồn tại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "enterprise; establishment; business",
+          "sentence": "這傢企業有很多員工。",
+          "pinyin": "zhè jiā qǐ yè yǒu hěnduō yuángōng.",
+          "en": "This enterprise has many employees.",
+          "vi": "Doanh nghiệp này có nhiều nhân viên."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "管理",
       "pinyin": "guǎnlǐ",
-      "english": "management",
-      "sentenceChinese": "管理一家公司不簡單。",
-      "sentencePinyin": "Guǎnlǐ yì jiā gōngsī bù jiǎndān.",
-      "sentenceEnglish": "Managing a company is not easy.",
-      "vietnamese": "quản lý",
-      "sentenceVietnamese": "Quản lý một công ty không hề đơn giản."
+      "en": "management",
+      "vi": "quản lý",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "manage; run; administer; govern; be in charge of",
+          "sentence": "她負責管理整個項目。",
+          "pinyin": "tā fùzé guǎnlǐ zhěnggè xiàngmù.",
+          "en": "She is responsible for managing the entire project.",
+          "vi": "Cô ấy phụ trách quản lý toàn bộ dự án."
+        },
+        {
+          "type": "Verb",
+          "meaning": "manage; run; administer; govern; be in charge of",
+          "sentence": "這件事情由他負責管理。",
+          "pinyin": "zhè jiàn shìqíng yóu tā fùzé guǎnlǐ.",
+          "en": "This matter is managed by him.",
+          "vi": "Việc này do anh ấy phụ trách điều hành."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "系",
       "pinyin": "xì",
-      "english": "academic department (of a university)",
-      "sentenceChinese": "你是哪一個系的學生？",
-      "sentencePinyin": "Nǐ shì nǎ yí ge xì de xuéshēng?",
-      "sentenceEnglish": "Which department are you a student of?",
-      "vietnamese": "khoa (trường đại học)",
-      "sentenceVietnamese": "Bạn là sinh viên của khoa nào?"
+      "en": "academic department (of a university)",
+      "vi": "khoa (trường đại học)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "series; system",
+          "sentence": "這個繫統運行很順利。",
+          "pinyin": "zhège xìtǒng yùnxíng hěn shùnlì.",
+          "en": "This system runs very smoothly.",
+          "vi": "Hệ thống này chạy rất trơn tru."
+        },
+        {
+          "type": "Noun",
+          "meaning": "series; system",
+          "sentence": "他工作在信息繫統。",
+          "pinyin": "tā gōngzuò zài xìnxī xìtǒng.",
+          "en": "He works in the information system.",
+          "vi": "Anh ấy làm việc trong hệ thống thông tin."
+        },
+        {
+          "type": "Verb",
+          "meaning": "bear on; relate to; depend on",
+          "sentence": "這兩個項目繫在一起。",
+          "pinyin": "zhè liǎng gè xiàngmù xì zài yīqǐ.",
+          "en": "These two projects are linked together.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "bear on; relate to; depend on",
+          "sentence": "他們繫在一起，無法分開。",
+          "pinyin": "tāmen xì zài yīqǐ, wúfǎ fēnkāi.",
+          "en": "They are tied together and cannot be separated.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "經濟",
       "pinyin": "jīngjì",
-      "english": "economy",
-      "sentenceChinese": "最近國家的經濟發展得很快。",
-      "sentencePinyin": "Zuìjìn guójiā de jīngjì fāzhǎn de hěn kuài.",
-      "sentenceEnglish": "The country's economy has been developing fast recently.",
-      "vietnamese": "kinh tế",
-      "sentenceVietnamese": "Gần đây kinh tế của đất nước phát triển rất nhanh."
+      "en": "economy",
+      "vi": "kinh tế",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "economy",
+          "sentence": "經濟變革帶來社會轉型。",
+          "pinyin": "jīngjì biàngé dài lái shèhuì zhuǎnxíng.",
+          "en": "Economic reforms lead to social transformation.",
+          "vi": "Cải cách kinh tế mang lại sự chuyển đổi xã hội."
+        },
+        {
+          "type": "Noun",
+          "meaning": "economy",
+          "sentence": "經濟的髮/發展影響社會結構。",
+          "pinyin": "jīngjì de fāzhǎn yǐngxiǎng shèhuì jiégòu.",
+          "en": "Economic development influences social structure.",
+          "vi": "Tăng trưởng kinh tế tác động đến kết cấu xã hội."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thrifty; economical",
+          "sentence": "這種燈具很經濟省電。",
+          "pinyin": "zhè zhǒng dēngjù hěn jīngjì shěng diàn.",
+          "en": "This light fixture is very cost-effective.",
+          "vi": "Loại đèn này rất tiết kiệm điện."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thrifty; economical",
+          "sentence": "用這種材料比較經濟。",
+          "pinyin": "yòng zhè zhǒng cáiliào bǐjiào jīngjì.",
+          "en": "Using this material is more cost-effective.",
+          "vi": "Dùng loại vật liệu này khá tiết kiệm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "govern the country",
+          "sentence": "他以智慧經濟國事。",
+          "pinyin": "tā yǐ zhìhuì jīngjì guóshì.",
+          "en": "He governs the nation with wisdom.",
+          "vi": "Anh ấy dùng trí tuệ để cai trị quốc sự."
+        },
+        {
+          "type": "Verb",
+          "meaning": "govern the country",
+          "sentence": "偉大的領袖經濟天下。",
+          "pinyin": "wěidà de lǐngxiù jīngjì tiānxià.",
+          "en": "A great leader governs the world's economy.",
+          "vi": "Vị lãnh đạo vĩ đại quản lý thiên hạ."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "幫助",
       "pinyin": "bāngzhù",
-      "english": "help",
-      "sentenceChinese": "謝謝你給我的幫助。",
-      "sentencePinyin": "Xièxiè nǐ gěi wǒ de bāngzhù.",
-      "sentenceEnglish": "Thank you for the help you gave me.",
-      "vietnamese": "giúp đỡ",
-      "sentenceVietnamese": "Cảm ơn bạn đã giúp đỡ tôi."
+      "en": "help",
+      "vi": "giúp đỡ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "help; assist; support",
+          "sentence": "我們一直相互幫助。",
+          "pinyin": "wǒmen yīzhí xiānghù bāngzhù.",
+          "en": "We always help each other.",
+          "vi": "Chúng tôi luôn luôn giúp đỡ lẫn nhau."
+        },
+        {
+          "type": "Verb",
+          "meaning": "help; assist; support",
+          "sentence": "她幫助衕學解決難題。",
+          "pinyin": "tā bāngzhù tóngxué jiějué nántí.",
+          "en": "She helps her classmates solve difficult problems.",
+          "vi": "Cô ấy giúp bạn học giải quyết câu hỏi khó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "help; assist; aid",
+          "sentence": "他的幫助非常重要。",
+          "pinyin": "tā de bāngzhù fēicháng zhòngyào.",
+          "en": "His assistance is very important.",
+          "vi": "Sự giúp đỡ của anh ấy vô cùng quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "help; assist; aid",
+          "sentence": "十分感謝你的這份幫助。",
+          "pinyin": "shífēn gǎnxiè nǐ de zhè fèn bāngzhù.",
+          "en": "I really appreciate your help with this.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "有關",
       "pinyin": "yǒuguān",
-      "english": "to be related to",
-      "sentenceChinese": "我想找跟中文有關的工作。",
-      "sentencePinyin": "Wǒ xiǎng zhǎo gēn Zhōngwén yǒuguān de gōngzuò.",
-      "sentenceEnglish": "I want to find a job related to Chinese.",
-      "vietnamese": "có liên quan",
-      "sentenceVietnamese": "Tôi muốn tìm công việc có liên quan đến tiếng Trung."
+      "en": "to be related to",
+      "vi": "có liên quan",
+      "samples": [
+        {
+          "type": "Preposition",
+          "meaning": "in the way of",
+          "sentence": "有關項目的報告。",
+          "pinyin": "yǒuguān xiàngmù de bàogào.",
+          "en": "A report of the project.",
+          "vi": "Báo cáo liên quan đến dự án."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "in the way of",
+          "sentence": "有關健康的建議。",
+          "pinyin": "yǒuguān jiànkāng de jiànyì.",
+          "en": "Health recommendations.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to concern; to relate to; to have sth to do with",
+          "sentence": "有關文件在哪裡/裏？",
+          "pinyin": "yǒuguān wénjiàn zài nǎlǐ?",
+          "en": "Where is the related document?",
+          "vi": "Tài liệu liên quan ở đâu?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "to concern; to relate to; to have sth to do with",
+          "sentence": "請提供有關信息。",
+          "pinyin": "qǐng tígōng yǒuguān xìnxī.",
+          "en": "Please provide information about",
+          "vi": "Vui lòng cung cấp thông tin liên quan."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "語法",
       "pinyin": "yǔfǎ",
-      "english": "syntax, grammar",
-      "sentenceChinese": "中文語法跟英文很不一樣。",
-      "sentencePinyin": "Zhōngwén yǔfǎ gēn Yīngwén hěn bù yíyàng.",
-      "sentenceEnglish": "Chinese grammar is very different from English.",
-      "vietnamese": "ngữ pháp",
-      "sentenceVietnamese": "Ngữ pháp tiếng Trung rất khác với tiếng Anh."
+      "en": "syntax, grammar",
+      "vi": "ngữ pháp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "grammar",
+          "sentence": "語法學習不能馬虎。",
+          "pinyin": "yǔfǎ xuéxí bùnéng mǎhu.",
+          "en": "Studying grammar cannot be done carelessly.",
+          "vi": "Học ngữ pháp không thể qua loa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "grammar",
+          "sentence": "語法錯誤要改正。",
+          "pinyin": "yǔfǎ cuòwù yào gǎizhèng.",
+          "en": "Grammar mistakes must be corrected.",
+          "vi": "Các lỗi ngữ pháp cần được sửa."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "研究",
       "pinyin": "yánjiù",
-      "english": "to do research in",
-      "sentenceChinese": "他在研究所研究國際關係。",
-      "sentencePinyin": "Tā zài yánjiùsuǒ yánjiù guójì guānxì.",
-      "sentenceEnglish": "He is researching international relations in graduate school.",
-      "vietnamese": "nghiên cứu",
-      "sentenceVietnamese": "Anh ấy nghiên cứu quan hệ quốc tế ở bậc cao học."
+      "en": "to do research in",
+      "vi": "nghiên cứu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to study; to research",
+          "sentence": "他在研究新的治療方法。",
+          "pinyin": "tā zài yánjiū xīn de zhìliáo fāngfǎ.",
+          "en": "He is researching new treatments.",
+          "vi": "Anh ấy đang nghiên cứu phương pháp chữa trị mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to study; to research",
+          "sentence": "學生們正在研究曆史事件。",
+          "pinyin": "xuéshēngmen zhèngzài yánjiū lìshǐ shìjiàn.",
+          "en": "The students are researching historical events.",
+          "vi": "Học sinh đang nghiên cứu các sự kiện lịch sử."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "教書",
       "pinyin": "jiāoshū",
-      "english": "to teach",
-      "sentenceChinese": "我明年打算去國外教書。",
-      "sentencePinyin": "Wǒ míngnián dǎsuàn qù guówài jiāoshū.",
-      "sentenceEnglish": "I plan to go abroad to teach next year.",
-      "vietnamese": "dạy học",
-      "sentenceVietnamese": "Sang năm tôi dự định ra nước ngoài dạy học."
+      "en": "to teach",
+      "vi": "dạy học",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "teach; teach school",
+          "sentence": "我打算畢業後去教書。",
+          "pinyin": "wǒ dǎsuàn bìyè hòu qù jiāoshū.",
+          "en": "I plan to teach after graduation.",
+          "vi": "Tôi dự định sau khi tốt nghiệp sẽ đi dạy học."
+        },
+        {
+          "type": "Verb",
+          "meaning": "teach; teach school",
+          "sentence": "我在這所大學教書。",
+          "pinyin": "wǒ zài zhè suǒ dàxué jiāoshū.",
+          "en": "I teach at this university.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "方法",
       "pinyin": "fāngfǎ",
-      "english": "method, approach",
-      "sentenceChinese": "學中文最好的方法是什麼？",
-      "sentencePinyin": "Xué Zhōngwén zuìhǎo de fāngfǎ shì shénme?",
-      "sentenceEnglish": "What is the best method to learn Chinese?",
-      "vietnamese": "phương pháp",
-      "sentenceVietnamese": "Phương pháp tốt nhất để học tiếng Trung là gì?"
+      "en": "method, approach",
+      "vi": "phương pháp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "method; means; way",
+          "sentence": "這個方法很有效。",
+          "pinyin": "zhège fāngfǎ hěn yǒuxiào.",
+          "en": "This method is very effective.",
+          "vi": "Phương pháp này rất hiệu quả."
+        },
+        {
+          "type": "Noun",
+          "meaning": "method; means; way",
+          "sentence": "他找到了新方法。",
+          "pinyin": "tā zhǎodàole xīn fāngfǎ.",
+          "en": "He found a new method.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "目的",
       "pinyin": "mùdì",
-      "english": "goal, objective",
-      "sentenceChinese": "我來台灣的目的就是學中文。",
-      "sentencePinyin": "Wǒ lái Táiwān de mùdì jiùshì xué Zhōngwén.",
-      "sentenceEnglish": "My purpose in coming to Taiwan is to learn Chinese.",
-      "vietnamese": "mục đích",
-      "sentenceVietnamese": "Mục đích tôi đến Đài Loan chính là học tiếng Trung."
+      "en": "goal, objective",
+      "vi": "mục đích",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "aim; goal; target; purpose; objective",
+          "sentence": "他的目的是幫助別人。",
+          "pinyin": "tā de mùdì shì bāngzhù biérén.",
+          "en": "His goal is to help others.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "aim; goal; target; purpose; objective",
+          "sentence": "你的目的達到了嗎？",
+          "pinyin": "nǐ de mùdì dádàole ma?",
+          "en": "Did you achieve your goal?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "國際",
       "pinyin": "guójì",
-      "english": "international",
-      "sentenceChinese": "他在一家國際公司工作。",
-      "sentencePinyin": "Tā zài yì jiā guójì gōngsī gōngzuò.",
-      "sentenceEnglish": "He works in an international company.",
-      "vietnamese": "quốc tế",
-      "sentenceVietnamese": "Anh ấy làm việc ở một công ty quốc tế."
+      "en": "international",
+      "vi": "quốc tế",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "international",
+          "sentence": "國際會議在今天舉行。",
+          "pinyin": "guójì huìyì zài jīntiān jǔxíng.",
+          "en": "The international conference is held today.",
+          "vi": "Hội nghị quốc tế diễn ra hôm nay."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "international",
+          "sentence": "國際閤作至關重要。",
+          "pinyin": "guójì hézuò zhì guān zhòngyào.",
+          "en": "International cooperation is very important.",
+          "vi": "Hợp tác quốc tế rất quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "international; the world",
+          "sentence": "在國際上，和平髮/發展重要。",
+          "pinyin": "zài guójì shàng, hépíng fāzhǎn zhòngyào.",
+          "en": "Peace and development are very important internationally.",
+          "vi": "Hòa bình và phát triển rất quan trọng trên thế giới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "international; the world",
+          "sentence": "我們的品牌走嚮國際市場。",
+          "pinyin": "wǒmen de pǐnpái zǒuxiàng guójì shìchǎng.",
+          "en": "Our brand is heading towards the international market.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "翻譯",
       "pinyin": "fānyì",
-      "english": "translator, interpreter",
-      "sentenceChinese": "他的英文很好，常當翻譯。",
-      "sentencePinyin": "Tā de Yīngwén hěn hǎo, cháng dāng fānyì.",
-      "sentenceEnglish": "His English is good, and he often acts as an interpreter.",
-      "vietnamese": "phiên dịch / thông dịch viên",
-      "sentenceVietnamese": "Tiếng Anh của anh ấy rất tốt, thường làm phiên dịch."
+      "en": "translator, interpreter",
+      "vi": "phiên dịch / thông dịch viên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "translate; interpret",
+          "sentence": "他把密碼翻譯齣來。",
+          "pinyin": "tā bǎ mìmǎ fānyì chūlai.",
+          "en": "He translated the password.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "translate; interpret",
+          "sentence": "請你幫我翻譯一下好嗎?",
+          "pinyin": "qǐng nǐ bāng wǒ fān yì yī xià hǎo ma?",
+          "en": "Would you mind translating for me?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "translator; interpreter",
+          "sentence": "他當過三年翻譯。",
+          "pinyin": "tā dāngguò sānnián fānyì。",
+          "en": "He worked as a translator for three years.",
+          "vi": "Anh ấy làm phiên dịch viên ba năm rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "translator; interpreter",
+          "sentence": "我想成為一名專業的翻譯。",
+          "pinyin": "wǒ xiǎng chéngwéi yī míng zhuānyè de fānyì.",
+          "en": "I want to be a professional translator.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "外交",
       "pinyin": "wàijiāo",
-      "english": "diplomacy, foreign affairs",
-      "sentenceChinese": "他對外交工作很有興趣。",
-      "sentencePinyin": "Tā duì wàijiāo gōngzuò hěn yǒu xìngqù.",
-      "sentenceEnglish": "He is very interested in diplomatic work.",
-      "vietnamese": "ngoại giao",
-      "sentenceVietnamese": "Anh ấy rất có hứng thú với công tác ngoại giao."
+      "en": "diplomacy, foreign affairs",
+      "vi": "ngoại giao",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "diplomacy; foreign affairs",
+          "sentence": "外交工作需要技巧。",
+          "pinyin": "wàijiāo gōngzuò xūyào jìqiǎo.",
+          "en": "Diplomacy requires skills.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "diplomacy; foreign affairs",
+          "sentence": "他從事外交工作多年。",
+          "pinyin": "tā cóngshì wàijiāo gōngzuò duōnián.",
+          "en": "He has worked in diplomacy for many years.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "人員",
       "pinyin": "rényuán",
-      "english": "staff, personnel",
-      "sentenceChinese": "公司的辦公人員都很忙。",
-      "sentencePinyin": "Gōngsī de bàngōng rényuán dōu hěn máng.",
-      "sentenceEnglish": "The office staff of the company are all very busy.",
-      "vietnamese": "nhân viên",
-      "sentenceVietnamese": "Nhân viên văn phòng của công ty đều rất bận."
+      "en": "staff, personnel",
+      "vi": "nhân viên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "staff",
+          "sentence": "他是公司的銷售人員。",
+          "pinyin": "tā shì gōngsī de xiāoshòu rényuán.",
+          "en": "He is the company's sales staff.",
+          "vi": "Anh ấy là nhân viên bán hàng của công ty."
+        },
+        {
+          "type": "Noun",
+          "meaning": "staff",
+          "sentence": "醫院需要更多的醫護人員。",
+          "pinyin": "yīyuàn xūyào gèng duō de yīhù rényuán.",
+          "en": "The hospital needs more medical staff.",
+          "vi": "Bệnh viện cần thêm nhiều nhân viên y tế."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "充實",
       "pinyin": "chōngshí",
-      "english": "to enrich, to strengthen",
-      "sentenceChinese": "我想利用暑假充實自己的能力。",
-      "sentencePinyin": "Wǒ xiǎng lìyòng shǔjià chōngshí zìjǐ de nénglì.",
-      "sentenceEnglish": "I want to use the summer vacation to enrich my abilities.",
-      "vietnamese": "làm phong phú / củng cố",
-      "sentenceVietnamese": "Tôi muốn tận dụng kỳ nghỉ hè để nâng cao năng lực của mình."
+      "en": "to enrich, to strengthen",
+      "vi": "làm phong phú / củng cố",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "rich; substantial",
+          "sentence": "他的經驗很充實。",
+          "pinyin": "tā de jīngyàn hěn chōngshí.",
+          "en": "He has a wealth of experience.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "rich; substantial",
+          "sentence": "這次旅行很充實。",
+          "pinyin": "zhè cì lǚxíng hěn chōngshí.",
+          "en": "This trip was very fulfilling.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "enrich; replenish; substantiate",
+          "sentence": "他在不斷充實自己。",
+          "pinyin": "tā zài bùduàn chōngshí zìjǐ.",
+          "en": "He is constantly learning and growing.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "enrich; replenish; substantiate",
+          "sentence": "閱讀可以充實知識。",
+          "pinyin": "yuèdú kěyǐ chōngshí zhīshi.",
+          "en": "Reading enriches one's knowledge.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "專業",
       "pinyin": "zhuānyè",
-      "english": "profession, specialisation",
-      "sentenceChinese": "這是一項非常專業的工作。",
-      "sentencePinyin": "Zhè shì yí xiàng fēicháng zhuānyè de gōngzuò.",
-      "sentenceEnglish": "This is a very professional job.",
-      "vietnamese": "chuyên nghiệp / chuyên môn",
-      "sentenceVietnamese": "Đây là một công việc rất chuyên nghiệp."
+      "en": "profession, specialisation",
+      "vi": "chuyên nghiệp / chuyên môn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "profession; special line; specialized trade",
+          "sentence": "那是個很專業的人。",
+          "pinyin": "nà shì gè hěn zhuānyè de rén.",
+          "en": "That's a very professional guy.",
+          "vi": "Đó là một người rất chuyên nghiệp."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "profession; special line; specialized trade",
+          "sentence": "他是一個專業的律師。",
+          "pinyin": "tā shì yīgè zhuānyè de lǜshī.",
+          "en": "He is a professional lawyer.",
+          "vi": "Anh ấy là một luật sư chuyên nghiệp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "profession; special line; specialized trade",
+          "sentence": "提供專業服務。",
+          "pinyin": "tígōng zhuānyè fúwù.",
+          "en": "Offer professional service。",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "profession; special line; specialized trade",
+          "sentence": "專業生産會議。",
+          "pinyin": "zhuānyè shēngchǎn huìyì.",
+          "en": "A conference on specialized trades.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "能力",
       "pinyin": "nénglì",
-      "english": "capacity, ability",
-      "sentenceChinese": "他工作的能力很強。",
-      "sentencePinyin": "Tā gōngzuò de nénglì hěn qiáng.",
-      "sentenceEnglish": "His work ability is very strong.",
-      "vietnamese": "năng lực",
-      "sentenceVietnamese": "Năng lực làm việc của anh ấy rất tốt."
+      "en": "capacity, ability",
+      "vi": "năng lực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ability; capacity; capability",
+          "sentence": "他有很強的能力。",
+          "pinyin": "tā yǒu hěn qiáng de nénglì.",
+          "en": "He has strong abilities.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "ability; capacity; capability",
+          "sentence": "她的能力很突齣。",
+          "pinyin": "tā de nénglì hěn túchū.",
+          "en": "Her abilities are outstanding.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "加拿大",
       "pinyin": "Jiānádà",
-      "english": "Canada",
-      "sentenceChinese": "他是從加拿大來的留學生。",
-      "sentencePinyin": "Tā shì cóng Jiānádà lái de liúxuéshēng.",
-      "sentenceEnglish": "He is an international student from Canada.",
-      "vietnamese": "Canada",
-      "sentenceVietnamese": "Anh ấy là du học sinh đến từ Canada."
+      "en": "Canada",
+      "vi": "Canada",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "canada",
+          "sentence": "我在加拿大留學。",
+          "pinyin": "wǒ zài jiānádà liúxué.",
+          "en": "I am studying in Canada.",
+          "vi": "Tôi du học tại Canada."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "canada",
+          "sentence": "她想去加拿大旅行。",
+          "pinyin": "tā xiǎng qù jiānádà lǚxíng.",
+          "en": "She wants to travel to Canada.",
+          "vi": "Cô ấy muốn đi du lịch Canada."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "企業管理系",
       "pinyin": "qìyè guǎnlǐ xì",
-      "english": "department of business management",
-      "sentenceChinese": "他是企業管理系的大學生。",
-      "sentencePinyin": "Tā shì qìyè guǎnlǐ xì de dàxuéshēng.",
-      "sentenceEnglish": "He is a university student in the Department of Business Management.",
-      "vietnamese": "khoa quản trị kinh doanh",
-      "sentenceVietnamese": "Anh ấy là sinh viên khoa quản trị kinh doanh."
+      "en": "department of business management",
+      "vi": "khoa quản trị kinh doanh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "enterprise; establishment; business",
+          "sentence": "企業需要創新來生存。",
+          "pinyin": "qǐyè xūyào chuàngxīn lái shēngcún.",
+          "en": "Enterprises need innovation to survive.",
+          "vi": "Doanh nghiệp cần đổi mới để tồn tại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "enterprise; establishment; business",
+          "sentence": "這傢企業有很多員工。",
+          "pinyin": "zhè jiā qǐ yè yǒu hěnduō yuángōng.",
+          "en": "This enterprise has many employees.",
+          "vi": "Doanh nghiệp này có nhiều nhân viên."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "國際關係",
       "pinyin": "guójì guānxì",
-      "english": "international relations",
-      "sentenceChinese": "在研究所念國際關係很辛苦。",
-      "sentencePinyin": "Zài yánjiùsuǒ niàn guójì guānxì hěn xīnkǔ.",
-      "sentenceEnglish": "Studying international relations in graduate school is very hard.",
-      "vietnamese": "quan hệ quốc tế",
-      "sentenceVietnamese": "Học quan hệ quốc tế ở bậc cao học rất vất vả."
+      "en": "international relations",
+      "vi": "quan hệ quốc tế",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "international relations",
+          "sentence": "近代國際關繫更加復雜。",
+          "pinyin": "jìndài guójì guānxi gèngjiā fùzá.",
+          "en": "International relations in modern times have become more complex.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "international relations",
+          "sentence": "地緣戰略影響國際關繫。",
+          "pinyin": "Dìyuán zhànlüè yǐngxiǎng guójì guānxi.",
+          "en": "Geopolitical strategy affects international relations.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "將來",
       "pinyin": "jiānglái",
-      "english": "the future",
-      "sentenceChinese": "你將來想做什麼？",
-      "sentencePinyin": "Nǐ jiānglái xiǎng zuò shénme?",
-      "sentenceEnglish": "What do you want to do in the future?",
-      "vietnamese": "tương lai",
-      "sentenceVietnamese": "Tương lai bạn muốn làm gì?"
+      "en": "the future",
+      "vi": "tương lai",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "(in the) future",
+          "sentence": "將來科技會更髮/發達。",
+          "pinyin": "jiānglái kējì huì gèng fādá.",
+          "en": "Technology will be more advanced in the future.",
+          "vi": "Tương lai công nghệ sẽ phát triển hơn."
+        },
+        {
+          "type": "n, time",
+          "meaning": "(in the) future",
+          "sentence": "他的將來充滿希望。",
+          "pinyin": "tā de jiānglái chōngmǎn xīwàng.",
+          "en": "His future is full of hope.",
+          "vi": "Tương lai của anh ấy đầy hy vọng."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "徵求",
       "pinyin": "zhēngqiú",
-      "english": "to seek, to invite applications for",
-      "sentenceChinese": "這家公司正在徵求業務人員。",
-      "sentencePinyin": "Zhè jiā gōngsī zhèngzài zhēngqiú yèwù rényuán.",
-      "sentenceEnglish": "This company is currently seeking sales staff.",
-      "vietnamese": "tuyển dụng / tìm kiếm",
-      "sentenceVietnamese": "Công ty này đang tuyển dụng nhân viên nghiệp vụ."
+      "en": "to seek, to invite applications for",
+      "vi": "tuyển dụng / tìm kiếm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "seek; solicit; ask for",
+          "sentence": "徵求用戶的意見。",
+          "pinyin": "zhēngqiú yònghù de yìjiàn.",
+          "en": "Seek users' opinions.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "seek; solicit; ask for",
+          "sentence": "我們徵求了員工的意見。",
+          "pinyin": "wǒmen zhēngqiúle yuángōng de yìjiàn.",
+          "en": "We solicited the opinions of employees.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "教師",
       "pinyin": "jiàoshī",
-      "english": "instructor",
-      "sentenceChinese": "王老師是一位很熱心的教師。",
-      "sentencePinyin": "Wáng lǎoshī shì yí wèi hěn rèxīn de jiàoshī.",
-      "sentenceEnglish": "Teacher Wang is a very enthusiastic instructor.",
-      "vietnamese": "giáo viên",
-      "sentenceVietnamese": "Thầy Vương là một giáo viên rất nhiệt tình."
+      "en": "instructor",
+      "vi": "giáo viên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "teacher; schoolteacher",
+          "sentence": "她是一位人民教師。",
+          "pinyin": "tā shì yī wèi rénmín jiàoshī.",
+          "en": "She is a dedicated teacher.",
+          "vi": "Cô ấy là một nhà giáo nhân dân."
+        },
+        {
+          "type": "Noun",
+          "meaning": "teacher; schoolteacher",
+          "sentence": "他的母親是一名小學教師。",
+          "pinyin": "tā de mǔqīn shì yī míng xiǎoxué jiàoshī.",
+          "en": "His mother is a primary school teacher.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "認為",
       "pinyin": "rènwéi",
-      "english": "to have the opinion that, to think",
-      "sentenceChinese": "我認為這份工作很適合你。",
-      "sentencePinyin": "Wǒ rènwéi zhè fèn gōngzuò hěn shìhé nǐ.",
-      "sentenceEnglish": "I think this job is very suitable for you.",
-      "vietnamese": "cho rằng / nghĩ rằng",
-      "sentenceVietnamese": "Tôi cho rằng công việc này rất hợp với bạn."
+      "en": "to have the opinion that, to think",
+      "vi": "cho rằng / nghĩ rằng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "think; consider; hold; deem",
+          "sentence": "你認為這是真的嗎？",
+          "pinyin": "nǐ rènwéi zhè shì zhēn de ma?",
+          "en": "Do you think this is true?",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "think; consider; hold; deem",
+          "sentence": "我認為他説的也對。",
+          "pinyin": "wǒ rènwéi tā shuō de yě duì.",
+          "en": "I think what he said is also correct.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "畢業",
       "pinyin": "bìyè",
-      "english": "to graduate",
-      "sentenceChinese": "他去年從大學畢業了。",
-      "sentencePinyin": "Tā qùnián cóng dàxué bìyè le.",
-      "sentenceEnglish": "He graduated from university last year.",
-      "vietnamese": "tốt nghiệp",
-      "sentenceVietnamese": "Anh ấy đã tốt nghiệp đại học năm ngoái."
+      "en": "to graduate",
+      "vi": "tốt nghiệp",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "graduate",
+          "sentence": "她明年畢業於大學。",
+          "pinyin": "tā míngnián bìyè yú dàxué.",
+          "en": "She will graduate from university next year.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "graduate",
+          "sentence": "他們一起慶祝畢業。",
+          "pinyin": "tāmen yīqǐ qìngzhù bìyè.",
+          "en": "They celebrated their graduation together.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "發展",
       "pinyin": "fāzhǎn",
-      "english": "to develop",
-      "sentenceChinese": "這家公司的發展很快。",
-      "sentencePinyin": "Zhè jiā gōngsī de fāzhǎn hěn kuài.",
-      "sentenceEnglish": "This company is growing very quickly.",
-      "vietnamese": "phát triển",
-      "sentenceVietnamese": "Sự phát triển của công ty này rất nhanh."
+      "en": "to develop",
+      "vi": "phát triển",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "grow; expand; advance; develop",
+          "sentence": "他想髮/發展自己的事業。",
+          "pinyin": "tā xiǎng fāzhǎn zìjǐ de shìyè.",
+          "en": "He wants to develop his career.",
+          "vi": "Anh ấy muốn phát triển sự nghiệp của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "grow; expand; advance; develop",
+          "sentence": "我們需要髮/發展教育。",
+          "pinyin": "wǒmen xūyào fāzhǎn jiàoyù.",
+          "en": "We need to develop education.",
+          "vi": "Chúng ta cần phát triển giáo dục."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "連",
       "pinyin": "lián",
-      "english": "even",
-      "sentenceChinese": "這個字太難了，連老師也不會念。",
-      "sentencePinyin": "Zhège zì tài nán le, lián lǎoshī yě bú huì niàn.",
-      "sentenceEnglish": "This character is so difficult that even the teacher doesn't know how to read it.",
-      "vietnamese": "đến cả / ngay cả",
-      "sentenceVietnamese": "Chữ này khó quá, đến cả thầy giáo cũng không biết đọc."
+      "en": "even",
+      "vi": "đến cả / ngay cả",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "link; join; connect",
+          "sentence": "這兩句話連不起來。",
+          "pinyin": "zhè liǎng jù huà lián bù qǐlái.",
+          "en": "These two sentences can't be connected.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "link; join; connect",
+          "sentence": "你應該先把兩條電線連起來。",
+          "pinyin": "nǐ yīnggāi xiān bǎ liǎng tiáo diànxiàn lián qǐlái.",
+          "en": "You should connect the two wires first.",
+          "vi": "Bạn nên nối hai dây điện này vào trước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "company",
+          "sentence": "一個營有三個連。",
+          "pinyin": "yīgè yíng yǒusān gè lián.",
+          "en": "A battalion has three companies.",
+          "vi": "Một tiểu đoàn có ba đại đội."
+        },
+        {
+          "type": "Noun",
+          "meaning": "company",
+          "sentence": "他在這個連服役兩年了。",
+          "pinyin": "tā zài zhège lián fúyì liǎng niánle.",
+          "en": "He has served in this company for two years.",
+          "vi": "Anh ấy đã phục vụ trong đại đội này hai năm rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "repeatedly; in succession; one after another",
+          "sentence": "她連説了好幾遍“沒事沒事”。",
+          "pinyin": "tā lián shuōle hǎojǐ biàn “méishì méishì”.",
+          "en": "She repeatedly said, \"It's okay, it's okay.\"",
+          "vi": "Cô ấy cứ liên tục nói \"không sao, không sao\"."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "repeatedly; in succession; one after another",
+          "sentence": "這部戲連演了一個多月了。",
+          "pinyin": "zhè bù xì lián yǎnle yīgè duō yuèle.",
+          "en": "This play has been performed for over a month.",
+          "vi": "Vở kịch này diễn liên tục hơn một tháng rồi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "including",
+          "sentence": "香蕉不能連皮吃/喫。",
+          "pinyin": "xiāngjiāo bùnéng lián pí chī.",
+          "en": "Bananas cannot be eaten with the peel.",
+          "vi": "Chuối không thể ăn cả vỏ."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "including",
+          "sentence": "連本子一共120塊錢。",
+          "pinyin": "lián běnzi yīgòng 120 kuài qián.",
+          "en": "Including the notebook, it's 120 yuan in total.",
+          "vi": "Tính cả quyển vở là 120 tệ."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "想法",
       "pinyin": "xiǎngfǎ",
-      "english": "thoughts, way of thinking, idea",
-      "sentenceChinese": "你有什麼好的想法嗎？",
-      "sentencePinyin": "Nǐ yǒu shénme hǎo de xiǎngfǎ ma?",
-      "sentenceEnglish": "Do you have any good ideas?",
-      "vietnamese": "cách nghĩ / ý tưởng",
-      "sentenceVietnamese": "Bạn có ý tưởng gì hay không?"
+      "en": "thoughts, way of thinking, idea",
+      "vi": "cách nghĩ / ý tưởng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "idea; opinion; thinking; notion; what one has in mind",
+          "sentence": "我有一個想法。",
+          "pinyin": "wǒ yǒu yīgè xiǎngfǎ.",
+          "en": "I have an idea.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "idea; opinion; thinking; notion; what one has in mind",
+          "sentence": "他有很多想法。",
+          "pinyin": "tā yǒu hěnduō xiǎngfǎ.",
+          "en": "He has many ideas.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "try; think of a way; do what one can",
+          "sentence": "父母要想法讓孩子喜歡學習。",
+          "pinyin": "fùmǔ yào xiǎngfǎ ràng háizi xǐhuan xuéxí.",
+          "en": "Parents should think of ways to make children like learning.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "try; think of a way; do what one can",
+          "sentence": "我們應該想法解決問題。",
+          "pinyin": "wǒmen yīnggāi xiǎngfǎ jiějué wèntí.",
+          "en": "We should think of ways to solve the problem.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "不但",
       "pinyin": "búdàn",
-      "english": "not only",
-      "sentenceChinese": "他不但會說中文，也會說日文。",
-      "sentencePinyin": "Tā búdàn huì shuō Zhōngwén, yě huì shuō Rìwén.",
-      "sentenceEnglish": "He can speak not only Chinese but also Japanese.",
-      "vietnamese": "không những",
-      "sentenceVietnamese": "Anh ấy không những biết nói tiếng Trung, mà còn biết nói tiếng Nhật."
+      "en": "not only",
+      "vi": "không những",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "not only...but also",
+          "sentence": "不但要看，而且要幫。",
+          "pinyin": "bùdàn yào kàn, érqiě yào bāng.",
+          "en": "One should not only observe but also help.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "not only...but also",
+          "sentence": "她不但漂亮，而且聰明。",
+          "pinyin": "tā bùdàn piàoliang, érqiě cōngmíng.",
+          "en": "She is not only beautiful but also intelligent.",
+          "vi": "Cô ấy không chỉ xinh đẹp mà còn thông minh."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "繼續",
       "pinyin": "jìxù",
-      "english": "to continue",
-      "sentenceChinese": "我想繼續在台灣學中文。",
-      "sentencePinyin": "Wǒ xiǎng jìxù zài Táiwān xué Zhōngwén.",
-      "sentenceEnglish": "I want to continue learning Chinese in Taiwan.",
-      "vietnamese": "tiếp tục",
-      "sentenceVietnamese": "Tôi muốn tiếp tục học tiếng Trung ở Đài Loan."
+      "en": "to continue",
+      "vi": "tiếp tục",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "continue; go on; keep on",
+          "sentence": "大雨繼續了三晝夜。",
+          "pinyin": "Dàyǔ jìxù le sān zhòu-yè.",
+          "en": "It rained heavily for three days and nights.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "continue; go on; keep on",
+          "sentence": "他吃/喫完飯後繼續工作。",
+          "pinyin": "tā chī wán fàn hòu jìxù gōngzuò.",
+          "en": "After his meal, he returned to work.",
+          "vi": "Anh ấy ăn xong lại tiếp tục làm việc."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "使用",
       "pinyin": "shǐyòng",
-      "english": "to make use of, to use",
-      "sentenceChinese": "這台電腦很容易使用。",
-      "sentencePinyin": "Zhè tái diànnǎo hěn róngyì shǐyòng.",
-      "sentenceEnglish": "This computer is very easy to use.",
-      "vietnamese": "sử dụng",
-      "sentenceVietnamese": "Chiếc máy tính này rất dễ sử dụng."
+      "en": "to make use of, to use",
+      "vi": "sử dụng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "use; employ; apply",
+          "sentence": "我不贊成使用武力。",
+          "pinyin": "wǒ bù zànchéng shǐyòng wǔlì.",
+          "en": "I do not support the use of force.",
+          "vi": "Tôi không ủng hộ việc sử dụng vũ lực."
+        },
+        {
+          "type": "Verb",
+          "meaning": "use; employ; apply",
+          "sentence": "我們要閤理使用資源。",
+          "pinyin": "wǒmen yào hélǐ shǐyòng zīyuán.",
+          "en": "We need to use resources rationally.",
+          "vi": "Chúng ta cần sử dụng tài nguyên hợp lý."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "實現",
       "pinyin": "shíxiàn",
-      "english": "to come true, to realize",
-      "sentenceChinese": "我的夢想終於實現了。",
-      "sentencePinyin": "Wǒ de mèngxiǎng zhōngyú shíxiàn le.",
-      "sentenceEnglish": "My dream has finally come true.",
-      "vietnamese": "thực hiện / hiện thực hóa",
-      "sentenceVietnamese": "Ước mơ của tôi cuối cùng đã trở thành hiện thực."
+      "en": "to come true, to realize",
+      "vi": "thực hiện / hiện thực hóa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reach; attain; realize; achieve; bring about; come true",
+          "sentence": "他實現了自己的夢想。",
+          "pinyin": "tā shíxiànle zìjǐ de mèngxiǎng.",
+          "en": "He has realized his dream.",
+          "vi": "Anh ta đã đạt được giấc mơ của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "reach; attain; realize; achieve; bring about; come true",
+          "sentence": "我們終於實現了目標。",
+          "pinyin": "wǒmen zhōngyú shíxiànle mùbiāo.",
+          "en": "We finally achieved our goal.",
+          "vi": "Chúng tôi đã thực hiện được mục tiêu."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "招待",
       "pinyin": "zhāodài",
-      "english": "to entertain, to play host to",
-      "sentenceChinese": "謝謝你今天的親切招待。",
-      "sentencePinyin": "Xièxiè nǐ jīntiān de qīnqiè zhāodài.",
-      "sentenceEnglish": "Thank you for your kind hospitality today.",
-      "vietnamese": "chiêu đãi / tiếp đón",
-      "sentenceVietnamese": "Cảm ơn sự tiếp đãi nồng hậu của bạn ngày hôm nay."
+      "en": "to entertain, to play host to",
+      "vi": "chiêu đãi / tiếp đón",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "serve; receive; entertain",
+          "sentence": "他在傢用音樂和餅幹招待她。",
+          "pinyin": "tā zài jiāyòng yīnyuè hé bǐnggān zhāodài tā.",
+          "en": "He entertains her at home with music and cookies.",
+          "vi": "Anh ấy chiêu đãi cô ấy bằng âm nhạc và bánh quy tại nhà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "serve; receive; entertain",
+          "sentence": "我們會儘力招待每一位客人。",
+          "pinyin": "wǒmen huì jìnlì zhāodài měi yī wèi kèrén.",
+          "en": "We will do our best to serve every guest.",
+          "vi": "Chúng tôi sẽ cố gắng tiếp đãi mỗi vị khách."
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "研究所",
       "pinyin": "yánjiùsuǒ",
-      "english": "graduate school",
-      "sentenceChinese": "他大學畢業後想考研究所。",
-      "sentencePinyin": "Tā dàxué bìyè hòu xiǎng kǎo yánjiùsuǒ.",
-      "sentenceEnglish": "He wants to apply to graduate school after finishing university.",
-      "vietnamese": "viện nghiên cứu / cao học",
-      "sentenceVietnamese": "Anh ấy muốn thi cao học sau khi tốt nghiệp đại học."
+      "en": "graduate school",
+      "vi": "viện nghiên cứu / cao học",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "research institute",
+          "sentence": "研究所在北京。",
+          "pinyin": "yánjiū suǒ zài běijīng.",
+          "en": "The research institute is in Beijing.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "research institute",
+          "sentence": "這個研究所很有名。",
+          "pinyin": "zhège yánjiū suǒ hěn yǒumíng.",
+          "en": "This research institute is very famous.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "聚",
       "pinyin": "jù",
-      "english": "to get together",
-      "sentenceChinese": "我們找時間聚一聚吧。",
-      "sentencePinyin": "Wǒmen zhǎo shíjiān jù yí jù ba.",
-      "sentenceEnglish": "Let's find some time to get together.",
-      "vietnamese": "tụ tập / họp mặt",
-      "sentenceVietnamese": "Chúng ta tìm thời gian họp mặt một chút đi."
+      "en": "to get together",
+      "vi": "tụ tập / họp mặt",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "gather; assemble; get together",
+          "sentence": "大傢聚在一起商量商量。",
+          "pinyin": "dàjiā jù zài yīqǐ shāngliang shāngliang.",
+          "en": "Let's get together and talk it over.",
+          "vi": "Mọi người tập hợp lại để bàn bạc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "gather; assemble; get together",
+          "sentence": "衕學們放學後聚到操場。",
+          "pinyin": "tóngxuémen fàngxué hòu jù dào cāochǎng.",
+          "en": "The students gathered on the playground after school.",
+          "vi": "Các bạn học sinh tụ tập đến sân chơi sau khi tan học."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓聚。",
+          "pinyin": "tā xìng jù.",
+          "en": "His surname is Ju.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "香港",
       "pinyin": "Xiānggǎng",
-      "english": "Hong Kong",
-      "sentenceChinese": "香港是一個很熱鬧的地方。",
-      "sentencePinyin": "Xiānggǎng shì yí ge hěn rènào de dìfāng.",
-      "sentenceEnglish": "Hong Kong is a very lively place.",
-      "vietnamese": "Hồng Kông",
-      "sentenceVietnamese": "Hồng Kông là một nơi rất náo nhiệt."
+      "en": "Hong Kong",
+      "vi": "Hồng Kông",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Hong Kong",
+          "sentence": "我很喜歡香港的美食。",
+          "pinyin": "wǒ hěn xǐhuan xiānggǎng de měishí.",
+          "en": "I really like Hong Kong food.",
+          "vi": "Tôi yêu đồ ăn Hong Kong."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Hong Kong",
+          "sentence": "香港有很多高樓大廈。",
+          "pinyin": "xiānggǎng yǒu hěnduō gāolóu dàshà.",
+          "en": "Hong Kong is full of skyscrapers.",
+          "vi": "Hong Kong có rất nhiều tòa nhà cao tầng."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "上海",
       "pinyin": "Shànghǎi",
-      "english": "Shanghai",
-      "sentenceChinese": "上海的發展非常快。",
-      "sentencePinyin": "Shànghǎi de fāzhǎn fēicháng kuài.",
-      "sentenceEnglish": "Shanghai's development is extremely fast.",
-      "vietnamese": "Thượng Hải",
-      "sentenceVietnamese": "Thượng Hải phát triển rất nhanh."
+      "en": "Shanghai",
+      "vi": "Thượng Hải",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Shanghai municipality, central east China",
+          "sentence": "他在上海工作了多年。",
+          "pinyin": "tā zài shànghǎi gōngzuòle duōnián.",
+          "en": "He has worked in Shanghai for many years.",
+          "vi": "Anh ấy đã làm việc ở Thượng Hải nhiều năm."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Shanghai municipality, central east China",
+          "sentence": "上海的夜景非常迷人。",
+          "pinyin": "shànghǎi de yèjǐng fēicháng mírén.",
+          "en": "The night view of Shanghai is very charming.",
+          "vi": "Khung cảnh về đêm của Thượng Hải rất mê người."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "說到",
       "pinyin": "shuōdào",
-      "english": "to mention",
-      "sentenceChinese": "說到學中文，他很有心得。",
-      "sentencePinyin": "Shuōdào xué Zhōngwén, tā hěn yǒu xīndé.",
-      "sentenceEnglish": "When it comes to learning Chinese, he has a lot of experience.",
-      "vietnamese": "nói đến",
-      "sentenceVietnamese": "Nói đến học tiếng Trung, anh ấy có rất nhiều kinh nghiệm."
+      "en": "to mention",
+      "vi": "nói đến",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "mention",
+          "sentence": "我説到我的夢想。",
+          "pinyin": "wǒ shuō dào wǒ de mèngxiǎng.",
+          "en": "I mentioned my dream.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "mention",
+          "sentence": "他説到他的愛好。",
+          "pinyin": "tā shuō dào tā de àihào.",
+          "en": "He mentioned his hobby.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "念完",
       "pinyin": "niànwán",
-      "english": "to complete (an academic program)",
-      "sentenceChinese": "他念完大學就回國了。",
-      "sentencePinyin": "Tā niànwán dàxué jiù huíguó le.",
-      "sentenceEnglish": "He went back to his country after finishing university.",
-      "vietnamese": "học xong",
-      "sentenceVietnamese": "Anh ấy học xong đại học là về nước luôn."
+      "en": "to complete (an academic program)",
+      "vi": "học xong",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "whole; intact",
+          "sentence": "她的報告內容很完整。",
+          "pinyin": "tā de bàogào nèiróng hěn wánzhěng.",
+          "en": "The content of her report is very complete.",
+          "vi": "Nội dung báo cáo của cô ấy rất đầy đủ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "whole; intact",
+          "sentence": "這個包還完好無損。",
+          "pinyin": "zhège bāo hái wánhǎo wúsǔn.",
+          "en": "This bag is still intact and undamaged.",
+          "vi": "Cái túi này vẫn nguyên vẹn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "end; finish; complete",
+          "sentence": "他把作業很快完成了。",
+          "pinyin": "tā bǎ zuòyè hěn kuài wánchéngle.",
+          "en": "He quickly finished the homework.",
+          "vi": "Anh ấy đã nhanh chóng hoàn thành bài tập."
+        },
+        {
+          "type": "Verb",
+          "meaning": "end; finish; complete",
+          "sentence": "這個小説完稿了嗎？",
+          "pinyin": "zhège xiǎoshuō wángǎole ma?",
+          "en": "Has this novel been finished?",
+          "vi": "Cuốn tiểu thuyết này xong chưa?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "完先生是我的老師。",
+          "pinyin": "wán xiānshēng shì wǒ de lǎoshī.",
+          "en": "Mr. Wan is my teacher.",
+          "vi": "Ông Hoàn là thầy giáo của tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的鄰居姓完。",
+          "pinyin": "wǒ de línjū xìng wán.",
+          "en": "My neighbor’s surname is Wan.",
+          "vi": "Hàng xóm của tôi họ Hoàn."
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "分公司",
       "pinyin": "fēngōngsī",
-      "english": "branch office",
-      "sentenceChinese": "這家公司在上海有分公司。",
-      "sentencePinyin": "Zhè jiā gōngsī zài Shànghǎi yǒu fēngōngsī.",
-      "sentenceEnglish": "This company has a branch office in Shanghai.",
-      "vietnamese": "chi nhánh công ty",
-      "sentenceVietnamese": "Công ty này có chi nhánh ở Thượng Hải."
+      "en": "branch office",
+      "vi": "chi nhánh công ty",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "branch office (BO); branch (or affiliated) company",
+          "sentence": "他負責管理分公司。",
+          "pinyin": "tā fùzé guǎnlǐ fēn gōngsī.",
+          "en": "He is responsible for managing the branch office.",
+          "vi": "Anh ấy phụ trách quản lý chi nhánh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "branch office (BO); branch (or affiliated) company",
+          "sentence": "分公司正在招聘員工。",
+          "pinyin": "fēn gōngsī zhèngzài zhāopìn yuángōng.",
+          "en": "The branch office is hiring employees.",
+          "vi": "Chi nhánh đang tuyển dụng nhân viên."
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "捨不得",
       "pinyin": "shěbùde",
-      "english": "reluctant to part with",
-      "sentenceChinese": "我要回國了，真捨不得大家。",
-      "sentencePinyin": "Wǒ yào huíguó le, zhēn shěbùde dàjiā.",
-      "sentenceEnglish": "I'm going home; I'm really reluctant to part with everyone.",
-      "vietnamese": "lưu luyến / không nỡ rời xa",
-      "sentenceVietnamese": "Tôi sắp về nước rồi, thật sự không nỡ xa mọi người."
+      "en": "reluctant to part with",
+      "vi": "lưu luyến / không nỡ rời xa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "grudge; hate to part with or use",
+          "sentence": "瑪麗幾乎捨不得離開他。",
+          "pinyin": "mǎlì jīhū shěbude líkāi tā.",
+          "en": "Mary almost couldn't bear to leave him.",
+          "vi": "Mary dường như không nỡ rời xa anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "grudge; hate to part with or use",
+          "sentence": "我們都捨不得離開公司。",
+          "pinyin": "wǒmen dōu shěbude líkāi gōngsī.",
+          "en": "None of us wanted to leave the company.",
+          "vi": "Chúng tôi đều không nỡ rời công ty."
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "聚一聚",
       "pinyin": "jù yí jù",
-      "english": "get together",
-      "sentenceChinese": "過年的時候，大家一定要聚一聚。",
-      "sentencePinyin": "Guònián de shíhòu, dàjiā yídìng yào jù yí jù.",
-      "sentenceEnglish": "Everyone must get together during the Lunar New Year.",
-      "vietnamese": "tụ họp / họp mặt một chút",
-      "sentenceVietnamese": "Lúc Tết, mọi người nhất định phải họp mặt một chút."
+      "en": "get together",
+      "vi": "tụ họp / họp mặt một chút",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "meet; get together",
+          "sentence": "衕學們經常聚會。",
+          "pinyin": "tóngxuémen jīngcháng jùhuì.",
+          "en": "Students often get together.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "meet; get together",
+          "sentence": "節日時大傢聚會。",
+          "pinyin": "jiérì shí dàjiā jùhuì.",
+          "en": "People get together on festivals.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "meeting; gathering; get-together",
+          "sentence": "我們週末有個聚會。",
+          "pinyin": "wǒmen zhōumò yǒu gè jùhuì.",
+          "en": "We have a gathering this weekend.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "meeting; gathering; get-together",
+          "sentence": "在除夕，我們班有個聚會。",
+          "pinyin": "zài chúxi, wǒmen bān yǒu gè jùhuì.",
+          "en": "On New Year's Eve, our class had a party.",
+          "vi": ""
+        }
+      ]
     }
   ]
 }

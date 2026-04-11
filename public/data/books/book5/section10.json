@@ -7,959 +7,2375 @@
       "id": 1,
       "chinese": "大稻埕",
       "pinyin": "Dàdàochéng",
-      "english": "Dadaocheng (historic district in Taipei)",
-      "sentenceChinese": "大稻埕是台北最具歷史風情的地區之一。",
-      "sentencePinyin": "Dàdàochéng shì Táiběi zuì jù lìshǐ fēngqíng de dìqū zhī yī.",
-      "sentenceEnglish": "Dadaocheng is one of the most historic districts in Taipei.",
-      "vietnamese": "Đại Đạo Trình",
-      "sentenceVietnamese": "Đại Đạo Trình là một trong những khu vực mang đậm phong vị lịch sử nhất tại Đài Bắc."
+      "en": "Dadaocheng (historic district in Taipei)",
+      "vi": "Đại Đạo Trình",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rice; paddy (rice)",
+          "sentence": "農民在收割水稻。",
+          "pinyin": "nóngmín zài shōugē shuǐdào.",
+          "en": "The farmers are harvesting rice.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "rice; paddy (rice)",
+          "sentence": "水稻長得很快。",
+          "pinyin": "shuǐdào zhǎng de hěn kuài.",
+          "en": "The rice grows very quickly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "文創",
       "pinyin": "wénchuàng",
-      "english": "cultural and creative (industry)",
-      "sentenceChinese": "許多文創品牌選擇進駐老舊的建築中。",
-      "sentencePinyin": "Xǔduō wénchuàng pǐnpái xuǎnzé jìnzhù lǎojiù de jiànzhù zhōng.",
-      "sentenceEnglish": "Many cultural and creative brands choose to settle in old buildings.",
-      "vietnamese": "sáng tạo văn hóa",
-      "sentenceVietnamese": "Nhiều thương hiệu sáng tạo văn hóa chọn gia nhập vào các kiến trúc cổ xưa."
+      "en": "cultural and creative (industry)",
+      "vi": "sáng tạo văn hóa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "create; produce; bring about",
+          "sentence": "公司創造了曆史性記彔。",
+          "pinyin": "gōngsī chuàngzàole lìshǐ xìng jìlù.",
+          "en": "The company set a historic record.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "create; produce; bring about",
+          "sentence": "我們正在創造一個奇跡。",
+          "pinyin": "wǒmen zhèngzài chuàngzào yīgè qíjī.",
+          "en": "We are creating a miracle.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "creation; innovation",
+          "sentence": "這本書是他的傑齣創造。",
+          "pinyin": "zhè běn shū shì tā de jiéchū chuàngzào.",
+          "en": "This book is his outstanding creation.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "creation; innovation",
+          "sentence": "他的創造穫得了大獎。",
+          "pinyin": "tā de chuàngzào huòdéle dàjiǎng.",
+          "en": "His creation received a major award.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "新銳",
       "pinyin": "xīnruì",
-      "english": "cutting-edge; up-and-coming",
-      "sentenceChinese": "這位新銳設計師的作品非常有創意。",
-      "sentencePinyin": "Zhè wèi xīnruì shèjìshī de zuòpǐn fēicháng yǒu chuàngyì.",
-      "sentenceEnglish": "This up-and-coming designer's work is very creative.",
-      "vietnamese": "mới nổi, tinh nhuệ",
-      "sentenceVietnamese": "Tác phẩm của nhà thiết kế mới nổi này vô cùng sáng tạo."
+      "en": "cutting-edge; up-and-coming",
+      "vi": "mới nổi, tinh nhuệ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "cutting-edge (in technology, science, fashion, the arts etc)",
+          "sentence": "我們是行業新銳團隊。",
+          "pinyin": "Wǒmen shì hángyè xīn ruì tuánduì.",
+          "en": "We are a cutting-edge team in the industry.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "new and dashing",
+          "sentence": "他是音樂界的新銳。",
+          "pinyin": "Tā shì yīn yuè jiè de xīn ruì.",
+          "en": "He is a rising new talent in the music world.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "進駐",
       "pinyin": "jìnzhù",
-      "english": "to enter; to be stationed in",
-      "sentenceChinese": "連鎖咖啡店最近進駐了這條街道。",
-      "sentencePinyin": "Liánsuǒ kāfēidiàn zuìjìn jìnzhù le zhè tiáo jiēdào.",
-      "sentenceEnglish": "A chain coffee shop recently moved onto this street.",
-      "vietnamese": "gia nhập, tiến vào",
-      "sentenceVietnamese": "Một chuỗi quán cà phê gần đây đã gia nhập vào con phố này."
+      "en": "to enter; to be stationed in",
+      "vi": "gia nhập, tiến vào",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "enter and be stationed in; enter and garrison",
+          "sentence": "部隊已進駐該市。",
+          "pinyin": "Bùduì yǐ jìnzhù gāi shì.",
+          "en": "Troops have been garrisoned in that city.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "(fig.) to establish a presence in",
+          "sentence": "公司將進駐新園區。",
+          "pinyin": "Gōngsī jiāng jìn zhù xīn yuánqū.",
+          "en": "The company will establish a presence in the new park.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "古宅",
       "pinyin": "gǔzhái",
-      "english": "ancient residence",
-      "sentenceChinese": "修復古宅需要耗費大量的人力與物力。",
-      "sentencePinyin": "Xiūfù gǔzhái xūyào hàofèi dàliàng de rénlì hàn wùlì.",
-      "sentenceEnglish": "Restoring ancient residences requires a vast amount of manpower and resources.",
-      "vietnamese": "nhà cổ",
-      "sentenceVietnamese": "Trùng tu nhà cổ cần tiêu tốn một lượng lớn nhân lực và vật lực."
+      "en": "ancient residence",
+      "vi": "nhà cổ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "former residence",
+          "sentence": "這座古宅保存得很好。",
+          "pinyin": "Zhè zuò gǔ zhái bǎocún dé hěn hǎo.",
+          "en": "This old house is well preserved.",
+          "vi": "Ngôi nhà cổ này được bảo tồn rất tốt."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "大排長龍",
       "pinyin": "dàpái chánglóng",
-      "english": "to queue in a long line",
-      "sentenceChinese": "這家小吃店每天門口都大排長龍。",
-      "sentencePinyin": "Zhè jiā xiǎochīdiàn měitiān ménkǒu dōu dàpái chánglóng.",
-      "sentenceEnglish": "People queue in long lines at the entrance of this snack shop every day.",
-      "vietnamese": "xếp hàng rồng rắn",
-      "sentenceVietnamese": "Quán ăn vặt này ngày nào cửa ra vào cũng xếp hàng rồng rắn."
+      "en": "to queue in a long line",
+      "vi": "xếp hàng rồng rắn",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "to form a long queue (idiom)",
+          "sentence": "超市前麵大排長龍。",
+          "pinyin": "chāo shì qián miàn dà pái cháng lóng",
+          "en": "There is a long queue in front of the supermarket.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "美食",
       "pinyin": "měishí",
-      "english": "gourmet food",
-      "sentenceChinese": "迪化街除了南北貨，還有許多道地美食。",
-      "sentencePinyin": "Díhuà jiē chúle nánběihuò, hái yǒu xǔduō dàodì měishí.",
-      "sentenceEnglish": "Besides dried goods, Dihua Street also has many authentic gourmet foods.",
-      "vietnamese": "đồ ăn ngon",
-      "sentenceVietnamese": "Phố Địch Hóa ngoài đồ khô còn có rất nhiều món ngon chuẩn vị."
+      "en": "gourmet food",
+      "vi": "đồ ăn ngon",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "delicacy; delicious food",
+          "sentence": "我喜歡品嘗美食。",
+          "pinyin": "wǒ xǐhuān pǐncháng měishí.",
+          "en": "I like tasting delicious food.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "delicacy; delicious food",
+          "sentence": "我們去享受美食。",
+          "pinyin": "wǒmen qù xiǎngshòu měishí.",
+          "en": "Let's enjoy delicious food.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "魅力",
       "pinyin": "mèilì",
-      "english": "charm; charisma",
-      "sentenceChinese": "老屋改建後的空間散發著獨特的魅力。",
-      "sentencePinyin": "Lǎowū gǎijiàn hòu de kōngjiān sànfà zhe dútè de mèilì.",
-      "sentenceEnglish": "The space after the old house renovation exudes a unique charm.",
-      "vietnamese": "mê lực, sức quyến rũ",
-      "sentenceVietnamese": "Không gian sau khi cải tạo nhà cũ tỏa ra sức quyến rũ độc đáo."
+      "en": "charm; charisma",
+      "vi": "mê lực, sức quyến rũ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "charm; spell; glamour; witchery; charisma; witchcraft; winsomeness; fascination; enchantment",
+          "sentence": "她的笑容充滿了魅力。",
+          "pinyin": "tā de xiàoróng chōngmǎnle mèilì.",
+          "en": "Her smile is full of charm.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "charm; spell; glamour; witchery; charisma; witchcraft; winsomeness; fascination; enchantment",
+          "sentence": "他擁有非凡的個人魅力。",
+          "pinyin": "tā yǒngyǒu fēifán de gèrén mèilì.",
+          "en": "He has extraordinary charisma.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "戲院",
       "pinyin": "xìyuàn",
-      "english": "theater",
-      "sentenceChinese": "以前這座地區曾有好幾家著名的老戲院。",
-      "sentencePinyin": "Yǐqián zhè zuò dìqū céng yǒu hǎo jǐ jiā zhùmíng de lǎo xìyuàn.",
-      "sentenceEnglish": "This area used to have several famous old theaters.",
-      "vietnamese": "nhà hát, rạp hát",
-      "sentenceVietnamese": "Trước đây khu vực này từng có vài nhà hát cũ nổi tiếng."
+      "en": "theater",
+      "vi": "nhà hát, rạp hát",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "theater; movie theater",
+          "sentence": "附近新開了一傢戲院。",
+          "pinyin": "fù jìn xīn kāi le yī jiā xì yuàn",
+          "en": "A new theater opened nearby",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "theater; movie theater",
+          "sentence": "我們去汽車戲院看電影吧。",
+          "pinyin": "Wǒmen qù qìchē xìyuàn kàn diànyǐng ba.",
+          "en": "Let's go to the drive-in theater to watch a movie.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "改建",
       "pinyin": "gǎijiàn",
-      "english": "to rebuild; renovate",
-      "sentenceChinese": "這棟廢棄工廠被改建成了藝術空間。",
-      "sentencePinyin": "Zhè dòng fèiqì gōngchǎng bèi gǎijiàn chéng le yìshù kōngjiān.",
-      "sentenceEnglish": "This abandoned factory was renovated into an art space.",
-      "vietnamese": "cải tạo xây dựng",
-      "sentenceVietnamese": "Nhà máy bỏ hoang này đã được cải tạo thành không gian nghệ thuật."
+      "en": "to rebuild; renovate",
+      "vi": "cải tạo xây dựng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reconstruct; rebuild; transform",
+          "sentence": "把倉庫改建為廠房。",
+          "pinyin": "Bǎ cāngkù gǎijiàn wéi chǎngfáng",
+          "en": "Transform a storehouse into a workshop",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "reconstruct; rebuild; transform",
+          "sentence": "改建計劃尚不成形。",
+          "pinyin": "gǎi jiàn jì huà shàng bù chéng xíng.",
+          "en": "The plan of reconstruction has not taken on the shape yet.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "休閒",
       "pinyin": "xiūxián",
-      "english": "leisure",
-      "sentenceChinese": "週末去大稻埕散步是一種很棒的休閒活動。",
-      "sentencePinyin": "Zhōumò qù Dàdàochéng sànbù shì yì zhǒng hěn bàng de xiūxián huódòng.",
-      "sentenceEnglish": "Taking a stroll in Dadaocheng on weekends is a great leisure activity.",
-      "vietnamese": "nghỉ ngơi, thư giãn",
-      "sentenceVietnamese": "Đi dạo ở Đại Đạo Trình vào cuối tuần là một hoạt động thư giãn tuyệt vời."
+      "en": "leisure",
+      "vi": "nghỉ ngơi, thư giãn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "leisure; go on holidays; enjoy one's free time",
+          "sentence": "她喜歡在海邊休閒。",
+          "pinyin": "tā xǐhuan zài hǎibiān xiūxián.",
+          "en": "She likes to relax by the seaside.",
+          "vi": "Cô ấy thích thư giãn bên bờ biển."
+        },
+        {
+          "type": "Verb",
+          "meaning": "leisure; go on holidays; enjoy one's free time",
+          "sentence": "看電視是一種休閒方式。",
+          "pinyin": "kàn diànshì shì yī zhǒng xiūxián fāngshì.",
+          "en": "Watching TV is a way of leisure.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "老街",
       "pinyin": "lǎojiē",
-      "english": "old street",
-      "sentenceChinese": "這條老街完整地保留了清代的建築風格。",
-      "sentencePinyin": "Zhè tiáo lǎojiē wánzhěng de bǎoliú le Qīngdài de jiànzhú fēnggé.",
-      "sentenceEnglish": "This old street has completely preserved the architectural style of the Qing Dynasty.",
-      "vietnamese": "phố cổ",
-      "sentenceVietnamese": "Con phố cổ này lưu giữ trọn vẹn phong cách kiến trúc thời nhà Thanh."
+      "en": "old street",
+      "vi": "phố cổ",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Lao Cai, Vietnam",
+          "sentence": "我想去老街省旅遊。",
+          "pinyin": "wǒ xiǎng qù lǎo jiē shěng lǚyóu.",
+          "en": "I want to travel to Lao Cai province.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Lao Cai, Vietnam",
+          "sentence": "老街的旅遊資源豐富。",
+          "pinyin": "lǎo jiē de lǚyóu zīyuán fēngfù.",
+          "en": "Lao Cai has abundant tourism resources.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "保存",
       "pinyin": "bǎocún",
-      "english": "to preserve",
-      "sentenceChinese": "我們必須努力保存這些珍貴的文化資產。",
-      "sentencePinyin": "Wǒmen bìxū nǔlì bǎocún zhèxiē zhēnguì de wénhuà zīchǎn.",
-      "sentenceEnglish": "We must work hard to preserve these precious cultural assets.",
-      "vietnamese": "bảo tồn",
-      "sentenceVietnamese": "Chúng ta phải nỗ lực bảo tồn những tài sản văn hóa quý giá này."
+      "en": "to preserve",
+      "vi": "bảo tồn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "save; preserve; conserve",
+          "sentence": "他保存了所有的照片。",
+          "pinyin": "tā bǎocúnle suǒyǒu de zhàopiàn.",
+          "en": "He saved all the photos.",
+          "vi": "Anh ấy đã lưu tất cả các bức ảnh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "save; preserve; conserve",
+          "sentence": "請儘快保存這份文件。",
+          "pinyin": "qǐng jǐnkuài bǎocún zhè fèn wénjiàn.",
+          "en": "Please save this document as soon as possible.",
+          "vi": "Hãy nhanh chóng lưu lại tài liệu này."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "面貌",
       "pinyin": "miànmào",
-      "english": "appearance; facade",
-      "sentenceChinese": "都市更新改變了城市的整體面貌。",
-      "sentencePinyin": "Dūshì gēngxīn gǎibiàn le chéngshì de zhěngtǐ miànmào.",
-      "sentenceEnglish": "Urban renewal has changed the overall appearance of the city.",
-      "vietnamese": "diện mạo",
-      "sentenceVietnamese": "Quy hoạch đô thị đã thay đổi diện mạo tổng thể của thành phố."
+      "en": "appearance; facade",
+      "vi": "diện mạo",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "face; features",
+          "sentence": "他們的麵貌很相似。",
+          "pinyin": "tāmen de miànmào hěn xiāngsì.",
+          "en": "Their appearances are very similar.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "face; features",
+          "sentence": "那個人的麵貌很清秀。",
+          "pinyin": "nàgè rén de miànmào hěn qīngxiù.",
+          "en": "That person has a delicate and refined appearance.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "不僅",
       "pinyin": "bùjǐn",
-      "english": "not only",
-      "sentenceChinese": "他不僅會寫程式，還很懂介面設計。",
-      "sentencePinyin": "Tā bùjǐn huì xiě chéngshì, hái hěn dǒng jièmiàn shèjì.",
-      "sentenceEnglish": "He can not only write code but also understands UI design very well.",
-      "vietnamese": "không chỉ",
-      "sentenceVietnamese": "Anh ấy không chỉ biết lập trình mà còn rất am hiểu thiết kế giao diện."
+      "en": "not only",
+      "vi": "không chỉ",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "not only (in number, amount or extent)",
+          "sentence": "反對這事兒的，不僅他一人。",
+          "pinyin": "fǎnduì zhè shìr de, bùjǐn tā yīrén.",
+          "en": "He is not the only one opposing this.",
+          "vi": "Không chỉ mình anh ấy phản đối việc này."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "not only (in number, amount or extent)",
+          "sentence": "不僅我生氣，大傢都很生氣。",
+          "pinyin": "bùjǐn wǒ shēngqì, dàjiā dōu hěn shēngqì.",
+          "en": "Not only am I angry, but everyone is also very angry.",
+          "vi": "Không chỉ tôi tức giận, mọi người đều rất tức giận."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "not only",
+          "sentence": "我不僅會中文，還會英語。",
+          "pinyin": "wǒ bùjǐn huì zhōngwén, hái huì yīngyǔ.",
+          "en": "I not only speak Chinese but also English.",
+          "vi": "Tôi không chỉ biết tiếng Trung, mà còn biết tiếng Anh."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "not only",
+          "sentence": "她不僅漂亮，身材也很好。",
+          "pinyin": "tā bùjǐn piàoliang, shēncái yě hěn hǎo.",
+          "en": "She is not only beautiful but also has a great figure.",
+          "vi": "Cô ấy không chỉ xinh mà còn có vóc dáng rất đẹp."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "連結",
       "pinyin": "liánjié",
-      "english": "to link; connect",
-      "sentenceChinese": "這座橋連結了河的兩岸。",
-      "sentencePinyin": "Zhè zuò qiáo liánjié le hé de liǎng'àn.",
-      "sentenceEnglish": "This bridge links the two banks of the river.",
-      "vietnamese": "liên kết",
-      "sentenceVietnamese": "Cây cầu này liên kết hai bờ sông."
+      "en": "to link; connect",
+      "vi": "liên kết",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "join; connect; link; bind",
+          "sentence": "這條橋連結兩岸。",
+          "pinyin": "zhè tiáo qiáo liánjié liǎng'àn.",
+          "en": "This bridge connects the two banks.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "join; connect; link; bind",
+          "sentence": "我們連結了兩座城市。",
+          "pinyin": "wǒmen liánjiéle liǎng zuò chéngshì.",
+          "en": "We connected two cities.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "情感",
       "pinyin": "qínggǎn",
-      "english": "emotion; sentiment",
-      "sentenceChinese": "這首歌勾起了他深藏在內心的情感。",
-      "sentencePinyin": "Zhè shǒu gē gōuqǐ le tā shēncáng zài nèixīn de qínggǎn.",
-      "sentenceEnglish": "This song evoked the deep emotions hidden in his heart.",
-      "vietnamese": "tình cảm",
-      "sentenceVietnamese": "Bài hát này đã khơi gợi tình cảm chôn giấu trong lòng anh ấy."
+      "en": "emotion; sentiment",
+      "vi": "tình cảm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "emotion; feeling",
+          "sentence": "情感交流對關繫很重要。",
+          "pinyin": "qínggǎn jiāoliú duì guānxi hěn zhòngyào.",
+          "en": "Emotional communication is crucial for relationships.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "emotion; feeling",
+          "sentence": "他的情感體驗非常豐富。",
+          "pinyin": "tā de qínggǎn tǐyàn fēicháng fēngfù.",
+          "en": "His emotional experiences are very rich.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "活力",
       "pinyin": "huólì",
-      "english": "vitality; energy",
-      "sentenceChinese": "年輕人的加入為這個團隊注入了新的活力。",
-      "sentencePinyin": "Niánqīngrén de jiārù wèi zhè ge tuánduì zhùrù le xīn de huólì.",
-      "sentenceEnglish": "The addition of young people has injected new vitality into this team.",
-      "vietnamese": "hoạt lực, sức sống",
-      "sentenceVietnamese": "Sự gia nhập của những người trẻ đã tiếp thêm sức sống mới cho đội ngũ này."
+      "en": "vitality; energy",
+      "vi": "hoạt lực, sức sống",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "vigour; vitality; energy",
+          "sentence": "她總是充滿活力。",
+          "pinyin": "tā zǒng shì chōngmǎn huólì.",
+          "en": "She's always full of energy.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "vigour; vitality; energy",
+          "sentence": "這些年輕人很有活力。",
+          "pinyin": "zhèxiē niánqīng rén hěn yǒu huólì.",
+          "en": "These young people are very dynamic.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "現狀",
       "pinyin": "xiànzhuàng",
-      "english": "current state; status quo",
-      "sentenceChinese": "我們不能滿足於現狀，必須持續進步。",
-      "sentencePinyin": "Wǒmen bùnéng mǎnzú yú xiànzhuàng, bìxū chíxù jìnbù.",
-      "sentenceEnglish": "We cannot be satisfied with the status quo; we must continue to improve.",
-      "vietnamese": "hiện trạng",
-      "sentenceVietnamese": "Chúng ta không thể thỏa mãn với hiện trạng, phải tiếp tục tiến bộ."
+      "en": "current state; status quo",
+      "vi": "hiện trạng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "present situation; current situation",
+          "sentence": "公司正在努力維持現狀。",
+          "pinyin": "gōngsī zhèngzài nǔlì wéichí xiànzhuàng.",
+          "en": "The company is making efforts to preserve the current situation.",
+          "vi": "Công ty đang nỗ lực duy trì hiện trạng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "present situation; current situation",
+          "sentence": "他想通過創新來打破現狀。",
+          "pinyin": "tā xiǎng tōngguò chuàngxīn lái dǎpò xiànzhuàng.",
+          "en": "He wants to change the current situation through innovation.",
+          "vi": "Ông ấy muốn phá vỡ hiện trạng thông qua đổi mới."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "甚至",
       "pinyin": "shènzhì",
-      "english": "even; so much so that",
-      "sentenceChinese": "他忙到甚至忘了吃中飯。",
-      "sentencePinyin": "Tā máng dào shènzhì wàng le chī zhōngfàn.",
-      "sentenceEnglish": "He was so busy that he even forgot to eat lunch.",
-      "vietnamese": "thậm chí",
-      "sentenceVietnamese": "Anh ấy bận đến mức thậm chí quên cả ăn trưa."
+      "en": "even; so much so that",
+      "vi": "thậm chí",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "and even; not even",
+          "sentence": "這一點對物理學甚至更適用。",
+          "pinyin": "zhè yī diǎn duì wù lǐ xué shèn zhì gèng shì yòng.",
+          "en": "This applies even more to physics.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and even; not even",
+          "sentence": "她甚至連 “再見”都沒説就走了。",
+          "pinyin": "tā shènzhì lián “zàijiàn” dōu méi shuō jiù zǒule.",
+          "en": "She left without so much as saying “good-bye”.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "由於",
       "pinyin": "yóuyú",
-      "english": "due to; because of",
-      "sentenceChinese": "由於天氣不佳，航班被迫取消。",
-      "sentencePinyin": "Yóuyú tiānqì bùjiā, hángbān bèipò qǔxiāo.",
-      "sentenceEnglish": "Due to poor weather, the flight was forced to be canceled.",
-      "vietnamese": "do, bởi vì",
-      "sentenceVietnamese": "Do thời tiết không thuận lợi, chuyến bay đã buộc phải hủy bỏ."
+      "en": "due to; because of",
+      "vi": "do, bởi vì",
+      "samples": [
+        {
+          "type": "Preposition",
+          "meaning": "due to; thanks to; owing to; in virtue of; as a result of",
+          "sentence": "他由於工作壓力而生病。",
+          "pinyin": "tā yóuyú gōngzuò yālì ér shēngbìng.",
+          "en": "He became ill due to work stress.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "due to; thanks to; owing to; in virtue of; as a result of",
+          "sentence": "他由於吃/喫太多而髮/發胖。",
+          "pinyin": "tā yóuyú chī tài duō ér fāpàng.",
+          "en": "He gained weight because he ate too much.",
+          "vi": "Anh ấy tăng cân vì ăn quá nhiều."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "because; since",
+          "sentence": "由於沒有錢, 所以他退學了。",
+          "pinyin": "yóuyú méiyǒu qián, suǒyǐ tā tuìxuéle.",
+          "en": "Because he had no money, he dropped out of school.",
+          "vi": "Vì không có tiền, nên anh ấy đã bỏ học."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "because; since",
+          "sentence": "由於下雨，計劃取消了。",
+          "pinyin": "yóuyú xià yǔ, jìhuà qǔxiāole.",
+          "en": "Due to the rain, the plan was canceled.",
+          "vi": "Do trời mưa nên kế hoạch bị hủy bỏ."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "具備",
       "pinyin": "jùbèi",
-      "english": "to possess; be equipped with",
-      "sentenceChinese": "應徵這個職位必須具備專業的技術能力。",
-      "sentencePinyin": "Yìngzhēng zhè ge zhíwèi bìxū jùbèi zhuānyè de jìshù nénglì.",
-      "sentenceEnglish": "To apply for this position, one must possess professional technical skills.",
-      "vietnamese": "có đầy đủ, trang bị",
-      "sentenceVietnamese": "Ứng tuyển vị trí này phải có đầy đủ năng lực kỹ thuật chuyên môn."
+      "en": "to possess; be equipped with",
+      "vi": "có đầy đủ, trang bị",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "have; possess; be provided with",
+          "sentence": "她具備必要的技能。",
+          "pinyin": "tā jùbèi bìyào de jìnéng.",
+          "en": "She possesses the necessary skills.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "have; possess; be provided with",
+          "sentence": "他們具備所有的資格。",
+          "pinyin": "tāmen jùbèi suǒyǒu de zīgé.",
+          "en": "They possess all the qualifications.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "美感",
       "pinyin": "měigǎn",
-      "english": "aesthetic sense",
-      "sentenceChinese": "這棟建築的設計非常有現代美感。",
-      "sentencePinyin": "Zhè dòng jiànzhù de shèjì fēicháng yǒu xiàndài měigǎn.",
-      "sentenceEnglish": "The design of this building has a very modern aesthetic sense.",
-      "vietnamese": "tính thẩm mỹ",
-      "sentenceVietnamese": "Thiết kế của tòa nhà này rất có tính thẩm mỹ hiện đại."
+      "en": "aesthetic sense",
+      "vi": "tính thẩm mỹ",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "aesthetic feeling; aesthetic perception; sense of beauty",
+          "sentence": "給人美感",
+          "pinyin": "Gěi rén měigǎn",
+          "en": "Give sensuous pleasure",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "aesthetic feeling; aesthetic perception; sense of beauty",
+          "sentence": "培養美感",
+          "pinyin": "péiyǎng měigǎn",
+          "en": "Foster a sense of beauty; develop good taste",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "因而",
       "pinyin": "yīn'ér",
-      "english": "therefore",
-      "sentenceChinese": "他努力工作，因而獲得了升遷。",
-      "sentencePinyin": "Tā nǔlì gōngzuò, yīn'ér huòdé le shēngqiān.",
-      "sentenceEnglish": "He worked hard and therefore received a promotion.",
-      "vietnamese": "do đó",
-      "sentenceVietnamese": "Anh ấy làm việc chăm chỉ, do đó đã được thăng tiến."
+      "en": "therefore",
+      "vi": "do đó",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "thus; as a result; with the result that",
+          "sentence": "他生病了，因而沒來。",
+          "pinyin": "tā shēngbìngle, yīn'ér méi lái.",
+          "en": "He was sick, so he didn’t come.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "thus; as a result; with the result that",
+          "sentence": "她很努力，因而成功了。",
+          "pinyin": "tā hěn nǔlì, yīn'ér chénggōngle.",
+          "en": "She worked hard, so she succeeded.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "受惠",
       "pinyin": "shòuhuì",
-      "english": "to benefit",
-      "sentenceChinese": "當地居民從這項建設中受惠良多。",
-      "sentencePinyin": "Dāngdì jūmín cóng zhè xiàng jiànshè zhōng shòuhuì liángduō.",
-      "sentenceEnglish": "Local residents benefited a lot from this construction.",
-      "vietnamese": "được hưởng lợi",
-      "sentenceVietnamese": "Cư dân địa phương đã được hưởng lợi rất nhiều từ công trình này."
+      "en": "to benefit",
+      "vi": "được hưởng lợi",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "receive benefits; benefit",
+          "sentence": "我們有倖受惠於此。",
+          "pinyin": "wǒ men yǒu xìng shòu huì yú cǐ",
+          "en": "We are fortunate to benefit from this.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "favored",
+          "sentence": "我們受惠於政府補助。",
+          "pinyin": "Wǒmen shòu huì yú zhèngfǔ bǔzhù.",
+          "en": "We benefited from government subsidies.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "商機",
       "pinyin": "shāngjī",
-      "english": "business opportunity",
-      "sentenceChinese": "網路直播帶動了巨大的商機。",
-      "sentencePinyin": "Wǎnglù zhíbò dàidòng le jùdà de shāngjī.",
-      "sentenceEnglish": "Live streaming has driven massive business opportunities.",
-      "vietnamese": "cơ hội kinh doanh",
-      "sentenceVietnamese": "Livestream trên mạng đã kéo theo cơ hội kinh doanh khổng lồ."
+      "en": "business opportunity",
+      "vi": "cơ hội kinh doanh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "business opportunities",
+          "sentence": "你要把握這個難得的商機。",
+          "pinyin": "nǐ yào bǎwò zhège nándé de shāngjī.",
+          "en": "You need to seize this rare business opportunity.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "business opportunities",
+          "sentence": "他髮/發現了一個鉅大的商機。",
+          "pinyin": "tā fāxiànle yīgè jùdà de shāngjī.",
+          "en": "He discovered a tremendous business opportunity.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "拆除",
       "pinyin": "chāichú",
-      "english": "to demolish; tear down",
-      "sentenceChinese": "這座老舊的危險建築即將拆除。",
-      "sentencePinyin": "Zhè zuò lǎojiù de wēixiǎn jiànzhù jíjiāng chāichú.",
-      "sentenceEnglish": "This old, dangerous building is about to be demolished.",
-      "vietnamese": "dỡ bỏ, phá dỡ",
-      "sentenceVietnamese": "Tòa nhà cũ nguy hiểm này sắp bị dỡ bỏ."
+      "en": "to demolish; tear down",
+      "vi": "dỡ bỏ, phá dỡ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "dismantle; demolish; tear down",
+          "sentence": "我們需要拆除這座舊房子。",
+          "pinyin": "wǒmen xūyào chāichú zhè zuò jiù fángzi.",
+          "en": "We need to demolish this old house.",
+          "vi": "Chúng tôi cần phá dỡ ngôi nhà cũ này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dismantle; demolish; tear down",
+          "sentence": "工人們正在拆除舊橋。",
+          "pinyin": "gōngrénmen zhèngzài chāichú jiù qiáo.",
+          "en": "The workers are demolishing the old bridge.",
+          "vi": "Công nhân đang phá dỡ cây cầu cũ."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "不僅如此",
       "pinyin": "bùjǐn rúcǐ",
-      "english": "not only that",
-      "sentenceChinese": "他遲到了，不僅如此，他還忘了帶報告。",
-      "sentencePinyin": "Tā chídào le, bùjǐn rúcǐ, tā hái wàng le dài bàogào.",
-      "sentenceEnglish": "He was late, and not only that, he also forgot to bring the report.",
-      "vietnamese": "không chỉ như vậy",
-      "sentenceVietnamese": "Anh ấy đã đến muộn, không chỉ như vậy, anh ấy còn quên mang theo báo cáo."
+      "en": "not only that",
+      "vi": "không chỉ như vậy",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "not only that, but ...",
+          "sentence": "但不僅如此。",
+          "pinyin": "dàn bùjǐnrúcǐ",
+          "en": "But it's more than that.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "興盛",
       "pinyin": "xīngshèng",
-      "english": "prosperous; flourishing",
-      "sentenceChinese": "大稻埕曾是台北商業最興盛的地方。",
-      "sentencePinyin": "Dàdàochéng céng shì Táiběi shāngyè zuì xīngshèng de dìfāng.",
-      "sentenceEnglish": "Dadaocheng used to be the most prosperous place for business in Taipei.",
-      "vietnamese": "hưng thịnh",
-      "sentenceVietnamese": "Đại Đạo Trình từng là nơi kinh doanh hưng thịnh nhất tại Đài Bắc."
+      "en": "prosperous; flourishing",
+      "vi": "hưng thịnh",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "prosperous; flourishing",
+          "sentence": "公司業務日益興盛。",
+          "pinyin": "gōngsī yèwù rìyì xīngshèng.",
+          "en": "The company’s business is flourishing day by day.",
+          "vi": "Việc kinh doanh của công ty ngày càng phát triển mạnh mẽ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "prosperous; flourishing",
+          "sentence": "這個城市的經濟很興盛。",
+          "pinyin": "zhège chéngshì de jīngjì hěn xīngshèng.",
+          "en": "The economy of this city is very prosperous.",
+          "vi": "Nền kinh tế thành phố này rất phồn vinh."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "榮景",
       "pinyin": "róngjǐng",
-      "english": "prosperous scene",
-      "sentenceChinese": "重建後的街道重現了當年的繁榮榮景。",
-      "sentencePinyin": "Chóngjiàn hòu de jiēdào chóngxiàn le dāngnián de fánróng róngjǐng.",
-      "sentenceEnglish": "The rebuilt street reproduced the prosperous scene of those years.",
-      "vietnamese": "cảnh tượng phồn vinh",
-      "sentenceVietnamese": "Con phố sau khi xây dựng lại đã tái hiện cảnh tượng phồn vinh năm nào."
+      "en": "prosperous scene",
+      "vi": "cảnh tượng phồn vinh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "period of prosperity",
+          "sentence": "城市展現齣繁榮的榮景。",
+          "pinyin": "Chéngshì zhǎnxiàn chū fánróng de róngjǐng.",
+          "en": "The city shows a prosperous scene.",
+          "vi": "Thành phố thể hiện cảnh đẹp phồn vinh."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "不再",
       "pinyin": "búzài",
-      "english": "no longer",
-      "sentenceChinese": "這座村莊已不再像以前那樣安靜。",
-      "sentencePinyin": "Zhè zuò cūnzhuāng yǐ búzài xiàng yǐqián nàyàng ānjìng.",
-      "sentenceEnglish": "This village is no longer as quiet as it used to be.",
-      "vietnamese": "không còn nữa",
-      "sentenceVietnamese": "Ngôi làng này đã không còn yên tĩnh như trước đây nữa."
+      "en": "no longer",
+      "vi": "không còn nữa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to be gone; not to return; not to appear; not exist anymore",
+          "sentence": "她不再為公司工作了。",
+          "pinyin": "tā bù zài wèi gōngsī gōngzuòle.",
+          "en": "She no longer works for the company.",
+          "vi": "Cô ấy không làm việc cho công ty nữa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be gone; not to return; not to appear; not exist anymore",
+          "sentence": "我不再花錢買衣服了。",
+          "pinyin": "wǒ bù zài huā qián mǎi yīfule.",
+          "en": "I no longer spend money on clothes.",
+          "vi": "Tôi không còn tiêu tiền mua quần áo nữa."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "no longer; no any more",
+          "sentence": "他不再迴來。",
+          "pinyin": "tā bù zài huílái.",
+          "en": "He will no longer return.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "no longer; no any more",
+          "sentence": "她不再齣現了。",
+          "pinyin": "tā bù zài chūxiànle.",
+          "en": "She doesn't appear anymore.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "轉型",
       "pinyin": "zhuǎnxíng",
-      "english": "to transform; transition",
-      "sentenceChinese": "傳統產業必須面臨數位轉型的挑戰。",
-      "sentencePinyin": "Chuántǒng chǎnyè bìxū miànlín shùwèi zhuǎnxíng de tiǎozhàn.",
-      "sentenceEnglish": "Traditional industries must face the challenge of digital transformation.",
-      "vietnamese": "chuyển đổi mô hình",
-      "sentenceVietnamese": "Ngành công nghiệp truyền thống phải đối mặt với thử thách chuyển đổi số."
+      "en": "to transform; transition",
+      "vi": "chuyển đổi mô hình",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "evolve; transform",
+          "sentence": "傳統行業正在轉型。",
+          "pinyin": "chuántǒng hángyè zhèngzài zhuǎnxíng.",
+          "en": "Traditional industries are undergoing transformation.",
+          "vi": "Hệ thống giáo dục đang thay đổi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "evolve; transform",
+          "sentence": "我們的經濟需要轉型。",
+          "pinyin": "wǒmen de jīngjì xūyào zhuǎnxíng.",
+          "en": "Our economy needs to be transformed.",
+          "vi": "Kinh tế của chúng ta cần phải chuyển đổi."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "多樣性",
       "pinyin": "duōyàngxìng",
-      "english": "diversity",
-      "sentenceChinese": "保護生物多樣性是全球的重要議題。",
-      "sentencePinyin": "Bǎohù shēngwù duōyàngxìng shì quánqiú de zhòngyào yìtí.",
-      "sentenceEnglish": "Protecting biodiversity is an important global issue.",
-      "vietnamese": "tính đa dạng",
-      "sentenceVietnamese": "Bảo vệ tính đa dạng sinh học là một vấn đề quan trọng toàn cầu."
+      "en": "diversity",
+      "vi": "tính đa dạng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "diversity; manifoldness",
+          "sentence": "他們宣揚文化多樣性。",
+          "pinyin": "tāmen xuānyáng wénhuà duōyàng xìng.",
+          "en": "They promote cultural diversity.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "diversity; manifoldness",
+          "sentence": "寒武爆髮/發導緻生物多樣性增加。",
+          "pinyin": "Hán wǔ bàofā dǎozhì shēngwù duōyàngxìng zēngjiā.",
+          "en": "The cambrian explosion led to an increase in biodiversity.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "咖啡館",
       "pinyin": "kāfēiguǎn",
-      "english": "coffee shop",
-      "sentenceChinese": "我喜歡在安靜的咖啡館裡寫程式。",
-      "sentencePinyin": "Wǒ xǐhuān zài ānjìng de kāfēiguǎn lǐ xiě chéngshì.",
-      "sentenceEnglish": "I like to write code in a quiet coffee shop.",
-      "vietnamese": "quán cà phê",
-      "sentenceVietnamese": "Tôi thích lập trình trong một quán cà phê yên tĩnh."
+      "en": "coffee shop",
+      "vi": "quán cà phê",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "café; coffee shop; coffee bar",
+          "sentence": "咖啡館在醫院的頂層。",
+          "pinyin": "kāfēi guǎn zài yīyuàn de dǐngcéng.",
+          "en": "The coffee shop is on the top floor of the hospital.",
+          "vi": "Quán cà phê nằm ở tầng trên cùng của bệnh viện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "café; coffee shop; coffee bar",
+          "sentence": "我弟弟在咖啡館工作。",
+          "pinyin": "wǒ dì di zài kāfēi guǎn gōngzuò.",
+          "en": "My brother works at a coffee shop.",
+          "vi": "Em trai tôi làm việc ở quán cà phê."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "複合式",
       "pinyin": "fùhéshì",
-      "english": "compound; complex (multi-purpose)",
-      "sentenceChinese": "這間店是複合式經營，既賣書也賣咖啡。",
-      "sentencePinyin": "Zhè jiān diàn shì fùhéshì jīngyíng, jì mài shū yě mài kāfēi.",
-      "sentenceEnglish": "This shop has a compound management; it sells both books and coffee.",
-      "vietnamese": "kiểu phức hợp",
-      "sentenceVietnamese": "Cửa hàng này kinh doanh kiểu phức hợp, vừa bán sách vừa bán cà phê."
+      "en": "compound; complex (multi-purpose)",
+      "vi": "kiểu phức hợp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "compound; complex; composite",
+          "sentence": "兩種顏色復閤在一起。",
+          "pinyin": "liǎng zhǒng yánsè fùhé zài yīqǐ.",
+          "en": "Two colors are combined together.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "compound; complex; composite",
+          "sentence": "“”是一個復閤詞。",
+          "pinyin": "“Blackboard” shì yīgè fùhécí.",
+          "en": "\"Blackboard\" is a compound word.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "經營",
       "pinyin": "jīngyíng",
-      "english": "to manage; operate",
-      "sentenceChinese": "經營一家成功的公司需要優秀的團隊。",
-      "sentencePinyin": "Jīngyíng yì jiā chénggōng de gōngsī xūyào yōuxiù de tuánduì.",
-      "sentenceEnglish": "Managing a successful company requires an excellent team.",
-      "vietnamese": "kinh doanh",
-      "sentenceVietnamese": "Kinh doanh một công ty thành công cần có một đội ngũ ưu tú."
+      "en": "to manage; operate",
+      "vi": "kinh doanh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to run; to manage; to operate; to engage in",
+          "sentence": "我正在經營我的小公司。",
+          "pinyin": "Wǒ zhèngzài jīngyíng wǒ de xiǎo gōngsī.",
+          "en": "I am managing my small company.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to run; to manage; to operate; to engage in",
+          "sentence": "他經營一傢餐廳很成功。",
+          "pinyin": "tā jīngyíng yījiā cāntīng hěn chénggōng.",
+          "en": "He runs a restaurant very successfully.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "打造",
       "pinyin": "dǎzào",
-      "english": "to create; forge",
-      "sentenceChinese": "公司正努力打造一個友善的工作環境。",
-      "sentencePinyin": "Gōngsī zhèng nǔlì dǎzào yí ge yǒushàn de gōngzuò huánjìng.",
-      "sentenceEnglish": "The company is working hard to create a friendly working environment.",
-      "vietnamese": "xây dựng, tạo nên",
-      "sentenceVietnamese": "Công ty đang nỗ lực xây dựng một môi trường làm việc thân thiện."
+      "en": "to create; forge",
+      "vi": "xây dựng, tạo nên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "forge (metal work)",
+          "sentence": "他正在打造一把刀。",
+          "pinyin": "tā zhèngzài dǎzào yī bǎ dāo.",
+          "en": "He is forging a knife.",
+          "vi": "Anh ấy đang chế tạo một con dao."
+        },
+        {
+          "type": "Verb",
+          "meaning": "forge (metal work)",
+          "sentence": "農民們在打造農具。",
+          "pinyin": "nóngmínmen zài dǎzào nóngjù.",
+          "en": "The farmers are forging farming tools.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "特有",
       "pinyin": "tèyǒu",
-      "english": "unique; peculiar to",
-      "sentenceChinese": "黑熊是台灣特有的珍貴動物。",
-      "sentencePinyin": "Hēixióng shì Táiwān tèyǒu de zhēnguì dòngwù.",
-      "sentenceEnglish": "Black bears are precious animals unique to Taiwan.",
-      "vietnamese": "đặc hữu, riêng có",
-      "sentenceVietnamese": "Gấu đen là loài động vật quý hiếm đặc hữu của Đài Loan."
+      "en": "unique; peculiar to",
+      "vi": "đặc hữu, riêng có",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "specific; peculiar; characteristic",
+          "sentence": "他有特有的風格。",
+          "pinyin": "tā yǒu tèyǒu de fēnggé.",
+          "en": "He has a unique style.",
+          "vi": "Anh ấy có phong cách đặc biệt."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "specific; peculiar; characteristic",
+          "sentence": "她的聲音很特有。",
+          "pinyin": "tā de shēngyīn hěn tèyǒu.",
+          "en": "She has a unique voice.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "風采",
       "pinyin": "fēngcǎi",
-      "english": "elegant demeanor; style",
-      "sentenceChinese": "這位長者依然保有當年的風采。",
-      "sentencePinyin": "Zhè wèi zhǎngzhě yīrán bǎoliú dāngnián de fēngcǎi.",
-      "sentenceEnglish": "This elder still retains the elegant demeanor of those years.",
-      "vietnamese": "phong thái, vẻ đẹp",
-      "sentenceVietnamese": "Vị trưởng bối này vẫn giữ được phong thái năm nào."
+      "en": "elegant demeanor; style",
+      "vi": "phong thái, vẻ đẹp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "grace; elegance; demeanor; charisma",
+          "sentence": "他在舞臺上風採十足。",
+          "pinyin": "tā zài wǔtái shàng fēngcǎi shízú.",
+          "en": "He is full of elegance on stage.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "grace; elegance; demeanor; charisma",
+          "sentence": "領導展現了非凡風採。",
+          "pinyin": "lǐngdǎo zhǎnxiànle fēifán fēngcǎi.",
+          "en": "The leader displayed extraordinary charisma.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "絕代風華",
       "pinyin": "juédài fēnghuá",
-      "english": "peerless elegance",
-      "sentenceChinese": "旗袍展現了東方女性的絕代風華。",
-      "sentencePinyin": "Qípáo zhǎnxiàn le Dōngfāng nǚxìng de juédài fēnghuá.",
-      "sentenceEnglish": "The Cheongsam (Qipao) showcases the peerless elegance of Oriental women.",
-      "vietnamese": "vẻ đẹp tuyệt thế",
-      "sentenceVietnamese": "Sườn xám thể hiện vẻ đẹp tuyệt thế của phụ nữ phương Đông."
+      "en": "peerless elegance",
+      "vi": "vẻ đẹp tuyệt thế",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be in place of; take the place of",
+          "sentence": "你代她完成這個任務。",
+          "pinyin": "nǐ dài tā wánchéng zhège rènwù.",
+          "en": "You completed this task on her behalf.",
+          "vi": "Bạn thay cô ấy hoàn thành nhiệm vụ này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "be in place of; take the place of",
+          "sentence": "機器人代人做工作。",
+          "pinyin": "jīqìrén dài rén zuò gōngzuò.",
+          "en": "Robots do work in place of humans.",
+          "vi": "Robot thay người làm việc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dynasty",
+          "sentence": "唐朝是著名的朝代。",
+          "pinyin": "táng cháo shì zhùmíng de cháodài.",
+          "en": "The Tang Dynasty is a famous dynasty.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dynasty",
+          "sentence": "漢代曆史影響深遠。",
+          "pinyin": "hàndài lìshǐ yǐngxiǎng shēnyuǎn.",
+          "en": "The history of the Han Dynasty has far-reaching influence.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "傳承",
       "pinyin": "chuánchéng",
-      "english": "to pass on; heritage",
-      "sentenceChinese": "文化的傳承需要年輕一代的參與。",
-      "sentencePinyin": "Wénhuà de chuánchéng xūyào niánqīng yídài de cānyù.",
-      "sentenceEnglish": "Cultural heritage requires the participation of the younger generation.",
-      "vietnamese": "truyền lại, truyền thừa",
-      "sentenceVietnamese": "Sự truyền thừa văn hóa cần có sự tham gia của thế hệ trẻ."
+      "en": "to pass on; heritage",
+      "vi": "truyền lại, truyền thừa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "inherit; passed on",
+          "sentence": "我們要傳承傳統文化。",
+          "pinyin": "wǒmen yào chuánchéng chuántǒng wénhuà.",
+          "en": "We need to inherit our traditional culture.",
+          "vi": "Chúng ta phải kế thừa văn hóa truyền thống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "inherit; passed on",
+          "sentence": "你要傳承先輩的精神。",
+          "pinyin": "nǐ yào chuánchéng xiānbèi de jīngshén.",
+          "en": "You should inherit the spirit of our ancestors.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "創新",
       "pinyin": "chuàngxīn",
-      "english": "innovation; to innovate",
-      "sentenceChinese": "創新是科技公司生存的關鍵。",
-      "sentencePinyin": "Chuàngxīn shì kējì gōngsī shēngcún de guānjiàn.",
-      "sentenceEnglish": "Innovation is the key to the survival of technology companies.",
-      "vietnamese": "sáng tạo cái mới",
-      "sentenceVietnamese": "Sáng tạo là mấu chốt để một công ty công nghệ sinh tồn."
+      "en": "innovation; to innovate",
+      "vi": "sáng tạo cái mới",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "bring forth new ideas; innovate; blaze new trails; create sth. new",
+          "sentence": "我們要創新方法，提高成績。",
+          "pinyin": "wǒmen yào chuàngxīn fāngfǎ, tígāo chéngjī.",
+          "en": "We need to innovate methods to improve our performance.",
+          "vi": "Chúng tôi cần đổi mới phương pháp để nâng cao thành tích."
+        },
+        {
+          "type": "Verb",
+          "meaning": "bring forth new ideas; innovate; blaze new trails; create sth. new",
+          "sentence": "老師們積極創新教學模式。",
+          "pinyin": "lǎoshīmen jījí chuàngxīn jiàoxué móshì.",
+          "en": "Teachers actively innovate teaching models.",
+          "vi": "Các giáo viên tích cực đổi mới phương pháp giảng dạy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "innovation",
+          "sentence": "創新是企業髮/發展的關鍵。",
+          "pinyin": "chuàngxīn shì qǐyè fāzhǎn de guānjiàn.",
+          "en": "Innovation is the key to business development.",
+          "vi": "Sự đổi mới sáng tạo là chìa khóa cho sự phát triển của doanh nghiệp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "innovation",
+          "sentence": "企業的髮/發展離不開創新。",
+          "pinyin": "qǐyè de fāzhǎn lí bù kāi chuàngxīn.",
+          "en": "The development of a business cannot happen without innovation.",
+          "vi": "Sự phát triển của doanh nghiệp không thể thiếu sự đổi mới."
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "兼具",
       "pinyin": "jiānjù",
-      "english": "to have both",
-      "sentenceChinese": "這台手機兼具美觀與功能性。",
-      "sentencePinyin": "Zhè tái shǒujī jiānjù měiguān hàn gōngnéngxìng.",
-      "sentenceEnglish": "This phone has both beauty and functionality.",
-      "vietnamese": "có cả hai",
-      "sentenceVietnamese": "Chiếc điện thoại này có cả tính thẩm mỹ lẫn tính năng."
+      "en": "to have both",
+      "vi": "có cả hai",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to combine; to have both",
+          "sentence": "她的設計兼具創意和實用。",
+          "pinyin": "tā de shèjì jiān jù chuàngyì hé shíyòng.",
+          "en": "Her design combines creativity and practicality.",
+          "vi": "Thiết kế của cô ấy kết hợp cả sáng tạo và thực tế.)"
+        },
+        {
+          "type": "Verb",
+          "meaning": "to combine; to have both",
+          "sentence": "這種飲料兼具健康和美味。",
+          "pinyin": "zhè zhǒng yǐnliào jiān jù jiànkāng hé měiwèi.",
+          "en": "This drink combines health and deliciousness.",
+          "vi": "Loại đồ uống này vừa tốt cho sức khỏe vừa ngon."
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "古蹟",
       "pinyin": "gǔjī",
-      "english": "historical site",
-      "sentenceChinese": "台南市中心有許多著名的古蹟。",
-      "sentencePinyin": "Táinán shì zhōngxīn yǒu xǔduō zhùmíng de gǔjī.",
-      "sentenceEnglish": "There are many famous historical sites in the center of Tainan.",
-      "vietnamese": "di tích cổ",
-      "sentenceVietnamese": "Trung tâm thành phố Đài Nam có rất nhiều di tích cổ nổi tiếng."
+      "en": "historical site",
+      "vi": "di tích cổ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "historic site; place of historical interest",
+          "sentence": "我們參觀了古跡。",
+          "pinyin": "wǒmen cānguānle gǔjì.",
+          "en": "We visited the historical sites.",
+          "vi": "Chúng tôi đã tham quan di tích cổ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "historic site; place of historical interest",
+          "sentence": "古跡吸引了很多遊客。",
+          "pinyin": "gǔjì xīyǐnle hěnduō yóukè.",
+          "en": "The historical sites attracted many tourists.",
+          "vi": "Di tích cổ thu hút nhiều du khách."
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "永續",
       "pinyin": "yǒngxù",
-      "english": "sustainable",
-      "sentenceChinese": "永續發展是現代企業的重要責任。",
-      "sentencePinyin": "Yǒngxù fāzhǎn shì xiàndài qǐyè de zhòngyào zérèn.",
-      "sentenceEnglish": "Sustainable development is an important responsibility for modern enterprises.",
-      "vietnamese": "bền vững",
-      "sentenceVietnamese": "Phát triển bền vững là trách nhiệm quan trọng của doanh nghiệp hiện đại."
+      "en": "sustainable",
+      "vi": "bền vững",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "perpetual; continuous; sustained",
+          "sentence": "實現能源永續髮/發展。",
+          "pinyin": "shí xiàn néng yuán yǒng xù fā zhǎn",
+          "en": "Achieve sustainable (continuous) energy development.",
+          "vi": ""
+        },
+        {
+          "type": "adjective",
+          "meaning": "sustainable",
+          "sentence": "推動資源永續利用。",
+          "pinyin": "tuīdòng zīyuán yǒngxù lìyòng",
+          "en": "Promote sustainable use of resources",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "發展",
       "pinyin": "fāzhǎn",
-      "english": "to develop",
-      "sentenceChinese": "這座城市正朝著國際化發展。",
-      "sentencePinyin": "Zhè zuò chéngshì zhèng cháozhe guójìhuà fāzhǎn.",
-      "sentenceEnglish": "This city is developing toward internationalization.",
-      "vietnamese": "bền vững",
-      "sentenceVietnamese": "Thành phố này đang phát triển theo hướng quốc tế hóa."
+      "en": "to develop",
+      "vi": "bền vững",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "grow; expand; advance; develop",
+          "sentence": "他想髮/發展自己的事業。",
+          "pinyin": "tā xiǎng fāzhǎn zìjǐ de shìyè.",
+          "en": "He wants to develop his career.",
+          "vi": "Anh ấy muốn phát triển sự nghiệp của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "grow; expand; advance; develop",
+          "sentence": "我們需要髮/發展教育。",
+          "pinyin": "wǒmen xūyào fāzhǎn jiàoyù.",
+          "en": "We need to develop education.",
+          "vi": "Chúng ta cần phát triển giáo dục."
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "居民",
       "pinyin": "jūmín",
-      "english": "resident",
-      "sentenceChinese": "這區的居民非常友善。",
-      "sentencePinyin": "Zhè qū de jūmín fēicháng yǒushàn.",
-      "sentenceEnglish": "The residents of this district are very friendly.",
-      "vietnamese": "cư dân",
-      "sentenceVietnamese": "Cư dân ở khu này rất thân thiện."
+      "en": "resident",
+      "vi": "cư dân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "resident; inhabitant",
+          "sentence": "新居民搬進來了。",
+          "pinyin": "xīn jūmín bān jìnláile.",
+          "en": "New inhabitants moved in.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "resident; inhabitant",
+          "sentence": "這棟樓有50名居民。",
+          "pinyin": "zhè dòng lóu yǒu 50 míng jūmín.",
+          "en": "The building has 50 residents.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "文化遺產",
       "pinyin": "wénhuà yíchǎn",
-      "english": "cultural heritage",
-      "sentenceChinese": "聯合國教科文組織致力於保護世界文化遺產。",
-      "sentencePinyin": "Liánhéguó Jiàokēwén Zǔzhī zhìlì yú bǎohù shìjiè wénhuà yíchǎn.",
-      "sentenceEnglish": "UNESCO is dedicated to protecting world cultural heritage.",
-      "vietnamese": "di sản văn hóa",
-      "sentenceVietnamese": "UNESCO nỗ lực bảo vệ di sản văn hóa thế giới."
+      "en": "cultural heritage",
+      "vi": "di sản văn hóa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cultural heritage",
+          "sentence": "脩復古跡保護文化遺産。",
+          "pinyin": "xiūfù gǔjī bǎohù wénhuà yíchǎn.",
+          "en": "Restoring relics to protect cultural heritage.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cultural heritage",
+          "sentence": "長城是世界文化遺産地。",
+          "pinyin": "Chángchéng shì shìjiè wénhuà yíchǎn dì.",
+          "en": "The great wall is a world cultural heritage site.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "珍惜",
       "pinyin": "zhēnxī",
-      "english": "to cherish",
-      "sentenceChinese": "我們應該珍惜跟家人相處的時間。",
-      "sentencePinyin": "Wǒmen yīnggāi zhēnxī gēn jiārén xiāngchǔ de shíjiān.",
-      "sentenceEnglish": "We should cherish the time spent with family.",
-      "vietnamese": "trân trọng",
-      "sentenceVietnamese": "Chúng ta nên trân trọng thời gian ở bên cạnh gia đình."
+      "en": "to cherish",
+      "vi": "trân trọng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "value; cherish; treasure; treasure and avoid wasting",
+          "sentence": "珍惜身邊的朋友。",
+          "pinyin": "zhēnxī shēnbiān de péngyǒu.",
+          "en": "Cherish the friends around you.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "value; cherish; treasure; treasure and avoid wasting",
+          "sentence": "我們應該珍惜每一個機會。",
+          "pinyin": "wǒmen yīnggāi zhēnxī měi yīgè jīhuì.",
+          "en": "We should cherish every opportunity.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "重建",
       "pinyin": "chóngjiàn",
-      "english": "to rebuild",
-      "sentenceChinese": "大地震後，災民正努力重建家園。",
-      "sentencePinyin": "Dà dìzhèn hòu, zāimín zhèng nǔlì chóngjiàn jiāyuán.",
-      "sentenceEnglish": "After the massive earthquake, survivors are working hard to rebuild their homes.",
-      "vietnamese": "xây lại",
-      "sentenceVietnamese": "Sau trận động đất lớn, những người bị nạn đang nỗ lực xây dựng lại nhà cửa."
+      "en": "to rebuild",
+      "vi": "xây lại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rebuild; reconstruct",
+          "sentence": "我們要重建這座橋。",
+          "pinyin": "wǒmen yào chóngjiàn zhè zuò qiáo.",
+          "en": "We are going to rebuild this bridge.",
+          "vi": "Chúng ta cần xây lại cây cầu này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "rebuild; reconstruct",
+          "sentence": "他們在重建老房子。",
+          "pinyin": "tāmen zài chóngjiàn lǎo fángzǐ.",
+          "en": "They are rebuilding the old house.",
+          "vi": "Họ đang xây lại căn nhà cũ."
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "空間",
       "pinyin": "kōngjiān",
-      "english": "space",
-      "sentenceChinese": "這間公寓雖然小，但空間規劃得很好。",
-      "sentencePinyin": "Zhè jiān gōngyù suīrán xiǎo, dàn kōngjiān guīhuà de hěn hǎo.",
-      "sentenceEnglish": "Although this apartment is small, the space is well-planned.",
-      "vietnamese": "không gian",
-      "sentenceVietnamese": "Căn hộ này tuy nhỏ nhưng không gian được quy hoạch rất tốt."
+      "en": "space",
+      "vi": "không gian",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "space; area",
+          "sentence": "沙髮/發佔了很大的空間。",
+          "pinyin": "shāfā zhànle hěn dà de kōngjiān.",
+          "en": "The sofa takes up a lot of space.",
+          "vi": "Ghế sofa chiếm rất nhiều diện tích."
+        },
+        {
+          "type": "Noun",
+          "meaning": "space; area",
+          "sentence": "這間房間的空間很大。",
+          "pinyin": "zhè jiān fángjiān de kōngjiān hěn dà.",
+          "en": "This room has a lot of space.",
+          "vi": "Diện tích của căn phòng này rất lớn."
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "劇場",
       "pinyin": "jùchǎng",
-      "english": "theater",
-      "sentenceChinese": "今晚劇場有一場非常精彩的舞台劇。",
-      "sentencePinyin": "Jīnwǎn jùchǎng yǒu yì chǎng fēicháng jīngcǎi de wǔtáijù.",
-      "sentenceEnglish": "There is a very wonderful stage play at the theater tonight.",
-      "vietnamese": "kịch trường, nhà hát",
-      "sentenceVietnamese": "Tối nay tại nhà hát có một vở kịch vô cùng đặc sắc."
+      "en": "theater",
+      "vi": "kịch trường, nhà hát",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "theatre",
+          "sentence": "她在劇場擔任導演。",
+          "pinyin": "tā zài jùchǎng dānrèn dǎoyǎn.",
+          "en": "She works as a director in the theater.",
+          "vi": "Cô ấy đảm nhận vai trò đạo diễn tại nhà hát."
+        },
+        {
+          "type": "Noun",
+          "meaning": "theatre",
+          "sentence": "劇場的裝脩非常華麗。",
+          "pinyin": "jùchǎng de zhuāngxiū fēicháng huálì.",
+          "en": "The theater's decor is very luxurious.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "演藝",
       "pinyin": "yǎìyì",
-      "english": "performing arts",
-      "sentenceChinese": "他在演藝圈工作了二十年。",
-      "sentencePinyin": "Tā zài yǎnyìquān gōngzuò le èrshí nián.",
-      "sentenceEnglish": "He has worked in the performing arts circle (showbiz) for twenty years.",
-      "vietnamese": "biểu diễn nghệ thuật",
-      "sentenceVietnamese": "Anh ấy đã làm việc trong giới giải trí hai mươi năm."
+      "en": "performing arts",
+      "vi": "biểu diễn nghệ thuật",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "performing arts",
+          "sentence": "她熱愛舞臺演藝事業。",
+          "pinyin": "tā rè'ài wǔtái yǎnyì shìyè",
+          "en": "She loves a career in stage performing arts.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "performance; performing skill",
+          "sentence": "他的錶演藝術齣神入化。",
+          "pinyin": "Tā de biǎoyǎn yìshù chūshénrùhuà.",
+          "en": "His performance was superb.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "舞台",
       "pinyin": "wǔtái",
-      "english": "stage",
-      "sentenceChinese": "站上舞台的那一刻，他感到非常興奮。",
-      "sentencePinyin": "Zhàn shàng wǔtái de nà yí kè, tā gǎndào fēicháng xīngfèn.",
-      "sentenceEnglish": "The moment he stepped on stage, he felt very excited.",
-      "vietnamese": "sân khấu",
-      "sentenceVietnamese": "Khoảnh khắc bước lên sân khấu, anh ấy cảm thấy vô cùng hưng phấn."
+      "en": "stage",
+      "vi": "sân khấu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "stage",
+          "sentence": "舞臺燈光很亮。",
+          "pinyin": "wǔtái dēngguāng hěn liàng.",
+          "en": "The stage lighting is very bright.",
+          "vi": "Đèn sân khấu rất sáng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stage",
+          "sentence": "他登上了舞臺。",
+          "pinyin": "tā dēng shàngle wǔtái.",
+          "en": "He stepped onto the stage.",
+          "vi": "Anh ấy đã lên sân khấu."
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "經典",
       "pinyin": "jīngdiǎn",
-      "english": "classic",
-      "sentenceChinese": "這部電影是影史上的經典之作。",
-      "sentencePinyin": "Zhè bù diànyǐng shì yǐngshǐ shàng de jīngdiǎn zhī zuò.",
-      "sentenceEnglish": "This movie is a classic in film history.",
-      "vietnamese": "kinh điển",
-      "sentenceVietnamese": "Bộ phim này là một tác phẩm kinh điển trong lịch sử điện ảnh."
+      "en": "classic",
+      "vi": "kinh điển",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "classics",
+          "sentence": "四書是儒傢最早的經典。",
+          "pinyin": "sìshū shì rújiā zuìzǎo de jīngdiǎn.",
+          "en": "The Four Books are the earliest classics of Confucianism.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "classics",
+          "sentence": "《論語》是儒傢經典之一。",
+          "pinyin": "“lúnyǔ” shì rújiā jīngdiǎn zhī yī.",
+          "en": "The Analects is one of the Confucian classics.",
+          "vi": "“Luận ngữ” là tác phẩm kinh điển của Nho học."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "classical",
+          "sentence": "這是一部經典的動作片。",
+          "pinyin": "zhè shì yī bù jīngdiǎn de dòngzuò piàn.",
+          "en": "This is a classic action movie.",
+          "vi": "Đây là một bộ phim hành động kinh điển."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "classical",
+          "sentence": "這款車的設計非常經典。",
+          "pinyin": "zhè kuǎn chē de shèjì fēicháng jīngdiǎn.",
+          "en": "The design of this car is very classic.",
+          "vi": "Thiết kế của chiếc xe này rất kinh điển."
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "再現",
       "pinyin": "zàixiàn",
-      "english": "to reappear; reproduce",
-      "sentenceChinese": "這場演出再現了傳統節慶的熱鬧氣氛。",
-      "sentencePinyin": "Zhè chǎng yǎnchū zàixiàn le chuántǒng jiéqìng de rènào qìfēn.",
-      "sentenceEnglish": "This performance reproduced the lively atmosphere of traditional festivals.",
-      "vietnamese": "tái hiện",
-      "sentenceVietnamese": "Buổi biểu diễn này đã tái hiện không khí náo nhiệt của lễ hội truyền thống."
+      "en": "to reappear; reproduce",
+      "vi": "tái hiện",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "(of a past event) reappear; be reproduced",
+          "sentence": "他希望青春能再現。",
+          "pinyin": "tā xīwàng qīngchūn néng zàixiàn.",
+          "en": "He hopes his youth can reappear.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "(of a past event) reappear; be reproduced",
+          "sentence": "老照片讓迴憶再現。",
+          "pinyin": "lǎo zhàopiàn ràng huíyì zàixiàn.",
+          "en": "Old photos bring back memories.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "光輝",
       "pinyin": "guānghuī",
-      "english": "glory; radiance",
-      "sentenceChinese": "夕陽的光輝灑在了海面上。",
-      "sentencePinyin": "Xīyáng de guānghuī sǎ zài le hǎimiàn shàng.",
-      "sentenceEnglish": "The radiance of the sunset sprinkled on the sea surface.",
-      "vietnamese": "rực rỡ, hào quang",
-      "sentenceVietnamese": "Ánh hào quang của hoàng hôn tỏa xuống mặt biển."
+      "en": "glory; radiance",
+      "vi": "rực rỡ, hào quang",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "radiance; brilliance; glory",
+          "sentence": "太陽的光輝普照四方。",
+          "pinyin": "tàiyáng de guānghuī pǔzhào sìfāng.",
+          "en": "The sun's light shines everywhere.",
+          "vi": "Ánh sáng chói chang của mặt trời chiếu sáng mọi nơi."
+        },
+        {
+          "type": "noun",
+          "meaning": "radiance; brilliance; glory",
+          "sentence": "鞦天的森林充滿了光輝。",
+          "pinyin": "qiūtiān de sēnlín chōngmǎnle guānghuī.",
+          "en": "The autumn forest is full of glory.",
+          "vi": "Rừng mùa thu tràn ngập ánh sáng rực rỡ."
+        },
+        {
+          "type": "adjective",
+          "meaning": "brilliant; shining; glorious",
+          "sentence": "這位老師是光輝的典範。",
+          "pinyin": "zhè wèi lǎoshī shì guānghuī de diǎnfàn.",
+          "en": "This teacher is a shining example.",
+          "vi": "Giáo viên này là một tấm gương sáng."
+        },
+        {
+          "type": "adjective",
+          "meaning": "brilliant; shining; glorious",
+          "sentence": "這本書是光輝的文學作品。",
+          "pinyin": "zhè běn shū shì guānghuī de wénxué zuòpǐn.",
+          "en": "This book is a brilliant work of literature.",
+          "vi": "Cuốn sách này là một tác phẩm văn học xán lạn."
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "歲月",
       "pinyin": "suìyuè",
-      "english": "years; time",
-      "sentenceChinese": "歲月不饒人，我們要珍惜時光。",
-      "sentencePinyin": "Suìyuè bù ráorén, wǒmen yào zhēnxī shíguāng.",
-      "sentenceEnglish": "Time and tide wait for no man (Years don't spare people); we must cherish our time.",
-      "vietnamese": "năm tháng",
-      "sentenceVietnamese": "Năm tháng chẳng đợi chờ ai, chúng ta phải trân trọng thời gian."
+      "en": "years; time",
+      "vi": "năm tháng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "years",
+          "sentence": "我等了她這麼多歲月。",
+          "pinyin": "wǒ děngle tā zhème duō suìyuè.",
+          "en": "I've waited for her for so many years.",
+          "vi": "Tôi đã chờ đợi cô ấy suốt bao năm tháng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "years",
+          "sentence": "歲月教會我們許多東西。",
+          "pinyin": "suìyuè jiàohuì wǒmen xǔduō dōngxi.",
+          "en": "Time teaches us many things.",
+          "vi": "Năm tháng đã dạy chúng ta nhiều điều."
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "軌跡",
       "pinyin": "guǐjì",
-      "english": "orbit; track; trajectory",
-      "sentenceChinese": "每個人的人生軌跡都是獨一無二的。",
-      "sentencePinyin": "Měi ge rén de rénshēng guǐjì dōu shì dúyī wú'èr de.",
-      "sentenceEnglish": "Every person's life trajectory is unique.",
-      "vietnamese": "quỹ tích, dấu vết",
-      "sentenceVietnamese": "Quỹ tích cuộc đời mỗi người đều là độc nhất vô nhị."
+      "en": "orbit; track; trajectory",
+      "vi": "quỹ tích, dấu vết",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "track; path",
+          "sentence": "他的軌跡很特別。",
+          "pinyin": "tā de guǐjì hěn tèbié.",
+          "en": "His trajectory is very special.",
+          "vi": "Quỹ tích của anh ấy rất đặc biệt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "track; path",
+          "sentence": "這條軌跡很復雜。",
+          "pinyin": "zhè tiáo guǐjì hěn fùzá.",
+          "en": "This trajectory is very complex.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "淡水河",
       "pinyin": "Dànshuǐ hé",
-      "english": "Tamsui River",
-      "sentenceChinese": "大稻埕位於淡水河旁邊，曾是重要的港口。",
-      "sentencePinyin": "Dàdàochéng wèiyú Dànshuǐ hé pángbiān, céng shì zhòngyào de gǎngkǒu.",
-      "sentenceEnglish": "Dadaocheng is located beside the Tamsui River and used to be an important port.",
-      "vietnamese": "Sông Đạm Thủy",
-      "sentenceVietnamese": "Đại Đạo Trình nằm bên cạnh sông Đạm Thủy, từng là một bến cảng quan trọng."
+      "en": "Tamsui River",
+      "vi": "Sông Đạm Thủy",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "weak; bland; tasteless; without enough salt",
+          "sentence": "這湯味道有點淡了。",
+          "pinyin": "zhè tāng wèidào yǒudiǎn dànle.",
+          "en": "The soup tastes a bit bland.",
+          "vi": "Món canh này vị hơi nhạt."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "weak; bland; tasteless; without enough salt",
+          "sentence": "此種茶淡而無味呀。",
+          "pinyin": "cǐ zhǒng chá dàn'érwúwèi ya.",
+          "en": "This type of tea is bland and tasteless.",
+          "vi": "Loại trà này nhạt không có mùi vị gì cả."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓淡。",
+          "pinyin": "tā xìng dàn.",
+          "en": "His surname is Dan.",
+          "vi": "Anh ấy họ Đạm."
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "迪化街",
       "pinyin": "Díhuà jiē",
-      "english": "Dihua Street",
-      "sentenceChinese": "迪化街是台北最有名的年貨大街。",
-      "sentencePinyin": "Díhuà jiē shì Táiběi zuì yǒumíng de niánhuò dàjiē.",
-      "sentenceEnglish": "Dihua Street is the most famous street for New Year's goods in Taipei.",
-      "vietnamese": "Phố Địch Hóa",
-      "sentenceVietnamese": "Phố Địch Hóa là con phố nổi tiếng nhất Đài Bắc để mua đồ Tết."
+      "en": "Dihua Street",
+      "vi": "Phố Địch Hóa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "street",
+          "sentence": "這條街有很多小吃/喫攤。",
+          "pinyin": "zhè tiáo jiē yǒu hěnduō xiǎochī tān.",
+          "en": "There are many food stalls on this street.",
+          "vi": "Con phố này có nhiều quán ăn vặt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "street",
+          "sentence": "街道兩旁種滿了樹木。",
+          "pinyin": "jiēdào liǎngpáng zhǒng mǎnle shùmù.",
+          "en": "The streets are lined with trees.",
+          "vi": "Hai bên đường phố trồng đầy cây cối."
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "永樂座",
       "pinyin": "Yǒnglè zuò",
-      "english": "Yongle Theater",
-      "sentenceChinese": "永樂座是大稻埕歷史悠久的戲院。",
-      "sentencePinyin": "Yǒnglè zuò shì Dàdàochéng lìshǐ yōujiǔ de xìyuàn.",
-      "sentenceEnglish": "Yongle Theater is a long-standing theater in Dadaocheng.",
-      "vietnamese": "Vĩnh Lạc Tọa",
-      "sentenceVietnamese": "Vĩnh Lạc Tọa là một nhà hát có lịch sử lâu đời ở Đại Đạo Trình."
+      "en": "Yongle Theater",
+      "vi": "Vĩnh Lạc Tọa",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "seat; place",
+          "sentence": "那個座位有人坐了。",
+          "pinyin": "nàgè zuòwèi yǒurén zuòle.",
+          "en": "That seat is occupied.",
+          "vi": "Chỗ đó có người ngồi rồi."
+        },
+        {
+          "type": "noun",
+          "meaning": "seat; place",
+          "sentence": "我來幫他找個座兒。",
+          "pinyin": "wǒ lái bāng tā zhǎo gè zuò er.",
+          "en": "I'll help him find a seat.",
+          "vi": "Để tớ tìm chỗ ngồi cho anh ấy."
+        },
+        {
+          "type": "measure word",
+          "meaning": "used for larger or fixed objects (mountains; builidings; cities; hills)",
+          "sentence": "河上有一座小橋。",
+          "pinyin": "héshàng yǒu yīzuò xiǎo qiáo.",
+          "en": "There is a small bridge over the river.",
+          "vi": "Trên hồ có một cây cầu nhỏ."
+        },
+        {
+          "type": "measure word",
+          "meaning": "used for larger or fixed objects (mountains; builidings; cities; hills)",
+          "sentence": "我們參觀了那座塔。",
+          "pinyin": "wǒmen cānguānle nà zuò tǎ.",
+          "en": "We visited the tower.",
+          "vi": "Chúng tôi đã tham quan tòa tháp đó."
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "屈臣氏大藥房",
       "pinyin": "Qūchénshì dàyàofáng",
-      "english": "A.S. Watson & Co. (Historic Pharmacy)",
-      "sentenceChinese": "大稻埕這棟建築曾是屈臣氏大藥房。",
-      "sentencePinyin": "Dàdàochéng zhè dòng jiànzhù céng shì Qūchénshì dàyàofáng.",
-      "sentenceEnglish": "This building in Dadaocheng used to be the A.S. Watson & Co. Pharmacy.",
-      "vietnamese": "Đại dược phòng Khuất Thần Thị",
-      "sentenceVietnamese": "Tòa nhà này ở Đại Đạo Trình từng là đại dược phòng Khuất Thần Thị."
+      "en": "A.S. Watson & Co. (Historic Pharmacy)",
+      "vi": "Đại dược phòng Khuất Thần Thị",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "drug; lotion; medicine; medication",
+          "sentence": "他每天都吃/喫藥。",
+          "pinyin": "tā měitiān dōu chī yào.",
+          "en": "He takes medicine every day.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "drug; lotion; medicine; medication",
+          "sentence": "這些藥材很珍貴。",
+          "pinyin": "zhèxiē yàocái hěn zhēnguì.",
+          "en": "These medicinal herbs are valuable.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cure with medicine",
+          "sentence": "這種病已不可救藥。",
+          "pinyin": "zhè zhǒng bìng yǐ bùkě jiù yào.",
+          "en": "This disease is beyond cure.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cure with medicine",
+          "sentence": "醫生説病情不可救藥。",
+          "pinyin": "yīshēng shuō bìngqíng bùkě jiù yào.",
+          "en": "The doctor said the condition is incurable.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "文化部",
       "pinyin": "Wénhuà bù",
-      "english": "Ministry of Culture",
-      "sentenceChinese": "文化部正推動各項補助計畫來支持藝術創作。",
-      "sentencePinyin": "Wénhuà bù zhèng tuīdòng gè xiàng bǔzhù jìhuà lái zhīchí yìshù chuàngzuò.",
-      "sentenceEnglish": "The Ministry of Culture is promoting various subsidy programs to support artistic creation.",
-      "vietnamese": "Bộ Văn hóa",
-      "sentenceVietnamese": "Bộ Văn hóa đang thúc đẩy các chương trình trợ cấp để hỗ trợ sáng tạo nghệ thuật."
+      "en": "Ministry of Culture",
+      "vi": "Bộ Văn hóa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "culture; civilization",
+          "sentence": "我參加了文化交流活動。",
+          "pinyin": "wǒ cānjiāle wénhuà jiāoliú huódòng.",
+          "en": "I participated in a cultural exchange activity.",
+          "vi": "Tôi tham gia hoạt động giao lưu văn hóa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "culture; civilization",
+          "sentence": "日本文化特別註重禮儀。",
+          "pinyin": "rìběn wénhuà tèbié zhùzhòng lǐyí.",
+          "en": "Japanese culture places a special emphasis on etiquette.",
+          "vi": "Văn hóa Nhật rất chú trọng lễ nghi."
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "藝術家",
       "pinyin": "yìshùjiā",
-      "english": "artist",
-      "sentenceChinese": "許多年輕藝術家在大稻埕開設工作室。",
-      "sentencePinyin": "Xǔduō niánqīng yìshùjiā zài Dàdàochéng kāishè gōngzuòshì.",
-      "sentenceEnglish": "Many young artists have opened studios in Dadaocheng.",
-      "vietnamese": "nghệ thuật gia",
-      "sentenceVietnamese": "Rất nhiều nghệ sĩ trẻ mở xưởng làm việc tại Đại Đạo Trình."
+      "en": "artist",
+      "vi": "nghệ thuật gia",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "artist",
+          "sentence": "他是一位著名的藝術傢。",
+          "pinyin": "tā shì yī wèi zhùmíng de yìshùjiā.",
+          "en": "He is a famous artist.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "artist",
+          "sentence": "這個錶演藝術傢很有才/纔華。",
+          "pinyin": "zhège biǎoyǎn yìshùjiā hěn yǒu cáihuá.",
+          "en": "This performing artist is very talented.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "交流",
       "pinyin": "jiāoliú",
-      "english": "to exchange; communicate",
-      "sentenceChinese": "這次研討會是一個技術交流的好機會。",
-      "sentencePinyin": "Zhè cì yántǎohuì shì yí ge jìshù jiāoliú de hǎo jīhuì.",
-      "sentenceEnglish": "This seminar is a good opportunity for technical exchange.",
-      "vietnamese": "nghệ sĩ",
-      "sentenceVietnamese": "Hội thảo lần này là một cơ hội tốt để giao lưu kỹ thuật."
+      "en": "to exchange; communicate",
+      "vi": "nghệ sĩ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "exchange; interflow; interchange; communicate",
+          "sentence": "他們通過郵件交流。",
+          "pinyin": "tāmen tōngguò yóujiàn jiāoliú.",
+          "en": "They communicate via email.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "exchange; interflow; interchange; communicate",
+          "sentence": "這次交流非常有價值。",
+          "pinyin": "zhè cì jiāoliú fēicháng yǒu jiàzhí.",
+          "en": "This exchange was very valuable.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "展現",
       "pinyin": "zhǎnxiàn",
-      "english": "to show; display",
-      "sentenceChinese": "他在會議中展現了卓越的領導能力。",
-      "sentencePinyin": "Tā zài huìyì zhōng zhǎnxiàn le zhuóyuè de lǐngdǎo nénglì.",
-      "sentenceEnglish": "He displayed excellent leadership abilities during the meeting.",
-      "vietnamese": "thể hiện",
-      "sentenceVietnamese": "Anh ấy đã thể hiện năng lực lãnh đạo xuất sắc trong cuộc họp."
+      "en": "to show; display",
+      "vi": "thể hiện",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "show; emerge",
+          "sentence": "他展現了齣色的能力。",
+          "pinyin": "tā zhǎnxiànle chūsè de nénglì.",
+          "en": "He showcased excellent skills.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "show; emerge",
+          "sentence": "她展現齣對藝術的熱愛。",
+          "pinyin": "tā zhǎnxiàn chū duì yìshù de rè'ài.",
+          "en": "She showed her passion for art.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "實力",
       "pinyin": "shílì",
-      "english": "strength; power",
-      "sentenceChinese": "我們必須不斷充實自己，提升技術實力。",
-      "sentencePinyin": "Wǒmen bìxū búduàn chōngshí zìjǐ, tíshēng jìshù shílì.",
-      "sentenceEnglish": "We must constantly enrich ourselves and improve our technical strength.",
-      "vietnamese": "thể hiện, trình bày",
-      "sentenceVietnamese": "Chúng ta phải không ngừng bồi dưỡng bản thân, nâng cao thực lực kỹ thuật."
+      "en": "strength; power",
+      "vi": "thể hiện, trình bày",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "strength",
+          "sentence": "這傢公司實力雄厚。",
+          "pinyin": "zhè jiā gōngsī shílì xiónghòu.",
+          "en": "This company has strong strength.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "strength",
+          "sentence": "這支球隊很有實力。",
+          "pinyin": "zhè zhī qiú duì hěn yǒu shílì.",
+          "en": "This team is very strong.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "融合",
       "pinyin": "rónghé",
-      "english": "to merge; blend",
-      "sentenceChinese": "這件作品完美融合了傳統與現代的元素。",
-      "sentencePinyin": "Zhè jiàn zuòpǐn wánměi rónghé le chuántǒng hàn xiàndài de yuánsù.",
-      "sentenceEnglish": "This work perfectly blends traditional and modern elements.",
-      "vietnamese": "dung hợp",
-      "sentenceVietnamese": "Tác phẩm này dung hợp hoàn hảo các yếu tố truyền thống và hiện đại."
+      "en": "to merge; blend",
+      "vi": "dung hợp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fuse; merge; mix together",
+          "sentence": "融閤遺傳學説。",
+          "pinyin": "rónghé yíchuán xuéshuō.",
+          "en": "Theory of blending inheritance.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "fuse; merge; mix together",
+          "sentence": "兩國文化互相融閤。",
+          "pinyin": "liǎng guó wénhuà hùxiāng rónghé.",
+          "en": "The two cultures are merging.",
+          "vi": "Văn hóa hai nước hòa nhập với nhau."
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "在地",
       "pinyin": "zàidì",
-      "english": "local",
-      "sentenceChinese": "我們應該支持在地小農的產品。",
-      "sentencePinyin": "Wǒmen yīnggāi zhīchí zàidì xiǎonóng de chǎnpǐn.",
-      "sentenceEnglish": "We should support the products of local small farmers.",
-      "vietnamese": "tại địa phương",
-      "sentenceVietnamese": "Chúng ta nên ủng hộ sản phẩm của các nông dân địa phương."
+      "en": "local",
+      "vi": "tại địa phương",
+      "samples": []
     },
     {
       "id": 71,
       "chinese": "元素",
       "pinyin": "yuánsù",
-      "english": "element",
-      "sentenceChinese": "設計師在作品中加入了一些東方的設計元素。",
-      "sentencePinyin": "Shèjìshī zài zuòpǐn zhōng jiārù le yìxiē dōngfāng de shèjì yuánsù.",
-      "sentenceEnglish": "The designer added some Oriental design elements into the work.",
-      "vietnamese": "yếu tố",
-      "sentenceVietnamese": "Nhà thiết kế đã thêm vào tác phẩm một vài yếu tố thiết kế phương Đông."
+      "en": "element",
+      "vi": "yếu tố",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "element; essential factor",
+          "sentence": "成功的關鍵元素是堅持。",
+          "pinyin": "chénggōng de guānjiàn yuánsù shì jiānchí.",
+          "en": "The key element to success is persistence.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "element; essential factor",
+          "sentence": "這本書包含很多文化元素。",
+          "pinyin": "zhè běn shū bāohán hěnduō wénhuà yuánsù.",
+          "en": "This book contains many cultural elements.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "當代",
       "pinyin": "dāngdài",
-      "english": "contemporary",
-      "sentenceChinese": "當代藝術的風格通常非常多元化。",
-      "sentencePinyin": "Dāngdài yìshù de fēnggé tōngcháng fēicháng duōyuánhuà.",
-      "sentenceEnglish": "The styles of contemporary art are usually very diversified.",
-      "vietnamese": "đương đại",
-      "sentenceVietnamese": "Phong cách nghệ thuật đương đại thường vô cùng đa dạng."
+      "en": "contemporary",
+      "vi": "đương đại",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "the present age; the contemporary era",
+          "sentence": "當代藝術越來越受歡迎。",
+          "pinyin": "dāngdài yìshù yuè lái yuè shòu huānyíng.",
+          "en": "Contemporary art is becoming increasingly popular.",
+          "vi": "Nghệ thuật đương đại ngày càng được yêu thích."
+        },
+        {
+          "type": "n, time",
+          "meaning": "the present age; the contemporary era",
+          "sentence": "當代社會正在快速髮/發展。",
+          "pinyin": "dāngdài shèhuì zhèngzài kuàisù fāzhǎn.",
+          "en": "Modern society is developing rapidly.",
+          "vi": "Xã hội hiện đại đang phát triển nhanh chóng."
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "對話",
       "pinyin": "duìhuà",
-      "english": "dialogue",
-      "sentenceChinese": "溝通的關鍵在於建立良好的對話基礎。",
-      "sentencePinyin": "Gōutōng de guānjiàn zàiyú jiànlì liánghǎo de duìhuà jīchǔ.",
-      "sentenceEnglish": "The key to communication lies in establishing a good foundation for dialogue.",
-      "vietnamese": "đối thoại",
-      "sentenceVietnamese": "Mấu chốt của giao tiếp nằm ở việc xây dựng một nền tảng đối thoại tốt."
+      "en": "dialogue",
+      "vi": "đối thoại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to talk with; to communicate with",
+          "sentence": "兩國開始就邊界問題進行對話。",
+          "pinyin": "liǎng guó kāishǐ jiù biānjiè wèntí jìnxíng duìhuà.",
+          "en": "The two countries have started a dialogue on the border issue.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to talk with; to communicate with",
+          "sentence": "我們需要與對方進行對話。",
+          "pinyin": "wǒmen xūyào yǔ duìfāng jìnxíng duìhuà.",
+          "en": "We need to have a dialogue with the other party.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dialogue",
+          "sentence": "對話要符閤人物的性格。",
+          "pinyin": "duìhuà yào fúhé rénwù de xìnggé.",
+          "en": "The dialogue should fit the character's personality.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dialogue",
+          "sentence": "這部電影的對話很精綵。",
+          "pinyin": "zhè bù diànyǐng de duìhuà hěn jīngcǎi.",
+          "en": "The dialogue in this movie is fantastic.",
+          "vi": "Lời thoại trong bộ phim này rất hay."
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "感動",
       "pinyin": "gǎndòng",
-      "english": "to be moved; touched",
-      "sentenceChinese": "這部電影的故事讓人深感感動。",
-      "sentencePinyin": "Zhè bù diànyǐng de gùshì ràng rén shēn gǎn gǎndòng.",
-      "sentenceEnglish": "The story of this movie is deeply touching.",
-      "vietnamese": "cảm động",
-      "sentenceVietnamese": "Câu chuyện trong bộ phim này khiến người ta vô cùng cảm động."
+      "en": "to be moved; touched",
+      "vi": "cảm động",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "move; touch",
+          "sentence": "這首歌感動所有觀眾/衆。",
+          "pinyin": "zhè shǒu gē gǎndòng suǒyǒu guānzhòng.",
+          "en": "This song touched all the audience.",
+          "vi": "Bài hát này đã cảm động khán giả."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move; touch",
+          "sentence": "他的努力感動了大傢。",
+          "pinyin": "tā de nǔlì gǎndòngle dàjiā.",
+          "en": "His efforts moved everyone.",
+          "vi": "Nỗ lực của anh ấy cảm động mọi người."
+        }
+      ]
     },
     {
       "id": 75,
       "chinese": "回憶",
       "pinyin": "huíyì",
-      "english": "memory; to recall",
-      "sentenceChinese": "大稻埕承載了許多老台北人的共同回憶。",
-      "sentencePinyin": "Dàdàochéng chéngzài le xǔduō lǎo Táiběirén de gòngtóng huíyì.",
-      "sentenceEnglish": "Dadaocheng carries the shared memories of many old Taipei people.",
-      "vietnamese": "kỷ niệm, hồi ức",
-      "sentenceVietnamese": "Đại Đạo Trình chứa đựng nhiều hồi ức chung của rất nhiều người Đài Bắc xưa."
+      "en": "memory; to recall",
+      "vi": "kỷ niệm, hồi ức",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "recollect; recall",
+          "sentence": "我常迴憶童年的時光。",
+          "pinyin": "wǒ cháng huíyì tóngnián de shíguāng.",
+          "en": "I often recollect the time of my childhood.",
+          "vi": "Tôi thường nhớ về thời thơ ấu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "recollect; recall",
+          "sentence": "她不想迴憶痛苦的事。",
+          "pinyin": "tā bùxiǎng huíyì tòngkǔ de shì.",
+          "en": "She doesn't want to recall painful things.",
+          "vi": "Cô ấy không muốn nhớ lại chuyện đau khổ."
+        }
+      ]
     },
     {
       "id": 76,
       "chinese": "共鳴",
       "pinyin": "gòngmíng",
-      "english": "resonance; sympathy",
-      "sentenceChinese": "這場演說引起了在場所有人的強烈共鳴。",
-      "sentencePinyin": "Zhè chǎng yǎnshuō yǐnqǐ le zàichǎng suǒyǒu rén de qiángliè gòngmíng.",
-      "sentenceEnglish": "This speech evoked strong resonance among everyone present.",
-      "vietnamese": "cộng hưởng",
-      "sentenceVietnamese": "Bài phát biểu này đã tạo nên sự cộng hưởng mạnh mẽ đối với tất cả mọi người có mặt."
+      "en": "resonance; sympathy",
+      "vi": "cộng hưởng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "resonance",
+          "sentence": "頻率一緻時會髮/發生共鳴。",
+          "pinyin": "pínlǜ yīzhì shí huì fāshēng gòngmíng.",
+          "en": "Resonance occurs when the frequencies match.",
+          "vi": "Khi tần số đồng nhất sẽ xảy ra cộng hưởng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "resonance",
+          "sentence": "兩個音叉産生了共鳴。",
+          "pinyin": "liǎng gè yīnchā chǎnshēngle gòngmíng.",
+          "en": "The two tuning forks produced resonance.",
+          "vi": "Hai âm thoa đã tạo ra cộng hưởng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sympathetic response",
+          "sentence": "這首詩引起了讀者的共鳴。",
+          "pinyin": "zhè shǒu shī yǐnqǐle dúzhě de gòngmíng.",
+          "en": "This poem has struck a responsive chord in the hearts of its readers.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sympathetic response",
+          "sentence": "他的故事讓我産生了共鳴。",
+          "pinyin": "tā de gù shi ràng wǒ chǎnshēngle gòngmíng.",
+          "en": "His story resonated with me.",
+          "vi": "Câu chuyện của anh ấy đã chạm đến trái tim tôi."
+        }
+      ]
     },
     {
       "id": 77,
       "chinese": "價值",
       "pinyin": "jiàzhí",
-      "english": "value",
-      "sentenceChinese": "歷史古蹟具有極高的文化教育價值。",
-      "sentencePinyin": "Lìshǐ gǔjī jùyǒu jí gāo de wénhuà jiàoyù jiàzhí.",
-      "sentenceEnglish": "Historical sites have extremely high cultural and educational value.",
-      "vietnamese": "giá trị",
-      "sentenceVietnamese": "Di tích lịch sử có giá trị giáo dục văn hóa vô cùng cao."
+      "en": "value",
+      "vi": "giá trị",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "value",
+          "sentence": "它的價值比我想的高多了。",
+          "pinyin": "tā de jiàzhí bǐ wǒ xiǎng de gāo duōle.",
+          "en": "Its value is much higher than I thought.",
+          "vi": "Giá trị của nó cao hơn tôi nghĩ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "value",
+          "sentence": "這件藝術品的價值很高。",
+          "pinyin": "zhè jiàn yìshù pǐn de jiàzhí hěn gāo.",
+          "en": "The value of this artwork is very high.",
+          "vi": "Giá trị của tác phẩm nghệ thuật này rất cao."
+        }
+      ]
     },
     {
       "id": 78,
       "chinese": "省思",
       "pinyin": "xǐngsī",
-      "english": "reflection",
-      "sentenceChinese": "這場意外值得我們深思與省思。",
-      "sentencePinyin": "Zhè chǎng yìwài zhídé wǒmen shēnsī hàn xǐngsī.",
-      "sentenceEnglish": "This accident is worth our deep thought and reflection.",
-      "vietnamese": "suy xét, phản tỉnh",
-      "sentenceVietnamese": "Tai nạn này đáng để chúng ta suy xét và nhìn nhận lại sâu sắc."
+      "en": "reflection",
+      "vi": "suy xét, phản tỉnh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "save; economize",
+          "sentence": "我們需要節省錢。",
+          "pinyin": "wǒmen xūyào jiéshěng qián.",
+          "en": "We need to save money.",
+          "vi": "Chúng ta cần phải tiết kiệm tiền."
+        },
+        {
+          "type": "Verb",
+          "meaning": "save; economize",
+          "sentence": "努力節省電吧。",
+          "pinyin": "nǔlì jiéshěng diàn ba.",
+          "en": "Try hard to save electricity.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "province",
+          "sentence": "你來自哪個省？",
+          "pinyin": "nǐ láizì nǎge shěng?",
+          "en": "Which province are you from?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "province",
+          "sentence": "越南有63個省份。",
+          "pinyin": "yuènán yǒu 63 gè shěngfèn.",
+          "en": "Vietnam has 63 provinces.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 79,
       "chinese": "展望",
       "pinyin": "zhǎnwàng",
-      "english": "outlook; prospect",
-      "sentenceChinese": "展望未來，我們對這項技術充滿信心。",
-      "sentencePinyin": "Zhǎnwàng wèilái, wǒmen duì zhè xiàng jìshù chōngmǎn xìnxīn.",
-      "sentenceEnglish": "Looking forward, we are full of confidence in this technology.",
-      "vietnamese": "suy ngẫm, phản tỉnh",
-      "sentenceVietnamese": "Triển vọng tương lai, chúng tôi tràn đầy tự tin vào công nghệ này."
+      "en": "outlook; prospect",
+      "vi": "suy ngẫm, phản tỉnh",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "forecast; prospect",
+          "sentence": "他真的能展望未來嗎？",
+          "pinyin": "tā zhēn de néng zhǎnwàng wèilái ma?",
+          "en": "Can he really see into the future?",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "forecast; prospect",
+          "sentence": "這本書展望了AI的未來。",
+          "pinyin": "zhè běn shū zhǎnwàngle ai de wèilái.",
+          "en": "This book looks into the future of AI.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 80,
       "chinese": "未來",
       "pinyin": "wèilái",
-      "english": "future",
-      "sentenceChinese": "投資教育就是投資未來。",
-      "sentencePinyin": "Tóuzī jiàoyù jiùshì tóuzī wèilái.",
-      "sentenceEnglish": "Investing in education is investing in the future.",
-      "vietnamese": "tương lai",
-      "sentenceVietnamese": "Đầu tư cho giáo dục chính là đầu tư cho tương lai."
+      "en": "future",
+      "vi": "tương lai",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "future; tomorrow",
+          "sentence": "沒有人能預測未來。",
+          "pinyin": "méiyǒu rén néng yùcè wèilái.",
+          "en": "No one can predict the future.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "future; tomorrow",
+          "sentence": "他對未來充滿希望。",
+          "pinyin": "tā duì wèilái chōngmǎn xīwàng.",
+          "en": "He is full of hope for the future.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "next; coming; approaching",
+          "sentence": "未來的計劃很大。",
+          "pinyin": "wèilái de jìhuà hěn dà.",
+          "en": "The next plan is huge.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "next; coming; approaching",
+          "sentence": "未來的科技將改變生活。",
+          "pinyin": "wèilái de kējì jiāng gǎibiàn shēnghuó.",
+          "en": "Future technology will change life.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 81,
       "chinese": "關鍵",
       "pinyin": "guānjiàn",
-      "english": "key; critical",
-      "sentenceChinese": "這是計畫成功的關鍵因素。",
-      "sentencePinyin": "Zhè shì jìhuà chénggōng de guānjiàn yīnsù.",
-      "sentenceEnglish": "This is the critical factor for the plan's success.",
-      "vietnamese": "mấu chốt",
-      "sentenceVietnamese": "Đây là yếu tố mấu chốt dẫn đến sự thành công của kế hoạch."
+      "en": "key; critical",
+      "vi": "mấu chốt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "key",
+          "sentence": "這就是問題的關鍵所在。",
+          "pinyin": "zhè jiù shì wèn tí de guān jiàn suǒ zài.",
+          "en": "This is the crux of the matter.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "key",
+          "sentence": "解決問題的關鍵是溝通。",
+          "pinyin": "jiějué wèntí de guānjiàn shì gōutōng.",
+          "en": "The key to solving the problem is communication.",
+          "vi": "Mấu chốt để giải quyết vấn đề là giao tiếp."
+        }
+      ]
     },
     {
       "id": 82,
       "chinese": "推手",
       "pinyin": "tuīshǒu",
-      "english": "promoter; driving force",
-      "sentenceChinese": "他是這項文化復興運動的重要推手。",
-      "sentencePinyin": "Tā shì zhè xiàng wénhuà fùxīng yùndòng de zhòngyào tuīshǒu.",
-      "sentenceEnglish": "He is an important driving force behind this cultural revival movement.",
-      "vietnamese": "người thúc đẩy",
-      "sentenceVietnamese": "Anh ấy là người thúc đẩy quan trọng của phong trào phục hưng văn hóa này."
+      "en": "promoter; driving force",
+      "vi": "người thúc đẩy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "advocate",
+          "sentence": "她是環保運動的推手。",
+          "pinyin": "tā shì huán bǎo yùn dòng de tuī shǒu.",
+          "en": "She is an advocate of the environmental movement.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "driving force",
+          "sentence": "公司改革的推手是他。",
+          "pinyin": "Gōngsī gǎigé de tuīshǒu shì tā",
+          "en": "He is the driving force behind the company's reform.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 83,
       "chinese": "幕後",
       "pinyin": "mùhòu",
-      "english": "behind the scenes",
-      "sentenceChinese": "每一場成功的演出都有許多幕後功臣。",
-      "sentencePinyin": "Měi yì chǎng chénggōng de yǎnchū dōu yǒu xǔduō mùhòu gōngchén.",
-      "sentenceEnglish": "Every successful performance has many heroes behind the scenes.",
-      "vietnamese": "hậu trường",
-      "sentenceVietnamese": "Mỗi buổi biểu diễn thành công đều có rất nhiều công thần thầm lặng phía sau hậu trường."
+      "en": "behind the scenes",
+      "vi": "hậu trường",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "backstage; behind the scenes",
+          "sentence": "他是公司的幕後英雄。",
+          "pinyin": "tā shì gōngsī de mùhòu yīngxióng.",
+          "en": "He is the company's unsung hero.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "backstage; behind the scenes",
+          "sentence": "他們進行了幕後交易。",
+          "pinyin": "tāmen jìnxíngle mùhòu jiāoyì.",
+          "en": "They made a secret deal.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 84,
       "chinese": "功臣",
       "pinyin": "gōngchén",
-      "english": "hero; contributor",
-      "sentenceChinese": "他是這次專案能如期完工的大功臣。",
-      "sentencePinyin": "Tā shì zhè cì zhuānyàn néng rúqī wángōng de dà gōngchén.",
-      "sentenceEnglish": "He is the big hero who made it possible to finish this project on schedule.",
-      "vietnamese": "công thần",
-      "sentenceVietnamese": "Anh ấy là công thần lớn nhất giúp dự án lần này có thể hoàn thành đúng hạn."
+      "en": "hero; contributor",
+      "vi": "công thần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "person who has rendered outstanding service (opp. 罪人)",
+          "sentence": "不要以功臣自居。",
+          "pinyin": "Bùyào yǐ gōngchén zìjū.",
+          "en": "Don’t give yourself the airs of a hero.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "minister who has given outstanding service",
+          "sentence": "他被譽為國傢功臣。",
+          "pinyin": "Tā bèi yù wéi guó jiā gōng chén.",
+          "en": "He is hailed as a national meritorious minister.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 85,
       "chinese": "指標",
       "pinyin": "zhǐbiāo",
-      "english": "indicator; benchmark",
-      "sentenceChinese": "消費者物價指數是衡量通膨的重要指標。",
-      "sentencePinyin": "Xiāofèizhě wùjià zhǐshù shì héngliáng tōngpéng de zhòngyào zhǐbiāo.",
-      "sentenceEnglish": "The Consumer Price Index (CPI) is an important indicator for measuring inflation.",
-      "vietnamese": "chỉ số, cột mốc",
-      "sentenceVietnamese": "Chỉ số giá tiêu dùng là một chỉ số quan trọng để đo lường lạm phát."
+      "en": "indicator; benchmark",
+      "vi": "chỉ số, cột mốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "target; quota; norm; index",
+          "sentence": "這個項目的指標很高。",
+          "pinyin": "zhège xiàngmù de zhǐbiāo hěn gāo.",
+          "en": "The project has very high metrics.",
+          "vi": "Chỉ tiêu của dự án này rất cao."
+        },
+        {
+          "type": "Noun",
+          "meaning": "target; quota; norm; index",
+          "sentence": "我們需要一個明確的指標。",
+          "pinyin": "wǒmen xūyào yīgè míngquè de zhǐbiāo.",
+          "en": "We need a clear indicator.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 86,
       "chinese": "里程碑",
       "pinyin": "lǐchéngbēi",
-      "english": "milestone",
-      "sentenceChinese": "這項技術的突破是科學史上的里程碑。",
-      "sentencePinyin": "Zhè xiàng jìshù de túpò shì kēxuélǐ shàng de lǐchéngbēi.",
-      "sentenceEnglish": "The breakthrough in this technology is a milestone in scientific history.",
-      "vietnamese": "cột mốc lịch sử",
-      "sentenceVietnamese": "Sự đột phá kỹ thuật này là một cột mốc lịch sử trong ngành khoa học."
+      "en": "milestone",
+      "vi": "cột mốc lịch sử",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "milestone",
+          "sentence": "我們經過了五個裡/裏程碑。",
+          "pinyin": "wǒmen jīngguòle wǔ gè lǐchéngbēi.",
+          "en": "We've passed five milestones.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "milestone",
+          "sentence": "裡/裏程碑上刻著“10公裡/裏”。",
+          "pinyin": "lǐchéngbēi shàng kèzhe “10 gōnglǐ”.",
+          "en": "It says \"10 kilometers\" on the milestone.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 87,
       "chinese": "共創",
       "pinyin": "gòngchuàng",
-      "english": "to create together",
-      "sentenceChinese": "讓我們攜手共創美好的未來。",
-      "sentencePinyin": "Ràng wǒmen xiéshǒu gòngchuàng měihǎo de wèilái.",
-      "sentenceEnglish": "Let us join hands to create a wonderful future together.",
-      "vietnamese": "cùng sáng tạo",
-      "sentenceVietnamese": "Hãy cùng sát cánh bên nhau kiến tạo một tương lai tốt đẹp."
+      "en": "to create together",
+      "vi": "cùng sáng tạo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "create; produce; bring about",
+          "sentence": "公司創造了曆史性記彔。",
+          "pinyin": "gōngsī chuàngzàole lìshǐ xìng jìlù.",
+          "en": "The company set a historic record.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "create; produce; bring about",
+          "sentence": "我們正在創造一個奇跡。",
+          "pinyin": "wǒmen zhèngzài chuàngzào yīgè qíjī.",
+          "en": "We are creating a miracle.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "creation; innovation",
+          "sentence": "這本書是他的傑齣創造。",
+          "pinyin": "zhè běn shū shì tā de jiéchū chuàngzào.",
+          "en": "This book is his outstanding creation.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "creation; innovation",
+          "sentence": "他的創造穫得了大獎。",
+          "pinyin": "tā de chuàngzào huòdéle dàjiǎng.",
+          "en": "His creation received a major award.",
+          "vi": ""
+        }
+      ]
     }
-  ],
-  "theme": "Urban Revival and Cultural Heritage"
+  ]
 }

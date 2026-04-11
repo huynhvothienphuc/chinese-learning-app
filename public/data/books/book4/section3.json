@@ -3,52 +3,1440 @@
   "sectionId": "section3",
   "sectionTitle": "Cloud Technology | 雲端科技",
   "items": [
-    { "id": 1, "chinese": "縮短", "pinyin": "suōduǎn", "english": "to shorten", "vietnamese": "rút ngắn", "sentenceChinese": "科技縮短了人與人之間的距離。", "sentencePinyin": "Kējì suōduǎn le rén yǔ rén zhījiān de jùlí.", "sentenceEnglish": "Technology has shortened the distance between people.", "sentenceVietnamese": "Công nghệ đã rút ngắn khoảng cách giữa con người với nhau.", "theme": "General" },
-    { "id": 2, "chinese": "人們", "pinyin": "rénmen", "english": "people in general", "vietnamese": "mọi người", "sentenceChinese": "現在很多人們都習慣用手機做事。", "sentencePinyin": "Xiànzài hěn duō rénmen dōu xíguàn yòng shǒujī zuòshì.", "sentenceEnglish": "Nowadays, many people are used to using their phones to get things done.", "sentenceVietnamese": "Ngày nay nhiều người đã quen dùng điện thoại để làm mọi việc.", "theme": "General" },
-    { "id": 3, "chinese": "距離", "pinyin": "jùlí", "english": "distance", "vietnamese": "khoảng cách", "sentenceChinese": "雖然距離很遠，我們還是常常聯絡。", "sentencePinyin": "Suīrán jùlí hěn yuǎn, wǒmen háishì chángcháng liánluò.", "sentenceEnglish": "Although the distance is great, we still keep in touch often.", "sentenceVietnamese": "Tuy khoảng cách rất xa nhưng chúng tôi vẫn thường xuyên liên lạc.", "theme": "General" },
-    { "id": 4, "chinese": "取代", "pinyin": "qǔdài", "english": "to replace", "vietnamese": "thay thế", "sentenceChinese": "電子郵件已經取代了很多傳統信件。", "sentencePinyin": "Diànzǐ yóujiàn yǐjīng qǔdài le hěn duō chuántǒng xìnjiàn.", "sentenceEnglish": "Email has already replaced many traditional letters.", "sentenceVietnamese": "Email đã thay thế rất nhiều thư từ truyền thống.", "theme": "General" },
-    { "id": 5, "chinese": "信", "pinyin": "xìn", "english": "letter, mail", "vietnamese": "thư từ", "sentenceChinese": "我已經很久沒寫信給朋友了。", "sentencePinyin": "Wǒ yǐjīng hěn jiǔ méi xiě xìn gěi péngyǒu le.", "sentenceEnglish": "I haven't written a letter to a friend in a long time.", "sentenceVietnamese": "Tôi đã rất lâu không viết thư cho bạn bè nữa.", "theme": "Communication" },
-    { "id": 6, "chinese": "影集", "pinyin": "yǐngjí", "english": "(TV) series", "vietnamese": "phim bộ, phim truyền hình", "sentenceChinese": "這部影集最近很受歡迎。", "sentencePinyin": "Zhè bù yǐngjí zuìjìn hěn shòu huānyíng.", "sentenceEnglish": "This TV series has been very popular recently.", "sentenceVietnamese": "Bộ phim truyền hình này gần đây rất được yêu thích.", "theme": "Entertainment" },
-    { "id": 7, "chinese": "取得", "pinyin": "qǔdé", "english": "to obtain, access", "vietnamese": "đạt được, có được", "sentenceChinese": "只要上網就能取得需要的資料。", "sentencePinyin": "Zhǐyào shàngwǎng jiù néng qǔdé xūyào de zīliào.", "sentenceEnglish": "As long as you go online, you can get the information you need.", "sentenceVietnamese": "Chỉ cần lên mạng là có thể lấy được tài liệu cần thiết.", "theme": "General" },
-    { "id": 8, "chinese": "例如", "pinyin": "lìrú", "english": "for example", "vietnamese": "ví dụ như", "sentenceChinese": "雲端科技有很多用途，例如線上備份資料。", "sentencePinyin": "Yúnduān kējì yǒu hěn duō yòngtú, lìrú xiànshàng bèifèn zīliào.", "sentenceEnglish": "Cloud technology has many uses, such as backing up data online.", "sentenceVietnamese": "Công nghệ đám mây có rất nhiều ứng dụng, ví dụ như sao lưu dữ liệu trực tuyến.", "theme": "Grammar" },
-    { "id": 9, "chinese": "民眾", "pinyin": "mínzhòng", "english": "the public", "vietnamese": "dân chúng, quần chúng", "sentenceChinese": "政府希望民眾多利用線上服務。", "sentencePinyin": "Zhèngfǔ xīwàng mínzhòng duō lìyòng xiànshàng fúwù.", "sentenceEnglish": "The government hopes the public will make more use of online services.", "sentenceVietnamese": "Chính phủ hy vọng người dân sử dụng nhiều hơn các dịch vụ trực tuyến.", "theme": "Society" },
-    { "id": 10, "chinese": "高速公路", "pinyin": "gāosù gōnglù", "english": "highway, freeway", "vietnamese": "đường cao tốc", "sentenceChinese": "出門前先查一下高速公路的路況吧。", "sentencePinyin": "Chūmén qián xiān chá yíxià gāosù gōnglù de lùkuàng ba.", "sentenceEnglish": "Check the traffic conditions on the highway before heading out.", "sentenceVietnamese": "Trước khi ra ngoài hãy kiểm tra tình hình giao thông trên đường cao tốc.", "theme": "Travel" },
-    { "id": 11, "chinese": "前", "pinyin": "qián", "english": "before (formal)", "vietnamese": "trước khi", "sentenceChinese": "上課前，老師先把資料傳到雲端。", "sentencePinyin": "Shàngkè qián, lǎoshī xiān bǎ zīliào chuán dào yúnduān.", "sentenceEnglish": "Before class, the teacher uploaded the materials to the cloud.", "sentenceVietnamese": "Trước giờ học, giáo viên đã tải tài liệu lên đám mây.", "theme": "Time" },
-    { "id": 12, "chinese": "查詢", "pinyin": "cháxún", "english": "to look up, check", "vietnamese": "tra cứu, truy vấn", "sentenceChinese": "你可以上網查詢最新的班車時間。", "sentencePinyin": "Nǐ kěyǐ shàngwǎng cháxún zuìxīn de bānchē shíjiān.", "sentenceEnglish": "You can look up the latest bus schedule online.", "sentenceVietnamese": "Bạn có thể tra cứu thời gian xe chạy mới nhất trên mạng.", "theme": "Technology" },
-    { "id": 13, "chinese": "路況", "pinyin": "lùkuàng", "english": "road situation, traffic situation", "vietnamese": "tình trạng giao thông", "sentenceChinese": "今天下雨，路況不太好。", "sentencePinyin": "Jīntiān xiàyǔ, lùkuàng bú tài hǎo.", "sentenceEnglish": "It is raining today, so the traffic conditions are not very good.", "sentenceVietnamese": "Hôm nay trời mưa nên tình hình giao thông không được tốt lắm.", "theme": "Travel" },
-    { "id": 14, "chinese": "避開", "pinyin": "bìkāi", "english": "to avoid", "vietnamese": "tránh né", "sentenceChinese": "我們最好避開下班的尖峰時間。", "sentencePinyin": "Wǒmen zuìhǎo bìkāi xiàbān de jiānfēng shíjiān.", "sentenceEnglish": "We'd better avoid rush hour after work.", "sentenceVietnamese": "Tốt nhất chúng ta nên tránh giờ cao điểm tan làm.", "theme": "General" },
-    { "id": 15, "chinese": "路段", "pinyin": "lùduàn", "english": "section of road", "vietnamese": "đoạn đường", "sentenceChinese": "這個路段常常塞車。", "sentencePinyin": "Zhège lùduàn chángcháng sāichē.", "sentenceEnglish": "This section of road often gets congested.", "sentenceVietnamese": "Đoạn đường này thường xuyên bị kẹt xe.", "theme": "Travel" },
-    { "id": 16, "chinese": "若", "pinyin": "ruò", "english": "if, supposing", "vietnamese": "nếu, giả sử", "sentenceChinese": "若有問題，請立刻通知我。", "sentencePinyin": "Ruò yǒu wèntí, qǐng lìkè tōngzhī wǒ.", "sentenceEnglish": "If there is a problem, please inform me immediately.", "sentenceVietnamese": "Nếu có vấn đề, xin hãy báo cho tôi ngay lập tức.", "theme": "Grammar" },
-    { "id": 17, "chinese": "運用", "pinyin": "yùnyòng", "english": "to use, employ", "vietnamese": "vận dụng", "sentenceChinese": "醫院開始運用雲端系統管理病歷。", "sentencePinyin": "Yīyuàn kāishǐ yùnyòng yúnduān xìtǒng guǎnlǐ bìnglì.", "sentenceEnglish": "Hospitals have begun using cloud systems to manage medical records.", "sentenceVietnamese": "Bệnh viện đã bắt đầu vận dụng hệ thống đám mây để quản lý bệnh án.", "theme": "General" },
-    { "id": 18, "chinese": "病歷", "pinyin": "bìnglì", "english": "medical records", "vietnamese": "bệnh án", "sentenceChinese": "醫生打開電腦就能看到病人的病歷。", "sentencePinyin": "Yīshēng dǎkāi diànnǎo jiù néng kàn dào bìngrén de bìnglì.", "sentenceEnglish": "Doctors can see a patient's medical records as soon as they open the computer.", "sentenceVietnamese": "Bác sĩ chỉ cần mở máy tính là có thể xem bệnh án của bệnh nhân.", "theme": "Medical" },
-    { "id": 19, "chinese": "例子", "pinyin": "lìzi", "english": "example", "vietnamese": "ví dụ", "sentenceChinese": "老師舉了很多生活中的例子來說明。", "sentencePinyin": "Lǎoshī jǔ le hěn duō shēnghuó zhōng de lìzi lái shuōmíng.", "sentenceEnglish": "The teacher gave many examples from daily life to explain it.", "sentenceVietnamese": "Giáo viên đã đưa ra rất nhiều ví dụ trong cuộc sống để giải thích.", "theme": "General" },
-    { "id": 20, "chinese": "更加", "pinyin": "gèngjiā", "english": "even more", "vietnamese": "càng thêm", "sentenceChinese": "有了新工具，工作效率更加提高了。", "sentencePinyin": "Yǒu le xīn gōngjù, gōngzuò xiàolǜ gèngjiā tígāo le.", "sentenceEnglish": "With the new tools, work efficiency has improved even more.", "sentenceVietnamese": "Có công cụ mới, hiệu suất làm việc càng được nâng cao hơn.", "theme": "Grammar" },
-    { "id": 21, "chinese": "原本", "pinyin": "yuánběn", "english": "originally", "vietnamese": "vốn dĩ, ban đầu", "sentenceChinese": "原本要花一天的事，現在一小時就能完成。", "sentencePinyin": "Yuánběn yào huā yì tiān de shì, xiànzài yì xiǎoshí jiù néng wánchéng.", "sentenceEnglish": "Something that originally took a whole day can now be done in an hour.", "sentenceVietnamese": "Việc vốn phải mất một ngày thì giờ một tiếng là xong.", "theme": "General" },
-    { "id": 22, "chinese": "忙碌", "pinyin": "mánglù", "english": "busy", "vietnamese": "bận rộn", "sentenceChinese": "雖然生活很忙碌，他還是每天運動。", "sentencePinyin": "Suīrán shēnghuó hěn mánglù, tā háishì měitiān yùndòng.", "sentenceEnglish": "Although life is busy, he still exercises every day.", "sentenceVietnamese": "Tuy cuộc sống rất bận rộn nhưng anh ấy vẫn tập thể dục mỗi ngày.", "theme": "General" },
-    { "id": 23, "chinese": "確實", "pinyin": "quèshí", "english": "indeed", "vietnamese": "thực sự, xác thực", "sentenceChinese": "這項新技術確實帶來了很多方便。", "sentencePinyin": "Zhè xiàng xīn jìshù quèshí dàilái le hěn duō fāngbiàn.", "sentenceEnglish": "This new technology has indeed brought a lot of convenience.", "sentenceVietnamese": "Công nghệ mới này quả thật đã mang lại rất nhiều tiện lợi.", "theme": "General" },
-    { "id": 24, "chinese": "控制", "pinyin": "kòngzhì", "english": "to control", "vietnamese": "khống chế, kiểm soát", "sentenceChinese": "家長應該控制孩子使用手機的時間。", "sentencePinyin": "Jiāzhǎng yīnggāi kòngzhì háizi shǐyòng shǒujī de shíjiān.", "sentenceEnglish": "Parents should control how much time their children spend on phones.", "sentenceVietnamese": "Phụ huynh nên kiểm soát thời gian con cái dùng điện thoại.", "theme": "General" },
-    { "id": 25, "chinese": "表弟", "pinyin": "biǎodì", "english": "younger male cousin", "vietnamese": "em họ", "sentenceChinese": "我表弟每天放學後都先打電動。", "sentencePinyin": "Wǒ biǎodì měitiān fàngxué hòu dōu xiān dǎ diàndòng.", "sentenceEnglish": "My younger cousin plays video games every day after school.", "sentenceVietnamese": "Em họ tôi ngày nào tan học xong cũng chơi điện tử trước.", "theme": "Family" },
-    { "id": 26, "chinese": "退步", "pinyin": "tuìbù", "english": "to regress, get worse", "vietnamese": "thụt lùi, sa sút", "sentenceChinese": "如果一直偷懶，成績一定會退步。", "sentencePinyin": "Rúguǒ yìzhí tōulǎn, chéngjī yídìng huì tuìbù.", "sentenceEnglish": "If you keep slacking off, your grades will definitely get worse.", "sentenceVietnamese": "Nếu cứ lười biếng mãi thì thành tích chắc chắn sẽ sa sút.", "theme": "General" },
-    { "id": 27, "chinese": "過度", "pinyin": "guòdù", "english": "overly, excessively", "vietnamese": "quá độ, quá mức", "sentenceChinese": "過度使用電腦對眼睛不好。", "sentencePinyin": "Guòdù shǐyòng diànnǎo duì yǎnjīng bù hǎo.", "sentenceEnglish": "Using a computer excessively is bad for your eyes.", "sentenceVietnamese": "Sử dụng máy tính quá mức không tốt cho mắt.", "theme": "Grammar" },
-    { "id": 28, "chinese": "與", "pinyin": "yǔ", "english": "and (formal)", "vietnamese": "và, cùng với", "sentenceChinese": "科技發展與生活改變有很大的關係。", "sentencePinyin": "Kējì fāzhǎn yǔ shēnghuó gǎibiàn yǒu hěn dà de guānxì.", "sentenceEnglish": "Technological development and changes in life are closely related.", "sentenceVietnamese": "Sự phát triển công nghệ và thay đổi trong đời sống có quan hệ rất lớn với nhau.", "theme": "Grammar" },
-    { "id": 29, "chinese": "生理", "pinyin": "shēnglǐ", "english": "physical health, physiology", "vietnamese": "sinh lý", "sentenceChinese": "長時間熬夜會影響生理健康。", "sentencePinyin": "Cháng shíjiān áoyè huì yǐngxiǎng shēnglǐ jiànkāng.", "sentenceEnglish": "Staying up late for long periods affects physical health.", "sentenceVietnamese": "Thức khuya trong thời gian dài sẽ ảnh hưởng đến sức khỏe thể chất.", "theme": "Medical" },
-    { "id": 30, "chinese": "盯", "pinyin": "dīng", "english": "to stare", "vietnamese": "nhìn chằm chằm", "sentenceChinese": "不要一直盯著螢幕看，休息一下吧。", "sentencePinyin": "Búyào yìzhí dīng zhe yíngmù kàn, xiūxi yíxià ba.", "sentenceEnglish": "Don't keep staring at the screen. Take a break.", "sentenceVietnamese": "Đừng nhìn chằm chằm vào màn hình mãi, nghỉ một chút đi.", "theme": "General" },
-    { "id": 31, "chinese": "螢幕", "pinyin": "yíngmù", "english": "screen, monitor", "vietnamese": "màn hình", "sentenceChinese": "這個螢幕太亮了，我的眼睛有點不舒服。", "sentencePinyin": "Zhège yíngmù tài liàng le, wǒ de yǎnjīng yǒudiǎn bù shūfu.", "sentenceEnglish": "This screen is too bright, and my eyes feel a little uncomfortable.", "sentenceVietnamese": "Màn hình này sáng quá, mắt tôi hơi khó chịu.", "theme": "Technology" },
-    { "id": 32, "chinese": "疲倦", "pinyin": "píjuàn", "english": "tired, fatigued", "vietnamese": "mệt mỏi", "sentenceChinese": "看了一整天的電腦，我覺得很疲倦。", "sentencePinyin": "Kàn le yì zhěngtiān de diànnǎo, wǒ juéde hěn píjuàn.", "sentenceEnglish": "After looking at the computer all day, I feel very tired.", "sentenceVietnamese": "Nhìn máy tính cả ngày khiến tôi cảm thấy rất mệt mỏi.", "theme": "Medical" },
-    { "id": 33, "chinese": "視力", "pinyin": "shìlì", "english": "vision, eyesight", "vietnamese": "thị lực", "sentenceChinese": "如果不注意休息，視力可能會變差。", "sentencePinyin": "Rúguǒ bù zhùyì xiūxi, shìlì kěnéng huì biàn chà.", "sentenceEnglish": "If you don't rest properly, your eyesight may get worse.", "sentenceVietnamese": "Nếu không chú ý nghỉ ngơi thì thị lực có thể sẽ kém đi.", "theme": "Medical" },
-    { "id": 34, "chinese": "家長", "pinyin": "jiāzhǎng", "english": "parent", "vietnamese": "phụ huynh", "sentenceChinese": "很多家長都擔心孩子太依賴網路。", "sentencePinyin": "Hěn duō jiāzhǎng dōu dānxīn háizi tài yīlài wǎnglù.", "sentenceEnglish": "Many parents worry that their children rely too much on the internet.", "sentenceVietnamese": "Nhiều phụ huynh lo con cái quá phụ thuộc vào mạng.", "theme": "Family" },
-    { "id": 35, "chinese": "此外", "pinyin": "cǐwài", "english": "in addition", "vietnamese": "ngoài ra", "sentenceChinese": "此外，我們還需要注意資料安全。", "sentencePinyin": "Cǐwài, wǒmen hái xūyào zhùyì zīliào ānquán.", "sentenceEnglish": "In addition, we also need to pay attention to data security.", "sentenceVietnamese": "Ngoài ra, chúng ta còn cần chú ý đến an toàn dữ liệu.", "theme": "Grammar" },
-    { "id": 36, "chinese": "戶外", "pinyin": "hùwài", "english": "outdoor", "vietnamese": "ngoài trời", "sentenceChinese": "每天到戶外走一走，對眼睛比較好。", "sentencePinyin": "Měitiān dào hùwài zǒu yì zǒu, duì yǎnjīng bǐjiào hǎo.", "sentenceEnglish": "Going outside for a walk every day is better for your eyes.", "sentenceVietnamese": "Mỗi ngày ra ngoài trời đi dạo một chút sẽ tốt hơn cho mắt.", "theme": "General" },
-    { "id": 37, "chinese": "人類", "pinyin": "rénlèi", "english": "mankind, humans", "vietnamese": "nhân loại, loài người", "sentenceChinese": "科技改變了人類的生活方式。", "sentencePinyin": "Kējì gǎibiàn le rénlèi de shēnghuó fāngshì.", "sentenceEnglish": "Technology has changed the way humans live.", "sentenceVietnamese": "Công nghệ đã thay đổi cách sống của loài người.", "theme": "Society" },
-    { "id": 38, "chinese": "正面", "pinyin": "zhèngmiàn", "english": "positive", "vietnamese": "tích cực, mặt chính", "sentenceChinese": "雲端科技有很多正面的影響。", "sentencePinyin": "Yúnduān kējì yǒu hěn duō zhèngmiàn de yǐngxiǎng.", "sentenceEnglish": "Cloud technology has many positive effects.", "sentenceVietnamese": "Công nghệ đám mây có rất nhiều tác động tích cực.", "theme": "Philosophy" },
-    { "id": 39, "chinese": "同時", "pinyin": "tóngshí", "english": "at the same time", "vietnamese": "đồng thời", "sentenceChinese": "科技帶來方便，同時也帶來新的問題。", "sentencePinyin": "Kējì dàilái fāngbiàn, tóngshí yě dàilái xīn de wèntí.", "sentenceEnglish": "Technology brings convenience, but at the same time it also brings new problems.", "sentenceVietnamese": "Công nghệ mang lại tiện lợi, đồng thời cũng đem đến những vấn đề mới.", "theme": "Time" },
-    { "id": 40, "chinese": "負面", "pinyin": "fùmiàn", "english": "negative", "vietnamese": "tiêu cực, mặt trái", "sentenceChinese": "如果使用不當，網路也會有負面影響。", "sentencePinyin": "Rúguǒ shǐyòng bùdàng, wǎnglù yě huì yǒu fùmiàn yǐngxiǎng.", "sentenceEnglish": "If used improperly, the internet can also have negative effects.", "sentenceVietnamese": "Nếu sử dụng không đúng cách thì mạng cũng có thể gây tác động tiêu cực.", "theme": "Philosophy" },
-    { "id": 41, "chinese": "沉迷", "pinyin": "chénmí", "english": "to be obsessed with", "vietnamese": "đắm chìm, say mê quá mức", "sentenceChinese": "有些孩子沉迷網路遊戲，連作業都不想做。", "sentencePinyin": "Yǒuxiē háizi chénmí wǎnglù yóuxì, lián zuòyè dōu bù xiǎng zuò.", "sentenceEnglish": "Some children get obsessed with online games and don't even want to do their homework.", "sentenceVietnamese": "Có những đứa trẻ mê game online đến mức không muốn làm bài tập.", "theme": "Psychology" },
-    { "id": 42, "chinese": "無形中", "pinyin": "wúxíng zhōng", "english": "imperceptibly", "vietnamese": "một cách vô hình", "sentenceChinese": "長時間使用手機，無形中增加了眼睛的負擔。", "sentencePinyin": "Cháng shíjiān shǐyòng shǒujī, wúxíng zhōng zēngjiā le yǎnjīng de fùdān.", "sentenceEnglish": "Using a phone for a long time imperceptibly increases the burden on your eyes.", "sentenceVietnamese": "Dùng điện thoại trong thời gian dài vô hình trung làm tăng gánh nặng cho mắt.", "theme": "Idiom" },
-    { "id": 43, "chinese": "遠距教學", "pinyin": "yuǎnjù jiāoxué", "english": "distance learning", "vietnamese": "đào tạo từ xa", "sentenceChinese": "疫情期間，很多學校改成遠距教學。", "sentencePinyin": "Yìqíng qījiān, hěn duō xuéxiào gǎi chéng yuǎnjù jiāoxué.", "sentenceEnglish": "During the pandemic, many schools switched to distance learning.", "sentenceVietnamese": "Trong thời gian dịch bệnh, nhiều trường đã chuyển sang dạy học từ xa.", "theme": "Education" },
-    { "id": 44, "chinese": "大吵大鬧", "pinyin": "dàchǎo dànào", "english": "to make a scene", "vietnamese": "làm ầm ĩ, cãi lộn", "sentenceChinese": "孩子不能上網的時候，就在家裡大吵大鬧。", "sentencePinyin": "Háizi bù néng shàngwǎng de shíhou, jiù zài jiālǐ dàchǎo dànào.", "sentenceEnglish": "When the child can't get online, he makes a huge scene at home.", "sentenceVietnamese": "Khi không được lên mạng, đứa trẻ liền làm ầm ĩ trong nhà.", "theme": "Communication" },
-    { "id": 45, "chinese": "焦慮不安", "pinyin": "jiāolǜ bù'ān", "english": "to be anxious", "vietnamese": "lo âu bất an", "sentenceChinese": "手機不在身邊時，他就會焦慮不安。", "sentencePinyin": "Shǒujī bú zài shēnbiān shí, tā jiù huì jiāolǜ bù'ān.", "sentenceEnglish": "When his phone isn't by his side, he becomes anxious and uneasy.", "sentenceVietnamese": "Khi điện thoại không ở bên cạnh, anh ấy sẽ cảm thấy lo âu bất an.", "theme": "Psychology" },
-    { "id": 46, "chinese": "總而言之", "pinyin": "zǒng'ér yánzhī", "english": "in conclusion, in short", "vietnamese": "tóm lại là", "sentenceChinese": "總而言之，科技方便了生活，但也要適度使用。", "sentencePinyin": "Zǒng'ér yánzhī, kējì fāngbiàn le shēnghuó, dàn yě yào shìdù shǐyòng.", "sentenceEnglish": "In short, technology makes life easier, but it should be used in moderation.", "sentenceVietnamese": "Tóm lại, công nghệ làm cuộc sống thuận tiện hơn, nhưng cũng phải dùng một cách điều độ.", "theme": "Grammar" }
-  ],
-  "theme": "Cloud Technology"
+    {
+      "id": 1,
+      "chinese": "縮短",
+      "pinyin": "suōduǎn",
+      "en": "to shorten",
+      "vi": "rút ngắn",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shorten; cut down",
+          "sentence": "我想縮短這篇文章。",
+          "pinyin": "wǒ xiǎng suōduǎn zhè piān wénzhāng.",
+          "en": "I want to shorten the essay.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "shorten; cut down",
+          "sentence": "她需要縮短她的裙子。",
+          "pinyin": "tā xūyào suōduǎn tā de qúnzi.",
+          "en": "She needs to shorten her dress.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "人們",
+      "pinyin": "rénmen",
+      "en": "people in general",
+      "vi": "mọi người",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "men; people; the public",
+          "sentence": "人們都希望和平與倖福。",
+          "pinyin": "rénmen dōu xīwàng hépíng yǔ xìngfú.",
+          "en": "People hope for peace and happiness.",
+          "vi": "Mọi người đều mong muốn hòa bình và hạnh phúc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "men; people; the public",
+          "sentence": "每年，人們都會慶祝這個節日。",
+          "pinyin": "měinián, rénmen dōuhuì qìngzhù zhège jiérì.",
+          "en": "Every year, people celebrate this holiday.",
+          "vi": "Mỗi năm, mọi người đều tổ chức lễ hội này."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "距離",
+      "pinyin": "jùlí",
+      "en": "distance",
+      "vi": "khoảng cách",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "distance",
+          "sentence": "學校和傢之間的距離很短。",
+          "pinyin": "xuéxiào hé jiā zhī jiān de jùlí hěn duǎn.",
+          "en": "The distance between the school and home is very short.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "distance",
+          "sentence": "我們之間的距離越來越遠。",
+          "pinyin": "wǒmen zhī jiān de jùlí yuè lái yuè yuǎn.",
+          "en": "The distance between us is becoming greater and greater.",
+          "vi": "Khoảng cách giữa chúng ta ngày càng xa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "be apart from",
+          "sentence": "我傢距離學校很近。",
+          "pinyin": "wǒjiā jùlí xuéxiào hěn jìn.",
+          "en": "My house is very close to the school.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be apart from",
+          "sentence": "他傢距離火車站不遠。",
+          "pinyin": "tā jiā jùlí huǒchē zhàn bù yuǎn.",
+          "en": "His house is not far from the train station.",
+          "vi": "Nhà anh ấy cách ga tàu không xa."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "取代",
+      "pinyin": "qǔdài",
+      "en": "to replace",
+      "vi": "thay thế",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "displace; replace; supplant; substitute for; take over; supersede",
+          "sentence": "新科技取代了舊技術。",
+          "pinyin": "xīn kējì qǔdàile jiù jìshù.",
+          "en": "New technology replaced old technology.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "displace; replace; supplant; substitute for; take over; supersede",
+          "sentence": "電子郵件取代了傳統信件。",
+          "pinyin": "diànzǐ yóujiàn qǔdàile chuántǒng xìnjiàn.",
+          "en": "Emails have replaced traditional letters.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "信",
+      "pinyin": "xìn",
+      "en": "letter, mail",
+      "vi": "thư từ",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mail; letter",
+          "sentence": "我收到了錶揚信。",
+          "pinyin": "wǒ shōu dàole biǎoyáng xìn.",
+          "en": "I received a letter of praise.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "mail; letter",
+          "sentence": "這是他的絕交信。",
+          "pinyin": "zhè shì tā de jué jiāoxìn.",
+          "en": "This is his letter of breaking off.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "credit; believe; take stock in",
+          "sentence": "我相信你的能力。",
+          "pinyin": "wǒ xiāngxìn nǐ de nénglì.",
+          "en": "I believe in your ability.",
+          "vi": "Tôi tin vào khả năng của bạn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "credit; believe; take stock in",
+          "sentence": "你別信他的話。",
+          "pinyin": "nǐ bié xìn tā dehuà.",
+          "en": "Don’t believe what he says.",
+          "vi": "Bạn đừng tin lời anh ấy."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true",
+          "sentence": "我們需要信的消息。",
+          "pinyin": "wǒmen xūyào xìn de xiāoxī.",
+          "en": "We need reliable information.",
+          "vi": "Chúng ta cần thông tin xác thực."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true",
+          "sentence": "這段曆史是信而有據的。",
+          "pinyin": "zhè duàn lìshǐ shì xìn ér yǒu jù de.",
+          "en": "This piece of history is true and well-documented.",
+          "vi": "Đoạn lịch sử này có thật và có chứng cứ."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "影集",
+      "pinyin": "yǐngjí",
+      "en": "(TV) series",
+      "vi": "phim bộ, phim truyền hình",
+      "theme": "Entertainment",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a photograph/picture/photo album",
+          "sentence": "他送給我一本影集。",
+          "pinyin": "tā sòng gěi wǒ yī běn yǐngjí.",
+          "en": "He gave me a photo album.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a photograph/picture/photo album",
+          "sentence": "這本影集很漂亮。",
+          "pinyin": "zhè běn yǐngjí hěn piàoliang.",
+          "en": "This photo album is very beautiful.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "取得",
+      "pinyin": "qǔdé",
+      "en": "to obtain, access",
+      "vi": "đạt được, có được",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "gain; acquire; obtain",
+          "sentence": "他取得了優異的成績。",
+          "pinyin": "tā qǔdéle yōuyì de chéngjì.",
+          "en": "He achieved excellent results.",
+          "vi": "Anh ấy đã đạt được kết quả xuất sắc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "gain; acquire; obtain",
+          "sentence": "他在比賽中取得了勝利。",
+          "pinyin": "tā zài bǐsài zhōng qǔdéle shènglì.",
+          "en": "He won the competition.",
+          "vi": "Anh ấy đã giành chiến thắng trong cuộc thi."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "例如",
+      "pinyin": "lìrú",
+      "en": "for example",
+      "vi": "ví dụ như",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "for instance; for example; such as",
+          "sentence": "例如，蘋果富含維生素。",
+          "pinyin": "lìrú, píngguǒ fù hán wéishēngsù.",
+          "en": "For example, apples are rich in vitamins.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "for instance; for example; such as",
+          "sentence": "例如，很多人喜歡運動。",
+          "pinyin": "lìrú, hěnduō rén xǐhuān yùndòng.",
+          "en": "For example, many people like sports.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "民眾",
+      "pinyin": "mínzhòng",
+      "en": "the public",
+      "vi": "dân chúng, quần chúng",
+      "theme": "Society",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the populace; the common people; the masses of the people",
+          "sentence": "民眾/衆支持政府的政策。",
+          "pinyin": "mínzhòng zhīchí zhèngfǔ de zhèngcè.",
+          "en": "The public supports the government's policies.",
+          "vi": "Dân chúng ủng hộ chính sách của chính phủ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the populace; the common people; the masses of the people",
+          "sentence": "民眾/衆對經濟感到擔憂。",
+          "pinyin": "mínzhòng duì jīngjì gǎndào dānyōu.",
+          "en": "The public is worried about the economy.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "高速公路",
+      "pinyin": "gāosù gōnglù",
+      "en": "highway, freeway",
+      "vi": "đường cao tốc",
+      "theme": "Travel",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "expressway; highway; freeway",
+          "sentence": "高速公路促進了經濟髮/發展。",
+          "pinyin": "gāosù gōnglù cùjìnle jīngjì fāzhǎn.",
+          "en": "The highway has promoted economic development.",
+          "vi": "Đường cao tốc thúc đẩy phát triển kinh tế."
+        },
+        {
+          "type": "Noun",
+          "meaning": "expressway; highway; freeway",
+          "sentence": "高速公路帶動了區域經濟。",
+          "pinyin": "gāosù gōnglù dàidòngle qūyù jīngjì.",
+          "en": "The highway has driven regional economic growth.",
+          "vi": "Đường cao tốc thúc đẩy kinh tế khu vực."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "前",
+      "pinyin": "qián",
+      "en": "before (formal)",
+      "vi": "trước khi",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "孩子們在前院玩耍。",
+          "pinyin": "háizimen zài qián yuàn wánshuǎ.",
+          "en": "The children are playing in the front yard.",
+          "vi": "Bọn trẻ đang chơi ở sân trước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "汽車的前燈壞了。",
+          "pinyin": "qìchē de qián dēng huàile.",
+          "en": "The car's front light is broken.",
+          "vi": "Đèn trước của ô tô hỏng rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move forward; go ahead",
+          "sentence": "不要猶豫，勇敢前行。",
+          "pinyin": "bùyào yóuyù, yǒnggǎn qián xíng.",
+          "en": "Don’t hesitate, march forward bravely.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "move forward; go ahead",
+          "sentence": "我們依然要摸索著前進。",
+          "pinyin": "wǒmen yīrán yào mōsuǒzhe qiánjìn.",
+          "en": "We still have to move forward while exploring.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "查詢",
+      "pinyin": "cháxún",
+      "en": "to look up, check",
+      "vi": "tra cứu, truy vấn",
+      "theme": "Technology",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "inquire; ask about",
+          "sentence": "請幫我查詢一下航班信息。",
+          "pinyin": "qǐng bāng wǒ cháxún yīxià hángbān xìnxī.",
+          "en": "Please help me check the flight information.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "inquire; ask about",
+          "sentence": "能否幫我查詢一下快遞單號？",
+          "pinyin": "néng fǒu bāng wǒ cháxún yīxià kuàidì dān hào?",
+          "en": "Could you please check the status of my package?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "路況",
+      "pinyin": "lùkuàng",
+      "en": "road situation, traffic situation",
+      "vi": "tình trạng giao thông",
+      "theme": "Travel",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "road condition; traffic",
+          "sentence": "路況不佳",
+          "pinyin": "lùkuàng bùjiā",
+          "en": "Poor road conditions",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "road condition(s) (e.g. surface, traffic flow etc)",
+          "sentence": "今晚路況會怎樣啊？",
+          "pinyin": "jīn wǎn lù kuàng huì zěn me yàng a?",
+          "en": "How will the road conditions be tonight?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "避開",
+      "pinyin": "bìkāi",
+      "en": "to avoid",
+      "vi": "tránh né",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "avoid; evade; keep away from; keep a distance from some place, something or sb",
+          "sentence": "我們要避開危險的區域。",
+          "pinyin": "wǒmen yào bì kāi wéixiǎn de qūyù.",
+          "en": "We need to avoid dangerous areas.",
+          "vi": "Chúng ta cần tránh xa khu vực nguy hiểm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "avoid; evade; keep away from; keep a distance from some place, something or sb",
+          "sentence": "請避開車流量大的路段。",
+          "pinyin": "qǐng bì kāi chē liúliàng dà de lùduàn.",
+          "en": "Please avoid roads with heavy traffic.",
+          "vi": "Hãy tránh các đoạn đường nhiều xe cộ."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "路段",
+      "pinyin": "lùduàn",
+      "en": "section of road",
+      "vi": "đoạn đường",
+      "theme": "Travel",
+      "samples": []
+    },
+    {
+      "id": 16,
+      "chinese": "若",
+      "pinyin": "ruò",
+      "en": "if, supposing",
+      "vi": "nếu, giả sử",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "like; as if",
+          "sentence": "她的心情欣喜若狂。",
+          "pinyin": "tā de xīnqíng xīnxǐ ruò kuáng.",
+          "en": "She was overjoyed.",
+          "vi": "Tâm trạng của cô ấy vui mừng khôn xiết."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "like; as if",
+          "sentence": "他總是旁若無人地工作。",
+          "pinyin": "tā zǒng shì pángruòwúrén de gōngzuò.",
+          "en": "He always works as if no one else is around.",
+          "vi": "Anh ấy luôn làm việc như không có ai xung quanh."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if",
+          "sentence": "你若有意見，就提齣來。",
+          "pinyin": "nǐ ruò yǒu yìjiàn, jiù tí chūlái.",
+          "en": "If you have an opinion, just bring it up.",
+          "vi": "Nếu bạn có ý kiến thì đưa ra nhé."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if",
+          "sentence": "我們若再不齣髮/發，則會遲到。",
+          "pinyin": "wǒmen ruò zàibu chūfā, zé huì chídào.",
+          "en": "If we don't set off now, we'll be late.",
+          "vi": "Nếu chúng ta không xuất phát, thì sẽ bị muộn."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "you",
+          "sentence": "吾翁即若翁。",
+          "pinyin": "wú wēng jí ruò wēng.",
+          "en": "My elder is your elder.",
+          "vi": "Cha ta tức là cha ngươi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我姓若。",
+          "pinyin": "wǒ xìng ruò.",
+          "en": "My surname is Ruo.",
+          "vi": "Tôi họ Nhược."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to seem",
+          "sentence": "夜空中寥若晨星。",
+          "pinyin": "yèkōng zhōng liáoruòchénxīng.",
+          "en": "There are as few stars in the night sky as morning stars.",
+          "vi": "Trên bầu trời đêm sao thưa thớt như sao buổi sáng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to seem",
+          "sentence": "他的笑容若陽光。",
+          "pinyin": "tā de xiàoróng ruò yángguāng.",
+          "en": "His smile is like sunshine.",
+          "vi": "Nụ cười của anh ấy giống như ánh nắng mặt trời."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "運用",
+      "pinyin": "yùnyòng",
+      "en": "to use, employ",
+      "vi": "vận dụng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "use; utilize; wield; apply",
+          "sentence": "請運用這些生詞造句。",
+          "pinyin": "qǐngyùnyòngzhèxiēshēngcízàojù.",
+          "en": "Please use these new words to make sentences.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "use; utilize; wield; apply",
+          "sentence": "她有效地運用了她的技能。(",
+          "pinyin": "tā yǒuxiào de yùnyòngle tā de jìnéng.(",
+          "en": "She used her skills effectively.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "病歷",
+      "pinyin": "bìnglì",
+      "en": "medical records",
+      "vi": "bệnh án",
+      "theme": "Medical",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "medical record; case history",
+          "sentence": "去病曆室找病曆。",
+          "pinyin": "qù bìng lì shì zhǎo bìng lì",
+          "en": "To look for medical records in the records room",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "medical record; case history",
+          "sentence": "我五年前得過這種病，病曆上寫著呢。",
+          "pinyin": "Wǒ wǔ nián qián dé guò zhè zhǒng bìng, bìnglì shàng xiězhe ne.",
+          "en": "I had the disease five years ago, and it was written on my medical records.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "例子",
+      "pinyin": "lìzi",
+      "en": "example",
+      "vi": "ví dụ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "example",
+          "sentence": "這是一個典型的例子。",
+          "pinyin": "zhè shì yīgè diǎnxíng de lìzi.",
+          "en": "This is a typical example.",
+          "vi": "Đây là một ví dụ điển hình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "example",
+          "sentence": "這個例子很容易理解。",
+          "pinyin": "zhège lìzi hěn róngyì lǐjiě.",
+          "en": "This example is easy to understand.",
+          "vi": "Ví dụ này rất dễ hiểu."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "更加",
+      "pinyin": "gèngjiā",
+      "en": "even more",
+      "vi": "càng thêm",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "more; to a higher degree",
+          "sentence": "祖國的明天會更加美好。",
+          "pinyin": "zǔguó de míngtiān huì gèngjiā měihǎo.",
+          "en": "The future of the motherland will be even brighter.",
+          "vi": "Tương lai của Tổ quốc sẽ tươi sáng hơn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "more; to a higher degree",
+          "sentence": "你應該更加努力地工作。",
+          "pinyin": "nǐ yīnggāi gèngjiā nǔlì de gōngzuò.",
+          "en": "You should work even harder.",
+          "vi": "Bạn cần phải làm việc siêng năng hơn nữa."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "原本",
+      "pinyin": "yuánběn",
+      "en": "originally",
+      "vi": "vốn dĩ, ban đầu",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "master copy; original manuscript",
+          "sentence": "這本書的原本已經遺失。",
+          "pinyin": "zhè běn shū de yuánběn yǐjīng yíshī.",
+          "en": "The original copy of this book has already been lost.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "master copy; original manuscript",
+          "sentence": "這是魯迅《野草》的原本。",
+          "pinyin": "zhè shì lǔxùn “yěcǎo” de yuánběn.",
+          "en": "This is the original copy of Wild Grass by Lu Xun.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "originally; formerly",
+          "sentence": "他原本是個商人。",
+          "pinyin": "tā yuánběn shìgè shāngrén.",
+          "en": "He was formerly a businessman.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "originally; formerly",
+          "sentence": "他原本是學醫的。",
+          "pinyin": "tā yuánběn shì xué yī de.",
+          "en": "He originally studied medicine.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "忙碌",
+      "pinyin": "mánglù",
+      "en": "busy",
+      "vi": "bận rộn",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "busy; occupied; hectic; bustle about",
+          "sentence": "農民們在田地裡/裏忙碌著。",
+          "pinyin": "nóngmínmen zài tiándì lǐ mánglùzhe.",
+          "en": "The farmers are busy working in the fields.",
+          "vi": "Nông dân đang tất bật trên cánh đồng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "busy; occupied; hectic; bustle about",
+          "sentence": "她忙碌的樣子讓人感動。",
+          "pinyin": "tā mánglù de yàngzi ràng rén gǎndòng.",
+          "en": "Her busy figure is touching.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "確實",
+      "pinyin": "quèshí",
+      "en": "indeed",
+      "vi": "thực sự, xác thực",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "truly; really; indeed",
+          "sentence": "他的廚藝確實很棒。",
+          "pinyin": "tā de chú yì quèshí hěn bàng.",
+          "en": "His cooking is indeed very good.",
+          "vi": "Tay nghề nấu ăn của anh ấy thực sự rất cừ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "truly; really; indeed",
+          "sentence": "他最近確實有些進步。",
+          "pinyin": "tā zuìjìn quèshí yǒuxiē jìnbù.",
+          "en": "He's really improved lately.",
+          "vi": "Gần đây, anh ấy thực sự có tiến bộ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true; reliable",
+          "sentence": "這個數據是確實的。",
+          "pinyin": "zhège shùjù shì quèshí de.",
+          "en": "This statistic is true.",
+          "vi": "Dữ liệu này là chính xác."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true; reliable",
+          "sentence": "他提供了確實的報告。",
+          "pinyin": "tā tígōng le quèshí de bàogào.",
+          "en": "His report was very reliable.",
+          "vi": "Anh ấy đã cung cấp một báo cáo chính xác."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "控制",
+      "pinyin": "kòngzhì",
+      "en": "to control",
+      "vi": "khống chế, kiểm soát",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to control; to restrict",
+          "sentence": "她控製了自己的情緒。",
+          "pinyin": "tā kòngzhìle zìjǐ de qíngxù.",
+          "en": "She controlled her emotions.",
+          "vi": "Cô ấy kiểm chế được cảm xúc của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to control; to restrict",
+          "sentence": "控製局勢是他的職責。",
+          "pinyin": "kòngzhì júshì shì tā de zhízé.",
+          "en": "It's his job to control the situation",
+          "vi": "Kiểm soát tình hình là trách nhiệm của anh ấy."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "表弟",
+      "pinyin": "biǎodì",
+      "en": "younger male cousin",
+      "vi": "em họ",
+      "theme": "Family",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "son of one's father's sister, or of one's mother's brother or sister, who is younger than oneself; younger male cousin; male cousin on the female side",
+          "sentence": "我錶弟每週來我傢玩。",
+          "pinyin": "Wǒ biǎo dì měi zhōu lái wǒ jiā wán.",
+          "en": "My younger male cousin comes to my house to play every week.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "younger male cousin via female line",
+          "sentence": "錶弟喜歡玩電腦遊戲。",
+          "pinyin": "biǎodì xǐhuan wán diànnǎo yóuxì.",
+          "en": "My cousin likes to play computer games.",
+          "vi": "Em trai họ thích chơi trò chơi điện tử."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "退步",
+      "pinyin": "tuìbù",
+      "en": "to regress, get worse",
+      "vi": "thụt lùi, sa sút",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "retrogress; lag (or fall) behind",
+          "sentence": "你們的技術水平退步了。",
+          "pinyin": "nǐmen de jìshù shuǐpíng tuìbùle.",
+          "en": "Your technical level has declined.",
+          "vi": "Trình độ kỹ thuật của các bạn đã lạc hậu."
+        },
+        {
+          "type": "sv",
+          "meaning": "retrogress; lag (or fall) behind",
+          "sentence": "他的成績有些退步了。",
+          "pinyin": "tā de chéng jī yǒuxiē tuìbùle.",
+          "en": "His grades have declined a bit.",
+          "vi": "Thành tích của anh ấy đã có chút thụt lùi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "leeway; room for manoeuvre",
+          "sentence": "他在選擇時沒留退步。",
+          "pinyin": "tā zài xuǎnzé shí méi liú tuìbù.",
+          "en": "He didn't leave room for retreat when making the choice.",
+          "vi": "Khi chọn lựa, anh ấy không để lại đường lui."
+        },
+        {
+          "type": "Noun",
+          "meaning": "leeway; room for manoeuvre",
+          "sentence": "她的計劃沒有留退步。",
+          "pinyin": "tā de jìhuà méiyǒu liú tuìbù.",
+          "en": "Her plan didn't leave room for retreat.",
+          "vi": "Kế hoạch của cô ấy không có đường lui."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "過度",
+      "pinyin": "guòdù",
+      "en": "overly, excessively",
+      "vi": "quá độ, quá mức",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "excessive; over the limit",
+          "sentence": "喝酒要適量，不能過度。",
+          "pinyin": "hējiǔ yào shìliàng, bùnéng guòdù.",
+          "en": "Drink in the moderation, not excessiely.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "excessive; over the limit",
+          "sentence": "我不想過度依靠父母。",
+          "pinyin": "wǒ bùxiǎng guòdù yīkào fùmǔ.",
+          "en": "I don't want to depend too much on my parents.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "與",
+      "pinyin": "yǔ",
+      "en": "and (formal)",
+      "vi": "và, cùng với",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "give; offer; grant",
+          "sentence": "信件已交與本人。",
+          "pinyin": "xìn jiàn yǐ jiāo yǔ běn rén.",
+          "en": "The letter has been given to person concerned.",
+          "vi": "Thư từ đã giao cho người nhận."
+        },
+        {
+          "type": "Verb",
+          "meaning": "give; offer; grant",
+          "sentence": "這件事交與他們處理。",
+          "pinyin": "zhè jiàn shì jiāo yǔ tāmen chǔlǐ.",
+          "en": "This matter is handed over to them to handle.",
+          "vi": "Việc này giao cho họ xử lý."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with",
+          "sentence": "與此無關的事不必多説。",
+          "pinyin": "yǔ cǐ wúguān de shì bùbì duō shuō.",
+          "en": "Things unrelated to this need not be said.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with",
+          "sentence": "與此相比，他更有經驗。",
+          "pinyin": "yǔ cǐ xiāng bǐ, tā gèng yǒu jīngyàn.",
+          "en": "Compared to this, he is more experienced.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and; together with",
+          "sentence": "我與他們一起去了。",
+          "pinyin": "wǒ yǔ tāmen yīqǐ qùle.",
+          "en": "I went together with them.",
+          "vi": "Tôi và họ đã đi cùng nhau."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and; together with",
+          "sentence": "她與我閤作很愉快。",
+          "pinyin": "tā yǔ wǒ hézuò hěn yúkuài.",
+          "en": "She and I cooperated very happily.",
+          "vi": "Cô ấy và tôi hợp tác rất vui vẻ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "她姓與，不常見的姓氏。",
+          "pinyin": "tā xìng yǔ, bù chángjiàn de xìngshì.",
+          "en": "Her surname is Yu, it's uncommon.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我第一次聽到“與”這個姓。",
+          "pinyin": "wǒ dì yī cì tīng dào “yǔ” zhège xìng.",
+          "en": "It's my first time hearing the surname \"Yu\".",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "生理",
+      "pinyin": "shēnglǐ",
+      "en": "physical health, physiology",
+      "vi": "sinh lý",
+      "theme": "Medical",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "physiology",
+          "sentence": "生理變化隨著年齡增長。",
+          "pinyin": "shēnglǐ biànhuà suízhe niánlíng zēngzhǎng.",
+          "en": "Physiological changes occur with age.",
+          "vi": "Thay đổi sinh lý diễn ra theo sự gia tăng tuổi tác."
+        },
+        {
+          "type": "Noun",
+          "meaning": "physiology",
+          "sentence": "壓力會影響生理機能。",
+          "pinyin": "yālì huì yǐngxiǎng shēnglǐ jīnéng.",
+          "en": "Stress can affect physiological functions.",
+          "vi": "Áp lực có thể ảnh hưởng đến chức năng sinh lý."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "盯",
+      "pinyin": "dīng",
+      "en": "to stare",
+      "vi": "nhìn chằm chằm",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "fix one's eyes on; gaze at; stare at",
+          "sentence": "他一直盯著黑闆。",
+          "pinyin": "tā yīzhí dīngzhe hēibǎn.",
+          "en": "He keeps staring at the blackboard.",
+          "vi": "Anh ấy luôn nhìn chằm chằm vào bảng đen."
+        },
+        {
+          "type": "verb",
+          "meaning": "fix one's eyes on; gaze at; stare at",
+          "sentence": "你別盯手機太久啦。",
+          "pinyin": "nǐ bié dīng shǒujī tài jiǔ la.",
+          "en": "Don't stare at your phone for too long.",
+          "vi": "Đừng dán mắt vào điện thoại quá lâu."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "螢幕",
+      "pinyin": "yíngmù",
+      "en": "screen, monitor",
+      "vi": "màn hình",
+      "theme": "Technology",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "screen (of a TV, computer etc) (Tw)",
+          "sentence": "手機螢幕顯示超清晰。",
+          "pinyin": "shǒujī píngmù xiǎnshì chāo qīngxī.",
+          "en": "The phone screen displays ultra-clear.",
+          "vi": "Màn hình điện thoại hiển thị siêu rõ nét."
+        },
+        {
+          "type": "Noun",
+          "meaning": "screen (of a TV, computer etc) (Tw)",
+          "sentence": "監控螢幕捕捉異常況。",
+          "pinyin": "jiānkòng yíngmù bǔzhuō yìcháng kuàng.",
+          "en": "Monitor the screen to capture any abnormal conditions.",
+          "vi": "Theo dõi màn hình để ghi lại các tình trạng bất thường."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "疲倦",
+      "pinyin": "píjuàn",
+      "en": "tired, fatigued",
+      "vi": "mệt mỏi",
+      "theme": "Medical",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "tired; jade; weary; fatigued",
+          "sentence": "他看起來很疲倦。",
+          "pinyin": "tā kàn qǐlái hěn píjuàn.",
+          "en": "He looks very tired.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tired; jade; weary; fatigued",
+          "sentence": "我走了太久，感到疲倦。",
+          "pinyin": "wǒ zǒule tài jiǔ, gǎndào píjuàn.",
+          "en": "I walked too long and feel tired.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "視力",
+      "pinyin": "shìlì",
+      "en": "vision, eyesight",
+      "vi": "thị lực",
+      "theme": "Medical",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "vision; sight",
+          "sentence": "這位老人視力不好。",
+          "pinyin": "zhè wèi lǎorén shìlì bù hǎo.",
+          "en": "The old man's vision is poor.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "vision; sight",
+          "sentence": "她的視力日漸衰退。",
+          "pinyin": "tā de shìlì rìjiàn shuāituì.",
+          "en": "Her eyesight is failing.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "家長",
+      "pinyin": "jiāzhǎng",
+      "en": "parent",
+      "vi": "phụ huynh",
+      "theme": "Family",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "parents; patriarch; guardian; custodian",
+          "sentence": "他是孩子的傢長。",
+          "pinyin": "tā shì háizi de jiāzhǎng.",
+          "en": "He is the parent of the child.",
+          "vi": "Anh ấy là phụ huynh của đứa trẻ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "parents; patriarch; guardian; custodian",
+          "sentence": "各位傢長請安靜。",
+          "pinyin": "gèwèi jiāzhǎng qǐng ānjìng.",
+          "en": "Parents, please be quiet.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "此外",
+      "pinyin": "cǐwài",
+      "en": "in addition",
+      "vi": "ngoài ra",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "besides; moreover; in addition",
+          "sentence": "他很聰明，此外很勤奮。",
+          "pinyin": "tā hěn cōngmíng, cǐwài hěn qínfèn.",
+          "en": "He is smart, in addition, very diligent.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "besides; moreover; in addition",
+          "sentence": "我買了水果，此外買了麵包。",
+          "pinyin": "wǒ mǎile shuǐguǒ, cǐwài mǎile miànbāo.",
+          "en": "I bought fruits, in addition, I bought bread.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "戶外",
+      "pinyin": "hùwài",
+      "en": "outdoor",
+      "vi": "ngoài trời",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "outdoor; out-of-doors",
+          "sentence": "我喜歡在戶外運動。",
+          "pinyin": "wǒ xǐhuān zài hùwài yùndòng.",
+          "en": "I enjoy outdoor activities.",
+          "vi": "Tôi thích thể thao ngoài trời."
+        },
+        {
+          "type": "Noun",
+          "meaning": "outdoor; out-of-doors",
+          "sentence": "戶外的空氣很新鮮。",
+          "pinyin": "hùwài de kōngqì hěn xīnxiān.",
+          "en": "The air outdoors is fresh.",
+          "vi": "Không khí ngoài trời rất trong lành."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "人類",
+      "pinyin": "rénlèi",
+      "en": "mankind, humans",
+      "vi": "nhân loại, loài người",
+      "theme": "Society",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "human; mankind; humanity; human race",
+          "sentence": "人類的智慧是無窮的。",
+          "pinyin": "rénlèi de zhìhuì shì wúqióng de.",
+          "en": "The wisdom of humankind is limitless.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "human; mankind; humanity; human race",
+          "sentence": "狗是人類忠實的朋友。",
+          "pinyin": "gǒushìrénlèizhōngshídepéngyǒu.",
+          "en": "Dogs are loyal friends to humankind.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "正面",
+      "pinyin": "zhèngmiàn",
+      "en": "positive",
+      "vi": "tích cực, mặt chính",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "front; frontage; facade",
+          "sentence": "這座樓的正麵看起來不錯。",
+          "pinyin": "zhè zuò lóu de zhèngmiàn kàn qǐlái bu cuò.",
+          "en": "The front of this building looks good.",
+          "vi": "Mặt tiền tòa nhà này xem ra khá tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "front; frontage; facade",
+          "sentence": "房子正麵要保持整潔。",
+          "pinyin": "fángzi zhèngmiàn yào bǎochí zhěngjié.",
+          "en": "The front of the house should be kept tidy.",
+          "vi": "Đằng trước ngôi nhà cần phải giữ sạch sẽ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "positive",
+          "sentence": "他展現齣正麵形象。",
+          "pinyin": "tā zhǎnxiàn chū zhèngmiàn xíngxiàng.",
+          "en": "He presents a positive image.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "positive",
+          "sentence": "我們要看到事情的正麵。",
+          "pinyin": "wǒmen yào kàn dào shìqíng de zhèngmiàn.",
+          "en": "We need to see the positive side of things.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "同時",
+      "pinyin": "tóngshí",
+      "en": "at the same time",
+      "vi": "đồng thời",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "meanwhile; at the same time",
+          "sentence": "她衕時學習和工作。",
+          "pinyin": "tā tóngshí xuéxí hé gōngzuò.",
+          "en": "She studies and works at the same time.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "meanwhile; at the same time",
+          "sentence": "我衕時吃/喫飯和看電視。",
+          "pinyin": "wǒ tóngshí chīfàn hé kàn diànshì.",
+          "en": "I eat and watch TV at the same time.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "besides; moreover; furthermore",
+          "sentence": "他誇我，衕時也指齣我的缺點。",
+          "pinyin": "tā kuā wǒ, tóngshí yě zhǐchū wǒ de quēdiǎn.",
+          "en": "He praises me while also pointing out my shortcomings.",
+          "vi": "Anh khen tôi, đồng thời chỉ ra khuyết điểm của tôi."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "besides; moreover; furthermore",
+          "sentence": "他説愛我，衕時也説愛別人。",
+          "pinyin": "tā shuō ài wǒ, tóngshí yě shuō ài biérén.",
+          "en": "He says he loves me, while also saying he loves someone else.",
+          "vi": "Anh ta nói yêu tôi, đồng thời cũng yêu người khác."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "負面",
+      "pinyin": "fùmiàn",
+      "en": "negative",
+      "vi": "tiêu cực, mặt trái",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "reverse side; the negative",
+          "sentence": "要關註事情的負麵。",
+          "pinyin": "yào guānzhù shìqíng de fùmiàn.",
+          "en": "We should focus on the negative impacts.",
+          "vi": "Cần chú ý đến mặt trái của vấn đề."
+        },
+        {
+          "type": "Noun",
+          "meaning": "reverse side; the negative",
+          "sentence": "我們不能忽視這些負麵。",
+          "pinyin": "wǒmen bùnéng hūshì zhèxiē fùmiàn.",
+          "en": "We cannot ignore these negative aspects.",
+          "vi": "Chúng ta không được phớt lờ những mặt xấu này."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "bad; negative",
+          "sentence": "他充滿了負麵情緒。",
+          "pinyin": "tā chōngmǎnle fùmiàn qíngxù.",
+          "en": "He is full of negative emotions.",
+          "vi": "Anh ấy đầy cảm xúc tiêu cực."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "bad; negative",
+          "sentence": "他的態度非常負麵。",
+          "pinyin": "tā de tàidù fēicháng fùmiàn.",
+          "en": "He has a very negative attitude.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "沉迷",
+      "pinyin": "chénmí",
+      "en": "to be obsessed with",
+      "vi": "đắm chìm, say mê quá mức",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "indulge; wallow",
+          "sentence": "不要沉迷於過去！",
+          "pinyin": "bùyào chénmí yú guòqù!",
+          "en": "Don't hang on to the past.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "indulge; wallow",
+          "sentence": "不要沉迷在迴憶中。",
+          "pinyin": "bùyào chénmí zài huíyì zhōng.",
+          "en": "Don't get lost in memories.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "無形中",
+      "pinyin": "wúxíng zhōng",
+      "en": "imperceptibly",
+      "vi": "một cách vô hình",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "invisibly; imperceptibly; virtually",
+          "sentence": "她無形中成了我們的顧問。",
+          "pinyin": "tā wúxíng zhōng chéngle wǒmen de gùwèn.",
+          "en": "She has virtually become our adviser.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "invisibly; imperceptibly; virtually",
+          "sentence": "小阮無形中成了他的助手。",
+          "pinyin": "xiǎo ruǎn wúxíng zhōng chéngle tā de zhùshǒu.",
+          "en": "Xiao Ruan became his assistant unconsciously.",
+          "vi": "Cậu Nguyễn vô hình trung đã trở thành trợ thủ của ông ấy."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "遠距教學",
+      "pinyin": "yuǎnjù jiāoxué",
+      "en": "distance learning",
+      "vi": "đào tạo từ xa",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "teaching; education",
+          "sentence": "我的教學方法很有效。",
+          "pinyin": "wǒ de jiàoxué fāngfǎ hěn yǒuxiào.",
+          "en": "My teaching method is very effective.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "teaching; education",
+          "sentence": "這個教學計劃很重要。",
+          "pinyin": "zhège jiàoxué jìhuà hěn zhòngyào.",
+          "en": "This teaching plan is very important.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "大吵大鬧",
+      "pinyin": "dàchǎo dànào",
+      "en": "to make a scene",
+      "vi": "làm ầm ĩ, cãi lộn",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Idiom",
+          "meaning": "to make a scene",
+          "sentence": "孩子不要在商場裡/裏大吵大鬧。",
+          "pinyin": "hái zi bú yào zài shāng chǎng lǐ dà chǎo dà nào",
+          "en": "Don't let the child make a scene in the mall.",
+          "vi": ""
+        },
+        {
+          "type": "Idiom",
+          "meaning": "to shout and scream (idiom); to kick up a fuss",
+          "sentence": "別在傢裡/裏大吵大鬧。",
+          "pinyin": "bié zài jiā lǐ dà chǎo dà nào",
+          "en": "Don't make a fuss at home.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "焦慮不安",
+      "pinyin": "jiāolǜ bù'ān",
+      "en": "to be anxious",
+      "vi": "lo âu bất an",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be in a flutter of excitement; be on tenterhooks; be on (upon) thorns; be racked with anxiety; fret and fume; toss about",
+          "sentence": "老是處於焦慮不安的情況中是受不了的。",
+          "pinyin": "lǎo shì chǔ yú jiāo lǜ bù ān de qíng kuàng zhōng shì shòu bù liǎo de.",
+          "en": "It is unbearable to be always on thorns.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "on tenterhooks; anxious",
+          "sentence": "她為考試焦慮不安。",
+          "pinyin": "Tā wèi kǎo shì jiāo lǜ bù ān.",
+          "en": "She is anxious about the exam.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "總而言之",
+      "pinyin": "zǒng'ér yánzhī",
+      "en": "in conclusion, in short",
+      "vi": "tóm lại là",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Idiom",
+          "meaning": "in short; in a word; in brief; to make a long story short",
+          "sentence": "總而言之，要主動，不要被動。",
+          "pinyin": "zǒng'éryánzhī, yào zhǔdòng, bùyào bèidòng.",
+          "en": "In short, be proactive, not passive.",
+          "vi": "Tóm lại cần phải chủ động, không nên bị động."
+        },
+        {
+          "type": "Idiom",
+          "meaning": "in short; in a word; in brief; to make a long story short",
+          "sentence": "總而言之，這次旅遊體驗不太好。",
+          "pinyin": "zǒng'éryánzhī, zhè cì lǚyóu tǐyàn bù tài hǎo.",
+          "en": "All in all, this travel experience was not very good.",
+          "vi": "Nói chung, chuyến đi này không được vui lắm."
+        }
+      ]
+    }
+  ]
 }

@@ -7,507 +7,1439 @@
       "id": 1,
       "chinese": "又",
       "pinyin": "yòu",
-      "english": "then",
-      "sentenceChinese": "你先去圖書館，又去超市買東西嗎？",
-      "sentencePinyin": "Nǐ xiān qù túshūguǎn, yòu qù chāoshì mǎi dōngxi ma?",
-      "sentenceEnglish": "You went to the library first, and then went to the supermarket to buy things?",
-      "vietnamese": "lại / sau đó",
-      "sentenceVietnamese": "Bạn đi thư viện trước, rồi lại đi siêu thị mua đồ hả?"
+      "en": "then",
+      "vi": "lại / sau đó",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "咱們又見麵了。",
+          "pinyin": "zánmen yòu jiànmiànle.",
+          "en": "We met again.",
+          "vi": "Chúng ta lại gặp nhau rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "他們又開始討論了。",
+          "pinyin": "tāmen yòu kāishǐ tǎolùnle.",
+          "en": "They started discussing again.",
+          "vi": "Họ lại bắt đầu thảo luận rồi."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "遍",
       "pinyin": "biàn",
-      "english": "measure word for number of times",
-      "sentenceChinese": "這部電影很好看，我已經看過三遍了。",
-      "sentencePinyin": "Zhè bù diànyǐng hěn hǎokàn, wǒ yǐjīng kànguò sān biàn le.",
-      "sentenceEnglish": "This movie is great; I have already seen it three times.",
-      "vietnamese": "lần (từ đầu đến cuối)",
-      "sentenceVietnamese": "Bộ phim này rất hay, tôi đã xem qua 3 lần rồi."
+      "en": "measure word for number of times",
+      "vi": "lần (từ đầu đến cuối)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "all over; all around; everywhere",
+          "sentence": "田野遍佈著莊稼。",
+          "pinyin": "tiányě biànbùzhe zhuāngjià.",
+          "en": "The fields are covered with crops.",
+          "vi": "Đồng ruộng phủ đầy cây trồng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "all over; all around; everywhere",
+          "sentence": "海灘上遍佈貝殼。",
+          "pinyin": "hǎitān shàng biànbù bèiké.",
+          "en": "The beach is covered with seashells.",
+          "vi": "Bãi biển có đầy vỏ sò."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "time in repetition",
+          "sentence": "請再讀一遍這本書。",
+          "pinyin": "qǐng zài dú yībiàn zhè běn shū.",
+          "en": "Please read this book again.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "time in repetition",
+          "sentence": "他已經做了很多遍。",
+          "pinyin": "tā yǐjīng zuòle hěnduō biàn.",
+          "en": "He has done it many times.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "民宿",
       "pinyin": "mínsù",
-      "english": "Bed & Breakfast lodgings",
-      "sentenceChinese": "去墾丁旅行的時候，我們住在當地的民宿。",
-      "sentencePinyin": "Qù Kěndīng lǚxíng de shíhòu, wǒmen zhùzài dāngdì de mínsù.",
-      "sentenceEnglish": "When we traveled to Kenting, we stayed at a local B&B.",
-      "vietnamese": "homestay / nhà nghỉ bình dân",
-      "sentenceVietnamese": "Lúc đi du lịch Khẩn Đinh, chúng tôi ở tại một homestay địa phương."
+      "en": "Bed & Breakfast lodgings",
+      "vi": "homestay / nhà nghỉ bình dân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pension; homestay; guesthouse",
+          "sentence": "民宿的環境幹凈。",
+          "pinyin": "mínsù de huánjìng gānjìng.",
+          "en": "The environment of the homestay is clean.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pension; homestay; guesthouse",
+          "sentence": "民宿服務很週到。",
+          "pinyin": "mínsù fúwù hěn zhōudào.",
+          "en": "The homestay offers very considerate services.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "運氣",
       "pinyin": "yùnqi",
-      "english": "luck",
-      "sentenceChinese": "他的運氣很好，買彩券中獎了。",
-      "sentencePinyin": "Tā de yùnqi hěn hǎo, mǎi cǎiquàn zhòngjiǎng le.",
-      "sentenceEnglish": "He is very lucky; he won the lottery.",
-      "vietnamese": "vận may / số đỏ",
-      "sentenceVietnamese": "Vận may của anh ấy rất tốt, mua vé số trúng thưởng rồi."
+      "en": "luck",
+      "vi": "vận may / số đỏ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "luck; fortune",
+          "sentence": "運氣老是不好。",
+          "pinyin": "yùnqì lǎo shì bù hǎo.",
+          "en": "I'm always out of luck.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "luck; fortune",
+          "sentence": "這迴可來了運氣了。",
+          "pinyin": "zhè huí kě lái le yùn qì le.",
+          "en": "This time my luck's in.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "lucky; fortunate",
+          "sentence": "這次考試，我很運氣。",
+          "pinyin": "zhè cì kǎoshì, wǒ hěn yùnqì.",
+          "en": "I was very lucky in this exam.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "lucky; fortunate",
+          "sentence": "我覺得我運氣很好。",
+          "pinyin": "wǒ juéde wǒ yùnqì hěn hǎo.",
+          "en": "I think I am very lucky.",
+          "vi": "Tôi thấy vận may của tôi khá tốt."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "摩托車",
       "pinyin": "mótuōchē",
-      "english": "motorcycle",
-      "sentenceChinese": "在台灣，很多人騎摩托車上班。",
-      "sentencePinyin": "Zài Táiwān, hěnduō rén qí mótuōchē shàngbān.",
-      "sentenceEnglish": "In Taiwan, many people ride motorcycles to work.",
-      "vietnamese": "xe máy",
-      "sentenceVietnamese": "Ở Đài Loan, rất nhiều người đi xe máy đi làm."
+      "en": "motorcycle",
+      "vi": "xe máy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "motorbike; motorcycle; motor bicycle",
+          "sentence": "他每天騎摩託車上班。",
+          "pinyin": "tā měitiān qí mótuō chē shàngbān.",
+          "en": "He rides a motorcycle to work every day.",
+          "vi": "Anh ấy đi làm bằng xe máy mỗi ngày."
+        },
+        {
+          "type": "Noun",
+          "meaning": "motorbike; motorcycle; motor bicycle",
+          "sentence": "這三輛新摩託車很快。",
+          "pinyin": "zhè sān liàng xīn mótuō chē hěn kuài.",
+          "en": "These three new motorcycles are very fast.",
+          "vi": "Ba chiếc xe máy mới này rất chạy nhanh."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "熱帶",
       "pinyin": "rèdài",
-      "english": "tropical region",
-      "sentenceChinese": "墾丁的天氣很像熱帶國家。",
-      "sentencePinyin": "Kěndīng de tiānqì hěn xiàng rèdài guójiā.",
-      "sentenceEnglish": "The weather in Kenting is very much like a tropical country.",
-      "vietnamese": "nhiệt đới",
-      "sentenceVietnamese": "Thời tiết ở Khẩn Đinh rất giống các quốc gia nhiệt đới."
+      "en": "tropical region",
+      "vi": "nhiệt đới",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "torrid zone; the tropics",
+          "sentence": "我喜歡熱帶氣候。",
+          "pinyin": "wǒ xǐhuan rèdài qìhòu.",
+          "en": "I like tropical climates.",
+          "vi": "Tôi thích khí hậu nhiệt đới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "torrid zone; the tropics",
+          "sentence": "荔枝是熱帶水果。",
+          "pinyin": "lìzhī shì rèdài shuǐguǒ.",
+          "en": "Lychees are tropical fruits.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "植物",
       "pinyin": "zhíwù",
-      "english": "plants",
-      "sentenceChinese": "這座山上有許多奇特的植物。",
-      "sentencePinyin": "Zhè zuò shānshàng yǒu xǔduō qítè de zhíwù.",
-      "sentenceEnglish": "There are many unique plants on this mountain.",
-      "vietnamese": "thực vật / cây cối",
-      "sentenceVietnamese": "Trên ngọn núi này có rất nhiều loài thực vật lạ."
+      "en": "plants",
+      "vi": "thực vật / cây cối",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "plant; flora",
+          "sentence": "植物對環境很重要。",
+          "pinyin": "zhíwù duì huánjìng hěn zhòngyào.",
+          "en": "Plants are very important to the environment.",
+          "vi": "Thực vật rất quan trọng đối với môi trường."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plant; flora",
+          "sentence": "人不能消化草類植物。",
+          "pinyin": "rén bùnéng xiāohuà cǎo lèi zhíwù.",
+          "en": "Humans cannot digest plants such as grass.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "所有",
       "pinyin": "suǒyǒu",
-      "english": "all",
-      "sentenceChinese": "所有的同學都參加了這次活動。",
-      "sentencePinyin": "Suǒyǒu de tóngxué dōu cānjiāle zhè cì huódòng.",
-      "sentenceEnglish": "All of the classmates participated in this activity.",
-      "vietnamese": "tất cả",
-      "sentenceVietnamese": "Tất cả bạn học đều tham gia hoạt động lần này."
+      "en": "all",
+      "vi": "tất cả",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "own; possess",
+          "sentence": "土地歸國傢所有。",
+          "pinyin": "tǔdì guī guójiā suǒyǒu.",
+          "en": "Land is owned by the state.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "own; possess",
+          "sentence": "他是這個房子的所有者。",
+          "pinyin": "tā shì zhège fángzi de suǒyǒu zhě.",
+          "en": "He is the owner of this house.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "possessions",
+          "sentence": "他儘其所有地幫助別人。",
+          "pinyin": "tā jìn qí suǒyǒu de bāngzhù biérén.",
+          "en": "He helps others in any way he can.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "possessions",
+          "sentence": "父母總是傾其所有,不求迴報。",
+          "pinyin": "fùmǔ zǒng shì qīng qí suǒyǒu, bù qiú huíbào.",
+          "en": "Parents always give everything they can without expecting anything in return.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "all",
+          "sentence": "我們班所有衕學都很努力。",
+          "pinyin": "wǒmen bān suǒyǒu tóngxué dōu hěn nǔlì.",
+          "en": "All the students in our class worked hard.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "all",
+          "sentence": "所有的材料都備齊了。",
+          "pinyin": "suǒyǒu de cáiliào dōu bèi qí le.",
+          "en": "All the materials have been prepared.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "白天",
       "pinyin": "báitiān",
-      "english": "in the daytime",
-      "sentenceChinese": "白天太陽很大，出門要記得防曬。",
-      "sentencePinyin": "Báitiān tàiyáng hěn dà, chūmén yào jìde fángshài.",
-      "sentenceEnglish": "The sun is strong in the daytime; remember to use sunscreen when going out.",
-      "vietnamese": "ban ngày",
-      "sentenceVietnamese": "Ban ngày nắng rất gắt, ra ngoài nhớ chống nắng nhé."
+      "en": "in the daytime",
+      "vi": "ban ngày",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "day; day time; during the day",
+          "sentence": "白天街道上很熱鬧。",
+          "pinyin": "báitiān jiēdào shàng hěn rè nao.",
+          "en": "The streets are very lively during the day.",
+          "vi": "Ban ngày, đường phố rất nhộn nhịp."
+        },
+        {
+          "type": "n, time",
+          "meaning": "day; day time; during the day",
+          "sentence": "他喜歡白天的清新空氣。",
+          "pinyin": "tā xǐhuān báitiān de qīngxīn kōngqì.",
+          "en": "He likes the fresh air during the day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "躺",
       "pinyin": "tǎng",
-      "english": "to lie down",
-      "sentenceChinese": "他喜歡躺在沙發上看書。",
-      "sentencePinyin": "Tā xǐhuān tǎng zài shāfā shàng kànshū.",
-      "sentenceEnglish": "He likes to lie on the sofa and read.",
-      "vietnamese": "nằm",
-      "sentenceVietnamese": "Anh ấy thích nằm trên sofa đọc sách."
+      "en": "to lie down",
+      "vi": "nằm",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "lie down; recline",
+          "sentence": "他躺在床/牀上看手機。",
+          "pinyin": "tā tǎng zài chuángshàng kàn shǒujī.",
+          "en": "He lay in bed looking at his phone.",
+          "vi": "Anh ấy nằm trên giường xem điện thoại."
+        },
+        {
+          "type": "verb",
+          "meaning": "lie down; recline",
+          "sentence": "她纍了，就躺下休息。",
+          "pinyin": "tā lèile, jiù tǎng xià xiūxi.",
+          "en": "She was tired, so she lay down to rest.",
+          "vi": "Cô ấy mệt, liền nằm xuống nghỉ ngơi."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "黃昏",
       "pinyin": "huánghūn",
-      "english": "dusk",
-      "sentenceChinese": "黃昏時的海邊風景最美。",
-      "sentencePinyin": "Huánghūn shí de hǎibiān fēngjǐng zuì měi.",
-      "sentenceEnglish": "The scenery by the sea is most beautiful at dusk.",
-      "vietnamese": "hoàng hôn",
-      "sentenceVietnamese": "Phong cảnh bờ biển lúc hoàng hôn là đẹp nhất."
+      "en": "dusk",
+      "vi": "hoàng hôn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dusk; gloaming",
+          "sentence": "我喜歡黃昏的景色。",
+          "pinyin": "wǒ xǐhuan huánghūn de jǐngsè.",
+          "en": "I like the scenery at dusk.",
+          "vi": "Tôi thích cảnh hoàng hôn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dusk; gloaming",
+          "sentence": "黃昏時光真美麗。",
+          "pinyin": "huánghūn shíguāng zhēn měilì.",
+          "en": "The time of dusk is truly beautiful.",
+          "vi": "Thời khắc hoàng hôn thật đẹp."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "條",
       "pinyin": "tiáo",
-      "english": "measure word for street",
-      "sentenceChinese": "這條街上有很多特色小吃。",
-      "sentencePinyin": "Zhè tiáo jiē shàng yǒu hěnduō tèsè xiǎochī.",
-      "sentenceEnglish": "There are many specialty snacks on this street.",
-      "vietnamese": "con / sợi (lượng từ cho đường, phố)",
-      "sentenceVietnamese": "Trên con phố này có rất nhiều món ăn vặt đặc sắc."
+      "en": "measure word for street",
+      "vi": "con / sợi (lượng từ cho đường, phố)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "twig",
+          "sentence": "這條樹枝有綠葉。",
+          "pinyin": "zhè tiáo shùzhī yǒu lǜyè.",
+          "en": "This branch has green leaves.",
+          "vi": "Cành cây này có lá xanh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "twig",
+          "sentence": "這條樹枝很細柔。",
+          "pinyin": "zhè tiáo shùzhī hěn xì róu.",
+          "en": "This branch is very delicate.",
+          "vi": "Cành cây này rất mảnh mai."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for slender objects",
+          "sentence": "田間有一條小水溝。",
+          "pinyin": "tiánjiān yǒu yītiáo xiǎo shuǐ gōu.",
+          "en": "There is a small ditch in the field.",
+          "vi": "Trong ruộng có một con mương nhỏ."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for slender objects",
+          "sentence": "院裡/裏有一條晾衣繩。",
+          "pinyin": "yuàn lǐ yǒu yītiáo liàng yī shéng.",
+          "en": "There is a clothesline in the yard.",
+          "vi": "Trong sân có một sợi dây phơi quần áo."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "街",
       "pinyin": "jiē",
-      "english": "street",
-      "sentenceChinese": "這條街到了晚上非常熱鬧。",
-      "sentencePinyin": "Zhè tiáo jiē dào le wǎnshàng fēicháng rènào.",
-      "sentenceEnglish": "This street becomes very lively at night.",
-      "vietnamese": "đường phố",
-      "sentenceVietnamese": "Con phố này đến tối rất náo nhiệt."
+      "en": "street",
+      "vi": "đường phố",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "street",
+          "sentence": "這條街有很多小吃/喫攤。",
+          "pinyin": "zhè tiáo jiē yǒu hěnduō xiǎochī tān.",
+          "en": "There are many food stalls on this street.",
+          "vi": "Con phố này có nhiều quán ăn vặt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "street",
+          "sentence": "街道兩旁種滿了樹木。",
+          "pinyin": "jiēdào liǎngpáng zhǒng mǎnle shùmù.",
+          "en": "The streets are lined with trees.",
+          "vi": "Hai bên đường phố trồng đầy cây cối."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "啤酒",
       "pinyin": "píjiǔ",
-      "english": "beer",
-      "sentenceChinese": "天氣熱的時候，喝杯啤酒很舒服。",
-      "sentencePinyin": "Tiānqì rè de shíhòu, hē bēi píjiǔ hěn shūfú.",
-      "sentenceEnglish": "When the weather is hot, having a glass of beer is very refreshing.",
-      "vietnamese": "bia",
-      "sentenceVietnamese": "Lúc thời tiết nóng, uống một ly bia rất sảng khoái."
+      "en": "beer",
+      "vi": "bia",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "beer",
+          "sentence": "我們有茶和啤酒。",
+          "pinyin": "wǒmen yǒu chá hé píjiǔ.",
+          "en": "We have tea and beer.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "beer",
+          "sentence": "他在喝一盃啤酒。",
+          "pinyin": "tā zài hè yībēi píjiǔ.",
+          "en": "He is drinking a glass of beer.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "上",
       "pinyin": "shàng",
-      "english": "indicating contact between two nouns",
-      "sentenceChinese": "他在地圖上找到了那家店。",
-      "sentencePinyin": "Tā zài dìtú shàng zhǎodàole nà jiā diàn.",
-      "sentenceEnglish": "He found that shop on the map.",
-      "vietnamese": "trên (trợ từ)",
-      "sentenceVietnamese": "Anh ấy đã tìm thấy cửa hàng đó trên bản đồ."
+      "en": "indicating contact between two nouns",
+      "vi": "trên (trợ từ)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go up; mount; board; get on",
+          "sentence": "他喜歡上山採蘑菇。",
+          "pinyin": "tā xǐhuān shàngshān cǎi mógū.",
+          "en": "He likes going to the mountains to pick mushrooms.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "go up; mount; board; get on",
+          "sentence": "我們一起上樓吧。",
+          "pinyin": "wǒmen yīqǐ shàng lóu ba.",
+          "en": "Let's go upstairs together.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "upper; up; upward",
+          "sentence": "樓上的鄰居很吵。",
+          "pinyin": "lóu shàng de línjū hěn chǎo.",
+          "en": "The upstairs neighbors are very noisy.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "upper; up; upward",
+          "sentence": "我爬上上鋪睡覺。",
+          "pinyin": "wǒ pá shàng shàng pù shuìjiào.",
+          "en": "I climbed to the upper bunk to sleep.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "most recent; last; former",
+          "sentence": "上次你買的書怎麼樣？",
+          "pinyin": "shàng cì nǐ mǎi de shū zěnme yàng?",
+          "en": "How was the book you bought last time?",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "most recent; last; former",
+          "sentence": "上半年的房價上漲了。",
+          "pinyin": "shàng bànnián de fángjià shàngzhǎngle.",
+          "en": "Housing prices rose in the first half of the year.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "又",
       "pinyin": "yòu",
-      "english": "and / also",
-      "sentenceChinese": "那裡的風景又美又自然。",
-      "sentencePinyin": "Nàlǐ de fēngjǐng yòu měi yòu zìrán.",
-      "sentenceEnglish": "The scenery there is both beautiful and natural.",
-      "vietnamese": "vừa... lại vừa...",
-      "sentenceVietnamese": "Phong cảnh ở đó vừa đẹp lại vừa tự nhiên."
+      "en": "and / also",
+      "vi": "vừa... lại vừa...",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "咱們又見麵了。",
+          "pinyin": "zánmen yòu jiànmiànle.",
+          "en": "We met again.",
+          "vi": "Chúng ta lại gặp nhau rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "他們又開始討論了。",
+          "pinyin": "tāmen yòu kāishǐ tǎolùnle.",
+          "en": "They started discussing again.",
+          "vi": "Họ lại bắt đầu thảo luận rồi."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "浪漫",
       "pinyin": "làngmàn",
-      "english": "romantic",
-      "sentenceChinese": "在海邊看星星非常浪漫。",
-      "sentencePinyin": "Zài hǎibiān kàn xīngxīng fēicháng làngmàn.",
-      "sentenceEnglish": "Watching stars by the seaside is very romantic.",
-      "vietnamese": "lãng mạn",
-      "sentenceVietnamese": "Ngắm sao bên bờ biển rất lãng mạn."
+      "en": "romantic",
+      "vi": "lãng mạn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "romantic; poetic",
+          "sentence": "她喜歡浪漫的電影。",
+          "pinyin": "tā xǐhuan làngmàn de diànyǐng.",
+          "en": "She likes romantic movies.",
+          "vi": "Cô ấy thích phim lãng mạn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "romantic; poetic",
+          "sentence": "婚禮的氣氛很浪漫。",
+          "pinyin": "hūnlǐ de qìfēn hěn làngmàn.",
+          "en": "The atmosphere of the wedding is very romantic.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "家鄉",
       "pinyin": "jiāxiāng",
-      "english": "hometown, usually a village",
-      "sentenceChinese": "我的家鄉是一個安靜的小城市。",
-      "sentencePinyin": "Wǒ de jiāxiāng shì yí ge ānjìng de xiǎo chéngshì.",
-      "sentenceEnglish": "My hometown is a quiet small city.",
-      "vietnamese": "quê hương",
-      "sentenceVietnamese": "Quê hương của tôi là một thành phố nhỏ yên tĩnh."
+      "en": "hometown, usually a village",
+      "vi": "quê hương",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hometown",
+          "sentence": "我的傢鄉在農村。",
+          "pinyin": "wǒ de jiāxiāng zài nóngcūn.",
+          "en": "My hometown is in the countryside.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hometown",
+          "sentence": "我的傢鄉風景如畫。",
+          "pinyin": "wǒ de jiā xiàng fēngjǐng rú huà.",
+          "en": "The scenery of my hometown is like a painting.",
+          "vi": "Phong cảnh quê hương tôi đẹp như tranh."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "觀光客",
       "pinyin": "guānguāngkè",
-      "english": "tourist",
-      "sentenceChinese": "日月潭每年都有很多觀光客。",
-      "sentencePinyin": "Rìyuè Tán měinián dōu yǒu hěnduō guānguāngkè.",
-      "sentenceEnglish": "Sun Moon Lake has many tourists every year.",
-      "vietnamese": "khách du lịch",
-      "sentenceVietnamese": "Nhật Nguyệt Đàm mỗi năm đều có rất nhiều khách du lịch."
+      "en": "tourist",
+      "vi": "khách du lịch",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tourist; sightseer",
+          "sentence": "觀光客為什麼想要把自己關進籠子。",
+          "pinyin": "guānguāngkè wèishíyāo xiǎngyào bǎ zìjǐ guānjìn lóngzǐ",
+          "en": "Why would a tourist want to be put into a cage",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "visitor",
+          "sentence": "公園裡/裏有很多觀光客。",
+          "pinyin": "gōng yuán lǐ yǒu hěn duō guān guāng kè.",
+          "en": "There are many visitors in the park.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "曬太陽",
       "pinyin": "shài tàiyáng",
-      "english": "to sunbathe",
-      "sentenceChinese": "很多人喜歡在沙灘上曬太陽。",
-      "sentencePinyin": "Hěnduō rén xǐhuān zài shātān shàng shài tàiyáng.",
-      "sentenceEnglish": "Many people like to sunbathe on the beach.",
-      "vietnamese": "tắm nắng",
-      "sentenceVietnamese": "Rất nhiều người thích tắm nắng trên bãi cát."
+      "en": "to sunbathe",
+      "vi": "tắm nắng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to put sth in the sun (e.g. to dry it); to be in the sun (getting warm or sunbathing etc)",
+          "sentence": "他喜歡在海邊曬太陽。",
+          "pinyin": "tā xǐhuān zài hǎibiān shài tàiyáng.",
+          "en": "He likes to sunbathe at the beach.",
+          "vi": "Anh ấy thích tắm nắng ở bãi biển."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to put sth in the sun (e.g. to dry it); to be in the sun (getting warm or sunbathing etc)",
+          "sentence": "曬太陽對身體有好處。",
+          "pinyin": "shài tàiyáng duì shēntǐ yǒu hǎochù.",
+          "en": "Sunbathing is good for your health.",
+          "vi": "Tắm nắng có lợi cho sức khỏe."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "水上摩托車",
       "pinyin": "shuǐshàng mótuōchē",
-      "english": "jet skis",
-      "sentenceChinese": "在那裡玩水上摩托車很有意思。",
-      "sentencePinyin": "Zài nàlǐ wán shuǐshàng mótuōchē hěn yǒuyìsi.",
-      "sentenceEnglish": "Riding jet skis there is very fun.",
-      "vietnamese": "mô tô nước",
-      "sentenceVietnamese": "Chơi mô tô nước ở đó rất thú vị."
+      "en": "jet skis",
+      "vi": "mô tô nước",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "jet ski; jet-skiing",
+          "sentence": "他不得不賣掉他的水上摩託車。",
+          "pinyin": "tā bù dé bù mài diào tā de shuǐ shàng mó tuō chē.",
+          "en": "He had to sell his Jet Ski.",
+          "vi": "Anh ấy đã phải bán Jet Ski của mình."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "愛上",
       "pinyin": "àishàng",
-      "english": "to fall in love with",
-      "sentenceChinese": "自從去了墾丁，我就愛上了那裡。",
-      "sentencePinyin": "Zìcóng qùle Kěndīng, wǒ jiù àishàngle nàlǐ.",
-      "sentenceEnglish": "Ever since I went to Kenting, I fell in love with the place.",
-      "vietnamese": "phải lòng / yêu (cái gì đó/ai đó)",
-      "sentenceVietnamese": "Từ sau khi đi Khẩn Đinh, tôi đã yêu nơi đó rồi."
+      "en": "to fall in love with",
+      "vi": "phải lòng / yêu (cái gì đó/ai đó)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lose one's heart to; fall in love with",
+          "sentence": "他愛上了那個善良的女孩。",
+          "pinyin": "tā ài shàngle nàgè shànliáng de nǚhái",
+          "en": "He fell in love with that kind girl.",
+          "vi": "Anh ấy yêu cô gái tốt bụng đó."
+        },
+        {
+          "type": "Verb",
+          "meaning": "lose one's heart to; fall in love with",
+          "sentence": "我一見到她就愛上了她。",
+          "pinyin": "wǒ yī jiàn dào tā jiù ài shàngle tā.",
+          "en": "I fell in love with her as soon as I saw her.",
+          "vi": "Tôi vừa nhìn thấy cô ấy đã yêu ngay lập tức."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "台中",
       "pinyin": "Táizhōng",
-      "english": "Taichung city, in central Taiwan",
-      "sentenceChinese": "台中的天氣通常比台北好。",
-      "sentencePinyin": "Táizhōng de tiānqì tōngcháng bǐ Táiběi hǎo.",
-      "sentenceEnglish": "The weather in Taichung is usually better than in Taipei.",
-      "vietnamese": "Đài Trung",
-      "sentenceVietnamese": "Thời tiết ở Đài Trung thường tốt hơn Đài Bắc."
+      "en": "Taichung city, in central Taiwan",
+      "vi": "Đài Trung",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Taizhong or Taichung city in central Taiwan",
+          "sentence": "我下週要去臺中旅遊。",
+          "pinyin": "wǒ xià zhōu yào qù tái zhōng lǚ yóu.",
+          "en": "I'm going to Taichung next week.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "日月潭",
       "pinyin": "Rìyuè Tán",
-      "english": "Sun Moon Lake, in central Taiwan",
-      "sentenceChinese": "日月潭是台灣著名的觀光景點。",
-      "sentencePinyin": "Rìyuè Tán shì Táiwān zhùmíng de guānguāng jǐngdiǎn.",
-      "sentenceEnglish": "Sun Moon Lake is a famous tourist attraction in Taiwan.",
-      "vietnamese": "Nhật Nguyệt Đàm",
-      "sentenceVietnamese": "Nhật Nguyệt Đàm là địa điểm du lịch nổi tiếng của Đài Loan."
+      "en": "Sun Moon Lake, in central Taiwan",
+      "vi": "Nhật Nguyệt Đàm",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Sun Moon Lake in Nantou County, Taiwan",
+          "sentence": "我們去日月潭騎自行車。",
+          "pinyin": "wǒ men qù rì yuè tán qí zì xíng chē",
+          "en": "We're going to Sun Moon Lake to ride bicycles.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "水上活動",
       "pinyin": "shuǐshàng huódòng",
-      "english": "water activities, water recreation",
-      "sentenceChinese": "夏天最適合去海邊參加水上活動。",
-      "sentencePinyin": "Xiàtiān zuì shìhé qù hǎibiān cānjiā shuǐshàng huódòng.",
-      "sentenceEnglish": "Summer is the best time to go to the beach for water activities.",
-      "vietnamese": "hoạt động dưới nước",
-      "sentenceVietnamese": "Mùa hè thích hợp nhất là đi biển tham gia các hoạt động dưới nước."
+      "en": "water activities, water recreation",
+      "vi": "hoạt động dưới nước",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "exercise; move about",
+          "sentence": "活動可以增強體質。",
+          "pinyin": "huódòng kěyǐ zēngqiáng tǐzhí.",
+          "en": "Physical activity can enhance physical fitness.",
+          "vi": "Vận động có thể tăng cường thể lực."
+        },
+        {
+          "type": "Verb",
+          "meaning": "exercise; move about",
+          "sentence": "每週安排適量活動。",
+          "pinyin": "měi zhōu ānpái shìliàng huódòng.",
+          "en": "Schedule a variety of activities each week.",
+          "vi": "Hàng tuần lên lịch vận động phù hợp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "activity",
+          "sentence": "活動的目的非常明確。",
+          "pinyin": "huódòng de mùdì fēicháng míngquè.",
+          "en": "The purpose of the activity is very clear.",
+          "vi": "Mục đích của hoạt động rất rõ ràng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "activity",
+          "sentence": "他有很強的活動能力。",
+          "pinyin": "tā yǒu hěn qiáng de huódòng nénglì.",
+          "en": "He has a strong ability to get it done.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "movable",
+          "sentence": "活動桌子隨意移動位置。",
+          "pinyin": "huódòng zhuōzi suíyì yídòng wèizhì.",
+          "en": "The tables are designed to be easily moved.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "movable",
+          "sentence": "活動設備易於運輸存儲。",
+          "pinyin": "huódòng shèbèi yìyú yùnshū cúnchú.",
+          "en": "The event equipment is easy to transport.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "風景區",
       "pinyin": "fēngjǐngqū",
-      "english": "scenic area",
-      "sentenceChinese": "這個國家風景區的環境保護得很好。",
-      "sentencePinyin": "Zhège guójiā fēngjǐngqū de huánjìng bǎohù de hěn hǎo.",
-      "sentenceEnglish": "The environment of this national scenic area is well-protected.",
-      "vietnamese": "khu danh lam thắng cảnh",
-      "sentenceVietnamese": "Môi trường của khu danh lam thắng cảnh quốc gia này được bảo vệ rất tốt."
+      "en": "scenic area",
+      "vi": "khu danh lam thắng cảnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "scenic spot/area/resort",
+          "sentence": "風景區的景色非常美麗。",
+          "pinyin": "fēngjǐng qū de jǐngsè fēicháng měilì.",
+          "en": "The scenery of the scenic area is very beautiful.",
+          "vi": "Cảnh sắc ở khu du lịch rất đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "scenic spot/area/resort",
+          "sentence": "這個風景區適閤拍照。",
+          "pinyin": "zhège fēngjǐng qū shìhé pāizhào.",
+          "en": "This scenic area is perfect for taking photos.",
+          "vi": "Khu du lịch này rất hợp để chụp ảnh."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "其他",
       "pinyin": "qítā",
-      "english": "other, the other, the remaining",
-      "sentenceChinese": "除了這本書，你還有其他的嗎？",
-      "sentencePinyin": "Chúle zhè běn shū, nǐ hái yǒu qítā de ma?",
-      "sentenceEnglish": "Besides this book, do you have any others?",
-      "vietnamese": "khác",
-      "sentenceVietnamese": "Ngoài cuốn sách này, bạn còn cuốn nào khác không?"
+      "en": "other, the other, the remaining",
+      "vi": "khác",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "sb/sth else; other (people or things)",
+          "sentence": "其他問題我們以後再談。",
+          "pinyin": "qítā wèntí wǒmen yǐhòu zài tán.",
+          "en": "We'll discuss other issues later.",
+          "vi": "Các vấn đề khác chúng ta sẽ nói sau."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "sb/sth else; other (people or things)",
+          "sentence": "其他計劃明天再決定。",
+          "pinyin": "qítā jìhuà míngtiān zài juédìng.",
+          "en": "Other plans will be decided tomorrow.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "假期",
       "pinyin": "jiàqī",
-      "english": "vacation, holiday",
-      "sentenceChinese": "你打算怎麼度過你的假期？",
-      "sentencePinyin": "Nǐ dǎsuàn zěnme dùguò nǐ de jiàqī?",
-      "sentenceEnglish": "How do you plan to spend your vacation?",
-      "vietnamese": "kỳ nghỉ",
-      "sentenceVietnamese": "Bạn định trải qua kỳ nghỉ của mình như thế nào?"
+      "en": "vacation, holiday",
+      "vi": "kỳ nghỉ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "vacation; holidays; period of leave",
+          "sentence": "我們希望假期長一點。",
+          "pinyin": "wǒmen xīwàng jiàqī cháng yīdiǎn.",
+          "en": "We hope the holiday is a bit longer.",
+          "vi": "Chúng tôi mong kỳ nghỉ dài hơn chút."
+        },
+        {
+          "type": "Noun",
+          "meaning": "vacation; holidays; period of leave",
+          "sentence": "假期是休息的好時機。",
+          "pinyin": "jiàqī shì xiūxi de hǎo shíjī.",
+          "en": "The holiday is a good time to rest.",
+          "vi": "Kỳ nghỉ là thời gian tốt để nghỉ ngơi."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "溫泉",
       "pinyin": "wēnquán",
-      "english": "hot springs",
-      "sentenceChinese": "冬天去北投泡溫泉很舒服。",
-      "sentencePinyin": "Dōngtiān qù Běitóu pào wēnquán hěn shūfú.",
-      "sentenceEnglish": "It's very comfortable to soak in hot springs in Beitou during winter.",
-      "vietnamese": "suối nước nóng",
-      "sentenceVietnamese": "Mùa đông đi Bắc Đầu tắm suối nước nóng rất dễ chịu."
+      "en": "hot springs",
+      "vi": "suối nước nóng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hot spring",
+          "sentence": "我們週末去溫泉吧。",
+          "pinyin": "wǒmen zhōumò qù wēnquán ba.",
+          "en": "Let's go to the hot spring this weekend.",
+          "vi": "Cuối tuần chúng ta đi suối nước nóng nhé."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hot spring",
+          "sentence": "溫泉對健康有好處。",
+          "pinyin": "wēnquán duì jiànkāng yǒu hǎochù.",
+          "en": "Hot springs are good for your health.",
+          "vi": "Suối nước nóng tốt cho sức khỏe."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "建議",
       "pinyin": "jiànyì",
-      "english": "to suggest, to recommend",
-      "sentenceChinese": "老師建議我們多聽中文廣播。",
-      "sentencePinyin": "Lǎoshī jiànyì wǒmen duō tīng Zhōngwén guǎngbō.",
-      "sentenceEnglish": "The teacher suggested that we listen to more Chinese radio.",
-      "vietnamese": "gợi ý / đề xuất",
-      "sentenceVietnamese": "Thầy giáo gợi ý chúng tôi nên nghe đài tiếng Trung nhiều hơn."
+      "en": "to suggest, to recommend",
+      "vi": "gợi ý / đề xuất",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to propose; to suggest; to recommend",
+          "sentence": "醫生建議我多做點戶外活動。",
+          "pinyin": "Yīshēng jiànyì wǒ duō zuò diǎn hùwài huódòng.",
+          "en": "The doctor suggested I should have more outdoor exercise.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to propose; to suggest; to recommend",
+          "sentence": "我們建議立即採取措施。",
+          "pinyin": "wǒmen jiànyì lìjí cǎiqǔ cuòshī.",
+          "en": "We advise that steps be taken at once.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "proposal; suggestion",
+          "sentence": "他的建議很有建設性。",
+          "pinyin": "tā de jiànyì hěn yǒu jiànshè xìng.",
+          "en": "His suggestion is very constructive.",
+          "vi": "Những đề xuất của ông rất mang tính xây dựng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "proposal; suggestion",
+          "sentence": "他的建議很有價值。",
+          "pinyin": "tā de jiànyì hěn yǒu jiàzhí.",
+          "en": "His suggestion is very valuable.",
+          "vi": "Lời khuyên của ông rất có giá trị."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "票",
       "pinyin": "piào",
-      "english": "ticket",
-      "sentenceChinese": "去台東的火車票很難買。",
-      "sentencePinyin": "Qù Táidōng de huǒchēpiào hěn nán mǎi.",
-      "sentenceEnglish": "Train tickets to Taitung are hard to buy.",
-      "vietnamese": "vé",
-      "sentenceVietnamese": "Vé tàu hỏa đi Đài Đông rất khó mua."
+      "en": "ticket",
+      "vi": "vé",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "ticket",
+          "sentence": "這張車票是去北京的。",
+          "pinyin": "zhè zhāng chēpiào shì qù běijīng de.",
+          "en": "This train ticket is for Beijing.",
+          "vi": "Đây là tấm vé tàu đi Bắc Kinh."
+        },
+        {
+          "type": "noun",
+          "meaning": "ticket",
+          "sentence": "他買了一張電影票。",
+          "pinyin": "tā mǎile yī zhāng diànyǐng piào.",
+          "en": "He bought a movie ticket.",
+          "vi": "Anh ấy mua một tấm vé xem phim."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "To indicate mumber of transactions; deals",
+          "sentence": "他做了一票大生意。",
+          "pinyin": "tā zuòle yī piào dà shēngyì.",
+          "en": "He made a big deal.",
+          "vi": "Anh ấy đã làm một vụ kinh doanh lớn."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "To indicate mumber of transactions; deals",
+          "sentence": "那票生意他一個人做的。",
+          "pinyin": "nà piào shēngyì tā yīgè rén zuò de.",
+          "en": "He handled that deal all by himself.",
+          "vi": "Vụ làm ăn đó anh ấy làm một mình."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "考慮",
       "pinyin": "kǎolǜ",
-      "english": "to consider",
-      "sentenceChinese": "我會好好考慮你的建議。",
-      "sentencePinyin": "Wǒ huì hǎohǎo kǎolǜ nǐ de jiànyì.",
-      "sentenceEnglish": "I will carefully consider your suggestion.",
-      "vietnamese": "suy nghĩ / cân nhắc",
-      "sentenceVietnamese": "Tôi sẽ cân nhắc kỹ lời gợi ý của bạn."
+      "en": "to consider",
+      "vi": "suy nghĩ / cân nhắc",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "consider; think over; take into account",
+          "sentence": "這個問題要認真考慮。",
+          "pinyin": "zhège wèntí yào rènzhēn kǎolǜ.",
+          "en": "This question needs to be seriously considered.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "consider; think over; take into account",
+          "sentence": "我會考慮一下你的建議。",
+          "pinyin": "wǒ huì kǎolǜ yīxià nǐ de jiànyì.",
+          "en": "I will think about your suggestion.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "順便",
       "pinyin": "shùnbiàn",
-      "english": "without making any extra effort, on the way",
-      "sentenceChinese": "你去超市的時候，順便幫我買瓶牛奶。",
-      "sentencePinyin": "Nǐ qù chāoshì de shíhòu, shùnbiàn bāng wǒ mǎi píng niúnǎi.",
-      "sentenceEnglish": "When you go to the supermarket, please buy a bottle of milk for me as well.",
-      "vietnamese": "nhân tiện / tiện thể",
-      "sentenceVietnamese": "Lúc bạn đi siêu thị, tiện thể mua giúp tôi bình sữa bò nhé."
+      "en": "without making any extra effort, on the way",
+      "vi": "nhân tiện / tiện thể",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "conveniently; in passing; incidentally; by the way",
+          "sentence": "順便問一下，期末考試是什麼時候？",
+          "pinyin": "shùnbiàn wèn yīxià, qímò kǎoshì shì shénme shíhòu?",
+          "en": "By the way, when is the final exam?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "conveniently; in passing; incidentally; by the way",
+          "sentence": "你去商店，順便幫我買一支筆。",
+          "pinyin": "nǐ qù shāngdiàn, shùnbiàn bāng wǒ mǎi yī zhī bǐ.",
+          "en": "I help my mother wash clothes and water the flowers by the way.",
+          "vi": "Bạn đi cửa hàng, tiện mua cho tôi một cây bút nhé."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "湖",
       "pinyin": "hú",
-      "english": "lake",
-      "sentenceChinese": "日月潭是台灣最大的湖。",
-      "sentencePinyin": "Rìyuè Tán shì Táiwān zuì dà de hú.",
-      "sentenceEnglish": "Sun Moon Lake is the largest lake in Taiwan.",
-      "vietnamese": "hồ",
-      "sentenceVietnamese": "Nhật Nguyệt Đàm là hồ lớn nhất Đài Loan."
+      "en": "lake",
+      "vi": "hồ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lake",
+          "sentence": "我們去湖邊散步吧。",
+          "pinyin": "wǒmen qù hú biān sànbù ba.",
+          "en": "Let's go for a walk by the lake.",
+          "vi": "Chúng ta đi dạo quanh hồ nhé."
+        },
+        {
+          "type": "Noun",
+          "meaning": "lake",
+          "sentence": "他們在湖上劃船。",
+          "pinyin": "tāmen zài húshàng huáchuán.",
+          "en": "They are boating on the lake.",
+          "vi": "Họ đang chèo thuyền trên hồ."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "原住民",
       "pinyin": "yuánzhùmín",
-      "english": "aborigines",
-      "sentenceChinese": "那裡住著很多台灣原住民。",
-      "sentencePinyin": "Nàlǐ zhùzhe hěnduō Táiwān yuánzhùmín.",
-      "sentenceEnglish": "Many Taiwanese aborigines live there.",
-      "vietnamese": "người dân tộc thiểu số / thổ dân",
-      "sentenceVietnamese": "Ở đó có rất nhiều người dân tộc thiểu số Đài Loan sinh sống."
+      "en": "aborigines",
+      "vi": "người dân tộc thiểu số / thổ dân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "aborigine",
+          "sentence": "這些房子是原住民建的。",
+          "pinyin": "zhèxiē fángzi shì yuán zhùmín jiàn de.",
+          "en": "These houses were built by the aboriginals.",
+          "vi": "Những ngôi nhà này do thổ dân xây dựng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "aborigine",
+          "sentence": "這裡/裏住著許多原住民。",
+          "pinyin": "zhèlǐ zhùzhe xǔduō yuán zhùmín.",
+          "en": "Many aborigines live here.",
+          "vi": "Ở đây có nhiều thổ dân sinh sống."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "趟",
       "pinyin": "tàng",
-      "english": "measure word for a trip",
-      "sentenceChinese": "我想去一趟台中找朋友。",
-      "sentencePinyin": "Wǒ xiǎng qù yí tàng Táizhōng zhǎo péngyǒu.",
-      "sentenceEnglish": "I want to take a trip to Taichung to see a friend.",
-      "vietnamese": "chuyến / một chuyến",
-      "sentenceVietnamese": "Tôi muốn đi một chuyến đến Đài Trung tìm bạn."
+      "en": "measure word for a trip",
+      "vi": "chuyến / một chuyến",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "[for a round trip]",
+          "sentence": "他到成都去了一趟。",
+          "pinyin": "tā dào chéngdū qùle yī tàng.",
+          "en": "He made a trip to Chengdu.",
+          "vi": "Anh ấy đã đến Thành đô một lần."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for a round trip]",
+          "sentence": "今天夜裡/裏還有一趟車。",
+          "pinyin": "jīntiān yèlǐ hái yǒuyī tàng chē.",
+          "en": "There is another train tonight.",
+          "vi": "Tối nay vẫn còn một chuyến xe."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sth. that is going on",
+          "sentence": "他加入了行進中的那趟。",
+          "pinyin": "tā jiārùle xíngjìn zhōng de nà tàng.",
+          "en": "He joined that group in motion.",
+          "vi": "Anh ấy đã gia nhập vào đoàn người đang di chuyển."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sth. that is going on",
+          "sentence": "我們跟隨那趟前行。",
+          "pinyin": "wǒmen gēnsuí nà tàng qián xíng.",
+          "en": "We followed that group forward.",
+          "vi": "Chúng tôi đi theo đoàn người đó."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "後來",
       "pinyin": "hòulái",
-      "english": "later",
-      "sentenceChinese": "他原本想去游泳，後來因為下雨就沒去了。",
-      "sentencePinyin": "Tā yuánběn xiǎng qù yóuyǒng, hòulái yīnwèi xiàyǔ jiù méi qù le.",
-      "sentenceEnglish": "He originally wanted to go swimming, but later he didn't go because of the rain.",
-      "vietnamese": "sau đó / về sau",
-      "sentenceVietnamese": "Anh ấy vốn định đi bơi, sau đó vì trời mưa nên không đi nữa."
+      "en": "later",
+      "vi": "sau đó / về sau",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "later; afterwards",
+          "sentence": "後來，他改變了主意。",
+          "pinyin": "hòulái, tā gǎibiànle zhǔyì.",
+          "en": "Later, he changed his mind.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "later; afterwards",
+          "sentence": "後來的結果讓我很滿意。",
+          "pinyin": "hòulái de jiéguǒ ràng wǒ hěn mǎnyì.",
+          "en": "The later results made me very satisfied.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "注意",
       "pinyin": "zhùyì",
-      "english": "to pay attention to",
-      "sentenceChinese": "開車的時候要多注意安全。",
-      "sentencePinyin": "Kāichē de shíhòu yào duō zhùyì ānquán.",
-      "sentenceEnglish": "You should pay more attention to safety when driving.",
-      "vietnamese": "chú ý",
-      "sentenceVietnamese": "Lúc lái xe cần chú ý an toàn hơn."
+      "en": "to pay attention to",
+      "vi": "chú ý",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pay attention to; take notice of; have an eye on",
+          "sentence": "我註意到了這件事。",
+          "pinyin": "wǒ zhùyì dàole zhè jiàn shì.",
+          "en": "I have an eye on this matter.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "pay attention to; take notice of; have an eye on",
+          "sentence": "我們要註意這個問題。",
+          "pinyin": "wǒmen yào zhùyì zhège wèntí.",
+          "en": "We need to pay attention to this issue.",
+          "vi": "Chúng ta phải chú ý vấn đề này."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "沙灘",
       "pinyin": "shātān",
-      "english": "beach",
-      "sentenceChinese": "孩子們在沙灘上玩沙子。",
-      "sentencePinyin": "Háizimen zài shātān shàng wán shāzi.",
-      "sentenceEnglish": "The children are playing with sand on the beach.",
-      "vietnamese": "bãi cát / bãi biển",
-      "sentenceVietnamese": "Lũ trẻ đang chơi cát trên bãi biển."
+      "en": "beach",
+      "vi": "bãi cát / bãi biển",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sand; seabeach; sandy beach",
+          "sentence": "孩子們在沙灘上玩耍。",
+          "pinyin": "háizimen zài shātān shàng wánshuǎ.",
+          "en": "The children are playing on the beach.",
+          "vi": "Bọn trẻ đang chơi đùa trên bãi biển."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sand; seabeach; sandy beach",
+          "sentence": "我喜歡在沙灘上曬太陽。",
+          "pinyin": "wǒ xǐhuan zài shātān shàng shài tàiyáng.",
+          "en": "I like to sunbathe on the beach.",
+          "vi": "Tôi thích tắm nắng trên bãi cát."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "錢包",
       "pinyin": "qiánbāo",
-      "english": "wallet, purse",
-      "sentenceChinese": "我不小心把錢包弄丟了。",
-      "sentencePinyin": "Wǒ bù xiǎoxīn bǎ qiánbāo nòngdiū le.",
-      "sentenceEnglish": "I accidentally lost my wallet.",
-      "vietnamese": "ví tiền",
-      "sentenceVietnamese": "Tôi lỡ làm mất ví tiền rồi."
+      "en": "wallet, purse",
+      "vi": "ví tiền",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wallet; purse; moneybag",
+          "sentence": "錢包被人偷去了。",
+          "pinyin": "qiánbāo bèi rén tōu qùle.",
+          "en": "The wallet was stolen by someone.",
+          "vi": "Ví tiền bị người ta ăn cắp rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "wallet; purse; moneybag",
+          "sentence": "他不小心把錢包弄丟了。",
+          "pinyin": "tā bù xiǎoxīn bǎ qiánbāo nòng diūle.",
+          "en": "He carelessly lost his wallet.",
+          "vi": "Anh ấy không cẩn thận làm mất ví tiền rồi."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "不見",
       "pinyin": "bújiàn",
-      "english": "to be lost, to have disappeared",
-      "sentenceChinese": "我的筆不見了，你看到了嗎？",
-      "sentencePinyin": "Wǒ de bǐ bújiàn le, nǐ kàndào le ma?",
-      "sentenceEnglish": "My pen is missing; have you seen it?",
-      "vietnamese": "mất / biến mất",
-      "sentenceVietnamese": "Bút của tôi mất rồi, bạn có nhìn thấy không?"
+      "en": "to be lost, to have disappeared",
+      "vi": "mất / biến mất",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "haven't seen; haven't met; not see; not meet",
+          "sentence": "多年不見，你還是老樣子。",
+          "pinyin": "duōnián bùjiàn, nǐ háishì lǎo yàngzǐ.",
+          "en": "Haven’t seen you for many years; you’re still the same.",
+          "vi": "Lâu này không gặp, cậu vẫn như xưa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "haven't seen; haven't met; not see; not meet",
+          "sentence": "明天衕一時間不見不散。",
+          "pinyin": "míngtiān tóngyī shíjiān bùjiàn bú sàn.",
+          "en": "See you at the same time tomorrow, don’t be late.",
+          "vi": "Ngày mai giờ này, không gặp không về."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "被",
       "pinyin": "bèi",
-      "english": "a particle marking a passive sentence",
-      "sentenceChinese": "我的蛋糕被弟弟吃光了。",
-      "sentencePinyin": "Wǒ de dàngāo bèi dìdi chīguāng le.",
-      "sentenceEnglish": "My cake was eaten all up by my younger brother.",
-      "vietnamese": "bị / được",
-      "sentenceVietnamese": "Bánh kem của tôi bị em trai ăn hết sạch rồi."
+      "en": "a particle marking a passive sentence",
+      "vi": "bị / được",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "quilt",
+          "sentence": "海莉和我在做一件花被子。",
+          "pinyin": "hǎilì hé wǒ zài zuò yījiàn huā bèizǐ",
+          "en": "Haley and I have been making a quilt",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "quilt",
+          "sentence": "我買了棉花做被子。",
+          "pinyin": "wǒ mǎile miánhua zuò bèizi.",
+          "en": "I bought cotton to make a quilt.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cover; spread",
+          "sentence": "道路被覆上了一層灰塵。",
+          "pinyin": "dàolù bèifù shàngle yī céng huīchén.",
+          "en": "The road was covered with a layer of dust.",
+          "vi": "Con đường phủ một lớp bụi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "suffer",
+          "sentence": "我們被批評了。",
+          "pinyin": "wǒmen bèi pīpíng le.",
+          "en": "We were criticized.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "[used in a passive structure to introduce either the doer of the action, or the action alone]",
+          "sentence": "一位年輕的機工，被她的美貌所吸引，壯著膽子跟她開玩笑。",
+          "pinyin": "yī wèi niánqīng de jīgōng, bèi tā de měimào suǒ xīyǐn, zhuàng zhe dǎnzi gēn tā kāi wánxiào.",
+          "en": "A young machine hand, attracted by her looks, made bold to jest with her.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "[used in a passive structure to introduce either the doer of the action, or the action alone]",
+          "sentence": "他反身想走, 被我攔住了。",
+          "pinyin": "tā fǎnshēn xiǎng zǒu, bèi wǒ lánzhu le.",
+          "en": "He turned round and wanted to go, but I stopped him.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "used before verbs to form passive phrases",
+          "sentence": "門被大力關上了。",
+          "pinyin": "mén bèi dàlì guānshàngle.",
+          "en": "The door was slammed shut.",
+          "vi": "Cửa bị đóng mạnh."
+        },
+        {
+          "type": "literary",
+          "meaning": "suffer",
+          "sentence": "她不想再被氣了。",
+          "pinyin": "tā bùxiǎng zài bèi qìle.",
+          "en": "She doesn't want to suffer wrong anymore.",
+          "vi": ""
+        },
+        {
+          "type": "literary",
+          "meaning": "suffer",
+          "sentence": "他被疾病摺磨得很痛苦。",
+          "pinyin": "tā bèi jíbìng zhé mò dé hěn tòngkǔ.",
+          "en": "He is tormented by illness to the point of suffering.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "偷",
       "pinyin": "tōu",
-      "english": "to steal",
-      "sentenceChinese": "他的摩托車被偷了，所以很難過。",
-      "sentencePinyin": "Tā de mótuōchē bèi tōu le, suǒyǐ hěn nánguò.",
-      "sentenceEnglish": "His motorcycle was stolen, so he is very sad.",
-      "vietnamese": "ăn trộm / lấy cắp",
-      "sentenceVietnamese": "Xe máy của anh ấy bị trộm rồi, nên anh ấy rất buồn."
+      "en": "to steal",
+      "vi": "ăn trộm / lấy cắp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "thief; pilferer",
+          "sentence": "他一聲斷喝, 嚇壞了小偷。",
+          "pinyin": "Tā yī shēng duànhè, xiàhuài le xiǎotōu.",
+          "en": "He gave a loud shout and scared the life out of the thief.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "thief; pilferer",
+          "sentence": "小偷搶劫了商店。",
+          "pinyin": "xiǎotōu qiǎngjiéle shāngdiàn.",
+          "en": "The thief robbed the store.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "stealthily; secretly; on the sly",
+          "sentence": "這些孩子偷偷地抽煙。",
+          "pinyin": "Zhèxiē háizi tōutōu de chōuyān.",
+          "en": "The boys smoked on the sly.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "stealthily; secretly; on the sly",
+          "sentence": "貓偷偷地爬上了桌子。",
+          "pinyin": "māo tōutōu de pá shàngle zhuōzi.",
+          "en": "The cat stealthily climbed onto the table.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "steal; pilfer; make off with",
+          "sentence": "有人把我的車偷走了。",
+          "pinyin": "yǒurén bǎ wǒ de chē tōu zǒu le.",
+          "en": "Someone has made off with my car.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "find (time)",
+          "sentence": "想辦法抓小偷。",
+          "pinyin": "xiǎng bànfǎ zhuā xiǎotōu.",
+          "en": "Find a way to catch the thief.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "安全",
       "pinyin": "ānquán",
-      "english": "safe",
-      "sentenceChinese": "這裡的治安很好，非常安全。",
-      "sentencePinyin": "Zhèlǐ de zhì'ān hěn hǎo, fēicháng ānquán.",
-      "sentenceEnglish": "The security here is very good; it's very safe.",
-      "vietnamese": "an toàn",
-      "sentenceVietnamese": "An ninh ở đây rất tốt, vô cùng an toàn."
+      "en": "safe",
+      "vi": "an toàn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "safe; secure",
+          "sentence": "這個地方很安全。",
+          "pinyin": "zhège dìfāng hěn ānquán.",
+          "en": "This place is very safe.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "safe; secure",
+          "sentence": "孩子們在公園裡/裏玩得很安全。",
+          "pinyin": "háizimen zài gōngyuán lǐ wán dé hěn ānquán.",
+          "en": "The children play safely in the park.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "safety; security",
+          "sentence": "確保食品安全很重要。",
+          "pinyin": "quèbǎo shípǐn ānquán hěn zhòngyào.",
+          "en": "Ensuring food safety is very important.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "safety; security",
+          "sentence": "我們要確保大傢的安全。",
+          "pinyin": "wǒmen yào quèbǎo dàjiā de ānquán.",
+          "en": "We need to ensure everyone's safety.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "值得",
       "pinyin": "zhíde",
-      "english": "worthwhile, worth",
-      "sentenceChinese": "這部電影非常感人，值得一看。",
-      "sentencePinyin": "Zhè bù diànyǐng fēicháng gǎnrén, zhíde yí kàn.",
-      "sentenceEnglish": "This movie is very moving and worth watching.",
-      "vietnamese": "xứng đáng / đáng giá",
-      "sentenceVietnamese": "Bộ phim này rất cảm động, đáng để xem."
+      "en": "worthwhile, worth",
+      "vi": "xứng đáng / đáng giá",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "merit; deserve; be worth",
+          "sentence": "這個項目值得投資。",
+          "pinyin": "zhège xiàngmù zhídé tóuzī.",
+          "en": "This project is worth investing in.",
+          "vi": "Hạng mục này xứng đáng đầu tư."
+        },
+        {
+          "type": "Verb",
+          "meaning": "merit; deserve; be worth",
+          "sentence": "這部電影值得推薦。",
+          "pinyin": "zhè bù diànyǐng zhídé tuījiàn.",
+          "en": "This movie is definitely worth watching.",
+          "vi": "Bộ phim này đáng để giới thiệu."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "be worth",
+          "sentence": "這是一件值得的事情。",
+          "pinyin": "zhè shì yī jiàn zhídé de shìqíng.",
+          "en": "This is something worth doing.",
+          "vi": "Đây là một điều đáng giá"
+        },
+        {
+          "type": "Adjective",
+          "meaning": "be worth",
+          "sentence": "他做齣這樣值得的選擇。",
+          "pinyin": "tā zuò chū zhèyàng zhídé de xuǎnzé.",
+          "en": "He made a very wise choice.",
+          "vi": "Anh ấy đưa ra một lựa chọn đáng giá."
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "墾丁",
       "pinyin": "Kěndīng",
-      "english": "Kenting, area on the southern tip of Taiwan",
-      "sentenceChinese": "墾丁是台灣著名的度假勝地。",
-      "sentencePinyin": "Kěndīng shì Táiwān zhùmíng de dùjià shèngdì.",
-      "sentenceEnglish": "Kenting is a famous holiday destination in Taiwan.",
-      "vietnamese": "Khẩn Đinh",
-      "sentenceVietnamese": "Khẩn Đinh là thánh địa nghỉ dưỡng nổi tiếng của Đài Loan."
+      "en": "Kenting, area on the southern tip of Taiwan",
+      "vi": "Khẩn Đinh",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Kenting, a national park on the southern tip of Taiwan, popular as a tourist destination",
+          "sentence": "墾丁是臺灣最早的國傢公園。",
+          "pinyin": "kěn dīng shì táiwān zuìzǎo de guójiā gōngyuán.",
+          "en": "Kenting is Taiwan's first national park.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Kenting, a national park on the southern tip of Taiwan, popular as a tourist destination",
+          "sentence": "墾丁國傢公園位於恆春半島。",
+          "pinyin": "kěndīng guójiā gōngyuán wèiyú héngchūn bàndǎo.",
+          "en": "Kenting National Park is located on the Hengchun Peninsula.",
+          "vi": ""
+        }
+      ]
     }
   ]
 }

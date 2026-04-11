@@ -7,420 +7,1487 @@
       "id": 1,
       "chinese": "牛肉",
       "pinyin": "niúròu",
-      "english": "beef",
-      "sentenceChinese": "我想吃牛肉。",
-      "sentencePinyin": "Wǒ xiǎng chī niúròu.",
-      "sentenceEnglish": "I want to eat beef.",
-      "vietnamese": "thịt bò",
-      "sentenceVietnamese": "Tôi muốn ăn thịt bò."
+      "en": "beef",
+      "vi": "thịt bò",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "beef",
+          "sentence": "他很喜歡吃/喫牛肉。",
+          "pinyin": "tā hěn xǐhuan chī niúròu.",
+          "en": "He really likes to eat beef.",
+          "vi": "Anh ấy rất thích ăn thịt bò."
+        },
+        {
+          "type": "Noun",
+          "meaning": "beef",
+          "sentence": "這塊牛肉肉質鮮嫩。",
+          "pinyin": "zhè kuài niúròu ròuzhì xiānnèn.",
+          "en": "This piece of beef is tender and fresh.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "麵",
       "pinyin": "miàn",
-      "english": "noodles",
-      "sentenceChinese": "這家店的麵很好吃。",
-      "sentencePinyin": "Zhè jiā diàn de miàn hěn hǎochī.",
-      "sentenceEnglish": "The noodles at this shop are delicious.",
-      "vietnamese": "mì",
-      "sentenceVietnamese": "Mì của cửa hàng này rất ngon."
+      "en": "noodles",
+      "vi": "mì",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "face",
+          "sentence": "她有一張美麗的麵。",
+          "pinyin": "tā yǒuyī zhāngměilì de miàn.",
+          "en": "She has a beautiful face.",
+          "vi": "Cô ấy có một khuôn mặt xinh đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "face",
+          "sentence": "你的麵看起來很紅。",
+          "pinyin": "nǐ de miàn kàn qǐlái hěn hóng.",
+          "en": "Your face looks very red.",
+          "vi": "Khuôn mặt của bạn trông rất đỏ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "face",
+          "sentence": "學生被罰麵壁站著。",
+          "pinyin": "xuéshēng bèi fá miànbì zhànzhe.",
+          "en": "The student was punished to face the wall.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "face",
+          "sentence": "他在房裡/裏麵壁思過。",
+          "pinyin": "tā zài fáng lǐmiàn bì sīguò.",
+          "en": "He is facing the wall in reflection.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "soft and floury",
+          "sentence": "她做的麵條非常麵。",
+          "pinyin": "tā zuò de miàntiáo fēicháng miàn.",
+          "en": "The noodles she made are very soft.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "soft and floury",
+          "sentence": "這塊蛋糕非常麵。",
+          "pinyin": "zhè kuài dàngāo fēicháng miàn.",
+          "en": "This cake is very soft and floury.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "directly; personally",
+          "sentence": "這件事我們麵議吧。",
+          "pinyin": "zhè jiàn shì wǒmen miànyì ba.",
+          "en": "Let's discuss this matter directly.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "directly; personally",
+          "sentence": "他麵諭了所有員工。",
+          "pinyin": "tā miàn yùle suǒyǒu yuángōng.",
+          "en": "He issued a direct order to all employees.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for flat objects",
+          "sentence": "他收到了一麵錦旗。",
+          "pinyin": "tā shōu dàole yīmiàn jǐnqí.",
+          "en": "He received a silk banner.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for flat objects",
+          "sentence": "他掛起了一麵鏡子。",
+          "pinyin": "tā guà qǐle yīmiàn jìngzi.",
+          "en": "He hung a mirror.",
+          "vi": ""
+        },
+        {
+          "type": "suff",
+          "meaning": "suffix for location or direction",
+          "sentence": "書放在桌子上麵。",
+          "pinyin": "shū fàng zài zhuōzi shàngmiàn.",
+          "en": "The book is on top of the table.",
+          "vi": ""
+        },
+        {
+          "type": "suff",
+          "meaning": "suffix for location or direction",
+          "sentence": "她在下麵等我們。",
+          "pinyin": "tā zài xiàmiàn děng wǒmen.",
+          "en": "She is waiting for us below.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "真",
       "pinyin": "zhēn",
-      "english": "really",
-      "sentenceChinese": "這個真的很好吃。",
-      "sentencePinyin": "Zhège zhēn de hěn hǎochī.",
-      "sentenceEnglish": "This is really tasty.",
-      "vietnamese": "thật, thật sự",
-      "sentenceVietnamese": "Cái này thật sự rất ngon."
+      "en": "really",
+      "vi": "thật, thật sự",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "true; real; genuine (opp. 假,伪)",
+          "sentence": "他真的很卑鄙。",
+          "pinyin": "tā zhēn de hěn bēibǐ.",
+          "en": "He is really despicable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true; real; genuine (opp. 假,伪)",
+          "sentence": "好像是真的鯨魚骨頭。",
+          "pinyin": "hǎoxiàng shì zhēnde jīngyú gǔtóu",
+          "en": "I think that's real whalebone.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "regular script",
+          "sentence": "學校開設了真書課程。",
+          "pinyin": "xuéxiào kāishèle zhēnshū kèchéng.",
+          "en": "The school offered a regular script course.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "portrait; image; exact copy of sth.",
+          "sentence": "這幅肖像非常逼真。",
+          "pinyin": "zhè fú xiàoxiàng fēicháng bīzhēn.",
+          "en": "This portrait is very lifelike.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; truly; indeed",
+          "sentence": "從泰山頂上看去，日齣真是個奇觀。",
+          "pinyin": "cóng Tàishān dǐng shàng kàn qù, rìchū zhēn shì gè qíguān.",
+          "en": "Viewed from the top of Mount Tai, the sunrise was indeed a spectacle.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; truly; indeed",
+          "sentence": "你這腦瓜子真聰明。",
+          "pinyin": "nǐ zhè nǎoguā zi zhēn cōngmíng.",
+          "en": "Your mind is truly clever.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "好吃",
       "pinyin": "hǎochī",
-      "english": "delicious",
-      "sentenceChinese": "牛肉麵很好吃。",
-      "sentencePinyin": "Niúròu miàn hěn hǎochī.",
-      "sentenceEnglish": "Beef noodles are delicious.",
-      "vietnamese": "ngon",
-      "sentenceVietnamese": "Mì bò rất ngon."
+      "en": "delicious",
+      "vi": "ngon",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "nice; tasty; delicious",
+          "sentence": "這裡/裏的羊肉很好吃/喫。",
+          "pinyin": "zhèlǐ de yángròu hěn hǎo chī.",
+          "en": "The lamb here is very delicious.",
+          "vi": "Thịt dê ở đây rất ngon."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "nice; tasty; delicious",
+          "sentence": "雞翅和雞蛋都很好吃/喫。",
+          "pinyin": "jīchì hé jīdàn dōu hěn hǎo chī.",
+          "en": "Both the chicken wings and the eggs are very tasty.",
+          "vi": "Cánh gà và trứng gà đều rất ngon."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "說",
       "pinyin": "shuō",
-      "english": "to say",
-      "sentenceChinese": "老師說這家店很有名。",
-      "sentencePinyin": "Lǎoshī shuō zhè jiā diàn hěn yǒumíng.",
-      "sentenceEnglish": "The teacher said this shop is famous.",
-      "vietnamese": "nói",
-      "sentenceVietnamese": "Thầy giáo nói cửa hàng này rất nổi tiếng."
+      "en": "to say",
+      "vi": "nói",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "speak; talk; say",
+          "sentence": "那未免説得太輕了。",
+          "pinyin": "nà wèi miǎn shuō de tài qīng le.",
+          "en": "That's putting it too mildly.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "explain",
+          "sentence": "他委婉地説明了原因。",
+          "pinyin": "tā wěiwǎn de shuōmíngle yuányīn.",
+          "en": "He tactfully explained the reason.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "theory; teachings; doctrine",
+          "sentence": "著書立説",
+          "pinyin": "zhù shū lì shuō",
+          "en": "Write books to expound a theory",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "少",
       "pinyin": "shǎo",
-      "english": "few in number",
-      "sentenceChinese": "這家店的人比較少。",
-      "sentencePinyin": "Zhè jiā diàn de rén bǐjiào shǎo.",
-      "sentenceEnglish": "There are fewer people at this shop.",
-      "vietnamese": "ít",
-      "sentenceVietnamese": "Cửa hàng này tương đối ít người."
+      "en": "few in number",
+      "vi": "ít",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "few; less; little (opp.多)",
+          "sentence": "最近我們很少見到他。",
+          "pinyin": "zuì jìn wǒ men hěn shǎo jiàn dào tā.",
+          "en": "We've seen very little of him lately.",
+          "vi": "Gần đây chúng tôi ít gặp anh ấy hơn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "few; less; little (opp.多)",
+          "sentence": "這次來的客人比上次少。",
+          "pinyin": "zhè cì lái de kèrén bǐ shàng cì shǎo.",
+          "en": "The number of guests this time is fewer than last time.",
+          "vi": "Khách lần này ít hơn lần trước."
+        },
+        {
+          "type": "Verb",
+          "meaning": "lack; be short",
+          "sentence": "我們還缺少兩把椅子。",
+          "pinyin": "wǒmen hái quēshǎo liǎng bǎ yǐzi.",
+          "en": "We are still short of two chairs.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "lack; be short",
+          "sentence": "我們的資源減少了很多。",
+          "pinyin": "wǒmen de zīyuán jiǎnshǎole hěnduō.",
+          "en": "Our resources have decreased a lot.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "a moment; a little while",
+          "sentence": "我們少等了一會兒。",
+          "pinyin": "wǒmen shǎo děngle yīhuǐr.",
+          "en": "We wait for a moment.",
+          "vi": "Chúng tôi đợi ít một chút."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "a moment; a little while",
+          "sentence": "她少帶了一些東西。",
+          "pinyin": "tā shǎo dàile yīxiē dōngxi.",
+          "en": "She brought fewer things.",
+          "vi": "Cô ấy mang ít đồ hơn một chút."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "有名",
       "pinyin": "yǒumíng",
-      "english": "well known, famous",
-      "sentenceChinese": "臺南的小吃很有名。",
-      "sentencePinyin": "Táinán de xiǎochī hěn yǒumíng.",
-      "sentenceEnglish": "Tainan's snacks are very famous.",
-      "vietnamese": "nổi tiếng",
-      "sentenceVietnamese": "Món ăn vặt ở Đài Nam rất nổi tiếng."
+      "en": "well known, famous",
+      "vi": "nổi tiếng",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "well-known; famous; celebrated",
+          "sentence": "他是有名的登山運動健將。",
+          "pinyin": "tā shì yǒumíng de dēngshān yùndòng jiànjiāng.",
+          "en": "He is a famous mountaineering athlete.",
+          "vi": "Anh ấy là kiện tướng leo núi nổi tiếng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "well-known; famous; celebrated",
+          "sentence": "我們學了一首有名的歌麴。",
+          "pinyin": "wǒmen xuéle yī shǒu yǒumíng de gēqǔ.",
+          "en": "We learned a famous song.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "小吃",
       "pinyin": "xiǎochī",
-      "english": "light repast, snack",
-      "sentenceChinese": "我喜歡臺灣小吃。",
-      "sentencePinyin": "Wǒ xǐhuān Táiwān xiǎochī.",
-      "sentenceEnglish": "I like Taiwanese snacks.",
-      "vietnamese": "món ăn vặt, đặc sản địa phương",
-      "sentenceVietnamese": "Tôi thích món ăn vặt Đài Loan."
+      "en": "light repast, snack",
+      "vi": "món ăn vặt, đặc sản địa phương",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "snack; refreshments",
+          "sentence": "這條街賣本地小吃/喫。",
+          "pinyin": "zhè tiáo jiē mài běndì xiǎochī.",
+          "en": "This street sells local snacks.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "snack; refreshments",
+          "sentence": "這是一種中國小吃/喫。",
+          "pinyin": "zhè shì yī zhǒng zhōngguó xiǎochī.",
+          "en": "This is a kind of Chinese snack.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "最",
       "pinyin": "zuì",
-      "english": "most",
-      "sentenceChinese": "我最喜歡牛肉麵。",
-      "sentencePinyin": "Wǒ zuì xǐhuān niúròu miàn.",
-      "sentenceEnglish": "I like beef noodles the most.",
-      "vietnamese": "nhất",
-      "sentenceVietnamese": "Tôi thích mì bò nhất."
+      "en": "most",
+      "vi": "nhất",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "[in front of an adjective or a verb] most; -est",
+          "sentence": "我最喜歡吃/喫巧剋力冰激淩。",
+          "pinyin": "Wǒ zuì xǐhuan chī qiǎokèlì bīngjilíng.",
+          "en": "I like chocolate ice cream best.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[placed in front of a noun of locality, or a place word] farthest or nearest to (a place)",
+          "sentence": "嚮河流排汙，最終破壞了海洋生物資源。",
+          "pinyin": "xiàng héliú páiwū, zuìzhōng pòhuàile hǎiyáng shēngwù zīyuán.",
+          "en": "The discharge of pollutants into the river will ultimately destroy marine biological resources.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "the utmost; the best (or highest, greatest, etc.)",
+          "sentence": "我們以最大的誠意閤作。",
+          "pinyin": "wǒmen yǐ zuìdà de chéngyì hézuò.",
+          "en": "We cooperate with the utmost sincerity.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "湯",
       "pinyin": "tāng",
-      "english": "soup, broth",
-      "sentenceChinese": "這碗湯很熱。",
-      "sentencePinyin": "Zhè wǎn tāng hěn rè.",
-      "sentenceEnglish": "This bowl of soup is hot.",
-      "vietnamese": "canh, súp",
-      "sentenceVietnamese": "Bát canh này rất nóng."
+      "en": "soup, broth",
+      "vi": "canh, súp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hot water; boiling water",
+          "sentence": "溫湯浸種",
+          "pinyin": "wēn tāng jìn zhǒng",
+          "en": "Hot water treatment",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "[usu. in place names] hot springs",
+          "sentence": "我喜歡鼕天去湯浴。",
+          "pinyin": "Wǒ xǐhuān dōngtiān qù tāng yù.",
+          "en": "I like to go to hot springs in winter.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "這麼",
       "pinyin": "zhème",
-      "english": "so",
-      "sentenceChinese": "這麼辣，我不敢吃。",
-      "sentencePinyin": "Zhème là, wǒ bù gǎn chī.",
-      "sentenceEnglish": "It is so spicy that I don't dare eat it.",
-      "vietnamese": "như thế này, đến mức này",
-      "sentenceVietnamese": "Cay thế này, tôi không dám ăn."
+      "en": "so",
+      "vi": "như thế này, đến mức này",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "such (used to show the degree)",
+          "sentence": "我沒有你這麼高。",
+          "pinyin": "wǒ méiyǒu nǐ zhème gāo.",
+          "en": "I am not as tall as you.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "such (used to show the degree)",
+          "sentence": "問題沒有這麼復雜。",
+          "pinyin": "wèntí méiyǒu zhème fùzá.",
+          "en": "The problem is not so complicated.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "知道",
       "pinyin": "zhīdào",
-      "english": "to know",
-      "sentenceChinese": "你知道哪一家店最好吃嗎？",
-      "sentencePinyin": "Nǐ zhīdào nǎ yī jiā diàn zuì hǎochī ma?",
-      "sentenceEnglish": "Do you know which shop has the best food?",
-      "vietnamese": "biết",
-      "sentenceVietnamese": "Bạn có biết cửa hàng nào ngon nhất không?"
+      "en": "to know",
+      "vi": "biết",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "know; realize; be aware of",
+          "sentence": "他知道的事情很多。",
+          "pinyin": "tā zhīdào de shìqíng hěnduō.",
+          "en": "He knows a lot of things.",
+          "vi": "Những việc anh ấy biết thì rất nhiều."
+        },
+        {
+          "type": "Verb",
+          "meaning": "know; realize; be aware of",
+          "sentence": "你的意思我知道。",
+          "pinyin": "nǐ de yìsi wǒ zhīdào.",
+          "en": "I understand what you mean.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "家",
       "pinyin": "jiā",
-      "english": "measure word for restaurants, shops, etc.",
-      "sentenceChinese": "這家餐廳很有名。",
-      "sentencePinyin": "Zhè jiā cāntīng hěn yǒumíng.",
-      "sentenceEnglish": "This restaurant is very famous.",
-      "vietnamese": "cửa, nhà (lượng từ cho nhà hàng, cửa hàng)",
-      "sentenceVietnamese": "Nhà hàng này rất nổi tiếng."
+      "en": "measure word for restaurants, shops, etc.",
+      "vi": "cửa, nhà (lượng từ cho nhà hàng, cửa hàng)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "family; household",
+          "sentence": "傢是最溫暖的地方。",
+          "pinyin": "jiā shì zuì wēnnuǎn de dìfāng.",
+          "en": "Home is the warmest place.",
+          "vi": "Gia đình là nơi ấm áp nhất."
+        },
+        {
+          "type": "Noun",
+          "meaning": "family; household",
+          "sentence": "你傢有幾口人？",
+          "pinyin": "nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are there in your family?",
+          "vi": "Nhà bạn có mấy người?"
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tamed",
+          "sentence": "這種傢禽很容易照顧。",
+          "pinyin": "zhè zhǒng jiāqín hěn róngyì zhàogù.",
+          "en": "This type of poultry is easy to take care of.",
+          "vi": "Loại gia cầm này dễ chăm sóc."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tamed",
+          "sentence": "牛是一種常見的傢畜。",
+          "pinyin": "niú shì yī zhǒng chángjiàn de jiāchù.",
+          "en": "Cows are a common type of livestock.",
+          "vi": "Bò là một loại gia súc phổ biến."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "use for families or business establisments",
+          "sentence": "我們去那傢餐館吃/喫飯。",
+          "pinyin": "wǒmen qù nà jiā cānguǎn chīfàn.",
+          "en": "We are going to that restaurant to eat.",
+          "vi": "Chúng tôi đến nhà hàng đó ăn cơm."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "use for families or business establisments",
+          "sentence": "他在那傢商店買了書。",
+          "pinyin": "tā zài nà jiā shāngdiàn mǎile shū.",
+          "en": "He bought books at that store.",
+          "vi": "Anh ấy đã mua sách ở cửa hàng đó."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "店",
       "pinyin": "diàn",
-      "english": "shop, store",
-      "sentenceChinese": "那家店賣很多甜點。",
-      "sentencePinyin": "Nà jiā diàn mài hěn duō tiándiǎn.",
-      "sentenceEnglish": "That shop sells many desserts.",
-      "vietnamese": "tiệm, cửa hàng",
-      "sentenceVietnamese": "Cửa hàng đó bán rất nhiều đồ tráng miệng."
+      "en": "shop, store",
+      "vi": "tiệm, cửa hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "shop; store",
+          "sentence": "這是媽媽的零售店。",
+          "pinyin": "zhè shì māma de língshòu diàn.",
+          "en": "This is mom's retail store.",
+          "vi": "Đây là cửa hàng bán lẻ của mẹ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "shop; store",
+          "sentence": "這是一傢雜貨店。",
+          "pinyin": "zhè shì yījiā záhuò diàn.",
+          "en": "This is a grocery store.",
+          "vi": "Đây là một cửa hàng tạp hóa."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "一定",
       "pinyin": "yídìng",
-      "english": "really must, definitely",
-      "sentenceChinese": "你一定要吃小籠包。",
-      "sentencePinyin": "Nǐ yídìng yào chī xiǎolóngbāo.",
-      "sentenceEnglish": "You really have to try the xiaolongbao.",
-      "vietnamese": "nhất định",
-      "sentenceVietnamese": "Bạn nhất định phải ăn tiểu long bao."
+      "en": "really must, definitely",
+      "vi": "nhất định",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "surely; certainly; necessarily",
+          "sentence": "他一定會來參加會議。",
+          "pinyin": "tā yīdìng huì lái cānjiā huìyì.",
+          "en": "He will certainly come to the meeting.",
+          "vi": "Anh ấy nhất định tham dự cuộc họp."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "surely; certainly; necessarily",
+          "sentence": "這本書一定很有趣。",
+          "pinyin": "zhè běn shū yīdìng hěn yǒuqù.",
+          "en": "This book must surely be very interesting.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "certain; particular",
+          "sentence": "這次考試有一定的難度。",
+          "pinyin": "zhè cì kǎoshì yǒu yīdìng de nándù.",
+          "en": "The exam is of some difficulty.",
+          "vi": "Kỳ thi này có độ khó nhất định."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "certain; particular",
+          "sentence": "這項工作有一定的要求。",
+          "pinyin": "zhè xiàng gōngzuò yǒu yīdìng de yāoqiú.",
+          "en": "The job has certain requirements.",
+          "vi": "Công việc này có những yêu cầu nhất định."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "點",
       "pinyin": "diǎn",
-      "english": "to order (meals)",
-      "sentenceChinese": "我要點一碗牛肉麵。",
-      "sentencePinyin": "Wǒ yào diǎn yì wǎn niúròu miàn.",
-      "sentenceEnglish": "I want to order a bowl of beef noodles.",
-      "vietnamese": "gọi món, đặt món",
-      "sentenceVietnamese": "Tôi muốn gọi một bát mì bò."
+      "en": "to order (meals)",
+      "vi": "gọi món, đặt món",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "drop (of liquid)",
+          "sentence": "她的臉上有汗點。",
+          "pinyin": "tā de liǎn shàng yǒu hàn diǎn.",
+          "en": "There are drops of sweat on her face.",
+          "vi": "Trên mặt cô ấy có những giọt mồ hôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "drop (of liquid)",
+          "sentence": "地上有幾滴油點。",
+          "pinyin": "dìshàng yǒu jǐ dī yóu diǎn.",
+          "en": "There are a few drops of oil on the ground.",
+          "vi": "Trên đất có vài giọt dầu."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "o'clock",
+          "sentence": "現在是上午十點。",
+          "pinyin": "xiànzài shì shàngwǔ shí diǎn.",
+          "en": "It is 10 o'clock in the morning.",
+          "vi": "Bây giờ là mười giờ sáng."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "o'clock",
+          "sentence": "電影從晚上七點開始。",
+          "pinyin": "diànyǐng cóng wǎnshàng qī diǎn kāishǐ.",
+          "en": "The movie starts at 7 p.m.",
+          "vi": "Phim bắt đầu vào bảy giờ tối."
+        },
+        {
+          "type": "Verb",
+          "meaning": "tiptoe",
+          "sentence": "她點著腳夠東西。",
+          "pinyin": "tā diǎnzhe jiǎo gòu dōngxi.",
+          "en": "She tiptoed to reach something.",
+          "vi": "Cô ấy nhón chân để lấy đồ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "tiptoe",
+          "sentence": "小孩點著腳摘花朵。",
+          "pinyin": "xiǎohái diǎnzhe jiǎo zhāi huāduǒ.",
+          "en": "The child tiptoed to pick flowers.",
+          "vi": "Đứa trẻ nhón chân hái hoa."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "碗",
       "pinyin": "wǎn",
-      "english": "a bowl of",
-      "sentenceChinese": "我吃一碗麵。",
-      "sentencePinyin": "Wǒ chī yì wǎn miàn.",
-      "sentenceEnglish": "I eat a bowl of noodles.",
-      "vietnamese": "bát, chén (lượng từ)",
-      "sentenceVietnamese": "Tôi ăn một bát mì."
+      "en": "a bowl of",
+      "vi": "bát, chén (lượng từ)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bowl",
+          "sentence": "擺碗筷",
+          "pinyin": "bǎi wǎn-kuài",
+          "en": "Put out bowls and chopsticks for a meal; set (or lay) the table",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "[for measurement of food and drink]",
+          "sentence": "喝了一大碗酒。",
+          "pinyin": "hē le yī dà wǎn jiǔ",
+          "en": "Drink a large bowl of wine",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "(for measurement of food and drink)",
+          "sentence": "這是一碗麵條。",
+          "pinyin": "zhè shì yī wǎn miàntiáo.",
+          "en": "This is a bowl of noodles.",
+          "vi": "Đây là một bát mì."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "(for measurement of food and drink)",
+          "sentence": "他吃/喫了一碗飯。",
+          "pinyin": "tā chīle yī wǎn fàn.",
+          "en": "He ate a bowl of rice.",
+          "vi": "Anh ấy đã ăn một bát cơm."
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "是啊",
       "pinyin": "shì a",
-      "english": "That's right.",
-      "sentenceChinese": "這家店很有名。是啊！",
-      "sentencePinyin": "Zhè jiā diàn hěn yǒumíng. Shì a!",
-      "sentenceEnglish": "This shop is very famous. That's right!",
-      "vietnamese": "Đúng vậy, phải đó",
-      "sentenceVietnamese": "Cửa hàng này rất nổi tiếng. Đúng vậy!"
+      "en": "That's right.",
+      "vi": "Đúng vậy, phải đó",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "used like \"be\" before nouns or pronouns to identify, describe or amplify the subject",
+          "sentence": "這本書是我的。",
+          "pinyin": "zhè běn shū shì wǒ de.",
+          "en": "This book is mine.",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "used like \"be\" before nouns or pronouns to identify, describe or amplify the subject",
+          "sentence": "李白是唐朝人。",
+          "pinyin": "lǐbái shì tángcháo rén.",
+          "en": "Li Bai was a person of the Tang Dynasty.",
+          "vi": "Lý Bạch là người thời Đường."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "correct; right",
+          "sentence": "你説得是，我完全衕意。",
+          "pinyin": "nǐ shuō de shì, wǒ wánquán tóngyì.",
+          "en": "What you said is right, I completely agree.",
+          "vi": "Bạn nói đúng, tôi hoàn toàn đồng ý."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "correct; right",
+          "sentence": "媽媽説得是，你要聽她的。",
+          "pinyin": "māma shuō de shì, nǐ yào tīng tā de.",
+          "en": "What mom said is right, you should listen to her.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(important) affairs",
+          "sentence": "治國之道, 首重其是。",
+          "pinyin": "zhìguó zhī dào, shǒu zhòng qí shì.",
+          "en": "The way of governing a country first values great plans.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(important) affairs",
+          "sentence": "人生大是，不可疏忽。",
+          "pinyin": "rénshēng dà shì, bùkě shūhū.",
+          "en": "The great matters of life cannot be neglected.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this",
+          "sentence": "如是，我會支持你的決定。",
+          "pinyin": "rúshì, wǒ huì zhīchí nǐ de juédìng.",
+          "en": "If so, I will support your decision.",
+          "vi": "Như vậy, tôi sẽ ủng hộ quyết định của bạn."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this",
+          "sentence": "是可忍，孰不可忍！",
+          "pinyin": "shì kě rěn, shú bùkě rěn!",
+          "en": "If this can be tolerated, then what cannot be tolerated!",
+          "vi": "Việc này có thể tha thứ, còn việc nào không thể tha thứ!"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "(express firm affirmation) indeed; really",
+          "sentence": "這間房子就是太小了。",
+          "pinyin": "zhè jiān fángzi jiùshì tài xiǎo le.",
+          "en": "This room is too small.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "(express firm affirmation) indeed; really",
+          "sentence": "這件衣服就是太貴了。",
+          "pinyin": "zhè jiàn yīfu jiùshì tài guì le.",
+          "en": "This piece of clothing is too expensive.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "小籠包",
       "pinyin": "xiǎolóngbāo",
-      "english": "xiaolongbao, small meat-filled steamed buns",
-      "sentenceChinese": "這家的小籠包很好吃。",
-      "sentencePinyin": "Zhè jiā de xiǎolóngbāo hěn hǎochī.",
-      "sentenceEnglish": "The xiaolongbao here are delicious.",
-      "vietnamese": "tiểu long bao (bánh bao nhỏ hấp)",
-      "sentenceVietnamese": "Tiểu long bao ở đây rất ngon."
+      "en": "xiaolongbao, small meat-filled steamed buns",
+      "vi": "tiểu long bao (bánh bao nhỏ hấp)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "steamed dumpling",
+          "sentence": "小籠包特別好吃/喫。",
+          "pinyin": "xiǎo lóng bāo tèbié hǎo chī.",
+          "en": "Xiao long bao is especially delicious.",
+          "vi": "Tiểu long bao rất ngon."
+        },
+        {
+          "type": "Noun",
+          "meaning": "steamed dumpling",
+          "sentence": "我喜歡吃/喫小籠包。",
+          "pinyin": "wǒ xǐhuān chī xiǎo lóng bāo.",
+          "en": "I like to eat xiao long bao.",
+          "vi": "Tớ thích ăn tiểu long bao."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "臭豆腐",
       "pinyin": "chòudòufu",
-      "english": "stinky tofu (fermented tofu)",
-      "sentenceChinese": "很多人喜歡吃臭豆腐。",
-      "sentencePinyin": "Hěn duō rén xǐhuān chī chòudòufu.",
-      "sentenceEnglish": "Many people like to eat stinky tofu.",
-      "vietnamese": "đậu phụ thối",
-      "sentenceVietnamese": "Rất nhiều người thích ăn đậu phụ thối."
+      "en": "stinky tofu (fermented tofu)",
+      "vi": "đậu phụ thối",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "stinky tofu; strong-smelling preserved beancurd",
+          "sentence": "你吃/喫過臭豆腐嗎？",
+          "pinyin": "nǐ chīguò chòu dòufu ma?",
+          "en": "Have you ever eaten stinky tofu?",
+          "vi": "Cậu từng ăn đậu phụ thối chưa?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "stinky tofu; strong-smelling preserved beancurd",
+          "sentence": "臭豆腐真難聞啊！",
+          "pinyin": "chòu dòufu zhēn nán wén a!",
+          "en": "How smelly the stinky tofu is!",
+          "vi": "Đậu hủ thối thật khó ngửi!"
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "太好了",
       "pinyin": "tài hǎo le",
-      "english": "Excellent. Great.",
-      "sentenceChinese": "我們去吃牛肉麵吧！太好了！",
-      "sentencePinyin": "Wǒmen qù chī niúròu miàn ba! Tài hǎo le!",
-      "sentenceEnglish": "Let's go eat beef noodles! Great!",
-      "vietnamese": "tốt quá rồi, tuyệt quá",
-      "sentenceVietnamese": "Chúng ta đi ăn mì bò đi! Tuyệt quá!"
+      "en": "Excellent. Great.",
+      "vi": "tốt quá rồi, tuyệt quá",
+      "samples": [
+        {
+          "type": "sentence",
+          "meaning": "very good",
+          "sentence": "太好了，我們終於成功了。",
+          "pinyin": "tài hǎole, wǒmen zhōngyú chénggōngle.",
+          "en": "That's great! We finally did it!",
+          "vi": "Quá tốt rồi, chúng ta cuối cùng cũng thành công rồi."
+        },
+        {
+          "type": "sentence",
+          "meaning": "very good",
+          "sentence": "有你在這兒真是太好了。",
+          "pinyin": "yǒu nǐ zài zhèr zhēnshi tài hǎole.",
+          "en": "It's so great to have you here.",
+          "vi": "Có cậu ở đây thì quá tốt rồi."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "昨天",
       "pinyin": "zuótiān",
-      "english": "yesterday",
-      "sentenceChinese": "昨天我去餐廳吃飯。",
-      "sentencePinyin": "Zuótiān wǒ qù cāntīng chīfàn.",
-      "sentenceEnglish": "I went to a restaurant for dinner yesterday.",
-      "vietnamese": "hôm qua",
-      "sentenceVietnamese": "Hôm qua tôi đã đi ăn ở nhà hàng."
+      "en": "yesterday",
+      "vi": "hôm qua",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "yesterday",
+          "sentence": "昨天我去了朋友傢玩。",
+          "pinyin": "zuótiān wǒ qùle péngyǒu jiā wán.",
+          "en": "I went to my friend's house yesterday.",
+          "vi": "Hôm qua tôi đã đến nhà bạn chơi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "yesterday",
+          "sentence": "我昨天忘記了帶手機。",
+          "pinyin": "wǒ zuótiān wàngjìle dài shǒujī.",
+          "en": "Yesterday, I forgot to bring my phone.",
+          "vi": "Hôm qua tôi đã quên mang điện thoại."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "餐廳",
       "pinyin": "cāntīng",
-      "english": "restaurant",
-      "sentenceChinese": "那家餐廳很有名。",
-      "sentencePinyin": "Nà jiā cāntīng hěn yǒumíng.",
-      "sentenceEnglish": "That restaurant is very famous.",
-      "vietnamese": "nhà hàng",
-      "sentenceVietnamese": "Nhà hàng đó rất nổi tiếng."
+      "en": "restaurant",
+      "vi": "nhà hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "restaurant; dining hall in a hotel",
+          "sentence": "我們去了一傢餐廳吃/喫晚飯。",
+          "pinyin": "wǒmen qùle yījiā cāntīng chī wǎnfàn.",
+          "en": "We went to a restaurant to have dinner.",
+          "vi": "Chúng tôi đến một nhà hàng để ăn tối."
+        },
+        {
+          "type": "Noun",
+          "meaning": "restaurant; dining hall in a hotel",
+          "sentence": "這條街上有100多間餐廳。",
+          "pinyin": "zhè tiáo jiē shàng yǒu 100 duō jiān cāntīng.",
+          "en": "There are more than 100 restaurants on this street.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "可是",
       "pinyin": "kěshì",
-      "english": "but, however",
-      "sentenceChinese": "我想去，可是我沒有時間。",
-      "sentencePinyin": "Wǒ xiǎng qù, kěshì wǒ méiyǒu shíjiān.",
-      "sentenceEnglish": "I want to go, but I don't have time.",
-      "vietnamese": "nhưng, nhưng mà",
-      "sentenceVietnamese": "Tôi muốn đi, nhưng tôi không có thời gian."
+      "en": "but, however",
+      "vi": "nhưng, nhưng mà",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "but; yet; however",
+          "sentence": "我想去，可是沒時間。",
+          "pinyin": "wǒ xiǎng qù, kěshì méi shíjiān.",
+          "en": "I want to go, but I don't have time.",
+          "vi": "Tôi muốn đi, nhưng không có thời gian."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "but; yet; however",
+          "sentence": "他答應了，可是沒做到。",
+          "pinyin": "tā dāyingle, kěshì méi zuò dào.",
+          "en": "He promised, but he didn't do it.",
+          "vi": "Anh hứa nhưng không thực hiện được."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "indeed (used for emphasis)",
+          "sentence": "這小孩可是聰明。",
+          "pinyin": "zhè xiǎohái kěshì cōngmíng.",
+          "en": "This child is indeed smart.",
+          "vi": "Đứa trẻ này thật là thông minh."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "indeed (used for emphasis)",
+          "sentence": "這場演齣可是精綵。",
+          "pinyin": "zhè chǎng yǎnchū kěshì jīngcǎi.",
+          "en": "This performance is truly amazing.",
+          "vi": "Buổi biểu diễn này thật tuyệt vời."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "辣",
       "pinyin": "là",
-      "english": "hot (spicy)",
-      "sentenceChinese": "這個菜很辣。",
-      "sentencePinyin": "Zhège cài hěn là.",
-      "sentenceEnglish": "This dish is very spicy.",
-      "vietnamese": "cay",
-      "sentenceVietnamese": "Món này rất cay."
+      "en": "hot (spicy)",
+      "vi": "cay",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "peppery; pungent; hot",
+          "sentence": "這咖喱太辣了。",
+          "pinyin": "zhè gā lí tài là le.",
+          "en": "This curry is too hot.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "peppery; pungent; hot",
+          "sentence": "這道菜太辣了。",
+          "pinyin": "zhè dào cài tài làle.",
+          "en": "This dish is too spicy.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "burn; sting; bite",
+          "sentence": "他的舌頭被紅椒辣得髮/發麻。",
+          "pinyin": "tā de shétou bèi hóngjiāo là de fā má.",
+          "en": "He burnes his tongue with red pepper.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "burn; sting; bite",
+          "sentence": "眼睛被煙辣得睜不開。",
+          "pinyin": "yǎnjīng bèi yān là de zhēng bù kāi.",
+          "en": "My eyes sting from the smoke.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "怕",
       "pinyin": "pà",
-      "english": "to not like, to fear",
-      "sentenceChinese": "我怕辣，所以不吃。",
-      "sentencePinyin": "Wǒ pà là, suǒyǐ bù chī.",
-      "sentenceEnglish": "I am afraid of spicy food, so I don't eat it.",
-      "vietnamese": "sợ",
-      "sentenceVietnamese": "Tôi sợ cay nên không ăn."
+      "en": "to not like, to fear",
+      "vi": "sợ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fear; dread; afraid of",
+          "sentence": "任何睏難都不怕。",
+          "pinyin": "rènhé kùnnán dōu bùpà.",
+          "en": "No difficulty is feared.",
+          "vi": "Không sợ bất kì khó khăn nào."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fear; dread; afraid of",
+          "sentence": "你我較量誰怕誰呀。",
+          "pinyin": "nǐ wǒ jiàoliàng shéi pà shéi ya.",
+          "en": "When you and I compete, who’s afraid of whom?",
+          "vi": "Bạn và tôi so tài xem ai sợ ai đây."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[expressing supposition, judgement, estimation, etc.] perhaps; I suppose; I am afraid (that)",
+          "sentence": "這道題怕很難。",
+          "pinyin": "zhè dào tí pà hěn nán.",
+          "en": "This question is probably very difficult.",
+          "vi": "Câu hỏi này có lẽ rất khó."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[expressing supposition, judgement, estimation, etc.] perhaps; I suppose; I am afraid (that)",
+          "sentence": "他們怕已經到了。",
+          "pinyin": "tāmen pà yǐjīng dàole.",
+          "en": "They are afraid they have already arrived.",
+          "vi": "Họ có lẽ đã đến rồi."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "所以",
       "pinyin": "suǒyǐ",
-      "english": "therefore, so",
-      "sentenceChinese": "這家店很有名，所以人很多。",
-      "sentencePinyin": "Zhè jiā diàn hěn yǒumíng, suǒyǐ rén hěn duō.",
-      "sentenceEnglish": "This shop is famous, so there are many people.",
-      "vietnamese": "cho nên, vì vậy",
-      "sentenceVietnamese": "Cửa hàng này rất nổi tiếng, cho nên rất đông người."
+      "en": "therefore, so",
+      "vi": "cho nên, vì vậy",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "so; therefore; as a result",
+          "sentence": "他病了，所以沒來。",
+          "pinyin": "tā bìngle, suǒyǐ méi lái.",
+          "en": "He is sick, so he didn’t come.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "so; therefore; as a result",
+          "sentence": "地方遠，所以早點齣髮/發。",
+          "pinyin": "dìfāng yuǎn, suǒyǐ zǎodiǎn chūfā.",
+          "en": "The place is far, so start early.",
+          "vi": "Nơi này xa nên hãy bắt đầu sớm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "actual reason; proper behavior",
+          "sentence": "他研究了很久這個所以。",
+          "pinyin": "tā yánjiūle hěnjiǔ zhège suǒyǐ.",
+          "en": "He studied this reason for a long time.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "actual reason; proper behavior",
+          "sentence": "我們要努力找齣問題的所以。",
+          "pinyin": "wǒmen yào nǔlì zhǎo chū wèntí de suǒyǐ.",
+          "en": "We need to work hard to find the cause of the problem.",
+          "vi": "Chúng tôi cố gắng tìm nguyên nhân của vấn đề."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "自己",
       "pinyin": "zìjǐ",
-      "english": "self",
-      "sentenceChinese": "我喜歡自己做飯。",
-      "sentencePinyin": "Wǒ xǐhuān zìjǐ zuòfàn.",
-      "sentenceEnglish": "I like cooking by myself.",
-      "vietnamese": "tự mình",
-      "sentenceVietnamese": "Tôi thích tự mình nấu cơm."
+      "en": "self",
+      "vi": "tự mình",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "oneself",
+          "sentence": "自己動手，豐衣足食。",
+          "pinyin": "zì jǐ dòng shǒu, fēng yī zú shí.",
+          "en": "Let's produce ample food and clothing with our own hands.",
+          "vi": "Tự tay mình làm để có cơm no áo ấm."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "oneself",
+          "sentence": "你覺得自己聰明嗎？",
+          "pinyin": "nǐ juéde zìjǐ cōngmíng ma?",
+          "en": "Do you think you are smart?",
+          "vi": "Bạn có nghĩ mình thông minh không?"
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "做飯",
       "pinyin": "zuòfàn",
-      "english": "to cook",
-      "sentenceChinese": "媽媽會做飯。",
-      "sentencePinyin": "Māma huì zuòfàn.",
-      "sentenceEnglish": "Mom can cook.",
-      "vietnamese": "nấu cơm, nấu ăn",
-      "sentenceVietnamese": "Mẹ biết nấu cơm."
+      "en": "to cook",
+      "vi": "nấu cơm, nấu ăn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cook; prepare a meal",
+          "sentence": "我今天晚上做飯。",
+          "pinyin": "wǒ jīntiān wǎnshàng zuò fàn.",
+          "en": "I am cooking dinner tonight.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cook; prepare a meal",
+          "sentence": "他做飯做得很好。",
+          "pinyin": "tā zuò fàn zuò dé hěn hǎo.",
+          "en": "He cooks very well.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "得",
       "pinyin": "de",
-      "english": "complement marker",
-      "sentenceChinese": "他做得很好。",
-      "sentencePinyin": "Tā zuò de hěn hǎo.",
-      "sentenceEnglish": "He does it very well.",
-      "vietnamese": "được (trợ từ bổ ngữ)",
-      "sentenceVietnamese": "Anh ấy làm rất tốt."
+      "en": "complement marker",
+      "vi": "được (trợ từ bổ ngữ)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "get; obtain; gain",
+          "sentence": "不入虎穴，焉得虎子。",
+          "pinyin": "bù rù hǔxué, yān dé hǔzi.",
+          "en": "If you don't enter the tiger's den, how can you catch a tiger cub?",
+          "vi": "Không vào hang cọp, sao bắt được cọp con"
+        },
+        {
+          "type": "Verb",
+          "meaning": "get; obtain; gain",
+          "sentence": "這次考試你得了幾分？",
+          "pinyin": "zhè cì kǎoshì nǐ déliǎo jǐ fēn?",
+          "en": "How many points did you get on this test?",
+          "vi": "Bạn đã đạt được bao nhiêu điểm trong bài kiểm tra này?"
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; proper",
+          "sentence": "這雙鞋他穿得剛剛好。",
+          "pinyin": "zhè shuāng xié tā chuān dé gānggāng hǎo.",
+          "en": "These shoes fit him perfectly.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; proper",
+          "sentence": "這件事辦得正得。",
+          "pinyin": "zhè jiàn shì bàn dé zhèng dé.",
+          "en": "This matter was handled properly.",
+          "vi": ""
+        },
+        {
+          "type": "intj",
+          "meaning": "used to end a conversation to indicate agreement or prohibition",
+          "sentence": "得，就這麼辦吧！",
+          "pinyin": "dé, jiù zhème bàn ba!",
+          "en": "All right, let's do it this way.",
+          "vi": ""
+        },
+        {
+          "type": "intj",
+          "meaning": "used to end a conversation to indicate agreement or prohibition",
+          "sentence": "得了，就別説了！",
+          "pinyin": "dé le, jiù bié shuōle!",
+          "en": "All right, stop talking.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "會",
       "pinyin": "huì",
-      "english": "to be able to, can",
-      "sentenceChinese": "我會做牛肉麵。",
-      "sentencePinyin": "Wǒ huì zuò niúròu miàn.",
-      "sentenceEnglish": "I can make beef noodles.",
-      "vietnamese": "biết (kỹ năng), có thể",
-      "sentenceVietnamese": "Tôi biết nấu mì bò."
+      "en": "to be able to, can",
+      "vi": "biết (kỹ năng), có thể",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "moment",
+          "sentence": "我們一會兒見！",
+          "pinyin": "wǒmen yīhuǐr jiàn!",
+          "en": "See you in a little while!",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "moment",
+          "sentence": "他一會兒就來了。",
+          "pinyin": "tā yīhuǐr jiù láile.",
+          "en": "He will arrive in a little while.",
+          "vi": "Một lát nữa anh ấy sẽ đến."
+        },
+        {
+          "type": "Verb",
+          "meaning": "be likely to; be sure to",
+          "sentence": "明天會議會取消。",
+          "pinyin": "míngtiān huìyì huì qǔxiāo.",
+          "en": "Tomorrow's meeting will be canceled.",
+          "vi": "Cuộc họp ngày mai sẽ bị hủy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "be likely to; be sure to",
+          "sentence": "你放心，他一定會來。",
+          "pinyin": "nǐ fàngxīn, tā yīdìng huì lái.",
+          "en": "He will arrive in a little while.",
+          "vi": "Yên tâm, anh ấy chắc chắn sẽ đến."
+        },
+        {
+          "type": "Noun",
+          "meaning": "gathering; party; conference",
+          "sentence": "她今晚要參加舞會。",
+          "pinyin": "tā jīn wǎn yào cānjiā wǔhuì.",
+          "en": "She will attend a dance party tonight.",
+          "vi": "Cô ấy sẽ tham gia buổi khiêu vũ tối nay."
+        },
+        {
+          "type": "Noun",
+          "meaning": "gathering; party; conference",
+          "sentence": "明天我參加一個衕學聚會。",
+          "pinyin": "míngtiān wǒ cānjiā yīgè tóngxué jùhuì.",
+          "en": "Tomorrow I will attend a class reunion.",
+          "vi": "Ngày mai tôi tham gia một buổi họp lớp."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "甜點",
       "pinyin": "tiándiǎn",
-      "english": "dessert",
-      "sentenceChinese": "我想吃甜點。",
-      "sentencePinyin": "Wǒ xiǎng chī tiándiǎn.",
-      "sentenceEnglish": "I want to eat dessert.",
-      "vietnamese": "đồ tráng miệng",
-      "sentenceVietnamese": "Tôi muốn ăn đồ tráng miệng."
+      "en": "dessert",
+      "vi": "đồ tráng miệng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dessert",
+          "sentence": "我們點了一份甜點。",
+          "pinyin": "wǒmen diǎnle yī fèn tiándiǎn.",
+          "en": "We ordered a dessert.",
+          "vi": "Chúng tôi đã gọi một phần tráng miệng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dessert",
+          "sentence": "隻是一份甜點而已，對吧？",
+          "pinyin": "zhǐshì yī fèn tiándiǎn éryǐ, duì ba?",
+          "en": "It's just a dessert, right?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "不錯",
       "pinyin": "búcuò",
-      "english": "not bad",
-      "sentenceChinese": "這家店不錯。",
-      "sentencePinyin": "Zhè jiā diàn búcuò.",
-      "sentenceEnglish": "This shop is not bad.",
-      "vietnamese": "không tồi, khá tốt",
-      "sentenceVietnamese": "Cửa hàng này khá tốt."
+      "en": "not bad",
+      "vi": "không tồi, khá tốt",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "right; correct",
+          "sentence": "不錯，他是我的老衕學。",
+          "pinyin": "bùcuò, tā shì wǒ de lǎo tóngxué.",
+          "en": "That's right, he is my old classmate.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "right; correct",
+          "sentence": "不錯，當初他就是這麼説的。",
+          "pinyin": "bùcuò, dāngchū tā jiùshì zhème shuō de.",
+          "en": "Yes, he said that at the beginning.",
+          "vi": "Phải, lúc đầu anh ta nói như vậy đấy."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "可以",
       "pinyin": "kěyǐ",
-      "english": "could (possibility)",
-      "sentenceChinese": "你可以教我做飯嗎？",
-      "sentencePinyin": "Nǐ kěyǐ jiāo wǒ zuòfàn ma?",
-      "sentenceEnglish": "Could you teach me to cook?",
-      "vietnamese": "có thể",
-      "sentenceVietnamese": "Bạn có thể dạy tôi nấu ăn không?"
+      "en": "could (possibility)",
+      "vi": "có thể",
+      "samples": [
+        {
+          "type": "av",
+          "meaning": "can; may",
+          "sentence": "我們可不可以休息？",
+          "pinyin": "wǒmen kěbù kěyǐ xiūxi?",
+          "en": "May we take a break?",
+          "vi": ""
+        },
+        {
+          "type": "av",
+          "meaning": "can; may",
+          "sentence": "你們可不可以説慢點？",
+          "pinyin": "nǐmen kěbù kěyǐ shuō màn diǎn?",
+          "en": "Can you speak slower?",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "passable; not bad; pretty good",
+          "sentence": "這本書還可以。",
+          "pinyin": "zhè běn shū hái kěyǐ.",
+          "en": "This book is passable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "passable; not bad; pretty good",
+          "sentence": "這道菜還可以。",
+          "pinyin": "zhè dào cài hái kěyǐ.",
+          "en": "This dish is quite good.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "教",
       "pinyin": "jiāo",
-      "english": "to teach",
-      "sentenceChinese": "老師教我們中文。",
-      "sentencePinyin": "Lǎoshī jiāo wǒmen Zhōngwén.",
-      "sentenceEnglish": "The teacher teaches us Chinese.",
-      "vietnamese": "dạy",
-      "sentenceVietnamese": "Thầy giáo dạy chúng tôi tiếng Trung."
+      "en": "to teach",
+      "vi": "dạy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "teach; instruct",
+          "sentence": "教科農一體化。",
+          "pinyin": "jiào kē nóng yītǐhuà",
+          "en": "Integration of education and science with agriculture",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "ask; order; tell",
+          "sentence": "教練命令隊伍集閤。",
+          "pinyin": "jiàoliàn mìnglìng duìwǔ jíhé.",
+          "en": "The coach ordered the entire team to gather.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "religion",
+          "sentence": "政教分離",
+          "pinyin": "zhèng-jiào fēnlí",
+          "en": "Separation of religion and politics; separation of church and state",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "religion",
+          "sentence": "她對宗教很感興趣。",
+          "pinyin": "tā duì zōngjiào hěn gǎn xìngqù.",
+          "en": "She is very interested in religion.",
+          "vi": ""
+        },
+        {
+          "type": "preposition",
+          "meaning": "[in a passive sentence to introduce the doer of the action]",
+          "sentence": "金曼·佈魯斯特二世曾説過[耶魯大學校長 教育傢]",
+          "pinyin": "jīnmàn · bùlǔsī tè èrshì céng shuō guò [ yélǔdàxué xiàocháng jiàoyùjiā ]",
+          "en": "Kingman brewster jr. said",
+          "vi": ""
+        },
+        {
+          "type": "preposition",
+          "meaning": "[in a passive sentence to introduce the doer of the action]",
+          "sentence": "我國的教育頑疾需改革。",
+          "pinyin": "Wǒ guó de jiào yù wán jí xū gǎi gé",
+          "en": "Our country's entrenched educational problems need reform",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "到",
       "pinyin": "dào",
-      "english": "to",
-      "sentenceChinese": "我走到餐廳。",
-      "sentencePinyin": "Wǒ zǒu dào cāntīng.",
-      "sentenceEnglish": "I walk to the restaurant.",
-      "vietnamese": "đến",
-      "sentenceVietnamese": "Tôi đi bộ đến nhà hàng."
+      "en": "to",
+      "vi": "đến",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go to; leave for",
+          "sentence": "他們到餐館吃/喫飯。",
+          "pinyin": "tāmen dào cānguǎn chīfàn.",
+          "en": "They went to the restaurant to eat.",
+          "vi": "Họ đến nhà hàng ăn cơm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "go to; leave for",
+          "sentence": "我們要到銀行取錢。",
+          "pinyin": "wǒmen yào dào yínháng qǔ qián.",
+          "en": "We need to go to the bank to withdraw money.",
+          "vi": "Chúng ta cần đến ngân hàng rút tiền."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "up until; up to",
+          "sentence": "結果到明天才/纔知道。",
+          "pinyin": "jiéguǒ dào míngtiān cái zhīdào.",
+          "en": "We won't know the result until tomorrow.",
+          "vi": "Kết quả phải đến mai mới biết."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "up until; up to",
+          "sentence": "車票到次日才/纔能拿到手。",
+          "pinyin": "chēpiào dào cì rì cáinéng ná dàoshǒu.",
+          "en": "You can get the bus ticket the next day.",
+          "vi": "Vé xe sẽ được nhận vào ngày hôm sau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thoughtful; considerate",
+          "sentence": "她是一個很週到的人。",
+          "pinyin": "tā shì yīgè hěn zhōudào de rén.",
+          "en": "She is a very considerate person.",
+          "vi": "Cô ấy là một người rất chu đáo."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thoughtful; considerate",
+          "sentence": "這傢酒店的服務非常週到。",
+          "pinyin": "zhè jiā jiǔdiàn de fúwù fēicháng zhōudào.",
+          "en": "The service at this hotel is very attentive.",
+          "vi": "Dịch vụ của khách sạn này rất chu đáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓到。",
+          "pinyin": "tā xìng dào.",
+          "en": "His family name is Dao.",
+          "vi": "Anh ấy họ Đáo."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "有一點",
       "pinyin": "yǒu yīdiǎn",
-      "english": "a little",
-      "sentenceChinese": "這個菜有一點辣。",
-      "sentencePinyin": "Zhège cài yǒu yīdiǎn là.",
-      "sentenceEnglish": "This dish is a little spicy.",
-      "vietnamese": "có một chút",
-      "sentenceVietnamese": "Món này hơi cay một chút."
+      "en": "a little",
+      "vi": "có một chút",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "a little; somewhat",
+          "sentence": "這道菜有一點鹹。",
+          "pinyin": "zhè dào cài yǒu yīdiǎn xián.",
+          "en": "This dish is a little salty.",
+          "vi": ""
+        },
+        {
+          "type": "phrase",
+          "meaning": "a little; somewhat",
+          "sentence": "今天的天氣有一點冷。",
+          "pinyin": "jīntiān de tiānqì yǒu yīdiǎn lěng.",
+          "en": "Today's weather is a little cold.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "不好",
       "pinyin": "bù hǎo",
-      "english": "not well",
-      "sentenceChinese": "今天我覺得不好。",
-      "sentencePinyin": "Jīntiān wǒ juéde bù hǎo.",
-      "sentenceEnglish": "I don't feel well today.",
-      "vietnamese": "không tốt, không khỏe",
-      "sentenceVietnamese": "Hôm nay tôi cảm thấy không khỏe."
+      "en": "not well",
+      "vi": "không tốt, không khỏe",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "no good",
+          "sentence": "我昨晚情緒不好。",
+          "pinyin": "wǒ zuó wǎn qíngxù bù hǎo.",
+          "en": "I was in a bad temper last night.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "no good",
+          "sentence": "離婚對孩子不好。",
+          "pinyin": "líhūn duì háizi bù hǎo.",
+          "en": "Divorce is bad for children.",
+          "vi": ""
+        }
+      ]
     }
-  ],
-  "theme": "Food and Drink"
+  ]
 }

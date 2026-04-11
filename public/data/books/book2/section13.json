@@ -7,485 +7,1301 @@
       "id": 1,
       "chinese": "網路",
       "pinyin": "wǎng lù",
-      "english": "the internet",
-      "sentenceChinese": "現在的人每天都離不開網路。",
-      "sentencePinyin": "Xiànzài de rén měitiān dōu lí bù kāi wǎng lù.",
-      "sentenceEnglish": "People today cannot live without the internet every day.",
-      "vietnamese": "mạng internet",
-      "sentenceVietnamese": "Con người hiện nay mỗi ngày đều không thể rời xa internet."
+      "en": "the internet",
+      "vi": "mạng internet",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Internet; network",
+          "sentence": "我無法連接到網路。",
+          "pinyin": "wǒ wúfǎ liánjiē dào wǎng lù.",
+          "en": "I can't connect to the internet.",
+          "vi": "Tôi không thể kết nối mạng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Internet; network",
+          "sentence": "這傢店有免費網路。",
+          "pinyin": "zhè jiā diàn yǒu miǎnfèi wǎng lù.",
+          "en": "This store has free Wi-Fi.",
+          "vi": "Cửa hàng này có mạng internet miễn phí."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "發生",
       "pinyin": "fā shēng",
-      "english": "to happen",
-      "sentenceChinese": "世界各地每天都發生很多事情。",
-      "sentencePinyin": "Shìjiè gèdì měitiān dōu fāshēng hěnduō shìqíng.",
-      "sentenceEnglish": "Many things happen every day all over the world.",
-      "vietnamese": "xảy ra",
-      "sentenceVietnamese": "Mỗi ngày có rất nhiều chuyện xảy ra trên khắp thế giới."
+      "en": "to happen",
+      "vi": "xảy ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "occur; happen; take place",
+          "sentence": "他在迴傢的路上髮/發生了意外。",
+          "pinyin": "tā zài huí jiā de lùshàng fāshēngle yìwài.",
+          "en": "He had an accident on the way home.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "occur; happen; take place",
+          "sentence": "這樣的事情經常髮/發生。",
+          "pinyin": "zhèyàng de shìqing jīngcháng fāshēng.",
+          "en": "Such things happen frequently.",
+          "vi": "Chuyện như thế này thường xuyên xảy ra."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "事情",
       "pinyin": "shì qíng",
-      "english": "event, happening",
-      "sentenceChinese": "這是一件很重要的事情。",
-      "sentencePinyin": "Zhè shì yí jiàn hěn zhòngyào de shìqíng.",
-      "sentenceEnglish": "This is a very important matter.",
-      "vietnamese": "sự việc / chuyện",
-      "sentenceVietnamese": "Đây là một chuyện rất quan trọng."
+      "en": "event, happening",
+      "vi": "sự việc / chuyện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "affair; matter; thing; business",
+          "sentence": "這件事情沒那麼簡單。",
+          "pinyin": "zhè jiàn shìqíng méi nàme jiǎndān.",
+          "en": "This matter is not that simple.",
+          "vi": "Việc này không hề đơn giản thế đâu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "affair; matter; thing; business",
+          "sentence": "有些事情需要慢慢來。",
+          "pinyin": "yǒuxiē shìqíng xūyào màn man lái.",
+          "en": "Some things need to be taken slowly.",
+          "vi": "Một số việc cần phải được thực hiện từ từ."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "消息",
       "pinyin": "xiāo xí",
-      "english": "news, information",
-      "sentenceChinese": "我剛才在網路上看到一個好消息。",
-      "sentencePinyin": "Wǒ gāngcái zài wǎnglù shàng kàndào yí ge hǎo xiāoxí.",
-      "sentenceEnglish": "I just saw a piece of good news on the internet.",
-      "vietnamese": "tin tức",
-      "sentenceVietnamese": "Tôi vừa mới thấy một tin tốt trên mạng."
+      "en": "news, information",
+      "vi": "tin tức",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "news; information",
+          "sentence": "我剛收到一個好消息。",
+          "pinyin": "wǒ gāng shōu dào yīgè hǎo xiāoxi.",
+          "en": "I just received some good news.",
+          "vi": "Tôi vừa nhận được một tin tức tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "news; information",
+          "sentence": "這個消息讓大傢很興奮。",
+          "pinyin": "zhège xiāoxī ràng dàjiā hěn xīngfèn",
+          "en": "The new information excited everyone.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "透過",
       "pinyin": "tòu guò",
-      "english": "through",
-      "sentenceChinese": "我們可以透過網路了解世界。",
-      "sentencePinyin": "Wǒmen kěyǐ tòuguò wǎnglù liǎojiě shìjiè.",
-      "sentenceEnglish": "We can understand the world through the internet.",
-      "vietnamese": "thông qua",
-      "sentenceVietnamese": "Chúng ta có thể thông qua internet để tìm hiểu thế giới."
+      "en": "through",
+      "vi": "thông qua",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to pass through",
+          "sentence": "陽光透過玻璃窗照進來。",
+          "pinyin": "yángguāng tòuguò bōlí chuāng zhào jìnlái",
+          "en": "Sunlight shines through the glass window.",
+          "vi": "Ánh mặt trời chiếu xuyên qua cửa kính."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to pass through",
+          "sentence": "寒風透過縫隙吹進了屋子。",
+          "pinyin": "hán fēng tòuguò fèngxì chuī jìnle wūzi.",
+          "en": "The cold wind blew through the cracks into the room.",
+          "vi": "Gió lạnh đi qua khe hở thổi vào trong nhà."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "世界",
       "pinyin": "shì jiè",
-      "english": "the world",
-      "sentenceChinese": "這個世界非常大。",
-      "sentencePinyin": "Zhège shìjiè fēicháng dà.",
-      "sentenceEnglish": "This world is very big.",
-      "vietnamese": "thế giới",
-      "sentenceVietnamese": "Thế giới này vô cùng lớn."
+      "en": "the world",
+      "vi": "thế giới",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "world",
+          "sentence": "這是一張世界地圖。",
+          "pinyin": "zhè shì yī zhāng shìjiè dìtú.",
+          "en": "This is a world map.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "world",
+          "sentence": "我想看看這個世界。",
+          "pinyin": "wǒ xiǎng kànkan zhège shìjiè.",
+          "en": "I want to see the world.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "節省",
       "pinyin": "jié shěng",
-      "english": "to save",
-      "sentenceChinese": "網路可以幫我們節省很多時間。",
-      "sentencePinyin": "Wǎnglù kěyǐ bāng wǒmen jiéshěng hěnduō shíjiān.",
-      "sentenceEnglish": "The internet can help us save a lot of time.",
-      "vietnamese": "tiết kiệm",
-      "sentenceVietnamese": "Internet có thể giúp chúng ta tiết kiệm rất nhiều thời gian."
+      "en": "to save",
+      "vi": "tiết kiệm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "save; conserve; economize; use sparingly; cut down on",
+          "sentence": "我們要節省用水用電。",
+          "pinyin": "wǒmen yào jiéshěng yòngshuǐ yòng diàn.",
+          "en": "We need to save water and electricity.",
+          "vi": "Chúng ta cần tiết kiệm nước và điện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "save; conserve; economize; use sparingly; cut down on",
+          "sentence": "我們要學習如何節省能源。",
+          "pinyin": "wǒmen yào xuéxí rúhé jiéshěng néngyuán.",
+          "en": "We need to learn how to save energy.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "economical; thrifty",
+          "sentence": "大學生的生活非常節省。",
+          "pinyin": "dàxuéshēng de shēnghuó fēicháng jiéshěng.",
+          "en": "University students live a very frugal life.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "economical; thrifty",
+          "sentence": "他一直很節省，從不亂花錢。",
+          "pinyin": "tā yīzhí hěn jiéshěng, cóng bù luàn huā qián.",
+          "en": "He has always been frugal and never spends money recklessly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "起床",
       "pinyin": "qǐ chuáng",
-      "english": "to get out of bed",
-      "sentenceChinese": "你每天幾點起床？",
-      "sentencePinyin": "Nǐ měitiān jǐ diǎn qǐchuáng?",
-      "sentenceEnglish": "What time do you get up every day?",
-      "vietnamese": "ngủ dậy",
-      "sentenceVietnamese": "Mỗi ngày bạn mấy giờ ngủ dậy?"
+      "en": "to get out of bed",
+      "vi": "ngủ dậy",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "rise; get up; get out of bed",
+          "sentence": "他七點就起床/牀了。",
+          "pinyin": "tā qī diǎn jiù qǐchuángle.",
+          "en": "He got up at seven o'clock.",
+          "vi": "Anh ấy bảy giờ đã dậy rồi."
+        },
+        {
+          "type": "sv",
+          "meaning": "rise; get up; get out of bed",
+          "sentence": "你每天幾點起床/牀？",
+          "pinyin": "nǐ měitiān jǐ diǎn qǐchuáng?",
+          "en": "What time do you get up every day?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "檢查",
       "pinyin": "jiǎn chá",
-      "english": "to check",
-      "sentenceChinese": "出門以前，別忘了檢查手機帶了沒有。",
-      "sentencePinyin": "Chūmén yǐqián, bié wàngle jiǎnchá shǒujī dàile méiyǒu.",
-      "sentenceEnglish": "Before leaving the house, don't forget to check if you have your phone.",
-      "vietnamese": "kiểm tra",
-      "sentenceVietnamese": "Trước khi ra ngoài, đừng quên kiểm tra xem đã mang điện thoại chưa."
+      "en": "to check",
+      "vi": "kiểm tra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "check up; inspect; examine",
+          "sentence": "爸爸檢查我的作業。",
+          "pinyin": "bàba jiǎnchá wǒ de zuòyè.",
+          "en": "Dad checks my homework.",
+          "vi": "Bố kiểm tra bài tập về nhà của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "check up; inspect; examine",
+          "sentence": "幫我檢查一下這道題。",
+          "pinyin": "bāng wǒ jiǎnchá yīxià zhè dào tí.",
+          "en": "Please check this question for me.",
+          "vi": "Vui lòng kiểm tra câu hỏi này cho tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "self-criticism",
+          "sentence": "你寫一份檢查，總結一下問題。",
+          "pinyin": "nǐ xiě yī fèn jiǎnchá, zǒngjié yīxià wèntí.",
+          "en": "Write a self-reflection report and summarize the issues.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "self-criticism",
+          "sentence": "你寫的檢查不太好，迴去重寫。",
+          "pinyin": "nǐ xiě de jiǎnchá bù tài hǎo, huíqù chóng xiě.",
+          "en": "Your self-reflection report is not very good; go back and rewrite it.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "郵件",
       "pinyin": "yóu jiàn",
-      "english": "mail",
-      "sentenceChinese": "我每天起床後先檢查電子郵件。",
-      "sentencePinyin": "Wǒ měitiān qǐchuáng hòu xiān jiǎnchá diànzǐ yóujiàn.",
-      "sentenceEnglish": "I check my emails first after I get up every day.",
-      "vietnamese": "thư từ / bưu phẩm",
-      "sentenceVietnamese": "Mỗi ngày sau khi ngủ dậy tôi đều kiểm tra email trước."
+      "en": "mail",
+      "vi": "thư từ / bưu phẩm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "post; mail; postal matter",
+          "sentence": "我去拿一下我的郵件。",
+          "pinyin": "wǒ qù ná yīxià wǒ de yóujiàn.",
+          "en": "I'm going to pick up my mail for a moment.",
+          "vi": "Tôi đi lấy bưu kiện một chút."
+        },
+        {
+          "type": "Noun",
+          "meaning": "post; mail; postal matter",
+          "sentence": "我的郵件怎麼丟失了。",
+          "pinyin": "wǒ de yóujiàn zěnme diūshīle.",
+          "en": "How did my mail get lost?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "立刻",
       "pinyin": "lì kè",
-      "english": "immediately",
-      "sentenceChinese": "他一看到消息就立刻打電話給我。",
-      "sentencePinyin": "Tā yí kàndào xiāoxí jiù lìkè dǎ diànhuà gěi wǒ.",
-      "sentenceEnglish": "He called me immediately as soon as he saw the news.",
-      "vietnamese": "ngay lập tức",
-      "sentenceVietnamese": "Anh ấy vừa thấy tin tức là gọi điện thoại cho tôi ngay lập tức."
+      "en": "immediately",
+      "vi": "ngay lập tức",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "immediately; at once",
+          "sentence": "請大傢立刻到會議室去!",
+          "pinyin": "qǐng dàjiā lìkè dào huìyì shì qù!",
+          "en": "Everyone to the conference room, please!",
+          "vi": "Mời mọi người đến phòng họp ngay lập tức!"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "immediately; at once",
+          "sentence": "接到命令，他們立刻齣髮/發。",
+          "pinyin": "jiē dào mìnglìng, tāmen lìkè chūfā.",
+          "en": "Upon receiving the order, they departed immediately.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "上傳",
       "pinyin": "shàng chuán",
-      "english": "to upload, to post",
-      "sentenceChinese": "我把照片上傳到網路上了。",
-      "sentencePinyin": "Wǒ bǎ zhàopiàn shàngchuán dào wǎnglù shàng le.",
-      "sentenceEnglish": "I have uploaded the photos to the internet.",
-      "vietnamese": "tải lên / đăng lên",
-      "sentenceVietnamese": "Tôi đã tải ảnh lên mạng rồi."
+      "en": "to upload, to post",
+      "vi": "tải lên / đăng lên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to upload",
+          "sentence": "請把文件上傳到雲端。",
+          "pinyin": "qǐng bǎ wénjiàn shàngchuán dào yúnduān.",
+          "en": "Please upload the file to the cloud.",
+          "vi": "Vui lòng tải tệp lên đám mây."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to upload",
+          "sentence": "他忘記上傳報告了。",
+          "pinyin": "tā wàngjì shàngchuán bàogàole.",
+          "en": "He forgot to upload the report.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "正常",
       "pinyin": "zhèng cháng",
-      "english": "to be normal",
-      "sentenceChinese": "這台電腦現在不正常，不能用。",
-      "sentencePinyin": "Zhè tái diànnǎo xiànzài bù zhèngcháng, bùnéng yòng.",
-      "sentenceEnglish": "This computer is not working normally now; it can't be used.",
-      "vietnamese": "bình thường",
-      "sentenceVietnamese": "Chiếc máy tính này hiện giờ không bình thường, không dùng được."
+      "en": "to be normal",
+      "vi": "bình thường",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "normal; regular",
+          "sentence": "他的體溫正常。",
+          "pinyin": "tā de tǐwēn zhèngcháng.",
+          "en": "His body temperature is normal.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "normal; regular",
+          "sentence": "情況很快恢復了正常。",
+          "pinyin": "qíngkuàng hěn kuài huīfùle zhèngcháng.",
+          "en": "Things soon returned to normal.",
+          "vi": "Tình hình nhanh chóng trở lại bình thường."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "談",
       "pinyin": "tán",
-      "english": "to talk over, to talk about, to discuss",
-      "sentenceChinese": "我們找時間談談這件事吧。",
-      "sentencePinyin": "Wǒmen zhǎo shíjiān tántán zhè jiàn shì ba.",
-      "sentenceEnglish": "Let's find some time to discuss this matter.",
-      "vietnamese": "nói chuyện / bàn luận",
-      "sentenceVietnamese": "Chúng ta tìm thời gian bàn về chuyện này đi."
+      "en": "to talk over, to talk about, to discuss",
+      "vi": "nói chuyện / bàn luận",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "talk; chat; discuss",
+          "sentence": "他談了自己的看法。",
+          "pinyin": "tā tánle zìjǐ de kànfǎ.",
+          "en": "He talked about his own opinion.",
+          "vi": "Anh ấy nói về quan điểm của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "talk; chat; discuss",
+          "sentence": "我們好好兒談談。",
+          "pinyin": "wǒmen hǎo hāor tán tán.",
+          "en": "Let's have a good talk.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "what is said or talked about",
+          "sentence": "他的故事成了美談。",
+          "pinyin": "tā de gù shi chéngle měitán.",
+          "en": "His story became a popular topic.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "what is said or talked about",
+          "sentence": "這件事成了大傢的笑談。",
+          "pinyin": "zhè jiàn shì chéngle dàjiā de xiàotán.",
+          "en": "This became everyone's joke.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "現代人",
       "pinyin": "xiàn dài rén",
-      "english": "modern day people, people today",
-      "sentenceChinese": "現代人的生活壓力很大。",
-      "sentencePinyin": "Xiàndàirén de shēnghuó yālì hěn dà.",
-      "sentenceEnglish": "Modern people have a lot of pressure in their lives.",
-      "vietnamese": "người hiện đại",
-      "sentenceVietnamese": "Áp lực cuộc sống của người hiện đại rất lớn."
+      "en": "modern day people, people today",
+      "vi": "người hiện đại",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "homo sapiens",
+          "sentence": "現代人生活節奏快。",
+          "pinyin": "xiàn dài rén shēng huó jié zòu kuài",
+          "en": "Modern people live at a fast pace.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "modern man",
+          "sentence": "現代人常常忙碌工作。",
+          "pinyin": "xiàn dài rén cháng cháng máng lù gōng zuò",
+          "en": "Modern people are often busy with work.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "比方說",
       "pinyin": "bǐ fāng shuō",
-      "english": "for example",
-      "sentenceChinese": "網路很方便，比方說可以訂餐、買票。",
-      "sentencePinyin": "Wǎnglù hěn fāngbiàn, bǐfāng shuō kěyǐ dìngcān, mǎipiào.",
-      "sentenceEnglish": "The internet is very convenient; for example, you can order food and buy tickets.",
-      "vietnamese": "lấy ví dụ / ví dụ như",
-      "sentenceVietnamese": "Mạng rất tiện lợi, ví dụ như có thể đặt cơm, mua vé."
+      "en": "for example",
+      "vi": "lấy ví dụ / ví dụ như",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "for example; for instance",
+          "sentence": "比方説，他是我的好朋友。",
+          "pinyin": "bǐfāng shuō, tā shì wǒ de hǎo péngyou.",
+          "en": "For example, he is my good friend.",
+          "vi": "Ví dụ, anh ấy là bạn thân tôi."
+        },
+        {
+          "type": "phrase",
+          "meaning": "for example; for instance",
+          "sentence": "比方説，今天的天氣很好。",
+          "pinyin": "bǐfāng shuō, jīntiān de tiānqì hěn hǎo.",
+          "en": "For example, the weather is very good today.",
+          "vi": "Ví dụ, thời tiết hôm nay rất đẹp."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "做到",
       "pinyin": "zuò dào",
-      "english": "to be able to achieve, to succeed in doing",
-      "sentenceChinese": "只要努力，就一定能做到。",
-      "sentencePinyin": "Zhǐyào nǔlì, jiù yídìng néng zuòdào.",
-      "sentenceEnglish": "As long as you work hard, you will surely be able to achieve it.",
-      "vietnamese": "làm được",
-      "sentenceVietnamese": "Chỉ cần nỗ lực thì nhất định sẽ làm được."
+      "en": "to be able to achieve, to succeed in doing",
+      "vi": "làm được",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "achieve; accomplish",
+          "sentence": "這任務我能做到。",
+          "pinyin": "zhè rènwù wǒ néng zuò dào.",
+          "en": "I can do this task.",
+          "vi": "Nhiệm vụ này tôi có thể làm được."
+        },
+        {
+          "type": "Verb",
+          "meaning": "achieve; accomplish",
+          "sentence": "你要記住説到做到。",
+          "pinyin": "nǐ yào jì zhù shuō dào zuò dào.",
+          "en": "You need to remember to walk the talk.",
+          "vi": "Bạn phải nhớ là nói được làm được."
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "第一手",
       "pinyin": "dì yī shǒu",
-      "english": "first hand",
-      "sentenceChinese": "他在網路看到的是第一手消息。",
-      "sentencePinyin": "Tā zài wǎnglù kàndào de shì dìyīshǒu xiāoxí.",
-      "sentenceEnglish": "What he saw on the internet was first-hand news.",
-      "vietnamese": "trực tiếp / nguồn tin đầu tiên",
-      "sentenceVietnamese": "Tin tức anh ấy thấy trên mạng là tin sốt dẻo."
+      "en": "first hand",
+      "vi": "trực tiếp / nguồn tin đầu tiên",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "first hand; firsthand",
+          "sentence": "第一手材料。",
+          "pinyin": "dì yī shǒu cái liào",
+          "en": "Firsthand material",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "急著",
       "pinyin": "jí zhe",
-      "english": "in a hurry to",
-      "sentenceChinese": "他急著出門，忘了帶傘。",
-      "sentencePinyin": "Tā jízhe chūmén, wàngle dài sǎn.",
-      "sentenceEnglish": "He was in a hurry to go out and forgot to bring an umbrella.",
-      "vietnamese": "vội vàng",
-      "sentenceVietnamese": "Anh ấy vội vàng ra ngoài nên quên mang dù."
+      "en": "in a hurry to",
+      "vi": "vội vàng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "urgently",
+          "sentence": "他們急著參加會議。",
+          "pinyin": "tāmen jízhe cānjiā huìyì.",
+          "en": "They are eager to attend the meeting.",
+          "vi": "Họ vội tham gia cuộc họp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "urgently",
+          "sentence": "我急著打電話給他。",
+          "pinyin": "wǒ jízhe dǎ diànhuà gěi tā.",
+          "en": "I am eager to call him.",
+          "vi": "Tôi vội vàng gọi điện cho anh ấy."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "打招呼",
       "pinyin": "dǎ zhāo hū",
-      "english": "to greet someone; to say hello; to wave at someone",
-      "sentenceChinese": "見到老師要記得打招呼。",
-      "sentencePinyin": "Jiàndào lǎoshī yào jìde dǎ zhāohū.",
-      "sentenceEnglish": "Remember to greet the teacher when you see them.",
-      "vietnamese": "chào hỏi",
-      "sentenceVietnamese": "Gặp thầy giáo phải nhớ chào hỏi."
+      "en": "to greet someone; to say hello; to wave at someone",
+      "vi": "chào hỏi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "greet sb.; say hello; tip one's hat",
+          "sentence": "他笑著和我打招呼。",
+          "pinyin": "tā xiàozhe hé wǒ dǎzhāohu.",
+          "en": "He smiled and greeted me.",
+          "vi": "Anh ấy cười và chào tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "greet sb.; say hello; tip one's hat",
+          "sentence": "早上見麵要打招呼。",
+          "pinyin": "zǎoshang jiànmiàn yào dǎzhāohu.",
+          "en": "Say hello when you meet in the morning.",
+          "vi": "Buổi sáng gặp mặt nên chào hỏi."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "面對面",
       "pinyin": "miàn duì miàn",
-      "english": "face-to-face",
-      "sentenceChinese": "我覺得面對面聊天比在網路上談好。",
-      "sentencePinyin": "Wǒ juéde miànduìmiàn liáotiān bǐ zài wǎnglù shàng tán hǎo.",
-      "sentenceEnglish": "I think chatting face-to-face is better than talking on the internet.",
-      "vietnamese": "đối mặt / trực tiếp",
-      "sentenceVietnamese": "Tôi cảm thấy nói chuyện trực tiếp tốt hơn là bàn bạc trên mạng."
+      "en": "face-to-face",
+      "vi": "đối mặt / trực tiếp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "facing each other; face-to-face; front to front; vis-à-vis",
+          "sentence": "麵對麵的鬥爭。",
+          "pinyin": "miàn duì miàn de dòu zhēng",
+          "en": "A face-to-face struggle; direct confrontation",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "facing each other; face-to-face; front to front; vis-à-vis",
+          "sentence": "麵對麵地坐著。",
+          "pinyin": "miànduìmiàn de zuòzhe",
+          "en": "Sitting face-to-face",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "林愛麗",
       "pinyin": "Lín Ài lì",
-      "english": "Lin Aili (name)",
-      "sentenceChinese": "林愛麗是一位從加拿大來的女學生。",
-      "sentencePinyin": "Lín Àilì shì yí wèi cóng Jiānádà lái de nǚ xuéshēng.",
-      "sentenceEnglish": "Lin Aili is a female student from Canada.",
-      "vietnamese": "Lâm Ái Lệ",
-      "sentenceVietnamese": "Lâm Ái Lệ là một nữ sinh đến từ Canada."
+      "en": "Lin Aili (name)",
+      "vi": "Lâm Ái Lệ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "love",
+          "sentence": "我很愛我的父母。",
+          "pinyin": "wǒ hěn ài wǒ de fùmǔ.",
+          "en": "I love my parents very much.",
+          "vi": "Tôi rất yêu bố mẹ của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "love",
+          "sentence": "孩子們都愛老師。",
+          "pinyin": "háizimen dōu ài lǎoshī.",
+          "en": "The children all love their teacher.",
+          "vi": "Các em nhỏ đều yêu quý thầy cô giáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "love; affection",
+          "sentence": "他們之間的愛很深。",
+          "pinyin": "tāmen zhī jiān de ài hěn shēn.",
+          "en": "The love between them is very deep.",
+          "vi": "Tình cảm giữa họ rất sâu đậm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "love; affection",
+          "sentence": "愛讓世界更美好。",
+          "pinyin": "ài ràng shìjiè gèng měihǎo.",
+          "en": "Love makes the world a better place.",
+          "vi": "Tình yêu làm cho thế giới trở nên tươi đẹp hơn."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "掉",
       "pinyin": "diào",
-      "english": "to lose",
-      "sentenceChinese": "我的手機掉在捷運站了。",
-      "sentencePinyin": "Wǒ de shǒujī diàozài jiéyùnzhàn le.",
-      "sentenceEnglish": "I lost my cell phone at the MRT station.",
-      "vietnamese": "mất / rơi",
-      "sentenceVietnamese": "Điện thoại của tôi bị rơi ở trạm tàu điện ngầm rồi."
+      "en": "to lose",
+      "vi": "mất / rơi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fall; drop; shed; come off",
+          "sentence": "書從桌上掉下了。",
+          "pinyin": "shū cóng zhuō shàng diào xiàle.",
+          "en": "The book fell off the table.",
+          "vi": "Cuốn sách rơi khỏi bàn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fall; drop; shed; come off",
+          "sentence": "筆突然掉地上了。",
+          "pinyin": "bǐ tū rán diào dìshàngle.",
+          "en": "The pen suddenly fell onto the floor.",
+          "vi": "Cây bút đột nhiên rơi xuống đất."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "低頭",
       "pinyin": "dī tóu",
-      "english": "to lower one's head",
-      "sentenceChinese": "他在捷運上一邊低頭玩手機，一邊聽音樂。",
-      "sentencePinyin": "Tā zài jiéyùn shàng yìbiān dītóu wán shǒujī, yìbiān tīng yīnyuè.",
-      "sentenceEnglish": "On the MRT, he was playing with his phone with his head down while listening to music.",
-      "vietnamese": "cúi đầu",
-      "sentenceVietnamese": "Anh ấy vừa cúi đầu chơi điện thoại trên tàu điện vừa nghe nhạc."
+      "en": "to lower one's head",
+      "vi": "cúi đầu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lower one's head; bow one's head; hang one's head",
+          "sentence": "她低頭避開了我的目光。",
+          "pinyin": "tā dītóu bì kāile wǒ de mùguāng.",
+          "en": "She lowered her head and avoided my gaze.",
+          "vi": "Cô ấy cúi đầu tránh ánh mắt của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "lower one's head; bow one's head; hang one's head",
+          "sentence": "他低頭沉思了一會兒。",
+          "pinyin": "tā dītóu chénsīle yīhuǐ'er.",
+          "en": "He lowered his head and thought for a while.",
+          "vi": "Anh ấy cúi đầu suy nghĩ một lúc."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "傳",
       "pinyin": "chuán",
-      "english": "to send (text message, email)",
-      "sentenceChinese": "我傳了一封簡訊給他。",
-      "sentencePinyin": "Wǒ chuánle yì fēng jiǎnxùn gěi tā.",
-      "sentenceEnglish": "I sent a text message to him.",
-      "vietnamese": "gửi / truyền",
-      "sentenceVietnamese": "Tôi đã gửi một tin nhắn cho anh ấy."
+      "en": "to send (text message, email)",
+      "vi": "gửi / truyền",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pass; pass on",
+          "sentence": "右邊鋒把球傳給中鋒。",
+          "pinyin": "yòubiān fēng bǎ qiú chuán gěi zhōngfēng.",
+          "en": "The right wing passed the ball to the centre forward.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass; pass on",
+          "sentence": "請閱讀併傳給王先生。",
+          "pinyin": "qǐng yuèdú bìng chuán gěi wáng xiānshēng.",
+          "en": "Read this and pass it on to Mr. Wang.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "過",
       "pinyin": "guò",
-      "english": "a phase particle indicating completion of an action",
-      "sentenceChinese": "你看過這部電影嗎？",
-      "sentencePinyin": "Nǐ kànguò zhè bù diànyǐng ma?",
-      "sentenceEnglish": "Have you seen this movie?",
-      "vietnamese": "qua / từng (trợ từ)",
-      "sentenceVietnamese": "Bạn đã từng xem bộ phim này chưa?"
+      "en": "a phase particle indicating completion of an action",
+      "vi": "qua / từng (trợ từ)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cross; pass",
+          "sentence": "過了這條街就到了。",
+          "pinyin": "guòle zhè tiáo jiē jiù dàole.",
+          "en": "Once you cross this street, you're there.",
+          "vi": "Đi qua con phố này là tới rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cross; pass",
+          "sentence": "他們帶著孩子過河。",
+          "pinyin": "tāmen dàizhe háizi guò hé.",
+          "en": "They crossed the river with their child.",
+          "vi": "Bọn họ dắt con qua sông."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "excessively; over",
+          "sentence": "吃/喫得過多對身體不好。",
+          "pinyin": "chī dé guò duō duì shēntǐ bù hǎo.",
+          "en": "Eating too much is bad for your health.",
+          "vi": "Ăn quá nhiều không tốt cho sức khỏe."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "excessively; over",
+          "sentence": "這條褲子過長了。",
+          "pinyin": "zhè tiáo kùzi guò zhǎngle.",
+          "en": "These pants are too long.",
+          "vi": "Chiếc quần này quá dài."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "time",
+          "sentence": "這件衣服洗了三過。",
+          "pinyin": "zhè jiàn yīfu xǐle sānguò.",
+          "en": "This piece of clothing has been washed three times.",
+          "vi": "Cái áo này đã được giặt ba lần."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "time",
+          "sentence": "這個問題討論了幾過。",
+          "pinyin": "zhège wèntí tǎolùnle jǐguò.",
+          "en": "This issue has been discussed several times.",
+          "vi": "Vấn đề này đã được thảo luận vài lần."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fault; mistake; demerit; error",
+          "sentence": "他承認了自己的過錯。",
+          "pinyin": "tā chéngrènle zìjǐ de guòcuò.",
+          "en": "He admitted his mistake.",
+          "vi": "Anh ấy thừa nhận lỗi của mình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fault; mistake; demerit; error",
+          "sentence": "我們要勇於改過。",
+          "pinyin": "wǒmen yào yǒngyú gǎiguò.",
+          "en": "We should bravely correct our mistakes.",
+          "vi": "Chúng ta cần dũng cảm sửa sai lầm."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "簡訊",
       "pinyin": "jiǎn xùn",
-      "english": "text message",
-      "sentenceChinese": "收到簡訊請立刻回電話給我。",
-      "sentencePinyin": "Shōudào jiǎnxùn qǐng lìkè huí diànhuà gěi wǒ.",
-      "sentenceEnglish": "Please call me back immediately when you receive the text message.",
-      "vietnamese": "tin nhắn",
-      "sentenceVietnamese": "Nhận được tin nhắn hãy gọi lại cho tôi ngay lập tức."
+      "en": "text message",
+      "vi": "tin nhắn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "news in brief",
+          "sentence": "人們可以通過簡訊來了解新聞的大緻內容。",
+          "pinyin": "Rénmen kěyǐ tōngguò jiǎnxùn lái liǎojiě xīnwén de dàzhì nèiróng.",
+          "en": "People can get a general idea of the news through text messages.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "news in brief",
+          "sentence": "這則簡訊沒有披露有關這件事情的更多詳細信息。",
+          "pinyin": "Zhè zé jiǎnxùn méiyǒu pīlù yǒuguān zhè jiàn shìqing de gèng duō xiángxì xìnxī.",
+          "en": "This brief message did not reveal more details about this matter.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "功能",
       "pinyin": "gōng néng",
-      "english": "function",
-      "sentenceChinese": "這支手機的功能很多。",
-      "sentencePinyin": "Zhè zhī shǒujī de gōngnéng hěnduō.",
-      "sentenceEnglish": "This phone has many functions.",
-      "vietnamese": "chức năng",
-      "sentenceVietnamese": "Chiếc điện thoại này có rất nhiều chức năng."
+      "en": "function",
+      "vi": "chức năng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "function",
+          "sentence": "肝髒的功能是解毒。",
+          "pinyin": "gānzàng de gōngnéng shì jiědú.",
+          "en": "The function of the liver is detoxification.",
+          "vi": "Chức năng chính của gan là giải độc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "function",
+          "sentence": "這個功能非常實用。",
+          "pinyin": "zhège gōngnéng fēicháng shíyòng.",
+          "en": "This function is very practical.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "生氣",
       "pinyin": "shēng qì",
-      "english": "to get angry at",
-      "sentenceChinese": "因為我不小心遲到了，他變得很生氣。",
-      "sentencePinyin": "Yīnwèi wǒ bù xiǎoxīn chídào le, tā biàn de hěn shēngqì.",
-      "sentenceEnglish": "Because I accidentally arrived late, he became very angry.",
-      "vietnamese": "tức giận",
-      "sentenceVietnamese": "Vì tôi lỡ đến muộn nên anh ấy rất tức giận."
+      "en": "to get angry at",
+      "vi": "tức giận",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "get angry; take offence",
+          "sentence": "我生氣了，因你不聽話。",
+          "pinyin": "wǒ shēngqìle, yīn nǐ bù tīnghuà.",
+          "en": "I am angry because you didn’t listen.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "get angry; take offence",
+          "sentence": "我的父母很容易生氣。",
+          "pinyin": "wǒ de fùmǔ hěn róngyì shēngqì.",
+          "en": "My parents get angry very easily.",
+          "vi": "Bố mẹ của tôi rất dễ tức giận."
+        },
+        {
+          "type": "Noun",
+          "meaning": "vitally; vigour; vim; biod",
+          "sentence": "他充滿了生氣和熱情。",
+          "pinyin": "tā chōngmǎnle shēngqì hé rèqíng.",
+          "en": "He is filled with vitality and enthusiasm.",
+          "vi": "Anh ấy tràn đầy sức sống và nhiệt huyết."
+        },
+        {
+          "type": "Noun",
+          "meaning": "vitally; vigour; vim; biod",
+          "sentence": "運動能提高我們的生氣。",
+          "pinyin": "yùndòng néng tígāo wǒmen de shēngqì.",
+          "en": "Exercise can enhance our vitality.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "叫",
       "pinyin": "jiào",
-      "english": "to tell",
-      "sentenceChinese": "老師叫我們明天要帶本子來。",
-      "sentencePinyin": "Lǎoshī jiào wǒmen míngtiān yào dài běnzi lái.",
-      "sentenceEnglish": "The teacher told us to bring our notebooks tomorrow.",
-      "vietnamese": "bảo / gọi",
-      "sentenceVietnamese": "Thầy giáo bảo chúng tôi ngày mai phải mang vở đến."
+      "en": "to tell",
+      "vi": "bảo / gọi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cry; shout",
+          "sentence": "狗突然大聲叫了。",
+          "pinyin": "gǒu tū rán dàshēng jiàole.",
+          "en": "The dog suddenly barked loudly.",
+          "vi": "Con chó đột nhiên sủa to."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cry; shout",
+          "sentence": "她痛得大聲叫齣聲。",
+          "pinyin": "tā tòng dé dàshēng jiào chū shēng.",
+          "en": "She screamed loudly in pain.",
+          "vi": "Cô ấy kêu lớn vì đau đớn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "male (animal)",
+          "sentence": "這隻叫雞很吵。",
+          "pinyin": "zhè zhǐ jiàojī hěn chǎo.",
+          "en": "This rooster is very noisy.",
+          "vi": "Con gà trống này rất ồn ào."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "male (animal)",
+          "sentence": "他養了一隻叫狗。",
+          "pinyin": "tā yǎngle yī zhī jiào gǒu.",
+          "en": "He raised a dog.",
+          "vi": "Anh ấy nuôi một con chó đực."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "introduces the agent of an action; equivalent to \"被\"",
+          "sentence": "手機叫他拿走了。",
+          "pinyin": "shǒujī jiào tā ná zǒule.",
+          "en": "The phone was taken away by him.",
+          "vi": "Điện thoại bị anh ấy cầm đi rồi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "introduces the agent of an action; equivalent to \"被\"",
+          "sentence": "我的衣服叫雨淋了。",
+          "pinyin": "wǒ de yīfu jiào yǔ línle.",
+          "en": "My clothes got soaked by the rain.",
+          "vi": "Quần áo của tôi bị mưa làm ướt rồi."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "罵",
       "pinyin": "mà",
-      "english": "to yell at, to scold, to tell off",
-      "sentenceChinese": "他因為沒寫作業被媽媽罵了。",
-      "sentencePinyin": "Tā yīnwèi méi xiě zuòyè bèi māmā mà le.",
-      "sentenceEnglish": "He was scolded by his mother because he didn't do his homework.",
-      "vietnamese": "mắng",
-      "sentenceVietnamese": "Nó bị mẹ mắng vì không làm bài tập."
+      "en": "to yell at, to scold, to tell off",
+      "vi": "mắng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "abuse; curse; call names",
+          "sentence": "他罵我是笨蛋。",
+          "pinyin": "tā mà wǒ shì bèndàn.",
+          "en": "He called me an idiot.",
+          "vi": "Anh ta chửi tôi là đồ ngốc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "abuse; curse; call names",
+          "sentence": "你別再罵了。",
+          "pinyin": "nǐ bié zài màle.",
+          "en": "Stop scolding me.",
+          "vi": "Bạn đừng chửi nữa."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "健身房",
       "pinyin": "jiàn shēn fáng",
-      "english": "gym",
-      "sentenceChinese": "我下課以後常去健身房運動。",
-      "sentencePinyin": "Wǒ xiàkè yǐhòu cháng qù jiànshēnfáng yùndòng.",
-      "sentenceEnglish": "I often go to the gym to exercise after class.",
-      "vietnamese": "phòng tập gym",
-      "sentenceVietnamese": "Sau khi tan học tôi thường đến phòng tập gym vận động."
+      "en": "gym",
+      "vi": "phòng tập gym",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "gym; gymnasium; fitness centre",
+          "sentence": "附近有健身房嗎?",
+          "pinyin": "fùjìn yǒu jiànshēnfáng ma?",
+          "en": "Is there a gym nearby?",
+          "vi": "Gần đây có phòng gym nào không?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "gym; gymnasium; fitness centre",
+          "sentence": "健身房外麵很熱。",
+          "pinyin": "jiànshēnfáng wàimiàn hěn rè.",
+          "en": "It’s very hot outside the gym.",
+          "vi": "Bên ngoài phòng gym rất nóng."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "啦",
       "pinyin": "la",
-      "english": "sentence-final particle indicating a question or exclamation",
-      "sentenceChinese": "你到底在找什麼啦？",
-      "sentencePinyin": "Nǐ dàodǐ zài zhǎo shénme la?",
-      "sentenceEnglish": "What on earth are you looking for?",
-      "vietnamese": "đấy / kìa (trợ từ)",
-      "sentenceVietnamese": "Rốt cuộc là bạn đang tìm cái gì vậy?"
+      "en": "sentence-final particle indicating a question or exclamation",
+      "vi": "đấy / kìa (trợ từ)",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "[fusion of 了and 啊]",
+          "sentence": "二組跟咱們挑戰啦!",
+          "pinyin": "èr zǔ gēn zánmen tiǎozhàn la!",
+          "en": "Group 2 is challenging us!",
+          "vi": "Tổ hai thách thức chúng ta đấy!"
+        },
+        {
+          "type": "Particle",
+          "meaning": "[fusion of 了and 啊]",
+          "sentence": "他迴來啦，真高興。",
+          "pinyin": "tā huílái la, zhēn gāoxìng.",
+          "en": "He’s back, I’m so happy!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "查",
       "pinyin": "chá",
-      "english": "to check, to look up (for information)",
-      "sentenceChinese": "你可以在網路上查班機時間。",
-      "sentencePinyin": "Nǐ kěyǐ zài wǎnglù shàng chá bānjī shíjiān.",
-      "sentenceEnglish": "You can check the flight times on the internet.",
-      "vietnamese": "tra cứu / kiểm tra",
-      "sentenceVietnamese": "Bạn có thể tra cứu thời gian chuyến bay trên mạng."
+      "en": "to check, to look up (for information)",
+      "vi": "tra cứu / kiểm tra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "check; examine",
+          "sentence": "警察正在查戶口。",
+          "pinyin": "jǐngchá zhèngzài chá hùkǒu.",
+          "en": "The police are checking household registrations.",
+          "vi": "Cảnh sát đang kiểm tra hộ khẩu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "check; examine",
+          "sentence": "我們抽查了幾個産品。",
+          "pinyin": "wǒmen chōuchále jǐ gè chǎnpǐn.",
+          "en": "We randomly inspected a few products.",
+          "vi": "Chúng tôi đã kiểm tra một số sản phẩm."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "班機",
       "pinyin": "bān jī",
-      "english": "flight",
-      "sentenceChinese": "去義大利的班機幾點起飛？",
-      "sentencePinyin": "Qù Yìdàlì de bānjī jǐ diǎn qǐfēi?",
-      "sentenceEnglish": "What time does the flight to Italy take off?",
-      "vietnamese": "chuyến bay",
-      "sentenceVietnamese": "Chuyến bay đi Ý mấy giờ cất cánh?"
+      "en": "flight",
+      "vi": "chuyến bay",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "airliner; regular air service",
+          "sentence": "我訂了班機去上海。",
+          "pinyin": "wǒ dìngle bānjī qù shànghǎi.",
+          "en": "I booked a flight to Shanghai.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "airliner; regular air service",
+          "sentence": "今天的班機延誤了。",
+          "pinyin": "jīntiān de bānjī yánwùle.",
+          "en": "Today’s flight is delayed.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "訂位",
       "pinyin": "dìng wèi",
-      "english": "to make reservations",
-      "sentenceChinese": "去這家餐廳吃飯要先訂位。",
-      "sentencePinyin": "Qù zhè jiā cāntīng chīfàn yào xiān dìngwèi.",
-      "sentenceEnglish": "You need to make a reservation first to eat at this restaurant.",
-      "vietnamese": "đặt chỗ",
-      "sentenceVietnamese": "Đến nhà hàng này ăn cơm phải đặt chỗ trước."
+      "en": "to make reservations",
+      "vi": "đặt chỗ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reservation",
+          "sentence": "我們在高級的餐廳訂位。",
+          "pinyin": "wǒmen zài gāojí de cāntīng dìng wèi.",
+          "en": "We made a reservation at a high-end restaurant.",
+          "vi": "Chúng tôi đã đặt bàn tại nhà hàng cao cấp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "reservation",
+          "sentence": "他們需要提前訂位。",
+          "pinyin": "tāmen xūyào tíqián dìng wèi.",
+          "en": "They need to book a table in advance.",
+          "vi": "Họ cần đặt chỗ trước."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "電",
       "pinyin": "diàn",
-      "english": "electric power",
-      "sentenceChinese": "我的手機快要沒電了。",
-      "sentencePinyin": "Wǒ de shǒujī kuàiyào méi diàn le.",
-      "sentenceEnglish": "My phone is almost out of power.",
-      "vietnamese": "điện",
-      "sentenceVietnamese": "Điện thoại của tôi sắp hết điện rồi."
+      "en": "electric power",
+      "vi": "điện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "electricity",
+          "sentence": "我的手機沒電了。",
+          "pinyin": "wǒ de shǒujī méi diànle.",
+          "en": "My phone is out of battery.",
+          "vi": "Điện thoại tôi hết pin rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "electricity",
+          "sentence": "我們傢今天停電了。",
+          "pinyin": "wǒmen jiā jīntiān tíngdiànle.",
+          "en": "Our house had a power outage today.",
+          "vi": "Hôm nay nhà chúng tôi mất điện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "give or get an electric shock",
+          "sentence": "插座漏電，電了我一下。",
+          "pinyin": "chāzuò lòudiàn, diànle wǒ yīxià.",
+          "en": "The socket leaked electricity and shocked me.",
+          "vi": "Ổ cắm bị rò điện, nên tôi bị điện giật."
+        },
+        {
+          "type": "Verb",
+          "meaning": "give or get an electric shock",
+          "sentence": "他被電擊後，感到麻木。",
+          "pinyin": "tā bèi diànjí hòu, gǎndào mámù.",
+          "en": "He felt numb after being electrocuted.",
+          "vi": "Anh ấy bị tê liệt sau khi bị điện giật."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "充電",
       "pinyin": "chōng diàn",
-      "english": "to charge (the battery of an electronic device)",
-      "sentenceChinese": "我得趕快幫手機充電。",
-      "sentencePinyin": "Wǒ děi gǎnkuài bāng shǒujī chōngdiàn.",
-      "sentenceEnglish": "I need to hurry and charge my phone.",
-      "vietnamese": "sạc điện",
-      "sentenceVietnamese": "Tôi phải mau chóng sạc điện cho điện thoại."
+      "en": "to charge (the battery of an electronic device)",
+      "vi": "sạc điện",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "charge (a battery)",
+          "sentence": "你的充電寶多少錢？",
+          "pinyin": "nǐ de chōngdiàn bǎo duōshǎo qián?",
+          "en": "How much is your power bank?",
+          "vi": "Sạc dự phòng của bạn bao nhiêu tiền?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "charge (a battery)",
+          "sentence": "他忘記給電腦充電了。",
+          "pinyin": "tā wàngjì gěi diànnǎo chōngdiànle.",
+          "en": "He forgot to charge his computer.",
+          "vi": "Anh ấy quên sạc pin cho máy tính."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "糊塗",
       "pinyin": "hú tú",
-      "english": "muddle-headed",
-      "sentenceChinese": "他真糊塗，竟然把背包弄丟了。",
-      "sentencePinyin": "Tā zhēn hútú, jìngrán bǎ bēibāo nòngdiū le.",
-      "sentenceEnglish": "He is so muddle-headed; he actually lost his backpack.",
-      "vietnamese": "mơ hồ / hồ đồ",
-      "sentenceVietnamese": "Anh ấy thật hồ đồ, lại để mất cả ba lô."
+      "en": "muddle-headed",
+      "vi": "mơ hồ / hồ đồ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "muddled; confused; bewildered",
+          "sentence": "我對這個問題很餬塗。",
+          "pinyin": "wǒ duì zhège wèntí hěn hútu.",
+          "en": "I am very confused about this issue.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "muddled; confused; bewildered",
+          "sentence": "她餬塗了，不知道該怎麼辦。",
+          "pinyin": "tā hútule, bù zhīdào gāi zěnme bàn.",
+          "en": "She is bewildered and doesn't know what to do.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "喔",
       "pinyin": "ō",
-      "english": "sentence-final particle indicating a suggestion",
-      "sentenceChinese": "下次出門要小心喔！",
-      "sentencePinyin": "Xiàcì chūmén yào xiǎoxīn ō!",
-      "sentenceEnglish": "Be careful when you go out next time!",
-      "vietnamese": "nhé (trợ từ)",
-      "sentenceVietnamese": "Lần sau ra ngoài nhớ cẩn thận nhé!"
+      "en": "sentence-final particle indicating a suggestion",
+      "vi": "nhé (trợ từ)",
+      "samples": [
+        {
+          "type": "onom",
+          "meaning": "a cock's crow",
+          "sentence": "喔喔喔!",
+          "pinyin": "wō wō wō!",
+          "en": "Cock-a-doodle-doo!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "義大利",
       "pinyin": "Yì dà lì",
-      "english": "Italy",
-      "sentenceChinese": "他下個月打算去義大利旅行。",
-      "sentencePinyin": "Tā xià ge yuè dǎsuàn qù Yìdàlì lǚxíng.",
-      "sentenceEnglish": "He plans to travel to Italy next month.",
-      "vietnamese": "Ý / Italia",
-      "sentenceVietnamese": "Tháng sau anh ấy dự định đi du lịch Ý."
+      "en": "Italy",
+      "vi": "Ý / Italia",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Italian (Tw)",
+          "sentence": "那是義大利名字。",
+          "pinyin": "nà shì yìdàlì míngzì",
+          "en": "That's an Italian name.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "italy",
+          "sentence": "到義大利去。",
+          "pinyin": "dào yìdàlì qù",
+          "en": "I'd go to Italy.",
+          "vi": "Tôi sẽ đến Ý."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "拿走",
       "pinyin": "ná zǒu",
-      "english": "to take away",
-      "sentenceChinese": "那是我的筆，請不要拿走。",
-      "sentencePinyin": "Nà shì wǒ de bǐ, qǐng búyào názǒu.",
-      "sentenceEnglish": "That's my pen; please don't take it away.",
-      "vietnamese": "lấy đi",
-      "sentenceVietnamese": "Đó là bút của tôi, làm ơn đừng lấy đi."
+      "en": "to take away",
+      "vi": "lấy đi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to take away",
+          "sentence": "你可以拿走這些文件。",
+          "pinyin": "nǐ kěyǐ ná zǒu zhèxiē wénjiàn.",
+          "en": "You can take these documents away.",
+          "vi": "Bạn có thể mang những tài liệu này đi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to take away",
+          "sentence": "誰拿走了我的鑰匙？",
+          "pinyin": "shéi ná zǒule wǒ de yàoshi?",
+          "en": "Who took my keys away?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "撿到",
       "pinyin": "jiǎn dào",
-      "english": "to find something, to pick up",
-      "sentenceChinese": "我在路上撿到了一個錢包。",
-      "sentencePinyin": "Wǒ zài lùshàng jiǎndàole yí ge qiánbāo.",
-      "sentenceEnglish": "I picked up a wallet on the street.",
-      "vietnamese": "nhặt được",
-      "sentenceVietnamese": "Tôi nhặt được một cái ví trên đường."
+      "en": "to find something, to pick up",
+      "vi": "nhặt được",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go to; leave for",
+          "sentence": "他們到餐館吃/喫飯。",
+          "pinyin": "tāmen dào cānguǎn chīfàn.",
+          "en": "They went to the restaurant to eat.",
+          "vi": "Họ đến nhà hàng ăn cơm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "go to; leave for",
+          "sentence": "我們要到銀行取錢。",
+          "pinyin": "wǒmen yào dào yínháng qǔ qián.",
+          "en": "We need to go to the bank to withdraw money.",
+          "vi": "Chúng ta cần đến ngân hàng rút tiền."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "up until; up to",
+          "sentence": "結果到明天才/纔知道。",
+          "pinyin": "jiéguǒ dào míngtiān cái zhīdào.",
+          "en": "We won't know the result until tomorrow.",
+          "vi": "Kết quả phải đến mai mới biết."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "up until; up to",
+          "sentence": "車票到次日才/纔能拿到手。",
+          "pinyin": "chēpiào dào cì rì cáinéng ná dàoshǒu.",
+          "en": "You can get the bus ticket the next day.",
+          "vi": "Vé xe sẽ được nhận vào ngày hôm sau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thoughtful; considerate",
+          "sentence": "她是一個很週到的人。",
+          "pinyin": "tā shì yīgè hěn zhōudào de rén.",
+          "en": "She is a very considerate person.",
+          "vi": "Cô ấy là một người rất chu đáo."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "thoughtful; considerate",
+          "sentence": "這傢酒店的服務非常週到。",
+          "pinyin": "zhè jiā jiǔdiàn de fúwù fēicháng zhōudào.",
+          "en": "The service at this hotel is very attentive.",
+          "vi": "Dịch vụ của khách sạn này rất chu đáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓到。",
+          "pinyin": "tā xìng dào.",
+          "en": "His family name is Dao.",
+          "vi": "Anh ấy họ Đáo."
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "留下",
       "pinyin": "liú xià",
-      "english": "to keep for oneself / to stay behind",
-      "sentenceChinese": "他在捷運站留下了一封信。",
-      "sentencePinyin": "Tā zài jiéyùnzhàn liúxiàle yì fēng xìn.",
-      "sentenceEnglish": "He left a letter at the MRT station.",
-      "vietnamese": "để lại",
-      "sentenceVietnamese": "Anh ấy đã để lại một bức thư ở trạm tàu điện."
+      "en": "to keep for oneself / to stay behind",
+      "vi": "để lại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "leave",
+          "sentence": "這刀口不會留下疤痕。",
+          "pinyin": "zhè dāo kǒu bù huì liú xià bā hén.",
+          "en": "The cut will not leave any scar.",
+          "vi": "Vết mổ này sẽ không để lại sẹo."
+        },
+        {
+          "type": "Verb",
+          "meaning": "leave",
+          "sentence": "她留下一封信就走了。",
+          "pinyin": "tā liú xià yī fēng xìn jiù zǒule.",
+          "en": "She left after leaving a letter.",
+          "vi": "Cô ấy để lại một lá thư rồi đi."
+        }
+      ]
     }
   ]
 }

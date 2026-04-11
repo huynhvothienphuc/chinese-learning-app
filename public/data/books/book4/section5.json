@@ -3,87 +3,2455 @@
   "sectionId": "section5",
   "sectionTitle": "Pursuing Your Dreams | 有夢最美",
   "items": [
-    { "id": 1, "chinese": "夢", "pinyin": "mèng", "english": "dream", "vietnamese": "giấc mơ", "sentenceChinese": "每個人心裡都有自己的夢。", "sentencePinyin": "Měi ge rén xīnlǐ dōu yǒu zìjǐ de mèng.", "sentenceEnglish": "Everyone has their own dream in their heart.", "sentenceVietnamese": "Trong lòng mỗi người đều có giấc mơ của riêng mình.", "theme": "General" },
-    { "id": 2, "chinese": "排隊", "pinyin": "páiduì", "english": "to line up, stand in queue", "vietnamese": "xếp hàng", "sentenceChinese": "大家在門口排隊等採訪。", "sentencePinyin": "Dàjiā zài ménkǒu páiduì děng cǎifǎng.", "sentenceEnglish": "Everyone lined up at the door waiting for the interview.", "sentenceVietnamese": "Mọi người xếp hàng ở cửa để chờ phỏng vấn.", "theme": "General" },
-    { "id": 3, "chinese": "校刊", "pinyin": "xiàokān", "english": "school newspaper/publications", "vietnamese": "báo trường, nội san", "sentenceChinese": "這篇文章下個月會登在校刊上。", "sentencePinyin": "Zhè piān wénzhāng xià ge yuè huì dēng zài xiàokān shàng.", "sentenceEnglish": "This article will be published in the school magazine next month.", "sentenceVietnamese": "Bài viết này tháng sau sẽ được đăng trên báo trường.", "theme": "Education" },
-    { "id": 4, "chinese": "採訪", "pinyin": "cǎifǎng", "english": "to interview", "vietnamese": "phỏng vấn", "sentenceChinese": "記者正在採訪那位創業成功的校友。", "sentencePinyin": "Jìzhě zhèngzài cǎifǎng nà wèi chuàngyè chénggōng de xiàoyǒu.", "sentenceEnglish": "The reporter is interviewing that successful alumnus entrepreneur.", "sentenceVietnamese": "Phóng viên đang phỏng vấn vị cựu sinh viên khởi nghiệp thành công đó.", "theme": "Communication" },
-    { "id": 5, "chinese": "校友", "pinyin": "xiàoyǒu", "english": "alumnus", "vietnamese": "cựu sinh viên", "sentenceChinese": "這位校友畢業後開了自己的公司。", "sentencePinyin": "Zhè wèi xiàoyǒu bìyè hòu kāi le zìjǐ de gōngsī.", "sentenceEnglish": "This alumnus started his own company after graduation.", "sentenceVietnamese": "Vị cựu sinh viên này đã mở công ty riêng sau khi tốt nghiệp.", "theme": "Education" },
-    { "id": 6, "chinese": "博士", "pinyin": "bóshì", "english": "doctorate, PhD", "vietnamese": "tiến sĩ", "sentenceChinese": "她完成碩士後，還想繼續念博士。", "sentencePinyin": "Tā wánchéng shuòshì hòu, hái xiǎng jìxù niàn bóshì.", "sentenceEnglish": "After finishing her master's degree, she still wants to continue on to a PhD.", "sentenceVietnamese": "Sau khi học xong thạc sĩ, cô ấy vẫn muốn học tiếp tiến sĩ.", "theme": "Education" },
-    { "id": 7, "chinese": "學位", "pinyin": "xuéwèi", "english": "academic degree", "vietnamese": "học vị, bằng cấp", "sentenceChinese": "拿到學位只是人生的一個開始。", "sentencePinyin": "Nádào xuéwèi zhǐshì rénshēng de yí ge kāishǐ.", "sentenceEnglish": "Getting a degree is only one beginning in life.", "sentenceVietnamese": "Có được bằng cấp chỉ là một khởi đầu trong cuộc đời.", "theme": "Education" },
-    { "id": 8, "chinese": "考", "pinyin": "kǎo", "english": "to take a test", "vietnamese": "thi, kiểm tra", "sentenceChinese": "他明年要考研究所。", "sentencePinyin": "Tā míngnián yào kǎo yánjiūsuǒ.", "sentenceEnglish": "He plans to take the graduate school entrance exam next year.", "sentenceVietnamese": "Năm sau anh ấy sẽ thi vào cao học.", "theme": "Education" },
-    { "id": 9, "chinese": "司機", "pinyin": "sījī", "english": "driver, chauffeur", "vietnamese": "tài xế", "sentenceChinese": "他白天當司機，晚上去上課。", "sentencePinyin": "Tā báitiān dāng sījī, wǎnshang qù shàngkè.", "sentenceEnglish": "He works as a driver during the day and studies at night.", "sentenceVietnamese": "Ban ngày anh ấy làm tài xế, buổi tối đi học.", "theme": "Work" },
-    { "id": 10, "chinese": "學士", "pinyin": "xuéshì", "english": "bachelor's degree", "vietnamese": "cử nhân", "sentenceChinese": "她已經拿到學士學位了。", "sentencePinyin": "Tā yǐjīng nádào xuéshì xuéwèi le.", "sentenceEnglish": "She has already received her bachelor's degree.", "sentenceVietnamese": "Cô ấy đã nhận bằng cử nhân rồi.", "theme": "Education" },
-    { "id": 11, "chinese": "地攤", "pinyin": "dìtān", "english": "street stall", "vietnamese": "sạp hàng vỉa hè", "sentenceChinese": "他晚上會去夜市擺地攤。", "sentencePinyin": "Tā wǎnshang huì qù yèshì bǎi dìtān.", "sentenceEnglish": "He runs a street stall at the night market in the evening.", "sentenceVietnamese": "Buổi tối anh ấy sẽ ra chợ đêm bày sạp hàng.", "theme": "Business" },
-    { "id": 12, "chinese": "現象", "pinyin": "xiànxiàng", "english": "phenomenon", "vietnamese": "hiện tượng", "sentenceChinese": "大學生擺地攤已經不是少見的現象。", "sentencePinyin": "Dàxuéshēng bǎi dìtān yǐjīng bú shì shǎojiàn de xiànxiàng.", "sentenceEnglish": "College students running street stalls is no longer a rare phenomenon.", "sentenceVietnamese": "Sinh viên đại học bày sạp hàng không còn là hiện tượng hiếm nữa.", "theme": "General" },
-    { "id": 13, "chinese": "稀奇", "pinyin": "xīqí", "english": "rare and unique", "vietnamese": "hiếm có, kỳ lạ", "sentenceChinese": "現在看到年輕人創業，一點也不稀奇。", "sentencePinyin": "Xiànzài kàn dào niánqīngrén chuàngyè, yìdiǎn yě bù xīqí.", "sentenceEnglish": "Seeing young people start businesses nowadays is not unusual at all.", "sentenceVietnamese": "Bây giờ thấy người trẻ khởi nghiệp thì chẳng có gì lạ cả.", "theme": "General" },
-    { "id": 14, "chinese": "搶", "pinyin": "qiǎng", "english": "to scramble for", "vietnamese": "tranh giành", "sentenceChinese": "新產品一上市，大家就搶著買。", "sentencePinyin": "Xīn chǎnpǐn yí shàngshì, dàjiā jiù qiǎng zhe mǎi.", "sentenceEnglish": "As soon as the new product hit the market, everyone rushed to buy it.", "sentenceVietnamese": "Sản phẩm mới vừa ra mắt là mọi người đã tranh nhau mua.", "theme": "General" },
-    { "id": 15, "chinese": "批評", "pinyin": "pīpíng", "english": "to criticize", "vietnamese": "phê bình", "sentenceChinese": "有人批評他沒有好好利用學歷。", "sentencePinyin": "Yǒurén pīpíng tā méiyǒu hǎohǎo lìyòng xuélì.", "sentenceEnglish": "Some people criticized him for not making good use of his education.", "sentenceVietnamese": "Có người phê bình anh ấy là không biết tận dụng bằng cấp.", "theme": "Communication" },
-    { "id": 16, "chinese": "浪費", "pinyin": "làngfèi", "english": "to waste", "vietnamese": "lãng phí", "sentenceChinese": "把時間都花在抱怨上太浪費了。", "sentencePinyin": "Bǎ shíjiān dōu huā zài bàoyuàn shàng tài làngfèi le.", "sentenceEnglish": "Spending all your time complaining is too wasteful.", "sentenceVietnamese": "Dành hết thời gian để than phiền thì quá lãng phí.", "theme": "General" },
-    { "id": 17, "chinese": "畢竟", "pinyin": "bìjìng", "english": "after all", "vietnamese": "suy cho cùng", "sentenceChinese": "畢竟每個人都有自己的選擇。", "sentencePinyin": "Bìjìng měi ge rén dōu yǒu zìjǐ de xuǎnzé.", "sentenceEnglish": "After all, everyone has their own choices.", "sentenceVietnamese": "Suy cho cùng, mỗi người đều có lựa chọn của riêng mình.", "theme": "Grammar" },
-    { "id": 18, "chinese": "貢獻", "pinyin": "gòngxiàn", "english": "to make contributions", "vietnamese": "cống hiến", "sentenceChinese": "只要願意努力，任何工作都能對社會有貢獻。", "sentencePinyin": "Zhǐyào yuànyì nǔlì, rènhé gōngzuò dōu néng duì shèhuì yǒu gòngxiàn.", "sentenceEnglish": "As long as you work hard, any job can contribute to society.", "sentenceVietnamese": "Chỉ cần nỗ lực thì bất kỳ công việc nào cũng có thể cống hiến cho xã hội.", "theme": "General" },
-    { "id": 19, "chinese": "的確", "pinyin": "díquè", "english": "indeed", "vietnamese": "quả thực", "sentenceChinese": "他的做法的確讓很多人佩服。", "sentencePinyin": "Tā de zuòfǎ díquè ràng hěn duō rén pèifú.", "sentenceEnglish": "What he did indeed made many people admire him.", "sentenceVietnamese": "Cách làm của anh ấy quả thực khiến nhiều người khâm phục.", "theme": "Grammar" },
-    { "id": 20, "chinese": "盲目", "pinyin": "mángmù", "english": "blindly", "vietnamese": "mù quáng", "sentenceChinese": "選科系不能太盲目。", "sentencePinyin": "Xuǎn kēxì bù néng tài mángmù.", "sentenceEnglish": "You can't choose your major too blindly.", "sentenceVietnamese": "Chọn ngành học không thể quá mù quáng được.", "theme": "Psychology" },
-    { "id": 21, "chinese": "升學", "pinyin": "shēngxué", "english": "to pursue further education", "vietnamese": "học lên cao", "sentenceChinese": "他想先工作幾年，再決定要不要升學。", "sentencePinyin": "Tā xiǎng xiān gōngzuò jǐ nián, zài juédìng yào bú yào shēngxué.", "sentenceEnglish": "He wants to work for a few years first, then decide whether to continue his studies.", "sentenceVietnamese": "Anh ấy muốn đi làm vài năm trước rồi mới quyết định có học tiếp hay không.", "theme": "Education" },
-    { "id": 22, "chinese": "逃避", "pinyin": "táobì", "english": "to evade, escape", "vietnamese": "trốn tránh", "sentenceChinese": "升學不是逃避就業的唯一方法。", "sentencePinyin": "Shēngxué bú shì táobì jiùyè de wéiyī fāngfǎ.", "sentenceEnglish": "Continuing school is not the only way to avoid employment.", "sentenceVietnamese": "Học tiếp không phải là cách duy nhất để trốn tránh việc đi làm.", "theme": "General" },
-    { "id": 23, "chinese": "就業", "pinyin": "jiùyè", "english": "employment", "vietnamese": "việc làm, nghề nghiệp", "sentenceChinese": "現在的年輕人很關心就業問題。", "sentencePinyin": "Xiànzài de niánqīngrén hěn guānxīn jiùyè wèntí.", "sentenceEnglish": "Young people nowadays care a lot about employment issues.", "sentenceVietnamese": "Người trẻ bây giờ rất quan tâm đến vấn đề việc làm.", "theme": "Work" },
-    { "id": 24, "chinese": "延後", "pinyin": "yánhòu", "english": "to postpone", "vietnamese": "trì hoãn", "sentenceChinese": "他決定把找工作的計畫延後一年。", "sentencePinyin": "Tā juédìng bǎ zhǎo gōngzuò de jìhuà yánhòu yì nián.", "sentenceEnglish": "He decided to postpone his job search plan for one year.", "sentenceVietnamese": "Anh ấy quyết định trì hoãn kế hoạch tìm việc một năm.", "theme": "Time" },
-    { "id": 25, "chinese": "啃老族", "pinyin": "kěnlǎozú", "english": "someone who lives off their parents", "vietnamese": "kẻ ăn bám bố mẹ", "sentenceChinese": "有人擔心孩子畢業後變成啃老族。", "sentencePinyin": "Yǒurén dānxīn háizi bìyè hòu biàn chéng kěnlǎozú.", "sentenceEnglish": "Some parents worry their children will become dependent on them after graduation.", "sentenceVietnamese": "Có người lo con cái sau khi tốt nghiệp sẽ trở thành kẻ ăn bám bố mẹ.", "theme": "Society" },
-    { "id": 26, "chinese": "收攤", "pinyin": "shōutān", "english": "to close up shop", "vietnamese": "dọn hàng, nghỉ bán", "sentenceChinese": "夜市快結束了，大家都在收攤。", "sentencePinyin": "Yèshì kuài jiéshù le, dàjiā dōu zài shōutān.", "sentenceEnglish": "The night market is about to close, and everyone is packing up.", "sentenceVietnamese": "Chợ đêm sắp tan rồi, mọi người đều đang dọn hàng.", "theme": "Business" },
-    { "id": 27, "chinese": "清潔隊員", "pinyin": "qīngjié duìyuán", "english": "street cleaners", "vietnamese": "nhân viên vệ sinh", "sentenceChinese": "清潔隊員每天很早就開始工作。", "sentencePinyin": "Qīngjié duìyuán měitiān hěn zǎo jiù kāishǐ gōngzuò.", "sentenceEnglish": "Street cleaners start work very early every day.", "sentenceVietnamese": "Nhân viên vệ sinh bắt đầu làm việc từ rất sớm mỗi ngày.", "theme": "Work" },
-    { "id": 28, "chinese": "擺地攤", "pinyin": "bǎi dìtān", "english": "to have a street stall", "vietnamese": "bày hàng vỉa hè", "sentenceChinese": "他周末會和朋友一起擺地攤。", "sentencePinyin": "Tā zhōumò huì hé péngyǒu yìqǐ bǎi dìtān.", "sentenceEnglish": "He sets up a street stall with his friends on weekends.", "sentenceVietnamese": "Cuối tuần anh ấy sẽ cùng bạn bè bày hàng vỉa hè.", "theme": "Business" },
-    { "id": 29, "chinese": "大多數", "pinyin": "dàduōshù", "english": "most, the majority of", "vietnamese": "đại đa số", "sentenceChinese": "大多數學生還是希望找到穩定的工作。", "sentencePinyin": "Dàduōshù xuéshēng háishì xīwàng zhǎodào wěndìng de gōngzuò.", "sentenceEnglish": "The majority of students still hope to find stable jobs.", "sentenceVietnamese": "Đại đa số sinh viên vẫn mong tìm được công việc ổn định.", "theme": "Grammar" },
-    { "id": 30, "chinese": "話說回來", "pinyin": "huàshuō huílái", "english": "on the other hand", "vietnamese": "nói đi cũng phải nói lại", "sentenceChinese": "話說回來，創業也不是壞事。", "sentencePinyin": "Huàshuō huílái, chuàngyè yě bú shì huàishì.", "sentenceEnglish": "On the other hand, starting a business isn't a bad thing either.", "sentenceVietnamese": "Nói đi cũng phải nói lại, khởi nghiệp cũng không phải là chuyện xấu.", "theme": "Grammar" },
-    { "id": 31, "chinese": "自食其力", "pinyin": "zìshí qílì", "english": "to rely on yourself", "vietnamese": "tự lực cánh sinh", "sentenceChinese": "他很早就學會自食其力。", "sentencePinyin": "Tā hěn zǎo jiù xuéhuì zìshí qílì.", "sentenceEnglish": "He learned to rely on himself at a very young age.", "sentenceVietnamese": "Anh ấy đã học cách tự lực cánh sinh từ rất sớm.", "theme": "Idiom" },
-    { "id": 32, "chinese": "下一期", "pinyin": "xiàyìqí", "english": "next issue", "vietnamese": "kỳ tới, số tới", "sentenceChinese": "下一期校刊還會介紹另一位校友。", "sentencePinyin": "Xiàyìqí xiàokān hái huì jièshào lìng yí wèi xiàoyǒu.", "sentenceEnglish": "The next issue of the school magazine will introduce another alumnus.", "sentenceVietnamese": "Số báo trường kỳ tới sẽ còn giới thiệu thêm một cựu sinh viên khác.", "theme": "Media" },
-    { "id": 33, "chinese": "段", "pinyin": "duàn", "english": "a period of time", "vietnamese": "khoảng thời gian", "sentenceChinese": "那段日子他過得特別辛苦。", "sentencePinyin": "Nà duàn rìzi tā guò de tèbié xīnkǔ.", "sentenceEnglish": "He had an especially hard time during that period.", "sentenceVietnamese": "Khoảng thời gian đó anh ấy sống rất vất vả.", "theme": "Time" },
-    { "id": 34, "chinese": "物價", "pinyin": "wùjià", "english": "commodity prices", "vietnamese": "vật giá", "sentenceChinese": "最近物價一直上漲，生活壓力也變大了。", "sentencePinyin": "Zuìjìn wùjià yìzhí shàngzhǎng, shēnghuó yālì yě biàn dà le.", "sentenceEnglish": "Commodity prices have been rising recently, and living pressure has grown too.", "sentenceVietnamese": "Gần đây vật giá cứ tăng mãi nên áp lực cuộc sống cũng lớn hơn.", "theme": "Economy" },
-    { "id": 35, "chinese": "上漲", "pinyin": "shàngzhǎng", "english": "to rise", "vietnamese": "tăng giá", "sentenceChinese": "房租又上漲了，讓很多人很頭痛。", "sentencePinyin": "Fángzū yòu shàngzhǎng le, ràng hěn duō rén hěn tóutòng.", "sentenceEnglish": "Rent has gone up again, giving many people a headache.", "sentenceVietnamese": "Tiền thuê nhà lại tăng nữa khiến nhiều người rất đau đầu.", "theme": "Economy" },
-    { "id": 36, "chinese": "所得", "pinyin": "suǒdé", "english": "income", "vietnamese": "thu nhập", "sentenceChinese": "他的所得不高，卻很努力存錢。", "sentencePinyin": "Tā de suǒdé bù gāo, què hěn nǔlì cúnqián.", "sentenceEnglish": "His income is not high, but he works hard to save money.", "sentenceVietnamese": "Thu nhập của anh ấy không cao nhưng vẫn cố gắng tiết kiệm tiền.", "theme": "Work" },
-    { "id": 37, "chinese": "漲", "pinyin": "zhǎng", "english": "to rise", "vietnamese": "tăng, lên", "sentenceChinese": "電價一漲，大家都開始省電。", "sentencePinyin": "Diànjià yì zhǎng, dàjiā dōu kāishǐ shěngdiàn.", "sentenceEnglish": "As soon as electricity prices rose, everyone started saving power.", "sentenceVietnamese": "Giá điện vừa tăng là mọi người bắt đầu tiết kiệm điện.", "theme": "Economy" },
-    { "id": 38, "chinese": "勉強", "pinyin": "miǎnqiǎng", "english": "barely", "vietnamese": "miễn cưỡng, vừa đủ", "sentenceChinese": "他的薪水只夠勉強維持生活。", "sentencePinyin": "Tā de xīnshuǐ zhǐ gòu miǎnqiǎng wéichí shēnghuó.", "sentenceEnglish": "His salary is only enough to barely support his life.", "sentenceVietnamese": "Lương của anh ấy chỉ đủ để miễn cưỡng duy trì cuộc sống.", "theme": "Psychology" },
-    { "id": 39, "chinese": "根本", "pinyin": "gēnběn", "english": "at all", "vietnamese": "hoàn toàn", "sentenceChinese": "光靠這點收入根本存不了錢。", "sentencePinyin": "Guāng kào zhè diǎn shōurù gēnběn cún bù liǎo qián.", "sentenceEnglish": "With only this little income, it's impossible to save money at all.", "sentenceVietnamese": "Chỉ dựa vào từng ấy thu nhập thì hoàn toàn không để dành được tiền.", "theme": "Grammar" },
-    { "id": 40, "chinese": "組織", "pinyin": "zǔzhī", "english": "organization", "vietnamese": "tổ chức", "sentenceChinese": "學生組織準備發起一場抗議活動。", "sentencePinyin": "Xuéshēng zǔzhī zhǔnbèi fāqǐ yì chǎng kàngyì huódòng.", "sentenceEnglish": "The student organization is preparing to launch a protest.", "sentenceVietnamese": "Tổ chức sinh viên đang chuẩn bị phát động một cuộc biểu tình.", "theme": "General" },
-    { "id": 41, "chinese": "抗議", "pinyin": "kàngyì", "english": "to protest against", "vietnamese": "kháng nghị, phản đối", "sentenceChinese": "大家上街抗議房價太高。", "sentencePinyin": "Dàjiā shàngjiē kàngyì fángjià tài gāo.", "sentenceEnglish": "People took to the streets to protest high housing prices.", "sentenceVietnamese": "Mọi người xuống đường phản đối giá nhà quá cao.", "theme": "Social Issues" },
-    { "id": 42, "chinese": "地價", "pinyin": "dìjià", "english": "land prices", "vietnamese": "giá đất", "sentenceChinese": "這幾年地價漲得很快。", "sentencePinyin": "Zhè jǐ nián dìjià zhǎng de hěn kuài.", "sentenceEnglish": "Land prices have risen quickly over the past few years.", "sentenceVietnamese": "Mấy năm nay giá đất tăng rất nhanh.", "theme": "Economy" },
-    { "id": 43, "chinese": "房價", "pinyin": "fángjià", "english": "housing prices", "vietnamese": "giá nhà", "sentenceChinese": "年輕人最擔心的就是房價太高。", "sentencePinyin": "Niánqīngrén zuì dānxīn de jiùshì fángjià tài gāo.", "sentenceEnglish": "What young people worry about most is housing prices being too high.", "sentenceVietnamese": "Điều người trẻ lo nhất chính là giá nhà quá cao.", "theme": "Economy" },
-    { "id": 44, "chinese": "高漲", "pinyin": "gāozhǎng", "english": "to surge", "vietnamese": "tăng vọt", "sentenceChinese": "房價高漲讓很多人買不起房子。", "sentencePinyin": "Fángjià gāozhǎng ràng hěn duō rén mǎi bu qǐ fángzi.", "sentenceEnglish": "Surging housing prices make it impossible for many people to afford a home.", "sentenceVietnamese": "Giá nhà tăng vọt khiến nhiều người không mua nổi nhà.", "theme": "Economy" },
-    { "id": 45, "chinese": "造成", "pinyin": "zàochéng", "english": "to cause", "vietnamese": "gây ra", "sentenceChinese": "這樣的差距造成了很多社會問題。", "sentencePinyin": "Zhèyàng de chājù zàochéng le hěn duō shèhuì wèntí.", "sentenceEnglish": "This gap has caused many social problems.", "sentenceVietnamese": "Khoảng cách như vậy đã gây ra nhiều vấn đề xã hội.", "theme": "General" },
-    { "id": 46, "chinese": "統計", "pinyin": "tǒngjì", "english": "statistics", "vietnamese": "thống kê", "sentenceChinese": "根據統計，房租年年都在漲。", "sentencePinyin": "Gēnjù tǒngjì, fángzū niánnián dōu zài zhǎng.", "sentenceEnglish": "According to statistics, rent goes up every year.", "sentenceVietnamese": "Theo thống kê, tiền thuê nhà năm nào cũng tăng.", "theme": "General" },
-    { "id": 47, "chinese": "窮忙", "pinyin": "qióngmáng", "english": "busy without gaining much", "vietnamese": "bận rộn vô ích", "sentenceChinese": "他每天加班，卻覺得自己只是窮忙。", "sentencePinyin": "Tā měitiān jiābān, què juéde zìjǐ zhǐshì qióngmáng.", "sentenceEnglish": "He works overtime every day but feels like he's just busily going nowhere.", "sentenceVietnamese": "Ngày nào anh ấy cũng tăng ca nhưng lại cảm thấy mình chỉ đang bận rộn vô ích.", "theme": "General" },
-    { "id": 48, "chinese": "全球", "pinyin": "quánqiú", "english": "global, worldwide", "vietnamese": "toàn cầu", "sentenceChinese": "這幾年全球景氣都不太穩定。", "sentencePinyin": "Zhè jǐ nián quánqiú jǐngqì dōu bú tài wěndìng.", "sentenceEnglish": "The global economy has been quite unstable in recent years.", "sentenceVietnamese": "Mấy năm gần đây kinh tế toàn cầu đều không mấy ổn định.", "theme": "Geography" },
-    { "id": 49, "chinese": "景氣", "pinyin": "jǐngqì", "english": "economic conditions", "vietnamese": "tình hình kinh tế", "sentenceChinese": "景氣不好時，找工作更不容易。", "sentencePinyin": "Jǐngqì bù hǎo shí, zhǎo gōngzuò gèng bù róngyì.", "sentenceEnglish": "When the economy is bad, finding a job becomes even harder.", "sentenceVietnamese": "Khi tình hình kinh tế không tốt thì việc tìm việc lại càng khó hơn.", "theme": "Economy" },
-    { "id": 50, "chinese": "施行", "pinyin": "shīxíng", "english": "to implement", "vietnamese": "thi hành", "sentenceChinese": "新政策明年才會正式施行。", "sentencePinyin": "Xīn zhèngcè míngnián cái huì zhèngshì shīxíng.", "sentenceEnglish": "The new policy will not officially take effect until next year.", "sentenceVietnamese": "Chính sách mới phải sang năm mới chính thức thi hành.", "theme": "Law" },
-    { "id": 51, "chinese": "薪資", "pinyin": "xīnzī", "english": "salary, wages", "vietnamese": "tiền lương", "sentenceChinese": "大家都希望薪資能再高一點。", "sentencePinyin": "Dàjiā dōu xīwàng xīnzī néng zài gāo yìdiǎn.", "sentenceEnglish": "Everyone hopes their salary can be a little higher.", "sentenceVietnamese": "Ai cũng mong tiền lương có thể cao hơn một chút.", "theme": "Work" },
-    { "id": 52, "chinese": "多年", "pinyin": "duōnián", "english": "for many years", "vietnamese": "nhiều năm", "sentenceChinese": "他多年來一直沒有放棄自己的夢想。", "sentencePinyin": "Tā duōnián lái yìzhí méiyǒu fàngqì zìjǐ de mèngxiǎng.", "sentenceEnglish": "He has never given up on his dream for many years.", "sentenceVietnamese": "Nhiều năm qua anh ấy vẫn chưa từng từ bỏ ước mơ của mình.", "theme": "Time" },
-    { "id": 53, "chinese": "未", "pinyin": "wèi", "english": "not yet", "vietnamese": "chưa", "sentenceChinese": "這項規定目前尚未通過。", "sentencePinyin": "Zhè xiàng guīdìng mùqián shàng wèi tōngguò.", "sentenceEnglish": "This regulation has not yet been passed.", "sentenceVietnamese": "Quy định này hiện vẫn chưa được thông qua.", "theme": "Grammar" },
-    { "id": 54, "chinese": "調高", "pinyin": "tiáogāo", "english": "to adjust upward", "vietnamese": "điều chỉnh tăng", "sentenceChinese": "公司決定明年調高基本薪資。", "sentencePinyin": "Gōngsī juédìng míngnián tiáogāo jīběn xīnzī.", "sentenceEnglish": "The company decided to raise the base salary next year.", "sentenceVietnamese": "Công ty quyết định sang năm sẽ điều chỉnh tăng lương cơ bản.", "theme": "General" },
-    { "id": 55, "chinese": "裁員", "pinyin": "cáiyuán", "english": "to lay off", "vietnamese": "cắt giảm nhân sự", "sentenceChinese": "景氣不好時，有些公司只好裁員。", "sentencePinyin": "Jǐngqì bù hǎo shí, yǒuxiē gōngsī zhǐhǎo cáiyuán.", "sentenceEnglish": "When the economy is bad, some companies have no choice but to lay people off.", "sentenceVietnamese": "Khi kinh tế không tốt, một số công ty đành phải cắt giảm nhân sự.", "theme": "Work" },
-    { "id": 56, "chinese": "觀察", "pinyin": "guānchá", "english": "to observe", "vietnamese": "quan sát", "sentenceChinese": "他平常很喜歡觀察夜市裡的人。", "sentencePinyin": "Tā píngcháng hěn xǐhuān guānchá yèshì lǐ de rén.", "sentenceEnglish": "He likes observing people at the night market.", "sentenceVietnamese": "Bình thường anh ấy rất thích quan sát mọi người trong chợ đêm.", "theme": "General" },
-    { "id": 57, "chinese": "彩券", "pinyin": "cǎiquàn", "english": "lottery", "vietnamese": "vé số", "sentenceChinese": "他偶爾會買一張彩券試試運氣。", "sentencePinyin": "Tā ǒu'ěr huì mǎi yì zhāng cǎiquàn shìshi yùnqi.", "sentenceEnglish": "He occasionally buys a lottery ticket to try his luck.", "sentenceVietnamese": "Thỉnh thoảng anh ấy mua một tờ vé số để thử vận may.", "theme": "Entertainment" },
-    { "id": 58, "chinese": "中獎", "pinyin": "zhòngjiǎng", "english": "to win a prize", "vietnamese": "trúng thưởng", "sentenceChinese": "如果真的中獎，他想先還債。", "sentencePinyin": "Rúguǒ zhēn de zhòngjiǎng, tā xiǎng xiān huánzhài.", "sentenceEnglish": "If he really won a prize, he would pay off his debts first.", "sentenceVietnamese": "Nếu thật sự trúng thưởng, anh ấy muốn trả nợ trước.", "theme": "Entertainment" },
-    { "id": 59, "chinese": "做夢", "pinyin": "zuòmèng", "english": "to dream", "vietnamese": "nằm mơ", "sentenceChinese": "昨晚我做夢夢到自己開了餐廳。", "sentencePinyin": "Zuówǎn wǒ zuòmèng mèng dào zìjǐ kāi le cāntīng.", "sentenceEnglish": "Last night I dreamed that I opened a restaurant.", "sentenceVietnamese": "Tối qua tôi nằm mơ thấy mình mở nhà hàng.", "theme": "General" },
-    { "id": 60, "chinese": "發財", "pinyin": "fācái", "english": "to strike it rich", "vietnamese": "phát tài", "sentenceChinese": "很多人都希望有一天能發財。", "sentencePinyin": "Hěn duō rén dōu xīwàng yǒu yì tiān néng fācái.", "sentenceEnglish": "Many people hope to get rich one day.", "sentenceVietnamese": "Rất nhiều người hy vọng một ngày nào đó có thể phát tài.", "theme": "Economy" },
-    { "id": 61, "chinese": "臉色", "pinyin": "liǎnsè", "english": "facial expression", "vietnamese": "sắc mặt", "sentenceChinese": "聽到這個消息後，他的臉色馬上變了。", "sentencePinyin": "Tīng dào zhège xiāoxi hòu, tā de liǎnsè mǎshàng biàn le.", "sentenceEnglish": "After hearing the news, his expression changed immediately.", "sentenceVietnamese": "Nghe tin đó xong, sắc mặt anh ấy thay đổi ngay lập tức.", "theme": "General" },
-    { "id": 62, "chinese": "報導", "pinyin": "bàodǎo", "english": "report, news story", "vietnamese": "bản tin, đưa tin", "sentenceChinese": "這篇報導介紹了年輕人的創業故事。", "sentencePinyin": "Zhè piān bàodǎo jièshào le niánqīngrén de chuàngyè gùshì.", "sentenceEnglish": "This report introduced the entrepreneurial stories of young people.", "sentenceVietnamese": "Bài đưa tin này giới thiệu câu chuyện khởi nghiệp của người trẻ.", "theme": "Media" },
-    { "id": 63, "chinese": "指出", "pinyin": "zhǐchū", "english": "to point out", "vietnamese": "chỉ ra", "sentenceChinese": "專家指出，高房價已經影響到很多家庭。", "sentencePinyin": "Zhuānjiā zhǐchū, gāo fángjià yǐjīng yǐngxiǎng dào hěn duō jiātíng.", "sentenceEnglish": "Experts pointed out that high housing prices have already affected many families.", "sentenceVietnamese": "Chuyên gia chỉ ra rằng giá nhà cao đã ảnh hưởng đến rất nhiều gia đình.", "theme": "Communication" },
-    { "id": 64, "chinese": "創業", "pinyin": "chuàngyè", "english": "to start a business", "vietnamese": "khởi nghiệp", "sentenceChinese": "畢業後，他沒有找工作，而是直接創業。", "sentencePinyin": "Bìyè hòu, tā méiyǒu zhǎo gōngzuò, érshì zhíjiē chuàngyè.", "sentenceEnglish": "After graduation, he didn't look for a job and instead started a business directly.", "sentenceVietnamese": "Sau khi tốt nghiệp, anh ấy không đi tìm việc mà trực tiếp khởi nghiệp.", "theme": "Business" },
-    { "id": 65, "chinese": "餐飲業", "pinyin": "cānyǐnyè", "english": "food and beverage industry", "vietnamese": "ngành ăn uống", "sentenceChinese": "她想進入餐飲業，開一家小店。", "sentencePinyin": "Tā xiǎng jìnrù cānyǐnyè, kāi yì jiā xiǎodiàn.", "sentenceEnglish": "She wants to enter the food and beverage industry and open a small shop.", "sentenceVietnamese": "Cô ấy muốn bước vào ngành ăn uống và mở một cửa hàng nhỏ.", "theme": "Business" },
-    { "id": 66, "chinese": "人生", "pinyin": "rénshēng", "english": "life", "vietnamese": "cuộc đời", "sentenceChinese": "每個人的人生都有不同的方向。", "sentencePinyin": "Měi ge rén de rénshēng dōu yǒu bùtóng de fāngxiàng.", "sentenceEnglish": "Everyone's life has a different direction.", "sentenceVietnamese": "Cuộc đời của mỗi người đều có một hướng đi khác nhau.", "theme": "General" },
-    { "id": 67, "chinese": "及", "pinyin": "jí", "english": "and", "vietnamese": "và", "sentenceChinese": "他分享了自己的夢想及努力的過程。", "sentencePinyin": "Tā fēnxiǎng le zìjǐ de mèngxiǎng jí nǔlì de guòchéng.", "sentenceEnglish": "He shared his dream and the process of working hard for it.", "sentenceVietnamese": "Anh ấy chia sẻ ước mơ của mình và quá trình nỗ lực thực hiện nó.", "theme": "Grammar" },
-    { "id": 68, "chinese": "挑戰", "pinyin": "tiǎozhàn", "english": "challenge", "vietnamese": "thử thách", "sentenceChinese": "創業的路上一定會遇到很多挑戰。", "sentencePinyin": "Chuàngyè de lùshàng yídìng huì yùdào hěn duō tiǎozhàn.", "sentenceEnglish": "You will definitely face many challenges on the road of entrepreneurship.", "sentenceVietnamese": "Trên con đường khởi nghiệp chắc chắn sẽ gặp rất nhiều thử thách.", "theme": "General" },
-    { "id": 69, "chinese": "培養", "pinyin": "péiyǎng", "english": "to cultivate", "vietnamese": "bồi dưỡng", "sentenceChinese": "學生時代要培養解決問題的能力。", "sentencePinyin": "Xuéshēng shídài yào péiyǎng jiějué wèntí de nénglì.", "sentenceEnglish": "During your student years, you should cultivate the ability to solve problems.", "sentenceVietnamese": "Thời đi học cần bồi dưỡng khả năng giải quyết vấn đề.", "theme": "Education" },
-    { "id": 70, "chinese": "實力", "pinyin": "shílì", "english": "strength, real capability", "vietnamese": "thực lực", "sentenceChinese": "有夢想很好，但也要有實力。", "sentencePinyin": "Yǒu mèngxiǎng hěn hǎo, dàn yě yào yǒu shílì.", "sentenceEnglish": "Having dreams is great, but you also need real ability.", "sentenceVietnamese": "Có ước mơ là tốt, nhưng cũng phải có thực lực.", "theme": "General" },
-    { "id": 71, "chinese": "等待", "pinyin": "děngdài", "english": "to wait for", "vietnamese": "chờ đợi", "sentenceChinese": "機會不會一直等待你。", "sentencePinyin": "Jīhuì bú huì yìzhí děngdài nǐ.", "sentenceEnglish": "Opportunities won't wait for you forever.", "sentenceVietnamese": "Cơ hội sẽ không mãi chờ bạn đâu.", "theme": "Time" },
-    { "id": 72, "chinese": "擁有", "pinyin": "yǒngyǒu", "english": "to possess", "vietnamese": "sở hữu", "sentenceChinese": "不是每個人一開始就擁有很多資源。", "sentencePinyin": "Bú shì měi ge rén yì kāishǐ jiù yǒngyǒu hěn duō zīyuán.", "sentenceEnglish": "Not everyone has abundant resources from the very beginning.", "sentenceVietnamese": "Không phải ai ngay từ đầu cũng đã sở hữu nhiều nguồn lực.", "theme": "General" },
-    { "id": 73, "chinese": "中國大陸", "pinyin": "Zhōngguó Dàlù", "english": "Mainland China", "vietnamese": "Trung Quốc đại lục", "sentenceChinese": "近年來很多年輕人到中國大陸工作。", "sentencePinyin": "Jìnniánlái hěn duō niánqīngrén dào Zhōngguó Dàlù gōngzuò.", "sentenceEnglish": "In recent years, many young people have gone to work in Mainland China.", "sentenceVietnamese": "Những năm gần đây có rất nhiều người trẻ sang Trung Quốc đại lục làm việc.", "theme": "Proper Noun" },
-    { "id": 74, "chinese": "存不了", "pinyin": "cúnbùliǎo", "english": "can't save (money)", "vietnamese": "không để dành được", "sentenceChinese": "房租和吃飯就花光了錢，根本存不了。", "sentencePinyin": "Fángzū hé chīfàn jiù huā guāng le qián, gēnběn cún bù liǎo.", "sentenceEnglish": "Rent and food use up all the money, so you can't save any at all.", "sentenceVietnamese": "Tiền thuê nhà với ăn uống đã hết sạch nên hoàn toàn không để dành được.", "theme": "General" },
-    { "id": 75, "chinese": "無殼蝸牛", "pinyin": "wúké guāniú", "english": "people who cannot afford a home", "vietnamese": "người không mua nổi nhà", "sentenceChinese": "很多年輕人覺得自己像無殼蝸牛。", "sentencePinyin": "Hěn duō niánqīngrén juéde zìjǐ xiàng wúké guāniú.", "sentenceEnglish": "Many young people feel like 'snails without shells' who cannot afford a home.", "sentenceVietnamese": "Nhiều người trẻ cảm thấy mình giống như 'ốc sên không vỏ', không mua nổi nhà.", "theme": "Slang" },
-    { "id": 76, "chinese": "貧富不均", "pinyin": "pínfù bùjūn", "english": "unequal distribution of wealth", "vietnamese": "giàu nghèo không đều", "sentenceChinese": "貧富不均的問題越來越明顯。", "sentencePinyin": "Pínfù bùjūn de wèntí yuè lái yuè míngxiǎn.", "sentenceEnglish": "The problem of wealth inequality is becoming more and more obvious.", "sentenceVietnamese": "Vấn đề giàu nghèo không đều ngày càng rõ rệt hơn.", "theme": "Society" },
-    { "id": 77, "chinese": "苦哈哈", "pinyin": "kǔ hāhā", "english": "miserably poor", "vietnamese": "khổ sở", "sentenceChinese": "他以前日子過得苦哈哈，現在好多了。", "sentencePinyin": "Tā yǐqián rìzi guò de kǔ hāhā, xiànzài hǎo duō le.", "sentenceEnglish": "He used to live a miserable life, but things are much better now.", "sentenceVietnamese": "Trước đây anh ấy sống rất khổ sở, bây giờ đã khá hơn nhiều rồi.", "theme": "General" },
-    { "id": 78, "chinese": "另謀發展", "pinyin": "lìngmóu fāzhǎn", "english": "to seek opportunities elsewhere", "vietnamese": "tìm hướng phát triển khác", "sentenceChinese": "如果這裡機會不多，我可能會另謀發展。", "sentencePinyin": "Rúguǒ zhèlǐ jīhuì bù duō, wǒ kěnéng huì lìngmóu fāzhǎn.", "sentenceEnglish": "If there aren't many opportunities here, I may seek development elsewhere.", "sentenceVietnamese": "Nếu ở đây không có nhiều cơ hội, tôi có thể sẽ tìm hướng phát triển khác.", "theme": "Work" },
-    { "id": 79, "chinese": "恨不得", "pinyin": "hènbùdé", "english": "to be dying to", "vietnamese": "rất muốn", "sentenceChinese": "他恨不得現在就能成功。", "sentencePinyin": "Tā hènbùdé xiànzài jiù néng chénggōng.", "sentenceEnglish": "He is dying to succeed right now.", "sentenceVietnamese": "Anh ấy rất muốn thành công ngay lập tức.", "theme": "Grammar" },
-    { "id": 80, "chinese": "一夜致富", "pinyin": "yíyè zhìfù", "english": "to become rich overnight", "vietnamese": "giàu sau một đêm", "sentenceChinese": "不要總想著一夜致富，還是腳踏實地比較重要。", "sentencePinyin": "Búyào zǒng xiǎng zhe yíyè zhìfù, háishì jiǎotà-shídì bǐjiào zhòngyào.", "sentenceEnglish": "Don't always think about getting rich overnight; being down-to-earth is more important.", "sentenceVietnamese": "Đừng lúc nào cũng nghĩ đến chuyện giàu sau một đêm, sống thực tế và chăm chỉ vẫn quan trọng hơn.", "theme": "Economy" },
-    { "id": 81, "chinese": "一片天", "pinyin": "yípiàntiān", "english": "one's own sky, one's own space", "vietnamese": "một bầu trời riêng", "sentenceChinese": "只要努力，每個人都能闖出自己的一片天。", "sentencePinyin": "Zhǐyào nǔlì, měi ge rén dōu néng chuǎng chū zìjǐ de yípiàntiān.", "sentenceEnglish": "As long as they work hard, everyone can carve out a world of their own.", "sentenceVietnamese": "Chỉ cần nỗ lực, ai cũng có thể tạo ra một bầu trời riêng cho mình.", "theme": "Philosophy" }
-  ],
-  "theme": "Pursuing Your Dreams"
+    {
+      "id": 1,
+      "chinese": "夢",
+      "pinyin": "mèng",
+      "en": "dream",
+      "vi": "giấc mơ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to dream; have a dream",
+          "sentence": "我做夢。",
+          "pinyin": "wǒ zuòmèng.",
+          "en": "I was dreaming.",
+          "vi": "Tôi nằm mơ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to dream; have a dream",
+          "sentence": "她夢見大海。",
+          "pinyin": "tā mèng jiàn dàhǎi.",
+          "en": "She dreamed of the sea.",
+          "vi": "Cô ấy nằm mơ thấy biển lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dream",
+          "sentence": "昨晚我做了個可怕的夢。",
+          "pinyin": "Zuówǎn wǒ zuò le ge kěpà de mèng.",
+          "en": "I had a terrible dream last night.",
+          "vi": "Đêm qua tôi đã có một giấc mơ khủng khiếp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dream",
+          "sentence": "她的夢很美好。",
+          "pinyin": "tā de mèng hěn měihǎo.",
+          "en": "Her dream was beautiful.",
+          "vi": "Giấc mơ của cô ấy rất đẹp."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "排隊",
+      "pinyin": "páiduì",
+      "en": "to line up, stand in queue",
+      "vi": "xếp hàng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "form a line; line up; queue up",
+          "sentence": "大傢正在排隊。",
+          "pinyin": "dàjiā zhèngzài páiduì.",
+          "en": "Everyone is lining up.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "form a line; line up; queue up",
+          "sentence": "請大傢按順序排隊。",
+          "pinyin": "qǐng dàjiā àn shùnxù páiduì.",
+          "en": "Please line up in order.",
+          "vi": "Mọi người hãy xếp hàng theo thứ tự."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "校刊",
+      "pinyin": "xiàokān",
+      "en": "school newspaper/publications",
+      "vi": "báo trường, nội san",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "school publication; college journal",
+          "sentence": "我在校刊上髮/發錶文章。",
+          "pinyin": "wǒ zài xiào kān shàng fābiǎo wénzhāng.",
+          "en": "I published an article in the school journal.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "school magazine",
+          "sentence": "校刊每月都會齣版一次。",
+          "pinyin": "xiàokān měi yuè dōuhuì chūbǎn yīcì.",
+          "en": "The school journal is published monthly.",
+          "vi": "Tập san của trường được xuất bản hàng tháng."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "採訪",
+      "pinyin": "cǎifǎng",
+      "en": "to interview",
+      "vi": "phỏng vấn",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cover; interview; gather news",
+          "sentence": "記者在學校採訪學生。",
+          "pinyin": "jìzhě zài xuéxiào cǎifǎng xuéshēng.",
+          "en": "The reporter interviewed the students at the school.",
+          "vi": "Phóng viên phỏng vấn học sinh tại trường."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cover; interview; gather news",
+          "sentence": "他正在採訪當地居民。",
+          "pinyin": "tā zhèngzài cǎifǎng dāngdì jūmín.",
+          "en": "He is interviewing local residents.",
+          "vi": "Anh ấy đang phỏng vấn cư dân địa phương."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "校友",
+      "pinyin": "xiàoyǒu",
+      "en": "alumnus",
+      "vi": "cựu sinh viên",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "alumna; alumnus; schoolmate",
+          "sentence": "我們是衕班的校友。",
+          "pinyin": "wǒmen shì tóngbān de xiàoyǒu.",
+          "en": "We are schoolmates in the same class.",
+          "vi": "Chúng tôi là bạn học cùng lớp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "alumna; alumnus; schoolmate",
+          "sentence": "校友之間保持聯繫。",
+          "pinyin": "xiàoyǒu zhī jiān bǎochí liánxì.",
+          "en": "Schoolmates keep in touch with each other.",
+          "vi": "Các bạn học giữ liên lạc với nhau."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "博士",
+      "pinyin": "bóshì",
+      "en": "doctorate, PhD",
+      "vi": "tiến sĩ",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "doctorate; doctor degree",
+          "sentence": "他是一位物理學博士。",
+          "pinyin": "tā shì yī wèi wùlǐ xué bóshì.",
+          "en": "He holds a Ph.D. in Physics.",
+          "vi": "Anh ấy là một tiến sĩ vật lý."
+        },
+        {
+          "type": "Noun",
+          "meaning": "doctorate; doctor degree",
+          "sentence": "他們請了一位博士講座。",
+          "pinyin": "tāmen qǐngle yī wèi bóshì jiǎngzuò.",
+          "en": "They invited a doctor to give a lecture.",
+          "vi": "Họ mời một tiến sĩ đến thuyết giảng."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "學位",
+      "pinyin": "xuéwèi",
+      "en": "academic degree",
+      "vi": "học vị, bằng cấp",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "degree; academic degree",
+          "sentence": "他正在攻讀碩士學位。",
+          "pinyin": "tā zhèngzài gōngdú shuòshì xuéwèi.",
+          "en": "He is pursuing a master's degree.",
+          "vi": "Anh ấy đang học học vị thạc sĩ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "degree; academic degree",
+          "sentence": "他的學位證書已經髮/發放。",
+          "pinyin": "tā de xuéwèi zhèngshū yǐjīng fāfàng.",
+          "en": "His degree certificate has been issued.",
+          "vi": "Anh ấy đã được cấp bằng học vị."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "考",
+      "pinyin": "kǎo",
+      "en": "to take a test",
+      "vi": "thi, kiểm tra",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "examine; give (take) an examination, test or quiz",
+          "sentence": "他正在準備考試。",
+          "pinyin": "tā zhèngzài zhǔnbèi kǎoshì.",
+          "en": "He is preparing for the exam.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "examine; give (take) an examination, test or quiz",
+          "sentence": "我三年前考上了大學。",
+          "pinyin": "wǒ sān nián qián kǎo shàngle dàxué.",
+          "en": "I got into university three years ago.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "one's deceased father",
+          "sentence": "他經常懷唸先考。",
+          "pinyin": "tā jīngcháng huáiniàn xiān kǎo.",
+          "en": "He often reminisces about his late father.",
+          "vi": "Anh ấy thường nhớ đến người cha đã qua đời."
+        },
+        {
+          "type": "Noun",
+          "meaning": "one's deceased father",
+          "sentence": "我每天都想唸我的考。",
+          "pinyin": "wǒ měitiān dōu xiǎngniàn wǒ de kǎo.",
+          "en": "I miss my late father every day.",
+          "vi": "Tôi ngày nào cũng nhớ đến cha tôi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "old",
+          "sentence": "這隻考貓很聰明。",
+          "pinyin": "zhè zhī kǎo māo hěn cōngmíng.",
+          "en": "This old cat is very smart.",
+          "vi": "Con mèo già này rất thông minh."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "old",
+          "sentence": "考的母雞依舊下蛋。",
+          "pinyin": "kǎo de mǔ jī yījiù xiàdàn.",
+          "en": "The old hen still lays eggs.",
+          "vi": "Con gà mái già vẫn đẻ trứng."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "司機",
+      "pinyin": "sījī",
+      "en": "driver, chauffeur",
+      "vi": "tài xế",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "driver; chauffeur",
+          "sentence": "司機正在等我們。",
+          "pinyin": "sījī zhèngzài děng wǒmen.",
+          "en": "The driver is waiting for us.",
+          "vi": "Tài xế đang đợi chúng ta."
+        },
+        {
+          "type": "Noun",
+          "meaning": "driver; chauffeur",
+          "sentence": "這位司機很有經驗。",
+          "pinyin": "zhè wèi sījī hěn yǒu jīngyàn.",
+          "en": "This driver is very experienced.",
+          "vi": "Bác tài xế này rất có kinh nghiệm."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "學士",
+      "pinyin": "xuéshì",
+      "en": "bachelor's degree",
+      "vi": "cử nhân",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "scholar",
+          "sentence": "學士負責起草重要文件。",
+          "pinyin": "xuéshì fùzé qǐcǎo zhòngyào wénjiàn.",
+          "en": "The scholar is responsible for drafting important documents.",
+          "vi": "Học sĩ phụ trách soạn văn kiện quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "scholar",
+          "sentence": "他在朝廷擔任學士多年。",
+          "pinyin": "tā zài cháotíng dānrèn xuéshì duōnián.",
+          "en": "He has served as a scholar in the imperial court for many years.",
+          "vi": "Ông làm học sĩ trong triều đình nhiều năm"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "地攤",
+      "pinyin": "dìtān",
+      "en": "street stall",
+      "vi": "sạp hàng vỉa hè",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a roadside stall",
+          "sentence": "這個地攤很熱鬧。",
+          "pinyin": "zhège dìtān hěn rè nao.",
+          "en": "This roadside stall is very lively.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a roadside stall",
+          "sentence": "他在地攤賣小玩意兒。",
+          "pinyin": "tā zài dìtān mài xiǎo wányìr.",
+          "en": "He sells toys at a roadside stall.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "現象",
+      "pinyin": "xiànxiàng",
+      "en": "phenomenon",
+      "vi": "hiện tượng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "appearance (of things); phenomenon",
+          "sentence": "這是一個常見的自然現象。",
+          "pinyin": "zhè shì yīgè chángjiàn de zìrán xiànxiàng.",
+          "en": "This is a common natural phenomenon.",
+          "vi": "Đây là một hiện tượng tự nhiên phổ biến."
+        },
+        {
+          "type": "Noun",
+          "meaning": "appearance (of things); phenomenon",
+          "sentence": "天空齣現了一種奇怪的現象。",
+          "pinyin": "tiānkōng chūxiànle yī zhǒng qíguài de xiànxiàng.",
+          "en": "A strange phenomenon appeared in the sky.",
+          "vi": "Trên bầu trời xuất hiện một hiện tượng kỳ lạ."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "稀奇",
+      "pinyin": "xīqí",
+      "en": "rare and unique",
+      "vi": "hiếm có, kỳ lạ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "rare; unusual; extraordinary",
+          "sentence": "她的髮/發明真是太稀奇了。",
+          "pinyin": "tā de fǎ míng zhēnshi tài xīqíle.",
+          "en": "Her invention is really extraordinary.",
+          "vi": "Phát minh của cô ấy thật sự rất kỳ lạ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "rare; unusual; extraordinary",
+          "sentence": "他穿著一件稀奇的衣服。",
+          "pinyin": "tā chuānzhuó yī jiàn xīqí de yīfu.",
+          "en": "He is wearing a unusual outfit.",
+          "vi": "Anh ấy mặc một bộ đồ rất kỳ lạ."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "搶",
+      "pinyin": "qiǎng",
+      "en": "to scramble for",
+      "vi": "tranh giành",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "rob; loot",
+          "sentence": "他把書搶走了。",
+          "pinyin": "tā bǎ shū qiǎng zǒule.",
+          "en": "He snatched the book away.",
+          "vi": "Anh ấy giành lấy quyển sách rồi."
+        },
+        {
+          "type": "verb",
+          "meaning": "rob; loot",
+          "sentence": "我的手機被搶了。",
+          "pinyin": "wǒ de shǒujī bèi qiǎngle.",
+          "en": "My phone was stolen.",
+          "vi": "Điện thoại của tôi bị cướp mất rồi."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "批評",
+      "pinyin": "pīpíng",
+      "en": "to criticize",
+      "vi": "phê bình",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to criticize; to comment on",
+          "sentence": "老師批評了他的錯誤。",
+          "pinyin": "lǎoshī pīpíngle tā de cuòwù.",
+          "en": "The teacher criticized his mistake.",
+          "vi": "Giáo viên phê bình lỗi của anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to criticize; to comment on",
+          "sentence": "經理批評了員工的態度。",
+          "pinyin": "jīnglǐ pīpíngle yuángōng de tàidù.",
+          "en": "The manager criticized the employee's attitude.",
+          "vi": "Giám đốc phê bình thái độ của nhân viên."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "浪費",
+      "pinyin": "làngfèi",
+      "en": "to waste",
+      "vi": "lãng phí",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "waste; dissipate; squander; be extravagant",
+          "sentence": "浪費時間是不明智的。",
+          "pinyin": "làngfèi shíjiān shì bù míngzhì de.",
+          "en": "Wasting time is unwise.",
+          "vi": "Lãng phí thời gian là sự thiếu sáng suốt."
+        },
+        {
+          "type": "Verb",
+          "meaning": "waste; dissipate; squander; be extravagant",
+          "sentence": "浪費資源是不可接受的。",
+          "pinyin": "làngfèi zīyuán shì bùkě jiēshòu de.",
+          "en": "Wasting resources is unacceptable.",
+          "vi": "Lãng phí tài nguyên là không thể chấp nhận."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "waste; extravagantly",
+          "sentence": "她的時間管理非常浪費。",
+          "pinyin": "tā de shíjiān guǎnlǐ fēicháng làngfèi.",
+          "en": "Her time management is very wasteful.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "waste; extravagantly",
+          "sentence": "這頓飯的準備太浪費了。",
+          "pinyin": "zhè dùn fàn de zhǔnbèi tài làngfèile.",
+          "en": "The preparation for this meal is too wasteful.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "畢竟",
+      "pinyin": "bìjìng",
+      "en": "after all",
+      "vi": "suy cho cùng",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "after all; all in all; when all is said and done; in the final analysis",
+          "sentence": "他畢竟是小孩，你不要打他。",
+          "pinyin": "tā bìjìng shì xiǎohái, nǐ bùyào dǎ tā.",
+          "en": "After all, he is a child. Don't hit him.",
+          "vi": "Nó dù sao cũng là trẻ con, anh đừng đánh nó."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "after all; all in all; when all is said and done; in the final analysis",
+          "sentence": "她畢竟學過漢語,可以當翻譯。",
+          "pinyin": "tā bìjìng xuéguò hànyǔ, kěyǐ dāng fānyì.",
+          "en": "After all, she has studied Chinese and can be a translator.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "貢獻",
+      "pinyin": "gòngxiàn",
+      "en": "to make contributions",
+      "vi": "cống hiến",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "devote; dedicate; contribute; contributed",
+          "sentence": "他為國傢貢獻了很多力量。",
+          "pinyin": "tā wèi guójiā gòngxiànle hěnduō lìliàng.",
+          "en": "He contributed a lot of strength to the country.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "devote; dedicate; contribute; contributed",
+          "sentence": "我們應該貢獻自己的經驗。",
+          "pinyin": "wǒmen yīnggāi gòngxiàn zìjǐ de jīngyàn.",
+          "en": "We should contribute our experience.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "contribution",
+          "sentence": "他為國傢做齣了很大貢獻。",
+          "pinyin": "tā wèi guójiā zuò chūle hěn dà gòngxiàn.",
+          "en": "He made a great contribution to the country.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "contribution",
+          "sentence": "她的貢獻得到了認可。",
+          "pinyin": "tā de gòngxiàn dédàole rènkě.",
+          "en": "Her contribution was recognized.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "的確",
+      "pinyin": "díquè",
+      "en": "indeed",
+      "vi": "quả thực",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "really; indeed",
+          "sentence": "他的確很聰明。",
+          "pinyin": "tā díquè hěn cōngmíng.",
+          "en": "He is indeed very smart.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; indeed",
+          "sentence": "你説的的確是事實。",
+          "pinyin": "nǐ shuō de díquè shì shìshí.",
+          "en": "What you said is indeed true.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "盲目",
+      "pinyin": "mángmù",
+      "en": "blindly",
+      "vi": "mù quáng",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "blind; aimless",
+          "sentence": "愛是盲目的，恨也是盲目的。",
+          "pinyin": "ài shì mángmù de, hèn yěshì mángmù de.",
+          "en": "Love as well as hate is blind.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "blind; aimless",
+          "sentence": "這完全是一種盲目的行為。",
+          "pinyin": "zhè wánquán shì yī zhǒng mángmù de xíngwéi.",
+          "en": "This is completely blind behavior.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "升學",
+      "pinyin": "shēngxué",
+      "en": "to pursue further education",
+      "vi": "học lên cao",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "go to a school of a higher grade; enter a higher grade",
+          "sentence": "他順利通過了昇學麵試。",
+          "pinyin": "tā shùnlì tōngguòle shēngxué miànshì.",
+          "en": "He successfully passed the entrance interview.",
+          "vi": "Anh ấy đã vượt qua phỏng vấn đầu vào."
+        },
+        {
+          "type": "sv",
+          "meaning": "go to a school of a higher grade; enter a higher grade",
+          "sentence": "她為了昇學而努力學習。",
+          "pinyin": "tā wèile shēngxué ér nǔlì xuéxí.",
+          "en": "She studies hard to continue her education.",
+          "vi": "Cô học tập chăm chỉ để học lên."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "逃避",
+      "pinyin": "táobì",
+      "en": "to evade, escape",
+      "vi": "trốn tránh",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shirk; evade; escape",
+          "sentence": "他總是逃避責任。",
+          "pinyin": "tā zǒng shì táobì zérèn.",
+          "en": "He always shirks responsibility.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "shirk; evade; escape",
+          "sentence": "她一直在逃避這個問題。",
+          "pinyin": "tā yīzhí zài táobì zhège wèntí.",
+          "en": "She has been evading this issue.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "就業",
+      "pinyin": "jiùyè",
+      "en": "employment",
+      "vi": "việc làm, nghề nghiệp",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "get a job; obtain employment; take up an occupation",
+          "sentence": "就業問題越來越嚴重。",
+          "pinyin": "jiùyè wèntí yuè lái yuè yánzhòng.",
+          "en": "The employment problem is becoming more and more serious.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "get a job; obtain employment; take up an occupation",
+          "sentence": "他正在尋找就業機會。",
+          "pinyin": "tā zhèngzài xúnzhǎo jiùyè jīhuì.",
+          "en": "He is looking for employment opportunities.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "延後",
+      "pinyin": "yánhòu",
+      "en": "to postpone",
+      "vi": "trì hoãn",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "delay; defer; postpone",
+          "sentence": "展覽會開幕的日期延遲了。",
+          "pinyin": "zhǎn lǎn huì kāi mù de rì qī yán chí le.",
+          "en": "The opening of the exhibition has been postponed.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "• verspäten (V)",
+          "sentence": "我們決定把會議延後。",
+          "pinyin": "Wǒmen juédìng bǎ huìyì yán hòu.",
+          "en": "We decided to postpone the meeting.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "啃老族",
+      "pinyin": "kěnlǎozú",
+      "en": "someone who lives off their parents",
+      "vi": "kẻ ăn bám bố mẹ",
+      "theme": "Society",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "grownups who are unwilling to work but live off their parents",
+          "sentence": "“啃老族”是依靠父母生活。",
+          "pinyin": "“kěn lǎo zú” shì yīkào fùmǔ shēnghuó.",
+          "en": "A \"ken lao zu\" is someone who lives off their parents.",
+          "vi": "“Ăn bám\" là sống dựa vào cha mẹ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "grownups who are unwilling to work but live off their parents",
+          "sentence": "啃老族現象已成社會問題。",
+          "pinyin": "kěn lǎo zú xiànxiàng yǐ chéng shèhuì wèntí.",
+          "en": "The phenomenon of NEET group has become a social problem.",
+          "vi": "Hiện tượng ăn bám đã trở thành vấn đề xã hội."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "收攤",
+      "pinyin": "shōutān",
+      "en": "to close up shop",
+      "vi": "dọn hàng, nghỉ bán",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "spread out",
+          "sentence": "爸爸攤開工作圖紙。",
+          "pinyin": "bàba tān kāi gōngzuò túzhǐ.",
+          "en": "Dad spread out the work drawings.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "spread out",
+          "sentence": "哥哥攤開運動裝備。",
+          "pinyin": "gēge tān kāi yùndòng zhuāngbèi.",
+          "en": "The older brother spread out his sports gear.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "vendor's stand; booth; stall; kiosk",
+          "sentence": "他在公園門口設攤賣玩具。",
+          "pinyin": "tā zài gōngyuán ménkǒu shè tān mài wánjù.",
+          "en": "He set up a stall to sell toys at the park entrance.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "vendor's stand; booth; stall; kiosk",
+          "sentence": "每天早上有人設攤賣早餐。",
+          "pinyin": "měitiān zǎoshang yǒurén shè tān mài zǎocān.",
+          "en": "Every morning, someone sets up a stall to sell breakfast.",
+          "vi": ""
+        },
+        {
+          "type": "measure word",
+          "meaning": "Used for spreading paste.",
+          "sentence": "地上有一攤水。",
+          "pinyin": "dìshàng yǒuyī tān shuǐ.",
+          "en": "There was a puddle of water on the ground.",
+          "vi": ""
+        },
+        {
+          "type": "measure word",
+          "meaning": "Used for spreading paste.",
+          "sentence": "路邊是一攤泥。",
+          "pinyin": "lù biān shì yī tān ní.",
+          "en": "There was a puddle of mud by the roadside.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "清潔隊員",
+      "pinyin": "qīngjié duìyuán",
+      "en": "street cleaners",
+      "vi": "nhân viên vệ sinh",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "clean",
+          "sentence": "這間房間非常清潔。",
+          "pinyin": "zhè jiān fángjiān fēicháng qīngjié.",
+          "en": "This room is very clean.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "clean",
+          "sentence": "清潔的水是生命的基礎。",
+          "pinyin": "qīngjié de shuǐ shì shēngmìng de jīchǔ.",
+          "en": "Clean water is the foundation of life.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "擺地攤",
+      "pinyin": "bǎi dìtān",
+      "en": "to have a street stall",
+      "vi": "bày hàng vỉa hè",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fig. to start up a new business",
+          "sentence": "我週末去擺地攤賺錢。",
+          "pinyin": "Wǒ zhōumò qù bǎi dì tān zhuànqián",
+          "en": "I'll set up a stall on weekends to make money.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "lit. to set up a stall on the ground",
+          "sentence": "他開始在街角擺地攤。",
+          "pinyin": "tā kāi shǐ zài jiē jiǎo bǎi dì tān。",
+          "en": "He began setting up a stall on the street corner.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "大多數",
+      "pinyin": "dàduōshù",
+      "en": "most, the majority of",
+      "vi": "đại đa số",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "great majority; vast majority; the bulk",
+          "sentence": "大多數學生都喜歡這門課。",
+          "pinyin": "dà duōshù xuéshēng dōu xǐhuan zhè mén kè.",
+          "en": "Most students like this course.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "great majority; vast majority; the bulk",
+          "sentence": "大多數人支持這個計劃。",
+          "pinyin": "dà duōshù rén zhīchí zhège jìhuà.",
+          "en": "The majority of people support this plan.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "話說回來",
+      "pinyin": "huàshuō huílái",
+      "en": "on the other hand",
+      "vi": "nói đi cũng phải nói lại",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "by the way; that being said; speaking of which; on the other hand",
+          "sentence": "話説迴來，我還有個問題想問。",
+          "pinyin": "huàshuō huílái, wǒ hái yǒu gè wèntí xiǎng wèn.",
+          "en": "By the way, I have another question to ask.",
+          "vi": "Nói đi cũng phải nói lại, tớ còn có một vấn đề muốn hỏi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "by the way; that being said; speaking of which; on the other hand",
+          "sentence": "話説迴來，這也不是長久之計。",
+          "pinyin": "huàshuō huílái, zhè yě bùshì chángjiǔ zhī jì.",
+          "en": "That being said, this is not a long-term solution.",
+          "vi": "Nói đi cũng phải nói lại, đây cũng không phải kế lâu dài."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "自食其力",
+      "pinyin": "zìshí qílì",
+      "en": "to rely on yourself",
+      "vi": "tự lực cánh sinh",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "Idiom",
+          "meaning": "support oneself; earn one's own living; stand on one's own feet",
+          "sentence": "他年輕時就自食其力。",
+          "pinyin": "tā niánqīng shí jiù zìshíqílì.",
+          "en": "He supported himself when he was young.",
+          "vi": "Anh ấy đã tự lực cánh sinh từ khi còn trẻ."
+        },
+        {
+          "type": "Idiom",
+          "meaning": "support oneself; earn one's own living; stand on one's own feet",
+          "sentence": "他靠自食其力生活。",
+          "pinyin": "tā kào zìshíqílì shēnghuó.",
+          "en": "He lives by his own efforts.",
+          "vi": "Anh ấy sống bằng sức lao động của mình."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "下一期",
+      "pinyin": "xiàyìqí",
+      "en": "next issue",
+      "vi": "kỳ tới, số tới",
+      "theme": "Media",
+      "samples": [
+        {
+          "type": "class",
+          "meaning": "one time; once",
+          "sentence": "我想試一下這個菜。",
+          "pinyin": "wǒ xiǎng shì yīxià zhège cài.",
+          "en": "I want to try this dish a bit.",
+          "vi": "Tôi muốn thử món này một chút."
+        },
+        {
+          "type": "class",
+          "meaning": "one time; once",
+          "sentence": "請你等一下可以嗎？",
+          "pinyin": "qǐng nǐ děng yīxià kěyǐ ma?",
+          "en": "Can you wait a moment, please?",
+          "vi": "Bạn có thể đợi một chút được không?"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in a short while; all at once; all of a sudden",
+          "sentence": "他一下就消失了。",
+          "pinyin": "tā yīxià jiù xiāoshīle.",
+          "en": "He disappeared in an instant.",
+          "vi": "Anh ta thoáng cái biến mất."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in a short while; all at once; all of a sudden",
+          "sentence": "她一下就跑遠了。",
+          "pinyin": "tā yīxià jiù pǎo yuǎnle.",
+          "en": "She quickly ran far away.",
+          "vi": "Cô ấy thoáng cái đã chạy xa."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "段",
+      "pinyin": "duàn",
+      "en": "a period of time",
+      "vi": "khoảng thời gian",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "part; section; segment",
+          "sentence": "這段木頭很結實。",
+          "pinyin": "zhè duàn mùtou hěn jiēshi.",
+          "en": "This piece of wood is very solid.",
+          "vi": "Cái khúc gỗ này rất chắc chắn."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "part; section; segment",
+          "sentence": "我喜歡這兩段木頭。",
+          "pinyin": "wǒ xǐhuan zhè liǎng duàn mùtou.",
+          "en": "I like these two pieces of wood.",
+          "vi": "Tôi thích hai khúc gỗ này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他的姓是段。",
+          "pinyin": "tā de xìng shì duàn.",
+          "en": "His surname is Duan.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的朋友姓段。",
+          "pinyin": "wǒ de péngyou xìng duàn.",
+          "en": "My friend’s surname is Duan.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cut off; separate",
+          "sentence": "他段斷了關繫。",
+          "pinyin": "tā duàn duànle guānxi.",
+          "en": "He cut off the relationship.",
+          "vi": "Anh ấy đã cắt đứt mối quan hệ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cut off; separate",
+          "sentence": "他段斷了閤衕。",
+          "pinyin": "tā duàn duànle hétong.",
+          "en": "He terminated the contract.",
+          "vi": "Anh ấy chấm dứt hợp đồng."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "物價",
+      "pinyin": "wùjià",
+      "en": "commodity prices",
+      "vi": "vật giá",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "prices of commodities",
+          "sentence": "物價穩定對生活很重要。",
+          "pinyin": "wùjià wěndìng duì shēnghuó hěn zhòngyào.",
+          "en": "Stable prices are crucial for life.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "prices of commodities",
+          "sentence": "超市的物價很閤理。",
+          "pinyin": "chāoshì de wùjià hěn hélǐ.",
+          "en": "Supermarket prices are reasonable.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "上漲",
+      "pinyin": "shàngzhǎng",
+      "en": "to rise",
+      "vi": "tăng giá",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to rise; to go up",
+          "sentence": "房價又上漲了。",
+          "pinyin": "fángjià yòu shàngzhǎngle.",
+          "en": "The housing prices have gone up again.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to rise; to go up",
+          "sentence": "水位正在上漲。",
+          "pinyin": "shuǐwèi zhèngzài shàngzhǎng.",
+          "en": "The water level is rising.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "所得",
+      "pinyin": "suǒdé",
+      "en": "income",
+      "vi": "thu nhập",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "obtaine; gain",
+          "sentence": "做生意有所得也可能有所失。",
+          "pinyin": "zuò shēngyì yǒu suǒdé yě kěnéng yǒu suǒ shī.",
+          "en": "Doing business may bring gains but can also involve losses.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "obtaine; gain",
+          "sentence": "他把所得工資一半交給老婆。",
+          "pinyin": "tā bǎ suǒdé gōngzī yībàn jiāo gěi lǎopó.",
+          "en": "He gives half of his salary to his wife.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "漲",
+      "pinyin": "zhǎng",
+      "en": "to rise",
+      "vi": "tăng, lên",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "swell up",
+          "sentence": "米飯已經漲了。",
+          "pinyin": "mǐfàn yǐjīng zhàngle.",
+          "en": "The rice has puffed up.",
+          "vi": "Cơm đã nở ra rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "swell up",
+          "sentence": "麵團漲大了。",
+          "pinyin": "miàntuán zhàng dàle.",
+          "en": "The dough has proofed well.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "勉強",
+      "pinyin": "miǎnqiǎng",
+      "en": "barely",
+      "vi": "miễn cưỡng, vừa đủ",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "reluctant; unwilling; grudging",
+          "sentence": "我隻好勉強答應。",
+          "pinyin": "wǒ zhǐhǎo miǎn qiǎng dāying.",
+          "en": "I reluctantly agreed.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "reluctant; unwilling; grudging",
+          "sentence": "他很勉強地借給了我。",
+          "pinyin": "tā hěn miǎn qiǎng de jiè gěile wǒ.",
+          "en": "He lent it to me very reluctantly.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to push; force sb to do sth",
+          "sentence": "要是她不答應，不要勉強她。",
+          "pinyin": "yào shì tā bù dāying, bù yào miǎn qiǎng tā.",
+          "en": "If she doesn't agree, don't try to force her to.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to push; force sb to do sth",
+          "sentence": "我不想，不要勉強我。",
+          "pinyin": "wǒ bùxiǎng, bùyào miǎn qiǎng wǒ.",
+          "en": "I don't want to, don't force me.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "根本",
+      "pinyin": "gēnběn",
+      "en": "at all",
+      "vi": "hoàn toàn",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "base; root; foundation",
+          "sentence": "根本問題還沒有解決。",
+          "pinyin": "gēnběn wèntí hái méiyǒu jiějué.",
+          "en": "The root issue has not been resolved yet.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "base; root; foundation",
+          "sentence": "根本的原則必須遵守。",
+          "pinyin": "gēnběn de yuánzé bìxū zūnshǒu.",
+          "en": "The fundamental principles must be followed.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "basic; essential; fundamental",
+          "sentence": "這決定了根本結果。",
+          "pinyin": "zhè juédìngle gēnběn jiéguǒ.",
+          "en": "This determines the fundamental result.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "basic; essential; fundamental",
+          "sentence": "根本因素不容忽視。",
+          "pinyin": "gēnběn yīnsù bùróng hūshì.",
+          "en": "The fundamental factor cannot be ignored.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "ever; simply; at all",
+          "sentence": "事情根本沒有解決。",
+          "pinyin": "shìqíng gēnběn méiyǒu jiějué.",
+          "en": "The issue has not been resolved at all.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "ever; simply; at all",
+          "sentence": "我根本沒時間休息。",
+          "pinyin": "wǒ gēnběn méi shíjiān xiūxi.",
+          "en": "I have no time to rest at all.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "組織",
+      "pinyin": "zǔzhī",
+      "en": "organization",
+      "vi": "tổ chức",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "organization",
+          "sentence": "他們是一個非營利組織。",
+          "pinyin": "tāmen shì yīgè fēi yínglì zǔzhī.",
+          "en": "They are a non-profit organization.",
+          "vi": "Họ là một tổ chức phi lợi nhuận."
+        },
+        {
+          "type": "Noun",
+          "meaning": "organization",
+          "sentence": "每個組織都有自己的規則。",
+          "pinyin": "měi gè zǔzhī dōu yǒu zìjǐ de guīzé.",
+          "en": "Every organization has its own rules.",
+          "vi": "Mỗi tổ chức đều có quy định riêng của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to organize; to form",
+          "sentence": "他負責組織這次會議。",
+          "pinyin": "tā fùzé zǔzhī zhè cì huìyì.",
+          "en": "He is in charge of organizing this conference.",
+          "vi": "Anh ấy phụ trách lập cuộc họp này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to organize; to form",
+          "sentence": "學校組織了很多有趣活動。",
+          "pinyin": "xuéxiào zǔzhīle hěnduō yǒuqù huódòng.",
+          "en": "The school organized many interesting activities.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "抗議",
+      "pinyin": "kàngyì",
+      "en": "to protest against",
+      "vi": "kháng nghị, phản đối",
+      "theme": "Social Issues",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "protest; protested; remonstrate",
+          "sentence": "學生們抗議了學校的決定。",
+          "pinyin": "xuéshēngmen kàngyìle xuéxiào de juédìng.",
+          "en": "Students protested the school's decision.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "protest; protested; remonstrate",
+          "sentence": "他們抗議政府的不公正。",
+          "pinyin": "tāmen kàngyì zhèngfǔ de bù gōngzhèng.",
+          "en": "They protested against the government's injustice.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "地價",
+      "pinyin": "dìjià",
+      "en": "land prices",
+      "vi": "giá đất",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "land price; price of lot",
+          "sentence": "都市地價不斷上漲。",
+          "pinyin": "Dūshì dìjià bùduàn shàngzhǎng.",
+          "en": "Urban land prices keep rising.",
+          "vi": "Giá đất đô thị không ngừng tăng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "land-value",
+          "sentence": "城市中心的地價很高。",
+          "pinyin": "chéngshì zhōngxīn de dìjià hěn gāo",
+          "en": "Land value in the city center is very high.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "房價",
+      "pinyin": "fángjià",
+      "en": "housing prices",
+      "vi": "giá nhà",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cost of housing; room rate",
+          "sentence": "今年城市的房價又漲了。",
+          "pinyin": "Jīnnián chéngshì de fángjià yòu zhǎng le",
+          "en": "Housing prices in the city rose again this year.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "house price",
+          "sentence": "這個城市的房價好像在無限製地飛漲。",
+          "pinyin": "zhè gè chéng shì de fáng jià hǎo xiàng zài wú xiàn zhì dì fēi zhǎng.",
+          "en": "The house prices in the city seemed soaring up without limit.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "高漲",
+      "pinyin": "gāozhǎng",
+      "en": "to surge",
+      "vi": "tăng vọt",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "upsurge; rise high; run high; surge ahead (forward)",
+          "sentence": "大傢的士氣高漲。",
+          "pinyin": "dàjiā de shìqì gāozhǎng.",
+          "en": "Everyone's enthusiasm is high.",
+          "vi": "Tinh thần mọi người tăng cao."
+        },
+        {
+          "type": "Verb",
+          "meaning": "upsurge; rise high; run high; surge ahead (forward)",
+          "sentence": "人們的熱情高漲。",
+          "pinyin": "rénmen de rèqíng gāozhǎng.",
+          "en": "People's enthusiasm is high.",
+          "vi": "Nhiệt tình của mọi người tăng cao."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "造成",
+      "pinyin": "zàochéng",
+      "en": "to cause",
+      "vi": "gây ra",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "create; cause; give rise to; bring about",
+          "sentence": "火災造成了鉅大的損失。",
+          "pinyin": "huǒzāi zàochéngle jùdà de sǔnshī.",
+          "en": "The fire caused great damage.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "create; cause; give rise to; bring about",
+          "sentence": "炸彈造成大麵積破壞。",
+          "pinyin": "zhàdàn zàochéng dà miànjī pòhuài.",
+          "en": "The bomb caused widespread devastation.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "統計",
+      "pinyin": "tǒngjì",
+      "en": "statistics",
+      "vi": "thống kê",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "compile statistics",
+          "sentence": "統計數據是很復雜的。",
+          "pinyin": "tǒngjì shùjù shì hěn fùzá de.",
+          "en": "Statistical data is very complex.",
+          "vi": "Dữ liệu thống kê rất phức tạp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "compile statistics",
+          "sentence": "我正在統計學生人數。",
+          "pinyin": "wǒ zhèngzài tǒngjì xuéshēng rénshù.",
+          "en": "I am counting the number of students.",
+          "vi": "Tôi đang thống kê số lượng học sinh."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "chinese": "窮忙",
+      "pinyin": "qióngmáng",
+      "en": "busy without gaining much",
+      "vi": "bận rộn vô ích",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "try hard to eke out a living",
+          "sentence": "他為了生活窮忙不已。",
+          "pinyin": "Tā wèile shēnghuó qióngmáng bùyǐ.",
+          "en": "He is endlessly struggling to eke out a living.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "be pointlessly busy; be busy for nothing",
+          "sentence": "他總是窮忙沒有收穫。",
+          "pinyin": "Tā zǒng shì qióng máng méi yǒu shōu huò.",
+          "en": "He is always busy for nothing and gains no results.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "chinese": "全球",
+      "pinyin": "quánqiú",
+      "en": "global, worldwide",
+      "vi": "toàn cầu",
+      "theme": "Geography",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the whole world",
+          "sentence": "全球化帶來新機會。",
+          "pinyin": "quánqiú huà dài lái xīn jīhuì.",
+          "en": "Globalization offers new opportunities.",
+          "vi": "Toàn cầu hóa mang đến cơ hội mới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the whole world",
+          "sentence": "全球人口增長迅速。",
+          "pinyin": "quánqiú rénkǒu zēngzhǎng xùnsù.",
+          "en": "The global population is growing rapidly.",
+          "vi": "Dân số toàn cầu tăng nhanh."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "chinese": "景氣",
+      "pinyin": "jǐngqì",
+      "en": "economic conditions",
+      "vi": "tình hình kinh tế",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "prosperity; flourishing",
+          "sentence": "經濟景氣很好。",
+          "pinyin": "jīngjì jǐngqì hěn hǎo.",
+          "en": "The economy is prosperous.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "prosperity; flourishing",
+          "sentence": "市場景氣帶動了髮/發展。",
+          "pinyin": "shìchǎng jǐngqì dàidòngle fāzhǎn.",
+          "en": "The prosperous market drove development.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "chinese": "施行",
+      "pinyin": "shīxíng",
+      "en": "to implement",
+      "vi": "thi hành",
+      "theme": "Law",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "apply; implement",
+          "sentence": "公司開始施行新政策。",
+          "pinyin": "gōngsī kāishǐ shīxíng xīn zhèngcè.",
+          "en": "The company began implementing the new policy.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "apply; implement",
+          "sentence": "醫院施行新管理方式。",
+          "pinyin": "yīyuàn shīxíng xīn guǎnlǐ fāngshì.",
+          "en": "The hospital is applying a new management system.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "chinese": "薪資",
+      "pinyin": "xīnzī",
+      "en": "salary, wages",
+      "vi": "tiền lương",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pay; wages; salary",
+          "sentence": "他的薪資很高。",
+          "pinyin": "tā de xīnzī hěn gāo.",
+          "en": "His salary is very high.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pay; wages; salary",
+          "sentence": "他的薪資比衕行高。",
+          "pinyin": "tā de xīnzī bǐ tóng háng gāo.",
+          "en": "His salary is higher than that of his peers.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "chinese": "多年",
+      "pinyin": "duōnián",
+      "en": "for many years",
+      "vi": "nhiều năm",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "many years",
+          "sentence": "多年不見啦！",
+          "pinyin": "Duōnián bùjiàn la!",
+          "en": "Haven’t seen you for ages!",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "many years",
+          "sentence": "他決定遠避塵囂多年。",
+          "pinyin": "Tā juédìng yuǎn bì chénxiāo duōnián.",
+          "en": "He decided to withdraw from the bustle for many years.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "chinese": "未",
+      "pinyin": "wèi",
+      "en": "not yet",
+      "vi": "chưa",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "adverb",
+          "meaning": "did not; have not",
+          "sentence": "意猶未儘",
+          "pinyin": "yì yóu wèi jìn",
+          "en": "Have not given full expression to one's views",
+          "vi": ""
+        },
+        {
+          "type": "adverb",
+          "meaning": "did not; have not",
+          "sentence": "工程尚未完工。",
+          "pinyin": "gōngchéng shàngwèi wángōng.",
+          "en": "The project is not yet completed.",
+          "vi": "Công trình vẫn chưa hoàn thành."
+        },
+        {
+          "type": "noun",
+          "meaning": "wei (or Goat - eighth of the twelve Earthly Branches)",
+          "sentence": "未時為下午一至三點。",
+          "pinyin": "Wèi shí wéi xià wǔ yī zhì sān diǎn",
+          "en": "The Wei hour is from 1 to 3 PM.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "wei (or Goat - eighth of the twelve Earthly Branches)",
+          "sentence": "他屬羊，也就是齣生在未年。",
+          "pinyin": "tā shǔ yáng, yě jiùshì chūshēng zài wèi nián.",
+          "en": "His Chinese zodiac sign is the Goat, which means he was born in the Year of the Goat.",
+          "vi": "Anh ấy cầm tinh con dê, tức là được sinh ra vào năm Mùi."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "chinese": "調高",
+      "pinyin": "tiáogāo",
+      "en": "to adjust upward",
+      "vi": "điều chỉnh tăng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "tall; high",
+          "sentence": "太陽已經很高了。",
+          "pinyin": "tài yáng yǐ jīng hěn gāo le.",
+          "en": "The sun was already high.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tall; high",
+          "sentence": "她比小紅高一頭。",
+          "pinyin": "tā bǐ xiǎo hóng gāo yītóu.",
+          "en": "She is a head taller than Xiaohong.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "height; altitude",
+          "sentence": "這座山的高度是多少？",
+          "pinyin": "zhè zuò shān de gāodù shì duōshǎo?",
+          "en": "What is the height of this mountain?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "height; altitude",
+          "sentence": "這座塔的高達到200米。",
+          "pinyin": "zhè zuò tǎ de gāo dádào 200 mǐ.",
+          "en": "The tower's height reaches 200 meters.",
+          "vi": "Độ cao của tòa tháp này tới 200 mét."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "chinese": "裁員",
+      "pinyin": "cáiyuán",
+      "en": "to lay off",
+      "vi": "cắt giảm nhân sự",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to lay off staff; reduce staff",
+          "sentence": "公司決定進行裁員。",
+          "pinyin": "gōngsī juédìng jìnxíng cáiyuán.",
+          "en": "The company has decided to reduce staff.",
+          "vi": "Công ty quyết định tiến hành cắt giảm nhân sự."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to lay off staff; reduce staff",
+          "sentence": "裁員對員工影響很大。",
+          "pinyin": "cáiyuán duì yuángōng yǐngxiǎng hěn dà.",
+          "en": "Layoffs have a big impact on employees.",
+          "vi": "Cắt giảm nhân sự ảnh hưởng rất lớn đến nhân viên."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "chinese": "觀察",
+      "pinyin": "guānchá",
+      "en": "to observe",
+      "vi": "quan sát",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "watch; survey; observe",
+          "sentence": "她有很強的觀察力。",
+          "pinyin": "tā yǒu hěn qiáng de guānchá lì.",
+          "en": "Her observing skill is really good.",
+          "vi": "Cô ấy có khả năng quan sát tuyệt vời."
+        },
+        {
+          "type": "Verb",
+          "meaning": "watch; survey; observe",
+          "sentence": "我們需要仔細觀察。",
+          "pinyin": "wǒmen xūyào zǐxì guānchá.",
+          "en": "We need to observe carefully.",
+          "vi": "Chúng ta cần quan sát cẩn thận."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "chinese": "彩券",
+      "pinyin": "cǎiquàn",
+      "en": "lottery",
+      "vi": "vé số",
+      "theme": "Entertainment",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lottery ticket",
+          "sentence": "我昨天買了一張綵券。",
+          "pinyin": "Wǒ zuótiān mǎi le yī zhāng cǎiquàn.",
+          "en": "I bought a lottery ticket yesterday.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lotteries",
+          "sentence": "昨晚我買了綵券一張。",
+          "pinyin": "zuó wǎn wǒ mǎi le cǎi quàn yī zhāng",
+          "en": "I bought a lottery ticket last night.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "chinese": "中獎",
+      "pinyin": "zhòngjiǎng",
+      "en": "to win a prize",
+      "vi": "trúng thưởng",
+      "theme": "Entertainment",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "win a prize (in a lottery, etc.)",
+          "sentence": "你有中獎的機會嗎？",
+          "pinyin": "nǐ yǒu zhòngjiǎng de jīhuì ma?",
+          "en": "Do you have a chance to win the prize?",
+          "vi": "Bạn có cơ hội trúng thưởng không?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "win a prize (in a lottery, etc.)",
+          "sentence": "她常常買綵票中獎。",
+          "pinyin": "tā chángcháng mǎi cǎipiào zhòngjiǎng.",
+          "en": "She often wins prizes when buying lottery tickets.",
+          "vi": "Cô ấy thường trúng thưởng khi mua vé số."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "chinese": "做夢",
+      "pinyin": "zuòmèng",
+      "en": "to dream",
+      "vi": "nằm mơ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "dream; have a dream",
+          "sentence": "我昨晚做夢。",
+          "pinyin": "wǒ zuó wǎn zuòmèng.",
+          "en": "I had a dream last night.",
+          "vi": "Tối qua tôi nằm mơ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dream; have a dream",
+          "sentence": "他經常做夢。",
+          "pinyin": "tā jīngcháng zuòmèng.",
+          "en": "He often has dreams.",
+          "vi": "Anh ấy thường xuyên nằm mơ."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "chinese": "發財",
+      "pinyin": "fācái",
+      "en": "to strike it rich",
+      "vi": "phát tài",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "get rich; make a fortune; make a pile",
+          "sentence": "他告訴我髮/發財的秘/祕訣。",
+          "pinyin": "tā gàosù wǒ fācái de mìjué.",
+          "en": "He told me the secret to getting rich.",
+          "vi": "Anh ấy nói với tôi bí quyết phát tài."
+        },
+        {
+          "type": "Verb",
+          "meaning": "get rich; make a fortune; make a pile",
+          "sentence": "這個項目是髮/發財機會。",
+          "pinyin": "zhège xiàngmù shì fācái jīhuì.",
+          "en": "This project is an opportunity to get rich.",
+          "vi": "Dự án này là cơ hội phát tài."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "chinese": "臉色",
+      "pinyin": "liǎnsè",
+      "en": "facial expression",
+      "vi": "sắc mặt",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "look; complexion",
+          "sentence": "他的臉色很紅。",
+          "pinyin": "tā de liǎnsè hěn hóng.",
+          "en": "His complexion is very red.",
+          "vi": "Sắc mặt của anh ấy rất đỏ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "look; complexion",
+          "sentence": "爺爺的臉色有點黃。",
+          "pinyin": "yéye de liǎnsè yǒudiǎn huáng.",
+          "en": "Grandpa's complexion is a bit yellow.",
+          "vi": "Sắc mặt của ông hơi vàng."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "chinese": "報導",
+      "pinyin": "bàodǎo",
+      "en": "report, news story",
+      "vi": "bản tin, đưa tin",
+      "theme": "Media",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "report (news); cover",
+          "sentence": "記者正在報導這場國際會議。",
+          "pinyin": "jìzhě zhèngzài bàodǎo zhè chǎng guójì huìyì.",
+          "en": "The reporter is covering this international conference.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "report (news); cover",
+          "sentence": "她報導了最近的科技新聞。",
+          "pinyin": "tā bàodǎole zuìjìn de kējì xīnwén.",
+          "en": "She reported the latest technology news.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "news report; story",
+          "sentence": "這篇報導非常詳細。",
+          "pinyin": "zhè piān bàodǎo fēicháng xiángxì.",
+          "en": "This news report is very detailed.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "news report; story",
+          "sentence": "我讀了一篇關於環保的報導。",
+          "pinyin": "wǒ dúle yī piān guānyú huánbǎo de bàodǎo.",
+          "en": "I read a news report about environmental protection.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "chinese": "指出",
+      "pinyin": "zhǐchū",
+      "en": "to point out",
+      "vi": "chỉ ra",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "point out",
+          "sentence": "他指齣了我的缺點。",
+          "pinyin": "tā zhǐchūle wǒ de quēdiǎn.",
+          "en": "He pointed out my shortcomings.",
+          "vi": "Anh ấy đã chỉ ra khuyết điểm của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "point out",
+          "sentence": "他指齣了問題的要害。",
+          "pinyin": "tā zhǐchūle wèntí de yàohài.",
+          "en": "He pointed out the crux of the problem.",
+          "vi": "Anh ấy đã chỉ ra cốt lõi vấn đề."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "chinese": "創業",
+      "pinyin": "chuàngyè",
+      "en": "to start a business",
+      "vi": "khởi nghiệp",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "start up a business",
+          "sentence": "創業需要很多勇氣。",
+          "pinyin": "chuàngyè xūyào hěnduō yǒngqì.",
+          "en": "Starting a business requires a lot of courage.",
+          "vi": "Khởi nghiệp đòi hỏi rất nhiều can đảm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "start up a business",
+          "sentence": "她對創業充滿激情。",
+          "pinyin": "tā duì chuàngyè chōngmǎn jīqíng.",
+          "en": "She is passionate about entrepreneurship.",
+          "vi": "Cô ấy rất đam mê khởi nghiệp."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "chinese": "餐飲業",
+      "pinyin": "cānyǐnyè",
+      "en": "food and beverage industry",
+      "vi": "ngành ăn uống",
+      "theme": "Business",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "eat",
+          "sentence": "不要忘記吃/喫早餐呀。",
+          "pinyin": "bùyào wàngjì chī zǎocān ya.",
+          "en": "Don't forget to have breakfast.",
+          "vi": "Đừng quên ăn sáng nhé."
+        },
+        {
+          "type": "Verb",
+          "meaning": "eat",
+          "sentence": "我們晚上會一起餐。",
+          "pinyin": "wǒmen wǎnshàng huì yīqǐ cān.",
+          "en": "We will have a meal together in the evening.",
+          "vi": "Chúng ta sẽ cùng nhau ăn tối."
+        },
+        {
+          "type": "Noun",
+          "meaning": "food; meal",
+          "sentence": "我想去嘗嘗那西餐。",
+          "pinyin": "wǒ xiǎng qù cháng cháng nà xīcān.",
+          "en": "I want to go try that Western food.",
+          "vi": "Tôi muốn đi nếm thử món Tây đó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "food; meal",
+          "sentence": "真的很喜歡吃/喫中餐。",
+          "pinyin": "zhēn de hěn xǐhuan chī zhōngcān.",
+          "en": "I really like eating Chinese food.",
+          "vi": "Thật sự rất thích ăn món Trung."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for meals]",
+          "sentence": "一日需吃/喫好三餐。",
+          "pinyin": "yī rì xū chī hǎo sān cān.",
+          "en": "One should have three good meals a day.",
+          "vi": "Một ngày cần ăn đủ ba bữa"
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for meals]",
+          "sentence": "他每天都吃/喫三餐。",
+          "pinyin": "tā měitiān dōu chī sān cān.",
+          "en": "He eats three meals every day.",
+          "vi": "Anh ấy ăn ba bữa mỗi ngày."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "chinese": "人生",
+      "pinyin": "rénshēng",
+      "en": "life",
+      "vi": "cuộc đời",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "life",
+          "sentence": "她的人生經曆很豐富。",
+          "pinyin": "tā de rénshēng jīnglì hěn fēngfù.",
+          "en": "She has a rich life experience.",
+          "vi": "Cô ấy có kinh nghiệm sống phong phú."
+        },
+        {
+          "type": "Noun",
+          "meaning": "life",
+          "sentence": "人生要勇敢麵對睏難。",
+          "pinyin": "rénshēng yào yǒnggǎn miàn duì kùnnán.",
+          "en": "Life requires courage to face difficulties.",
+          "vi": "Cuộc sống cần dũng cảm đối mặt khó khăn."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "chinese": "及",
+      "pinyin": "jí",
+      "en": "and",
+      "vi": "và",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reach; come up to",
+          "sentence": "水平尚及行業標準。",
+          "pinyin": "shuǐpíng shàng jí hángyè biāozhǔn.",
+          "en": "The level is still up to industry standards.",
+          "vi": "Mức độ vẫn đạt tiêu chuẩn ngành."
+        },
+        {
+          "type": "Verb",
+          "meaning": "reach; come up to",
+          "sentence": "成績未及預期目標。",
+          "pinyin": "chéng jī wèi jí yùqī mùbiāo.",
+          "en": "The results did not meet the expected targets.",
+          "vi": "Kết quả học tập chưa đạt đến mục tiêu dự kiến."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and; as well as",
+          "sentence": "桌椅及書本擺放整齊。",
+          "pinyin": "zhuō yǐ jí shūběn bǎi fàng zhěngqí.",
+          "en": "The tables, chairs, and books are neatly arranged.",
+          "vi": "Bàn ghế và sách được xếp gọn gàng."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and; as well as",
+          "sentence": "花草及樹木充滿生機。",
+          "pinyin": "huācǎo jí shùmù chōngmǎn shēngjī.",
+          "en": "The flowers, grass, and trees are full of vitality.",
+          "vi": "Hoa cỏ và cây cối tràn đầy sức sống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "及女士工作很認真。",
+          "pinyin": "jí nǚshì gōngzuò hěn rènzhēn.",
+          "en": "Ms. Ji works very diligently.",
+          "vi": "Bà Cập làm việc rất chăm chỉ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "及姓在本地不多見。",
+          "pinyin": "jí xìng zài běndì bù duō jiàn.",
+          "en": "The surname Ji is rarely seen locally.",
+          "vi": "Họ Cập không phổ biến ở địa phương này."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "chinese": "挑戰",
+      "pinyin": "tiǎozhàn",
+      "en": "challenge",
+      "vi": "thử thách",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "challenge",
+          "sentence": "他勇敢地挑戰了對手。",
+          "pinyin": "tā yǒnggǎn de tiǎozhànle duìshǒu.",
+          "en": "He bravely challenged his opponent.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "challenge",
+          "sentence": "企業嚮競爭對手挑戰。",
+          "pinyin": "qǐyè xiàng jìngzhēng duìshǒu tiǎozhàn.",
+          "en": "Businesses are challenging competitors.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "chinese": "培養",
+      "pinyin": "péiyǎng",
+      "en": "to cultivate",
+      "vi": "bồi dưỡng",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to cultivate (plants); to culture (microorganisms)",
+          "sentence": "酸奶是由活性培養菌製成的。",
+          "pinyin": "suānnǎi shì yóu huóxìng péiyǎng jūn zhì chéng de.",
+          "en": "Yogurt is made from active cultures.",
+          "vi": "Sữa chua được tạo thành từ việc nuôi cấy vi khuẩn sống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to cultivate (plants); to culture (microorganisms)",
+          "sentence": "我們正在培養新的品種。",
+          "pinyin": "wǒmen zhèngzài péiyǎng xīn de pǐnzhǒng.",
+          "en": "We are cultivating a new breed.",
+          "vi": "Chúng tôi đang nuôi cấy giống mới."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "chinese": "實力",
+      "pinyin": "shílì",
+      "en": "strength, real capability",
+      "vi": "thực lực",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "strength",
+          "sentence": "這傢公司實力雄厚。",
+          "pinyin": "zhè jiā gōngsī shílì xiónghòu.",
+          "en": "This company has strong strength.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "strength",
+          "sentence": "這支球隊很有實力。",
+          "pinyin": "zhè zhī qiú duì hěn yǒu shílì.",
+          "en": "This team is very strong.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "chinese": "等待",
+      "pinyin": "děngdài",
+      "en": "to wait for",
+      "vi": "chờ đợi",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "wait; await",
+          "sentence": "億萬人都等待著這一刻。",
+          "pinyin": "yì wàn rén dōu děngdàizhe zhè yīkè.",
+          "en": "Billions of people are waiting for this moment.",
+          "vi": "Hàng trăm triệu người đều chờ đợi khoảnh khắc này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "wait; await",
+          "sentence": "他一直在等待著好消息。",
+          "pinyin": "tā yīzhí zài děngdàizhe hǎo xiāoxi.",
+          "en": "He has been waiting for good news.",
+          "vi": "Anh ấy vẫn đang chờ đợi tin tốt."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "chinese": "擁有",
+      "pinyin": "yǒngyǒu",
+      "en": "to possess",
+      "vi": "sở hữu",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "own; have; possess",
+          "sentence": "我們擁有一座大房子。",
+          "pinyin": "wǒmen yōng yǒu yīzuò dà fángzi.",
+          "en": "We have a big house.",
+          "vi": "Chúng tôi có một ngôi nhà lớn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "own; have; possess",
+          "sentence": "她擁有豐富的經驗。",
+          "pinyin": "tā yōng yǒu fēngfù de jīngyàn.",
+          "en": "She has rich experience.",
+          "vi": "Cô ấy có kinh nghiệm phong phú."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "chinese": "中國大陸",
+      "pinyin": "Zhōngguó Dàlù",
+      "en": "Mainland China",
+      "vi": "Trung Quốc đại lục",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "China",
+          "sentence": "我打算去中國旅遊。",
+          "pinyin": "wǒ dǎsuàn qù zhōngguó lǚyóu.",
+          "en": "I plan to travel to China.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "China",
+          "sentence": "我喜歡吃/喫中國菜。",
+          "pinyin": "wǒ xǐhuān chī zhōngguó cài.",
+          "en": "I like Chinese food.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "chinese": "存不了",
+      "pinyin": "cúnbùliǎo",
+      "en": "can't save (money)",
+      "vi": "không để dành được",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "terrible; horrible; desperately serious",
+          "sentence": "萬一齣了岔子，那可不得了。",
+          "pinyin": "wànyī chū le chàzi，nà kě bùdéliǎo。",
+          "en": "If anything goes wrong, it will be a big disaster.",
+          "vi": "Lỡ mà xảy ra sự cố thì nguy mất."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "terrible; horrible; desperately serious",
+          "sentence": "哎呀，不得了，著火了！快，救人！",
+          "pinyin": "āiyā, bùdéliǎo, zháohuǒle! kuài, jiù rén!",
+          "en": "Oh no, there's a fire! Quickly, save people!",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "chinese": "無殼蝸牛",
+      "pinyin": "wúké guāniú",
+      "en": "people who cannot afford a home",
+      "vi": "người không mua nổi nhà",
+      "theme": "Slang",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "fig. people who cannot afford to buy their own house",
+          "sentence": "他們像無殼蝸牛一樣流浪。",
+          "pinyin": "Tāmen xiàng wú ké wōniú yíyàng liúlàng.",
+          "en": "They wander like snails without shells.",
+          "vi": "Họ lang thang như những con ốc sên không vỏ."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "chinese": "貧富不均",
+      "pinyin": "pínfù bùjūn",
+      "en": "unequal distribution of wealth",
+      "vi": "giàu nghèo không đều",
+      "theme": "Society",
+      "samples": [
+        {
+          "type": "Popular idiom, Neutral",
+          "meaning": "wealth inequality",
+          "sentence": "城鄉之間貧富不均。",
+          "pinyin": "chéng xiāng zhī jiān pín fù bù jūn",
+          "en": "There is wealth inequality between urban and rural areas.",
+          "vi": ""
+        },
+        {
+          "type": "Popular idiom, Neutral",
+          "meaning": "unequal distribution of wealth; disparity between rich and poor",
+          "sentence": "貧富不均引髮/發社會問題。",
+          "pinyin": "pín fù bù jūn yǐn fā shè huì wèn tí",
+          "en": "Unequal wealth distribution causes social problems",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "chinese": "苦哈哈",
+      "pinyin": "kǔ hāhā",
+      "en": "miserably poor",
+      "vi": "khổ sở",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "to have difficulty getting by",
+          "sentence": "他一直過得苦哈哈。",
+          "pinyin": "tā yī zhí guò de kǔ hā hā",
+          "en": "He has always been struggling to get by.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "to struggle (financially etc)",
+          "sentence": "他最近過得苦哈哈。",
+          "pinyin": "Tā zuìjìn guò de kǔ hā hā.",
+          "en": "He's been struggling recently.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "chinese": "另謀發展",
+      "pinyin": "lìngmóu fāzhǎn",
+      "en": "to seek opportunities elsewhere",
+      "vi": "tìm hướng phát triển khác",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "grow; expand; advance; develop",
+          "sentence": "他想髮/發展自己的事業。",
+          "pinyin": "tā xiǎng fāzhǎn zìjǐ de shìyè.",
+          "en": "He wants to develop his career.",
+          "vi": "Anh ấy muốn phát triển sự nghiệp của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "grow; expand; advance; develop",
+          "sentence": "我們需要髮/發展教育。",
+          "pinyin": "wǒmen xūyào fāzhǎn jiàoyù.",
+          "en": "We need to develop education.",
+          "vi": "Chúng ta cần phát triển giáo dục."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "chinese": "恨不得",
+      "pinyin": "hènbùdé",
+      "en": "to be dying to",
+      "vi": "rất muốn",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "very anxious to; how one wishes one could",
+          "sentence": "他恨不得馬上見到她。",
+          "pinyin": "tā hènbudé mǎshàng jiàn dào tā.",
+          "en": "He wishes he could see her immediately.",
+          "vi": "Anh ấy chỉ muốn gặp cô ấy ngay lập tức."
+        },
+        {
+          "type": "Verb",
+          "meaning": "very anxious to; how one wishes one could",
+          "sentence": "我恨不得飛到你的身邊。",
+          "pinyin": "wǒ hènbudé fēi dào nǐ de shēnbiān.",
+          "en": "I wish I could fly to your side.",
+          "vi": "Tôi chỉ muốn bay đến bên bạn."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "chinese": "一夜致富",
+      "pinyin": "yíyè zhìfù",
+      "en": "to become rich overnight",
+      "vi": "giàu sau một đêm",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "fit; identical; uniform; unanimous",
+          "sentence": "我們的意見完全一緻。",
+          "pinyin": "wǒmen de yìjiàn wánquán yīzhì.",
+          "en": "We are in complete agreement.",
+          "vi": "Ý kiến của chúng tôi hoàn toàn giống nhau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; identical; uniform; unanimous",
+          "sentence": "他們的答案是一緻的。",
+          "pinyin": "tāmen de dá'àn shì yīzhì de.",
+          "en": "Their answers are consistent.",
+          "vi": "Câu trả lời của họ là giống nhau."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "together",
+          "sentence": "他們一緻決定去旅行。",
+          "pinyin": "tāmen yīzhì juédìng qù lǚxíng.",
+          "en": "They together decided to go on a trip.",
+          "vi": "Họ cùng nhau quyết định đi du lịch."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "together",
+          "sentence": "所有人一緻站在門口。",
+          "pinyin": "suǒyǒu rén yīzhì zhàn zài ménkǒu.",
+          "en": "Everyone together stood at the door.",
+          "vi": "Mọi người đều đứng tại cửa."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "chinese": "一片天",
+      "pinyin": "yípiàntiān",
+      "en": "one's own sky, one's own space",
+      "vi": "một bầu trời riêng",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "one day; someday",
+          "sentence": "一天我會去那座山。",
+          "pinyin": "yītiān wǒ huì qù nà zuò shān.",
+          "en": "One day, I will go to that mountain.",
+          "vi": "Một ngày nào đó tôi sẽ đến ngọn núi đó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "one day; someday",
+          "sentence": "他們約定了一天見麵。",
+          "pinyin": "tāmen yuēdìngle yītiān jiànmiàn.",
+          "en": "They agreed on a day to meet.",
+          "vi": ""
+        }
+      ]
+    }
+  ]
 }

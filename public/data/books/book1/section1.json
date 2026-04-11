@@ -7,475 +7,1588 @@
       "id": 1,
       "chinese": "陳月美",
       "pinyin": "Chén Yuèměi",
-      "english": "a woman from Vietnam",
-      "sentenceChinese": "陳月美從越南來。",
-      "sentencePinyin": "Chén Yuèměi cóng Yuènán lái.",
-      "sentenceEnglish": "Chen Yuemei comes from Vietnam.",
-      "vietnamese": "Trần Nguyệt Mỹ (một phụ nữ từ Việt Nam)",
-      "sentenceVietnamese": "Trần Nguyệt Mỹ đến từ Việt Nam."
+      "en": "a woman from Vietnam",
+      "vi": "Trần Nguyệt Mỹ (một phụ nữ từ Việt Nam)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "beauty (opp. 丑)",
+          "sentence": "美醜",
+          "pinyin": "měi-chǒu",
+          "en": "Beauty and ugliness",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "beauty (opp. 丑)",
+          "sentence": "心靈美",
+          "pinyin": "xīnlíngměi",
+          "en": "Inner beauty",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "beautify; prettify",
+          "sentence": "我們要美化校園。",
+          "pinyin": "wǒmen yào měihuà xiàoyuán.",
+          "en": "We want to beautify the campus.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "beautify; prettify",
+          "sentence": "他想美化這條街道。",
+          "pinyin": "tā xiǎng měihuà zhè tiáo jiēdào.",
+          "en": "He wants to beautify this street.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "beautiful; pretty (opp. 丑)",
+          "sentence": "風景多美啊！",
+          "pinyin": "Fēngjǐng duō měi a!",
+          "en": "What beautiful scenery!",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "beautiful; pretty (opp. 丑)",
+          "sentence": "她長得很美。",
+          "pinyin": "Tā zhǎng de hěn měi.",
+          "en": "She’s very pretty.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "李明華",
       "pinyin": "Lǐ Mínghuá",
-      "english": "a man from Taiwan",
-      "sentenceChinese": "李明華住在台灣。",
-      "sentencePinyin": "Lǐ Mínghuá zhù zài Táiwān.",
-      "sentenceEnglish": "Li Minghua lives in Taiwan.",
-      "vietnamese": "Lý Minh Hoa (một người đàn ông từ Đài Loan)",
-      "sentenceVietnamese": "Lý Minh Hoa sống ở Đài Loan."
+      "en": "a man from Taiwan",
+      "vi": "Lý Minh Hoa (một người đàn ông từ Đài Loan)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "plum tree",
+          "sentence": "我傢種很多李樹。",
+          "pinyin": "wǒjiā zhòng hěnduō lǐ shù.",
+          "en": "My family grows many plum trees.",
+          "vi": "Nhà tôi trồng rất nhiều cây mận."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plum tree",
+          "sentence": "這棵李樹很高。",
+          "pinyin": "zhè kē lǐ shù hěn gāo.",
+          "en": "This plum tree is very tall.",
+          "vi": "Cây mận này rất cao."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "王開文",
       "pinyin": "Wáng Kāiwén",
-      "english": "a man from the US",
-      "sentenceChinese": "王開文從美國來。",
-      "sentencePinyin": "Wáng Kāiwén cóng Měiguó lái.",
-      "sentenceEnglish": "Wang Kaiwen comes from the United States.",
-      "vietnamese": "Vương Khai Văn (một người đàn ông từ Mỹ)",
-      "sentenceVietnamese": "Vương Khai Văn đến từ Mỹ."
+      "en": "a man from the US",
+      "vi": "Vương Khai Văn (một người đàn ông từ Mỹ)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "open; be on; turn on; switch on",
+          "sentence": "她輕輕地開了抽屜。",
+          "pinyin": "tā qīng qīng de kāile chōutì.",
+          "en": "She gently opened the drawer.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "open; be on; turn on; switch on",
+          "sentence": "他開了電視看新聞。",
+          "pinyin": "tā kāile diànshì kàn xīnwén.",
+          "en": "He turned on the TV to watch the news.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "percentage",
+          "sentence": "這個項目的開是二分之一。",
+          "pinyin": "zhège xiàngmù de kāi shì èr fēn zhī yī.",
+          "en": "The ratio of this project is one-half.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "percentage",
+          "sentence": "他穫得了總開的三分之一。",
+          "pinyin": "tā huòdéle zǒng kāi de sān fēn zhī yī.",
+          "en": "He received one-third of the total ratio.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "division of standard size printing paper",
+          "sentence": "這張畫是三開的。",
+          "pinyin": "zhè zhāng huà shì sān kāi de.",
+          "en": "This painting is in the size of three sheets.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "division of standard size printing paper",
+          "sentence": "我們打印了四開文檔。",
+          "pinyin": "wǒmen dǎyìnle sì kāi wéndàng.",
+          "en": "We printed the document in the size of four sheets.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "你",
       "pinyin": "nǐ",
-      "english": "you",
-      "sentenceChinese": "你好嗎？",
-      "sentencePinyin": "Nǐ hǎo ma?",
-      "sentenceEnglish": "How are you?",
-      "vietnamese": "bạn, anh, chị",
-      "sentenceVietnamese": "Bạn khỏe không?"
+      "en": "you",
+      "vi": "bạn, anh, chị",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "you (second person singular)",
+          "sentence": "你喜歡看電影嗎？",
+          "pinyin": "nǐ xǐhuān kàn diànyǐng ma?",
+          "en": "Do you like watching movies?",
+          "vi": "Bạn thích xem phim không?"
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "you (second person singular)",
+          "sentence": "你看過這本書嗎？",
+          "pinyin": "nǐ kànguò zhè běn shū ma?",
+          "en": "Have you read this book?",
+          "vi": "Bạn đã đọc cuốn sách này chưa?"
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "來",
       "pinyin": "lái",
-      "english": "to come",
-      "sentenceChinese": "你今天來嗎？",
-      "sentencePinyin": "Nǐ jīntiān lái ma?",
-      "sentenceEnglish": "Are you coming today?",
-      "vietnamese": "đến",
-      "sentenceVietnamese": "Hôm nay bạn có đến không?"
+      "en": "to come",
+      "vi": "đến",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "他來公司開會。",
+          "pinyin": "tā lái gōngsī kāihuì.",
+          "en": "He comes to the company for a meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "請你來我傢玩。",
+          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
+          "en": "Please come to my house to play.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "這件衣服大概來五百塊。",
+          "pinyin": "zhè jiàn yīfu dàgài lái wǔbǎi kuài.",
+          "en": "This piece of clothing costs about 500 yuan.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "我有來十個問題要問你。",
+          "pinyin": "wǒ yǒu lái shí gè wèntí yào wèn nǐ.",
+          "en": "I have about ten questions to ask you.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "多年來他一直努力。",
+          "pinyin": "duōnián lái tā yīzhí nǔlì.",
+          "en": "He has been working hard for many years.",
+          "vi": "Trong nhiều năm qua, anh ấy luôn nỗ lực."
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "我爸爸進來比較忙。",
+          "pinyin": "wǒ bàba jìnlái bǐjiào máng.",
+          "en": "My dad has been quite busy lately.",
+          "vi": "Bố của tôi dạo này hơi bận."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "是",
       "pinyin": "shì",
-      "english": "to be",
-      "sentenceChinese": "我是老師。",
-      "sentencePinyin": "Wǒ shì lǎoshī.",
-      "sentenceEnglish": "I am a teacher.",
-      "vietnamese": "là",
-      "sentenceVietnamese": "Tôi là giáo viên."
+      "en": "to be",
+      "vi": "là",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "used like \"be\" before nouns or pronouns to identify, describe or amplify the subject",
+          "sentence": "這本書是我的。",
+          "pinyin": "zhè běn shū shì wǒ de.",
+          "en": "This book is mine.",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "used like \"be\" before nouns or pronouns to identify, describe or amplify the subject",
+          "sentence": "李白是唐朝人。",
+          "pinyin": "lǐbái shì tángcháo rén.",
+          "en": "Li Bai was a person of the Tang Dynasty.",
+          "vi": "Lý Bạch là người thời Đường."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "correct; right",
+          "sentence": "你説得是，我完全衕意。",
+          "pinyin": "nǐ shuō de shì, wǒ wánquán tóngyì.",
+          "en": "What you said is right, I completely agree.",
+          "vi": "Bạn nói đúng, tôi hoàn toàn đồng ý."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "correct; right",
+          "sentence": "媽媽説得是，你要聽她的。",
+          "pinyin": "māma shuō de shì, nǐ yào tīng tā de.",
+          "en": "What mom said is right, you should listen to her.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(important) affairs",
+          "sentence": "治國之道, 首重其是。",
+          "pinyin": "zhìguó zhī dào, shǒu zhòng qí shì.",
+          "en": "The way of governing a country first values great plans.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(important) affairs",
+          "sentence": "人生大是，不可疏忽。",
+          "pinyin": "rénshēng dà shì, bùkě shūhū.",
+          "en": "The great matters of life cannot be neglected.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this",
+          "sentence": "如是，我會支持你的決定。",
+          "pinyin": "rúshì, wǒ huì zhīchí nǐ de juédìng.",
+          "en": "If so, I will support your decision.",
+          "vi": "Như vậy, tôi sẽ ủng hộ quyết định của bạn."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this",
+          "sentence": "是可忍，孰不可忍！",
+          "pinyin": "shì kě rěn, shú bùkě rěn!",
+          "en": "If this can be tolerated, then what cannot be tolerated!",
+          "vi": "Việc này có thể tha thứ, còn việc nào không thể tha thứ!"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "(express firm affirmation) indeed; really",
+          "sentence": "這間房子就是太小了。",
+          "pinyin": "zhè jiān fángzi jiùshì tài xiǎo le.",
+          "en": "This room is too small.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "(express firm affirmation) indeed; really",
+          "sentence": "這件衣服就是太貴了。",
+          "pinyin": "zhè jiàn yīfu jiùshì tài guì le.",
+          "en": "This piece of clothing is too expensive.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "小姐",
       "pinyin": "xiǎojiě",
-      "english": "Miss, Ms.",
-      "sentenceChinese": "王小姐，你好。",
-      "sentencePinyin": "Wáng xiǎojiě, nǐ hǎo.",
-      "sentenceEnglish": "Hello, Miss Wang.",
-      "vietnamese": "cô, tiểu thư",
-      "sentenceVietnamese": "Chào cô Vương."
+      "en": "Miss, Ms.",
+      "vi": "cô, tiểu thư",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "young lady",
+          "sentence": "我奶奶以前是個小姐。",
+          "pinyin": "wǒ nǎinai yǐqián shìgè xiǎojiě.",
+          "en": "My grandmother used to be a young lady.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "young lady",
+          "sentence": "她是那傢的小姐。",
+          "pinyin": "tā shì nà jiā de xiǎojiě.",
+          "en": "She is the young lady of that family.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "嗎",
       "pinyin": "ma",
-      "english": "sentence-final particle",
-      "sentenceChinese": "你是台灣人嗎？",
-      "sentencePinyin": "Nǐ shì Táiwān rén ma?",
-      "sentenceEnglish": "Are you Taiwanese?",
-      "vietnamese": "không? (trợ từ cuối câu hỏi)",
-      "sentenceVietnamese": "Bạn là người Đài Loan phải không?"
+      "en": "sentence-final particle",
+      "vi": "không? (trợ từ cuối câu hỏi)",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "used at the end of a question",
+          "sentence": "明天她來嗎？",
+          "pinyin": "míngtiān tā lái ma?",
+          "en": "Is she coming tomorrow?",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "used at the end of a question",
+          "sentence": "你是學生嗎？",
+          "pinyin": "nǐ shì xuéshēng ma?",
+          "en": "Are you a student?",
+          "vi": ""
+        },
+        {
+          "type": "auxiliary",
+          "meaning": "[at the end of a question]",
+          "sentence": "你找我有事嗎？",
+          "pinyin": "Nǐ zhǎo wǒ yǒu shì ma？",
+          "en": "Do you want to see me about something?",
+          "vi": ""
+        },
+        {
+          "type": "auxiliary",
+          "meaning": "[at the end of a question]",
+          "sentence": "明天他來嗎？",
+          "pinyin": "Míngtiān tā lái ma？",
+          "en": "Will he come tomorrow?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "接",
       "pinyin": "jiē",
-      "english": "to pick someone up",
-      "sentenceChinese": "我來接你了。",
-      "sentencePinyin": "Wǒ lái jiē nǐ le.",
-      "sentenceEnglish": "I'm here to pick you up.",
-      "vietnamese": "đón",
-      "sentenceVietnamese": "Tôi đến đón bạn đây."
+      "en": "to pick someone up",
+      "vi": "đón",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come into contact with; come close to",
+          "sentence": "他接觸到了我的手。",
+          "pinyin": "tā jiēchù dàole wǒ de shǒu.",
+          "en": "He touched my hand.",
+          "vi": "Anh ấy chạm vào tay tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "come into contact with; come close to",
+          "sentence": "不要接近危險區域。",
+          "pinyin": "bùyào jiējìn wēixiǎn qūyù.",
+          "en": "Don’t approach the dangerous area.",
+          "vi": "Đừng gần khu vực nguy hiểm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "接先生是我的老師。",
+          "pinyin": "jiē xiānshēng shì wǒ de lǎoshī.",
+          "en": "Mr. Jie is my teacher.",
+          "vi": "Ông Tiếp là thầy giáo của tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "接老師是我的朋友。",
+          "pinyin": "jiē lǎoshī shì wǒ de péngyou.",
+          "en": "Teacher Jie is my friend.",
+          "vi": "Thầy Tiếp là bạn của tôi."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "我們",
       "pinyin": "wǒmen",
-      "english": "we, us",
-      "sentenceChinese": "我們都是學生。",
-      "sentencePinyin": "Wǒmen dōu shì xuéshēng.",
-      "sentenceEnglish": "We are all students.",
-      "vietnamese": "chúng tôi, chúng ta",
-      "sentenceVietnamese": "Chúng tôi đều là học sinh."
+      "en": "we, us",
+      "vi": "chúng tôi, chúng ta",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "we; us",
+          "sentence": "我們正在學習中文。",
+          "pinyin": "wǒmen zhèngzài xuéxí zhōngwén.",
+          "en": "We are learning Chinese.",
+          "vi": "Chúng tôi đang học tiếng Trung."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "we; us",
+          "sentence": "我們需要你的幫助。",
+          "pinyin": "wǒmen xūyào nǐ de bāngzhù.",
+          "en": "We need your help.",
+          "vi": "Chúng tôi cần sự giúp đỡ của bạn."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "我",
       "pinyin": "wǒ",
-      "english": "I, me",
-      "sentenceChinese": "我姓李。",
-      "sentencePinyin": "Wǒ xìng Lǐ.",
-      "sentenceEnglish": "My surname is Li.",
-      "vietnamese": "tôi, mình",
-      "sentenceVietnamese": "Tôi họ Lý."
+      "en": "I, me",
+      "vi": "tôi, mình",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "I; me",
+          "sentence": "我不懂這個問題。",
+          "pinyin": "wǒ bù dǒng zhège wèntí.",
+          "en": "I don’t understand this question.",
+          "vi": "Tôi không hiểu vấn đề này."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "I; me",
+          "sentence": "我早上七點起床/牀。",
+          "pinyin": "wǒ zǎoshang qī diǎn qǐchuáng.",
+          "en": "I wake up at 7 AM.",
+          "vi": "Tôi dậy lúc 7 giờ sáng."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "這",
       "pinyin": "zhè / zhèi",
-      "english": "this",
-      "sentenceChinese": "這是我的書。",
-      "sentencePinyin": "Zhè shì wǒ de shū.",
-      "sentenceEnglish": "This is my book.",
-      "vietnamese": "đây, này",
-      "sentenceVietnamese": "Đây là cuốn sách của tôi."
+      "en": "this",
+      "vi": "đây, này",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "the; this; these",
+          "sentence": "這是我的漢語老師。",
+          "pinyin": "zhè shì wǒ de hànyǔ lǎoshī.",
+          "en": "This is my Chinese teacher.",
+          "vi": "Đây là giáo viên tiếng Trung của tôi."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "the; this; these",
+          "sentence": "這是我最喜歡的書。",
+          "pinyin": "zhè shì wǒ zuì xǐhuan de shū.",
+          "en": "This is my favorite book.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "先生",
       "pinyin": "xiānsheng",
-      "english": "Mr.",
-      "sentenceChinese": "李先生，歡迎。",
-      "sentencePinyin": "Lǐ xiānsheng, huānyíng.",
-      "sentenceEnglish": "Welcome, Mr. Li.",
-      "vietnamese": "ông, ngài, anh (lịch sự)",
-      "sentenceVietnamese": "Chào mừng ông Lý."
+      "en": "Mr.",
+      "vi": "ông, ngài, anh (lịch sự)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "teacher",
+          "sentence": "我喜歡陳先生的課。",
+          "pinyin": "wǒ xǐhuān chén xiānshēng de kè.",
+          "en": "I really enjoy Mr. Chen's class.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "teacher",
+          "sentence": "這是我們學校的一位曆史先生。",
+          "pinyin": "zhè shì wǒmen xuéxiào de yī wèi lìshǐ xiānshēng.",
+          "en": "He is a history teacher in our school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "好",
       "pinyin": "hǎo",
-      "english": "fine, well",
-      "sentenceChinese": "我很好。",
-      "sentencePinyin": "Wǒ hěn hǎo.",
-      "sentenceEnglish": "I am fine.",
-      "vietnamese": "tốt, khỏe",
-      "sentenceVietnamese": "Tôi rất khỏe."
+      "en": "fine, well",
+      "vi": "tốt, khỏe",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "good; fine; nice",
+          "sentence": "這部電影非常好看。",
+          "pinyin": "zhè bù diànyǐng fēicháng hǎokàn.",
+          "en": "This movie is very interesting.",
+          "vi": "Bộ phim này vô cùng hay."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "good; fine; nice",
+          "sentence": "他的工作態度很好。",
+          "pinyin": "tā de gōngzuò tàidù hěn hǎo.",
+          "en": "His work attitude is very good.",
+          "vi": "Thái độ làm việc của anh ấy rất tốt."
+        },
+        {
+          "type": "Verb",
+          "meaning": "should; need to; have to; ought to",
+          "sentence": "時間不早了，你好走了。",
+          "pinyin": "shí jiān bù zǎo le, nǐ hǎo zǒu le.",
+          "en": "It's getting late. You ought to get going.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "should; need to; have to; ought to",
+          "sentence": "你最好早點到達會議。",
+          "pinyin": "nǐ zuì hǎo zǎodiǎn dàodá huìyì.",
+          "en": "You’d better arrive at the meeting early.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; quite; so",
+          "sentence": "我們等了好久才/纔來。",
+          "pinyin": "wǒmen děngle hǎojiǔ cái lái.",
+          "en": "We waited for a long time before coming.",
+          "vi": "Chúng tôi đã chờ rất lâu mới đến."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; quite; so",
+          "sentence": "這裡/裏有好多美麗的花。",
+          "pinyin": "zhè lǐ yǒu hǎoduō měilì de huā.",
+          "en": "There are so many beautiful flowers here.",
+          "vi": "Ở đây có rất nhiều hoa đẹp."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "so as to; so that",
+          "sentence": "告訴我他在哪兒，我好找他去。",
+          "pinyin": "gàosù wǒ tā zài nǎ'er, wǒ hǎo zhǎo tā qù.",
+          "en": "Tell me where he is, so I can easily find him.",
+          "vi": "Nói cho tôi biết anh ấy đang ở đâu, để tôi tiện đi tìm."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "fall in love",
+          "sentence": "他們好上了，開始談戀愛。",
+          "pinyin": "tāmen hǎo shàngle, kāishǐ tán liàn'ài.",
+          "en": "They have fallen in love and started dating.",
+          "vi": ""
+        },
+        {
+          "type": "intj",
+          "meaning": "O.K; all right",
+          "sentence": "好，就這麼辦吧。",
+          "pinyin": "hǎo, jiù zhème bàn ba.",
+          "en": "OK, let's do it this way.",
+          "vi": ""
+        },
+        {
+          "type": "intj",
+          "meaning": "O.K; all right",
+          "sentence": "好了，不要再説了。",
+          "pinyin": "hǎo le, bú yào zài shuō le.",
+          "en": "All right，no need to say any more.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "refers to words of praise or applause",
+          "sentence": "孩子總是愛聽好。",
+          "pinyin": "háizi zǒng shì ài tīng hǎo.",
+          "en": "Children always like to hear good things.",
+          "vi": "Trẻ con luôn thích nghe lời khen."
+        },
+        {
+          "type": "Noun",
+          "meaning": "refers to words of praise or applause",
+          "sentence": "你應該多説點好。",
+          "pinyin": "nǐ yīnggāi duō shuō diǎn hǎo.",
+          "en": "You should say more good things.",
+          "vi": "Bạn nên nói nhiều lời khen hơn."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "姓",
       "pinyin": "xìng",
-      "english": "to be surnamed",
-      "sentenceChinese": "你姓什麼？",
-      "sentencePinyin": "Nǐ xìng shénme?",
-      "sentenceEnglish": "What is your surname?",
-      "vietnamese": "họ (tên họ)",
-      "sentenceVietnamese": "Bạn họ gì?"
+      "en": "to be surnamed",
+      "vi": "họ (tên họ)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "surname; family name",
+          "sentence": "據説中國有幾韆個姓。",
+          "pinyin": "jùshuō zhōngguó yǒu jǐ qiān gè xìng.",
+          "en": "It is said that China has thousands of surnames.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "surname; family name",
+          "sentence": "“趙”是一個常見的姓。",
+          "pinyin": "“zhào” shì yīgè chángjiàn de xìng.",
+          "en": "\"Zhao\" is a common surname.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to have as surname",
+          "sentence": "他姓趙，名字很特別。",
+          "pinyin": "tā xìng zhào, míngzì hěn tèbié.",
+          "en": "His surname is Zhao, and his name is very unique.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to have as surname",
+          "sentence": "他姓張，不是姓王。",
+          "pinyin": "tā xìng zhāng, bùshì xìng wáng.",
+          "en": "His surname is Zhang, not Wang.",
+          "vi": "Anh ấy họ Trương, không phải họ Vương."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "叫",
       "pinyin": "jiào",
-      "english": "to be called",
-      "sentenceChinese": "我叫明華。",
-      "sentencePinyin": "Wǒ jiào Mínghuá.",
-      "sentenceEnglish": "My name is Minghua.",
-      "vietnamese": "tên là, gọi là",
-      "sentenceVietnamese": "Tôi tên là Minh Hoa."
+      "en": "to be called",
+      "vi": "tên là, gọi là",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cry; shout",
+          "sentence": "狗突然大聲叫了。",
+          "pinyin": "gǒu tū rán dàshēng jiàole.",
+          "en": "The dog suddenly barked loudly.",
+          "vi": "Con chó đột nhiên sủa to."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cry; shout",
+          "sentence": "她痛得大聲叫齣聲。",
+          "pinyin": "tā tòng dé dàshēng jiào chū shēng.",
+          "en": "She screamed loudly in pain.",
+          "vi": "Cô ấy kêu lớn vì đau đớn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "male (animal)",
+          "sentence": "這隻叫雞很吵。",
+          "pinyin": "zhè zhǐ jiàojī hěn chǎo.",
+          "en": "This rooster is very noisy.",
+          "vi": "Con gà trống này rất ồn ào."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "male (animal)",
+          "sentence": "他養了一隻叫狗。",
+          "pinyin": "tā yǎngle yī zhī jiào gǒu.",
+          "en": "He raised a dog.",
+          "vi": "Anh ấy nuôi một con chó đực."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "introduces the agent of an action; equivalent to \"被\"",
+          "sentence": "手機叫他拿走了。",
+          "pinyin": "shǒujī jiào tā ná zǒule.",
+          "en": "The phone was taken away by him.",
+          "vi": "Điện thoại bị anh ấy cầm đi rồi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "introduces the agent of an action; equivalent to \"被\"",
+          "sentence": "我的衣服叫雨淋了。",
+          "pinyin": "wǒ de yīfu jiào yǔ línle.",
+          "en": "My clothes got soaked by the rain.",
+          "vi": "Quần áo của tôi bị mưa làm ướt rồi."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "你們",
       "pinyin": "nǐmen",
-      "english": "you, plural",
-      "sentenceChinese": "你們好。",
-      "sentencePinyin": "Nǐmen hǎo.",
-      "sentenceEnglish": "Hello, everyone.",
-      "vietnamese": "các bạn, các anh, các chị",
-      "sentenceVietnamese": "Chào các bạn."
+      "en": "you, plural",
+      "vi": "các bạn, các anh, các chị",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "you (second person plural)",
+          "sentence": "你們傢有幾口人？",
+          "pinyin": "nǐmen jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are there in your family?",
+          "vi": "Gia đình các cậu có mấy người?"
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "you (second person plural)",
+          "sentence": "你們活兒幹得都很齣色。",
+          "pinyin": "nǐmen huór gàn dé dōu hěn chūsè.",
+          "en": "You've all done a magnificent job.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "台灣",
       "pinyin": "Táiwān",
-      "english": "Taiwan",
-      "sentenceChinese": "我朋友住在台灣。",
-      "sentencePinyin": "Wǒ péngyou zhù zài Táiwān.",
-      "sentenceEnglish": "My friend lives in Taiwan.",
-      "vietnamese": "Đài Loan",
-      "sentenceVietnamese": "Bạn của tôi sống ở Đài Loan."
+      "en": "Taiwan",
+      "vi": "Đài Loan",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "taiwan",
+          "sentence": "臺灣風景很美麗。",
+          "pinyin": "táiwān fēngjǐng hěn měilì.",
+          "en": "The scenery in Taiwan is very beautiful.",
+          "vi": "Phong cảnh Đài Loan rất đẹp."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "taiwan",
+          "sentence": "我想去臺灣旅遊。",
+          "pinyin": "wǒ xiǎng qù táiwān lǚyóu.",
+          "en": "I want to travel to Taiwan.",
+          "vi": "Tôi muốn đi du lịch Đài Loan."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "歡迎",
       "pinyin": "huānyíng",
-      "english": "welcome",
-      "sentenceChinese": "歡迎你來我家。",
-      "sentencePinyin": "Huānyíng nǐ lái wǒ jiā.",
-      "sentenceEnglish": "Welcome to my home.",
-      "vietnamese": "hoan nghênh, chào mừng",
-      "sentenceVietnamese": "Chào mừng bạn đến nhà tôi."
+      "en": "welcome",
+      "vi": "hoan nghênh, chào mừng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "welcome; greet",
+          "sentence": "我們歡迎新成員加入。",
+          "pinyin": "wǒmen huānyíng xīn chéngyuán jiārù.",
+          "en": "We welcome new members to join.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "welcome; greet",
+          "sentence": "歡迎大傢來我傢做客。",
+          "pinyin": "huānyíng dàjiā lái wǒjiā zuòkè.",
+          "en": "Everyone is welcome to visit my home.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "請問",
       "pinyin": "qǐngwèn",
-      "english": "May I ask... / Excuse me, ...",
-      "sentenceChinese": "請問，你叫什麼名字？",
-      "sentencePinyin": "Qǐngwèn, nǐ jiào shénme míngzi?",
-      "sentenceEnglish": "Excuse me, what is your name?",
-      "vietnamese": "cho hỏi, xin hỏi",
-      "sentenceVietnamese": "Xin hỏi, bạn tên là gì?"
+      "en": "May I ask... / Excuse me, ...",
+      "vi": "cho hỏi, xin hỏi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "please; excuse me",
+          "sentence": "請問，你叫什麼名字？",
+          "pinyin": "qǐngwèn, nǐ jiào shénme míngzì?",
+          "en": "Excuse me, what's your name?",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "please; excuse me",
+          "sentence": "請問這個字怎麼讀?",
+          "pinyin": "qǐngwèn zhège zì zěnme dú?",
+          "en": "Excuse me, how do you pronounce this character?",
+          "vi": "Xin hỏi chữ này đọc làm sao?"
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "是的",
       "pinyin": "shìde",
-      "english": "yes",
-      "sentenceChinese": "是的，我是王先生。",
-      "sentencePinyin": "Shìde, wǒ shì Wáng xiānsheng.",
-      "sentenceEnglish": "Yes, I am Mr. Wang.",
-      "vietnamese": "vâng, đúng vậy",
-      "sentenceVietnamese": "Vâng, tôi là ông Vương."
+      "en": "yes",
+      "vi": "vâng, đúng vậy",
+      "samples": [
+        {
+          "type": "sentence",
+          "meaning": "to confirm",
+          "sentence": "是的，我是小芳爸爸。",
+          "pinyin": "shì de, wǒ shì xiǎo fāng bàba.",
+          "en": "Yes, I am Xiaofang's father.",
+          "vi": "Đúng vậy, tôi là bố của tiểu Phương."
+        },
+        {
+          "type": "sentence",
+          "meaning": "to confirm",
+          "sentence": "是的，這是我的計劃。",
+          "pinyin": "shì de, zhè shì wǒ de jìhuà.",
+          "en": "Yes, this is my plan.",
+          "vi": "Đúng thế, đây là kế hoạch của tôi."
+        },
+        {
+          "type": "Particle",
+          "meaning": "used to indicate similarity; used to indicate high degree",
+          "sentence": "她的笑容好像陽光是的。",
+          "pinyin": "tā de xiàoróng hǎoxiàng yángguāng shì de.",
+          "en": "Her smile is as bright as the sun.",
+          "vi": "Nụ cười của cô ấy tựa như ánh mặt trời."
+        },
+        {
+          "type": "Particle",
+          "meaning": "used to indicate similarity; used to indicate high degree",
+          "sentence": "她的情緒跟春天是的。",
+          "pinyin": "tā de qíngxù gēn chūntiān shì de.",
+          "en": "Her mood is as fresh as spring.",
+          "vi": "Cảm xúc của cô ấy giống như mùa xuân."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "謝謝",
       "pinyin": "xièxie",
-      "english": "Thank you.",
-      "sentenceChinese": "謝謝你來接我。",
-      "sentencePinyin": "Xièxie nǐ lái jiē wǒ.",
-      "sentenceEnglish": "Thank you for coming to pick me up.",
-      "vietnamese": "cảm ơn",
-      "sentenceVietnamese": "Cảm ơn bạn đã đến đón tôi."
+      "en": "Thank you.",
+      "vi": "cảm ơn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "thanks; thank you",
+          "sentence": "謝謝你的幫助。",
+          "pinyin": "xièxiè nǐ de bāngzhù.",
+          "en": "Thank you for your help.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "thanks; thank you",
+          "sentence": "謝謝，我真的很開心。",
+          "pinyin": "xièxiè, wǒ zhēn de hěn kāixīn.",
+          "en": "Thanks. I really enjoyed it.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "不客氣",
       "pinyin": "bú kèqì",
-      "english": "You're welcome.",
-      "sentenceChinese": "不客氣，很高興認識你。",
-      "sentencePinyin": "Bú kèqì, hěn gāoxìng rènshi nǐ.",
-      "sentenceEnglish": "You're welcome. Nice to meet you.",
-      "vietnamese": "đừng khách sáo, không có gì",
-      "sentenceVietnamese": "Không có gì, rất vui được làm quen với bạn."
+      "en": "You're welcome.",
+      "vi": "đừng khách sáo, không có gì",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "blunt; impolite; be rude to; be hard on",
+          "sentence": "你太不客氣了。",
+          "pinyin": "nǐ tài bù kèqìle.",
+          "en": "You're being too rude.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "blunt; impolite; be rude to; be hard on",
+          "sentence": "他對我不客氣。",
+          "pinyin": "tā duì wǒ bù kèqì.",
+          "en": "He was rude to me.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "frank; candid; straight forward",
+          "sentence": "他不客氣地拒絕。",
+          "pinyin": "tā bù kèqì de jùjué.",
+          "en": "He rejected my offer outright.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "frank; candid; straight forward",
+          "sentence": "你別不客氣打人。",
+          "pinyin": "nǐ bié bù kèqì dǎ rén.",
+          "en": "Don't be rude and hit people.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "Hello. / How are you?",
-      "sentenceChinese": "李先生，你好。",
-      "sentencePinyin": "Lǐ xiānsheng, nǐ hǎo.",
-      "sentenceEnglish": "Hello, Mr. Li.",
-      "vietnamese": "chào bạn",
-      "sentenceVietnamese": "Chào ông Lý."
+      "en": "Hello. / How are you?",
+      "vi": "chào bạn",
+      "samples": [
+        {
+          "type": "sentence",
+          "meaning": "hello; hi",
+          "sentence": "你好，我叫李明。",
+          "pinyin": "nǐ hǎo, wǒ jiào Lǐ Míng.",
+          "en": "Hello, my name is Li Ming.",
+          "vi": ""
+        },
+        {
+          "type": "sentence",
+          "meaning": "hello; hi",
+          "sentence": "你好，今天的天氣很好。",
+          "pinyin": "nǐ hǎo, jīntiān de tiānqì hěn hǎo.",
+          "en": "Hello, the weather is very nice today.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "請",
       "pinyin": "qǐng",
-      "english": "please",
-      "sentenceChinese": "請坐。",
-      "sentencePinyin": "Qǐng zuò.",
-      "sentenceEnglish": "Please sit down.",
-      "vietnamese": "mời, xin vui lòng",
-      "sentenceVietnamese": "Mời ngồi."
+      "en": "please",
+      "vi": "mời, xin vui lòng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "request; ask",
+          "sentence": "請你多多指教！",
+          "pinyin": "qǐng nǐ duōduō zhǐjiào!",
+          "en": "Please kindly give me your guidance!",
+          "vi": "Mong thầy chỉ bảo nhiều hơn!"
+        },
+        {
+          "type": "Verb",
+          "meaning": "request; ask",
+          "sentence": "請你再説一遍。",
+          "pinyin": "qǐng nǐ zàishuō yībiàn.",
+          "en": "Please say it one more time.",
+          "vi": "Xin anh hãy nói lại lần nữa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓請。",
+          "pinyin": "tā xìng qǐng.",
+          "en": "His surname is Qing.",
+          "vi": "Anh ấy họ Thỉnh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的朋友姓請。",
+          "pinyin": "wǒ de péngyou xìng qǐng.",
+          "en": "My friend's surname is Qing.",
+          "vi": "Bạn của tôi họ Thỉnh."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "喝",
       "pinyin": "hē",
-      "english": "to drink",
-      "sentenceChinese": "你喝茶嗎？",
-      "sentencePinyin": "Nǐ hē chá ma?",
-      "sentenceEnglish": "Do you drink tea?",
-      "vietnamese": "uống",
-      "sentenceVietnamese": "Bạn có uống trà không?"
+      "en": "to drink",
+      "vi": "uống",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "drink",
+          "sentence": "我們下午喜歡喝茶。",
+          "pinyin": "wǒmen xiàwǔ xǐhuan hē chá.",
+          "en": "We like drinking tea in the afternoon.",
+          "vi": "Buổi chiều chúng tôi thích uống trà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "drink",
+          "sentence": "我每天早上喝牛奶。",
+          "pinyin": "wǒ měitiān zǎoshang hē niúnǎi.",
+          "en": "I drink milk every morning.",
+          "vi": "Tôi uống sữa mỗi buổi sáng."
+        },
+        {
+          "type": "intj",
+          "meaning": "Oh! Ah! Wow!",
+          "sentence": "喝！你居然也來了。",
+          "pinyin": "hē! nǐ jūrán yě láile.",
+          "en": "Oh! You actually came too.",
+          "vi": "Ồ! Bạn cũng lại đến cơ đấy."
+        },
+        {
+          "type": "intj",
+          "meaning": "Oh! Ah! Wow!",
+          "sentence": "喝！這麼快就來了。",
+          "pinyin": "hē! zhème kuài jiù láile.",
+          "en": "Oh! You arrived so quickly.",
+          "vi": "Ồ! Đến nhanh thế cơ à."
+        },
+        {
+          "type": "Noun",
+          "meaning": "drink",
+          "sentence": "傢裡/裏有吃/喫有喝。",
+          "pinyin": "jiā lǐ yǒu chī yǒu hē.",
+          "en": "There is food and drink at home.",
+          "vi": "Trong nhà có đồ ăn và thức uống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "drink",
+          "sentence": "我們齣去找點好喝的。",
+          "pinyin": "wǒmen chūqù zhǎo diǎn hǎo hē de.",
+          "en": "Let's go out and find something tasty to drink.",
+          "vi": "Chúng ta đi tìm thứ gì đó ngon để uống."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "茶",
       "pinyin": "chá",
-      "english": "tea",
-      "sentenceChinese": "這杯茶很好喝。",
-      "sentencePinyin": "Zhè bēi chá hěn hǎohē.",
-      "sentenceEnglish": "This cup of tea tastes very good.",
-      "vietnamese": "trà",
-      "sentenceVietnamese": "Ly trà này rất ngon."
+      "en": "tea",
+      "vi": "trà",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tea (the drink)",
+          "sentence": "茶是美味的飲品。",
+          "pinyin": "chá shì měiwèi de yǐnpǐn.",
+          "en": "Tea is a delicious beverage.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "tea (the drink)",
+          "sentence": "這種茶味道很棒。",
+          "pinyin": "zhè zhǒng chá wèidào hěn bàng.",
+          "en": "This tea tastes great.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tawny; dark brown",
+          "sentence": "她的頭髮/發帶點茶色。",
+          "pinyin": "tā de tóufa dài diǎn chásè.",
+          "en": "Her hair has a bit of a tawny shade.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tawny; dark brown",
+          "sentence": "鞦天的葉子變成茶色。",
+          "pinyin": "qiūtiān de yèzi biàn chéng chásè.",
+          "en": "The autumn leaves turn tawny.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "很",
       "pinyin": "hěn",
-      "english": "very",
-      "sentenceChinese": "我很喜歡咖啡。",
-      "sentencePinyin": "Wǒ hěn xǐhuān kāfēi.",
-      "sentenceEnglish": "I really like coffee.",
-      "vietnamese": "rất",
-      "sentenceVietnamese": "Tôi rất thích cà phê."
+      "en": "very",
+      "vi": "rất",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "very; quite; awfully",
+          "sentence": "這個電影很有趣。",
+          "pinyin": "zhège diànyǐng hěn yǒuqù.",
+          "en": "This movie is very interesting.",
+          "vi": "Bộ phim này rất thú vị."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; quite; awfully",
+          "sentence": "他的工作效率很高。",
+          "pinyin": "tā de gōngzuò xiàolǜ hěn gāo.",
+          "en": "His work efficiency is very high.",
+          "vi": "Hiệu suất làm việc của anh ấy rất cao."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "好喝",
       "pinyin": "hǎohē",
-      "english": "to taste good",
-      "sentenceChinese": "烏龍茶很好喝。",
-      "sentencePinyin": "Wūlóng chá hěn hǎohē.",
-      "sentenceEnglish": "Oolong tea tastes very good.",
-      "vietnamese": "ngon (đồ uống)",
-      "sentenceVietnamese": "Trà Ô Long rất ngon."
+      "en": "to taste good",
+      "vi": "ngon (đồ uống)",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "tasty (drinks)",
+          "sentence": "嗯~這湯很好喝。",
+          "pinyin": "ǹg ~zhè tāng hěn hǎo hē.",
+          "en": "Yum, the soup is nice.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tasty (drinks)",
+          "sentence": "這盃果汁很好喝。",
+          "pinyin": "zhè bēi guǒzhī hěn hǎo hē.",
+          "en": "This glass of juice tastes really good.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "什麼",
       "pinyin": "shénme",
-      "english": "what",
-      "sentenceChinese": "你要喝什麼？",
-      "sentencePinyin": "Nǐ yào hē shénme?",
-      "sentenceEnglish": "What would you like to drink?",
-      "vietnamese": "gì, cái gì",
-      "sentenceVietnamese": "Bạn muốn uống gì?"
+      "en": "what",
+      "vi": "gì, cái gì",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "what",
+          "sentence": "你叫什麼名字?",
+          "pinyin": "nǐ jiào shénme míngzì?",
+          "en": "What's your name?",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "what",
+          "sentence": "她是你的什麼人?",
+          "pinyin": "tā shì nǐ de shénme rén?",
+          "en": "What is she to you?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "人",
       "pinyin": "rén",
-      "english": "person, people",
-      "sentenceChinese": "教室裡有很多人。",
-      "sentencePinyin": "Jiàoshì lǐ yǒu hěn duō rén.",
-      "sentenceEnglish": "There are many people in the classroom.",
-      "vietnamese": "người",
-      "sentenceVietnamese": "Trong lớp có rất nhiều người."
+      "en": "person, people",
+      "vi": "người",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "man; person; people; human being",
+          "sentence": "人類需要保護環境。",
+          "pinyin": "rénlèi xūyào bǎohù huánjìng",
+          "en": "Human beings need to protect the environment.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "all; each; everybody",
+          "sentence": "這部電影很吸引人。",
+          "pinyin": "zhè bù diànyǐng hěn xīyǐn rén.",
+          "en": "This movie is very attractive to the audience.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "喜歡",
       "pinyin": "xǐhuān",
-      "english": "to like",
-      "sentenceChinese": "我喜歡喝茶。",
-      "sentencePinyin": "Wǒ xǐhuān hē chá.",
-      "sentenceEnglish": "I like drinking tea.",
-      "vietnamese": "thích",
-      "sentenceVietnamese": "Tôi thích uống trà."
+      "en": "to like",
+      "vi": "thích",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "like; love; be fond of; be keen on",
+          "sentence": "她從不喜歡遊泳。",
+          "pinyin": "tā cóng bù xǐ huan yóuyǒng.",
+          "en": "She never liked swimming.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "like; love; be fond of; be keen on",
+          "sentence": "你喜歡捲心菜嗎？",
+          "pinyin": "nǐ xǐ huan juǎnxīncài ma?",
+          "en": "Do you like cabbage?",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "happy; delighted; elated; filled with joy",
+          "sentence": "他的媽媽喜歡得不得了。",
+          "pinyin": "tā de māma xǐhuan dé bùdéliǎo.",
+          "en": "His mother was absolutely delighted.",
+          "vi": "Mẹ anh ấy vui mừng khôn xiết."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "happy; delighted; elated; filled with joy",
+          "sentence": "他聽到這個消息非常喜歡。",
+          "pinyin": "tā tīng dào zhège xiāoxī fēicháng xǐhuan.",
+          "en": "He became very elated at the news.",
+          "vi": "Anh ấy rất vui mừng khi nghe được tin này."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "呢",
       "pinyin": "ne",
-      "english": "sentence-final particle",
-      "sentenceChinese": "你呢？",
-      "sentencePinyin": "Nǐ ne?",
-      "sentenceEnglish": "How about you?",
-      "vietnamese": "thế còn... (trợ từ cuối câu)",
-      "sentenceVietnamese": "Còn bạn thì sao?"
+      "en": "sentence-final particle",
+      "vi": "thế còn... (trợ từ cuối câu)",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "at the end of a special, alternative, or rhetorical question",
+          "sentence": "人呢？都到哪兒去了？",
+          "pinyin": "rén ne? dōu dào nǎr qùle?",
+          "en": "Where is everyone? Where have they all gone?",
+          "vi": "Người đâu? đi đâu hết cả rồi ?"
+        },
+        {
+          "type": "Particle",
+          "meaning": "at the end of a special, alternative, or rhetorical question",
+          "sentence": "他們都有任務了，我呢？",
+          "pinyin": "tāmen dōu yǒu rènwùle, wǒ ne?",
+          "en": "They all have tasks, what about me?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "他",
       "pinyin": "tā",
-      "english": "he, him",
-      "sentenceChinese": "他是我朋友。",
-      "sentencePinyin": "Tā shì wǒ péngyou.",
-      "sentenceEnglish": "He is my friend.",
-      "vietnamese": "anh ấy, ông ấy",
-      "sentenceVietnamese": "Anh ấy là bạn của tôi."
+      "en": "he, him",
+      "vi": "anh ấy, ông ấy",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "he; him",
+          "sentence": "他幫了我很多次。",
+          "pinyin": "tā bāngle wǒ hěnduō cì.",
+          "en": "He has helped me many times.",
+          "vi": "Anh ấy đã giúp đỡ tôi rất nhiều lần."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "he; him",
+          "sentence": "他是我的男朋友。",
+          "pinyin": "tā shì wǒ de nán péngyou.",
+          "en": "He is my boyfriend.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "不",
       "pinyin": "bù",
-      "english": "not",
-      "sentenceChinese": "我不喝咖啡。",
-      "sentencePinyin": "Wǒ bù hē kāfēi.",
-      "sentenceEnglish": "I do not drink coffee.",
-      "vietnamese": "không",
-      "sentenceVietnamese": "Tôi không uống cà phê."
+      "en": "not",
+      "vi": "không",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "(before verbs, adjectives, and other adverbs; never before the verb 有) not; won't; not want to",
+          "sentence": "這個菜不太好吃/喫。",
+          "pinyin": "zhège cài bù tài hǎo chī.",
+          "en": "This dish is not very tasty.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "(before verbs, adjectives, and other adverbs; never before the verb 有) not; won't; not want to",
+          "sentence": "她不想去看電影。",
+          "pinyin": "tā bùxiǎng qù kàn diànyǐng.",
+          "en": "She doesn't want to go to the movies.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "哪",
       "pinyin": "nǎ / něi",
-      "english": "which",
-      "sentenceChinese": "你喜歡哪一個？",
-      "sentencePinyin": "Nǐ xǐhuān nǎ yí ge?",
-      "sentenceEnglish": "Which one do you like?",
-      "vietnamese": "nào",
-      "sentenceVietnamese": "Bạn thích cái nào?"
+      "en": "which",
+      "vi": "nào",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "which; what",
+          "sentence": "你準備去哪座城市？",
+          "pinyin": "nǐ zhǔnbèi qù nǎ zuò chéngshì?",
+          "en": "Which city are you planning to go to?",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "which; what (used alone, same as \"什么\", often used interchangeably with \"什么\")",
+          "sentence": "你們正在找哪？",
+          "pinyin": "nǐmen zhèngzài zhǎo nǎ?",
+          "en": "What are you looking for?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "how",
+          "sentence": "不知道能纍到哪兒去？",
+          "pinyin": "bù zhīdào néng lèi dào nǎ'er qù?",
+          "en": "I wonder how tired one can get?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "how",
+          "sentence": "講英語時，哪怕是再短的音節也不能吞掉。",
+          "pinyin": "jiǎng yīngyǔ shí, nǎpà shì zài duǎn de yīnjié yě bùnéng tūn diào.",
+          "en": "In speaking English do not swallow a single syllable, however short it may be.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "要",
       "pinyin": "yào",
-      "english": "to want to",
-      "sentenceChinese": "我要喝茶。",
-      "sentencePinyin": "Wǒ yào hē chá.",
-      "sentenceEnglish": "I want to drink tea.",
-      "vietnamese": "muốn, cần",
-      "sentenceVietnamese": "Tôi muốn uống trà."
+      "en": "to want to",
+      "vi": "muốn, cần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "main point; essential; headline",
+          "sentence": "這篇文章的摘要很簡潔。",
+          "pinyin": "zhè piān wénzhāng de zhāiyào hěn jiǎnjié.",
+          "en": "The summary of this article is very concise.",
+          "vi": "Bản tóm tắt của bài viết này rất ngắn gọn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "main point; essential; headline",
+          "sentence": "這是今天會議的紀要。",
+          "pinyin": "zhè shì jīntiān huìyì de jìyào.",
+          "en": "This is the summary of today's meeting.",
+          "vi": "Đây là nội dung chính của cuộc họp hôm nay."
+        },
+        {
+          "type": "Verb",
+          "meaning": "want; wish",
+          "sentence": "若要人不知，除非己莫為。",
+          "pinyin": "ruò yào rén bùzhī, chúfēi jǐ mò wèi.",
+          "en": "If you don’t want others to know, then don’t do it.",
+          "vi": "Muốn người khác không biết, trừ phi mình đừng làm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "want; wish",
+          "sentence": "我要買一件毛衣。",
+          "pinyin": "wǒ yào mǎi yī jiàn máoyī.",
+          "en": "I want to buy a sweater.",
+          "vi": "Tôi muốn mua một chiếc áo len."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "important; essential",
+          "sentence": "處理要事時要小心。",
+          "pinyin": "chǔlǐ yào shì shí yào xiǎoxīn.",
+          "en": "Be careful when handling important matters.",
+          "vi": "Khi xử lý việc quan trọng phải cẩn thận."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "important; essential",
+          "sentence": "這是問題的要點。",
+          "pinyin": "zhè shì wèntí de yào diǎn.",
+          "en": "This is the main point of the problem.",
+          "vi": "Đây là điểm quan trọng của vấn đề."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if; suppose; in case",
+          "sentence": "明天要是下雨，我就不去了。",
+          "pinyin": "míngtiān yàoshi xià yǔ, wǒ jiù bù qùle.",
+          "en": "If it rains tomorrow, I won’t go.",
+          "vi": "Ngày mai nếu trời mưa thì tôi sẽ không đi."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if; suppose; in case",
+          "sentence": "你要去，我就不去。",
+          "pinyin": "nǐ yào qù, wǒ jiù bù qù.",
+          "en": "If you go, then I won’t go.",
+          "vi": "Nếu cậu đi thì tôi không đi."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "咖啡",
       "pinyin": "kāfēi",
-      "english": "coffee",
-      "sentenceChinese": "他喜歡喝咖啡。",
-      "sentencePinyin": "Tā xǐhuān hē kāfēi.",
-      "sentenceEnglish": "He likes to drink coffee.",
-      "vietnamese": "cà phê",
-      "sentenceVietnamese": "Anh ấy thích uống cà phê."
+      "en": "coffee",
+      "vi": "cà phê",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "coffee; café",
+          "sentence": "我很喜歡喝咖啡。",
+          "pinyin": "wǒ hěn xǐhuan hē kāfēi.",
+          "en": "I love drinking coffee.",
+          "vi": "Tôi rất thích uống cà phê"
+        },
+        {
+          "type": "Noun",
+          "meaning": "coffee; café",
+          "sentence": "我給他買一盃咖啡。",
+          "pinyin": "wǒ gěi tā mǎi yībēi kāfēi.",
+          "en": "I bought him a coffee.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "烏龍茶",
       "pinyin": "Wūlóng chá",
-      "english": "Oolong tea",
-      "sentenceChinese": "我想喝烏龍茶。",
-      "sentencePinyin": "Wǒ xiǎng hē Wūlóng chá.",
-      "sentenceEnglish": "I want to drink Oolong tea.",
-      "vietnamese": "trà Ô Long",
-      "sentenceVietnamese": "Tôi muốn uống trà Ô Long."
+      "en": "Oolong tea",
+      "vi": "trà Ô Long",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "oolong; oolong tea",
+          "sentence": "我喜歡喝烏龍茶。",
+          "pinyin": "wǒ xǐhuān hē wūlóngchá.",
+          "en": "I like to drink oolong tea.",
+          "vi": "Tôi thích uống trà ô long."
+        },
+        {
+          "type": "Noun",
+          "meaning": "oolong; oolong tea",
+          "sentence": "烏龍茶産自福建。",
+          "pinyin": "wūlóngchá chǎnzì fújiàn.",
+          "en": "Oolong tea is produced in Fujian.",
+          "vi": "Trà ô long được sản xuất ở Phúc Kiến."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "日本",
       "pinyin": "Rìběn",
-      "english": "Japan",
-      "sentenceChinese": "他朋友是日本人。",
-      "sentencePinyin": "Tā péngyou shì Rìběn rén.",
-      "sentenceEnglish": "His friend is Japanese.",
-      "vietnamese": "Nhật Bản",
-      "sentenceVietnamese": "Bạn của anh ấy là người Nhật Bản."
+      "en": "Japan",
+      "vi": "Nhật Bản",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "japan",
+          "sentence": "這個樂隊在日本很走紅。",
+          "pinyin": "zhège yuèduì zài rìběn hěn zǒuhóng.",
+          "en": "The band's very big in Japan.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "japan",
+          "sentence": "凡是日本的東西她都喜歡。",
+          "pinyin": "fánshì rìběn de dōngxi tā dōu xǐhuan.",
+          "en": "Anything from Japan, she likes.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "美國",
       "pinyin": "Měiguó",
-      "english": "America",
-      "sentenceChinese": "我明年想去美國。",
-      "sentencePinyin": "Wǒ míngnián xiǎng qù Měiguó.",
-      "sentenceEnglish": "I want to go to the United States next year.",
-      "vietnamese": "Nước Mỹ",
-      "sentenceVietnamese": "Năm sau tôi muốn đi Mỹ."
+      "en": "America",
+      "vi": "Nước Mỹ",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "the US; America; the United States of America (USA)",
+          "sentence": "我父親是美國人。",
+          "pinyin": "wǒ fùqīn shì měiguó rén.",
+          "en": "My father is an American.",
+          "vi": "Cha tôi là người Mỹ."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "the US; America; the United States of America (USA)",
+          "sentence": "我打算去美國留學。",
+          "pinyin": "wǒ dǎsuàn qù měiguó liúxué.",
+          "en": "I plan to study abroad in the US.",
+          "vi": "Tôi dự định đi Mỹ du học."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "對不起",
       "pinyin": "duìbùqǐ",
-      "english": "I'm sorry.",
-      "sentenceChinese": "對不起，我來晚了。",
-      "sentencePinyin": "Duìbùqǐ, wǒ lái wǎn le.",
-      "sentenceEnglish": "I'm sorry, I'm late.",
-      "vietnamese": "xin lỗi",
-      "sentenceVietnamese": "Xin lỗi, tôi đến muộn."
+      "en": "I'm sorry.",
+      "vi": "xin lỗi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sorry; i'm sorry; excuse me; pardon me; i beg your pardon",
+          "sentence": "對不起，打擾你了。",
+          "pinyin": "duìbùqǐ, dǎrǎo nǐle.",
+          "en": "Pardon me for interrupting you.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "sorry; i'm sorry; excuse me; pardon me; i beg your pardon",
+          "sentence": "對不起，給你添麻煩了。",
+          "pinyin": "duìbùqǐ, gěi nǐ tiān máfan le.",
+          "en": "Sorry to have given you so much trouble.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "哪國",
       "pinyin": "nǎ guó / něi guó",
-      "english": "Which country?",
-      "sentenceChinese": "你是哪國人？",
-      "sentencePinyin": "Nǐ shì nǎ guó rén?",
-      "sentenceEnglish": "Which country are you from?",
-      "vietnamese": "nước nào",
-      "sentenceVietnamese": "Bạn là người nước nào?"
+      "en": "Which country?",
+      "vi": "nước nào",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "which; what",
+          "sentence": "你準備去哪座城市？",
+          "pinyin": "nǐ zhǔnbèi qù nǎ zuò chéngshì?",
+          "en": "Which city are you planning to go to?",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "which; what (used alone, same as \"什么\", often used interchangeably with \"什么\")",
+          "sentence": "你們正在找哪？",
+          "pinyin": "nǐmen zhèngzài zhǎo nǎ?",
+          "en": "What are you looking for?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "how",
+          "sentence": "不知道能纍到哪兒去？",
+          "pinyin": "bù zhīdào néng lèi dào nǎ'er qù?",
+          "en": "I wonder how tired one can get?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "how",
+          "sentence": "講英語時，哪怕是再短的音節也不能吞掉。",
+          "pinyin": "jiǎng yīngyǔ shí, nǎpà shì zài duǎn de yīnjié yě bùnéng tūn diào.",
+          "en": "In speaking English do not swallow a single syllable, however short it may be.",
+          "vi": ""
+        }
+      ]
     }
-  ],
-  "theme": "Introducing Myself"
+  ]
 }

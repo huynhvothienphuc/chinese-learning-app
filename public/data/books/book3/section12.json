@@ -7,926 +7,2589 @@
       "id": 1,
       "chinese": "投票",
       "pinyin": "tóupiào",
-      "english": "to vote",
-      "sentenceChinese": "我今年第一次去投票。",
-      "sentencePinyin": "Wǒ jīnnián dì yī cì qù tóupiào.",
-      "sentenceEnglish": "This year is my first time going to vote.",
-      "vietnamese": "bỏ phiếu",
-      "sentenceVietnamese": "Năm nay là lần đầu tiên tôi đi bỏ phiếu."
+      "en": "to vote",
+      "vi": "bỏ phiếu",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "vote; cast a vote",
+          "sentence": "他投票支持這個提案。",
+          "pinyin": "tā tóupiào zhīchí zhège tí'àn.",
+          "en": "He voted in support of this proposal.",
+          "vi": "Anh ấy bỏ phiếu ủng hộ đề án này."
+        },
+        {
+          "type": "sv",
+          "meaning": "vote; cast a vote",
+          "sentence": "我們今天要去投票。",
+          "pinyin": "wǒmen jīntiān yào qù tóupiào.",
+          "en": "We are going to vote today.",
+          "vi": "Hôm nay chúng tôi phải đi bầu cử."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "抱歉",
       "pinyin": "bàoqiàn",
-      "english": "sorry; apologetic",
-      "sentenceChinese": "抱歉，我今天不能陪你去遊行。",
-      "sentencePinyin": "Bàoqiàn, wǒ jīntiān bùnéng péi nǐ qù yóuxíng.",
-      "sentenceEnglish": "Sorry, I can't go to the march with you today.",
-      "vietnamese": "xin lỗi",
-      "sentenceVietnamese": "Xin lỗi, hôm nay tôi không thể đi diễu hành cùng bạn."
+      "en": "sorry; apologetic",
+      "vi": "xin lỗi",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "sorry; apologetic; regretful",
+          "sentence": "她真心地感到抱歉。",
+          "pinyin": "tā zhēnxīn de gǎndào bàoqiàn",
+          "en": "She was truly sorry.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "sorry; apologetic; regretful",
+          "sentence": "他一臉抱歉地看著我。",
+          "pinyin": "tā yī liǎn bàoqiàn de kànzhe wǒ.",
+          "en": "He looked at me with an apologetic expression.",
+          "vi": "Anh ấy mặt đầy áy náy nhìn tôi."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "表妹",
       "pinyin": "biǎomèi",
-      "english": "younger female cousin",
-      "sentenceChinese": "我表妹最近很關心公共議題。",
-      "sentencePinyin": "Wǒ biǎomèi zuìjìn hěn guānxīn gōnggòng yìtí.",
-      "sentenceEnglish": "My younger female cousin has been very concerned about public issues lately.",
-      "vietnamese": "em họ (nữ)",
-      "sentenceVietnamese": "Em họ tôi dạo gần đây rất quan tâm đến các vấn đề công cộng."
+      "en": "younger female cousin",
+      "vi": "em họ (nữ)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "younger female cousin; cousin on the female line",
+          "sentence": "錶妹給我買了一份禮物。",
+          "pinyin": "biǎomèi gěi wǒ mǎile yī fèn lǐwù.",
+          "en": "My younger female cousin bought me a gift.",
+          "vi": "Em họ đã mua cho tôi một món quà."
+        },
+        {
+          "type": "Noun",
+          "meaning": "younger female cousin; cousin on the female line",
+          "sentence": "我的錶妹很喜歡彈鋼琴。",
+          "pinyin": "wǒ de biǎomèi hěn xǐhuan tán gāngqín.",
+          "en": "My younger female cousin loves playing the piano.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "反核",
       "pinyin": "fǎn hé",
-      "english": "anti-nuclear",
-      "sentenceChinese": "她週末要去參加反核遊行。",
-      "sentencePinyin": "Tā zhōumò yào qù cānjiā fǎn hé yóuxíng.",
-      "sentenceEnglish": "She is going to take part in an anti-nuclear march this weekend.",
-      "vietnamese": "phản hạt nhân",
-      "sentenceVietnamese": "Cuối tuần cô ấy sẽ tham gia diễu hành phản hạt nhân."
+      "en": "anti-nuclear",
+      "vi": "phản hạt nhân",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "anti-nuclear (e.g. protest)",
+          "sentence": "政府麵對反核/覈示威遊行。",
+          "pinyin": "Zhèngfǔ miànduì fǎnhé shìwēi yóuxíng.",
+          "en": "The government faces anti-nuclear protest marches.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "遊行",
       "pinyin": "yóuxíng",
-      "english": "demonstration; march",
-      "sentenceChinese": "很多年輕人都願意參加遊行表達看法。",
-      "sentencePinyin": "Hěn duō niánqīngrén dōu yuànyì cānjiā yóuxíng biǎodá kànfǎ.",
-      "sentenceEnglish": "Many young people are willing to join demonstrations to express their views.",
-      "vietnamese": "diễu hành; tuần hành",
-      "sentenceVietnamese": "Nhiều người trẻ sẵn sàng tham gia tuần hành để bày tỏ quan điểm."
+      "en": "demonstration; march",
+      "vi": "diễu hành; tuần hành",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "parade; march; demonstration",
+          "sentence": "人們在舉行慶祝遊行活動。",
+          "pinyin": "rénmen zài jǔxíng qìngzhù yóuxíng huódòng.",
+          "en": "People are holding a celebration parade.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "parade; march; demonstration",
+          "sentence": "上萬人在廣場舉行了遊行。",
+          "pinyin": "shàng wàn rén zài guǎngchǎng jǔxíngle yóuxíng.",
+          "en": "Tens of thousands of people marched in the squar.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "政治",
       "pinyin": "zhèngzhì",
-      "english": "politics",
-      "sentenceChinese": "有些人從年輕的時候就對政治很有興趣。",
-      "sentencePinyin": "Yǒuxiē rén cóng niánqīng de shíhou jiù duì zhèngzhì hěn yǒu xìngqù.",
-      "sentenceEnglish": "Some people have been interested in politics since they were young.",
-      "vietnamese": "chính trị",
-      "sentenceVietnamese": "Có người từ trẻ đã rất hứng thú với chính trị."
+      "en": "politics",
+      "vi": "chính trị",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "politics; political affairs",
+          "sentence": "他對政治很感興趣。",
+          "pinyin": "tā duì zhèngzhì hěn gǎn xìngqù.",
+          "en": "He is very interested in politics.",
+          "vi": "Anh ấy rất quan tâm đến chính trị."
+        },
+        {
+          "type": "Noun",
+          "meaning": "politics; political affairs",
+          "sentence": "學校有政治活動。",
+          "pinyin": "xuéxiào yǒu zhèngzhì huódòng.",
+          "en": "There are political activities in the school.",
+          "vi": "Trường có các hoạt động chính trị."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "熱衷",
       "pinyin": "rèzhōng",
-      "english": "enthusiastic about; passionate about",
-      "sentenceChinese": "她很熱衷政治活動。",
-      "sentencePinyin": "Tā hěn rèzhōng zhèngzhì huódòng.",
-      "sentenceEnglish": "She is passionate about political activities.",
-      "vietnamese": "say mê; nhiệt tình với",
-      "sentenceVietnamese": "Cô ấy rất say mê các hoạt động chính trị."
+      "en": "enthusiastic about; passionate about",
+      "vi": "say mê; nhiệt tình với",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be fond of; be keen on",
+          "sentence": "我對健身很熱衷。",
+          "pinyin": "wǒ duì jiànshēn hěn rèzhōng.",
+          "en": "I am keen on fitness.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be fond of; be keen on",
+          "sentence": "她對創作非常熱衷。",
+          "pinyin": "tā duì chuàngzuò fēicháng rèzhōng.",
+          "en": "She is very fond of creation.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "前途",
       "pinyin": "qiántú",
-      "english": "future; prospects",
-      "sentenceChinese": "家人擔心這件事會影響她的前途。",
-      "sentencePinyin": "Jiārén dānxīn zhè jiàn shì huì yǐngxiǎng tā de qiántú.",
-      "sentenceEnglish": "Her family worries that this will affect her future.",
-      "vietnamese": "tiền đồ; tương lai",
-      "sentenceVietnamese": "Gia đình lo chuyện này sẽ ảnh hưởng đến tương lai của cô ấy."
+      "en": "future; prospects",
+      "vi": "tiền đồ; tương lai",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "future; outlook; prospect",
+          "sentence": "祝你有一個好的前途。",
+          "pinyin": "zhù nǐ yǒu yīgè hǎo de qiántú.",
+          "en": "Wish you have a great prospect.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "future; outlook; prospect",
+          "sentence": "她的政治前途還是個疑問。",
+          "pinyin": "tā de zhèngzhì qiántú háishì gè yíwèn.",
+          "en": "Her political future is in question.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "勸",
       "pinyin": "quàn",
-      "english": "to persuade; to urge",
-      "sentenceChinese": "媽媽勸她先把書念好。",
-      "sentencePinyin": "Māma quàn tā xiān bǎ shū niàn hǎo.",
-      "sentenceEnglish": "Her mother urged her to focus on her studies first.",
-      "vietnamese": "khuyên",
-      "sentenceVietnamese": "Mẹ cô ấy khuyên cô ấy nên học hành cho tốt trước."
+      "en": "to persuade; to urge",
+      "vi": "khuyên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "urge; advise; try to persuade",
+          "sentence": "我勸他，但是他不聽。",
+          "pinyin": "wǒ quàn tā, dànshì tā bù tīng.",
+          "en": "I advised him, but he didn't listen.",
+          "vi": "Tôi đã khuyên anh ấy nhưng anh ấy không nghe."
+        },
+        {
+          "type": "Verb",
+          "meaning": "urge; advise; try to persuade",
+          "sentence": "我們勸他別去了。",
+          "pinyin": "wǒmen quàn tā bié qùle.",
+          "en": "We advised him not to go.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓勸。",
+          "pinyin": "tā xìng quàn.",
+          "en": "His surname is Quan.",
+          "vi": "Anh ta họ Khuyến."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "而已",
       "pinyin": "éryǐ",
-      "english": "only; merely",
-      "sentenceChinese": "她只是去參加遊行而已。",
-      "sentencePinyin": "Tā zhǐshì qù cānjiā yóuxíng éryǐ.",
-      "sentenceEnglish": "She is only going to participate in a demonstration.",
-      "vietnamese": "mà thôi",
-      "sentenceVietnamese": "Cô ấy chỉ là đi tham gia tuần hành thôi."
+      "en": "only; merely",
+      "vi": "mà thôi",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "that is all; nothing more",
+          "sentence": "他隻是有點纍而已。",
+          "pinyin": "tā zhǐshì yǒudiǎn lèi éryǐ.",
+          "en": "He's just a little tired.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "that is all; nothing more",
+          "sentence": "我們隻是普通朋友而已。",
+          "pinyin": "wǒmen zhǐshì pǔtōng péngyou éryǐ.",
+          "en": "We're just friends.",
+          "vi": "Chúng tôi chỉ là những người bạn bình thường mà thôi."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "民主",
       "pinyin": "mínzhǔ",
-      "english": "democratic; democracy",
-      "sentenceChinese": "在民主社會裡，人民可以表達自己的意見。",
-      "sentencePinyin": "Zài mínzhǔ shèhuì lǐ, rénmín kěyǐ biǎodá zìjǐ de yìjiàn.",
-      "sentenceEnglish": "In a democratic society, the people can express their own opinions.",
-      "vietnamese": "dân chủ",
-      "sentenceVietnamese": "Trong xã hội dân chủ, người dân có thể bày tỏ ý kiến của mình."
+      "en": "democratic; democracy",
+      "vi": "dân chủ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "democracy; democratic rights",
+          "sentence": "民主是社會進步的標誌。",
+          "pinyin": "mínzhǔ shì shèhuì jìnbù de biāozhì.",
+          "en": "Democracy is a sign of social progress.",
+          "vi": "Dân chủ là dấu hiệu của tiến bộ xã hội."
+        },
+        {
+          "type": "Noun",
+          "meaning": "democracy; democratic rights",
+          "sentence": "民主自由是人類的追求。",
+          "pinyin": "mínzhǔ zìyóu shì rénlèi de zhuīqiú.",
+          "en": "Democratic freedom is humanity's pursuit.",
+          "vi": "Tự do dân chủ là điều nhân loại luôn hướng tới."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "democratic",
+          "sentence": "我們生活在民主的時代。",
+          "pinyin": "wǒmen shēnghuó zài mínzhǔ de shídài.",
+          "en": "We live in a democratic era.",
+          "vi": "Chúng ta sống trong thời đại dân chủ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "democratic",
+          "sentence": "這件事需要民主地決定。",
+          "pinyin": "zhè jiàn shì xūyào mínzhǔ de juédìng.",
+          "en": "This matter needs to be decided democratically.",
+          "vi": "Việc này cần được quyết định dân chủ."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "表達",
       "pinyin": "biǎodá",
-      "english": "to express",
-      "sentenceChinese": "每個人都應該有機會表達看法。",
-      "sentencePinyin": "Měi gè rén dōu yīnggāi yǒu jīhuì biǎodá kànfǎ.",
-      "sentenceEnglish": "Everyone should have the chance to express their views.",
-      "vietnamese": "bày tỏ",
-      "sentenceVietnamese": "Mỗi người đều nên có cơ hội bày tỏ quan điểm của mình."
+      "en": "to express",
+      "vi": "bày tỏ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "deliver; express; show; voice; convey; communicate",
+          "sentence": "這封信錶達了歉意。",
+          "pinyin": "zhè fēng xìn biǎodále qiànyì.",
+          "en": "This letter expressed an apology.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "deliver; express; show; voice; convey; communicate",
+          "sentence": "她錶達了自己的意見。",
+          "pinyin": "tā biǎodále zìjǐ de yìjiàn.",
+          "en": "She expressed her opinion.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "公共",
       "pinyin": "gōnggòng",
-      "english": "public",
-      "sentenceChinese": "公共議題跟每個人的生活都有關。",
-      "sentencePinyin": "Gōnggòng yìtí gēn měi gè rén de shēnghuó dōu yǒuguān.",
-      "sentenceEnglish": "Public issues are related to everyone's life.",
-      "vietnamese": "công cộng",
-      "sentenceVietnamese": "Các vấn đề công cộng đều có liên quan đến cuộc sống của mỗi người."
+      "en": "public",
+      "vi": "công cộng",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "public; common; communal",
+          "sentence": "公共衛生很重要。",
+          "pinyin": "gōnggòng wèishēng hěn zhòngyào.",
+          "en": "Public hygiene is very important.",
+          "vi": "Vệ sinh công cộng rất quan trọng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "public; common; communal",
+          "sentence": "人們遵守公共秩序。",
+          "pinyin": "rénmen zūnshǒu gōnggòng zhìxù.",
+          "en": "People adhere to public order.",
+          "vi": "Mọi người tuân thủ trật tự công cộng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "bus",
+          "sentence": "我常坐公共齣行。",
+          "pinyin": "wǒ cháng zuò gōnggòng chūxíng.",
+          "en": "I often take public transportation.",
+          "vi": "Tôi thường đi xe buýt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "bus",
+          "sentence": "公共裡/裏孩子哭鬧。",
+          "pinyin": "gōnggòng lǐ háizi kū nào.",
+          "en": "A child was crying on the bus.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "議題",
       "pinyin": "yìtí",
-      "english": "issue; topic",
-      "sentenceChinese": "核能是一個很大的公共議題。",
-      "sentencePinyin": "Hénéng shì yí gè hěn dà de gōnggòng yìtí.",
-      "sentenceEnglish": "Nuclear power is a major public issue.",
-      "vietnamese": "vấn đề",
-      "sentenceVietnamese": "Năng lượng hạt nhân là một vấn đề công cộng rất lớn."
+      "en": "issue; topic",
+      "vi": "vấn đề",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "subject under discussion; topic for discussion",
+          "sentence": "會議的議題是環境保護。",
+          "pinyin": "huìyì de yìtí shì huánjìng bǎohù.",
+          "en": "The topic of the meeting is environmental protection.",
+          "vi": "Vấn đề của cuộc họp là bảo vệ môi trường."
+        },
+        {
+          "type": "Noun",
+          "meaning": "subject under discussion; topic for discussion",
+          "sentence": "會議上提齣了很多新的議題。",
+          "pinyin": "huìyì shàng tíchūle hěnduō xīn de yìtí.",
+          "en": "Many new topics were raised at the meeting.",
+          "vi": "Trong cuộc họp đã đưa ra rất nhiều vấn đề mới."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "核能",
       "pinyin": "hénéng",
-      "english": "nuclear power",
-      "sentenceChinese": "很多人對核能有不同的看法。",
-      "sentencePinyin": "Hěn duō rén duì hénéng yǒu bùtóng de kànfǎ.",
-      "sentenceEnglish": "Many people have different views on nuclear power.",
-      "vietnamese": "năng lượng hạt nhân",
-      "sentenceVietnamese": "Nhiều người có quan điểm khác nhau về năng lượng hạt nhân."
+      "en": "nuclear power",
+      "vi": "năng lượng hạt nhân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "nuclear energy",
+          "sentence": "核/覈能是一種清潔能源。",
+          "pinyin": "hénéng shì yī zhǒng qīngjié néngyuán.",
+          "en": "Nuclear energy is a kind of clean energy.",
+          "vi": "Năng lượng hạt nhân là một dạng năng lượng sạch."
+        },
+        {
+          "type": "Noun",
+          "meaning": "nuclear energy",
+          "sentence": "核/覈能在軍事上也有應用。",
+          "pinyin": "hénéng zài jūnshì shàng yěyǒu yìngyòng.",
+          "en": "Nuclear energy is also used in the military.",
+          "vi": "Năng lượng hạt nhân cũng có ứng dụng trong quân sự."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "電廠",
       "pinyin": "diànchǎng",
-      "english": "power plant",
-      "sentenceChinese": "是否應該蓋核能電廠一直有爭議。",
-      "sentencePinyin": "Shìfǒu yīnggāi gài hénéng diànchǎng yìzhí yǒu zhēngyì.",
-      "sentenceEnglish": "There has long been debate over whether nuclear power plants should be built.",
-      "vietnamese": "nhà máy điện",
-      "sentenceVietnamese": "Việc có nên xây nhà máy điện hạt nhân hay không vẫn luôn gây tranh cãi."
+      "en": "power plant",
+      "vi": "nhà máy điện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "electric power plant",
+          "sentence": "他在縣裡/裏的電廠上班。",
+          "pinyin": "Tā zài xiàn lǐ de diàn chǎng shàngbān.",
+          "en": "He works at the county power plant.",
+          "vi": ""
+        },
+        {
+          "type": "colloquial",
+          "meaning": "(electric) power plant; power station",
+          "sentence": "火力髮/發電廠每天工作十小時。",
+          "pinyin": "Huǒlì fādiàn chǎng měitiān gōngzuò shí xiǎoshí.",
+          "en": "The thermal power plant works ten hours every day.",
+          "vi": ""
+        },
+        {
+          "type": "colloquial",
+          "meaning": "(electric) power plant; power station",
+          "sentence": "地熱髮/發電廠。",
+          "pinyin": "dì rè fā diàn chǎng",
+          "en": "Geothermal power plant",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "由",
       "pinyin": "yóu",
-      "english": "by; to be decided by",
-      "sentenceChinese": "這種問題應該由專家來討論。",
-      "sentencePinyin": "Zhè zhǒng wèntí yīnggāi yóu zhuānjiā lái tǎolùn.",
-      "sentenceEnglish": "This kind of issue should be discussed by experts.",
-      "vietnamese": "do; bởi",
-      "sentenceVietnamese": "Loại vấn đề này nên do chuyên gia thảo luận."
+      "en": "by; to be decided by",
+      "vi": "do; bởi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cause; reason",
+          "sentence": "事情的原由很復雜。",
+          "pinyin": "shìqíng de yuányóu hěn fùzá.",
+          "en": "The cause of the matter is very complicated.",
+          "vi": "Nguyên nhân của sự việc rất phức tạ"
+        },
+        {
+          "type": "Noun",
+          "meaning": "cause; reason",
+          "sentence": "他講述了事故的由。",
+          "pinyin": "tā jiǎng shù le shìgù de yóu.",
+          "en": "He explained the cause of the accident.",
+          "vi": "Anh ấy kể về nguyên nhân của vụ tai nạn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass through; go by the way of",
+          "sentence": "文件需由他經手。",
+          "pinyin": "wénjiàn xū yóu tā jīngshǒu.",
+          "en": "The document needs to be handled by him.",
+          "vi": "Tài liệu cần qua tay anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass through; go by the way of",
+          "sentence": "由這條街可到商場。",
+          "pinyin": "yóu zhè tiáo jiē kě dào shāngchǎng.",
+          "en": "You can reach the mall via this street.",
+          "vi": "Qua con phố này có thể đến trung tâm thương mại."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "due to; because of",
+          "sentence": "這是他咎由自取。",
+          "pinyin": "zhè shì tā jiùyóuzìqǔ.",
+          "en": "He brought this upon himself.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "due to; because of",
+          "sentence": "貨物由水路運輸。",
+          "pinyin": "huòwù yóu shuǐlù yùnshū.",
+          "en": "Goods are transported by waterway.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "專家",
       "pinyin": "zhuānjiā",
-      "english": "expert; specialist",
-      "sentenceChinese": "大家希望專家能提出更好的建議。",
-      "sentencePinyin": "Dàjiā xīwàng zhuānjiā néng tíchū gèng hǎo de jiànyì.",
-      "sentenceEnglish": "People hope experts can propose better suggestions.",
-      "vietnamese": "chuyên gia",
-      "sentenceVietnamese": "Mọi người hy vọng chuyên gia có thể đưa ra kiến nghị tốt hơn."
+      "en": "expert; specialist",
+      "vi": "chuyên gia",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "expert; specialist; proficient",
+          "sentence": "專傢對這幅畫估價很高。",
+          "pinyin": "zhuānjiā duì zhè fú huà gūjià hěn gāo.",
+          "en": "Experts set a high valuation on the painting.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "expert; specialist; proficient",
+          "sentence": "我們將需要專傢的意見。",
+          "pinyin": "wǒmen jiāng xūyào zhuānjiā de yìjiàn.",
+          "en": "We'll need an expert opinion.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "全面",
       "pinyin": "quánmiàn",
-      "english": "comprehensive; all-around",
-      "sentenceChinese": "這個問題要全面地思考。",
-      "sentencePinyin": "Zhège wèntí yào quánmiàn de sīkǎo.",
-      "sentenceEnglish": "This issue needs to be thought about comprehensively.",
-      "vietnamese": "toàn diện",
-      "sentenceVietnamese": "Vấn đề này cần phải được suy nghĩ một cách toàn diện."
+      "en": "comprehensive; all-around",
+      "vi": "toàn diện",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "overall; all-round",
+          "sentence": "這是全麵的計劃。",
+          "pinyin": "zhè shì quánmiàn de jìhuà.",
+          "en": "This is a comprehensive plan.",
+          "vi": "Đây là kế hoạch toàn diện."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "overall; all-round",
+          "sentence": "她的知識很全麵。",
+          "pinyin": "tā de zhī shi hěn quánmiàn.",
+          "en": "Her knowledge is very comprehensive.",
+          "vi": "Kiến thức của cô ấy rất toàn diện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "all aspects; every aspect",
+          "sentence": "媽媽總是細心照顧全麵。",
+          "pinyin": "māma zǒng shì xìxīn zhàogù quánmiàn.",
+          "en": "Mom always carefully takes care of every aspect.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "all aspects; every aspect",
+          "sentence": "經理負責全麵管理工作。",
+          "pinyin": "jīnglǐ fùzé quánmiàn guǎnlǐ gōngzuò.",
+          "en": "The manager is responsible for every aspect of management.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "民意",
       "pinyin": "mínyì",
-      "english": "public opinion; the will of the people",
-      "sentenceChinese": "政治人物應該反映民意。",
-      "sentencePinyin": "Zhèngzhì rénwù yīnggāi fǎnyìng mínyì.",
-      "sentenceEnglish": "Politicians should reflect public opinion.",
-      "vietnamese": "dân ý",
-      "sentenceVietnamese": "Nhân vật chính trị nên phản ánh dân ý."
+      "en": "public opinion; the will of the people",
+      "vi": "dân ý",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "will of the people; popular will",
+          "sentence": "民意需要認真傾聽。",
+          "pinyin": "mín yì xū yào rèn zhēn qīng tīng",
+          "en": "The will of the people needs to be listened to carefully.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "public opinion",
+          "sentence": "因為他們知道這樣可以讓民意背離我們。",
+          "pinyin": "yīnwèi tāmen zhīdào zhèyáng kěyǐ ràng mínyì bèilí wǒmen",
+          "en": "Because they knew it would turn public opinion against us.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "代表",
       "pinyin": "dàibiǎo",
-      "english": "representative; to represent",
-      "sentenceChinese": "民意代表應該為人民說話。",
-      "sentencePinyin": "Mínyì dàibiǎo yīnggāi wèi rénmín shuōhuà.",
-      "sentenceEnglish": "Elected representatives should speak for the people.",
-      "vietnamese": "đại diện",
-      "sentenceVietnamese": "Đại biểu dân ý nên lên tiếng thay cho người dân."
+      "en": "representative; to represent",
+      "vi": "đại diện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "deputy; delegate; representative",
+          "sentence": "他是公司的職工代錶。",
+          "pinyin": "tā shì gōngsī de zhígōng dàibiǎo.",
+          "en": "He is the employee representative of the company.",
+          "vi": "Anh ấy là đại diện của nhân viên công ty."
+        },
+        {
+          "type": "Noun",
+          "meaning": "deputy; delegate; representative",
+          "sentence": "這次會議選齣了30名代錶。",
+          "pinyin": "zhè cì huìyì xuǎn chūle 30 míng dàibiǎo.",
+          "en": "This meeting elected 30 representatives.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "represent; stand for",
+          "sentence": "我代錶公司齣席會議。",
+          "pinyin": "wǒ dàibiǎo gōngsī chūxí huìyì.",
+          "en": "I represent the company at the meeting.",
+          "vi": "Tôi đại diện công ty tham dự cuộc họp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "represent; stand for",
+          "sentence": "我不能代錶他作決定。",
+          "pinyin": "wǒ bùnéng dàibiǎo tā zuò juédìng.",
+          "en": "I cannot make a decision on his behalf.",
+          "vi": "Tôi không thể đại diện anh ấy đưa ra quyết định."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "處理",
       "pinyin": "chǔlǐ",
-      "english": "to handle; to deal with",
-      "sentenceChinese": "政府必須處理這些問題。",
-      "sentencePinyin": "Zhèngfǔ bìxū chǔlǐ zhèxiē wèntí.",
-      "sentenceEnglish": "The government must handle these issues.",
-      "vietnamese": "xử lý",
-      "sentenceVietnamese": "Chính phủ phải xử lý những vấn đề này."
+      "en": "to handle; to deal with",
+      "vi": "xử lý",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "handle; deal with; dispose of",
+          "sentence": "怎麼處理這個問題？",
+          "pinyin": "zěnme chǔlǐ zhège wèntí?",
+          "en": "How do we handle this problem?",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "handle; deal with; dispose of",
+          "sentence": "每天至少要處理五份文件。",
+          "pinyin": "měitiān zhìshǎo yào chǔlǐ wǔ fèn wénjiàn.",
+          "en": "At least five documents need to be processed every day.",
+          "vi": "Ít nhất năm tài liệu phải được xử lý mỗi ngày."
+        },
+        {
+          "type": "Noun",
+          "meaning": "handling; disposal",
+          "sentence": "這種材料的處理很關鍵。",
+          "pinyin": "zhè zhǒng cáiliào de chǔlǐ hěn guānjiàn.",
+          "en": "The handling of this material is very crucial.",
+          "vi": "Cách xử ký của loại tài liệu này rất quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "handling; disposal",
+          "sentence": "我們正在研究更有效的處理。",
+          "pinyin": "wǒmen zhèngzài yánjiū gèng yǒuxiào de chǔlǐ.",
+          "en": "We are studying more effective handling methods.",
+          "vi": "Chúng tôi đang nghiên cứu cách xử lý hiệu quả hơn."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "政黨",
       "pinyin": "zhèngdǎng",
-      "english": "political party",
-      "sentenceChinese": "有些人覺得政黨利益比人民重要。",
-      "sentencePinyin": "Yǒuxiē rén juéde zhèngdǎng lìyì bǐ rénmín zhòngyào.",
-      "sentenceEnglish": "Some people feel that party interests are more important than the people.",
-      "vietnamese": "đảng phái chính trị",
-      "sentenceVietnamese": "Có người cảm thấy lợi ích của đảng phái còn quan trọng hơn người dân."
+      "en": "political party",
+      "vi": "đảng phái chính trị",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "political party",
+          "sentence": "這個國傢有多個政黨競爭。",
+          "pinyin": "zhège guójiā yǒu duō gè zhèngdǎng jìngzhēng.",
+          "en": "This country has multiple political parties competing.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "political party",
+          "sentence": "政黨需要製定清晰的政策。",
+          "pinyin": "zhèngdǎng xūyào zhìdìng qīngxī de zhèngcè.",
+          "en": "Political parties need to formulate clear policies.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "難道",
       "pinyin": "nándào",
-      "english": "could it be that...?",
-      "sentenceChinese": "難道你真的不打算去投票嗎？",
-      "sentencePinyin": "Nándào nǐ zhēn de bù dǎsuàn qù tóupiào ma?",
-      "sentenceEnglish": "Could it be that you really do not plan to vote?",
-      "vietnamese": "chẳng lẽ",
-      "sentenceVietnamese": "Chẳng lẽ bạn thật sự không định đi bỏ phiếu sao?"
+      "en": "could it be that...?",
+      "vi": "chẳng lẽ",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "don't tell me...; could it be that...?",
+          "sentence": "難道你不知道嗎？",
+          "pinyin": "nándào nǐ bù zhīdào ma?",
+          "en": "Could it be that you don't know?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "don't tell me...; could it be that...?",
+          "sentence": "難道你不相信我？",
+          "pinyin": "nándào nǐ bù xiāngxìn wǒ?",
+          "en": "Could it be that you don't believe me?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "滿",
       "pinyin": "mǎn",
-      "english": "to become filled with; to be dissatisfied with",
-      "sentenceChinese": "他對所有候選人都不滿。",
-      "sentencePinyin": "Tā duì suǒyǒu hòuxuǎnrén dōu bù mǎn.",
-      "sentenceEnglish": "He is dissatisfied with all the candidates.",
-      "vietnamese": "không hài lòng",
-      "sentenceVietnamese": "Anh ấy không hài lòng với tất cả các ứng cử viên."
+      "en": "to become filled with; to be dissatisfied with",
+      "vi": "không hài lòng",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "full; filled; packed",
+          "sentence": "汽油罐已經加滿了油。",
+          "pinyin": "qìyóu guàn yǐjīng jiā mǎnle yóu.",
+          "en": "The gas tank has already been filled up.",
+          "vi": "Bình xăng đã đổ đầy rồi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "all; entire; whole",
+          "sentence": "他滿身是血地迴來了。",
+          "pinyin": "tā mǎn shēn shì xuè de huíláile.",
+          "en": "He came back covered in blood.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "fill",
+          "sentence": "我為你滿上一盃咖啡。",
+          "pinyin": "wǒ wèi nǐ mǎn shàng yībēi kāfēi.",
+          "en": "I poured you a full cup of coffee.",
+          "vi": "Tôi rót đầy cho bạn một ly cà phê."
+        },
+        {
+          "type": "Verb",
+          "meaning": "To feel satisfied /To feel sufficient",
+          "sentence": "青龍滿族自治縣風景優美。",
+          "pinyin": "Qīnglóng mǎnzú zìzhìxiàn fēngjǐng yōuměi.",
+          "en": "Qinglong Manchu Autonomous County has beautiful scenery.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; rather; quite",
+          "sentence": "他是一個滿不錯的選手。",
+          "pinyin": "tā shì yī gè mǎn bù cuò de xuǎn shǒu.",
+          "en": "He is quite a good player.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "completely; entirely; perfectly",
+          "sentence": "她對我的話滿不在乎。",
+          "pinyin": "tā duì wǒ dehuà mǎnbùzàihū.",
+          "en": "She is totally unconcerned with my words.",
+          "vi": "Cô ấy hoàn toàn không bận tâm đến lời tôi nói."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the Man nationality",
+          "sentence": "滿族的傳統節日是什麼？",
+          "pinyin": "mǎnzú de chuántǒng jiérì shì shénme?",
+          "en": "What are the traditional festivals of the Manchu people?",
+          "vi": "Lễ hội truyền thống của dân tộc Mãn là gì?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "滿姑孃真漂亮！",
+          "pinyin": "mǎn gūniáng zhēn piàoliang!",
+          "en": "Miss Manchu is so pretty!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "憲法",
       "pinyin": "xiànfǎ",
-      "english": "constitution",
-      "sentenceChinese": "憲法保障人民的基本權利。",
-      "sentencePinyin": "Xiànfǎ bǎozhàng rénmín de jīběn quánlì.",
-      "sentenceEnglish": "The constitution protects the people's basic rights.",
-      "vietnamese": "hiến pháp",
-      "sentenceVietnamese": "Hiến pháp bảo vệ các quyền cơ bản của người dân."
+      "en": "constitution",
+      "vi": "hiến pháp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Constitution",
+          "sentence": "法官必須依據憲法判案。",
+          "pinyin": "fǎguān bìxū yījù xiànfǎ pàn àn.",
+          "en": "Judges must rule according to the Constitution.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Constitution",
+          "sentence": "憲法對政府行為有約束力。",
+          "pinyin": "xiànfǎ duì zhèngfǔ xíngwéi yǒu yuēshù lì.",
+          "en": "The Constitution restricts government actions.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "投票權",
       "pinyin": "tóupiàoquán",
-      "english": "the right to vote",
-      "sentenceChinese": "滿二十歲的人就有投票權。",
-      "sentencePinyin": "Mǎn èrshí suì de rén jiù yǒu tóupiàoquán.",
-      "sentenceEnglish": "People who are twenty years old have the right to vote.",
-      "vietnamese": "quyền bầu cử",
-      "sentenceVietnamese": "Người đủ hai mươi tuổi thì có quyền bầu cử."
+      "en": "the right to vote",
+      "vi": "quyền bầu cử",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "right to vote",
+          "sentence": "女性的投票權。",
+          "pinyin": "nv̌xìng de tóupiàoquán",
+          "en": "There goes the right to vote.",
+          "vi": "Có quyền bỏ phiếu."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "選舉",
       "pinyin": "xuǎnjǔ",
-      "english": "election",
-      "sentenceChinese": "年底有很重要的選舉。",
-      "sentencePinyin": "Niándǐ yǒu hěn zhòngyào de xuǎnjǔ.",
-      "sentenceEnglish": "There is an important election at the end of the year.",
-      "vietnamese": "bầu cử",
-      "sentenceVietnamese": "Cuối năm có một cuộc bầu cử rất quan trọng."
+      "en": "election",
+      "vi": "bầu cử",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "vote; elect",
+          "sentence": "村民們選舉了新的村長。",
+          "pinyin": "cūnmínmen xuǎnjǔle xīn de cūn zhǎng.",
+          "en": "The villagers have elected a new village head.",
+          "vi": "Người dân trong làng đã bầu ra trưởng thôn mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "vote; elect",
+          "sentence": "他們正在選舉新班長。",
+          "pinyin": "tāmen zhèngzài xuǎnjǔ xīn bānzhǎng.",
+          "en": "They are electing a new class monitor.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "election",
+          "sentence": "大傢都參加了選舉。",
+          "pinyin": "dàjiā dōu cānjiāle xuǎnjǔ.",
+          "en": "Everyone participated in the election.",
+          "vi": "Mọi người đều tham gia bầu cử."
+        },
+        {
+          "type": "Noun",
+          "meaning": "election",
+          "sentence": "誰將會在選舉中穫勝？",
+          "pinyin": "shéi jiāng huì zài xuǎnjǔ zhōng huòshèng?",
+          "en": "Who will win in the election?",
+          "vi": "Ai sẽ chiến thắng trong cuộc bầu cử?"
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "權利",
       "pinyin": "quánlì",
-      "english": "right",
-      "sentenceChinese": "不去投票也是一種權利。",
-      "sentencePinyin": "Bù qù tóupiào yě shì yì zhǒng quánlì.",
-      "sentenceEnglish": "Not voting is also a kind of right.",
-      "vietnamese": "quyền lợi; quyền",
-      "sentenceVietnamese": "Không đi bỏ phiếu cũng là một loại quyền."
+      "en": "right",
+      "vi": "quyền lợi; quyền",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "right; interest",
+          "sentence": "權利包含著義務。",
+          "pinyin": "quánlì bāohánzhe yìwù.",
+          "en": "Rights come with responsibilities.",
+          "vi": "Quyền lợi đi đôi với nghĩa vụ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "right; interest",
+          "sentence": "他放棄了繼承權利。",
+          "pinyin": "tā fàngqìle jìchéng quánlì.",
+          "en": "He renounced his inheritance rights.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "表示",
       "pinyin": "biǎoshì",
-      "english": "to indicate; to show",
-      "sentenceChinese": "這樣做表示我對他們不滿。",
-      "sentencePinyin": "Zhèyàng zuò biǎoshì wǒ duì tāmen bù mǎn.",
-      "sentenceEnglish": "Doing this shows that I am dissatisfied with them.",
-      "vietnamese": "biểu thị",
-      "sentenceVietnamese": "Làm như vậy biểu thị rằng tôi không hài lòng với họ."
+      "en": "to indicate; to show",
+      "vi": "biểu thị",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "show; express; indicate",
+          "sentence": "他嚮我錶示感謝。",
+          "pinyin": "tā xiàng wǒ biǎoshì gǎnxiè.",
+          "en": "He expressed his gratitude to me.",
+          "vi": "Anh ấy bày tỏ lòng biết ơn với tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "show; express; indicate",
+          "sentence": "領導嚮工人錶示慰問。",
+          "pinyin": "lǐngdǎo xiàng gōngrén biǎoshì wèiwèn.",
+          "en": "The leader expressed sympathy and solicitude to the workers.",
+          "vi": "Lãnh đạo ngỏ lời thăm hỏi đến công nhân."
+        },
+        {
+          "type": "noun",
+          "meaning": "expression; indication; sign",
+          "sentence": "這是一種嫉妒的錶示。",
+          "pinyin": "zhè shì yī zhǒng jídù de biǎoshì.",
+          "en": "This is an expression of jealousy.",
+          "vi": "Đây là một dấu hiệu của sự đố kỵ."
+        },
+        {
+          "type": "noun",
+          "meaning": "expression; indication; sign",
+          "sentence": "鞠躬是一種禮貌的錶示。",
+          "pinyin": "jūgōng shì yī zhǒng lǐmào de biǎoshì.",
+          "en": "Bowing is a sign of politeness.",
+          "vi": "Cúi đầu là một biểu hiện của sự lịch sự."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "反映",
       "pinyin": "fǎnyìng",
-      "english": "to reflect",
-      "sentenceChinese": "投票結果應該反映民意。",
-      "sentencePinyin": "Tóupiào jiéguǒ yīnggāi fǎnyìng mínyì.",
-      "sentenceEnglish": "Voting results should reflect public opinion.",
-      "vietnamese": "phản ánh",
-      "sentenceVietnamese": "Kết quả bỏ phiếu nên phản ánh dân ý."
+      "en": "to reflect",
+      "vi": "phản ánh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reflect; mirror",
+          "sentence": "這部小説反映了生活。",
+          "pinyin": "zhè bù xiǎoshuō fǎnyìngle shēnghuó.",
+          "en": "This novel reflects life.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "reflect; mirror",
+          "sentence": "態度反映一個人的性格。",
+          "pinyin": "tàidù fǎnyìng yīgè rén de xìnggé.",
+          "en": "Attitude reflects a person's character.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "reflection",
+          "sentence": "老闆要聽聽員工的反應。",
+          "pinyin": "lǎobǎn yào tīng tīng yuángōng de fǎnyìng.",
+          "en": "The boss should listen the employees' responses.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "reflection",
+          "sentence": "我們接到群/羣眾/衆反映。",
+          "pinyin": "wǒmen jiē dào qúnzhòng fǎnyìng.",
+          "en": "We received feedback from the public.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "為",
       "pinyin": "wèi",
-      "english": "for",
-      "sentenceChinese": "好的政治人物是為人民服務的。",
-      "sentencePinyin": "Hǎo de zhèngzhì rénwù shì wèi rénmín fúwù de.",
-      "sentenceEnglish": "Good politicians serve the people.",
-      "vietnamese": "vì",
-      "sentenceVietnamese": "Người làm chính trị tốt là để phục vụ người dân."
+      "en": "for",
+      "vi": "vì",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "do; act",
+          "sentence": "我們應該儘力而為。",
+          "pinyin": "wǒmen yīnggāi jìnlì ér wéi.",
+          "en": "We should do our best.",
+          "vi": "Chúng ta nên làm hết sức mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "do; act",
+          "sentence": "這個項目大有可為。",
+          "pinyin": "zhège xiàngmù dàyǒukěwéi.",
+          "en": "This project has great potential.",
+          "vi": "Dự án này rất đáng làm."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "express degree (range)",
+          "sentence": "這本書廣為流傳。",
+          "pinyin": "zhè běn shū guǎng wéi liúchuán.",
+          "en": "This book is widely circulated.",
+          "vi": "Quyển sách này lan truyền rộng rãi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "express degree (range)",
+          "sentence": "這件事尤為重要。",
+          "pinyin": "zhè jiàn shì yóuwéi zhòngyào.",
+          "en": "This matter is particularly important.",
+          "vi": "Việc này đặc biệt quan trọng."
+        },
+        {
+          "type": "Particle",
+          "meaning": "with“何” in a rhetorical question",
+          "sentence": "何以事業成功為？",
+          "pinyin": "héyǐ shìyè chénggōng wéi?",
+          "en": "Why is career success considered important?",
+          "vi": "Vì sao lại là thành công sự nghiệp?"
+        },
+        {
+          "type": "Particle",
+          "meaning": "with“何” in a rhetorical question",
+          "sentence": "何以傢庭倖福為？",
+          "pinyin": "héyǐ jiātíng xìngfú wéi?",
+          "en": "Why is family happiness considered important?",
+          "vi": "Vì sao lại là hạnh phúc gia đình?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "為先生是個很好的人。",
+          "pinyin": "wéi xiānshēng shìgè hěn hǎo de rén.",
+          "en": "Mr. Wei is a very good person.",
+          "vi": "Ông Vi là một người rất tốt."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "服務",
       "pinyin": "fúwù",
-      "english": "to serve",
-      "sentenceChinese": "他希望將來可以服務更多人。",
-      "sentencePinyin": "Tā xīwàng jiānglái kěyǐ fúwù gèng duō rén.",
-      "sentenceEnglish": "He hopes to serve more people in the future.",
-      "vietnamese": "phục vụ",
-      "sentenceVietnamese": "Anh ấy hy vọng sau này có thể phục vụ nhiều người hơn."
+      "en": "to serve",
+      "vi": "phục vụ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "give service to; be in the service of; serve",
+          "sentence": "我們的目標是服務社會。",
+          "pinyin": "wǒmen de mùbiāo shì fúwù shèhuì.",
+          "en": "Our goal is to serve society.",
+          "vi": "Mục tiêu của chúng tôi là phục vụ xã hội."
+        },
+        {
+          "type": "Verb",
+          "meaning": "give service to; be in the service of; serve",
+          "sentence": "我們緻力於服務客戶。",
+          "pinyin": "wǒmen zhìlì yú fúwù kèhù.",
+          "en": "We are committed to serving our customers.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "職位",
       "pinyin": "zhíwèi",
-      "english": "position; post",
-      "sentenceChinese": "每個職位都有任期限制。",
-      "sentencePinyin": "Měi gè zhíwèi dōu yǒu rènqī xiànzhì.",
-      "sentenceEnglish": "Every position has a term limit.",
-      "vietnamese": "chức vụ",
-      "sentenceVietnamese": "Mỗi chức vụ đều có giới hạn nhiệm kỳ."
+      "en": "position; post",
+      "vi": "chức vụ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "post; position",
+          "sentence": "他是最適宜那個職位的人。",
+          "pinyin": "tā shì zuì shìyí nàge zhíwèi de rén.",
+          "en": "He is the most suitable person for that position.",
+          "vi": "Anh ấy là người phù hợp nhất cho vị trí đó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "post; position",
+          "sentence": "新職位僅限於內部招聘。",
+          "pinyin": "xīn zhíwèi jǐn xiànyú nèibù zhāopìn.",
+          "en": "New positions are limited to internal recruitment.",
+          "vi": "Các vị trí mới sẽ chỉ được tuyển dụng nội bộ."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "任期",
       "pinyin": "rènqī",
-      "english": "term of office",
-      "sentenceChinese": "他的任期今年就要結束了。",
-      "sentencePinyin": "Tā de rènqī jīnnián jiù yào jiéshù le.",
-      "sentenceEnglish": "His term of office will end this year.",
-      "vietnamese": "nhiệm kỳ",
-      "sentenceVietnamese": "Nhiệm kỳ của anh ấy năm nay sẽ kết thúc."
+      "en": "term of office",
+      "vi": "nhiệm kỳ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "term of office; term of service; tenure of office",
+          "sentence": "他的任期已滿。",
+          "pinyin": "tā de rènqī yǐ mǎn.",
+          "en": "His term of office has run out.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "term of office; term of service; tenure of office",
+          "sentence": "全國人民代錶大會每屆任期5年。",
+          "pinyin": "Quánguó rénmín dàibiǎo dàhuì měi jiè rènqī 5 nián.",
+          "en": "The National People's Congress is elected for a term of five years.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "選民",
       "pinyin": "xuǎnmín",
-      "english": "voter; electorate",
-      "sentenceChinese": "選民應該認真想清楚再投票。",
-      "sentencePinyin": "Xuǎnmín yīnggāi rènzhēn xiǎng qīngchu zài tóupiào.",
-      "sentenceEnglish": "Voters should think carefully before voting.",
-      "vietnamese": "cử tri",
-      "sentenceVietnamese": "Cử tri nên suy nghĩ kỹ rồi mới bỏ phiếu."
+      "en": "voter; electorate",
+      "vi": "cử tri",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "voter; elector",
+          "sentence": "在美國，多數選舉都安排在11月份一起舉行。這樣，一個選民隻需去選地一次。",
+          "pinyin": "Zài Měiguó, duōshù xuǎnjǔ dōu ānpái zài 11 yuèfèn yīqǐ jǔxíng. Zhèyàng, yīgè xuǎnmín zhǐ xū qù xuǎndì yīcì.",
+          "en": "In the United States, most of the elections are held together in November, so that a voter needs to make one visit to the voting place.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "voter; elector",
+          "sentence": "選民們不喜歡激進分子。",
+          "pinyin": "xuǎnmín men bù xǐhuān jījìnfēnzǐ",
+          "en": "Voters don't like radicals.",
+          "vi": "Cử tri không thích những người cấp tiến."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "完美",
       "pinyin": "wánměi",
-      "english": "perfect",
-      "sentenceChinese": "沒有任何制度是完美的。",
-      "sentencePinyin": "Méiyǒu rènhé zhìdù shì wánměi de.",
-      "sentenceEnglish": "No system is perfect.",
-      "vietnamese": "hoàn hảo",
-      "sentenceVietnamese": "Không có chế độ nào là hoàn hảo cả."
+      "en": "perfect",
+      "vi": "hoàn hảo",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "perfect; flawless; consummate",
+          "sentence": "她的錶現很完美。",
+          "pinyin": "tā de biǎoxiàn hěn wánměi.",
+          "en": "Her performance was perfect.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "perfect; flawless; consummate",
+          "sentence": "這是一個完美的計劃。",
+          "pinyin": "zhè shì yīgè wánměi de jìhuà.",
+          "en": "This is a perfect plan.",
+          "vi": "Đây là một kế hoạch hoàn hảo."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "積極",
       "pinyin": "jījí",
-      "english": "actively; proactive",
-      "sentenceChinese": "選民應該積極表達自己的意見。",
-      "sentencePinyin": "Xuǎnmín yīnggāi jījí biǎodá zìjǐ de yìjiàn.",
-      "sentenceEnglish": "Voters should actively express their opinions.",
-      "vietnamese": "tích cực",
-      "sentenceVietnamese": "Cử tri nên tích cực bày tỏ ý kiến của mình."
+      "en": "actively; proactive",
+      "vi": "tích cực",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "active",
+          "sentence": "衕學們的錶現很積極。",
+          "pinyin": "tóngxuémen de biǎoxiàn hěn jījí.",
+          "en": "The students' performance is very positive.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "active",
+          "sentence": "這個員工工作很積極。",
+          "pinyin": "zhège yuángōng gōngzuò hěn jījí.",
+          "en": "This employee works very proactively.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "最佳",
       "pinyin": "zuìjiā",
-      "english": "the best possible",
-      "sentenceChinese": "我們都希望找到最佳的辦法。",
-      "sentencePinyin": "Wǒmen dōu xīwàng zhǎodào zuìjiā de bànfǎ.",
-      "sentenceEnglish": "We all hope to find the best possible solution.",
-      "vietnamese": "tốt nhất",
-      "sentenceVietnamese": "Chúng tôi đều hy vọng tìm được cách tốt nhất."
+      "en": "the best possible",
+      "vi": "tốt nhất",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "the best; optimum",
+          "sentence": "這是我讀過的最佳小説。",
+          "pinyin": "zhè shì wǒ dúguò de zuì jiā xiǎoshuō.",
+          "en": "This is the best novel I have ever read.",
+          "vi": "Đây là cuốn tiểu thuyết hay nhất tôi từng đọc."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "the best; optimum",
+          "sentence": "作畫的最佳時間是白天。",
+          "pinyin": "zuòhuà de zuì jiā shíjiān shì báitiān.",
+          "en": "The best time to paint is during the day.",
+          "vi": "Thời gian tốt nhất để vẽ là ban ngày."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "推銷員",
       "pinyin": "tuīxiāoyuán",
-      "english": "salesperson",
-      "sentenceChinese": "你們兩個真的很像民主的推銷員。",
-      "sentencePinyin": "Nǐmen liǎng gè zhēn de hěn xiàng mínzhǔ de tuīxiāoyuán.",
-      "sentenceEnglish": "You two really are like salespeople for democracy.",
-      "vietnamese": "nhân viên chào hàng",
-      "sentenceVietnamese": "Hai người đúng là giống như nhân viên tiếp thị cho dân chủ vậy."
+      "en": "salesperson",
+      "vi": "nhân viên chào hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "salesman; salesperson; sales representative",
+          "sentence": "這個推銷員非常熱情。",
+          "pinyin": "zhège tuīxiāo yuán fēicháng rèqíng.",
+          "en": "The salesperson is very enthusiastic.",
+          "vi": "Nhân viên bán hàng này rất nhiệt tình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "salesman; salesperson; sales representative",
+          "sentence": "這個推銷員很友好。",
+          "pinyin": "zhège tuīxiāo yuán hěn yǒuhǎo.",
+          "en": "The salesperson is very friendly.",
+          "vi": "Nhân viên bán hàng này rất thân thiện."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "有道理",
       "pinyin": "yǒu dàolǐ",
-      "english": "to make sense",
-      "sentenceChinese": "你這樣說也很有道理。",
-      "sentencePinyin": "Nǐ zhèyàng shuō yě hěn yǒu dàolǐ.",
-      "sentenceEnglish": "What you say also makes a lot of sense.",
-      "vietnamese": "có lý",
-      "sentenceVietnamese": "Bạn nói như vậy cũng rất có lý."
+      "en": "to make sense",
+      "vi": "có lý",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "reasonable; there is truth in; be well founded",
+          "sentence": "你有道理，我算服了你了。",
+          "pinyin": "nǐ yǒu dàolǐ, wǒ suàn fúle nǐle.",
+          "en": "You make sense, I give in to you.",
+          "vi": "Anh có lý, tôi hoàn toàn tin anh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "reasonable; there is truth in; be well founded",
+          "sentence": "你的想法有道理，我衕意。",
+          "pinyin": "nǐ de xiǎngfǎ yǒu dàolǐ, wǒ tóngyì.",
+          "en": "Your idea makes sense, I agree.",
+          "vi": "Tôi đồng ý, ý tưởng của bạn có lý."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "候選人",
       "pinyin": "hòuxuǎnrén",
-      "english": "candidate",
-      "sentenceChinese": "不是每個候選人都一樣。",
-      "sentencePinyin": "Bú shì měi gè hòuxuǎnrén dōu yíyàng.",
-      "sentenceEnglish": "Not every candidate is the same.",
-      "vietnamese": "ứng cử viên",
-      "sentenceVietnamese": "Không phải ứng cử viên nào cũng giống nhau."
+      "en": "candidate",
+      "vi": "ứng cử viên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "candidate",
+          "sentence": "他是這次比賽的候選人之一。",
+          "pinyin": "tā shì zhè cì bǐsài de hòuxuǎn rén zhī yī.",
+          "en": "He is one of the candidates for this competition.",
+          "vi": "Anh ấy là một trong những ứng cử viên của cuộc thi này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "candidate",
+          "sentence": "他是最有可能穫勝的候選人。",
+          "pinyin": "tā shì zuì yǒu kěnéng huòshèng de hòuxuǎn rén.",
+          "en": "He is the candidate most likely to win.",
+          "vi": "Anh ấy là ứng cử viên có khả năng chiến thắng cao nhất."
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "學術界",
       "pinyin": "xuéshùjiè",
-      "english": "academic circles",
-      "sentenceChinese": "他在學術界很有名。",
-      "sentencePinyin": "Tā zài xuéshùjiè hěn yǒumíng.",
-      "sentenceEnglish": "He is very well known in academic circles.",
-      "vietnamese": "giới học thuật",
-      "sentenceVietnamese": "Ông ấy rất nổi tiếng trong giới học thuật."
+      "en": "academic circles",
+      "vi": "giới học thuật",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "academia",
+          "sentence": "嫌犯可能是學術界一員。",
+          "pinyin": "xiánfàn kěnéng shì xuéshùjiè yì yuán.",
+          "en": "The unsub may be a part of academia.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "academia",
+          "sentence": "他在學術界很有聲望。",
+          "pinyin": "tā zài xuéshù jiè hěn yǒu shēngwàng.",
+          "en": "He is highly reputable in academia.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "從政",
       "pinyin": "cóngzhèng",
-      "english": "to go into politics",
-      "sentenceChinese": "他一直很想從政。",
-      "sentencePinyin": "Tā yìzhí hěn xiǎng cóngzhèng.",
-      "sentenceEnglish": "He has always wanted to go into politics.",
-      "vietnamese": "tham gia chính trị",
-      "sentenceVietnamese": "Ông ấy luôn rất muốn bước vào con đường chính trị."
+      "en": "to go into politics",
+      "vi": "tham gia chính trị",
+      "samples": [
+        {
+          "type": "Preposition",
+          "meaning": "from (a time, a place, or a point of view)",
+          "sentence": "她從懷裡/裏掏齣一塊帨。",
+          "pinyin": "Tā cóng huái lǐ tāo chū yī kuài shuì.",
+          "en": "She took out a piece of cloth from her bosom.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from (a time, a place, or a point of view)",
+          "sentence": "另一個從科羅拉多打過去的。",
+          "pinyin": "lìng yīgè cóng kēluōlāduō dǎ guòqù de",
+          "en": "The other is from Colorado.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow; comply with; obey",
+          "sentence": "不服從",
+          "pinyin": "bù fúcóng",
+          "en": "Disobey",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow; comply with; obey",
+          "sentence": "我總是順從父母的決定。",
+          "pinyin": "wǒ zǒng shì shùncóng fùmǔ de juédìng.",
+          "en": "I always follow my parents' decisions.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "follower; attendant",
+          "sentence": "他身邊有忠誠的從。",
+          "pinyin": "tā shēnbiān yǒu zhōngchéng de cóng.",
+          "en": "He has loyal followers beside him.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "secondary; accessary",
+          "sentence": "主從關繫",
+          "pinyin": "zhǔ cóng guān xì",
+          "en": "The relationship between the principal and the subordinate",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "relationship between cousins, etc. of the same paternal grandfather, great-grandfather or a yet earlier common ancestor; of the same clan",
+          "sentence": "我們是從祖衕宗。",
+          "pinyin": "wǒmen shì cóng zǔ tóngzōng.",
+          "en": "We share the same ancestral clan.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[followed by a negative] ever",
+          "sentence": "她在成績麵前從不驕傲。",
+          "pinyin": "Tā zài chéngjì miànqián cóngbù jiāo'ào.",
+          "en": "Her head was never turned by success.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "ever",
+          "sentence": "他從未見過這樣的風景。",
+          "pinyin": "tā cóng wèi jiànguò zhèyàng de fēngjǐng.",
+          "en": "He has never seen scenery like this before.",
+          "vi": "Anh ấy từ trước đến giờ chưa từng thấy cảnh này."
+        },
+        {
+          "type": "dated",
+          "meaning": "follower; attendant",
+          "sentence": "他帶著一大群/羣隨從走齣來。",
+          "pinyin": "tā dài zhe yī dà qún suí cóng zǒu chū lái.",
+          "en": "He came out with a troop of followers.",
+          "vi": ""
+        },
+        {
+          "type": "dated",
+          "meaning": "follower; attendant",
+          "sentence": "國王的隨從。",
+          "pinyin": "guówáng de suí cóng",
+          "en": "An attendant of the king",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "政策",
       "pinyin": "zhèngcè",
-      "english": "policy",
-      "sentenceChinese": "好的政策可以讓社會更安定。",
-      "sentencePinyin": "Hǎo de zhèngcè kěyǐ ràng shèhuì gèng āndìng.",
-      "sentenceEnglish": "Good policy can make society more stable.",
-      "vietnamese": "chính sách",
-      "sentenceVietnamese": "Chính sách tốt có thể khiến xã hội ổn định hơn."
+      "en": "policy",
+      "vi": "chính sách",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "policy",
+          "sentence": "公司的政策很嚴格。",
+          "pinyin": "gōngsī de zhèngcè hěn yángé.",
+          "en": "The company's policy is very strict.",
+          "vi": "Chính sách của công ty rất nghiêm ngặt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "policy",
+          "sentence": "我們討論了公司的新政策。",
+          "pinyin": "wǒmen tǎolùnle gōngsī de xīn zhèngcè.",
+          "en": "We discussed the company's new policy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "安定",
       "pinyin": "āndìng",
-      "english": "stable; peaceful",
-      "sentenceChinese": "大家都希望過安定的生活。",
-      "sentencePinyin": "Dàjiā dōu xīwàng guò āndìng de shēnghuó.",
-      "sentenceEnglish": "Everyone hopes to live a stable life.",
-      "vietnamese": "ổn định",
-      "sentenceVietnamese": "Mọi người đều hy vọng được sống một cuộc sống ổn định."
+      "en": "stable; peaceful",
+      "vi": "ổn định",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "stable; quiet; settled; peaceful and in order",
+          "sentence": "我們需要一個安定的環境。",
+          "pinyin": "wǒmen xūyào yīgè āndìng de huánjìng.",
+          "en": "We need a stable environment.",
+          "vi": "Chúng ta cần một môi trường ổn định."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "stable; quiet; settled; peaceful and in order",
+          "sentence": "安定的社會促進經濟髮/發展。",
+          "pinyin": "āndìng de shèhuì cùjìn jīngjì fāzhǎn.",
+          "en": "A stable society promotes economic development.",
+          "vi": "Xã hội ổn định thúc đẩy kinh tế phát triển."
+        },
+        {
+          "type": "Noun",
+          "meaning": "diazepam; tranquilizer",
+          "sentence": "他需要服用安定藥物。",
+          "pinyin": "tā xūyào fúyòng āndìng yàowù.",
+          "en": "He needs to take tranquilizers.",
+          "vi": "Anh ấy cần uống thuốc an thần."
+        },
+        {
+          "type": "Noun",
+          "meaning": "diazepam; tranquilizer",
+          "sentence": "安定藥物能減輕焦慮。",
+          "pinyin": "āndìng yàowù néng jiǎnqīng jiāolǜ.",
+          "en": "Tranquilizers can alleviate anxiety.",
+          "vi": "Thuốc an thần có thể giảm lo âu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "calm; stabilise; maintain",
+          "sentence": "他的演講安定了人心。",
+          "pinyin": "tā de yǎnjiǎng āndìngle rénxīn.",
+          "en": "His speech calmed people's hearts.",
+          "vi": "Bài phát biểu của anh ấy đã làm yên lòng dân."
+        },
+        {
+          "type": "Verb",
+          "meaning": "calm; stabilise; maintain",
+          "sentence": "安定人心是當前任務。",
+          "pinyin": "āndìng rénxīn shì dāngqián rènwù.",
+          "en": "Calming people's hearts is the current task.",
+          "vi": "Ổn định lòng dân là nhiệm vụ hiện tại."
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "辭",
       "pinyin": "cí",
-      "english": "to resign; to quit",
-      "sentenceChinese": "他最後決定辭掉原來的工作。",
-      "sentencePinyin": "Tā zuìhòu juédìng cídiào yuánlái de gōngzuò.",
-      "sentenceEnglish": "In the end he decided to resign from his original job.",
-      "vietnamese": "từ chức; nghỉ việc",
-      "sentenceVietnamese": "Cuối cùng ông ấy quyết định nghỉ công việc cũ."
+      "en": "to resign; to quit",
+      "vi": "từ chức; nghỉ việc",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "diction; phraseology",
+          "sentence": "他擅長寫辭。",
+          "pinyin": "tā shàncháng xiě cí.",
+          "en": "He is skilled at writing lyrics.",
+          "vi": "Anh ấy giỏi viết văn từ."
+        },
+        {
+          "type": "noun",
+          "meaning": "diction; phraseology",
+          "sentence": "古代的辭具有魅力。",
+          "pinyin": "gǔdài de cí jùyǒu mèilì.",
+          "en": "Ancient Chinese poetry is captivating.",
+          "vi": "Văn từ thời cổ đại có sức hấp dẫn."
+        },
+        {
+          "type": "verb",
+          "meaning": "farewell; goodbye",
+          "sentence": "她在機場嚮傢人辭行。",
+          "pinyin": "tā zài jīchǎng xiàng jiārén cíxíng.",
+          "en": "She said goodbye to her family at the airport.",
+          "vi": "Cô ấy tạm biệt gia đình tại sân bay."
+        },
+        {
+          "type": "verb",
+          "meaning": "farewell; goodbye",
+          "sentence": "他嚮大傢告辭。",
+          "pinyin": "tā xiàng dàjiā gàocí.",
+          "en": "He bid farewell to everyone.",
+          "vi": "Anh ấy từ biệt mọi người."
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "頭腦",
       "pinyin": "tóunǎo",
-      "english": "mind; brain",
-      "sentenceChinese": "他的頭腦很清楚，說話也很有條理。",
-      "sentencePinyin": "Tā de tóunǎo hěn qīngchu, shuōhuà yě hěn yǒu tiáolǐ.",
-      "sentenceEnglish": "He has a clear mind and speaks very logically.",
-      "vietnamese": "đầu óc",
-      "sentenceVietnamese": "Ông ấy đầu óc rất minh mẫn, nói chuyện cũng rất có logic."
+      "en": "mind; brain",
+      "vi": "đầu óc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "brains; mind",
+          "sentence": "他的頭腦非常聰明。",
+          "pinyin": "tā de tóunǎo fēicháng cōngmíng.",
+          "en": "His mind is very smart.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "brains; mind",
+          "sentence": "他被戀愛衝昏了頭腦。",
+          "pinyin": "tā bèi liàn'ài chōng hūnle tóunǎo.",
+          "en": "She was carried away by love.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "改革",
       "pinyin": "gǎigé",
-      "english": "reform",
-      "sentenceChinese": "他常常對教育改革提出看法。",
-      "sentencePinyin": "Tā chángcháng duì jiàoyù gǎigé tíchū kànfǎ.",
-      "sentenceEnglish": "He often expresses his views on educational reform.",
-      "vietnamese": "cải cách",
-      "sentenceVietnamese": "Ông ấy thường xuyên đưa ra quan điểm về cải cách giáo dục."
+      "en": "reform",
+      "vi": "cải cách",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to reform",
+          "sentence": "這個國傢在進行改革。",
+          "pinyin": "zhège guójiā zài jìnxíng gǎigé.",
+          "en": "This country is undergoing reforms.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to reform",
+          "sentence": "我要改革現有的製度。",
+          "pinyin": "wǒ yào gǎigé xiàn yǒu de zhìdù.",
+          "en": "I aim to reform the current system.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "reform; reformation",
+          "sentence": "這些改革最近已成為法律。",
+          "pinyin": "zhèxiē gǎigé zuìjìn yǐ chéngwéi fǎlǜ.",
+          "en": "The reforms have recently become law.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "reform; reformation",
+          "sentence": "很多人對改革持懷疑態度。",
+          "pinyin": "hěnduō rén duì gǎigé chí huáiyí tàidù.",
+          "en": "Many were suspicious of reform.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "看法",
       "pinyin": "kànfǎ",
-      "english": "view; opinion",
-      "sentenceChinese": "每個人對這件事都有不同的看法。",
-      "sentencePinyin": "Měi gè rén duì zhè jiàn shì dōu yǒu bùtóng de kànfǎ.",
-      "sentenceEnglish": "Everyone has different views on this matter.",
-      "vietnamese": "cách nhìn; quan điểm",
-      "sentenceVietnamese": "Mỗi người đều có quan điểm khác nhau về việc này."
+      "en": "view; opinion",
+      "vi": "cách nhìn; quan điểm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "opinion; perspective; (point of) view; a way of looking at a thing",
+          "sentence": "我們需要交換看法。",
+          "pinyin": "wǒmen xūyào jiāohuàn kànfǎ.",
+          "en": "We need to exchange opinions.",
+          "vi": "Chúng ta cần trao đổi ý kiến."
+        },
+        {
+          "type": "Noun",
+          "meaning": "opinion; perspective; (point of) view; a way of looking at a thing",
+          "sentence": "請談談你的看法。",
+          "pinyin": "qǐng tántan nǐ de kànfǎ.",
+          "en": "Please tell us your opinion.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "教育",
       "pinyin": "jiàoyù",
-      "english": "education",
-      "sentenceChinese": "教育問題一直受到社會重視。",
-      "sentencePinyin": "Jiàoyù wèntí yìzhí shòudào shèhuì zhòngshì.",
-      "sentenceEnglish": "Educational issues have always drawn social attention.",
-      "vietnamese": "giáo dục",
-      "sentenceVietnamese": "Vấn đề giáo dục luôn được xã hội coi trọng."
+      "en": "education",
+      "vi": "giáo dục",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "education",
+          "sentence": "教育是社會進步的基石。",
+          "pinyin": "jiàoyù shì shèhuì jìnbù de jīshí.",
+          "en": "Education is the cornerstone of social progress.",
+          "vi": "Giáo dục là nền tảng của sự tiến bộ xã hội."
+        },
+        {
+          "type": "Noun",
+          "meaning": "education",
+          "sentence": "政府增加了教育的投入。",
+          "pinyin": "zhèngfǔ zēngjiāle jiàoyù de tóurù.",
+          "en": "The government has increased investment in education.",
+          "vi": "Chính phủ đã tăng cường đầu tư vào giáo dục."
+        },
+        {
+          "type": "Verb",
+          "meaning": "teach; educate; inculcate",
+          "sentence": "學校教育學生遵守法律。",
+          "pinyin": "xuéxiào jiàoyù xuéshēng zūnshǒu fǎlǜ.",
+          "en": "Schools educate students to abide by the law.",
+          "vi": "Nhà trường giáo dục học sinh tuân thủ pháp luật."
+        },
+        {
+          "type": "Verb",
+          "meaning": "teach; educate; inculcate",
+          "sentence": "我父母教育我誠實守信。",
+          "pinyin": "wǒ fùmǔ jiàoyù wǒ chéngshí shǒuxìn.",
+          "en": "My parents taught me to be honest and reliable.",
+          "vi": "Bố mẹ tôi dạy tôi trung thực giữ lời."
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "方面",
       "pinyin": "fāngmiàn",
-      "english": "aspect; area",
-      "sentenceChinese": "他在這方面做了很多努力。",
-      "sentencePinyin": "Tā zài zhè fāngmiàn zuò le hěn duō nǔlì.",
-      "sentenceEnglish": "He made a lot of effort in this area.",
-      "vietnamese": "phương diện",
-      "sentenceVietnamese": "Ông ấy đã nỗ lực rất nhiều ở phương diện này."
+      "en": "aspect; area",
+      "vi": "phương diện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "side; field; aspect; respect",
+          "sentence": "這個問題有很多方麵。",
+          "pinyin": "zhège wèntí yǒu hěnduō fāngmiàn.",
+          "en": "This problem has many aspects.",
+          "vi": "Có nhiều khía cạnh cho vấn đề này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "side; field; aspect; respect",
+          "sentence": "我們討論了很多方麵。",
+          "pinyin": "wǒmen tǎolùnle hěnduō fāngmiàn.",
+          "en": "We discussed many sides.",
+          "vi": "Chúng tôi đã thảo luận nhiều mặt."
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "得到",
       "pinyin": "dédào",
-      "english": "to obtain; to receive",
-      "sentenceChinese": "他的努力得到了很多人的支持。",
-      "sentencePinyin": "Tā de nǔlì dédào le hěn duō rén de zhīchí.",
-      "sentenceEnglish": "His efforts won the support of many people.",
-      "vietnamese": "nhận được",
-      "sentenceVietnamese": "Nỗ lực của ông ấy đã nhận được sự ủng hộ của rất nhiều người."
+      "en": "to obtain; to receive",
+      "vi": "nhận được",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "get; obtain; gain; receive",
+          "sentence": "我得到了老師的錶揚。",
+          "pinyin": "wǒ dédàole lǎoshī de biǎoyáng.",
+          "en": "I got the praise of the teacher.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "get; obtain; gain; receive",
+          "sentence": "他得到了優秀員工的稱號。",
+          "pinyin": "tā dédàole yōuxiù yuángōng de chēnghào.",
+          "en": "He got the title of excellent employee.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "連任",
       "pinyin": "liánrèn",
-      "english": "to be re-elected; to serve a successive term",
-      "sentenceChinese": "他順利地連任了四屆。",
-      "sentencePinyin": "Tā shùnlì de liánrèn le sì jiè.",
-      "sentenceEnglish": "He was successfully re-elected for four consecutive terms.",
-      "vietnamese": "tái đắc cử",
-      "sentenceVietnamese": "Ông ấy đã thuận lợi tái đắc cử bốn nhiệm kỳ liên tiếp."
+      "en": "to be re-elected; to serve a successive term",
+      "vi": "tái đắc cử",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be reappointed or re-elected consecutively; renew one's term of office",
+          "sentence": "連任部長",
+          "pinyin": "liánrèn bùzhǎng",
+          "en": "Be reappointed minister",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be reappointed or re-elected consecutively; renew one's term of office",
+          "sentence": "連任總統",
+          "pinyin": "liánrèn zǒngtǒng",
+          "en": "Be re-elected president",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "屆",
       "pinyin": "jiè",
-      "english": "term of office",
-      "sentenceChinese": "這已經是他第四屆了。",
-      "sentencePinyin": "Zhè yǐjīng shì tā dì sì jiè le.",
-      "sentenceEnglish": "This is already his fourth term.",
-      "vietnamese": "nhiệm kỳ",
-      "sentenceVietnamese": "Đây đã là nhiệm kỳ thứ tư của ông ấy rồi."
+      "en": "term of office",
+      "vi": "nhiệm kỳ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fall due",
+          "sentence": "屆時你會明白。",
+          "pinyin": "jièshí nǐ huì míngbái.",
+          "en": "You will understand then.",
+          "vi": "Đến lúc đó bạn sẽ hiểu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fall due",
+          "sentence": "屆期馬上到了。",
+          "pinyin": "Jièqī mǎshàng dàole.",
+          "en": "The due date is almost here.",
+          "vi": "Kỳ hạn sắp đến rồi."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "session (of a conference); year (of graduation)",
+          "sentence": "第二屆全國人民代錶大會。",
+          "pinyin": "dì èr jiè quánguó rénmín dàibiǎo dàhùi。",
+          "en": "The Second National People's Congress",
+          "vi": "Đại hội đại biểu nhân dân toàn quốc lần II."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "session (of a conference); year (of graduation)",
+          "sentence": "我是她的學姐，比他高兩屆。",
+          "pinyin": "wǒ shì tā de xué jiě, bǐ tā gāo liǎng jiè.",
+          "en": "I'm two years her senior at school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "支持度",
       "pinyin": "zhīchídù",
-      "english": "approval rating",
-      "sentenceChinese": "他的支持度一直都很高。",
-      "sentencePinyin": "Tā de zhīchídù yìzhí dōu hěn gāo.",
-      "sentenceEnglish": "His approval rating has always been high.",
-      "vietnamese": "mức độ ủng hộ",
-      "sentenceVietnamese": "Mức độ ủng hộ dành cho ông ấy luôn rất cao."
+      "en": "approval rating",
+      "vi": "mức độ ủng hộ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "degree of support",
+          "sentence": "民眾/衆對政府的支持度提高。",
+          "pinyin": "Mín zhòng duì zhèng fǔ de zhī chí dù tí gāo.",
+          "en": "Public support for the government increased.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "percentage of vote",
+          "sentence": "選民的支持度在上昇。",
+          "pinyin": "xuǎn mín de zhī chí dù zài shàng shēng",
+          "en": "The voters' support rating is rising.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "落選",
       "pinyin": "luòxuǎn",
-      "english": "to lose an election",
-      "sentenceChinese": "雖然支持度高，他最後還是落選了。",
-      "sentencePinyin": "Suīrán zhīchídù gāo, tā zuìhòu háishì luòxuǎn le.",
-      "sentenceEnglish": "Although his approval rating was high, he still lost the election in the end.",
-      "vietnamese": "trượt cử",
-      "sentenceVietnamese": "Tuy mức ủng hộ cao nhưng cuối cùng ông ấy vẫn trượt cử."
+      "en": "to lose an election",
+      "vi": "trượt cử",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fail to be chosen; lose an election (opp. 入选, 当选)",
+          "sentence": "他在選舉中意外落選了。",
+          "pinyin": "Tā zài xuǎnjǔ zhōng yìwài luòxuǎn le.",
+          "en": "He unexpectedly lost in the election.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to fail to be chosen (or elected)",
+          "sentence": "他最後一次落選了。",
+          "pinyin": "tā zuì hòu yí cì luò xuǎn le",
+          "en": "He ended up not being selected.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "得票率",
       "pinyin": "dépiàolǜ",
-      "english": "percentage of votes received",
-      "sentenceChinese": "他的得票率比預期低。",
-      "sentencePinyin": "Tā de dépiàolǜ bǐ yùqí dī.",
-      "sentenceEnglish": "His vote percentage was lower than expected.",
-      "vietnamese": "tỷ lệ phiếu bầu",
-      "sentenceVietnamese": "Tỷ lệ phiếu bầu của ông ấy thấp hơn dự kiến."
+      "en": "percentage of votes received",
+      "vi": "tỷ lệ phiếu bầu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "percentage of votes obtained",
+          "sentence": "他的得票率很高。",
+          "pinyin": "Tā de dépiào lǜ hěn gāo.",
+          "en": "His vote rate is very high.",
+          "vi": "Tỷ lệ phiếu của anh ấy rất cao."
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "預期",
       "pinyin": "yùqí",
-      "english": "expectation",
-      "sentenceChinese": "結果不如大家預期。",
-      "sentencePinyin": "Jiéguǒ bùrú dàjiā yùqí.",
-      "sentenceEnglish": "The result was not as everyone expected.",
-      "vietnamese": "dự kiến; kỳ vọng",
-      "sentenceVietnamese": "Kết quả không như mọi người dự kiến."
+      "en": "expectation",
+      "vi": "dự kiến; kỳ vọng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "expect; anticipate; envision",
+          "sentence": "我們預期明天會下雨。",
+          "pinyin": "wǒmen yùqī míngtiān huì xiàyǔ.",
+          "en": "We expect it to rain tomorrow.",
+          "vi": "Chúng tôi dự kiến ngày mai sẽ mưa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "expect; anticipate; envision",
+          "sentence": "公司預期銷售額會增加。",
+          "pinyin": "gōngsī yùqī xiāoshòu é huì zēngjiā.",
+          "en": "The company anticipates an increase in sales.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "暫時",
       "pinyin": "zhànshí",
-      "english": "temporarily; for the time being",
-      "sentenceChinese": "他決定暫時回老家休息。",
-      "sentencePinyin": "Tā juédìng zhànshí huí lǎojiā xiūxi.",
-      "sentenceEnglish": "He decided to temporarily return to his hometown to rest.",
-      "vietnamese": "tạm thời",
-      "sentenceVietnamese": "Ông ấy quyết định tạm thời về quê nghỉ ngơi."
+      "en": "temporarily; for the time being",
+      "vi": "tạm thời",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "transient; temporary; for the time being",
+          "sentence": "我暫時不想吃/喫。",
+          "pinyin": "wǒ zànshí bùxiǎng chī.",
+          "en": "I don't want to eat for the time being.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "transient; temporary; for the time being",
+          "sentence": "我暫時不想去旅行。",
+          "pinyin": "wǒ zànshí bùxiǎng qù lǚxíng.",
+          "en": "I don't want to travel for the time being.",
+          "vi": "Tớ tạm thời không muốn đi du lịch."
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "老家",
       "pinyin": "lǎojiā",
-      "english": "hometown; old home",
-      "sentenceChinese": "他回老家住了一陣子。",
-      "sentencePinyin": "Tā huí lǎojiā zhù le yí zhènzi.",
-      "sentenceEnglish": "He returned to his hometown and stayed for a while.",
-      "vietnamese": "quê nhà",
-      "sentenceVietnamese": "Ông ấy về quê nhà ở một thời gian."
+      "en": "hometown; old home",
+      "vi": "quê nhà",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hometown; native place",
+          "sentence": "我好久沒迴老傢了。",
+          "pinyin": "wǒ hǎojiǔ méi huílǎojiāle.",
+          "en": "I haven't been back to my hometown for a long time.",
+          "vi": "Lâu lắm tôi chưa về quê rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hometown; native place",
+          "sentence": "春節我要迴趟老傢。",
+          "pinyin": "chūnjié wǒ yào huí tàng lǎojiā.",
+          "en": "I will go back to my hometown during the Spring Festival.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "形象",
       "pinyin": "xíngxiàng",
-      "english": "image",
-      "sentenceChinese": "他在政治界的形象一直很好。",
-      "sentencePinyin": "Tā zài zhèngzhìjiè de xíngxiàng yìzhí hěn hǎo.",
-      "sentenceEnglish": "His image in the political world has always been good.",
-      "vietnamese": "hình tượng; hình ảnh",
-      "sentenceVietnamese": "Hình tượng của ông ấy trong giới chính trị luôn rất tốt."
+      "en": "image",
+      "vi": "hình tượng; hình ảnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "image; form; figure",
+          "sentence": "藝術傢的形象非常獨特。",
+          "pinyin": "yìshùjiā de xíngxiàng fēicháng dútè.",
+          "en": "The artist's image is one of a kind.",
+          "vi": "Hình ảnh của nghệ sĩ rất độc đáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "image; form; figure",
+          "sentence": "他破壞了自己的公眾/衆形象。",
+          "pinyin": "tā pòhuàile zìjǐ de gōngzhòng xíngxiàng.",
+          "en": "He severely damaged his public image.",
+          "vi": "Anh ấy đã hủy hoại hình ảnh công chúng của mình."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "vivid",
+          "sentence": "這部小説刻畫得很形象。",
+          "pinyin": "zhè bù xiǎoshuō kèhuà de hěn xíngxiàng.",
+          "en": "The characters in this novel are very vivid.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "vivid",
+          "sentence": "這個動作描述非常形象。",
+          "pinyin": "zhège dòngzuò miáoshù fēicháng xíngxiàng.",
+          "en": "The description of this action is very vivid.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "商量",
       "pinyin": "shāngliáng",
-      "english": "to discuss; to consult",
-      "sentenceChinese": "大家有事都喜歡找他商量。",
-      "sentencePinyin": "Dàjiā yǒushì dōu xǐhuān zhǎo tā shāngliáng.",
-      "sentenceEnglish": "Whenever people have problems, they like to discuss them with him.",
-      "vietnamese": "bàn bạc",
-      "sentenceVietnamese": "Mọi người có chuyện gì cũng thích tìm ông ấy bàn bạc."
+      "en": "to discuss; to consult",
+      "vi": "bàn bạc",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "consult; discuss; talk over",
+          "sentence": "這件事需要好好商量。",
+          "pinyin": "zhè jiàn shì xūyào hǎohǎo shāngliang.",
+          "en": "This matter needs to be discussed thoroughly.",
+          "vi": "Việc này cần được bàn bạc kỹ lưỡng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "consult; discuss; talk over",
+          "sentence": "你和他商量過了嗎？",
+          "pinyin": "nǐ hé tā shāngliangguòle ma?",
+          "en": "Have you discussed it with him?",
+          "vi": "Bạn đã bàn bạc với anh ấy chưa?"
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "人脈",
       "pinyin": "rénmài",
-      "english": "network of contacts",
-      "sentenceChinese": "他利用自己的人脈幫助了很多人。",
-      "sentencePinyin": "Tā lìyòng zìjǐ de rénmài bāngzhù le hěn duō rén.",
-      "sentenceEnglish": "He used his network of contacts to help many people.",
-      "vietnamese": "quan hệ; mạng lưới quan hệ",
-      "sentenceVietnamese": "Ông ấy dùng các mối quan hệ của mình để giúp rất nhiều người."
+      "en": "network of contacts",
+      "vi": "quan hệ; mạng lưới quan hệ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "connections; social relationship",
+          "sentence": "人脈在商業中很重要。",
+          "pinyin": "rénmài zài shāngyè zhōng hěn zhòngyào.",
+          "en": "Connections are very important in business.",
+          "vi": "Mối quan hệ rất quan trọng trong kinh doanh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "connections; social relationship",
+          "sentence": "她利用人脈找到了工作。",
+          "pinyin": "tā lìyòng rénmài zhǎodàole gōngzuò.",
+          "en": "She used her connections to find a job.",
+          "vi": "Cô ấy dùng mối quan hệ để tìm việc."
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "弱勢",
       "pinyin": "ruòshì",
-      "english": "disadvantaged",
-      "sentenceChinese": "他特別關心弱勢家庭。",
-      "sentencePinyin": "Tā tèbié guānxīn ruòshì jiātíng.",
-      "sentenceEnglish": "He especially cares about disadvantaged families.",
-      "vietnamese": "yếu thế",
-      "sentenceVietnamese": "Ông ấy đặc biệt quan tâm đến các gia đình yếu thế."
+      "en": "disadvantaged",
+      "vi": "yếu thế",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a down trend",
+          "sentence": "這個行業正處於弱勢期。",
+          "pinyin": "zhège hángyè zhèng chǔyú ruòshì qī.",
+          "en": "This industry is in a downturn.",
+          "vi": "Ngành này hiện đang trong giai đoạn suy yếu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a down trend",
+          "sentence": "這支隊伍的錶現處於弱勢。",
+          "pinyin": "zhè zhī duìwǔ de biǎoxiàn chǔyú ruòshì.",
+          "en": "This team's performance is declining.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "退休",
       "pinyin": "tuìxiū",
-      "english": "to retire",
-      "sentenceChinese": "那位老闆快要退休了。",
-      "sentencePinyin": "Nà wèi lǎobǎn kuài yào tuìxiū le.",
-      "sentenceEnglish": "That boss is about to retire.",
-      "vietnamese": "nghỉ hưu",
-      "sentenceVietnamese": "Ông chủ đó sắp nghỉ hưu rồi."
+      "en": "to retire",
+      "vi": "nghỉ hưu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "retire",
+          "sentence": "我已經退休三年了。",
+          "pinyin": "wǒ yǐjīng tuìxiū sān niánle.",
+          "en": "I have been retired for three years.",
+          "vi": "Tôi đã nghỉ hưu được ba năm rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "retire",
+          "sentence": "爺爺已經退休多年。",
+          "pinyin": "yéye yǐjīng tuìxiū duōnián.",
+          "en": "Grandpa has been retired for many years.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "事業",
       "pinyin": "shìyè",
-      "english": "business; career",
-      "sentenceChinese": "他的孩子不想接他的事業。",
-      "sentencePinyin": "Tā de háizi bù xiǎng jiē tā de shìyè.",
-      "sentenceEnglish": "His children did not want to take over his business.",
-      "vietnamese": "sự nghiệp; cơ nghiệp",
-      "sentenceVietnamese": "Con cái ông ấy không muốn tiếp quản sự nghiệp của ông."
+      "en": "business; career",
+      "vi": "sự nghiệp; cơ nghiệp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cause; career; enterprise; undertaking",
+          "sentence": "他專註於自己的事業。",
+          "pinyin": "tā zhuānzhù yú zìjǐ de shìyè.",
+          "en": "He focuses on his career.",
+          "vi": "Anh ấy tập trung vào sự nghiệp của mình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "cause; career; enterprise; undertaking",
+          "sentence": "他事業上遇到了挑戰。",
+          "pinyin": "tā shìyè shàng yùdàole tiǎozhàn.",
+          "en": "He is encountering difficulties in his career.",
+          "vi": "Anh ấy gặp phải thử thách trong sự nghiệp."
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "捐",
       "pinyin": "juān",
-      "english": "to donate",
-      "sentenceChinese": "他請朋友捐書給書店。",
-      "sentencePinyin": "Tā qǐng péngyou juān shū gěi shūdiàn.",
-      "sentenceEnglish": "He asked his friends to donate books to the bookstore.",
-      "vietnamese": "quyên góp; hiến tặng",
-      "sentenceVietnamese": "Ông ấy nhờ bạn bè quyên góp sách cho hiệu sách."
+      "en": "to donate",
+      "vi": "quyên góp; hiến tặng",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "sacrifice; contribute",
+          "sentence": "他為了國傢捐軀。",
+          "pinyin": "tā wèile guójiā juānqū.",
+          "en": "He sacrificed his life for his country.",
+          "vi": "Anh ấy hy sinh vì tổ quốc."
+        },
+        {
+          "type": "verb",
+          "meaning": "sacrifice; contribute",
+          "sentence": "英雄無畏地捐齣自己。",
+          "pinyin": "yīngxióng wúwèi de juān chū zìjǐ.",
+          "en": "Heroes selflessly donated themselves.",
+          "vi": "Anh hùng dũng cảm hiến dâng chính mình."
+        },
+        {
+          "type": "noun",
+          "meaning": "tax",
+          "sentence": "我要繳納車捐。",
+          "pinyin": "wǒ yào jiǎonà chē juān.",
+          "en": "I need to pay the car tax.",
+          "vi": "Tôi phải nộp thuế xe."
+        },
+        {
+          "type": "noun",
+          "meaning": "tax",
+          "sentence": "古代有這種捐。",
+          "pinyin": "gǔdài yǒu zhè zhǒng juān.",
+          "en": "This kind of tax existed in ancient times.",
+          "vi": "Cổ đại có loại thuế này."
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "義務",
       "pinyin": "yìwù",
-      "english": "to volunteer; volunteer basis",
-      "sentenceChinese": "有些大學生來這裡義務教英文。",
-      "sentencePinyin": "Yǒuxiē dàxuéshēng lái zhèlǐ yìwù jiāo Yīngwén.",
-      "sentenceEnglish": "Some college students come here to teach English on a volunteer basis.",
-      "vietnamese": "tình nguyện",
-      "sentenceVietnamese": "Có những sinh viên đại học đến đây dạy tiếng Anh tình nguyện."
+      "en": "to volunteer; volunteer basis",
+      "vi": "tình nguyện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "duty; obligation",
+          "sentence": "遵守法律是公民的義務。",
+          "pinyin": "zūnshǒu fǎlǜ shì gōngmín de yìwù.",
+          "en": "It is the duty of citizens to obey the law.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "duty; obligation",
+          "sentence": "我們有義務關懷這些難民。",
+          "pinyin": "wǒmen yǒu yìwù guānhuái zhèxiē nánmín.",
+          "en": "We have a duty to care for the refugees.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "volunteer; voluntary",
+          "sentence": "聽説你們明天去義務勞動。",
+          "pinyin": "Tīng shuō nǐmen míngtiān qù yìwù láodòng.",
+          "en": "I heard you're volunteering tomorrow.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "volunteer; voluntary",
+          "sentence": "他們在參加義務植樹活動。",
+          "pinyin": "tāmen zài cānjiā yìwù zhíshù huódòng.",
+          "en": "They are planting trees as volunteers.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "經費",
       "pinyin": "jīngfèi",
-      "english": "funds",
-      "sentenceChinese": "賺來的錢都拿來當經費。",
-      "sentencePinyin": "Zhuàn lái de qián dōu ná lái dāng jīngfèi.",
-      "sentenceEnglish": "All the money earned is used as funding.",
-      "vietnamese": "kinh phí",
-      "sentenceVietnamese": "Số tiền kiếm được đều được dùng làm kinh phí."
+      "en": "funds",
+      "vi": "kinh phí",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "funds; budget",
+          "sentence": "學校的經費不夠。",
+          "pinyin": "xuéxiào de jīngfèi bùgòu.",
+          "en": "The school’s funds are insufficient.",
+          "vi": "Kinh phí của trường không đủ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "funds; budget",
+          "sentence": "他負責管理經費。",
+          "pinyin": "tā fùzé guǎnlǐ jīngfèi.",
+          "en": "He is responsible for managing the budget.",
+          "vi": "Anh ấy phụ trách quản lý kinh phí."
+        }
+      ]
     },
     {
       "id": 71,
       "chinese": "競選",
       "pinyin": "jìngxuǎn",
-      "english": "to run for office",
-      "sentenceChinese": "他正在考慮要不要再出來競選。",
-      "sentencePinyin": "Tā zhèngzài kǎolǜ yàobuyào zài chūlái jìngxuǎn.",
-      "sentenceEnglish": "He is considering whether to run for office again.",
-      "vietnamese": "tranh cử",
-      "sentenceVietnamese": "Ông ấy đang cân nhắc có nên ra tranh cử một lần nữa hay không."
+      "en": "to run for office",
+      "vi": "tranh cử",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "enter into an election contest; campaign for (office); run for",
+          "sentence": "競選總統",
+          "pinyin": "jìng xuǎn zǒng tǒng",
+          "en": "Run for the presidency",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "enter into an election contest; campaign for (office); run for",
+          "sentence": "我被邀請參加總統競選了。",
+          "pinyin": "wǒ bèi yāoqǐng cānjiā zǒngtǒng jìngxuǎn le",
+          "en": "I've been asked to run for president.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "也許",
       "pinyin": "yěxǔ",
-      "english": "perhaps; maybe",
-      "sentenceChinese": "也許離開政治界對他更好。",
-      "sentencePinyin": "Yěxǔ líkāi zhèngzhìjiè duì tā gèng hǎo.",
-      "sentenceEnglish": "Perhaps leaving politics is better for him.",
-      "vietnamese": "có lẽ",
-      "sentenceVietnamese": "Có lẽ rời khỏi chính giới sẽ tốt hơn cho ông ấy."
+      "en": "perhaps; maybe",
+      "vi": "có lẽ",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "perhaps; probably; maybe",
+          "sentence": "我們也許用得上他。",
+          "pinyin": "wǒmen yěxǔ yòng dé shàng tā.",
+          "en": "He might be useful to us.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "perhaps; probably; maybe",
+          "sentence": "也許他打算離開她。",
+          "pinyin": "yěxǔ tā dǎsuàn líkāi tā.",
+          "en": "Maybe he intends to leave her.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "政治界",
       "pinyin": "zhèngzhìjiè",
-      "english": "the political world",
-      "sentenceChinese": "他回到政治界的可能性很高。",
-      "sentencePinyin": "Tā huídào zhèngzhìjiè de kěnéngxìng hěn gāo.",
-      "sentenceEnglish": "There is a high possibility that he will return to the political world.",
-      "vietnamese": "giới chính trị",
-      "sentenceVietnamese": "Khả năng ông ấy quay lại giới chính trị là rất cao."
+      "en": "the political world",
+      "vi": "giới chính trị",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "politics; political affairs",
+          "sentence": "他對政治很感興趣。",
+          "pinyin": "tā duì zhèngzhì hěn gǎn xìngqù.",
+          "en": "He is very interested in politics.",
+          "vi": "Anh ấy rất quan tâm đến chính trị."
+        },
+        {
+          "type": "Noun",
+          "meaning": "politics; political affairs",
+          "sentence": "學校有政治活動。",
+          "pinyin": "xuéxiào yǒu zhèngzhì huódòng.",
+          "en": "There are political activities in the school.",
+          "vi": "Trường có các hoạt động chính trị."
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "權力",
       "pinyin": "quánlì",
-      "english": "power",
-      "sentenceChinese": "有些人認為有了權力才能改變社會。",
-      "sentencePinyin": "Yǒuxiē rén rènwéi yǒu le quánlì cái néng gǎibiàn shèhuì.",
-      "sentenceEnglish": "Some people think that only with power can society be changed.",
-      "vietnamese": "quyền lực",
-      "sentenceVietnamese": "Có người cho rằng chỉ khi có quyền lực mới có thể thay đổi xã hội."
+      "en": "power",
+      "vi": "quyền lực",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "power; authority",
+          "sentence": "權力鬥爭在政界很常見。",
+          "pinyin": "quánlì dòuzhēng zài zhèngjiè hěn chángjiàn.",
+          "en": "Power struggles are common in politics.",
+          "vi": "Đấu tranh quyền lực trong chính trị rất phổ biến."
+        },
+        {
+          "type": "Noun",
+          "meaning": "power; authority",
+          "sentence": "他在公司中權力很高。",
+          "pinyin": "tā zài gōngsī zhōng quánlì hěn gāo.",
+          "en": "He has a lot of power in the company.",
+          "vi": "Anh ấy có quyền lực rất cao trong công ty."
+        }
+      ]
     },
     {
       "id": 75,
       "chinese": "辭掉",
       "pinyin": "cídiào",
-      "english": "to quit; to resign from",
-      "sentenceChinese": "他為了理想辭掉了工作。",
-      "sentencePinyin": "Tā wèile lǐxiǎng cídiào le gōngzuò.",
-      "sentenceEnglish": "He quit his job for the sake of his ideals.",
-      "vietnamese": "từ bỏ; nghỉ hẳn",
-      "sentenceVietnamese": "Vì lý tưởng của mình mà ông ấy đã từ bỏ công việc."
+      "en": "to quit; to resign from",
+      "vi": "từ bỏ; nghỉ hẳn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to dismiss (an employee)",
+          "sentence": "老闆決定辭掉他。",
+          "pinyin": "lǎobǎn juédìng cí diào tā.",
+          "en": "The boss decided to dismiss him.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to quit (one's job)",
+          "sentence": "你沒必要辭掉工作。",
+          "pinyin": "nǐ méi bìyào cídiào gōngzuò。",
+          "en": "It is not necessary for you to quit the job.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 76,
       "chinese": "提出",
       "pinyin": "tíchū",
-      "english": "to propose; to put forward",
-      "sentenceChinese": "他常常提出新的改革想法。",
-      "sentencePinyin": "Tā chángcháng tíchū xīn de gǎigé xiǎngfǎ.",
-      "sentenceEnglish": "He often puts forward new reform ideas.",
-      "vietnamese": "đưa ra",
-      "sentenceVietnamese": "Ông ấy thường xuyên đưa ra những ý tưởng cải cách mới."
+      "en": "to propose; to put forward",
+      "vi": "đưa ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to raise; propose; set forth; put forward",
+          "sentence": "他提齣了一個好主意。",
+          "pinyin": "tā tíchūle yīgè hǎo zhǔyì.",
+          "en": "He put forward a good idea.",
+          "vi": "Anh ấy đã đưa ra một ý kiến hay."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to raise; propose; set forth; put forward",
+          "sentence": "老師讓學生提齣問題。",
+          "pinyin": "lǎoshī ràng xuéshēng tíchū wèntí.",
+          "en": "The teacher asked the students to raise questions.",
+          "vi": "Cô giáo yêu cầu học sinh đặt câu hỏi."
+        }
+      ]
     },
     {
       "id": 77,
       "chinese": "國民年金",
       "pinyin": "guómín niánjīn",
-      "english": "national pension",
-      "sentenceChinese": "他特別重視國民年金改革。",
-      "sentencePinyin": "Tā tèbié zhòngshì guómín niánjīn gǎigé.",
-      "sentenceEnglish": "He pays special attention to national pension reform.",
-      "vietnamese": "lương hưu quốc dân",
-      "sentenceVietnamese": "Ông ấy đặc biệt coi trọng việc cải cách chế độ lương hưu quốc dân."
+      "en": "national pension",
+      "vi": "lương hưu quốc dân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "national; member of a nation; people of a nation",
+          "sentence": "中國國民很友好。",
+          "pinyin": "zhōngguó guómín hěn yǒuhǎo.",
+          "en": "Chinese nationals are very friendly.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "national; member of a nation; people of a nation",
+          "sentence": "國民經濟不斷髮/發展。",
+          "pinyin": "guómín jīngjì bú duàn fāzhǎn.",
+          "en": "The national economy keeps growing.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 78,
       "chinese": "中間選民",
       "pinyin": "zhōngjiān xuǎnmín",
-      "english": "swing voters",
-      "sentenceChinese": "他原來以為中間選民會支持他。",
-      "sentencePinyin": "Tā yuánlái yǐwéi zhōngjiān xuǎnmín huì zhīchí tā.",
-      "sentenceEnglish": "He originally thought swing voters would support him.",
-      "vietnamese": "cử tri trung lập",
-      "sentenceVietnamese": "Ban đầu ông ấy tưởng rằng cử tri trung lập sẽ ủng hộ mình."
+      "en": "swing voters",
+      "vi": "cử tri trung lập",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "midst; among",
+          "sentence": "我的朋友中間有姓趙的。",
+          "pinyin": "wǒ de péngyǒu zhōngjiān yǒu xìng zhào de.",
+          "en": "Among my friends, there is someone with the surname Zhao.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "midst; among",
+          "sentence": "你們中間有會唱歌的嗎?",
+          "pinyin": "nǐmen zhōngjiān yǒu huì chànggē de ma?",
+          "en": "Is there anyone among you who can sing?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 79,
       "chinese": "一陣子",
       "pinyin": "yí zhènzi",
-      "english": "a period of time",
-      "sentenceChinese": "他想先休息一陣子再說。",
-      "sentencePinyin": "Tā xiǎng xiān xiūxi yí zhènzi zài shuō.",
-      "sentenceEnglish": "He wants to rest for a while first and then decide.",
-      "vietnamese": "một thời gian",
-      "sentenceVietnamese": "Ông ấy muốn nghỉ ngơi một thời gian rồi hãy tính tiếp."
+      "en": "a period of time",
+      "vi": "một thời gian",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a spell; a period of time",
+          "sentence": "我等了他一陣子。",
+          "pinyin": "wǒ děngle tā yī zhènzi.",
+          "en": "I waited for him for a while.",
+          "vi": "Tôi đã đợi anh ấy một lúc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a spell; a period of time",
+          "sentence": "雨下了一陣子就停了。",
+          "pinyin": "yǔ xiàle yī zhènzi jiù tíngle.",
+          "en": "The rain stopped after a while.",
+          "vi": "Mưa rơi một lúc rồi tạnh."
+        }
+      ]
     },
     {
       "id": 80,
       "chinese": "下一步",
       "pinyin": "xià yí bù",
-      "english": "next step",
-      "sentenceChinese": "他還在想自己的下一步要怎麼走。",
-      "sentencePinyin": "Tā hái zài xiǎng zìjǐ de xià yí bù yào zěnme zǒu.",
-      "sentenceEnglish": "He is still thinking about what his next step should be.",
-      "vietnamese": "bước tiếp theo",
-      "sentenceVietnamese": "Ông ấy vẫn đang suy nghĩ bước tiếp theo của mình nên đi thế nào."
+      "en": "next step",
+      "vi": "bước tiếp theo",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the next step",
+          "sentence": "下一步怎麼做。",
+          "pinyin": "xià yībù zěnyāo zuò",
+          "en": "What's the next step?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "the next step",
+          "sentence": "這一炮打響了, 下一步就好辦了。",
+          "pinyin": "Zhè yī pào dǎxiǎng le, xià yī bù jiù hǎo bàn le.",
+          "en": "Success at this stage will make the next step easier.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 81,
       "chinese": "盡可能",
       "pinyin": "jǐn kěnéng",
-      "english": "as much as possible",
-      "sentenceChinese": "他盡可能地幫助需要幫助的人。",
-      "sentencePinyin": "Tā jǐn kěnéng de bāngzhù xūyào bāngzhù de rén.",
-      "sentenceEnglish": "He helps people in need as much as possible.",
-      "vietnamese": "hết khả năng",
-      "sentenceVietnamese": "Ông ấy giúp những người cần giúp đỡ trong khả năng nhiều nhất có thể."
+      "en": "as much as possible",
+      "vi": "hết khả năng",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "as far as possible; to the best of one's ability",
+          "sentence": "我會儘可能幫助你。",
+          "pinyin": "wǒ huì jǐn kěnéng bāngzhù nǐ.",
+          "en": "I'll do my best to help you.",
+          "vi": "Tôi sẽ giúp bạn hết sức mình."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "as far as possible; to the best of one's ability",
+          "sentence": "我會儘可能早點到。",
+          "pinyin": "wǒ huì jǐn kěnéng zǎodiǎn dào.",
+          "en": "I'll arrive as early as possible.",
+          "vi": "Tôi sẽ cố gắng đến sớm nhất có thể."
+        }
+      ]
     },
     {
       "id": 82,
       "chinese": "出版社",
       "pinyin": "chūbǎnshè",
-      "english": "publishing company",
-      "sentenceChinese": "後來他買下了一家出版社。",
-      "sentencePinyin": "Hòulái tā mǎixià le yì jiā chūbǎnshè.",
-      "sentenceEnglish": "Later he bought a publishing company.",
-      "vietnamese": "nhà xuất bản",
-      "sentenceVietnamese": "Sau đó ông ấy mua lại một nhà xuất bản."
+      "en": "publishing company",
+      "vi": "nhà xuất bản",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "press; publishing house",
+          "sentence": "他在齣版社工作。",
+          "pinyin": "tā zài chūbǎn shè gōngzuò.",
+          "en": "He works at the publishing house.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "press; publishing house",
+          "sentence": "這傢齣版社齣版了很多書。",
+          "pinyin": "zhè jiā chūbǎn shè chūbǎnle hěnduō shū.",
+          "en": "This publishing house has published many books.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 83,
       "chinese": "捐出",
       "pinyin": "juānchū",
-      "english": "to donate",
-      "sentenceChinese": "很多人願意捐出二手書。",
-      "sentencePinyin": "Hěn duō rén yuànyì juānchū èrshǒushū.",
-      "sentenceEnglish": "Many people are willing to donate secondhand books.",
-      "vietnamese": "quyên tặng",
-      "sentenceVietnamese": "Rất nhiều người sẵn sàng quyên tặng sách cũ."
+      "en": "to donate",
+      "vi": "quyên tặng",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "sacrifice; contribute",
+          "sentence": "他為了國傢捐軀。",
+          "pinyin": "tā wèile guójiā juānqū.",
+          "en": "He sacrificed his life for his country.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "sacrifice; contribute",
+          "sentence": "英雄無畏地捐齣自己。",
+          "pinyin": "yīngxióng wúwèi de juān chū zìjǐ.",
+          "en": "Heroes selflessly donated themselves.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "tax",
+          "sentence": "我要繳納車捐。",
+          "pinyin": "wǒ yào jiǎonà chē juān.",
+          "en": "I need to pay the car tax.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "tax",
+          "sentence": "古代有這種捐。",
+          "pinyin": "gǔdài yǒu zhè zhǒng juān.",
+          "en": "This kind of tax existed in ancient times.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 84,
       "chinese": "二手書",
       "pinyin": "èrshǒushū",
-      "english": "secondhand book",
-      "sentenceChinese": "這家書店有很多便宜的二手書。",
-      "sentencePinyin": "Zhè jiā shūdiàn yǒu hěn duō piányi de èrshǒushū.",
-      "sentenceEnglish": "This bookstore has many inexpensive secondhand books.",
-      "vietnamese": "sách cũ",
-      "sentenceVietnamese": "Hiệu sách này có rất nhiều sách cũ giá rẻ."
+      "en": "secondhand book",
+      "vi": "sách cũ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "book",
+          "sentence": "她把書放在桌子上。",
+          "pinyin": "tā bǎ shū fàng zài zhuōzi shàng.",
+          "en": "She put the book on the table.",
+          "vi": "Cô ấy đặt sách lên bàn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "book",
+          "sentence": "我忘了帶教科書。",
+          "pinyin": "wǒ wàngle dài jiàokēshū.",
+          "en": "I forgot to bring the textbook.",
+          "vi": "Tôi quên mang sách giáo khoa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "write",
+          "sentence": "他每天都會書寫日記。",
+          "pinyin": "tā měitiān dōuhuì shūxiě rìjì.",
+          "en": "He writes in his diary every day.",
+          "vi": "Anh ấy viết nhật ký mỗi ngày."
+        },
+        {
+          "type": "Verb",
+          "meaning": "write",
+          "sentence": "她喜歡練習書法。",
+          "pinyin": "tā xǐhuan liànxí shūfǎ.",
+          "en": "She likes to practice calligraphy.",
+          "vi": "Cô ấy thích luyện viết thư pháp."
+        }
+      ]
     }
-  ],
-  "theme": "I'm Going to Cast My Vote"
+  ]
 }

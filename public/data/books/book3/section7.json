@@ -7,827 +7,2484 @@
       "id": 1,
       "chinese": "親",
       "pinyin": "qīn",
-      "english": "close; intimate",
-      "sentenceChinese": "在家裡，我跟奶奶最親。",
-      "sentencePinyin": "Zài jiālǐ, wǒ gēn nǎinai zuì qīn.",
-      "sentenceEnglish": "In my family, I am closest to my grandma.",
-      "vietnamese": "thân; gần gũi",
-      "sentenceVietnamese": "Trong nhà, tôi thân với bà nội nhất."
+      "en": "close; intimate",
+      "vi": "thân; gần gũi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "parent",
+          "sentence": "我的母親非常疼愛我。",
+          "pinyin": "wǒ de mǔqīn fēicháng téng'ài wǒ.",
+          "en": "My mother loves me dearly.",
+          "vi": "Mẹ tôi rất yêu thương tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "parent",
+          "sentence": "他很愛他的雙親。",
+          "pinyin": "tā hěn ài tā de shuāngqīn.",
+          "en": "He loves his parents very much.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "next of kin; related by blood; of blood relationship",
+          "sentence": "他是我的親爹。",
+          "pinyin": "tā shì wǒ de qīn diē.",
+          "en": "He is my biological father.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "next of kin; related by blood; of blood relationship",
+          "sentence": "他們是親哥倆。",
+          "pinyin": "tāmen shì qīn gē liǎ.",
+          "en": "They are biological brothers.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "kiss",
+          "sentence": "我想親嘴你。",
+          "pinyin": "wǒ xiǎng qīnzuǐ nǐ.",
+          "en": "I want to kiss you.",
+          "vi": "Tớ muốn hôn cậu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "kiss",
+          "sentence": "他親了親孩子。",
+          "pinyin": "tā qīnle qīn háizi.",
+          "en": "He gave the child a kiss.",
+          "vi": "Anh ấy hôn con."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "爺爺",
       "pinyin": "yéye",
-      "english": "grandpa (father's side)",
-      "sentenceChinese": "我小時候常常跟爺爺去散步。",
-      "sentencePinyin": "Wǒ xiǎoshíhou chángcháng gēn yéye qù sànbù.",
-      "sentenceEnglish": "When I was little, I often went walking with my grandpa.",
-      "vietnamese": "ông nội",
-      "sentenceVietnamese": "Hồi nhỏ tôi thường đi dạo với ông nội."
+      "en": "grandpa (father's side)",
+      "vi": "ông nội",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "grandpa; grandfather",
+          "sentence": "他爺爺快七十歲了。",
+          "pinyin": "tā yéye kuài qīshí suìle.",
+          "en": "His grandfather is nearly 70 years old.",
+          "vi": "Ông nội của anh ta sắp 70 tuổi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "grandpa; grandfather",
+          "sentence": "我的爺爺喜歡釣魚。",
+          "pinyin": "wǒ de yéye xǐhuān diàoyú.",
+          "en": "My grandfather likes fishing.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "鄰居",
       "pinyin": "línjū",
-      "english": "neighbor",
-      "sentenceChinese": "我們家的鄰居人都很好。",
-      "sentencePinyin": "Wǒmen jiā de línjū rén dōu hěn hǎo.",
-      "sentenceEnglish": "All of our neighbors are very nice.",
-      "vietnamese": "hàng xóm",
-      "sentenceVietnamese": "Hàng xóm nhà tôi đều rất tốt."
+      "en": "neighbor",
+      "vi": "hàng xóm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "neighbour",
+          "sentence": "他是我的一個鄰居。",
+          "pinyin": "tā shì wǒ de yīgè línjū.",
+          "en": "He's my neighbor.",
+          "vi": "Anh ấy là hàng xóm của tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "neighbour",
+          "sentence": "我的鄰居非常友好。",
+          "pinyin": "wǒ de línjū fēicháng yǒuhǎo.",
+          "en": "My neighbor is really friendly.",
+          "vi": "Người hàng xóm của tôi rất thân thiện."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "狗",
       "pinyin": "gǒu",
-      "english": "dog",
-      "sentenceChinese": "那隻狗每天都在門口等主人回家。",
-      "sentencePinyin": "Nà zhī gǒu měitiān dōu zài ménkǒu děng zhǔrén huí jiā.",
-      "sentenceEnglish": "That dog waits by the door every day for its owner to come home.",
-      "vietnamese": "chó",
-      "sentenceVietnamese": "Con chó đó ngày nào cũng đợi chủ ở trước cửa."
+      "en": "dog",
+      "vi": "chó",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dog",
+          "sentence": "這隻寵物狗已經8歲了。",
+          "pinyin": "zhè zhī chǒngwù gǒu yǐjīng 8 suìle.",
+          "en": "This pet dog is already 8 years old.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dog",
+          "sentence": "我最近養了一隻小狗。",
+          "pinyin": "wǒ zuìjìn yǎngle yī zhī xiǎo gǒu.",
+          "en": "I recently got a puppy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "叫",
       "pinyin": "jiào",
-      "english": "to bark; to call",
-      "sentenceChinese": "半夜不要讓狗一直叫，會吵到鄰居。",
-      "sentencePinyin": "Bànyè bú yào ràng gǒu yìzhí jiào, huì chǎo dào línjū.",
-      "sentenceEnglish": "Don't let the dog keep barking in the middle of the night, or it will disturb the neighbors.",
-      "vietnamese": "sủa; gọi",
-      "sentenceVietnamese": "Đừng để chó sủa mãi vào nửa đêm, sẽ làm phiền hàng xóm."
+      "en": "to bark; to call",
+      "vi": "sủa; gọi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cry; shout",
+          "sentence": "狗突然大聲叫了。",
+          "pinyin": "gǒu tū rán dàshēng jiàole.",
+          "en": "The dog suddenly barked loudly.",
+          "vi": "Con chó đột nhiên sủa to."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cry; shout",
+          "sentence": "她痛得大聲叫齣聲。",
+          "pinyin": "tā tòng dé dàshēng jiào chū shēng.",
+          "en": "She screamed loudly in pain.",
+          "vi": "Cô ấy kêu lớn vì đau đớn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "male (animal)",
+          "sentence": "這隻叫雞很吵。",
+          "pinyin": "zhè zhǐ jiàojī hěn chǎo.",
+          "en": "This rooster is very noisy.",
+          "vi": "Con gà trống này rất ồn ào."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "male (animal)",
+          "sentence": "他養了一隻叫狗。",
+          "pinyin": "tā yǎngle yī zhī jiào gǒu.",
+          "en": "He raised a dog.",
+          "vi": "Anh ấy nuôi một con chó đực."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "introduces the agent of an action; equivalent to \"被\"",
+          "sentence": "手機叫他拿走了。",
+          "pinyin": "shǒujī jiào tā ná zǒule.",
+          "en": "The phone was taken away by him.",
+          "vi": "Điện thoại bị anh ấy cầm đi rồi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "introduces the agent of an action; equivalent to \"被\"",
+          "sentence": "我的衣服叫雨淋了。",
+          "pinyin": "wǒ de yīfu jiào yǔ línle.",
+          "en": "My clothes got soaked by the rain.",
+          "vi": "Quần áo của tôi bị mưa làm ướt rồi."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "嗯",
       "pinyin": "en",
-      "english": "uh-huh; mm",
-      "sentenceChinese": "A：你明天有空嗎？B：嗯，我下午有空。",
-      "sentencePinyin": "A: Nǐ míngtiān yǒu kòng ma? B: En, wǒ xiàwǔ yǒu kòng.",
-      "sentenceEnglish": "A: Are you free tomorrow? B: Mm, I'm free in the afternoon.",
-      "vietnamese": "ừ; ừm",
-      "sentenceVietnamese": "A: Ngày mai bạn rảnh không? B: Ừm, chiều mai tôi rảnh."
+      "en": "uh-huh; mm",
+      "vi": "ừ; ừm",
+      "samples": [
+        {
+          "type": "intj",
+          "meaning": "uh; hmm; yeah",
+          "sentence": "嗯!就這麼辦吧!",
+          "pinyin": "ng`! jiù zhème bàn ba!",
+          "en": "Okay! Let's do it this way.",
+          "vi": "Ừ, cứ làm như vậy đi."
+        },
+        {
+          "type": "intj",
+          "meaning": "uh; hmm; yeah",
+          "sentence": "他嗯了一聲，就走了。",
+          "pinyin": "tā ńg le yīshēng, jiù zǒule.",
+          "en": "He made a sound of agreement and then left.",
+          "vi": "Anh ta ừ một cái rồi bỏ đi rồi."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "奶奶",
       "pinyin": "nǎinai",
-      "english": "grandma (father's side)",
-      "sentenceChinese": "奶奶做的菜有家的味道。",
-      "sentencePinyin": "Nǎinai zuò de cài yǒu jiā de wèidào.",
-      "sentenceEnglish": "The food Grandma cooks has the taste of home.",
-      "vietnamese": "bà nội",
-      "sentenceVietnamese": "Món ăn bà nội nấu có hương vị của gia đình."
+      "en": "grandma (father's side)",
+      "vi": "bà nội",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(paternal) grandmother; grandma",
+          "sentence": "我要去我奶奶傢！",
+          "pinyin": "wǒ yào qù wǒ nǎinai jiā!",
+          "en": "I want to go to my grandmother's house!",
+          "vi": "Tôi muốn đến nhà bà nội!"
+        },
+        {
+          "type": "Noun",
+          "meaning": "(paternal) grandmother; grandma",
+          "sentence": "奶奶身體不太好。",
+          "pinyin": "nǎinai shēntǐ bù tài hǎo.",
+          "en": "My grandmother's health is not very good.",
+          "vi": "Sức khỏe của bà nội không được tốt lắm."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "過世",
       "pinyin": "guòshì",
-      "english": "to pass away",
-      "sentenceChinese": "我爺爺過世以後，奶奶一個人住了好幾年。",
-      "sentencePinyin": "Wǒ yéye guòshì yǐhòu, nǎinai yí gèrén zhù le hǎojǐ nián.",
-      "sentenceEnglish": "After my grandpa passed away, my grandma lived alone for several years.",
-      "vietnamese": "qua đời",
-      "sentenceVietnamese": "Sau khi ông tôi qua đời, bà đã sống một mình nhiều năm."
+      "en": "to pass away",
+      "vi": "qua đời",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "die; pass away",
+          "sentence": "他爺爺去年過世了。",
+          "pinyin": "Tā yéye qùnián guòshì le.",
+          "en": "His grandfather passed away last year.",
+          "vi": "Ông nội của anh ấy đã qua đời năm ngoái."
+        },
+        {
+          "type": "Verb",
+          "meaning": "die; pass away",
+          "sentence": "她的母親剛剛過世。",
+          "pinyin": "tā de mǔqīn gānggāng guòshì.",
+          "en": "Her mother just passed away.",
+          "vi": "Mẹ của cô ấy vừa mới qua đời."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "領養",
       "pinyin": "lǐngyǎng",
-      "english": "to adopt",
-      "sentenceChinese": "他們在收容所領養了一隻流浪狗。",
-      "sentencePinyin": "Tāmen zài shōuróngsuǒ lǐngyǎng le yì zhī liúlànggǒu.",
-      "sentenceEnglish": "They adopted a stray dog from the shelter.",
-      "vietnamese": "nhận nuôi; nhận nuôi làm con",
-      "sentenceVietnamese": "Họ nhận nuôi một con chó hoang từ trạm cứu hộ."
+      "en": "to adopt",
+      "vi": "nhận nuôi; nhận nuôi làm con",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "adopt (a child)",
+          "sentence": "他們領養了一個小女孩。",
+          "pinyin": "tāmen lǐngyǎngle yīgè xiǎo nǚhái.",
+          "en": "They adopted a little girl.",
+          "vi": "Họ đã nhận nuôi một bé gái."
+        },
+        {
+          "type": "Verb",
+          "meaning": "adopt (a child)",
+          "sentence": "孩子兩歲時被人領養了。",
+          "pinyin": "háizǐ liǎng suì shí bèi rén lǐngyǎngle.",
+          "en": "The child was adopted at the age of two.",
+          "vi": "Đứa bé được nhận nuôi khi hai tuổi."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "隻",
       "pinyin": "zhī",
-      "english": "measure word for animals",
-      "sentenceChinese": "她家裡養了三隻貓和一隻狗。",
-      "sentencePinyin": "Tā jiālǐ yǎng le sān zhī māo hé yì zhī gǒu.",
-      "sentenceEnglish": "She has three cats and one dog at home.",
-      "vietnamese": "lượng từ dùng cho động vật",
-      "sentenceVietnamese": "Nhà cô ấy nuôi ba con mèo và một con chó."
+      "en": "measure word for animals",
+      "vi": "lượng từ dùng cho động vật",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "used for animals",
+          "sentence": "她養了一隻狗。",
+          "pinyin": "tā yǎngle yī zhī gǒu.",
+          "en": "She raised a dog.",
+          "vi": "Cô ấy nuôi một con chó."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for animals",
+          "sentence": "樹上有一隻鳥。",
+          "pinyin": "shù shàng yǒuyī zhī niǎo.",
+          "en": "There is a bird on the tree.",
+          "vi": "Trên cây có một con chim."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "single; lonely",
+          "sentence": "他隻身努力求成功。",
+          "pinyin": "tā zhīshēn nǔlì qiú chénggōng.",
+          "en": "He strives for success alone.",
+          "vi": "Anh ấy một mình cố gắng để đạt được thành công."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "single; lonely",
+          "sentence": "他隻身奮鬥為夢想。",
+          "pinyin": "tā zhīshēn fèndòu wèi mèngxiǎng.",
+          "en": "He struggles alone for his dream.",
+          "vi": "Anh ấy một mình phấn đấu vì ước mơ."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "可愛",
       "pinyin": "kě'ài",
-      "english": "cute; lovable",
-      "sentenceChinese": "那隻小狗真的很可愛。",
-      "sentencePinyin": "Nà zhī xiǎogǒu zhēn de hěn kě'ài.",
-      "sentenceEnglish": "That puppy is really cute.",
-      "vietnamese": "đáng yêu",
-      "sentenceVietnamese": "Con chó nhỏ đó thật sự rất đáng yêu."
+      "en": "cute; lovable",
+      "vi": "đáng yêu",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "lovable; likable; lovely; adorable",
+          "sentence": "可愛的祖國。",
+          "pinyin": "kě'ài de zǔguó",
+          "en": "Beloved motherland",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "lovable; likable; lovely; adorable",
+          "sentence": "這孩子真可愛！",
+          "pinyin": "Zhè háizi zhēn kě'ài!",
+          "en": "What a cute child!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "孤單",
       "pinyin": "gūdān",
-      "english": "lonely",
-      "sentenceChinese": "一個人住久了，有時候會覺得很孤單。",
-      "sentencePinyin": "Yí gèrén zhù jiǔ le, yǒu shíhou huì juéde hěn gūdān.",
-      "sentenceEnglish": "Living alone for a long time can sometimes feel lonely.",
-      "vietnamese": "cô đơn",
-      "sentenceVietnamese": "Sống một mình lâu rồi đôi khi sẽ thấy rất cô đơn."
+      "en": "lonely",
+      "vi": "cô đơn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "alone; lonely",
+          "sentence": "他一個人生活很孤單。",
+          "pinyin": "tā yīgè rén shēnghuó hěn gūdān.",
+          "en": "He lives alone and feels very lonely.",
+          "vi": "Cuộc sống của anh ấy rất cô đơn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "alone; lonely",
+          "sentence": "她不喜歡孤單的生活。",
+          "pinyin": "tā bù xǐhuān gūdān de shēnghuó.",
+          "en": "She doesn't like a lonely life.",
+          "vi": "Cô ấy không thích cuộc sống cô đơn."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "牠",
       "pinyin": "tā",
-      "english": "it (for animals)",
-      "sentenceChinese": "這是我們家的狗，牠今年五歲了。",
-      "sentencePinyin": "Zhè shì wǒmen jiā de gǒu, tā jīnnián wǔ suì le.",
-      "sentenceEnglish": "This is our dog. It is five years old this year.",
-      "vietnamese": "nó (dùng cho động vật)",
-      "sentenceVietnamese": "Đây là chó nhà tôi, nó năm nay năm tuổi rồi."
+      "en": "it (for animals)",
+      "vi": "nó (dùng cho động vật)",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "it (used for animals)",
+          "sentence": "院子裡的貓牠很可愛。",
+          "pinyin": "yuàn zi lǐ de māo tā hěn kě'ài",
+          "en": "The cat in the yard is very cute.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "髒",
       "pinyin": "zāng",
-      "english": "dirty",
-      "sentenceChinese": "牠剛從外面回來，身上有點髒。",
-      "sentencePinyin": "Tā gāng cóng wàimiàn huílái, shēnshang yǒudiǎn zāng.",
-      "sentenceEnglish": "It just came back from outside, and it's a little dirty.",
-      "vietnamese": "bẩn",
-      "sentenceVietnamese": "Nó vừa từ ngoài về nên người hơi bẩn."
+      "en": "dirty",
+      "vi": "bẩn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "viscera; internal organs of the body, usu. the heart, liver, spleen, lungs, and kidneys",
+          "sentence": "肝髒是人體的重要器官。",
+          "pinyin": "gānzàng shì réntǐ de zhòngyào qìguān.",
+          "en": "The liver is an important organ of the human body.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "viscera; internal organs of the body, usu. the heart, liver, spleen, lungs, and kidneys",
+          "sentence": "他需要換一個健康的心髒。",
+          "pinyin": "tā xūyào huàn yīgè jiànkāng de xīnzàng.",
+          "en": "He needs to replace a healthy heart.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "洗澡",
       "pinyin": "xǐzǎo",
-      "english": "to bathe; to take a bath",
-      "sentenceChinese": "週末我會幫狗洗澡。",
-      "sentencePinyin": "Zhōumò wǒ huì bāng gǒu xǐzǎo.",
-      "sentenceEnglish": "I bathe the dog on weekends.",
-      "vietnamese": "tắm",
-      "sentenceVietnamese": "Cuối tuần tôi sẽ tắm cho chó."
+      "en": "to bathe; to take a bath",
+      "vi": "tắm",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "bathe; shower; wash up",
+          "sentence": "寶寶該洗澡了。",
+          "pinyin": "bǎobao gāi xǐzǎole.",
+          "en": "The baby needs a bath.",
+          "vi": "Em bé cần tắm rồi."
+        },
+        {
+          "type": "sv",
+          "meaning": "bathe; shower; wash up",
+          "sentence": "他不喜歡洗澡。",
+          "pinyin": "tā bù xǐhuān xǐzǎo.",
+          "en": "He doesn't like taking a bath.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "養",
       "pinyin": "yǎng",
-      "english": "to raise; to keep",
-      "sentenceChinese": "他從大學開始養貓。",
-      "sentencePinyin": "Tā cóng dàxué kāishǐ yǎng māo.",
-      "sentenceEnglish": "He has raised cats since college.",
-      "vietnamese": "nuôi",
-      "sentenceVietnamese": "Anh ấy bắt đầu nuôi mèo từ thời đại học."
+      "en": "to raise; to keep",
+      "vi": "nuôi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "support; provide for",
+          "sentence": "她負責贍養父母。",
+          "pinyin": "tā fùzé shànyǎng fùmǔ.",
+          "en": "She is responsible for supporting her parents.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "raise; keep; grow",
+          "sentence": "我弟弟養蛐蛐兒。",
+          "pinyin": "wǒ dì di yǎng qūqur.",
+          "en": "My younger brother raises crickets.",
+          "vi": "Em trai tôi nuôi dế."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "foster; adoptive",
+          "sentence": "養子的生活很倖福。",
+          "pinyin": "yǎngzǐ de shēnghuó hěn xìngfú.",
+          "en": "The life of the adopted son is very happy.",
+          "vi": "Cuộc sống của con nuôi rất hạnh phúc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "quality",
+          "sentence": "養成良好的素養很重要。",
+          "pinyin": "yǎng chéng liánghǎo de sùyǎng hěn zhòngyào.",
+          "en": "Developing good qualities is very important.",
+          "vi": "Rèn luyện thành phẩm hạnh tốt rất quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我姓養。",
+          "pinyin": "wǒ xìng yǎng.",
+          "en": "My surname is Yang.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "亂",
       "pinyin": "luàn",
-      "english": "recklessly; carelessly",
-      "sentenceChinese": "你不能讓狗亂跑。",
-      "sentencePinyin": "Nǐ bùnéng ràng gǒu luàn pǎo.",
-      "sentenceEnglish": "You can't let the dog run around recklessly.",
-      "vietnamese": "lung tung; bừa bãi",
-      "sentenceVietnamese": "Bạn không thể để chó chạy lung tung."
+      "en": "recklessly; carelessly",
+      "vi": "lung tung; bừa bãi",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "in disorder; in a mess; in confusion",
+          "sentence": "房間裡/裏像一團亂麻。",
+          "pinyin": "fángjiān lǐ xiàng yī tuán luànmá.",
+          "en": "The room is like a tangled mess.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "in disorder; in a mess; in confusion",
+          "sentence": "桌子上的東西很雜亂。",
+          "pinyin": "zhuōzi shàng de dōngxi hěn záluàn.",
+          "en": "The things on the table were all in a jumble.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "riot; unrest; turmoil; upheaval",
+          "sentence": "國傢經曆了多年的內亂。",
+          "pinyin": "guójiā jīnglìle duōnián de nèiluàn.",
+          "en": "The country went through years of internal turmoil.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "riot; unrest; turmoil; upheaval",
+          "sentence": "人們為了避亂逃往鄰國。",
+          "pinyin": "rénmen wèile bì luàn táo wǎng lín guó.",
+          "en": "People fled to neighboring countries to escape the unrest.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "confuse; mix up; throw into disorder",
+          "sentence": "不要擾亂課堂秩序。",
+          "pinyin": "bùyào rǎoluàn kètáng zhìxù.",
+          "en": "Don't disrupt the classroom order.",
+          "vi": "Đừng quấy rối trật tự lớp học."
+        },
+        {
+          "type": "Verb",
+          "meaning": "confuse; mix up; throw into disorder",
+          "sentence": "他的行為惑亂了眾/衆人。",
+          "pinyin": "tā de xíngwéi huòluànle zhòngrén.",
+          "en": "His actions confused the crowd.",
+          "vi": "Hành vi của anh ấy đã gây hỗn loạn cho mọi người."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "at random; arbitrary; indiscriminately",
+          "sentence": "別在這裡/裏鬍言亂語了。",
+          "pinyin": "bié zài zhèlǐ húyán luàn yǔle.",
+          "en": "Don't talk nonsense here.",
+          "vi": "Đừng nói lung tung ở đây nữa."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "at random; arbitrary; indiscriminately",
+          "sentence": "你不要總是亂花錢啊。",
+          "pinyin": "nǐ bùyào zǒng shì luàn huā qián a.",
+          "en": "Don't always spend money recklessly.",
+          "vi": "Bạn đừng luôn tiêu tiền một cách bừa bãi nhé."
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "咬",
       "pinyin": "yǎo",
-      "english": "to bite",
-      "sentenceChinese": "這隻狗不會咬人，你別怕。",
-      "sentencePinyin": "Zhè zhī gǒu bú huì yǎo rén, nǐ bié pà.",
-      "sentenceEnglish": "This dog doesn't bite people, so don't be afraid.",
-      "vietnamese": "cắn",
-      "sentenceVietnamese": "Con chó này không cắn người đâu, bạn đừng sợ."
+      "en": "to bite",
+      "vi": "cắn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "bite; snap at",
+          "sentence": "她緊張時會咬嘴唇/脣。",
+          "pinyin": "tā jǐnzhāng shí huì yǎo zuǐchún.",
+          "en": "She bites her lip when she's nervous.",
+          "vi": "Khi cô ấy lo lắng sẽ cắn môi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "bark",
+          "sentence": "他不説話，但咬人的狗不露齒。",
+          "pinyin": "tā bù shuōhuà, dàn yǎo rén de gǒu bù lù chǐ.",
+          "en": "He doesn't talk much, but a biting dog doesn't bark.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "打",
       "pinyin": "dǎ",
-      "english": "to hit; to strike",
-      "sentenceChinese": "教狗不能只用打的方式。",
-      "sentencePinyin": "Jiāo gǒu bùnéng zhǐ yòng dǎ de fāngshì.",
-      "sentenceEnglish": "You can't train a dog only by hitting it.",
-      "vietnamese": "đánh",
-      "sentenceVietnamese": "Dạy chó không thể chỉ dùng cách đánh."
+      "en": "to hit; to strike",
+      "vi": "đánh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "strike; hit; knock",
+          "sentence": "工人們正在打樁。",
+          "pinyin": "gōngrénmen zhèngzài dǎzhuāng.",
+          "en": "The workers are piling.",
+          "vi": "Công nhân đang đóng cọc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "strike; hit; knock",
+          "sentence": "小孩不停地打門。",
+          "pinyin": "xiǎohái bù tíng de dǎ mén.",
+          "en": "The child keeps knocking on the door.",
+          "vi": "Đứa trẻ không ngừng gõ cửa."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from; since",
+          "sentence": "打這兒往西，再走三裡/裏地就到了。",
+          "pinyin": "dǎ zhèr wǎng xī, zài zǒu sānlǐ de jiù dàole.",
+          "en": "Go west from here and walk 3 li to arrive.",
+          "vi": "Từ đây đi về hướng tây, ba dặm nữa là tới nơi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from; since",
+          "sentence": "他打門縫裡/裏往外看。",
+          "pinyin": "tā dǎ mén fèng lǐ wǎngwài kàn.",
+          "en": "He looked outside through the door crack.",
+          "vi": "Nó nhìn từ khe cửa ra ngoài."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "分手",
       "pinyin": "fēnshǒu",
-      "english": "to break up",
-      "sentenceChinese": "他跟女朋友分手以後，心情一直很差。",
-      "sentencePinyin": "Tā gēn nǚpéngyou fēnshǒu yǐhòu, xīnqíng yìzhí hěn chà.",
-      "sentenceEnglish": "After he broke up with his girlfriend, he was in a bad mood for a long time.",
-      "vietnamese": "chia tay",
-      "sentenceVietnamese": "Sau khi chia tay bạn gái, tâm trạng anh ấy luôn rất tệ."
+      "en": "to break up",
+      "vi": "chia tay",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "part; break up",
+          "sentence": "他們倆就這樣分手了。",
+          "pinyin": "tāmen liǎ jiù zhèyàng fēnshǒule.",
+          "en": "The two of them broke up just like that.",
+          "vi": "Hai người họ cứ thế mà chia tay rồi."
+        },
+        {
+          "type": "sv",
+          "meaning": "part; break up",
+          "sentence": "我們分手已經半年了。",
+          "pinyin": "wǒmen fēnshǒu yǐjīng bànniánle.",
+          "en": "We have been broken up for half a year.",
+          "vi": "Chúng tôi đã chia tay được nửa năm."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "緊張",
       "pinyin": "jǐnzhāng",
-      "english": "nervous; tense",
-      "sentenceChinese": "第一次帶狗去看醫生，我有點緊張。",
-      "sentencePinyin": "Dì yī cì dài gǒu qù kàn yīshēng, wǒ yǒudiǎn jǐnzhāng.",
-      "sentenceEnglish": "I was a little nervous the first time I took the dog to the vet.",
-      "vietnamese": "căng thẳng; hồi hộp",
-      "sentenceVietnamese": "Lần đầu đưa chó đi khám, tôi hơi căng thẳng."
+      "en": "nervous; tense",
+      "vi": "căng thẳng; hồi hộp",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "nervous; keyed up",
+          "sentence": "麵試時他很緊張。",
+          "pinyin": "miànshì shí tā hěn jǐnzhāng.",
+          "en": "He was nervous during the interview.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "nervous; keyed up",
+          "sentence": "考試的時候我很緊張。",
+          "pinyin": "kǎoshì de shíhòu wǒ hěn jǐnzhāng.",
+          "en": "I was keyed up during the exam.",
+          "vi": "Tôi đã rất lo lắng trong suốt kỳ thi."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "減輕",
       "pinyin": "jiǎnqīng",
-      "english": "to reduce; to lessen",
-      "sentenceChinese": "跟寵物玩可以減輕壓力。",
-      "sentencePinyin": "Gēn chǒngwù wán kěyǐ jiǎnqīng yālì.",
-      "sentenceEnglish": "Playing with pets can reduce stress.",
-      "vietnamese": "giảm bớt",
-      "sentenceVietnamese": "Chơi với thú cưng có thể giúp giảm bớt áp lực."
+      "en": "to reduce; to lessen",
+      "vi": "giảm bớt",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "ease; remit; relieve; lighten; alleviate; mitigate",
+          "sentence": "這藥可以減輕疼痛。",
+          "pinyin": "zhè yào kěyǐ jiǎnqīng téngtòng.",
+          "en": "This medicine can relieve the pain.",
+          "vi": "Thuốc này có thể làm giảm đau."
+        },
+        {
+          "type": "Verb",
+          "meaning": "ease; remit; relieve; lighten; alleviate; mitigate",
+          "sentence": "減輕負擔很重要。",
+          "pinyin": "jiǎnqīng fùdān hěn zhòngyào.",
+          "en": "Reducing the burden is very important.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "送",
       "pinyin": "sòng",
-      "english": "to send; to take",
-      "sentenceChinese": "下雨了，我送你回家吧。",
-      "sentencePinyin": "Xiàyǔ le, wǒ sòng nǐ huí jiā ba.",
-      "sentenceEnglish": "It's raining. Let me take you home.",
-      "vietnamese": "đưa; tiễn",
-      "sentenceVietnamese": "Trời mưa rồi, để tôi đưa bạn về nhà nhé."
+      "en": "to send; to take",
+      "vi": "đưa; tiễn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "carry; deliver",
+          "sentence": "我們送食物給鄰居。",
+          "pinyin": "wǒmen sòng shíwù gěi línjū.",
+          "en": "We bring food to the neighbors.",
+          "vi": "Chúng tôi mang thức ăn cho hàng xóm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "carry; deliver",
+          "sentence": "他們都是送信的人。",
+          "pinyin": "tāmen dōu shì sòngxìn de rén.",
+          "en": "They are all mail carriers.",
+          "vi": "Họ đều là người đưa thư."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "送老師不在教室。",
+          "pinyin": "sòng lǎoshī bùzài jiàoshì.",
+          "en": "Teacher Song is not in the classroom.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "送老師今天不來。",
+          "pinyin": "sòng lǎoshī jīntiān bù lái.",
+          "en": "Teacher Song won't come today.",
+          "vi": "Thầy Tống hôm nay không tới."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "美容院",
       "pinyin": "měiróngyuàn",
-      "english": "beauty salon",
-      "sentenceChinese": "那隻狗每個月都要去寵物美容院。",
-      "sentencePinyin": "Nà zhī gǒu měi gè yuè dōu yào qù chǒngwù měiróngyuàn.",
-      "sentenceEnglish": "That dog goes to a pet grooming salon every month.",
-      "vietnamese": "tiệm chăm sóc làm đẹp",
-      "sentenceVietnamese": "Con chó đó tháng nào cũng phải đi tiệm làm đẹp cho thú cưng."
+      "en": "beauty salon",
+      "vi": "tiệm chăm sóc làm đẹp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "beauty shop; beauty salon",
+          "sentence": "她每週都會去美容院做護理。",
+          "pinyin": "tā měi zhōu dōuhuì qù měiróng yuàn zuò hùlǐ.",
+          "en": "She goes to the beauty salon for treatments every week.",
+          "vi": "Cô ấy mỗi tuần đều đến thẩm mỹ viện để chăm sóc da."
+        },
+        {
+          "type": "Noun",
+          "meaning": "beauty shop; beauty salon",
+          "sentence": "媽媽昨天去了美容院做美甲。",
+          "pinyin": "māma zuótiān qùle měiróng yuàn zuò měijiǎ.",
+          "en": "Mom went to the beauty salon for a manicure yesterday.",
+          "vi": "Hôm qua mẹ đi thẩm mỹ viện làm nails."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "推車",
       "pinyin": "tuīchē",
-      "english": "stroller; pushcart",
-      "sentenceChinese": "阿姨推著嬰兒推車去公園。",
-      "sentencePinyin": "Āyí tuī zhe yīng'ér tuīchē qù gōngyuán.",
-      "sentenceEnglish": "Auntie pushed the stroller to the park.",
-      "vietnamese": "xe đẩy",
-      "sentenceVietnamese": "Dì đẩy xe em bé ra công viên."
+      "en": "stroller; pushcart",
+      "vi": "xe đẩy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a push-cart; a trolley (in a supermaket)",
+          "sentence": "他推著推車走。",
+          "pinyin": "tā tuīzhe tuī chē zǒu.",
+          "en": "He is pushing the cart.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a push-cart; a trolley (in a supermaket)",
+          "sentence": "這個推車很重。",
+          "pinyin": "zhège tuī chē hěn zhòng.",
+          "en": "This trolley is very heavy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "主人",
       "pinyin": "zhǔrén",
-      "english": "owner; master",
-      "sentenceChinese": "狗一看到主人就很開心。",
-      "sentencePinyin": "Gǒu yí kàndào zhǔrén jiù hěn kāixīn.",
-      "sentenceEnglish": "The dog gets very happy as soon as it sees its owner.",
-      "vietnamese": "chủ",
-      "sentenceVietnamese": "Chó vừa thấy chủ là vui ngay."
+      "en": "owner; master",
+      "vi": "chủ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "master",
+          "sentence": "他是這傢的主人。",
+          "pinyin": "tā shì zhè jiā de zhǔrén.",
+          "en": "He is the master of this house.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "master",
+          "sentence": "這個主人很富有。",
+          "pinyin": "zhège zhǔrén hěn fùyǒu.",
+          "en": "This master is very wealthy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "相處",
       "pinyin": "xiāngchǔ",
-      "english": "to get along; to spend time together",
-      "sentenceChinese": "我們家的人跟鄰居一直都相處得很好。",
-      "sentencePinyin": "Wǒmen jiā de rén gēn línjū yìzhí dōu xiāngchǔ de hěn hǎo.",
-      "sentenceEnglish": "My family has always gotten along well with the neighbors.",
-      "vietnamese": "ở chung; hòa hợp với nhau",
-      "sentenceVietnamese": "Người nhà tôi luôn sống hòa thuận với hàng xóm."
+      "en": "to get along; to spend time together",
+      "vi": "ở chung; hòa hợp với nhau",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "get on; live together; get along with (each other)",
+          "sentence": "不可能跟他和睦相處。",
+          "pinyin": "bù kěnéng gēn tā hémù xiāngchǔ.",
+          "en": "It's impossible to get along with him.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "get on; live together; get along with (each other)",
+          "sentence": "她和衕齡人相處融洽。",
+          "pinyin": "tā hé tónglíng rén xiāngchǔ róngqià.",
+          "en": "She gets on well with her peer group.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "生",
       "pinyin": "shēng",
-      "english": "to give birth",
-      "sentenceChinese": "她不想太早生孩子。",
-      "sentencePinyin": "Tā bù xiǎng tài zǎo shēng háizi.",
-      "sentenceEnglish": "She doesn't want to have children too early.",
-      "vietnamese": "sinh",
-      "sentenceVietnamese": "Cô ấy không muốn sinh con quá sớm."
+      "en": "to give birth",
+      "vi": "sinh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "bear; give birth to",
+          "sentence": "她去年生了一個可愛的寶寶。",
+          "pinyin": "tā qùnián shēngle yīgè kě'ài de bǎobao.",
+          "en": "She gave birth to a lovely baby last year.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "bear; give birth to",
+          "sentence": "這隻貓生了四隻小貓。",
+          "pinyin": "zhè zhǐ māo shēngle sì zhī xiǎo māo.",
+          "en": "This cat gave birth to four kittens.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "life",
+          "sentence": "他為救孩子不倖喪生。",
+          "pinyin": "tā wèi jiù háizi bùxìng sàngshēng.",
+          "en": "He died tragically saving the child.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "life",
+          "sentence": "捨生取義是高尚的行為。",
+          "pinyin": "shěshēngqǔyì shì gāoshàng de xíngwéi.",
+          "en": "Sacrificing life for justice is noble.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "living",
+          "sentence": "生的動物更活躍。",
+          "pinyin": "shēng de dòngwù gēng huóyuè.",
+          "en": "Living animals are more active.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "living",
+          "sentence": "植物也是生的。",
+          "pinyin": "zhíwù yěshì shēng de.",
+          "en": "Plants are also alive.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very",
+          "sentence": "這件事情讓我生高興。",
+          "pinyin": "zhè jiàn shìqíng ràng wǒ shēng gāoxìng.",
+          "en": "This matter makes me very happy.",
+          "vi": "Việc này khiến tôi rất vui mừng."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very",
+          "sentence": "他生氣的樣子生可怕。",
+          "pinyin": "tā shēngqì de yàngzi shēng kěpà.",
+          "en": "He looks very scary when he's angry.",
+          "vi": "Anh ấy trông rất đáng sợ khi tức giận."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "寵物",
       "pinyin": "chǒngwù",
-      "english": "pet",
-      "sentenceChinese": "很多人把寵物當成家人。",
-      "sentencePinyin": "Hěn duō rén bǎ chǒngwù dàngchéng jiārén.",
-      "sentenceEnglish": "Many people treat their pets as family members.",
-      "vietnamese": "thú cưng",
-      "sentenceVietnamese": "Nhiều người xem thú cưng như người nhà."
+      "en": "pet",
+      "vi": "thú cưng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pet; pet animal",
+          "sentence": "我有一隻寵物狗。",
+          "pinyin": "wǒ yǒuyī zhī chǒngwù gǒu.",
+          "en": "I have a pet dog.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pet; pet animal",
+          "sentence": "她很愛她的寵物貓。",
+          "pinyin": "tā hěn ài tā de chǒngwù māo.",
+          "en": "She loves her pet cat.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "單身",
       "pinyin": "dānshēn",
-      "english": "single",
-      "sentenceChinese": "她雖然單身，可是過得很自在。",
-      "sentencePinyin": "Tā suīrán dānshēn, kěshì guò de hěn zìzài.",
-      "sentenceEnglish": "Although she is single, she lives very comfortably.",
-      "vietnamese": "độc thân",
-      "sentenceVietnamese": "Tuy cô ấy độc thân nhưng sống rất thoải mái."
+      "en": "single",
+      "vi": "độc thân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "single; unmarried",
+          "sentence": "我目前還是單身。",
+          "pinyin": "wǒ mùqián háishì dānshēn.",
+          "en": "I am still single at the moment.",
+          "vi": "Tôi hiện tại vẫn độc thân."
+        },
+        {
+          "type": "Noun",
+          "meaning": "single; unmarried",
+          "sentence": "單身併不意味著寂寞。",
+          "pinyin": "dānshēn bìng bù yìwèizhe jìmò.",
+          "en": "Being single does not mean being lonely.",
+          "vi": "Độc thân không có nghĩa là cô đơn."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "醫院",
       "pinyin": "yīyuàn",
-      "english": "hospital",
-      "sentenceChinese": "我昨天陪奶奶去醫院看病。",
-      "sentencePinyin": "Wǒ zuótiān péi nǎinai qù yīyuàn kànbìng.",
-      "sentenceEnglish": "Yesterday I accompanied Grandma to the hospital.",
-      "vietnamese": "bệnh viện",
-      "sentenceVietnamese": "Hôm qua tôi đi cùng bà tới bệnh viện khám bệnh."
+      "en": "hospital",
+      "vi": "bệnh viện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hospital",
+          "sentence": "我得去醫院看病。",
+          "pinyin": "wǒ děi qù yīyuàn kànbìng.",
+          "en": "I had to go to the hospital.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hospital",
+          "sentence": "醫院離這兒不遠。",
+          "pinyin": "yīyuàn lí zhèr bù yuǎn.",
+          "en": "The hospital is not far away from here.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "意見",
       "pinyin": "yìjiàn",
-      "english": "opinion; suggestion",
-      "sentenceChinese": "這件事我想先聽聽你的意見。",
-      "sentencePinyin": "Zhè jiàn shì wǒ xiǎng xiān tīngting nǐ de yìjiàn.",
-      "sentenceEnglish": "I want to hear your opinion on this matter first.",
-      "vietnamese": "ý kiến",
-      "sentenceVietnamese": "Việc này tôi muốn nghe ý kiến của bạn trước."
+      "en": "opinion; suggestion",
+      "vi": "ý kiến",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "idea; view; opinion; suggestion",
+          "sentence": "咱們來交換交換意見。",
+          "pinyin": "zánmen lái jiāohuàn jiāohuàn yìjiàn.",
+          "en": "Let's have a discussion about this.",
+          "vi": "Chúng ta trao đổi ý kiến một tý."
+        },
+        {
+          "type": "Noun",
+          "meaning": "idea; view; opinion; suggestion",
+          "sentence": "我聽取了你的意見。",
+          "pinyin": "wǒ tīngqǔle nǐ de yìjiàn.",
+          "en": "I have considered your suggestion.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "建立",
       "pinyin": "jiànlì",
-      "english": "to establish; to build",
-      "sentenceChinese": "養寵物可以幫助孩子建立責任感。",
-      "sentencePinyin": "Yǎng chǒngwù kěyǐ bāngzhù háizi jiànlì zérèngǎn.",
-      "sentenceEnglish": "Raising pets can help children build a sense of responsibility.",
-      "vietnamese": "xây dựng; thiết lập",
-      "sentenceVietnamese": "Nuôi thú cưng có thể giúp trẻ xây dựng tinh thần trách nhiệm."
+      "en": "to establish; to build",
+      "vi": "xây dựng; thiết lập",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "establish; build",
+          "sentence": "他們建立了一傢搬運公司。",
+          "pinyin": "tāmen jiànlìle yījiā bānyùn gōngsī.",
+          "en": "They established a moving company.",
+          "vi": "Họ thành lập một công ty vận chuyển."
+        },
+        {
+          "type": "Verb",
+          "meaning": "establish; build",
+          "sentence": "我建立了一個新的工廠。",
+          "pinyin": "wǒ jiànlìle yīgè xīn de gōngchǎng.",
+          "en": "I set up a new factory.",
+          "vi": "Tôi thành lập một công xưởng mới."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "散步",
       "pinyin": "sànbù",
-      "english": "to take a walk",
-      "sentenceChinese": "晚飯後我會帶狗出去散步。",
-      "sentencePinyin": "Wǎnfàn hòu wǒ huì dài gǒu chūqù sànbù.",
-      "sentenceEnglish": "After dinner, I take the dog for a walk.",
-      "vietnamese": "đi dạo",
-      "sentenceVietnamese": "Sau bữa tối tôi sẽ dắt chó đi dạo."
+      "en": "to take a walk",
+      "vi": "đi dạo",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "take a walk; go for a walk; go for a stroll",
+          "sentence": "我們去公園散了散步。",
+          "pinyin": "wǒmen qù gōngyuán sànle sànbù.",
+          "en": "We went for a stroll in the park.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "take a walk; go for a walk; go for a stroll",
+          "sentence": "他們每天散步一小時。",
+          "pinyin": "tāmen měitiān sànbù yī xiǎoshí.",
+          "en": "They take a walk for an hour every day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "家庭",
       "pinyin": "jiātíng",
-      "english": "family; household",
-      "sentenceChinese": "每個家庭都有自己的生活方式。",
-      "sentencePinyin": "Měi gè jiātíng dōu yǒu zìjǐ de shēnghuó fāngshì.",
-      "sentenceEnglish": "Every family has its own way of living.",
-      "vietnamese": "gia đình",
-      "sentenceVietnamese": "Mỗi gia đình đều có cách sống riêng."
+      "en": "family; household",
+      "vi": "gia đình",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "family",
+          "sentence": "他很重視自己的傢庭。",
+          "pinyin": "tā hěn zhòngshì zìjǐ de jiātíng.",
+          "en": "He values his family very much.",
+          "vi": "Anh ấy rất coi trọng gia đình mình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "family",
+          "sentence": "她為了傢庭付齣了很多。",
+          "pinyin": "tā wèile jiātíng fùchūle hěnduō.",
+          "en": "She has sacrificed a lot for her family.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "真正",
       "pinyin": "zhēnzhèng",
-      "english": "real; genuine",
-      "sentenceChinese": "真正的家人不一定要有血緣關係。",
-      "sentencePinyin": "Zhēnzhèng de jiārén bù yídìng yào yǒu xuèyuán guānxì.",
-      "sentenceEnglish": "True family members do not necessarily need to be related by blood.",
-      "vietnamese": "thật sự; chân chính",
-      "sentenceVietnamese": "Người thân thật sự chưa chắc phải có quan hệ huyết thống."
+      "en": "real; genuine",
+      "vi": "thật sự; chân chính",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "true; real; genuine",
+          "sentence": "她是真正的領導者。",
+          "pinyin": "tā shì zhēnzhèng de lǐngdǎo zhě.",
+          "en": "She's a true leader.",
+          "vi": "Cô ấy là một lãnh đạo thực thụ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true; real; genuine",
+          "sentence": "他們是真正的夥伴。",
+          "pinyin": "tāmen shì zhēnzhèng de huǒbàn.",
+          "en": "They are true partners.",
+          "vi": "Họ là những người đồng đội đích thực."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; indeed",
+          "sentence": "他真正理解了問題。",
+          "pinyin": "tā zhēnzhèng lǐjiěle wèntí.",
+          "en": "He truly understands the problem.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; indeed",
+          "sentence": "這個決定真正重要。",
+          "pinyin": "zhège juédìng zhēnzhèng zhòngyào.",
+          "en": "This decision is truly important.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "幸福",
       "pinyin": "xìngfú",
-      "english": "happiness; blessed",
-      "sentenceChinese": "她覺得現在的生活很幸福。",
-      "sentencePinyin": "Tā juéde xiànzài de shēnghuó hěn xìngfú.",
-      "sentenceEnglish": "She feels her life now is very happy.",
-      "vietnamese": "hạnh phúc",
-      "sentenceVietnamese": "Cô ấy cảm thấy cuộc sống hiện tại rất hạnh phúc."
+      "en": "happiness; blessed",
+      "vi": "hạnh phúc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "happiness; well being",
+          "sentence": "每個人都在努力追求倖福。",
+          "pinyin": "měi gèrén dōu zài nǔlì zhuīqiú xìngfú.",
+          "en": "Everyone is striving for happiness.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "happiness; well being",
+          "sentence": "他們的倖福真讓人們羨慕。",
+          "pinyin": "tāmen de xìngfú zhēn ràng rénmen xiànmù.",
+          "en": "Their happiness is enviable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "happy",
+          "sentence": "現在我·每天都很倖福。",
+          "pinyin": "xiànzài wǒ·měitiān dōu hěn xìngfú.",
+          "en": "Now I am happy every day.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "happy",
+          "sentence": "他們的生活很倖福。",
+          "pinyin": "tāmen de shēnghuó hěn xìngfú.",
+          "en": "Their life is very happy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "跌倒",
       "pinyin": "diédǎo",
-      "english": "to fall down",
-      "sentenceChinese": "小狗跑太快，在門口跌倒了。",
-      "sentencePinyin": "Xiǎogǒu pǎo tài kuài, zài ménkǒu diédǎo le.",
-      "sentenceEnglish": "The puppy ran too fast and fell down at the door.",
-      "vietnamese": "ngã",
-      "sentenceVietnamese": "Con chó nhỏ chạy nhanh quá nên bị ngã ở trước cửa."
+      "en": "to fall down",
+      "vi": "ngã",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fall; tumble",
+          "sentence": "他在路上跌倒了。",
+          "pinyin": "tā zài lùshàng diēdǎole.",
+          "en": "He took a tumble on the road.",
+          "vi": "Anh ấy đã ngã trên đường."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fall; tumble",
+          "sentence": "她不小心跌倒了。",
+          "pinyin": "tā bù xiǎoxīn diēdǎole.",
+          "en": "She accidentally fell down.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "當成",
       "pinyin": "dàngchéng",
-      "english": "to regard as; to treat as",
-      "sentenceChinese": "我們早就把牠當成家人了。",
-      "sentencePinyin": "Wǒmen zǎo jiù bǎ tā dàngchéng jiārén le.",
-      "sentenceEnglish": "We have long treated it as a member of the family.",
-      "vietnamese": "xem như; coi như",
-      "sentenceVietnamese": "Từ lâu chúng tôi đã xem nó như người nhà rồi."
+      "en": "to regard as; to treat as",
+      "vi": "xem như; coi như",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "regard as; treat as; take for",
+          "sentence": "我們可以把它當成機會。",
+          "pinyin": "wǒmen kěyǐ bǎ tā dàngchéng jīhuì.",
+          "en": "We can treat it as an opportunity.",
+          "vi": "Chúng ta có thể xem đó là cơ hội."
+        },
+        {
+          "type": "Verb",
+          "meaning": "regard as; treat as; take for",
+          "sentence": "他把我當成朋友。",
+          "pinyin": "tā bǎ wǒ dàngchéng péngyou.",
+          "en": "He treats me as a friend.",
+          "vi": "Anh ấy xem tôi như bạn bè."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "忍不住",
       "pinyin": "rěnbuzhù",
-      "english": "to be unable to stop oneself",
-      "sentenceChinese": "看到牠那麼可愛，我忍不住笑了。",
-      "sentencePinyin": "Kàndào tā nàme kě'ài, wǒ rěnbuzhù xiào le.",
-      "sentenceEnglish": "Seeing how cute it was, I couldn't help smiling.",
-      "vietnamese": "không nhịn được",
-      "sentenceVietnamese": "Thấy nó đáng yêu như vậy, tôi không nhịn được mà bật cười."
+      "en": "to be unable to stop oneself",
+      "vi": "không nhịn được",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "unable to bear; cannot help doing sth.",
+          "sentence": "我突然忍不住大喊大叫。",
+          "pinyin": "wǒ tū rán rěn bù zhù dà hǎn dà jiào.",
+          "en": "I suddenly couldn't help but shout.",
+          "vi": "Tôi chợt không nhịn được hét lên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "unable to bear; cannot help doing sth.",
+          "sentence": "他自己也忍不住笑了起來。",
+          "pinyin": "tā zìjǐ yě rěn bù zhù xiàole qǐlái.",
+          "en": "He couldn't help laughing himself.",
+          "vi": "Anh ấy cũng chịu không nổi phá lên cười."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "多元",
       "pinyin": "duōyuán",
-      "english": "diverse",
-      "sentenceChinese": "現代社會的家庭型態越來越多元。",
-      "sentencePinyin": "Xiàndài shèhuì de jiātíng xíngtài yuè lái yuè duōyuán.",
-      "sentenceEnglish": "Family structures in modern society are becoming more and more diverse.",
-      "vietnamese": "đa dạng",
-      "sentenceVietnamese": "Mô hình gia đình trong xã hội hiện đại ngày càng đa dạng."
+      "en": "diverse",
+      "vi": "đa dạng",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "diverse; pluralistic; multivariant",
+          "sentence": "這個團隊非常多元。",
+          "pinyin": "zhège tuánduì fēicháng duōyuán.",
+          "en": "This team is very diverse.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "diverse; pluralistic; multivariant",
+          "sentence": "他有多元的興趣。",
+          "pinyin": "tā yǒu duōyuán de xìngqù.",
+          "en": "He has diverse interests.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "阿姨",
       "pinyin": "āyí",
-      "english": "aunt (mother's sister); auntie",
-      "sentenceChinese": "我阿姨一個人照顧兩個孩子。",
-      "sentencePinyin": "Wǒ āyí yí gèrén zhàogù liǎng gè háizi.",
-      "sentenceEnglish": "My aunt takes care of two children by herself.",
-      "vietnamese": "dì; cô",
-      "sentenceVietnamese": "Dì tôi một mình chăm hai đứa con."
+      "en": "aunt (mother's sister); auntie",
+      "vi": "dì; cô",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "auntie; a form of address for a woman of one's parents' generation",
+          "sentence": "李阿姨是我媽媽的衕事。",
+          "pinyin": "lǐ āyí shì wǒ māma de tóngshì.",
+          "en": "Aunt Li is my mother's colleague.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "auntie; a form of address for a woman of one's parents' generation",
+          "sentence": "張阿姨是我媽媽的閨蜜。",
+          "pinyin": "zhāng āyí shì wǒ māma de guīmì.",
+          "en": "Aunt Zhang is my mother's close friend.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "先生",
       "pinyin": "xiānsheng",
-      "english": "husband",
-      "sentenceChinese": "她先生因為工作常常不在家。",
-      "sentencePinyin": "Tā xiānsheng yīnwèi gōngzuò chángcháng bú zài jiā.",
-      "sentenceEnglish": "Her husband is often away from home because of work.",
-      "vietnamese": "chồng",
-      "sentenceVietnamese": "Chồng cô ấy vì công việc nên thường không ở nhà."
+      "en": "husband",
+      "vi": "chồng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "teacher",
+          "sentence": "我喜歡陳先生的課。",
+          "pinyin": "wǒ xǐhuān chén xiānshēng de kè.",
+          "en": "I really enjoy Mr. Chen's class.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "teacher",
+          "sentence": "這是我們學校的一位曆史先生。",
+          "pinyin": "zhè shì wǒmen xuéxiào de yī wèi lìshǐ xiānshēng.",
+          "en": "He is a history teacher in our school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "下班",
       "pinyin": "xiàbān",
-      "english": "to get off work",
-      "sentenceChinese": "阿姨下班以後還要接孩子回家。",
-      "sentencePinyin": "Āyí xiàbān yǐhòu hái yào jiē háizi huí jiā.",
-      "sentenceEnglish": "After getting off work, Auntie still has to pick up the children and go home.",
-      "vietnamese": "tan làm",
-      "sentenceVietnamese": "Dì tan làm xong còn phải đón con về nhà."
+      "en": "to get off work",
+      "vi": "tan làm",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "get off work; knock off",
+          "sentence": "你幾點下班？",
+          "pinyin": "nǐ jǐ diǎn xiàbān?",
+          "en": "What time do you finish work?",
+          "vi": "Mấy giờ cậu tan làm?"
+        },
+        {
+          "type": "sv",
+          "meaning": "get off work; knock off",
+          "sentence": "我們八點下班。",
+          "pinyin": "wǒmen bā diǎn xiàbān.",
+          "en": "We get off work at eight o'clock.",
+          "vi": "Tám giờ bọn em tan làm."
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "改",
       "pinyin": "gǎi",
-      "english": "to correct; to revise",
-      "sentenceChinese": "她晚上還得改學生的作業。",
-      "sentencePinyin": "Tā wǎnshang hái děi gǎi xuéshēng de zuòyè.",
-      "sentenceEnglish": "At night she still has to grade the students' homework.",
-      "vietnamese": "chấm; sửa",
-      "sentenceVietnamese": "Buổi tối cô ấy còn phải chấm bài tập của học sinh."
+      "en": "to correct; to revise",
+      "vi": "chấm; sửa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "change; convert; transform",
+          "sentence": "我想改變我的計劃。",
+          "pinyin": "wǒ xiǎng gǎibiàn wǒ de jìhuà.",
+          "en": "I want to change my plan.",
+          "vi": "Tôi muốn thay đổi kế hoạch của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "change; convert; transform",
+          "sentence": "她改變了她的髮/發型。",
+          "pinyin": "tā gǎibiànle tā de fàxíng.",
+          "en": "She changed her hairstyle.",
+          "vi": "Cô ấy đã thay đổi kiểu tóc của mình."
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "公公",
       "pinyin": "gōnggong",
-      "english": "father-in-law",
-      "sentenceChinese": "週末她還要陪公公去市場買菜。",
-      "sentencePinyin": "Zhōumò tā hái yào péi gōnggong qù shìchǎng mǎi cài.",
-      "sentenceEnglish": "On weekends she still has to accompany her father-in-law to the market to buy groceries.",
-      "vietnamese": "bố chồng",
-      "sentenceVietnamese": "Cuối tuần cô ấy còn phải đi chợ cùng bố chồng."
+      "en": "father-in-law",
+      "vi": "bố chồng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "father-in-law; one's husband's father",
+          "sentence": "我為公公準備了早餐。",
+          "pinyin": "wǒ wèi gōnggong zhǔnbèile zǎocān.",
+          "en": "I prepared breakfast for my father-in-law.",
+          "vi": "Tôi đã chuẩn bị bữa sáng cho bố chồng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "father-in-law; one's husband's father",
+          "sentence": "公公總是講有趣的故事。",
+          "pinyin": "gōnggong zǒng shì jiǎng yǒuqù de gù shi.",
+          "en": "My father-in-law always tells interesting stories.",
+          "vi": "Bố chồng tôi thường kể những câu chuyện thú vị."
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "全",
       "pinyin": "quán",
-      "english": "completely; entirely",
-      "sentenceChinese": "家裡大大小小的事全靠她一個人。",
-      "sentencePinyin": "Jiālǐ dàdà xiǎoxiǎo de shì quán kào tā yí gèrén.",
-      "sentenceEnglish": "Big and small matters at home all depend on her alone.",
-      "vietnamese": "toàn bộ; hoàn toàn",
-      "sentenceVietnamese": "Mọi việc lớn nhỏ trong nhà đều dựa vào một mình cô ấy."
+      "en": "completely; entirely",
+      "vi": "toàn bộ; hoàn toàn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "complete",
+          "sentence": "這本書的內容很全。",
+          "pinyin": "zhè běn shū de nèiróng hěn quán.",
+          "en": "The content of this book is very complete.",
+          "vi": "Nội dung của cuốn sách này rất đầy đủ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "complete",
+          "sentence": "我們的行李預備全了。",
+          "pinyin": "wǒmen de xínglǐ yùbèi quánle.",
+          "en": "We’ve prepared all of our luggage.",
+          "vi": "Hành lý của chúng tôi đã chuẩn bị xong."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "entirely; totally; completely",
+          "sentence": "我全聽懂了你的話。",
+          "pinyin": "wǒ quán tīng dǒngle nǐ dehuà.",
+          "en": "I fully understood what you said.",
+          "vi": "Tôi hoàn toàn hiểu lời bạn nói."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "entirely; totally; completely",
+          "sentence": "他們全不是南方人。",
+          "pinyin": "tāmen quán bùshì nánfāng rén.",
+          "en": "None of them are southerners.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "keep intact; make perfect or complete",
+          "sentence": "亂世中苟全性命。",
+          "pinyin": "luànshì zhōng gǒuquán xìngmìng.",
+          "en": "Preserve life at all costs in turbulent times.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "keep intact; make perfect or complete",
+          "sentence": "此法可兩全其美。",
+          "pinyin": "cǐ fǎ kě liǎngquánqíměi.",
+          "en": "This method achieves both sides perfectly.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "全經理很有能力。",
+          "pinyin": "Quán jīnglǐ hěn yǒu nénglì.",
+          "en": "Manager Quan is very capable.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "靠",
       "pinyin": "kào",
-      "english": "to depend on; to rely on",
-      "sentenceChinese": "很多事情不能只靠別人幫忙。",
-      "sentencePinyin": "Hěn duō shìqing bùnéng zhǐ kào biérén bāngmáng.",
-      "sentenceEnglish": "Many things can't depend only on other people for help.",
-      "vietnamese": "dựa vào; trông cậy vào",
-      "sentenceVietnamese": "Nhiều việc không thể chỉ dựa vào người khác giúp đỡ."
+      "en": "to depend on; to rely on",
+      "vi": "dựa vào; trông cậy vào",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lean",
+          "sentence": "兩人背靠背坐著。",
+          "pinyin": "liǎng rén bèikàobèi zuòzhe.",
+          "en": "Two people are sitting back to back.",
+          "vi": "Hai người ngồi dựa lưng vào nhau."
+        },
+        {
+          "type": "Verb",
+          "meaning": "lean",
+          "sentence": "他靠在墻上休息。",
+          "pinyin": "tā kào zài qiáng shàng xiūxi.",
+          "en": "He is resting while leaning against the wall.",
+          "vi": "Anh ấy dựa vào tường nghỉ ngơi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stage armour (made of embroidered silk)",
+          "sentence": "他穿著紮靠上臺。",
+          "pinyin": "tā chuānzhuó zhā kào shàngtái.",
+          "en": "He went on stage wearing stage armour.",
+          "vi": "Anh ấy mặc áo giáp lên sân khấu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stage armour (made of embroidered silk)",
+          "sentence": "這個角色的靠很重。",
+          "pinyin": "zhège juésè de kào hěn zhòng.",
+          "en": "The costume armour of this character is heavy.",
+          "vi": "Áo giáp của nhân vật này rất nặng."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "keep (to); get (near)",
+          "sentence": "我們靠著河邊散步。",
+          "pinyin": "wǒmen kàozhe hé biān sànbù.",
+          "en": "We took a walk along the riverside.",
+          "vi": "Chúng tôi đi dạo dọc theo bờ sông."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "keep (to); get (near)",
+          "sentence": "靠路邊有一個小商店。",
+          "pinyin": "kào lù biān yǒu yīgè xiǎo shāngdiàn.",
+          "en": "There is a small shop near the roadside.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "單親",
       "pinyin": "dānqīn",
-      "english": "single-parent",
-      "sentenceChinese": "單親家庭也能過得很幸福。",
-      "sentencePinyin": "Dānqīn jiātíng yě néng guò de hěn xìngfú.",
-      "sentenceEnglish": "Single-parent families can also live very happily.",
-      "vietnamese": "đơn thân",
-      "sentenceVietnamese": "Gia đình đơn thân cũng có thể sống rất hạnh phúc."
+      "en": "single-parent",
+      "vi": "đơn thân",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "single parent",
+          "sentence": "這是一個典型的單親傢庭。",
+          "pinyin": "zhè shì yīgè diǎnxíng de dānqīn jiātíng.",
+          "en": "This is a typical single-parent family.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "single parent",
+          "sentence": "單親傢庭數量正在逐年增加。",
+          "pinyin": "Dānqīn jiātíng shùliàng zhèngzài zhúnián zēngjiā.",
+          "en": "The number of single-parent families is increasing annually.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "貴族",
       "pinyin": "guìzú",
-      "english": "aristocrat; nobility",
-      "sentenceChinese": "有人開玩笑說她是單身貴族。",
-      "sentencePinyin": "Yǒurén kāiwánxiào shuō tā shì dānshēn guìzú.",
-      "sentenceEnglish": "Some people jokingly say that she is a single aristocrat.",
-      "vietnamese": "quý tộc",
-      "sentenceVietnamese": "Có người đùa rằng cô ấy là một “quý tộc độc thân”."
+      "en": "aristocrat; nobility",
+      "vi": "quý tộc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "nobleman; nobility; aristocracy",
+          "sentence": "她是一個著名的貴族。",
+          "pinyin": "tā shì yīgè zhùmíng de guìzú.",
+          "en": "She is a famous aristocrat.",
+          "vi": "Cô ấy là một quý tộc nổi tiếng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "nobleman; nobility; aristocracy",
+          "sentence": "貴族擁有許多財産。",
+          "pinyin": "guìzú yǒngyǒu xǔduō cáichǎn.",
+          "en": "Nobles owned a great deal of property.",
+          "vi": "Quý tộc sở hữu nhiều tài sản."
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "時代",
       "pinyin": "shídài",
-      "english": "era; age",
-      "sentenceChinese": "這是一個重視個人選擇的時代。",
-      "sentencePinyin": "Zhè shì yí gè zhòngshì gèrén xuǎnzé de shídài.",
-      "sentenceEnglish": "This is an era that values personal choice.",
-      "vietnamese": "thời đại",
-      "sentenceVietnamese": "Đây là thời đại coi trọng lựa chọn cá nhân."
+      "en": "era; age",
+      "vi": "thời đại",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "age; era; times; epoch",
+          "sentence": "我們生活在信息時代。",
+          "pinyin": "wǒmen shēnghuó zài xìnxī shídài.",
+          "en": "We live in the information age.",
+          "vi": "Chúng ta sống trong thời đại thông tin."
+        },
+        {
+          "type": "Noun",
+          "meaning": "age; era; times; epoch",
+          "sentence": "我們進入了智能時代。",
+          "pinyin": "wǒmen jìnrùle zhìnéng shídài.",
+          "en": "We have entered the intelligent age.",
+          "vi": "Chúng ta đã bước vào thời đại trí tuệ nhân tạo."
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "強",
       "pinyin": "qiáng",
-      "english": "strong; capable",
-      "sentenceChinese": "她工作能力很強，所以大家都很佩服她。",
-      "sentencePinyin": "Tā gōngzuò nénglì hěn qiáng, suǒyǐ dàjiā dōu hěn pèifú tā.",
-      "sentenceEnglish": "She is very capable at work, so everyone admires her.",
-      "vietnamese": "mạnh; giỏi",
-      "sentenceVietnamese": "Năng lực làm việc của cô ấy rất giỏi nên ai cũng nể phục."
+      "en": "strong; capable",
+      "vi": "mạnh; giỏi",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "strong; powerful",
+          "sentence": "她的身體很強健。",
+          "pinyin": "tā de shēntǐ hěn qiángjiàn.",
+          "en": "Her body is very healthy.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "better",
+          "sentence": "我的工作條件一年比一年強。",
+          "pinyin": "wǒ de gōngzuò tiáojiàn yī nián bǐ yī nián qiáng.",
+          "en": "My working conditions improve year by year.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "strengthen; make strong",
+          "sentence": "他希望富國強兵。",
+          "pinyin": "tā xīwàng fùguó qiáng bīng.",
+          "en": "He hopes to strengthen the country and army.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "強先生是我的衕事。",
+          "pinyin": "qiáng xiānsheng shì wǒ de tóngshì.",
+          "en": "Mr. Qiang is my colleague.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "by force",
+          "sentence": "這種強製手段不可取。",
+          "pinyin": "zhè zhǒng qiángzhì shǒuduàn bùkě qǔ.",
+          "en": "This kind of coercive method is unacceptable.",
+          "vi": "Loại thủ đoạn cưỡng ép này không thể chấp nhận được."
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "追",
       "pinyin": "zhuī",
-      "english": "to chase; to pursue romantically",
-      "sentenceChinese": "以前追她的人很多。",
-      "sentencePinyin": "Yǐqián zhuī tā de rén hěn duō.",
-      "sentenceEnglish": "A lot of people used to pursue her.",
-      "vietnamese": "theo đuổi",
-      "sentenceVietnamese": "Trước đây có rất nhiều người theo đuổi cô ấy."
+      "en": "to chase; to pursue romantically",
+      "vi": "theo đuổi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pursue; chase (or run) after",
+          "sentence": "她追著前麵的衕學。",
+          "pinyin": "tā zhuīzhe qiánmiàn de tóngxué.",
+          "en": "She is chasing the classmate in front.",
+          "vi": "Cô ấy đuổi theo bạn học phía trước."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pursue; chase (or run) after",
+          "sentence": "孩子們追著風箏。",
+          "pinyin": "háizimen zhuīzhe fēngzhēng.",
+          "en": "The children are chasing the kite.",
+          "vi": "Những đứa trẻ đuổi theo con diều."
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "自由",
       "pinyin": "zìyóu",
-      "english": "free; freedom",
-      "sentenceChinese": "她很享受自由的生活。",
-      "sentencePinyin": "Tā hěn xiǎngshòu zìyóu de shēnghuó.",
-      "sentenceEnglish": "She really enjoys a free lifestyle.",
-      "vietnamese": "tự do",
-      "sentenceVietnamese": "Cô ấy rất tận hưởng cuộc sống tự do."
+      "en": "free; freedom",
+      "vi": "tự do",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "free; unrestrained",
+          "sentence": "小鳥在天上自由地飛翔。",
+          "pinyin": "xiǎo niǎo zài tiānshàng zìyóu de fēixiáng.",
+          "en": "Birds fly freely in the sky.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "free; unrestrained",
+          "sentence": "我現在一個人生活，很自由。",
+          "pinyin": "wǒ xiànzài yīgè rén shēnghuó, hěn zìyóu.",
+          "en": "I live alone now, very free.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "freedom; liberty",
+          "sentence": "失去自由是一件很可怕的事。",
+          "pinyin": "shīqù zìyóu shì yī jiàn hěn kěpà de shì.",
+          "en": "Losing freedom is a terrible thing.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "freedom; liberty",
+          "sentence": "追求自由是每個人的權利。",
+          "pinyin": "zhuīqiú zìyóu shì měi gèrén de quánlì.",
+          "en": "The pursuit of freedom is everyone's right.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "獨立",
       "pinyin": "dúlì",
-      "english": "independent",
-      "sentenceChinese": "她經濟獨立，也很會照顧自己。",
-      "sentencePinyin": "Tā jīngjì dúlì, yě hěn huì zhàogù zìjǐ.",
-      "sentenceEnglish": "She is financially independent and also knows how to take care of herself.",
-      "vietnamese": "độc lập",
-      "sentenceVietnamese": "Cô ấy độc lập về kinh tế và cũng biết tự chăm sóc mình."
+      "en": "independent",
+      "vi": "độc lập",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stand alone",
+          "sentence": "這棵樹獨立在湖邊。",
+          "pinyin": "zhè kē shù dúlì zài hú biān.",
+          "en": "This tree stands alone by the lake.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "stand alone",
+          "sentence": "他獨立在高山上，遙望遠處。",
+          "pinyin": "tā dúlì zài gāoshān shàng, yáowàng yuǎn chù.",
+          "en": "He stands alone on the mountain, gazing into the distance.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "independent; on one's own",
+          "sentence": "獨立思考是很重要的。",
+          "pinyin": "dúlì sīkǎo shì hěn zhòngyào de.",
+          "en": "Independent thinking is important.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "independent; on one's own",
+          "sentence": "我要早點兒獨立生活。",
+          "pinyin": "wǒ yào zǎodiǎnr dúlì shēnghuó.",
+          "en": "I want to live independently as soon as possible.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "安排",
       "pinyin": "ānpái",
-      "english": "to arrange; to plan",
-      "sentenceChinese": "她把自己的生活安排得很好。",
-      "sentencePinyin": "Tā bǎ zìjǐ de shēnghuó ānpái de hěn hǎo.",
-      "sentenceEnglish": "She has arranged her life very well.",
-      "vietnamese": "sắp xếp",
-      "sentenceVietnamese": "Cô ấy sắp xếp cuộc sống của mình rất tốt."
+      "en": "to arrange; to plan",
+      "vi": "sắp xếp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "arrange (matters) according to the sequence or rules",
+          "sentence": "他安排好了今天的工作。",
+          "pinyin": "tā ānpái hǎole jīntiān de gōngzuò.",
+          "en": "He has arranged today's work.",
+          "vi": "Anh ấy đã sắp xếp xong công việc hôm nay."
+        },
+        {
+          "type": "Verb",
+          "meaning": "arrange (matters) according to the sequence or rules",
+          "sentence": "會議的時間已經安排好了。",
+          "pinyin": "huìyì de shíjiān yǐjīng ānpái hǎole.",
+          "en": "The meeting time has already been arranged.",
+          "vi": "Thời gian họp đã được sắp xếp xong."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; schedule; arrangement",
+          "sentence": "我不衕意你的安排。",
+          "pinyin": "wǒ bù tóngyì nǐ de ānpái.",
+          "en": "I don't agree with your arrangement.",
+          "vi": "Tôi không đồng ý với cách sắp xếp của bạn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; schedule; arrangement",
+          "sentence": "他們的安排不閤理。",
+          "pinyin": "tāmen de ānpái bù hélǐ.",
+          "en": "Their arrangement is unreasonable.",
+          "vi": "Sự sắp xếp của họ không hợp lý."
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "享受",
       "pinyin": "xiǎngshòu",
-      "english": "to enjoy",
-      "sentenceChinese": "他很享受一個人旅行的感覺。",
-      "sentencePinyin": "Tā hěn xiǎngshòu yí gèrén lǚxíng de gǎnjué.",
-      "sentenceEnglish": "He really enjoys the feeling of traveling alone.",
-      "vietnamese": "tận hưởng",
-      "sentenceVietnamese": "Anh ấy rất tận hưởng cảm giác đi du lịch một mình."
+      "en": "to enjoy",
+      "vi": "tận hưởng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "enjoy",
+          "sentence": "每個人都應該享受生活。",
+          "pinyin": "měi gèrén dōu yīnggāi xiǎngshòu shēnghuó.",
+          "en": "Everyone should enjoy life.",
+          "vi": "Mọi người đều nên tận hưởng cuộc sống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "enjoy",
+          "sentence": "享受音樂可以放鬆心情。",
+          "pinyin": "xiǎngshòu yīnyuè kěyǐ fàngsōng xīnqíng.",
+          "en": "Enjoying music can help relax the mind.",
+          "vi": "Tận hưởng âm nhạc có thể giúp thư giãn tâm trạng."
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "身邊",
       "pinyin": "shēnbiān",
-      "english": "by one's side",
-      "sentenceChinese": "有家人在身邊，心裡會比較安心。",
-      "sentencePinyin": "Yǒu jiārén zài shēnbiān, xīnlǐ huì bǐjiào ānxīn.",
-      "sentenceEnglish": "Having family by your side makes you feel more at ease.",
-      "vietnamese": "bên cạnh",
-      "sentenceVietnamese": "Có người thân ở bên cạnh thì trong lòng thấy yên tâm hơn."
+      "en": "by one's side",
+      "vi": "bên cạnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "around; by one's side",
+          "sentence": "我身邊的人都很友好。",
+          "pinyin": "wǒ shēnbiān de rén dōu hěn yǒuhǎo.",
+          "en": "The people around me are all very friendly.",
+          "vi": "Những người xung quanh tôi đều rất thân thiện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "around; by one's side",
+          "sentence": "他總是關註身邊的小事。",
+          "pinyin": "tā zǒng shì guānzhù shēnbiān de xiǎoshì.",
+          "en": "He always pays attention to the small things around him.",
+          "vi": "Anh ấy luôn chú ý đến việc nhỏ bên mình."
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "伴",
       "pinyin": "bàn",
-      "english": "companion",
-      "sentenceChinese": "有時候她也希望身邊有個伴。",
-      "sentencePinyin": "Yǒu shíhou tā yě xīwàng shēnbiān yǒu gè bàn.",
-      "sentenceEnglish": "Sometimes she also hopes to have a companion by her side.",
-      "vietnamese": "người bầu bạn",
-      "sentenceVietnamese": "Đôi khi cô ấy cũng mong có một người bầu bạn bên cạnh."
+      "en": "companion",
+      "vi": "người bầu bạn",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "companion; partner",
+          "sentence": "他們倆是好伴兒。",
+          "pinyin": "tāmen liǎ shì hǎo bàn ér.",
+          "en": "The two of them are close companions.",
+          "vi": "Hai người họ là bạn tốt."
+        },
+        {
+          "type": "noun",
+          "meaning": "companion; partner",
+          "sentence": "我想找旅行的伴。",
+          "pinyin": "wǒ xiǎng zhǎo lǚxíng de bàn.",
+          "en": "I want to find a travel companion.",
+          "vi": "Tôi muốn tìm bạn đồng hành du lịch."
+        },
+        {
+          "type": "verb",
+          "meaning": "accompany",
+          "sentence": "我伴你去公園。",
+          "pinyin": "wǒ bàn nǐ qù gōngyuán.",
+          "en": "I'll go to the park with you.",
+          "vi": "Tôi đi công viên cùng bạn."
+        },
+        {
+          "type": "verb",
+          "meaning": "accompany",
+          "sentence": "他伴奶奶散步。",
+          "pinyin": "tā bàn nǎinai sànbù.",
+          "en": "He accompanied his grandmother on a walk.",
+          "vi": "Anh ấy đi dạo cùng bà."
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "同居",
       "pinyin": "tóngjū",
-      "english": "to live together; to cohabit",
-      "sentenceChinese": "他們已經同居好幾年了。",
-      "sentencePinyin": "Tāmen yǐjīng tóngjū hǎojǐ nián le.",
-      "sentenceEnglish": "They have already lived together for several years.",
-      "vietnamese": "sống chung",
-      "sentenceVietnamese": "Họ đã sống chung với nhau nhiều năm rồi."
+      "en": "to live together; to cohabit",
+      "vi": "sống chung",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "live together",
+          "sentence": "他和父母衕居。",
+          "pinyin": "tā hé fùmǔ tóngjū.",
+          "en": "He lives with his parents.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "live together",
+          "sentence": "三個小夥子衕居一室。",
+          "pinyin": "sān gè xiǎohuǒzi tóngjū yī shì.",
+          "en": "Three young men share the same room.",
+          "vi": "Ba chàng trai sống chung một phòng."
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "成家",
       "pinyin": "chéngjiā",
-      "english": "to start a family; to get married",
-      "sentenceChinese": "他覺得自己還沒準備好成家。",
-      "sentencePinyin": "Tā juéde zìjǐ hái méi zhǔnbèi hǎo chéngjiā.",
-      "sentenceEnglish": "He feels that he is not yet ready to start a family.",
-      "vietnamese": "lập gia đình",
-      "sentenceVietnamese": "Anh ấy cảm thấy mình vẫn chưa sẵn sàng lập gia đình."
+      "en": "to start a family; to get married",
+      "vi": "lập gia đình",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "(of a man) get married",
+          "sentence": "他打算今年就成傢。",
+          "pinyin": "tā dǎsuàn jīnnián jiù chéng jiā.",
+          "en": "He plans to get married this year.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "become a specialist (or expert)",
+          "sentence": "他在廚藝方麵終於成傢。",
+          "pinyin": "Tā zài chúyì fāngmiàn zhōngyú chéngjiā.",
+          "en": "He finally became an expert in culinary skills.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "負擔",
       "pinyin": "fùdān",
-      "english": "to bear; burden",
-      "sentenceChinese": "一個人負擔全家的生活費並不容易。",
-      "sentencePinyin": "Yí gèrén fùdān quánjiā de shēnghuófèi bìng bù róngyì.",
-      "sentenceEnglish": "It is not easy for one person to bear all of a family's living expenses.",
-      "vietnamese": "gánh vác; gánh nặng",
-      "sentenceVietnamese": "Một người gánh toàn bộ chi phí sinh hoạt của gia đình không hề dễ."
+      "en": "to bear; burden",
+      "vi": "gánh vác; gánh nặng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shoulder; bear (a burden)",
+          "sentence": "她負擔了所有的費用。",
+          "pinyin": "tā fùdānle suǒyǒu de fèiyòng.",
+          "en": "She bore all the expenses.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "shoulder; bear (a burden)",
+          "sentence": "我不想負擔這個任務。",
+          "pinyin": "wǒ bùxiǎng fùdān zhège rènwù.",
+          "en": "I don’t want to take on this task.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "load; burden; freight; encumbrance",
+          "sentence": "我的工作負擔太重了。",
+          "pinyin": "wǒ de gōngzuò fùdān tài zhòngle.",
+          "en": "My workload is too heavy.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "load; burden; freight; encumbrance",
+          "sentence": "他努力減輕經濟負擔。",
+          "pinyin": "tā nǔlì jiǎnqīng jīngjì fùdān.",
+          "en": "He works hard to ease the financial burden.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "養家",
       "pinyin": "yǎngjiā",
-      "english": "to support one's family",
-      "sentenceChinese": "他很早就開始工作，幫忙養家。",
-      "sentencePinyin": "Tā hěn zǎo jiù kāishǐ gōngzuò, bāngmáng yǎngjiā.",
-      "sentenceEnglish": "He started working very early to help support the family.",
-      "vietnamese": "nuôi gia đình",
-      "sentenceVietnamese": "Anh ấy đi làm từ rất sớm để phụ giúp nuôi gia đình."
+      "en": "to support one's family",
+      "vi": "nuôi gia đình",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "support (or raise) one's family",
+          "sentence": "為了掙足夠的錢養傢而辛苦工作。",
+          "pinyin": "wèile zhèng zúgòu de qián yǎngjiā ér xīnkǔ gōngzuò",
+          "en": "Work hard in order to earn enough to support one’s family",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to support a family",
+          "sentence": "他每天努力工作養傢。",
+          "pinyin": "Tā měitiān nǔlì gōngzuò yǎng jiā",
+          "en": "He works hard every day to support his family",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "責任",
       "pinyin": "zérèn",
-      "english": "responsibility",
-      "sentenceChinese": "照顧家人是一種責任。",
-      "sentencePinyin": "Zhàogù jiārén shì yì zhǒng zérèn.",
-      "sentenceEnglish": "Taking care of family members is a kind of responsibility.",
-      "vietnamese": "trách nhiệm",
-      "sentenceVietnamese": "Chăm sóc người thân là một loại trách nhiệm."
+      "en": "responsibility",
+      "vi": "trách nhiệm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "duty; responsibility",
+          "sentence": "他沒有儘到責任。",
+          "pinyin": "tā méiyǒu jìn dào zérèn.",
+          "en": "He failed to fulfill his responsibilities.",
+          "vi": "Anh ấy chưa làm tròn trách nhiệm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "duty; responsibility",
+          "sentence": "你要承擔責任。",
+          "pinyin": "nǐ yào chéngdān zérèn.",
+          "en": "You have to take responsibility.",
+          "vi": "Bạn phải gánh vác trách nhiệm."
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "亂",
       "pinyin": "luàn",
-      "english": "to act irresponsibly; chaotically",
-      "sentenceChinese": "養孩子不能亂教。",
-      "sentencePinyin": "Yǎng háizi bùnéng luàn jiào.",
-      "sentenceEnglish": "You can't raise children in a careless, irresponsible way.",
-      "vietnamese": "bừa bãi; loạn",
-      "sentenceVietnamese": "Nuôi dạy con cái không thể làm một cách bừa bãi."
+      "en": "to act irresponsibly; chaotically",
+      "vi": "bừa bãi; loạn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "in disorder; in a mess; in confusion",
+          "sentence": "房間裡/裏像一團亂麻。",
+          "pinyin": "fángjiān lǐ xiàng yī tuán luànmá.",
+          "en": "The room is like a tangled mess.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "in disorder; in a mess; in confusion",
+          "sentence": "桌子上的東西很雜亂。",
+          "pinyin": "zhuōzi shàng de dōngxi hěn záluàn.",
+          "en": "The things on the table were all in a jumble.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "riot; unrest; turmoil; upheaval",
+          "sentence": "國傢經曆了多年的內亂。",
+          "pinyin": "guójiā jīnglìle duōnián de nèiluàn.",
+          "en": "The country went through years of internal turmoil.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "riot; unrest; turmoil; upheaval",
+          "sentence": "人們為了避亂逃往鄰國。",
+          "pinyin": "rénmen wèile bì luàn táo wǎng lín guó.",
+          "en": "People fled to neighboring countries to escape the unrest.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "confuse; mix up; throw into disorder",
+          "sentence": "不要擾亂課堂秩序。",
+          "pinyin": "bùyào rǎoluàn kètáng zhìxù.",
+          "en": "Don't disrupt the classroom order.",
+          "vi": "Đừng quấy rối trật tự lớp học."
+        },
+        {
+          "type": "Verb",
+          "meaning": "confuse; mix up; throw into disorder",
+          "sentence": "他的行為惑亂了眾/衆人。",
+          "pinyin": "tā de xíngwéi huòluànle zhòngrén.",
+          "en": "His actions confused the crowd.",
+          "vi": "Hành vi của anh ấy đã gây hỗn loạn cho mọi người."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "at random; arbitrary; indiscriminately",
+          "sentence": "別在這裡/裏鬍言亂語了。",
+          "pinyin": "bié zài zhèlǐ húyán luàn yǔle.",
+          "en": "Don't talk nonsense here.",
+          "vi": "Đừng nói lung tung ở đây nữa."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "at random; arbitrary; indiscriminately",
+          "sentence": "你不要總是亂花錢啊。",
+          "pinyin": "nǐ bùyào zǒng shì luàn huā qián a.",
+          "en": "Don't always spend money recklessly.",
+          "vi": "Bạn đừng luôn tiêu tiền một cách bừa bãi nhé."
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "教養",
       "pinyin": "jiàoyǎng",
-      "english": "to raise and educate; upbringing",
-      "sentenceChinese": "父母都很重視孩子的教養。",
-      "sentencePinyin": "Fùmǔ dōu hěn zhòngshì háizi de jiàoyǎng.",
-      "sentenceEnglish": "Parents all place great importance on their children's upbringing.",
-      "vietnamese": "nuôi dạy; giáo dưỡng",
-      "sentenceVietnamese": "Cha mẹ đều rất coi trọng việc nuôi dạy con cái."
+      "en": "to raise and educate; upbringing",
+      "vi": "nuôi dạy; giáo dưỡng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "breeding; upbringing; education",
+          "sentence": "他從小有很好的教養。",
+          "pinyin": "tā cóngxiǎo yǒu hěn hǎo de jiàoyǎng.",
+          "en": "He has had a very good upbringing since childhood.",
+          "vi": "Anh ấy từ nhỏ đã có giáo dục rất tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "breeding; upbringing; education",
+          "sentence": "孩子們需要好的教養。",
+          "pinyin": "háizǐmen xūyào hǎo de jiàoyǎng.",
+          "en": "Children need a good upbringing.",
+          "vi": "Những đứa trẻ cần có giáo dục tốt."
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "接受",
       "pinyin": "jiēshòu",
-      "english": "to accept",
-      "sentenceChinese": "現在越來越多人能接受不同的家庭型態。",
-      "sentencePinyin": "Xiànzài yuè lái yuè duō rén néng jiēshòu bùtóng de jiātíng xíngtài.",
-      "sentenceEnglish": "Nowadays more and more people can accept different family structures.",
-      "vietnamese": "chấp nhận",
-      "sentenceVietnamese": "Bây giờ ngày càng có nhiều người chấp nhận những mô hình gia đình khác nhau."
+      "en": "to accept",
+      "vi": "chấp nhận",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to accept",
+          "sentence": "他拒絕接受我的禮物。",
+          "pinyin": "tā jùjué jiēshòu wǒ de lǐwù.",
+          "en": "He refused to accept my gift.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to accept",
+          "sentence": "對不起，我真的不能接受。",
+          "pinyin": "duìbùqǐ, wǒ zhēn de bùnéng jiēshòu.",
+          "en": "Sorry, I really can't accept it.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "組成",
       "pinyin": "zǔchéng",
-      "english": "to form; to make up",
-      "sentenceChinese": "一個家庭可以由很多不同的人組成。",
-      "sentencePinyin": "Yí gè jiātíng kěyǐ yóu hěn duō bùtóng de rén zǔchéng.",
-      "sentenceEnglish": "A family can be made up of many different kinds of people.",
-      "vietnamese": "cấu thành; tạo thành",
-      "sentenceVietnamese": "Một gia đình có thể được tạo thành từ nhiều kiểu người khác nhau."
+      "en": "to form; to make up",
+      "vi": "cấu thành; tạo thành",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "form; compose; make up",
+          "sentence": "團隊由五個人組成。",
+          "pinyin": "tuánduì yóu wǔ gèrén zǔchéng.",
+          "en": "The team is formed of five people.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "form; compose; make up",
+          "sentence": "這句話由四個詞組成。",
+          "pinyin": "zhè jù huà yóu sì gè cí zǔchéng.",
+          "en": "This sentence is composed of four words.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "道德",
       "pinyin": "dàodé",
-      "english": "moral; morality",
-      "sentenceChinese": "這不只是法律問題，也是道德問題。",
-      "sentencePinyin": "Zhè bù zhǐshì fǎlǜ wèntí, yě shì dàodé wèntí.",
-      "sentenceEnglish": "This is not only a legal issue, but also a moral issue.",
-      "vietnamese": "đạo đức",
-      "sentenceVietnamese": "Đây không chỉ là vấn đề pháp luật mà còn là vấn đề đạo đức."
+      "en": "moral; morality",
+      "vi": "đạo đức",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "morals; ethics; morality",
+          "sentence": "他做生意不講道德。",
+          "pinyin": "tā zuò shēngyì bù jiǎng dàodé.",
+          "en": "In his business affairs he has no morals.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "morals; ethics; morality",
+          "sentence": "他是個有道德的人。",
+          "pinyin": "tā shìgè yǒu dàodé de rén.",
+          "en": "He is a moral person.",
+          "vi": "Anh ấy là người có đạo đức."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "moral",
+          "sentence": "這個行為很不道德。",
+          "pinyin": "zhège xíngwéi hěn bù dàodé.",
+          "en": "This behavior is very immoral.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "moral",
+          "sentence": "欺騙別人是不道德的。",
+          "pinyin": "qīpiàn biérén shì bù dàodé de.",
+          "en": "It is immoral to deceive others.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "因此",
       "pinyin": "yīncǐ",
-      "english": "therefore; thus",
-      "sentenceChinese": "每個人的想法不同，因此選擇也不同。",
-      "sentencePinyin": "Měi gè rén de xiǎngfǎ bùtóng, yīncǐ xuǎnzé yě bùtóng.",
-      "sentenceEnglish": "Everyone thinks differently; therefore, their choices are different too.",
-      "vietnamese": "vì vậy; do đó",
-      "sentenceVietnamese": "Mỗi người có suy nghĩ khác nhau, vì vậy lựa chọn cũng khác nhau."
+      "en": "therefore; thus",
+      "vi": "vì vậy; do đó",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "thus; hence; therefore; consequently",
+          "sentence": "太晚了，因此走了。",
+          "pinyin": "tài wǎnle, yīncǐ zǒule.",
+          "en": "It was too late, therefore he left.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "thus; hence; therefore; consequently",
+          "sentence": "價格高，因此難賣。",
+          "pinyin": "jiàgé gāo, yīncǐ nán mài.",
+          "en": "The price is high, therefore it's hard to sell.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 71,
       "chinese": "東文",
       "pinyin": "Dōngwén",
-      "english": "a male name",
-      "sentenceChinese": "東文從小就很喜歡小動物。",
-      "sentencePinyin": "Dōngwén cóngxiǎo jiù hěn xǐhuān xiǎo dòngwù.",
-      "sentenceEnglish": "Dongwen has liked small animals since he was little.",
-      "vietnamese": "Đông Văn (tên nam)",
-      "sentenceVietnamese": "Đông Văn từ nhỏ đã rất thích động vật nhỏ."
+      "en": "a male name",
+      "vi": "Đông Văn (tên nam)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "script; writing; character",
+          "sentence": "他每天都看英文報紙。",
+          "pinyin": "tā měitiān dōu kàn yīngwén bàozhǐ.",
+          "en": "He reads English newspapers every day.",
+          "vi": "Anh ấy đọc báo tiếng Anh mỗi ngày."
+        },
+        {
+          "type": "Noun",
+          "meaning": "script; writing; character",
+          "sentence": "他每天學習古代的文。",
+          "pinyin": "tā měitiān xuéxí gǔdài de wén.",
+          "en": "He studies ancient texts every day.",
+          "vi": "Anh ấy học văn tự cổ mỗi ngày."
+        },
+        {
+          "type": "Verb",
+          "meaning": "tattoo",
+          "sentence": "她把一條龍文在了腿上。",
+          "pinyin": "tā bǎ yītiáo lóng wén zàile tuǐ shàng.",
+          "en": "She tattooed a dragon on her leg.",
+          "vi": "Cô ấy đã xăm một con rồng lên chân."
+        },
+        {
+          "type": "Verb",
+          "meaning": "tattoo",
+          "sentence": "他決定在背上文字。",
+          "pinyin": "tā juédìng zài bèi shàng wénzì.",
+          "en": "He decided to have writing on his back.",
+          "vi": "Anh ấy quyết định xăm chữ lên lưng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "civil; civilian; non-military",
+          "sentence": "他是一個文職幹部。",
+          "pinyin": "tā shì yīgè wénzhí gànbù.",
+          "en": "He is a civilian official.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "civil; civilian; non-military",
+          "sentence": "文職工作通常不需要武力。",
+          "pinyin": "wénzhí gōngzuò tōngcháng bù xūyào wǔlì.",
+          "en": "Civilian jobs usually do not require military force.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for copper cash]",
+          "sentence": "一文銅錢也不值。",
+          "pinyin": "yīwén tóngqián yě bù zhí.",
+          "en": "It's not worth even a single coin.",
+          "vi": "Một đồng tiền đồng cũng không đáng."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for copper cash]",
+          "sentence": "買個東西花了五文。",
+          "pinyin": "mǎi gè dōngxi huāle wǔ wén.",
+          "en": "I spent five coins to buy something.",
+          "vi": "Mua một thứ tốn năm đồng."
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "美真",
       "pinyin": "Měizhēn",
-      "english": "a female name",
-      "sentenceChinese": "美真一直很重視自己的生活品質。",
-      "sentencePinyin": "Měizhēn yìzhí hěn zhòngshì zìjǐ de shēnghuó pǐnzhì.",
-      "sentenceEnglish": "Meizhen has always cared a lot about her quality of life.",
-      "vietnamese": "Mỹ Trân (tên nữ)",
-      "sentenceVietnamese": "Mỹ Trân luôn rất coi trọng chất lượng cuộc sống của mình."
+      "en": "a female name",
+      "vi": "Mỹ Trân (tên nữ)",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "true; real; genuine (opp. 假,伪)",
+          "sentence": "他真的很卑鄙。",
+          "pinyin": "tā zhēn de hěn bēibǐ.",
+          "en": "He is really despicable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true; real; genuine (opp. 假,伪)",
+          "sentence": "好像是真的鯨魚骨頭。",
+          "pinyin": "hǎoxiàng shì zhēnde jīngyú gǔtóu",
+          "en": "I think that's real whalebone.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "regular script",
+          "sentence": "學校開設了真書課程。",
+          "pinyin": "xuéxiào kāishèle zhēnshū kèchéng.",
+          "en": "The school offered a regular script course.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "portrait; image; exact copy of sth.",
+          "sentence": "這幅肖像非常逼真。",
+          "pinyin": "zhè fú xiàoxiàng fēicháng bīzhēn.",
+          "en": "This portrait is very lifelike.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; truly; indeed",
+          "sentence": "從泰山頂上看去，日齣真是個奇觀。",
+          "pinyin": "cóng Tàishān dǐng shàng kàn qù, rìchū zhēn shì gè qíguān.",
+          "en": "Viewed from the top of Mount Tai, the sunrise was indeed a spectacle.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "really; truly; indeed",
+          "sentence": "你這腦瓜子真聰明。",
+          "pinyin": "nǐ zhè nǎoguā zi zhēn cōngmíng.",
+          "en": "Your mind is truly clever.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "家華",
       "pinyin": "Jiāhuá",
-      "english": "a male name",
-      "sentenceChinese": "家華還在考慮要不要成家。",
-      "sentencePinyin": "Jiāhuá hái zài kǎolǜ yàobuyào chéngjiā.",
-      "sentenceEnglish": "Jiahua is still considering whether he wants to start a family.",
-      "vietnamese": "Gia Hoa (tên nam)",
-      "sentenceVietnamese": "Gia Hoa vẫn đang suy nghĩ xem có nên lập gia đình hay không."
+      "en": "a male name",
+      "vi": "Gia Hoa (tên nam)",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "family; household",
+          "sentence": "傢是最溫暖的地方。",
+          "pinyin": "jiā shì zuì wēnnuǎn de dìfāng.",
+          "en": "Home is the warmest place.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "family; household",
+          "sentence": "你傢有幾口人？",
+          "pinyin": "nǐ jiā yǒu jǐ kǒu rén?",
+          "en": "How many people are there in your family?",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tamed",
+          "sentence": "這種傢禽很容易照顧。",
+          "pinyin": "zhè zhǒng jiāqín hěn róngyì zhàogù.",
+          "en": "This type of poultry is easy to take care of.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tamed",
+          "sentence": "牛是一種常見的傢畜。",
+          "pinyin": "niú shì yī zhǒng chángjiàn de jiāchù.",
+          "en": "Cows are a common type of livestock.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "use for families or business establisments",
+          "sentence": "我們去那傢餐館吃/喫飯。",
+          "pinyin": "wǒmen qù nà jiā cānguǎn chīfàn.",
+          "en": "We are going to that restaurant to eat.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "use for families or business establisments",
+          "sentence": "他在那傢商店買了書。",
+          "pinyin": "tā zài nà jiā shāngdiàn mǎile shū.",
+          "en": "He bought books at that store.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "風雲人物",
       "pinyin": "fēngyún rénwù",
-      "english": "mover and shaker; influential person",
-      "sentenceChinese": "他在大學時就是校園裡的風雲人物。",
-      "sentencePinyin": "Tā zài dàxué shí jiù shì xiàoyuán lǐ de fēngyún rénwù.",
-      "sentenceEnglish": "He was already a popular and influential figure on campus in college.",
-      "vietnamese": "nhân vật nổi bật; nhân vật có tiếng",
-      "sentenceVietnamese": "Hồi đại học anh ấy đã là nhân vật nổi bật trong trường."
+      "en": "mover and shaker; influential person",
+      "vi": "nhân vật nổi bật; nhân vật có tiếng",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "man of the hour; hero of the day; active or influential figure",
+          "sentence": "他是娛樂圈的風雲人物。",
+          "pinyin": "Tā shì yú lè quān de fēng yún rén wù.",
+          "en": "He is a big name in the entertainment circle.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "influential figure",
+          "sentence": "他是當今的風雲人物。",
+          "pinyin": "tā shì dāng jīn de fēng yún rén wù",
+          "en": "He is an influential figure today.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 75,
       "chinese": "下決心",
       "pinyin": "xià juéxīn",
-      "english": "to make up one's mind",
-      "sentenceChinese": "他想了很久，還是下不了決心結婚。",
-      "sentencePinyin": "Tā xiǎng le hěn jiǔ, háishì xià bùliǎo juéxīn jiéhūn.",
-      "sentenceEnglish": "He thought about it for a long time, but still couldn't make up his mind to get married.",
-      "vietnamese": "quyết tâm; hạ quyết tâm",
-      "sentenceVietnamese": "Anh ấy suy nghĩ rất lâu mà vẫn chưa quyết tâm kết hôn."
+      "en": "to make up one's mind",
+      "vi": "quyết tâm; hạ quyết tâm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "resolve to; determine; make a resolution",
+          "sentence": "我們下決心要保護環境。",
+          "pinyin": "wǒmen xià juéxīn yào bǎohù huánjìng.",
+          "en": "We resolved to protect the environment.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "resolve to; determine; make a resolution",
+          "sentence": "他下決心不再拖延工作。",
+          "pinyin": "tā xià juéxīn bù zài tuōyán gōngzuò.",
+          "en": "He resolved not to procrastinate at work.",
+          "vi": ""
+        }
+      ]
     }
-  ],
-  "theme": "My Closest \"Family\""
+  ]
 }

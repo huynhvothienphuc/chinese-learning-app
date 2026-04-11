@@ -3,49 +3,1777 @@
   "sectionId": "section15",
   "sectionTitle": "Health and Sickness",
   "items": [
-    { "id": 1, "chinese": "醫生", "pinyin": "yīshēng", "english": "doctor", "sentenceChinese": "我覺得不舒服，想去看醫生。", "sentencePinyin": "Wǒ juéde bù shūfú, xiǎng qù kàn yīshēng.", "sentenceEnglish": "I don't feel well; I want to see a doctor.", "vietnamese": "bác sĩ", "sentenceVietnamese": "Tôi cảm thấy không khỏe, muốn đi khám bác sĩ." },
-    { "id": 2, "chinese": "一直", "pinyin": "yìzhí", "english": "continuously, all the way", "sentenceChinese": "他不舒服，一直流鼻水。", "sentencePinyin": "Tā bù shūfú, yìzhí liú bíshuǐ.", "sentenceEnglish": "He is not feeling well and has a runny nose continuously.", "vietnamese": "liên tục, suốt", "sentenceVietnamese": "Anh ấy không khỏe, cứ bị sổ mũi suốt." },
-    { "id": 3, "chinese": "流", "pinyin": "liú", "english": "to flow", "sentenceChinese": "他不小心感冒了，一直流鼻水。", "sentencePinyin": "Tā bù xiǎoxīn gǎnmào le, yìzhí liú bíshuǐ.", "sentenceEnglish": "He accidentally caught a cold and his nose has been running continuously.", "vietnamese": "chảy", "sentenceVietnamese": "Anh ấy lỡ bị cảm rồi, cứ bị chảy nước mũi suốt." },
-    { "id": 4, "chinese": "鼻水", "pinyin": "bíshuǐ", "english": "snot, nasal mucus, a running nose", "sentenceChinese": "感冒的時候會一直流鼻水。", "sentencePinyin": "Gǎnmào de shíhòu huì yìzhí liú bíshuǐ.", "sentenceEnglish": "When you have a cold, you will have a continuous runny nose.", "vietnamese": "nước mũi", "sentenceVietnamese": "Khi bị cảm sẽ bị chảy nước mũi suốt." },
-    { "id": 5, "chinese": "頭", "pinyin": "tóu", "english": "head", "sentenceChinese": "我的頭很痛，胃口也很差。", "sentencePinyin": "Wǒ de tóu hěn tòng, wèikǒu yě hěn chā.", "sentenceEnglish": "My head hurts, and my appetite is also very poor.", "vietnamese": "đầu", "sentenceVietnamese": "Tôi bị đau đầu, cảm giác ăn uống cũng rất kém." },
-    { "id": 6, "chinese": "痛", "pinyin": "tòng", "english": "painful", "sentenceChinese": "如果你頭痛，最好在家休息。", "sentencePinyin": "Rúguǒ nǐ tóutòng, zuìhǎo zài jiā xiūxi.", "sentenceEnglish": "If you have a headache, it is best to rest at home.", "vietnamese": "đau", "sentenceVietnamese": "Nếu bạn bị đau đầu, tốt nhất nên ở nhà nghỉ ngơi." },
-    { "id": 7, "chinese": "胃口", "pinyin": "wèikǒu", "english": "appetite", "sentenceChinese": "生病的時候胃口通常很差。", "sentencePinyin": "Shēngbìng de shíhòu wèikǒu tōngcháng hěn chā.", "sentenceEnglish": "When sick, one's appetite is usually very poor.", "vietnamese": "ngon miệng, vị giác", "sentenceVietnamese": "Khi bị bệnh thường ăn uống không ngon miệng." },
-    { "id": 8, "chinese": "差", "pinyin": "chā", "english": "poor, bad", "sentenceChinese": "他今天的臉色看起來很差。", "sentencePinyin": "Tā jīntiān de liǎnsè kàn qǐlái hěn chā.", "sentenceEnglish": "His complexion looks very poor today.", "vietnamese": "kém, tệ", "sentenceVietnamese": "Sắc mặt của anh ấy hôm nay trông rất tệ." },
-    { "id": 9, "chinese": "喉嚨", "pinyin": "hóulóng", "english": "throat", "sentenceChinese": "我的喉嚨發炎了，不能大聲唱歌。", "sentencePinyin": "Wǒ de hóulóng fāyán le, bùnéng dàshēng chànggē.", "sentenceEnglish": "My throat is inflamed; I can't sing loudly.", "vietnamese": "họng", "sentenceVietnamese": "Họng của tôi bị viêm rồi, không thể hát lớn được." },
-    { "id": 10, "chinese": "發炎", "pinyin": "fāyán", "english": "to be inflamed", "sentenceChinese": "要是你的喉嚨發炎，別吃冰的東西。", "sentencePinyin": "Yàoshì nǐ de hóulóng fāyán, bié chī bīng de dōngxi.", "sentenceEnglish": "If your throat is inflamed, don't eat icy things.", "vietnamese": "viêm", "sentenceVietnamese": "Nếu họng của bạn bị viêm, đừng ăn đồ lạnh." },
-    { "id": 11, "chinese": "生病", "pinyin": "shēngbìng", "english": "to fall ill", "sentenceChinese": "他生病了，不能去上課。", "sentencePinyin": "Tā shēngbìng le, bùnéng qù shàngkè.", "sentenceEnglish": "He is ill and cannot go to class.", "vietnamese": "bị bệnh", "sentenceVietnamese": "Anh ấy bị bệnh rồi, không thể đi học." },
-    { "id": 12, "chinese": "發燒", "pinyin": "fāshāo", "english": "to have a fever", "sentenceChinese": "如果你發燒了，要多喝水。", "sentencePinyin": "Rúguǒ nǐ fāshāo le, yào duō hē shuǐ.", "sentenceEnglish": "If you have a fever, you need to drink more water.", "vietnamese": "phát sốt", "sentenceVietnamese": "Nếu bạn bị sốt, cần uống nhiều nước." },
-    { "id": 13, "chinese": "感冒", "pinyin": "gǎnmào", "english": "to catch/have a cold", "sentenceChinese": "我不小心感冒了，一直流鼻水。", "sentencePinyin": "Wǒ bù xiǎoxīn gǎnmào le, yìzhí liú bíshuǐ.", "sentenceEnglish": "I accidentally caught a cold and have had a runny nose all day.", "vietnamese": "cảm mạo", "sentenceVietnamese": "Tôi lỡ bị cảm rồi, cứ bị sổ mũi suốt." },
-    { "id": 14, "chinese": "藥", "pinyin": "yào", "english": "medicine", "sentenceChinese": "這附近有藥局可以買藥嗎？", "sentencePinyin": "Zhè fùjìn yǒu yàojú kěyǐ mǎi yào ma?", "sentenceEnglish": "Is there a pharmacy nearby where I can buy medicine?", "vietnamese": "thuốc", "sentenceVietnamese": "Gần đây có tiệm thuốc nào có thể mua thuốc không?" },
-    { "id": 15, "chinese": "藥局", "pinyin": "yàojú", "english": "pharmacy, drug store", "sentenceChinese": "醫生請我去藥局拿藥。", "sentencePinyin": "Yīshēng qǐng wǒ qù yàojú ná yào.", "sentenceEnglish": "The doctor asked me to go to the pharmacy to get the medicine.", "vietnamese": "tiệm thuốc", "sentenceVietnamese": "Bác sĩ bảo tôi đến tiệm thuốc lấy thuốc." },
-    { "id": 16, "chinese": "拿", "pinyin": "ná", "english": "to get", "sentenceChinese": "請幫我拿那包藥。", "sentencePinyin": "Qǐng bāng wǒ ná nà bāo yào.", "sentenceEnglish": "Please help me get that pack of medicine.", "vietnamese": "lấy", "sentenceVietnamese": "Làm ơn lấy giúp tôi gói thuốc đó." },
-    { "id": 17, "chinese": "把", "pinyin": "bǎ", "english": "disposal marker", "sentenceChinese": "請把這杯水喝了。", "sentencePinyin": "Qǐng bǎ zhè bēi shuǐ hē le.", "sentenceEnglish": "Please drink this glass of water.", "vietnamese": "đem/cho (trợ từ)", "sentenceVietnamese": "Hãy đem ly nước này uống đi." },
-    { "id": 18, "chinese": "水", "pinyin": "shuǐ", "english": "water", "sentenceChinese": "生病的時候要多喝水。", "sentencePinyin": "Shēngbìng de shíhòu yào duō hē shuǐ.", "sentenceEnglish": "When you are sick, you need to drink more water.", "vietnamese": "nước", "sentenceVietnamese": "Khi bị bệnh cần uống nhiều nước." },
-    { "id": 19, "chinese": "休息", "pinyin": "xiūxí", "english": "to take a rest", "sentenceChinese": "要是你不舒服，最好多休息。", "sentencePinyin": "Yàoshì nǐ bù shūfú, zuìhǎo duō xiūxi.", "sentenceEnglish": "If you don't feel well, it's best to rest more.", "vietnamese": "nghỉ ngơi", "sentenceVietnamese": "Nếu bạn không khỏe, tốt nhất nên nghỉ ngơi nhiều hơn." },
-    { "id": 20, "chinese": "睡覺", "pinyin": "shuìjiào", "english": "to sleep", "sentenceChinese": "你感冒了，最好早一點睡覺。", "sentencePinyin": "Nǐ gǎnmào le, zuìhǎo zǎo yìdiǎn shuìjiào.", "sentenceEnglish": "You have a cold; it's best to go to sleep a bit earlier.", "vietnamese": "ngủ", "sentenceVietnamese": "Bạn bị cảm rồi, tốt nhất nên đi ngủ sớm một chút." },
-    { "id": 21, "chinese": "臉色", "pinyin": "liǎnsè", "english": "complexion / facial expression", "sentenceChinese": "你的臉色看起來很難看，怎麼了？", "sentencePinyin": "Nǐ de liǎnsè kàn qǐlái hěn nánkàn, zěnme le?", "sentenceEnglish": "Your complexion looks terrible; what's wrong?", "vietnamese": "sắc mặt", "sentenceVietnamese": "Sắc mặt của bạn trông rất tệ, có chuyện gì vậy?" },
-    { "id": 22, "chinese": "難看", "pinyin": "nánkàn", "english": "not to look good", "sentenceChinese": "生病的時候臉色會很難看。", "sentencePinyin": "Shēngbìng de shíhòu liǎnsè huì hěn nánkàn.", "sentenceEnglish": "When sick, one's complexion will not look good.", "vietnamese": "khó coi, tệ", "sentenceVietnamese": "Khi bị bệnh sắc mặt sẽ rất tệ." },
-    { "id": 23, "chinese": "肚子", "pinyin": "dùzi", "english": "stomach, abdomen", "sentenceChinese": "我肚子很痛，吐了好幾次。", "sentencePinyin": "Wǒ dùzi hěn tòng, tù le hǎo jǐ cì.", "sentenceEnglish": "My stomach hurts, and I've vomited several times.", "vietnamese": "bụng", "sentenceVietnamese": "Tôi bị đau bụng, đã nôn mấy lần rồi." },
-    { "id": 24, "chinese": "吐", "pinyin": "tù", "english": "to throw up, to vomit", "sentenceChinese": "他肚子不舒服，吐了很多次。", "sentencePinyin": "Tā dùzi bù shūfú, tù le hěn duō cì.", "sentenceEnglish": "His stomach is upset and he has vomited many times.", "vietnamese": "nôn, ói", "sentenceVietnamese": "Bụng anh ấy không khỏe, đã nôn rất nhiều lần." },
-    { "id": 25, "chinese": "幾", "pinyin": "jǐ", "english": "(a) few", "sentenceChinese": "他肚子痛，吐了好幾次。", "sentencePinyin": "Tā dùzi tòng, tù le hǎo jǐ cì.", "sentenceEnglish": "His stomach hurts and he vomited a few times.", "vietnamese": "vài", "sentenceVietnamese": "Anh ấy đau bụng, đã nôn vài lần rồi." },
-    { "id": 26, "chinese": "次", "pinyin": "cì", "english": "measure word for times, occurrences", "sentenceChinese": "我今天吐了好幾次。", "sentencePinyin": "Wǒ jīntiān tù le hǎo jǐ cì.", "sentenceEnglish": "I have vomited several times today.", "vietnamese": "lần", "sentenceVietnamese": "Hôm nay tôi đã nôn vài lần." },
-    { "id": 27, "chinese": "陪", "pinyin": "péi", "english": "to go/stay with somebody, to accompany", "sentenceChinese": "我陪你去看醫生吧。", "sentencePinyin": "Wǒ péi nǐ qù kàn yīshēng ba.", "sentenceEnglish": "Let me accompany you to see the doctor.", "vietnamese": "đồng hành, đi cùng", "sentenceVietnamese": "Để tôi đi cùng bạn đi khám bác sĩ nhé." },
-    { "id": 28, "chinese": "看病", "pinyin": "kànbìng", "english": "to see a doctor", "sentenceChinese": "在台灣看病一定要有保險。", "sentencePinyin": "Zài Táiwān kànbìng yídìng yào yǒu bǎoxiǎn.", "sentenceEnglish": "In Taiwan, you must have insurance to see a doctor.", "vietnamese": "khám bệnh", "sentenceVietnamese": "Ở Đài Loan đi khám bệnh nhất định phải có bảo hiểm." },
-    { "id": 29, "chinese": "健康", "pinyin": "jiànkāng", "english": "health", "sentenceChinese": "謝謝你這麼關心我的健康。", "sentencePinyin": "Xièxiè nǐ zhème guānxīn wǒ de jiànkāng.", "sentenceEnglish": "Thank you for being so concerned about my health.", "vietnamese": "sức khỏe", "sentenceVietnamese": "Cảm ơn bạn đã quan tâm đến sức khỏe của tôi như vậy." },
-    { "id": 30, "chinese": "保險", "pinyin": "bǎoxiǎn", "english": "insurance", "sentenceChinese": "去健康中心看病要帶保險卡。", "sentencePinyin": "Qù jiànkāng zhōngxīn kànbìng yào dài bǎoxiǎn kǎ.", "sentenceEnglish": "You need to bring your insurance card to see a doctor at the health center.", "vietnamese": "bảo hiểm", "sentenceVietnamese": "Đi khám bệnh ở trung tâm sức khỏe cần mang theo thẻ bảo hiểm." },
-    { "id": 31, "chinese": "跟", "pinyin": "gēn", "english": "with, together with", "sentenceChinese": "你可以跟我一起去看醫生。", "sentencePinyin": "Nǐ kěyǐ gēn wǒ yìqǐ qù kàn yīshēng.", "sentenceEnglish": "You can go see the doctor with me.", "vietnamese": "với, cùng", "sentenceVietnamese": "Bạn có thể đi khám bác sĩ cùng tôi." },
-    { "id": 32, "chinese": "油", "pinyin": "yóu", "english": "oily, greasy", "sentenceChinese": "生病的時候別吃太油的東西。", "sentencePinyin": "Shēngbìng de shíhòu bié chī tài yóu de dōngxi.", "sentenceEnglish": "Don't eat overly greasy food when you are sick.", "vietnamese": "dầu mỡ", "sentenceVietnamese": "Khi bị bệnh đừng ăn đồ quá nhiều dầu mỡ." },
-    { "id": 33, "chinese": "冰", "pinyin": "bīng", "english": "icy", "sentenceChinese": "喉嚨發炎不能吃冰的東西。", "sentencePinyin": "Hóulóng fāyán bùnéng chī bīng de dōngxi.", "sentenceEnglish": "When the throat is inflamed, you cannot eat icy things.", "vietnamese": "đá, lạnh", "sentenceVietnamese": "Viêm họng không được ăn đồ lạnh." },
-    { "id": 34, "chinese": "別", "pinyin": "bié", "english": "don't (used in imperatives)", "sentenceChinese": "你感冒了，別出去玩。", "sentencePinyin": "Nǐ gǎnmào le, bié chūqù wán.", "sentenceEnglish": "You have a cold; don't go out to play.", "vietnamese": "đừng", "sentenceVietnamese": "Bạn bị cảm rồi, đừng đi chơi." },
-    { "id": 35, "chinese": "關心", "pinyin": "guānxīn", "english": "to be concerned about", "sentenceChinese": "謝謝你這麼關心我。", "sentencePinyin": "Xièxiè nǐ zhème guānxīn wǒ.", "sentenceEnglish": "Thank you for being so concerned about me.", "vietnamese": "quan tâm", "sentenceVietnamese": "Cảm ơn bạn đã quan tâm tôi như vậy." },
-    { "id": 36, "chinese": "包", "pinyin": "bāo", "english": "measure word for bags, packages etc.", "sentenceChinese": "這是一包藥。", "sentencePinyin": "Zhè shì yì bāo yào.", "sentenceEnglish": "This is a pack of medicine.", "vietnamese": "gói, bao", "sentenceVietnamese": "Đây là một gói thuốc." },
-    { "id": 37, "chinese": "睡", "pinyin": "shuì", "english": "to sleep", "sentenceChinese": "我昨天睡得很好。", "sentencePinyin": "Wǒ zuótiān shuì de hěn hǎo.", "sentenceEnglish": "I slept very well yesterday.", "vietnamese": "ngủ", "sentenceVietnamese": "Hôm qua tôi ngủ rất ngon." },
-    { "id": 38, "chinese": "小時", "pinyin": "xiǎoshí", "english": "hour", "sentenceChinese": "我昨天睡了八個小時。", "sentencePinyin": "Wǒ zuótiān shuì le bā ge xiǎoshí.", "sentenceEnglish": "I slept for eight hours yesterday.", "vietnamese": "tiếng đồng hồ", "sentenceVietnamese": "Hôm qua tôi đã ngủ 8 tiếng đồng hồ." },
-    { "id": 39, "chinese": "早一點", "pinyin": "zǎo yìdiǎn", "english": "a bit earlier", "sentenceChinese": "你感冒了，最好早一點睡覺。", "sentencePinyin": "Nǐ gǎnmào le, zuìhǎo zǎo yìdiǎn shuìjiào.", "sentenceEnglish": "You have a cold; it's best to go to sleep a bit earlier.", "vietnamese": "sớm một chút", "sentenceVietnamese": "Bạn bị cảm rồi, tốt nhất nên đi ngủ sớm một chút." },
-    { "id": 40, "chinese": "怎麼了", "pinyin": "zěnme le", "english": "What's wrong?", "sentenceChinese": "你的臉色很難看，怎麼了？", "sentencePinyin": "Nǐ de liǎnsè hěn nánkàn, zěnme le?", "sentenceEnglish": "Your complexion is terrible; what's wrong?", "vietnamese": "sao vậy, có chuyện gì vậy", "sentenceVietnamese": "Sắc mặt bạn trông rất tệ, sao vậy?" },
-    { "id": 41, "chinese": "不用了", "pinyin": "búyòng le", "english": "It's not necessary.", "sentenceChinese": "不用了，我自己去醫院就行了。", "sentencePinyin": "Búyòng le, wǒ zìjǐ qù yīyuàn jiù xíng le.", "sentenceEnglish": "It's not necessary; it's fine if I go to the hospital myself.", "vietnamese": "không cần đâu", "sentenceVietnamese": "Không cần đâu, tôi tự mình đi bệnh viện là được rồi." },
-    { "id": 42, "chinese": "健康中心", "pinyin": "jiànkāng zhōngxīn", "english": "health center", "sentenceChinese": "學校裡面有健康中心嗎？", "sentencePinyin": "Xuéxiào lǐmiàn yǒu jiànkāng zhōngxīn ma?", "sentenceEnglish": "Is there a health center inside the school?", "vietnamese": "trung tâm sức khỏe", "sentenceVietnamese": "Trong trường có trung tâm sức khỏe không?" },
-    { "id": 43, "chinese": "回家", "pinyin": "huí jiā", "english": "go home", "sentenceChinese": "我看完醫生就回家。", "sentencePinyin": "Wǒ kàn wán yīshēng jiù huí jiā.", "sentenceEnglish": "I will go home right after seeing the doctor.", "vietnamese": "về nhà", "sentenceVietnamese": "Tôi khám bác sĩ xong là về nhà." },
-    { "id": 44, "chinese": "最好", "pinyin": "zuìhǎo", "english": "It would be best.../ (You) should...", "sentenceChinese": "你感冒了，最好多喝水。", "sentencePinyin": "Nǐ gǎnmào le, zuìhǎo duō hē shuǐ.", "sentenceEnglish": "You have a cold; it would be best to drink more water.", "vietnamese": "tốt nhất", "sentenceVietnamese": "Bạn bị cảm rồi, tốt nhất nên uống nhiều nước." }
+    {
+      "id": 1,
+      "chinese": "醫生",
+      "pinyin": "yīshēng",
+      "en": "doctor",
+      "vi": "bác sĩ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "doctor",
+          "sentence": "醫生未能把她救活。",
+          "pinyin": "yīshēng wèi néng bǎ tā jiù huó.",
+          "en": "Doctors were unable to save her.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "doctor",
+          "sentence": "醫生要我臥床/牀休息。",
+          "pinyin": "yīshēng yào wǒ wòchuáng xiūxi.",
+          "en": "The doctor told me to stay in bed.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "一直",
+      "pinyin": "yìzhí",
+      "en": "continuously, all the way",
+      "vi": "liên tục, suốt",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "straight",
+          "sentence": "你一直走，不拐彎。",
+          "pinyin": "nǐ yīzhí zǒu, bù guǎiwān.",
+          "en": "Go straight, don't turn.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "straight",
+          "sentence": "一直往東，就到了。",
+          "pinyin": "yīzhí wǎng dōng, jiù dàole.",
+          "en": "Go straight east, and you'll arrive.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "流",
+      "pinyin": "liú",
+      "en": "to flow",
+      "vi": "chảy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "(of liquid) flow",
+          "sentence": "他的手指流血了。",
+          "pinyin": "tā de shǒuzhǐ liúxuèle.",
+          "en": "His finger is bleeding.",
+          "vi": "Ngón tay của anh ấy bị chảy máu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "(of liquid) flow",
+          "sentence": "冷空氣讓我流鼻涕。",
+          "pinyin": "lěng kōngqì ràng wǒliú bítì.",
+          "en": "The cold air makes me have a runny nose.",
+          "vi": "Không khí lạnh làm tôi chảy nước mũi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stream of water",
+          "sentence": "人們在洪流中掙紮。",
+          "pinyin": "rénmen zài hóngliú zhōng zhēngzhá.",
+          "en": "People are struggling in the flood.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "stream of water",
+          "sentence": "河流的水很清澈。",
+          "pinyin": "héliú de shuǐ hěn qīngchè.",
+          "en": "The river water is very clear.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "lumen",
+          "sentence": "這燈泡五百流。",
+          "pinyin": "zhè dēngpào wǔbǎi liú.",
+          "en": "This light bulb is 500 lumens.",
+          "vi": "Đây là bóng đèn năm mươi lumen."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "lumen",
+          "sentence": "流明數越高，越省電。",
+          "pinyin": "liúmíng shù yuè gāo, yuè shěng diàn.",
+          "en": "The higher the lumens, the more energy-efficient it is.",
+          "vi": "Lumen càng cao, càng tiết kiệm điện."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fluent",
+          "sentence": "他中文説得很流暢。",
+          "pinyin": "tā zhōngwén shuō de hěn liúchàng.",
+          "en": "His Chinese is very fluent.",
+          "vi": "Anh ấy nói tiếng Trung rất lưu loát."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fluent",
+          "sentence": "他的中文越來越流利。",
+          "pinyin": "tā de zhōngwén yuè lái yuè liúlì.",
+          "en": "His Chinese is becoming more and more fluent.",
+          "vi": "Tiếng Trung của anh ấy ngày càng lưu loát."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "鼻水",
+      "pinyin": "bíshuǐ",
+      "en": "snot, nasal mucus, a running nose",
+      "vi": "nước mũi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "nasal mucus",
+          "sentence": "他一打噴嚏鼻水就流。",
+          "pinyin": "tā yī dǎ pēn tì bí shuǐ jiù liú",
+          "en": "His nose runs whenever he sneezes.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "snivel",
+          "sentence": "他不停地流鼻水了。",
+          "pinyin": "Tā bù tíng de liú bí shuǐ le.",
+          "en": "He keeps sniffling.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "頭",
+      "pinyin": "tóu",
+      "en": "head",
+      "vi": "đầu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "head",
+          "sentence": "大象的頭很大。",
+          "pinyin": "dà xiàng de tóu hěn dà.",
+          "en": "The elephant's head is big.",
+          "vi": "Đầu của con voi rất to."
+        },
+        {
+          "type": "Noun",
+          "meaning": "head",
+          "sentence": "小狗的頭很可愛。",
+          "pinyin": "xiǎo gǒu de tóu hěn kě'ài.",
+          "en": "The puppy's head is cute.",
+          "vi": "Đầu của chú chó con rất dễ thương."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "[before a numeral] first",
+          "sentence": "頭兩節車廂很擁擠。",
+          "pinyin": "tóu liǎng jié chēxiāng hěn yǒngjǐ.",
+          "en": "The first two carriages are very crowded.",
+          "vi": "Hai toa xe đầu tiên rất đông đúc."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "[before a numeral] first",
+          "sentence": "頭兩名學生錶現優秀。",
+          "pinyin": "tóu liǎng míng xuésheng biǎoxiàn yōuxiù.",
+          "en": "The first two students performed excellently.",
+          "vi": "Hai học sinh đầu tiên thể hiện xuất sắc."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "prior to; before",
+          "sentence": "頭吃/喫飯要洗手。",
+          "pinyin": "tóu chīfàn yào xǐshǒu.",
+          "en": "Wash your hands before eating.",
+          "vi": "Trước khi ăn cơm phải rửa tay."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "prior to; before",
+          "sentence": "頭5點就得動身。",
+          "pinyin": "tóu 5 diǎn jiù děi dòngshēn.",
+          "en": "You must set off at 5 o'clock sharp.",
+          "vi": "Trước 5 giờ phải lên đường ngay."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for certain domestic animals]",
+          "sentence": "我傢有一頭牛。",
+          "pinyin": "wǒjiā yǒu yītóu niú.",
+          "en": "There is a cow in my family.",
+          "vi": "Nhà tôi có một con bò."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for certain domestic animals]",
+          "sentence": "農場裡/裏有三頭羊。",
+          "pinyin": "nóngchǎng li yǒusān tóuyáng.",
+          "en": "There are three sheep on the farm.",
+          "vi": "Trong nông trại có ba con dê."
+        },
+        {
+          "type": "numb",
+          "meaning": "first",
+          "sentence": "這是頭條新聞。",
+          "pinyin": "zhè shì tóutiáo xīnwén.",
+          "en": "This is headline news.",
+          "vi": "Đây là tin tức hàng đầu."
+        },
+        {
+          "type": "numb",
+          "meaning": "first",
+          "sentence": "他是頭號演員。",
+          "pinyin": "tā shì tóuhào yǎnyuán.",
+          "en": "He is the top actor.",
+          "vi": "Anh ấy là diễn viên số một."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "痛",
+      "pinyin": "tòng",
+      "en": "painful",
+      "vi": "đau",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "ache; pain",
+          "sentence": "媽媽腰酸腿痛需要休息。",
+          "pinyin": "māma yāosuān tuǐ tòng xūyào xiūxi.",
+          "en": "Mom's waist and legs ache and need rest.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "sorrow; sadness",
+          "sentence": "他心中滿是痛苦。",
+          "pinyin": "tā xīnzhōng mǎn shì tòngkǔ.",
+          "en": "This pain is hard to endure.",
+          "vi": "Trong lòng anh ấy đầy đau khổ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "extremely; deeply; bitterly",
+          "sentence": "痛哭",
+          "pinyin": "tòngkū",
+          "en": "Weep bitterly",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "ache; pain",
+          "sentence": "週身的筋骨隱隱作痛。",
+          "pinyin": "Zhōushēn de jīngǔ yǐnyǐn zuò tòng",
+          "en": "Feel a dull ache all over; ache all over",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "胃口",
+      "pinyin": "wèikǒu",
+      "en": "appetite",
+      "vi": "ngon miệng, vị giác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "appetite",
+          "sentence": "我今天的胃口很好。",
+          "pinyin": "wǒ jīntiān de wèikǒu hěn hǎo.",
+          "en": "I have a good appetite today.",
+          "vi": "Hôm nay tôi ăn rất ngon miệng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "appetite",
+          "sentence": "她對這道菜沒有胃口。",
+          "pinyin": "tā duì zhè dào cài méiyǒu wèikǒu.",
+          "en": "She has no appetite for this dish.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "差",
+      "pinyin": "chā",
+      "en": "poor, bad",
+      "vi": "kém, tệ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "difference",
+          "sentence": "六和三的差是三。",
+          "pinyin": "liù hé sān de chà shì sān.",
+          "en": "The difference between 6 and 3 is 3.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "difference",
+          "sentence": "十減八的差等於二。",
+          "pinyin": "shí jiǎn bā de chà děngyú èr.",
+          "en": "The difference of 10 minus 8 equals 2.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "different",
+          "sentence": "這個質量太差了。",
+          "pinyin": "zhège zhìliàng tài chàle.",
+          "en": "This quality is too poor.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "different",
+          "sentence": "産品和圖片差太多了。",
+          "pinyin": "chǎnpǐn hé túpiàn chà tài duōle.",
+          "en": "The product differs too much from the photo.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "slightly; comparatively; a bit",
+          "sentence": "這個結果差強人意。",
+          "pinyin": "zhège jiéguǒ chāqiángrényì.",
+          "en": "This result is barely satisfactory.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "slightly; comparatively; a bit",
+          "sentence": "這個計劃差強人意。",
+          "pinyin": "zhège jìhuà chāqiángrényì.",
+          "en": "This plan is barely acceptable.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "喉嚨",
+      "pinyin": "hóulóng",
+      "en": "throat",
+      "vi": "họng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "throat; larynx",
+          "sentence": "她喉嚨不舒服。",
+          "pinyin": "tā hóulóng bú shūfu.",
+          "en": "She has a sore throat.",
+          "vi": "Cổ họng cô ấy không được thoải mái."
+        },
+        {
+          "type": "Noun",
+          "meaning": "throat; larynx",
+          "sentence": "喉嚨痛時要多喝水。",
+          "pinyin": "hóulóng tòng shí yào duō hē shuǐ.",
+          "en": "You should drink more water when your throat hurts.",
+          "vi": "Khi đau họng cần uống nhiều nước."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "發炎",
+      "pinyin": "fāyán",
+      "en": "to be inflamed",
+      "vi": "viêm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rankle; inflame",
+          "sentence": "她的眼睛髮/發炎了。",
+          "pinyin": "tā de yǎnjīng fāyánle.",
+          "en": "Her eye is inflamed.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rankle; inflame",
+          "sentence": "我的牙齦髮/發炎了。",
+          "pinyin": "wǒ de yáyín fāyánle.",
+          "en": "My gums are inflamed.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "生病",
+      "pinyin": "shēngbìng",
+      "en": "to fall ill",
+      "vi": "bị bệnh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fall ill; get ill; be taken ill",
+          "sentence": "他生病了，今天沒來上課。",
+          "pinyin": "tā shēngbìngle, jīntiān méi lái shàngkè.",
+          "en": "He is sick and didn't come to class today.",
+          "vi": "Cậu ta bị ốm rồi, hôm nay không có đi học."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fall ill; get ill; be taken ill",
+          "sentence": "這個小傢夥容易生病啊！",
+          "pinyin": "zhège xiǎo jiāhuo róngyì shēngbìng a!",
+          "en": "This little guy gets sick easily!",
+          "vi": "Thằng nhóc này dễ ốm thật đấy!"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "發燒",
+      "pinyin": "fāshāo",
+      "en": "to have a fever",
+      "vi": "phát sốt",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "have (run) a fever; have (run) a temperature",
+          "sentence": "他昨晚髮/發燒了。",
+          "pinyin": "tā zuó wǎn fāshāole.",
+          "en": "He had a fever last night.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "have (run) a fever; have (run) a temperature",
+          "sentence": "她開始髮/發燒併咳嗽。",
+          "pinyin": "tā kāishǐ fāshāo bìng késòu.",
+          "en": "She started to run a fever.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "感冒",
+      "pinyin": "gǎnmào",
+      "en": "to catch/have a cold",
+      "vi": "cảm mạo",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cold; common cold; influenza",
+          "sentence": "我的感冒已經好多了。",
+          "pinyin": "wǒ de gǎnmào yǐjīng hǎoduōle.",
+          "en": "My cold has gotten much better.",
+          "vi": "Chứng cảm cúm của tôi đỡ nhiều rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "catch (have) a cold",
+          "sentence": "我感冒了，很難受。",
+          "pinyin": "wǒ gǎnmàole, hěn nánshòu.",
+          "en": "I have a cold and feel very uncomfortable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "interested in",
+          "sentence": "我對你併不感冒。",
+          "pinyin": "wǒ duì nǐ bìng bù gǎnmào.",
+          "en": "I’m not interested in you.",
+          "vi": "Tôi không có thích cậu."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "藥",
+      "pinyin": "yào",
+      "en": "medicine",
+      "vi": "thuốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "drug; lotion; medicine; medication",
+          "sentence": "他每天都吃/喫藥。",
+          "pinyin": "tā měitiān dōu chī yào.",
+          "en": "He takes medicine every day.",
+          "vi": "Anh ấy uống thuốc mỗi ngày."
+        },
+        {
+          "type": "Noun",
+          "meaning": "drug; lotion; medicine; medication",
+          "sentence": "這些藥材很珍貴。",
+          "pinyin": "zhèxiē yàocái hěn zhēnguì.",
+          "en": "These medicinal herbs are valuable.",
+          "vi": "Những loại thuốc này rất quý giá."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cure with medicine",
+          "sentence": "這種病已不可救藥。",
+          "pinyin": "zhè zhǒng bìng yǐ bùkě jiù yào.",
+          "en": "This disease is beyond cure.",
+          "vi": "Căn bệnh này đã không thể cứu chữa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cure with medicine",
+          "sentence": "醫生説病情不可救藥。",
+          "pinyin": "yīshēng shuō bìngqíng bùkě jiù yào.",
+          "en": "The doctor said the condition is incurable.",
+          "vi": "Bác sĩ nói tình trạng bệnh không thể cứu vãn."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "藥局",
+      "pinyin": "yàojú",
+      "en": "pharmacy, drug store",
+      "vi": "tiệm thuốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pharmacy",
+          "sentence": "我在藥局買了感冒藥。",
+          "pinyin": "Wǒ zài yào jú mǎi le gǎn mào yào.",
+          "en": "I bought cold medicine at the pharmacy.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "拿",
+      "pinyin": "ná",
+      "en": "to get",
+      "vi": "lấy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hold; take",
+          "sentence": "他拿著一個水果盒子。",
+          "pinyin": "tā názhe yīgè shuǐguǒ hézi.",
+          "en": "He is holding a fruit box.",
+          "vi": "Anh ấy đang cầm một hộp trái cây."
+        },
+        {
+          "type": "Verb",
+          "meaning": "hold; take",
+          "sentence": "請你拿這盃水給他。",
+          "pinyin": "qǐng nǐ ná zhè bēi shuǐ gěi tā.",
+          "en": "Please give him this glass of water.",
+          "vi": "Bạn hãy đưa cốc nước này cho anh ấy."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "tools, materials, methods, etc. relied upon for introduction",
+          "sentence": "他們拿鉛筆寫了答案。",
+          "pinyin": "tāmen ná qiānbǐ xiěle dá'àn.",
+          "en": "They used pencils to write the answers.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "tools, materials, methods, etc. relied upon for introduction",
+          "sentence": "他拿手機查了資料。",
+          "pinyin": "tā ná shǒujī chále zīliào.",
+          "en": "He used his phone to look up the information.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "把",
+      "pinyin": "bǎ",
+      "en": "disposal marker",
+      "vi": "đem/cho (trợ từ)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "grasp; hold",
+          "sentence": "他把門把住了。",
+          "pinyin": "tā bǎmén bǎ zhùle.",
+          "en": "He held the door shut.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "grasp; hold",
+          "sentence": "快把繩子拉住！",
+          "pinyin": "kuài bǎ shéngzi lā zhù!",
+          "en": "Quickly hold onto the rope!",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used before objects with handles or things to take hold of",
+          "sentence": "請給我一把椅子。",
+          "pinyin": "qǐng gěi wǒ yī bǎ yǐzi.",
+          "en": "Please give me a chair.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used before objects with handles or things to take hold of",
+          "sentence": "她買了一把雨傘。",
+          "pinyin": "tā mǎile yī bǎ yǔsǎn.",
+          "en": "She bought an umbrella.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "make a certain change to an object",
+          "sentence": "她把書放在桌子上了。",
+          "pinyin": "tā bǎ shū fàng zài zhuōzǐ shàngle.",
+          "en": "She put the book on the table.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "make a certain change to an object",
+          "sentence": "媽媽把衣服洗幹凈了。",
+          "pinyin": "māma bǎ yīfu xǐ gānjìngle.",
+          "en": "Mom washed the clothes clean.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "referring to sworn brotherhood",
+          "sentence": "我們是把兄弟關繫。",
+          "pinyin": "wǒmen shì bǎxiōngdì guānxi.",
+          "en": "We have a sworn brotherhood.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "referring to sworn brotherhood",
+          "sentence": "我們髮/發誓做把兄弟。",
+          "pinyin": "wǒmen fāshì zuò bǎxiōngdì.",
+          "en": "We swore to be sworn brothers.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "about; or so",
+          "sentence": "他大概有把歲了。",
+          "pinyin": "tā dàgài yǒu bǎ suìle.",
+          "en": "He is about that age.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "about; or so",
+          "sentence": "這條河有把米寬。",
+          "pinyin": "zhè tiáo hé yǒu bǎ mǐ kuān.",
+          "en": "This river is about a few meters wide.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "handle",
+          "sentence": "這把刀的把很短。",
+          "pinyin": "zhè bǎ dāo de bǎ hěn duǎn.",
+          "en": "The handle of this knife is very short.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "handle",
+          "sentence": "請抓緊椅子的把。",
+          "pinyin": "qǐng zhuājǐn yǐziǐ de bǎ.",
+          "en": "Please hold the chair handle tightly.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "水",
+      "pinyin": "shuǐ",
+      "en": "water",
+      "vi": "nước",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "water",
+          "sentence": "水是生命必需之物。",
+          "pinyin": "shuǐ shì shēngmìng bìxū zhī wù.",
+          "en": "Water is essential for life.",
+          "vi": "Nước là thứ cần thiết cho sự sống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "water",
+          "sentence": "水的沸點是一百度。",
+          "pinyin": "shuǐ de fèidiǎn shì yī bǎidù.",
+          "en": "The boiling point of water is 100 degrees.",
+          "vi": "Điểm sôi của nước là 100 độ."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "washing",
+          "sentence": "衣服已經洗過兩水。",
+          "pinyin": "yīfu yǐjīng xǐguò liǎng shuǐ.",
+          "en": "The clothes have been washed twice.",
+          "vi": "Quần áo đã giặt hai lần."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "washing",
+          "sentence": "這件衣服隻過了一水。",
+          "pinyin": "zhè jiàn yīfu zhǐguòle yī shuǐ.",
+          "en": "This piece of clothing was washed only once.",
+          "vi": "Chiếc áo này chỉ mới giặt một lần."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "shoddy; poorly made",
+          "sentence": "那産品做得比較水。",
+          "pinyin": "nà chǎnpǐn zuò de bǐjiào shuǐ.",
+          "en": "That product is poorly made.",
+          "vi": "Sản phẩm đó được làm hơi kém chất lượng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "shoddy; poorly made",
+          "sentence": "這部劇情節有點水。",
+          "pinyin": "zhè bù jù qíngjié yǒudiǎn shuǐ.",
+          "en": "The plot of this drama is a bit weak.",
+          "vi": "Tình tiết của bộ phim này hơi dở."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "休息",
+      "pinyin": "xiūxí",
+      "en": "to take a rest",
+      "vi": "nghỉ ngơi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rest; have a rest; take a rest; have a break",
+          "sentence": "工作太久了，應該休息一下。",
+          "pinyin": "gōngzuò tài jiǔle, yīnggāi xiūxi yīxià.",
+          "en": "Working for too long, you should take a rest.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rest; have a rest; take a rest; have a break",
+          "sentence": "學習時要適當休息。",
+          "pinyin": "xuéxí shí yào shìdàng xiūxi.",
+          "en": "Take appropriate breaks while studying.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "睡覺",
+      "pinyin": "shuìjiào",
+      "en": "to sleep",
+      "vi": "ngủ",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "sleep; go to bed",
+          "sentence": "我睏了，我想去睡覺。",
+          "pinyin": "wǒ kùnle, wǒ xiǎng qù shuìjiào.",
+          "en": "I'm sleepy, I want to go to sleep.",
+          "vi": "Tớ mệt rồi, tớ muốn đi ngủ."
+        },
+        {
+          "type": "sv",
+          "meaning": "sleep; go to bed",
+          "sentence": "睡覺以前我常常看書。",
+          "pinyin": "shuìjiào yǐqián wǒ chángcháng kànshū.",
+          "en": "I often read books before going to sleep.",
+          "vi": "Tớ thường đọc sách trước khi đi ngủ."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "臉色",
+      "pinyin": "liǎnsè",
+      "en": "complexion / facial expression",
+      "vi": "sắc mặt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "look; complexion",
+          "sentence": "他的臉色很紅。",
+          "pinyin": "tā de liǎnsè hěn hóng.",
+          "en": "His complexion is very red.",
+          "vi": "Sắc mặt của anh ấy rất đỏ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "look; complexion",
+          "sentence": "爺爺的臉色有點黃。",
+          "pinyin": "yéye de liǎnsè yǒudiǎn huáng.",
+          "en": "Grandpa's complexion is a bit yellow.",
+          "vi": "Sắc mặt của ông hơi vàng."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "難看",
+      "pinyin": "nánkàn",
+      "en": "not to look good",
+      "vi": "khó coi, tệ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "ugly; unsightly",
+          "sentence": "他的字寫得非常難看。",
+          "pinyin": "tā de zì xiě de fēicháng nánkàn.",
+          "en": "His handwriting is very ugly.",
+          "vi": "Chữ anh ấy viết rất xấu."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ugly; unsightly",
+          "sentence": "你畫的畫，難看極了！",
+          "pinyin": "nǐ huà de huà, nánkàn jíle!",
+          "en": "The painting you drew is really ugly!",
+          "vi": "Bức tranh bạn vẽ, xấu quá đi!"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "肚子",
+      "pinyin": "dùzi",
+      "en": "stomach, abdomen",
+      "vi": "bụng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "stomach; belly",
+          "sentence": "豬肚子炒得很好吃/喫。",
+          "pinyin": "zhū dǔ zi chǎo dé hěn hǎo chī.",
+          "en": "Stir-fried pork stomach is very delicious.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "stomach; belly",
+          "sentence": "我要買一塊牛肚子。",
+          "pinyin": "wǒ yào mǎi yīkuài niú dǔ zi.",
+          "en": "I want to buy a piece of beef tripe.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "吐",
+      "pinyin": "tù",
+      "en": "to throw up, to vomit",
+      "vi": "nôn, ói",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "spit",
+          "sentence": "他隨地吐痰，真不文明。",
+          "pinyin": "tā suídì tǔ tán, zhēn bù wénmíng.",
+          "en": "He spits on the ground; it's really rude.",
+          "vi": "Anh ấy nhổ nước bọt tùy tiện, thật là thiếu văn minh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "spit",
+          "sentence": "她吃/喫完後把魚刺吐齣來。",
+          "pinyin": "tā chī wán hòu bǎ yúcì tǔ chūlái.",
+          "en": "After eating, she spat out the fish bones.",
+          "vi": "Cô ấy nhổ xương cá ra sau khi ăn xong."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "幾",
+      "pinyin": "jǐ",
+      "en": "(a) few",
+      "vi": "vài",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "how many",
+          "sentence": "你有幾個兄弟姐妹？",
+          "pinyin": "nǐ yǒu jǐ gè xiōngdì jiěmèi?",
+          "en": "How many siblings do you have?",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "how many",
+          "sentence": "他買了幾本中文書？",
+          "pinyin": "tā mǎile jǐ běn zhōngwén shū?",
+          "en": "How many Chinese books did he buy?",
+          "vi": ""
+        },
+        {
+          "type": "numb",
+          "meaning": "some; several; a few",
+          "sentence": "他有幾個好朋友。",
+          "pinyin": "tā yǒu jǐ gè hǎo péngyǒu.",
+          "en": "He has several good friends.",
+          "vi": ""
+        },
+        {
+          "type": "numb",
+          "meaning": "some; several; a few",
+          "sentence": "我買了幾本中文書。",
+          "pinyin": "wǒ mǎile jǐ běn zhōngwén shū.",
+          "en": "I bought a few Chinese books.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "次",
+      "pinyin": "cì",
+      "en": "measure word for times, occurrences",
+      "vi": "lần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "order; sequence",
+          "sentence": "你按照次序排隊吧。",
+          "pinyin": "nǐ ànzhào cìxù páiduì ba.",
+          "en": "Please line up in order.",
+          "vi": "Bạn hãy xếp hàng theo thứ tự nhé"
+        },
+        {
+          "type": "Noun",
+          "meaning": "order; sequence",
+          "sentence": "請您按照次序排隊。",
+          "pinyin": "qǐng nín ànzhào cìxù páiduì.",
+          "en": "Would you please line up in order?",
+          "vi": "Mời ông xếp hàng theo thứ tự."
+        },
+        {
+          "type": "numb",
+          "meaning": "next; second",
+          "sentence": "他次年就畢業了。",
+          "pinyin": "tā cì nián jiù bìyèle.",
+          "en": "He graduated the next year.",
+          "vi": ""
+        },
+        {
+          "type": "numb",
+          "meaning": "next; second",
+          "sentence": "我們計劃在次年齣國。",
+          "pinyin": "wǒmen jìhuà zài cì nián chūguó.",
+          "en": "We plan to go abroad next year.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "inferior; second-rate",
+          "sentence": "這隻是次等商品。",
+          "pinyin": "zhè zhǐshì cì děng shāngpǐn.",
+          "en": "This is just a low-grade product.",
+          "vi": "Đây chỉ là hàng kém chất lượng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "inferior; second-rate",
+          "sentence": "沒人想要次等的東西。",
+          "pinyin": "méi rén xiǎng yào cì děng de dōngxi.",
+          "en": "Nobody wants low-quality things.",
+          "vi": "Không ai muốn hàng kém chất lượng."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for things or actions that can be repeated",
+          "sentence": "我去過北京三次。",
+          "pinyin": "wǒ qùguò běijīng sāncì.",
+          "en": "I’ve been to Beijing three times.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for things or actions that can be repeated",
+          "sentence": "這是我第一次見到你。",
+          "pinyin": "zhè shì wǒ dì yī cì jiàn dào nǐ.",
+          "en": "This is the first time I’ve met you.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "陪",
+      "pinyin": "péi",
+      "en": "to go/stay with somebody, to accompany",
+      "vi": "đồng hành, đi cùng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "serve; accompany; look after; keep sb. company",
+          "sentence": "他每天陪孩子寫作業。",
+          "pinyin": "tā měitiān péi háizi xiě zuòyè.",
+          "en": "He accompanies his child to do homework every day.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "serve; accompany; look after; keep sb. company",
+          "sentence": "護士陪病人做檢查。",
+          "pinyin": "hùshì péi bìngrén zuò jiǎnchá.",
+          "en": "The nurse assists the patient with the examination.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "看病",
+      "pinyin": "kànbìng",
+      "en": "to see a doctor",
+      "vi": "khám bệnh",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "(of a doctor) see a patient",
+          "sentence": "醫生正在給病人看病。",
+          "pinyin": "yīshēng zhèngzài gěi bìngrén kànbìng.",
+          "en": "The doctor is seeing a patient.",
+          "vi": "Bác sĩ đang khám bệnh cho bệnh nhân."
+        },
+        {
+          "type": "sv",
+          "meaning": "(of a doctor) see a patient",
+          "sentence": "王大夫看病很認真。",
+          "pinyin": "wáng dàfū kànbìng hěn rènzhēn.",
+          "en": "Doctor Wang is very conscientious in seeing patients.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "健康",
+      "pinyin": "jiànkāng",
+      "en": "health",
+      "vi": "sức khỏe",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "health; physique",
+          "sentence": "抽煙對健康不好。",
+          "pinyin": "chōuyān duì jiànkāng bù hǎo.",
+          "en": "Smoking is bad for health.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "health; physique",
+          "sentence": "人民的健康很重要。",
+          "pinyin": "rénmín de jiànkāng hěn zhòngyào.",
+          "en": "People's health is very important.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; healthy",
+          "sentence": "她的身體非常健康。",
+          "pinyin": "tā de shēntǐ fēicháng jiànkāng.",
+          "en": "She is very healthy.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; healthy",
+          "sentence": "早睡才/纔能保持健康。",
+          "pinyin": "zǎo shuì cáinéng bǎochí jiànkāng.",
+          "en": "Going to bed early is essential for maintaining good health.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "保險",
+      "pinyin": "bǎoxiǎn",
+      "en": "insurance",
+      "vi": "bảo hiểm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "insurance",
+          "sentence": "他買了一份人壽保險。",
+          "pinyin": "tā mǎile yī fèn rénshòu bǎoxiǎn.",
+          "en": "He bought a life insurance policy.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "insurance",
+          "sentence": "他是推銷人壽保險的。",
+          "pinyin": "tā shì tuīxiāo rénshòu bǎoxiǎn de.",
+          "en": "He is a life insurance salesman.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "safe",
+          "sentence": "他的做法非常保險。",
+          "pinyin": "tā de zuòfǎ fēicháng bǎoxiǎn.",
+          "en": "His approach is very safe.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "safe",
+          "sentence": "騎車太快可不保險。",
+          "pinyin": "qíchē tài kuài kěbù bǎoxiǎn.",
+          "en": "It's not safe to cycle too fast.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be sure; to be bound to",
+          "sentence": "你保險能成功的。",
+          "pinyin": "nǐ bǎoxiǎn néng chénggōng de.",
+          "en": "You are bound to succeed.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be sure; to be bound to",
+          "sentence": "這項提議保險通過。",
+          "pinyin": "zhè xiàng tíyì bǎoxiǎn tōngguò.",
+          "en": "This proposal is sure to pass.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "跟",
+      "pinyin": "gēn",
+      "en": "with, together with",
+      "vi": "với, cùng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "heel",
+          "sentence": "她愛穿高跟鞋齣門。",
+          "pinyin": "tā ài chuān gāogēnxié chūmén.",
+          "en": "She likes to wear high heels when going out.",
+          "vi": "Cô ấy thích đi giày cao gót khi ra ngoài."
+        },
+        {
+          "type": "Noun",
+          "meaning": "heel",
+          "sentence": "他的腳跟受傷了。",
+          "pinyin": "tā de jiǎogēn shòushāngle.",
+          "en": "His heel was injured.",
+          "vi": "Gót chân của anh ấy bị thương."
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow",
+          "sentence": "他跑得快，我也跟得上。",
+          "pinyin": "tā pǎo dé kuài, wǒ yě gēn dé shàng.",
+          "en": "He runs fast, but I can keep up.",
+          "vi": "Anh ấy chạy rất nhanh, tôi cũng có thể theo kịp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow",
+          "sentence": "他跑得很快，我跟不上。",
+          "pinyin": "tā pǎo dé hěn kuài, wǒ gēn bù shàng.",
+          "en": "He runs very fast, I can’t keep up.",
+          "vi": "Anh ấy chạy nhanh quá, tôi theo không kịp."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with",
+          "sentence": "他跟父母住一塊兒。",
+          "pinyin": "tā gēn fùmǔ zhù yīkuàir.",
+          "en": "He lives together with his parents.",
+          "vi": "Anh ấy sống cùng bố mẹ."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with",
+          "sentence": "我跟你一起去旅行。",
+          "pinyin": "wǒ gēn nǐ yīqǐ qù lǚxíng.",
+          "en": "I will travel with you.",
+          "vi": "Tôi sẽ đi du lịch cùng bạn."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and",
+          "sentence": "車上裝的是機器跟材料。",
+          "pinyin": "chē shàngzhuāng de shì jīqì gēn cáiliào.",
+          "en": "The vehicle is loaded with machines and materials.",
+          "vi": "Trên xe xếp máy móc và vật liệu."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and",
+          "sentence": "他跟我都是越南人。",
+          "pinyin": "tā gēn wǒ dōu shì yuènán rén.",
+          "en": "He and I are both Vietnamese.",
+          "vi": "Anh ấy và tôi đều là người Việt Nam."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "油",
+      "pinyin": "yóu",
+      "en": "oily, greasy",
+      "vi": "dầu mỡ",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "fat; oil (from plants or animals)",
+          "sentence": "橄欖油比較健康。",
+          "pinyin": "gǎnlǎn yóu bǐjiào jiànkāng.",
+          "en": "Olive oil is healthier.",
+          "vi": "Dầu ô liu tương đối lành mạnh."
+        },
+        {
+          "type": "noun",
+          "meaning": "fat; oil (from plants or animals)",
+          "sentence": "我買了花生油。",
+          "pinyin": "wǒ mǎile huāshēngyóu.",
+          "en": "I bought peanut oil.",
+          "vi": "Tôi đã mua dầu đậu phộng."
+        },
+        {
+          "type": "verb",
+          "meaning": "apply tung oil, varnish, or paint",
+          "sentence": "用油漆油一遍。",
+          "pinyin": "yòng yóuqī yóu yībiàn.",
+          "en": "Take a coat of paint.",
+          "vi": "Lấy sơn quét một lượt."
+        },
+        {
+          "type": "verb",
+          "meaning": "apply tung oil, varnish, or paint",
+          "sentence": "他給木門刷油。",
+          "pinyin": "tā gěi mùmén shuā yóu.",
+          "en": "He painted the wooden door.",
+          "vi": "Anh ấy đang sơn cửa."
+        },
+        {
+          "type": "adjective",
+          "meaning": "insincere; cheesy; greasy",
+          "sentence": "他説話太油膩了吧。",
+          "pinyin": "tā shuōhuà tài yóunìle ba.",
+          "en": "His speech is so greasy.",
+          "vi": "Anh ta nói chuyện sến thật."
+        },
+        {
+          "type": "adjective",
+          "meaning": "insincere; cheesy; greasy",
+          "sentence": "這種情話太油了吧。",
+          "pinyin": "zhè zhǒng qínghuà tài yóule ba.",
+          "en": "That's such a cheesy way to say sweet nothings.",
+          "vi": "Mấy lời tình cảm này sến quá đi mất."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "冰",
+      "pinyin": "bīng",
+      "en": "icy",
+      "vi": "đá, lạnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ice",
+          "sentence": "結冰",
+          "pinyin": "jiébīng",
+          "en": "Freeze; ice up",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "ice",
+          "sentence": "水凍成冰。",
+          "pinyin": "shuǐ dòng chéng bīng.",
+          "en": "Water freezes into ice.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "put on ice; freeze; chill",
+          "sentence": "把那瓶啤酒冰上。",
+          "pinyin": "Bǎ nà píng píjiǔ bīng shàng.",
+          "en": "Chill the bottle of beer.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel cold",
+          "sentence": "這水冰手。",
+          "pinyin": "Zhè shuǐ bīng shǒu.",
+          "en": "This water is freezing cold.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "別",
+      "pinyin": "bié",
+      "en": "don't (used in imperatives)",
+      "vi": "đừng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "leave; take one's departure",
+          "sentence": "我們明天就要別離了。",
+          "pinyin": "wǒmen míngtiān jiù yào biélíle.",
+          "en": "We will have to say goodbye tomorrow.",
+          "vi": "Ngày mai chúng ta sắp phải chia tay rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "leave; take one's departure",
+          "sentence": "久別重逢真是開心。",
+          "pinyin": "jiǔbié chóngféng zhēnshi kāixīn.",
+          "en": "It's truly joyful to reunite after a long time apart.",
+          "vi": "Xa nhau lâu ngày gặp lại thật là vui."
+        },
+        {
+          "type": "Noun",
+          "meaning": "distinction; difference",
+          "sentence": "他們的能力天壤之別。",
+          "pinyin": "tāmen de nénglì tiānrǎng zhī bié.",
+          "en": "Their abilities are worlds apart.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "distinction; difference",
+          "sentence": "中越的文化有區別。",
+          "pinyin": "zhōngyuè de wénhuà yǒu qūbié.",
+          "en": "The culture of China and Vietnam is different.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "other; another; some other",
+          "sentence": "不要讓別人知道。",
+          "pinyin": "bùyào ràng biérén zhīdào.",
+          "en": "Don't let others know.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "other; another; some other",
+          "sentence": "還有別的顏色嗎？",
+          "pinyin": "hái yǒu bié de yánsè ma?",
+          "en": "Are there other colors?",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "don't",
+          "sentence": "你別走，在這兒住兩天吧。",
+          "pinyin": "nǐ bié zǒu, zài zhèr zhù liǎng tiān ba.",
+          "en": "Don’t go, stay here for a couple of days.",
+          "vi": "Anh đừng đi, hãy ở lại đây vài hôm nữa."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "don't",
+          "sentence": "大傢都很嚴肅，別開玩笑。",
+          "pinyin": "dàjiā dōu hěn yánsù, bié kāiwánxiào.",
+          "en": "Everyone is serious, don’t joke around.",
+          "vi": "Mọi người đều nghiêm túc, đừng đùa."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "關心",
+      "pinyin": "guānxīn",
+      "en": "to be concerned about",
+      "vi": "quan tâm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "care for; concerned about; express interest in; show solicitude for",
+          "sentence": "我知道你很關心這件事。",
+          "pinyin": "wǒ zhīdào nǐ hěn guānxīn zhè jiàn shì.",
+          "en": "I know you are very concerned about this matter.",
+          "vi": "Tôi biết bạn rất quan tâm đến việc này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "care for; concerned about; express interest in; show solicitude for",
+          "sentence": "他關心地問我：”你好嗎“？",
+          "pinyin": "tā guānxīn de wèn wǒ:” nǐ hǎo ma “?",
+          "en": "He asked me with concern, \"How are you?\"",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "包",
+      "pinyin": "bāo",
+      "en": "measure word for bags, packages etc.",
+      "vi": "gói, bao",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "wrap",
+          "sentence": "用佈把傷口包起來。",
+          "pinyin": "yòng bù bǎ shāngkǒu bāo qǐlái.",
+          "en": "Use a cloth to wrap up the wound.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "wrap",
+          "sentence": "我媽媽在包餃子。",
+          "pinyin": "wǒ māma zài bāo jiǎozi.",
+          "en": "My mom is making dumplings.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "bundle; parcel; package",
+          "sentence": "這是你的藥包。",
+          "pinyin": "zhè shì nǐ de yào bāo.",
+          "en": "This is your medicine bag.",
+          "vi": "Đây là gói thuốc của bạn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "bundle; parcel; package",
+          "sentence": "這個郵包寄給誰的？",
+          "pinyin": "zhège yóubāo jì gěi shéi de?",
+          "en": "Who is this package sent to?",
+          "vi": "Gói bưu phẩm này gửi cho ai?"
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "bundle; package",
+          "sentence": "他買了一包香煙。",
+          "pinyin": "tā mǎile yī bāo xiāngyān.",
+          "en": "He bought a pack of cigarettes.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "bundle; package",
+          "sentence": "廚房有兩包大米。",
+          "pinyin": "chúfáng yǒu liǎng bāo dàmǐ.",
+          "en": "There are two bags of rice in the kitchen.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "睡",
+      "pinyin": "shuì",
+      "en": "to sleep",
+      "vi": "ngủ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sleep",
+          "sentence": "八點了，他還在睡覺。",
+          "pinyin": "bā diǎnle, tā hái zài shuìjiào.",
+          "en": "It's 8 o'clock, he's still sleeping.",
+          "vi": "8 giờ rồi anh ấy vẫn đang ngủ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "sleep",
+          "sentence": "孩子們已經睡著了。",
+          "pinyin": "háizimen yǐjīng shuìzháole.",
+          "en": "The children have already fallen asleep.",
+          "vi": "Bọn trẻ đã ngủ rồi."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "小時",
+      "pinyin": "xiǎoshí",
+      "en": "hour",
+      "vi": "tiếng đồng hồ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hour",
+          "sentence": "這部電影隻有一個小時。",
+          "pinyin": "zhè bù diànyǐng zhī yǒu yīgè xiǎoshí.",
+          "en": "This movie is only one hour long.",
+          "vi": "Bộ phim này chỉ dài một giờ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hour",
+          "sentence": "她的課時長一個小時。",
+          "pinyin": "tā de kè shícháng yīgè xiǎoshí.",
+          "en": "Her class lasts one hour.",
+          "vi": "Tiết học của cô ấy dài một giờ."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "hour",
+          "sentence": "我每天工作八小時。",
+          "pinyin": "wǒ měitiān gōngzuò bā xiǎoshí.",
+          "en": "I work eight hours every day.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "hour",
+          "sentence": "一小時內完成任務。",
+          "pinyin": "yī xiǎoshí nèi wánchéng rènwù.",
+          "en": "Complete the task within one hour.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "早一點",
+      "pinyin": "zǎo yìdiǎn",
+      "en": "a bit earlier",
+      "vi": "sớm một chút",
+      "samples": [
+        {
+          "type": "time, n",
+          "meaning": "morning",
+          "sentence": "她今天一大早就走了。",
+          "pinyin": "tā jīntiān yī dà zǎo jiù zǒule.",
+          "en": "She left early in the morning today.",
+          "vi": ""
+        },
+        {
+          "type": "time, n",
+          "meaning": "morning",
+          "sentence": "早上的空氣很清新。",
+          "pinyin": "zǎoshang de kōngqì hěn qīngxīn.",
+          "en": "The morning air is very fresh.",
+          "vi": "Không khí buổi sáng rất trong lành."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "long ago; as early as; for a long time",
+          "sentence": "這本書我早就看過了。",
+          "pinyin": "zhè běn shū wǒ zǎo jiù kànguòle.",
+          "en": "I read this book a long time ago.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "long ago; as early as; for a long time",
+          "sentence": "我早就知道這件事。",
+          "pinyin": "wǒ zǎo jiù zhīdào zhè jiàn shì.",
+          "en": "I have known about this for a long time.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "early; earlier than scheduled or planned",
+          "sentence": "我早早兒就迴傢了。",
+          "pinyin": "wǒ zǎozǎor jiù huí jiāle.",
+          "en": "I went home quite early.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "early; earlier than scheduled or planned",
+          "sentence": "我今天來得太早了。",
+          "pinyin": "wǒ jīntiān láidé tài zǎole.",
+          "en": "I came too early today.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "怎麼了",
+      "pinyin": "zěnme le",
+      "en": "What's wrong?",
+      "vi": "sao vậy, có chuyện gì vậy",
+      "samples": [
+        {
+          "type": "sentence",
+          "meaning": "What's up?; What happened?; What's going on?",
+          "sentence": "高經理，你怎麼了？",
+          "pinyin": "gāo jīnglǐ, nǐ zěnmele?",
+          "en": "Manager Gao, what's wrong with you?",
+          "vi": "Giám đốc Cao, ông sao vậy?"
+        },
+        {
+          "type": "sentence",
+          "meaning": "What's up?; What happened?; What's going on?",
+          "sentence": "你怎麼了？沒事吧？",
+          "pinyin": "nǐ zěnmele? méishì ba?",
+          "en": "What's wrong? Are you okay?",
+          "vi": "Anh sao vậy? Không sao chứ?"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "不用了",
+      "pinyin": "búyòng le",
+      "en": "It's not necessary.",
+      "vi": "không cần đâu",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "terrible; horrible; desperately serious",
+          "sentence": "萬一齣了岔子，那可不得了。",
+          "pinyin": "wànyī chū le chàzi，nà kě bùdéliǎo。",
+          "en": "If anything goes wrong, it will be a big disaster.",
+          "vi": "Lỡ mà xảy ra sự cố thì nguy mất."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "terrible; horrible; desperately serious",
+          "sentence": "哎呀，不得了，著火了！快，救人！",
+          "pinyin": "āiyā, bùdéliǎo, zháohuǒle! kuài, jiù rén!",
+          "en": "Oh no, there's a fire! Quickly, save people!",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "健康中心",
+      "pinyin": "jiànkāng zhōngxīn",
+      "en": "health center",
+      "vi": "trung tâm sức khỏe",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "health; physique",
+          "sentence": "抽煙對健康不好。",
+          "pinyin": "chōuyān duì jiànkāng bù hǎo.",
+          "en": "Smoking is bad for health.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "health; physique",
+          "sentence": "人民的健康很重要。",
+          "pinyin": "rénmín de jiànkāng hěn zhòngyào.",
+          "en": "People's health is very important.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; healthy",
+          "sentence": "她的身體非常健康。",
+          "pinyin": "tā de shēntǐ fēicháng jiànkāng.",
+          "en": "She is very healthy.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fit; healthy",
+          "sentence": "早睡才/纔能保持健康。",
+          "pinyin": "zǎo shuì cáinéng bǎochí jiànkāng.",
+          "en": "Going to bed early is essential for maintaining good health.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "回家",
+      "pinyin": "huí jiā",
+      "en": "go home",
+      "vi": "về nhà",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go (come) home; be home; return home",
+          "sentence": "你什麼時候迴傢？",
+          "pinyin": "nǐ shénme shíhòu huí jiā?",
+          "en": "When will you go home?",
+          "vi": "Khi nào bạn về nhà?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "go (come) home; be home; return home",
+          "sentence": "他們昨天剛剛迴傢。",
+          "pinyin": "tāmen zuótiān gānggāng huí jiā.",
+          "en": "They just went home yesterday.",
+          "vi": "Họ mới vừa về nhà hôm qua."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "最好",
+      "pinyin": "zuìhǎo",
+      "en": "It would be best.../ (You) should...",
+      "vi": "tốt nhất",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "best; first-rate",
+          "sentence": "他曾是洛杉磯舞跳得最好的人。",
+          "pinyin": "tā céng shì luòshānjī wǔ tiào dé zuì hǎo de rén.",
+          "en": "He was the best dancer in LA.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "best; first-rate",
+          "sentence": "我們隻提供最好的東西給顧客。",
+          "pinyin": "wǒmen zhǐ tígōng zuì hǎo de dōngxi gěi gùkè.",
+          "en": "We offer only the best to our clients.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "had better; it would be best",
+          "sentence": "我們今天最好留在傢裡/裏。",
+          "pinyin": "wǒmen jīntiān zuì hǎo liú zài jiālǐ.",
+          "en": "We'd better stay at home today.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "had better; it would be best",
+          "sentence": "你最好找醫生治治你的咳嗽。",
+          "pinyin": "nǐ zuì hǎo zhǎo yīshēng zhì zhì nǐ de késòu.",
+          "en": "You'd better see a doctor about that cough.",
+          "vi": ""
+        }
+      ]
+    }
   ]
 }

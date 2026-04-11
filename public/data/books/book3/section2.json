@@ -7,617 +7,1777 @@
       "id": 1,
       "chinese": "起",
       "pinyin": "qǐ",
-      "english": "starting from",
-      "sentenceChinese": "這家店今天的衣服八折起。",
-      "sentencePinyin": "Zhè jiā diàn jīntiān de yīfú bā zhé qǐ.",
-      "sentenceEnglish": "Clothes in this store start at twenty percent off today.",
-      "vietnamese": "từ; trở lên",
-      "sentenceVietnamese": "Hôm nay quần áo ở cửa hàng này được giảm từ 20% trở lên."
+      "en": "starting from",
+      "vi": "từ; trở lên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rise; get up; stand up",
+          "sentence": "今天睡到上午10點才/纔起。",
+          "pinyin": "jīntiān shuì dào shàngwǔ shí diǎn cái qǐ.",
+          "en": "I didn’t get up until 10 a.m. today.",
+          "vi": "Nay ngủ đến 10 giờ mới dậy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "rise; get up; stand up",
+          "sentence": "早睡早起對身體好。",
+          "pinyin": "zǎo shuì zǎoqǐ duì shēntǐ hǎo.",
+          "en": "Going to bed early and getting up early is good for your health.",
+          "vi": "Ngủ sớm dậy sớm tốt cho sức khỏe."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "case; instance",
+          "sentence": "這是一起嚴重事故。",
+          "pinyin": "zhè shì yīqǐ yánzhòng shìgù.",
+          "en": "This is a serious accident.",
+          "vi": "Đây là một vụ tai nạn nghiêm trọng."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "case; instance",
+          "sentence": "那是一起盜竊案件。",
+          "pinyin": "nà shì yīqǐ dàoqiè ànjiàn.",
+          "en": "That is a theft case.",
+          "vi": "Đó là một vụ án trộm cắp."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from",
+          "sentence": "您起哪兒來？",
+          "pinyin": "nín qǐ nǎr lái?",
+          "en": "Where are you coming from?",
+          "vi": "Anh từ đâu đến?"
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from",
+          "sentence": "起公司去商場要10分鍾。",
+          "pinyin": "qǐ gōngsī qù shāngchǎng yào 10 fēnzhōng.",
+          "en": "It takes 10 minutes to go from the company to the mall.",
+          "vi": "Từ công ty đến trung tâm mua sắm mất 10 phút."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "外套",
       "pinyin": "wàitào",
-      "english": "coat; jacket",
-      "sentenceChinese": "這件外套穿起來很暖和。",
-      "sentencePinyin": "Zhè jiàn wàitào chuān qǐlái hěn nuǎnhuo.",
-      "sentenceEnglish": "This coat feels very warm when you put it on.",
-      "vietnamese": "áo khoác",
-      "sentenceVietnamese": "Chiếc áo khoác này mặc vào rất ấm."
+      "en": "coat; jacket",
+      "vi": "áo khoác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "coat; jacket",
+          "sentence": "這件外套很適閤你。",
+          "pinyin": "zhè jiàn wàitào hěn shìhé nǐ.",
+          "en": "This coat suits you very well.",
+          "vi": "Chiếc áo khoác này rất hợp với bạn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "coat; jacket",
+          "sentence": "他買了一件新外套。",
+          "pinyin": "tā mǎile yī jiàn xīn wàitào.",
+          "en": "He bought a new coat.",
+          "vi": "Anh ấy đã mua một chiếc áo khoác mới."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "一般",
       "pinyin": "yìbān",
-      "english": "generally; usually",
-      "sentenceChinese": "這個牌子的衣服一般都不便宜。",
-      "sentencePinyin": "Zhè ge páizi de yīfú yìbān dōu bù piányi.",
-      "sentenceEnglish": "Clothes from this brand are usually not cheap.",
-      "vietnamese": "thông thường; nói chung",
-      "sentenceVietnamese": "Quần áo của thương hiệu này nhìn chung không rẻ."
+      "en": "generally; usually",
+      "vi": "thông thường; nói chung",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "same as; just like",
+          "sentence": "哥兒倆長得一般高。",
+          "pinyin": "gēr liǎ zhǎng de yībān gāo.",
+          "en": "The two brothers are about the same height.",
+          "vi": "Hai anh em cao như nhau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "same as; just like",
+          "sentence": "火車飛一般地嚮前馳去。",
+          "pinyin": "huǒchē fēi yībān de xiàng qián chí qù.",
+          "en": "The train sped forward like it was flying.",
+          "vi": "Xe lửa lao về phía trước như bay."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; usually; frequently",
+          "sentence": "他一般六點起床/牀。",
+          "pinyin": "tā yībān liù diǎn qǐchuáng.",
+          "en": "He usually gets up at six o'clock.",
+          "vi": "Anh ấy thường thức dậy lúc sáu giờ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; usually; frequently",
+          "sentence": "花兒一般在春天盛開。",
+          "pinyin": "huār yībān zài chūntiān shèngkāi.",
+          "en": "Flowers usually bloom in spring.",
+          "vi": "Hoa thường nở vào mùa xuân."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "商品",
       "pinyin": "shāngpǐn",
-      "english": "goods; products",
-      "sentenceChinese": "店裡的新商品今天剛到。",
-      "sentencePinyin": "Diàn lǐ de xīn shāngpǐn jīntiān gāng dào.",
-      "sentenceEnglish": "The store’s new products arrived today.",
-      "vietnamese": "sản phẩm; hàng hóa",
-      "sentenceVietnamese": "Hàng mới của cửa hàng hôm nay vừa về."
+      "en": "goods; products",
+      "vi": "sản phẩm; hàng hóa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "goods; commodity; merchandise",
+          "sentence": "我在網上買了很多商品。",
+          "pinyin": "wǒ zài wǎngshàng mǎile hěnduō shāngpǐn.",
+          "en": "I bought a lot of goods online.",
+          "vi": "Tôi đã mua rất nhiều sản phẩm trên mạng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "goods; commodity; merchandise",
+          "sentence": "這傢店的商品很豐富。",
+          "pinyin": "zhè jiā diàn de shāngpǐn hěn fēngfù.",
+          "en": "The merchandise in this store is very diverse.",
+          "vi": "Cửa hàng này có nhiều loại hàng hóa phong phú."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "折扣",
       "pinyin": "zhékòu",
-      "english": "discount",
-      "sentenceChinese": "這雙鞋的折扣很吸引人。",
-      "sentencePinyin": "Zhè shuāng xié de zhékòu hěn xīyǐn rén.",
-      "sentenceEnglish": "The discount on these shoes is very attractive.",
-      "vietnamese": "mức giảm giá",
-      "sentenceVietnamese": "Mức giảm giá của đôi giày này rất hấp dẫn."
+      "en": "discount",
+      "vi": "mức giảm giá",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rebate; discount",
+          "sentence": "這次購物的摺釦很大。",
+          "pinyin": "zhè cì gòuwù de zhékòu hěn dà.",
+          "en": "The discount for this shopping is very large.",
+          "vi": "Giảm giá trong đợt mua sắm này rất lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "rebate; discount",
+          "sentence": "摺釦後的價格比原價低。",
+          "pinyin": "zhékòu hòu de jiàgé bǐ yuánjià dī.",
+          "en": "The price after the discount is lower than the original price.",
+          "vi": "Giá sau giảm giá thấp hơn giá gốc."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "省",
       "pinyin": "shěng",
-      "english": "to save",
-      "sentenceChinese": "趁打折的時候買最省錢。",
-      "sentencePinyin": "Chèn dǎzhé de shíhòu mǎi zuì shěng qián.",
-      "sentenceEnglish": "Buying during a sale saves the most money.",
-      "vietnamese": "tiết kiệm",
-      "sentenceVietnamese": "Mua lúc giảm giá là tiết kiệm tiền nhất."
+      "en": "to save",
+      "vi": "tiết kiệm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "save; economize",
+          "sentence": "我們需要節省錢。",
+          "pinyin": "wǒmen xūyào jiéshěng qián.",
+          "en": "We need to save money.",
+          "vi": "Chúng ta cần phải tiết kiệm tiền."
+        },
+        {
+          "type": "Verb",
+          "meaning": "save; economize",
+          "sentence": "努力節省電吧。",
+          "pinyin": "nǔlì jiéshěng diàn ba.",
+          "en": "Try hard to save electricity.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "province",
+          "sentence": "你來自哪個省？",
+          "pinyin": "nǐ láizì nǎge shěng?",
+          "en": "Which province are you from?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "province",
+          "sentence": "越南有63個省份。",
+          "pinyin": "yuènán yǒu 63 gè shěngfèn.",
+          "en": "Vietnam has 63 provinces.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "牌子",
       "pinyin": "páizi",
-      "english": "brand",
-      "sentenceChinese": "這個牌子的包包很受歡迎。",
-      "sentencePinyin": "Zhè ge páizi de bāobāo hěn shòu huānyíng.",
-      "sentenceEnglish": "Bags from this brand are very popular.",
-      "vietnamese": "thương hiệu; nhãn hiệu",
-      "sentenceVietnamese": "Túi của thương hiệu này rất được ưa chuộng."
+      "en": "brand",
+      "vi": "thương hiệu; nhãn hiệu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sign; plate",
+          "sentence": "他不認識牌子上的外文。",
+          "pinyin": "tā bù rèn shi páizi shàng de wàiwén.",
+          "en": "He doesn't understand the foreign language on the sign.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sign; plate",
+          "sentence": "這塊牌子上的字很清晰。",
+          "pinyin": "tā bù rènshi páizi shàng de wàiwén.",
+          "en": "The characters on this sign are very clear.",
+          "vi": "Chữ viết trên tấm biển này rất rõ ràng."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "品質",
       "pinyin": "pǐnzhì",
-      "english": "quality",
-      "sentenceChinese": "這家店的商品品質很好。",
-      "sentencePinyin": "Zhè jiā diàn de shāngpǐn pǐnzhì hěn hǎo.",
-      "sentenceEnglish": "The products in this store are of good quality.",
-      "vietnamese": "chất lượng",
-      "sentenceVietnamese": "Chất lượng hàng ở cửa hàng này rất tốt."
+      "en": "quality",
+      "vi": "chất lượng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "quality; character",
+          "sentence": "我了解他的品質。",
+          "pinyin": "wǒ liǎojiě tā de pǐnzhì.",
+          "en": "I know his character.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "quality; character",
+          "sentence": "她有很多良好的品質。",
+          "pinyin": "tā yǒu hěnduō liánghǎo de pǐnzhì.",
+          "en": "She has many good qualities.",
+          "vi": "Cô ấy có nhiều phẩm chất tốt đẹp."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "選擇",
       "pinyin": "xuǎnzé",
-      "english": "choice; to choose",
-      "sentenceChinese": "這裡的顏色很多，你可以慢慢選擇。",
-      "sentencePinyin": "Zhèlǐ de yánsè hěn duō, nǐ kěyǐ mànman xuǎnzé.",
-      "sentenceEnglish": "There are many colors here, so you can choose slowly.",
-      "vietnamese": "lựa chọn",
-      "sentenceVietnamese": "Ở đây có nhiều màu lắm, bạn có thể từ từ chọn."
+      "en": "choice; to choose",
+      "vi": "lựa chọn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "select; choose",
+          "sentence": "這些禮物，你選擇一個吧！",
+          "pinyin": "zhèxiē lǐwù, nǐ xuǎnzé yīgè ba!",
+          "en": "The choice is yours. Pick any gift you like.",
+          "vi": "Cậu hãy chọn một trong những món quà này đi!"
+        },
+        {
+          "type": "Verb",
+          "meaning": "select; choose",
+          "sentence": "我選擇明天去爬山。",
+          "pinyin": "wǒ xuǎnzé míngtiān qù páshān.",
+          "en": "I will choose to go hiking tomorrow.",
+          "vi": "Tôi chọn đi leo núi vào ngày mai."
+        },
+        {
+          "type": "Noun",
+          "meaning": "choice",
+          "sentence": "這是一個別無選擇的決定。",
+          "pinyin": "zhè shì yīgè bié wú xuǎnzé de juédìng.",
+          "en": "There was no other choice.",
+          "vi": "Đây là một quyết định không có sự lựa chọn nào khác."
+        },
+        {
+          "type": "Noun",
+          "meaning": "choice",
+          "sentence": "我們要為自己的選擇負責。",
+          "pinyin": "wǒmen yào wèi zìjǐ de xuǎnzé fùzé.",
+          "en": "We are responsible for our own choices.",
+          "vi": "Chúng ta phải chịu trách nhiệm về lựa chọn của mình."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "樣子",
       "pinyin": "yàngzi",
-      "english": "appearance; style",
-      "sentenceChinese": "這件衣服的樣子很簡單。",
-      "sentencePinyin": "Zhè jiàn yīfú de yàngzi hěn jiǎndān.",
-      "sentenceEnglish": "This piece of clothing has a very simple style.",
-      "vietnamese": "kiểu dáng; vẻ ngoài",
-      "sentenceVietnamese": "Kiểu dáng của bộ quần áo này rất đơn giản."
+      "en": "appearance; style",
+      "vi": "kiểu dáng; vẻ ngoài",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "shape; appearance",
+          "sentence": "這個花瓶的樣子很特別。",
+          "pinyin": "zhège huāpíng de yàngzi hěn tèbié.",
+          "en": "The shape of this vase is very special.",
+          "vi": "Bình hoa này có kiểu dáng rất đặc biệt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "shape; appearance",
+          "sentence": "這張桌子的樣子有點舊。",
+          "pinyin": "zhè zhāng zhuōzi de yàngzi yǒudiǎn jiù.",
+          "en": "The shape of this table is a bit old.",
+          "vi": "Hình dạng của cái bàn này có hơi cũ."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "摸",
       "pinyin": "mō",
-      "english": "to touch; to feel",
-      "sentenceChinese": "你摸摸看，這件毛衣很軟。",
-      "sentencePinyin": "Nǐ mōmo kàn, zhè jiàn máoyī hěn ruǎn.",
-      "sentenceEnglish": "Feel it. This sweater is very soft.",
-      "vietnamese": "sờ; chạm",
-      "sentenceVietnamese": "Bạn sờ thử xem, chiếc áo len này rất mềm."
+      "en": "to touch; to feel",
+      "vi": "sờ; chạm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "feel; stroke; touch",
+          "sentence": "我摸了摸他的臉。",
+          "pinyin": "wǒ mōle mō tā de liǎn.",
+          "en": "I touched his face.",
+          "vi": "Tôi sờ lên mặt anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel; stroke; touch",
+          "sentence": "別摸我的東西。",
+          "pinyin": "bié mō wǒ de dōngxi.",
+          "en": "Don't touch my things.",
+          "vi": "Đừng có sờ vào đồ của tôi."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "店員",
       "pinyin": "diànyuán",
-      "english": "shop assistant; store clerk",
-      "sentenceChinese": "店員很有耐心地幫我找尺寸。",
-      "sentencePinyin": "Diànyuán hěn yǒu nàixīn de bāng wǒ zhǎo chǐcùn.",
-      "sentenceEnglish": "The shop assistant patiently helped me find my size.",
-      "vietnamese": "nhân viên cửa hàng",
-      "sentenceVietnamese": "Nhân viên cửa hàng rất kiên nhẫn giúp tôi tìm kích cỡ."
+      "en": "shop assistant; store clerk",
+      "vi": "nhân viên cửa hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "clerk; salesclerk",
+          "sentence": "我想問店員一些問題。",
+          "pinyin": "wǒ xiǎng wèn diànyuán yīxiē wèntí.",
+          "en": "I want to ask the shop assistant some questions.",
+          "vi": "Tôi muốn hỏi nhân viên cửa hàng một số câu hỏi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "clerk; salesclerk",
+          "sentence": "店員正在整理貨物。",
+          "pinyin": "diànyuán zhèngzài zhěnglǐ huòwù.",
+          "en": "The shop assistant is organizing the goods.",
+          "vi": "Nhân viên cửa hàng đang sắp xếp hàng hóa."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "短",
       "pinyin": "duǎn",
-      "english": "short",
-      "sentenceChinese": "這條裙子對我來說太短了。",
-      "sentencePinyin": "Zhè tiáo qúnzi duì wǒ lái shuō tài duǎn le.",
-      "sentenceEnglish": "This skirt is too short for me.",
-      "vietnamese": "ngắn",
-      "sentenceVietnamese": "Chiếc váy này đối với tôi thì hơi ngắn."
+      "en": "short",
+      "vi": "ngắn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "short",
+          "sentence": "她穿著一條短裙。",
+          "pinyin": "tā chuānzhe yītiáo duǎn qún.",
+          "en": "She is wearing a short skirt.",
+          "vi": "Cô ấy mặc chiếc váy ngắn xinh đẹp."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "short",
+          "sentence": "他隨身攜帶一把短刀。",
+          "pinyin": "tā suíshēn xiédài yī bǎ duǎndāo.",
+          "en": "He carries a short knife with him.",
+          "vi": "Anh ấy mang theo một con dao ngắn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "owe; lack",
+          "sentence": "這個月工資短了。",
+          "pinyin": "zhège yuè gōngzī duǎnle.",
+          "en": "The salary this month is short.",
+          "vi": "Tháng này lương bị thiếu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "owe; lack",
+          "sentence": "我們的預算短缺了。",
+          "pinyin": "wǒmen de yùsuàn duǎnquēle.",
+          "en": "Our budget is short.",
+          "vi": "Ngân sách của chúng ta bị thiếu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fault; failing; weak point",
+          "sentence": "每個人都有自己的短處。",
+          "pinyin": "měi gèrén dōu yǒu zìjǐ de duǎnchu.",
+          "en": "Everyone has their own shortcomings.",
+          "vi": "Ai ai cũng có khuyết điểm riêng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "fault; failing; weak point",
+          "sentence": "短處是人性的一部分。",
+          "pinyin": "duǎnchu shì rénxìng de yībùfen.",
+          "en": "Shortcomings are a part of human nature.",
+          "vi": "Điểm yếu là một phần của con người."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "羊毛",
       "pinyin": "yángmáo",
-      "english": "wool",
-      "sentenceChinese": "這件大衣是羊毛做的。",
-      "sentencePinyin": "Zhè jiàn dàyī shì yángmáo zuò de.",
-      "sentenceEnglish": "This coat is made of wool.",
-      "vietnamese": "len cừu",
-      "sentenceVietnamese": "Chiếc áo khoác này được làm bằng len cừu."
+      "en": "wool",
+      "vi": "len cừu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wool; fleece",
+          "sentence": "農場的工人正在剪羊毛。",
+          "pinyin": "nóngchǎng de gōngrén zhèngzài jiǎn yángmáo.",
+          "en": "The workers on the farm are shearing wool.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "wool; fleece",
+          "sentence": "每年春天需要給羊剪羊毛。",
+          "pinyin": "měinián chūntiān xūyào gěi yáng jiǎn yángmáo.",
+          "en": "Every spring, the sheep need to be sheared.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "暖和",
       "pinyin": "nuǎnhuo",
-      "english": "warm",
-      "sentenceChinese": "今天穿這件外套很暖和。",
-      "sentencePinyin": "Jīntiān chuān zhè jiàn wàitào hěn nuǎnhuo.",
-      "sentenceEnglish": "Wearing this coat today is nice and warm.",
-      "vietnamese": "ấm áp",
-      "sentenceVietnamese": "Hôm nay mặc chiếc áo khoác này rất ấm."
+      "en": "warm",
+      "vi": "ấm áp",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "warm",
+          "sentence": "爐子一著，屋裡/裏就暖和了。",
+          "pinyin": "lúzi yī zhuó, wū lǐ jiù nuǎnhuo le.",
+          "en": "The room became warm when the fire got going.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "warm",
+          "sentence": "天氣越來越暖和了。",
+          "pinyin": "tiān qì yuè lái yuè nuǎn hé le.",
+          "en": "It's getting warmer day by day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "打折",
       "pinyin": "dǎzhé",
-      "english": "to be on sale; to discount",
-      "sentenceChinese": "這件外套現在正在打折。",
-      "sentencePinyin": "Zhè jiàn wàitào xiànzài zhèngzài dǎzhé.",
-      "sentenceEnglish": "This coat is on sale right now.",
-      "vietnamese": "giảm giá",
-      "sentenceVietnamese": "Chiếc áo khoác này hiện đang được giảm giá."
+      "en": "to be on sale; to discount",
+      "vi": "giảm giá",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "discount; give a discount",
+          "sentence": "她喜歡打摺時購物。",
+          "pinyin": "tā xǐhuān dǎzhé shí gòuwù.",
+          "en": "She enjoys shopping when there are discounts.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "discount; give a discount",
+          "sentence": "這件衣服打摺嗎？",
+          "pinyin": "zhèjiànyīfúdǎzhéma?",
+          "en": "Is there any discount for these clothes?",
+          "vi": "Bộ quần áo này có chiết khấu không?"
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "原價",
       "pinyin": "yuánjià",
-      "english": "original price",
-      "sentenceChinese": "這件衣服的原價是一千二百塊。",
-      "sentencePinyin": "Zhè jiàn yīfú de yuánjià shì yìqiān èrbǎi kuài.",
-      "sentenceEnglish": "The original price of this item was 1,200 dollars.",
-      "vietnamese": "giá gốc",
-      "sentenceVietnamese": "Giá gốc của món đồ này là 1.200 tệ."
+      "en": "original price",
+      "vi": "giá gốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "original price; prime cost",
+          "sentence": "這件衣服原價兩百元。",
+          "pinyin": "zhè jiàn yīfu yuánjià liǎng bǎi yuán.",
+          "en": "The original price of this piece of clothing is 200 yuan.",
+          "vi": "Chiếc áo này giá gốc hai trăm tệ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "original price; prime cost",
+          "sentence": "書店的書按原價賣。",
+          "pinyin": "shūdiàn de shū àn yuánjià mài.",
+          "en": "The books in the bookstore are sold at their original price.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "刷卡",
       "pinyin": "shuākǎ",
-      "english": "to pay by card",
-      "sentenceChinese": "這裡可以刷卡嗎？",
-      "sentencePinyin": "Zhèlǐ kěyǐ shuākǎ ma?",
-      "sentenceEnglish": "Can I pay by card here?",
-      "vietnamese": "quẹt thẻ; thanh toán bằng thẻ",
-      "sentenceVietnamese": "Ở đây có thể thanh toán bằng thẻ không?"
+      "en": "to pay by card",
+      "vi": "quẹt thẻ; thanh toán bằng thẻ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to swipe a card (against/through an electronic reader)",
+          "sentence": "我在超市用信用卡刷卡。",
+          "pinyin": "wǒ zài chāoshì yòng xìnyòngkǎ shuākǎ.",
+          "en": "I swipe my credit card at the supermarket.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to swipe a card (against/through an electronic reader)",
+          "sentence": "你可以用銀行卡刷卡支付。",
+          "pinyin": "nǐ kěyǐ yòng yínháng kǎ shuākǎ zhīfù.",
+          "en": "You can pay using your bank card.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "現金",
       "pinyin": "xiànjīn",
-      "english": "cash",
-      "sentenceChinese": "這家小店只收現金。",
-      "sentencePinyin": "Zhè jiā xiǎodiàn zhǐ shōu xiànjīn.",
-      "sentenceEnglish": "This small shop only accepts cash.",
-      "vietnamese": "tiền mặt",
-      "sentenceVietnamese": "Cửa hàng nhỏ này chỉ nhận tiền mặt."
+      "en": "cash",
+      "vi": "tiền mặt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cash; ready money",
+          "sentence": "請問可以付現金嗎？",
+          "pinyin": "qǐngwèn kěyǐ fù xiànjīn ma?",
+          "en": "May I pay in cash?",
+          "vi": "Xin hỏi có thể thanh toán bằng tiền mặt không?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "cash; ready money",
+          "sentence": "我們這兒隻收現金。",
+          "pinyin": "wǒmen zhèr zhǐ shōu xiànjīn.",
+          "en": "We only accept cash here.",
+          "vi": "Ở đây chúng tôi chỉ nhận tiền mặt."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "麻煩",
       "pinyin": "máfan",
-      "english": "trouble; to trouble someone",
-      "sentenceChinese": "麻煩你幫我拿小一號的，好嗎？",
-      "sentencePinyin": "Máfan nǐ bāng wǒ ná xiǎo yí hào de, hǎo ma?",
-      "sentenceEnglish": "Could you please get me one size smaller?",
-      "vietnamese": "phiền; làm phiền",
-      "sentenceVietnamese": "Phiền bạn lấy giúp tôi cỡ nhỏ hơn một chút được không?"
+      "en": "trouble; to trouble someone",
+      "vi": "phiền; làm phiền",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trouble; inconvenience",
+          "sentence": "他在工作上碰到了大麻煩。",
+          "pinyin": "tā zài gōngzuò shàng pèngdào le dà máfan.",
+          "en": "He's in big trouble at work.",
+          "vi": "Anh ấy đang gặp rắc rối lớn ở nơi làm việc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "trouble; inconvenience",
+          "sentence": "公司的財務齣現了麻煩。",
+          "pinyin": "gōngsī de cáiwù chūxiàn le máfan.",
+          "en": "The company's finances are in trouble.",
+          "vi": "Tài chính của công ty đang gặp phiền phức."
+        },
+        {
+          "type": "Verb",
+          "meaning": "bother; to trouble; trouble sb; put out; put about",
+          "sentence": "麻煩你小聲一點。",
+          "pinyin": "máfan nǐ xiǎoshēng yīdiǎn.",
+          "en": "Trouble you to lower your voice.",
+          "vi": "Phiền bạn nhỏ tiếng một chút."
+        },
+        {
+          "type": "Verb",
+          "meaning": "bother; to trouble; trouble sb; put out; put about",
+          "sentence": "麻煩您幫我遞一下那本書。",
+          "pinyin": "máfan nín bāng wǒ dì yīxià nà běn shū.",
+          "en": "Could you put that book over here?",
+          "vi": "Phiền ngài đưa giúp tôi quyền sách đó."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "troublesome; inconvenient",
+          "sentence": "安裝這個傢具太麻煩了。",
+          "pinyin": "ānzhuāng zhège jiājù tài máfan le.",
+          "en": "It's too much trouble to install this furniture.",
+          "vi": "Lắp đặt cái nội thất này rắc rối quá."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "troublesome; inconvenient",
+          "sentence": "這件事情處理起來很麻煩。",
+          "pinyin": "zhè jiàn shìqíng chǔlǐ qǐlái hěn máfan.",
+          "en": "This matter is very troublesome to deal with.",
+          "vi": "Vấn đề này rất rắc rối để giải quyết."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "簽名",
       "pinyin": "qiānmíng",
-      "english": "to sign; signature",
-      "sentenceChinese": "刷卡以後請在這裡簽名。",
-      "sentencePinyin": "Shuākǎ yǐhòu qǐng zài zhèlǐ qiānmíng.",
-      "sentenceEnglish": "Please sign here after paying by card.",
-      "vietnamese": "ký tên; chữ ký",
-      "sentenceVietnamese": "Sau khi quẹt thẻ, vui lòng ký tên ở đây."
+      "en": "to sign; signature",
+      "vi": "ký tên; chữ ký",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "sign one's name; autograph",
+          "sentence": "請在文件上籤名。",
+          "pinyin": "qǐng zài wénjiàn shàng qiānmíng.",
+          "en": "Please sign the document.",
+          "vi": "Xin vui lòng ký tên vào tài liệu này."
+        },
+        {
+          "type": "sv",
+          "meaning": "sign one's name; autograph",
+          "sentence": "他籤名支持這項提案。",
+          "pinyin": "tā qiānmíng zhīchí zhè xiàng tí'àn.",
+          "en": "He signed in support of the proposal.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "signature; autograph",
+          "sentence": "這是我的籤名。",
+          "pinyin": "zhè shì wǒ de qiānmíng.",
+          "en": "This is my signature.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "signature; autograph",
+          "sentence": "她的籤名很漂亮。",
+          "pinyin": "tā de qiānmíng hěn piàoliang.",
+          "en": "Her signature is beautiful.",
+          "vi": "Chữ ký của cô ấy rất đẹp."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "破洞",
       "pinyin": "pòdòng",
-      "english": "hole; ripped spot",
-      "sentenceChinese": "這件褲子有一個破洞。",
-      "sentencePinyin": "Zhè jiàn kùzi yǒu yí ge pòtòng.",
-      "sentenceEnglish": "There is a hole in these pants.",
-      "vietnamese": "lỗ rách",
-      "sentenceVietnamese": "Chiếc quần này có một chỗ bị rách."
+      "en": "hole; ripped spot",
+      "vi": "lỗ rách",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a hole",
+          "sentence": "這條床/牀單上有個破洞。",
+          "pinyin": "zhè tiáo chuángdān shàng yǒu gè pò dòng.",
+          "en": "This sheet has a tear in it.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a hole",
+          "sentence": "這織物上有個破洞。",
+          "pinyin": "zhè zhīwù shàng yǒu gè pò dòng.",
+          "en": "This fabric has a tear in it.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "發票",
       "pinyin": "fāpiào",
-      "english": "receipt",
-      "sentenceChinese": "請把發票收好。",
-      "sentencePinyin": "Qǐng bǎ fāpiào shōu hǎo.",
-      "sentenceEnglish": "Please keep the receipt carefully.",
-      "vietnamese": "hóa đơn",
-      "sentenceVietnamese": "Hãy giữ hóa đơn cẩn thận."
+      "en": "receipt",
+      "vi": "hóa đơn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bill; receipt; invoice",
+          "sentence": "我需要一張髮/發票。",
+          "pinyin": "wǒ xūyào yī zhāng fāpiào.",
+          "en": "I need an invoice.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "bill; receipt; invoice",
+          "sentence": "他們收到了髮/發票副本。",
+          "pinyin": "tāmen shōu dàole fāpiào fùběn.",
+          "en": "They received a copy of the invoice.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "弄",
       "pinyin": "nòng",
-      "english": "to handle; to do; to make",
-      "sentenceChinese": "我不小心把衣服弄髒了。",
-      "sentencePinyin": "Wǒ bù xiǎoxīn bǎ yīfú nòng zāng le.",
-      "sentenceEnglish": "I accidentally got the clothes dirty.",
-      "vietnamese": "làm; làm cho",
-      "sentenceVietnamese": "Tôi lỡ làm bẩn quần áo rồi."
+      "en": "to handle; to do; to make",
+      "vi": "làm; làm cho",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to do, to make",
+          "sentence": "這個問題我沒弄清楚。",
+          "pinyin": "zhège wèntí wǒ méi nòng qīngchǔ.",
+          "en": "I didn't understand this question.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to do, to make",
+          "sentence": "你去弄一弄我的電腦。",
+          "pinyin": "nǐ qù nòng yī nòng wǒ de diànnǎo.",
+          "en": "Please help me fix my computer.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "退",
       "pinyin": "tuì",
-      "english": "to return; to refund",
-      "sentenceChinese": "如果尺寸不合，可以退嗎？",
-      "sentencePinyin": "Rúguǒ chǐcùn bù hé, kěyǐ tuì ma?",
-      "sentenceEnglish": "If the size doesn’t fit, can I return it?",
-      "vietnamese": "trả; hoàn lại",
-      "sentenceVietnamese": "Nếu kích cỡ không vừa thì có thể trả lại không?"
+      "en": "to return; to refund",
+      "vi": "trả; hoàn lại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "retreat; move back",
+          "sentence": "我陷入了進退兩難的境地。",
+          "pinyin": "wǒ xiànrùle jìntuìliǎngnán de jìngdì.",
+          "en": "I was caught in a dilemma with no way forward or back.",
+          "vi": "Tôi rơi vào tình cảnh tiến thoái lưỡng nan."
+        },
+        {
+          "type": "Verb",
+          "meaning": "retreat; move back",
+          "sentence": "請大傢嚮後退。",
+          "pinyin": "qǐng dàjiā xiàng hòutuì.",
+          "en": "Everyone, please step back.",
+          "vi": "Xin mọi người lùi về sau."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "換",
       "pinyin": "huàn",
-      "english": "to exchange; to change",
-      "sentenceChinese": "我想把這件換成藍色的。",
-      "sentencePinyin": "Wǒ xiǎng bǎ zhè jiàn huàn chéng lánsè de.",
-      "sentenceEnglish": "I want to exchange this one for the blue one.",
-      "vietnamese": "đổi",
-      "sentenceVietnamese": "Tôi muốn đổi cái này sang màu xanh."
+      "en": "to exchange; to change",
+      "vi": "đổi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "trade; barter; exchange",
+          "sentence": "我用書換你的筆。",
+          "pinyin": "wǒ yòngshū huàn nǐ de bǐ.",
+          "en": "I exchange my book for your pen.",
+          "vi": "Tôi đổi sách lấy bút của bạn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "trade; barter; exchange",
+          "sentence": "她想用裙子換我的帽子。",
+          "pinyin": "tā xiǎng yòng qúnzi huàn wǒ de màozi.",
+          "en": "She wants to trade her dress for my hat.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "店長",
       "pinyin": "diànzhǎng",
-      "english": "store manager",
-      "sentenceChinese": "有問題的話，可以直接找店長。",
-      "sentencePinyin": "Yǒu wèntí de huà, kěyǐ zhíjiē zhǎo diànzhǎng.",
-      "sentenceEnglish": "If there is a problem, you can speak directly to the store manager.",
-      "vietnamese": "quản lý cửa hàng",
-      "sentenceVietnamese": "Nếu có vấn đề, bạn có thể tìm quản lý cửa hàng trực tiếp."
+      "en": "store manager",
+      "vi": "quản lý cửa hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "store manager",
+          "sentence": "他是這傢店的店長。",
+          "pinyin": "tā shì zhè jiā diàn de diàn zhǎng.",
+          "en": "He is the store manager of this shop.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "store manager",
+          "sentence": "店長今天不在店裡/裏。",
+          "pinyin": "diàn zhǎng jīntiān bùzài diàn lǐ.",
+          "en": "The store manager is not in the store today.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "週年慶",
       "pinyin": "zhōuniánqìng",
-      "english": "anniversary sale",
-      "sentenceChinese": "百貨公司週年慶的折扣最大。",
-      "sentencePinyin": "Bǎihuò gōngsī zhōuniánqìng de zhékòu zuì dà.",
-      "sentenceEnglish": "Department stores have their biggest discounts during anniversary sales.",
-      "vietnamese": "đợt khuyến mãi kỷ niệm năm",
-      "sentenceVietnamese": "Đợt giảm giá nhân dịp kỷ niệm năm của trung tâm thương mại thường giảm mạnh nhất."
+      "en": "anniversary sale",
+      "vi": "đợt khuyến mãi kỷ niệm năm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "circuit",
+          "sentence": "這個城市的週圍有山。",
+          "pinyin": "zhège chéngshì de zhōuwéi yǒu shān.",
+          "en": "There are mountains around this city.",
+          "vi": "Xung quanh thành phố này có núi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "circuit",
+          "sentence": "這個公園的週圍很美。",
+          "pinyin": "zhège gōngyuán de zhōuwéi hěn měi.",
+          "en": "The surroundings of this park are beautiful.",
+          "vi": "Xung quanh công viên này rất đẹp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "make a circuit; move in a circular course",
+          "sentence": "他每天都週遊城市。",
+          "pinyin": "tā měitiān dōu zhōuyóu chéngshì.",
+          "en": "He goes around the city every day.",
+          "vi": "Anh ấy đi vòng quanh thành phố mỗi ngày."
+        },
+        {
+          "type": "Verb",
+          "meaning": "make a circuit; move in a circular course",
+          "sentence": "他很喜歡週遊世界。",
+          "pinyin": "tā hěn xǐhuan zhōuyóu shìjiè.",
+          "en": "He really likes traveling around the world.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "all; whole; entire; all over",
+          "sentence": "他對這個問題很週全。",
+          "pinyin": "tā duì zhège wèntí hěn zhōuquán.",
+          "en": "He is very thorough about this issue.",
+          "vi": "Anh ấy rất toàn diện về vấn đề này."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "all; whole; entire; all over",
+          "sentence": "這本書在全國很週知。",
+          "pinyin": "zhè běn shū zài quánguó hěn zhōuzhī.",
+          "en": "This book is well-known nationwide.",
+          "vi": "Cuốn sách này rất phổ biến trên toàn quốc."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "round; circle",
+          "sentence": "他在泳池遊了兩週。",
+          "pinyin": "tā zài yǒngchí yóule liǎng zhōu.",
+          "en": "He swam two laps in the pool.",
+          "vi": "Anh ấy đã bơi trong bể bơi hai vòng."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "round; circle",
+          "sentence": "我每天在公園跑三週。",
+          "pinyin": "wǒ měitiān zài gōngyuán pǎo sān zhōu.",
+          "en": "I run three laps in the park every day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "一般來說",
       "pinyin": "yìbān lái shuō",
-      "english": "generally speaking",
-      "sentenceChinese": "一般來說，名牌比較貴。",
-      "sentencePinyin": "Yìbān lái shuō, míngpái bǐjiào guì.",
-      "sentenceEnglish": "Generally speaking, brand-name goods are more expensive.",
-      "vietnamese": "nói chung",
-      "sentenceVietnamese": "Nói chung thì hàng hiệu sẽ đắt hơn."
+      "en": "generally speaking",
+      "vi": "nói chung",
+      "samples": [
+        {
+          "type": "sentence",
+          "meaning": "as a rule; generally speaking",
+          "sentence": "一般來説，雨天他是不會來的。",
+          "pinyin": "yībān lái shuō, yǔtiān tā shì bù huì lái de.",
+          "en": "As a rule, he doesn't come on rainy days.",
+          "vi": "Thường thì trời mưa anh ấy sẽ không đến."
+        },
+        {
+          "type": "sentence",
+          "meaning": "as a rule; generally speaking",
+          "sentence": "一般來説，這項工作比較辛苦。",
+          "pinyin": "yībān lái shuō, zhè xiàng gōngzuò bǐjiào xīnkǔ.",
+          "en": "Generally speaking, this job is quite demanding.",
+          "vi": "Nói chung thì công việc này khá vất vả."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "試穿",
       "pinyin": "shìchuān",
-      "english": "to try on clothes",
-      "sentenceChinese": "我可以先試穿一下嗎？",
-      "sentencePinyin": "Wǒ kěyǐ xiān shìchuān yíxià ma?",
-      "sentenceEnglish": "May I try this on first?",
-      "vietnamese": "mặc thử",
-      "sentenceVietnamese": "Tôi có thể mặc thử trước được không?"
+      "en": "to try on clothes",
+      "vi": "mặc thử",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "try on (a garment, shoes, etc.)",
+          "sentence": "我想試穿這條裙子。",
+          "pinyin": "wǒ xiǎng shì chuān zhè tiáo qúnzǐ.",
+          "en": "I want to try on this skirt.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "try on (a garment, shoes, etc.)",
+          "sentence": "他試穿了三件襯衫。",
+          "pinyin": "tā shì chuānle sān jiàn chènshān.",
+          "en": "He tried on three shirts.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "打完折",
       "pinyin": "dǎ wán zhé",
-      "english": "after discount",
-      "sentenceChinese": "這件毛衣打完折只要八百塊。",
-      "sentencePinyin": "Zhè jiàn máoyī dǎ wán zhé zhǐ yào bābǎi kuài.",
-      "sentenceEnglish": "After the discount, this sweater only costs 800 dollars.",
-      "vietnamese": "sau khi giảm giá",
-      "sentenceVietnamese": "Chiếc áo len này sau khi giảm giá chỉ còn 800 tệ."
+      "en": "after discount",
+      "vi": "sau khi giảm giá",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "whole; intact",
+          "sentence": "她的報告內容很完整。",
+          "pinyin": "tā de bàogào nèiróng hěn wánzhěng.",
+          "en": "The content of her report is very complete.",
+          "vi": "Nội dung báo cáo của cô ấy rất đầy đủ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "whole; intact",
+          "sentence": "這個包還完好無損。",
+          "pinyin": "zhège bāo hái wánhǎo wúsǔn.",
+          "en": "This bag is still intact and undamaged.",
+          "vi": "Cái túi này vẫn nguyên vẹn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "end; finish; complete",
+          "sentence": "他把作業很快完成了。",
+          "pinyin": "tā bǎ zuòyè hěn kuài wánchéngle.",
+          "en": "He quickly finished the homework.",
+          "vi": "Anh ấy đã nhanh chóng hoàn thành bài tập."
+        },
+        {
+          "type": "Verb",
+          "meaning": "end; finish; complete",
+          "sentence": "這個小説完稿了嗎？",
+          "pinyin": "zhège xiǎoshuō wángǎole ma?",
+          "en": "Has this novel been finished?",
+          "vi": "Cuốn tiểu thuyết này xong chưa?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "完先生是我的老師。",
+          "pinyin": "wán xiānshēng shì wǒ de lǎoshī.",
+          "en": "Mr. Wan is my teacher.",
+          "vi": "Ông Hoàn là thầy giáo của tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的鄰居姓完。",
+          "pinyin": "wǒ de línjū xìng wán.",
+          "en": "My neighbor’s surname is Wan.",
+          "vi": "Hàng xóm của tôi họ Hoàn."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "弄丟",
       "pinyin": "nòngdiū",
-      "english": "to lose; to misplace",
-      "sentenceChinese": "我把發票弄丟了。",
-      "sentencePinyin": "Wǒ bǎ fāpiào nòngdiū le.",
-      "sentenceEnglish": "I lost the receipt.",
-      "vietnamese": "làm mất",
-      "sentenceVietnamese": "Tôi làm mất hóa đơn rồi."
+      "en": "to lose; to misplace",
+      "vi": "làm mất",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to lose",
+          "sentence": "他把我的禮物弄丟了。",
+          "pinyin": "tā bǎ wǒ de lǐwù nòng diūle.",
+          "en": "He lost my precious gift.",
+          "vi": "Anh ấy làm mất món quà của tôi rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to lose",
+          "sentence": "我弄丟了我的手機。",
+          "pinyin": "wǒ nòng diūle wǒ de shǒujī.",
+          "en": "I've lost my phone.",
+          "vi": "Tôi làm mất điện thoại của mình."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "購物",
       "pinyin": "gòuwù",
-      "english": "shopping",
-      "sentenceChinese": "她很喜歡跟朋友一起去購物。",
-      "sentencePinyin": "Tā hěn xǐhuān gēn péngyǒu yìqǐ qù gòuwù.",
-      "sentenceEnglish": "She likes going shopping with friends.",
-      "vietnamese": "mua sắm",
-      "sentenceVietnamese": "Cô ấy rất thích đi mua sắm cùng bạn bè."
+      "en": "shopping",
+      "vi": "mua sắm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shopping",
+          "sentence": "我週末去購物。",
+          "pinyin": "wǒ zhōumò qù gòuwù.",
+          "en": "I’ll go shopping on the weekend.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "shopping",
+          "sentence": "她喜歡網上購物。",
+          "pinyin": "tā xǐhuān wǎngshàng gòuwù.",
+          "en": "She likes online shopping.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "糾紛",
       "pinyin": "jiūfēn",
-      "english": "dispute",
-      "sentenceChinese": "如果有消費糾紛，可以先找店長處理。",
-      "sentencePinyin": "Rúguǒ yǒu xiāofèi jiūfēn, kěyǐ xiān zhǎo diànzhǎng chǔlǐ.",
-      "sentenceEnglish": "If there is a consumer dispute, you can ask the store manager to handle it first.",
-      "vietnamese": "tranh chấp",
-      "sentenceVietnamese": "Nếu có tranh chấp mua bán thì có thể tìm quản lý cửa hàng xử lý trước."
+      "en": "dispute",
+      "vi": "tranh chấp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "issue; dispute",
+          "sentence": "這起糾紛很復雜。",
+          "pinyin": "zhè qǐ jiūfēn hěn fùzá.",
+          "en": "This dispute is very complicated.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "issue; dispute",
+          "sentence": "她處理了傢庭糾紛。",
+          "pinyin": "tā chǔlǐle jiātíng jiūfēn.",
+          "en": "She handled the family dispute.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "電信",
       "pinyin": "diànxìn",
-      "english": "telecommunications",
-      "sentenceChinese": "我想換一家電信公司。",
-      "sentencePinyin": "Wǒ xiǎng huàn yì jiā diànxìn gōngsī.",
-      "sentenceEnglish": "I want to switch to another telecom company.",
-      "vietnamese": "viễn thông",
-      "sentenceVietnamese": "Tôi muốn đổi sang một công ty viễn thông khác."
+      "en": "telecommunications",
+      "vi": "viễn thông",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "telecommunications",
+          "sentence": "他在電信公司工作。",
+          "pinyin": "tā zài diànxìn gōngsī gōngzuò.",
+          "en": "He works for a telecommunications company.",
+          "vi": "Anh ấy làm việc ở công ty viễn thông."
+        },
+        {
+          "type": "Noun",
+          "meaning": "telecommunications",
+          "sentence": "電信費用越來越高。",
+          "pinyin": "diànxìn fèiyòng yuè lái yuè gāo.",
+          "en": "Telecommunication costs are increasing.",
+          "vi": "Chi phí điện tín ngày càng cao."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "門市",
       "pinyin": "ménshì",
-      "english": "retail outlet; service branch",
-      "sentenceChinese": "這附近有那家電信公司的門市嗎？",
-      "sentencePinyin": "Zhè fùjìn yǒu nà jiā diànxìn gōngsī de ménshì ma?",
-      "sentenceEnglish": "Is there a branch of that telecom company nearby?",
-      "vietnamese": "cửa hàng giao dịch",
-      "sentenceVietnamese": "Gần đây có cửa hàng giao dịch của công ty viễn thông đó không?"
+      "en": "retail outlet; service branch",
+      "vi": "cửa hàng giao dịch",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "retail sales",
+          "sentence": "這傢門市經營得很好。",
+          "pinyin": "zhè jiāmén shì jīngyíng de hěn hǎo.",
+          "en": "The store is doing very well in business.",
+          "vi": "Cửa hàng này kinh doanh rất tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "retail sales",
+          "sentence": "門市的商品很豐富。",
+          "pinyin": "ménshì de shāngpǐn hěn fēngfù.",
+          "en": "The merchandise in the store is very diverse.",
+          "vi": "Hàng hoá trong cửa hàng rất phong phú."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "居留證",
       "pinyin": "jūliúzhèng",
-      "english": "residence permit",
-      "sentenceChinese": "辦手機門號要帶居留證。",
-      "sentencePinyin": "Bàn shǒujī ménhào yào dài jūliúzhèng.",
-      "sentenceEnglish": "You need to bring your residence permit when applying for a mobile number.",
-      "vietnamese": "thẻ cư trú",
-      "sentenceVietnamese": "Làm số điện thoại di động phải mang theo thẻ cư trú."
+      "en": "residence permit",
+      "vi": "thẻ cư trú",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "residence permit",
+          "sentence": "我已經拿到居留證了。",
+          "pinyin": "wǒ yǐjīng ná dào jūliúzhèng le.",
+          "en": "I've already got my residence permit.",
+          "vi": "Tôi đã nhận được thẻ cư trú rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "residence permit",
+          "sentence": "居留證有效期是多久？",
+          "pinyin": "jūliúzhèng yǒuxiàoqī shì duōjiǔ?",
+          "en": "How long is the residence permit valid for?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "月租型",
       "pinyin": "yuèzūxíng",
-      "english": "monthly plan",
-      "sentenceChinese": "我想辦月租型，不想用預付卡。",
-      "sentencePinyin": "Wǒ xiǎng bàn yuèzūxíng, bù xiǎng yòng yùfùkǎ.",
-      "sentenceEnglish": "I want a monthly plan, not a prepaid card.",
-      "vietnamese": "gói cước tháng",
-      "sentenceVietnamese": "Tôi muốn đăng ký gói cước tháng, không muốn dùng sim trả trước."
+      "en": "monthly plan",
+      "vi": "gói cước tháng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hire; rent; charter",
+          "sentence": "我租了一間房子。",
+          "pinyin": "wǒ zūle yī jiàn fángzi.",
+          "en": "I rented a house.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hire; rent; charter",
+          "sentence": "我們租了一些設備。",
+          "pinyin": "wǒmen zūle yīxiē shèbèi.",
+          "en": "We rented some equipment.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "rent",
+          "sentence": "我的月租已經交了。",
+          "pinyin": "wǒ de yuè zū yǐjīng jiāole.",
+          "en": "My monthly rent has been paid.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "rent",
+          "sentence": "我的房租是3000塊。",
+          "pinyin": "wǒ de fángzū shì 3000 kuài.",
+          "en": "My rent is 3,000 yuan.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "帳單",
       "pinyin": "zhàngdān",
-      "english": "bill",
-      "sentenceChinese": "這個月的手機帳單怎麼這麼貴？",
-      "sentencePinyin": "Zhè ge yuè de shǒujī zhàngdān zěnme zhème guì?",
-      "sentenceEnglish": "Why is this month’s phone bill so expensive?",
-      "vietnamese": "hóa đơn",
-      "sentenceVietnamese": "Sao hóa đơn điện thoại tháng này lại đắt thế?"
+      "en": "bill",
+      "vi": "hóa đơn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bill; check",
+          "sentence": "我需要付這個餐館的賬單。",
+          "pinyin": "wǒ xūyào fù zhège cānguǎn de zhàngdān.",
+          "en": "I need to pay this restaurant's bill.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "bill; check",
+          "sentence": "請把賬單結清後離開。",
+          "pinyin": "qǐng bǎ zhàngdān jié qīng hòu líkāi.",
+          "en": "Please settle the bill before leaving.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "並",
       "pinyin": "bìng",
-      "english": "actually not; by no means",
-      "sentenceChinese": "這件事並不麻煩。",
-      "sentencePinyin": "Zhè jiàn shì bìng bù máfan.",
-      "sentenceEnglish": "This matter is actually not troublesome at all.",
-      "vietnamese": "hoàn toàn không",
-      "sentenceVietnamese": "Việc này hoàn toàn không phiền phức chút nào."
+      "en": "actually not; by no means",
+      "vi": "hoàn toàn không",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "and; besides",
+          "sentence": "一併處理",
+          "pinyin": "yī bìng chǔ lǐ",
+          "en": "Be handled together",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and; besides",
+          "sentence": "你們尋找併譭壞任何帶著蒲公英主題的人。",
+          "pinyin": "nǐmen xúnzhǎo bìng hǔihuài rènhé dài zháo púgōngyīng zhǔtí de rén",
+          "en": "You search and destroy anyone with a dandelion motif.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "combine; merge; incorporate",
+          "sentence": "把一傢公司併入另一傢公司。",
+          "pinyin": "bǎ yī jiā gōngsī bìng rù lìng yī jiā gōngsī",
+          "en": "Merge a company into another",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "combine; merge; incorporate",
+          "sentence": "被併入鄰國。",
+          "pinyin": "bèi bìngrù línguó",
+          "en": "Be incorporated into a neighboring country",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "side by side; equally; simultaneously",
+          "sentence": "公辦教育與民辦教育併舉。",
+          "pinyin": "gōngbàn jiàoyù yǔ mínbàn jiàoyù bìngjǔ.",
+          "en": "Public and private education develop side by side.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "side by side; equally; simultaneously",
+          "sentence": "兩傢餐廳併列開張。",
+          "pinyin": "liǎng jiā cāntīng bìngliè kāizhāng.",
+          "en": "Two restaurants opened side by side.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "包括",
       "pinyin": "bāokuò",
-      "english": "to include",
-      "sentenceChinese": "這個月租方案包括上網吃到飽。",
-      "sentencePinyin": "Zhè ge yuèzū fāng'àn bāokuò shàngwǎng chīdào bǎo.",
-      "sentenceEnglish": "This monthly plan includes unlimited data.",
-      "vietnamese": "bao gồm",
-      "sentenceVietnamese": "Gói cước tháng này bao gồm mạng không giới hạn."
+      "en": "to include",
+      "vi": "bao gồm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "include; comprise; consist of",
+          "sentence": "這個價格包括稅費。",
+          "pinyin": "zhège jiàgé bāokuò shuì fèi.",
+          "en": "This price includes taxes.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "include; comprise; consist of",
+          "sentence": "課程包括多個主題。",
+          "pinyin": "kèchéng bāokuò duō gè zhǔtí.",
+          "en": "The course includes multiple topics.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "解釋",
       "pinyin": "jiěshì",
-      "english": "to explain",
-      "sentenceChinese": "店員已經把方案解釋得很清楚了。",
-      "sentencePinyin": "Diànyuán yǐjīng bǎ fāng'àn jiěshì de hěn qīngchǔ le.",
-      "sentenceEnglish": "The store clerk has already explained the plan very clearly.",
-      "vietnamese": "giải thích",
-      "sentenceVietnamese": "Nhân viên đã giải thích gói cước rất rõ ràng rồi."
+      "en": "to explain",
+      "vi": "giải thích",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "explain; expound; interpret",
+          "sentence": "這個問題我解釋不清。",
+          "pinyin": "zhège wèntí wǒ jiěshì bù qīng.",
+          "en": "I can't explain the problem.",
+          "vi": "Vấn đề này tôi không thể giải thích rõ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "explain; expound; interpret",
+          "sentence": "請你解釋這個字的意思。",
+          "pinyin": "qǐng nǐ jiěshì zhège zì de yìsi.",
+          "en": "Please explain the meaning of this word.",
+          "vi": "Mời bạn giải thích ý nghĩa của từ này."
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "顧客",
       "pinyin": "gùkè",
-      "english": "customer",
-      "sentenceChinese": "這家店對顧客很有禮貌。",
-      "sentencePinyin": "Zhè jiā diàn duì gùkè hěn yǒu lǐmào.",
-      "sentenceEnglish": "This store is very polite to its customers.",
-      "vietnamese": "khách hàng",
-      "sentenceVietnamese": "Cửa hàng này rất lịch sự với khách hàng."
+      "en": "customer",
+      "vi": "khách hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "customer; shopper; client; patient",
+          "sentence": "公司應該為顧客著想。",
+          "pinyin": "gōngsī yīnggāi wèi gùkè zhuóxiǎng.",
+          "en": "The company should think of its customers.",
+          "vi": "Công ty nên suy nghĩ cho khách hàng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "customer; shopper; client; patient",
+          "sentence": "我們要了解顧客的心理。",
+          "pinyin": "wǒmen yào liǎojiě gùkè de xīnlǐ.",
+          "en": "We need to understand the psychology of customers.",
+          "vi": "Chúng ta phải tìm hiểu tâm lý khách hàng."
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "尤其",
       "pinyin": "yóuqí",
-      "english": "especially",
-      "sentenceChinese": "我喜歡這件外套，尤其是它的顏色。",
-      "sentencePinyin": "Wǒ xǐhuān zhè jiàn wàitào, yóuqí shì tā de yánsè.",
-      "sentenceEnglish": "I like this coat, especially its color.",
-      "vietnamese": "đặc biệt là",
-      "sentenceVietnamese": "Tôi thích chiếc áo khoác này, đặc biệt là màu của nó."
+      "en": "especially",
+      "vi": "đặc biệt là",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "especially; particularly",
+          "sentence": "她喜歡運動，尤其是遊泳。",
+          "pinyin": "tā xǐhuan yùndòng, yóuqí shì yóuyǒng.",
+          "en": "She likes sports, especially swimming.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "especially; particularly",
+          "sentence": "今天她打扮得尤其漂亮。",
+          "pinyin": "jīntiān tā dǎbàn de yóuqí piàoliang.",
+          "en": "Today, she dressed up especially beautifully.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "騙",
       "pinyin": "piàn",
-      "english": "to cheat; to scam",
-      "sentenceChinese": "買東西的時候要小心，別被騙了。",
-      "sentencePinyin": "Mǎi dōngxi de shíhòu yào xiǎoxīn, bié bèi piàn le.",
-      "sentenceEnglish": "You have to be careful when shopping and not get cheated.",
-      "vietnamese": "lừa",
-      "sentenceVietnamese": "Lúc mua đồ phải cẩn thận, đừng để bị lừa."
+      "en": "to cheat; to scam",
+      "vi": "lừa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fool; cheat; deceive; hoodwink",
+          "sentence": "他總是騙別人。",
+          "pinyin": "tā zǒng shì piàn biérén.",
+          "en": "He always deceives others.",
+          "vi": "Anh ấy luôn luôn lừa người khác."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fool; cheat; deceive; hoodwink",
+          "sentence": "她騙我説她會來。",
+          "pinyin": "tā piàn wǒ shuō tā huì lái.",
+          "en": "She lied to me, saying she would come.",
+          "vi": "Cô ấy lừa tôi nói cô ấy sẽ đến."
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "頓",
       "pinyin": "dùn",
-      "english": "measure word for meals or scoldings",
-      "sentenceChinese": "這頓飯是我請客。",
-      "sentencePinyin": "Zhè dùn fàn shì wǒ qǐngkè.",
-      "sentenceEnglish": "This meal is on me.",
-      "vietnamese": "bữa",
-      "sentenceVietnamese": "Bữa này tôi mời."
+      "en": "measure word for meals or scoldings",
+      "vi": "bữa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pause",
+          "sentence": "他突然頓了一下。",
+          "pinyin": "tā tū rán dùnle yīxià.",
+          "en": "He suddenly paused for a moment.",
+          "vi": "Anh ấy đột nhiên dừng lại một chút."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pause",
+          "sentence": "車子在路口頓住。",
+          "pinyin": "chēzi zài lùkǒu dùn zhù.",
+          "en": "The car stopped at the intersection.",
+          "vi": "Xe dừng lại ở ngã tư."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tired; fatigued",
+          "sentence": "他今天工作非常勞頓。",
+          "pinyin": "tā jīntiān gōngzuò fēicháng láodùn.",
+          "en": "He is very fatigued from work today.",
+          "vi": "Hôm nay anh ấy làm việc rất mệt mỏi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tired; fatigued",
+          "sentence": "她看起來有些睏頓。",
+          "pinyin": "tā kàn qǐlái yǒuxiē kùndùn.",
+          "en": "She looks a bit exhausted.",
+          "vi": "Cô ấy trông có vẻ hơi mệt mỏi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "suddenly; immediately",
+          "sentence": "電話響了，他頓接起來。",
+          "pinyin": "diànhuà xiǎngle, tā dùn jiē qǐlái.",
+          "en": "The phone rang, and he immediately picked it up.",
+          "vi": "Điện thoại reo, anh ấy liền nhấc máy ngay."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "suddenly; immediately",
+          "sentence": "下雨了，大傢頓跑開了。",
+          "pinyin": "xià yǔle, dàjiā dùn pǎo kāile.",
+          "en": "It started raining, and everyone immediately ran off.",
+          "vi": "Trời mưa, mọi người lập tức chạy đi."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for meals",
+          "sentence": "他每天吃/喫三頓飯。",
+          "pinyin": "tā měitiān chī sān dùn fàn.",
+          "en": "He eats three meals a day.",
+          "vi": "Anh ấy mỗi ngày ăn ba bữa."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for meals",
+          "sentence": "今天我隻吃/喫了一頓飯。",
+          "pinyin": "jīntiān wǒ zhǐ chīle yī dùn fàn.",
+          "en": "Today I only had one meal.",
+          "vi": "Hôm nay tôi chỉ ăn một bữa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "頓先生是我的朋友。",
+          "pinyin": "dùn xiānsheng shì wǒ de péngyou.",
+          "en": "Mr. Dun is my friend.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "頓老師是我的媽媽。",
+          "pinyin": "dùn lǎoshī shì wǒ de māma.",
+          "en": "Teacher Dun is my mother.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "辦法",
       "pinyin": "bànfǎ",
-      "english": "way; solution",
-      "sentenceChinese": "你有沒有更便宜一點的辦法？",
-      "sentencePinyin": "Nǐ yǒu méiyǒu gèng piányi yìdiǎn de bànfǎ?",
-      "sentenceEnglish": "Do you have a cheaper option?",
-      "vietnamese": "cách; phương án",
-      "sentenceVietnamese": "Bạn có cách nào rẻ hơn một chút không?"
+      "en": "way; solution",
+      "vi": "cách; phương án",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "method; means; measure; quomodo; road; way",
+          "sentence": "我們試過很多辦法。",
+          "pinyin": "wǒmen shìguò hěnduō bànfǎ.",
+          "en": "We have tried many methods.",
+          "vi": "Chúng tôi đã thử nhiều phương pháp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "method; means; measure; quomodo; road; way",
+          "sentence": "你有更好的辦法嗎？",
+          "pinyin": "nǐ yǒu gèng hǎo de bànfǎ ma?",
+          "en": "Do you have a better way?",
+          "vi": "Bạn có cách nào tốt hơn không?"
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "自動",
       "pinyin": "zìdòng",
-      "english": "automatic; automatically",
-      "sentenceChinese": "這扇門會自動打開。",
-      "sentencePinyin": "Zhè shàn mén huì zìdòng dǎkāi.",
-      "sentenceEnglish": "This door opens automatically.",
-      "vietnamese": "tự động",
-      "sentenceVietnamese": "Cánh cửa này sẽ tự động mở ra."
+      "en": "automatic; automatically",
+      "vi": "tự động",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "voluntarily; of one's own accord",
+          "sentence": "孩子們自動排好了隊。",
+          "pinyin": "háizimen zìdòng pái hǎole duì.",
+          "en": "The children lined up voluntarily.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "voluntarily; of one's own accord",
+          "sentence": "他自動參加了這個活動。",
+          "pinyin": "tā zìdòng cānjiāle zhège huódòng.",
+          "en": "He voluntarily participated in this event.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "automatic; self-acting",
+          "sentence": "這個房間有自動門。",
+          "pinyin": "zhège fángjiān yǒu zìdòng mén.",
+          "en": "This room has an automatic door.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "automatic; self-acting",
+          "sentence": "自動手錶不用電池。",
+          "pinyin": "zìdòng shǒubiǎo bùyòng diànchí.",
+          "en": "Automatic watches don’t need batteries.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "關機",
       "pinyin": "guānjī",
-      "english": "to shut down; to turn off",
-      "sentenceChinese": "手機沒電了，只好先關機。",
-      "sentencePinyin": "Shǒujī méi diàn le, zhǐhǎo xiān guānjī.",
-      "sentenceEnglish": "My phone ran out of battery, so I had to turn it off first.",
-      "vietnamese": "tắt máy",
-      "sentenceVietnamese": "Điện thoại hết pin rồi nên đành phải tắt máy trước."
+      "en": "to shut down; to turn off",
+      "vi": "tắt máy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "wrap up; finish; power-off",
+          "sentence": "電影終於關機了。",
+          "pinyin": "diànyǐng zhōngyú guānjīle.",
+          "en": "The movie has finally wrapped up.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "wrap up; finish; power-off",
+          "sentence": "這部劇明天就要關機。",
+          "pinyin": "zhè bù jù míngtiān jiù yào guānjī.",
+          "en": "This show will finish filming tomorrow.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "修理",
       "pinyin": "xiūlǐ",
-      "english": "to repair",
-      "sentenceChinese": "這支手機壞了，要拿去修理。",
-      "sentencePinyin": "Zhè zhī shǒujī huài le, yào ná qù xiūlǐ.",
-      "sentenceEnglish": "This phone is broken and needs to be repaired.",
-      "vietnamese": "sửa chữa",
-      "sentenceVietnamese": "Chiếc điện thoại này hỏng rồi, phải mang đi sửa."
+      "en": "to repair",
+      "vi": "sửa chữa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fix; repair",
+          "sentence": "我的自行車需要脩理一下。",
+          "pinyin": "wǒ de zìxíngchē xūyào xiūlǐ yīxià.",
+          "en": "My bicycle needs to be repaired.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "fix; repair",
+          "sentence": "他在學校學習電器脩理。",
+          "pinyin": "tā zài xuéxiào xuéxí diànqì xiūlǐ.",
+          "en": "He is studying electrical repair at school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "繳費",
       "pinyin": "jiǎofèi",
-      "english": "to pay a fee",
-      "sentenceChinese": "每個月都要記得按時繳費。",
-      "sentencePinyin": "Měi ge yuè dōu yào jìde ànshí jiǎofèi.",
-      "sentenceEnglish": "You have to remember to pay the bill on time every month.",
-      "vietnamese": "đóng phí",
-      "sentenceVietnamese": "Mỗi tháng đều phải nhớ đóng tiền đúng hạn."
+      "en": "to pay a fee",
+      "vi": "đóng phí",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to pay fees",
+          "sentence": "繳費繫統齣了問題。",
+          "pinyin": "jiǎofèi xìtǒng chūle wèntí.",
+          "en": "The payment system has a problem.",
+          "vi": "Hệ thống nộp phí gặp trục trặc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to pay fees",
+          "sentence": "繳費過程非常簡單。",
+          "pinyin": "jiǎofèi guòchéng fēicháng jiǎndān.",
+          "en": "The payment process is very simple.",
+          "vi": "Quá trình nộp phí rất đơn giản."
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "預付卡",
       "pinyin": "yùfùkǎ",
-      "english": "prepaid SIM card",
-      "sentenceChinese": "我剛到台灣的時候先辦了預付卡。",
-      "sentencePinyin": "Wǒ gāng dào Táiwān de shíhòu xiān bàn le yùfùkǎ.",
-      "sentenceEnglish": "When I first arrived in Taiwan, I got a prepaid SIM card first.",
-      "vietnamese": "sim trả trước",
-      "sentenceVietnamese": "Lúc mới đến Đài Loan, tôi đã làm sim trả trước trước."
+      "en": "prepaid SIM card",
+      "vi": "sim trả trước",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "commit to; hand (or turn) over to",
+          "sentence": "他按時交付了工作任務。",
+          "pinyin": "tā ànshí jiāofùle gōngzuò rènwù.",
+          "en": "He delivered the work task on time.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "commit to; hand (or turn) over to",
+          "sentence": "我把這項任務託付給你了。",
+          "pinyin": "wǒ bǎ zhè xiàng rènwù tuōfù gěi nǐle.",
+          "en": "I entrust this task to you.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他爸爸姓付。",
+          "pinyin": "tā bàba xìng fù.",
+          "en": "His father's surname is Fu.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for a set of things or for facial expressions",
+          "sentence": "他買了一付茶具。",
+          "pinyin": "tā mǎile yī fù chájù.",
+          "en": "He bought a tea set.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for a set of things or for facial expressions",
+          "sentence": "她戴著一付耳環。",
+          "pinyin": "tā dàizhe yī fù ěrhuán.",
+          "en": "She is wearing a pair of earrings.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "換成",
       "pinyin": "huàn chéng",
-      "english": "to change into",
-      "sentenceChinese": "我想把月租型換成預付卡。",
-      "sentencePinyin": "Wǒ xiǎng bǎ yuèzūxíng huàn chéng yùfùkǎ.",
-      "sentenceEnglish": "I want to change my monthly plan to a prepaid card.",
-      "vietnamese": "đổi thành",
-      "sentenceVietnamese": "Tôi muốn đổi gói cước tháng sang sim trả trước."
+      "en": "to change into",
+      "vi": "đổi thành",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to exchange (sth) for (sth else)",
+          "sentence": "你可以把積分換成禮物。",
+          "pinyin": "nǐ kěyǐ bǎ jīfēn huàn chéng lǐwù.",
+          "en": "You can exchange points for gifts.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to exchange (sth) for (sth else)",
+          "sentence": "窗戶都換成了鋁閤金的。",
+          "pinyin": "chuānghù dōu huàn chéngle lǚ héjīn de.",
+          "en": "The window all changed into the aluminum alloy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "吃到飽",
       "pinyin": "chī dào bǎo",
-      "english": "all-you-can-use; unlimited",
-      "sentenceChinese": "這個方案有上網吃到飽。",
-      "sentencePinyin": "Zhè ge fāng'àn yǒu shàngwǎng chī dào bǎo.",
-      "sentenceEnglish": "This plan comes with unlimited data.",
-      "vietnamese": "không giới hạn",
-      "sentenceVietnamese": "Gói cước này có mạng không giới hạn."
+      "en": "all-you-can-use; unlimited",
+      "vi": "không giới hạn",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "all-you-can-eat (buffet) (Tw)",
+          "sentence": "我們今晚去吃/喫到飽吧。",
+          "pinyin": "Wǒmen jīnwǎn qù chī dào bǎo ba",
+          "en": "Let's go to an all-you-can-eat tonight.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "嚇一跳",
       "pinyin": "xià yí tiào",
-      "english": "to be startled",
-      "sentenceChinese": "看到這麼高的帳單，我嚇了一跳。",
-      "sentencePinyin": "Kàndào zhème gāo de zhàngdān, wǒ xià le yí tiào.",
-      "sentenceEnglish": "I was startled when I saw such a high bill.",
-      "vietnamese": "giật mình",
-      "sentenceVietnamese": "Nhìn thấy hóa đơn cao như vậy, tôi giật cả mình."
+      "en": "to be startled",
+      "vi": "giật mình",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "startled; to frighten; scared out of one's skin",
+          "sentence": "看到鬼時，我嚇了一跳。",
+          "pinyin": "kàn dào guǐ shí, wǒ xiàle yī tiào.",
+          "en": "I jumped when I saw a ghost.",
+          "vi": "Khi nhìn thấy ma, tôi giật nảy mình."
+        },
+        {
+          "type": "phrase",
+          "meaning": "startled; to frighten; scared out of one's skin",
+          "sentence": "這消息使我嚇了一跳。",
+          "pinyin": "zhè xiāoxi shǐ wǒ xiàle yī tiào.",
+          "en": "This news gave me a fright.",
+          "vi": "Tin này làm tôi giật hết cả mình."
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "客服中心",
       "pinyin": "kèfú zhōngxīn",
-      "english": "customer service center",
-      "sentenceChinese": "有問題的話，可以先打去客服中心。",
-      "sentencePinyin": "Yǒu wèntí de huà, kěyǐ xiān dǎ qù kèfú zhōngxīn.",
-      "sentenceEnglish": "If there is a problem, you can call customer service first.",
-      "vietnamese": "trung tâm chăm sóc khách hàng",
-      "sentenceVietnamese": "Nếu có vấn đề, bạn có thể gọi đến trung tâm chăm sóc khách hàng trước."
+      "en": "customer service center",
+      "vi": "trung tâm chăm sóc khách hàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Customer Service Center",
+          "sentence": "您好，這裡/裏是客服中心。",
+          "pinyin": "nín hǎo, zhèlǐ shì kèfù zhōngxīn.",
+          "en": "Hello, this is the customer service center.",
+          "vi": ""
+        }
+      ]
     }
   ]
 }

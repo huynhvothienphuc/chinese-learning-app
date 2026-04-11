@@ -7,453 +7,1449 @@
       "id": 1,
       "chinese": "週末",
       "pinyin": "zhōumò",
-      "english": "weekend",
-      "sentenceChinese": "週末我喜歡聽音樂。",
-      "sentencePinyin": "Zhōumò wǒ xǐhuān tīng yīnyuè.",
-      "sentenceEnglish": "I like listening to music on weekends.",
-      "vietnamese": "cuối tuần",
-      "sentenceVietnamese": "Tôi thích nghe nhạc vào cuối tuần."
+      "en": "weekend",
+      "vi": "cuối tuần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "weekend",
+          "sentence": "我週末去爬山。",
+          "pinyin": "wǒ zhōumò qù páshān.",
+          "en": "I go hiking on weekends.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "weekend",
+          "sentence": "我週末常去購物。",
+          "pinyin": "wǒ zhōumò cháng qù gòuwù.",
+          "en": "I often shop on Saturdays.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "聽",
       "pinyin": "tīng",
-      "english": "to listen",
-      "sentenceChinese": "我常聽中文歌。",
-      "sentencePinyin": "Wǒ cháng tīng Zhōngwén gē.",
-      "sentenceEnglish": "I often listen to Chinese songs.",
-      "vietnamese": "nghe",
-      "sentenceVietnamese": "Tôi thường nghe nhạc tiếng Trung."
+      "en": "to listen",
+      "vi": "nghe",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hear; listen",
+          "sentence": "耳朵聾了聽不見。",
+          "pinyin": "ěrduǒ lóngle tīng bùjiàn.",
+          "en": "My ears are deaf, I can't hear.",
+          "vi": "Tai điếc không nghe rõ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "hear; listen",
+          "sentence": "你的話我已聽清楚了。",
+          "pinyin": "nǐ dehuà wǒ yǐ tīng qīngchǔle.",
+          "en": "I have heard your words clearly.",
+          "vi": "Lời nói của anh tôi đã nghe rõ rồi."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "can",
+          "sentence": "他買了兩聽啤酒。",
+          "pinyin": "tā mǎile liǎng tīng píjiǔ.",
+          "en": "He bought two cans of beer.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "can",
+          "sentence": "她給我送了一聽茶葉。",
+          "pinyin": "tā gěi wǒ sòngle yī tīng cháyè.",
+          "en": "She gave me a can of tea leaves.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "can; tin",
+          "sentence": "這些都是聽裝飲料。",
+          "pinyin": "zhèxiē dōu shì tīng zhuāng yǐnliào.",
+          "en": "These are all canned drinks.",
+          "vi": "Đây đều là nước ngọt đóng lon."
+        },
+        {
+          "type": "Noun",
+          "meaning": "can; tin",
+          "sentence": "這個聽裝的飲料很美味。",
+          "pinyin": "zhège tīng zhuāng de yǐnliào hěn měiwèi.",
+          "en": "This canned drink is very delicious.",
+          "vi": "Nước giải khát trong hộp này rất ngon."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "音樂",
       "pinyin": "yīnyuè",
-      "english": "music",
-      "sentenceChinese": "她現在在聽音樂。",
-      "sentencePinyin": "Tā xiànzài zài tīng yīnyuè.",
-      "sentenceEnglish": "She is listening to music now.",
-      "vietnamese": "âm nhạc",
-      "sentenceVietnamese": "Bây giờ cô ấy đang nghe nhạc."
+      "en": "music",
+      "vi": "âm nhạc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "music",
+          "sentence": "我喜歡聽音樂。",
+          "pinyin": "wǒ xǐhuan tīng yīnyuè.",
+          "en": "I like listening to music.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "music",
+          "sentence": "他天天都聽音樂。",
+          "pinyin": "tā tiāntiān dōu tīng yīnyuè.",
+          "en": "He listens to music everyday.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "運動",
       "pinyin": "yùndòng",
-      "english": "to exercise",
-      "sentenceChinese": "我每天早上都運動。",
-      "sentencePinyin": "Wǒ měitiān zǎoshàng dōu yùndòng.",
-      "sentenceEnglish": "I exercise every morning.",
-      "vietnamese": "tập thể dục",
-      "sentenceVietnamese": "Tôi tập thể dục mỗi buổi sáng."
+      "en": "to exercise",
+      "vi": "tập thể dục",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to exercise",
+          "sentence": "他每天都堅持運動。",
+          "pinyin": "tā měitiān dōu jiānchí yùndòng.",
+          "en": "He exercises every day without fail.",
+          "vi": "Anh ấy tập thể dục mỗi ngày."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to exercise",
+          "sentence": "她的關節一運動就疼。",
+          "pinyin": "tā de guānjié yī yùndòng jiù téng.",
+          "en": "Her joints ache if she exercises.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sports; athletics; exercise",
+          "sentence": "我最喜歡的一項運動是太極拳。",
+          "pinyin": "wǒ zuì xǐhuān de yī xiàng yùndòng shì tàijí quán.",
+          "en": "One of my favorite sports is Taiji.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sports; athletics; exercise",
+          "sentence": "我們小區運動場地很小。",
+          "pinyin": "wǒmen xiǎoqū yùndòng chǎngdì hěn xiǎo.",
+          "en": "The sports field in our community is very small.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "打",
       "pinyin": "dǎ",
-      "english": "to play ball games",
-      "sentenceChinese": "他下午要打網球。",
-      "sentencePinyin": "Tā xiàwǔ yào dǎ wǎngqiú.",
-      "sentenceEnglish": "He is going to play tennis this afternoon.",
-      "vietnamese": "chơi các môn bóng",
-      "sentenceVietnamese": "Chiều nay anh ấy sẽ đi chơi quần vợt."
+      "en": "to play ball games",
+      "vi": "chơi các môn bóng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "strike; hit; knock",
+          "sentence": "工人們正在打樁。",
+          "pinyin": "gōngrénmen zhèngzài dǎzhuāng.",
+          "en": "The workers are piling.",
+          "vi": "Công nhân đang đóng cọc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "strike; hit; knock",
+          "sentence": "小孩不停地打門。",
+          "pinyin": "xiǎohái bù tíng de dǎ mén.",
+          "en": "The child keeps knocking on the door.",
+          "vi": "Đứa trẻ không ngừng gõ cửa."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from; since",
+          "sentence": "打這兒往西，再走三裡/裏地就到了。",
+          "pinyin": "dǎ zhèr wǎng xī, zài zǒu sānlǐ de jiù dàole.",
+          "en": "Go west from here and walk 3 li to arrive.",
+          "vi": "Từ đây đi về hướng tây, ba dặm nữa là tới nơi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "from; since",
+          "sentence": "他打門縫裡/裏往外看。",
+          "pinyin": "tā dǎ mén fèng lǐ wǎngwài kàn.",
+          "en": "He looked outside through the door crack.",
+          "vi": "Nó nhìn từ khe cửa ra ngoài."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "網球",
       "pinyin": "wǎngqiú",
-      "english": "tennis",
-      "sentenceChinese": "我哥哥很喜歡打網球。",
-      "sentencePinyin": "Wǒ gēge hěn xǐhuān dǎ wǎngqiú.",
-      "sentenceEnglish": "My older brother really likes playing tennis.",
-      "vietnamese": "quần vợt",
-      "sentenceVietnamese": "Anh trai tôi rất thích chơi quần vợt."
+      "en": "tennis",
+      "vi": "quần vợt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tennis",
+          "sentence": "我喜歡打網球。",
+          "pinyin": "wǒ xǐhuan dǎ wǎngqiú.",
+          "en": "I like playing tennis.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "tennis",
+          "sentence": "她是網球冠軍。",
+          "pinyin": "tā shì wǎngqiú guànjūn.",
+          "en": "She is the tennis champion.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "棒球",
       "pinyin": "bàngqiú",
-      "english": "baseball",
-      "sentenceChinese": "他們週末常常打棒球。",
-      "sentencePinyin": "Tāmen zhōumò chángcháng dǎ bàngqiú.",
-      "sentenceEnglish": "They often play baseball on weekends.",
-      "vietnamese": "bóng chày",
-      "sentenceVietnamese": "Họ thường chơi bóng chày vào cuối tuần."
+      "en": "baseball",
+      "vi": "bóng chày",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "baseball",
+          "sentence": "我喜歡在夏天打棒球。",
+          "pinyin": "wǒ xǐhuān zài xiàtiān dǎ bàngqiú.",
+          "en": "I like to play baseball in the summer.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "baseball",
+          "sentence": "棒球場上很熱鬧。",
+          "pinyin": "bàngqiú chǎng shàng hěn rè nao.",
+          "en": "The baseball field is very lively.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "和",
       "pinyin": "hàn",
-      "english": "and, as well as",
-      "sentenceChinese": "我喜歡咖啡和茶。",
-      "sentencePinyin": "Wǒ xǐhuān kāfēi hàn chá.",
-      "sentenceEnglish": "I like coffee and tea.",
-      "vietnamese": "và; cũng như",
-      "sentenceVietnamese": "Tôi thích cà phê và trà."
+      "en": "and, as well as",
+      "vi": "và; cũng như",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "and",
+          "sentence": "他喜歡喝茶和咖啡。",
+          "pinyin": "tā xǐhuan hē chá hé kāfēi.",
+          "en": "He likes drinking tea and coffee.",
+          "vi": "Anh ấy thích uống trà và cà phê."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and",
+          "sentence": "我會英語和法語。",
+          "pinyin": "wǒ huì yīngyǔ hé fǎyǔ.",
+          "en": "I can speak English and French.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "gentle; mild; kind",
+          "sentence": "他的態度和藹可親。",
+          "pinyin": "tā de tàidù hé'ǎikěqīn.",
+          "en": "His attitude is kind and amiable.",
+          "vi": "Thái độ của anh ấy rất hòa nhã."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "gentle; mild; kind",
+          "sentence": "保衛世界和平。",
+          "pinyin": "bǎowèi shìjiè hépíng.",
+          "en": "Protect world peace.",
+          "vi": "Bảo vệ hòa bình thế giới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dispute; reconcile",
+          "sentence": "他們倆最終還是講和了。",
+          "pinyin": "tāmen liǎ zuìzhōng háishì jiǎng héle.",
+          "en": "The two of them eventually reconciled.",
+          "vi": "Hai người họ cuối cùng cũng hòa giải."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dispute; reconcile",
+          "sentence": "我們需要和解這個爭端。",
+          "pinyin": "wǒmen xūyào héjiě zhège zhēngduān.",
+          "en": "We need to resolve this dispute peacefully.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "relate to",
+          "sentence": "這件事和她的決定有關。",
+          "pinyin": "zhè jiàn shì hé tā de juédìng yǒuguān.",
+          "en": "This matter is related to her decision.",
+          "vi": "Việc này liên quan đến quyết định của cô ấy."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "relate to",
+          "sentence": "這些數據和報告有關聯。",
+          "pinyin": "zhèxiē shùjù hé bàogào yǒu guānlián.",
+          "en": "These data are related to the report.",
+          "vi": "Dữ liệu này có liên quan đến báo cáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sum",
+          "sentence": "8和7的和是15。",
+          "pinyin": "8 hé 7 de hé shì 15.",
+          "en": "The sum of 8 and 7 is 15.",
+          "vi": "Tổng của 8 và 7 là 15."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sum",
+          "sentence": "10和20的和是30。",
+          "pinyin": "10 hé 20 de hé shì 30.",
+          "en": "The sum of 10 and 20 is 30.",
+          "vi": "Tổng của 10 và 20 là 30."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "游泳",
       "pinyin": "yóuyǒng",
-      "english": "to swim",
-      "sentenceChinese": "夏天我喜歡去游泳。",
-      "sentencePinyin": "Xiàtiān wǒ xǐhuān qù yóuyǒng.",
-      "sentenceEnglish": "I like to go swimming in summer.",
-      "vietnamese": "bơi",
-      "sentenceVietnamese": "Vào mùa hè tôi thích đi bơi."
+      "en": "to swim",
+      "vi": "bơi",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "to swim",
+          "sentence": "他每天都去遊泳。",
+          "pinyin": "tā měitiān dōu qù yóuyǒng.",
+          "en": "He goes swimming every day.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "to swim",
+          "sentence": "遊泳對身體很好。",
+          "pinyin": "yóuyǒng duì shēntǐ hěn hǎo.",
+          "en": "Swimming is truly good for health.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "swimming",
+          "sentence": "遊泳是我最喜歡的運動。",
+          "pinyin": "yóuyǒng shì wǒ zuì xǐhuan de yùndòng.",
+          "en": "Swimming is my favorite sport.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "swimming",
+          "sentence": "遊泳需要耐心和技巧。",
+          "pinyin": "yóuyǒng xūyào nàixīn hé jìqiǎo.",
+          "en": "Swimming requires patience and skill.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "常",
       "pinyin": "cháng",
-      "english": "often",
-      "sentenceChinese": "我常跟朋友一起吃晚飯。",
-      "sentencePinyin": "Wǒ cháng gēn péngyǒu yìqǐ chī wǎnfàn.",
-      "sentenceEnglish": "I often have dinner with friends.",
-      "vietnamese": "thường",
-      "sentenceVietnamese": "Tôi thường ăn tối cùng bạn bè."
+      "en": "often",
+      "vi": "thường",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "normal; common; ordinary",
+          "sentence": "這裡/裏下雨是常見的。",
+          "pinyin": "zhèlǐ xià yǔ shì chángjiàn de.",
+          "en": "It is common for it to rain here.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "normal; common; ordinary",
+          "sentence": "這種問題很常髮/發生。",
+          "pinyin": "zhè zhǒng wèntí hěn cháng fāshēng.",
+          "en": "This kind of problem happens often.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; usually; frequently",
+          "sentence": "我平時不常喝綠茶。",
+          "pinyin": "wǒ píngshí bù cháng hē lǜchá.",
+          "en": "I don’t often drink green tea.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; usually; frequently",
+          "sentence": "週末他們常去父母傢。",
+          "pinyin": "zhōumò tāmen cháng qù fùmǔ jiā.",
+          "en": "On weekends, they often go to their parents' house.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "norms",
+          "sentence": "常使社會更加穩定。",
+          "pinyin": "cháng shǐ shèhuì gèngjiā wěndìng.",
+          "en": "Norms make society more stable.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "norms",
+          "sentence": "傳統常影響社會髮/發展。",
+          "pinyin": "chuántǒng cháng yǐngxiǎng shèhuì fāzhǎn.",
+          "en": "Traditional norms affect social development.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "籃球",
       "pinyin": "lánqiú",
-      "english": "basketball",
-      "sentenceChinese": "弟弟放學後去打籃球。",
-      "sentencePinyin": "Dìdi fàngxué hòu qù dǎ lánqiú.",
-      "sentenceEnglish": "My younger brother goes to play basketball after school.",
-      "vietnamese": "bóng rổ",
-      "sentenceVietnamese": "Em trai tôi đi chơi bóng rổ sau giờ học."
+      "en": "basketball",
+      "vi": "bóng rổ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "basketball (a kind of sports game)",
+          "sentence": "我很喜歡打籃球。",
+          "pinyin": "wǒ hěn xǐhuan dǎ lánqiú.",
+          "en": "I really like playing basketball.",
+          "vi": "Tôi rất thích chơi bóng rổ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "basketball (a kind of sports game)",
+          "sentence": "他們正在打籃球。",
+          "pinyin": "tāmen zhèngzài dǎ lánqiú.",
+          "en": "They are playing basketball.",
+          "vi": "Bọn họ đang chơi bóng rổ."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "也",
       "pinyin": "yě",
-      "english": "also",
-      "sentenceChinese": "我喜歡游泳，他也喜歡。",
-      "sentencePinyin": "Wǒ xǐhuān yóuyǒng, tā yě xǐhuān.",
-      "sentenceEnglish": "I like swimming, and he does too.",
-      "vietnamese": "cũng",
-      "sentenceVietnamese": "Tôi thích bơi, và anh ấy cũng thích."
+      "en": "also",
+      "vi": "cũng",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "also; too; as well; either; likewise",
+          "sentence": "他也喜歡吃/喫蘋果。",
+          "pinyin": "tā yě xǐhuan chī píngguǒ.",
+          "en": "He also likes eating apples.",
+          "vi": "Anh ấy cũng thích ăn táo."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "also; too; as well; either; likewise",
+          "sentence": "他們也會説中文。",
+          "pinyin": "tāmen yě huì shuō zhōngwén.",
+          "en": "They can also speak Chinese.",
+          "vi": "Họ cũng biết nói tiếng Trung."
+        },
+        {
+          "type": "Particle",
+          "meaning": "used in the middle of a sentence, marking off a sentence element about which there is to be a statement",
+          "sentence": "君子之言也，必有信。",
+          "pinyin": "jūnzǐ zhī yán yě, bì yǒu xìn.",
+          "en": "A gentleman’s words must be trustworthy.",
+          "vi": "Lời nói của người quân tử, nhất định phải có chữ tín."
+        },
+        {
+          "type": "Particle",
+          "meaning": "used in the middle of a sentence, marking off a sentence element about which there is to be a statement",
+          "sentence": "天下大勢也，分久必閤。",
+          "pinyin": "tiānxià dàshì yě, fēnjiǔbìhé.",
+          "en": "Such is the trend of the world: long divided, it must unite.",
+          "vi": "Thế cuộc thiên hạ, chia lâu ắt sẽ hợp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我認識也小姐。",
+          "pinyin": "wǒ rèn shi yě xiǎojiě.",
+          "en": "I know Miss Ye.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "也衕學很有禮貌。",
+          "pinyin": "yě tóngxué hěn yǒu lǐmào.",
+          "en": "Classmate Ye is very polite.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "踢",
       "pinyin": "tī",
-      "english": "to kick",
-      "sentenceChinese": "他們明天要踢足球。",
-      "sentencePinyin": "Tāmen míngtiān yào tī zúqiú.",
-      "sentenceEnglish": "They are going to play soccer tomorrow.",
-      "vietnamese": "đá",
-      "sentenceVietnamese": "Ngày mai họ sẽ đi đá bóng."
+      "en": "to kick",
+      "vi": "đá",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "kick",
+          "sentence": "我的孩子很喜歡踢足球。",
+          "pinyin": "wǒ de háizi hěn xǐhuan tī zúqiú.",
+          "en": "My child loves playing soccer.",
+          "vi": "Con trai tôi rất thích đá bóng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "kick",
+          "sentence": "他一看到我就踢我一腳。",
+          "pinyin": "tā yī kàn dào wǒ jiù tī wǒ yī jiǎo.",
+          "en": "Every time he sees me, he kicks me.",
+          "vi": "Cô ấy chỉ cần nhìn thấy tôi là sẽ đá tôi một cái."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "足球",
       "pinyin": "zúqiú",
-      "english": "soccer",
-      "sentenceChinese": "我弟弟最喜歡的運動是足球。",
-      "sentencePinyin": "Wǒ dìdi zuì xǐhuān de yùndòng shì zúqiú.",
-      "sentenceEnglish": "My younger brother's favorite sport is soccer.",
-      "vietnamese": "bóng đá",
-      "sentenceVietnamese": "Môn thể thao yêu thích nhất của em trai tôi là bóng đá."
+      "en": "soccer",
+      "vi": "bóng đá",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "soccer; football",
+          "sentence": "你喜歡看足球比賽嗎？",
+          "pinyin": "nǐ xǐhuan kàn zúqiú bǐsài ma?",
+          "en": "Do you like watching football matches?",
+          "vi": "Bạn có thích xem bóng đá không?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "soccer; football",
+          "sentence": "他們在公園裡/裏踢足球。",
+          "pinyin": "tāmen zài gōngyuán lǐ tī zúqiú.",
+          "en": "They're kicking a soccer ball in the park.",
+          "vi": "Họ đang chơi bóng đá trong công viên."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "覺得",
       "pinyin": "juéde",
-      "english": "to feel, to think",
-      "sentenceChinese": "我覺得這部電影很好看。",
-      "sentencePinyin": "Wǒ juéde zhè bù diànyǐng hěn hǎokàn.",
-      "sentenceEnglish": "I think this movie is very good.",
-      "vietnamese": "cảm thấy; nghĩ",
-      "sentenceVietnamese": "Tôi nghĩ bộ phim này rất hay."
+      "en": "to feel, to think",
+      "vi": "cảm thấy; nghĩ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "feel; be aware; sense",
+          "sentence": "我覺得腳疼。",
+          "pinyin": "wǒ juéde jiǎo téng.",
+          "en": "I feel pain in my foot.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel; be aware; sense",
+          "sentence": "我覺得不舒服。",
+          "pinyin": "wǒ juéde bú shūfu.",
+          "en": "I don't feel well.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "好玩",
       "pinyin": "hǎowán",
-      "english": "interesting, fun",
-      "sentenceChinese": "這個遊戲很好玩。",
-      "sentencePinyin": "Zhège yóuxì hěn hǎowán.",
-      "sentenceEnglish": "This game is a lot of fun.",
-      "vietnamese": "vui; thú vị",
-      "sentenceVietnamese": "Trò chơi này rất vui."
+      "en": "interesting, fun",
+      "vi": "vui; thú vị",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "fun; amusing; interesting",
+          "sentence": "隻是為了好玩，現在就試試吧。",
+          "pinyin": "zhǐshì wèile hǎowán, xiànzài jiù shì shì ba.",
+          "en": "Just for fun, try it now.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fun; amusing; interesting",
+          "sentence": "看看這個好玩的小醜！",
+          "pinyin": "kàn kàn zhège hǎowán de xiǎochǒu!",
+          "en": "Look at the funny clown!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "明天",
       "pinyin": "míngtiān",
-      "english": "tomorrow",
-      "sentenceChinese": "明天我們一起去看電影吧。",
-      "sentencePinyin": "Míngtiān wǒmen yìqǐ qù kàn diànyǐng ba.",
-      "sentenceEnglish": "Let's go watch a movie together tomorrow.",
-      "vietnamese": "ngày mai",
-      "sentenceVietnamese": "Ngày mai chúng ta cùng đi xem phim nhé."
+      "en": "tomorrow",
+      "vi": "ngày mai",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "tomorrow",
+          "sentence": "我們明天就得離去。",
+          "pinyin": "wǒmen míngtiān jiù děi lí qù.",
+          "en": "We had to leave on the morrow.",
+          "vi": ""
+        },
+        {
+          "type": "n, time",
+          "meaning": "tomorrow",
+          "sentence": "我們明天去野餐。",
+          "pinyin": "wǒmen míngtiān qù yěcān.",
+          "en": "We're going on a picnic tomorrow.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "早上",
       "pinyin": "zǎoshàng",
-      "english": "morning",
-      "sentenceChinese": "我早上七點起床。",
-      "sentencePinyin": "Wǒ zǎoshàng qī diǎn qǐchuáng.",
-      "sentenceEnglish": "I get up at seven in the morning.",
-      "vietnamese": "buổi sáng",
-      "sentenceVietnamese": "Tôi thức dậy lúc bảy giờ sáng."
+      "en": "morning",
+      "vi": "buổi sáng",
+      "samples": [
+        {
+          "type": "time, n",
+          "meaning": "early morning",
+          "sentence": "我早上去公園跑步。",
+          "pinyin": "wǒ zǎoshang qù gōngyuán pǎobù.",
+          "en": "I go to the park to jog in the morning.",
+          "vi": ""
+        },
+        {
+          "type": "time, n",
+          "meaning": "early morning",
+          "sentence": "早上我喜歡喝一盃咖啡。",
+          "pinyin": "zǎoshang wǒ xǐhuan hè yībēi kāfēi.",
+          "en": "In the morning, I like to drink a cup of coffee.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "去",
       "pinyin": "qù",
-      "english": "to go",
-      "sentenceChinese": "今天晚上你想去哪裡？",
-      "sentencePinyin": "Jīntiān wǎnshàng nǐ xiǎng qù nǎlǐ?",
-      "sentenceEnglish": "Where do you want to go tonight?",
-      "vietnamese": "đi",
-      "sentenceVietnamese": "Tối nay bạn muốn đi đâu?"
+      "en": "to go",
+      "vi": "đi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go; leave",
+          "sentence": "他吃/喫完飯就去了。",
+          "pinyin": "tā chī wán fàn jiù qùle.",
+          "en": "He left right after finishing the meal.",
+          "vi": "Anh ấy ăn xong rồi rời đi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "go; leave",
+          "sentence": "朋友沒打招呼就去了。",
+          "pinyin": "péngyǒu méi dǎzhāohū jiù qùle.",
+          "en": "My friend left without saying goodbye.",
+          "vi": "Bạn tôi rời đi mà không có một lời chào hỏi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely",
+          "sentence": "這件衣服大去了。",
+          "pinyin": "zhè jiàn yīfu dà qùle.",
+          "en": "This piece of clothing is way too big.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely",
+          "sentence": "這個問題去難了。",
+          "pinyin": "zhège wèntí qù nánle.",
+          "en": "This problem is way too hard.",
+          "vi": "Vấn đề này quá khó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "falling tone, one of the four tones in classical Chinese and the fourth tone in modern standard Chinese pronunciation",
+          "sentence": "這個字讀去聲音調。",
+          "pinyin": "zhège zì dú qù shēngyīn diào.",
+          "en": "This character is pronounced with the departing tone.",
+          "vi": "Từ này được phát âm theo thanh tư."
+        },
+        {
+          "type": "Noun",
+          "meaning": "falling tone, one of the four tones in classical Chinese and the fourth tone in modern standard Chinese pronunciation",
+          "sentence": "他説的去聲不標準。",
+          "pinyin": "tā shuō de qù shēng bù biāozhǔn.",
+          "en": "His departing tone pronunciation is not standard.",
+          "vi": "Anh ấy nói thanh tư không chuẩn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "past; last",
+          "sentence": "去年我們去旅行。",
+          "pinyin": "qùnián wǒmen qù lǚxíng.",
+          "en": "Last year we went on a trip.",
+          "vi": "Năm ngoái chúng tôi đã đi du lịch."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "past; last",
+          "sentence": "去年的工作很忙。",
+          "pinyin": "qùnián de gōngzuò hěn máng.",
+          "en": "Last year’s work was very busy.",
+          "vi": "Công việc năm ngoái rất bận."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "怎麼樣",
       "pinyin": "zěnmeyàng",
-      "english": "how about it; what do you think",
-      "sentenceChinese": "明天去運動，怎麼樣？",
-      "sentencePinyin": "Míngtiān qù yùndòng, zěnmeyàng?",
-      "sentenceEnglish": "How about going to exercise tomorrow?",
-      "vietnamese": "thế nào; bạn thấy sao",
-      "sentenceVietnamese": "Ngày mai đi tập thể dục, bạn thấy sao?"
+      "en": "how about it; what do you think",
+      "vi": "thế nào; bạn thấy sao",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "how, how about",
+          "sentence": "最近您身體怎麼樣？",
+          "pinyin": "zuìjìn nín shēntǐ zěnme yàng?",
+          "en": "How's your health been recently?",
+          "vi": "Dạo này sức khỏe của bạn thế nào?"
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "how, how about",
+          "sentence": "你今天感覺怎麼樣？",
+          "pinyin": "nǐ jīntiān gǎnjué zěnme yàng?",
+          "en": "How are you feeling today?",
+          "vi": "Hôm nay bạn cảm thấy thế nào?"
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "啊",
       "pinyin": "a",
-      "english": "sentence-final particle",
-      "sentenceChinese": "好啊，我們一起去吧。",
-      "sentencePinyin": "Hǎo a, wǒmen yìqǐ qù ba.",
-      "sentenceEnglish": "Okay, let's go together.",
-      "vietnamese": "trợ từ cuối câu",
-      "sentenceVietnamese": "Được thôi, chúng ta cùng đi nhé."
+      "en": "sentence-final particle",
+      "vi": "trợ từ cuối câu",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "used at the end of a sentence to express admiration",
+          "sentence": "這朵花真美啊！",
+          "pinyin": "zhè duǒ huā zhēnměi a!",
+          "en": "This flower is so beautiful!",
+          "vi": "Bông hoa này đẹp quá!"
+        },
+        {
+          "type": "Particle",
+          "meaning": "used at the end of a sentence to express admiration",
+          "sentence": "這件衣服好看啊！",
+          "pinyin": "zhè jiàn yīfu hǎokàn a!",
+          "en": "This piece of clothing looks great!",
+          "vi": "Cái áo này đẹp quá!"
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "做什麼",
       "pinyin": "zuò shénme",
-      "english": "do what",
-      "sentenceChinese": "你週末想做什麼？",
-      "sentencePinyin": "Nǐ zhōumò xiǎng zuò shénme?",
-      "sentenceEnglish": "What do you want to do on the weekend?",
-      "vietnamese": "làm gì",
-      "sentenceVietnamese": "Cuối tuần bạn muốn làm gì?"
+      "en": "do what",
+      "vi": "làm gì",
+      "samples": [
+        {
+          "type": "sentence",
+          "meaning": "why?; what to do?",
+          "sentence": "你在做什麼？",
+          "pinyin": "nǐ zài zuò shénme?",
+          "en": "What are you doing?",
+          "vi": ""
+        },
+        {
+          "type": "sentence",
+          "meaning": "why?; what to do?",
+          "sentence": "他來這裡/裏做什麼？",
+          "pinyin": "tā lái zhèlǐ zuò shénme?",
+          "en": "Why did he come here?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "好啊",
       "pinyin": "hǎo a",
-      "english": "OK",
-      "sentenceChinese": "晚上去吃晚飯，好啊！",
-      "sentencePinyin": "Wǎnshàng qù chī wǎnfàn, hǎo a!",
-      "sentenceEnglish": "Go out for dinner tonight? Okay!",
-      "vietnamese": "được thôi; ok",
-      "sentenceVietnamese": "Tối nay đi ăn tối nhé? Được thôi!"
+      "en": "OK",
+      "vi": "được thôi; ok",
+      "samples": [
+        {
+          "type": "",
+          "meaning": "bravo",
+          "sentence": "挺好啊 你總算放下身段。",
+          "pinyin": "tǐng hǎo a nǐ zǒngsuàn fàngxià shēnduàn",
+          "en": "I think it's great you've taken an interest",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "白如玉",
       "pinyin": "Bái Rúyù",
-      "english": "a woman from the US",
-      "sentenceChinese": "白如玉今天晚上想看電影。",
-      "sentencePinyin": "Bái Rúyù jīntiān wǎnshàng xiǎng kàn diànyǐng.",
-      "sentenceEnglish": "Bai Ruyu wants to watch a movie tonight.",
-      "vietnamese": "Bạch Như Ngọc (một phụ nữ đến từ Mỹ)",
-      "sentenceVietnamese": "Bạch Như Ngọc muốn xem phim tối nay."
+      "en": "a woman from the US",
+      "vi": "Bạch Như Ngọc (một phụ nữ đến từ Mỹ)",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "be in compliance (or accordance) with",
+          "sentence": "我如願得到它。",
+          "pinyin": "wǒ rúyuàn dédào tā.",
+          "en": "I got it as I wished.",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "be in compliance (or accordance) with",
+          "sentence": "結果如預期。",
+          "pinyin": "jiéguǒ rú yùqí.",
+          "en": "The results were as expected.",
+          "vi": ""
+        },
+        {
+          "type": "conjunction",
+          "meaning": "if; in case (of); in the event of",
+          "sentence": "如果下雨，我就不齣門。",
+          "pinyin": "rúguǒ xià yǔ, wǒ jiù bù chūmén.",
+          "en": "If it rains, I won’t go out.",
+          "vi": ""
+        },
+        {
+          "type": "conjunction",
+          "meaning": "if; in case (of); in the event of",
+          "sentence": "如有問題，請隨時聯繫我。",
+          "pinyin": "rú yǒu wèntí, qǐng suíshí liánxì wǒ.",
+          "en": "Please feel free to contact me if you have any questions.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "surname Ru",
+          "sentence": "如老師，很高興見到您。",
+          "pinyin": "rú lǎoshī, hěn gāoxìng jiàn dào nín.",
+          "en": "Teacher Ru, it's a pleasure to meet you.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "surname Ru",
+          "sentence": "他姓如，名叫如風。",
+          "pinyin": "tā xìng rú, míng jiào rú fēng.",
+          "en": "His surname is Ru, and his given name is Rufeng.",
+          "vi": ""
+        },
+        {
+          "type": "preposition",
+          "meaning": "according to",
+          "sentence": "如你所見，他很聰明。",
+          "pinyin": "rú nǐ suǒ jiàn, tā hěn cōngmíng.",
+          "en": "As you can see, he is very intelligent.",
+          "vi": ""
+        },
+        {
+          "type": "preposition",
+          "meaning": "according to",
+          "sentence": "如我所知，他已經離開。",
+          "pinyin": "rú wǒ suǒ zhī, tā yǐjīng líkāi.",
+          "en": "As far as I know, he has already left.",
+          "vi": ""
+        },
+        {
+          "type": "suff",
+          "meaning": "to handle something with ease",
+          "sentence": "她處理問題應付裕如。",
+          "pinyin": "tā chǔlǐ wèntí yìngfù yùrú.",
+          "en": "She handles problems with ease.",
+          "vi": ""
+        },
+        {
+          "type": "suff",
+          "meaning": "to handle something with ease",
+          "sentence": "他在考場上應付裕如。",
+          "pinyin": "tā zài kǎochǎng shàng yìngfù yùrú.",
+          "en": "He handled the exam with great ease.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "今天",
       "pinyin": "jīntiān",
-      "english": "today",
-      "sentenceChinese": "今天我很忙。",
-      "sentencePinyin": "Jīntiān wǒ hěn máng.",
-      "sentenceEnglish": "I am very busy today.",
-      "vietnamese": "hôm nay",
-      "sentenceVietnamese": "Hôm nay tôi rất bận."
+      "en": "today",
+      "vi": "hôm nay",
+      "samples": [
+        {
+          "type": "time, n",
+          "meaning": "today; this day",
+          "sentence": "我今天很開心。",
+          "pinyin": "wǒ jīntiān hěn kāixīn.",
+          "en": "I am very happy today.",
+          "vi": ""
+        },
+        {
+          "type": "time, n",
+          "meaning": "today; this day",
+          "sentence": "他今天去上班了。",
+          "pinyin": "tā jīntiān qù shàngbānle.",
+          "en": "He went to work today.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "晚上",
       "pinyin": "wǎnshàng",
-      "english": "evening; night",
-      "sentenceChinese": "今天晚上我們吃晚飯吧。",
-      "sentencePinyin": "Jīntiān wǎnshàng wǒmen chī wǎnfàn ba.",
-      "sentenceEnglish": "Let's have dinner tonight.",
-      "vietnamese": "buổi tối; tối",
-      "sentenceVietnamese": "Tối nay chúng ta ăn tối nhé."
+      "en": "evening; night",
+      "vi": "buổi tối; tối",
+      "samples": [
+        {
+          "type": "n, time",
+          "meaning": "night; evening",
+          "sentence": "今兒晚上我值班。",
+          "pinyin": "jīnr wǎnshàng wǒ zhíbān.",
+          "en": "I am on duty tonight.",
+          "vi": ""
+        },
+        {
+          "type": "n, time",
+          "meaning": "night; evening",
+          "sentence": "晚上有一個會。",
+          "pinyin": "wǎnshàng yǒu yīgè huì.",
+          "en": "There is a meeting tonight.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "看",
       "pinyin": "kàn",
-      "english": "to see; to watch",
-      "sentenceChinese": "我想看一部新電影。",
-      "sentencePinyin": "Wǒ xiǎng kàn yí bù xīn diànyǐng.",
-      "sentenceEnglish": "I want to watch a new movie.",
-      "vietnamese": "xem; nhìn",
-      "sentenceVietnamese": "Tôi muốn xem một bộ phim mới."
+      "en": "to see; to watch",
+      "vi": "xem; nhìn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "see; look at; watch",
+          "sentence": "我想看一下你的手機。",
+          "pinyin": "wǒ xiǎng kàn yīxià nǐ de shǒujī.",
+          "en": "I want to take a look at your phone.",
+          "vi": "Tôi muốn xem điện thoại của bạn một chút."
+        },
+        {
+          "type": "Verb",
+          "meaning": "see; look at; watch",
+          "sentence": "她在看電影。",
+          "pinyin": "tā zài kàn diànyǐng.",
+          "en": "She is watching a movie.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "try",
+          "sentence": "我們來做看這計劃如何。",
+          "pinyin": "wǒmen lái zuò kàn zhè jìhuà rúhé.",
+          "en": "Let’s try and see how this plan works.",
+          "vi": "Chúng ta hãy thử xem kế hoạch này như thế nào."
+        },
+        {
+          "type": "Particle",
+          "meaning": "try",
+          "sentence": "你能想想辦法看看嗎？",
+          "pinyin": "nǐ néng xiǎng xiǎng bànfǎ kàn kàn ma?",
+          "en": "Can you think of a way to solve this?",
+          "vi": "Bạn có thể nghĩ xem có cách nào không?"
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "電影",
       "pinyin": "diànyǐng",
-      "english": "movie",
-      "sentenceChinese": "這部電影很有意思。",
-      "sentencePinyin": "Zhè bù diànyǐng hěn yǒu yìsi.",
-      "sentenceEnglish": "This movie is very interesting.",
-      "vietnamese": "phim",
-      "sentenceVietnamese": "Bộ phim này rất thú vị."
+      "en": "movie",
+      "vi": "phim",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "film; movie; motion picture",
+          "sentence": "我很喜歡看電影。",
+          "pinyin": "wǒ hěn xǐhuan kàn diànyǐng.",
+          "en": "I like watching movies very much.",
+          "vi": "Tôi rất thích xem phim."
+        },
+        {
+          "type": "Noun",
+          "meaning": "film; movie; motion picture",
+          "sentence": "這部電影十分精綵。",
+          "pinyin": "zhè bù diànyǐng shífēn jīngcǎi.",
+          "en": "This movie is very wonderful.",
+          "vi": "Bộ phim này thật tuyệt vời."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "妳",
       "pinyin": "nǐ",
-      "english": "you, female",
-      "sentenceChinese": "妳今天晚上有空嗎？",
-      "sentencePinyin": "Nǐ jīntiān wǎnshàng yǒu kòng ma?",
-      "sentenceEnglish": "Are you free tonight?",
-      "vietnamese": "bạn (nữ)",
-      "sentenceVietnamese": "Tối nay bạn có rảnh không?"
+      "en": "you, female",
+      "vi": "bạn (nữ)",
+      "samples": []
     },
     {
       "id": 30,
       "chinese": "想",
       "pinyin": "xiǎng",
-      "english": "to want; to think",
-      "sentenceChinese": "我想學中文。",
-      "sentencePinyin": "Wǒ xiǎng xué Zhōngwén.",
-      "sentenceEnglish": "I want to learn Chinese.",
-      "vietnamese": "muốn; nghĩ",
-      "sentenceVietnamese": "Tôi muốn học tiếng Trung."
+      "en": "to want; to think",
+      "vi": "muốn; nghĩ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "think; ponder",
+          "sentence": "讓我再想一想。",
+          "pinyin": "ràng wǒ zài xiǎng yī xiǎng.",
+          "en": "Let me think a bit more.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "think; ponder",
+          "sentence": "你想清楚了嗎？",
+          "pinyin": "nǐ xiǎng qīngchule ma?",
+          "en": "Have you thought it through?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "還是",
       "pinyin": "háishì",
-      "english": "or, used in a question",
-      "sentenceChinese": "妳想看電影還是吃晚飯？",
-      "sentencePinyin": "Nǐ xiǎng kàn diànyǐng háishì chī wǎnfàn?",
-      "sentenceEnglish": "Do you want to watch a movie or have dinner?",
-      "vietnamese": "hay, dùng trong câu hỏi",
-      "sentenceVietnamese": "Bạn muốn xem phim hay ăn tối?"
+      "en": "or, used in a question",
+      "vi": "hay, dùng trong câu hỏi",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "still; yet",
+          "sentence": "明天還是下雨，記得帶傘。",
+          "pinyin": "míngtiān háishi xià yǔ, jìdé dài sǎn.",
+          "en": "It will still rain tomorrow; remember to take an umbrella.",
+          "vi": "Mai vẫn mưa đấy, nhớ mang ô."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "still; yet",
+          "sentence": "這麼多年，我還是喜歡你。",
+          "pinyin": "zhème duōnián, wǒ háishi xǐhuan nǐ.",
+          "en": "After so many years, I still like you.",
+          "vi": "Nhiều năm như vậy, tôi vẫn cứ thích em."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "or",
+          "sentence": "你是上海人還是福建人？",
+          "pinyin": "nǐ shì Shànghǎi rén háishi Fújiàn rén?",
+          "en": "Are you from Shanghai or Fujian?",
+          "vi": "Cậu là người Thượng Hải hay người Phúc Kiến?"
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "or",
+          "sentence": "這件事是真的還是假的？",
+          "pinyin": "zhè jiàn shì shì zhēn de háishi jiǎ de?",
+          "en": "Is this matter true or false?",
+          "vi": "Việc này thật hay giả đấy?"
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "吧",
       "pinyin": "ba",
-      "english": "sentence-final particle for suggestion",
-      "sentenceChinese": "我們一起去吧。",
-      "sentencePinyin": "Wǒmen yìqǐ qù ba.",
-      "sentenceEnglish": "Let's go together.",
-      "vietnamese": "trợ từ cuối câu dùng để gợi ý",
-      "sentenceVietnamese": "Chúng ta cùng đi nhé."
+      "en": "sentence-final particle for suggestion",
+      "vi": "trợ từ cuối câu dùng để gợi ý",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "indicates discussion, suggestion, request, or command at the end of a sentence",
+          "sentence": "幫我拿一下那個吧。",
+          "pinyin": "bāng wǒ ná yīxià nàgè ba.",
+          "en": "Please help me take that.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "indicates discussion, suggestion, request, or command at the end of a sentence",
+          "sentence": "你早點休息吧。",
+          "pinyin": "nǐ zǎodiǎn xiūxi ba.",
+          "en": "You should rest early.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "可以",
       "pinyin": "kěyǐ",
-      "english": "can; could",
-      "sentenceChinese": "今天晚上可以一起學中文嗎？",
-      "sentencePinyin": "Jīntiān wǎnshàng kěyǐ yìqǐ xué Zhōngwén ma?",
-      "sentenceEnglish": "Can we study Chinese together tonight?",
-      "vietnamese": "có thể",
-      "sentenceVietnamese": "Tối nay chúng ta có thể cùng học tiếng Trung không?"
+      "en": "can; could",
+      "vi": "có thể",
+      "samples": [
+        {
+          "type": "av",
+          "meaning": "can; may",
+          "sentence": "我們可不可以休息？",
+          "pinyin": "wǒmen kěbù kěyǐ xiūxi?",
+          "en": "May we take a break?",
+          "vi": ""
+        },
+        {
+          "type": "av",
+          "meaning": "can; may",
+          "sentence": "你們可不可以説慢點？",
+          "pinyin": "nǐmen kěbù kěyǐ shuō màn diǎn?",
+          "en": "Can you speak slower?",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "passable; not bad; pretty good",
+          "sentence": "這本書還可以。",
+          "pinyin": "zhè běn shū hái kěyǐ.",
+          "en": "This book is passable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "passable; not bad; pretty good",
+          "sentence": "這道菜還可以。",
+          "pinyin": "zhè dào cài hái kěyǐ.",
+          "en": "This dish is quite good.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "學",
       "pinyin": "xué",
-      "english": "to learn; to study",
-      "sentenceChinese": "我妹妹在學中文。",
-      "sentencePinyin": "Wǒ mèimei zài xué Zhōngwén.",
-      "sentenceEnglish": "My younger sister is learning Chinese.",
-      "vietnamese": "học",
-      "sentenceVietnamese": "Em gái tôi đang học tiếng Trung."
+      "en": "to learn; to study",
+      "vi": "học",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "study; learn",
+          "sentence": "我每天都學中文。",
+          "pinyin": "wǒ měitiān dōu xué zhōngwén.",
+          "en": "I study Chinese every day.",
+          "vi": "Tôi học tiếng Trung mỗi ngày."
+        },
+        {
+          "type": "Verb",
+          "meaning": "study; learn",
+          "sentence": "我正在學怎麼打網球。",
+          "pinyin": "wǒ zhèngzài xué zěnme dǎ wǎngqiú.",
+          "en": "I’m learning how to play tennis.",
+          "vi": "Tôi đang học cách đánh tennis."
+        },
+        {
+          "type": "Noun",
+          "meaning": "learning; knowledge",
+          "sentence": "他在學問上很有造詣。",
+          "pinyin": "tā zài xuéwèn shàng hěn yǒu zàoyì.",
+          "en": "He has great achievements in scholarship.",
+          "vi": "Anh ấy có thành tựu cao trong học vấn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "learning; knowledge",
+          "sentence": "她對古代曆史有很深的學問。",
+          "pinyin": "tā duì gǔdài lìshǐ yǒu hěn shēn de xuéwèn.",
+          "en": "She has profound knowledge of ancient history.",
+          "vi": "Cô ấy có học vấn sâu rộng về lịch sử cổ đại."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "中文",
       "pinyin": "Zhōngwén",
-      "english": "Chinese language",
-      "sentenceChinese": "中文很有意思。",
-      "sentencePinyin": "Zhōngwén hěn yǒu yìsi.",
-      "sentenceEnglish": "Chinese is very interesting.",
-      "vietnamese": "tiếng Trung",
-      "sentenceVietnamese": "Tiếng Trung rất thú vị."
+      "en": "Chinese language",
+      "vi": "tiếng Trung",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the Chinese language; Chinese",
+          "sentence": "她的中文説得很好。",
+          "pinyin": "tā de zhōngwén shuō dé hěn hǎo.",
+          "en": "She can speak Chinese very well.",
+          "vi": "Cô ấy nói tiếng Trung rất tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the Chinese language; Chinese",
+          "sentence": "中文學習需要堅持。",
+          "pinyin": "zhōngwén xuéxí xūyào jiānchí.",
+          "en": "Learning Chinese requires perseverance.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "一起",
       "pinyin": "yìqǐ",
-      "english": "together",
-      "sentenceChinese": "我們明天一起去游泳。",
-      "sentencePinyin": "Wǒmen míngtiān yìqǐ qù yóuyǒng.",
-      "sentenceEnglish": "We will go swimming together tomorrow.",
-      "vietnamese": "cùng nhau",
-      "sentenceVietnamese": "Ngày mai chúng ta sẽ cùng nhau đi bơi."
+      "en": "together",
+      "vi": "cùng nhau",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "together; in company",
+          "sentence": "我跟你一起去。",
+          "pinyin": "wǒ gēn nǐ yīqǐ qù.",
+          "en": "I will go with you.",
+          "vi": "Tôi đi với cậu."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "together; in company",
+          "sentence": "我們一起玩兒吧。",
+          "pinyin": "wǒmen yīqǐ wánr ba.",
+          "en": "Let’s play together.",
+          "vi": "Chúng ta cùng chơi nhé."
+        },
+        {
+          "type": "Noun",
+          "meaning": "in the same place",
+          "sentence": "我們以前住在一起。",
+          "pinyin": "wǒmen yǐqián zhù zài yīqǐ.",
+          "en": "We used to live together.",
+          "vi": "Hồi trước chúng tôi sống cùng nhau."
+        },
+        {
+          "type": "Noun",
+          "meaning": "in the same place",
+          "sentence": "我們終於在一起了。",
+          "pinyin": "wǒmen zhōngyú zài yīqǐle.",
+          "en": "We are finally together.",
+          "vi": "Cuối cùng chúng tôi cũng bên nhau rồi."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "吃",
       "pinyin": "chī",
-      "english": "to eat",
-      "sentenceChinese": "我晚上想吃菜和飯。",
-      "sentencePinyin": "Wǒ wǎnshàng xiǎng chī cài hàn fàn.",
-      "sentenceEnglish": "I want to eat vegetables and rice tonight.",
-      "vietnamese": "ăn",
-      "sentenceVietnamese": "Tối nay tôi muốn ăn rau và cơm."
+      "en": "to eat",
+      "vi": "ăn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "eat; take; make",
+          "sentence": "我喜歡吃/喫蘋果。",
+          "pinyin": "wǒ xǐhuān chī píngguǒ.",
+          "en": "I like eating apples.",
+          "vi": "Tớ thích ăn táo."
+        },
+        {
+          "type": "Verb",
+          "meaning": "eat; take; make",
+          "sentence": "小孩子正在吃/喫奶。",
+          "pinyin": "xiǎo háizi zhèngzài chī nǎi.",
+          "en": "The child is drinking milk.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "indicate for basic necessities",
+          "sentence": "他們過著缺吃/喫少穿的生活。",
+          "pinyin": "tāmenguòzhe quē chī shǎo chuān de shēnghuó.",
+          "en": "They live a life of hunger and poverty.",
+          "vi": "Họ sống cuộc sống thiếu ăn thiếu mặc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "indicate for basic necessities",
+          "sentence": "現在還有很多人都缺吃/喫少穿。",
+          "pinyin": "xiànzài hái yǒu hěnduō rén dōu quē chī shǎo chuān.",
+          "en": "Many people still lack basic necessities.",
+          "vi": "Hiện nay còn có rất nhiều người thiếu ăn thiếu mặc."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "stumble",
+          "sentence": "口吃/喫是不自信的錶現。",
+          "pinyin": "kǒuchī shì bù zìxìn de biǎoxiàn.",
+          "en": "Stuttering is a sign of low self-confidence.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "stumble",
+          "sentence": "小明因為緊張而口吃/喫。",
+          "pinyin": "xiǎomíng yīnwèi jǐnzhāng ér kǒuchī.",
+          "en": "Xiao Ming stutters due to nervousness.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "晚飯",
       "pinyin": "wǎnfàn",
-      "english": "dinner",
-      "sentenceChinese": "我們七點吃晚飯。",
-      "sentencePinyin": "Wǒmen qī diǎn chī wǎnfàn.",
-      "sentenceEnglish": "We eat dinner at seven.",
-      "vietnamese": "bữa tối; cơm tối",
-      "sentenceVietnamese": "Chúng tôi ăn tối lúc bảy giờ."
+      "en": "dinner",
+      "vi": "bữa tối; cơm tối",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dinner",
+          "sentence": "我們一起吃/喫晚飯。",
+          "pinyin": "wǒmen yīqǐ chī wǎnfàn.",
+          "en": "We have dinner together.",
+          "vi": "Chúng tôi cùng ăn bữa tối."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dinner",
+          "sentence": "晚飯後，我們去散步。",
+          "pinyin": "wǎnfàn hòu, wǒmen qù sànbù.",
+          "en": "After dinner, we go for a walk.",
+          "vi": "Sau bữa tối, chúng tôi đi dạo."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "菜",
       "pinyin": "cài",
-      "english": "cuisine; dish; vegetables",
-      "sentenceChinese": "這家餐廳的菜很好吃。",
-      "sentencePinyin": "Zhè jiā cāntīng de cài hěn hǎochī.",
-      "sentenceEnglish": "The dishes at this restaurant are delicious.",
-      "vietnamese": "món ăn; món; rau",
-      "sentenceVietnamese": "Các món ăn ở nhà hàng này rất ngon."
+      "en": "cuisine; dish; vegetables",
+      "vi": "món ăn; món; rau",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "vegetable; greens",
+          "sentence": "我今天買了很多菜。",
+          "pinyin": "wǒ jīntiān mǎile hěnduō cài.",
+          "en": "I bought a lot of vegetables today.",
+          "vi": "Hôm nay tôi đã mua rất nhiều rau."
+        },
+        {
+          "type": "Noun",
+          "meaning": "vegetable; greens",
+          "sentence": "我們要去市場買菜。",
+          "pinyin": "wǒmen yào qù shìchǎng mǎi cài.",
+          "en": "We are going to the market to buy vegetables.",
+          "vi": "Chúng tôi sẽ đi chợ mua rau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "poor ability; low level",
+          "sentence": "他的技能真的太菜了。",
+          "pinyin": "tā de jìnéng zhēn de tài càile.",
+          "en": "His skills are really terrible.",
+          "vi": "Kỹ năng của anh ấy thực sự quá kém."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "poor ability; low level",
+          "sentence": "她在比賽中的錶現很菜。",
+          "pinyin": "tā zài bǐsài zhōng de biǎoxiàn hěn cài.",
+          "en": "Her performance in the competition was very poor.",
+          "vi": "Cô ấy thể hiện rất kém trong cuộc thi."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "越南",
       "pinyin": "Yuènán",
-      "english": "Vietnam",
-      "sentenceChinese": "她是越南人。",
-      "sentencePinyin": "Tā shì Yuènán rén.",
-      "sentenceEnglish": "She is Vietnamese.",
-      "vietnamese": "Việt Nam",
-      "sentenceVietnamese": "Cô ấy là người Việt Nam."
+      "en": "Vietnam",
+      "vi": "Việt Nam",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Vietnam",
+          "sentence": "越南的首都是河內。",
+          "pinyin": "Yuènán de shǒudū shì Hénèi.",
+          "en": "The capital of Vietnam is Hanoi.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Vietnam",
+          "sentence": "他去過越南很多次。",
+          "pinyin": "tā qùguò Yuènán hěnduō cì.",
+          "en": "He has been to Vietnam many times.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "好不好",
       "pinyin": "hǎo bù hǎo",
-      "english": "how about...; how does that sound",
-      "sentenceChinese": "明天一起看電影，好不好？",
-      "sentencePinyin": "Míngtiān yìqǐ kàn diànyǐng, hǎo bù hǎo?",
-      "sentenceEnglish": "How about watching a movie together tomorrow?",
-      "vietnamese": "được không; thấy sao",
-      "sentenceVietnamese": "Ngày mai cùng đi xem phim nhé, được không?"
+      "en": "how about...; how does that sound",
+      "vi": "được không; thấy sao",
+      "samples": [
+        {
+          "type": "phrase",
+          "meaning": "all right?",
+          "sentence": "你看這個辦法好不好?",
+          "pinyin": "nǐ kàn zhège bànfǎ hǎo bu hǎo?",
+          "en": "What do you think of this idea?",
+          "vi": "Cậu thấy cách này được không?"
+        },
+        {
+          "type": "phrase",
+          "meaning": "all right?",
+          "sentence": "現在去公園好不好？",
+          "pinyin": "xiànzài qù gōngyuán hǎo bu hǎo?",
+          "en": "How about going to the park now?",
+          "vi": "Đi công viên bây giờ có được không?"
+        }
+      ]
     }
-  ],
-  "theme": "Hobbies"
+  ]
 }

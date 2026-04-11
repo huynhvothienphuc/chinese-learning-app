@@ -7,463 +7,1218 @@
       "id": 1,
       "chinese": "節日",
       "pinyin": "jiéri",
-      "english": "holiday, festival",
-      "sentenceChinese": "春節是華人最重要的節日。",
-      "sentencePinyin": "Chūnjié shì Huárén zuì zhòngyào de jiéri.",
-      "sentenceEnglish": "The Spring Festival is the most important holiday for Chinese people.",
-      "vietnamese": "ngày lễ, lễ hội",
-      "sentenceVietnamese": "Tết Nguyên Đán là ngày lễ quan trọng nhất của người Hoa."
+      "en": "holiday, festival",
+      "vi": "ngày lễ, lễ hội",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "festival; holiday",
+          "sentence": "春節是重要的節日。",
+          "pinyin": "chūnjié shì zhòngyào de jiérì.",
+          "en": "The Lunar New Year is an important holiday.",
+          "vi": "Tết là một lễ hội quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "festival; holiday",
+          "sentence": "每個節日都有特色。",
+          "pinyin": "měi gè jiérì dōu yǒu tèsè.",
+          "en": "Every holiday has its own uniqueness.",
+          "vi": "Mỗi ngày lễ đều có sự đặc sắc."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "打掃",
       "pinyin": "dǎsǎo",
-      "english": "to clean up (must include sweeping)",
-      "sentenceChinese": "過年以前，全家都要一起大打掃。",
-      "sentencePinyin": "Guònián yǐqián, quánjiā dōu yào yìqǐ dà dǎsǎo.",
-      "sentenceEnglish": "Before the New Year, the whole family must clean the house together.",
-      "vietnamese": "dọn dẹp, quét dọn",
-      "sentenceVietnamese": "Trước khi ăn Tết, cả nhà đều phải cùng nhau tổng vệ sinh."
+      "en": "to clean up (must include sweeping)",
+      "vi": "dọn dẹp, quét dọn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sweep; clean",
+          "sentence": "我們正在打掃屋子。",
+          "pinyin": "wǒmen zhèngzài dǎsǎo wūzi.",
+          "en": "We are cleaning the house.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "sweep; clean",
+          "sentence": "這個房間需要打掃。",
+          "pinyin": "zhège fángjiān xūyào dǎsǎo.",
+          "en": "This room needs cleaning.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "另外",
       "pinyin": "lìngwài",
-      "english": "in addition",
-      "sentenceChinese": "除了買年糕，另外還要買橘子。",
-      "sentencePinyin": "Chúle mǎi niángāo, lìngwài hái yào mǎi júzi.",
-      "sentenceEnglish": "In addition to buying rice cakes, we also need to buy oranges.",
-      "vietnamese": "ngoài ra",
-      "sentenceVietnamese": "Ngoài việc mua bánh tổ, còn phải mua thêm quýt nữa."
+      "en": "in addition",
+      "vi": "ngoài ra",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "besides; in addition; moreover",
+          "sentence": "另外，我還需要一盃水。",
+          "pinyin": "lìngwài, wǒ hái xūyào yībēi shuǐ.",
+          "en": "Besides, I also need a glass of water.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "besides; in addition; moreover",
+          "sentence": "另外，我還需要一個筆記本。",
+          "pinyin": "lìngwài, wǒ hái xūyào yīgè bǐjìběn.",
+          "en": "In addition, I still need a notebook.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "besides; in addition",
+          "sentence": "我會英語，另外還會法語。",
+          "pinyin": "wǒ huì yīngyǔ, lìngwài hái huì fǎyǔ.",
+          "en": "I can speak English, and in addition, I can also speak French.",
+          "vi": "Tôi biết tiếng Anh, ngoài ra còn tiếng Pháp."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "besides; in addition",
+          "sentence": "我吃/喫過魚，另外還吃/喫過螺絲。",
+          "pinyin": "wǒ chīguò yú, lìngwài hái chīguò luósī.",
+          "en": "I have eaten fish, and in addition, I have also eaten snails.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "other; another",
+          "sentence": "我目前有另外的計劃。",
+          "pinyin": "wǒ mùqián yǒu lìngwài de jìhuà.",
+          "en": "I currently have other plans.",
+          "vi": "Tôi giờ có kế hoạch khác."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "other; another",
+          "sentence": "他們有另外的建議。",
+          "pinyin": "tāmen yǒu lìngwài de jiànyì.",
+          "en": "They have other suggestions.",
+          "vi": "Họ đã có những gợi ý khác."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "春聯",
       "pinyin": "chūnlián",
-      "english": "New Year’s coupet (with calligraphy, in doublets)",
-      "sentenceChinese": "他在門口貼上紅紅的春聯。",
-      "sentencePinyin": "Tā zài ménkǒu tiēshàng hónghóng de chūnlián.",
-      "sentenceEnglish": "He pasted red New Year's couplets on the door.",
-      "vietnamese": "câu đối Tết",
-      "sentenceVietnamese": "Anh ấy dán câu đối Tết đỏ rực trước cửa."
+      "en": "New Year’s coupet (with calligraphy, in doublets)",
+      "vi": "câu đối Tết",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Spring Festival couplets (pasted on gateposts or door panels)",
+          "sentence": "他們在門口貼上了春聯。",
+          "pinyin": "tāmen zài ménkǒu tiē shàngle chūnlián.",
+          "en": "They pasted Spring Festival couplets on the door.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Spring Festival couplets (pasted on gateposts or door panels)",
+          "sentence": "春聯通常包含祝福語。",
+          "pinyin": "chūnlián tōngcháng bāohán zhùfú yǔ.",
+          "en": "Spring Festival couplets usually contain blessings.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "除夕",
       "pinyin": "chúxì",
-      "english": "Lunar New Year’s Eve",
-      "sentenceChinese": "除夕那天，全家人都要聚在一起吃年夜飯。",
-      "sentencePinyin": "Chúxì nèitiān, quánjiārén dōu yào jù zài yìqǐ chī niányèfàn.",
-      "sentenceEnglish": "On New Year's Eve, the whole family gathers to have dinner.",
-      "vietnamese": "đêm giao thừa",
-      "sentenceVietnamese": "Vào đêm giao thừa, cả nhà đều phải tụ họp lại ăn cơm tất niên."
+      "en": "Lunar New Year’s Eve",
+      "vi": "đêm giao thừa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Lunar New Year's Eve",
+          "sentence": "他是在除夕那天齣生的。",
+          "pinyin": "tā shì zài chú xī nèitiān chūshēng de.",
+          "en": "He was born on New Year's Eve.",
+          "vi": "Anh ấy được sinh ra vào đêm giao thừa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Lunar New Year's Eve",
+          "sentence": "除夕必須迴傢吃/喫團圓飯。",
+          "pinyin": "chú xī bìxū huí jiā chī tuányuán fàn.",
+          "en": "On New Year's Eve, we must go home for a reunion dinner.",
+          "vi": "Giao thừa phải về nhà ăn bữa cơm đoàn viên."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "年糕",
       "pinyin": "niángāo",
-      "english": "new year rice cake",
-      "sentenceChinese": "過年的時候吃年糕，有「步步高升」的意思。",
-      "sentencePinyin": "Guònián de shíhòu chī niángāo, yǒu 'bùbù gāoshēng' de yìsi.",
-      "sentenceEnglish": "Eating rice cakes during the New Year signifies rising in rank step by step.",
-      "vietnamese": "bánh tổ",
-      "sentenceVietnamese": "Ăn bánh tổ lúc Tết có ý nghĩa là ngày càng thăng tiến."
+      "en": "new year rice cake",
+      "vi": "bánh tổ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "New Year cake (made of glutinous rice flour)",
+          "sentence": "年糕越蒸越往下塌。",
+          "pinyin": "niángāo yuèzhēng yuèwǎng xià tā。",
+          "en": "The more the rice cake is steamed, the more it sinks.",
+          "vi": "Bánh tổ càng hấp càng lõm xuống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "New Year cake (made of glutinous rice flour)",
+          "sentence": "年糕上撒了一層白醣。",
+          "pinyin": "niángāo shàng sǎ le yīcéng báitáng.",
+          "en": "The rice cake is sprinkled with a layer of white sugar.",
+          "vi": "Trên mặt bánh tổ có rắc một lớp đường."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "橘子",
       "pinyin": "júzi",
-      "english": "orange, tangerine",
-      "sentenceChinese": "橘子代表大吉大利。",
-      "sentencePinyin": "Júzi dàibiǎo dàjí dàlì.",
-      "sentenceEnglish": "Oranges represent great luck and prosperity.",
-      "vietnamese": "quýt",
-      "sentenceVietnamese": "Trái quýt đại diện cho đại cát đại lợi."
+      "en": "orange, tangerine",
+      "vi": "quýt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tangerine; mandarin orange",
+          "sentence": "我很喜歡吃/喫橘子。",
+          "pinyin": "wǒ hěn xǐhuan chī júzi.",
+          "en": "I really like to eat oranges.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "tangerine; mandarin orange",
+          "sentence": "橘子富含維生素。",
+          "pinyin": "júzi fùhán wéishēngsù.",
+          "en": "Oranges are rich in vitamin C.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "守歲",
       "pinyin": "shǒusuì",
-      "english": "to stay up waiting for the arrival of the New Year",
-      "sentenceChinese": "除夕夜，孩子們常陪父母守歲。",
-      "sentencePinyin": "Chúxì yè, háizimen cháng péi fùmǔ shǒusuì.",
-      "sentenceEnglish": "On New Year's Eve, children often stay up late with their parents.",
-      "vietnamese": "đón giao thừa, thức đợi năm mới",
-      "sentenceVietnamese": "Đêm giao thừa, con cái thường cùng bố mẹ thức đón năm mới."
+      "en": "to stay up waiting for the arrival of the New Year",
+      "vi": "đón giao thừa, thức đợi năm mới",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stay up late or all night on New Year's Eve",
+          "sentence": "他和朋友們一起守歲。",
+          "pinyin": "tā hé péngyǒumen yīqǐ shǒusuì.",
+          "en": "He stayed up with his friends on New Year's Eve.",
+          "vi": "Anh ấy cùng bạn bè thức đón giao thừa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "stay up late or all night on New Year's Eve",
+          "sentence": "守歲是我們的傳統習俗。",
+          "pinyin": "shǒusuì shì wǒmen de chuántǒng xísú.",
+          "en": "Staying up late on New Year's Eve is our traditional custom.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "說法",
       "pinyin": "shuōfǎ",
-      "english": "way of saying things, a theory",
-      "sentenceChinese": "關於守歲，有很多種不同的說法。",
-      "sentencePinyin": "Guānyú shǒusuì, yǒu hěnduō zhǒng bùtóng de shuōfǎ.",
-      "sentenceEnglish": "There are many different sayings and theories about staying up for the New Year.",
-      "vietnamese": "cách nói, giả thuyết",
-      "sentenceVietnamese": "Về việc đón giao thừa, có rất nhiều cách nói khác nhau."
+      "en": "way of saying things, a theory",
+      "vi": "cách nói, giả thuyết",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wording; formulation; way of saying a thing",
+          "sentence": "我要換一個説法。",
+          "pinyin": "wǒ yào huàn yīgè shuōfa.",
+          "en": "I want to say it in a different way.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "wording; formulation; way of saying a thing",
+          "sentence": "這個意思有兩種説法。",
+          "pinyin": "zhège yìsi yǒu liǎng zhǒng shuōfa.",
+          "en": "This can be interpreted in two ways.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "晚",
       "pinyin": "wǎn",
-      "english": "late",
-      "sentenceChinese": "守歲就是那天要睡得很晚。",
-      "sentencePinyin": "Shǒusuì jiùshì nèitiān yào shuì de hěn wǎn.",
-      "sentenceEnglish": "Staying up for the New Year means going to bed very late that day.",
-      "vietnamese": "muộn, trễ",
-      "sentenceVietnamese": "Đón giao thừa chính là ngày hôm đó phải ngủ rất muộn."
+      "en": "late",
+      "vi": "muộn, trễ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "night; evening",
+          "sentence": "我喜歡在晚上散步。",
+          "pinyin": "wǒ xǐhuan zài wǎnshàng sànbù.",
+          "en": "I like to take a walk in the evening.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "night; evening",
+          "sentence": "我們晚上見麵吧。",
+          "pinyin": "wǒmen wǎnshàng jiànmiàn ba.",
+          "en": "Let's meet in the evening.",
+          "vi": "Chúng ta gặp nhau vào buổi tối nhé."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "late",
+          "sentence": "你早點兒走，別去晚了。",
+          "pinyin": "nǐ zǎodiǎnr zǒu, bié qù wǎnle.",
+          "en": "You should leave earlier, don't be late.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "late",
+          "sentence": "我們現在齣髮/發不晚吧？",
+          "pinyin": "wǒmen xiànzài chū fǎ bù wǎn ba?",
+          "en": "It's not too late for us to leave now, right?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "活",
       "pinyin": "huó",
-      "english": "to live, to stay active",
-      "sentenceChinese": "祝老人家活得健康平安。",
-      "sentencePinyin": "Zhù lǎorénjiā huó de jiànkāng píng'ān.",
-      "sentenceEnglish": "Wish the elderly a healthy and peaceful life.",
-      "vietnamese": "sống",
-      "sentenceVietnamese": "Chúc người già sống khỏe mạnh và bình an."
+      "en": "to live, to stay active",
+      "vi": "sống",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "live",
+          "sentence": "這條魚還活著嗎？",
+          "pinyin": "zhè tiáo yú hái huózhe ma?",
+          "en": "Is this fish still alive?",
+          "vi": "Con cá này còn sống không?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "live",
+          "sentence": "這個人活了100歲。",
+          "pinyin": "zhège rén huóle 100 suì.",
+          "en": "This person lived to 100 years old.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "alive; living",
+          "sentence": "商店裡/裏有活海鮮。",
+          "pinyin": "shāngdiàn li yǒu huó hǎixiān.",
+          "en": "The store has live seafood.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "alive; living",
+          "sentence": "警察活捉了小偷。",
+          "pinyin": "jǐngchá huózhuōle xiǎotōu.",
+          "en": "The police caught the thief alive.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "exactly; simply",
+          "sentence": "這孩子説話活像個大人。",
+          "pinyin": "zhè háizi shuōhuà huóxiàng gè dàrén.",
+          "en": "This child speaks just like an adult.",
+          "vi": "Đứa bé này nói chuyện giống người lớn quá."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "exactly; simply",
+          "sentence": "這道菜活像媽媽做的。",
+          "pinyin": "zhè dào cài huóxiàng māma zuò de.",
+          "en": "This dish tastes just like what mom makes.",
+          "vi": "Món ăn này giống hệt mẹ nấu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "job; work",
+          "sentence": "繡花是一項細活。",
+          "pinyin": "xiùhuā shì yī xiàng xìhuó.",
+          "en": "Embroidery is a delicate task.",
+          "vi": "Thêu hoa là một công việc tỉ mỉ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "job; work",
+          "sentence": "他正在幹活兒。",
+          "pinyin": "tā zhèngzài gàn huór.",
+          "en": "He is working.",
+          "vi": "Anh ấy đang làm việc."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "平安",
       "pinyin": "píng'ān",
-      "english": "peaceful, eventless",
-      "sentenceChinese": "出門在外，平安最重要。",
-      "sentencePinyin": "Chūmén zàiwài, píng'ān zuì zhòngyào.",
-      "sentenceEnglish": "When away from home, safety is most important.",
-      "vietnamese": "bình an",
-      "sentenceVietnamese": "Khi đi ra ngoài, bình an là quan trọng nhất."
+      "en": "peaceful, eventless",
+      "vi": "bình an",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "safe; well; without mishap",
+          "sentence": "祝你一路平安。",
+          "pinyin": "zhù nǐ yīlù píng'ān.",
+          "en": "Wish you a safe journey.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "safe; well; without mishap",
+          "sentence": "他們迴傢平安了。",
+          "pinyin": "tāmen huí jiā píng'ānle.",
+          "en": "They have returned home safely.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "出門",
       "pinyin": "chūmén",
-      "english": "to go out, to leave the house",
-      "sentenceChinese": "大年初一大家都要出門拜年。",
-      "sentencePinyin": "Dànián chūyī dàjiā dōu yào chūmén bàinián.",
-      "sentenceEnglish": "On the first day of the New Year, everyone goes out to make New Year visits.",
-      "vietnamese": "ra khỏi cửa, đi ra ngoài",
-      "sentenceVietnamese": "Ngày mùng 1 Tết mọi người đều ra ngoài đi chúc Tết."
+      "en": "to go out, to leave the house",
+      "vi": "ra khỏi cửa, đi ra ngoài",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "go out",
+          "sentence": "我齣門去買東西。",
+          "pinyin": "wǒ chūmén qù mǎi dōngxi.",
+          "en": "I am going out to buy things.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "go out",
+          "sentence": "他每天都齣門鍛煉。",
+          "pinyin": "tā měitiān dōu chūmén duànliàn.",
+          "en": "He goes out to exercise every day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "拜年",
       "pinyin": "bàinián",
-      "english": "to pay a New Year visit",
-      "sentenceChinese": "我們下午要去伯伯家拜年。",
-      "sentencePinyin": "Wǒmen xiàwǔ yào qù bóbo jiā bàinián.",
-      "sentenceEnglish": "We are going to my uncle's house to pay a New Year visit this afternoon.",
-      "vietnamese": "chúc Tết",
-      "sentenceVietnamese": "Chiều nay chúng tôi sẽ đi chúc Tết nhà bác."
+      "en": "to pay a New Year visit",
+      "vi": "chúc Tết",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "pay a New Year call; wish sb. a Happy New Year; make a ceremonial call on New Year",
+          "sentence": "今天我要去叔叔傢拜年。",
+          "pinyin": "jīntiān wǒ yào qù shūshu jiā bàinián.",
+          "en": "I'll pay a New Year call to my uncle today.",
+          "vi": "Hôm nay tôi phải về nhà chú tôi để chúc Tết."
+        },
+        {
+          "type": "sv",
+          "meaning": "pay a New Year call; wish sb. a Happy New Year; make a ceremonial call on New Year",
+          "sentence": "磕頭拜年，父母給壓歲錢。",
+          "pinyin": "kētóu bàinián, fùmǔ gěi yāsuìqián.",
+          "en": "They will give us New Year money.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "又",
       "pinyin": "yòu",
-      "english": "again",
-      "sentenceChinese": "新年到了，大家又長大了一歲。",
-      "sentencePinyin": "Xīnnián dào le, dàjiā yòu zhǎngdà le yí suì.",
-      "sentenceEnglish": "The New Year is here, and everyone is a year older again.",
-      "vietnamese": "lại",
-      "sentenceVietnamese": "Tết đến rồi, mọi người lại lớn thêm một tuổi."
+      "en": "again",
+      "vi": "lại",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "咱們又見麵了。",
+          "pinyin": "zánmen yòu jiànmiànle.",
+          "en": "We met again.",
+          "vi": "Chúng ta lại gặp nhau rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "他們又開始討論了。",
+          "pinyin": "tāmen yòu kāishǐ tǎolùnle.",
+          "en": "They started discussing again.",
+          "vi": "Họ lại bắt đầu thảo luận rồi."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "起來",
       "pinyin": "qǐlái",
-      "english": "indicates the beginning of an action",
-      "sentenceChinese": "外面突然下起雨來了。",
-      "sentencePinyin": "Wàimiàn tūrán xià qǐ yǔ lái le.",
-      "sentenceEnglish": "It suddenly started raining outside.",
-      "vietnamese": "lên (trợ từ chỉ sự bắt đầu)",
-      "sentenceVietnamese": "Bên ngoài bỗng nhiên đổ mưa."
+      "en": "indicates the beginning of an action",
+      "vi": "lên (trợ từ chỉ sự bắt đầu)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stand up",
+          "sentence": "他躺著起不來了。",
+          "pinyin": "tā tǎngzhe qǐ bù láile.",
+          "en": "He is lying down and cannot stand up.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "stand up",
+          "sentence": "我起來給老人讓座。",
+          "pinyin": "wǒ qǐlái gěi lǎorén ràngzuò.",
+          "en": "I stood up to give my seat to the elderly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "華人",
       "pinyin": "Huárén",
-      "english": "Chinese, a person of Chinese ethnicity",
-      "sentenceChinese": "在國外有很多華人過春節。",
-      "sentencePinyin": "Zài guówài yǒu hěnduō Huárén guò chūnjié.",
-      "sentenceEnglish": "There are many Chinese people abroad who celebrate the Spring Festival.",
-      "vietnamese": "người Hoa",
-      "sentenceVietnamese": "Ở nước ngoài có rất nhiều người Hoa ăn Tết Nguyên Đán."
+      "en": "Chinese, a person of Chinese ethnicity",
+      "vi": "người Hoa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Chinese",
+          "sentence": "華人社區非常團結。",
+          "pinyin": "huárén shèqū fēicháng tuánjié.",
+          "en": "The Chinese community is very united.",
+          "vi": "Cộng đồng người Trung Quốc rất đoàn kết."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Chinese",
+          "sentence": "很多華人住在這裡/裏。",
+          "pinyin": "hěnduō huárén zhù zài zhèlǐ.",
+          "en": "Many Chinese people live here.",
+          "vi": "Nhiều người Trung Quốc sống ở đây."
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "貼上",
       "pinyin": "tiēshàng",
-      "english": "to stick on (the wall)",
-      "sentenceChinese": "請把春聯貼上。",
-      "sentencePinyin": "Qǐng bǎ chūnlián tiēshàng.",
-      "sentenceEnglish": "Please paste the coupet on.",
-      "vietnamese": "dán lên",
-      "sentenceVietnamese": "Làm ơn dán câu đối lên."
+      "en": "to stick on (the wall)",
+      "vi": "dán lên",
+      "samples": []
     },
     {
       "id": 19,
       "chinese": "年年有餘",
       "pinyin": "niánnián yǒuyú",
-      "english": "abundance every year",
-      "sentenceChinese": "吃魚代表年年有餘。",
-      "sentencePinyin": "Chī yú dàibiǎo niánnián yǒuyú.",
-      "sentenceEnglish": "Eating fish represents having an abundance every year.",
-      "vietnamese": "niên niên hữu dư (năm nào cũng dư dả)",
-      "sentenceVietnamese": "Ăn cá đại diện cho sự dư dả mỗi năm."
+      "en": "abundance every year",
+      "vi": "niên niên hữu dư (năm nào cũng dư dả)",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "have a surplus (of sth.) year after year",
+          "sentence": "祝大傢年年有餘富貴。",
+          "pinyin": "zhù dà jiā nián nián yǒu yú fù guì",
+          "en": "Wishing everyone abundance and wealth year after year.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "(an auspicious saying for the Lunar New Year)",
+          "sentence": "紅包裡/裏寫著年年有餘。",
+          "pinyin": "hóng bāo lǐ xiě zhe nián nián yǒu yú",
+          "en": "The red envelope had 'may you have abundance every year' written inside.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "步步高升",
       "pinyin": "bùbù gāoshēng",
-      "english": "to rise in social rank / status",
-      "sentenceChinese": "祝你工作順利，步步高升。",
-      "sentencePinyin": "Zhù nǐ gōngzuò shùnlì, bùbù gāoshēng.",
-      "sentenceEnglish": "Wish you smooth work and steady advancement in your career.",
-      "vietnamese": "từng bước thăng tiến",
-      "sentenceVietnamese": "Chúc bạn công việc thuận lợi, từng bước thăng tiến."
+      "en": "to rise in social rank / status",
+      "vi": "từng bước thăng tiến",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "on the up and up",
+          "sentence": "新年祝你步步高昇。",
+          "pinyin": "xīn nián zhù nǐ bù bù gāo shēng",
+          "en": "Wishing you continuous advancement in the New Year.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "to climb step by step",
+          "sentence": "祝你事業步步高昇。",
+          "pinyin": "zhù nǐ shì yè bù bù gāo shēng",
+          "en": "Wishing you steady advancement in your career.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "大吉大利",
       "pinyin": "dàjí dàlì",
-      "english": "great wishes for the new year / luck and prosperity",
-      "sentenceChinese": "送橘子就是祝人那一年大吉大利。",
-      "sentencePinyin": "Sòng júzi jiùshì zhù rén nèi yì nián dàjí dàlì.",
-      "sentenceEnglish": "Giving oranges is wishing someone great luck and prosperity for the year.",
-      "vietnamese": "đại cát đại lợi",
-      "sentenceVietnamese": "Tặng quýt chính là chúc người ta năm đó đại cát đại lợi."
+      "en": "great wishes for the new year / luck and prosperity",
+      "vi": "đại cát đại lợi",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "great fortune and great profit; good luck and great prosperity; wishing you great luck and big success",
+          "sentence": "大吉大利，身體健康。",
+          "pinyin": "dàjí dàlì, shēntǐ jiànkāng.",
+          "en": "Good luck and great prosperity, and may you enjoy good health.",
+          "vi": "Chúc bạn may mắn và sức khỏe tốt."
+        },
+        {
+          "type": "idioms",
+          "meaning": "great fortune and great profit; good luck and great prosperity; wishing you great luck and big success",
+          "sentence": "大吉大利，心想事成。",
+          "pinyin": "dàjí dàlì, xīn xiǎng shì chéng.",
+          "en": "Great fortune and prosperity, may all your wishes come true.",
+          "vi": "Đại cát đại lợi, mọi điều ước đều thành thật."
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "放鞭炮",
       "pinyin": "fàng biānpào",
-      "english": "to set off firecrackers",
-      "sentenceChinese": "小孩子最喜歡在過年的時候放鞭炮。",
-      "sentencePinyin": "Xiǎoháizi zuì xǐhuān zài guònián de shíhòu fàng biānpào.",
-      "sentenceEnglish": "Children love setting off firecrackers during the New Year.",
-      "vietnamese": "đốt pháo",
-      "sentenceVietnamese": "Trẻ con thích nhất là đốt pháo vào dịp Tết."
+      "en": "to set off firecrackers",
+      "vi": "đốt pháo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to set off firecrackers",
+          "sentence": "放鞭炮非常有趣。",
+          "pinyin": "fàng biānpào fēicháng yǒuqù.",
+          "en": "Playing firecracker is very interesting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to set off firecrackers",
+          "sentence": "我正在放鞭炮。",
+          "pinyin": "wǒ zhèngzài fàng biānpào.",
+          "en": "I'm lighting firecrackers.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "大年初一",
       "pinyin": "dànián chūyī",
-      "english": "first day of the Lunar New Year",
-      "sentenceChinese": "大年初一我们要去拜訪伯伯。",
-      "sentencePinyin": "Dànián chūyī wǒmen yào qù bàifǎng bóbo.",
-      "sentenceEnglish": "We are going to visit my uncle on the first day of the New Year.",
-      "vietnamese": "mùng 1 Tết",
-      "sentenceVietnamese": "Mùng 1 Tết chúng tôi sẽ đi thăm bác."
+      "en": "first day of the Lunar New Year",
+      "vi": "mùng 1 Tết",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "at the beginning of; in the early part of",
+          "sentence": "明末清初有很多變革。",
+          "pinyin": "míng mò qīng chū yǒu hěnduō biàngé.",
+          "en": "There were many changes in the late Ming and early Qing periods.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "at the beginning of; in the early part of",
+          "sentence": "我們在月初髮/發工資。",
+          "pinyin": "wǒmen zài yuèchū fā gōngzī.",
+          "en": "We receive our salary at the beginning of the month.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "first (in order)",
+          "sentence": "初伏已經到來了。",
+          "pinyin": "chū fú yǐjīng dàoláile.",
+          "en": "The first period of summer heat has arrived.",
+          "vi": "Ngày sơ phục đã đến rồi. (ngày đầu tiên trong ba ngày nóng nhất trong năm)"
+        },
+        {
+          "type": "Adjective",
+          "meaning": "first (in order)",
+          "sentence": "本月初旬，天氣還很涼爽。",
+          "pinyin": "běn yuè chūxún, tiānqì hái hěn liángshuǎng.",
+          "en": "In the early part of this month, the weather was still cool.",
+          "vi": "Đầu tháng này, thời tiết còn rất mát mẻ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "just beginning; for the first time",
+          "sentence": "我們已經完成了初試。",
+          "pinyin": "wǒmen yǐjīng wánchéngle chūshì.",
+          "en": "We have already completed the preliminary exam.",
+          "vi": "Chúng tôi đã hoàn thành vòng thi đầu."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "just beginning; for the first time",
+          "sentence": "這是我們初次見麵。",
+          "pinyin": "zhè shì wǒmen chūcì jiànmiàn.",
+          "en": "This is our first meeting.",
+          "vi": "Đây là lần đầu tiên chúng ta gặp nhau."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "大年初五",
       "pinyin": "dànián chūwǔ",
-      "english": "fifth day of the Lunar New Year",
-      "sentenceChinese": "大年初五很多商店都開始營業了。",
-      "sentencePinyin": "Dànián chūwǔ hěnduō shāngdiàn dōu kāishǐ yíngyè le.",
-      "sentenceEnglish": "Many shops start operating again on the fifth day of the Lunar New Year.",
-      "vietnamese": "mùng 5 Tết",
-      "sentenceVietnamese": "Đến mùng 5 Tết nhiều cửa hàng đã bắt đầu kinh doanh rồi."
+      "en": "fifth day of the Lunar New Year",
+      "vi": "mùng 5 Tết",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "at the beginning of; in the early part of",
+          "sentence": "明末清初有很多變革。",
+          "pinyin": "míng mò qīng chū yǒu hěnduō biàngé.",
+          "en": "There were many changes in the late Ming and early Qing periods.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "at the beginning of; in the early part of",
+          "sentence": "我們在月初髮/發工資。",
+          "pinyin": "wǒmen zài yuèchū fā gōngzī.",
+          "en": "We receive our salary at the beginning of the month.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "first (in order)",
+          "sentence": "初伏已經到來了。",
+          "pinyin": "chū fú yǐjīng dàoláile.",
+          "en": "The first period of summer heat has arrived.",
+          "vi": "Ngày sơ phục đã đến rồi. (ngày đầu tiên trong ba ngày nóng nhất trong năm)"
+        },
+        {
+          "type": "Adjective",
+          "meaning": "first (in order)",
+          "sentence": "本月初旬，天氣還很涼爽。",
+          "pinyin": "běn yuè chūxún, tiānqì hái hěn liángshuǎng.",
+          "en": "In the early part of this month, the weather was still cool.",
+          "vi": "Đầu tháng này, thời tiết còn rất mát mẻ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "just beginning; for the first time",
+          "sentence": "我們已經完成了初試。",
+          "pinyin": "wǒmen yǐjīng wánchéngle chūshì.",
+          "en": "We have already completed the preliminary exam.",
+          "vi": "Chúng tôi đã hoàn thành vòng thi đầu."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "just beginning; for the first time",
+          "sentence": "這是我們初次見麵。",
+          "pinyin": "zhè shì wǒmen chūcì jiànmiàn.",
+          "en": "This is our first meeting.",
+          "vi": "Đây là lần đầu tiên chúng ta gặp nhau."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "春節",
       "pinyin": "chūnjié",
-      "english": "the Lunar New Year, the Spring Festival",
-      "sentenceChinese": "春節是全家團圓的日子。",
-      "sentencePinyin": "Chūnjié shì quánjiā tuányuán de rìzi.",
-      "sentenceEnglish": "The Spring Festival is a day for family reunions.",
-      "vietnamese": "Tết Nguyên Đán",
-      "sentenceVietnamese": "Tết Nguyên Đán là ngày cả nhà đoàn viên."
+      "en": "the Lunar New Year, the Spring Festival",
+      "vi": "Tết Nguyên Đán",
+      "samples": [
+        {
+          "type": "time, n",
+          "meaning": "Spring Festival (Chinese New Year)",
+          "sentence": "春節你打算去哪裡/裏?",
+          "pinyin": "chūnjié nǐ dǎsuàn qù nǎlǐ?",
+          "en": "Where are you planning to go for Spring Festival?",
+          "vi": "Tết cậu định đi đâu?"
+        },
+        {
+          "type": "time, n",
+          "meaning": "Spring Festival (Chinese New Year)",
+          "sentence": "春節前，商場都在打摺。",
+          "pinyin": "chūnjié qián, shāngchǎng dōu zài dǎzhé.",
+          "en": "Before the Spring Festival, all the stores are offering discounts.",
+          "vi": "Trước Tết, tất cả các cửa hàng đều đang giảm giá."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "伯伯",
       "pinyin": "bóbo",
-      "english": "(older) uncle, friends' fathers in general",
-      "sentenceChinese": "李伯伯對我們很親切。",
-      "sentencePinyin": "Lǐ bóbo duì wǒmen hěn qīnqiè.",
-      "sentenceEnglish": "Uncle Li is very kind to us.",
-      "vietnamese": "bác",
-      "sentenceVietnamese": "Bác Lý đối với chúng tôi rất thân thiết."
+      "en": "(older) uncle, friends' fathers in general",
+      "vi": "bác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "uncle; father's elder brother",
+          "sentence": "我的伯伯住在南方。",
+          "pinyin": "wǒ de bóbo zhù zài nánfāng.",
+          "en": "My uncle lives in the south.",
+          "vi": "Bác của tôi sống ở miền nam."
+        },
+        {
+          "type": "Noun",
+          "meaning": "uncle; father's elder brother",
+          "sentence": "我常常跟伯伯聊天。",
+          "pinyin": "wǒ chángcháng gēn bóbo liáotiān.",
+          "en": "I often chat with my uncle.",
+          "vi": "Tôi thường xuyên nói chuyện với bác."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "年夜飯",
       "pinyin": "niányèfàn",
-      "english": "Lunar New Year’s Eve dinner",
-      "sentenceChinese": "年夜飯一定會有魚這道菜。",
-      "sentencePinyin": "Niányèfàn yídìng huì yǒu yú zhè dào cài.",
-      "sentenceEnglish": "There will certainly be a fish dish at the New Year's Eve dinner.",
-      "vietnamese": "cơm tất niên",
-      "sentenceVietnamese": "Cơm tất niên nhất định sẽ có món cá."
+      "en": "Lunar New Year’s Eve dinner",
+      "vi": "cơm tất niên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "New Year's Eve family dinner",
+          "sentence": "我們一起吃/喫年夜飯吧。",
+          "pinyin": "wǒmen yīqǐ chī nián yèfàn ba.",
+          "en": "Let's have the New Year's Eve dinner together.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "New Year's Eve family dinner",
+          "sentence": "年夜飯是傢人團聚的時刻。",
+          "pinyin": "nián yèfàn shì jiārén tuánjù de shíkè.",
+          "en": "The New Year's Eve dinner is a time for family reunions.",
+          "vi": "Bữa cơm tất niên là thời khắc đoàn tụ của gia đình."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "打擾",
       "pinyin": "dǎrǎo",
-      "english": "to trouble (someone), to disturb",
-      "sentenceChinese": "不好意思，打擾您了。",
-      "sentencePinyin": "Bù hǎoyìsi, dǎrǎo nín le.",
-      "sentenceEnglish": "Excuse me, sorry to bother you.",
-      "vietnamese": "làm phiền",
-      "sentenceVietnamese": "Ngại quá, đã làm phiền ngài rồi."
+      "en": "to trouble (someone), to disturb",
+      "vi": "làm phiền",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to disturb; to trouble",
+          "sentence": "對不起，打擾您休息了。",
+          "pinyin": "duìbùqǐ, dǎrǎo nín xiūxile.",
+          "en": "I'm sorry for disturbing your rest.",
+          "vi": "Xin lỗi đã quấy rầy ngài nghỉ ngơi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to disturb; to trouble",
+          "sentence": "他們正在開會，請勿打擾。",
+          "pinyin": "tāmen zhèngzài kāihuì, qǐng wù dǎrǎo.",
+          "en": "They are in a meeting. Please keep quiet.",
+          "vi": "Họ đang họp, xin đừng làm phiền."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "女兒",
       "pinyin": "nǚ'ér",
-      "english": "daughter",
-      "sentenceChinese": "他的女兒在國外念書。",
-      "sentencePinyin": "Tā de nǚ'ér zài guówài niànshū.",
-      "sentenceEnglish": "His daughter is studying abroad.",
-      "vietnamese": "con gái",
-      "sentenceVietnamese": "Con gái của ông ấy đang học ở nước ngoài."
+      "en": "daughter",
+      "vi": "con gái",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "girl; daughter",
+          "sentence": "我有一個女兒。",
+          "pinyin": "wǒ yǒu yīgè nǚ'ér.",
+          "en": "I have a daughter.",
+          "vi": "Tôi có một đứa con gái."
+        },
+        {
+          "type": "Noun",
+          "meaning": "girl; daughter",
+          "sentence": "他的女兒很乖。",
+          "pinyin": "tā de nǚ'ér hěn guāi.",
+          "en": "His daughter is very well-behaved.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "國外",
       "pinyin": "guówài",
-      "english": "abroad",
-      "sentenceChinese": "你想去國外旅行嗎？",
-      "sentencePinyin": "Nǐ xiǎng qù guówài lǚxíng ma?",
-      "sentenceEnglish": "Do you want to travel abroad?",
-      "vietnamese": "nước ngoài",
-      "sentenceVietnamese": "Bạn muốn đi du lịch nước ngoài không?"
+      "en": "abroad",
+      "vi": "nước ngoài",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "external; overseas; abroad",
+          "sentence": "我們計劃明年去國外旅遊。",
+          "pinyin": "wǒmen jìhuà míngnián qù guówài lǚyóu.",
+          "en": "We plan to travel abroad next year.",
+          "vi": "Chúng tôi dự định năm sau sẽ đi du lịch nước ngoài."
+        },
+        {
+          "type": "Noun",
+          "meaning": "external; overseas; abroad",
+          "sentence": "很多學生去國外深造。",
+          "pinyin": "hěnduō xuéshēng qù guówài shēnzào.",
+          "en": "Many students go overseas for further study.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "圍爐",
       "pinyin": "wéilú",
-      "english": "for a family to gather over Lunar New Year's Eve dinner",
-      "sentenceChinese": "除夕夜，全家聚在一起圍爐。",
-      "sentencePinyin": "Chúxì yè, quánjiā jù zài yìqǐ wéilú.",
-      "sentenceEnglish": "On New Year's Eve, the whole family gathers together for dinner.",
-      "vietnamese": "quây quần bên mâm cơm tất niên",
-      "sentenceVietnamese": "Đêm giao thừa, cả nhà tụ họp quây quần bên mâm cơm."
+      "en": "for a family to gather over Lunar New Year's Eve dinner",
+      "vi": "quây quần bên mâm cơm tất niên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rotate; encirle; go round",
+          "sentence": "地球圍繞著太陽轉。",
+          "pinyin": "dìqiú wéiràozhe tàiyáng zhuǎn.",
+          "en": "The earth revolves around the sun.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rotate; encirle; go round",
+          "sentence": "這條鯊魚圍繞著魚群/羣遊動。",
+          "pinyin": "zhè tiáo shāyú wéiràozhe yú qún yóu dòng.",
+          "en": "The shark described a circle around the shoal of fish.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "意思",
       "pinyin": "yìsi",
-      "english": "meaning",
-      "sentenceChinese": "這個詞是什麼意思？",
-      "sentencePinyin": "Zhège cí shì shénme yìsi?",
-      "sentenceEnglish": "What does this word mean?",
-      "vietnamese": "ý nghĩa",
-      "sentenceVietnamese": "Từ này có ý nghĩa gì?"
+      "en": "meaning",
+      "vi": "ý nghĩa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "idea; meaning",
+          "sentence": "我明白這句話的意思。",
+          "pinyin": "wǒ míngbái zhè jù huà de yìsi.",
+          "en": "I understand the meaning of this sentence.",
+          "vi": "Tôi hiểu câu này có nghĩa là gì."
+        },
+        {
+          "type": "Noun",
+          "meaning": "idea; meaning",
+          "sentence": "這個漢字的意思是什麼。",
+          "pinyin": "zhège hànzì de yìsi shì shénme.",
+          "en": "What is the meaning of this Chinese character.",
+          "vi": "Nghĩa của chữ hán này là gì?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "as a mere token",
+          "sentence": "我們要買東西意思他一下。",
+          "pinyin": "wǒmen yāomǎi dōngxi yìsi tā yīxià.",
+          "en": "We should buy something to reward him.",
+          "vi": "Chúng ta nên mua đồ thưởng cho anh ấy."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "全家",
       "pinyin": "quánjiā",
-      "english": "the entire family",
-      "sentenceChinese": "我們全家都很喜歡吃水餃。",
-      "sentencePinyin": "Wǒmen quánjiā dōu hěn xǐhuān chī shuǐjiǎo.",
-      "sentenceEnglish": "Our whole family loves eating dumplings.",
-      "vietnamese": "cả nhà",
-      "sentenceVietnamese": "Cả nhà chúng tôi đều rất thích ăn sủi cảo."
+      "en": "the entire family",
+      "vi": "cả nhà",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "whole family; entire family",
+          "sentence": "全傢都支持他的決定。",
+          "pinyin": "quánjiā dōu zhīchí tā de juédìng.",
+          "en": "The whole family supports his decision.",
+          "vi": "Cả nhà đều ủng hộ quyết định của anh ấy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "whole family; entire family",
+          "sentence": "全傢人週末一起去郊遊。",
+          "pinyin": "quánjiā rén zhōumò yīqǐ qù jiāoyóu.",
+          "en": "The whole family went on an outing together on the weekend.",
+          "vi": "Cuối tuần cả gia đình cùng đi dã ngoại."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "孩子",
       "pinyin": "háizi",
-      "english": "children",
-      "sentenceChinese": "那些孩子在公園玩。",
-      "sentencePinyin": "Nàxiē háizi zài gōngyuán wán.",
-      "sentenceEnglish": "Those children are playing in the park.",
-      "vietnamese": "trẻ con, con cái",
-      "sentenceVietnamese": "Lũ trẻ đó đang chơi trong công viên."
+      "en": "children",
+      "vi": "trẻ con, con cái",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "child; kid; children",
+          "sentence": "孩子們在公園玩。",
+          "pinyin": "háizimen zài gōngyuán wán.",
+          "en": "The children are playing in the park.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "child; kid; children",
+          "sentence": "這個孩子很聰明。",
+          "pinyin": "zhège háizi hěn cōngmíng.",
+          "en": "This child is very smart.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "吉祥",
       "pinyin": "jíxiáng",
-      "english": "auspicious",
-      "sentenceChinese": "過年要說一些吉祥的話。",
-      "sentencePinyin": "Guònián yào shuō yìxiē jíxiáng de huà.",
-      "sentenceEnglish": "One should say auspicious things during the New Year.",
-      "vietnamese": "cát tường",
-      "sentenceVietnamese": "Tết đến cần nói một số lời cát tường."
+      "en": "auspicious",
+      "vi": "cát tường",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "lucky; auspicious; propitious",
+          "sentence": "我給你送上吉祥的祝福。",
+          "pinyin": "wǒ gěi nǐ sòng shàng jíxiáng de zhùfú.",
+          "en": "I extend my sincere best wishes to you.",
+          "vi": "Tôi gửi đến bạn những lời chúc may mắn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "lucky; auspicious; propitious",
+          "sentence": "她的禮物是一個吉祥的掛件。",
+          "pinyin": "tā de lǐwù shì yīgè jíxiáng de guàjiàn.",
+          "en": "She received a lucky charm as a gift.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lucky; auspicious; propitious",
+          "sentence": "人們都渴望擁有吉祥。",
+          "pinyin": "rénmen dōu kěwàng yǒngyǒu jíxiáng.",
+          "en": "People all yearn for good fortune.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "lucky; auspicious; propitious",
+          "sentence": "她一直在追尋著吉祥。",
+          "pinyin": "tā yīzhí zài zhuīxúnzhe jíxiáng.",
+          "en": "She has been pursuing good fortune.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "年紀",
       "pinyin": "niánjì",
-      "english": "age",
-      "sentenceChinese": "他的年紀已經很大了。",
-      "sentencePinyin": "Tā de niánjì yǐjīng hěn dà le.",
-      "sentenceEnglish": "He is already quite old.",
-      "vietnamese": "tuổi tác",
-      "sentenceVietnamese": "Tuổi tác của ông ấy đã rất lớn rồi."
+      "en": "age",
+      "vi": "tuổi tác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "age",
+          "sentence": "年紀不影響工作能力。",
+          "pinyin": "niánjì bù yǐngxiǎng gōngzuò nénglì.",
+          "en": "Age does not affect work ability.",
+          "vi": "Tuổi tác không ảnh hưởng đến khả năng làm việc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "age",
+          "sentence": "他的年紀比我大很多。",
+          "pinyin": "tā de niánjì bǐ wǒ dà hěnduō.",
+          "en": "His age is much older than mine.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "過年",
       "pinyin": "guò nián",
-      "english": "to celebrate the Lunar New Year",
-      "sentenceChinese": "你今年打算在哪裡過年？",
-      "sentencePinyin": "Nǐ jīnnián dǎsuàn zài nǎlǐ guò nián?",
-      "sentenceEnglish": "Where do you plan to celebrate the New Year this year?",
-      "vietnamese": "ăn Tết",
-      "sentenceVietnamese": "Năm nay bạn dự định ăn Tết ở đâu?"
+      "en": "to celebrate the Lunar New Year",
+      "vi": "ăn Tết",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "celebrate the New Year; celebrate the Spring Festival; spend the New Year; spend the Spring Festival",
+          "sentence": "奶奶做了很多菜來過年。",
+          "pinyin": "nǎinai zuòle hěnduō cài lái guònián.",
+          "en": "Grandma made many dishes to celebrate the New Year.",
+          "vi": "Bà nội nấu rất nhiều món ăn đón năm mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "celebrate the New Year; celebrate the Spring Festival; spend the New Year; spend the Spring Festival",
+          "sentence": "過年期間，大傢互相拜年。",
+          "pinyin": "guònián qíjiān, dàjiā hùxiāng bàinián.",
+          "en": "During the New Year, everyone exchanges greetings.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "除夕夜",
       "pinyin": "chúxì yè",
-      "english": "Lunar New Year’s Eve",
-      "sentenceChinese": "除夕夜那天晚上不能太早睡覺。",
-      "sentencePinyin": "Chúxì yè nèitiān wǎnshàng bùnéng tài zǎo shuìjiào.",
-      "sentenceEnglish": "You shouldn't go to bed too early on New Year's Eve.",
-      "vietnamese": "đêm giao thừa",
-      "sentenceVietnamese": "Đêm giao thừa không được đi ngủ quá sớm."
+      "en": "Lunar New Year’s Eve",
+      "vi": "đêm giao thừa",
+      "samples": [
+        {
+          "type": "",
+          "meaning": "New Year's Eve",
+          "sentence": "他孤獨地度過了除夕夜。",
+          "pinyin": "tā gūdú de dùguòle chúxi yè.",
+          "en": "He spent New Year's Eve alone.",
+          "vi": ""
+        },
+        {
+          "type": "",
+          "meaning": "New Year's Eve",
+          "sentence": "跟除夕夜的時代廣場一樣亮。",
+          "pinyin": "gēn chúxī yè de shídài guǎngchǎng yīyàng liàng.",
+          "en": "Like Times Square on New Year's Eve.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "睡著",
       "pinyin": "shuìzháo",
-      "english": "to fall asleep",
-      "sentenceChinese": "他太累了，很快就睡著了。",
-      "sentencePinyin": "Tā tài lèi le, hěn kuài jiù shuìzháo le.",
-      "sentenceEnglish": "He was too tired and fell asleep quickly.",
-      "vietnamese": "ngủ thiếp đi",
-      "sentenceVietnamese": "Anh ấy mệt quá, rất nhanh đã ngủ thiếp đi rồi."
+      "en": "to fall asleep",
+      "vi": "ngủ thiếp đi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "asleep; fall asleep",
+          "sentence": "奶奶睡著了，別驚動她。",
+          "pinyin": "nǎinai shuìzháole, bié jīngdòng tā.",
+          "en": "Grandma is asleep; don't wake her.",
+          "vi": "Bà ngủ rồi, đừng làm phiền bà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "asleep; fall asleep",
+          "sentence": "她躺在床/牀上睡著了。",
+          "pinyin": "tā tǎng zài chuángshàng shuìzháole.",
+          "en": "She fell asleep lying in the bed.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "壓歲錢",
       "pinyin": "yāsuìqián",
-      "english": "New Year’s Eve money / red envelope money",
-      "sentenceChinese": "伯伯給了孩子們很多壓歲錢。",
-      "sentencePinyin": "Bóbo gěile háizimen hěnduō yāsuìqián.",
-      "sentenceEnglish": "Uncle gave the children a lot of New Year's money.",
-      "vietnamese": "tiền lì xì",
-      "sentenceVietnamese": "Bác đã cho lũ trẻ rất nhiều tiền lì xì."
+      "en": "New Year’s Eve money / red envelope money",
+      "vi": "tiền lì xì",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "money given to children as new year present",
+          "sentence": "她用壓歲錢買了玩具。",
+          "pinyin": "tā yòng yāsuìqián mǎile wánjù.",
+          "en": "She bought toys with her lucky money.",
+          "vi": "Cô ấy lấy tiền lì xì mua đồ chơi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "money given to children as new year present",
+          "sentence": "孩子都期待收到壓歲錢。",
+          "pinyin": "háizi dōu qīdài shōu dào yāsuìqián.",
+          "en": "Children are excited to get lucky money.",
+          "vi": "Trẻ con đều mong chờ nhận tiền mừng tuổi."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "恭喜發財",
       "pinyin": "gōngxǐ fācái",
-      "english": "Congratulations. I wish you wealth.",
-      "sentenceChinese": "見面的時候要說「恭喜發財」。",
-      "sentencePinyin": "Jiànmiàn de shíhòu yào shuō 'gōngxǐ fācái'.",
-      "sentenceEnglish": "You should say 'Gongxi Facai' when you meet.",
-      "vietnamese": "cung hỷ phát tài",
-      "sentenceVietnamese": "Lúc gặp nhau phải nói 'Cung hỷ phát tài'."
+      "en": "Congratulations. I wish you wealth.",
+      "vi": "cung hỷ phát tài",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "May you have a prosperous New Year! (New Year's greeting)",
+          "sentence": "恭喜髮/發財，新年快樂。",
+          "pinyin": "gōngxǐ fācái, xīnnián kuàilè.",
+          "en": "Congratulations on your prosperity, Happy New Year.",
+          "vi": "Cung hỷ phát tài, chúc mừng năm mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "May you have a prosperous New Year! (New Year's greeting)",
+          "sentence": "恭喜髮/發財，紅包拿來！",
+          "pinyin": "gōngxǐ fācái, hóngbāo ná lái!",
+          "en": "Congratulations and prosperity, bring me the red envelope!",
+          "vi": "Cung hỷ phát tài, lì xì đưa tui."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "好了",
       "pinyin": "hǎo le",
-      "english": "OK / finished / ready",
-      "sentenceChinese": "飯做好了，快來吃吧。",
-      "sentencePinyin": "Fàn zuò hǎo le, kuài lái chī ba.",
-      "sentenceEnglish": "The food is ready, come and eat.",
-      "vietnamese": "xong rồi",
-      "sentenceVietnamese": "Cơm nấu xong rồi, mau lại ăn đi."
+      "en": "OK / finished / ready",
+      "vi": "xong rồi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "done; yes; right; alright",
+          "sentence": "菜做好了，可以吃/喫了。",
+          "pinyin": "cài zuò hǎole, kěyǐ chīle.",
+          "en": "The food is ready, you can eat now.",
+          "vi": "Món ăn đã sẵn sàng, có thể ăn được rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "done; yes; right; alright",
+          "sentence": "這個項目終於做好了。",
+          "pinyin": "zhège xiàngmù zhōngyú zuò hǎole.",
+          "en": "This project is finally completed.",
+          "vi": "Dự án này cuối cùng đã hoàn thành."
+        }
+      ]
     }
   ]
 }

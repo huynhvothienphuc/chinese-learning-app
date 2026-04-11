@@ -7,463 +7,1387 @@
       "id": 1,
       "chinese": "垃圾",
       "pinyin": "lèsè",
-      "english": "garbage, trash",
-      "sentenceChinese": "請把垃圾丟在垃圾桶裡。",
-      "sentencePinyin": "Qǐng bǎ lèsè diū zài lèsètǒng lǐ.",
-      "sentenceEnglish": "Please throw the garbage in the trash can.",
-      "vietnamese": "rác",
-      "sentenceVietnamese": "Làm ơn vứt rác vào trong thùng rác."
+      "en": "garbage, trash",
+      "vi": "rác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rubbish; garbage; refuse; breeze",
+          "sentence": "街上有許多垃圾桶。",
+          "pinyin": "jiē shàng yǒu xǔduō lājī tǒng.",
+          "en": "There are many trash cans on the street.",
+          "vi": "Có rất nhiều thùng rác trên đường phố."
+        },
+        {
+          "type": "Noun",
+          "meaning": "rubbish; garbage; refuse; breeze",
+          "sentence": "不要在公共場所扔垃圾。",
+          "pinyin": "bùyào zài gōnggòng chǎngsuǒ rēng lājī.",
+          "en": "Don't throw rubbish in public places.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "rubbish",
+          "sentence": "垃圾食品對身體不好。",
+          "pinyin": "lājī shípǐn duì shēntǐ bù hǎo.",
+          "en": "Junk food is not good for health.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "rubbish",
+          "sentence": "最近我總是受到垃圾郵件。",
+          "pinyin": "zuìjìn wǒ zǒng shì shòudào lājī yóujiàn.",
+          "en": "Lately I keep getting spam.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "倒",
       "pinyin": "dào",
-      "english": "to throw out (garbage)",
-      "sentenceChinese": "我每天晚上八點去倒垃圾。",
-      "sentencePinyin": "Wǒ měitiān wǎnshàng bādiǎn qù dào lèsè.",
-      "sentenceEnglish": "I go to throw out the garbage at 8 PM every night.",
-      "vietnamese": "đổ (rác)",
-      "sentenceVietnamese": "Tôi đi đổ rác vào lúc 8 giờ mỗi tối."
+      "en": "to throw out (garbage)",
+      "vi": "đổ (rác)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to be inverse; to be inverted; to be upside down",
+          "sentence": "你把畫貼倒了。",
+          "pinyin": "nǐ bǎ huà tiē dàole.",
+          "en": "You put the picture upside down.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be inverse; to be inverted; to be upside down",
+          "sentence": "他把書拿倒了。",
+          "pinyin": "tā bǎ shū ná dàole.",
+          "en": "He held the book upside down.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "inverse; inverted; upside down",
+          "sentence": "他把地圖掛倒了。",
+          "pinyin": "tā bǎ dìtú guà dàole.",
+          "en": "He hung the map upside down.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "inverse; inverted; upside down",
+          "sentence": "這個金字塔是倒的形狀。",
+          "pinyin": "zhège jīnzìtǎ shì dào de xíngzhuàng.",
+          "en": "This pyramid is in an inverted shape.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "but; on the contrary",
+          "sentence": "他不努力，倒考得好。",
+          "pinyin": "tā bù nǔlì, dào kǎo de hǎo.",
+          "en": "He doesn’t work hard, but did well in the exam.",
+          "vi": "Anh ấy không nỗ lực nhưng lại làm bài thi tốt."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "but; on the contrary",
+          "sentence": "他不幫忙，倒添亂。",
+          "pinyin": "tā bù bāngmáng, dào tiānluàn.",
+          "en": "He doesn’t help, but instead adds to the chaos.",
+          "vi": "Anh ấy không giúp đỡ ngược lại còn làm thêm rắc rối."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "丟",
       "pinyin": "diū",
-      "english": "to throw, to throw away",
-      "sentenceChinese": "你不能隨便把垃圾丟在路上。",
-      "sentencePinyin": "Nǐ bùnéng suíbiàn bǎ lèsè diū zài lùshàng.",
-      "sentenceEnglish": "You cannot just throw garbage on the street.",
-      "vietnamese": "vứt / ném",
-      "sentenceVietnamese": "Bạn không được tùy tiện vứt rác ra đường."
+      "en": "to throw, to throw away",
+      "vi": "vứt / ném",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lose; mislay; be missing",
+          "sentence": "我的錢包丟了。",
+          "pinyin": "wǒ de qián bāo diū le.",
+          "en": "I've lost my purse.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "lose; mislay; be missing",
+          "sentence": "這套書丟了一本。",
+          "pinyin": "zhè tào shū diū le yī běn.",
+          "en": "There's a book missing from the set.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "收",
       "pinyin": "shōu",
-      "english": "to collect",
-      "sentenceChinese": "垃圾車每天來收兩次垃圾。",
-      "sentencePinyin": "Lèsèchē měitiān lái shōu liǎng cì lèsè.",
-      "sentenceEnglish": "The garbage truck comes to collect trash twice a day.",
-      "vietnamese": "thu / nhận / gom",
-      "sentenceVietnamese": "Xe rác đến thu gom rác mỗi ngày hai lần."
+      "en": "to collect",
+      "vi": "thu / nhận / gom",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "put back; put together",
+          "sentence": "洗的衣服收了沒有?",
+          "pinyin": "xǐ de yīfu shōule méiyǒu?",
+          "en": "Have you brought in the washing?",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "put back; put together",
+          "sentence": "你把這些東西收一收吧。",
+          "pinyin": "nǐ bǎ zhèxiē dōngxi shōu yī shōu ba.",
+          "en": "Put these things away.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "以為",
       "pinyin": "yǐwéi",
-      "english": "to assume wrongly",
-      "sentenceChinese": "我以為明天才要倒垃圾。",
-      "sentencePinyin": "Wǒ yǐwéi míngtiān cái yào dào lèsè.",
-      "sentenceEnglish": "I thought (wrongly) that we had to throw out the trash tomorrow.",
-      "vietnamese": "cho rằng / tưởng rằng (nhầm)",
-      "sentenceVietnamese": "Tôi cứ tưởng là ngày mai mới phải đổ rác."
+      "en": "to assume wrongly",
+      "vi": "cho rằng / tưởng rằng (nhầm)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "think; believe; consider (usually erroneously)",
+          "sentence": "我以為是誰呢，原來是你。",
+          "pinyin": "wǒ yǐwéi shì shéi ne, yuánlái shì nǐ.",
+          "en": "I thought it was someone else, but it turns out it's you.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "think; believe; consider (usually erroneously)",
+          "sentence": "我以為你已經走了。",
+          "pinyin": "wǒ yǐwéi nǐ yǐjīng zǒule.",
+          "en": "I thought you had already left.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "回收",
       "pinyin": "huíshōu",
-      "english": "to recycle",
-      "sentenceChinese": "我們應該做好垃圾回收。",
-      "sentencePinyin": "Wǒmen yīnggāi zuòhǎo lèsè huíshōu.",
-      "sentenceEnglish": "We should do a good job with recycling.",
-      "vietnamese": "tái chế",
-      "sentenceVietnamese": "Chúng ta nên làm tốt việc tái chế rác thải."
+      "en": "to recycle",
+      "vi": "tái chế",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "recycle",
+          "sentence": "這些都是可迴收垃圾。",
+          "pinyin": "zhèxiē dōu shì kě huíshōu lājī.",
+          "en": "These are all recyclable garbage.",
+          "vi": "Những thứ này đều là rác có thể tái chế được."
+        },
+        {
+          "type": "Verb",
+          "meaning": "recycle",
+          "sentence": "舊書是可以迴收的。",
+          "pinyin": "jiùshū shì kěyǐ huíshōu de.",
+          "en": "Old books can be recycled.",
+          "vi": "Sách cũ có thể tái chế được."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "規定",
       "pinyin": "guīdìng",
-      "english": "rules, regulation",
-      "sentenceChinese": "倒垃圾有很多嚴格的規定。",
-      "sentencePinyin": "Dào lèsè yǒu hěnduō yángé de guīdìng.",
-      "sentenceEnglish": "There are many strict regulations for throwing out garbage.",
-      "vietnamese": "quy định",
-      "sentenceVietnamese": "Việc đổ rác có rất nhiều quy định nghiêm ngặt."
+      "en": "rules, regulation",
+      "vi": "quy định",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rule; regulation; stipulation",
+          "sentence": "公司有新的規定齣臺。",
+          "pinyin": "gōngsī yǒu xīn de guīdìng chūtái.",
+          "en": "The company has issued new regulations.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "rule; regulation; stipulation",
+          "sentence": "學生不許違反學校規定。",
+          "pinyin": "xuéshēng bùxǔ wéifǎn xuéxiào guīdìng.",
+          "en": "Students are not allowed to violate school rules.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "stipulate; provide; prescribe",
+          "sentence": "公司規定不能隨便遲到。",
+          "pinyin": "gōngsī guīdìng bùnéng suíbiàn chídào.",
+          "en": "The company stipulates that being late casually is not allowed.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "stipulate; provide; prescribe",
+          "sentence": "公司規定每天工作八小時。",
+          "pinyin": "gōngsī guīdìng měitiān gōngzuò bā xiǎoshí.",
+          "en": "The company stipulates an eight-hour workday.",
+          "vi": "Công ty quy định làm việc 8 tiếng một ngày."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "要不然",
       "pinyin": "yàobùrán",
-      "english": "otherwise",
-      "sentenceChinese": "快一點，要不然垃圾車就走了。",
-      "sentencePinyin": "Kuài yìdiǎn, yàobùrán lèsèchē jiù zǒu le.",
-      "sentenceEnglish": "Hurry up, otherwise the garbage truck will leave.",
-      "vietnamese": "nếu không thì",
-      "sentenceVietnamese": "Nhanh lên chút, nếu không thì xe rác đi mất đấy."
+      "en": "otherwise",
+      "vi": "nếu không thì",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "otherwise; or else",
+          "sentence": "他得走，要不然會晚了。",
+          "pinyin": "tā dé zǒu, yào bùrán huì wǎnle.",
+          "en": "He has to go, otherwise he'll be late.",
+          "vi": "Anh ấy phải đi, nếu không sẽ muộn mất."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "otherwise; or else",
+          "sentence": "我們快跑，要不然趕不上了。",
+          "pinyin": "wǒmen kuài pǎo, yào bùrán gǎnbushàngle.",
+          "en": "We need to hurry up, or we'll be late.",
+          "vi": "Chúng ta chạy nhanh lên, nếu không sẽ không kịp đâu."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "皮包",
       "pinyin": "píbāo",
-      "english": "purse, handbag",
-      "sentenceChinese": "她的皮包裡有很多錢。",
-      "sentencePinyin": "Tā de píbāo lǐ yǒu hěnduō qián.",
-      "sentenceEnglish": "There is a lot of money in her purse.",
-      "vietnamese": "túi xách / ví da",
-      "sentenceVietnamese": "Trong túi xách của cô ấy có rất nhiều tiền."
+      "en": "purse, handbag",
+      "vi": "túi xách / ví da",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "handbag; briefcase",
+          "sentence": "爸爸的皮包很舊了。",
+          "pinyin": "bàba de píbāo hěn jiùle.",
+          "en": "Dad's bag is very old.",
+          "vi": "Túi da của bố rất cũ rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "handbag; briefcase",
+          "sentence": "姐姐的皮包是粉色的。",
+          "pinyin": "jiějiě de píbāo shì fěnsè de.",
+          "en": "My sister's bag is pink.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "跑",
       "pinyin": "pǎo",
-      "english": "to run",
-      "sentenceChinese": "他跑得很快。",
-      "sentencePinyin": "Tā pǎo de hěn kuài.",
-      "sentenceEnglish": "He runs very fast.",
-      "vietnamese": "chạy",
-      "sentenceVietnamese": "Anh ấy chạy rất nhanh."
+      "en": "to run",
+      "vi": "chạy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "run",
+          "sentence": "他每天早上跑步。",
+          "pinyin": "tā měitiān zǎoshang pǎobù.",
+          "en": "He runs every morning.",
+          "vi": "Anh ấy chạy bộ mỗi sáng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "run",
+          "sentence": "他們在操場上跑步。",
+          "pinyin": "tāmen zài cāochǎng shàng pǎobù.",
+          "en": "They are running on the playground.",
+          "vi": "Họ đang chạy bộ trên sân tập."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "追",
       "pinyin": "zhuī",
-      "english": "to run after, to chase",
-      "sentenceChinese": "他在後面追垃圾車。",
-      "sentencePinyin": "Tā zài hòumiàn zhuī lèsèchē.",
-      "sentenceEnglish": "He is chasing the garbage truck from behind.",
-      "vietnamese": "đuổi theo",
-      "sentenceVietnamese": "Anh ấy đang đuổi theo xe rác từ phía sau."
+      "en": "to run after, to chase",
+      "vi": "đuổi theo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pursue; chase (or run) after",
+          "sentence": "她追著前麵的衕學。",
+          "pinyin": "tā zhuīzhe qiánmiàn de tóngxué.",
+          "en": "She is chasing the classmate in front.",
+          "vi": "Cô ấy đuổi theo bạn học phía trước."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pursue; chase (or run) after",
+          "sentence": "孩子們追著風箏。",
+          "pinyin": "háizimen zhuīzhe fēngzhēng.",
+          "en": "The children are chasing the kite.",
+          "vi": "Những đứa trẻ đuổi theo con diều."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "有趣",
       "pinyin": "yǒuqù",
-      "english": "interesting",
-      "sentenceChinese": "這個故事非常有趣。",
-      "sentencePinyin": "Zhège gùshì fēicháng yǒuqù.",
-      "sentenceEnglish": "This story is very interesting.",
-      "vietnamese": "thú vị",
-      "sentenceVietnamese": "Câu chuyện này vô cùng thú vị."
+      "en": "interesting",
+      "vi": "thú vị",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "interesting; fascinating; amusing",
+          "sentence": "這本書很有趣。",
+          "pinyin": "zhè běn shū hěn yǒuqù.",
+          "en": "This book is very interesting.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "interesting; fascinating; amusing",
+          "sentence": "他是個有趣的人。",
+          "pinyin": "tā shìgè yǒuqù de rén.",
+          "en": "He is an interesting person.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "不壞",
       "pinyin": "bú huài",
-      "english": "not too bad",
-      "sentenceChinese": "這部電影看起來還不壞。",
-      "sentencePinyin": "Zhè bù diànyǐng kàn qǐlái hái bú huài.",
-      "sentenceEnglish": "This movie doesn't look too bad.",
-      "vietnamese": "không tệ",
-      "sentenceVietnamese": "Bộ phim này xem ra cũng không tệ."
+      "en": "not too bad",
+      "vi": "không tệ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "bad; harmful",
+          "sentence": "他有抽煙的壞習慣。",
+          "pinyin": "tā yǒu chōuyān de huài xíguàn.",
+          "en": "He has the bad habit of smoking.",
+          "vi": "Anh ấy có thói quen xấu là hút thuốc."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "bad; harmful",
+          "sentence": "他有熬夜的壞習慣。",
+          "pinyin": "tā yǒu áoyè de huài xíguàn.",
+          "en": "He has the bad habit of staying up late.",
+          "vi": "Anh ấy có thói quen xấu là thức khuya."
+        },
+        {
+          "type": "Verb",
+          "meaning": "spoil; destroy",
+          "sentence": "錯誤的決策壞了大項目。",
+          "pinyin": "cuòwù de juécè huàile dà xiàngmù.",
+          "en": "The wrong decision ruined the big project.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "spoil; destroy",
+          "sentence": "她的遲到壞了全局計劃。",
+          "pinyin": "tā de chídào huàile quánjú jìhuà.",
+          "en": "Her lateness ruined the overall plan.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "evil idea; dirty trick",
+          "sentence": "這個壞主意太卑鄙了。",
+          "pinyin": "zhège huài zhǔyì tài bēibǐle.",
+          "en": "This bad idea is too despicable.",
+          "vi": "Ý nghĩ xấu này thật quá đê tiện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "evil idea; dirty trick",
+          "sentence": "壞主意往往會失敗。",
+          "pinyin": "huài zhǔyì wǎngwǎng huì shībài.",
+          "en": "Bad ideas often fail.",
+          "vi": "Những ý kiến xấu thường sẽ thất bại."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "聊",
       "pinyin": "liáo",
-      "english": "to chat (about)",
-      "sentenceChinese": "我們找時間聊聊吧。",
-      "sentencePinyin": "Wǒmen zhǎo shíjiān liáoliáo ba.",
-      "sentenceEnglish": "Let's find some time to chat.",
-      "vietnamese": "tán gẫu / nói chuyện",
-      "sentenceVietnamese": "Chúng ta tìm thời gian tán gẫu chút đi."
+      "en": "to chat (about)",
+      "vi": "tán gẫu / nói chuyện",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "just; merely; tentatively",
+          "sentence": "這事咱們聊且不論。",
+          "pinyin": "zhè shì zánmen liáo qiě bùlùn.",
+          "en": "Let's not discuss this matter for now.",
+          "vi": "Chuyện này tạm thời chúng ta không bàn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "just; merely; tentatively",
+          "sentence": "我們聊且休息一會兒再説。",
+          "pinyin": "wǒmen liáo qiě xiūxi yīhuìr zàishuō.",
+          "en": "Let's take a break and talk about it later.",
+          "vi": "Chúng ta tạm thời nghỉ một lát rồi nói tiếp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "gab; chat",
+          "sentence": "有空兒咱們聊聊。",
+          "pinyin": "yǒu kòngr zánmen liáo liáo.",
+          "en": "Let's chat when we have time.",
+          "vi": "Rảnh rỗi chúng ta tán dóc chơi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "gab; chat",
+          "sentence": "他們聊得很開心。",
+          "pinyin": "tāmen liáo de hěn kāixīn.",
+          "en": "They had a great time chatting.",
+          "vi": "Họ nói chuyện rất vui vẻ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我姓聊。",
+          "pinyin": "wǒ xìng liáo.",
+          "en": "My surname is Liao.",
+          "vi": "Tôi họ Liêu."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "忽然",
       "pinyin": "hūrán",
-      "english": "suddenly",
-      "sentenceChinese": "忽然下起大雨來了。",
-      "sentencePinyin": "Hūrán xià qǐ dàyǔ lái le.",
-      "sentenceEnglish": "Suddenly, it started to rain heavily.",
-      "vietnamese": "đột nhiên",
-      "sentenceVietnamese": "Đột nhiên trời đổ mưa lớn."
+      "en": "suddenly",
+      "vi": "đột nhiên",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "suddenly; all of a sudden",
+          "sentence": "他説著説著，忽然停住了。",
+          "pinyin": "tā shuōzhe shuōzhe, hūrán tíng zhùle.",
+          "en": "He was talking when he suddenly stopped.",
+          "vi": "Anh ấy đang nói rồi bỗng nhiên dừng lại."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "suddenly; all of a sudden",
+          "sentence": "忽然，陽臺上掉下一個花盆來。",
+          "pinyin": "hūrán, yángtái shàng diào xià yīgè huā pén lái.",
+          "en": "Suddenly, a flower pot fell down from the balcony.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "聲音",
       "pinyin": "shēngyīn",
-      "english": "sound",
-      "sentenceChinese": "你有聽到什麼奇怪的聲音嗎？",
-      "sentencePinyin": "Nǐ yǒu tīngdào shénme qíguài de shēngyīn ma?",
-      "sentenceEnglish": "Did you hear any strange sounds?",
-      "vietnamese": "âm thanh / tiếng",
-      "sentenceVietnamese": "Bạn có nghe thấy âm thanh gì lạ không?"
+      "en": "sound",
+      "vi": "âm thanh / tiếng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sound; voice",
+          "sentence": "她的聲音很溫柔。",
+          "pinyin": "tā de shēngyīn hěn wēnróu.",
+          "en": "Her voice is very gentle.",
+          "vi": "Giọng nói của cô ấy rất mềm mại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "sound; voice",
+          "sentence": "這個聲音太吵了。",
+          "pinyin": "zhège shēngyīn tài chǎole.",
+          "en": "This sound is too loud.",
+          "vi": "Âm thanh này quá ồn ào."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "奇怪",
       "pinyin": "qíguài",
-      "english": "strange, odd",
-      "sentenceChinese": "這件事聽起來很奇怪。",
-      "sentencePinyin": "Zhè jiàn shì tīng qǐlái hěn qíguài.",
-      "sentenceEnglish": "This matter sounds very strange.",
-      "vietnamese": "kỳ lạ",
-      "sentenceVietnamese": "Chuyện này nghe thật kỳ lạ."
+      "en": "strange, odd",
+      "vi": "kỳ lạ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "strange",
+          "sentence": "這個人真奇怪。",
+          "pinyin": "zhège rén zhēn qíguài.",
+          "en": "This person is so strange.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "strange",
+          "sentence": "這件事情很奇怪。",
+          "pinyin": "zhè jiàn shìqing hěn qíguài.",
+          "en": "This matter is so strange.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "wonder; feel surprised",
+          "sentence": "我奇怪她怎麼哭了。",
+          "pinyin": "wǒ qíguài tā zěnme kūle.",
+          "en": "I'm wondering why she's crying.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "wonder; feel surprised",
+          "sentence": "大傢都奇怪他來上課。",
+          "pinyin": "dàjiā dōu qíguài tā lái shàngkè.",
+          "en": "Everyone is surprised that he came to class.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "袋子",
       "pinyin": "dàizi",
-      "english": "bag",
-      "sentenceChinese": "請給我一個塑膠袋子。",
-      "sentencePinyin": "Qǐng gěi wǒ yí ge sùjiāo dàizi.",
-      "sentenceEnglish": "Please give me a plastic bag.",
-      "vietnamese": "túi",
-      "sentenceVietnamese": "Làm ơn cho tôi một cái túi nilon."
+      "en": "bag",
+      "vi": "túi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bag; sack",
+          "sentence": "她把衣服塞進袋子。",
+          "pinyin": "tā bǎ yīfu sāi jìn dàizǐ.",
+          "en": "She stuffed the clothes into the bag.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "bag; sack",
+          "sentence": "我把東西放進袋子裡/裏。",
+          "pinyin": "wǒ bǎ dōngxi fàng jìn dàizǐ lǐ.",
+          "en": "I put the things into the bag.",
+          "vi": "Tôi bỏ đổ vào trong túi."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "輛",
       "pinyin": "liàng",
-      "english": "measure word for vehicles",
-      "sentenceChinese": "馬路上停著很多輛車。",
-      "sentencePinyin": "Mǎlù shàng tíngzhe hěnduō liàng chē.",
-      "sentenceEnglish": "There are many cars parked on the street.",
-      "vietnamese": "chiếc (lượng từ cho xe cộ)",
-      "sentenceVietnamese": "Trên đường có rất nhiều chiếc xe đang đỗ."
+      "en": "measure word for vehicles",
+      "vi": "chiếc (lượng từ cho xe cộ)",
+      "samples": [
+        {
+          "type": "measure word",
+          "meaning": "measure word for vehicles",
+          "sentence": "我有一輛汽車。",
+          "pinyin": "wǒ yǒuyī liàng qìchē.",
+          "en": "I have a car.",
+          "vi": "Tôi có một chiếc xe hơi."
+        },
+        {
+          "type": "measure word",
+          "meaning": "measure word for vehicles",
+          "sentence": "那邊停著一輛齣租車。",
+          "pinyin": "nà biān tíngzhe yī liàng chūzū chē.",
+          "en": "There is a taxi parked over there.",
+          "vi": "Có một chiếc taxi đỗ ở đằng kia."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "一定",
       "pinyin": "yídìng",
-      "english": "fixed, set, at a certain...",
-      "sentenceChinese": "垃圾車會在一定的時間來。",
-      "sentencePinyin": "Lèsèchē huì zài yídìng de shíjiān lái.",
-      "sentenceEnglish": "The garbage truck will come at a certain time.",
-      "vietnamese": "nhất định / cụ thể",
-      "sentenceVietnamese": "Xe rác sẽ đến vào một khung giờ cố định."
+      "en": "fixed, set, at a certain...",
+      "vi": "nhất định / cụ thể",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "surely; certainly; necessarily",
+          "sentence": "他一定會來參加會議。",
+          "pinyin": "tā yīdìng huì lái cānjiā huìyì.",
+          "en": "He will certainly come to the meeting.",
+          "vi": "Anh ấy nhất định tham dự cuộc họp."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "surely; certainly; necessarily",
+          "sentence": "這本書一定很有趣。",
+          "pinyin": "zhè běn shū yīdìng hěn yǒuqù.",
+          "en": "This book must surely be very interesting.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "certain; particular",
+          "sentence": "這次考試有一定的難度。",
+          "pinyin": "zhè cì kǎoshì yǒu yīdìng de nándù.",
+          "en": "The exam is of some difficulty.",
+          "vi": "Kỳ thi này có độ khó nhất định."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "certain; particular",
+          "sentence": "這項工作有一定的要求。",
+          "pinyin": "zhè xiàng gōngzuò yǒu yīdìng de yāoqiú.",
+          "en": "The job has certain requirements.",
+          "vi": "Công việc này có những yêu cầu nhất định."
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "地點",
       "pinyin": "dìdiǎn",
-      "english": "location",
-      "sentenceChinese": "我們見面的地點在哪裡？",
-      "sentencePinyin": "Wǒmen jiànmiàn de dìdiǎn zài nǎlǐ?",
-      "sentenceEnglish": "Where is the meeting location?",
-      "vietnamese": "địa điểm",
-      "sentenceVietnamese": "Địa điểm chúng ta gặp nhau ở đâu?"
+      "en": "location",
+      "vi": "địa điểm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "place; site; locale",
+          "sentence": "開會地點在大禮堂。",
+          "pinyin": "kāihuì dìdiǎn zài dà lǐtáng.",
+          "en": "The meeting place is in the auditorium.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "place; site; locale",
+          "sentence": "接頭地點在哪兒？",
+          "pinyin": "jiētóu dìdiǎn zài nǎr?",
+          "en": "Where is the contact point?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "為了",
       "pinyin": "wèile",
-      "english": "to, for the sake of",
-      "sentenceChinese": "為了環保，我不使用塑膠袋。",
-      "sentencePinyin": "Wèile huánbǎo, wǒ bù shǐyòng sùjiāodài.",
-      "sentenceEnglish": "For the sake of environmental protection, I don't use plastic bags.",
-      "vietnamese": "vì / để",
-      "sentenceVietnamese": "Để bảo vệ môi trường, tôi không sử dụng túi nilon."
+      "en": "to, for the sake of",
+      "vi": "vì / để",
+      "samples": [
+        {
+          "type": "Preposition",
+          "meaning": "for; for the sake of",
+          "sentence": "他努力工作是為了買房子。",
+          "pinyin": "tā nǔlì gōngzuò shì wèile mǎi fángzi.",
+          "en": "\"He works hard in order to buy a house.",
+          "vi": "Anh ấy làm việc chăm chỉ để mua nhà."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "for; for the sake of",
+          "sentence": "為了健康，我每天跑步。",
+          "pinyin": "wèile jiànkāng, wǒ měitiān pǎobù.",
+          "en": "He works hard in order to buy a house.",
+          "vi": "Để có sức khỏe, tôi chạy bộ mỗi ngày."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "保護",
       "pinyin": "bǎohù",
-      "english": "to protect",
-      "sentenceChinese": "每個人都應該保護地球。",
-      "sentencePinyin": "Měi ge rén dōu yīnggāi bǎohù dìqiú.",
-      "sentenceEnglish": "Everyone should protect the earth.",
-      "vietnamese": "bảo vệ",
-      "sentenceVietnamese": "Mỗi người đều nên bảo vệ trái đất."
+      "en": "to protect",
+      "vi": "bảo vệ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "protect; safeguard",
+          "sentence": "父母保護孩子安全。",
+          "pinyin": "fùmǔ bǎohù háizi ānquán.",
+          "en": "Parents protect the safety of their children.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "protect; safeguard",
+          "sentence": "我們必須保護環境。",
+          "pinyin": "wǒmen bìxū bǎohù huánjìng.",
+          "en": "We must protect the environment.",
+          "vi": "Chúng ta phải bảo vệ môi trường."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "分類",
       "pinyin": "fēnlèi",
-      "english": "classification",
-      "sentenceChinese": "做好垃圾分類非常重要。",
-      "sentencePinyin": "Zuòhǎo lèsè fēnlèi fēicháng zhòngyào.",
-      "sentenceEnglish": "It is very important to do garbage classification correctly.",
-      "vietnamese": "phân loại",
-      "sentenceVietnamese": "Làm tốt việc phân loại rác là vô cùng quan trọng."
+      "en": "classification",
+      "vi": "phân loại",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "sort; classify; categorize",
+          "sentence": "這些容器按大小分類。",
+          "pinyin": "zhèxiē róngqì àn dàxiǎo fēnlèi.",
+          "en": "The containers are graded according to size.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "sort; classify; categorize",
+          "sentence": "這些書按科目分類。",
+          "pinyin": "zhèxiē shū àn kēmù fēnlèi.",
+          "en": "The books are grouped together by subject.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "利用",
       "pinyin": "lìyòng",
-      "english": "to make use of",
-      "sentenceChinese": "我們可以利用舊報紙來做手工。",
-      "sentencePinyin": "Wǒmen kěyǐ lìyòng jiù bàozhǐ lái zuò shǒugōng.",
-      "sentenceEnglish": "We can make use of old newspapers to do crafts.",
-      "vietnamese": "lợi dụng / tận dụng",
-      "sentenceVietnamese": "Chúng ta có thể tận dụng báo cũ để làm đồ thủ công."
+      "en": "to make use of",
+      "vi": "lợi dụng / tận dụng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "use; utilize; make use of",
+          "sentence": "她利用休息時間去健身。",
+          "pinyin": "tā lìyòng xiūxi shíjiān qù jiànshēn.",
+          "en": "She used her break time to go to the gym.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "use; utilize; make use of",
+          "sentence": "我們要有效地利用風力。",
+          "pinyin": "wǒmen yào yǒuxiào de lìyòng fēnglì.",
+          "en": "We need to effectively utilize wind power.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "紙",
       "pinyin": "zhǐ",
-      "english": "paper",
-      "sentenceChinese": "請在紙上寫下你的名字。",
-      "sentencePinyin": "Qǐng zài zhǐ shàng xiěxià nǐ de míngzì.",
-      "sentenceEnglish": "Please write down your name on the paper.",
-      "vietnamese": "giấy",
-      "sentenceVietnamese": "Làm ơn viết tên bạn lên giấy."
+      "en": "paper",
+      "vi": "giấy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "paper",
+          "sentence": "學生們用紙畫畫。",
+          "pinyin": "xuéshēngmen yòng zhǐ huà huà.",
+          "en": "The students draw with paper.",
+          "vi": "Học sinh sử dụng giấy để vẽ tranh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "paper",
+          "sentence": "我把這張紙撕了。",
+          "pinyin": "wǒ bǎ zhè zhāng zhǐ sīle.",
+          "en": "I tore this piece of paper.",
+          "vi": "Tôi đã xé tờ giấy này."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for letters, documents, etc.]",
+          "sentence": "請給我一紙白紙。",
+          "pinyin": "qǐng gěi wǒ yī zhī bái zhǐ.",
+          "en": "Please give me a sheet of white paper.",
+          "vi": "Xin hãy cho tôi một tờ giấy trắng."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "[for letters, documents, etc.]",
+          "sentence": "這份文件有三紙。",
+          "pinyin": "zhè fèn wénjiàn yǒusān zhǐ.",
+          "en": "This document has three sheets of paper.",
+          "vi": "Bản tài liệu này có ba tờ."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "瓶子",
       "pinyin": "píngzi",
-      "english": "bottle",
-      "sentenceChinese": "這個玻璃瓶子是裝水的。",
-      "sentencePinyin": "Zhège bōlí píngzi shì zhuāng shuǐ de.",
-      "sentenceEnglish": "This glass bottle is for holding water.",
-      "vietnamese": "cái chai / bình",
-      "sentenceVietnamese": "Cái chai thủy tinh này dùng để đựng nước."
+      "en": "bottle",
+      "vi": "cái chai / bình",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bottle",
+          "sentence": "瓶子裡/裏還有水嗎？",
+          "pinyin": "píngzi lǐ hái yǒu shuǐ ma?",
+          "en": "Is there still water in the bottle?",
+          "vi": "Trong bình còn nước không?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "bottle",
+          "sentence": "我買了一個新瓶子。",
+          "pinyin": "wǒ mǎile yīgè xīn píngzi.",
+          "en": "I bought a new bottle.",
+          "vi": "Tôi đã mua một cái lọ mới."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "塑膠",
       "pinyin": "sùjiāo",
-      "english": "plastic",
-      "sentenceChinese": "塑膠對環境的汙染很嚴重。",
-      "sentencePinyin": "Sùjiāo duì huánjìng de wūrǎn hěn yánzhòng.",
-      "sentenceEnglish": "Plastic causes serious pollution to the environment.",
-      "vietnamese": "nhựa / nilon",
-      "sentenceVietnamese": "Nhựa gây ô nhiễm môi trường rất nghiêm trọng."
+      "en": "plastic",
+      "vi": "nhựa / nilon",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "plastic; plastic cement",
+          "sentence": "塑膠製品很耐用。",
+          "pinyin": "sùjiāo zhìpǐn hěn nàiyòng.",
+          "en": "Plastic products are very durable.",
+          "vi": "Sản phẩm nhựa rất bền."
+        },
+        {
+          "type": "Noun",
+          "meaning": "plastic; plastic cement",
+          "sentence": "我喜歡塑膠玩具。",
+          "pinyin": "wǒ xǐhuān sùjiāo wánjù.",
+          "en": "I enjoy playing with plastic toys.",
+          "vi": "Tôi thích đồ chơi bằng nhựa."
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "資源",
       "pinyin": "zīyuán",
-      "english": "resource",
-      "sentenceChinese": "我們要珍惜地球的資源。",
-      "sentencePinyin": "Wǒmen yào zhēnxī dìqiú de zīyuán.",
-      "sentenceEnglish": "We must cherish the earth's resources.",
-      "vietnamese": "tài nguyên",
-      "sentenceVietnamese": "Chúng ta phải trân trọng tài nguyên của trái đất."
+      "en": "resource",
+      "vi": "tài nguyên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "resource",
+          "sentence": "我們的資源極端緊缺。",
+          "pinyin": "wǒmen de zīyuán jíduān jǐnquē.",
+          "en": "Our resources are strained to the utmost.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "resource",
+          "sentence": "教育資源不足。",
+          "pinyin": "jiàoyùzīyuánbùzú.",
+          "en": "The education resources are not sufficient.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "回收桶",
       "pinyin": "huíshōutǒng",
-      "english": "recycling bin",
-      "sentenceChinese": "請把空瓶子丟進回收桶。",
-      "sentencePinyin": "Qǐng bǎ kōng píngzi diū jìn huíshōutǒng.",
-      "sentenceEnglish": "Please throw empty bottles into the recycling bin.",
-      "vietnamese": "thùng rác tái chế",
-      "sentenceVietnamese": "Làm ơn vứt chai không vào thùng rác tái chế."
+      "en": "recycling bin",
+      "vi": "thùng rác tái chế",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "keg; tub; pail; barrel; bucket; commode",
+          "sentence": "桶裡/裏裝滿了水。",
+          "pinyin": "tǒng lǐ zhuāng mǎnle shuǐ.",
+          "en": "The bucket is full of water.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "keg; tub; pail; barrel; bucket; commode",
+          "sentence": "他提著一個木桶。",
+          "pinyin": "tā tízhe yīgè mù tǒng.",
+          "en": "He is carrying a wooden bucket.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "barrel",
+          "sentence": "廚房裡/裏有一桶麵粉。",
+          "pinyin": "chúfáng lǐ yǒuyī tǒng miànfěn.",
+          "en": "There is a barrel of flour in the kitchen.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "barrel",
+          "sentence": "工人搬了三桶水泥。",
+          "pinyin": "gōngrén bānle sān tǒng shuǐní.",
+          "en": "The workers carried three barrels of cement.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "城市",
       "pinyin": "chéngshì",
-      "english": "city",
-      "sentenceChinese": "台北是一個現代化的城市。",
-      "sentencePinyin": "Táiběi shì yí ge xiàndàihuà de chéngshì.",
-      "sentenceEnglish": "Taipei is a modernized city.",
-      "vietnamese": "thành phố",
-      "sentenceVietnamese": "Đài Bắc là một thành phố hiện đại hóa."
+      "en": "city",
+      "vi": "thành phố",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "city; town",
+          "sentence": "這座城市非常繁華。",
+          "pinyin": "zhè zuò chéngshì fēicháng fánhuá.",
+          "en": "This city is very bustling.",
+          "vi": "Thành phố này rất sầm uất."
+        },
+        {
+          "type": "Noun",
+          "meaning": "city; town",
+          "sentence": "我愛這座城市的氛圍。",
+          "pinyin": "wǒ ài zhè zuò chéngshì de fēnwéi.",
+          "en": "I love the atmosphere of this city.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "聽見",
       "pinyin": "tīngjiàn",
-      "english": "to hear, to have heard",
-      "sentenceChinese": "你有聽見垃圾車的聲音嗎？",
-      "sentencePinyin": "Nǐ yǒu tīngjiàn lèsèchē de shēngyīn ma?",
-      "sentenceEnglish": "Did you hear the sound of the garbage truck?",
-      "vietnamese": "nghe thấy",
-      "sentenceVietnamese": "Bạn có nghe thấy tiếng xe rác không?"
+      "en": "to hear, to have heard",
+      "vi": "nghe thấy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hear",
+          "sentence": "他聽見學校的鈴響了。",
+          "pinyin": "tā tīngjiàn xuéxiào de líng xiǎngle.",
+          "en": "He heard the school bell ring.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hear",
+          "sentence": "我仿彿聽見有人在呼喊。",
+          "pinyin": "wǒ fǎngfú tīngjiàn yǒurén zài hūhǎn.",
+          "en": "I thought I heard someone calling.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "開過來",
       "pinyin": "kāi guòlái",
-      "english": "to drive over",
-      "sentenceChinese": "我看見垃圾車開過來了。",
-      "sentencePinyin": "Wǒ kànjiàn lèsèchē kāi guòlái le.",
-      "sentenceEnglish": "I saw the garbage truck driving over.",
-      "vietnamese": "lái xe qua đây",
-      "sentenceVietnamese": "Tôi thấy xe rác đang lái qua đây rồi."
+      "en": "to drive over",
+      "vi": "lái xe qua đây",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "他來公司開會。",
+          "pinyin": "tā lái gōngsī kāihuì.",
+          "en": "He comes to the company for a meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "請你來我傢玩。",
+          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
+          "en": "Please come to my house to play.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "這件衣服大概來五百塊。",
+          "pinyin": "zhè jiàn yīfu dàgài lái wǔbǎi kuài.",
+          "en": "This piece of clothing costs about 500 yuan.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "我有來十個問題要問你。",
+          "pinyin": "wǒ yǒu lái shí gè wèntí yào wèn nǐ.",
+          "en": "I have about ten questions to ask you.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "多年來他一直努力。",
+          "pinyin": "duōnián lái tā yīzhí nǔlì.",
+          "en": "He has been working hard for many years.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "我爸爸進來比較忙。",
+          "pinyin": "wǒ bàba jìnlái bǐjiào máng.",
+          "en": "My dad has been quite busy lately.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "走過去",
       "pinyin": "zǒu guòqù",
-      "english": "to walk over",
-      "sentenceChinese": "他提著垃圾袋走過去倒垃圾。",
-      "sentencePinyin": "Tā tízhe lèsèdài zǒu guòqù dào lèsè.",
-      "sentenceEnglish": "He carried the trash bag and walked over to throw it out.",
-      "vietnamese": "đi bộ qua đó",
-      "sentenceVietnamese": "Anh ấy xách túi rác đi bộ qua đó để đổ rác."
+      "en": "to walk over",
+      "vi": "đi bộ qua đó",
+      "samples": [
+        {
+          "type": "v, time, n, adv",
+          "meaning": "(in the) past",
+          "sentence": "過去呢",
+          "pinyin": "guòqù ní",
+          "en": "What about past complaints?",
+          "vi": ""
+        },
+        {
+          "type": "v, time, n, adv",
+          "meaning": "former",
+          "sentence": "她隻是個過去的朋友。",
+          "pinyin": "tā zhǐshì gè guòqù de péngyǒu",
+          "en": "She's just a former friend.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "go across; go by",
+          "sentence": "我們倆一起過去吧。",
+          "pinyin": "wǒmen liǎ yīqǐ guòqù ba.",
+          "en": "Let's go over together.",
+          "vi": "Cả hai chúng ta cùng đi qua đó đi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "go across; go by",
+          "sentence": "他媽媽剛才/纔走過去。",
+          "pinyin": "tā māma gāngcái zǒu guòqù.",
+          "en": "His mother just walked over.",
+          "vi": "Mẹ của anh ấy đã đi qua lúc nãy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the past",
+          "sentence": "過去的事不要再提了。",
+          "pinyin": "guòqù de shì bùyào zài tíle.",
+          "en": "Don't bring up things from the past.",
+          "vi": "Chuyện đã qua đừng nhắc tới nữa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the past",
+          "sentence": "過去的時光很美好。",
+          "pinyin": "guòqù de shíguāng hěn měihǎo.",
+          "en": "The time that has passed was beautiful.",
+          "vi": "Khoảng thời gian đã qua thật đẹp."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "丟進去",
       "pinyin": "diū jìnqù",
-      "english": "to throw into",
-      "sentenceChinese": "請把這張紙丟進去垃圾桶。",
-      "sentencePinyin": "Qǐng bǎ zhè zhāng zhǐ diū jìnqù lèsètǒng.",
-      "sentenceEnglish": "Please throw this paper into the trash can.",
-      "vietnamese": "vứt vào trong",
-      "sentenceVietnamese": "Làm ơn vứt tờ giấy này vào trong thùng rác."
+      "en": "to throw into",
+      "vi": "vứt vào trong",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go; leave",
+          "sentence": "他吃/喫完飯就去了。",
+          "pinyin": "tā chī wán fàn jiù qùle.",
+          "en": "He left right after finishing the meal.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "go; leave",
+          "sentence": "朋友沒打招呼就去了。",
+          "pinyin": "péngyǒu méi dǎzhāohū jiù qùle.",
+          "en": "My friend left without saying goodbye.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely",
+          "sentence": "這件衣服大去了。",
+          "pinyin": "zhè jiàn yīfu dà qùle.",
+          "en": "This piece of clothing is way too big.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely",
+          "sentence": "這個問題去難了。",
+          "pinyin": "zhège wèntí qù nánle.",
+          "en": "This problem is way too hard.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "falling tone, one of the four tones in classical Chinese and the fourth tone in modern standard Chinese pronunciation",
+          "sentence": "這個字讀去聲音調。",
+          "pinyin": "zhège zì dú qù shēngyīn diào.",
+          "en": "This character is pronounced with the departing tone.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "falling tone, one of the four tones in classical Chinese and the fourth tone in modern standard Chinese pronunciation",
+          "sentence": "他説的去聲不標準。",
+          "pinyin": "tā shuō de qù shēng bù biāozhǔn.",
+          "en": "His departing tone pronunciation is not standard.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "past; last",
+          "sentence": "去年我們去旅行。",
+          "pinyin": "qùnián wǒmen qù lǚxíng.",
+          "en": "Last year we went on a trip.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "past; last",
+          "sentence": "去年的工作很忙。",
+          "pinyin": "qùnián de gōngzuò hěn máng.",
+          "en": "Last year’s work was very busy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "路上",
       "pinyin": "lùshàng",
-      "english": "on the street / on the way",
-      "sentenceChinese": "路上有很多行人和車子。",
-      "sentencePinyin": "Lùshàng yǒu hěnduō xíngrén hàn chēzi.",
-      "sentenceEnglish": "There are many pedestrians and cars on the street.",
-      "vietnamese": "trên đường",
-      "sentenceVietnamese": "Trên đường có rất nhiều người đi bộ và xe cộ."
+      "en": "on the street / on the way",
+      "vi": "trên đường",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "on the road",
+          "sentence": "路上有很多行人。",
+          "pinyin": "lùshàng yǒu hěnduō xíngrén.",
+          "en": "There are many pedestrians on the road.",
+          "vi": "Trên đường có nhiều người đi bộ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "on the road",
+          "sentence": "路上停著一輛車。",
+          "pinyin": "lùshàng tíngzhe yī liàng chē.",
+          "en": "There is a car parked on the road.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "天天",
       "pinyin": "tiāntiān",
-      "english": "every day",
-      "sentenceChinese": "我天天都要聽中文廣播。",
-      "sentencePinyin": "Wǒ tiāntiān dōu yào tīng Zhōngwén guǎngbō.",
-      "sentenceEnglish": "I listen to Chinese radio every day.",
-      "vietnamese": "hàng ngày",
-      "sentenceVietnamese": "Tôi nghe đài tiếng Trung mỗi ngày."
+      "en": "every day",
+      "vi": "hàng ngày",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "daily; every day; day in, day out",
+          "sentence": "我們天天學習中文。",
+          "pinyin": "wǒmen tiāntiān xuéxí zhōngwén.",
+          "en": "We study Chinese every day.",
+          "vi": "Chúng tôi học tiếng Trung mỗi ngày."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "daily; every day; day in, day out",
+          "sentence": "我天天都看新聞。",
+          "pinyin": "wǒ tiāntiān dōu kàn xīnwén.",
+          "en": "I watch the news every day.",
+          "vi": "Tôi xem tin tức mỗi ngày."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "汽水罐",
       "pinyin": "qìshuǐ guàn",
-      "english": "soda can",
-      "sentenceChinese": "空汽水罐應該放進回收桶。",
-      "sentencePinyin": "Kōng qìshuǐ guàn yīnggāi fàngjìn huíshōutǒng.",
-      "sentenceEnglish": "Empty soda cans should be put in the recycling bin.",
-      "vietnamese": "lon nước ngọt",
-      "sentenceVietnamese": "Lon nước ngọt rỗng nên bỏ vào thùng rác tái chế."
+      "en": "soda can",
+      "vi": "lon nước ngọt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tin; jar; jug; pot; tank",
+          "sentence": "這個鐵罐十分堅固。",
+          "pinyin": "zhègè tiě guàn shífēn jiāngù.",
+          "en": "This tin can is very sturdy.",
+          "vi": "Chiếc bình sắt này rất chắc chắn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "tin; jar; jug; pot; tank",
+          "sentence": "那隻陶罐造型精美。",
+          "pinyin": "nà zhī táo guàn zàoxíng jīngměi.",
+          "en": "That ceramic pot has a fine design.",
+          "vi": "Chiếc bình gốm đó có hình dáng tinh xảo."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "can; jar",
+          "sentence": "我買了一罐可樂。",
+          "pinyin": "wǒ mǎile yī guàn kělè.",
+          "en": "I bought a can of cola.",
+          "vi": "Tôi mua một lon coca."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "can; jar",
+          "sentence": "他送給我一罐蜂蜜。",
+          "pinyin": "tā sòng gěi wǒ yī guàn fēngmì.",
+          "en": "He gave me a jar of honey.",
+          "vi": "Anh ấy tặng tôi một bình mật ong."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "紙杯",
       "pinyin": "zhǐbēi",
-      "english": "paper cup",
-      "sentenceChinese": "為了環保，少用一次性紙杯。",
-      "sentencePinyin": "Wèile huánbǎo, shǎo yòng yícìxìng zhǐbēi.",
-      "sentenceEnglish": "For the environment, use fewer disposable paper cups.",
-      "vietnamese": "cốc giấy",
-      "sentenceVietnamese": "Để bảo vệ môi trường, hãy ít dùng cốc giấy dùng một lần."
+      "en": "paper cup",
+      "vi": "cốc giấy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "paper cup",
+          "sentence": "你不需要再用紙盃喝水了。",
+          "pinyin": "nǐ bù xūyào zàiyòng zhǐbēi hēshǔi le",
+          "en": "You never have to drink out of a paper cup again.",
+          "vi": "Bạn không bao giờ phải uống từ cốc giấy nữa."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "放下",
       "pinyin": "fàngxià",
-      "english": "put down",
-      "sentenceChinese": "請把手中的書放下。",
-      "sentencePinyin": "Qǐng bǎ shǒuzhōng de shū fàngxià.",
-      "sentenceEnglish": "Please put down the book in your hand.",
-      "vietnamese": "đặt xuống",
-      "sentenceVietnamese": "Làm ơn đặt cuốn sách trong tay xuống."
+      "en": "put down",
+      "vi": "đặt xuống",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lay down; put down",
+          "sentence": "請放下手中的筆。",
+          "pinyin": "qǐng fàngxià shǒuzhōng de bǐ.",
+          "en": "Please put down the pen in your hand.",
+          "vi": "Hãy đặt bút xuống."
+        },
+        {
+          "type": "Verb",
+          "meaning": "lay down; put down",
+          "sentence": "他放下了行李。",
+          "pinyin": "tā fàngxiàle xínglǐ.",
+          "en": "He put down the luggage.",
+          "vi": "Anh ấy đã đặt hành lý xuống."
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "走出來",
       "pinyin": "zǒu chūlái",
-      "english": "to walk out of",
-      "sentenceChinese": "他從屋子裡走出來了。",
-      "sentencePinyin": "Tā cóng wūzi lǐ zǒu chūlái le.",
-      "sentenceEnglish": "He walked out of the house.",
-      "vietnamese": "đi ra ngoài",
-      "sentenceVietnamese": "Anh ấy từ trong nhà đi ra ngoài rồi."
+      "en": "to walk out of",
+      "vi": "đi ra ngoài",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "他來公司開會。",
+          "pinyin": "tā lái gōngsī kāihuì.",
+          "en": "He comes to the company for a meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "請你來我傢玩。",
+          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
+          "en": "Please come to my house to play.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "這件衣服大概來五百塊。",
+          "pinyin": "zhè jiàn yīfu dàgài lái wǔbǎi kuài.",
+          "en": "This piece of clothing costs about 500 yuan.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "我有來十個問題要問你。",
+          "pinyin": "wǒ yǒu lái shí gè wèntí yào wèn nǐ.",
+          "en": "I have about ten questions to ask you.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "多年來他一直努力。",
+          "pinyin": "duōnián lái tā yīzhí nǔlì.",
+          "en": "He has been working hard for many years.",
+          "vi": "Trong nhiều năm qua, anh ấy luôn nỗ lực."
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "我爸爸進來比較忙。",
+          "pinyin": "wǒ bàba jìnlái bǐjiào máng.",
+          "en": "My dad has been quite busy lately.",
+          "vi": "Bố của tôi dạo này hơi bận."
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "怎麼辦",
       "pinyin": "zěnmebàn",
-      "english": "What now? / What to do?",
-      "sentenceChinese": "我忘了帶鑰匙，怎麼辦？",
-      "sentencePinyin": "Wǒ wàngle dài yàoshi, zěnmebàn?",
-      "sentenceEnglish": "I forgot to bring my keys, what should I do?",
-      "vietnamese": "làm sao đây",
-      "sentenceVietnamese": "Tôi quên mang chìa khóa rồi, phải làm sao đây?"
+      "en": "What now? / What to do?",
+      "vi": "làm sao đây",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "what to do; what's to be done",
+          "sentence": "沒有他我該怎麼辦？",
+          "pinyin": "méiyǒu tā wǒ gāi zěnme bàn?",
+          "en": "What should I do without him?",
+          "vi": "Không có anh ấy tôi phải làm sao?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "what to do; what's to be done",
+          "sentence": "我現在該怎麼辦呢？",
+          "pinyin": "wǒ xiànzài gāi zěnme bàn ne?",
+          "en": "What should I do now?",
+          "vi": "Bây giờ tôi phải làm sao đây chứ?"
+        }
+      ]
     }
   ]
 }

@@ -3,87 +3,2582 @@
   "sectionId": "section4",
   "sectionTitle": "Where Should the Bed Go? | 床該擺哪裡？",
   "items": [
-    { "id": 1, "chinese": "該", "pinyin": "gāi", "english": "should, ought to", "vietnamese": "nên", "sentenceChinese": "這張床該擺在哪裡比較好？", "sentencePinyin": "Zhè zhāng chuáng gāi bǎi zài nǎlǐ bǐjiào hǎo?", "sentenceEnglish": "Where should this bed be placed?", "sentenceVietnamese": "Chiếc giường này nên đặt ở đâu thì hợp hơn?", "theme": "Grammar" },
-    { "id": 2, "chinese": "擺", "pinyin": "bǎi", "english": "to place, display", "vietnamese": "bày biện, sắp xếp", "sentenceChinese": "我們先把書桌擺到窗戶旁邊吧。", "sentencePinyin": "Wǒmen xiān bǎ shūzhuō bǎi dào chuānghù pángbiān ba.", "sentenceEnglish": "Let's put the desk by the window first.", "sentenceVietnamese": "Trước tiên chúng ta đặt bàn học cạnh cửa sổ nhé.", "theme": "General" },
-    { "id": 3, "chinese": "總算", "pinyin": "zǒngsuàn", "english": "finally", "vietnamese": "cuối cùng thì cũng", "sentenceChinese": "忙了一個下午，總算把房間整理好了。", "sentencePinyin": "Máng le yí ge xiàwǔ, zǒngsuàn bǎ fángjiān zhěnglǐ hǎo le.", "sentenceEnglish": "After a whole afternoon of work, we finally finished tidying the room.", "sentenceVietnamese": "Bận rộn cả buổi chiều, cuối cùng cũng dọn xong căn phòng.", "theme": "Grammar" },
-    { "id": 4, "chinese": "欸", "pinyin": "èi", "english": "hey, calling attention", "vietnamese": "này (thán từ)", "sentenceChinese": "欸，你覺得床放這裡可以嗎？", "sentencePinyin": "Èi, nǐ juéde chuáng fàng zhèlǐ kěyǐ ma?", "sentenceEnglish": "Hey, do you think the bed can go here?", "sentenceVietnamese": "Này, bạn thấy đặt giường ở đây được không?", "theme": "General" },
-    { "id": 5, "chinese": "呀", "pinyin": "yā", "english": "particle indicating uncertainty", "vietnamese": "nha, nhỉ (trợ từ)", "sentenceChinese": "這個位置不錯呀，怎麼又要改？", "sentencePinyin": "Zhège wèizhì búcuò yā, zěnme yòu yào gǎi?", "sentenceEnglish": "This spot is pretty good, so why change it again?", "sentenceVietnamese": "Vị trí này ổn mà nhỉ, sao lại muốn đổi nữa?", "theme": "Grammar" },
-    { "id": 6, "chinese": "衣櫥", "pinyin": "yīchú", "english": "closet", "vietnamese": "tủ quần áo", "sentenceChinese": "衣櫥太大了，只能放在角落。", "sentencePinyin": "Yīchú tài dà le, zhǐ néng fàng zài jiǎoluò.", "sentenceEnglish": "The closet is too big, so it can only go in the corner.", "sentenceVietnamese": "Tủ quần áo quá to nên chỉ có thể đặt ở góc phòng.", "theme": "Furniture" },
-    { "id": 7, "chinese": "梳妝台", "pinyin": "shūzhuāngtái", "english": "dressing table", "vietnamese": "bàn trang điểm", "sentenceChinese": "她希望梳妝台靠近窗戶，光線比較好。", "sentencePinyin": "Tā xīwàng shūzhuāngtái kàojìn chuānghù, guāngxiàn bǐjiào hǎo.", "sentenceEnglish": "She wants the dressing table near the window where the light is better.", "sentenceVietnamese": "Cô ấy muốn bàn trang điểm ở gần cửa sổ để có ánh sáng tốt hơn.", "theme": "Furniture" },
-    { "id": 8, "chinese": "位置", "pinyin": "wèizhì", "english": "position, location", "vietnamese": "vị trí", "sentenceChinese": "這個位置剛好不會擋到門。", "sentencePinyin": "Zhège wèizhì gānghǎo bú huì dǎng dào mén.", "sentenceEnglish": "This position won't block the door.", "sentenceVietnamese": "Vị trí này vừa hay sẽ không chắn cửa.", "theme": "General" },
-    { "id": 9, "chinese": "空間", "pinyin": "kōngjiān", "english": "space", "vietnamese": "không gian", "sentenceChinese": "房間不大，所以要好好利用空間。", "sentencePinyin": "Fángjiān bù dà, suǒyǐ yào hǎohǎo lìyòng kōngjiān.", "sentenceEnglish": "The room isn't big, so we need to make good use of the space.", "sentenceVietnamese": "Phòng không lớn nên phải tận dụng không gian cho tốt.", "theme": "General" },
-    { "id": 10, "chinese": "科學", "pinyin": "kēxué", "english": "science", "vietnamese": "khoa học", "sentenceChinese": "他喜歡用比較科學的方法來規劃房間。", "sentencePinyin": "Tā xǐhuān yòng bǐjiào kēxué de fāngfǎ lái guīhuà fángjiān.", "sentenceEnglish": "He likes to plan a room in a more scientific way.", "sentenceVietnamese": "Anh ấy thích dùng cách khoa học hơn để bố trí phòng.", "theme": "General" },
-    { "id": 11, "chinese": "風水師", "pinyin": "fēngshuǐshī", "english": "Feng Shui master", "vietnamese": "thầy phong thủy", "sentenceChinese": "他還特地請風水師來看新家。", "sentencePinyin": "Tā hái tèdì qǐng fēngshuǐshī lái kàn xīnjiā.", "sentenceEnglish": "He even specially invited a Feng Shui master to look at the new home.", "sentenceVietnamese": "Anh ấy còn đặc biệt mời thầy phong thủy đến xem nhà mới.", "theme": "Work" },
-    { "id": 12, "chinese": "在意", "pinyin": "zàiyì", "english": "to care about", "vietnamese": "để ý, bận tâm", "sentenceChinese": "有些人很在意床是不是對著門。", "sentencePinyin": "Yǒuxiē rén hěn zàiyì chuáng shì bú shì duì zhe mén.", "sentenceEnglish": "Some people care a lot about whether the bed faces the door.", "sentenceVietnamese": "Có người rất để ý việc giường có đối diện cửa hay không.", "theme": "Emotions" },
-    { "id": 13, "chinese": "所謂", "pinyin": "suǒwèi", "english": "so-called", "vietnamese": "cái gọi là", "sentenceChinese": "他說的所謂風水，其實我不太懂。", "sentencePinyin": "Tā shuō de suǒwèi fēngshuǐ, qíshí wǒ bú tài dǒng.", "sentenceEnglish": "I don't really understand the so-called Feng Shui he talks about.", "sentenceVietnamese": "Tôi thật ra không hiểu lắm cái gọi là phong thủy mà anh ấy nói.", "theme": "Grammar" },
-    { "id": 14, "chinese": "角度", "pinyin": "jiǎodù", "english": "angle, perspective", "vietnamese": "góc độ", "sentenceChinese": "從方便的角度來看，書桌放這裡比較好。", "sentencePinyin": "Cóng fāngbiàn de jiǎodù láikàn, shūzhuō fàng zhèlǐ bǐjiào hǎo.", "sentenceEnglish": "From the perspective of convenience, it's better to put the desk here.", "sentenceVietnamese": "Xét từ góc độ tiện lợi thì đặt bàn học ở đây sẽ hợp hơn.", "theme": "General" },
-    { "id": 15, "chinese": "改造", "pinyin": "gǎizào", "english": "to transform, restructure", "vietnamese": "cải tạo", "sentenceChinese": "這間老房子改造後變得很舒服。", "sentencePinyin": "Zhè jiān lǎo fángzi gǎizào hòu biàn de hěn shūfu.", "sentenceEnglish": "After being renovated, this old house became very comfortable.", "sentenceVietnamese": "Sau khi cải tạo, căn nhà cũ này trở nên rất dễ chịu.", "theme": "General" },
-    { "id": 16, "chinese": "學問", "pinyin": "xuéwèn", "english": "a branch of learning", "vietnamese": "học vấn, tri thức", "sentenceChinese": "原來布置房間也有不少學問。", "sentencePinyin": "Yuánlái bùzhì fángjiān yě yǒu bù shǎo xuéwèn.", "sentenceEnglish": "It turns out that arranging a room also involves quite a lot of know-how.", "sentenceVietnamese": "Hóa ra việc bố trí phòng cũng có không ít điều phải học.", "theme": "Education" },
-    { "id": 17, "chinese": "居住", "pinyin": "jūzhù", "english": "to live, reside", "vietnamese": "cư trú", "sentenceChinese": "這裡很安靜，很適合居住。", "sentencePinyin": "Zhèlǐ hěn ānjìng, hěn shìhé jūzhù.", "sentenceEnglish": "It's quiet here, so it's very suitable for living.", "sentenceVietnamese": "Nơi này rất yên tĩnh, rất thích hợp để ở.", "theme": "General" },
-    { "id": 18, "chinese": "日常", "pinyin": "rìcháng", "english": "daily", "vietnamese": "thường ngày", "sentenceChinese": "房間的布置會影響日常生活的方便性。", "sentencePinyin": "Fángjiān de bùzhì huì yǐngxiǎng rìcháng shēnghuó de fāngbiànxìng.", "sentenceEnglish": "The room arrangement affects the convenience of daily life.", "sentenceVietnamese": "Cách bố trí phòng sẽ ảnh hưởng đến sự tiện lợi trong sinh hoạt hằng ngày.", "theme": "Time" },
-    { "id": 19, "chinese": "布置", "pinyin": "bùzhì", "english": "to arrange, decorate", "vietnamese": "bố trí, trang hoàng", "sentenceChinese": "她很會布置房間，總是弄得很溫馨。", "sentencePinyin": "Tā hěn huì bùzhì fángjiān, zǒngshì nòng de hěn wēnxīn.", "sentenceEnglish": "She is very good at decorating rooms and always makes them feel warm.", "sentenceVietnamese": "Cô ấy rất biết cách bố trí phòng, lúc nào cũng làm cho không gian thật ấm cúng.", "theme": "General" },
-    { "id": 20, "chinese": "凶猛", "pinyin": "xiōngměng", "english": "fierce, ferocious", "vietnamese": "hung dữ", "sentenceChinese": "牆上那張凶猛動物的照片讓人有點緊張。", "sentencePinyin": "Qiáng shàng nà zhāng xiōngměng dòngwù de zhàopiàn ràng rén yǒudiǎn jǐnzhāng.", "sentenceEnglish": "That picture of a fierce animal on the wall makes people a little nervous.", "sentenceVietnamese": "Bức ảnh con vật hung dữ trên tường khiến người ta hơi căng thẳng.", "theme": "Description" },
-    { "id": 21, "chinese": "動物", "pinyin": "dòngwù", "english": "animal", "vietnamese": "động vật", "sentenceChinese": "有些人喜歡在房間裡放動物圖案的擺飾。", "sentencePinyin": "Yǒuxiē rén xǐhuān zài fángjiān lǐ fàng dòngwù tú'àn de bǎishì.", "sentenceEnglish": "Some people like to place decorations with animal patterns in their rooms.", "sentenceVietnamese": "Có người thích đặt trong phòng những món trang trí có hình động vật.", "theme": "Nature" },
-    { "id": 22, "chinese": "刀", "pinyin": "dāo", "english": "knife", "vietnamese": "con dao", "sentenceChinese": "刀最好不要隨便放在房間裡。", "sentencePinyin": "Dāo zuìhǎo búyào suíbiàn fàng zài fángjiān lǐ.", "sentenceEnglish": "It's best not to leave knives around in the room.", "sentenceVietnamese": "Tốt nhất đừng để dao bừa bãi trong phòng.", "theme": "General" },
-    { "id": 23, "chinese": "劍", "pinyin": "jiàn", "english": "sword", "vietnamese": "kiếm", "sentenceChinese": "他把收藏的劍掛在書房裡。", "sentencePinyin": "Tā bǎ shōucáng de jiàn guà zài shūfáng lǐ.", "sentenceEnglish": "He hung the sword he collects in the study.", "sentenceVietnamese": "Anh ấy treo thanh kiếm sưu tầm của mình trong phòng làm việc.", "theme": "General" },
-    { "id": 24, "chinese": "脾氣", "pinyin": "píqì", "english": "temper", "vietnamese": "tính khí", "sentenceChinese": "他最近脾氣不太好，可能是太累了。", "sentencePinyin": "Tā zuìjìn píqì bú tài hǎo, kěnéng shì tài lèi le.", "sentenceEnglish": "His temper hasn't been very good lately; maybe he's too tired.", "sentenceVietnamese": "Gần đây tính khí anh ấy không được tốt, chắc là vì quá mệt.", "theme": "Psychology" },
-    { "id": 25, "chinese": "暴躁", "pinyin": "bàozào", "english": "cranky, irritable", "vietnamese": "nóng nảy", "sentenceChinese": "睡不好的人比較容易變得暴躁。", "sentencePinyin": "Shuì bù hǎo de rén bǐjiào róngyì biàn de bàozào.", "sentenceEnglish": "People who don't sleep well tend to become more irritable.", "sentenceVietnamese": "Người ngủ không ngon thường dễ trở nên nóng nảy hơn.", "theme": "Psychology" },
-    { "id": 26, "chinese": "衝動", "pinyin": "chōngdòng", "english": "impulsive, rash", "vietnamese": "xung động, bốc đồng", "sentenceChinese": "遇到問題時不要太衝動。", "sentencePinyin": "Yùdào wèntí shí búyào tài chōngdòng.", "sentenceEnglish": "Don't be too impulsive when facing problems.", "sentenceVietnamese": "Khi gặp vấn đề thì đừng quá bốc đồng.", "theme": "Psychology" },
-    { "id": 27, "chinese": "鏡子", "pinyin": "jìngzi", "english": "mirror", "vietnamese": "cái gương", "sentenceChinese": "鏡子放在床前面有些人會覺得不舒服。", "sentencePinyin": "Jìngzi fàng zài chuáng qiánmiàn yǒuxiē rén huì juéde bù shūfu.", "sentenceEnglish": "Some people feel uncomfortable when a mirror is placed in front of the bed.", "sentenceVietnamese": "Có người sẽ cảm thấy không thoải mái nếu đặt gương trước giường.", "theme": "Furniture" },
-    { "id": 28, "chinese": "床腳", "pinyin": "chuángjiǎo", "english": "foot of the bed", "vietnamese": "cuối giường", "sentenceChinese": "床腳那裡還可以放一張小椅子。", "sentencePinyin": "Chuángjiǎo nàlǐ hái kěyǐ fàng yì zhāng xiǎo yǐzi.", "sentenceEnglish": "A small chair can still be placed at the foot of the bed.", "sentenceVietnamese": "Ở cuối giường vẫn có thể đặt thêm một chiếc ghế nhỏ.", "theme": "Furniture" },
-    { "id": 29, "chinese": "光", "pinyin": "guāng", "english": "alone, merely", "vietnamese": "chỉ, mỗi", "sentenceChinese": "光看外表，不一定能判斷這間房好不好住。", "sentencePinyin": "Guāng kàn wàibiǎo, bù yídìng néng pànduàn zhè jiān fáng hǎo bù hǎo zhù.", "sentenceEnglish": "Just by looking at the appearance, you can't necessarily tell whether a room is comfortable to live in.", "sentenceVietnamese": "Chỉ nhìn bề ngoài thì chưa chắc đã đánh giá được phòng này có đáng sống hay không.", "theme": "Grammar" },
-    { "id": 30, "chinese": "擺飾", "pinyin": "bǎishì", "english": "decor, ornaments", "vietnamese": "đồ trang trí", "sentenceChinese": "桌上的擺飾太多，反而顯得很亂。", "sentencePinyin": "Zhuō shàng de bǎishì tài duō, fǎn'ér xiǎnde hěn luàn.", "sentenceEnglish": "There are too many decorations on the table, making it look messy instead.", "sentenceVietnamese": "Đồ trang trí trên bàn quá nhiều nên ngược lại trông rất rối.", "theme": "Furniture" },
-    { "id": 31, "chinese": "老婆", "pinyin": "lǎopó", "english": "wife", "vietnamese": "vợ", "sentenceChinese": "他老婆比較重視房間的美觀。", "sentencePinyin": "Tā lǎopó bǐjiào zhòngshì fángjiān de měiguān.", "sentenceEnglish": "His wife cares more about the look of the room.", "sentenceVietnamese": "Vợ anh ấy chú trọng vẻ đẹp của căn phòng hơn.", "theme": "Family" },
-    { "id": 32, "chinese": "把", "pinyin": "bǎ", "english": "measure word for objects that can be grasped", "vietnamese": "cái, chiếc (lượng từ)", "sentenceChinese": "門口放著一把雨傘。", "sentencePinyin": "Ménkǒu fàng zhe yì bǎ yǔsǎn.", "sentenceEnglish": "There is an umbrella by the door.", "sentenceVietnamese": "Ngoài cửa có đặt một chiếc ô.", "theme": "Grammar" },
-    { "id": 33, "chinese": "欺負", "pinyin": "qīfù", "english": "to pick on, bully", "vietnamese": "bắt nạt", "sentenceChinese": "哥哥老是欺負弟弟，媽媽很生氣。", "sentencePinyin": "Gēge lǎoshi qīfù dìdi, māma hěn shēngqì.", "sentenceEnglish": "The older brother keeps picking on his younger brother, which makes their mother angry.", "sentenceVietnamese": "Anh trai cứ bắt nạt em trai khiến mẹ rất tức giận.", "theme": "Social Issues" },
-    { "id": 34, "chinese": "風水學", "pinyin": "fēngshuǐ xué", "english": "study of Feng Shui", "vietnamese": "phong thủy học", "sentenceChinese": "他最近開始研究風水學。", "sentencePinyin": "Tā zuìjìn kāishǐ yánjiū fēngshuǐ xué.", "sentenceEnglish": "He has recently started studying Feng Shui.", "sentenceVietnamese": "Gần đây anh ấy bắt đầu nghiên cứu phong thủy học.", "theme": "Education" },
-    { "id": 35, "chinese": "正對門", "pinyin": "zhèng duì mén", "english": "directly facing the door", "vietnamese": "đối diện cửa chính", "sentenceChinese": "床如果正對門，有些人會覺得不安心。", "sentencePinyin": "Chuáng rúguǒ zhèng duì mén, yǒuxiē rén huì juéde bù ānxīn.", "sentenceEnglish": "If the bed directly faces the door, some people feel uneasy.", "sentenceVietnamese": "Nếu giường đối diện thẳng với cửa, có người sẽ thấy không yên tâm.", "theme": "General" },
-    { "id": 36, "chinese": "譬如說", "pinyin": "pìrú shuō", "english": "for example", "vietnamese": "ví dụ như là", "sentenceChinese": "譬如說，書桌旁邊最好留一點空間。", "sentencePinyin": "Pìrú shuō, shūzhuō pángbiān zuìhǎo liú yìdiǎn kōngjiān.", "sentenceEnglish": "For example, it's best to leave some space next to the desk.", "sentenceVietnamese": "Ví dụ như là bên cạnh bàn học tốt nhất nên chừa ra một chút không gian.", "theme": "Grammar" },
-    { "id": 37, "chinese": "一口氣", "pinyin": "yì kǒu qì", "english": "in one breath", "vietnamese": "một hơi", "sentenceChinese": "他一口氣把自己的想法全說完了。", "sentencePinyin": "Tā yì kǒu qì bǎ zìjǐ de xiǎngfǎ quán shuō wán le.", "sentenceEnglish": "He finished saying all of his ideas in one breath.", "sentenceVietnamese": "Anh ấy nói hết ý của mình trong một hơi.", "theme": "Idiom" },
-    { "id": 38, "chinese": "死定了", "pinyin": "sǐdìngle", "english": "be toast", "vietnamese": "chết chắc rồi", "sentenceChinese": "如果現在才開始搬，今晚我們死定了。", "sentencePinyin": "Rúguǒ xiànzài cái kāishǐ bān, jīnwǎn wǒmen sǐdìngle.", "sentenceEnglish": "If we only start moving now, we're doomed tonight.", "sentenceVietnamese": "Nếu bây giờ mới bắt đầu chuyển thì tối nay tụi mình chết chắc.", "theme": "Communication" },
-    { "id": 39, "chinese": "地理", "pinyin": "dìlǐ", "english": "geography", "vietnamese": "địa lý", "sentenceChinese": "他對台灣的地理很有研究。", "sentencePinyin": "Tā duì Táiwān de dìlǐ hěn yǒu yánjiū.", "sentenceEnglish": "He knows a lot about Taiwan's geography.", "sentenceVietnamese": "Anh ấy nghiên cứu khá nhiều về địa lý Đài Loan.", "theme": "General" },
-    { "id": 40, "chinese": "便利性", "pinyin": "biànlìxìng", "english": "convenience", "vietnamese": "tính tiện lợi", "sentenceChinese": "挑房子時，很多人都很重視交通的便利性。", "sentencePinyin": "Tiāo fángzi shí, hěn duō rén dōu hěn zhòngshì jiāotōng de biànlìxìng.", "sentenceEnglish": "When choosing a place to live, many people care a lot about transportation convenience.", "sentenceVietnamese": "Khi chọn nhà, nhiều người rất coi trọng tính tiện lợi của giao thông.", "theme": "General" },
-    { "id": 41, "chinese": "周邊", "pinyin": "zhōubiān", "english": "surrounding, periphery", "vietnamese": "xung quanh", "sentenceChinese": "這個住宅周邊有很多商店。", "sentencePinyin": "Zhège zhùzhái zhōubiān yǒu hěn duō shāngdiàn.", "sentenceEnglish": "There are many shops around this residence.", "sentenceVietnamese": "Xung quanh khu nhà này có rất nhiều cửa hàng.", "theme": "General" },
-    { "id": 42, "chinese": "住宅", "pinyin": "zhùzhái", "english": "residence", "vietnamese": "nhà ở, nơi cư trú", "sentenceChinese": "這一區的住宅環境很安靜。", "sentencePinyin": "Zhè yì qū de zhùzhái huánjìng hěn ānjìng.", "sentenceEnglish": "The residential environment in this area is very quiet.", "sentenceVietnamese": "Môi trường nhà ở ở khu vực này rất yên tĩnh.", "theme": "General" },
-    { "id": 43, "chinese": "詞", "pinyin": "cí", "english": "term, word", "vietnamese": "từ ngữ", "sentenceChinese": "這個詞在古書裡常常看得到。", "sentencePinyin": "Zhège cí zài gǔshū lǐ chángcháng kàn de dào.", "sentenceEnglish": "This term often appears in ancient books.", "sentenceVietnamese": "Từ này thường xuất hiện trong sách cổ.", "theme": "General" },
-    { "id": 44, "chinese": "西元", "pinyin": "Xīyuán", "english": "A.D.", "vietnamese": "Công nguyên", "sentenceChinese": "這座建築建於西元十九世紀。", "sentencePinyin": "Zhè zuò jiànzhú jiàn yú Xīyuán shíjiǔ shìjì.", "sentenceEnglish": "This building was built in the nineteenth century A.D.", "sentenceVietnamese": "Công trình này được xây vào thế kỷ 19 Công nguyên.", "theme": "Time" },
-    { "id": 45, "chinese": "推翻", "pinyin": "tuīfān", "english": "to repudiate, overturn", "vietnamese": "lật đổ, bác bỏ", "sentenceChinese": "新的研究推翻了以前的說法。", "sentencePinyin": "Xīn de yánjiū tuīfān le yǐqián de shuōfǎ.", "sentenceEnglish": "New research overturned the previous explanation.", "sentenceVietnamese": "Nghiên cứu mới đã bác bỏ cách giải thích trước đây.", "theme": "General" },
-    { "id": 46, "chinese": "心中", "pinyin": "xīnzhōng", "english": "in somebody's heart", "vietnamese": "trong lòng", "sentenceChinese": "這句話一直留在我心中。", "sentencePinyin": "Zhè jù huà yìzhí liú zài wǒ xīnzhōng.", "sentenceEnglish": "These words have stayed in my heart.", "sentenceVietnamese": "Câu nói này vẫn luôn ở trong lòng tôi.", "theme": "Psychology" },
-    { "id": 47, "chinese": "名言", "pinyin": "míngyán", "english": "well-known saying", "vietnamese": "danh ngôn", "sentenceChinese": "老師上課時常引用名言。", "sentencePinyin": "Lǎoshī shàngkè shí cháng yǐnyòng míngyán.", "sentenceEnglish": "The teacher often quotes famous sayings in class.", "sentenceVietnamese": "Giáo viên thường trích dẫn danh ngôn khi giảng bài.", "theme": "Communication" },
-    { "id": 48, "chinese": "建造", "pinyin": "jiànzào", "english": "to build", "vietnamese": "xây dựng", "sentenceChinese": "這棟房子是爺爺年輕時建造的。", "sentencePinyin": "Zhè dòng fángzi shì yéye niánqīng shí jiànzào de.", "sentenceEnglish": "This house was built by my grandfather when he was young.", "sentenceVietnamese": "Ngôi nhà này do ông tôi xây từ thời còn trẻ.", "theme": "General" },
-    { "id": 49, "chinese": "塑造", "pinyin": "sùzào", "english": "to shape", "vietnamese": "nhào nặn, tạo hình", "sentenceChinese": "一個人的習慣會慢慢塑造他的生活方式。", "sentencePinyin": "Yí ge rén de xíguàn huì mànmàn sùzào tā de shēnghuó fāngshì.", "sentenceEnglish": "A person's habits gradually shape their way of life.", "sentenceVietnamese": "Thói quen của một người sẽ dần dần định hình lối sống của họ.", "theme": "General" },
-    { "id": 50, "chinese": "命運", "pinyin": "mìngyùn", "english": "fate, destiny", "vietnamese": "vận mệnh", "sentenceChinese": "有人相信風水會影響命運。", "sentencePinyin": "Yǒurén xiāngxìn fēngshuǐ huì yǐngxiǎng mìngyùn.", "sentenceEnglish": "Some people believe Feng Shui affects destiny.", "sentenceVietnamese": "Có người tin rằng phong thủy sẽ ảnh hưởng đến vận mệnh.", "theme": "Philosophy" },
-    { "id": 51, "chinese": "本身", "pinyin": "běnshēn", "english": "itself, oneself", "vietnamese": "bản thân", "sentenceChinese": "這張床本身沒有問題，只是位置不對。", "sentencePinyin": "Zhè zhāng chuáng běnshēn méiyǒu wèntí, zhǐshì wèizhì bú duì.", "sentenceEnglish": "The bed itself is fine; it's just in the wrong place.", "sentenceVietnamese": "Bản thân chiếc giường không có vấn đề gì, chỉ là đặt sai chỗ thôi.", "theme": "General" },
-    { "id": 52, "chinese": "地標", "pinyin": "dìbiāo", "english": "landmark", "vietnamese": "biểu tượng, cột mốc", "sentenceChinese": "台北一〇一是很有名的地標。", "sentencePinyin": "Táiběi Yīlíngyī shì hěn yǒumíng de dìbiāo.", "sentenceEnglish": "Taipei 101 is a very famous landmark.", "sentenceVietnamese": "Taipei 101 là một biểu tượng rất nổi tiếng.", "theme": "General" },
-    { "id": 53, "chinese": "參考", "pinyin": "cānkǎo", "english": "reference, to refer to", "vietnamese": "tham khảo", "sentenceChinese": "你可以先參考別人的設計。", "sentencePinyin": "Nǐ kěyǐ xiān cānkǎo biérén de shèjì.", "sentenceEnglish": "You can first refer to other people's designs.", "sentenceVietnamese": "Bạn có thể tham khảo thiết kế của người khác trước.", "theme": "Education" },
-    { "id": 54, "chinese": "外觀", "pinyin": "wàiguān", "english": "exterior, appearance", "vietnamese": "ngoại quan, vẻ ngoài", "sentenceChinese": "這棟建築的外觀非常特別。", "sentencePinyin": "Zhè dòng jiànzhú de wàiguān fēicháng tèbié.", "sentenceEnglish": "The exterior of this building is very distinctive.", "sentenceVietnamese": "Vẻ ngoài của tòa nhà này rất đặc biệt.", "theme": "General" },
-    { "id": 55, "chinese": "疊", "pinyin": "dié", "english": "to stack", "vietnamese": "xếp chồng", "sentenceChinese": "他把幾本書疊在桌角。", "sentencePinyin": "Tā bǎ jǐ běn shū dié zài zhuōjiǎo.", "sentenceEnglish": "He stacked several books at the corner of the desk.", "sentenceVietnamese": "Anh ấy xếp chồng mấy quyển sách ở góc bàn.", "theme": "General" },
-    { "id": 56, "chinese": "盆子", "pinyin": "pénzi", "english": "basin", "vietnamese": "cái chậu", "sentenceChinese": "陽台上放著一個種花的盆子。", "sentencePinyin": "Yángtái shàng fàng zhe yí ge zhòng huā de pénzi.", "sentenceEnglish": "There is a flower pot basin on the balcony.", "sentenceVietnamese": "Trên ban công có đặt một cái chậu trồng hoa.", "theme": "General" },
-    { "id": 57, "chinese": "斜", "pinyin": "xié", "english": "slanted, tilted", "vietnamese": "nghiêng", "sentenceChinese": "這幅畫掛得有點斜。", "sentencePinyin": "Zhè fú huà guà de yǒudiǎn xié.", "sentenceEnglish": "This painting is hanging a little crooked.", "sentenceVietnamese": "Bức tranh này treo hơi nghiêng.", "theme": "Description" },
-    { "id": 58, "chinese": "牆面", "pinyin": "qiángmiàn", "english": "wall face", "vietnamese": "bề mặt tường", "sentenceChinese": "這面牆面很適合掛一幅畫。", "sentencePinyin": "Zhè miàn qiángmiàn hěn shìhé guà yì fú huà.", "sentenceEnglish": "This wall surface is perfect for hanging a painting.", "sentenceVietnamese": "Bề mặt bức tường này rất thích hợp để treo một bức tranh.", "theme": "General" },
-    { "id": 59, "chinese": "聚寶盆", "pinyin": "jùbǎopén", "english": "treasure basin, cornucopia", "vietnamese": "chậu tụ bảo", "sentenceChinese": "有人喜歡在家裡放聚寶盆招財。", "sentencePinyin": "Yǒurén xǐhuān zài jiālǐ fàng jùbǎopén zhāocái.", "sentenceEnglish": "Some people like to keep a treasure basin at home to attract wealth.", "sentenceVietnamese": "Có người thích đặt chậu tụ bảo trong nhà để chiêu tài.", "theme": "Culture" },
-    { "id": 60, "chinese": "角", "pinyin": "jiǎo", "english": "corner", "vietnamese": "góc", "sentenceChinese": "那個角太暗了，不適合放書桌。", "sentencePinyin": "Nàge jiǎo tài àn le, bù shìhé fàng shūzhuō.", "sentenceEnglish": "That corner is too dark, so it's not suitable for a desk.", "sentenceVietnamese": "Góc đó tối quá, không thích hợp để đặt bàn học.", "theme": "General" },
-    { "id": 61, "chinese": "龍", "pinyin": "lóng", "english": "dragon", "vietnamese": "rồng", "sentenceChinese": "牆上的龍圖案看起來很有氣勢。", "sentencePinyin": "Qiáng shàng de lóng tú'àn kàn qǐlái hěn yǒu qìshì.", "sentenceEnglish": "The dragon pattern on the wall looks very imposing.", "sentenceVietnamese": "Họa tiết rồng trên tường trông rất có khí thế.", "theme": "Nature" },
-    { "id": 62, "chinese": "古", "pinyin": "gǔ", "english": "ancient", "vietnamese": "cổ", "sentenceChinese": "這個櫃子有一種古樸的味道。", "sentencePinyin": "Zhège guìzi yǒu yì zhǒng gǔpǔ de wèidào.", "sentenceEnglish": "This cabinet has a simple antique charm.", "sentenceVietnamese": "Chiếc tủ này mang một vẻ mộc mạc cổ xưa.", "theme": "General" },
-    { "id": 63, "chinese": "錢幣", "pinyin": "qiánbì", "english": "coins, currency", "vietnamese": "tiền xu", "sentenceChinese": "盒子裡放了幾枚古錢幣。", "sentencePinyin": "Hézi lǐ fàng le jǐ méi gǔ qiánbì.", "sentenceEnglish": "There are several old coins in the box.", "sentenceVietnamese": "Trong chiếc hộp có đặt mấy đồng tiền xu cổ.", "theme": "Economy" },
-    { "id": 64, "chinese": "屋頂", "pinyin": "wūdǐng", "english": "roof", "vietnamese": "mái nhà", "sentenceChinese": "下大雨的時候，屋頂會不會漏水？", "sentencePinyin": "Xià dàyǔ de shíhou, wūdǐng huì bú huì lòushuǐ?", "sentenceEnglish": "Will the roof leak when it rains heavily?", "sentenceVietnamese": "Khi trời mưa to, mái nhà có bị dột không?", "theme": "General" },
-    { "id": 65, "chinese": "龜", "pinyin": "guī", "english": "turtle, tortoise", "vietnamese": "rùa", "sentenceChinese": "他桌上放了一隻小金龜做擺飾。", "sentencePinyin": "Tā zhuō shàng fàng le yì zhī xiǎo jīnguī zuò bǎishì.", "sentenceEnglish": "He placed a small golden turtle on the desk as decoration.", "sentenceVietnamese": "Anh ấy đặt một con rùa vàng nhỏ trên bàn làm đồ trang trí.", "theme": "Nature" },
-    { "id": 66, "chinese": "招財", "pinyin": "zhāocái", "english": "to attract wealth", "vietnamese": "chiêu tài", "sentenceChinese": "有些店家會放招財的擺飾在門口。", "sentencePinyin": "Yǒuxiē diànjiā huì fàng zhāocái de bǎishì zài ménkǒu.", "sentenceEnglish": "Some shops place lucky ornaments at the entrance to attract wealth.", "sentenceVietnamese": "Một số cửa hàng đặt đồ chiêu tài ở cửa ra vào.", "theme": "Culture" },
-    { "id": 67, "chinese": "側門", "pinyin": "cèmén", "english": "side door", "vietnamese": "cửa bên", "sentenceChinese": "這棟房子除了正門，還有一個側門。", "sentencePinyin": "Zhè dòng fángzi chúle zhèngmén, hái yǒu yí ge cèmén.", "sentenceEnglish": "Besides the front door, this house also has a side door.", "sentenceVietnamese": "Ngoài cửa chính, ngôi nhà này còn có một cửa bên.", "theme": "General" },
-    { "id": 68, "chinese": "遮雨棚", "pinyin": "zhēyǔpéng", "english": "canopy, awning", "vietnamese": "mái che mưa", "sentenceChinese": "門口的遮雨棚有點舊了。", "sentencePinyin": "Ménkǒu de zhēyǔpéng yǒudiǎn jiù le.", "sentenceEnglish": "The awning at the entrance is a bit old.", "sentenceVietnamese": "Mái che mưa ở cửa đã hơi cũ rồi.", "theme": "General" },
-    { "id": 69, "chinese": "如意", "pinyin": "rúyì", "english": "lucky ornamental object", "vietnamese": "như ý", "sentenceChinese": "他送我一個如意造型的擺飾。", "sentencePinyin": "Tā sòng wǒ yí ge rúyì zàoxíng de bǎishì.", "sentenceEnglish": "He gave me a decorative ornament shaped like a ruyi.", "sentenceVietnamese": "Anh ấy tặng tôi một món trang trí hình như ý.", "theme": "Culture" },
-    { "id": 70, "chinese": "設計", "pinyin": "shèjì", "english": "design", "vietnamese": "thiết kế", "sentenceChinese": "這間房子的設計很現代。", "sentencePinyin": "Zhè jiān fángzi de shèjì hěn xiàndài.", "sentenceEnglish": "The design of this house is very modern.", "sentenceVietnamese": "Thiết kế của căn nhà này rất hiện đại.", "theme": "Work" },
-    { "id": 71, "chinese": "偶然", "pinyin": "ǒurán", "english": "accidental", "vietnamese": "ngẫu nhiên", "sentenceChinese": "這個想法不是偶然想到的。", "sentencePinyin": "Zhège xiǎngfǎ bú shì ǒurán xiǎng dào de.", "sentenceEnglish": "This idea didn't come to me by accident.", "sentenceVietnamese": "Ý tưởng này không phải ngẫu nhiên mà nghĩ ra.", "theme": "General" },
-    { "id": 72, "chinese": "晉代", "pinyin": "Jìn Dài", "english": "Jin Dynasty", "vietnamese": "thời Tấn", "sentenceChinese": "這種說法據說最早出現在晉代。", "sentencePinyin": "Zhè zhǒng shuōfǎ jùshuō zuìzǎo chūxiàn zài Jìn Dài.", "sentenceEnglish": "This idea is said to have first appeared during the Jin Dynasty.", "sentenceVietnamese": "Nghe nói cách nói này xuất hiện sớm nhất từ thời Tấn.", "theme": "Proper Noun" },
-    { "id": 73, "chinese": "郭璞", "pinyin": "Guō Pú", "english": "Guo Pu", "vietnamese": "Quách Phác", "sentenceChinese": "很多人提到風水時，會想到郭璞。", "sentencePinyin": "Hěn duō rén tí dào fēngshuǐ shí, huì xiǎngdào Guō Pú.", "sentenceEnglish": "When many people talk about Feng Shui, they think of Guo Pu.", "sentenceVietnamese": "Khi nhắc đến phong thủy, nhiều người sẽ nghĩ đến Quách Phác.", "theme": "Proper Noun" },
-    { "id": 74, "chinese": "英國", "pinyin": "Yīngguó", "english": "the UK", "vietnamese": "Anh Quốc", "sentenceChinese": "他明年要去英國念書。", "sentencePinyin": "Tā míngnián yào qù Yīngguó niànshū.", "sentenceEnglish": "He is going to study in the UK next year.", "sentenceVietnamese": "Năm sau anh ấy sẽ sang Anh du học.", "theme": "Proper Noun" },
-    { "id": 75, "chinese": "邱吉爾", "pinyin": "Qiūjí'ěr", "english": "Churchill", "vietnamese": "Churchill", "sentenceChinese": "老師今天上課提到了邱吉爾的名言。", "sentencePinyin": "Lǎoshī jīntiān shàngkè tídào le Qiūjí'ěr de míngyán.", "sentenceEnglish": "The teacher mentioned a famous quote by Churchill in class today.", "sentenceVietnamese": "Hôm nay giáo viên nhắc đến một câu danh ngôn của Churchill trong giờ học.", "theme": "Proper Noun" },
-    { "id": 76, "chinese": "信義路", "pinyin": "Xìnyì Lù", "english": "Xinyi Road", "vietnamese": "đường Tín Nghĩa", "sentenceChinese": "我們約在信義路口見面。", "sentencePinyin": "Wǒmen yuē zài Xìnyì lùkǒu jiànmiàn.", "sentenceEnglish": "Let's meet at the intersection on Xinyi Road.", "sentenceVietnamese": "Chúng ta hẹn gặp nhau ở ngã tư đường Tín Nghĩa nhé.", "theme": "Proper Noun" },
-    { "id": 77, "chinese": "松智路", "pinyin": "Sōngzhì Lù", "english": "Songzhi Road", "vietnamese": "đường Tùng Trí", "sentenceChinese": "從這裡走到松智路不用十分鐘。", "sentencePinyin": "Cóng zhèlǐ zǒu dào Sōngzhì Lù búyòng shí fēnzhōng.", "sentenceEnglish": "It takes less than ten minutes to walk from here to Songzhi Road.", "sentenceVietnamese": "Từ đây đi bộ đến đường Tùng Trí chưa tới mười phút.", "theme": "Proper Noun" },
-    { "id": 78, "chinese": "一命二運三風水", "pinyin": "yímìng èryùn sānfēngshuǐ", "english": "Fate first, Luck second, Feng Shui third", "vietnamese": "nhất mệnh nhì vận tam phong thủy", "sentenceChinese": "老一輩的人常說一命二運三風水。", "sentencePinyin": "Lǎo yí bèi de rén cháng shuō yímìng èryùn sānfēngshuǐ.", "sentenceEnglish": "Older generations often say, 'Fate first, luck second, Feng Shui third.'", "sentenceVietnamese": "Người lớn tuổi thường nói 'nhất mệnh nhì vận tam phong thủy'.", "theme": "Idiom" },
-    { "id": 79, "chinese": "加起來", "pinyin": "jiāqǐlái", "english": "to add up", "vietnamese": "cộng lại", "sentenceChinese": "這些小地方加起來，影響其實不小。", "sentencePinyin": "Zhèxiē xiǎo dìfang jiāqǐlái, yǐngxiǎng qíshí bù xiǎo.", "sentenceEnglish": "When added together, these small details actually have quite a big impact.", "sentenceVietnamese": "Những chi tiết nhỏ này cộng lại thì thật ra ảnh hưởng không hề nhỏ.", "theme": "General" },
-    { "id": 80, "chinese": "咬錢龜", "pinyin": "yǎoqián guī", "english": "money-biting turtle", "vietnamese": "rùa ngậm tiền", "sentenceChinese": "他在櫃檯上放了一隻咬錢龜。", "sentencePinyin": "Tā zài guìtái shàng fàng le yì zhī yǎoqián guī.", "sentenceEnglish": "He placed a money-biting turtle on the counter.", "sentenceVietnamese": "Anh ấy đặt một con rùa ngậm tiền trên quầy.", "theme": "Culture" },
-    { "id": 81, "chinese": "十全十美", "pinyin": "shíquán shíměi", "english": "perfect", "vietnamese": "thập toàn thập mỹ", "sentenceChinese": "房間不可能十全十美，只要住得舒服就好。", "sentencePinyin": "Fángjiān bù kěnéng shíquán shíměi, zhǐyào zhù de shūfu jiù hǎo.", "sentenceEnglish": "A room can't be perfect in every way; as long as it's comfortable to live in, that's enough.", "sentenceVietnamese": "Căn phòng không thể nào thập toàn thập mỹ, chỉ cần ở thoải mái là được.", "theme": "Idiom" }
-  ],
-  "theme": "Where Should the Bed Go?"
+    {
+      "id": 1,
+      "chinese": "該",
+      "pinyin": "gāi",
+      "en": "should, ought to",
+      "vi": "nên",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "should be; ought to be",
+          "sentence": "該説的一定要説。",
+          "pinyin": "gāi shuō de yīdìng yào shuō.",
+          "en": "What should be said must be said.",
+          "vi": "Điều cần nói nhất định phải nói."
+        },
+        {
+          "type": "Verb",
+          "meaning": "should be; ought to be",
+          "sentence": "你纍了，該休息一下了。",
+          "pinyin": "nǐ lèile, gāi xiūxi yīxiàle.",
+          "en": "You are tired, you should take a rest.",
+          "vi": "Anh mệt rồi, cần nghỉ ngơi một chút."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this; that; the said; the above-mentioned",
+          "sentence": "該地交通便利。",
+          "pinyin": "gāi dì jiāotōng biànlì.",
+          "en": "The transportation in the area is convenient.",
+          "vi": "Nơi đó giao thông thuận tiện."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "this; that; the said; the above-mentioned",
+          "sentence": "該問題值得深入研究。",
+          "pinyin": "gāi wèntí zhídé shēnrù yánjiū.",
+          "en": "This issue is worth in-depth research.",
+          "vi": "Vấn đề này nên được nghiên cứu sâu hơn."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "full; complete; comprehensive; all-inclusive",
+          "sentence": "這段文字該涵重要意義。",
+          "pinyin": "zhè duàn wénzì gāi hán zhòngyào yìyì.",
+          "en": "This passage contains important meaning.",
+          "vi": "Đoạn văn bản này đầy đủ ý nghĩa quan trọng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "full; complete; comprehensive; all-inclusive",
+          "sentence": "此書該含大量知識信息。",
+          "pinyin": "cǐ shū gāi hán dàliàng zhī shi xìnxī.",
+          "en": "This book contains a large amount of knowledge.",
+          "vi": "Cuốn sách này đầy đủ lượng lớn kiến thức thông tin."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "擺",
+      "pinyin": "bǎi",
+      "en": "to place, display",
+      "vi": "bày biện, sắp xếp",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "put; place; arrange",
+          "sentence": "桌子上擺著幾本書。",
+          "pinyin": "zhuōzi shàng bǎizhe jǐ běn shū.",
+          "en": "There are several books on the table.",
+          "vi": "Trên bàn đặt vài cuốn sách."
+        },
+        {
+          "type": "Verb",
+          "meaning": "put; place; arrange",
+          "sentence": "她把花擺在桌子上。",
+          "pinyin": "tā bǎ huā bǎi zài zhuōzi shàng.",
+          "en": "She placed the flowers on the table.",
+          "vi": "Cô ấy bày hoa lên trên bàn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "pendulum",
+          "sentence": "老師講解了鍾擺的原理。",
+          "pinyin": "lǎoshī jiǎngjiěle zhōngbǎi de yuánlǐ.",
+          "en": "The teacher explained the principle of the pendulum.",
+          "vi": "Thầy giáo giảng giải nguyên lý của quả lắc đồng hồ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "pendulum",
+          "sentence": "我買了一隻新的擺鍾。",
+          "pinyin": "wǒ mǎile yī zhī xīn de bǎi zhōng.",
+          "en": "I bought a new pendulum clock.",
+          "vi": "Tôi mua một chiếc đồng hồ quả lắc mới."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "總算",
+      "pinyin": "zǒngsuàn",
+      "en": "finally",
+      "vi": "cuối cùng thì cũng",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "finally; at long last",
+          "sentence": "我總算完成了這個項目。",
+          "pinyin": "wǒ zǒngsuàn wánchéngle zhège xiàngmù.",
+          "en": "Finally, I have completed this project.",
+          "vi": "Cuối cùng tôi đã hoàn thành dự án này."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "finally; at long last",
+          "sentence": "我們總算等到了公車。",
+          "pinyin": "wǒmen zǒngsuàn děng dàole gōngchē.",
+          "en": "Finally, we have caught the bus.",
+          "vi": "Cuối cùng chúng tôi đã đến được xe buýt."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "欸",
+      "pinyin": "èi",
+      "en": "hey, calling attention",
+      "vi": "này (thán từ)",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "intj",
+          "meaning": "oh, okay (indicating response or consent)",
+          "sentence": "欸，我可以的。",
+          "pinyin": "ǎi, wǒ kěyǐ de.",
+          "en": "Hey, I can do it.",
+          "vi": "Ừ, tôi có thể."
+        },
+        {
+          "type": "intj",
+          "meaning": "oh, okay (indicating response or consent)",
+          "sentence": "欸，我會來的。",
+          "pinyin": "ǎi, wǒ huì lái de.",
+          "en": "Hey, I will come.",
+          "vi": "Vâng, tôi sẽ đến."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "呀",
+      "pinyin": "yā",
+      "en": "particle indicating uncertainty",
+      "vi": "nha, nhỉ (trợ từ)",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "av",
+          "meaning": "[used in place of 啊 when the preceding word ends in sound a, e, i, o, or ü ]",
+          "sentence": "起來呀，太陽齣來了。",
+          "pinyin": "qǐlái ya, tàiyáng chūláile.",
+          "en": "Get up, the sun is out.",
+          "vi": ""
+        },
+        {
+          "type": "av",
+          "meaning": "[used in place of 啊 when the preceding word ends in sound a, e, i, o, or ü ]",
+          "sentence": "你説話呀，別安靜了。",
+          "pinyin": "nǐ shuōhuà ya, bié ānjìngle.",
+          "en": "Speak up, don’t stay quiet.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "衣櫥",
+      "pinyin": "yīchú",
+      "en": "closet",
+      "vi": "tủ quần áo",
+      "theme": "Furniture",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wardrobe; clothes press",
+          "sentence": "我在整理衣櫥。",
+          "pinyin": "wǒ zài zhěnglǐ yī chú.",
+          "en": "I am organizing the wardrobe.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "wardrobe; clothes press",
+          "sentence": "她打開衣櫥找衣服。",
+          "pinyin": "tā dǎkāi yī chú zhǎo yīfu.",
+          "en": "She opens the wardrobe to find clothes.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "梳妝台",
+      "pinyin": "shūzhuāngtái",
+      "en": "dressing table",
+      "vi": "bàn trang điểm",
+      "theme": "Furniture",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dressing table; dressing-table",
+          "sentence": "她在梳妝臺前整理頭髮/發。",
+          "pinyin": "tā zài shūzhuāng tái qián zhěnglǐ tóufa.",
+          "en": "She is fixing her hair in front of the dressing table.",
+          "vi": "Cô ấy đang chỉnh sửa tóc trước bàn trang điểm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dressing table; dressing-table",
+          "sentence": "你最好把梳妝臺放在左邊。",
+          "pinyin": "nǐ zuì hǎo bǎ shūzhuāngtái fàng zài zuǒbiān.",
+          "en": "You'd better place the dressing table on the left.",
+          "vi": "Tốt nhất cậu nên đặt bàn trang điểm bên trái."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "位置",
+      "pinyin": "wèizhì",
+      "en": "position, location",
+      "vi": "vị trí",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "seat; place; location",
+          "sentence": "這個商店的位置很方便。",
+          "pinyin": "zhège shāngdiàn de wèizhì hěn fāngbiàn.",
+          "en": "This store is very conveniently located.",
+          "vi": "Vị trí của cửa hàng này rất thuận tiện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "seat; place; location",
+          "sentence": "你知道學校的位置嗎？",
+          "pinyin": "nǐ zhīdào xuéxiào de wèizhì ma?",
+          "en": "Do you know where the school is?",
+          "vi": "Bạn có biết vị trí của trường học không?"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "空間",
+      "pinyin": "kōngjiān",
+      "en": "space",
+      "vi": "không gian",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "space; area",
+          "sentence": "沙髮/發佔了很大的空間。",
+          "pinyin": "shāfā zhànle hěn dà de kōngjiān.",
+          "en": "The sofa takes up a lot of space.",
+          "vi": "Ghế sofa chiếm rất nhiều diện tích."
+        },
+        {
+          "type": "Noun",
+          "meaning": "space; area",
+          "sentence": "這間房間的空間很大。",
+          "pinyin": "zhè jiān fángjiān de kōngjiān hěn dà.",
+          "en": "This room has a lot of space.",
+          "vi": "Diện tích của căn phòng này rất lớn."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "科學",
+      "pinyin": "kēxué",
+      "en": "science",
+      "vi": "khoa học",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "scientific",
+          "sentence": "他的訓練計劃很科學。",
+          "pinyin": "tā de xùnliàn jìhuà hěn kēxué.",
+          "en": "His training plan is very scientific.",
+          "vi": "Huấn luyện của anh ấy rất khoa học."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "scientific",
+          "sentence": "科學管理能提高效率。",
+          "pinyin": "kēxué guǎnlǐ néng tígāo xiàolǜ.",
+          "en": "Scientific management can improve efficiency.",
+          "vi": "Quản lý khoa học có thể nâng cao hiệu suất."
+        },
+        {
+          "type": "Noun",
+          "meaning": "science",
+          "sentence": "她是一個了不起的科學傢。",
+          "pinyin": "tā shì yīgè liǎobuqǐ de kēxuéjiā.",
+          "en": "She is an outstanding scientist.",
+          "vi": "Cô ấy là một nhà khoa học tài ba."
+        },
+        {
+          "type": "Noun",
+          "meaning": "science",
+          "sentence": "他學習了很多科學知識。",
+          "pinyin": "tā xuéxíle hěnduō kēxué zhī shi.",
+          "en": "He has learned a lot of scientific knowledge.",
+          "vi": "Anh ấy học rất nhiều kiến thức khoa học."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "風水師",
+      "pinyin": "fēngshuǐshī",
+      "en": "Feng Shui master",
+      "vi": "thầy phong thủy",
+      "theme": "Work",
+      "samples": []
+    },
+    {
+      "id": 12,
+      "chinese": "在意",
+      "pinyin": "zàiyì",
+      "en": "to care about",
+      "vi": "để ý, bận tâm",
+      "theme": "Emotions",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "(usually in the negative) mind; care about; take to heart",
+          "sentence": "這些小事他是不會在意的。",
+          "pinyin": "zhèxiē xiǎoshì tā shì bù huì zàiyì de.",
+          "en": "He won't care about these small things.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "(usually in the negative) mind; care about; take to heart",
+          "sentence": "我很在意這份友誼。",
+          "pinyin": "wǒ hěn zàiyì zhè fèn yǒuyì.",
+          "en": "I take to heart this friendship.",
+          "vi": "Tôi quan tâm đến tình bạn này."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "所謂",
+      "pinyin": "suǒwèi",
+      "en": "so-called",
+      "vi": "cái gọi là",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "what is called; what is known as; what is meant by",
+          "sentence": "所謂的成功，就是不斷努力。",
+          "pinyin": "suǒwèi de chénggōng, jiùshì bùduàn nǔlì.",
+          "en": "What is called success is continuous effort.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "what is called; what is known as; what is meant by",
+          "sentence": "這就是所謂的“倖福”。",
+          "pinyin": "zhè jiùshì suǒwèi de “xìngfú”.",
+          "en": "This is what is called \"happiness.\"",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "角度",
+      "pinyin": "jiǎodù",
+      "en": "angle, perspective",
+      "vi": "góc độ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "perspective; point of view",
+          "sentence": "我們從設計角度討論。",
+          "pinyin": "wǒmen cóng shèjì jiǎodù tǎolùn.",
+          "en": "We discuss from a design perspective.",
+          "vi": "Chúng tôi thảo luận từ góc độ thiết kế."
+        },
+        {
+          "type": "Noun",
+          "meaning": "perspective; point of view",
+          "sentence": "他的意見從心理角度分析。",
+          "pinyin": "tā de yìjiàn cóng xīnlǐ jiǎodù fēnxī.",
+          "en": "His opinion is analyzed from a psychological perspective.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "改造",
+      "pinyin": "gǎizào",
+      "en": "to transform, restructure",
+      "vi": "cải tạo",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to transform; to renovate",
+          "sentence": "改造舊廠房為博物館。",
+          "pinyin": "gǎizào jiù chǎngfáng wèi bówùguǎn.",
+          "en": "Transform the old factory into a museum.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to transform; to renovate",
+          "sentence": "改造危房提高安全性。",
+          "pinyin": "gǎizào wēifáng tígāo ānquán xìng.",
+          "en": "Renovate the dangerous building for safety.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "學問",
+      "pinyin": "xuéwèn",
+      "en": "a branch of learning",
+      "vi": "học vấn, tri thức",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "learning; knowledge; scholarship",
+          "sentence": "他最有學問，什麼都知道。",
+          "pinyin": "tā zuì yǒu xuéwèn, shénme dōu zhīdào.",
+          "en": "He is the most learned and knows everything.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "learning; knowledge; scholarship",
+          "sentence": "我學問不深，迴答不了。",
+          "pinyin": "wǒ xuéwèn bù shēn, huídá bùliǎo.",
+          "en": "I don't know much, so I can't answer.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "居住",
+      "pinyin": "jūzhù",
+      "en": "to live, reside",
+      "vi": "cư trú",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "live; reside; dwell; habitancy; inhabitancy",
+          "sentence": "我曾經在倫敦居住過。",
+          "pinyin": "wǒ céngjīng zài lúndūn jūzhùguò.",
+          "en": "I used to live in London.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "live; reside; dwell; habitancy; inhabitancy",
+          "sentence": "他們居住在學校附近。",
+          "pinyin": "tāmen jūzhù zài xuéxiào fùjìn.",
+          "en": "She has lived here for five years",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "日常",
+      "pinyin": "rìcháng",
+      "en": "daily",
+      "vi": "thường ngày",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "usual; daily; everyday; day-to-day",
+          "sentence": "這是我們的日常活動。",
+          "pinyin": "zhè shì wǒmen de rìcháng huódòng.",
+          "en": "This is our daily routine.",
+          "vi": "Đây là những hoạt động hàng ngày của chúng tôi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "usual; daily; everyday; day-to-day",
+          "sentence": "這些都是日常用品。",
+          "pinyin": "zhèxiē dōu shì rìcháng yòngpǐn.",
+          "en": "These are everyday items.",
+          "vi": "Đây đều là những vật dụng hàng ngày."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "布置",
+      "pinyin": "bùzhì",
+      "en": "to arrange, decorate",
+      "vi": "bố trí, trang hoàng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "fix up; arrange; decorate",
+          "sentence": "教室佈置得很整齊。",
+          "pinyin": "jiàoshì bùzhì dé hěn zhěngqí.",
+          "en": "The classroom is neatly arranged.",
+          "vi": "Lớp học được sắp xếp gọn gàng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "fix up; arrange; decorate",
+          "sentence": "他負責佈置活動現場。",
+          "pinyin": "tā fùzé bùzhì huódòng xiànchǎng.",
+          "en": "He is responsible for arranging the event space.",
+          "vi": "Anh ấy phụ trách trang trí sự kiện."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "凶猛",
+      "pinyin": "xiōngměng",
+      "en": "fierce, ferocious",
+      "vi": "hung dữ",
+      "theme": "Description",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "violent; terrible; ferocious",
+          "sentence": "黑熊非常兇猛。",
+          "pinyin": "hēixióng fēicháng xiōngměng.",
+          "en": "The black bear is very ferocious.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "violent; terrible; ferocious",
+          "sentence": "火勢越來越兇猛。",
+          "pinyin": "huǒshì yuè lái yuè xiōngměng.",
+          "en": "The fire is getting more intense.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "動物",
+      "pinyin": "dòngwù",
+      "en": "animal",
+      "vi": "động vật",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "animal",
+          "sentence": "我喜歡可愛的動物。",
+          "pinyin": "wǒ xǐhuān kě'ài de dòngwù.",
+          "en": "I like cute animals.",
+          "vi": "Tôi thích những con vật dễ thương."
+        },
+        {
+          "type": "Noun",
+          "meaning": "animal",
+          "sentence": "動物園裡/裏有很多動物。",
+          "pinyin": "dòngwùyuán lǐ yǒu hěnduō dòngwù.",
+          "en": "There are many animals in the zoo.",
+          "vi": "Có rất nhiều động vật trong sở thú."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "刀",
+      "pinyin": "dāo",
+      "en": "knife",
+      "vi": "con dao",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "knife; sword",
+          "sentence": "這裡/裏有一把刀。",
+          "pinyin": "zhèlǐ yǒu yī bǎ dāo.",
+          "en": "There is a knife here.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "knife; sword",
+          "sentence": "這把刀非常鋒利。",
+          "pinyin": "zhè bǎ dāo fēicháng fēnglì.",
+          "en": "This knife is very sharp.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "one hundred sheets (of paper)",
+          "sentence": "這是五刀白紙。",
+          "pinyin": "zhè shì wǔ dāo bái zhǐ.",
+          "en": "This is five reams of white paper.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "one hundred sheets (of paper)",
+          "sentence": "幫我買一刀紙好嗎？",
+          "pinyin": "bāng wǒ mǎi yī dāo zhǐ hǎo ma?",
+          "en": "Can you get me a ream of paper?",
+          "vi": "Có thể mua giúp tôi một xấp giấy được không?"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "劍",
+      "pinyin": "jiàn",
+      "en": "sword",
+      "vi": "kiếm",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sword; sabre; rapier; épée; foil",
+          "sentence": "劍柄",
+          "pinyin": "jiànbǐng",
+          "en": "Handle of a sword; hilt",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sword; sabre; rapier; épée; foil",
+          "sentence": "劍鞘",
+          "pinyin": "jiàn qiào",
+          "en": "The sheath of a sword; scabbard",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "脾氣",
+      "pinyin": "píqì",
+      "en": "temper",
+      "vi": "tính khí",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "temperament; disposition",
+          "sentence": "爺爺的脾氣一直很好。",
+          "pinyin": "yéye de píqì yīzhí hěn hǎo.",
+          "en": "Grandpa has always had a good temper.",
+          "vi": "Tính tình của ông nội luôn rất tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "temperament; disposition",
+          "sentence": "他脾氣好，從來不髮/發火。",
+          "pinyin": "tāpíqìhǎo, cóngláibùfāhuǒ.",
+          "en": "He is good-tempered and never gets angry.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "暴躁",
+      "pinyin": "bàozào",
+      "en": "cranky, irritable",
+      "vi": "nóng nảy",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "irascible; feverish; irritable; hot-tempered",
+          "sentence": "他脾氣暴躁，會令人討厭。",
+          "pinyin": "tā píqì bàozào, huì lìng rén tǎoyàn.",
+          "en": "He had a temper and could be nasty.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "irascible; feverish; irritable; hot-tempered",
+          "sentence": "他非常暴躁，常動手打人。",
+          "pinyin": "tā fēicháng bàozào, cháng dòngshǒu dǎ rén.",
+          "en": "He is very irritable and often hits people.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "衝動",
+      "pinyin": "chōngdòng",
+      "en": "impulsive, rash",
+      "vi": "xung động, bốc đồng",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "impulse; impulsion; impulse of motion",
+          "sentence": "他的衝動讓事情變復雜了。",
+          "pinyin": "tā de chōngdòng ràng shìqíng biàn fùzále.",
+          "en": "His impulsiveness complicated the matter.",
+          "vi": "Sự bốc đồng của anh ấy làm phức tạp vấn đề."
+        },
+        {
+          "type": "Noun",
+          "meaning": "impulse; impulsion; impulse of motion",
+          "sentence": "年輕人常難以抑製衝動。",
+          "pinyin": "niánqīng rén cháng nányǐ yìzhì chōngdòng.",
+          "en": "Young people often find it hard to control impulses.",
+          "vi": "Người trẻ thường khó kiểm soát sự bốc đồng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "get excited; be impetuous",
+          "sentence": "她衝動地買了很多東西。",
+          "pinyin": "tā chōngdòng de mǎile hěnduō dōngxi.",
+          "en": "She impulsively bought many things.",
+          "vi": "Cô ấy mua rất nhiều thứ một cách bốc đồng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "get excited; be impetuous",
+          "sentence": "別衝動，冷靜下來再想。",
+          "pinyin": "bié chōngdòng, lěngjìng xiàlái zài xiǎng.",
+          "en": "Don't be impulsive, calm down and think again.",
+          "vi": "Đừng nóng vội, hãy bình tĩnh suy nghĩ lại."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "鏡子",
+      "pinyin": "jìngzi",
+      "en": "mirror",
+      "vi": "cái gương",
+      "theme": "Furniture",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mirror",
+          "sentence": "墻上掛著一麵鏡子。",
+          "pinyin": "qiáng shàng guàzhe yīmiàn jìngzi.",
+          "en": "There is a mirror hanging on the wall.",
+          "vi": "Trên tường có treo một tấm gương."
+        },
+        {
+          "type": "Noun",
+          "meaning": "mirror",
+          "sentence": "她買了一麵新鏡子。",
+          "pinyin": "tā mǎile yīmiàn xīn jìngzi.",
+          "en": "She went and bought a new mirror.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "床腳",
+      "pinyin": "chuángjiǎo",
+      "en": "foot of the bed",
+      "vi": "cuối giường",
+      "theme": "Furniture",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "rise; get up; get out of bed",
+          "sentence": "他七點就起床/牀了。",
+          "pinyin": "tā qī diǎn jiù qǐchuángle.",
+          "en": "He got up at seven o'clock.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "rise; get up; get out of bed",
+          "sentence": "你每天幾點起床/牀？",
+          "pinyin": "nǐ měitiān jǐ diǎn qǐchuáng?",
+          "en": "What time do you get up every day?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "光",
+      "pinyin": "guāng",
+      "en": "alone, merely",
+      "vi": "chỉ, mỗi",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ray; light",
+          "sentence": "月光灑在大地上。",
+          "pinyin": "yuèguāng sǎ zài dà dìshàng.",
+          "en": "The moonlight shines on the earth.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "ray; light",
+          "sentence": "他在月光下散步。",
+          "pinyin": "tā zài yuèguāng xià sànbù.",
+          "en": "He is walking under the moonlight.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "regain; glorify; recover",
+          "sentence": "他希望能光大公司。",
+          "pinyin": "tā xīwàng néng guāngdà gōngsī.",
+          "en": "He hopes to glorify the company.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "regain; glorify; recover",
+          "sentence": "這次勝利將光大國傢的名譽。",
+          "pinyin": "zhè cì shènglì jiāng guāngdà guójiā de míngyù.",
+          "en": "This victory will restore the country's honor.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "glossy; smooth",
+          "sentence": "地闆擦得挺光。",
+          "pinyin": "dìbǎn cā de tǐng guāng.",
+          "en": "The floor was wiped clean and shiny.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "glossy; smooth",
+          "sentence": "他把石頭磨光了。",
+          "pinyin": "tā bǎ shítou mó guāngle.",
+          "en": "He polished the stone smooth.",
+          "vi": "Anh ta đem viên đá mài nhẵn rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "only; alone; merely",
+          "sentence": "他光吃/喫不做。",
+          "pinyin": "tā guāng chī bù zuò.",
+          "en": "He only eats but does not work.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "only; alone; merely",
+          "sentence": "他光動嘴，不動手。",
+          "pinyin": "tā guāng dòngzuǐ, bù dòngshǒu.",
+          "en": "He only talks, but does not act.",
+          "vi": "Anh ta chỉ nói suông chứ không làm."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "擺飾",
+      "pinyin": "bǎishì",
+      "en": "decor, ornaments",
+      "vi": "đồ trang trí",
+      "theme": "Furniture",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "put; place; arrange",
+          "sentence": "桌子上擺著幾本書。",
+          "pinyin": "zhuōzi shàng bǎizhe jǐ běn shū.",
+          "en": "There are several books on the table.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "put; place; arrange",
+          "sentence": "她把花擺在桌子上。",
+          "pinyin": "tā bǎ huā bǎi zài zhuōzi shàng.",
+          "en": "She placed the flowers on the table.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pendulum",
+          "sentence": "老師講解了鍾擺的原理。",
+          "pinyin": "lǎoshī jiǎngjiěle zhōngbǎi de yuánlǐ.",
+          "en": "The teacher explained the principle of the pendulum.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pendulum",
+          "sentence": "我買了一隻新的擺鍾。",
+          "pinyin": "wǒ mǎile yī zhī xīn de bǎi zhōng.",
+          "en": "I bought a new pendulum clock.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "老婆",
+      "pinyin": "lǎopó",
+      "en": "wife",
+      "vi": "vợ",
+      "theme": "Family",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wife",
+          "sentence": "我老婆喜歡看電影。",
+          "pinyin": "wǒ lǎopó xǐhuān kàn diànyǐng.",
+          "en": "My wife likes watching movies.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "wife",
+          "sentence": "我和老婆一起去旅行。",
+          "pinyin": "wǒ hé lǎopó yīqǐ qù lǚxíng.",
+          "en": "I went on a trip with my wife.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "把",
+      "pinyin": "bǎ",
+      "en": "measure word for objects that can be grasped",
+      "vi": "cái, chiếc (lượng từ)",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "grasp; hold",
+          "sentence": "他把門把住了。",
+          "pinyin": "tā bǎmén bǎ zhùle.",
+          "en": "He held the door shut.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "grasp; hold",
+          "sentence": "快把繩子拉住！",
+          "pinyin": "kuài bǎ shéngzi lā zhù!",
+          "en": "Quickly hold onto the rope!",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used before objects with handles or things to take hold of",
+          "sentence": "請給我一把椅子。",
+          "pinyin": "qǐng gěi wǒ yī bǎ yǐzi.",
+          "en": "Please give me a chair.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used before objects with handles or things to take hold of",
+          "sentence": "她買了一把雨傘。",
+          "pinyin": "tā mǎile yī bǎ yǔsǎn.",
+          "en": "She bought an umbrella.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "make a certain change to an object",
+          "sentence": "她把書放在桌子上了。",
+          "pinyin": "tā bǎ shū fàng zài zhuōzǐ shàngle.",
+          "en": "She put the book on the table.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "make a certain change to an object",
+          "sentence": "媽媽把衣服洗幹凈了。",
+          "pinyin": "māma bǎ yīfu xǐ gānjìngle.",
+          "en": "Mom washed the clothes clean.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "referring to sworn brotherhood",
+          "sentence": "我們是把兄弟關繫。",
+          "pinyin": "wǒmen shì bǎxiōngdì guānxi.",
+          "en": "We have a sworn brotherhood.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "referring to sworn brotherhood",
+          "sentence": "我們髮/發誓做把兄弟。",
+          "pinyin": "wǒmen fāshì zuò bǎxiōngdì.",
+          "en": "We swore to be sworn brothers.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "about; or so",
+          "sentence": "他大概有把歲了。",
+          "pinyin": "tā dàgài yǒu bǎ suìle.",
+          "en": "He is about that age.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "about; or so",
+          "sentence": "這條河有把米寬。",
+          "pinyin": "zhè tiáo hé yǒu bǎ mǐ kuān.",
+          "en": "This river is about a few meters wide.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "handle",
+          "sentence": "這把刀的把很短。",
+          "pinyin": "zhè bǎ dāo de bǎ hěn duǎn.",
+          "en": "The handle of this knife is very short.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "handle",
+          "sentence": "請抓緊椅子的把。",
+          "pinyin": "qǐng zhuājǐn yǐziǐ de bǎ.",
+          "en": "Please hold the chair handle tightly.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "欺負",
+      "pinyin": "qīfù",
+      "en": "to pick on, bully",
+      "vi": "bắt nạt",
+      "theme": "Social Issues",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "bully",
+          "sentence": "我不會讓你欺負我。",
+          "pinyin": "wǒ bù huì ràng nǐ qīfu wǒ.",
+          "en": "I won't let you bully me.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "bully",
+          "sentence": "欺負弱小是不對的。",
+          "pinyin": "qīfu ruòxiǎo shì bùduì de.",
+          "en": "It is wrong to bully the weak.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "風水學",
+      "pinyin": "fēngshuǐ xué",
+      "en": "study of Feng Shui",
+      "vi": "phong thủy học",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "fengshui",
+          "sentence": "他對風水學很感興趣。",
+          "pinyin": "Tā duì fēngshuǐ xué hěn gǎn xìngqù.",
+          "en": "He is very interested in feng shui.",
+          "vi": "Anh ấy rất quan tâm đến phong thủy học."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "正對門",
+      "pinyin": "zhèng duì mén",
+      "en": "directly facing the door",
+      "vi": "đối diện cửa chính",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Preposition",
+          "meaning": "with regard to; concerning",
+          "sentence": "他對這項工作很有信心。",
+          "pinyin": "tā duì zhè xiàng gōngzuò hěn yǒu xìnxīn.",
+          "en": "He is confident about this job.",
+          "vi": "Anh ấy tự tin về công việc này."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with regard to; concerning",
+          "sentence": "他對這個決定感到不滿。",
+          "pinyin": "tā duì zhège juédìng gǎndào bùmǎn.",
+          "en": "He is dissatisfied with this decision.",
+          "vi": "Anh ấy không hài lòng với quyết định này."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "pair; couple",
+          "sentence": "我們買了一對耳環。",
+          "pinyin": "wǒmen mǎile yī duì ěrhuán.",
+          "en": "We bought a pair of earrings.",
+          "vi": "Chúng tôi đã mua một đôi hoa tai."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "pair; couple",
+          "sentence": "桌上有一對蠟燭。",
+          "pinyin": "zhuō shàng yǒuyī duì làzhú.",
+          "en": "There is a pair of candles on the table.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "right; correct",
+          "sentence": "你的答案是對的。",
+          "pinyin": "nǐ de dá'àn shì duì de.",
+          "en": "Your answer is correct.",
+          "vi": "Đáp án của bạn là chính xác."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "right; correct",
+          "sentence": "你的做法是對的。",
+          "pinyin": "nǐ de zuòfǎ shì duì de.",
+          "en": "The scenery on the opposite shore is beautiful.",
+          "vi": "Cách làm của bạn là đúng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "couplet",
+          "sentence": "對聯上寫著祝福語。",
+          "pinyin": "duìlián shàng xiězhe zhùfú yǔ.",
+          "en": "The couplets contain blessings.",
+          "vi": "Trên câu đối có viết lời chúc phúc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "couplet",
+          "sentence": "他的對聯寫得很工整。",
+          "pinyin": "tā de duìlián xiě dé hěn gōngzhěng.",
+          "en": "His couplet writing is very neat.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "answer; reply",
+          "sentence": "他們對答十分流暢。",
+          "pinyin": "tāmen duìdá shífēn liúchàng.",
+          "en": "They respond fluently.",
+          "vi": "Họ đối đáp rất trôi chảy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "answer; reply",
+          "sentence": "兩人對答輕鬆自如。",
+          "pinyin": "liǎng rén duìdá qīngsōng zìrú.",
+          "en": "The two people converse naturally and effortlessly.",
+          "vi": "Hai người đối đáp thoải mái tự nhiên."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "mutually; face to face",
+          "sentence": "我們在會議上對話。",
+          "pinyin": "wǒmen zài huìyì shàng duìhuà.",
+          "en": "We have a conversation in the meeting.",
+          "vi": "Chúng tôi đối thoại trong cuộc họp."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "mutually; face to face",
+          "sentence": "他們對坐在餐桌兩旁。",
+          "pinyin": "tāmen duì zuò zài cānzhuō liǎngpáng.",
+          "en": "They sit facing each other at the dining table.",
+          "vi": "Họ ngồi đối diện nhau ở hai bên bàn ăn."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "譬如說",
+      "pinyin": "pìrú shuō",
+      "en": "for example",
+      "vi": "ví dụ như là",
+      "theme": "Grammar",
+      "samples": [
+        {
+          "type": "pref, adv",
+          "meaning": "for example",
+          "sentence": "譬如説，蘋果和香蕉。",
+          "pinyin": "Pìrú shuō, píngguǒ hé xiāngjiāo.",
+          "en": "For example, apples and bananas.",
+          "vi": "Ví dụ như táo và chuối."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "一口氣",
+      "pinyin": "yì kǒu qì",
+      "en": "in one breath",
+      "vi": "một hơi",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "in one breath; without a break",
+          "sentence": "我一口氣喝完了一瓶水。",
+          "pinyin": "wǒ yī kǒuqì hē wánle yī píng shuǐ.",
+          "en": "I drank a bottle of water in one go.",
+          "vi": "Tôi uống hết một chai nước một hơi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in one breath; without a break",
+          "sentence": "他一口氣看完了整本書。",
+          "pinyin": "tā yī kǒuqì kàn wánle zhěng běn shū.",
+          "en": "He read the whole book in one sitting.",
+          "vi": "Anh ấy đọc một mạch cả cuốn sách."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "死定了",
+      "pinyin": "sǐdìngle",
+      "en": "be toast",
+      "vi": "chết chắc rồi",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "indicate the completion of an action, at a point in the past or before the beginning of another action, or an expected or presumed action",
+          "sentence": "我買了一本書。",
+          "pinyin": "wǒ mǎile yī běn shū.",
+          "en": "I bought a book.",
+          "vi": "Tôi đã mua một quyển sách."
+        },
+        {
+          "type": "Particle",
+          "meaning": "indicate the completion of an action, at a point in the past or before the beginning of another action, or an expected or presumed action",
+          "sentence": "我吃/喫了一個蘋果。",
+          "pinyin": "wǒ chīle yīgè píngguǒ.",
+          "en": "I ate an apple.",
+          "vi": "Tôi đã ăn một quả táo."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "地理",
+      "pinyin": "dìlǐ",
+      "en": "geography",
+      "vi": "địa lý",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "geographical features of a place",
+          "sentence": "地理差異導緻了文化差異。",
+          "pinyin": "dìlǐ chāyì dǎozhìle wénhuà chāyì.",
+          "en": "Geographical differences lead to cultural differences.",
+          "vi": "Sự khác biệt địa lý dẫn đến sự khác biệt văn hóa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "geographical features of a place",
+          "sentence": "這地區的地理條件很好。",
+          "pinyin": "zhè dìqū de dìlǐ tiáojiàn hěn hǎo.",
+          "en": "This region has excellent geographical features.",
+          "vi": "Điều kiện địa lý của khu vực này rất tốt."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "便利性",
+      "pinyin": "biànlìxìng",
+      "en": "convenience",
+      "vi": "tính tiện lợi",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "convenience",
+          "sentence": "這款手機很有便利性。",
+          "pinyin": "zhè kuǎn shǒujī hěn yǒu biànlì xìng.",
+          "en": "This phone is very convenient.",
+          "vi": "Điện thoại này rất tiện lợi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "convenience",
+          "sentence": "便利性讓工作更加高效。",
+          "pinyin": "biànlì xìng ràng gōngzuò gèngjiā gāoxiào.",
+          "en": "Convenience makes work more efficient.",
+          "vi": "Tính tiện lợi làm công việc hiệu quả hơn."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "周邊",
+      "pinyin": "zhōubiān",
+      "en": "surrounding, periphery",
+      "vi": "xung quanh",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "neighbouring; surrounding",
+          "sentence": "週邊環境很安靜。",
+          "pinyin": "zhōubiān huánjìng hěn ānjìng.",
+          "en": "The surrounding environment is very quiet.",
+          "vi": "Môi trường xung quanh rất yên tĩnh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "neighbouring; surrounding",
+          "sentence": "週邊設施正在改善。",
+          "pinyin": "zhōubiān shèshī zhèngzài gǎishàn.",
+          "en": "The surrounding facilities are being improved.",
+          "vi": "Các cơ sở xung quanh đang được cải thiện."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "住宅",
+      "pinyin": "zhùzhái",
+      "en": "residence",
+      "vi": "nhà ở, nơi cư trú",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dwelling; residence",
+          "sentence": "他買了一套新住宅。",
+          "pinyin": "tā mǎile yī tào xīn zhùzhái.",
+          "en": "He bought a new dwelling.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "dwelling; residence",
+          "sentence": "這座住宅非常寬敞。",
+          "pinyin": "zhè zuò zhùzhái fēicháng kuān chang.",
+          "en": "This residence is very spacious.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "詞",
+      "pinyin": "cí",
+      "en": "term, word",
+      "vi": "từ ngữ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "word; term",
+          "sentence": "這個詞是什麼意思？",
+          "pinyin": "zhège cí shì shénme yìsi?",
+          "en": "What does this word mean?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "word; term",
+          "sentence": "我不認識這個詞。",
+          "pinyin": "wǒ bù rènshi zhège cí.",
+          "en": "I don’t know this word.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "西元",
+      "pinyin": "Xīyuán",
+      "en": "A.D.",
+      "vi": "Công nguyên",
+      "theme": "Time",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "AD; the Christian era; the Gregorian calendar",
+          "sentence": "西元紀年法通用於世界。",
+          "pinyin": "xīyuán jìnián fǎ tōngyòng yú shìjiè.",
+          "en": "The AD calendar system is widely used around the world.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "AD; the Christian era; the Gregorian calendar",
+          "sentence": "西元1582年採用了公曆。",
+          "pinyin": "xīyuán 1582 nián cǎiyòngle gōnglì.",
+          "en": "The Gregorian calendar was adopted in AD 1582.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "推翻",
+      "pinyin": "tuīfān",
+      "en": "to repudiate, overturn",
+      "vi": "lật đổ, bác bỏ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "topple; overturn; overthrow",
+          "sentence": "革命推翻了舊政權。",
+          "pinyin": "gémìng tuīfānle jiù zhèngquán.",
+          "en": "The revolution overthrew the old regime.",
+          "vi": "Cuộc cách mạng đã lật đổ chế độ cũ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "topple; overturn; overthrow",
+          "sentence": "舊製度被徹底推翻了。",
+          "pinyin": "jiù zhìdù bèi chèdǐ tuīfānle.",
+          "en": "The old system was completely overthrown.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "心中",
+      "pinyin": "xīnzhōng",
+      "en": "in somebody's heart",
+      "vi": "trong lòng",
+      "theme": "Psychology",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "in one's heart; in one's mind",
+          "sentence": "她心中有一個夢想。",
+          "pinyin": "tā xīnzhōng yǒu yīgè mèngxiǎng.",
+          "en": "She has a dream in her heart.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "in one's heart; in one's mind",
+          "sentence": "我心中有一個秘/祕密。",
+          "pinyin": "wǒ xīnzhōng yǒu yīgè mìmì.",
+          "en": "I have a secret in my heart.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "chinese": "名言",
+      "pinyin": "míngyán",
+      "en": "well-known saying",
+      "vi": "danh ngôn",
+      "theme": "Communication",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dictums; famous remark",
+          "sentence": "這句名言激勵了很多人。",
+          "pinyin": "zhè jù míngyán jīlìle hěnduō rén.",
+          "en": "This quote has inspired many people.",
+          "vi": "Câu nói này đã truyền cảm hứng cho nhiều người."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dictums; famous remark",
+          "sentence": "這句名言可太經典了。",
+          "pinyin": "zhè jù míngyán kě tài jīngdiǎnle.",
+          "en": "This quote is absolutely classic.",
+          "vi": "Câu nói này thật kinh điển!"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "chinese": "建造",
+      "pinyin": "jiànzào",
+      "en": "to build",
+      "vi": "xây dựng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "build; construct",
+          "sentence": "我們計劃建造一個公園。",
+          "pinyin": "wǒmen jìhuà jiànzào yīgè gōngyuán.",
+          "en": "We plan to build a park.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "build; construct",
+          "sentence": "我們將建造一個新學校。",
+          "pinyin": "wǒmen jiāng jiànzào yīgè xīn xuéxiào.",
+          "en": "We will construct a new school.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "chinese": "塑造",
+      "pinyin": "sùzào",
+      "en": "to shape",
+      "vi": "nhào nặn, tạo hình",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "model; mould",
+          "sentence": "他塑造了一尊彿像。",
+          "pinyin": "tā sùzàole yī zūn fóxiàng.",
+          "en": "He molded a Buddha statue.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "model; mould",
+          "sentence": "這尊彿像塑造得很逼真。",
+          "pinyin": "zhè zūn fóxiàng sùzào de hěn bīzhēn.",
+          "en": "This Buddha statue is very realistic.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "chinese": "命運",
+      "pinyin": "mìngyùn",
+      "en": "fate, destiny",
+      "vi": "vận mệnh",
+      "theme": "Philosophy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trend of development; tendency of future",
+          "sentence": "自己的命運由自己決定！",
+          "pinyin": "zìjǐ de mìngyùn yóu zìjǐ juédìng!",
+          "en": "Your own destiny is up to you!",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "trend of development; tendency of future",
+          "sentence": "她掌握著公司的命運。",
+          "pinyin": "tā zhǎngwòzhe gōngsī de mìngyùn.",
+          "en": "She controls the fate of the company.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "chinese": "本身",
+      "pinyin": "běnshēn",
+      "en": "itself, oneself",
+      "vi": "bản thân",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "own; onself; itself; in itself",
+          "sentence": "他本身很聰明。",
+          "pinyin": "tā běnshēn hěn cōngmíng.",
+          "en": "He is inherently intelligent.",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "own; onself; itself; in itself",
+          "sentence": "事情本身很簡單。",
+          "pinyin": "shìqíng běnshēn hěn jiǎndān.",
+          "en": "The matter itself is quite simple.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "chinese": "地標",
+      "pinyin": "dìbiāo",
+      "en": "landmark",
+      "vi": "biểu tượng, cột mốc",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "landmark",
+          "sentence": "這座塔是城市的地標。",
+          "pinyin": "zhè zuò tǎ shì chéngshì dì dìbiāo.",
+          "en": "This tower is a city landmark.",
+          "vi": "Tòa tháp này là biểu tượng của thành phố."
+        },
+        {
+          "type": "Noun",
+          "meaning": "landmark",
+          "sentence": "這座橋是城市的地標。",
+          "pinyin": "zhè zuò qiáo shì chéngshì dì dìbiāo.",
+          "en": "This bridge is a city landmark.",
+          "vi": "Cây cầu này là điểm đặc trưng của thành phố."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "chinese": "參考",
+      "pinyin": "cānkǎo",
+      "en": "reference, to refer to",
+      "vi": "tham khảo",
+      "theme": "Education",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "consult; refer to",
+          "sentence": "我們需要參考這些數據。",
+          "pinyin": "wǒmen xūyào cānkǎo zhèxiē shùjù.",
+          "en": "We need to refer to this data.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "consult; refer to",
+          "sentence": "作傢時常參考字典。",
+          "pinyin": "zuòjiā shícháng cānkǎo zìdiǎn.",
+          "en": "Writers often refer to a dictionary.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "chinese": "外觀",
+      "pinyin": "wàiguān",
+      "en": "exterior, appearance",
+      "vi": "ngoại quan, vẻ ngoài",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "aspect; visages; seeming; exterior appearance",
+          "sentence": "手機外觀很精緻。",
+          "pinyin": "shǒujī wàiguān hěn jīngzhì.",
+          "en": "The phone's appearance is very delicate.",
+          "vi": "Bên ngoài chiếc điện thoại rất tinh tế."
+        },
+        {
+          "type": "Noun",
+          "meaning": "aspect; visages; seeming; exterior appearance",
+          "sentence": "外觀看起來很大氣。",
+          "pinyin": "wàiguān kàn qǐlái hěn dàqì.",
+          "en": "The appearance looks very elegant.",
+          "vi": "Bề ngoài trông rất sang trọng."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "chinese": "疊",
+      "pinyin": "dié",
+      "en": "to stack",
+      "vi": "xếp chồng",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "pile up; repeat",
+          "sentence": "書本疊起來放桌上。",
+          "pinyin": "shūběn dié qǐlái fàng zhuō shàng.",
+          "en": "The books were stacked and placed on the table.",
+          "vi": "Sách được xếp chồng lên đặt trên bàn."
+        },
+        {
+          "type": "verb",
+          "meaning": "pile up; repeat",
+          "sentence": "工人疊磚塊。",
+          "pinyin": "gōngrén dié zhuān kuài.",
+          "en": "Workers are stacking bricks.",
+          "vi": "Công nhân đang xếp gạch."
+        },
+        {
+          "type": "measure word",
+          "meaning": "wad; pack; pile",
+          "sentence": "一疊文件等你處理。",
+          "pinyin": "yī dié wénjiàn děng nǐ chǔlǐ.",
+          "en": "A stack of documents awaits your processing.",
+          "vi": "Có một đống tài liệu đang chờ bạn xử lý."
+        },
+        {
+          "type": "measure word",
+          "meaning": "wad; pack; pile",
+          "sentence": "那疊報紙放桌上了。",
+          "pinyin": "nà dié bàozhǐ fàng zhuō shàngle.",
+          "en": "The stack of newspapers was placed on the table.",
+          "vi": "Chồng báo đó được đặt ở trên bàn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "surname Die",
+          "sentence": "她姓疊。",
+          "pinyin": "tā xìng dié.",
+          "en": "Her surname is Die.",
+          "vi": "Cô ấy họ Điệp."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "chinese": "盆子",
+      "pinyin": "pénzi",
+      "en": "basin",
+      "vi": "cái chậu",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "basin; tub; pot",
+          "sentence": "請把水倒進盆子裡/裏。",
+          "pinyin": "qǐng bǎ shuǐ dào jìn pénzi lǐ.",
+          "en": "Please pour the water into the basin.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "basin; tub; pot",
+          "sentence": "她用盆子洗菜。",
+          "pinyin": "tā yòng pénzi xǐ cài.",
+          "en": "She washes vegetables in the basin.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "chinese": "斜",
+      "pinyin": "xié",
+      "en": "slanted, tilted",
+      "vi": "nghiêng",
+      "theme": "Description",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "skew; bevel; diagonal; askew",
+          "sentence": "書架上的書斜了。",
+          "pinyin": "shūjià shàng de shū xiéle.",
+          "en": "The books on the shelf are not straightly arranged.",
+          "vi": "Sách trên kệ không thẳng."
+        },
+        {
+          "type": "adjective",
+          "meaning": "skew; bevel; diagonal; askew",
+          "sentence": "眉毛畫斜了不協調。",
+          "pinyin": "méimáo huà xié liǎo bù xiétiáo.",
+          "en": "The eyebrows are drawn unevenly.",
+          "vi": "Lông mày vẽ lệch không hài hòa."
+        },
+        {
+          "type": "verb",
+          "meaning": "tilted; lean",
+          "sentence": "那麵墻微微傾斜。",
+          "pinyin": "nà miàn qiáng wēi wēi qīngxié.",
+          "en": "The wall was slightly tilted.",
+          "vi": "Bức tường đó hơi nghiêng."
+        },
+        {
+          "type": "verb",
+          "meaning": "tilted; lean",
+          "sentence": "那座塔有點斜了。",
+          "pinyin": "nà zuò tǎ yǒudiǎn xiéle.",
+          "en": "That tower is leaning a bit.",
+          "vi": "Tòa tháp đó hơi nghiêng rồi."
+        },
+        {
+          "type": "",
+          "meaning": "surname Xie",
+          "sentence": "他姓斜。",
+          "pinyin": "tā xìng xié.",
+          "en": "His surname is Xie.",
+          "vi": "Anh ấy họ Tà."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "chinese": "牆面",
+      "pinyin": "qiángmiàn",
+      "en": "wall face",
+      "vi": "bề mặt tường",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wall",
+          "sentence": "這麵墻是石頭的。",
+          "pinyin": "zhè miàn qiáng shì shítou de.",
+          "en": "This wall is made of stone.",
+          "vi": "Bức tường này làm bằng đá."
+        },
+        {
+          "type": "Noun",
+          "meaning": "wall",
+          "sentence": "校園有高高的墻。",
+          "pinyin": "xiàoyuán yǒu gāo gāo de qiáng.",
+          "en": "The campus has tall walls.",
+          "vi": "Trường học có bức tường cao."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "chinese": "聚寶盆",
+      "pinyin": "jùbǎopén",
+      "en": "treasure basin, cornucopia",
+      "vi": "chậu tụ bảo",
+      "theme": "Culture",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "treasure bowl—place rich in natural resources; cornucopia",
+          "sentence": "這片土地是聚寶盆。",
+          "pinyin": "zhè piàn tǔ dì shì jù bǎo pén",
+          "en": "This land is a treasure trove.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "treasure bowl (mythology)",
+          "sentence": "這本書是我的聚寶盆。",
+          "pinyin": "zhè běn shū shì wǒ de jù bǎo pén.",
+          "en": "This book is my treasure bowl.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "chinese": "角",
+      "pinyin": "jiǎo",
+      "en": "corner",
+      "vi": "góc",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "horn",
+          "sentence": "牛角很大，很堅硬。",
+          "pinyin": "niújiǎo hěn dà, hěn jiānyìng.",
+          "en": "The cow's horn is very big and hard.",
+          "vi": "Sừng bò rất to và cứng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "horn",
+          "sentence": "他的傢裡/裏掛了一對鹿角。",
+          "pinyin": "tā de jiālǐ guàle yī duì lùjiǎo.",
+          "en": "He has a pair of deer antlers hanging in his house.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "jiao, a fractional unit of money in China (=1/10 of a yuan or 10 fen)",
+          "sentence": "今天媽媽給我五角。",
+          "pinyin": "jīntiān māma gěi wǒ wǔjiǎo.",
+          "en": "Today, Mom gave me five jiao.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "jiao, a fractional unit of money in China (=1/10 of a yuan or 10 fen)",
+          "sentence": "這本書三角。",
+          "pinyin": "zhè běn shū sānjiǎo.",
+          "en": "This book costs three jiao.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "chinese": "龍",
+      "pinyin": "lóng",
+      "en": "dragon",
+      "vi": "rồng",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "dragon",
+          "sentence": "龍是一種神話中的生物。",
+          "pinyin": "lóng shì yī zhǒng shénhuà zhōng de shēngwù.",
+          "en": "Dragons are mythical creatures.",
+          "vi": "Rồng là một sinh vật trong thần thoại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "dragon",
+          "sentence": "我喜歡看關於龍的電影。",
+          "pinyin": "wǒ xǐhuān kàn guānyú lóng de diànyǐng.",
+          "en": "I like watching movies about dragons.",
+          "vi": "Tôi rất thích xem những bộ phim về rồng."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "chinese": "古",
+      "pinyin": "gǔ",
+      "en": "ancient",
+      "vi": "cổ",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "ancient times (opp. 今)",
+          "sentence": "這座建築帶有古代的風格。",
+          "pinyin": "zhè zuò jiàn zhù dài yǒu gǔdài de fēnggé.",
+          "en": "The building has an ancient style.",
+          "vi": "Tòa nhà này mang phong cách của thời cổ."
+        },
+        {
+          "type": "noun",
+          "meaning": "ancient times (opp. 今)",
+          "sentence": "他對古代文化很感興趣。",
+          "pinyin": "tā duì gǔdài wénhuà hěn gǎn xìngqù.",
+          "en": "He is very interested in ancient culture.",
+          "vi": "Anh ấy rất quan tâm đến văn hóa cổ đại."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ancient",
+          "sentence": "這是一件古物。",
+          "pinyin": "zhè shì yī jiàn gǔwù.",
+          "en": "This is an antique.",
+          "vi": "Đây là một món đồ cổ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ancient",
+          "sentence": "這座古城有著悠久的曆史。",
+          "pinyin": "zhè zuò gǔchéng yǒuzhe yōujiǔ de lìshǐ.",
+          "en": "This ancient city has a long history.",
+          "vi": "Thành phố cổ này có một lịch sử lâu đời."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "chinese": "錢幣",
+      "pinyin": "qiánbì",
+      "en": "coins, currency",
+      "vi": "tiền xu",
+      "theme": "Economy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "coin",
+          "sentence": "偽/僞造錢幣是犯罪行為。",
+          "pinyin": "wèizào qiánbì shì fànzuì xíngwéi.",
+          "en": "Counterfeiting currency is a criminal act.",
+          "vi": "Làm tiền giả là hành vi phạm pháp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "coin",
+          "sentence": "他挖掘到古老的錢幣。",
+          "pinyin": "tā wājué dào gǔlǎo de qiánbì.",
+          "en": "He unearthed ancient coins.",
+          "vi": "Anh ấy đã đào được những đồng xu cổ."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "chinese": "屋頂",
+      "pinyin": "wūdǐng",
+      "en": "roof",
+      "vi": "mái nhà",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "roof; rooftop; housetop; house-top",
+          "sentence": "雨水從屋頂流下來。",
+          "pinyin": "yǔshuǐ cóng wūdǐng liú xiàlái.",
+          "en": "The rainwater flows down from the roof.",
+          "vi": "Nước mưa chảy từ mái nhà xuống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "roof; rooftop; housetop; house-top",
+          "sentence": "屋頂上有一個小煙囪。",
+          "pinyin": "wūdǐng shàng yǒu yīgè xiǎo yāncōng.",
+          "en": "There is a small chimney on the roof.",
+          "vi": "Trên mái nhà có một ống khói nhỏ."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "chinese": "龜",
+      "pinyin": "guī",
+      "en": "turtle, tortoise",
+      "vi": "rùa",
+      "theme": "Nature",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Qiu (an ancient state in the Western Regions, now Kucha County, Xinjiang, China)",
+          "sentence": "龜茲文化很獨特。",
+          "pinyin": "qiū cí wénhuà hěn dútè.",
+          "en": "The Kucha culture is very unique.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Qiu (an ancient state in the Western Regions, now Kucha County, Xinjiang, China)",
+          "sentence": "龜茲曾輝煌一時。",
+          "pinyin": "qiū cí céng huīhuáng yīshí.",
+          "en": "Kucha was once prosperous.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "chinese": "招財",
+      "pinyin": "zhāocái",
+      "en": "to attract wealth",
+      "vi": "chiêu tài",
+      "theme": "Culture",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "attract wealth; bring in money",
+          "sentence": "他在傢門口掛上招財的掛件。",
+          "pinyin": "tā zàijiā ménkǒu guà shàng zhāo cái de guàjiàn.",
+          "en": "He hung a wealth-attracting ornament at the entrance of his house.",
+          "vi": "Anh ấy treo vật phẩm chiêu tài ở trước cửa nhà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "attract wealth; bring in money",
+          "sentence": "這個吉祥物的作用就是招財。",
+          "pinyin": "zhège jíxiáng wù de zuòyòng jiùshì zhāo cái.",
+          "en": "The function of this lucky charm is to attract wealth.",
+          "vi": "Tác dụng của vật phẩm may mắn này chính là chiêu tài."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "chinese": "側門",
+      "pinyin": "cèmén",
+      "en": "side door",
+      "vi": "cửa bên",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "side door; side entrance",
+          "sentence": "請從側門進來，別走正門。",
+          "pinyin": "Qǐng cóng cè mén jìn lái, bié zǒu zhèng mén",
+          "en": "Please enter through the side door; don't use the main entrance.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "side-door",
+          "sentence": "公司規定，貨物裝卸一律由側門進齣。",
+          "pinyin": "Gōngsī guīdìng, huòwù zhuāngxiè yīlǜ yóu cèmén jìnchū.",
+          "en": "According to company regulations, all loading and unloading of goods must be done through the side door.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "chinese": "遮雨棚",
+      "pinyin": "zhēyǔpéng",
+      "en": "canopy, awning",
+      "vi": "mái che mưa",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hide from view; cover; screen",
+          "sentence": "一片烏雲遮住山頂，使山前的景物黯然失色。",
+          "pinyin": "yī piàn wū yún zhē zhù shān dǐng, shǐ shān qián de jǐng wù àn rán shī sè.",
+          "en": "The top of the mountain was covered with a dark cloud, which took shine off the front view of the mountain.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hide from view; cover; screen",
+          "sentence": "那些雲遮掩了太陽。",
+          "pinyin": "nàxiē yún zhēyǎnle tàiyáng.",
+          "en": "Those clouds covered the sun.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "chinese": "如意",
+      "pinyin": "rúyì",
+      "en": "lucky ornamental object",
+      "vi": "như ý",
+      "theme": "Culture",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "to be satisfied; to comply with one's wishes",
+          "sentence": "終於如了她的意！",
+          "pinyin": "zhōngyú rúle tā de yì!",
+          "en": "Finally, it's what her want!",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "to be satisfied; to comply with one's wishes",
+          "sentence": "這個結果讓我如意。",
+          "pinyin": "zhège jiéguǒ ràng wǒ rúyì.",
+          "en": "This result fulfills my wish.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "satisfied; content",
+          "sentence": "新年快樂，萬事如意！",
+          "pinyin": "xīnnián kuàilè, wànshì rúyì!",
+          "en": "Happy New Year! May everything go as you wish!",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "satisfied; content",
+          "sentence": "祝你們事事吉祥如意！",
+          "pinyin": "zhù nǐmen shì shì jíxiáng rúyì!",
+          "en": "Wishing you all good fortune and success in everything.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "chinese": "設計",
+      "pinyin": "shèjì",
+      "en": "design",
+      "vi": "thiết kế",
+      "theme": "Work",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to plan; to design",
+          "sentence": "他設計了一個新産品。",
+          "pinyin": "tā shèjìle yīgè xīn chǎnpǐn.",
+          "en": "He designed a new product.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to plan; to design",
+          "sentence": "我們正在設計新的繫統。",
+          "pinyin": "wǒmen zhèngzài shèjì xīn de xìtǒng.",
+          "en": "We are designing a new system.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; scheme",
+          "sentence": "設計很有創意。",
+          "pinyin": "shèjì hěn yǒu chuàngyì.",
+          "en": "The design is very creative.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "plan; scheme",
+          "sentence": "這是一個新的設計。",
+          "pinyin": "zhè shì yīgè xīn de shèjì.",
+          "en": "This is a new plan.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "chinese": "偶然",
+      "pinyin": "ǒurán",
+      "en": "accidental",
+      "vi": "ngẫu nhiên",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "accidental; occasional",
+          "sentence": "這種現象是偶然髮/發生。",
+          "pinyin": "zhè zhǒng xiànxiàng shì ǒurán fāshēng.",
+          "en": "This phenomenon occurs by chance.",
+          "vi": "Hiện tượng này xảy ra một cách ngẫu nhiên."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "accidental; occasional",
+          "sentence": "我們的相遇太偶然了。",
+          "pinyin": "wǒmen de xiāngyù tài ǒuránle.",
+          "en": "Our meeting was too coincidental.",
+          "vi": "Cuộc gặp gỡ của chúng ta quá đỗi tình cờ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "by chance; by accident; accidentally",
+          "sentence": "她偶然看到了那本書。",
+          "pinyin": "tā ǒurán kàn dàole nà běn shū.",
+          "en": "She came across that book by chance.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "by chance; by accident; accidentally",
+          "sentence": "我偶然髮/發現了這條路。",
+          "pinyin": "wǒ ǒurán fāxiànle zhè tiáo lù.",
+          "en": "I discovered this road by chance.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "chinese": "晉代",
+      "pinyin": "Jìn Dài",
+      "en": "Jin Dynasty",
+      "vi": "thời Tấn",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Jin Dynasty (265-420)",
+          "sentence": "晉代文化非常豐富。",
+          "pinyin": "Jìn dài wén huà fēi cháng fēng fù.",
+          "en": "Jin dynasty culture is very rich.",
+          "vi": "Văn hóa thời kỳ Jin rất phong phú."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "chinese": "郭璞",
+      "pinyin": "Guō Pú",
+      "en": "Guo Pu",
+      "vi": "Quách Phác",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "outer wall of a city",
+          "sentence": "郭敬明寫了很多小説。",
+          "pinyin": "Guōjìngmíng xiě le hěn duō xiǎoshuō.",
+          "en": "Guo Jingming has written many novels.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "outer wall of a city",
+          "sentence": "這部外郭譯製片很受歡迎。",
+          "pinyin": "Zhè bù wàiguō yì zhì piàn hěn shòu huānyíng.",
+          "en": "This foreign dubbed film is very popular.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "chinese": "英國",
+      "pinyin": "Yīngguó",
+      "en": "the UK",
+      "vi": "Anh Quốc",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "UK; Britain; England",
+          "sentence": "她在英國學校學習。",
+          "pinyin": "tā zài yīngguó xuéxiào xuéxí.",
+          "en": "She studies at a school in the UK.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "UK; Britain; England",
+          "sentence": "我跟朋友一起去英國。",
+          "pinyin": "wǒ gēn péngyou yīqǐ qù yīngguó.",
+          "en": "I am going to the UK with my friend.",
+          "vi": "Tôi cùng bạn đi tới nước Anh."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "chinese": "邱吉爾",
+      "pinyin": "Qiūjí'ěr",
+      "en": "Churchill",
+      "vi": "Churchill",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Winston Churchill (1874-1965), UK politican and prime minister 1940-1945 and 1951-1955; Churchill",
+          "sentence": "邱吉爾早餐前要喝四分之一公昇的白蘭地。",
+          "pinyin": "Qiūjí'ěr zǎocān qián yào hē sì fēn zhī yī gōngshēng de báilándì.",
+          "en": "Winston Churchill drank a quart of brandy before breakfast.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "surname Churchill",
+          "sentence": "邱吉爾曾是英國首相。",
+          "pinyin": "Qiūjí'ěr céng shì Yīngguó shǒuxiàng.",
+          "en": "Churchill was once the British Prime Minister.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "chinese": "信義路",
+      "pinyin": "Xìnyì Lù",
+      "en": "Xinyi Road",
+      "vi": "đường Tín Nghĩa",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mail; letter",
+          "sentence": "我收到了錶揚信。",
+          "pinyin": "wǒ shōu dàole biǎoyáng xìn.",
+          "en": "I received a letter of praise.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "mail; letter",
+          "sentence": "這是他的絕交信。",
+          "pinyin": "zhè shì tā de jué jiāoxìn.",
+          "en": "This is his letter of breaking off.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "credit; believe; take stock in",
+          "sentence": "我相信你的能力。",
+          "pinyin": "wǒ xiāngxìn nǐ de nénglì.",
+          "en": "I believe in your ability.",
+          "vi": "Tôi tin vào khả năng của bạn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "credit; believe; take stock in",
+          "sentence": "你別信他的話。",
+          "pinyin": "nǐ bié xìn tā dehuà.",
+          "en": "Don’t believe what he says.",
+          "vi": "Bạn đừng tin lời anh ấy."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true",
+          "sentence": "我們需要信的消息。",
+          "pinyin": "wǒmen xūyào xìn de xiāoxī.",
+          "en": "We need reliable information.",
+          "vi": "Chúng ta cần thông tin xác thực."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "true",
+          "sentence": "這段曆史是信而有據的。",
+          "pinyin": "zhè duàn lìshǐ shì xìn ér yǒu jù de.",
+          "en": "This piece of history is true and well-documented.",
+          "vi": "Đoạn lịch sử này có thật và có chứng cứ."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "chinese": "松智路",
+      "pinyin": "Sōngzhì Lù",
+      "en": "Songzhi Road",
+      "vi": "đường Tùng Trí",
+      "theme": "Proper Noun",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "road; path; way",
+          "sentence": "此路不通。",
+          "pinyin": "cǐ lù bù tōng.",
+          "en": "Not a Through Road.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "journey; distance",
+          "sentence": "路漫漫其脩遠兮, 吾將上下而求索。(屈原《離騷》)",
+          "pinyin": "lù mànmàn qí xiū yuǎn xī, wú jiāng shàng-xià ér qiú suǒ.",
+          "en": "The road ahead is long and far; I will search high and low with unyielding pursuit.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "kind; class; type",
+          "sentence": "這路人不可深交。",
+          "pinyin": "zhè lùrén bùkě shēnjiāo.",
+          "en": "This kind of person is not worth getting close to.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "row; line; column",
+          "sentence": "學生們很快就排成兩路。",
+          "pinyin": "xuéshēngmen hěn kuài jiù pái chéng liǎng lù.",
+          "en": "The students quickly lined up in two rows.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "chinese": "一命二運三風水",
+      "pinyin": "yímìng èryùn sānfēngshuǐ",
+      "en": "Fate first, Luck second, Feng Shui third",
+      "vi": "nhất mệnh nhì vận tam phong thủy",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trend of development; tendency of future",
+          "sentence": "自己的命運由自己決定！",
+          "pinyin": "zìjǐ de mìngyùn yóu zìjǐ juédìng!",
+          "en": "Your own destiny is up to you!",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "trend of development; tendency of future",
+          "sentence": "她掌握著公司的命運。",
+          "pinyin": "tā zhǎngwòzhe gōngsī de mìngyùn.",
+          "en": "She controls the fate of the company.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "chinese": "加起來",
+      "pinyin": "jiāqǐlái",
+      "en": "to add up",
+      "vi": "cộng lại",
+      "theme": "General",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stand up",
+          "sentence": "他躺著起不來了。",
+          "pinyin": "tā tǎngzhe qǐ bù láile.",
+          "en": "He is lying down and cannot stand up.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "stand up",
+          "sentence": "我起來給老人讓座。",
+          "pinyin": "wǒ qǐlái gěi lǎorén ràngzuò.",
+          "en": "I stood up to give my seat to the elderly.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "chinese": "咬錢龜",
+      "pinyin": "yǎoqián guī",
+      "en": "money-biting turtle",
+      "vi": "rùa ngậm tiền",
+      "theme": "Culture",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "money; wealth; riches",
+          "sentence": "他想攢點錢。",
+          "pinyin": "tā xiǎng zǎn diǎn qián.",
+          "en": "He wants to save some money.",
+          "vi": "Anh ấy muốn tích góp chút tiền."
+        },
+        {
+          "type": "Noun",
+          "meaning": "money; wealth; riches",
+          "sentence": "他為了錢拼命。",
+          "pinyin": "tā wèile qián pīnmìng.",
+          "en": "He works desperately for money.",
+          "vi": "Anh ấy liều mạng kiếm tiền."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "qian, a unit of weight (=5 grams)",
+          "sentence": "這個東西大概有三錢重。",
+          "pinyin": "zhège dōngxi dàgài yǒusān qián zhòng.",
+          "en": "This item weighs about 3 qian.",
+          "vi": "Cái này khoảng 15 gam."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "qian, a unit of weight (=5 grams)",
+          "sentence": "這塊玉重了兩錢。",
+          "pinyin": "zhè kuài yù zhòngle liǎng qián.",
+          "en": "This piece of jade weighs 2 qian.",
+          "vi": "Viên ngọc này nặng 10 gam."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "chinese": "十全十美",
+      "pinyin": "shíquán shíměi",
+      "en": "perfect",
+      "vi": "thập toàn thập mỹ",
+      "theme": "Idiom",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "be perfect in every respect (way); be all roses; be done to perfection; be out of this world; be the acme of perfection; flawless and perfect; leave nothing to be desired",
+          "sentence": "使某事物達到十全十美。",
+          "pinyin": "shǐ mǒu shì wù dádào shí quán shí měi",
+          "en": "Bring sth. to perfection",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "be perfect in every respect (way); be all roses; be done to perfection; be out of this world; be the acme of perfection; flawless and perfect; leave nothing to be desired",
+          "sentence": "他做任何事情都力求十全十美。",
+          "pinyin": "tā zuò rènhé shìqíng dōu lìqiú shíquán shíměi.",
+          "en": "He aims at perfection in everything he does.",
+          "vi": ""
+        }
+      ]
+    }
+  ]
 }

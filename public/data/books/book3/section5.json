@@ -3,74 +3,2009 @@
   "sectionId": "section5",
   "sectionTitle": "What Are the Trends Now? | 現在流行什麼？",
   "items": [
-    { "id": 1, "chinese": "流行", "pinyin": "liúxíng", "english": "popular; trendy", "sentenceChinese": "今年最流行的顏色是淺藍色。", "sentencePinyin": "Jīnnián zuì liúxíng de yánsè shì qiǎn lánsè.", "sentenceEnglish": "The trendiest color this year is light blue.", "vietnamese": "thịnh hành; hợp mốt", "sentenceVietnamese": "Màu đang thịnh hành nhất năm nay là xanh lam nhạt." },
-    { "id": 2, "chinese": "唉", "pinyin": "āi", "english": "sigh; oh no", "sentenceChinese": "唉，又塞車了。", "sentencePinyin": "Āi, yòu sāichē le.", "sentenceEnglish": "Sigh, there is another traffic jam.", "vietnamese": "ôi; chao ôi", "sentenceVietnamese": "Ôi, lại kẹt xe nữa rồi." },
-    { "id": 3, "chinese": "演唱會", "pinyin": "yǎnchànghuì", "english": "concert", "sentenceChinese": "我下星期要去看演唱會。", "sentencePinyin": "Wǒ xià xīngqī yào qù kàn yǎnchànghuì.", "sentenceEnglish": "I am going to a concert next week.", "vietnamese": "buổi hòa nhạc", "sentenceVietnamese": "Tuần sau tôi sẽ đi xem buổi hòa nhạc." },
-    { "id": 4, "chinese": "塞車", "pinyin": "sāichē", "english": "traffic jam", "sentenceChinese": "下班時間常常塞車。", "sentencePinyin": "Xiàbān shíjiān chángcháng sāichē.", "sentenceEnglish": "There are often traffic jams after work.", "vietnamese": "kẹt xe", "sentenceVietnamese": "Giờ tan làm thường hay kẹt xe." },
-    { "id": 5, "chinese": "線上", "pinyin": "xiànshàng", "english": "online", "sentenceChinese": "很多人現在都在線上買東西。", "sentencePinyin": "Hěnduō rén xiànzài dōu zài xiànshàng mǎi dōngxi.", "sentenceEnglish": "Many people shop online now.", "vietnamese": "trực tuyến", "sentenceVietnamese": "Bây giờ rất nhiều người mua đồ trực tuyến." },
-    { "id": 6, "chinese": "成功", "pinyin": "chénggōng", "english": "to succeed; success", "sentenceChinese": "他終於成功買到票了。", "sentencePinyin": "Tā zhōngyú chénggōng mǎi dào piào le.", "sentenceEnglish": "He finally succeeded in buying the tickets.", "vietnamese": "thành công", "sentenceVietnamese": "Cuối cùng anh ấy cũng mua vé thành công." },
-    { "id": 7, "chinese": "倒楣", "pinyin": "dǎoméi", "english": "unlucky", "sentenceChinese": "今天真倒楣，出門就下雨。", "sentencePinyin": "Jīntiān zhēn dǎoméi, chūmén jiù xiàyǔ.", "sentenceEnglish": "What bad luck. It started raining as soon as I went out.", "vietnamese": "xui xẻo", "sentenceVietnamese": "Hôm nay thật xui, vừa ra ngoài là gặp mưa." },
-    { "id": 8, "chinese": "樂團", "pinyin": "yuètuán", "english": "band", "sentenceChinese": "這個樂團最近很受歡迎。", "sentencePinyin": "Zhè ge yuètuán zuìjìn hěn shòu huānyíng.", "sentenceEnglish": "This band has been very popular recently.", "vietnamese": "ban nhạc", "sentenceVietnamese": "Ban nhạc này dạo gần đây rất được yêu thích." },
-    { "id": 9, "chinese": "唱", "pinyin": "chàng", "english": "to sing", "sentenceChinese": "她很喜歡在KTV唱歌。", "sentencePinyin": "Tā hěn xǐhuān zài KTV chànggē.", "sentenceEnglish": "She loves singing at karaoke.", "vietnamese": "hát", "sentenceVietnamese": "Cô ấy rất thích hát karaoke." },
-    { "id": 10, "chinese": "興奮", "pinyin": "xīngfèn", "english": "excited", "sentenceChinese": "聽到這個消息，大家都很興奮。", "sentencePinyin": "Tīngdào zhè ge xiāoxi, dàjiā dōu hěn xīngfèn.", "sentenceEnglish": "Everyone was excited to hear the news.", "vietnamese": "phấn khích", "sentenceVietnamese": "Nghe tin đó, mọi người đều rất phấn khích." },
-    { "id": 11, "chinese": "迷", "pinyin": "mí", "english": "to be crazy about", "sentenceChinese": "他最近很迷這個樂團。", "sentencePinyin": "Tā zuìjìn hěn mí zhè ge yuètuán.", "sentenceEnglish": "He has been crazy about this band lately.", "vietnamese": "mê", "sentenceVietnamese": "Dạo này anh ấy mê ban nhạc này lắm." },
-    { "id": 12, "chinese": "歌詞", "pinyin": "gēcí", "english": "lyrics", "sentenceChinese": "這首歌的歌詞很有意思。", "sentencePinyin": "Zhè shǒu gē de gēcí hěn yǒuyìsi.", "sentenceEnglish": "The lyrics of this song are very interesting.", "vietnamese": "lời bài hát", "sentenceVietnamese": "Lời bài hát này rất thú vị." },
-    { "id": 13, "chinese": "難過", "pinyin": "nánguò", "english": "sad", "sentenceChinese": "那首歌聽了讓人有點難過。", "sentencePinyin": "Nà shǒu gē tīng le ràng rén yǒudiǎn nánguò.", "sentenceEnglish": "That song makes people feel a little sad.", "vietnamese": "buồn", "sentenceVietnamese": "Bài hát đó nghe xong khiến người ta hơi buồn." },
-    { "id": 14, "chinese": "不如", "pinyin": "bùrú", "english": "not as good as; might as well", "sentenceChinese": "與其在線上看，不如去現場。", "sentencePinyin": "Yǔqí zài xiànshàng kàn, bùrú qù xiànchǎng.", "sentenceEnglish": "Rather than watching online, it is better to go in person.", "vietnamese": "thà rằng; không bằng", "sentenceVietnamese": "Thay vì xem online, thà ra xem trực tiếp còn hơn." },
-    { "id": 15, "chinese": "現場", "pinyin": "xiànchǎng", "english": "on-site; live", "sentenceChinese": "現場的氣氛真的不一樣。", "sentencePinyin": "Xiànchǎng de qìfēn zhēn de bù yíyàng.", "sentenceEnglish": "The atmosphere live on-site is really different.", "vietnamese": "trực tiếp tại chỗ", "sentenceVietnamese": "Không khí xem trực tiếp tại chỗ thật sự khác hẳn." },
-    { "id": 16, "chinese": "跳", "pinyin": "tiào", "english": "to jump; to dance", "sentenceChinese": "大家跟著音樂一起跳。", "sentencePinyin": "Dàjiā gēnzhe yīnyuè yìqǐ tiào.", "sentenceEnglish": "Everyone danced along to the music.", "vietnamese": "nhảy", "sentenceVietnamese": "Mọi người cùng nhảy theo nhạc." },
-    { "id": 17, "chinese": "整", "pinyin": "zhěng", "english": "whole; entire", "sentenceChinese": "我們整晚都在聽歌。", "sentencePinyin": "Wǒmen zhěng wǎn dōu zài tīng gē.", "sentenceEnglish": "We listened to music the whole night.", "vietnamese": "cả; nguyên", "sentenceVietnamese": "Chúng tôi nghe nhạc suốt cả buổi tối." },
-    { "id": 18, "chinese": "震動", "pinyin": "zhèndòng", "english": "to shake; to vibrate", "sentenceChinese": "音樂太大聲，地板都在震動。", "sentencePinyin": "Yīnyuè tài dàshēng, dìbǎn dōu zài zhèndòng.", "sentenceEnglish": "The music was so loud that the floor was shaking.", "vietnamese": "rung động; rung lên", "sentenceVietnamese": "Nhạc lớn quá làm sàn nhà cũng rung lên." },
-    { "id": 19, "chinese": "漫畫", "pinyin": "mànhuà", "english": "comic", "sentenceChinese": "他從小就很喜歡看漫畫。", "sentencePinyin": "Tā cóngxiǎo jiù hěn xǐhuān kàn mànhuà.", "sentenceEnglish": "He has loved reading comics since he was little.", "vietnamese": "truyện tranh", "sentenceVietnamese": "Từ nhỏ anh ấy đã rất thích đọc truyện tranh." },
-    { "id": 20, "chinese": "內容", "pinyin": "nèiróng", "english": "content", "sentenceChinese": "這本漫畫的內容很有趣。", "sentencePinyin": "Zhè běn mànhuà de nèiróng hěn yǒuqù.", "sentenceEnglish": "The content of this comic is very interesting.", "vietnamese": "nội dung", "sentenceVietnamese": "Nội dung của bộ truyện tranh này rất thú vị." },
-    { "id": 21, "chinese": "色情", "pinyin": "sèqíng", "english": "pornographic; obscene", "sentenceChinese": "這部漫畫因為內容太色情而被下架。", "sentencePinyin": "Zhè bù mànhuà yīnwèi nèiróng tài sèqíng ér bèi xiàjià.", "sentenceEnglish": "This comic was removed because the content was too obscene.", "vietnamese": "khiêu dâm; đồi trụy", "sentenceVietnamese": "Bộ truyện này bị gỡ xuống vì nội dung quá đồi trụy." },
-    { "id": 22, "chinese": "放鬆", "pinyin": "fàngsōng", "english": "to relax", "sentenceChinese": "看漫畫可以讓我放鬆。", "sentencePinyin": "Kàn mànhuà kěyǐ ràng wǒ fàngsōng.", "sentenceEnglish": "Reading comics helps me relax.", "vietnamese": "thư giãn", "sentenceVietnamese": "Đọc truyện tranh giúp tôi thư giãn." },
-    { "id": 23, "chinese": "心情", "pinyin": "xīnqíng", "english": "mood", "sentenceChinese": "心情不好的時候，我會聽音樂。", "sentencePinyin": "Xīnqíng bù hǎo de shíhòu, wǒ huì tīng yīnyuè.", "sentenceEnglish": "When I am in a bad mood, I listen to music.", "vietnamese": "tâm trạng", "sentenceVietnamese": "Khi tâm trạng không tốt, tôi sẽ nghe nhạc." },
-    { "id": 24, "chinese": "五月天", "pinyin": "Wǔyuètiān", "english": "Mayday", "sentenceChinese": "五月天的演唱會常常一票難求。", "sentencePinyin": "Wǔyuètiān de yǎnchànghuì chángcháng yí piào nán qiú.", "sentenceEnglish": "Mayday's concerts often sell out quickly.", "vietnamese": "Mayday", "sentenceVietnamese": "Buổi hòa nhạc của Mayday thường rất khó mua vé." },
-    { "id": 25, "chinese": "算了", "pinyin": "suàn le", "english": "forget it", "sentenceChinese": "如果太貴就算了吧。", "sentencePinyin": "Rúguǒ tài guì jiù suàn le ba.", "sentenceEnglish": "If it is too expensive, then forget it.", "vietnamese": "thôi bỏ đi", "sentenceVietnamese": "Nếu đắt quá thì thôi bỏ đi vậy." },
-    { "id": 26, "chinese": "受歡迎", "pinyin": "shòu huānyíng", "english": "popular; well-received", "sentenceChinese": "這個節目很受年輕人歡迎。", "sentencePinyin": "Zhè ge jiémù hěn shòu niánqīngrén huānyíng.", "sentenceEnglish": "This program is very popular with young people.", "vietnamese": "được yêu thích", "sentenceVietnamese": "Chương trình này rất được giới trẻ yêu thích." },
-    { "id": 27, "chinese": "擠滿", "pinyin": "jǐmǎn", "english": "packed with", "sentenceChinese": "會場裡擠滿了歌迷。", "sentencePinyin": "Huìchǎng lǐ jǐmǎn le gēmí.", "sentenceEnglish": "The venue was packed with fans.", "vietnamese": "chật kín", "sentenceVietnamese": "Trong hội trường chật kín người hâm mộ." },
-    { "id": 28, "chinese": "租書店", "pinyin": "zūshūdiàn", "english": "comic rental store", "sentenceChinese": "以前很多人都去租書店看漫畫。", "sentencePinyin": "Yǐqián hěnduō rén dōu qù zūshūdiàn kàn mànhuà.", "sentenceEnglish": "In the past, many people went to comic rental stores to read comics.", "vietnamese": "tiệm cho thuê sách", "sentenceVietnamese": "Trước đây rất nhiều người đến tiệm cho thuê sách để đọc truyện tranh." },
-    { "id": 29, "chinese": "平板電腦", "pinyin": "píngbǎn diànnǎo", "english": "tablet", "sentenceChinese": "我現在都用平板電腦看漫畫。", "sentencePinyin": "Wǒ xiànzài dōu yòng píngbǎn diànnǎo kàn mànhuà.", "sentenceEnglish": "I read comics on a tablet now.", "vietnamese": "máy tính bảng", "sentenceVietnamese": "Bây giờ tôi dùng máy tính bảng để đọc truyện tranh." },
-    { "id": 30, "chinese": "智慧型手機", "pinyin": "zhìhuìxíng shǒujī", "english": "smartphone", "sentenceChinese": "現在大家都離不開智慧型手機。", "sentencePinyin": "Xiànzài dàjiā dōu lí bù kāi zhìhuìxíng shǒujī.", "sentenceEnglish": "Nowadays everyone is inseparable from their smartphones.", "vietnamese": "điện thoại thông minh", "sentenceVietnamese": "Bây giờ mọi người đều không thể rời điện thoại thông minh." },
-    { "id": 31, "chinese": "殺時間", "pinyin": "shā shíjiān", "english": "to kill time", "sentenceChinese": "等車的時候，我會玩手機殺時間。", "sentencePinyin": "Děng chē de shíhòu, wǒ huì wán shǒujī shā shíjiān.", "sentenceEnglish": "When waiting for the bus, I use my phone to kill time.", "vietnamese": "giết thời gian", "sentenceVietnamese": "Khi chờ xe, tôi sẽ chơi điện thoại để giết thời gian." },
-    { "id": 32, "chinese": "漫畫展", "pinyin": "mànhuàzhǎn", "english": "comic exhibition", "sentenceChinese": "週末有一個很大的漫畫展。", "sentencePinyin": "Zhōumò yǒu yí ge hěn dà de mànhuàzhǎn.", "sentenceEnglish": "There is a big comic exhibition this weekend.", "vietnamese": "triển lãm truyện tranh", "sentenceVietnamese": "Cuối tuần này có một triển lãm truyện tranh rất lớn." },
-    { "id": 33, "chinese": "來不及", "pinyin": "lái bù jí", "english": "to not make it in time", "sentenceChinese": "再不出門就來不及了。", "sentencePinyin": "Zài bù chūmén jiù lái bù jí le.", "sentenceEnglish": "If we do not leave now, it will be too late.", "vietnamese": "không kịp", "sentenceVietnamese": "Không đi ngay bây giờ là sẽ không kịp nữa." },
-    { "id": 34, "chinese": "撞衫", "pinyin": "zhuàngshān", "english": "to wear the same outfit as someone else", "sentenceChinese": "昨天我跟朋友撞衫了。", "sentencePinyin": "Zuótiān wǒ gēn péngyǒu zhuàngshān le.", "sentenceEnglish": "Yesterday my friend and I wore the same outfit by accident.", "vietnamese": "đụng hàng quần áo", "sentenceVietnamese": "Hôm qua tôi với bạn bị đụng đồ." },
-    { "id": 35, "chinese": "它", "pinyin": "tā", "english": "it", "sentenceChinese": "這件外套很好看，我很喜歡它。", "sentencePinyin": "Zhè jiàn wàitào hěn hǎokàn, wǒ hěn xǐhuān tā.", "sentenceEnglish": "This coat looks great, and I really like it.", "vietnamese": "nó", "sentenceVietnamese": "Chiếc áo khoác này rất đẹp, tôi rất thích nó." },
-    { "id": 36, "chinese": "塞", "pinyin": "sāi", "english": "to stuff; to cram", "sentenceChinese": "他把東西都塞進包包裡。", "sentencePinyin": "Tā bǎ dōngxi dōu sāi jìn bāobāo lǐ.", "sentenceEnglish": "He stuffed everything into the bag.", "vietnamese": "nhét", "sentenceVietnamese": "Anh ấy nhét hết đồ vào trong túi." },
-    { "id": 37, "chinese": "當季", "pinyin": "dāngjì", "english": "in season; current season", "sentenceChinese": "這是今年當季最流行的款式。", "sentencePinyin": "Zhè shì jīnnián dāngjì zuì liúxíng de kuǎnshì.", "sentenceEnglish": "This is the trendiest style of the season.", "vietnamese": "theo mùa; đúng mùa", "sentenceVietnamese": "Đây là kiểu dáng thịnh hành nhất của mùa này." },
-    { "id": 38, "chinese": "款式", "pinyin": "kuǎnshì", "english": "style; design", "sentenceChinese": "這件衣服的款式很特別。", "sentencePinyin": "Zhè jiàn yīfú de kuǎnshì hěn tèbié.", "sentenceEnglish": "The design of this piece of clothing is very distinctive.", "vietnamese": "kiểu dáng", "sentenceVietnamese": "Kiểu dáng của bộ quần áo này rất đặc biệt." },
-    { "id": 39, "chinese": "連續劇", "pinyin": "liánxùjù", "english": "TV drama series", "sentenceChinese": "我媽媽每天晚上都看連續劇。", "sentencePinyin": "Wǒ māma měitiān wǎnshàng dōu kàn liánxùjù.", "sentenceEnglish": "My mom watches TV dramas every evening.", "vietnamese": "phim truyền hình dài tập", "sentenceVietnamese": "Tối nào mẹ tôi cũng xem phim truyền hình dài tập." },
-    { "id": 40, "chinese": "主角", "pinyin": "zhǔjiǎo", "english": "main character", "sentenceChinese": "這部戲的主角很有魅力。", "sentencePinyin": "Zhè bù xì de zhǔjiǎo hěn yǒu mèilì.", "sentenceEnglish": "The main character in this drama is very charming.", "vietnamese": "nhân vật chính", "sentenceVietnamese": "Nhân vật chính của bộ phim này rất cuốn hút." },
-    { "id": 41, "chinese": "甜美", "pinyin": "tiánměi", "english": "sweet and lovely", "sentenceChinese": "她今天的打扮很甜美。", "sentencePinyin": "Tā jīntiān de dǎban hěn tiánměi.", "sentenceEnglish": "Her look today is sweet and lovely.", "vietnamese": "ngọt ngào; đáng yêu", "sentenceVietnamese": "Hôm nay cô ấy ăn mặc rất ngọt ngào." },
-    { "id": 42, "chinese": "寄", "pinyin": "jì", "english": "to send; to mail", "sentenceChinese": "我已經把包包寄給她了。", "sentencePinyin": "Wǒ yǐjīng bǎ bāobāo jì gěi tā le.", "sentenceEnglish": "I have already mailed the bag to her.", "vietnamese": "gửi", "sentenceVietnamese": "Tôi đã gửi cái túi đó cho cô ấy rồi." },
-    { "id": 43, "chinese": "居然", "pinyin": "jūrán", "english": "unexpectedly", "sentenceChinese": "他居然也喜歡看這種漫畫。", "sentencePinyin": "Tā jūrán yě xǐhuān kàn zhè zhǒng mànhuà.", "sentenceEnglish": "Unexpectedly, he also likes reading this kind of comic.", "vietnamese": "không ngờ", "sentenceVietnamese": "Không ngờ anh ấy cũng thích đọc kiểu truyện tranh này." },
-    { "id": 44, "chinese": "害", "pinyin": "hài", "english": "to cause; to make", "sentenceChinese": "這件事害我很尷尬。", "sentencePinyin": "Zhè jiàn shì hài wǒ hěn gāngà.", "sentenceEnglish": "This matter made me feel very awkward.", "vietnamese": "làm cho", "sentenceVietnamese": "Việc này làm tôi rất ngượng." },
-    { "id": 45, "chinese": "既然", "pinyin": "jìrán", "english": "since; now that", "sentenceChinese": "既然你喜歡，就買吧。", "sentencePinyin": "Jìrán nǐ xǐhuān, jiù mǎi ba.", "sentenceEnglish": "Since you like it, then buy it.", "vietnamese": "đã ... thì", "sentenceVietnamese": "Đã thích thì cứ mua đi." },
-    { "id": 46, "chinese": "服裝", "pinyin": "fúzhuāng", "english": "clothing; outfit", "sentenceChinese": "她的服裝風格很有個性。", "sentencePinyin": "Tā de fúzhuāng fēnggé hěn yǒu gèxìng.", "sentenceEnglish": "Her clothing style has a lot of personality.", "vietnamese": "trang phục", "sentenceVietnamese": "Phong cách ăn mặc của cô ấy rất có cá tính." },
-    { "id": 47, "chinese": "媒體", "pinyin": "méitǐ", "english": "media", "sentenceChinese": "媒體對流行文化的影響很大。", "sentencePinyin": "Méitǐ duì liúxíng wénhuà de yǐngxiǎng hěn dà.", "sentenceEnglish": "The media has a big influence on popular culture.", "vietnamese": "truyền thông", "sentenceVietnamese": "Truyền thông có ảnh hưởng rất lớn đến văn hóa đại chúng." },
-    { "id": 48, "chinese": "方式", "pinyin": "fāngshì", "english": "way; method", "sentenceChinese": "每個人表達自己的方式都不一樣。", "sentencePinyin": "Měi ge rén biǎodá zìjǐ de fāngshì dōu bù yíyàng.", "sentenceEnglish": "Everyone has a different way of expressing themselves.", "vietnamese": "cách thức", "sentenceVietnamese": "Mỗi người có một cách thể hiện bản thân khác nhau." },
-    { "id": 49, "chinese": "吸引", "pinyin": "xīyǐn", "english": "to attract", "sentenceChinese": "這種包包很吸引年輕女生。", "sentencePinyin": "Zhè zhǒng bāobāo hěn xīyǐn niánqīng nǚshēng.", "sentenceEnglish": "This kind of bag is very attractive to young women.", "vietnamese": "thu hút", "sentenceVietnamese": "Loại túi này rất thu hút các bạn nữ trẻ." },
-    { "id": 50, "chinese": "避免", "pinyin": "bìmiǎn", "english": "to avoid", "sentenceChinese": "為了避免撞衫，她很少買熱門款。", "sentencePinyin": "Wèile bìmiǎn zhuàngshān, tā hěn shǎo mǎi rèmén kuǎn.", "sentenceEnglish": "To avoid wearing the same outfit as others, she rarely buys popular styles.", "vietnamese": "tránh", "sentenceVietnamese": "Để tránh bị đụng đồ, cô ấy hiếm khi mua mẫu quá hot." },
-    { "id": 51, "chinese": "包包", "pinyin": "bāobāo", "english": "bag; purse", "sentenceChinese": "她最近買了一個新包包。", "sentencePinyin": "Tā zuìjìn mǎi le yí ge xīn bāobāo.", "sentenceEnglish": "She recently bought a new bag.", "vietnamese": "túi xách", "sentenceVietnamese": "Dạo gần đây cô ấy mua một chiếc túi mới." },
-    { "id": 52, "chinese": "商人", "pinyin": "shāngrén", "english": "businessperson", "sentenceChinese": "商人最在意市場的變化。", "sentencePinyin": "Shāngrén zuì zàiyì shìchǎng de biànhuà.", "sentenceEnglish": "Businesspeople care most about changes in the market.", "vietnamese": "thương nhân", "sentenceVietnamese": "Thương nhân quan tâm nhất đến sự thay đổi của thị trường." },
-    { "id": 53, "chinese": "產品", "pinyin": "chǎnpǐn", "english": "product", "sentenceChinese": "這家公司推出了很多新產品。", "sentencePinyin": "Zhè jiā gōngsī tuīchū le hěnduō xīn chǎnpǐn.", "sentenceEnglish": "This company launched many new products.", "vietnamese": "sản phẩm", "sentenceVietnamese": "Công ty này đã tung ra rất nhiều sản phẩm mới." },
-    { "id": 54, "chinese": "電子", "pinyin": "diànzǐ", "english": "electronic", "sentenceChinese": "現在很多年輕人喜歡買電子產品。", "sentencePinyin": "Xiànzài hěnduō niánqīngrén xǐhuān mǎi diànzǐ chǎnpǐn.", "sentenceEnglish": "Many young people like buying electronic products now.", "vietnamese": "điện tử", "sentenceVietnamese": "Bây giờ nhiều bạn trẻ thích mua đồ điện tử." },
-    { "id": 55, "chinese": "市場", "pinyin": "shìchǎng", "english": "market", "sentenceChinese": "這種手機在市場上很受歡迎。", "sentencePinyin": "Zhè zhǒng shǒujī zài shìchǎng shàng hěn shòu huānyíng.", "sentenceEnglish": "This kind of phone is very popular in the market.", "vietnamese": "thị trường", "sentenceVietnamese": "Loại điện thoại này rất được ưa chuộng trên thị trường." },
-    { "id": 56, "chinese": "新型", "pinyin": "xīnxíng", "english": "new style; new model", "sentenceChinese": "這是今年的新型手機。", "sentencePinyin": "Zhè shì jīnnián de xīnxíng shǒujī.", "sentenceEnglish": "This is this year's new phone model.", "vietnamese": "mẫu mới", "sentenceVietnamese": "Đây là mẫu điện thoại mới của năm nay." },
-    { "id": 57, "chinese": "落伍", "pinyin": "luòwǔ", "english": "out of date", "sentenceChinese": "如果還用這種手機，就太落伍了。", "sentencePinyin": "Rúguǒ hái yòng zhè zhǒng shǒujī, jiù tài luòwǔ le.", "sentenceEnglish": "If you still use this kind of phone, you are really out of date.", "vietnamese": "lạc hậu", "sentenceVietnamese": "Nếu vẫn dùng kiểu điện thoại này thì đúng là lạc hậu quá." },
-    { "id": 58, "chinese": "知音", "pinyin": "zhīyīn", "english": "soulmate; close friend", "sentenceChinese": "她不只是朋友，也是我的知音。", "sentencePinyin": "Tā bù zhǐshì péngyǒu, yě shì wǒ de zhīyīn.", "sentenceEnglish": "She is not only a friend, but also someone who really understands me.", "vietnamese": "tri kỷ", "sentenceVietnamese": "Cô ấy không chỉ là bạn mà còn là tri kỷ của tôi." },
-    { "id": 59, "chinese": "想像", "pinyin": "xiǎngxiàng", "english": "to imagine", "sentenceChinese": "我無法想像沒有網路的生活。", "sentencePinyin": "Wǒ wúfǎ xiǎngxiàng méiyǒu wǎnglù de shēnghuó.", "sentenceEnglish": "I cannot imagine life without the internet.", "vietnamese": "tưởng tượng", "sentenceVietnamese": "Tôi không thể tưởng tượng được cuộc sống không có mạng." },
-    { "id": 60, "chinese": "喇叭褲", "pinyin": "lǎbākù", "english": "bell-bottom pants", "sentenceChinese": "喇叭褲又開始流行了。", "sentencePinyin": "Lǎbākù yòu kāishǐ liúxíng le.", "sentenceEnglish": "Bell-bottom pants have become popular again.", "vietnamese": "quần ống loe", "sentenceVietnamese": "Quần ống loe lại bắt đầu thịnh hành rồi." },
-    { "id": 61, "chinese": "印象", "pinyin": "yìnxiàng", "english": "impression", "sentenceChinese": "她給我的第一印象很好。", "sentencePinyin": "Tā gěi wǒ de dìyī yìnxiàng hěn hǎo.", "sentenceEnglish": "She made a very good first impression on me.", "vietnamese": "ấn tượng", "sentenceVietnamese": "Ấn tượng đầu tiên cô ấy để lại cho tôi rất tốt." },
-    { "id": 62, "chinese": "遊戲", "pinyin": "yóuxì", "english": "game", "sentenceChinese": "這個遊戲最近很紅。", "sentencePinyin": "Zhè ge yóuxì zuìjìn hěn hóng.", "sentenceEnglish": "This game has been very popular lately.", "vietnamese": "trò chơi", "sentenceVietnamese": "Trò chơi này dạo gần đây rất nổi." },
-    { "id": 63, "chinese": "化妝", "pinyin": "huàzhuāng", "english": "to put on makeup", "sentenceChinese": "她每天出門前都會化妝。", "sentencePinyin": "Tā měitiān chūmén qián dōu huì huàzhuāng.", "sentenceEnglish": "She puts on makeup every day before going out.", "vietnamese": "trang điểm", "sentenceVietnamese": "Ngày nào cô ấy cũng trang điểm trước khi ra ngoài." },
-    { "id": 64, "chinese": "一模一樣", "pinyin": "yì mú yí yàng", "english": "exactly the same", "sentenceChinese": "這兩件衣服看起來一模一樣。", "sentencePinyin": "Zhè liǎng jiàn yīfú kàn qǐlái yì mú yí yàng.", "sentenceEnglish": "These two pieces of clothing look exactly the same.", "vietnamese": "giống y hệt", "sentenceVietnamese": "Hai bộ quần áo này trông giống y hệt nhau." },
-    { "id": 65, "chinese": "淺藍色", "pinyin": "qiǎn lánsè", "english": "light blue", "sentenceChinese": "我比較喜歡淺藍色的襯衫。", "sentencePinyin": "Wǒ bǐjiào xǐhuān qiǎn lánsè de chènshān.", "sentenceEnglish": "I prefer light blue shirts.", "vietnamese": "xanh lam nhạt", "sentenceVietnamese": "Tôi thích áo sơ mi màu xanh lam nhạt hơn." },
-    { "id": 66, "chinese": "脫掉", "pinyin": "tuōdiào", "english": "to take off", "sentenceChinese": "太熱了，把外套脫掉吧。", "sentencePinyin": "Tài rè le, bǎ wàitào tuōdiào ba.", "sentenceEnglish": "It is too hot. Take off your coat.", "vietnamese": "cởi ra", "sentenceVietnamese": "Nóng quá, cởi áo khoác ra đi." },
-    { "id": 67, "chinese": "小題大作", "pinyin": "xiǎotí dàzuò", "english": "to make a mountain out of a molehill", "sentenceChinese": "這點小事，你不要小題大作。", "sentencePinyin": "Zhè diǎn xiǎoshì, nǐ búyào xiǎotí dàzuò.", "sentenceEnglish": "It is such a small matter. Do not make a mountain out of a molehill.", "vietnamese": "chuyện bé xé ra to", "sentenceVietnamese": "Chuyện nhỏ như vậy mà bạn đừng làm quá lên." },
-    { "id": 68, "chinese": "推出", "pinyin": "tuīchū", "english": "to launch; to introduce", "sentenceChinese": "這家公司下個月要推出新產品。", "sentencePinyin": "Zhè jiā gōngsī xià ge yuè yào tuīchū xīn chǎnpǐn.", "sentenceEnglish": "This company will launch a new product next month.", "vietnamese": "ra mắt; tung ra", "sentenceVietnamese": "Công ty này tháng sau sẽ tung ra sản phẩm mới." }
-  ],
-  "theme": "What Are the Trends Now?"
+    {
+      "id": 1,
+      "chinese": "流行",
+      "pinyin": "liúxíng",
+      "en": "popular; trendy",
+      "vi": "thịnh hành; hợp mốt",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "popular; fashionable",
+          "sentence": "這種音樂現在很流行。",
+          "pinyin": "zhè zhǒng yīnyuè xiànzài hěn liúxíng.",
+          "en": "This type of music is very popular right now.",
+          "vi": "Thể loại âm nhạc này bây giờ rất thịnh hành."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "popular; fashionable",
+          "sentence": "她的服裝風格非常流行。",
+          "pinyin": "tā de fúzhuāng fēnggé fēicháng liúxíng.",
+          "en": "Her fashion style is very popular.",
+          "vi": "Phong cách ăn mặc của cô ấy rất phổ biến."
+        },
+        {
+          "type": "Verb",
+          "meaning": "popular; prevail; widely spread",
+          "sentence": "新型手機在年輕人中流行。",
+          "pinyin": "xīnxíng shǒujī zài niánqīng rén zhōng liúxíng.",
+          "en": "This new type of phone is popular among young people.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "popular; prevail; widely spread",
+          "sentence": "他創造的舞步開始流行了。",
+          "pinyin": "tā chuàngzào de wǔbù kāishǐ liúxíngle.",
+          "en": "The dance moves he created have started to become popular.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "唉",
+      "pinyin": "āi",
+      "en": "sigh; oh no",
+      "vi": "ôi; chao ôi",
+      "samples": [
+        {
+          "type": "intj",
+          "meaning": "oh; ah; well",
+          "sentence": "唉,我弄丟了兩本書了。",
+          "pinyin": "ài, wǒ nòng diūle liǎng běn shūle.",
+          "en": "Ugh, I've lost two books.",
+          "vi": ""
+        },
+        {
+          "type": "intj",
+          "meaning": "oh; ah; well",
+          "sentence": "唉，這次他又輸了。",
+          "pinyin": "ài, zhè cì tā yòu shūle.",
+          "en": "Ugh, he lost again this time.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "演唱會",
+      "pinyin": "yǎnchànghuì",
+      "en": "concert",
+      "vi": "buổi hòa nhạc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "vocal recital; vocal concert",
+          "sentence": "我要去看一場演唱會。",
+          "pinyin": "wǒ yào qù kàn yī chǎng yǎnchàng huì.",
+          "en": "I want to go see a concert.",
+          "vi": "Tôi muốn đi xem một buổi hòa nhạc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "vocal recital; vocal concert",
+          "sentence": "我去過很多她的演唱會。",
+          "pinyin": "wǒ qùguò hěnduō tā de yǎnchàng huì.",
+          "en": "I've been to many of her concerts.",
+          "vi": "Tôi đã xem rất nhiều buổi diễn của cô ấy."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "塞車",
+      "pinyin": "sāichē",
+      "en": "traffic jam",
+      "vi": "kẹt xe",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "traffic jam",
+          "sentence": "高峰/峯時間常常塞車。",
+          "pinyin": "gāofēng shíjiān chángcháng sāichē.",
+          "en": "Traffic jams are common during rush hour.",
+          "vi": "Giờ cao điểm thường xuyên tắc đường."
+        },
+        {
+          "type": "Verb",
+          "meaning": "traffic jam",
+          "sentence": "城市中心總是塞車。",
+          "pinyin": "chéngshì zhōngxīn zǒng shì sāichē.",
+          "en": "The city center is always congested.",
+          "vi": "Trung tâm thành phố luôn bị tắc đường."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "線上",
+      "pinyin": "xiànshàng",
+      "en": "online",
+      "vi": "trực tuyến",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "online",
+          "sentence": "我們在線上聊天。",
+          "pinyin": "wǒmen zàixiàn shàng liáotiān.",
+          "en": "We are having an online chat.",
+          "vi": "Chúng ta trò chuyện trên mạng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "online",
+          "sentence": "他在線上購物。",
+          "pinyin": "tā zàixiàn shàng gòuwù.",
+          "en": "He is doing online shopping.",
+          "vi": "Anh ấy mua sắm trực tuyến."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "成功",
+      "pinyin": "chénggōng",
+      "en": "to succeed; success",
+      "vi": "thành công",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "succeed",
+          "sentence": "他成功解決了問題。",
+          "pinyin": "tā chénggōng jiějuéle wèntí.",
+          "en": "He succeed in solving the problem.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "succeed",
+          "sentence": "項目結果最終成功了。",
+          "pinyin": "xiàngmù jiéguǒ zuìzhōng chénggōngle.",
+          "en": "The project results ultimately succeeded.",
+          "vi": "Kết quả dự án cuối cùng thành công."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "successful",
+          "sentence": "這次考試成績很成功。",
+          "pinyin": "zhè cì kǎoshì chéngjī hěn chénggōng.",
+          "en": "The results of this exam were very successful.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "successful",
+          "sentence": "他們的閤作非常成功。",
+          "pinyin": "tāmen de hézuò fēicháng chénggōng.",
+          "en": "Their collaboration was very successful.",
+          "vi": "Sự hợp tác của họ rất thành công."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "倒楣",
+      "pinyin": "dǎoméi",
+      "en": "unlucky",
+      "vi": "xui xẻo",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "unlucky; unfortunate; having bad luck",
+          "sentence": "倒楣的事情髮/發生了。",
+          "pinyin": "dǎoméi de shìqíng fāshēngle.",
+          "en": "Unlucky things happened.",
+          "vi": "Việc không may đã xảy ra."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "unlucky; unfortunate; having bad luck",
+          "sentence": "她覺得自己很倒楣。",
+          "pinyin": "tā juéde zìjǐ hěn dǎoméi.",
+          "en": "She feels very unlucky.",
+          "vi": "Cô ấy cảm thấy mình rất xui xẻo."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "樂團",
+      "pinyin": "yuètuán",
+      "en": "band",
+      "vi": "ban nhạc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "philharmonic society",
+          "sentence": "她加入了大學樂團。",
+          "pinyin": "Tā jiā rù le dà xué yuè tuán.",
+          "en": "She joined the university philharmonic.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(philharmonic) orchestra",
+          "sentence": "管弦樂團正在排練新麴。",
+          "pinyin": "Guǎnxiányuè tuán zhèngzài páiliàn xīn qǔ.",
+          "en": "The orchestra is rehearsing a new piece.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "唱",
+      "pinyin": "chàng",
+      "en": "to sing",
+      "vi": "hát",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sing",
+          "sentence": "她喜歡在傢裡/裏唱歌。",
+          "pinyin": "tā xǐhuan zài jiālǐ chànggē.",
+          "en": "She likes singing at home.",
+          "vi": "Cô ấy thích hát ở nhà."
+        },
+        {
+          "type": "Verb",
+          "meaning": "sing",
+          "sentence": "他在唱歌時很投入。",
+          "pinyin": "tā zài chànggē shí hěn tóurù.",
+          "en": "He is very focused when singing.",
+          "vi": "Anh ấy rất say mê khi hát."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a song or a singing part of a Chinese opera",
+          "sentence": "唱詞中充滿了曆史故事。",
+          "pinyin": "chàngcí zhōng chōngmǎnle lìshǐ gù shi.",
+          "en": "The lyrics are filled with historical stories.",
+          "vi": "Lời ca chứa đầy các câu chuyện lịch sử."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a song or a singing part of a Chinese opera",
+          "sentence": "奶奶喜歡在茶館裡/裏聽唱兒。",
+          "pinyin": "nǎinai xǐhuan zài cháguǎn lǐ tīng chàngr.",
+          "en": "Grandma likes to listen to the singing in the teahouse.",
+          "vi": "Bà thích nghe hát tại quán trà."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "興奮",
+      "pinyin": "xīngfèn",
+      "en": "excited",
+      "vi": "phấn khích",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "excited; exciting",
+          "sentence": "他看起來非常興奮。",
+          "pinyin": "tā kàn qǐlái fēicháng xīngfèn.",
+          "en": "He looks very excited.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "excited; exciting",
+          "sentence": "她因為好消息而興奮。",
+          "pinyin": "tā yīnwèi hǎo xiāoxī ér xīngfèn.",
+          "en": "She is excited about the good news.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "excitation; excitement",
+          "sentence": "觀眾/衆充滿了興奮。",
+          "pinyin": "guānzhòng chōngmǎnle xīngfèn.",
+          "en": "The audience was full of excitement.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "excitation; excitement",
+          "sentence": "興奮讓她無法入睡。",
+          "pinyin": "xīngfèn ràng tā wúfǎ rùshuì.",
+          "en": "Excitement kept her awake.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "excite; work on; intoxicate",
+          "sentence": "這個消息興奮了大傢。",
+          "pinyin": "zhège xiāoxī xīngfènle dàjiā.",
+          "en": "This news excited everyone.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "excite; work on; intoxicate",
+          "sentence": "他的演講興奮了觀眾/衆。",
+          "pinyin": "tā de yǎnjiǎng xīngfènle guānzhòng.",
+          "en": "His speech excited the audience.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "迷",
+      "pinyin": "mí",
+      "en": "to be crazy about",
+      "vi": "mê",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lost; be confused; lose one's way",
+          "sentence": "他在森林裡/裏迷了路。",
+          "pinyin": "tā zài sēnlín lǐ míle lù.",
+          "en": "He got lost in the forest.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "lost; be confused; lose one's way",
+          "sentence": "病人已經昏迷了三天。",
+          "pinyin": "bìngrén yǐjīng hūnmíle sān tiān.",
+          "en": "The patient has been unconscious for three days.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "fan; fiend; enthusiast",
+          "sentence": "他是個電影迷。",
+          "pinyin": "tā shìgè diànyǐng mí.",
+          "en": "He is a movie fan.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "fan; fiend; enthusiast",
+          "sentence": "我哥哥是個球迷。",
+          "pinyin": "wǒ gēge shìgè qiúmí.",
+          "en": "My brother is a sports fan.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "歌詞",
+      "pinyin": "gēcí",
+      "en": "lyrics",
+      "vi": "lời bài hát",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lyrics; words of a song",
+          "sentence": "我很喜歡這首歌的歌詞。",
+          "pinyin": "wǒ hěn xǐhuan zhè shǒu gē de gēcí.",
+          "en": "I really like the lyrics of this song.",
+          "vi": "Tôi rất thích lời bài hát này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "lyrics; words of a song",
+          "sentence": "請把歌詞翻譯成英語。",
+          "pinyin": "qǐng bǎ gēcí fānyì chéng yīngyǔ.",
+          "en": "Please translate the lyrics into English.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "難過",
+      "pinyin": "nánguò",
+      "en": "sad",
+      "vi": "buồn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "sad; bad; sorry",
+          "sentence": "你不要再難過了。",
+          "pinyin": "nǐ bùyào zài nánguòle.",
+          "en": "Don't be sad anymore.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "sad; bad; sorry",
+          "sentence": "爸爸媽媽很難過。",
+          "pinyin": "bàba māma hěn nánguò.",
+          "en": "Mom and Dad are very sad.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "不如",
+      "pinyin": "bùrú",
+      "en": "not as good as; might as well",
+      "vi": "thà rằng; không bằng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "inferior to; not equal to; not as good as; cannot do better than",
+          "sentence": "遠親不如近鄰。",
+          "pinyin": "yuǎn qīn bù rú jìn lín.",
+          "en": "A distant relative is not as good as a near neighbour.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "inferior to; not equal to; not as good as; cannot do better than",
+          "sentence": "論技術，他不如我。",
+          "pinyin": "lùn jìshù, tā bùrú wǒ.",
+          "en": "In terms of skills, he is not as good as me.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "rather than; better than; had better; would rather; it would be better to",
+          "sentence": "與其長期租車，不如買車。",
+          "pinyin": "yǔqí cháng qī zūchē, bùrú mǎi chē.",
+          "en": "Rather than renting a car for a long time, it's better to buy one.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "rather than; better than; had better; would rather; it would be better to",
+          "sentence": "與其等你，不如我自己去。",
+          "pinyin": "yǔqí děng nǐ, bùrú wǒ zìjǐ qù.",
+          "en": "Rather than waiting for you, I’ll go by myself.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "現場",
+      "pinyin": "xiànchǎng",
+      "en": "on-site; live",
+      "vi": "trực tiếp tại chỗ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "scene (of an incident)",
+          "sentence": "警察趕到了殺人現場。",
+          "pinyin": "jǐngchá gǎn dàole shārén xiànchǎng.",
+          "en": "The police arrived at the scene of the homicide.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "scene (of an incident)",
+          "sentence": "消防隊立刻趕到現場。",
+          "pinyin": "xiāofáng duì lìkè gǎn dào xiànchǎng.",
+          "en": "Firefighters were on the scene immediately.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "跳",
+      "pinyin": "tiào",
+      "en": "to jump; to dance",
+      "vi": "nhảy",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "jump; leap",
+          "sentence": "他興奮地跳起來。",
+          "pinyin": "tā xīngfèn de tiào qǐlái.",
+          "en": "He bounced up excitedly.",
+          "vi": "Anh ấy nhảy lên một cách phấn khích."
+        },
+        {
+          "type": "verb",
+          "meaning": "jump; leap",
+          "sentence": "別跳，小心摔倒。",
+          "pinyin": "bié tiào, xiǎoxīn shuāi dǎo.",
+          "en": "Don't jump, you might fall.",
+          "vi": "Đừng nhảy, cẩn thận ngã."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "整",
+      "pinyin": "zhěng",
+      "en": "whole; entire",
+      "vi": "cả; nguyên",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "full; whole; entire; complete",
+          "sentence": "這是一整套設備。",
+          "pinyin": "zhè shì yī zhěngtào shèbèi.",
+          "en": "This is a complete set of equipment.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "full; whole; entire; complete",
+          "sentence": "他整天都在工作。",
+          "pinyin": "tā zhěng tiān dōu zài gōngzuò.",
+          "en": "He works all day long.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rectify; put in order",
+          "sentence": "我們需要重整旗鼓。",
+          "pinyin": "wǒmen xūyào chóngzhěngqígǔ.",
+          "en": "We need to regroup.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rectify; put in order",
+          "sentence": "他正在整理房間。",
+          "pinyin": "tā zhèngzài zhěnglǐ fángjiān.",
+          "en": "He is tidying up the room.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "integer",
+          "sentence": "他給我了整的錢。",
+          "pinyin": "tā gěi wǒle zhěng de qián.",
+          "en": "He gave me the exact amount of money.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "integer",
+          "sentence": "他給我一個整數字。",
+          "pinyin": "tā gěi wǒ yīgè zhěng shùzì.",
+          "en": "He gave me an integer.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "震動",
+      "pinyin": "zhèndòng",
+      "en": "to shake; to vibrate",
+      "vi": "rung động; rung lên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shake; shock; vibrate; quake",
+          "sentence": "桌子震動，可能地震了。",
+          "pinyin": "zhuōzǐ zhèndòng, kěnéng dìzhènle.",
+          "en": "The table is shaking; there might be an earthquake.",
+          "vi": "Cái bàn rung chuyển, có thể đã động đất."
+        },
+        {
+          "type": "Verb",
+          "meaning": "shake; shock; vibrate; quake",
+          "sentence": "地闆震動，令人心慌。",
+          "pinyin": "dìbǎn zhèndòng, lìng rén xīnhuāng.",
+          "en": "The shaking floor makes people nervous.",
+          "vi": "Sàn nhà rung chuyển, khiến người ta lo sợ."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "漫畫",
+      "pinyin": "mànhuà",
+      "en": "comic",
+      "vi": "truyện tranh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cartoon; caricature",
+          "sentence": "我喜歡看漫畫。",
+          "pinyin": "wǒ xǐhuan kàn mànhuà.",
+          "en": "I like to read comics.",
+          "vi": "Tôi thích đọc truyện tranh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "cartoon; caricature",
+          "sentence": "這本漫畫很有趣。",
+          "pinyin": "zhè běn mànhuà hěn yǒuqù.",
+          "en": "This comic is very interesting.",
+          "vi": "Cuốn truyện tranh này rất hay."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "內容",
+      "pinyin": "nèiróng",
+      "en": "content",
+      "vi": "nội dung",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "content; substance",
+          "sentence": "請閱讀以下內容。",
+          "pinyin": "qǐng yuèdú yǐxià nèiróng.",
+          "en": "Please read the following content.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "content; substance",
+          "sentence": "節目內容你知道嗎？",
+          "pinyin": "jiémù nèiróng nǐ zhīdào ma?",
+          "en": "Do you know the program's content?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "色情",
+      "pinyin": "sèqíng",
+      "en": "pornographic; obscene",
+      "vi": "khiêu dâm; đồi trụy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "erotic; pornographic",
+          "sentence": "色情作品有不好的影響。",
+          "pinyin": "sèqíng zuòpǐn yǒu bù hǎo de yǐngxiǎng.",
+          "en": "Pornography has negative effects.",
+          "vi": "Tác phẩm kiêu dâm có ảnh hưởng xấu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "erotic; pornographic",
+          "sentence": "這部電影色情鏡頭太多。",
+          "pinyin": "zhè bù diànyǐng sèqíng jìngtóu tài duō.",
+          "en": "The film has a lot of sex in it.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "放鬆",
+      "pinyin": "fàngsōng",
+      "en": "to relax",
+      "vi": "thư giãn",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "relax; slacken; loosen; uncage",
+          "sentence": "聽音樂可以放鬆心情。",
+          "pinyin": "tīng yīnyuè kěyǐ fàngsōng xīnqíng.",
+          "en": "Listening to music can relax one's mood.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "relax; slacken; loosen; uncage",
+          "sentence": "我打算去旅遊，放鬆一下。",
+          "pinyin": "wǒ dǎsuàn qù lǚyóu, fàngsōng yīxià.",
+          "en": "I plan to go on a trip to relax.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "心情",
+      "pinyin": "xīnqíng",
+      "en": "mood",
+      "vi": "tâm trạng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mood; feeling tone; frame (state) of mind",
+          "sentence": "今天我的心情很好。",
+          "pinyin": "jīntiān wǒ de xīnqíng hěn hǎo.",
+          "en": "Today, my mood is very good.",
+          "vi": "Hôm nay tâm trạng của tôi rất tốt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "mood; feeling tone; frame (state) of mind",
+          "sentence": "他最近心情不太好。",
+          "pinyin": "tā zuìjìn xīnqíng bù tài hǎo.",
+          "en": "He hasn’t been feeling well lately.",
+          "vi": "Dạo này tâm trạng của anh ấy không tốt lắm."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "五月天",
+      "pinyin": "Wǔyuètiān",
+      "en": "Mayday",
+      "vi": "Mayday",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "month",
+          "sentence": "我來中國兩個月了。",
+          "pinyin": "wǒ lái zhōngguó liǎng gè yuèle.",
+          "en": "I have been in China for two months.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "month",
+          "sentence": "這幾個月我在學漢語。",
+          "pinyin": "zhè jǐ gè yuè wǒ zàixué hànyǔ.",
+          "en": "I have been learning Chinese these months.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "算了",
+      "pinyin": "suàn le",
+      "en": "forget it",
+      "vi": "thôi bỏ đi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "forget it; let it be",
+          "sentence": "他不衕意就算了吧。",
+          "pinyin": "tā bù tóngyì jiùsuànle ba.",
+          "en": "If he doesn’t agree, just let it be.",
+          "vi": "Anh ấy không đồng ý thì thôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "forget it; let it be",
+          "sentence": "他不願意就算了吧。",
+          "pinyin": "tā bù yuànyì jiùsuànle ba.",
+          "en": "If he’s unwilling, just let it go.",
+          "vi": "Anh ấy không đồng ý thì thôi."
+        },
+        {
+          "type": "Particle",
+          "meaning": "let it be; let it pass",
+          "sentence": "別等了，早點兒去算了!",
+          "pinyin": "bié děngle, zǎo diǎnr qù suànle!",
+          "en": "Don’t wait anymore, just go early!",
+          "vi": "Mau đi đi, đừng có chờ nữa!"
+        },
+        {
+          "type": "Particle",
+          "meaning": "let it be; let it pass",
+          "sentence": "今天就幹到這裡/裏算了。",
+          "pinyin": "jīntiān jiù gān dào zhèlǐ suànle.",
+          "en": "We'll stop here today.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "受歡迎",
+      "pinyin": "shòu huānyíng",
+      "en": "popular; well-received",
+      "vi": "được yêu thích",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "be well received; be well liked; go down well with",
+          "sentence": "這個産品很受歡迎。",
+          "pinyin": "zhège chǎnpǐn hěn shòu huānyíng.",
+          "en": "This product is very popular.",
+          "vi": "Sản phẩm này rất được yêu thích."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "be well received; be well liked; go down well with",
+          "sentence": "他在學校很受歡迎。",
+          "pinyin": "tā zài xuéxiào hěn shòu huānyíng.",
+          "en": "He is very popular at school.",
+          "vi": "Anh ấy rất được yêu quý ở trường."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "擠滿",
+      "pinyin": "jǐmǎn",
+      "en": "packed with",
+      "vi": "chật kín",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "jam-packed; crowded to bursting point",
+          "sentence": "房間裡/裏擠滿了人。",
+          "pinyin": "fáng jiān lǐ jǐ mǎn le rén.",
+          "en": "The room is crowded with people.",
+          "vi": "Trong phòng đông nghịt người."
+        },
+        {
+          "type": "Verb",
+          "meaning": "jam-packed; crowded to bursting point",
+          "sentence": "公園擠滿了遊客。",
+          "pinyin": "gōngyuán jǐ mǎnle yóukè.",
+          "en": "The park is crowded with tourists.",
+          "vi": "Công viên đầy khách du lịch."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "租書店",
+      "pinyin": "zūshūdiàn",
+      "en": "comic rental store",
+      "vi": "tiệm cho thuê sách",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hire; rent; charter",
+          "sentence": "我租了一間房子。",
+          "pinyin": "wǒ zūle yī jiàn fángzi.",
+          "en": "I rented a house.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hire; rent; charter",
+          "sentence": "我們租了一些設備。",
+          "pinyin": "wǒmen zūle yīxiē shèbèi.",
+          "en": "We rented some equipment.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "rent",
+          "sentence": "我的月租已經交了。",
+          "pinyin": "wǒ de yuè zū yǐjīng jiāole.",
+          "en": "My monthly rent has been paid.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "rent",
+          "sentence": "我的房租是3000塊。",
+          "pinyin": "wǒ de fángzū shì 3000 kuài.",
+          "en": "My rent is 3,000 yuan.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "平板電腦",
+      "pinyin": "píngbǎn diànnǎo",
+      "en": "tablet",
+      "vi": "máy tính bảng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "tablet (iPad, Android devices etc)",
+          "sentence": "我想買一臺平闆電腦。",
+          "pinyin": "wǒ xiǎng mǎi yī tái píngbǎn diànnǎo.",
+          "en": "I want to buy a tablet.",
+          "vi": "Tôi muốn mua một chiếc máy tính bảng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "tablet (iPad, Android devices etc)",
+          "sentence": "她用平闆電腦看電影。",
+          "pinyin": "tā yòng píngbǎn diànnǎo kàn diànyǐng.",
+          "en": "She uses a tablet to watch movies.",
+          "vi": "Cô ấy dùng máy tính bảng để xem phim."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "智慧型手機",
+      "pinyin": "zhìhuìxíng shǒujī",
+      "en": "smartphone",
+      "vi": "điện thoại thông minh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "smartphone (Tw)",
+          "sentence": "我的新智慧型手機很好用。",
+          "pinyin": "Wǒ de xīn zhì huì xíng shǒu jī hěn hǎo yòng.",
+          "en": "My new smartphone works very well.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "殺時間",
+      "pinyin": "shā shíjiān",
+      "en": "to kill time",
+      "vi": "giết thời gian",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "time",
+          "sentence": "我們要珍惜時間。",
+          "pinyin": "wǒmen yào zhēnxī shíjiān.",
+          "en": "We must cherish our time.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "time",
+          "sentence": "對我來説，時間就是金錢。",
+          "pinyin": "duì wǒ lái shuō, shíjiān jiùshì jīnqián.",
+          "en": "To me, time is money.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "漫畫展",
+      "pinyin": "mànhuàzhǎn",
+      "en": "comic exhibition",
+      "vi": "triển lãm truyện tranh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "draw; paint",
+          "sentence": "你畫得真好看啊!",
+          "pinyin": "nǐ huà de zhēn hǎokàn a!",
+          "en": "Your drawing is really beautiful!",
+          "vi": "Bạn vẽ thật đẹp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "draw; paint",
+          "sentence": "我的愛好是畫畫兒。",
+          "pinyin": "wǒ de àihào shì huà huàr.",
+          "en": "My hobby is painting.",
+          "vi": "Sở thích của tôi là vẽ tranh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "drawing; painting; picture",
+          "sentence": "這幅畫非常美麗。",
+          "pinyin": "zhè fú huà fēicháng měilì.",
+          "en": "This painting is very beautiful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "drawing; painting; picture",
+          "sentence": "這是一幅中國畫。",
+          "pinyin": "zhè shì yī fú zhōngguóhuà.",
+          "en": "This is a Chinese painting.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "stroke (of a Chinese character)",
+          "sentence": "每個漢字有很多畫。",
+          "pinyin": "měi gè hànzì yǒu hěnduō huà.",
+          "en": "Each Chinese character has many strokes.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "stroke (of a Chinese character)",
+          "sentence": "我寫字時小心每一畫。",
+          "pinyin": "wǒ xiězì shí xiǎoxīn měi yī huà.",
+          "en": "I am careful with every stroke when writing.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "來不及",
+      "pinyin": "lái bù jí",
+      "en": "to not make it in time",
+      "vi": "không kịp",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "it's too late; there's no time; there's not enough time (to do sth.)",
+          "sentence": "我們快要來不及了。",
+          "pinyin": "wǒmen kuàiyào láibujíle.",
+          "en": "We are almost too late.",
+          "vi": "Chúng ta sắp không kịp rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "it's too late; there's no time; there's not enough time (to do sth.)",
+          "sentence": "現在後悔也來不及了。",
+          "pinyin": "xiànzài hòuhuǐ yě láibujíle.",
+          "en": "It's too late to regret now.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "撞衫",
+      "pinyin": "zhuàngshān",
+      "en": "to wear the same outfit as someone else",
+      "vi": "đụng hàng quần áo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to wear the same outfit as sb else (in public)",
+          "sentence": "今天我不小心撞衫了。",
+          "pinyin": "jīntiān wǒ bù xiǎoxīn zhuàngshānle.",
+          "en": "Today, I accidentally matched someone.",
+          "vi": "Hôm nay tôi vô tình mặc đồ đụng hàng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to wear the same outfit as sb else (in public)",
+          "sentence": "我們在派對上撞衫了。",
+          "pinyin": "wǒmen zài pàiduì shàng zhuàngshānle.",
+          "en": "We wore the same clothes at the party.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "它",
+      "pinyin": "tā",
+      "en": "it",
+      "vi": "nó",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "it",
+          "sentence": "這狗不咬人，別怕它。",
+          "pinyin": "zhè gǒu bù yǎo rén, bié pà tā.",
+          "en": "This dog doesn’t bite, don’t be afraid of it.",
+          "vi": "Con chó này không cắn người, đừng sợ nó."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "it",
+          "sentence": "它是隻可愛的貓。",
+          "pinyin": "tā shì zhī kě'ài de māo.",
+          "en": "It’s a cute cat.",
+          "vi": "Nó là một con mèo đáng yêu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "它先生是我的老師。",
+          "pinyin": "tā xiānsheng shì wǒ de lǎoshī.",
+          "en": "Mr. Ta is my teacher.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我認識一個姓它的人。",
+          "pinyin": "wǒ rèn shi yīgè xìng tā de rén.",
+          "en": "I know someone with the surname Ta.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "塞",
+      "pinyin": "sāi",
+      "en": "to stuff; to cram",
+      "vi": "nhét",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stuff; plug; fill in; squeeze in",
+          "sentence": "東西太多了, 不能再塞了。",
+          "pinyin": "dōngxi tài duōle, bùnéng zài sāile.",
+          "en": "There’s too much stuff, it can't fit anymore.",
+          "vi": "Nhiều đồ quá rồi không thể nhét vào thêm nữa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "stuff; plug; fill in; squeeze in",
+          "sentence": "他把書塞進行李箱。",
+          "pinyin": "tā bǎ shū sāi jìn xínglǐ xiāng.",
+          "en": "He stuffed the books into the suitcase.",
+          "vi": "Anh nhét cuốn sách vào vali."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stopper",
+          "sentence": "這個瓶塞兒很可愛。",
+          "pinyin": "zhège píng sāir hěn kě'ài.",
+          "en": "This cork is very cute.",
+          "vi": "Nút chai này rất dễ thương."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stopper",
+          "sentence": "這些都是紅酒的瓶塞兒。",
+          "pinyin": "zhèxiē dōu shì hóngjiǔ de píng sāir.",
+          "en": "These are all wine bottle corks.",
+          "vi": "Đây là những cái nút chai rượu vang đỏ."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "當季",
+      "pinyin": "dāngjì",
+      "en": "in season; current season",
+      "vi": "theo mùa; đúng mùa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "time; season",
+          "sentence": "鞦季是我最喜歡的季節。",
+          "pinyin": "qiūjì shì wǒ zuì xǐhuān de jìjié.",
+          "en": "Autumn is my favourite season.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "time; season",
+          "sentence": "這個季節雨天很冷。",
+          "pinyin": "zhège jìjié yǔtiān hěn lěng.",
+          "en": "A rainy day is cold in this season.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "款式",
+      "pinyin": "kuǎnshì",
+      "en": "style; design",
+      "vi": "kiểu dáng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "model; style; design; fashion; pattern",
+          "sentence": "最新款式",
+          "pinyin": "zuì xīn kuǎn shì",
+          "en": "The latest style",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "model; style; design; fashion; pattern",
+          "sentence": "漂亮的款式。",
+          "pinyin": "piàoliang de kuǎnshì",
+          "en": "In fine style",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "連續劇",
+      "pinyin": "liánxùjù",
+      "en": "TV drama series",
+      "vi": "phim truyền hình dài tập",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "serial",
+          "sentence": "我每天都看一集連續劇。",
+          "pinyin": "wǒ měitiān dōu kàn yī jí liánxùjù.",
+          "en": "I watch one episode of a TV series every day.",
+          "vi": "Mỗi ngày tôi đều xem một tập phim truyền hình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "serial",
+          "sentence": "他整個下午都在看連續劇。",
+          "pinyin": "tā zhěnggè xiàwǔ dōu zài kàn liánxùjù.",
+          "en": "He spent the whole afternoon watching TV series.",
+          "vi": "Anh ấy đã dành cả buổi chiều để xem phim."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "主角",
+      "pinyin": "zhǔjiǎo",
+      "en": "main character",
+      "vi": "nhân vật chính",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lead; leading role; protagonist",
+          "sentence": "他是這部電影的主角。",
+          "pinyin": "tā shì zhè bù diànyǐng de zhǔ jué.",
+          "en": "He is the main character of this movie.",
+          "vi": "Anh ấy là nhân vật chính của bộ phim này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "lead; leading role; protagonist",
+          "sentence": "她演的主角很有魅力。",
+          "pinyin": "tā yǎn de zhǔ jué hěn yǒu mèilì.",
+          "en": "The character she plays is very charming.",
+          "vi": "Vai chính mà cô ấy diễn rất có sức hút."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "甜美",
+      "pinyin": "tiánměi",
+      "en": "sweet and lovely",
+      "vi": "ngọt ngào; đáng yêu",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "sweet; luscious",
+          "sentence": "這種蘋果多汁而甜美。",
+          "pinyin": "zhèzhǒng píngguǒ duōzhī ér tiánměi。",
+          "en": "These apples are juicy and sweet.",
+          "vi": "Loại táo này nhiều nước và ngọt."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "sweet; luscious",
+          "sentence": "這個水果味道甜美。",
+          "pinyin": "zhège shuǐguǒ wèidào tiánměi.",
+          "en": "This fruit has a sweet taste.",
+          "vi": "Trái cây này có vị ngọt."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "寄",
+      "pinyin": "jì",
+      "en": "to send; to mail",
+      "vi": "gửi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "send; post; mail",
+          "sentence": "包裹已經寄走了。",
+          "pinyin": "bāoguǒ yǐjīng jì zǒule.",
+          "en": "The package has already been sent.",
+          "vi": "Bưu phẩm đã gửi đi rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "send; post; mail",
+          "sentence": "他經常寄明信片。",
+          "pinyin": "tā jīngcháng jì míngxìnpiàn.",
+          "en": "He often sends postcards.",
+          "vi": "Anh ấy thường gửi bưu thiếp."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "foster; adopted",
+          "sentence": "寄父對我很關心。",
+          "pinyin": "jì fù duì wǒ hěn guānxīn.",
+          "en": "My foster father cares about me a lot.",
+          "vi": "Bố nuôi quan tâm tôi rất nhiều."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "foster; adopted",
+          "sentence": "寄兄時常幫助我。",
+          "pinyin": "jì xiōng shícháng bāngzhù wǒ.",
+          "en": "My foster brother often helps me.",
+          "vi": "Anh trai nuôi thường giúp tôi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我認識一個叫寄的朋友。",
+          "pinyin": "wǒ rèn shi yīgè jiào jì de péngyǒu.",
+          "en": "I know a friend named Ji.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我們的寄姓是很古老的。",
+          "pinyin": "wǒmen de jì xìng shì hěn gǔlǎo de.",
+          "en": "Our Ji surname is very ancient.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "居然",
+      "pinyin": "jūrán",
+      "en": "unexpectedly",
+      "vi": "không ngờ",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "unexpectedly; to one's surprise",
+          "sentence": "居然有這種事!",
+          "pinyin": "jūrán yǒu zhè zhǒng shì!",
+          "en": "Can't imagine such a thing exists!",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "unexpectedly; to one's surprise",
+          "sentence": "他居然會相信這件事!",
+          "pinyin": "tā jūrán huì xiāngxìn zhè jiàn shì!",
+          "en": "Suprisingly, he actually believes this!",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "害",
+      "pinyin": "hài",
+      "en": "to cause; to make",
+      "vi": "làm cho",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "evil; harm; calamity",
+          "sentence": "這件事對他有害。",
+          "pinyin": "zhè jiàn shì duì tā yǒuhài.",
+          "en": "This matter is harmful to him.",
+          "vi": "Điều này có hại cho anh ta."
+        },
+        {
+          "type": "Verb",
+          "meaning": "evil; harm; calamity",
+          "sentence": "熬夜對身體有害。",
+          "pinyin": "áoyè duì shēntǐ yǒuhài.",
+          "en": "Staying up late is harmful to the body.",
+          "vi": "Thức khuya có hại cho cơ thể."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "harmful; destructive; injurious",
+          "sentence": "她看起來很害怕。",
+          "pinyin": "tā kàn qǐlái hěn hàipà.",
+          "en": "She looks very scared.",
+          "vi": "Cô ấy có vẻ rất sợ hãi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "harmful; destructive; injurious",
+          "sentence": "她心裡/裏其實很害怕。",
+          "pinyin": "tā xīnlǐ qíshí hěn hàipà.",
+          "en": "She is secretly very scared.",
+          "vi": "Trong lòng cô ấy thực sự rất sợ hãi."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "既然",
+      "pinyin": "jìrán",
+      "en": "since; now that",
+      "vi": "đã ... thì",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "as; since; now that",
+          "sentence": "既然你已經來了，最好還是住下。",
+          "pinyin": "jìrán nǐ yǐjīng lái le, zuìhǎo háishì zhù xià.",
+          "en": "Now that you are here, you'd better stay.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "as; since; now that",
+          "sentence": "既然你生病了，就跟老闆請假吧。",
+          "pinyin": "jìrán nǐ shēngbìngle, jiù gēn lǎobǎn qǐngjià ba.",
+          "en": "Since you are sick, ask for leave from your boss.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "服裝",
+      "pinyin": "fúzhuāng",
+      "en": "clothing; outfit",
+      "vi": "trang phục",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "clothes; clothing; custome",
+          "sentence": "她的服裝很漂亮。",
+          "pinyin": "tā de fúzhuāng hěn piàoliang.",
+          "en": "Her outfit is very beautiful.",
+          "vi": "Trang phục của cô ấy rất đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "clothes; clothing; custome",
+          "sentence": "服裝的顏色很好看。",
+          "pinyin": "fúzhuāng de yánsè hěn hǎokàn.",
+          "en": "The color of the outfit is very nice.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "chinese": "媒體",
+      "pinyin": "méitǐ",
+      "en": "media",
+      "vi": "truyền thông",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "media; mass media",
+          "sentence": "媒體傳播了最新的消息。",
+          "pinyin": "méitǐ chuán bōle zuìxīn de xiāoxi.",
+          "en": "Media spread the latest news.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "media; mass media",
+          "sentence": "媒體的影響力越來越大。",
+          "pinyin": "méitǐ de yǐngxiǎng lì yuè lái yuè dà.",
+          "en": "The influence of media is growing.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "chinese": "方式",
+      "pinyin": "fāngshì",
+      "en": "way; method",
+      "vi": "cách thức",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "way; method",
+          "sentence": "你可以換一種生活方式。",
+          "pinyin": "nǐ kěyǐ huàn yī zhǒng shēnghuó fāngshì.",
+          "en": "You can change your way of life.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "way; method",
+          "sentence": "他這個人很註意説話方式。",
+          "pinyin": "tā zhège rén hěn zhùyì shuōhuà fāngshì.",
+          "en": "He is very careful about the way he speaks.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "chinese": "吸引",
+      "pinyin": "xīyǐn",
+      "en": "to attract",
+      "vi": "thu hút",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "attract; draw; appeal to",
+          "sentence": "這本書深深吸引了我。",
+          "pinyin": "zhè běn shū shēn shēn xīyǐnle wǒ.",
+          "en": "This book deeply attracted me.",
+          "vi": "Cuốn sách này đã thu hút tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "attract; draw; appeal to",
+          "sentence": "花朵吸引蜜蜂前來採蜜。",
+          "pinyin": "huāduǒ xīyǐn mìfēng qián lái cǎi mì.",
+          "en": "Flowers attract bees to gather honey.",
+          "vi": "Những bông hoa thu hút ong đến lấy mật."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "chinese": "避免",
+      "pinyin": "bìmiǎn",
+      "en": "to avoid",
+      "vi": "tránh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "avoid; avert; refrain from",
+          "sentence": "我們應該避免衝突。",
+          "pinyin": "wǒmen yīnggāi bìmiǎn chōngtú.",
+          "en": "We should avoid conflicts.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "avoid; avert; refrain from",
+          "sentence": "他想避免被誤解。",
+          "pinyin": "tā xiǎng bìmiǎn bèi wùjiě.",
+          "en": "He wants to avoid being misunderstood.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "chinese": "包包",
+      "pinyin": "bāobāo",
+      "en": "bag; purse",
+      "vi": "túi xách",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bag or purse etc",
+          "sentence": "她買了一個新包包。",
+          "pinyin": "tā mǎile yīgè xīn bāo bāo.",
+          "en": "She bought a new bag.",
+          "vi": "Cô ấy đã mua một chiếc túi mới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "bag or purse etc",
+          "sentence": "他把包包放在椅子上。",
+          "pinyin": "tā bǎ bāo bāo fàng zài yǐzi shàng.",
+          "en": "He put the bag on the chair.",
+          "vi": "Anh ấy đặt túi xách lên ghế."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "chinese": "商人",
+      "pinyin": "shāngrén",
+      "en": "businessperson",
+      "vi": "thương nhân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trader; merchant; businessman",
+          "sentence": "商人正在談判閤衕。",
+          "pinyin": "shāngrén zhèngzài tánpàn hétong.",
+          "en": "The merchant is negotiating a contract.",
+          "vi": "Thương nhân đang đàm phán hợp đồng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "trader; merchant; businessman",
+          "sentence": "商人們在市場上交易。",
+          "pinyin": "shāngrénmen zài shìchǎng shàng jiāoyì.",
+          "en": "The merchants are trading in the market.",
+          "vi": "Các thương nhân đang giao dịch ở chợ."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "chinese": "產品",
+      "pinyin": "chǎnpǐn",
+      "en": "product",
+      "vi": "sản phẩm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "product",
+          "sentence": "這些産品很受歡迎。",
+          "pinyin": "zhèxiē chǎnpǐn hěn shòu huānyíng.",
+          "en": "These products are very popular.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "product",
+          "sentence": "我們正在推廣新産品。",
+          "pinyin": "wǒmen zhèngzài tuīguǎng xīn chǎnpǐn.",
+          "en": "We are promoting a new product.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "chinese": "電子",
+      "pinyin": "diànzǐ",
+      "en": "electronic",
+      "vi": "điện tử",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "electron",
+          "sentence": "電子是原子的一部分。",
+          "pinyin": "diànzǐ shì yuánzǐ de yībùfèn.",
+          "en": "The electron is part of the atom.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "electron",
+          "sentence": "電子是原子中的基本粒子。",
+          "pinyin": "diànzǐ shì yuánzǐ zhōng de jīběn lìzǐ.",
+          "en": "The electron is a fundamental particle in the atom.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "chinese": "市場",
+      "pinyin": "shìchǎng",
+      "en": "market",
+      "vi": "thị trường",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "market",
+          "sentence": "我們去市場買菜吧。",
+          "pinyin": "wǒmen qù shìchǎng mǎi cài ba.",
+          "en": "Let's go to the market to buy groceries.",
+          "vi": "Chúng ta đi chợ mua rau nhé."
+        },
+        {
+          "type": "Noun",
+          "meaning": "market",
+          "sentence": "這傢市場很熱鬧。",
+          "pinyin": "zhè jiā shìchǎng hěn rè nao.",
+          "en": "This market is very lively.",
+          "vi": "Cái chợ này rất náo nhiệt."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "chinese": "新型",
+      "pinyin": "xīnxíng",
+      "en": "new style; new model",
+      "vi": "mẫu mới",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "late-model; new type; new pattern",
+          "sentence": "這是一種新型材料。",
+          "pinyin": "zhè shì yī zhǒng xīnxíng cáiliào.",
+          "en": "This is a new type of material.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "late-model; new type; new pattern",
+          "sentence": "興辦社會主義新型企業。",
+          "pinyin": "xīngbàn shèhuì zhǔyì xīnxíng qǐyè.",
+          "en": "Establish socialist new type enterprises.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "chinese": "落伍",
+      "pinyin": "luòwǔ",
+      "en": "out of date",
+      "vi": "lạc hậu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "straggle; drop behind; drop out; fall behind the ranks",
+          "sentence": "他在行軍時落伍了。",
+          "pinyin": "tā zài xíngjūn shí luòwǔle.",
+          "en": "He fell behind during the march.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "straggle; drop behind; drop out; fall behind the ranks",
+          "sentence": "大傢快點，別落伍！",
+          "pinyin": "dàjiā kuài diǎn, bié luòwǔ!",
+          "en": "Everyone, hurry up, don't fall behind!",
+          "vi": "Mọi người nhanh lên, đừng lạc đội."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "chinese": "知音",
+      "pinyin": "zhīyīn",
+      "en": "soulmate; close friend",
+      "vi": "tri kỷ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a friend keenly appreciative of one's talents; best friend",
+          "sentence": "知音難覓。",
+          "pinyin": "zhīyīn nán mì.",
+          "en": "It is difficult to find an understanding friend.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "intimate friend",
+          "sentence": "他終於找到了自己的知音。",
+          "pinyin": "Tā zhōngyú zhǎodào le zìjǐ de zhīyīn.",
+          "en": "He finally found his kindred spirit.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "chinese": "想像",
+      "pinyin": "xiǎngxiàng",
+      "en": "to imagine",
+      "vi": "tưởng tượng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "dream; think; fancy; imagine; visualize; conceive of",
+          "sentence": "他能想像未來的樣子。",
+          "pinyin": "tā néng xiǎngxiàng wèilái de yàngzi.",
+          "en": "He can imagine what the future looks like.",
+          "vi": "Anh ấy có thể tưởng tượng ra tương lai."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dream; think; fancy; imagine; visualize; conceive of",
+          "sentence": "我無法想像那種情況。",
+          "pinyin": "wǒ wúfǎ xiǎngxiàng nà zhǒng qíngkuàng.",
+          "en": "I can't imagine that kind of situation.",
+          "vi": "Tôi không thể tưởng tượng được tình huống đó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "imagination",
+          "sentence": "小説依靠作者的想像。",
+          "pinyin": "xiǎoshuō yīkào zuòzhě de xiǎngxiàng.",
+          "en": "Novels rely on the author's imagination.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "imagination",
+          "sentence": "他的畫展充滿想像力。",
+          "pinyin": "tā de huàzhǎn chōngmǎn xiǎngxiànglì.",
+          "en": "His art exhibition is full of imagination.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "chinese": "喇叭褲",
+      "pinyin": "lǎbākù",
+      "en": "bell-bottom pants",
+      "vi": "quần ống loe",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "flared trousers; bell-bottoms",
+          "sentence": "我想買一條新的喇叭褲。",
+          "pinyin": "Wǒ xiǎng mǎi yī tiáo xīn de lǎ ba kù.",
+          "en": "I want to buy a new pair of bell-bottoms.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "bell-bottomed pants; flares",
+          "sentence": "我買了一條新喇叭褲。",
+          "pinyin": "Wǒ mǎi le yī tiáo xīn lǎ ba kù.",
+          "en": "I bought a new pair of bell-bottom pants.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "chinese": "印象",
+      "pinyin": "yìnxiàng",
+      "en": "impression",
+      "vi": "ấn tượng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "impression",
+          "sentence": "他給我好印象。",
+          "pinyin": "tā gěi wǒ hǎo yìnxiàng.",
+          "en": "He gave me a good impression.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "impression",
+          "sentence": "印象非常深刻。",
+          "pinyin": "yìnxiàng fēicháng shēnkè.",
+          "en": "The impression is very deep.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "chinese": "遊戲",
+      "pinyin": "yóuxì",
+      "en": "game",
+      "vi": "trò chơi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "game; recreation",
+          "sentence": "這遊戲的售價為每套15元。",
+          "pinyin": "zhè yóuxì de shòu jià wèi měi tào 15 yuán.",
+          "en": "The game's selling price was $15 per unit.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "game; recreation",
+          "sentence": "這場遊戲是長時間的鬥智。",
+          "pinyin": "zhè chǎng yóuxì shì cháng shíjiān de dòuzhì.",
+          "en": "The game was a long battle of wits.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "play",
+          "sentence": "孩子們正在公園裡/裏遊戲。",
+          "pinyin": "háizǐmen zhèngzài gōngyuán lǐ yóuxì.",
+          "en": "The children are playing games in the park.",
+          "vi": "Bọn trẻ đang chơi đùa trong công viên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "play",
+          "sentence": "這種遊戲玩起來非常有趣。",
+          "pinyin": "zhè zhǒng yóuxì wán qǐlái fēicháng yǒuqù.",
+          "en": "It's a very amusing game to play.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "chinese": "化妝",
+      "pinyin": "huàzhuāng",
+      "en": "to put on makeup",
+      "vi": "trang điểm",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "make up; put on make-up",
+          "sentence": "她每天早上都化精緻的妝。",
+          "pinyin": "tā měitiān zǎoshang dōu huà jīngzhì de zhuāng.",
+          "en": "She puts on delicate make-up every morning.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "make up; put on make-up",
+          "sentence": "化妝可以讓自己更自信。",
+          "pinyin": "huàzhuāng kěyǐ ràng zìjǐ gèng zìxìn.",
+          "en": "Putting on makeup can make oneself more confident.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "chinese": "一模一樣",
+      "pinyin": "yì mú yí yàng",
+      "en": "exactly the same",
+      "vi": "giống y hệt",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "as like as two peas; be exactly alike",
+          "sentence": "他倆長得一模一樣。",
+          "pinyin": "tā liǎ zhǎng dé yīmúyīyàng.",
+          "en": "The two of them look exactly the same.",
+          "vi": "Hai người họ giống y như đúc."
+        },
+        {
+          "type": "idioms",
+          "meaning": "as like as two peas; be exactly alike",
+          "sentence": "這兩件瓷品一模一樣。",
+          "pinyin": "zhè liǎng jiàn cí pǐn yīmúyīyàng.",
+          "en": "These two porcelain items are exactly the same.",
+          "vi": "Hai món đồ sứ này giống nhau như đúc."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "chinese": "淺藍色",
+      "pinyin": "qiǎn lánsè",
+      "en": "light blue",
+      "vi": "xanh lam nhạt",
+      "samples": [
+        {
+          "type": "",
+          "meaning": "blue",
+          "sentence": "這件衣服是淺藍色的。",
+          "pinyin": "zhè jiàn yī fú shì qiǎn lán sè de",
+          "en": "This piece of clothing is light blue.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "chinese": "脫掉",
+      "pinyin": "tuōdiào",
+      "en": "to take off",
+      "vi": "cởi ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "take off; molt; strip off; discard",
+          "sentence": "他脫掉了濕透的衣服。",
+          "pinyin": "tā tuō diàole shī tòu de yīfu.",
+          "en": "He took off his soaked clothes.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "take off; molt; strip off; discard",
+          "sentence": "脫掉厚重的鼕裝很舒服。",
+          "pinyin": "tuō diào hòuzhòng de dōngzhuāng hěn shūfu.",
+          "en": "Taking off heavy winter clothes is very comfortable.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "chinese": "小題大作",
+      "pinyin": "xiǎotí dàzuò",
+      "en": "to make a mountain out of a molehill",
+      "vi": "chuyện bé xé ra to",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "make a mountain out of a molehill; make a big deal out of a small issue",
+          "sentence": "別為這點小事小題大作。",
+          "pinyin": "bié wèi zhè diǎn xiǎoshì xiǎo tí dà zuò.",
+          "en": "Don’t make a big deal out of such a small matter.",
+          "vi": "Đừng chuyện bé xé ra to vì chuyện nhỏ này."
+        },
+        {
+          "type": "idioms",
+          "meaning": "make a mountain out of a molehill; make a big deal out of a small issue",
+          "sentence": "小問題而已，別小題大作。",
+          "pinyin": "xiǎo wèntí éryǐ, bié xiǎo tí dàzuò.",
+          "en": "It's just a small problem, don't make a mountain out of a molehill.",
+          "vi": "Chỉ là vấn đề nhỏ thôi, đừng chuyện bé xé ra to."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "chinese": "推出",
+      "pinyin": "tuīchū",
+      "en": "to launch; to introduce",
+      "vi": "ra mắt; tung ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to roll out; to put out; to present",
+          "sentence": "公司推齣了新手機。",
+          "pinyin": "gōngsī tuīchūle xīn shǒujī.",
+          "en": "The company has launched a new phone.",
+          "vi": "Công ty đã ra mắt điện thoại mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to roll out; to put out; to present",
+          "sentence": "他們推齣了新服務。",
+          "pinyin": "tāmen tuīchūle xīn fúwù.",
+          "en": "They have launched a new service.",
+          "vi": "Họ ra mắt dịch vụ mới."
+        }
+      ]
+    }
+  ]
 }

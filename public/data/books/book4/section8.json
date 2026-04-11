@@ -7,1142 +7,2725 @@
       "id": 1,
       "chinese": "左右為難",
       "pinyin": "zuǒyòu wéinán",
-      "english": "in a dilemma, in a bind",
-      "vietnamese": "tiến thoái lưỡng nan, khó xử",
+      "en": "in a dilemma, in a bind",
+      "vi": "tiến thoái lưỡng nan, khó xử",
       "theme": "Psychology",
-      "sentenceChinese": "這一課談到了「左右為難」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"zuǒyòu wéinán\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"in a dilemma, in a bind\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"tiến thoái lưỡng nan, khó xử\"."
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "quandaries",
+          "sentence": "我被父母左右為難。",
+          "pinyin": "Wǒ bèi fù mǔ zuǒ yòu wéi nán.",
+          "en": "I'm torn between my parents.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "in a dilemma; in an awkward predicament",
+          "sentence": "我想去看看她, 可是不是時候。不去吧, 又不放心。真是左右為難。",
+          "pinyin": "Wǒ xiǎng qù kànkan tā, kě shì bù shì shíhou. Bù qù ba, yòu bù fàngxīn. Zhēnshi zuǒyòuwéinán.",
+          "en": "I’d like to go and see her, but the time is not right, yet I keep worrying about her. What a dilemma!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "難民",
       "pinyin": "nànmín",
-      "english": "refugee",
-      "vietnamese": "người tị nạn",
+      "en": "refugee",
+      "vi": "người tị nạn",
       "theme": "Society",
-      "sentenceChinese": "課文裡提到了「難民」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"nànmín\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"refugee\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"người tị nạn\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "refugee",
+          "sentence": "她幫助安置了許多難民。",
+          "pinyin": "tā bāngzhù ānzhìle xǔduō nànmín.",
+          "en": "She helped settle many refugees.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "refugee",
+          "sentence": "賑濟難民",
+          "pinyin": "zhèn jì nàn mín",
+          "en": "Relieve the refugees",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "男童",
       "pinyin": "nántóng",
-      "english": "boy, male child",
-      "vietnamese": "bé trai",
+      "en": "boy, male child",
+      "vi": "bé trai",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「男童」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"nántóng\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"boy, male child\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"bé trai\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "boy",
+          "sentence": "他是個童男童女，純潔無瑕。",
+          "pinyin": "Tā shì gè tóng nán tóng nǚ, chúnjié wú xiá.",
+          "en": "He is a pure and innocent boy and girl.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "male child",
+          "sentence": "醫生正在照顧男童。",
+          "pinyin": "yīshēng zhèngzài zhàogù nántóng",
+          "en": "The doctor is taking care of the boy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "溺死",
       "pinyin": "nìsǐ",
-      "english": "to drown (to death)",
-      "vietnamese": "chết đuối",
+      "en": "to drown (to death)",
+      "vi": "chết đuối",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「溺死」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"nìsǐ\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to drown (to death)\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"chết đuối\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to drown",
+          "sentence": "他差點被河水溺死。",
+          "pinyin": "tā chà diǎn bèi hé shuǐ nì sǐ",
+          "en": "He almost drowned in the river",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be drowned",
+          "sentence": "他差點被浪潮溺死。",
+          "pinyin": "Tā chàdiǎn bèi làngcháo nìsǐ.",
+          "en": "He was almost drowned by the waves.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "震驚",
       "pinyin": "zhènjīng",
-      "english": "to shock, stun",
-      "vietnamese": "gây chấn động, gây sốc",
+      "en": "to shock, stun",
+      "vi": "gây chấn động, gây sốc",
       "theme": "Emotions",
-      "sentenceChinese": "讀完這課以後，我對「震驚」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zhènjīng\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"to shock, stun\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"gây chấn động, gây sốc\" rõ hơn."
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "shocked; stunned; amazed; astonished",
+          "sentence": "這讓我非常震驚。",
+          "pinyin": "zhè ràng wǒ fēicháng zhènjīng.",
+          "en": "This shocked me greatly.",
+          "vi": "Điều này làm tôi rất kinh hãi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "shocked; stunned; amazed; astonished",
+          "sentence": "當時我震驚極了。",
+          "pinyin": "dāngshí wǒ zhènjīng jíle.",
+          "en": "I was extremely shocked at that time.",
+          "vi": "Lúc đó tôi vô cùng sốc."
+        },
+        {
+          "type": "Verb",
+          "meaning": "shock; amaze; astonish",
+          "sentence": "這條新聞震驚了全國。",
+          "pinyin": "zhè tiáo xīnwén zhènjīngle quánguó.",
+          "en": "This news shocked the whole country.",
+          "vi": "Tin tức này đã gây chấn động cả nước."
+        },
+        {
+          "type": "Verb",
+          "meaning": "shock; amaze; astonish",
+          "sentence": "這個事件震驚了世界。",
+          "pinyin": "zhège shìjiàn zhènjīngle shìjiè.",
+          "en": "This event shocked the world.",
+          "vi": "Sự kiện này đã gây chấn động thế giới."
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "接連",
       "pinyin": "jiēlián",
-      "english": "in succession, in a row",
-      "vietnamese": "liên tiếp",
+      "en": "in succession, in a row",
+      "vi": "liên tiếp",
       "theme": "Grammar",
-      "sentenceChinese": "這篇課文用「接連」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"jiēlián\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"in succession, in a row\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"liên tiếp\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "on end; in succession; in a row",
+          "sentence": "他接連輸了三場比賽。",
+          "pinyin": "tā jiēlián shūle sān chǎng bǐsài.",
+          "en": "He lost three games in a row.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "on end; in succession; in a row",
+          "sentence": "她接連幾天都沒睡好覺。",
+          "pinyin": "tā jiēlián jǐ tiān dōu méi shuì hǎo jiào.",
+          "en": "She didn’t sleep well for days.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "事件",
       "pinyin": "shìjiàn",
-      "english": "incident, episode",
-      "vietnamese": "sự kiện, vụ việc",
+      "en": "incident, episode",
+      "vi": "sự kiện, vụ việc",
       "theme": "General",
-      "sentenceChinese": "這一課談到了「事件」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"shìjiàn\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"incident, episode\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"sự kiện, vụ việc\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "event; incident",
+          "sentence": "那件事件震驚了全世界。",
+          "pinyin": "nà jiàn shìjiàn zhènjīngle quán shìjiè.",
+          "en": "That event shocked the entire world.",
+          "vi": "Sự kiện đó đã làm chấn động cả thế giới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "event; incident",
+          "sentence": "這個事件具有曆史意義。",
+          "pinyin": "zhège shìjiàn jùyǒu lìshǐ yìyì.",
+          "en": "This event has historical significance.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "不滿",
       "pinyin": "bùmǎn",
-      "english": "discontent, unhappy with",
-      "vietnamese": "bất mãn, không hài lòng",
+      "en": "discontent, unhappy with",
+      "vi": "bất mãn, không hài lòng",
       "theme": "Emotions",
-      "sentenceChinese": "課文裡提到了「不滿」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"bùmǎn\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"discontent, unhappy with\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"bất mãn, không hài lòng\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "discontented with",
+          "sentence": "她不滿老闆的決定。",
+          "pinyin": "tā bùmǎn lǎobǎn de juédìng.",
+          "en": "She is dissatisfied with the boss's decision.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "discontented with",
+          "sentence": "我不滿員工的做法。",
+          "pinyin": "wǒ bùmǎn yuángōng de zuòfǎ.",
+          "en": "I am discontented with the employees' actions.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "resentful; dissatisfied; discontented",
+          "sentence": "她對現在的工作方式不滿。",
+          "pinyin": "tā duì xiànzài de gōngzuò fāngshì bùmǎn.",
+          "en": "She is dissatisfied with the current working method.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "resentful; dissatisfied; discontented",
+          "sentence": "他對這個決定感到不滿。",
+          "pinyin": "tā duì zhège juédìng gǎndào bùmǎn.",
+          "en": "He is dissatisfied with this decision.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "分擔",
       "pinyin": "fēndān",
-      "english": "to share a burden/responsibility",
-      "vietnamese": "chia sẻ, gánh vác cùng",
+      "en": "to share a burden/responsibility",
+      "vi": "chia sẻ, gánh vác cùng",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「分擔」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"fēndān\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"to share a burden/responsibility\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"chia sẻ, gánh vác cùng\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "contribute; share responsibility for",
+          "sentence": "他們分擔了傢庭的各種開支。",
+          "pinyin": "tāmen fēndānle jiātíng de gè zhǒng kāizhī.",
+          "en": "They shared the various household expenses.",
+          "vi": "Họ chia sẻ các chi phí trong gia đình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "contribute; share responsibility for",
+          "sentence": "每個人都要分擔部分的任務。",
+          "pinyin": "měi gèrén dōu yào fēndān bùfèn de rènwù.",
+          "en": "Everyone has to share part of the tasks.",
+          "vi": "Mỗi người đều phải chia sẻ một phần nhiệm vụ."
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "化",
       "pinyin": "huà",
-      "english": "to turn into, convert into",
-      "vietnamese": "hóa, biến thành",
+      "en": "to turn into, convert into",
+      "vi": "hóa, biến thành",
       "theme": "Grammar",
-      "sentenceChinese": "在這個主題裡，「化」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"huà\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to turn into, convert into\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"hóa, biến thành\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "turn; change; transform",
+          "sentence": "生物不斷在進化。",
+          "pinyin": "shēngwù bùduàn zài jìnhuà.",
+          "en": "Living beings keep evolving.",
+          "vi": "Sinh vật không ngừng tiến hóa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "turn; change; transform",
+          "sentence": "水加熱會化成水蒸氣。",
+          "pinyin": "shuǐ jiārè huì huàchéng shuǐ zhēngqì.",
+          "en": "When heated, water turns into steam.",
+          "vi": "Nước khi đun nóng sẽ hóa thành hơi nước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "chemistry",
+          "sentence": "化學實驗很有趣。",
+          "pinyin": "huàxué shíyàn hěn yǒuqù.",
+          "en": "The chemistry experiment is very interesting.",
+          "vi": "Thí nghiệm hóa học rất thú vị."
+        },
+        {
+          "type": "Noun",
+          "meaning": "chemistry",
+          "sentence": "他喜歡研究化學。",
+          "pinyin": "tā xǐhuan yánjiū huàxué.",
+          "en": "He likes to study chemistry.",
+          "vi": "Anh ấy thích nghiên cứu hóa học."
+        },
+        {
+          "type": "suff",
+          "meaning": "[as a verb suffix] -ize; -ify",
+          "sentence": "城市建設追求現代化。",
+          "pinyin": "chéngshì jiànshè zhuīqiú xiàndàihuà.",
+          "en": "Urban construction pursues modernization.",
+          "vi": "Xây dựng thành phố theo hướng hiện đại hóa."
+        },
+        {
+          "type": "suff",
+          "meaning": "[as a verb suffix] -ize; -ify",
+          "sentence": "我國加速推進工業化。",
+          "pinyin": "wǒguó jiāsù tuījìn gōngyèhuà.",
+          "en": "Our country is accelerating industrialization.",
+          "vi": "Đất nước đang đẩy mạnh công nghiệp hóa."
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "轉機",
       "pinyin": "zhuǎnjī",
-      "english": "opportunity (life-saving)",
-      "vietnamese": "bước ngoặt, chuyển cơ",
+      "en": "opportunity (life-saving)",
+      "vi": "bước ngoặt, chuyển cơ",
       "theme": "General",
-      "sentenceChinese": "讀完這課以後，我對「轉機」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zhuǎnjī\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"opportunity (life-saving)\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"bước ngoặt, chuyển cơ\" rõ hơn."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "a favourable turn; a turn for the better",
+          "sentence": "她的傢境仍無轉機。",
+          "pinyin": "tā de jiā jìng réng wú zhuǎn jī.",
+          "en": "The condition of her family was not improving.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a favourable turn; a turn for the better",
+          "sentence": "他的病情有了轉機。",
+          "pinyin": "tā de bìngqíng yǒule zhuǎnjī.",
+          "en": "His illness took a favourable turn.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "transfer (flight); change to another plane",
+          "sentence": "我們在上海轉機。",
+          "pinyin": "wǒmen zài shànghǎi zhuǎnjī.",
+          "en": "We transfer flights in Shanghai.",
+          "vi": "Chúng tôi chuyển máy bay tại Thượng Hải."
+        },
+        {
+          "type": "Verb",
+          "meaning": "transfer (flight); change to another plane",
+          "sentence": "在北京轉機很方便。",
+          "pinyin": "zài běijīng zhuǎnjī hěn fāngbiàn.",
+          "en": "Transferring flights in Beijing is very convenient.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "海面",
       "pinyin": "hǎimiàn",
-      "english": "surface of the ocean",
-      "vietnamese": "mặt biển",
+      "en": "surface of the ocean",
+      "vi": "mặt biển",
       "theme": "Nature",
-      "sentenceChinese": "這篇課文用「海面」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"hǎimiàn\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"surface of the ocean\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"mặt biển\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sea level",
+          "sentence": "清晨海麵波光粼粼。",
+          "pinyin": "qīng chén hǎi miàn bō guāng lín lín",
+          "en": "The sea surface sparkled in the early morning.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "sea surface",
+          "sentence": "冰山的大部分都在海麵之下。",
+          "pinyin": "bīngshān de dà bùfèn dōu zài hǎimiàn zhī xià.",
+          "en": "Most of an iceberg is below the sea surface.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "難以數計",
       "pinyin": "nányǐ shùjì",
-      "english": "countless",
-      "vietnamese": "không thể đếm xuể",
+      "en": "countless",
+      "vi": "không thể đếm xuể",
       "theme": "Idiom",
-      "sentenceChinese": "這一課談到了「難以數計」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"nányǐ shùjì\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"countless\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"không thể đếm xuể\"."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "hard to; difficult to",
+          "sentence": "這件事難以解決。",
+          "pinyin": "zhè jiàn shì nányǐ jiějué.",
+          "en": "This matter is difficult to resolve.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "hard to; difficult to",
+          "sentence": "這個任務難以完成。",
+          "pinyin": "zhège rènwù nányǐ wánchéng.",
+          "en": "This task is difficult to complete.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "屍體",
       "pinyin": "shītǐ",
-      "english": "corpse, body",
-      "vietnamese": "thi thể, xác chết",
+      "en": "corpse, body",
+      "vi": "thi thể, xác chết",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「屍體」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"shītǐ\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"corpse, body\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"thi thể, xác chết\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "corpse; remains; cadaver; dead body",
+          "sentence": "屍體已經開始腐爛了。",
+          "pinyin": "shītǐ yǐjīng kāishǐ fǔlànle.",
+          "en": "The body has already begun to decompose.",
+          "vi": "Thi thể đã bắt đầu phân hủy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "corpse; remains; cadaver; dead body",
+          "sentence": "屍體被警方封鎖了。",
+          "pinyin": "shītǐ bèi jǐngfāng fēngsuǒle.",
+          "en": "The body has been cordoned off by the police.",
+          "vi": "Thi thể đã bị cảnh sát phong tỏa."
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "怵目驚心",
       "pinyin": "chùmù jīngxīn",
-      "english": "shocked to witness",
-      "vietnamese": "ghê rợn, giật mình khi nhìn thấy",
+      "en": "shocked to witness",
+      "vi": "ghê rợn, giật mình khi nhìn thấy",
       "theme": "Idiom",
-      "sentenceChinese": "老師今天特別解釋了「怵目驚心」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"chùmù jīngxīn\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"shocked to witness\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"ghê rợn, giật mình khi nhìn thấy\"."
+      "samples": [
+        {
+          "type": "Idiom",
+          "meaning": "(of a scene) startling; shocking",
+          "sentence": "那場事故怵目驚心。",
+          "pinyin": "nà chǎng shì gù chù mù jīng xīn",
+          "en": "That accident was shocking.",
+          "vi": ""
+        },
+        {
+          "type": "Idiom",
+          "meaning": "a ghastly sight",
+          "sentence": "那場事故真怵目驚心。",
+          "pinyin": "Nà chǎng shìgù zhēn chù mù jīng xīn.",
+          "en": "That accident was truly a ghastly sight.",
+          "vi": "Vụ tai nạn đó thật kinh hoàng."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "冒",
       "pinyin": "mào",
-      "english": "to risk",
-      "vietnamese": "mạo hiểm, liều mình",
+      "en": "to risk",
+      "vi": "mạo hiểm, liều mình",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「冒」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"mào\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to risk\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"mạo hiểm, liều mình\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Mo, the name of a Xiongnu king during early Han dynasty in China",
+          "sentence": "冒頓在曆史上有名。",
+          "pinyin": "mò dùn zài lìshǐ shàng yǒumíng.",
+          "en": "Modun is famous in history.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Mo, the name of a Xiongnu king during early Han dynasty in China",
+          "sentence": "漢初的冒頓影響力大。",
+          "pinyin": "hàn chū de mò dùn yǐngxiǎng lì dà.",
+          "en": "Modu had great influence in the early Han period.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to emit; to give off",
+          "sentence": "爐子裡/裏冒齣陣陣熱氣。",
+          "pinyin": "lú zi lǐ mò chū zhèn zhèn rè qì",
+          "en": "The stove emitted bursts of hot steam.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to risk; to dare; reckless",
+          "sentence": "他不願冒這個大風險。",
+          "pinyin": "tā bù yuàn mào zhè ge dà fēng xiǎn.",
+          "en": "He is unwilling to take this big risk.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "聯合國",
       "pinyin": "Liánhéguó",
-      "english": "United Nations, UN",
-      "vietnamese": "Liên Hợp Quốc",
+      "en": "United Nations, UN",
+      "vi": "Liên Hợp Quốc",
       "theme": "Proper Noun",
-      "sentenceChinese": "讀完這課以後，我對「聯合國」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"Liánhéguó\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"United Nations, UN\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"Liên Hợp Quốc\" rõ hơn."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the United Nations (UN)",
+          "sentence": "首任中國駐聯閤國代錶。",
+          "pinyin": "shǒu rèn zhōng guó zhù lián hé guó dài biǎo",
+          "en": "First permanent representative of the People's Republic of China to the United Nations",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "the United Nations (UN)",
+          "sentence": "派駐聯閤國的代錶。",
+          "pinyin": "pài zhù lián hé guó de dài biǎo",
+          "en": "A representative accredited to the United Nations",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "止",
       "pinyin": "zhǐ",
-      "english": "until (classical)",
-      "vietnamese": "đến, cho tới (văn ngôn)",
+      "en": "until (classical)",
+      "vi": "đến, cho tới (văn ngôn)",
       "theme": "Grammar",
-      "sentenceChinese": "這篇課文用「止」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"zhǐ\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"until (classical)\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"đến, cho tới (văn ngôn)\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stop; cut out",
+          "sentence": "風終於止息了。",
+          "pinyin": "fēng zhōngyú zhǐxīle.",
+          "en": "The wind finally stopped.",
+          "vi": "Gió cuối cùng đã lặng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "stop; cut out",
+          "sentence": "閤衕已經終止。",
+          "pinyin": "hétong yǐjīng zhōngzhǐ.",
+          "en": "The contract has ended.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "only; just",
+          "sentence": "這話你説過不止一次了。",
+          "pinyin": "zhèhuà nǐ shuō guò bùzhǐ yīcì le。",
+          "en": "You've said this more than once.",
+          "vi": "Câu này anh nói không dưới một lần."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "only; just",
+          "sentence": "看樣子，他應該不止40歲。",
+          "pinyin": "kàn yàngzi, tā yīnggāi bùzhǐ 40 suì.",
+          "en": "It seems he's probably older than 40.",
+          "vi": "Trông ông ấy phải hơn 40 tuổi."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "庇護",
       "pinyin": "bìhù",
-      "english": "asylum",
-      "vietnamese": "tị nạn, che chở",
+      "en": "asylum",
+      "vi": "tị nạn, che chở",
       "theme": "Law",
-      "sentenceChinese": "這一課談到了「庇護」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"bìhù\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"asylum\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"tị nạn, che chở\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to shelter; to protect; to provide refuge",
+          "sentence": "他庇護了犯罪嫌疑人。",
+          "pinyin": "tā bìhùle fànzuì xiányí rén.",
+          "en": "He sheltered the suspect.",
+          "vi": "Anh ấy đã bao che cho nghi phạm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to shelter; to protect; to provide refuge",
+          "sentence": "我們不能庇護任何人。",
+          "pinyin": "wǒmen bùnéng bìhù rènhé rén.",
+          "en": "We cannot shelter anyone.",
+          "vi": "Chúng ta không thể bao che cho bất kì ai."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "人數",
       "pinyin": "rénshù",
-      "english": "number of people",
-      "vietnamese": "nhân số, số người",
+      "en": "number of people",
+      "vi": "nhân số, số người",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「人數」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"rénshù\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"number of people\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"nhân số, số người\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "number of people",
+          "sentence": "越南的人數在不斷增加。",
+          "pinyin": "yuènán de rénshù zài bùduàn zēngjiā.",
+          "en": "The population of Vietnam is continuously increasing.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "number of people",
+          "sentence": "這個會議的人數很少。",
+          "pinyin": "zhège huìyì de rénshù hěn shǎo.",
+          "en": "The number of people at this meeting is very small.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "面臨",
       "pinyin": "miànlín",
-      "english": "to face, confront",
-      "vietnamese": "đối mặt",
+      "en": "to face, confront",
+      "vi": "đối mặt",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「面臨」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"miànlín\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"to face, confront\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"đối mặt\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be faced with; be confronted with",
+          "sentence": "我們麵臨很大的睏難。",
+          "pinyin": "wǒmen miànlín hěn dà de kùnnán.",
+          "en": "We are facing great difficulties.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be faced with; be confronted with",
+          "sentence": "我們麵臨很多問題。",
+          "pinyin": "wǒmen miànlín hěnduō wèntí.",
+          "en": "We are facing many problems.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "團結",
       "pinyin": "tuánjié",
-      "english": "to unite, solidarity",
-      "vietnamese": "đoàn kết",
+      "en": "to unite, solidarity",
+      "vi": "đoàn kết",
       "theme": "Society",
-      "sentenceChinese": "在這個主題裡，「團結」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"tuánjié\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to unite, solidarity\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"đoàn kết\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "unite; rally",
+          "sentence": "我們需要團結起來。",
+          "pinyin": "wǒmen xūyào tuánjié qǐlái.",
+          "en": "We need to unite.",
+          "vi": "Chúng ta cần phải đoàn kết lại."
+        },
+        {
+          "type": "Verb",
+          "meaning": "unite; rally",
+          "sentence": "班長總能團結衕學。",
+          "pinyin": "bānzhǎng zǒng néng tuánjié tóngxué.",
+          "en": "The class monitor is always able to unite the classmates.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "friendly; harmonious",
+          "sentence": "我們隊的隊員很團結。",
+          "pinyin": "wǒmen duì de duìyuán hěn tuánjié.",
+          "en": "Our team members are very united.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "friendly; harmonious",
+          "sentence": "我傢三個兄弟很團結。",
+          "pinyin": "wǒjiā sān gè xiōngdì hěn tuánjié.",
+          "en": "The three brothers in my family are very united.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "召開",
       "pinyin": "zhàokāi",
-      "english": "to convene, hold (meeting)",
-      "vietnamese": "triệu tập, mở cuộc họp",
+      "en": "to convene, hold (meeting)",
+      "vi": "triệu tập, mở cuộc họp",
       "theme": "Communication",
-      "sentenceChinese": "讀完這課以後，我對「召開」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zhàokāi\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"to convene, hold (meeting)\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"triệu tập, mở cuộc họp\" rõ hơn."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hold; convene; convoke",
+          "sentence": "他們決定召開緊急會議。",
+          "pinyin": "tāmen juédìng zhàokāi jǐnjí huìyì.",
+          "en": "They decided to convene an emergency session.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hold; convene; convoke",
+          "sentence": "在代錶大會召開之際。",
+          "pinyin": "Zài dàibiǎo dàhuì zhàokāi zhī jì",
+          "en": "On the occasion of the convening of the congress",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "高峰會",
       "pinyin": "gāofēng huì",
-      "english": "Summit (meeting)",
-      "vietnamese": "Hội nghị thượng đỉnh",
+      "en": "Summit (meeting)",
+      "vi": "Hội nghị thượng đỉnh",
       "theme": "Politics",
-      "sentenceChinese": "這篇課文用「高峰會」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"gāofēng huì\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"Summit (meeting)\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"Hội nghị thượng đỉnh\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "summit meeting",
+          "sentence": "這是至關重要的高峰/峯會議。",
+          "pinyin": "zhè shì zhì guān zhòngyào de gāofēng huìyì.",
+          "en": "This is a crucial summit meeting.",
+          "vi": "Đây là hội nghị cấp cao quan trọng."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "領袖",
       "pinyin": "lǐngxiù",
-      "english": "leader, head of state",
-      "vietnamese": "lãnh tụ",
+      "en": "leader, head of state",
+      "vi": "lãnh tụ",
       "theme": "Politics",
-      "sentenceChinese": "這一課談到了「領袖」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"lǐngxiù\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"leader, head of state\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"lãnh tụ\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "leader (of a country, party, etc.)",
+          "sentence": "鬍誌明是越南的偉大領袖。",
+          "pinyin": "húzhìmíng shì yuènán de wěidà lǐngxiù.",
+          "en": "Ho Chi Minh is the great leader of Vietnam.",
+          "vi": "Hồ Chí Minh là vị lãnh tụ vĩ đại của Việt Nam."
+        },
+        {
+          "type": "Noun",
+          "meaning": "leader (of a country, party, etc.)",
+          "sentence": "他是一位齣色的軍事領袖。",
+          "pinyin": "tā shì yī wèi chūsè de jūnshì lǐngxiù.",
+          "en": "He was an excellent military leader.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "消除",
       "pinyin": "xiāochú",
-      "english": "to eliminate",
-      "vietnamese": "tiêu trừ, loại bỏ",
+      "en": "to eliminate",
+      "vi": "tiêu trừ, loại bỏ",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「消除」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"xiāochú\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"to eliminate\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"tiêu trừ, loại bỏ\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "dispel; remove; eliminate; clear up; wipe off",
+          "sentence": "運動可以幫助消除壓力。",
+          "pinyin": "yùndòng kěyǐ bāngzhù xiāochú yālì.",
+          "en": "Exercise can help relieve stress.",
+          "vi": "Tập thể dục có thể giúp loại bỏ áp lực."
+        },
+        {
+          "type": "Verb",
+          "meaning": "dispel; remove; eliminate; clear up; wipe off",
+          "sentence": "快速消除壓力非常重要。",
+          "pinyin": "kuàisù xiāochú yālì fēicháng zhòngyào.",
+          "en": "It's vital to zap stress fast.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "仇外",
       "pinyin": "chóuwài",
-      "english": "anti-foreign",
-      "vietnamese": "bài ngoại",
+      "en": "anti-foreign",
+      "vi": "bài ngoại",
       "theme": "Society",
-      "sentenceChinese": "老師今天特別解釋了「仇外」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"chóuwài\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"anti-foreign\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"bài ngoại\"."
+      "samples": []
     },
     {
       "id": 28,
       "chinese": "前-",
       "pinyin": "qián-",
-      "english": "former-, ex-",
-      "vietnamese": "cựu-, tiền-",
+      "en": "former-, ex-",
+      "vi": "cựu-, tiền-",
       "theme": "Grammar",
-      "sentenceChinese": "在這個主題裡，「前-」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"qián-\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"former-, ex-\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"cựu-, tiền-\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "孩子們在前院玩耍。",
+          "pinyin": "háizimen zài qián yuàn wánshuǎ.",
+          "en": "The children are playing in the front yard.",
+          "vi": "Bọn trẻ đang chơi ở sân trước."
+        },
+        {
+          "type": "Noun",
+          "meaning": "front",
+          "sentence": "汽車的前燈壞了。",
+          "pinyin": "qìchē de qián dēng huàile.",
+          "en": "The car's front light is broken.",
+          "vi": "Đèn trước của ô tô hỏng rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move forward; go ahead",
+          "sentence": "不要猶豫，勇敢前行。",
+          "pinyin": "bùyào yóuyù, yǒnggǎn qián xíng.",
+          "en": "Don’t hesitate, march forward bravely.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "move forward; go ahead",
+          "sentence": "我們依然要摸索著前進。",
+          "pinyin": "wǒmen yīrán yào mōsuǒzhe qiánjìn.",
+          "en": "We still have to move forward while exploring.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "歐巴馬",
       "pinyin": "Ōubāmǎ",
-      "english": "Barack Obama",
-      "vietnamese": "Obama",
+      "en": "Barack Obama",
+      "vi": "Obama",
       "theme": "Proper Noun",
-      "sentenceChinese": "讀完這課以後，我對「歐巴馬」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"Ōubāmǎ\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"Barack Obama\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"Obama\" rõ hơn."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hope earnestly; wait anxiously for",
+          "sentence": "我巴不得放假。",
+          "pinyin": "wǒ bābudé fàngjià.",
+          "en": "I can't wait to have a holiday.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hope earnestly; wait anxiously for",
+          "sentence": "他巴不得迴傢。",
+          "pinyin": "tā bābudé huí jiā.",
+          "en": "He can't wait to go home.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "python",
+          "sentence": "巴蛇在古代傳説中很神秘/祕。",
+          "pinyin": "bā shé zài gǔdài chuánshuō zhōng hěn shénmì.",
+          "en": "The python is very mysterious in ancient legends.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "python",
+          "sentence": "人們害怕巴蛇的鉅大體型。",
+          "pinyin": "rénmen hàipà bā shé de jùdà tǐxíng.",
+          "en": "People fear the python's enormous size.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "會議",
       "pinyin": "huìyì",
-      "english": "conference, meeting",
-      "vietnamese": "hội nghị",
+      "en": "conference, meeting",
+      "vi": "hội nghị",
       "theme": "Communication",
-      "sentenceChinese": "這篇課文用「會議」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"huìyì\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"conference, meeting\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"hội nghị\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "meeting; conference",
+          "sentence": "我們今天有一個會議。",
+          "pinyin": "wǒmen jīntiān yǒu yīgè huìyì.",
+          "en": "We have a meeting today.",
+          "vi": "Hôm nay chúng ta có một cuộc họp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "meeting; conference",
+          "sentence": "我不能參加這個會議。",
+          "pinyin": "wǒ bùnéng cānjiā zhège huìyì.",
+          "en": "I can't attend this meeting.",
+          "vi": "Tôi không tham gia buổi họp này được."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "主義",
       "pinyin": "zhǔyì",
-      "english": "'-ism'",
-      "vietnamese": "chủ nghĩa",
+      "en": "'-ism'",
+      "vi": "chủ nghĩa",
       "theme": "Philosophy",
-      "sentenceChinese": "這一課談到了「主義」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"zhǔyì\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"'-ism'\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"chủ nghĩa\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "doctrine; -ism",
+          "sentence": "越南是一個社會主義國傢。",
+          "pinyin": "YuèNán shì yīgè shèhuì zhǔyì guójiā.",
+          "en": "Vietnam is a socialist country.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "doctrine; -ism",
+          "sentence": "我們要反對封建主義思想。",
+          "pinyin": "wǒmen yào fǎnduì fēngjiàn zhǔyì sīxiǎng.",
+          "en": "We must oppose feudalism.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "受害者",
       "pinyin": "shòuhàizhě",
-      "english": "victim",
-      "vietnamese": "nạn nhân, người bị hại",
+      "en": "victim",
+      "vi": "nạn nhân, người bị hại",
       "theme": "Law",
-      "sentenceChinese": "課文裡提到了「受害者」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"shòuhàizhě\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"victim\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"nạn nhân, người bị hại\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "victim; sufferer",
+          "sentence": "第二名以及第三名受害者。",
+          "pinyin": "dìèrmíng yǐjí dìsānmíng shòuhàizhě",
+          "en": "The second and third victims",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "victim; sufferer",
+          "sentence": "受害者在大會上公開控訴。",
+          "pinyin": "shòuhài zhě zài dàhuì shàng gōngkāi kòngsù.",
+          "en": "The victim publicly accused at the conference.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "向來",
       "pinyin": "xiànglái",
-      "english": "always, all along",
-      "vietnamese": "từ trước đến nay",
+      "en": "always, all along",
+      "vi": "từ trước đến nay",
       "theme": "Grammar",
-      "sentenceChinese": "老師今天特別解釋了「向來」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"xiànglái\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"always, all along\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"từ trước đến nay\"."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "always; all along",
+          "sentence": "他做事嚮來認真。",
+          "pinyin": "tā zuòshì xiànglái rènzhēn.",
+          "en": "He is always very serious about his work.",
+          "vi": "Anh ấy làm việc luôn chăm chỉ cẩn thận."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "always; all along",
+          "sentence": "她嚮來不喜歡吃/喫辣。",
+          "pinyin": "tā xiànglái bù xǐhuān chī là.",
+          "en": "She has never liked spicy food.",
+          "vi": "Cô ấy từ trước đến nay không thích ăn cay."
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "單一",
       "pinyin": "dānyī",
-      "english": "one, single",
-      "vietnamese": "đơn nhất, duy nhất",
+      "en": "one, single",
+      "vi": "đơn nhất, duy nhất",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「單一」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"dānyī\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"one, single\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"đơn nhất, duy nhất\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "single; unitary",
+          "sentence": "孩子的思想比較單一。",
+          "pinyin": "háizi de sīxiǎng bǐjiào dānyī.",
+          "en": "Children's thoughts are relatively simple.",
+          "vi": "Trẻ con thường có suy nghĩ đơn giản."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "single; unitary",
+          "sentence": "這個計劃太單一了吧！",
+          "pinyin": "zhège jìhuà tài dānyī le ba!",
+          "en": "This plan is too simplistic!",
+          "vi": "Kế hoạch này quá đơn giản rồi!"
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "共同",
       "pinyin": "gòngtóng",
-      "english": "together, jointly",
-      "vietnamese": "cùng nhau, chung",
+      "en": "together, jointly",
+      "vi": "cùng nhau, chung",
       "theme": "Grammar",
-      "sentenceChinese": "讀完這課以後，我對「共同」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"gòngtóng\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"together, jointly\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"cùng nhau, chung\" rõ hơn."
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "common; shared",
+          "sentence": "我們有共衕的興趣愛好。",
+          "pinyin": "wǒmen yǒu gòngtóng de xìngqù àihào.",
+          "en": "We have similar interests and hobbies.",
+          "vi": "Chúng tôi có sở thích giống nhau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "common; shared",
+          "sentence": "我們要維護共衕的利益。",
+          "pinyin": "wǒmen yào wéihù gòngtóng de lìyì.",
+          "en": "We need to protect common interests.",
+          "vi": "Chúng ta cần bảo vệ lợi ích chung."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "together; jointly",
+          "sentence": "大傢共衕慶祝這個節日。",
+          "pinyin": "dàjiā gòngtóng qìngzhù zhège jiérì.",
+          "en": "Everyone celebrates this holiday together.",
+          "vi": "Mọi người cùng nhau chúc mừng ngày lễ này."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "together; jointly",
+          "sentence": "學生們共衕參加了活動。",
+          "pinyin": "xuéshēngmen gòngtóng cānjiāle huódòng.",
+          "en": "The students participated in the activity together.",
+          "vi": "Các học sinh cùng tham gia hoạt động."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "排外",
       "pinyin": "páiwài",
-      "english": "anti-foreign, xenophobic",
-      "vietnamese": "bài ngoại",
+      "en": "anti-foreign, xenophobic",
+      "vi": "bài ngoại",
       "theme": "Society",
-      "sentenceChinese": "這篇課文用「排外」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"páiwài\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"anti-foreign, xenophobic\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"bài ngoại\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "exclusive; antiforeign; exclusionary",
+          "sentence": "盲目排外",
+          "pinyin": "mángmù páiwài",
+          "en": "Blind opposition to everything foreign",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "oppose everything foreign",
+          "sentence": "政府反對任何排外政策。",
+          "pinyin": "Zhèngfǔ fǎnduì rènhé páiwài zhèngcè",
+          "en": "The government opposes any xenophobic policies.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "融入",
       "pinyin": "róngrù",
-      "english": "to integrate, blend in",
-      "vietnamese": "hòa nhập",
+      "en": "to integrate, blend in",
+      "vi": "hòa nhập",
       "theme": "General",
-      "sentenceChinese": "這一課談到了「融入」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"róngrù\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"to integrate, blend in\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"hòa nhập\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "integrate into",
+          "sentence": "他很快融入了這個團隊。",
+          "pinyin": "tā hěn kuài róngrùle zhège tuánduì.",
+          "en": "He quickly integrated into the team.",
+          "vi": "Anh ấy nhanh chóng hòa nhập vào đội này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "integrate into",
+          "sentence": "他們需要融入這個文化。",
+          "pinyin": "tāmen xūyào róngrù zhège wénhuà.",
+          "en": "They need to integrate into this culture.",
+          "vi": "Họ cần hòa nhập vào nền văn hóa này."
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "收容",
       "pinyin": "shōuróng",
-      "english": "to offer refuge to",
-      "vietnamese": "thu dung, tiếp nhận tị nạn",
+      "en": "to offer refuge to",
+      "vi": "thu dung, tiếp nhận tị nạn",
       "theme": "Society",
-      "sentenceChinese": "課文裡提到了「收容」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"shōuróng\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"to offer refuge to\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"thu dung, tiếp nhận tị nạn\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "take in; accept; house",
+          "sentence": "收容傷員",
+          "pinyin": "shōuróng shāngyuán",
+          "en": "Take in wounded soldiers",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "detain",
+          "sentence": "廢除收容遣送製度。",
+          "pinyin": "fèichú shōuróng qiǎnsòng zhìdù",
+          "en": "Abolish the detention and repatriation system",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "或許",
       "pinyin": "huòxǔ",
-      "english": "perhaps, probably",
-      "vietnamese": "có lẽ",
+      "en": "perhaps, probably",
+      "vi": "có lẽ",
       "theme": "Grammar",
-      "sentenceChinese": "老師今天特別解釋了「或許」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"huòxǔ\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"perhaps, probably\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"có lẽ\"."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "perhaps; maybe",
+          "sentence": "或許我們明天見麵。",
+          "pinyin": "huòxǔ wǒmen míngtiān jiànmiàn.",
+          "en": "Perhaps we'll meet tomorrow.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "perhaps; maybe",
+          "sentence": "或許明天會下雨。",
+          "pinyin": "huòxǔ míngtiān huì xià yǔ.",
+          "en": "Maybe it will rain tomorrow.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "勞動力",
       "pinyin": "láodònglì",
-      "english": "manpower",
-      "vietnamese": "sức lao động",
+      "en": "manpower",
+      "vi": "sức lao động",
       "theme": "Work",
-      "sentenceChinese": "在這個主題裡，「勞動力」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"láodònglì\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"manpower\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"sức lao động\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "labour (or work) force; labour",
+          "sentence": "廉價勞動力。",
+          "pinyin": "liánjià láodònglì",
+          "en": "Low-paid (or cheap) labour",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "capacity for physical labour",
+          "sentence": "喪失勞動力。",
+          "pinyin": "sàngshī láodònglì",
+          "en": "Disability",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "轉化",
       "pinyin": "zhuǎnhuà",
-      "english": "to transform into",
-      "vietnamese": "chuyển hóa",
+      "en": "to transform into",
+      "vi": "chuyển hóa",
       "theme": "General",
-      "sentenceChinese": "讀完這課以後，我對「轉化」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zhuǎnhuà\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"to transform into\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"chuyển hóa\" rõ hơn."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "change; transform",
+          "sentence": "能量可以互相轉化。",
+          "pinyin": "néngliàng kěyǐ hùxiāng zhuǎnhuà.",
+          "en": "Energy can be mutually transformed.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "change; transform",
+          "sentence": "情況嚮反麵轉化了。",
+          "pinyin": "qíngkuàng xiàng fǎnmiàn zhuǎnhuàle.",
+          "en": "The situation has transformed to the opposite.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "里約",
       "pinyin": "Lǐyuē",
-      "english": "Rio",
-      "vietnamese": "Rio",
+      "en": "Rio",
+      "vi": "Rio",
       "theme": "Proper Noun",
-      "sentenceChinese": "這篇課文用「里約」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"Lǐyuē\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"Rio\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"Rio\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "rio",
+          "sentence": "我要在裡/裏約訂一個舞臺。",
+          "pinyin": "wǒyào zài lǐ yuē dìng yīgè wǔtái",
+          "en": "I am going to book a stage at the Rio.",
+          "vi": "Tôi sẽ đặt một sân khấu tại Rio."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "rio",
+          "sentence": "我是裡/裏約熱內盧五漁村度假村的門房。",
+          "pinyin": "wǒ shì lǐyuērènèilú wǔ yúcūn dùjiǎcūn de ménfáng",
+          "en": "I'm a doorman at the Cinque Terre Resort in Rio de Janeiro.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "奧運",
       "pinyin": "Àoyùn",
-      "english": "Olympics",
-      "vietnamese": "Thế vận hội",
+      "en": "Olympics",
+      "vi": "Thế vận hội",
       "theme": "Sports",
-      "sentenceChinese": "這一課談到了「奧運」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"Àoyùn\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"Olympics\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"Thế vận hội\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the Olympics; the Olympic Games",
+          "sentence": "他夢想參加奧運會。",
+          "pinyin": "tā mèngxiǎng cānjiā àoyùnhuì.",
+          "en": "He dreams of participating in the Olympics.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "the Olympics; the Olympic Games",
+          "sentence": "奧運會四年舉辦一次。",
+          "pinyin": "àoyùnhuì sì nián jǔbàn yīcì.",
+          "en": "The Olympic Games are held every four years.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "首度",
       "pinyin": "shǒudù",
-      "english": "first time",
-      "vietnamese": "lần đầu tiên",
+      "en": "first time",
+      "vi": "lần đầu tiên",
       "theme": "Time",
-      "sentenceChinese": "課文裡提到了「首度」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"shǒudù\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"first time\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"lần đầu tiên\"."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "(for) the first time",
+          "sentence": "在這部電影中兩位著名影星首度閤作。",
+          "pinyin": "Zài zhè bù diànyǐng zhōng liǎng wèi zhùmíng yǐngxīng shǒudù hézuò.",
+          "en": "In this film, the two famous stars collaborated for the first time.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "first time",
+          "sentence": "這是我首度來中國。",
+          "pinyin": "zhè shì wǒ shǒu dù lái zhōngguó.",
+          "en": "This is my first time coming to China.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "代表隊",
       "pinyin": "dàibiǎoduì",
-      "english": "representative team",
-      "vietnamese": "đội đại biểu",
+      "en": "representative team",
+      "vi": "đội đại biểu",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「代表隊」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"dàibiǎoduì\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"representative team\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"đội đại biểu\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "delegation",
+          "sentence": "我校代錶隊今天齣髮/發。",
+          "pinyin": "wǒ xiào dài biǎo duì jīn tiān chū fā",
+          "en": "Our school's delegation set off today",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "delegation",
+          "sentence": "學生代錶隊也參加了分列式。",
+          "pinyin": "xuéshēng dàibiǎo duì yě cānjiāle fēnlièshì.",
+          "en": "The student delegation also joined the parade formation.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "逃離",
       "pinyin": "táolí",
-      "english": "to escape from",
-      "vietnamese": "đào ly, chạy trốn khỏi",
+      "en": "to escape from",
+      "vi": "đào ly, chạy trốn khỏi",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「逃離」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"táolí\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to escape from\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"đào ly, chạy trốn khỏi\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "flee; escape",
+          "sentence": "他們試圖逃離危險地區。",
+          "pinyin": "tāmen shìtú táolí wéixiǎn dìqū.",
+          "en": "They tried to escape from the dangerous area.",
+          "vi": "Họ cố gắng trốn khỏi khu vực nguy hiểm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "flee; escape",
+          "sentence": "他因為犯罪而逃離傢鄉。",
+          "pinyin": "tā yīn wéi fànzuì ér táolí jiāxiāng.",
+          "en": "He fled his hometown because of crime.",
+          "vi": "Anh ta trốn khỏi quê hương vì tội phạm."
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "戰火",
       "pinyin": "zhànhuǒ",
-      "english": "fires of war",
-      "vietnamese": "chiến hỏa, khói lửa chiến tranh",
+      "en": "fires of war",
+      "vi": "chiến hỏa, khói lửa chiến tranh",
       "theme": "History",
-      "sentenceChinese": "讀完這課以後，我對「戰火」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zhànhuǒ\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"fires of war\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"chiến hỏa, khói lửa chiến tranh\" rõ hơn."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "flames of war",
+          "sentence": "海灣燃起了戰火。",
+          "pinyin": "Hǎiwān ránqǐ le zhànhuǒ.",
+          "en": "Flames of war rose over the (Persian) Gulf. or War broke out in the Gulf.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "conflagration",
+          "sentence": "戰火燒遍傢鄉土地。",
+          "pinyin": "zhàn huǒ shāo biàn jiā xiāng tǔ dì",
+          "en": "The flames of war have scorched the homeland's land.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "殘障",
       "pinyin": "cánzhàng",
-      "english": "physical disability",
-      "vietnamese": "tàn tật, khuyết tật",
+      "en": "physical disability",
+      "vi": "tàn tật, khuyết tật",
       "theme": "Medical",
-      "sentenceChinese": "這篇課文用「殘障」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"cánzhàng\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"physical disability\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"tàn tật, khuyết tật\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "handicapped",
+          "sentence": "這個殘障停車位。",
+          "pinyin": "zhègè cánzhàng tíngchēwèi",
+          "en": "This handicapped spot couldn't be",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "handicap; deformity",
+          "sentence": "殘障兒童",
+          "pinyin": "cánzhàng értóng",
+          "en": "Disabled children",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "忘掉",
       "pinyin": "wàngdiào",
-      "english": "to forget",
-      "vietnamese": "quên đi",
+      "en": "to forget",
+      "vi": "quên đi",
       "theme": "Psychology",
-      "sentenceChinese": "這一課談到了「忘掉」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"wàngdiào\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"to forget\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"quên đi\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "forget; let slip from one's mind",
+          "sentence": "我忘掉了他的名字。",
+          "pinyin": "wǒ wàngdiàole tā de míngzì.",
+          "en": "I can't remember his name.",
+          "vi": "Tôi quên mất tên của anh ấy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "forget; let slip from one's mind",
+          "sentence": "我總是忘掉帶鑰匙。",
+          "pinyin": "wǒ zǒng shì wàngdiào dài yàoshi.",
+          "en": "I always forget to bring my keys.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "英雄",
       "pinyin": "yīngxióng",
-      "english": "hero",
-      "vietnamese": "anh hùng",
+      "en": "hero",
+      "vi": "anh hùng",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「英雄」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"yīngxióng\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"hero\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"anh hùng\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hero",
+          "sentence": "那個孩子是個小英雄。",
+          "pinyin": "nàge háizi shìgè xiǎo yīngxióng.",
+          "en": "That child is a little hero.",
+          "vi": "Đứa trẻ đó là một người anh hùng nhỏ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hero",
+          "sentence": "她是個無畏的英雄。",
+          "pinyin": "tā shìgè wúwèi de yīngxióng.",
+          "en": "She is a fearless hero.",
+          "vi": "Cô ấy là một người anh hùng không biết sợ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "heroic",
+          "sentence": "他錶現得很英雄。",
+          "pinyin": "tā biǎoxiàn de hěn yīngxióng.",
+          "en": "He acts very heroically.",
+          "vi": "Anh ấy thể hiện rất anh hùng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "heroic",
+          "sentence": "她以英雄的精神麵對睏難。",
+          "pinyin": "tā yǐ yīngxióng de jīngshén miàn duì kùnnán.",
+          "en": "She faces difficulties with a heroic spirit.",
+          "vi": "Cô ấy đối mặt khó khăn với tinh thần anh hùng."
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "身分",
       "pinyin": "shēnfèn",
-      "english": "identification, status",
-      "vietnamese": "thân phận, danh tính",
+      "en": "identification, status",
+      "vi": "thân phận, danh tính",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「身分」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"shēnfèn\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"identification, status\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"thân phận, danh tính\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "status; capacity; identity",
+          "sentence": "身份不明",
+          "pinyin": "shēn fèn bù míng",
+          "en": "Of unknown identity; unidentified",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "status; capacity; identity",
+          "sentence": "身份不明的人。",
+          "pinyin": "shēn fèn bù míng de rén。",
+          "en": "Person of dubious background",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "索馬利亞",
       "pinyin": "Suǒmǎlìyǎ",
-      "english": "Somalia",
-      "vietnamese": "Somalia",
+      "en": "Somalia",
+      "vi": "Somalia",
       "theme": "Proper Noun",
-      "sentenceChinese": "在這個主題裡，「索馬利亞」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"Suǒmǎlìyǎ\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"Somalia\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"Somalia\" xuất hiện khá thường xuyên."
+      "samples": []
     },
     {
       "id": 53,
       "chinese": "之後",
       "pinyin": "zhīhòu",
-      "english": "subsequent to that",
-      "vietnamese": "sau đó",
+      "en": "subsequent to that",
+      "vi": "sau đó",
       "theme": "Time",
-      "sentenceChinese": "讀完這課以後，我對「之後」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zhīhòu\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"subsequent to that\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"sau đó\" rõ hơn."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "later; afterwards; since then",
+          "sentence": "我們的會議在兩小時之後。",
+          "pinyin": "wǒmen de huìyì zài liǎng xiǎoshí zhīhòu.",
+          "en": "Our meeting is in two hours.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "later; afterwards; since then",
+          "sentence": "吃/喫飯之後我們去散步。",
+          "pinyin": "chīfàn zhīhòu wǒmen qù sànbù.",
+          "en": "After eating, we will go for a walk.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "參選",
       "pinyin": "cānxuǎn",
-      "english": "to run in an election",
-      "vietnamese": "tham gia ứng cử",
+      "en": "to run in an election",
+      "vi": "tham gia ứng cử",
       "theme": "Politics",
-      "sentenceChinese": "這篇課文用「參選」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"cānxuǎn\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"to run in an election\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"tham gia ứng cử\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "run in an election",
+          "sentence": "她決定今年參選了。",
+          "pinyin": "tā jué dìng jīn nián cān xuǎn le",
+          "en": "She decided to run in this year's election.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "enter a contest for appraisal and selection",
+          "sentence": "他決定明年參選市長。",
+          "pinyin": "Tā juédìng míngnián cānxuǎn shìzhǎng.",
+          "en": "He decided to run for mayor next year.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "膚色",
       "pinyin": "fūsè",
-      "english": "skin color",
-      "vietnamese": "màu da",
+      "en": "skin color",
+      "vi": "màu da",
       "theme": "Appearance",
-      "sentenceChinese": "這一課談到了「膚色」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"fūsè\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"skin color\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"màu da\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "skin color",
+          "sentence": "這取決於你膚色的深淺。",
+          "pinyin": "zhè qǔjué yú nǐ fūsè de shēnqiǎn.",
+          "en": "It depends on the darkness of your skin.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "skin color",
+          "sentence": "我膚色很白，永遠曬不黑。",
+          "pinyin": "wǒ fūsè hěn bái, yǒngyuǎn shài bù hēi.",
+          "en": "I have very pale skin that never tans.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "早日",
       "pinyin": "zǎorì",
-      "english": "soon",
-      "vietnamese": "sớm ngày",
+      "en": "soon",
+      "vi": "sớm ngày",
       "theme": "Time",
-      "sentenceChinese": "課文裡提到了「早日」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"zǎorì\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"soon\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"sớm ngày\"."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "soon; early; at an early date",
+          "sentence": "她希望早日見到傢人。",
+          "pinyin": "tā xīwàng zǎorì jiàn dào jiārén.",
+          "en": "She hopes to see her family soon.",
+          "vi": "Cô ấy mong sớm gặp lại gia đình."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "soon; early; at an early date",
+          "sentence": "祝你早日完成工作。",
+          "pinyin": "zhù nǐ zǎorì wánchéng gōngzuò.",
+          "en": "Wish you an early completion of your work.",
+          "vi": "Chúc bạn sớm hoàn thành công việc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "before; past time; in the past; a long time ago",
+          "sentence": "早日的威嚴讓他感到自豪。",
+          "pinyin": "zǎorì de wēiyán ràng tā gǎndào zìháo.",
+          "en": "The dignity from the past makes him proud.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "before; past time; in the past; a long time ago",
+          "sentence": "那時的威嚴是早日的迴憶。",
+          "pinyin": "nà shí de wēiyán shì zǎorì de huíyì.",
+          "en": "The dignity of that time is a memory from the past.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "扶持",
       "pinyin": "fúchí",
-      "english": "to support, help, aid",
-      "vietnamese": "phù trì, nâng đỡ",
+      "en": "to support, help, aid",
+      "vi": "phù trì, nâng đỡ",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「扶持」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"fúchí\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"to support, help, aid\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"phù trì, nâng đỡ\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "support with the hand; place a hand on sb. for support",
+          "sentence": "她扶持著母親走進房間。",
+          "pinyin": "tā fúchízhe mǔqīn zǒu jìn fángjiān.",
+          "en": "She helped her mother into the room.",
+          "vi": "Cô ấy dìu mẹ vào phòng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "support with the hand; place a hand on sb. for support",
+          "sentence": "她扶持著爺爺走齣了傢門。",
+          "pinyin": "tā fúchízhe yéye zǒuchūle jiāmén.",
+          "en": "She helped her grandfather out of the house.",
+          "vi": "Cô ấy dìu ông ra khỏi nhà."
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "優先",
       "pinyin": "yōuxiān",
-      "english": "to be given priority",
-      "vietnamese": "ưu tiên",
+      "en": "to be given priority",
+      "vi": "ưu tiên",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「優先」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"yōuxiān\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to be given priority\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"ưu tiên\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "prior; senior; underlying; preferential; have priority; take precedence",
+          "sentence": "老師優先照顧新生。",
+          "pinyin": "lǎoshī yōuxiān zhàogù xīnshēng.",
+          "en": "The teacher prioritizes new students.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "prior; senior; underlying; preferential; have priority; take precedence",
+          "sentence": "公司優先滿足客戶需求。",
+          "pinyin": "gōngsī yōuxiān mǎnzú kèhù xūqiú.",
+          "en": "The company prioritizes customer needs.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "無力",
       "pinyin": "wúlì",
-      "english": "incapable of, powerless",
-      "vietnamese": "vô lực, không có sức",
+      "en": "incapable of, powerless",
+      "vi": "vô lực, không có sức",
       "theme": "General",
-      "sentenceChinese": "讀完這課以後，我對「無力」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"wúlì\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"incapable of, powerless\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"vô lực, không có sức\" rõ hơn."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "feel weak; lack strength",
+          "sentence": "我晚上無力想事情。",
+          "pinyin": "wǒ wǎnshàng wúlì xiǎng shìqíng.",
+          "en": "I lack the energy to think at night.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel weak; lack strength",
+          "sentence": "今天我感覺渾身無力。",
+          "pinyin": "jīntiān wǒ gǎnjué húnshēn wúlì.",
+          "en": "I feel weak all over today.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "安置",
       "pinyin": "ānzhì",
-      "english": "to make proper living arrangements",
-      "vietnamese": "an trí, sắp xếp nơi ở",
+      "en": "to make proper living arrangements",
+      "vi": "an trí, sắp xếp nơi ở",
       "theme": "General",
-      "sentenceChinese": "這篇課文用「安置」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"ānzhì\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"to make proper living arrangements\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"an trí, sắp xếp nơi ở\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "arrange for; find a place for; help settle down",
+          "sentence": "她幫助安置了許多難民。",
+          "pinyin": "tā bāngzhù ānzhìle xǔduō nànmín.",
+          "en": "She helped settle many refugees.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "arrange for; find a place for; help settle down",
+          "sentence": "我需要安置我的行李。",
+          "pinyin": "wǒ xūyào ānzhì wǒ de xínglǐ.",
+          "en": "I need to find a place for my luggage.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "支出",
       "pinyin": "zhīchū",
-      "english": "expenditure",
-      "vietnamese": "chi tiêu, khoản chi",
+      "en": "expenditure",
+      "vi": "chi tiêu, khoản chi",
       "theme": "Economy",
-      "sentenceChinese": "這一課談到了「支出」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"zhīchū\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"expenditure\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"chi tiêu, khoản chi\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pay; expend; disburse",
+          "sentence": "他們支齣了一大筆錢。",
+          "pinyin": "tāmen zhīchūle yī dà bǐ qián.",
+          "en": "They spent a large amount of money.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "pay; expend; disburse",
+          "sentence": "公司支齣了很多錢。",
+          "pinyin": "gōngsī zhīchūle hěnduō qián.",
+          "en": "The company spent a lot of money.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "expenditure",
+          "sentence": "這個月的支齣很高。",
+          "pinyin": "zhège yuè de zhīchū hěn gāo.",
+          "en": "Expenses are high this month.",
+          "vi": "Khoản chi tiêu của tháng này rất cao."
+        },
+        {
+          "type": "Noun",
+          "meaning": "expenditure",
+          "sentence": "我們需要控製支齣。",
+          "pinyin": "wǒmen xūyào kòngzhì zhīchū.",
+          "en": "We need to control our spending.",
+          "vi": "Chúng ta cần kiểm soát khoản chi tiêu."
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "導致",
       "pinyin": "dǎozhì",
-      "english": "to cause, result in",
-      "vietnamese": "dẫn đến, gây ra",
+      "en": "to cause, result in",
+      "vi": "dẫn đến, gây ra",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「導致」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"dǎozhì\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"to cause, result in\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"dẫn đến, gây ra\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cause; lead to",
+          "sentence": "大雨導緻了交通堵塞。",
+          "pinyin": "dàyǔ dǎozhìle jiāotōng dǔsè.",
+          "en": "The heavy rain caused a traffic jam.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cause; lead to",
+          "sentence": "不良飲食導緻健康問題。",
+          "pinyin": "bùliáng yǐnshí dǎozhì jiànkāng wèntí.",
+          "en": "Poor diet leads to health problems.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "賦稅",
       "pinyin": "fùshuì",
-      "english": "taxes",
-      "vietnamese": "thuế má",
+      "en": "taxes",
+      "vi": "thuế má",
       "theme": "Economy",
-      "sentenceChinese": "老師今天特別解釋了「賦稅」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"fùshuì\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"taxes\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"thuế má\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "taxes",
+          "sentence": "沒收性賦稅。",
+          "pinyin": "méi shōu xìng fù shuì",
+          "en": "Confiscatory taxation",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "taxes",
+          "sentence": "村裡/裏人每年都完賦稅。",
+          "pinyin": "cūnlǐ rén měinián dōu wán fùshuì.",
+          "en": "The villagers pay their taxes every year.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "居民",
       "pinyin": "jūmín",
-      "english": "resident",
-      "vietnamese": "cư dân",
+      "en": "resident",
+      "vi": "cư dân",
       "theme": "Society",
-      "sentenceChinese": "在這個主題裡，「居民」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"jūmín\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"resident\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"cư dân\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "resident; inhabitant",
+          "sentence": "新居民搬進來了。",
+          "pinyin": "xīn jūmín bān jìnláile.",
+          "en": "New inhabitants moved in.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "resident; inhabitant",
+          "sentence": "這棟樓有50名居民。",
+          "pinyin": "zhè dòng lóu yǒu 50 míng jūmín.",
+          "en": "The building has 50 residents.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "對立",
       "pinyin": "duìlì",
-      "english": "to oppose, antagonistic",
-      "vietnamese": "đối lập",
+      "en": "to oppose, antagonistic",
+      "vi": "đối lập",
       "theme": "Philosophy",
-      "sentenceChinese": "讀完這課以後，我對「對立」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"duìlì\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"to oppose, antagonistic\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"đối lập\" rõ hơn."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "oppose; contrasting",
+          "sentence": "熱與冷對立相反。",
+          "pinyin": "rè yǔ lěng duìlì xiāngfǎn.",
+          "en": "Heat and cold are opposites.",
+          "vi": "Nóng và lạnh đối lập nhau."
+        },
+        {
+          "type": "Verb",
+          "meaning": "oppose; contrasting",
+          "sentence": "自由與限製對立。",
+          "pinyin": "zìyóu yǔ xiànzhì duìlì.",
+          "en": "Freedom and restriction are opposites.",
+          "vi": "Tự do và hạn chế đối lập nhau."
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "罷了",
       "pinyin": "bàle",
-      "english": "merely, that's it",
-      "vietnamese": "mà thôi",
+      "en": "merely, that's it",
+      "vi": "mà thôi",
       "theme": "Grammar",
-      "sentenceChinese": "這篇課文用「罷了」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"bàle\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"merely, that's it\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"mà thôi\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "particle",
+          "meaning": "just; that’s all; nothing more",
+          "sentence": "那隻是個小問題罷了。",
+          "pinyin": "nà zhǐshì gè xiǎo wèntí bàle.",
+          "en": "That's just a minor issue.",
+          "vi": ""
+        },
+        {
+          "type": "particle",
+          "meaning": "just; that’s all; nothing more",
+          "sentence": "這不過小事罷了。",
+          "pinyin": "zhè bùguò xiǎoshì bàle.",
+          "en": "This is just a small matter.",
+          "vi": ""
+        },
+        {
+          "type": "auxiliary",
+          "meaning": "[at the end of a declarative sentence] that's all; nothing else",
+          "sentence": "這沒有什麼, 我不過做了我應該做的事罷了。",
+          "pinyin": "Zhè méiyǒu shénme, wǒ bù guò zuò le wǒ yīnggāi zuò de shì bàle.",
+          "en": "It’s nothing; I’ve only done what I should.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "德國",
       "pinyin": "Déguó",
-      "english": "Germany",
-      "vietnamese": "Đức",
+      "en": "Germany",
+      "vi": "Đức",
       "theme": "Proper Noun",
-      "sentenceChinese": "這一課談到了「德國」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"Déguó\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"Germany\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"Đức\"."
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Germany (The Federal Republic of Germany)",
+          "sentence": "我想去德國旅遊。",
+          "pinyin": "wǒ xiǎng qù déguó lǚyóu.",
+          "en": "I want to travel to Germany.",
+          "vi": "Tôi muốn đi sang Đức du lịch."
+        },
+        {
+          "type": "nlocal",
+          "meaning": "Germany (The Federal Republic of Germany)",
+          "sentence": "我在德國工作三年了。",
+          "pinyin": "wǒ zài déguó gōngzuò sān niánle.",
+          "en": "I've been working in Germany for three years.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "每況愈下",
       "pinyin": "měikuàng yùxià",
-      "english": "to deteriorate, go from bad to worse",
-      "vietnamese": "ngày càng xấu đi",
+      "en": "to deteriorate, go from bad to worse",
+      "vi": "ngày càng xấu đi",
       "theme": "Idiom",
-      "sentenceChinese": "課文裡提到了「每況愈下」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"měikuàng yùxià\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"to deteriorate, go from bad to worse\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"ngày càng xấu đi\"."
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "One's situation went from bad to worse.; become poorer day by day; become worse and worse; be on the downgrade; decline steadily; from smoke into smother; get worse and worse; get worse every time (all the time); get worse instead of better; go down the drain; go from bad to worse; go steadily downhill; It is getting worse every day.; make bad trouble worse; steadily deteriorate; The condition grew worse from day to day.; The situation grew steadily worse.; The situation shows no signs of improvement and worsens daily.",
+          "sentence": "他的健康每況癒下。",
+          "pinyin": "tā de jiànkāng měi kuàng yù xià.",
+          "en": "His health was getting steadily worse.; His health went steadily downhill.",
+          "vi": "Sức khỏe anh ấy ngày càng đi xuống."
+        },
+        {
+          "type": "idioms",
+          "meaning": "steadily deteriorate; go from bad to worse; become worse day by day",
+          "sentence": "病情每況癒下。",
+          "pinyin": "bìngqíng měikuàngyùxià",
+          "en": "Worsening illness",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "拖垮",
       "pinyin": "tuōkuǎ",
-      "english": "to pull down with, drag down",
-      "vietnamese": "kéo đổ, làm sụp đổ",
+      "en": "to pull down with, drag down",
+      "vi": "kéo đổ, làm sụp đổ",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「拖垮」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"tuōkuǎ\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"to pull down with, drag down\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"kéo đổ, làm sụp đổ\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pull; drag; draw; haul",
+          "sentence": "火車頭拖著十二個車皮。",
+          "pinyin": "huǒchētóu tuōzhe shí'èr gè chēpí.",
+          "en": "The locomotive pulled twelve train cars.",
+          "vi": "Đầu xe lửa kéo theo mười hai toa."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pull; drag; draw; haul",
+          "sentence": "他把桌子拖來拖去。",
+          "pinyin": "tā bǎ zhuōzi tuō lái tuō qù.",
+          "en": "He dragged the table back and forth.",
+          "vi": "Anh ta kéo đi kéo lại cái bàn."
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "忽略",
       "pinyin": "hūlüè",
-      "english": "to ignore, overlook",
-      "vietnamese": "phớt lờ, xem nhẹ",
+      "en": "to ignore, overlook",
+      "vi": "phớt lờ, xem nhẹ",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「忽略」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"hūlüè\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to ignore, overlook\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"phớt lờ, xem nhẹ\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "neglect; overlook",
+          "sentence": "不要忽略孩子的教育。",
+          "pinyin": "bùyào hūlüè háizi de jiàoyù.",
+          "en": "Don't neglect the education of children.",
+          "vi": "Đừng lơ là việc giáo dục con cái."
+        },
+        {
+          "type": "Verb",
+          "meaning": "neglect; overlook",
+          "sentence": "她忽略了這個重要的問題。",
+          "pinyin": "tā hūlüèle zhège zhòngyào de wèntí.",
+          "en": "She neglected this important issue.",
+          "vi": "Cô ấy đã xem nhẹ vấn đề quan trọng này."
+        }
+      ]
     },
     {
       "id": 71,
       "chinese": "一一",
       "pinyin": "yīyī",
-      "english": "one by one, separately",
-      "vietnamese": "từng cái một",
+      "en": "one by one, separately",
+      "vi": "từng cái một",
       "theme": "Grammar",
-      "sentenceChinese": "讀完這課以後，我對「一一」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"yīyī\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"one by one, separately\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"từng cái một\" rõ hơn."
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "one by one; one after another",
+          "sentence": "他一一迴答了我的問題。",
+          "pinyin": "tā yīyī huídále wǒ de wèntí.",
+          "en": "He answered my questions one by one.",
+          "vi": "Anh ấy đã trả lời từng câu hỏi của tôi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "one by one; one after another",
+          "sentence": "他一一檢查了每一個細節。",
+          "pinyin": "tā yīyī jiǎnchále měi yīgè xìjié.",
+          "en": "He checked every detail one by one.",
+          "vi": "Anh ấy đã kiểm tra từng chi tiết một."
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "過濾",
       "pinyin": "guòlǜ",
-      "english": "to filter",
-      "vietnamese": "lọc, sàng lọc",
+      "en": "to filter",
+      "vi": "lọc, sàng lọc",
       "theme": "General",
-      "sentenceChinese": "這篇課文用「過濾」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"guòlǜ\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"to filter\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"lọc, sàng lọc\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "filter; filtrate",
+          "sentence": "所有飲用水必須經過過濾。",
+          "pinyin": "suǒyǒu yǐnyòng shuǐ bìxū jīngguò guòlǜ.",
+          "en": "All drinking water must be filtered.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "filter; filtrate",
+          "sentence": "他吸沒有過濾嘴的香煙。",
+          "pinyin": "tā xī méiyǒu guòlǜzuǐ de xiāngyān.",
+          "en": "He smokes cigarettes without filters.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "有機可乘",
       "pinyin": "yǒujī kěchéng",
-      "english": "take advantage of a situation",
-      "vietnamese": "có cơ hội để thừa cơ",
+      "en": "take advantage of a situation",
+      "vi": "có cơ hội để thừa cơ",
       "theme": "Idiom",
-      "sentenceChinese": "這一課談到了「有機可乘」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"yǒujī kěchéng\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"take advantage of a situation\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"có cơ hội để thừa cơ\"."
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "to have an opportunity that one can exploit (idiom)",
+          "sentence": "不要讓壞人有機可乘！",
+          "pinyin": "bùyào ràng huàirén yǒujī kě chéng!",
+          "en": "Don't let bad people take advantage of the situation!",
+          "vi": "Đừng để kẻ xấu đục nước béo cò."
+        },
+        {
+          "type": "idioms",
+          "meaning": "to have an opportunity that one can exploit (idiom)",
+          "sentence": "不能給對方有機可乘。",
+          "pinyin": "bùnéng gěi duìfāng yǒujī kě chéng.",
+          "en": "Do not give the opponent any opportunity.",
+          "vi": "Không để đối phương có cơ hội."
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "接二連三",
       "pinyin": "jiē'èr liánsān",
-      "english": "one after another, in rapid succession",
-      "vietnamese": "liên tiếp, hết cái này đến cái khác",
+      "en": "one after another, in rapid succession",
+      "vi": "liên tiếp, hết cái này đến cái khác",
       "theme": "Idiom",
-      "sentenceChinese": "課文裡提到了「接二連三」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"jiē'èr liánsān\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"one after another, in rapid succession\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"liên tiếp, hết cái này đến cái khác\"."
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "one after another; in quick succession",
+          "sentence": "捷報接二連三地傳來。",
+          "pinyin": "Jiébào jiē'èrliánsān de chuánlái.",
+          "en": "Reports of victory came in one after another.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "one after another; in quick succession",
+          "sentence": "小企業接二連三地破産。",
+          "pinyin": "Xiǎoqǐyè jiē'èrliánsān de pòchǎn.",
+          "en": "Small businesses have been collapsing one after another.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 75,
       "chinese": "衝突",
       "pinyin": "chōngtú",
-      "english": "to conflict",
-      "vietnamese": "xung đột",
+      "en": "to conflict",
+      "vi": "xung đột",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「衝突」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"chōngtú\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"to conflict\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"xung đột\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "clash; conflict",
+          "sentence": "他們之間髮/發生了衝突。",
+          "pinyin": "tāmen zhī jiān fāshēngle chōngtū.",
+          "en": "A conflict occurred between them.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "clash; conflict",
+          "sentence": "我們要避免衝突。",
+          "pinyin": "wǒmen yào bìmiǎn chōngtū.",
+          "en": "We need to avoid conflict.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 76,
       "chinese": "升高",
       "pinyin": "shēnggāo",
-      "english": "to increase, rise",
-      "vietnamese": "dâng cao, tăng lên",
+      "en": "to increase, rise",
+      "vi": "dâng cao, tăng lên",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「升高」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"shēnggāo\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to increase, rise\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"dâng cao, tăng lên\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "rise",
+          "sentence": "氣球慢慢地昇高了。",
+          "pinyin": "qìqiú màn man de shēng gāole.",
+          "en": "The balloon rose slowly into the air.",
+          "vi": "Quả bóng bay dần dần bay lên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "rise",
+          "sentence": "熱氣球快速昇高了。",
+          "pinyin": "rè qìqiú kuàisù shēng gāole.",
+          "en": "The hot-air balloon lifted rapidly upward.",
+          "vi": "Khinh khí cầu bay lên nhanh chóng."
+        }
+      ]
     },
     {
       "id": 77,
       "chinese": "在在",
       "pinyin": "zàizài",
-      "english": "in all aspects (classical)",
-      "vietnamese": "ở mọi nơi, mọi khía cạnh (văn ngôn)",
+      "en": "in all aspects (classical)",
+      "vi": "ở mọi nơi, mọi khía cạnh (văn ngôn)",
       "theme": "Grammar",
-      "sentenceChinese": "讀完這課以後，我對「在在」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"zàizài\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"in all aspects (classical)\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"ở mọi nơi, mọi khía cạnh (văn ngôn)\" rõ hơn."
+      "samples": [
+        {
+          "type": "literary",
+          "meaning": "everywhere; in all aspects",
+          "sentence": "在在皆是",
+          "pinyin": "zàizàijiēshì",
+          "en": "Can be seen everywhere; all around; ubiquitous",
+          "vi": "Khắp mọi nơi"
+        }
+      ]
     },
     {
       "id": 78,
       "chinese": "設置",
       "pinyin": "shèzhì",
-      "english": "to establish, set up",
-      "vietnamese": "thiết trí, thiết lập",
+      "en": "to establish, set up",
+      "vi": "thiết trí, thiết lập",
       "theme": "General",
-      "sentenceChinese": "這篇課文用「設置」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"shèzhì\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"to establish, set up\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"thiết trí, thiết lập\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "set up; put up; to establish",
+          "sentence": "這座劇院是為兒童設置的。",
+          "pinyin": "zhè zuò jùyuàn shì wèi ér tóng shè zhì de.",
+          "en": "This theatre is set up for children.",
+          "vi": "Nhà hát này xây dựng cho nhi đồng."
+        },
+        {
+          "type": "Verb",
+          "meaning": "set up; put up; to establish",
+          "sentence": "這條路沒有設置收費站。",
+          "pinyin": "zhè tiáo lù méiyǒu shèzhì shōufèi zhàn.",
+          "en": "This road does not have toll stations set up.",
+          "vi": "Con đường này không thiết lập trạm thu phí."
+        }
+      ]
     },
     {
       "id": 79,
       "chinese": "難民營",
       "pinyin": "nànmínyíng",
-      "english": "refugee camp",
-      "vietnamese": "trại tị nạn",
+      "en": "refugee camp",
+      "vi": "trại tị nạn",
       "theme": "Society",
-      "sentenceChinese": "這一課談到了「難民營」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"nànmínyíng\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"refugee camp\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"trại tị nạn\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "refugee camp",
+          "sentence": "他們在難民營中餓死了。",
+          "pinyin": "tāmen zài nánmínyíng zhōng è sǐ le.",
+          "en": "When they starved to death in the refugee camp.",
+          "vi": "Họ chết đói trong trại tị nạn."
+        }
+      ]
     },
     {
       "id": 80,
       "chinese": "關閉",
       "pinyin": "guānbì",
-      "english": "to close down",
-      "vietnamese": "đóng cửa",
+      "en": "to close down",
+      "vi": "đóng cửa",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「關閉」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"guānbì\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"to close down\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"đóng cửa\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "close",
+          "sentence": "我們需要關閉窗戶。",
+          "pinyin": "wǒmen xūyào guānbì chuānghù.",
+          "en": "We need to close the window.",
+          "vi": "Chúng ta cần đóng cửa sổ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "close",
+          "sentence": "你可以關閉燈嗎？",
+          "pinyin": "nǐ kěyǐ guānbì dēng ma?",
+          "en": "Can you turn off the light?",
+          "vi": "Bạn có thể tắt đèn không?"
+        }
+      ]
     },
     {
       "id": 81,
       "chinese": "邊界",
       "pinyin": "biānjiè",
-      "english": "border",
-      "vietnamese": "biên giới",
+      "en": "border",
+      "vi": "biên giới",
       "theme": "Geography",
-      "sentenceChinese": "老師今天特別解釋了「邊界」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"biānjiè\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"border\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"biên giới\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "boundary; borderline",
+          "sentence": "軍隊已關閉了兩國邊界。",
+          "pinyin": "jūnduì yǐ guānbìle liǎng guó biānjiè.",
+          "en": "Troops have sealed the borders between the countries.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "boundary; borderline",
+          "sentence": "他們正前往德國邊界。",
+          "pinyin": "tāmen zhèng qiánwǎng déguó biānjiè.",
+          "en": "They were heading towards the German border.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 82,
       "chinese": "通往",
       "pinyin": "tōngwǎng",
-      "english": "to go to, lead to",
-      "vietnamese": "thông tới, dẫn đến",
+      "en": "to go to, lead to",
+      "vi": "thông tới, dẫn đến",
       "theme": "General",
-      "sentenceChinese": "在這個主題裡，「通往」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"tōngwǎng\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"to go to, lead to\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"thông tới, dẫn đến\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to lead to",
+          "sentence": "這條路可以通往山頂。",
+          "pinyin": "zhè tiáo lù kěyǐ tōng wǎng shāndǐng.",
+          "en": "This road leads to the mountain top.",
+          "vi": "Con đường này lên đến đỉnh núi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to lead to",
+          "sentence": "這道門通往大廳。",
+          "pinyin": "zhè dàomén tōng wǎng dàtīng.",
+          "en": "This door gives onto the hall.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 83,
       "chinese": "交託",
       "pinyin": "jiāotuō",
-      "english": "to entrust (safety, life)",
-      "vietnamese": "giao phó",
+      "en": "to entrust (safety, life)",
+      "vi": "giao phó",
       "theme": "General",
-      "sentenceChinese": "讀完這課以後，我對「交託」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"jiāotuō\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"to entrust (safety, life)\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"giao phó\" rõ hơn."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to entrust",
+          "sentence": "我把孩子交託給你。",
+          "pinyin": "Wǒ bǎ háizi jiāo tuō gěi nǐ.",
+          "en": "I entrust the child to you.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 84,
       "chinese": "人口",
       "pinyin": "rénkǒu",
-      "english": "population / human",
-      "vietnamese": "nhân khẩu",
+      "en": "population / human",
+      "vi": "nhân khẩu",
       "theme": "Society",
-      "sentenceChinese": "這篇課文用「人口」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"rénkǒu\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"population / human\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"nhân khẩu\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "population",
+          "sentence": "這個城市的人口很多。",
+          "pinyin": "zhège chéngshì de rénkǒu hěnduō.",
+          "en": "The population of this city is very large.",
+          "vi": "Dân số của thành phố này rất nhiều."
+        },
+        {
+          "type": "Noun",
+          "meaning": "population",
+          "sentence": "鄉村人口逐漸減少。",
+          "pinyin": "xiāngcūn rénkǒu zhújiàn jiǎnshǎo.",
+          "en": "The population in the countryside is gradually decreasing.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 85,
       "chinese": "販子",
       "pinyin": "fànzi",
-      "english": "trafficker",
-      "vietnamese": "kẻ buôn lậu",
+      "en": "trafficker",
+      "vi": "kẻ buôn lậu",
       "theme": "Law",
-      "sentenceChinese": "這一課談到了「販子」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"fànzi\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"trafficker\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"kẻ buôn lậu\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "trader; monger",
+          "sentence": "馬販子",
+          "pinyin": "mǎ fàn zi",
+          "en": "Horse dealer",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "trader; monger",
+          "sentence": "人販子",
+          "pinyin": "rénfànzi",
+          "en": "Human trafficker",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 86,
       "chinese": "助長",
       "pinyin": "zhùzhǎng",
-      "english": "to foster, encourage (negatively)",
-      "vietnamese": "tiếp tay, cổ xúy",
+      "en": "to foster, encourage (negatively)",
+      "vi": "tiếp tay, cổ xúy",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「助長」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"zhùzhǎng\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"to foster, encourage (negatively)\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"tiếp tay, cổ xúy\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "encourage; abet; foster; foment; indulge",
+          "sentence": "不良行為的縱容會助長問題。",
+          "pinyin": "bùliáng xíngwéi de zòngróng huì zhù cháng wèntí.",
+          "en": "Tolerating bad behavior will foster problems.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "encourage; abet; foster; foment; indulge",
+          "sentence": "過度獎勵可能助長驕傲心理。",
+          "pinyin": "guòdù jiǎnglì kěnéng zhùzhǎng jiāo'ào xīnlǐ.",
+          "en": "Excessive rewards may encourage arrogance.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 87,
       "chinese": "支付",
       "pinyin": "zhīfù",
-      "english": "to make a payment",
-      "vietnamese": "chi trả, thanh toán",
+      "en": "to make a payment",
+      "vi": "chi trả, thanh toán",
       "theme": "Economy",
-      "sentenceChinese": "老師今天特別解釋了「支付」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"zhīfù\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"to make a payment\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"chi trả, thanh toán\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pay (money); defray",
+          "sentence": "可以用信用卡支付嗎？",
+          "pinyin": "kěyǐ yòng xìnyòngkǎ zhīfù ma?",
+          "en": "Can I pay with a credit card?",
+          "vi": "Có thể thanh toán bằng thẻ tín dụng không?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "pay (money); defray",
+          "sentence": "她用手機支付了賬單。",
+          "pinyin": "tā yòng shǒujī zhīfù le zhàngdān.",
+          "en": "She paid the bill with her phone.",
+          "vi": "Cô ấy thanh toán hóa đơn qua điện thoại."
+        }
+      ]
     },
     {
       "id": 88,
       "chinese": "總理",
       "pinyin": "zǒnglǐ",
-      "english": "chancellor, prime minister",
-      "vietnamese": "thủ tướng",
+      "en": "chancellor, prime minister",
+      "vi": "thủ tướng",
       "theme": "Politics",
-      "sentenceChinese": "在這個主題裡，「總理」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"zǒnglǐ\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"chancellor, prime minister\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"thủ tướng\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the Premier of the State Council",
+          "sentence": "李剋強是中國國務院總理。",
+          "pinyin": "lǐkèqiáng shì zhōngguó guówùyuàn zǒnglǐ.",
+          "en": "Li Keqiang is the Premier of the State Council of China.",
+          "vi": "Lý Khắc Cường là Thủ tướng Quốc vụ viện Trung Quốc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "the Premier of the State Council",
+          "sentence": "國務院總理李剋強主持會議。",
+          "pinyin": "guówùyuàn zǒnglǐ lǐkèqiáng zhǔchí huìyì.",
+          "en": "Li Keqiang is the Premier of the State Council of China.",
+          "vi": "Thủ tướng Lý Khắc Cường chủ trì hội nghị."
+        },
+        {
+          "type": "Verb",
+          "meaning": "take overall responsibility",
+          "sentence": "他總理內務事務。",
+          "pinyin": "tā zǒnglǐ nèiwù shìwù.",
+          "en": "He manages internal affairs.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "take overall responsibility",
+          "sentence": "在公司中，他總理內務。",
+          "pinyin": "zài gōngsī zhōng, tā zǒnglǐ nèiwù.",
+          "en": "In the company, he manages internal affairs.",
+          "vi": "Trong công ty, anh ấy quản lý nội vụ."
+        }
+      ]
     },
     {
       "id": 89,
       "chinese": "梅克爾",
       "pinyin": "Méikè'ěr",
-      "english": "Angela Merkel",
-      "vietnamese": "Merkel",
+      "en": "Angela Merkel",
+      "vi": "Merkel",
       "theme": "Proper Noun",
-      "sentenceChinese": "讀完這課以後，我對「梅克爾」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"Méikè'ěr\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"Angela Merkel\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"Merkel\" rõ hơn."
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "plum (Prunus mume)",
+          "sentence": "一枝梅花。",
+          "pinyin": "yīzhī méihuā.",
+          "en": "A plum blossom.",
+          "vi": "Một nhành hoa mai."
+        },
+        {
+          "type": "noun",
+          "meaning": "plum (Prunus mume)",
+          "sentence": "梅樹開始開花。",
+          "pinyin": "méi shù kāishǐ kāihuā.",
+          "en": "The plum trees are beginning to bloom.",
+          "vi": "Cây mơ bắt đầu ra hoa."
+        }
+      ]
     },
     {
       "id": 90,
       "chinese": "承認",
       "pinyin": "chéngrèn",
-      "english": "to admit, confess",
-      "vietnamese": "thừa nhận",
+      "en": "to admit, confess",
+      "vi": "thừa nhận",
       "theme": "Communication",
-      "sentenceChinese": "這篇課文用「承認」來說明相關情況。",
-      "sentencePinyin": "Zhè piān kèwén yòng \"chéngrèn\" lái shuōmíng xiāngguān qíngkuàng.",
-      "sentenceEnglish": "This text uses \"to admit, confess\" to explain a related situation.",
-      "sentenceVietnamese": "Bài khóa này dùng từ \"thừa nhận\" để giải thích tình huống liên quan."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "admit; acknowledge",
+          "sentence": "他硬是不承認自己的錯誤。",
+          "pinyin": "tā yìngshì bù chéngrèn zìjǐ de cuòwù.",
+          "en": "He stubbornly refuses to admit his mistakes.",
+          "vi": "Anh ta vẫn không có thừa nhận sai lầm của bản thân."
+        },
+        {
+          "type": "Verb",
+          "meaning": "admit; acknowledge",
+          "sentence": "你要勇於承認自己的錯誤。",
+          "pinyin": "nǐ yào yǒngyú chéngrèn zìjǐ de cuòwù.",
+          "en": "You need to admit your faults bravely.",
+          "vi": "Bạn phải dũng cảm thừa nhận sai lầm của mình."
+        }
+      ]
     },
     {
       "id": 91,
       "chinese": "低估",
       "pinyin": "dīgū",
-      "english": "to underestimate",
-      "vietnamese": "đánh giá thấp",
+      "en": "to underestimate",
+      "vi": "đánh giá thấp",
       "theme": "General",
-      "sentenceChinese": "這一課談到了「低估」這個詞。",
-      "sentencePinyin": "Zhè yí kè tán dào le \"dīgū\" zhè ge cí.",
-      "sentenceEnglish": "This lesson talks about the word \"to underestimate\".",
-      "sentenceVietnamese": "Bài học này có nhắc đến từ \"đánh giá thấp\"."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "underrate; underestimate",
+          "sentence": "不要低估對手的實力。",
+          "pinyin": "bùyào dīgū duìshǒu de shílì.",
+          "en": "Don't underrate the opponent's strength.",
+          "vi": "Đừng coi thường sức mạnh của đối thủ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "underrate; underestimate",
+          "sentence": "低估別人是不公平的。",
+          "pinyin": "dīgū biérén shì bù gōngpíng de.",
+          "en": "Underestimating others is unfair.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 92,
       "chinese": "和平",
       "pinyin": "hépíng",
-      "english": "peaceful; peace",
-      "vietnamese": "hòa bình",
+      "en": "peaceful; peace",
+      "vi": "hòa bình",
       "theme": "General",
-      "sentenceChinese": "課文裡提到了「和平」這個詞。",
-      "sentencePinyin": "Kèwén lǐ tí dào le \"hépíng\" zhè ge cí.",
-      "sentenceEnglish": "The text mentions the word \"peaceful; peace\".",
-      "sentenceVietnamese": "Bài khóa có nhắc đến từ \"hòa bình\"."
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "peaceful",
+          "sentence": "他是一個和平的人。",
+          "pinyin": "tā shì yīgè hépíng de rén.",
+          "en": "He is a peaceful person.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "peaceful",
+          "sentence": "他的態度非常和平。",
+          "pinyin": "tā de tàidù fēicháng hépíng.",
+          "en": "His attitude is very peaceful.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "peace",
+          "sentence": "我們希望世界能保持和平。",
+          "pinyin": "wǒmen xīwàng shìjiè néng bǎochí hépíng.",
+          "en": "We hope the world can maintain peace.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "peace",
+          "sentence": "我們要為世界和平而努力。",
+          "pinyin": "wǒmen yào wèi shìjiè hépíng ér nǔlì.",
+          "en": "We must work hard for world peace.",
+          "vi": "Chúng ta phải nỗ lực vì hòa bình thế giới."
+        }
+      ]
     },
     {
       "id": 93,
       "chinese": "對策",
       "pinyin": "duìcè",
-      "english": "countermeasure, strategy",
-      "vietnamese": "đối sách",
+      "en": "countermeasure, strategy",
+      "vi": "đối sách",
       "theme": "General",
-      "sentenceChinese": "老師今天特別解釋了「對策」的用法。",
-      "sentencePinyin": "Lǎoshī jīntiān tèbié jiěshì le \"duìcè\" de yòngfǎ.",
-      "sentenceEnglish": "The teacher especially explained how \"countermeasure, strategy\" is used today.",
-      "sentenceVietnamese": "Hôm nay giáo viên đặc biệt giải thích cách dùng của từ \"đối sách\"."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "countermove; countermeasure; way to deal with a situation",
+          "sentence": "我們需要製定一個對策。",
+          "pinyin": "wǒmen xūyào zhìdìng yīgè duìcè.",
+          "en": "We need to come up with a strategy.",
+          "vi": "Chúng ta cần đưa ra một biện pháp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "countermove; countermeasure; way to deal with a situation",
+          "sentence": "他的對策非常有創意。",
+          "pinyin": "tā de duìcè fēicháng yǒu chuàngyì.",
+          "en": "His strategy is very creative.",
+          "vi": "Biện pháp của anh ấy rất sáng tạo."
+        },
+        {
+          "type": "Verb",
+          "meaning": "strategies in running a state (as a candidate's answer to the emperor in the imperial examinations in ancient China)",
+          "sentence": "政府正在對策社會問題。",
+          "pinyin": "zhèngfǔ zhèngzài duìcè shèhuì wèntí.",
+          "en": "The government is strategizing social issues.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "strategies in running a state (as a candidate's answer to the emperor in the imperial examinations in ancient China)",
+          "sentence": "他必須對策國傢的髮/發展方嚮。",
+          "pinyin": "tā bìxū duìcè guójiā de fāzhǎn fāngxiàng.",
+          "en": "He must strategize the direction of the country's development.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 94,
       "chinese": "販運",
       "pinyin": "fànyùn",
-      "english": "trafficking, smuggling",
-      "vietnamese": "vận chuyển buôn lậu",
+      "en": "trafficking, smuggling",
+      "vi": "vận chuyển buôn lậu",
       "theme": "Law",
-      "sentenceChinese": "在這個主題裡，「販運」很常出現。",
-      "sentencePinyin": "Zài zhè ge zhǔtí lǐ, \"fànyùn\" hěn cháng chūxiàn.",
-      "sentenceEnglish": "In this topic, \"trafficking, smuggling\" appears quite often.",
-      "sentenceVietnamese": "Trong chủ đề này, từ \"vận chuyển buôn lậu\" xuất hiện khá thường xuyên."
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "transport goods for sale; traffic",
+          "sentence": "販運私貨",
+          "pinyin": "fàn yùn sī huò",
+          "en": "Smuggle (goods)",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 95,
       "chinese": "首要之務",
       "pinyin": "shǒuyào zhīwù",
-      "english": "top priority, most important issue",
-      "vietnamese": "nhiệm vụ hàng đầu",
+      "en": "top priority, most important issue",
+      "vi": "nhiệm vụ hàng đầu",
       "theme": "Idiom",
-      "sentenceChinese": "讀完這課以後，我對「首要之務」這個詞印象更深了。",
-      "sentencePinyin": "Dú wán zhè kè yǐhòu, wǒ duì \"shǒuyào zhīwù\" zhè ge cí yìnxiàng gèng shēn le.",
-      "sentenceEnglish": "After finishing this lesson, I remember the word \"top priority, most important issue\" more clearly.",
-      "sentenceVietnamese": "Sau khi học xong bài này, tôi nhớ từ \"nhiệm vụ hàng đầu\" rõ hơn."
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "main point; essential; headline",
+          "sentence": "這篇文章的摘要很簡潔。",
+          "pinyin": "zhè piān wénzhāng de zhāiyào hěn jiǎnjié.",
+          "en": "The summary of this article is very concise.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "main point; essential; headline",
+          "sentence": "這是今天會議的紀要。",
+          "pinyin": "zhè shì jīntiān huìyì de jìyào.",
+          "en": "This is the summary of today's meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "want; wish",
+          "sentence": "若要人不知，除非己莫為。",
+          "pinyin": "ruò yào rén bùzhī, chúfēi jǐ mò wèi.",
+          "en": "If you don’t want others to know, then don’t do it.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "want; wish",
+          "sentence": "我要買一件毛衣。",
+          "pinyin": "wǒ yào mǎi yī jiàn máoyī.",
+          "en": "I want to buy a sweater.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "important; essential",
+          "sentence": "處理要事時要小心。",
+          "pinyin": "chǔlǐ yào shì shí yào xiǎoxīn.",
+          "en": "Be careful when handling important matters.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "important; essential",
+          "sentence": "這是問題的要點。",
+          "pinyin": "zhè shì wèntí de yào diǎn.",
+          "en": "This is the main point of the problem.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if; suppose; in case",
+          "sentence": "明天要是下雨，我就不去了。",
+          "pinyin": "míngtiān yàoshi xià yǔ, wǒ jiù bù qùle.",
+          "en": "If it rains tomorrow, I won’t go.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "if; suppose; in case",
+          "sentence": "你要去，我就不去。",
+          "pinyin": "nǐ yào qù, wǒ jiù bù qù.",
+          "en": "If you go, then I won’t go.",
+          "vi": ""
+        }
+      ]
     }
-  ],
-  "theme": "Their Choice"
+  ]
 }

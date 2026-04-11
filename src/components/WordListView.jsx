@@ -128,7 +128,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
 
                     {/* Actions */}
                     <div className="flex shrink-0 items-center gap-0.5">
-                      {item.sentenceChinese && (
+                      {(item.sentenceChinese || item.samples?.length > 0) && (
                         <ChevronDown className={cn('h-4 w-4 text-slate-400 transition-transform duration-200', expanded && 'rotate-180')} />
                       )}
                       <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="ghost" className="h-8 w-8" />
@@ -147,14 +147,37 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     </div>
                   </div>
 
-                  {expanded && item.sentenceChinese && (
-                    <div className="flex items-start gap-3 border-t border-[#CAE8BD] px-3 py-3 pl-[calc(1.5rem+0.75rem)] dark:border-slate-600">
-                      <div className="min-w-0 flex-1 space-y-1">
-                        <p className="break-words text-xl font-bold text-slate-800 dark:text-slate-100">{item.sentenceChinese}</p>
-                        {item.sentencePinyin && <p className="break-words text-xs text-slate-400">{item.sentencePinyin}</p>}
-                        {sentenceMeaning && <p className="break-words text-sm text-slate-500 dark:text-slate-400">{sentenceMeaning}</p>}
-                      </div>
-                      <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="ghost" className="h-8 w-8 shrink-0" />
+                  {expanded && (item.sentenceChinese || item.samples?.length > 0) && (
+                    <div className="border-t border-[#CAE8BD] px-3 py-3 pl-[calc(1.5rem+0.75rem)] dark:border-slate-600">
+                      {item.samples?.length > 0 ? (
+                        <div className="space-y-3">
+                          {item.samples.map((ex, i) => (
+                            <div key={i} className={cn('flex items-start gap-3', i > 0 && 'border-t border-[#CAE8BD] pt-3 dark:border-slate-600')}>
+                              <div className="min-w-0 flex-1 space-y-0.5">
+                                <span className="inline-block rounded-full bg-green-100 px-2 py-0.5 text-xs font-semibold text-green-700 dark:bg-green-900/40 dark:text-green-300">
+                                  {ex.type}
+                                </span>
+                                {ex.meaning && <p className="break-words text-xs italic text-slate-400">{ex.meaning}</p>}
+                                <p className="break-words text-xl font-bold text-slate-800 dark:text-slate-100">{ex.sentence}</p>
+                                {showPinyin && ex.pinyin && <p className="break-words text-xs text-slate-400">{ex.pinyin}</p>}
+                                <p className="break-words text-sm text-slate-500 dark:text-slate-400">
+                                  {language === 'vi' ? (ex.vi || ex.en) : (ex.en || ex.vi)}
+                                </p>
+                              </div>
+                              <SpeakButton text={ex.sentence} label={t.speakSentence} size="icon" variant="ghost" className="h-8 w-8 shrink-0" />
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div className="flex items-start gap-3">
+                          <div className="min-w-0 flex-1 space-y-1">
+                            <p className="break-words text-xl font-bold text-slate-800 dark:text-slate-100">{item.sentenceChinese}</p>
+                            {item.sentencePinyin && <p className="break-words text-xs text-slate-400">{item.sentencePinyin}</p>}
+                            {sentenceMeaning && <p className="break-words text-sm text-slate-500 dark:text-slate-400">{sentenceMeaning}</p>}
+                          </div>
+                          <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="ghost" className="h-8 w-8 shrink-0" />
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>

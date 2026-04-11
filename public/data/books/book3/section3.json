@@ -7,815 +7,2379 @@
       "id": 1,
       "chinese": "陳敏勞",
       "pinyin": "Chén Mǐnláo",
-      "english": "a woman from the Netherlands",
-      "sentenceChinese": "陳敏勞是從荷蘭來的學生。",
-      "sentencePinyin": "Chén Mǐnláo shì cóng Hélán lái de xuéshēng.",
-      "sentenceEnglish": "Chen Minlao is a student from the Netherlands.",
-      "vietnamese": "Trần Mẫn Lao (một nữ sinh đến từ Hà Lan)",
-      "sentenceVietnamese": "Trần Mẫn Lao là một du học sinh đến từ Hà Lan."
+      "en": "a woman from the Netherlands",
+      "vi": "Trần Mẫn Lao (một nữ sinh đến từ Hà Lan)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "lay out; put on display",
+          "sentence": "房間裡/裏陳設著古董。",
+          "pinyin": "fángjiān lǐ chénshèzhe gǔdǒng.",
+          "en": "The room is decorated with antiques.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "lay out; put on display",
+          "sentence": "店裡/裏陳列了新産品。",
+          "pinyin": "diàn lǐ chénlièle xīn chǎnpǐn.",
+          "en": "New products are displayed in the store.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "old; stale",
+          "sentence": "這些想法太陳腐了。",
+          "pinyin": "zhèxiē xiǎngfǎ tài chénfǔle.",
+          "en": "These ideas are too outdated.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "old; stale",
+          "sentence": "這傢店賣陳貨。",
+          "pinyin": "zhè jiā diàn mài chén huò.",
+          "en": "This shop sells old stock.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Chen (a vassal state of the Zhou Dynasty (1046-256BC))",
+          "sentence": "陳國位於河南淮陽。",
+          "pinyin": "Chén guó wèiyú Hénán Huáiyáng.",
+          "en": "The Chen state was located in Huaiyang, Henan.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "Chen (a vassal state of the Zhou Dynasty (1046-256BC))",
+          "sentence": "陳是週朝的諸侯國。",
+          "pinyin": "chén shì zhōu cháo de zhūhóu guó.",
+          "en": "Chen was a vassal state of the Zhou Dynasty.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "高橋健太",
       "pinyin": "Gāoqiáo Jiàntài",
-      "english": "a man from Japan",
-      "sentenceChinese": "高橋健太是日本人。",
-      "sentencePinyin": "Gāoqiáo Jiàntài shì Rìběn rén.",
-      "sentenceEnglish": "Takahashi Kenta is Japanese.",
-      "vietnamese": "Cao Kiều Kiện Thái (một nam sinh đến từ Nhật Bản)",
-      "sentenceVietnamese": "Cao Kiều Kiện Thái là người Nhật."
+      "en": "a man from Japan",
+      "vi": "Cao Kiều Kiện Thái (một nam sinh đến từ Nhật Bản)",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "highest; greatest; remotest",
+          "sentence": "他們在太空站待了一個月。",
+          "pinyin": "tāmen zài tàikōng zhàn dàile yīgè yuè.",
+          "en": "They stayed on the space station for a month.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "highest; greatest; remotest",
+          "sentence": "她夢想進入太學深造。",
+          "pinyin": "tā mèngxiǎng jìnrù tài xué shēnzào.",
+          "en": "She dreams of continuing her studies at the university.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "too",
+          "sentence": "這個房間太小了。",
+          "pinyin": "zhège fángjiān tài xiǎole.",
+          "en": "This room is too small.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "too",
+          "sentence": "這本書太難了。",
+          "pinyin": "zhè běn shū tài nánle.",
+          "en": "This book is too difficult.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "太老師教中文。",
+          "pinyin": "tài lǎoshī jiào zhōngwén.",
+          "en": "Teacher Tai teaches Chinese.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "太先生很有名。",
+          "pinyin": "tài xiānshēng hěn yǒumíng.",
+          "en": "Mr. Tai is very famous.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "空氣",
       "pinyin": "kōngqì",
-      "english": "air",
-      "sentenceChinese": "山上的空氣特別好。",
-      "sentencePinyin": "Shān shàng de kōngqì tèbié hǎo.",
-      "sentenceEnglish": "The air in the mountains is especially fresh.",
-      "vietnamese": "không khí",
-      "sentenceVietnamese": "Không khí trên núi đặc biệt trong lành."
+      "en": "air",
+      "vi": "không khí",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "air",
+          "sentence": "城市的空氣汙染嚴重。",
+          "pinyin": "chéngshì de kōngqì wūrǎn yánzhòng.",
+          "en": "Air pollution in the city is serious.",
+          "vi": "Ô nhiễm không khí ở thành phố rất nghiêm trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "air",
+          "sentence": "空氣中的濕度很高。",
+          "pinyin": "kōngqì zhòng de shīdù hěn gāo.",
+          "en": "The humidity in the air is very high.",
+          "vi": "Độ ẩm trong không khí rất cao."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "影響",
       "pinyin": "yǐngxiǎng",
-      "english": "influence; to affect",
-      "sentenceChinese": "天氣的變化會影響心情。",
-      "sentencePinyin": "Tiānqì de biànhuà huì yǐngxiǎng xīnqíng.",
-      "sentenceEnglish": "Changes in the weather can affect your mood.",
-      "vietnamese": "ảnh hưởng",
-      "sentenceVietnamese": "Sự thay đổi của thời tiết có thể ảnh hưởng đến tâm trạng."
+      "en": "influence; to affect",
+      "vi": "ảnh hưởng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "effect; influence",
+          "sentence": "爸爸對我的影響很大。",
+          "pinyin": "bàba duì wǒ de yǐngxiǎng hěn dà.",
+          "en": "My father has a great influence on me.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "effect; influence",
+          "sentence": "環境對人有很大的影響。",
+          "pinyin": "huánjìng duì rén yǒu hěn dà de yǐngxiǎng.",
+          "en": "The environment has a great impact on people.",
+          "vi": "Môi trường có sự ảnh hưởng rất lớn đến con người."
+        },
+        {
+          "type": "Verb",
+          "meaning": "affect; influence",
+          "sentence": "爸爸影響了我的一生。",
+          "pinyin": "bàba yǐngxiǎngle wǒ de yīshēng.",
+          "en": "My father has influenced my entire life.",
+          "vi": "Bố đã ảnh hưởng đến cả cuộc đời của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "affect; influence",
+          "sentence": "環境影響孩子的成長。",
+          "pinyin": "huánjìng yǐngxiǎng háizi de chéngzhǎng.",
+          "en": "The environment influences the development of children.",
+          "vi": "Môi trường ảnh hưởng đến sự phát triển của trẻ nhỏ."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "穩定",
       "pinyin": "wěndìng",
-      "english": "stable",
-      "sentenceChinese": "最近天氣不太穩定。",
-      "sentencePinyin": "Zuìjìn tiānqì bù tài wěndìng.",
-      "sentenceEnglish": "The weather has not been very stable lately.",
-      "vietnamese": "ổn định",
-      "sentenceVietnamese": "Gần đây thời tiết không được ổn định lắm."
+      "en": "stable",
+      "vi": "ổn định",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "stable; steady",
+          "sentence": "這個工作的收入很穩定。",
+          "pinyin": "zhège gōngzuò de shōurù hěn wěndìng.",
+          "en": "The income from this job is very stable.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "stable; steady",
+          "sentence": "等他的情緒穩定再説吧。",
+          "pinyin": "děng tā de qíngxù wěndìng zàishuō ba.",
+          "en": "Let's wait until his emotions stabilize before discussing it.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "steady; stabilize",
+          "sentence": "專傢幫助穩定局勢。",
+          "pinyin": "zhuānjiā bāngzhù wěndìng júshì.",
+          "en": "Experts are helping to stabilize the situation.",
+          "vi": "Các chuyên gia giúp ổn định tình hình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "steady; stabilize",
+          "sentence": "銀行努力穩定匯率。",
+          "pinyin": "yínháng nǔlì wěndìng huìlǜ.",
+          "en": "Banks are working hard to stabilize the exchange rate.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "幸虧",
       "pinyin": "xìngkuī",
-      "english": "fortunately",
-      "sentenceChinese": "幸虧你提醒我帶外套。",
-      "sentencePinyin": "Xìngkuī nǐ tíxǐng wǒ dài wàitào.",
-      "sentenceEnglish": "Fortunately, you reminded me to bring my coat.",
-      "vietnamese": "may mà",
-      "sentenceVietnamese": "May mà bạn đã nhắc tôi mang áo khoác."
+      "en": "fortunately",
+      "vi": "may mà",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "luckily; fortunately; as luck would have it",
+          "sentence": "我倖虧走得早，才/纔沒被雨淋。",
+          "pinyin": "wǒ xìngkuī zǒu de zǎo, cái méi bèi yǔ lín.",
+          "en": "Fortunately, I left early, so I didn't get caught in the rain.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "luckily; fortunately; as luck would have it",
+          "sentence": "倖虧你提醒我，不然我就忘了。",
+          "pinyin": "xìngkuī nǐ tíxǐng wǒ, bùrán wǒ jiù wàngle.",
+          "en": "Luckily, you reminded me, or else I would have forgotten.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "躲",
       "pinyin": "duǒ",
-      "english": "to hide; to avoid",
-      "sentenceChinese": "下雨的時候，大家都跑去屋簷下躲雨。",
-      "sentencePinyin": "Xiàyǔ de shíhòu, dàjiā dōu pǎo qù wūyán xià duǒyǔ.",
-      "sentenceEnglish": "When it rained, everyone ran under the eaves to take shelter from the rain.",
-      "vietnamese": "trốn; tránh",
-      "sentenceVietnamese": "Lúc trời mưa, mọi người đều chạy vào dưới mái hiên để trú mưa."
+      "en": "to hide; to avoid",
+      "vi": "trốn; tránh",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hide (oneself)",
+          "sentence": "他躲在桌子底下。",
+          "pinyin": "tā duǒ zài zhuōzǐ dǐxia.",
+          "en": "He is hiding under the table.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "hide (oneself)",
+          "sentence": "他一看見狗就躲起來。",
+          "pinyin": "tā yī kànjiàn gǒu jiù duǒ qǐlái.",
+          "en": "He hides whenever he sees a dog.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "度",
       "pinyin": "dù",
-      "english": "degree",
-      "sentenceChinese": "今天晚上只有十度。",
-      "sentencePinyin": "Jīntiān wǎnshàng zhǐ yǒu shí dù.",
-      "sentenceEnglish": "It is only ten degrees tonight.",
-      "vietnamese": "độ",
-      "sentenceVietnamese": "Tối nay chỉ có 10 độ thôi."
+      "en": "degree",
+      "vi": "độ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "linear measure",
+          "sentence": "這個尺子的度是五釐米。",
+          "pinyin": "zhège chǐzi de dù shì wǔ límǐ.",
+          "en": "The linear measure of this ruler is 5 centimeters.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "linear measure",
+          "sentence": "他在研究不衕度量衡的差異。",
+          "pinyin": "tā zài yánjiū bùtóng dùliànghéng de chāyì.",
+          "en": "He is studying the differences in linear measures.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "degree; unit of measurement for angles, temperature, etc.",
+          "sentence": "今天氣溫是三十度。",
+          "pinyin": "jīntiān qìwēn shì sānshí dù.",
+          "en": "Today's temperature is 30 degrees.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "degree; unit of measurement for angles, temperature, etc.",
+          "sentence": "水的沸點是一百度。",
+          "pinyin": "shuǐ de fèidiǎn shì yī bǎidù.",
+          "en": "The boiling point of water is 100 degrees.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass",
+          "sentence": "她們成功地度過了難關。",
+          "pinyin": "tāmen chénggōng de dùguòle nánguān.",
+          "en": "They successfully overcame the difficulties.",
+          "vi": "Họ đã thành công vượt qua khó khăn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass",
+          "sentence": "飛機安全地度過了風暴。",
+          "pinyin": "fēijī ānquán de dùguòle fēngbào.",
+          "en": "The airplane safely passed through the storm.",
+          "vi": "Máy bay đã an toàn vượt qua cơn bão."
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "溫度",
       "pinyin": "wēndù",
-      "english": "temperature",
-      "sentenceChinese": "今天的溫度比昨天低。",
-      "sentencePinyin": "Jīntiān de wēndù bǐ zuótiān dī.",
-      "sentenceEnglish": "Today’s temperature is lower than yesterday’s.",
-      "vietnamese": "nhiệt độ",
-      "sentenceVietnamese": "Nhiệt độ hôm nay thấp hơn hôm qua."
+      "en": "temperature",
+      "vi": "nhiệt độ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "temperature",
+          "sentence": "今天的溫度很高。",
+          "pinyin": "jīntiān de wēndù hěn gāo.",
+          "en": "Today's temperature is high.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "temperature",
+          "sentence": "請告訴我水的溫度。",
+          "pinyin": "qǐng gàosù wǒ shuǐ de wēndù.",
+          "en": "Please tell me the water's temperature.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "零下",
       "pinyin": "língxià",
-      "english": "below zero",
-      "sentenceChinese": "冬天那裡常常零下五度。",
-      "sentencePinyin": "Dōngtiān nàlǐ chángcháng língxià wǔ dù.",
-      "sentenceEnglish": "In winter it is often five degrees below zero there.",
-      "vietnamese": "âm độ",
-      "sentenceVietnamese": "Mùa đông ở đó thường xuống âm 5 độ."
+      "en": "below zero",
+      "vi": "âm độ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "subzero; below zero",
+          "sentence": "今天的溫度零下五度。",
+          "pinyin": "jīntiān de wēndù língxià wǔ dù.",
+          "en": "It's five degrees below zero today.",
+          "vi": "Hôm nay nhiệt độ là âm 5 độ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "subzero; below zero",
+          "sentence": "零下十度的天氣真冷！",
+          "pinyin": "língxià shí dù de tiānqì zhēn lěng!",
+          "en": "It's freezing cold at ten below zero!",
+          "vi": "Thời tiết âm 10 độ lạnh quá!"
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "感覺",
       "pinyin": "gǎnjué",
-      "english": "to feel; feeling",
-      "sentenceChinese": "今天感覺比昨天冷多了。",
-      "sentencePinyin": "Jīntiān gǎnjué bǐ zuótiān lěng duō le.",
-      "sentenceEnglish": "It feels much colder today than yesterday.",
-      "vietnamese": "cảm thấy; cảm giác",
-      "sentenceVietnamese": "Hôm nay cảm thấy lạnh hơn hôm qua nhiều."
+      "en": "to feel; feeling",
+      "vi": "cảm thấy; cảm giác",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "feeling; sensation; sense perception",
+          "sentence": "我對這件事有很好的感覺。",
+          "pinyin": "wǒ duì zhè jiàn shì yǒu hěn hǎo de gǎnjué.",
+          "en": "I have a good feeling about this matter.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "feeling; sensation; sense perception",
+          "sentence": "我在這裡/裏的感覺很放鬆。",
+          "pinyin": "Wǒ zài zhèlǐ de gǎnjué hěn fàngsōng.",
+          "en": "I feel very relaxed here.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel; perceive; become aware of",
+          "sentence": "我感覺有點兒不舒服。",
+          "pinyin": "wǒ gǎnjué yǒudiǎnr bú shūfú.",
+          "en": "I feel a bit uncomfortable.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel; perceive; become aware of",
+          "sentence": "一場鞦雨過後就感覺有點冷了。",
+          "pinyin": "yī chǎng qiūyǔ guòhòu jiù gǎnjué yǒudiǎn lěngle.",
+          "en": "After a fall rain, it feels a bit cold.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "實際",
       "pinyin": "shíjì",
-      "english": "actual; in reality",
-      "sentenceChinese": "實際溫度沒有那麼低。",
-      "sentencePinyin": "Shíjì wēndù méiyǒu nàme dī.",
-      "sentenceEnglish": "The actual temperature is not that low.",
-      "vietnamese": "thực tế",
-      "sentenceVietnamese": "Nhiệt độ thực tế không thấp đến vậy."
+      "en": "actual; in reality",
+      "vi": "thực tế",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "reality; practice",
+          "sentence": "他的話和實際不符。",
+          "pinyin": "tā dehuà hé shíjì bùfú.",
+          "en": "His words do not match the reality.",
+          "vi": "Lời nói của anh ấy không khớp với thực tế."
+        },
+        {
+          "type": "Noun",
+          "meaning": "reality; practice",
+          "sentence": "計劃要符閤實際情況。",
+          "pinyin": "jìhuà yào fúhé shíjì qíngkuàng.",
+          "en": "The plan must align with the actual situation.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "real; actual; concrete; practical",
+          "sentence": "舉一個實際的例子來説明。",
+          "pinyin": "jǔ yīgè shíjì de lìzi lái shuōmíng.",
+          "en": "Give a specific example to illustrate.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "real; actual; concrete; practical",
+          "sentence": "他有很多實際工作經驗。",
+          "pinyin": "tā yǒu hěnduō shíjì gōngzuò jīngyàn.",
+          "en": "He has a lot of practical work experience.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "難怪",
       "pinyin": "nánguài",
-      "english": "no wonder",
-      "sentenceChinese": "難怪你今天穿這麼多。",
-      "sentencePinyin": "Nánguài nǐ jīntiān chuān zhème duō.",
-      "sentenceEnglish": "No wonder you are wearing so much today.",
-      "vietnamese": "bảo sao; chẳng trách",
-      "sentenceVietnamese": "Bảo sao hôm nay bạn mặc nhiều như thế."
+      "en": "no wonder",
+      "vi": "bảo sao; chẳng trách",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "no wonder",
+          "sentence": "難怪天氣這麼冷，今天下雪了。",
+          "pinyin": "nánguài tiānqì zhème lěng, jīntiān xià xuěle.",
+          "en": "No wonder it's so cold today. It's snowing.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "no wonder",
+          "sentence": "難怪他不來，原來他生病了。",
+          "pinyin": "nánguài tā bù lái, yuánlái tā shēngbìngle.",
+          "en": "That explains why he didn't come. He was sick.",
+          "vi": "Chẳng trách anh ấy không tới, ra là anh ấy ốm rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be understandable; to be pardonable",
+          "sentence": "難怪你這麼喜歡它，莫爾。",
+          "pinyin": "nánguài nǐ zhème xǐhuan tā, mò ěr.",
+          "en": "No wonder you're so fond of it, Mole.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to be understandable; to be pardonable",
+          "sentence": "難怪他們大部分都是黑人。",
+          "pinyin": "nánguài tāmen dà bùfèn dōu shì hēirén.",
+          "en": "No wonder that most of them are black.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "季節",
       "pinyin": "jìjié",
-      "english": "season",
-      "sentenceChinese": "我最喜歡秋天這個季節。",
-      "sentencePinyin": "Wǒ zuì xǐhuān qiūtiān zhè ge jìjié.",
-      "sentenceEnglish": "Autumn is my favorite season.",
-      "vietnamese": "mùa",
-      "sentenceVietnamese": "Mùa tôi thích nhất là mùa thu."
+      "en": "season",
+      "vi": "mùa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "time; season",
+          "sentence": "鞦季是我最喜歡的季節。",
+          "pinyin": "qiūjì shì wǒ zuì xǐhuān de jìjié.",
+          "en": "Autumn is my favourite season.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "time; season",
+          "sentence": "這個季節雨天很冷。",
+          "pinyin": "zhège jìjié yǔtiān hěn lěng.",
+          "en": "A rainy day is cold in this season.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "火鍋",
       "pinyin": "huǒguō",
-      "english": "hotpot",
-      "sentenceChinese": "天冷的時候最適合吃火鍋。",
-      "sentencePinyin": "Tiān lěng de shíhòu zuì shìhé chī huǒguō.",
-      "sentenceEnglish": "Hotpot is perfect for cold weather.",
-      "vietnamese": "lẩu",
-      "sentenceVietnamese": "Lúc trời lạnh ăn lẩu là hợp nhất."
+      "en": "hotpot",
+      "vi": "lẩu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hot pot",
+          "sentence": "這個季節適閤吃/喫火鍋。",
+          "pinyin": "zhège jìjié shìhé chī huǒguō.",
+          "en": "This season is perfect for eating hotpot.",
+          "vi": "Trời này đúng hợp ăn lẩu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "hot pot",
+          "sentence": "他一個人吃/喫了一頓火鍋。",
+          "pinyin": "tā yīgè rén chīle yī dùn huǒguō.",
+          "en": "He ate a hotpot meal by himself.",
+          "vi": "Mình anh ta đánh chén hết một nồi lẩu."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "海鮮",
       "pinyin": "hǎixiān",
-      "english": "seafood",
-      "sentenceChinese": "這家餐廳的海鮮很新鮮。",
-      "sentencePinyin": "Zhè jiā cāntīng de hǎixiān hěn xīnxiān.",
-      "sentenceEnglish": "The seafood at this restaurant is very fresh.",
-      "vietnamese": "hải sản",
-      "sentenceVietnamese": "Hải sản ở nhà hàng này rất tươi."
+      "en": "seafood",
+      "vi": "hải sản",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "seafood",
+          "sentence": "現在上的是海鮮。",
+          "pinyin": "xiànzài shàng de shì hǎixiān",
+          "en": "Here comes the seafood course.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "seafood",
+          "sentence": "我喜歡吃/喫海鮮。",
+          "pinyin": "wǒ xǐhuān chī hǎixiān.",
+          "en": "I like eating seafood.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "新鮮",
       "pinyin": "xīnxiān",
-      "english": "fresh",
-      "sentenceChinese": "市場裡的魚都很新鮮。",
-      "sentencePinyin": "Shìchǎng lǐ de yú dōu hěn xīnxiān.",
-      "sentenceEnglish": "The fish in the market are all very fresh.",
-      "vietnamese": "tươi",
-      "sentenceVietnamese": "Cá ở chợ đều rất tươi."
+      "en": "fresh",
+      "vi": "tươi",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "fresh",
+          "sentence": "這魚可是新鮮的。",
+          "pinyin": "zhè yú kěshì xīnxiān de.",
+          "en": "This fish is fresh.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fresh",
+          "sentence": "多麼新鮮的水果啊！",
+          "pinyin": "duōme xīnxiān de shuǐguǒ a!",
+          "en": "How fresh the fruit is!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "櫻花",
       "pinyin": "yīnghuā",
-      "english": "cherry blossoms",
-      "sentenceChinese": "春天的時候可以去看櫻花。",
-      "sentencePinyin": "Chūntiān de shíhòu kěyǐ qù kàn yīnghuā.",
-      "sentenceEnglish": "You can go see cherry blossoms in spring.",
-      "vietnamese": "hoa anh đào",
-      "sentenceVietnamese": "Vào mùa xuân có thể đi ngắm hoa anh đào."
+      "en": "cherry blossoms",
+      "vi": "hoa anh đào",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cherry blossom; cherry blossom tree",
+          "sentence": "櫻花的花瓣輕輕飄落。",
+          "pinyin": "yīnghuā de huābàn qīng qīng piāoluò.",
+          "en": "The petals of the cherry blossoms gently fall.",
+          "vi": "Những cánh hoa anh đào nhẹ nhàng rơi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "cherry blossom; cherry blossom tree",
+          "sentence": "她拍了很多櫻花的照片。",
+          "pinyin": "tā pāile hěnduō yīnghuā de zhàopiàn.",
+          "en": "She took many pictures of the cherry blossoms.",
+          "vi": "Cô ấy chụp rất nhiều ảnh hoa anh đào."
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "變化",
       "pinyin": "biànhuà",
-      "english": "change; variation",
-      "sentenceChinese": "台灣的天氣變化很大。",
-      "sentencePinyin": "Táiwān de tiānqì biànhuà hěn dà.",
-      "sentenceEnglish": "The weather in Taiwan changes a lot.",
-      "vietnamese": "thay đổi; biến hóa",
-      "sentenceVietnamese": "Thời tiết ở Đài Loan thay đổi rất nhiều."
+      "en": "change; variation",
+      "vi": "thay đổi; biến hóa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "change; variation",
+          "sentence": "天氣有很大的變化。",
+          "pinyin": "tiānqì yǒu hěn dà de biànhuà.",
+          "en": "The weather has a lot of changes.",
+          "vi": "Thời tiết có sự thay đổi lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "change; variation",
+          "sentence": "他沒有任何變化。",
+          "pinyin": "tā méiyǒu rènhé biànhuà.",
+          "en": "There has been no change in him.",
+          "vi": "Anh ấy không thay đổi chút nào."
+        },
+        {
+          "type": "Verb",
+          "meaning": "change; vary",
+          "sentence": "人們的觀唸變化了。",
+          "pinyin": "rénmen de guānniàn biànhuàle.",
+          "en": "People's views have changed.",
+          "vi": "Quan niệm của mọi người đã thay đổi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "change; vary",
+          "sentence": "他的性格變化了。",
+          "pinyin": "tā de xìnggé biànhuàle.",
+          "en": "His personality has changed.",
+          "vi": "Tính cách của anh ấy đã thay đổi."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "氣溫",
       "pinyin": "qìwēn",
-      "english": "air temperature",
-      "sentenceChinese": "明天的氣溫會再下降。",
-      "sentencePinyin": "Míngtiān de qìwēn huì zài xiàjiàng.",
-      "sentenceEnglish": "The temperature will drop again tomorrow.",
-      "vietnamese": "nhiệt độ không khí",
-      "sentenceVietnamese": "Ngày mai nhiệt độ sẽ còn giảm nữa."
+      "en": "air temperature",
+      "vi": "nhiệt độ không khí",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "air temperature",
+          "sentence": "氣溫變化無常。",
+          "pinyin": "qìwēn biànhuà wúcháng.",
+          "en": "The temperature changes unpredictably.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "air temperature",
+          "sentence": "山區氣溫較低。",
+          "pinyin": "shānqū qìwēn jiào dī.",
+          "en": "The temperature is lower in the mountains.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "差",
       "pinyin": "chà",
-      "english": "to differ; by a bit",
-      "sentenceChinese": "今天跟昨天差很多。",
-      "sentencePinyin": "Jīntiān gēn zuótiān chà hěnduō.",
-      "sentenceEnglish": "Today is very different from yesterday.",
-      "vietnamese": "khác; chênh lệch",
-      "sentenceVietnamese": "Hôm nay khác hôm qua rất nhiều."
+      "en": "to differ; by a bit",
+      "vi": "khác; chênh lệch",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "difference",
+          "sentence": "六和三的差是三。",
+          "pinyin": "liù hé sān de chà shì sān.",
+          "en": "The difference between 6 and 3 is 3.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "difference",
+          "sentence": "十減八的差等於二。",
+          "pinyin": "shí jiǎn bā de chà děngyú èr.",
+          "en": "The difference of 10 minus 8 equals 2.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "different",
+          "sentence": "這個質量太差了。",
+          "pinyin": "zhège zhìliàng tài chàle.",
+          "en": "This quality is too poor.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "different",
+          "sentence": "産品和圖片差太多了。",
+          "pinyin": "chǎnpǐn hé túpiàn chà tài duōle.",
+          "en": "The product differs too much from the photo.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "slightly; comparatively; a bit",
+          "sentence": "這個結果差強人意。",
+          "pinyin": "zhège jiéguǒ chāqiángrényì.",
+          "en": "This result is barely satisfactory.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "slightly; comparatively; a bit",
+          "sentence": "這個計劃差強人意。",
+          "pinyin": "zhège jìhuà chāqiángrényì.",
+          "en": "This plan is barely acceptable.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "幾乎",
       "pinyin": "jīhū",
-      "english": "almost",
-      "sentenceChinese": "我幾乎忘了帶外套。",
-      "sentencePinyin": "Wǒ jīhū wàng le dài wàitào.",
-      "sentenceEnglish": "I almost forgot to bring my coat.",
-      "vietnamese": "gần như",
-      "sentenceVietnamese": "Tôi gần như quên mang áo khoác."
+      "en": "almost",
+      "vi": "gần như",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "nearly; almost; practically",
+          "sentence": "這裡/裏幾乎沒有人。",
+          "pinyin": "zhèlǐ jīhū méiyǒu rén.",
+          "en": "Nearly no one is here.",
+          "vi": "Ở đây hầu như không có ai."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "nearly; almost; practically",
+          "sentence": "她幾乎和我一樣高。",
+          "pinyin": "tā jīhū hé wǒ yīyàng gāo.",
+          "en": "She is almost as tall as I am.",
+          "vi": "Cô ấy cao gần bằng tôi."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "乾",
       "pinyin": "gān",
-      "english": "dry",
-      "sentenceChinese": "冬天的空氣很乾。",
-      "sentencePinyin": "Dōngtiān de kōngqì hěn gān.",
-      "sentenceEnglish": "The air is very dry in winter.",
-      "vietnamese": "khô",
-      "sentenceVietnamese": "Không khí mùa đông rất khô."
+      "en": "dry",
+      "vi": "khô",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "offend; affront",
+          "sentence": "幹犯",
+          "pinyin": "gānfàn",
+          "en": "Offend",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "have to do with; be concerned with; be implicated in; interfere with",
+          "sentence": "這事與我無幹。",
+          "pinyin": "zhè shì yǔ wǒ wú gān.",
+          "en": "It has nothing to do with me.; It's none of my business.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "dry (opp. 湿)",
+          "sentence": "油漆未幹。",
+          "pinyin": "yóuqī wèi gān.",
+          "en": "Wet paint.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "empty; hollow; dry",
+          "sentence": "錢都花幹了。",
+          "pinyin": "Qián dōu huā gān le.",
+          "en": "All the money is spent.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "shield",
+          "sentence": "屏蔽罐可以減少信號幹擾。",
+          "pinyin": "Píngbì guàn kěyǐ jiǎnshǎo xìnhào gānrǎo.",
+          "en": "The shielding can reduces signal interference.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "waterside; bank",
+          "sentence": "江幹",
+          "pinyin": "jiāng gān",
+          "en": "River bank",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "in vain; futile; to no purpose; for nothing; with no result",
+          "sentence": "別幹等了。",
+          "pinyin": "bié gān děng le.",
+          "en": "Let’s not waste time waiting.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "only; with nothing else",
+          "sentence": "隻可幹洗",
+          "pinyin": "zhǐkě gānxǐ",
+          "en": "Dry-clean only",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "發霉",
       "pinyin": "fāméi",
-      "english": "to get moldy",
-      "sentenceChinese": "衣服太久沒曬，容易發霉。",
-      "sentencePinyin": "Yīfú tài jiǔ méi shài, róngyì fāméi.",
-      "sentenceEnglish": "Clothes get moldy easily if they are not dried in the sun for too long.",
-      "vietnamese": "mốc",
-      "sentenceVietnamese": "Quần áo để lâu không phơi nắng rất dễ bị mốc."
+      "en": "to get moldy",
+      "vi": "mốc",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "mildew; go mouldy; become mildewed",
+          "sentence": "墻角的書本髮/發黴了。",
+          "pinyin": "qiángjiǎo de shūběn fāméile.",
+          "en": "The books in the corner are moldy.",
+          "vi": "Những quyển sách ở góc tường bị mốc rồi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "mildew; go mouldy; become mildewed",
+          "sentence": "冰箱裡/裏的水果髮/發黴了。",
+          "pinyin": "bīngxiāng lǐ de shuǐguǒ fāméile.",
+          "en": "The fruit in the refrigerator is moldy.",
+          "vi": "Trái cây trong tủ lạnh bị mốc rồi."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "除濕機",
       "pinyin": "chúshījī",
-      "english": "dehumidifier",
-      "sentenceChinese": "梅雨季的時候，我家每天都開除濕機。",
-      "sentencePinyin": "Méiyǔjì de shíhòu, wǒ jiā měitiān dōu kāi chúshījī.",
-      "sentenceEnglish": "During the rainy season, we use the dehumidifier every day at home.",
-      "vietnamese": "máy hút ẩm",
-      "sentenceVietnamese": "Vào mùa mưa, nhà tôi ngày nào cũng bật máy hút ẩm."
+      "en": "dehumidifier",
+      "vi": "máy hút ẩm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "remove; get rid of; eliminate",
+          "sentence": "我們要除去舊傢具。",
+          "pinyin": "wǒmen yào chùqú jiù jiājù.",
+          "en": "We need to remove the old furniture.",
+          "vi": "Chúng ta cần loại bỏ những đồ nội thất cũ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "remove; get rid of; eliminate",
+          "sentence": "除掉這些病毒很重要。",
+          "pinyin": "chú diào zhèxiē bìngdú hěn zhòngyào.",
+          "en": "It's important to eliminate these viruses.",
+          "vi": "Việc loại bỏ những virus này rất quan trọng."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "except",
+          "sentence": "除了他，沒人知道這件事。",
+          "pinyin": "chúle tā, méi rén zhīdào zhè jiàn shì.",
+          "en": "No one knows about this except him.",
+          "vi": "Ngoại trừ anh ta, không ai biết về việc này."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "except",
+          "sentence": "除了週末，我每天都上班。",
+          "pinyin": "chúle zhōumò, wǒ měitiān dōu shàngbān.",
+          "en": "I work every day except on weekends.",
+          "vi": "Trừ cuối tuần, tôi đi làm hàng ngày."
+        },
+        {
+          "type": "Noun",
+          "meaning": "doorsteps; steps to a house",
+          "sentence": "他坐在除上休息。",
+          "pinyin": "tā zuò zài chú shàng xiūxi.",
+          "en": "He is sitting on the platform to rest.",
+          "vi": "Anh ấy ngồi trên bậc thềm để nghỉ ngơi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "doorsteps; steps to a house",
+          "sentence": "他們在除前等候。",
+          "pinyin": "tāmen zài chú qián děnghòu.",
+          "en": "They are waiting before the platform.",
+          "vi": "Họ đợi trước bậc thềm."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "雨季",
       "pinyin": "yǔjì",
-      "english": "rainy season",
-      "sentenceChinese": "台灣北部的雨季很長。",
-      "sentencePinyin": "Táiwān běibù de yǔjì hěn cháng.",
-      "sentenceEnglish": "The rainy season in northern Taiwan is long.",
-      "vietnamese": "mùa mưa",
-      "sentenceVietnamese": "Mùa mưa ở miền Bắc Đài Loan rất dài."
+      "en": "rainy season",
+      "vi": "mùa mưa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "monsoon; rainy season",
+          "sentence": "雨季讓大地變得濕潤。",
+          "pinyin": "yǔjì ràng dàdì biàn dé shīrùn.",
+          "en": "The rainy season makes the land moist.",
+          "vi": "Mùa mưa khiến mặt đất trở nên ẩm ướt."
+        },
+        {
+          "type": "Noun",
+          "meaning": "monsoon; rainy season",
+          "sentence": "我喜歡雨季的空氣。",
+          "pinyin": "wǒ xǐhuān yǔjì de kōngqì.",
+          "en": "I like the air during the rainy season.",
+          "vi": "Tôi thích không khí của mùa mưa."
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "涼快",
       "pinyin": "liángkuai",
-      "english": "cool; pleasantly cool",
-      "sentenceChinese": "晚上出去散步很涼快。",
-      "sentencePinyin": "Wǎnshàng chūqù sànbù hěn liángkuai.",
-      "sentenceEnglish": "It is nice and cool to take a walk at night.",
-      "vietnamese": "mát mẻ",
-      "sentenceVietnamese": "Buổi tối ra ngoài đi dạo rất mát."
+      "en": "cool; pleasantly cool",
+      "vi": "mát mẻ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "cool",
+          "sentence": "今天的天氣很涼快。",
+          "pinyin": "jīntiān de tiānqì hěn liángkuai.",
+          "en": "The weather today is cool.",
+          "vi": "Hôm nay thời tiết rất mát mẻ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "cool",
+          "sentence": "在樹下坐著很涼快。",
+          "pinyin": "zài shù xià zuòzhe hěn liángkuai.",
+          "en": "It's cool sitting under the tree.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "cool off",
+          "sentence": "我們去外麵涼快一下。",
+          "pinyin": "wǒmen qù wàimiàn liángkuai yīxià.",
+          "en": "Let's go outside to cool off a bit.",
+          "vi": "Chúng ta ra ngoài hóng mát một chút."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cool off",
+          "sentence": "我喜歡在海邊涼快。",
+          "pinyin": "wǒ xǐhuān zài hǎibiān liángkuai.",
+          "en": "I like to cool off at the beach.",
+          "vi": "Tôi thích hóng mát ở bãi biển."
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "潮濕",
       "pinyin": "cháoshī",
-      "english": "humid",
-      "sentenceChinese": "南部的夏天又熱又潮濕。",
-      "sentencePinyin": "Nánbù de xiàtiān yòu rè yòu cháoshī.",
-      "sentenceEnglish": "Summers in the south are hot and humid.",
-      "vietnamese": "ẩm ướt",
-      "sentenceVietnamese": "Mùa hè ở miền Nam vừa nóng vừa ẩm."
+      "en": "humid",
+      "vi": "ẩm ướt",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "wet; damp; moist; humid",
+          "sentence": "這裡/裏的空氣很潮濕。",
+          "pinyin": "zhèlǐ de kōngqì hěn cháoshī.",
+          "en": "The air here is very humid.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "wet; damp; moist; humid",
+          "sentence": "臺北的夏天悶熱潮濕。",
+          "pinyin": "táiběi de xiàtiān mēnrè cháoshī.",
+          "en": "Summer in Taipei is hot and humid.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "悶",
       "pinyin": "mēn",
-      "english": "stuffy",
-      "sentenceChinese": "房間裡太悶了，開一下窗吧。",
-      "sentencePinyin": "Fángjiān lǐ tài mēn le, kāi yíxià chuāng ba.",
-      "sentenceEnglish": "The room is too stuffy. Open the window for a bit.",
-      "vietnamese": "oi bức",
-      "sentenceVietnamese": "Trong phòng oi quá, mở cửa sổ ra một chút đi."
+      "en": "stuffy",
+      "vi": "oi bức",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "steep (tea)",
+          "sentence": "茶剛泡上，悶一會兒再喝。",
+          "pinyin": "chá gāng pào shàng, mēn yīhuǐr zài hē.",
+          "en": "Let the tea steep for a while before drinking.",
+          "vi": "Trà vừa mới pha, chờ ngấm chút hãy uống."
+        },
+        {
+          "type": "verb",
+          "meaning": "steep (tea)",
+          "sentence": "你把沏好的茶再悶一會兒。",
+          "pinyin": "nǐ bǎ qī hǎo de chá zài mēn yīhuǐr.",
+          "en": "Let the brewed tea steep for a while longer.",
+          "vi": "Cậu để tách trà một lúc nữa cho ngấm nhé."
+        },
+        {
+          "type": "adjective",
+          "meaning": "stuffy; close; suffocative",
+          "sentence": "打開窗戶吧，房裡/裏太悶了。",
+          "pinyin": "dǎkāi chuānghù ba, fáng lǐ tài mēnle.",
+          "en": "Open the window, it's too stuffy in the room.",
+          "vi": "Mở cửa sổ ra đi, trong phòng oi bức quá."
+        },
+        {
+          "type": "adjective",
+          "meaning": "stuffy; close; suffocative",
+          "sentence": "天氣這麼熱，我覺得很悶。",
+          "pinyin": "tiānqì zhème rè, wǒ juéde hěn mēn.",
+          "en": "The weather is so hot, I feel very uncomfortable.",
+          "vi": "Thời tiết nóng như vậy, tôi cảm thấy rất khó chịu."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "冷氣",
       "pinyin": "lěngqì",
-      "english": "air conditioner",
-      "sentenceChinese": "夏天沒有冷氣真的受不了。",
-      "sentencePinyin": "Xiàtiān méiyǒu lěngqì zhēn de shòu bù liǎo.",
-      "sentenceEnglish": "It is really unbearable to have no air conditioning in summer.",
-      "vietnamese": "máy lạnh",
-      "sentenceVietnamese": "Mùa hè mà không có máy lạnh thì thật sự không chịu nổi."
+      "en": "air conditioner",
+      "vi": "máy lạnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cold (or cool) air",
+          "sentence": "門縫裡/裏傳來一股冷氣。",
+          "pinyin": "mén fèng lǐ chuán lái yī gǔ lěngqì.",
+          "en": "A cold draft came through the door crack.",
+          "vi": "Một luồng khí lạnh từ khe cửa truyền vào."
+        },
+        {
+          "type": "Noun",
+          "meaning": "cold (or cool) air",
+          "sentence": "冷氣使我感到很清爽。",
+          "pinyin": "lěngqì shǐ wǒ gǎndào hěn qīngshuǎng.",
+          "en": "The cold air made me feel very refreshing.",
+          "vi": "Hơi lạnh khiến tôi cảm thấy rất sảng khoái."
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "荷蘭",
       "pinyin": "Hélán",
-      "english": "the Netherlands",
-      "sentenceChinese": "陳敏勞是從荷蘭來的。",
-      "sentencePinyin": "Chén Mǐnláo shì cóng Hélán lái de.",
-      "sentenceEnglish": "Chen Minlao is from the Netherlands.",
-      "vietnamese": "Hà Lan",
-      "sentenceVietnamese": "Trần Mẫn Lao đến từ Hà Lan."
+      "en": "the Netherlands",
+      "vi": "Hà Lan",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "the Netherlands; Holland",
+          "sentence": "著名的荷蘭電影導演阿格涅絲卡·霍蘭在那邊。",
+          "pinyin": "zhùmíng de hélán diànyǐng dǎoyǎn āgéniè sīqiǎ · huòlán zài nàbiān",
+          "en": "There's famous Polish film director Agnieszka Holland.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "太陽出來",
       "pinyin": "tàiyáng chūlái",
-      "english": "the sun comes out",
-      "sentenceChinese": "太陽一出來就變得很熱。",
-      "sentencePinyin": "Tàiyáng yì chūlái jiù biàn de hěn rè.",
-      "sentenceEnglish": "As soon as the sun comes out, it gets very hot.",
-      "vietnamese": "mặt trời ló ra",
-      "sentenceVietnamese": "Mặt trời vừa ló ra là trời trở nên rất nóng."
+      "en": "the sun comes out",
+      "vi": "mặt trời ló ra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "emerge; come out",
+          "sentence": "你齣來，我跟你説句話。",
+          "pinyin": "nǐ chūlái, wǒ gēn nǐ shuō jù huà.",
+          "en": "Come out. I want to tell you something.",
+          "vi": "Anh ra đây tôi nói chuyện với anh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "emerge; come out",
+          "sentence": "他終於從教室齣來了。",
+          "pinyin": "tā zhōngyú cóng jiàoshì chūláile.",
+          "en": "He's finally out of the classroom.",
+          "vi": "Cuối cùng anh cũng bước ra khỏi lớp học."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "颳風",
       "pinyin": "guāfēng",
-      "english": "to be windy",
-      "sentenceChinese": "外面正在颳風，你多穿一點。",
-      "sentencePinyin": "Wàimiàn zhèngzài guāfēng, nǐ duō chuān yìdiǎn.",
-      "sentenceEnglish": "It is windy outside, so put on a bit more.",
-      "vietnamese": "có gió mạnh",
-      "sentenceVietnamese": "Bên ngoài đang có gió mạnh, bạn mặc thêm đi."
+      "en": "to be windy",
+      "vi": "có gió mạnh",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "to be windy; to blow (of wind)",
+          "sentence": "颳風的時候很冷。",
+          "pinyin": "guā fēng de shíhou hěn lěng.",
+          "en": "It's cold when the wind blows.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "to be windy; to blow (of wind)",
+          "sentence": "明天會颳風嗎？",
+          "pinyin": "míngtiān huì guā fēng ma?",
+          "en": "Will it be windy tomorrow?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "受到",
       "pinyin": "shòudào",
-      "english": "to receive; to feel",
-      "sentenceChinese": "我受到天氣變化的影響。",
-      "sentencePinyin": "Wǒ shòudào tiānqì biànhuà de yǐngxiǎng.",
-      "sentenceEnglish": "I am affected by the changes in the weather.",
-      "vietnamese": "bị; chịu",
-      "sentenceVietnamese": "Tôi bị ảnh hưởng bởi sự thay đổi của thời tiết."
+      "en": "to receive; to feel",
+      "vi": "bị; chịu",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to receive",
+          "sentence": "我收到了一封郵件。",
+          "pinyin": "wǒ shōudàole yī fēng yóujiàn.",
+          "en": "I received an email.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to receive",
+          "sentence": "她收到了生日禮物。",
+          "pinyin": "tā shōudàole shēngrì lǐwù.",
+          "en": "She received a birthday gift.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "受不了",
       "pinyin": "shòu bù liǎo",
-      "english": "cannot stand it",
-      "sentenceChinese": "這種天氣我真的受不了。",
-      "sentencePinyin": "Zhè zhǒng tiānqì wǒ zhēn de shòu bù liǎo.",
-      "sentenceEnglish": "I really cannot stand this kind of weather.",
-      "vietnamese": "không chịu nổi",
-      "sentenceVietnamese": "Kiểu thời tiết này tôi thật sự không chịu nổi."
+      "en": "cannot stand it",
+      "vi": "không chịu nổi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "unbearable; cannot stand sth.",
+          "sentence": "這天氣熱得我受不了。",
+          "pinyin": "zhè tiānqì rè dé wǒ shòu bùliǎo.",
+          "en": "It's so hot, I can't stand it.",
+          "vi": "Tớ không chịu nổi cái nóng này."
+        },
+        {
+          "type": "Verb",
+          "meaning": "unbearable; cannot stand sth.",
+          "sentence": "這傷口疼得我受不了。",
+          "pinyin": "zhè shāngkǒu téng dé wǒ shòu bùliǎo.",
+          "en": "The wound hurts so much.",
+          "vi": "Vết thương này làm tôi không chịu nổi."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "餓死了",
       "pinyin": "è sǐ le",
-      "english": "starving",
-      "sentenceChinese": "我中午沒吃飯，現在餓死了。",
-      "sentencePinyin": "Wǒ zhōngwǔ méi chīfàn, xiànzài è sǐ le.",
-      "sentenceEnglish": "I did not eat lunch, and now I am starving.",
-      "vietnamese": "đói chết đi được",
-      "sentenceVietnamese": "Trưa nay tôi chưa ăn nên bây giờ đói chết đi được."
+      "en": "starving",
+      "vi": "đói chết đi được",
+      "samples": [
+        {
+          "type": "Particle",
+          "meaning": "indicate the completion of an action, at a point in the past or before the beginning of another action, or an expected or presumed action",
+          "sentence": "我買了一本書。",
+          "pinyin": "wǒ mǎile yī běn shū.",
+          "en": "I bought a book.",
+          "vi": "Tôi đã mua một quyển sách."
+        },
+        {
+          "type": "Particle",
+          "meaning": "indicate the completion of an action, at a point in the past or before the beginning of another action, or an expected or presumed action",
+          "sentence": "我吃/喫了一個蘋果。",
+          "pinyin": "wǒ chīle yīgè píngguǒ.",
+          "en": "I ate an apple.",
+          "vi": "Tôi đã ăn một quả táo."
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "後母臉",
       "pinyin": "hòumǔ liǎn",
-      "english": "stern face",
-      "sentenceChinese": "他一不高興就會擺出後母臉。",
-      "sentencePinyin": "Tā yí bù gāoxìng jiù huì bǎichū hòumǔ liǎn.",
-      "sentenceEnglish": "Whenever he is unhappy, he puts on a stern face.",
-      "vietnamese": "gương mặt lạnh lùng, khó gần",
-      "sentenceVietnamese": "Cứ hễ không vui là anh ấy lại làm ra vẻ mặt rất lạnh lùng."
+      "en": "stern face",
+      "vi": "gương mặt lạnh lùng, khó gần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "face (of people or animals)",
+          "sentence": "她有一張漂亮的臉。",
+          "pinyin": "tā yǒuyī zhāng piàoliang de liǎn.",
+          "en": "She has a beautiful face.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "face (of people or animals)",
+          "sentence": "他的臉圓圓的。",
+          "pinyin": "tā de liǎn yuán yuán de.",
+          "en": "His face is round.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "祖先",
       "pinyin": "zǔxiān",
-      "english": "ancestors",
-      "sentenceChinese": "過節的時候，很多人會祭拜祖先。",
-      "sentencePinyin": "Guòjié de shíhòu, hěnduō rén huì jìbài zǔxiān.",
-      "sentenceEnglish": "Many people worship their ancestors during festivals.",
-      "vietnamese": "tổ tiên",
-      "sentenceVietnamese": "Vào dịp lễ tết, nhiều người sẽ cúng bái tổ tiên."
+      "en": "ancestors",
+      "vi": "tổ tiên",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ancestor; forbear; forefathers; forefather",
+          "sentence": "我的祖先是西班牙人。",
+          "pinyin": "wǒ de zǔxiān shì xībānyá rén.",
+          "en": "My ancestors are Spanish.",
+          "vi": "Tổ tiên tôi là người Tây Ban Nha."
+        },
+        {
+          "type": "Noun",
+          "meaning": "ancestor; forbear; forefathers; forefather",
+          "sentence": "我們要牢記祖先的教誨。",
+          "pinyin": "wǒmen yào láojì zǔxiān de jiàohuì.",
+          "en": "We must remember the teachings of our ancestors.",
+          "vi": "Chúng ta phải ghi nhớ lời dạy của tổ tiên."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "移民",
       "pinyin": "yímín",
-      "english": "to immigrate; immigrant",
-      "sentenceChinese": "他的祖先很早就移民到台灣了。",
-      "sentencePinyin": "Tā de zǔxiān hěn zǎo jiù yímín dào Táiwān le.",
-      "sentenceEnglish": "His ancestors immigrated to Taiwan long ago.",
-      "vietnamese": "di dân; nhập cư",
-      "sentenceVietnamese": "Tổ tiên của anh ấy đã di cư đến Đài Loan từ rất lâu rồi."
+      "en": "to immigrate; immigrant",
+      "vi": "di dân; nhập cư",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "emigrant; migrants",
+          "sentence": "他是一個新移民。",
+          "pinyin": "tā shì yīgè xīn yímín.",
+          "en": "He is a new immigrant.",
+          "vi": "Anh ấy là một dân di cư mới."
+        },
+        {
+          "type": "Noun",
+          "meaning": "emigrant; migrants",
+          "sentence": "這批移民來自非洲。",
+          "pinyin": "zhè pī yímín láizì fēizhōu.",
+          "en": "These immigrants are from Africa.",
+          "vi": "Nhóm dân di cư này đến từ châu Phi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to migrate; to immigrate",
+          "sentence": "他們決定移民英國。",
+          "pinyin": "tāmen juédìng yímín yīngguó.",
+          "en": "They decided to emigrate to England.",
+          "vi": "Họ quyết định di dân đến Anh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to migrate; to immigrate",
+          "sentence": "很多人移民到海外。",
+          "pinyin": "hěnduō rén yímín dào hǎiwài.",
+          "en": "A lot of people immigrate overseas.",
+          "vi": "Rất nhiều người di dân đến nước ngoài."
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "當中",
       "pinyin": "dāngzhōng",
-      "english": "among; in the middle of",
-      "sentenceChinese": "這些故事當中，我最喜歡這一個。",
-      "sentencePinyin": "Zhèxiē gùshì dāngzhōng, wǒ zuì xǐhuān zhè yí ge.",
-      "sentenceEnglish": "Among these stories, I like this one the most.",
-      "vietnamese": "trong số; ở giữa",
-      "sentenceVietnamese": "Trong số những câu chuyện này, tôi thích câu này nhất."
+      "en": "among; in the middle of",
+      "vi": "trong số; ở giữa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "in the middle; in the centre",
+          "sentence": "公園當中有一個大湖。",
+          "pinyin": "gōngyuán dāngzhōng yǒu yīgè dàhú.",
+          "en": "There is a big lake in the park.",
+          "vi": "Ở giữa công viên có một hồ lớn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "in the middle; in the centre",
+          "sentence": "房間當中放著一張桌子。",
+          "pinyin": "fángjiān dāngzhōng fàngzhe yī zhāng zhuōzi.",
+          "en": "There is a table in the middle of the room.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "根據",
       "pinyin": "gēnjù",
-      "english": "according to; based on",
-      "sentenceChinese": "根據天氣預報，明天會下雨。",
-      "sentencePinyin": "Gēnjù tiānqì yùbào, míngtiān huì xiàyǔ.",
-      "sentenceEnglish": "According to the weather forecast, it will rain tomorrow.",
-      "vietnamese": "theo; căn cứ vào",
-      "sentenceVietnamese": "Theo dự báo thời tiết, ngày mai sẽ mưa."
+      "en": "according to; based on",
+      "vi": "theo; căn cứ vào",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "basis; grounds; reason; bottom; foundation",
+          "sentence": "我們需要更多的根據。",
+          "pinyin": "wǒmen xūyào gèng duō de gēnjù.",
+          "en": "We need more support for this claim.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "basis; grounds; reason; bottom; foundation",
+          "sentence": "這些根據不足以證明他有罪。",
+          "pinyin": "zhèxiē gēnjù bùzú yǐ zhèngmíng tā yǒuzuì.",
+          "en": "This evidence is not enough to prove his guilt.",
+          "vi": "Những chứng cứ này không đủ để chứng minh anh ta có tội."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "on the basis of; according to; in the light of",
+          "sentence": "本書是根據個人經曆寫成的。",
+          "pinyin": "běn shū shì gēnjù gèrén jīnglì xiěchéng de.",
+          "en": "The book is based on personal experience.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "on the basis of; according to; in the light of",
+          "sentence": "這個飲食安排以熱量統計為根據。",
+          "pinyin": "zhège yǐnshí ānpái yǐ rèliàng tǒngjì wèi gēnjù.",
+          "en": "The diet is based on counting calories.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to base",
+          "sentence": "我們一定得根據學校的規定。",
+          "pinyin": "wǒmen yīdìng dé gēnjù xuéxiào de guīdìng.",
+          "en": "We must follow the school rules.",
+          "vi": "Chúng ta nhất định phải căn cứ vào quy định của trường học."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to base",
+          "sentence": "這一理論似乎沒有事實根據。",
+          "pinyin": "zhè yī lǐlùn sìhū méiyǒu shìshí gēnjù.",
+          "en": "The theory seems to have no basis in fact.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "農曆",
       "pinyin": "nónglì",
-      "english": "lunar calendar",
-      "sentenceChinese": "中秋節是農曆八月十五。",
-      "sentencePinyin": "Zhōngqiū Jié shì nónglì bā yuè shíwǔ.",
-      "sentenceEnglish": "The Mid-Autumn Festival falls on the fifteenth day of the eighth lunar month.",
-      "vietnamese": "âm lịch",
-      "sentenceVietnamese": "Tết Trung Thu là ngày 15 tháng 8 âm lịch."
+      "en": "lunar calendar",
+      "vi": "âm lịch",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the lunar calendar; the traditional Chinese calendar",
+          "sentence": "春節是農曆新年。",
+          "pinyin": "chūnjié shì nónglì xīnnián.",
+          "en": "Chinese New Year is the Lunar New Year.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "the lunar calendar; the traditional Chinese calendar",
+          "sentence": "她的生日是農曆六月初六。",
+          "pinyin": "tā de shēngrì shì nónglì liù yuèchū liù.",
+          "en": "Her birthday is on the 6th day of the 6th lunar month.",
+          "vi": "Sinh nhật của cô ấy là ngày 6 tháng 6 âm lịch."
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "農業",
       "pinyin": "nóngyè",
-      "english": "agriculture",
-      "sentenceChinese": "古代社會很重視農業。",
-      "sentencePinyin": "Gǔdài shèhuì hěn zhòngshì nóngyè.",
-      "sentenceEnglish": "Agriculture was very important in ancient society.",
-      "vietnamese": "nông nghiệp",
-      "sentenceVietnamese": "Xã hội thời xưa rất coi trọng nông nghiệp."
+      "en": "agriculture",
+      "vi": "nông nghiệp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "agriculture",
+          "sentence": "農業需要消耗的大量水。",
+          "pinyin": "nóngyè xūyào xiāohào de dàliàng shǔi。",
+          "en": "Agriculture consumes a great amount of water.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "agriculture",
+          "sentence": "有機農業在各處髮/發展。",
+          "pinyin": "yǒujī nóngyè zài gè chù fāzhǎn.",
+          "en": "Organic farming is expanding everywhere.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "農人",
       "pinyin": "nóngrén",
-      "english": "farmer",
-      "sentenceChinese": "農人靠天氣吃飯。",
-      "sentencePinyin": "Nóngrén kào tiānqì chīfàn.",
-      "sentenceEnglish": "Farmers depend on the weather for a living.",
-      "vietnamese": "nông dân",
-      "sentenceVietnamese": "Người nông dân sống nhờ vào thời tiết."
+      "en": "farmer",
+      "vi": "nông dân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "farmer",
+          "sentence": "農人每天早起幹活。",
+          "pinyin": "Nóng rén měi tiān zǎo qǐ gàn huó.",
+          "en": "Farmers get up early to work every day.",
+          "vi": "Nông dân mỗi ngày dậy sớm làm việc."
+        },
+        {
+          "type": "Noun",
+          "meaning": "farmer",
+          "sentence": "農人以耖平整田疇。",
+          "pinyin": "nóng rén yǐ chào píng zhěng tián chóu.",
+          "en": "The farmers use hoes to level and even out the fields.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "難得",
       "pinyin": "nándé",
-      "english": "rare; hard to come by",
-      "sentenceChinese": "今天天氣這麼好，真難得。",
-      "sentencePinyin": "Jīntiān tiānqì zhème hǎo, zhēn nándé.",
-      "sentenceEnglish": "Such nice weather today is really rare.",
-      "vietnamese": "hiếm có; khó có được",
-      "sentenceVietnamese": "Hôm nay thời tiết đẹp như vậy thật là hiếm có."
+      "en": "rare; hard to come by",
+      "vi": "hiếm có; khó có được",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "rare; hard to come by",
+          "sentence": "靈芝是非常難得的藥草。",
+          "pinyin": "língzhī shì fēicháng nándé de yàocǎo.",
+          "en": "Ganoderma is a very rare herb.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "rare; hard to come by",
+          "sentence": "像他這樣的人很難得。",
+          "pinyin": "xiàng tā zhèyàng de rén hěn nándé.",
+          "en": "People like him are hard to come by.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "祭祖",
       "pinyin": "jìzǔ",
-      "english": "to worship ancestors",
-      "sentenceChinese": "清明節的時候，很多家庭會去祭祖。",
-      "sentencePinyin": "Qīngmíng Jié de shíhòu, hěnduō jiātíng huì qù jìzǔ.",
-      "sentenceEnglish": "Many families worship their ancestors during Tomb Sweeping Day.",
-      "vietnamese": "cúng tổ tiên",
-      "sentenceVietnamese": "Vào dịp Thanh Minh, nhiều gia đình sẽ đi cúng tổ tiên."
+      "en": "to worship ancestors",
+      "vi": "cúng tổ tiên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "offer sacrifices to one's ancestors",
+          "sentence": "每個春節他們都祭祖。",
+          "pinyin": "měi gè chūnjié tāmen dōu jìzǔ.",
+          "en": "Every Chinese New Year, they worship their ancestors.",
+          "vi": "Mỗi dịp Tết Nguyên Đán, họ đều cúng tổ tiên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "offer sacrifices to one's ancestors",
+          "sentence": "祭祖是中國傳統習俗。",
+          "pinyin": "jìzǔ shì zhōngguó chuántǒng xísú.",
+          "en": "Worshipping ancestors is a traditional custom in China.",
+          "vi": "Tế tổ là phong tục truyền thống của Trung Quốc."
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "拜",
       "pinyin": "bài",
-      "english": "to worship; to pay respect",
-      "sentenceChinese": "我們先去廟裡拜一拜。",
-      "sentencePinyin": "Wǒmen xiān qù miào lǐ bài yí bài.",
-      "sentenceEnglish": "Let’s go to the temple to pay our respects first.",
-      "vietnamese": "cúng; bái lạy",
-      "sentenceVietnamese": "Chúng ta vào chùa thắp hương trước đi."
+      "en": "to worship; to pay respect",
+      "vi": "cúng; bái lạy",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "make a courtesy call",
+          "sentence": "總統迴拜了外國使節。",
+          "pinyin": "zǒngtǒng huíbàile wàiguó shǐjié.",
+          "en": "The president returned the courtesy call to the foreign envoy.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "make a courtesy call",
+          "sentence": "她迴拜了朋友的拜訪。",
+          "pinyin": "tā huíbàile péngyǒu de bàifǎng.",
+          "en": "She returned her friend's courtesy visit.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "respect (used in interpersonal communication)",
+          "sentence": "拜懇您幫忙處理此事。",
+          "pinyin": "bài kěn nín bāngmáng chǔlǐ cǐ shì.",
+          "en": "I respectfully beg you to handle this matter.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "respect (used in interpersonal communication)",
+          "sentence": "拜請先生指點迷津。",
+          "pinyin": "bài qǐng xiānshēng zhǐdiǎn míjīn.",
+          "en": "I humbly request your guidance, sir.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "拜先生是我們的鄰居。",
+          "pinyin": "bài xiānshēng shì wǒmen de línjū.",
+          "en": "Mr. Bai is our neighbor.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "拜女士在銀行工作。",
+          "pinyin": "bài nǚshì zài yínháng gōngzuò.",
+          "en": "Ms. Bai works at a bank.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "神",
       "pinyin": "shén",
-      "english": "god; deity",
-      "sentenceChinese": "有些人相信神會保佑他們。",
-      "sentencePinyin": "Yǒuxiē rén xiāngxìn shén huì bǎoyòu tāmen.",
-      "sentenceEnglish": "Some people believe that the gods will protect them.",
-      "vietnamese": "thần",
-      "sentenceVietnamese": "Có người tin rằng thần linh sẽ phù hộ cho họ."
+      "en": "god; deity",
+      "vi": "thần",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "god; deity; divinity",
+          "sentence": "人們信奉這位神祗。",
+          "pinyin": "rénmen xìnfèng zhè wèi shén zhī.",
+          "en": "People worship this deity.",
+          "vi": "Mọi người tôn thờ vị thần này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "god; deity; divinity",
+          "sentence": "她是傳説中的神仙。",
+          "pinyin": "tā shì chuánshuō zhōng de shénxiān.",
+          "en": "She is a legendary deity.",
+          "vi": "Cô ấy là thần tiên trong truyền thuyết."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "smart; clever",
+          "sentence": "這孩子真神，一點就通。",
+          "pinyin": "zhè háizi zhēnshén, yīdiǎn jiù tōng.",
+          "en": "This child is so clever, he understands instantly.",
+          "vi": "Đứa trẻ này thật thông minh, chỉ một chút là hiểu ngay."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "smart; clever",
+          "sentence": "你真神啊，啥都知道。",
+          "pinyin": "nǐ zhēnshén a, shá dōu zhīdào.",
+          "en": "You're so smart, you know everything.",
+          "vi": "Bạn thật thông mình, cái gì cũng biết"
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "拜拜",
       "pinyin": "bàibài",
-      "english": "to make offerings; to worship",
-      "sentenceChinese": "奶奶每逢初一十五都會拜拜。",
-      "sentencePinyin": "Nǎinai měiféng chūyī shíwǔ dōu huì bàibài.",
-      "sentenceEnglish": "Grandma makes offerings on every first and fifteenth day of the lunar month.",
-      "vietnamese": "cúng bái",
-      "sentenceVietnamese": "Cứ đến mùng một và ngày rằm là bà tôi lại cúng bái."
+      "en": "to make offerings; to worship",
+      "vi": "cúng bái",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "bye-bye; goodbye",
+          "sentence": "拜拜，明天見！",
+          "pinyin": "bàibài, míngtiān jiàn!",
+          "en": "Bye, see you tomorrow!",
+          "vi": "Tạm biệt, mai gặp lại."
+        },
+        {
+          "type": "Verb",
+          "meaning": "bye-bye; goodbye",
+          "sentence": "我得走了，拜拜！",
+          "pinyin": "wǒ dé zǒule, bàibài!",
+          "en": "I have to go, bye!",
+          "vi": "Tôi phải đi rồi, tạm biệt!"
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "蚊蟲",
       "pinyin": "wénchóng",
-      "english": "mosquitoes and insects",
-      "sentenceChinese": "夏天去山上要小心蚊蟲。",
-      "sentencePinyin": "Xiàtiān qù shān shàng yào xiǎoxīn wénchóng.",
-      "sentenceEnglish": "You have to watch out for mosquitoes and insects when going into the mountains in summer.",
-      "vietnamese": "muỗi và côn trùng",
-      "sentenceVietnamese": "Mùa hè lên núi phải cẩn thận muỗi và côn trùng."
+      "en": "mosquitoes and insects",
+      "vi": "muỗi và côn trùng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mosquito",
+          "sentence": "樹樾底下蚊蟲多。",
+          "pinyin": "shù yuè dǐxià wénchóng duō.",
+          "en": "There are many mosquitoes under the shade of the tree.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "mosquito",
+          "sentence": "蚊蟲叮咬",
+          "pinyin": "wénchóng dīngyǎo",
+          "en": "Mosquito bite",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "戴",
       "pinyin": "dài",
-      "english": "to wear; to put on",
-      "sentenceChinese": "他手上戴著一條紅繩。",
-      "sentencePinyin": "Tā shǒu shàng dài zhe yì tiáo hóngshéng.",
-      "sentenceEnglish": "He is wearing a red string on his wrist.",
-      "vietnamese": "đeo",
-      "sentenceVietnamese": "Anh ấy đang đeo một sợi dây đỏ trên tay."
+      "en": "to wear; to put on",
+      "vi": "đeo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "wear; put on",
+          "sentence": "她戴著眼鏡看書。",
+          "pinyin": "tā dài zhe yǎnjìng kànshū.",
+          "en": "She wears glasses while reading.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "wear; put on",
+          "sentence": "你戴手套了嗎？",
+          "pinyin": "nǐ dài shǒutàole ma?",
+          "en": "Did you put on gloves?",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "戴先生是我的朋友。",
+          "pinyin": "dài xiānshēng shì wǒ de péngyǒu.",
+          "en": "Mr. Dai is my friend.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我認識一個戴姓的人。",
+          "pinyin": "wǒ rèn shi yīgè dài xìng de rén.",
+          "en": "I know a person with the surname Dai.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "香包",
       "pinyin": "xiāngbāo",
-      "english": "fragrant sachet",
-      "sentenceChinese": "端午節的時候，小孩子會戴香包。",
-      "sentencePinyin": "Duānwǔ Jié de shíhòu, xiǎoháizi huì dài xiāngbāo.",
-      "sentenceEnglish": "Children wear fragrant sachets during the Dragon Boat Festival.",
-      "vietnamese": "túi thơm",
-      "sentenceVietnamese": "Vào Tết Đoan Ngọ, trẻ em sẽ đeo túi thơm."
+      "en": "fragrant sachet",
+      "vi": "túi thơm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pouch (small bag used by women)",
+          "sentence": "她的香包掛在腰間。",
+          "pinyin": "Tā de xiāng bāo guà zài yāo jiān.",
+          "en": "Her sachet hangs at her waist.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "掛",
       "pinyin": "guà",
-      "english": "to hang",
-      "sentenceChinese": "門口掛著一串粽子。",
-      "sentencePinyin": "Ménkǒu guà zhe yí chuàn zòngzi.",
-      "sentenceEnglish": "A string of rice dumplings is hanging at the door.",
-      "vietnamese": "treo",
-      "sentenceVietnamese": "Trước cửa đang treo một xâu bánh ú."
+      "en": "to hang",
+      "vi": "treo",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hang; put up; suspend",
+          "sentence": "墻上掛著一幅世界地圖。",
+          "pinyin": "qiáng shàng guàzhe yī fú shìjiè dìtú.",
+          "en": "A world map is hanging on the wall.",
+          "vi": "Trên tường treo một tấm bản đồ thế giới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "hang; put up; suspend",
+          "sentence": "一輪明月掛在天上。",
+          "pinyin": "yī lún míngyuè guà zài tiānshàng.",
+          "en": "A bright full moon hangs in the sky.",
+          "vi": "Vầng trăng sáng treo trên bầu trời."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "sets or strings of objects",
+          "sentence": "他展齣一掛珠子。",
+          "pinyin": "tā zhǎn chū yī guà zhūzi.",
+          "en": "He displays a string of beads.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "sets or strings of objects",
+          "sentence": "他放十多掛鞭炮。",
+          "pinyin": "tā fàng shí duō guà biānpào.",
+          "en": "He set off more than ten strings of firecrackers.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "瘟疫",
       "pinyin": "wēnyì",
-      "english": "plague; epidemic",
-      "sentenceChinese": "古時候的人相信某些做法可以趕走瘟疫。",
-      "sentencePinyin": "Gǔshíhou de rén xiāngxìn mǒuxiē zuòfǎ kěyǐ gǎnzǒu wēnyì.",
-      "sentenceEnglish": "People in ancient times believed that certain practices could drive away epidemics.",
-      "vietnamese": "dịch bệnh",
-      "sentenceVietnamese": "Người xưa tin rằng có những cách có thể xua đuổi dịch bệnh."
+      "en": "plague; epidemic",
+      "vi": "dịch bệnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pestilence",
+          "sentence": "瘟疫正在那一地區流行。",
+          "pinyin": "wēnyì zhèngzài nà yī dìqū liúxíng.",
+          "en": "A pestilence was raging in that area.",
+          "vi": "Dịch bệnh đang hoành hành ở khu vực đó."
+        },
+        {
+          "type": "Noun",
+          "meaning": "pestilence",
+          "sentence": "災後要防止瘟疫蔓延。",
+          "pinyin": "zāihòu yào fángzhǐ wēnyì mànyán.",
+          "en": "We must prevent the spread of plagues after a disaster.",
+          "vi": "Sau thiên tai cần ngăn chặn dịch bệnh lây lan."
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "做法",
       "pinyin": "zuòfǎ",
-      "english": "way of doing things; method",
-      "sentenceChinese": "每個地方過節的做法都不一樣。",
-      "sentencePinyin": "Měi ge dìfāng guòjié de zuòfǎ dōu bù yíyàng.",
-      "sentenceEnglish": "Different places celebrate holidays in different ways.",
-      "vietnamese": "cách làm; cách thức",
-      "sentenceVietnamese": "Mỗi nơi có cách đón lễ tết khác nhau."
+      "en": "way of doing things; method",
+      "vi": "cách làm; cách thức",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "method; way of doing something",
+          "sentence": "我不喜歡這個做法。",
+          "pinyin": "wǒ bù xǐhuān zhège zuòfǎ.",
+          "en": "I don’t like this method.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "method; way of doing something",
+          "sentence": "這不是我喜歡的做法。",
+          "pinyin": "zhè bùshì wǒ xǐhuān de zuòfǎ.",
+          "en": "This is not the way I like to do things.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "多少",
       "pinyin": "duōshǎo",
-      "english": "somewhat; a little",
-      "sentenceChinese": "這個習俗多少跟農業有關。",
-      "sentencePinyin": "Zhè ge xísú duōshǎo gēn nóngyè yǒuguān.",
-      "sentenceEnglish": "This custom is somewhat related to agriculture.",
-      "vietnamese": "ít nhiều",
-      "sentenceVietnamese": "Tục lệ này ít nhiều có liên quan đến nông nghiệp."
+      "en": "somewhat; a little",
+      "vi": "ít nhiều",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "how many; how much",
+          "sentence": "今天來了多少人?",
+          "pinyin": "jīntiān láile duōshao rén?",
+          "en": "How many people came today?",
+          "vi": ""
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "how many; how much",
+          "sentence": "你考了多少分？",
+          "pinyin": "nǐ kǎole duōshao fēn?",
+          "en": "How many points did you get on the test.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "作用",
       "pinyin": "zuòyòng",
-      "english": "effect; function",
-      "sentenceChinese": "香包有沒有作用，其實很難說。",
-      "sentencePinyin": "Xiāngbāo yǒu méiyǒu zuòyòng, qíshí hěn nán shuō.",
-      "sentenceEnglish": "It is actually hard to say whether sachets really have any effect.",
-      "vietnamese": "tác dụng",
-      "sentenceVietnamese": "Túi thơm có tác dụng hay không thì thật ra rất khó nói."
+      "en": "effect; function",
+      "vi": "tác dụng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "effect; action; function",
+          "sentence": "運動對身體有很好的作用。",
+          "pinyin": "yùndòng duì shēntǐ yǒu hěn hǎo de zuòyòng.",
+          "en": "Exercise has a very good effect on the body.",
+          "vi": "Vận động có nhiều lợi ích cho cơ thể."
+        },
+        {
+          "type": "Noun",
+          "meaning": "effect; action; function",
+          "sentence": "這個藥的作用是幫助睡眠。",
+          "pinyin": "zhège yào de zuòyòng shì bāngzhù shuìmián.",
+          "en": "The function of this medicine is to aid sleep.",
+          "vi": "Thuốc này có tác dụng cải thiện giấc ngủ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "affect; act on",
+          "sentence": "這種藥直接作用於腎髒。",
+          "pinyin": "zhè zhǒng yào zhíjiē zuòyòng yú shènzàng.",
+          "en": "This medicine acts directly on the kidneys.",
+          "vi": "Thuốc này có tác dụng trực tiếp tới thận."
+        },
+        {
+          "type": "Verb",
+          "meaning": "affect; act on",
+          "sentence": "該政策作用於經濟髮/發展。",
+          "pinyin": "gāi zhèngcè zuòyòng yú jīngjì fāzhǎn.",
+          "en": "This policy affects economic development.",
+          "vi": "Chính sách này ảnh hưởng đến phát triển kinh tế."
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "迷信",
       "pinyin": "míxìn",
-      "english": "superstition",
-      "sentenceChinese": "有些年輕人覺得那只是迷信。",
-      "sentencePinyin": "Yǒuxiē niánqīngrén juéde nà zhǐshì míxìn.",
-      "sentenceEnglish": "Some young people think that is just superstition.",
-      "vietnamese": "mê tín",
-      "sentenceVietnamese": "Một số bạn trẻ cho rằng đó chỉ là mê tín."
+      "en": "superstition",
+      "vi": "mê tín",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "superstition; superstitious belief",
+          "sentence": "迷信導緻他損失錢財。",
+          "pinyin": "míxìn dǎozhì tā sǔnshī qiáncái.",
+          "en": "Superstition caused him to lose money.",
+          "vi": "Mê tín khiến anh ta mất tiền."
+        },
+        {
+          "type": "Verb",
+          "meaning": "superstition; superstitious belief",
+          "sentence": "老人迷信風水佈局。",
+          "pinyin": "lǎorén míxìn fēngshuǐ bùjú.",
+          "en": "The elderly man is superstitious about Feng Shui arrangements.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "收成",
       "pinyin": "shōuchéng",
-      "english": "harvest",
-      "sentenceChinese": "如果天氣好，今年的收成就會不錯。",
-      "sentencePinyin": "Rúguǒ tiānqì hǎo, jīnnián de shōuchéng jiù huì búcuò.",
-      "sentenceEnglish": "If the weather is good, this year’s harvest will be good.",
-      "vietnamese": "vụ mùa; sản lượng thu hoạch",
-      "sentenceVietnamese": "Nếu thời tiết tốt thì vụ mùa năm nay sẽ khá."
+      "en": "harvest",
+      "vi": "vụ mùa; sản lượng thu hoạch",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "crop; harvest",
+          "sentence": "今年的收成特別豐收。",
+          "pinyin": "jīnnián de shōuchéng tèbié fēngshōu.",
+          "en": "This year's harvest is bumper.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "crop; harvest",
+          "sentence": "民對收成非常滿意。",
+          "pinyin": "mín duì shōuchéng fēicháng mǎnyì.",
+          "en": "The people are very satisfied with the harvest.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "harvest",
+          "sentence": "今年的收成比去年好。",
+          "pinyin": "jīnnián de shōuchéng bǐ qùnián hǎo.",
+          "en": "This year's harvest is better than last year's.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "harvest",
+          "sentence": "鞦天是收成的季節。",
+          "pinyin": "qiūtiān shì shōuchéng de jìjié.",
+          "en": "Autumn is the season of harvest.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "民族",
       "pinyin": "mínzú",
-      "english": "ethnic group; nation",
-      "sentenceChinese": "台灣有不同的民族和文化。",
-      "sentencePinyin": "Táiwān yǒu bùtóng de mínzú hé wénhuà.",
-      "sentenceEnglish": "Taiwan has different ethnic groups and cultures.",
-      "vietnamese": "dân tộc",
-      "sentenceVietnamese": "Đài Loan có nhiều dân tộc và văn hóa khác nhau."
+      "en": "ethnic group; nation",
+      "vi": "dân tộc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "nation",
+          "sentence": "我國各民族一律平等。",
+          "pinyin": "wǒguó gè mínzú yīlǜ píngděng.",
+          "en": "All ethnic groups in our country are equal.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "nation",
+          "sentence": "中國有五十六個民族。",
+          "pinyin": "zhōngguó yǒu wǔshíliù gè mínzú.",
+          "en": "China has fifty-six ethnic groups.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "月亮",
       "pinyin": "yuèliang",
-      "english": "moon",
-      "sentenceChinese": "中秋節的月亮特別圓。",
-      "sentencePinyin": "Zhōngqiū Jié de yuèliang tèbié yuán.",
-      "sentenceEnglish": "The moon is especially round during the Mid-Autumn Festival.",
-      "vietnamese": "mặt trăng",
-      "sentenceVietnamese": "Mặt trăng vào Tết Trung Thu đặc biệt tròn."
+      "en": "moon",
+      "vi": "mặt trăng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "moon",
+          "sentence": "今晚的月亮很圓。",
+          "pinyin": "jīn wǎn de yuèliang hěn yuán.",
+          "en": "The moon is very full tonight.",
+          "vi": "Tối nay vầng trăng rất tròn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "moon",
+          "sentence": "小孩喜歡畫月亮。",
+          "pinyin": "xiǎohái xǐhuān huà yuèliang.",
+          "en": "Children like to draw the moon.",
+          "vi": "Trẻ con thích vẽ mặt trăng."
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "圓",
       "pinyin": "yuán",
-      "english": "round",
-      "sentenceChinese": "今晚的月亮又大又圓。",
-      "sentencePinyin": "Jīnwǎn de yuèliang yòu dà yòu yuán.",
-      "sentenceEnglish": "The moon tonight is big and round.",
-      "vietnamese": "tròn",
-      "sentenceVietnamese": "Mặt trăng tối nay vừa to vừa tròn."
+      "en": "round",
+      "vi": "tròn",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "round; circular; spherical",
+          "sentence": "八月十五的月亮真圓！",
+          "pinyin": "bā yuè shíwǔ de yuèliàng zhēn yuán!",
+          "en": "The moon on the fifteenth of August is so round!",
+          "vi": "Trăng ngày rằm tháng tám tròn thật!"
+        },
+        {
+          "type": "adjective",
+          "meaning": "round; circular; spherical",
+          "sentence": "女兒的臉圓圓的，很可愛。",
+          "pinyin": "nǚ'ér de liǎn yuán yuán de, hěn kě'ài.",
+          "en": "My daughter has a round face and is very cute.",
+          "vi": "Khuôn mặt của con gái tròn trịa, rất đáng yêu."
+        },
+        {
+          "type": "noun",
+          "meaning": "circle; sphere; ring",
+          "sentence": "地上有個圓印記。",
+          "pinyin": "dìshàng yǒu gè yuán yìnjì.",
+          "en": "There is a circular mark on the ground.",
+          "vi": "Có một dấu ấn hình tròn dưới đất."
+        },
+        {
+          "type": "noun",
+          "meaning": "circle; sphere; ring",
+          "sentence": "墻上有個圓形圖案。",
+          "pinyin": "qiáng shàng yǒu gè yuán xíng tú'àn.",
+          "en": "There is a circular pattern on the wall.",
+          "vi": "Trên tường có một hình tròn."
+        },
+        {
+          "type": "verb",
+          "meaning": "complete; fulfill",
+          "sentence": "她想圓心中的願望。",
+          "pinyin": "tā xiǎng yuán xīnzhōng de yuànwàng.",
+          "en": "She wanted to fulfill her heart's desire.",
+          "vi": "Cô ấy muốn hoàn thành ước vọng trong lòng."
+        },
+        {
+          "type": "verb",
+          "meaning": "complete; fulfill",
+          "sentence": "她終於圓了留學的夢。",
+          "pinyin": "tā zhōngyú yuánle liúxué de mèng.",
+          "en": "She finally fulfilled her dream of studying abroad.",
+          "vi": "Cô ấy cuối cùng cũng thực hiện được giấc mơ du học."
+        },
+        {
+          "type": "measure word",
+          "meaning": "yuan, the monetary unit of China, equal to 10 jiao or 100 fen",
+          "sentence": "1圓人民幣。",
+          "pinyin": "1 yuán rénmínbì.",
+          "en": "1 yuan.",
+          "vi": "1 đồng nhân dân tệ."
+        },
+        {
+          "type": "measure word",
+          "meaning": "yuan, the monetary unit of China, equal to 10 jiao or 100 fen",
+          "sentence": "3圓5角6分。",
+          "pinyin": "3 yuán 5 jiǎo 6 fēn.",
+          "en": "3 yuan, 5 jiao, and 6 fen.",
+          "vi": "3 đồng 5 hào 6 xu."
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "社會",
       "pinyin": "shèhuì",
-      "english": "society",
-      "sentenceChinese": "節日文化反映了社會的變化。",
-      "sentencePinyin": "Jiérì wénhuà fǎnyìng le shèhuì de biànhuà.",
-      "sentenceEnglish": "Festival culture reflects changes in society.",
-      "vietnamese": "xã hội",
-      "sentenceVietnamese": "Văn hóa lễ hội phản ánh sự thay đổi của xã hội."
+      "en": "society",
+      "vi": "xã hội",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "society",
+          "sentence": "教育是民主社會的基礎。",
+          "pinyin": "jiàoyù shì mínzhǔ shèhuì de jīchǔ.",
+          "en": "Education is the basis of a democratic society.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "society",
+          "sentence": "我們要為社會做齣貢獻。",
+          "pinyin": "wǒmen yào wèi shèhuì zuò chū gòngxiàn.",
+          "en": "We must contribute to society.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "團聚",
       "pinyin": "tuánjù",
-      "english": "to reunite; reunion",
-      "sentenceChinese": "中秋節是家人團聚的日子。",
-      "sentencePinyin": "Zhōngqiū Jié shì jiārén tuánjù de rìzi.",
-      "sentenceEnglish": "The Mid-Autumn Festival is a time for family reunion.",
-      "vietnamese": "đoàn tụ",
-      "sentenceVietnamese": "Tết Trung Thu là dịp để gia đình đoàn tụ."
+      "en": "to reunite; reunion",
+      "vi": "đoàn tụ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to reunite",
+          "sentence": "他終於和親生父母團聚了。",
+          "pinyin": "tā zhōngyú hé qīnshēng fùmǔ tuánjùle.",
+          "en": "He was finally reunited with his biological mother.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to reunite",
+          "sentence": "這對夫妻終於團聚了。",
+          "pinyin": "zhè duì fūqī zhōngyú tuánjùle.",
+          "en": "The couple is finally reunited.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "月餅",
       "pinyin": "yuèbǐng",
-      "english": "mooncake",
-      "sentenceChinese": "中秋節一定要吃月餅。",
-      "sentencePinyin": "Zhōngqiū Jié yídìng yào chī yuèbǐng.",
-      "sentenceEnglish": "People always eat mooncakes during the Mid-Autumn Festival.",
-      "vietnamese": "bánh trung thu",
-      "sentenceVietnamese": "Đến Trung Thu nhất định phải ăn bánh trung thu."
+      "en": "mooncake",
+      "vi": "bánh trung thu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mooncake",
+          "sentence": "這是傳統的月餅。",
+          "pinyin": "zhè shì chuántǒng de yuèbǐng.",
+          "en": "This is a traditional mooncake.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "mooncake",
+          "sentence": "他送我一個月餅。",
+          "pinyin": "tā sòng wǒ yīgè yuèbǐng.",
+          "en": "He gave me a mooncake.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "柚子",
       "pinyin": "yòuzi",
-      "english": "pomelo",
-      "sentenceChinese": "很多人中秋節會吃柚子。",
-      "sentencePinyin": "Hěnduō rén Zhōngqiū Jié huì chī yòuzi.",
-      "sentenceEnglish": "Many people eat pomelos during the Mid-Autumn Festival.",
-      "vietnamese": "bưởi",
-      "sentenceVietnamese": "Nhiều người sẽ ăn bưởi vào dịp Trung Thu."
+      "en": "pomelo",
+      "vi": "bưởi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "pomelo; shaddock; grapefruit",
+          "sentence": "柚子富含維生素。",
+          "pinyin": "yòuzi fù hán wéishēngsù.",
+          "en": "Pomelos are rich in vitamin C.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "pomelo; shaddock; grapefruit",
+          "sentence": "我們買了一些柚子迴傢。",
+          "pinyin": "wǒmen mǎile yīxiē yòuzi huí jiā",
+          "en": "We bought some pomelos to take home.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "故事",
       "pinyin": "gùshì",
-      "english": "story",
-      "sentenceChinese": "老師今天講了一個有趣的故事。",
-      "sentencePinyin": "Lǎoshī jīntiān jiǎng le yí ge yǒuqù de gùshì.",
-      "sentenceEnglish": "The teacher told an interesting story today.",
-      "vietnamese": "câu chuyện",
-      "sentenceVietnamese": "Hôm nay giáo viên kể một câu chuyện rất thú vị."
+      "en": "story",
+      "vi": "câu chuyện",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "story; tale",
+          "sentence": "這個故事非常感人。",
+          "pinyin": "zhège gùshi fēicháng gǎnrén.",
+          "en": "This story is very touching.",
+          "vi": "Câu chuyện này làm người ta cảm động."
+        },
+        {
+          "type": "Noun",
+          "meaning": "story; tale",
+          "sentence": "這個故事的結局很意外。",
+          "pinyin": "zhège gùshi de jiéjú hěn yìwài.",
+          "en": "The ending of this story is quite unexpected.",
+          "vi": "Cái kết của câu chuyện này đầy bất ngờ."
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "溫馨",
       "pinyin": "wēnxīn",
-      "english": "warm; heartwarming",
-      "sentenceChinese": "一家人在一起吃飯的氣氛很溫馨。",
-      "sentencePinyin": "Yì jiārén zài yìqǐ chīfàn de qìfēn hěn wēnxīn.",
-      "sentenceEnglish": "The atmosphere of a family eating together is very warm.",
-      "vietnamese": "ấm áp; đầm ấm",
-      "sentenceVietnamese": "Không khí cả nhà cùng ăn cơm với nhau rất ấm cúng."
+      "en": "warm; heartwarming",
+      "vi": "ấm áp; đầm ấm",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "warm; soft; sweet",
+          "sentence": "這樣很好玩也很溫馨。",
+          "pinyin": "zhèyàng hěn hǎowán yě hěn wēnxīn.",
+          "en": "It was funny and sweet.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "warm; soft; sweet",
+          "sentence": "他有一個溫馨的傢庭。",
+          "pinyin": "tā yǒu yīgè wēnxīn de jiātíng.",
+          "en": "He has a warm and loving family.",
+          "vi": "Anh ấy có một gia đình ấm áp."
+        }
+      ]
     },
     {
       "id": 69,
       "chinese": "端午節",
       "pinyin": "Duānwǔ Jié",
-      "english": "Dragon Boat Festival",
-      "sentenceChinese": "端午節的時候，大家會吃粽子。",
-      "sentencePinyin": "Duānwǔ Jié de shíhòu, dàjiā huì chī zòngzi.",
-      "sentenceEnglish": "People eat rice dumplings during the Dragon Boat Festival.",
-      "vietnamese": "Tết Đoan Ngọ",
-      "sentenceVietnamese": "Vào Tết Đoan Ngọ, mọi người sẽ ăn bánh ú."
+      "en": "Dragon Boat Festival",
+      "vi": "Tết Đoan Ngọ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Dragon Boat Festival",
+          "sentence": "端午節是我最喜歡的節日。",
+          "pinyin": "duānwǔ jié shì wǒ zuì xǐhuān de jiérì.",
+          "en": "The Dragon Boat Festival is my favorite holiday.",
+          "vi": "Tết Đoan Ngọ là ngày lễ tôi thích nhất."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Dragon Boat Festival",
+          "sentence": "你們是怎麼過端午節的？",
+          "pinyin": "nǐmen shì zěnmeguò duānwǔ jié de?",
+          "en": "How do you celebrate the Dragon Boat Festival?",
+          "vi": "Các bạn đón tết Đoan Ngọ như thế nào?"
+        }
+      ]
     },
     {
       "id": 70,
       "chinese": "中秋節",
       "pinyin": "Zhōngqiū Jié",
-      "english": "Mid-Autumn Festival",
-      "sentenceChinese": "中秋節晚上我們全家一起賞月。",
-      "sentencePinyin": "Zhōngqiū Jié wǎnshàng wǒmen quánjiā yìqǐ shǎngyuè.",
-      "sentenceEnglish": "Our whole family admires the moon together on Mid-Autumn Festival night.",
-      "vietnamese": "Tết Trung Thu",
-      "sentenceVietnamese": "Tối Trung Thu, cả nhà tôi cùng nhau ngắm trăng."
+      "en": "Mid-Autumn Festival",
+      "vi": "Tết Trung Thu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the Mid-Autumn Festival",
+          "sentence": "中鞦節時人們會賞月。",
+          "pinyin": "zhōngqiū jié shí rénmen huì shǎng yuè.",
+          "en": "People appreciate the moon during Mid-Autumn Festival.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "the Mid-Autumn Festival",
+          "sentence": "我們中鞦節吃/喫月餅。",
+          "pinyin": "wǒmen zhōngqiū jié chī yuèbǐng.",
+          "en": "We eat mooncakes during Mid-Autumn Festival.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 71,
       "chinese": "雄黃酒",
       "pinyin": "xiónghuángjiǔ",
-      "english": "realgar wine",
-      "sentenceChinese": "古時候的人相信雄黃酒可以趕走毒蟲。",
-      "sentencePinyin": "Gǔshíhou de rén xiāngxìn xiónghuángjiǔ kěyǐ gǎnzǒu dúchóng.",
-      "sentenceEnglish": "People in ancient times believed that realgar wine could drive away poisonous insects.",
-      "vietnamese": "rượu hùng hoàng",
-      "sentenceVietnamese": "Người xưa tin rằng rượu hùng hoàng có thể xua đuổi côn trùng độc."
+      "en": "realgar wine",
+      "vi": "rượu hùng hoàng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "realgar wine (traditionally drunk during the Dragon Boat Festival 端午节)",
+          "sentence": "端午節我們喝雄黃酒。",
+          "pinyin": "duānwǔ jié wǒmen hē xiónghuángjiǔ.",
+          "en": "During the Dragon Boat Festival, we drink realgar wine.",
+          "vi": "Tết Đoan Ngọ, chúng tôi uống rượu hùng hoàng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "realgar wine (traditionally drunk during the Dragon Boat Festival 端午节)",
+          "sentence": "聽説雄黃酒可以驅毒。",
+          "pinyin": "tīng shuō xiónghuángjiǔ kěyǐ qū dú.",
+          "en": "It is said that realgar wine can expel toxins.",
+          "vi": "Nghe nói rượu hùng hoàng có thể trừ độc."
+        }
+      ]
     },
     {
       "id": 72,
       "chinese": "古時候",
       "pinyin": "gǔshíhou",
-      "english": "in ancient times",
-      "sentenceChinese": "古時候沒有冷氣，也沒有除濕機。",
-      "sentencePinyin": "Gǔshíhou méiyǒu lěngqì, yě méiyǒu chúshījī.",
-      "sentenceEnglish": "In ancient times, there were no air conditioners or dehumidifiers.",
-      "vietnamese": "thời xưa",
-      "sentenceVietnamese": "Thời xưa không có máy lạnh, cũng không có máy hút ẩm."
+      "en": "in ancient times",
+      "vi": "thời xưa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "in ancient times",
+          "sentence": "古時候, 直呼皇帝名字是犯諱的。",
+          "pinyin": "Gǔ hòushíhou, zhí hū huángdì míngzi shì fàn huì de.",
+          "en": "It was considered irreverent to call the emperor’s name in ancient times.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "in olden days",
+          "sentence": "古時候的人們很節儉。",
+          "pinyin": "gǔ shí hou de rén men hěn jié jiǎn",
+          "en": "People were very frugal in olden days.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 73,
       "chinese": "趕走",
       "pinyin": "gǎnzǒu",
-      "english": "to drive away",
-      "sentenceChinese": "大家希望把不好的運氣都趕走。",
-      "sentencePinyin": "Dàjiā xīwàng bǎ bù hǎo de yùnqì dōu gǎnzǒu.",
-      "sentenceEnglish": "People hope to drive away all bad luck.",
-      "vietnamese": "xua đuổi",
-      "sentenceVietnamese": "Mọi người hy vọng sẽ xua đi hết vận xui."
+      "en": "to drive away",
+      "vi": "xua đuổi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "drive away; drive out",
+          "sentence": "趕走敵人",
+          "pinyin": "gǎnzǒu dírén",
+          "en": "Drive away the enemy",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "expel; throw out; send sb. packing; turn sb. out of doors; show sb. the door; drive sb. out of the door; turn sb. out of the house; kick sb. downstairs; put sb. to the door; kick out of; see the back of sb.; hunt; turn out sb.",
+          "sentence": "你再爭嘴，我就把你趕走。",
+          "pinyin": "nǐ zài zhēng zuǐ, wǒ jiù bǎ nǐ gǎn zǒu.",
+          "en": "If you go on arguing, I'll turn you out of doors.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 74,
       "chinese": "過節",
       "pinyin": "guòjié",
-      "english": "to celebrate a festival",
-      "sentenceChinese": "我最喜歡跟家人一起過節。",
-      "sentencePinyin": "Wǒ zuì xǐhuān gēn jiārén yìqǐ guòjié.",
-      "sentenceEnglish": "I like celebrating festivals with my family the most.",
-      "vietnamese": "đón lễ; ăn tết",
-      "sentenceVietnamese": "Tôi thích nhất là được cùng gia đình đón các dịp lễ tết."
+      "en": "to celebrate a festival",
+      "vi": "đón lễ; ăn tết",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "celebrate a festival",
+          "sentence": "今年我們一起過節吧！",
+          "pinyin": "jīnnián wǒmen yīqǐ guòjié ba!",
+          "en": "Let's spend the holiday together this year!",
+          "vi": "Năm nay chúng ta cùng nhau ăn tết nhé!"
+        },
+        {
+          "type": "Verb",
+          "meaning": "celebrate a festival",
+          "sentence": "大傢過節都很開心。",
+          "pinyin": "dàjiā guòjié dōu hěn kāixīn.",
+          "en": "Everyone is very happy during the holiday.",
+          "vi": "Mọi người đều rất vui khi đón lễ."
+        }
+      ]
     }
   ]
 }

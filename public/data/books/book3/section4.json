@@ -3,70 +3,1940 @@
   "sectionId": "section4",
   "sectionTitle": "I Love Taiwanese Hospitality | 我愛台灣的人情味",
   "items": [
-    { "id": 1, "chinese": "人情味", "pinyin": "rénqíngwèi", "english": "human warmth; hospitality", "sentenceChinese": "我很喜歡台灣的人情味。", "sentencePinyin": "Wǒ hěn xǐhuān Táiwān de rénqíngwèi.", "sentenceEnglish": "I really like the warmth of the people in Taiwan.", "vietnamese": "tình người; sự thân tình", "sentenceVietnamese": "Tôi rất thích tình người ở Đài Loan." },
-    { "id": 2, "chinese": "放", "pinyin": "fàng", "english": "to release; to let go", "sentenceChinese": "我們準備一起放天燈。", "sentencePinyin": "Wǒmen zhǔnbèi yìqǐ fàng tiāndēng.", "sentenceEnglish": "We are getting ready to release a sky lantern together.", "vietnamese": "thả", "sentenceVietnamese": "Chúng tôi chuẩn bị cùng nhau thả đèn trời." },
-    { "id": 3, "chinese": "天燈", "pinyin": "tiāndēng", "english": "sky lantern", "sentenceChinese": "平溪的天燈很有名。", "sentencePinyin": "Píngxī de tiāndēng hěn yǒumíng.", "sentenceEnglish": "The sky lanterns in Pingxi are very famous.", "vietnamese": "đèn trời", "sentenceVietnamese": "Đèn trời ở Bình Khê rất nổi tiếng." },
-    { "id": 4, "chinese": "願望", "pinyin": "yuànwǎng", "english": "wish", "sentenceChinese": "大家把願望寫在天燈上。", "sentencePinyin": "Dàjiā bǎ yuànwǎng xiě zài tiāndēng shàng.", "sentenceEnglish": "Everyone writes their wishes on the sky lanterns.", "vietnamese": "điều ước", "sentenceVietnamese": "Mọi người viết điều ước của mình lên đèn trời." },
-    { "id": 5, "chinese": "訊號", "pinyin": "xùnhào", "english": "signal", "sentenceChinese": "山上的手機訊號不太好。", "sentencePinyin": "Shān shàng de shǒujī xùnhào bù tài hǎo.", "sentenceEnglish": "The cell phone signal in the mountains is not very good.", "vietnamese": "tín hiệu", "sentenceVietnamese": "Tín hiệu điện thoại trên núi không được tốt lắm." },
-    { "id": 6, "chinese": "元宵", "pinyin": "yuánxiāo", "english": "sweet rice dumpling", "sentenceChinese": "元宵節的時候，很多人會吃元宵。", "sentencePinyin": "Yuánxiāo Jié de shíhòu, hěnduō rén huì chī yuánxiāo.", "sentenceEnglish": "Many people eat sweet rice dumplings during the Lantern Festival.", "vietnamese": "viên bánh trôi ngọt", "sentenceVietnamese": "Đến Tết Nguyên Tiêu, nhiều người sẽ ăn viên bánh trôi ngọt." },
-    { "id": 7, "chinese": "牆", "pinyin": "qiáng", "english": "wall", "sentenceChinese": "牆上貼滿了旅遊照片。", "sentencePinyin": "Qiáng shàng tiē mǎn le lǚyóu zhàopiàn.", "sentenceEnglish": "The wall is covered with travel photos.", "vietnamese": "tường", "sentenceVietnamese": "Trên tường dán đầy ảnh du lịch." },
-    { "id": 8, "chinese": "耐心", "pinyin": "nàixīn", "english": "patience", "sentenceChinese": "店員很有耐心地跟我們介紹菜單。", "sentencePinyin": "Diànyuán hěn yǒu nàixīn de gēn wǒmen jièshào càidān.", "sentenceEnglish": "The clerk patiently explained the menu to us.", "vietnamese": "kiên nhẫn", "sentenceVietnamese": "Nhân viên rất kiên nhẫn giới thiệu thực đơn cho chúng tôi." },
-    { "id": 9, "chinese": "感動", "pinyin": "gǎndòng", "english": "to be touched; moved", "sentenceChinese": "大家對我們這麼好，真的讓人很感動。", "sentencePinyin": "Dàjiā duì wǒmen zhème hǎo, zhēn de ràng rén hěn gǎndòng.", "sentenceEnglish": "Everyone is so kind to us. It is really touching.", "vietnamese": "cảm động", "sentenceVietnamese": "Mọi người đối xử với chúng tôi tốt như vậy thật sự rất cảm động." },
-    { "id": 10, "chinese": "擔仔麵", "pinyin": "dànzǎimiàn", "english": "Tainan danzai noodles", "sentenceChinese": "來台南一定要吃擔仔麵。", "sentencePinyin": "Lái Táinán yídìng yào chī dànzǎimiàn.", "sentenceEnglish": "You must try danzai noodles when you come to Tainan.", "vietnamese": "mì Đam Tử", "sentenceVietnamese": "Đến Đài Nam nhất định phải ăn mì Đam Tử." },
-    { "id": 11, "chinese": "招牌", "pinyin": "zhāopái", "english": "signboard; signature", "sentenceChinese": "這家店的招牌菜是牛肉麵。", "sentencePinyin": "Zhè jiā diàn de zhāopái cài shì niúròumiàn.", "sentenceEnglish": "The signature dish at this shop is beef noodles.", "vietnamese": "đặc trưng; biển hiệu", "sentenceVietnamese": "Món đặc trưng của quán này là mì bò." },
-    { "id": 12, "chinese": "當地", "pinyin": "dāngdì", "english": "local", "sentenceChinese": "我想吃一點當地的小吃。", "sentencePinyin": "Wǒ xiǎng chī yìdiǎn dāngdì de xiǎochī.", "sentenceEnglish": "I want to try some local snacks.", "vietnamese": "địa phương", "sentenceVietnamese": "Tôi muốn ăn thử một ít món ăn địa phương." },
-    { "id": 13, "chinese": "賺", "pinyin": "zhuàn", "english": "to earn", "sentenceChinese": "他靠賣小吃賺錢。", "sentencePinyin": "Tā kào mài xiǎochī zhuànqián.", "sentenceEnglish": "He earns money by selling snacks.", "vietnamese": "kiếm", "sentenceVietnamese": "Anh ấy kiếm tiền bằng cách bán đồ ăn vặt." },
-    { "id": 14, "chinese": "而", "pinyin": "ér", "english": "but rather; and", "sentenceChinese": "他不是冷淡，而是不太會表達。", "sentencePinyin": "Tā bú shì lěngdàn, ér shì bù tài huì biǎodá.", "sentenceEnglish": "He is not cold; he is just not very good at expressing himself.", "vietnamese": "mà; còn", "sentenceVietnamese": "Anh ấy không phải lạnh lùng mà chỉ là không giỏi bày tỏ thôi." },
-    { "id": 15, "chinese": "交", "pinyin": "jiāo", "english": "to make (friends); to hand over", "sentenceChinese": "她很容易跟別人交朋友。", "sentencePinyin": "Tā hěn róngyì gēn biérén jiāo péngyǒu.", "sentenceEnglish": "She makes friends with others very easily.", "vietnamese": "kết (bạn)", "sentenceVietnamese": "Cô ấy rất dễ kết bạn với người khác." },
-    { "id": 16, "chinese": "理想", "pinyin": "lǐxiǎng", "english": "ideal; dream", "sentenceChinese": "我的理想是開一家自己的店。", "sentencePinyin": "Wǒ de lǐxiǎng shì kāi yì jiā zìjǐ de diàn.", "sentenceEnglish": "My dream is to open a shop of my own.", "vietnamese": "lý tưởng; ước mơ", "sentenceVietnamese": "Ước mơ của tôi là mở một cửa hàng của riêng mình." },
-    { "id": 17, "chinese": "剛剛", "pinyin": "gānggāng", "english": "just now", "sentenceChinese": "我剛剛才到東區。", "sentencePinyin": "Wǒ gānggāng cái dào Dōngqū.", "sentenceEnglish": "I just arrived in the East District.", "vietnamese": "vừa nãy", "sentenceVietnamese": "Tôi vừa mới đến khu Đông." },
-    { "id": 18, "chinese": "改天", "pinyin": "gǎitiān", "english": "another day", "sentenceChinese": "今天太忙了，我們改天再去吧。", "sentencePinyin": "Jīntiān tài máng le, wǒmen gǎitiān zài qù ba.", "sentenceEnglish": "We are too busy today. Let's go another day.", "vietnamese": "hôm khác", "sentenceVietnamese": "Hôm nay bận quá, chúng ta để hôm khác đi nhé." },
-    { "id": 19, "chinese": "無聊", "pinyin": "wúliáo", "english": "boring", "sentenceChinese": "一個人在旅館裡真的很無聊。", "sentencePinyin": "Yí ge rén zài lǚguǎn lǐ zhēn de hěn wúliáo.", "sentenceEnglish": "It is really boring to stay alone in the hotel.", "vietnamese": "buồn chán", "sentenceVietnamese": "Ở một mình trong khách sạn thật sự rất chán." },
-    { "id": 20, "chinese": "東區", "pinyin": "Dōngqū", "english": "East District", "sentenceChinese": "台北東區晚上很熱鬧。", "sentencePinyin": "Táiběi Dōngqū wǎnshàng hěn rènào.", "sentenceEnglish": "Taipei's East District is very lively at night.", "vietnamese": "khu Đông", "sentenceVietnamese": "Khu Đông của Đài Bắc buổi tối rất nhộn nhịp." },
-    { "id": 21, "chinese": "煙火", "pinyin": "yānhuǒ", "english": "fireworks", "sentenceChinese": "跨年的時候大家一起看煙火。", "sentencePinyin": "Kuànián de shíhòu dàjiā yìqǐ kàn yānhuǒ.", "sentenceEnglish": "Everyone watches fireworks together on New Year's Eve.", "vietnamese": "pháo hoa", "sentenceVietnamese": "Vào đêm giao thừa, mọi người cùng nhau xem pháo hoa." },
-    { "id": 22, "chinese": "跨年", "pinyin": "kuànián", "english": "to celebrate New Year's Eve", "sentenceChinese": "今年你想去哪裡跨年？", "sentencePinyin": "Jīnnián nǐ xiǎng qù nǎlǐ kuànián?", "sentenceEnglish": "Where do you want to spend New Year's Eve this year?", "vietnamese": "đón giao thừa", "sentenceVietnamese": "Năm nay bạn muốn đi đâu đón giao thừa?" },
-    { "id": 23, "chinese": "種類", "pinyin": "zhǒnglèi", "english": "kind; type", "sentenceChinese": "這裡小吃的種類非常多。", "sentencePinyin": "Zhèlǐ xiǎochī de zhǒnglèi fēicháng duō.", "sentenceEnglish": "There are many kinds of snacks here.", "vietnamese": "chủng loại", "sentenceVietnamese": "Các loại đồ ăn vặt ở đây rất nhiều." },
-    { "id": 24, "chinese": "價錢", "pinyin": "jiàqián", "english": "price", "sentenceChinese": "這裡的價錢不算貴。", "sentencePinyin": "Zhèlǐ de jiàqián bù suàn guì.", "sentenceEnglish": "The prices here are not too expensive.", "vietnamese": "giá cả", "sentenceVietnamese": "Giá cả ở đây không tính là đắt." },
-    { "id": 25, "chinese": "感覺", "pinyin": "gǎnjué", "english": "to feel; feeling", "sentenceChinese": "我感覺這家店很有氣氛。", "sentencePinyin": "Wǒ gǎnjué zhè jiā diàn hěn yǒu qìfēn.", "sentenceEnglish": "I feel this shop has a great atmosphere.", "vietnamese": "cảm giác; cảm thấy", "sentenceVietnamese": "Tôi cảm thấy quán này rất có không khí." },
-    { "id": 26, "chinese": "雞排", "pinyin": "jīpái", "english": "fried chicken cutlet", "sentenceChinese": "台灣的雞排又大又好吃。", "sentencePinyin": "Táiwān de jīpái yòu dà yòu hǎochī.", "sentenceEnglish": "Taiwanese chicken cutlets are big and delicious.", "vietnamese": "gà rán miếng lớn", "sentenceVietnamese": "Gà rán miếng lớn ở Đài Loan vừa to vừa ngon." },
-    { "id": 27, "chinese": "年輕", "pinyin": "niánqīng", "english": "young", "sentenceChinese": "那家店的老闆很年輕。", "sentencePinyin": "Nà jiā diàn de lǎobǎn hěn niánqīng.", "sentenceEnglish": "The owner of that shop is very young.", "vietnamese": "trẻ", "sentenceVietnamese": "Ông chủ của quán đó còn rất trẻ." },
-    { "id": 28, "chinese": "紅茶", "pinyin": "hóngchá", "english": "black tea", "sentenceChinese": "我點了一杯冰紅茶。", "sentencePinyin": "Wǒ diǎn le yì bēi bīng hóngchá.", "sentenceEnglish": "I ordered a glass of iced black tea.", "vietnamese": "hồng trà", "sentenceVietnamese": "Tôi gọi một ly hồng trà đá." },
-    { "id": 29, "chinese": "平溪", "pinyin": "Píngxī", "english": "Pingxi", "sentenceChinese": "很多觀光客會去平溪放天燈。", "sentencePinyin": "Hěnduō guānguāngkè huì qù Píngxī fàng tiāndēng.", "sentenceEnglish": "Many tourists go to Pingxi to release sky lanterns.", "vietnamese": "Bình Khê", "sentenceVietnamese": "Nhiều du khách sẽ đến Bình Khê để thả đèn trời." },
-    { "id": 30, "chinese": "元宵節", "pinyin": "Yuánxiāo Jié", "english": "Lantern Festival", "sentenceChinese": "元宵節晚上很熱鬧。", "sentencePinyin": "Yuánxiāo Jié wǎnshàng hěn rènào.", "sentenceEnglish": "The Lantern Festival is very lively at night.", "vietnamese": "Tết Nguyên Tiêu", "sentenceVietnamese": "Đêm Tết Nguyên Tiêu rất náo nhiệt." },
-    { "id": 31, "chinese": "孔廟", "pinyin": "Kǒngmiào", "english": "Confucius Temple", "sentenceChinese": "台南的孔廟很值得去看看。", "sentencePinyin": "Táinán de Kǒngmiào hěn zhídé qù kànkan.", "sentenceEnglish": "The Confucius Temple in Tainan is well worth a visit.", "vietnamese": "Văn Miếu", "sentenceVietnamese": "Văn Miếu ở Đài Nam rất đáng để ghé thăm." },
-    { "id": 32, "chinese": "校外教學", "pinyin": "xiàowài jiàoxué", "english": "field trip", "sentenceChinese": "老師說下星期要去校外教學。", "sentencePinyin": "Lǎoshī shuō xià xīngqī yào qù xiàowài jiàoxué.", "sentenceEnglish": "The teacher said we are going on a field trip next week.", "vietnamese": "học ngoại khóa", "sentenceVietnamese": "Giáo viên nói tuần sau sẽ đi học ngoại khóa." },
-    { "id": 33, "chinese": "水煎包", "pinyin": "shuǐjiānbāo", "english": "pan-fried bun", "sentenceChinese": "這家店的水煎包很有名。", "sentencePinyin": "Zhè jiā diàn de shuǐjiānbāo hěn yǒumíng.", "sentenceEnglish": "The pan-fried buns at this shop are famous.", "vietnamese": "bánh bao chiên nước", "sentenceVietnamese": "Bánh bao chiên nước của quán này rất nổi tiếng." },
-    { "id": 34, "chinese": "同事", "pinyin": "tóngshì", "english": "coworker", "sentenceChinese": "我跟同事下班後一起去吃飯。", "sentencePinyin": "Wǒ gēn tóngshì xiàbān hòu yìqǐ qù chīfàn.", "sentenceEnglish": "I went to eat with my coworkers after work.", "vietnamese": "đồng nghiệp", "sentenceVietnamese": "Sau khi tan làm, tôi đi ăn cùng đồng nghiệp." },
-    { "id": 35, "chinese": "美食", "pinyin": "měishí", "english": "delicacies; gourmet food", "sentenceChinese": "台南有很多有名的美食。", "sentencePinyin": "Táinán yǒu hěnduō yǒumíng de měishí.", "sentenceEnglish": "Tainan has many famous delicacies.", "vietnamese": "ẩm thực ngon", "sentenceVietnamese": "Đài Nam có rất nhiều món ngon nổi tiếng." },
-    { "id": 36, "chinese": "上去", "pinyin": "shàngqù", "english": "to go up", "sentenceChinese": "我們先上去看夜景吧。", "sentencePinyin": "Wǒmen xiān shàngqù kàn yèjǐng ba.", "sentenceEnglish": "Let's go up first and look at the night view.", "vietnamese": "đi lên", "sentenceVietnamese": "Chúng ta lên trên xem cảnh đêm trước đi." },
-    { "id": 37, "chinese": "泡", "pinyin": "pào", "english": "to soak; to steep", "sentenceChinese": "這種茶要泡久一點才好喝。", "sentencePinyin": "Zhè zhǒng chá yào pào jiǔ yìdiǎn cái hǎohē.", "sentenceEnglish": "This kind of tea tastes better if it is steeped a little longer.", "vietnamese": "ngâm; pha", "sentenceVietnamese": "Loại trà này phải pha lâu hơn một chút mới ngon." },
-    { "id": 38, "chinese": "錯過", "pinyin": "cuòguò", "english": "to miss", "sentenceChinese": "你如果現在不去，就會錯過煙火。", "sentencePinyin": "Nǐ rúguǒ xiànzài bù qù, jiù huì cuòguò yānhuǒ.", "sentenceEnglish": "If you do not go now, you will miss the fireworks.", "vietnamese": "bỏ lỡ", "sentenceVietnamese": "Nếu bây giờ bạn không đi thì sẽ lỡ mất pháo hoa." },
-    { "id": 39, "chinese": "營業", "pinyin": "yíngyè", "english": "to be open for business", "sentenceChinese": "這家店營業到晚上十二點。", "sentencePinyin": "Zhè jiā diàn yíngyè dào wǎnshàng shí'èr diǎn.", "sentenceEnglish": "This shop stays open until midnight.", "vietnamese": "kinh doanh; mở cửa", "sentenceVietnamese": "Cửa hàng này mở đến 12 giờ đêm." },
-    { "id": 40, "chinese": "夜景", "pinyin": "yèjǐng", "english": "night view", "sentenceChinese": "山上的夜景真的很美。", "sentencePinyin": "Shān shàng de yèjǐng zhēn de hěn měi.", "sentenceEnglish": "The night view from the mountain is really beautiful.", "vietnamese": "cảnh đêm", "sentenceVietnamese": "Cảnh đêm trên núi thật sự rất đẹp." },
-    { "id": 41, "chinese": "古老", "pinyin": "gǔlǎo", "english": "ancient; old", "sentenceChinese": "這條街有很多古老的房子。", "sentencePinyin": "Zhè tiáo jiē yǒu hěnduō gǔlǎo de fángzi.", "sentenceEnglish": "There are many old houses on this street.", "vietnamese": "cổ xưa", "sentenceVietnamese": "Con phố này có rất nhiều ngôi nhà cổ." },
-    { "id": 42, "chinese": "古蹟", "pinyin": "gǔjī", "english": "historic site", "sentenceChinese": "這裡有不少有名的古蹟。", "sentencePinyin": "Zhèlǐ yǒu bùshǎo yǒumíng de gǔjī.", "sentenceEnglish": "There are quite a few famous historic sites here.", "vietnamese": "di tích cổ", "sentenceVietnamese": "Ở đây có khá nhiều di tích nổi tiếng." },
-    { "id": 43, "chinese": "重視", "pinyin": "zhòngshì", "english": "to value; to attach importance to", "sentenceChinese": "台灣人很重視人情味。", "sentencePinyin": "Táiwān rén hěn zhòngshì rénqíngwèi.", "sentenceEnglish": "Taiwanese people place a lot of value on human warmth.", "vietnamese": "coi trọng", "sentenceVietnamese": "Người Đài Loan rất coi trọng tình người." },
-    { "id": 44, "chinese": "歷史", "pinyin": "lìshǐ", "english": "history", "sentenceChinese": "這座古蹟很有歷史。", "sentencePinyin": "Zhè zuò gǔjī hěn yǒu lìshǐ.", "sentenceEnglish": "This historic site has a lot of history.", "vietnamese": "lịch sử", "sentenceVietnamese": "Di tích này có bề dày lịch sử." },
-    { "id": 45, "chinese": "風俗", "pinyin": "fēngsú", "english": "custom; folkway", "sentenceChinese": "每個地方都有不同的風俗。", "sentencePinyin": "Měi ge dìfāng dōu yǒu bùtóng de fēngsú.", "sentenceEnglish": "Every place has different customs.", "vietnamese": "phong tục", "sentenceVietnamese": "Mỗi nơi đều có phong tục khác nhau." },
-    { "id": 46, "chinese": "習慣", "pinyin": "xíguàn", "english": "habit; custom", "sentenceChinese": "我已經習慣這裡的生活了。", "sentencePinyin": "Wǒ yǐjīng xíguàn zhèlǐ de shēnghuó le.", "sentenceEnglish": "I have already gotten used to life here.", "vietnamese": "thói quen; quen", "sentenceVietnamese": "Tôi đã quen với cuộc sống ở đây rồi." },
-    { "id": 47, "chinese": "地道", "pinyin": "dìdao", "english": "authentic", "sentenceChinese": "這家餐廳的口味很地道。", "sentencePinyin": "Zhè jiā cāntīng de kǒuwèi hěn dìdao.", "sentenceEnglish": "The flavor at this restaurant is very authentic.", "vietnamese": "chuẩn vị", "sentenceVietnamese": "Hương vị của nhà hàng này rất chuẩn vị." },
-    { "id": 48, "chinese": "粥", "pinyin": "zhōu", "english": "congee", "sentenceChinese": "早上喝一碗粥很舒服。", "sentencePinyin": "Zǎoshàng hē yì wǎn zhōu hěn shūfu.", "sentenceEnglish": "Having a bowl of congee in the morning feels great.", "vietnamese": "cháo", "sentenceVietnamese": "Buổi sáng ăn một bát cháo rất dễ chịu." },
-    { "id": 49, "chinese": "講究", "pinyin": "jiǎngjiù", "english": "to be particular about", "sentenceChinese": "這家店做菜很講究。", "sentencePinyin": "Zhè jiā diàn zuò cài hěn jiǎngjiù.", "sentenceEnglish": "This restaurant is very particular about how it prepares its food.", "vietnamese": "kỹ lưỡng; chú trọng", "sentenceVietnamese": "Quán này nấu ăn rất kỹ lưỡng." },
-    { "id": 50, "chinese": "頓", "pinyin": "dùn", "english": "measure word for meals", "sentenceChinese": "這一頓我吃得很飽。", "sentencePinyin": "Zhè yí dùn wǒ chī de hěn bǎo.", "sentenceEnglish": "I ate very well this meal.", "vietnamese": "bữa", "sentenceVietnamese": "Bữa này tôi ăn rất no." },
-    { "id": 51, "chinese": "速度", "pinyin": "sùdù", "english": "speed", "sentenceChinese": "他走路的速度很快。", "sentencePinyin": "Tā zǒulù de sùdù hěn kuài.", "sentenceEnglish": "He walks very fast.", "vietnamese": "tốc độ", "sentenceVietnamese": "Tốc độ đi bộ của anh ấy rất nhanh." },
-    { "id": 52, "chinese": "窄", "pinyin": "zhǎi", "english": "narrow", "sentenceChinese": "這條小巷子很窄。", "sentencePinyin": "Zhè tiáo xiǎo xiàngzi hěn zhǎi.", "sentenceEnglish": "This alley is very narrow.", "vietnamese": "hẹp", "sentenceVietnamese": "Con hẻm nhỏ này rất hẹp." },
-    { "id": 53, "chinese": "街道", "pinyin": "jiēdào", "english": "street", "sentenceChinese": "假日的街道上都是人。", "sentencePinyin": "Jiàrì de jiēdào shàng dōu shì rén.", "sentenceEnglish": "The streets are full of people on holidays.", "vietnamese": "đường phố", "sentenceVietnamese": "Vào ngày nghỉ, đường phố đầy người." },
-    { "id": 54, "chinese": "蓋", "pinyin": "gài", "english": "to build", "sentenceChinese": "這座廟是一百多年前蓋的。", "sentencePinyin": "Zhè zuò miào shì yì bǎi duō nián qián gài de.", "sentenceEnglish": "This temple was built more than a hundred years ago.", "vietnamese": "xây", "sentenceVietnamese": "Ngôi chùa này được xây từ hơn một trăm năm trước." },
-    { "id": 55, "chinese": "待", "pinyin": "dāi", "english": "to stay; to remain", "sentenceChinese": "我們想在台南多待幾天。", "sentencePinyin": "Wǒmen xiǎng zài Táinán duō dāi jǐ tiān.", "sentenceEnglish": "We want to stay in Tainan a few more days.", "vietnamese": "ở lại", "sentenceVietnamese": "Chúng tôi muốn ở Đài Nam thêm vài ngày nữa." },
-    { "id": 56, "chinese": "欣賞", "pinyin": "xīnshǎng", "english": "to appreciate; to enjoy", "sentenceChinese": "晚上可以去海邊欣賞煙火。", "sentencePinyin": "Wǎnshàng kěyǐ qù hǎibiān xīnshǎng yānhuǒ.", "sentenceEnglish": "At night you can go to the seaside to enjoy the fireworks.", "vietnamese": "thưởng thức; ngắm", "sentenceVietnamese": "Buổi tối có thể ra biển ngắm pháo hoa." },
-    { "id": 57, "chinese": "美麗", "pinyin": "měilì", "english": "beautiful", "sentenceChinese": "平溪的夜景非常美麗。", "sentencePinyin": "Píngxī de yèjǐng fēicháng měilì.", "sentenceEnglish": "The night view in Pingxi is very beautiful.", "vietnamese": "đẹp", "sentenceVietnamese": "Cảnh đêm ở Bình Khê rất đẹp." },
-    { "id": 58, "chinese": "鈴木", "pinyin": "Língmù", "english": "Suzuki", "sentenceChinese": "鈴木先生是第一次來台灣。", "sentencePinyin": "Língmù xiānsheng shì dì yí cì lái Táiwān.", "sentenceEnglish": "Mr. Suzuki is visiting Taiwan for the first time.", "vietnamese": "Suzuki", "sentenceVietnamese": "Ông Suzuki lần đầu tiên đến Đài Loan." },
-    { "id": 59, "chinese": "赤崁樓", "pinyin": "Chìkǎnlóu", "english": "Fort Provintia", "sentenceChinese": "赤崁樓是台南很有名的古蹟。", "sentencePinyin": "Chìkǎnlóu shì Táinán hěn yǒumíng de gǔjī.", "sentenceEnglish": "Chihkan Tower is a famous historic site in Tainan.", "vietnamese": "Xích Khảm Lâu", "sentenceVietnamese": "Xích Khảm Lâu là một di tích rất nổi tiếng ở Đài Nam." },
-    { "id": 60, "chinese": "留下來", "pinyin": "liú xiàlái", "english": "to stay behind; to remain", "sentenceChinese": "這麼舒服的地方，讓人想多留下來幾天。", "sentencePinyin": "Zhème shūfu de dìfāng, ràng rén xiǎng duō liú xiàlái jǐ tiān.", "sentenceEnglish": "This place is so comfortable that it makes people want to stay a few more days.", "vietnamese": "ở lại", "sentenceVietnamese": "Nơi này dễ chịu đến mức khiến người ta muốn ở lại thêm vài ngày." },
-    { "id": 61, "chinese": "木造", "pinyin": "mùzào", "english": "wooden", "sentenceChinese": "這棟木造房子很有味道。", "sentencePinyin": "Zhè dòng mùzào fángzi hěn yǒu wèidào.", "sentenceEnglish": "This wooden house has a lot of character.", "vietnamese": "bằng gỗ", "sentenceVietnamese": "Ngôi nhà gỗ này rất có nét riêng." },
-    { "id": 62, "chinese": "非去不可", "pinyin": "fēi qù bù kě", "english": "a must-visit", "sentenceChinese": "如果你去台南，赤崁樓真的是非去不可。", "sentencePinyin": "Rúguǒ nǐ qù Táinán, Chìkǎnlóu zhēn de shì fēi qù bù kě.", "sentenceEnglish": "If you go to Tainan, Chihkan Tower is truly a must-visit.", "vietnamese": "nhất định phải đi", "sentenceVietnamese": "Nếu bạn đến Đài Nam thì Xích Khảm Lâu thật sự là nơi nhất định phải ghé." },
-    { "id": 63, "chinese": "值得", "pinyin": "zhídé", "english": "worth", "sentenceChinese": "這家老店很值得去吃一次。", "sentencePinyin": "Zhè jiā lǎodiàn hěn zhídé qù chī yí cì.", "sentenceEnglish": "This old shop is well worth trying once.", "vietnamese": "đáng", "sentenceVietnamese": "Quán lâu đời này rất đáng để ăn thử một lần." },
-    { "id": 64, "chinese": "推薦", "pinyin": "tuījiàn", "english": "to recommend", "sentenceChinese": "朋友推薦我去吃那家擔仔麵。", "sentencePinyin": "Péngyǒu tuījiàn wǒ qù chī nà jiā dànzǎimiàn.", "sentenceEnglish": "A friend recommended that I try the danzai noodles there.", "vietnamese": "giới thiệu; đề xuất", "sentenceVietnamese": "Bạn tôi giới thiệu tôi đi ăn quán mì Đam Tử đó." }
-  ],
-  "theme": "I Love Taiwanese Hospitality"
+    {
+      "id": 1,
+      "chinese": "人情味",
+      "pinyin": "rénqíngwèi",
+      "en": "human warmth; hospitality",
+      "vi": "tình người; sự thân tình",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "human touch; human interest; empathy",
+          "sentence": "這故事很有人情味。",
+          "pinyin": "zhè gù shi hěn yǒu rén qíng wèi.",
+          "en": "The story is warmly human.",
+          "vi": ""
+        },
+        {
+          "type": "noun",
+          "meaning": "human touch; human interest; empathy",
+          "sentence": "他這個人, 一點兒人情味都沒有。",
+          "pinyin": "Tā zhè ge rén, yī diǎn ér rén qíng wèi dōu méi yǒu.",
+          "en": "That chap! He has no human feelings whatsoever.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chinese": "放",
+      "pinyin": "fàng",
+      "en": "to release; to let go",
+      "vi": "thả",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "let go; set free; release",
+          "sentence": "免稅放行",
+          "pinyin": "miǎn shuì fàng xíng",
+          "en": "Release without payment of duty",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "let go; set free; release",
+          "sentence": "交保釋放",
+          "pinyin": "Jiāo bǎoshì fàng",
+          "en": "Admit sb. to bail; allow bail; accept bail; take bail; release on bail",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chinese": "天燈",
+      "pinyin": "tiāndēng",
+      "en": "sky lantern",
+      "vi": "đèn trời",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "sky lantern (miniature hot-air balloon used during festivals)",
+          "sentence": "我們一起放天燈吧。",
+          "pinyin": "Wǒmen yīqǐ fàng tiāndēng ba.",
+          "en": "Let's release sky lanterns together.",
+          "vi": "Chúng ta cùng thả đèn trời nhé."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chinese": "願望",
+      "pinyin": "yuànwǎng",
+      "en": "wish",
+      "vi": "điều ước",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wish; desire; aspiration",
+          "sentence": "他的願望是成為醫生。",
+          "pinyin": "tā de yuànwàng shì chéngwéi yīshēng.",
+          "en": "His wish is to become a doctor.",
+          "vi": "Nguyện vọng của anh ấy là trở thành bác sĩ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "wish; desire; aspiration",
+          "sentence": "她實現了自己的願望。",
+          "pinyin": "tā shíxiànle zìjǐ de yuànwàng.",
+          "en": "She fulfilled her own wish.",
+          "vi": "Cô ấy đã thực hiện được mong muốn của mình."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chinese": "訊號",
+      "pinyin": "xùnhào",
+      "en": "signal",
+      "vi": "tín hiệu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "signal (transmitted via electromagnetic waves)",
+          "sentence": "電視機的訊號突然中斷了。",
+          "pinyin": "diànshì jī de xùnhào tū rán zhōngduànle.",
+          "en": "The TV signal was suddenly interrupted.",
+          "vi": "Tín hiệu của tivi đột nhiên bị gián đoạn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "signal (transmitted via electromagnetic waves)",
+          "sentence": "訊號不穩定，畫麵一直在閃。",
+          "pinyin": "xùnhào bù wěndìng, huàmiàn yīzhí zài shǎn.",
+          "en": "The signal is unstable, and the screen keeps flickering.",
+          "vi": "Tín hiệu không ổn định, màn hình cứ chớp nháy liên tục."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chinese": "元宵",
+      "pinyin": "yuánxiāo",
+      "en": "sweet rice dumpling",
+      "vi": "viên bánh trôi ngọt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "the night of the 15th of the first lunar month",
+          "sentence": "元宵節在哪天呢？",
+          "pinyin": "yuánxiāo jié zài nǎ tiān ne?",
+          "en": "When is the Lantern Festival?",
+          "vi": "Tết Nguyên Tiêu là ngày nào?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "the night of the 15th of the first lunar month",
+          "sentence": "元宵象徵團圓。",
+          "pinyin": "yuánxiāo xiàngzhēng tuányuán.",
+          "en": "The Lantern Festival symbolizes reunion.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chinese": "牆",
+      "pinyin": "qiáng",
+      "en": "wall",
+      "vi": "tường",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "wall",
+          "sentence": "這麵墻是石頭的。",
+          "pinyin": "zhè miàn qiáng shì shítou de.",
+          "en": "This wall is made of stone.",
+          "vi": "Bức tường này làm bằng đá."
+        },
+        {
+          "type": "Noun",
+          "meaning": "wall",
+          "sentence": "校園有高高的墻。",
+          "pinyin": "xiàoyuán yǒu gāo gāo de qiáng.",
+          "en": "The campus has tall walls.",
+          "vi": "Trường học có bức tường cao."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chinese": "耐心",
+      "pinyin": "nàixīn",
+      "en": "patience",
+      "vi": "kiên nhẫn",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "patient",
+          "sentence": "他對孩子非常耐心。",
+          "pinyin": "tā duì háizi fēicháng nàixīn.",
+          "en": "He is extremely patient with children.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "patient",
+          "sentence": "他是個有耐心的人。",
+          "pinyin": "tā shìgè yǒu nàixīn de rén.",
+          "en": "He is a patient person.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "patience",
+          "sentence": "教育孩子要有耐心。",
+          "pinyin": "jiàoyù háizi yào yǒu nàixīn.",
+          "en": "Educating children requires patience.",
+          "vi": "Dạy dỗ con trẻ cần có lòng kiên nhẫn."
+        },
+        {
+          "type": "Noun",
+          "meaning": "patience",
+          "sentence": "她的耐心是齣了名的。",
+          "pinyin": "tā de nàixīn shì chūle míng de.",
+          "en": "She is renowned for her patience.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chinese": "感動",
+      "pinyin": "gǎndòng",
+      "en": "to be touched; moved",
+      "vi": "cảm động",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "move; touch",
+          "sentence": "這首歌感動所有觀眾/衆。",
+          "pinyin": "zhè shǒu gē gǎndòng suǒyǒu guānzhòng.",
+          "en": "This song touched all the audience.",
+          "vi": "Bài hát này đã cảm động khán giả."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move; touch",
+          "sentence": "他的努力感動了大傢。",
+          "pinyin": "tā de nǔlì gǎndòngle dàjiā.",
+          "en": "His efforts moved everyone.",
+          "vi": "Nỗ lực của anh ấy cảm động mọi người."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chinese": "擔仔麵",
+      "pinyin": "dànzǎimiàn",
+      "en": "Tainan danzai noodles",
+      "vi": "mì Đam Tử",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ta-a noodles or danzai noodles, popular snack originating from Tainan",
+          "sentence": "今天中午我想吃/喫擔仔麵。",
+          "pinyin": "jīntiān zhōngwǔ wǒ xiǎng chī dànzǎimiàn.",
+          "en": "This afternoon, I want to eat Danzai noodles.",
+          "vi": "Trưa nay tôi muốn ăn mì Danzai."
+        },
+        {
+          "type": "Noun",
+          "meaning": "ta-a noodles or danzai noodles, popular snack originating from Tainan",
+          "sentence": "擔仔麵的曆史非常有趣。",
+          "pinyin": "dànzǎimiàn de lìshǐ fēicháng yǒuqù.",
+          "en": "The history of Danzai noodles is very interesting.",
+          "vi": "Lịch sử của mì Danzai rất thú vị."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chinese": "招牌",
+      "pinyin": "zhāopái",
+      "en": "signboard; signature",
+      "vi": "đặc trưng; biển hiệu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "shop sign; signboard",
+          "sentence": "這傢店的招牌很大。",
+          "pinyin": "zhè jiā diàn de zhāopai hěn dà.",
+          "en": "The shop sign of this store is very big.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "shop sign; signboard",
+          "sentence": "招牌上寫著“美食”。",
+          "pinyin": "zhāopai shàng xiězhe “měishí”.",
+          "en": "The signboard says \"delicious food.\"",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chinese": "當地",
+      "pinyin": "dāngdì",
+      "en": "local",
+      "vi": "địa phương",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "locality",
+          "sentence": "當地居民很友好。",
+          "pinyin": "dāngdì jūmín hěn yǒuhǎo.",
+          "en": "The local residents are very friendly.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "locality",
+          "sentence": "我們去當地市場吧。",
+          "pinyin": "wǒmen qù dāngdì shìchǎng ba.",
+          "en": "Let's go to the local market.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chinese": "賺",
+      "pinyin": "zhuàn",
+      "en": "to earn",
+      "vi": "kiếm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "gain; make a profit",
+          "sentence": "這次投資讓我賺了不少。",
+          "pinyin": "zhè cì tóuzī ràng wǒ zhuàn le bù shǎo.",
+          "en": "This investment made me quite a lot of money.",
+          "vi": "Lần đầu tư này khiến tôi được lãi không ít."
+        },
+        {
+          "type": "Verb",
+          "meaning": "gain; make a profit",
+          "sentence": "那個項目讓他賺了不少利潤。",
+          "pinyin": "nàgè xiàngmù ràng tā zhuàn le bù shǎo lìrùn.",
+          "en": "That project earned him a lot of profit.",
+          "vi": "Dự án đó cho anh ta thu không ít lợi nhuận."
+        },
+        {
+          "type": "Noun",
+          "meaning": "profit",
+          "sentence": "這個項目的賺兒非常高。",
+          "pinyin": "zhège xiàngmù de zhuànr fēicháng gāo.",
+          "en": "The profit from this project is very high.",
+          "vi": "Lợi nhuận của dự án này rất cao."
+        },
+        {
+          "type": "Noun",
+          "meaning": "profit",
+          "sentence": "這樣做買賣還能有賺兒?",
+          "pinyin": "zhèyàng zuò mǎimài hái néng yǒu zhuànr?",
+          "en": "Can there still be any profit in doing business this way?",
+          "vi": "Làm ăn như thế này vẫn có lợi nhuận sao?"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chinese": "而",
+      "pinyin": "ér",
+      "en": "but rather; and",
+      "vi": "mà; còn",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "connecting components with semantic continuity",
+          "sentence": "生活忙碌，而我很開心。",
+          "pinyin": "shēnghuó mánglù, ér wǒ hěn kāixīn.",
+          "en": "Life is busy, but I am very happy.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "connecting components with semantic continuity",
+          "sentence": "她很聰明，而他很努力。",
+          "pinyin": "tā hěn cōngmíng, ér tā hěn nǔlì.",
+          "en": "She is very smart, and he is very hardworking.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chinese": "交",
+      "pinyin": "jiāo",
+      "en": "to make (friends); to hand over",
+      "vi": "kết (bạn)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "hand in (or over); give up; turn over; deliver",
+          "sentence": "交好運",
+          "pinyin": "jiāo hǎoyùn",
+          "en": "Have good luck",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "(of places or periods of time) cross; meet; join",
+          "sentence": "位於四縣之交。",
+          "pinyin": "Wèiyú sì xiàn zhī jiāo",
+          "en": "Stand where the boundaries of four counties meet",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "mutually; reciprocally; each other",
+          "sentence": "鄰居們和氣地交換了意見。",
+          "pinyin": "línjūmen héqi de jiāohuànle yìjiàn.",
+          "en": "The neighbors exchanged opinions with each other in a friendly manner.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "mutually; reciprocally; each other",
+          "sentence": "人還不認識，更不用説交情了。",
+          "pinyin": "rén hái bù rènshi, gèng bùyòng shuō jiāoqíng le.",
+          "en": "We don’t even know each other yet, let alone have a relationship.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "friend; acquaintance; friendship; relationship",
+          "sentence": "能交心的朋友。",
+          "pinyin": "Néng jiāoxīn de péngyou",
+          "en": "A friend that I can confide in; a trustworthy friend",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "friend; acquaintance; friendship; relationship",
+          "sentence": "相交有年",
+          "pinyin": "xiāng jiāo yǒu nián",
+          "en": "Have been friends for years",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chinese": "理想",
+      "pinyin": "lǐxiǎng",
+      "en": "ideal; dream",
+      "vi": "lý tưởng; ước mơ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ideal; dream; aspiration",
+          "sentence": "實現遠大理想。",
+          "pinyin": "shíxiàn yuǎndà lǐxiǎng",
+          "en": "Realize one’s ambitious aims",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "ideal; dream; aspiration",
+          "sentence": "樹立崇高理想。",
+          "pinyin": "shùlì chónggāo lǐxiǎng",
+          "en": "Establish lofty ideal",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ideal; perfect",
+          "sentence": "理想效果",
+          "pinyin": "lǐxiǎng xiàoguǒ",
+          "en": "Optimum effect",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ideal; perfect",
+          "sentence": "理想的伴侶。",
+          "pinyin": "lǐxiǎng de bànlǚ",
+          "en": "Ideal companion",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chinese": "剛剛",
+      "pinyin": "gānggāng",
+      "en": "just now",
+      "vi": "vừa nãy",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "just; only; exactly",
+          "sentence": "他的分數剛剛達標。",
+          "pinyin": "tā de fēnshù gānggāng dábiāo.",
+          "en": "His score just met the standard.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "just; only; exactly",
+          "sentence": "我帶的錢剛剛夠買這雙鞋。",
+          "pinyin": "wǒ dài de qián gānggāng gòu mǎi zhè shuāng xié.",
+          "en": "The money I brought is just enough to buy these shoes.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chinese": "改天",
+      "pinyin": "gǎitiān",
+      "en": "another day",
+      "vi": "hôm khác",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "to change to some other day",
+          "sentence": "改天我們一起去看電影。",
+          "pinyin": "gǎitiān wǒmen yīqǐ qù kàn diànyǐng.",
+          "en": "Let's go watch a movie another day.",
+          "vi": "Ngày khác chúng ta cùng đi xem phim."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "to change to some other day",
+          "sentence": "改天我想請你吃/喫飯。",
+          "pinyin": "gǎitiān wǒ xiǎng qǐng nǐ chīfàn.",
+          "en": "I'd like to treat you to a meal another day.",
+          "vi": "Ngày khác tôi muốn mời bạn ăn cơm."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chinese": "無聊",
+      "pinyin": "wúliáo",
+      "en": "boring",
+      "vi": "buồn chán",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "bored",
+          "sentence": "退休後他感到很無聊。",
+          "pinyin": "tuìxiū hòu tā gǎndào hěn wúliáo.",
+          "en": "He feels very bored after retiring.",
+          "vi": "Sau khi nghỉ hưu ông ấy cảm thấy rất buồn chán."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "bored",
+          "sentence": "你整天在傢，不無聊嗎？",
+          "pinyin": "nǐ zhěng tiān zàijiā, bù wúliáo ma?",
+          "en": "Aren't you bored staying at home all day?",
+          "vi": "Bạn cả ngày ở nhà, không chán sao?"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chinese": "東區",
+      "pinyin": "Dōngqū",
+      "en": "East District",
+      "vi": "khu Đông",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Lingdong district of Shuangyashan city 双鸭山, Heilongjiang",
+          "sentence": "我住在嶺東區。",
+          "pinyin": "Wǒ zhù zài Lǐngdōngqū.",
+          "en": "I live in Lingdong District.",
+          "vi": "Tôi sống ở Quận Lĩnh Đông."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chinese": "煙火",
+      "pinyin": "yānhuǒ",
+      "en": "fireworks",
+      "vi": "pháo hoa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "smoke and fire",
+          "sentence": "建築工地嚴禁煙火。",
+          "pinyin": "jiàn zhù gōngdì yánjìn yānhuǒ.",
+          "en": "No fire is allowed on construction sites.",
+          "vi": "Công trường đang xây dựng nghiêm cấm lửa"
+        },
+        {
+          "type": "Noun",
+          "meaning": "smoke and fire",
+          "sentence": "庫房重地，嚴禁煙火。",
+          "pinyin": "kùfáng zhòngdì, yánjìn yānhuǒ.",
+          "en": "No fire is allowed in the warehouse.",
+          "vi": "Trong nhà kho, lửa bị nghiêm cấm."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chinese": "跨年",
+      "pinyin": "kuànián",
+      "en": "to celebrate New Year's Eve",
+      "vi": "đón giao thừa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "ring in the New Year; celebrate the New Year",
+          "sentence": "他們打算去海邊跨年。",
+          "pinyin": "tāmen dǎsuàn qù hǎibiān kuà nián.",
+          "en": "They plan to go to the seaside to celebrate the New Year.",
+          "vi": "Họ dự định ra biển đón năm mới."
+        },
+        {
+          "type": "Verb",
+          "meaning": "ring in the New Year; celebrate the New Year",
+          "sentence": "大傢都在廣場跨年。",
+          "pinyin": "dàjiā dōu zài guǎngchǎng kuà nián.",
+          "en": "Everyone is celebrating the New Year in the square.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chinese": "種類",
+      "pinyin": "zhǒnglèi",
+      "en": "kind; type",
+      "vi": "chủng loại",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "kind; class; type; variety",
+          "sentence": "我喜歡這些種類的書籍。",
+          "pinyin": "wǒ xǐhuān zhèxiē zhǒnglèi de shūjí.",
+          "en": "I like these kinds of books.",
+          "vi": "Tôi thích những loại sách này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "kind; class; type; variety",
+          "sentence": "這些植物有不衕的種類。",
+          "pinyin": "zhèxiē zhíwù yǒu bùtóng de zhǒnglèi.",
+          "en": "These plants are of different kinds.",
+          "vi": "Những cây này có các loại khác nhau."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chinese": "價錢",
+      "pinyin": "jiàqián",
+      "en": "price",
+      "vi": "giá cả",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "price",
+          "sentence": "這種筆價錢一般。",
+          "pinyin": "zhè zhǒng bǐ jiàqián yībān.",
+          "en": "The price of this kind of pen is average.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "price",
+          "sentence": "這件衣服的價錢太高了。",
+          "pinyin": "zhè jiàn yīfu de jiàqián tài gāole.",
+          "en": "The price of this shirt is too high.",
+          "vi": "Giá của chiếc áo này cao quá."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chinese": "感覺",
+      "pinyin": "gǎnjué",
+      "en": "to feel; feeling",
+      "vi": "cảm giác; cảm thấy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "feeling; sensation; sense perception",
+          "sentence": "我對這件事有很好的感覺。",
+          "pinyin": "wǒ duì zhè jiàn shì yǒu hěn hǎo de gǎnjué.",
+          "en": "I have a good feeling about this matter.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "feeling; sensation; sense perception",
+          "sentence": "我在這裡/裏的感覺很放鬆。",
+          "pinyin": "Wǒ zài zhèlǐ de gǎnjué hěn fàngsōng.",
+          "en": "I feel very relaxed here.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel; perceive; become aware of",
+          "sentence": "我感覺有點兒不舒服。",
+          "pinyin": "wǒ gǎnjué yǒudiǎnr bú shūfú.",
+          "en": "I feel a bit uncomfortable.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "feel; perceive; become aware of",
+          "sentence": "一場鞦雨過後就感覺有點冷了。",
+          "pinyin": "yī chǎng qiūyǔ guòhòu jiù gǎnjué yǒudiǎn lěngle.",
+          "en": "After a fall rain, it feels a bit cold.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chinese": "雞排",
+      "pinyin": "jīpái",
+      "en": "fried chicken cutlet",
+      "vi": "gà rán miếng lớn",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "chicken breast",
+          "sentence": "雞排配沙拉很閤適。",
+          "pinyin": "jī pái pèi shālā hěn héshì.",
+          "en": "Chicken cutlet pairs well with salad.",
+          "vi": "Ức gà kết hợp với salad rất hợp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "chicken breast",
+          "sentence": "雞排有很多種做法。",
+          "pinyin": "jī pái yǒu hěnduō zhǒng zuòfǎ.",
+          "en": "There are many ways to prepare chicken breasts.",
+          "vi": "Có nhiều cách chế biến ức gà."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chinese": "年輕",
+      "pinyin": "niánqīng",
+      "en": "young",
+      "vi": "trẻ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "young",
+          "sentence": "她還年輕併且耽於空想。",
+          "pinyin": "tā hái niánqīng bìngqiě dān yú kōngxiǎng.",
+          "en": "She's still young and idealistic.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "young",
+          "sentence": "年輕的時候我們都有點拘謹。",
+          "pinyin": "niánqīng de shíhòu wǒmen dōu yǒu diǎn jūnjǐ.",
+          "en": "We're all a bit gauche when we're young.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chinese": "紅茶",
+      "pinyin": "hóngchá",
+      "en": "black tea",
+      "vi": "hồng trà",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "black tea",
+          "sentence": "你想來一盃紅茶嗎？",
+          "pinyin": "nǐ xiǎnglái yībēi hóngchá ma?",
+          "en": "Would you like a cup of black tea?",
+          "vi": "Bạn có muốn một tách trà đen không?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "black tea",
+          "sentence": "紅茶的顏色很漂亮。",
+          "pinyin": "hóngchá de yánsè hěn piàoliang.",
+          "en": "The color of the black tea is very beautiful.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "chinese": "平溪",
+      "pinyin": "Píngxī",
+      "en": "Pingxi",
+      "vi": "Bình Khê",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Pingxi or Pinghsi township in New Taipei City 新北市, Taiwan",
+          "sentence": "我計劃去平溪旅遊。",
+          "pinyin": "Wǒ jìhuà qù Píngxī lǚyóu.",
+          "en": "I plan to travel to Pingxi.",
+          "vi": "Tôi dự định đi du lịch Bình Khê."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "chinese": "元宵節",
+      "pinyin": "Yuánxiāo Jié",
+      "en": "Lantern Festival",
+      "vi": "Tết Nguyên Tiêu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Lantern Festival",
+          "sentence": "什麼時候是元宵節？",
+          "pinyin": "shénme shíhòu shì yuánxiāo jié?",
+          "en": "When is the Lantern Festival?",
+          "vi": "Tết Nguyên tiêu là khi nào?"
+        },
+        {
+          "type": "Noun",
+          "meaning": "Lantern Festival",
+          "sentence": "明天是元宵節！",
+          "pinyin": "míngtiān shì yuánxiāo jié!",
+          "en": "Tomorrow is the Lantern Festival!",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "chinese": "孔廟",
+      "pinyin": "Kǒngmiào",
+      "en": "Confucius Temple",
+      "vi": "Văn Miếu",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "confucian temple",
+          "sentence": "我們參觀了孔廟。",
+          "pinyin": "wǒmen cānguānle kǒngmiào.",
+          "en": "We visited the Confucian temple.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "confucian temple",
+          "sentence": "孔廟文化非常豐富。",
+          "pinyin": "kǒngmiào wénhuà fēicháng fēngfù.",
+          "en": "The culture of the Confucian temple is very rich.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "chinese": "校外教學",
+      "pinyin": "xiàowài jiàoxué",
+      "en": "field trip",
+      "vi": "học ngoại khóa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "school",
+          "sentence": "他今天沒去學校。",
+          "pinyin": "tā jīntiān méi qù xuéxiào.",
+          "en": "He didn't go to school today.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "school",
+          "sentence": "學校規定不許抽煙。",
+          "pinyin": "xuéxiào guīdìng bùxǔ chōuyān.",
+          "en": "The school rules forbid smoking.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "chinese": "水煎包",
+      "pinyin": "shuǐjiānbāo",
+      "en": "pan-fried bun",
+      "vi": "bánh bao chiên nước",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lightly fried Chinese stuffed bread",
+          "sentence": "我每天早餐吃/喫水煎包。",
+          "pinyin": "Wǒ měitiān zǎocān chī shuǐjiānbāo.",
+          "en": "I eat shuijianbao for breakfast every day.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "chinese": "同事",
+      "pinyin": "tóngshì",
+      "en": "coworker",
+      "vi": "đồng nghiệp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "mate; colleague; fellow worker",
+          "sentence": "我們的衕事都很友好。",
+          "pinyin": "wǒmen de tóngshì dōu hěn yǒuhǎo.",
+          "en": "Our colleagues are all very friendly.",
+          "vi": "Các đồng nghiệp của chúng tôi đều rất thân thiện."
+        },
+        {
+          "type": "Noun",
+          "meaning": "mate; colleague; fellow worker",
+          "sentence": "他和衕事相處得很好。",
+          "pinyin": "tā hé tóngshì xiāngchǔ dé hěn hǎo.",
+          "en": "He gets along very well with his colleagues.",
+          "vi": "Anh ấy hòa hợp rất tốt với đồng nghiệp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "work in the same place; work together",
+          "sentence": "我和她衕事不到兩個月。",
+          "pinyin": "wǒ hé tā tóngshì bù dào liǎng gè yuè.",
+          "en": "I have worked with her for less than two months.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "work in the same place; work together",
+          "sentence": "我們以前在這傢公司衕事。",
+          "pinyin": "wǒmen yǐqián zài zhè jiā gōngsī tóngshì.",
+          "en": "We used to work together at this company.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "chinese": "美食",
+      "pinyin": "měishí",
+      "en": "delicacies; gourmet food",
+      "vi": "ẩm thực ngon",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "delicacy; delicious food",
+          "sentence": "我喜歡品嘗美食。",
+          "pinyin": "wǒ xǐhuān pǐncháng měishí.",
+          "en": "I like tasting delicious food.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "delicacy; delicious food",
+          "sentence": "我們去享受美食。",
+          "pinyin": "wǒmen qù xiǎngshòu měishí.",
+          "en": "Let's enjoy delicious food.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "chinese": "上去",
+      "pinyin": "shàngqù",
+      "en": "to go up",
+      "vi": "đi lên",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "go up; upward",
+          "sentence": "他上樓去了，馬上會下來。",
+          "pinyin": "tā shàng lóu qùle, mǎshàng huì xiàlái.",
+          "en": "He went upstairs and will come down soon.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "go up; upward",
+          "sentence": "貓咪靈活地跳上去屋頂。",
+          "pinyin": "māomī línghuó de tiào shàngqù wūdǐng.",
+          "en": "The cat nimbly leaped onto the roof.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "chinese": "泡",
+      "pinyin": "pào",
+      "en": "to soak; to steep",
+      "vi": "ngâm; pha",
+      "samples": [
+        {
+          "type": "noun",
+          "meaning": "bubble",
+          "sentence": "他手上有很水泡。",
+          "pinyin": "tā shǒu shàng yǒu hěn shuǐpào.",
+          "en": "He had a lot of blisters on his hands.",
+          "vi": "Có rất nhiều bọng nước trên tay anh ấy."
+        },
+        {
+          "type": "noun",
+          "meaning": "bubble",
+          "sentence": "她吹了很多很肥皂/皁泡兒。",
+          "pinyin": "tā chuīle hěnduō hěn féizào pào er.",
+          "en": "She blew a lot of soap bubbles.",
+          "vi": "Cô ấy thổi rất nhiều bọt xà phòng."
+        },
+        {
+          "type": "verb",
+          "meaning": "steep; soak",
+          "sentence": "把種子放在溫水裡/裏泡一下。",
+          "pinyin": "bǎ zhǒngzi fàng zài wēnshuǐ lǐ pào yīxià",
+          "en": "Steep the seeds in lukewarm water",
+          "vi": ""
+        },
+        {
+          "type": "verb",
+          "meaning": "steep; soak",
+          "sentence": "他每天泡石斛喝湯。",
+          "pinyin": "tā měi tiān pào shíhú hē tāng",
+          "en": "He soaks dendrobe and drinks the soup every day",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "chinese": "錯過",
+      "pinyin": "cuòguò",
+      "en": "to miss",
+      "vi": "bỏ lỡ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "miss; let slip",
+          "sentence": "我錯過了這次機會。",
+          "pinyin": "wǒ cuòguòle zhè cì jīhuì.",
+          "en": "I missed this opportunity.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "miss; let slip",
+          "sentence": "他錯過了最後一班車。",
+          "pinyin": "tā cuòguòle zuìhòu yī bānchē.",
+          "en": "He missed the last bus.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "chinese": "營業",
+      "pinyin": "yíngyè",
+      "en": "to be open for business",
+      "vi": "kinh doanh; mở cửa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "do business; be open for business",
+          "sentence": "商店上午9時開始營業。",
+          "pinyin": "shāngdiàn shàngwǔ 9 shí kāishǐ yíngyè.",
+          "en": "The shops open at nine in the morning.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "do business; be open for business",
+          "sentence": "有些商店還在營業。",
+          "pinyin": "yǒuxiē shāngdiàn hái zài yíngyè.",
+          "en": "Some stores are still open.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "chinese": "夜景",
+      "pinyin": "yèjǐng",
+      "en": "night view",
+      "vi": "cảnh đêm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "night scene (or view)",
+          "sentence": "一幅壯麗的長江大橋夜景。",
+          "pinyin": "yī fú zhuànglì de Cháng Jiāng dà qiáo yèjǐng",
+          "en": "The magnificent view of the Chang Jiang Bridge at night",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "night scene (view); nightscape",
+          "sentence": "你認為巴黎的夜景如何?",
+          "pinyin": "nǐ rènwéi bālí de yèjǐng rúhé?",
+          "en": "What do you think of Paris by night?",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "chinese": "古老",
+      "pinyin": "gǔlǎo",
+      "en": "ancient; old",
+      "vi": "cổ xưa",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "ancient; age-old",
+          "sentence": "古老的風俗很有趣。",
+          "pinyin": "gǔlǎo de fēngsú hěn yǒuqù.",
+          "en": "The ancient customs are very interesting.",
+          "vi": "Phong tục cổ xưa rất thú vị."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ancient; age-old",
+          "sentence": "這是個古老的城市。",
+          "pinyin": "zhè shìgè gǔlǎo de chéngshì.",
+          "en": "This is an ancient city.",
+          "vi": "Đây là thành phố cổ kính."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "chinese": "古蹟",
+      "pinyin": "gǔjī",
+      "en": "historic site",
+      "vi": "di tích cổ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "historic site; place of historical interest",
+          "sentence": "我們參觀了古跡。",
+          "pinyin": "wǒmen cānguānle gǔjì.",
+          "en": "We visited the historical sites.",
+          "vi": "Chúng tôi đã tham quan di tích cổ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "historic site; place of historical interest",
+          "sentence": "古跡吸引了很多遊客。",
+          "pinyin": "gǔjì xīyǐnle hěnduō yóukè.",
+          "en": "The historical sites attracted many tourists.",
+          "vi": "Di tích cổ thu hút nhiều du khách."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "chinese": "重視",
+      "pinyin": "zhòngshì",
+      "en": "to value; to attach importance to",
+      "vi": "coi trọng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "value; give weight to; attach importance to; pay attention to",
+          "sentence": "我們很重視這個問題。",
+          "pinyin": "wǒmen hěn zhòngshì zhège wèntí.",
+          "en": "We attach great importance to this issue.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "value; give weight to; attach importance to; pay attention to",
+          "sentence": "老師重視學生的成長。",
+          "pinyin": "lǎoshī zhòngshì xuéshēng de chéngzhǎng.",
+          "en": "The teacher values students' growth.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "chinese": "歷史",
+      "pinyin": "lìshǐ",
+      "en": "history",
+      "vi": "lịch sử",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "history; past record",
+          "sentence": "中國曆史悠久而豐富。",
+          "pinyin": "zhōngguó lìshǐ yōujiǔ ér fēngfù.",
+          "en": "Chinese history is long and rich.",
+          "vi": "Lịch sử Trung Quốc lâu đời và phong phú."
+        },
+        {
+          "type": "Noun",
+          "meaning": "history; past record",
+          "sentence": "人類曆史充滿了變遷。",
+          "pinyin": "rénlèi lìshǐ chōngmǎnle biànqiān.",
+          "en": "Human history is full of changes.",
+          "vi": "Lịch sử nhân loại đầy biến đổi."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "chinese": "風俗",
+      "pinyin": "fēngsú",
+      "en": "custom; folkway",
+      "vi": "phong tục",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "custom",
+          "sentence": "這個地方有獨特風俗。",
+          "pinyin": "zhège dìfāng yǒu dútè fēngsú.",
+          "en": "This place has unique customs.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "custom",
+          "sentence": "風俗習慣影響人們行為。",
+          "pinyin": "fēngsú xíguàn yǐngxiǎng rénmen xíngwéi.",
+          "en": "Customs influence people's behavior.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "chinese": "習慣",
+      "pinyin": "xíguàn",
+      "en": "habit; custom",
+      "vi": "thói quen; quen",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "used to; inured to; accustomed to",
+          "sentence": "他不習慣一個人吃/喫飯。",
+          "pinyin": "tā bù xíguàn yīgè rén chīfàn.",
+          "en": "He is not used to eating alone.",
+          "vi": "Anh ta không quen ăn một mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "used to; inured to; accustomed to",
+          "sentence": "我習慣每天晚上讀書。",
+          "pinyin": "wǒ xíguàn měitiān wǎnshàng dúshū.",
+          "en": "I am used to reading books every night.",
+          "vi": "Tôi đã quen với việc đọc sách mỗi tối."
+        },
+        {
+          "type": "Noun",
+          "meaning": "habit; custom; usual practice",
+          "sentence": "我要改掉熬夜的習慣。",
+          "pinyin": "wǒ yào gǎi diào áoyè de xíguàn.",
+          "en": "I want to give up the habit of staying up late.",
+          "vi": "Tôi muốn bỏ thói quen thức khuya."
+        },
+        {
+          "type": "Noun",
+          "meaning": "habit; custom; usual practice",
+          "sentence": "沒有改不掉的習慣。",
+          "pinyin": "méiyǒu gǎi bù diào de xíguàn.",
+          "en": "There are no habits that cannot be changed.",
+          "vi": "Không có thói quen nào là không bỏ được."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "chinese": "地道",
+      "pinyin": "dìdao",
+      "en": "authentic",
+      "vi": "chuẩn vị",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "authentic; pure; typical",
+          "sentence": "他的北京話很地道。",
+          "pinyin": "tā de běijīng huà hěn dìdao.",
+          "en": "His Beijing dialect is very authentic.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "authentic; pure; typical",
+          "sentence": "這裡/裏的中餐太地道了。",
+          "pinyin": "zhèlǐ de zhōngcān tài dìdaole.",
+          "en": "The Chinese food here is very authentic.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "chinese": "粥",
+      "pinyin": "zhōu",
+      "en": "congee",
+      "vi": "cháo",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "gruel; congee; porridge",
+          "sentence": "這碗粥很好吃/喫。",
+          "pinyin": "zhè wǎn zhōu hěn hǎo chī.",
+          "en": "This bowl of porridge is delicious.",
+          "vi": "Bát cháo này rất ngon."
+        },
+        {
+          "type": "Noun",
+          "meaning": "gruel; congee; porridge",
+          "sentence": "媽媽煮粥特別香。",
+          "pinyin": "māma zhǔ zhōu tèbié xiāng.",
+          "en": "Mom's porridge smells especially good.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "chinese": "講究",
+      "pinyin": "jiǎngjiù",
+      "en": "to be particular about",
+      "vi": "kỹ lưỡng; chú trọng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "careful study; sth deserving attention",
+          "sentence": "中國人吃/喫飯很有講究。",
+          "pinyin": "zhōngguó rén chīfàn hěn yǒu jiǎngjiù.",
+          "en": "Chinese people are very careful about eating.",
+          "vi": "Người Trung Quốc rất chú ý đến việc ăn uống."
+        },
+        {
+          "type": "Noun",
+          "meaning": "careful study; sth deserving attention",
+          "sentence": "給小孩兒起名字大有講究。",
+          "pinyin": "gěi xiǎo háir qǐ míngzi dà yǒu jiǎngjiu.",
+          "en": "There's a lot of work in naming a child.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "exquisite; elegant; tasteful",
+          "sentence": "他穿著非常講究。",
+          "pinyin": "tā chuānzhuó fēicháng jiǎngjiù.",
+          "en": "His attire was extremely elegant.",
+          "vi": "Anh ấy ăn mặc rất sang trọng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "exquisite; elegant; tasteful",
+          "sentence": "會場佈置得很講究。",
+          "pinyin": "huìchǎng bùzhì de hěn jiǎngjiu.",
+          "en": "The venue was furnished with exquisite taste.",
+          "vi": "Hội trường bố trí rất đẹp đẽ."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to put stress on; to be particular about; to pay attention to",
+          "sentence": "我們要講究衛生。",
+          "pinyin": "wǒmen yào jiǎngjiù wèishēng.",
+          "en": "We should pay attention to hygiene.",
+          "vi": "Chúng ta phải chú ý vệ sinh."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to put stress on; to be particular about; to pay attention to",
+          "sentence": "中國美食講究色香味。",
+          "pinyin": "zhōngguó měishí jiǎngjiù sè xiāngwèi.",
+          "en": "Chinese food emphasizes color and flavor.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "chinese": "頓",
+      "pinyin": "dùn",
+      "en": "measure word for meals",
+      "vi": "bữa",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pause",
+          "sentence": "他突然頓了一下。",
+          "pinyin": "tā tū rán dùnle yīxià.",
+          "en": "He suddenly paused for a moment.",
+          "vi": "Anh ấy đột nhiên dừng lại một chút."
+        },
+        {
+          "type": "Verb",
+          "meaning": "pause",
+          "sentence": "車子在路口頓住。",
+          "pinyin": "chēzi zài lùkǒu dùn zhù.",
+          "en": "The car stopped at the intersection.",
+          "vi": "Xe dừng lại ở ngã tư."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tired; fatigued",
+          "sentence": "他今天工作非常勞頓。",
+          "pinyin": "tā jīntiān gōngzuò fēicháng láodùn.",
+          "en": "He is very fatigued from work today.",
+          "vi": "Hôm nay anh ấy làm việc rất mệt mỏi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tired; fatigued",
+          "sentence": "她看起來有些睏頓。",
+          "pinyin": "tā kàn qǐlái yǒuxiē kùndùn.",
+          "en": "She looks a bit exhausted.",
+          "vi": "Cô ấy trông có vẻ hơi mệt mỏi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "suddenly; immediately",
+          "sentence": "電話響了，他頓接起來。",
+          "pinyin": "diànhuà xiǎngle, tā dùn jiē qǐlái.",
+          "en": "The phone rang, and he immediately picked it up.",
+          "vi": "Điện thoại reo, anh ấy liền nhấc máy ngay."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "suddenly; immediately",
+          "sentence": "下雨了，大傢頓跑開了。",
+          "pinyin": "xià yǔle, dàjiā dùn pǎo kāile.",
+          "en": "It started raining, and everyone immediately ran off.",
+          "vi": "Trời mưa, mọi người lập tức chạy đi."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for meals",
+          "sentence": "他每天吃/喫三頓飯。",
+          "pinyin": "tā měitiān chī sān dùn fàn.",
+          "en": "He eats three meals a day.",
+          "vi": "Anh ấy mỗi ngày ăn ba bữa."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "used for meals",
+          "sentence": "今天我隻吃/喫了一頓飯。",
+          "pinyin": "jīntiān wǒ zhǐ chīle yī dùn fàn.",
+          "en": "Today I only had one meal.",
+          "vi": "Hôm nay tôi chỉ ăn một bữa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "頓先生是我的朋友。",
+          "pinyin": "dùn xiānsheng shì wǒ de péngyou.",
+          "en": "Mr. Dun is my friend.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "頓老師是我的媽媽。",
+          "pinyin": "dùn lǎoshī shì wǒ de māma.",
+          "en": "Teacher Dun is my mother.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "chinese": "速度",
+      "pinyin": "sùdù",
+      "en": "speed",
+      "vi": "tốc độ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "speed; rate; pace; tempo",
+          "sentence": "這輛車的速度很快。",
+          "pinyin": "zhè liàng chē de sùdù hěn kuài.",
+          "en": "The speed of this car is very fast.",
+          "vi": "Tốc độ của chiếc xe này rất nhanh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "speed; rate; pace; tempo",
+          "sentence": "他跑步的速度令人驚嘆。",
+          "pinyin": "tā pǎobù de sùdù lìng rén jīngtàn.",
+          "en": "His running speed is amazing.",
+          "vi": "Tốc độ chạy của anh ấy thật đáng kinh ngạc."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "chinese": "窄",
+      "pinyin": "zhǎi",
+      "en": "narrow",
+      "vi": "hẹp",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "narrow",
+          "sentence": "這條巷子很窄。",
+          "pinyin": "zhè tiáo xiàngzi hěn zhǎi.",
+          "en": "This alley is very narrow.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "narrow",
+          "sentence": "這裡/裏通道比較窄。",
+          "pinyin": "zhèlǐ tōngdào bǐjiào zhǎi.",
+          "en": "The passage here is quite narrow.",
+          "vi": "Đường đi ở đây tương đối hẹp."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "chinese": "街道",
+      "pinyin": "jiēdào",
+      "en": "street",
+      "vi": "đường phố",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "way; street; road",
+          "sentence": "我幫那位老人穿過街道。",
+          "pinyin": "wǒ bāng nà wèi lǎorén chuānguò jiēdào.",
+          "en": "I helped that old man cross the street.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "way; street; road",
+          "sentence": "他清掃了整個街道。",
+          "pinyin": "tā qīngsǎole zhěnggè jiēdào.",
+          "en": "He cleaned up the whole street.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "chinese": "蓋",
+      "pinyin": "gài",
+      "en": "to build",
+      "vi": "xây",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "lid; cap; cover",
+          "sentence": "這兒有很多瓶蓋兒。",
+          "pinyin": "zhèr yǒu hěnduō píng gàir.",
+          "en": "There are many bottle caps here.",
+          "vi": "Ở đây có rất nhiều nắp chai."
+        },
+        {
+          "type": "Noun",
+          "meaning": "lid; cap; cover",
+          "sentence": "那個鍋蓋兒太重了。",
+          "pinyin": "nàgè guō gàir tài zhòngle.",
+          "en": "That pot lid is too heavy.",
+          "vi": "Cái vung nồi đó nặng quá."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cover; shield; put a cover on",
+          "sentence": "撒種後蓋上一層土。",
+          "pinyin": "sā zhǒng hòu gài shàng yī céng tǔ.",
+          "en": "After sowing the seeds, cover them with a layer of soil.",
+          "vi": "Gieo giống xong phủ một lớp đất lên"
+        },
+        {
+          "type": "Verb",
+          "meaning": "cover; shield; put a cover on",
+          "sentence": "太冷了，快把被子蓋上。",
+          "pinyin": "tài lěngle, kuài bǎ bèizi gài shàng.",
+          "en": "It's too cold, quickly cover with the blanket.",
+          "vi": "Lạnh quá, mau đắp chăn lên."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "about; around; approximately",
+          "sentence": "此書之印行蓋在1902年。",
+          "pinyin": "cǐ shū zhī yìnxíng gài zài 1902 nián.",
+          "en": "The publication of this book was stamped in 1902.",
+          "vi": "Cuốn sách này in vào khoảng năm 1902."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "about; around; approximately",
+          "sentence": "與會者蓋一韆人。",
+          "pinyin": "yù huì zhě gài yī qiān rén.",
+          "en": "About a thousand people attended the meeting.",
+          "vi": "Người tham dự đạt khoảng một ngàn người."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "for; because",
+          "sentence": "他不來，蓋他有事。",
+          "pinyin": "tā bù lái, gài tā yǒushì.",
+          "en": "He didn't come because he had something to do.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "for; because",
+          "sentence": "她遲到了，蓋車壞了。",
+          "pinyin": "tā chídàole, gài chē huàile.",
+          "en": "She was late because her car broke down.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tops; superb; terrific; excellent",
+          "sentence": "昨天的戲演得真蓋。",
+          "pinyin": "zuótiān de xì yǎn de zhēn gài.",
+          "en": "The play yesterday was really amazing.",
+          "vi": "Buổi diễn kịch hôm qua thật hay."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "tops; superb; terrific; excellent",
+          "sentence": "他踢進了三個球，蓋帽兒了。",
+          "pinyin": "tā tī jìnle sān gè qiú, gàimàorle.",
+          "en": "He scored three goals and made a hat-trick.",
+          "vi": "Anh ấy đá vào 3 quả, hay quá đi."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "chinese": "待",
+      "pinyin": "dāi",
+      "en": "to stay; to remain",
+      "vi": "ở lại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "treat; deal with",
+          "sentence": "他待人很友善。",
+          "pinyin": "tā dàirén hěn yǒushàn.",
+          "en": "He is very kind to others.",
+          "vi": "Anh ấy đối xử với mọi người rất thân thiện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "treat; deal with",
+          "sentence": "他們待我如傢人。",
+          "pinyin": "tāmen dài wǒ rú jiārén.",
+          "en": "They treat me like family.",
+          "vi": "Họ đã đối đãi với tôi như người trong gia đình."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我知道他姓待。",
+          "pinyin": "wǒ zhīdào tā xìng dài.",
+          "en": "I know his surname is Dai.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的姓是待。",
+          "pinyin": "wǒ de xìng shì dài.",
+          "en": "My surname is Dai.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "chinese": "欣賞",
+      "pinyin": "xīnshǎng",
+      "en": "to appreciate; to enjoy",
+      "vi": "thưởng thức; ngắm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "enjoy; admire; appreciate",
+          "sentence": "我欣賞日落的美景。",
+          "pinyin": "wǒ xīnshǎng rìluò de měijǐng.",
+          "en": "I enjoyed the beautiful view of the sunset.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "enjoy; admire; appreciate",
+          "sentence": "他站在窗前，欣賞雪景。",
+          "pinyin": "tā zhàn zài chuāng qián, xīnshǎng xuějǐng.",
+          "en": "He stood at the window, admiring the snow.",
+          "vi": "Anh ấy đứng trước cửa ngắm cảnh tuyết."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "chinese": "美麗",
+      "pinyin": "měilì",
+      "en": "beautiful",
+      "vi": "đẹp",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "beautiful",
+          "sentence": "美麗富饒的國傢。",
+          "pinyin": "měilì fùráo de guójiā",
+          "en": "A beautiful and richly endowed country",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "beautiful",
+          "sentence": "那是一個甯靜美麗的夜晚。",
+          "pinyin": "nà shì yī gè níng jìng měi lì de yè wǎn.",
+          "en": "It was a serenely beautiful night.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "chinese": "鈴木",
+      "pinyin": "Língmù",
+      "en": "Suzuki",
+      "vi": "Suzuki",
+      "samples": []
+    },
+    {
+      "id": 59,
+      "chinese": "赤崁樓",
+      "pinyin": "Chìkǎnlóu",
+      "en": "Fort Provintia",
+      "vi": "Xích Khảm Lâu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "Chihkan Tower (formerly Fort Provintia) in Tainan, Taiwan (also written 赤嵌楼)",
+          "sentence": "赤崁樓是臺南的標誌。",
+          "pinyin": "chìkǎnlóu shì táinán de biāozhì.",
+          "en": "Chihkan Tower is the symbol of Tainan.",
+          "vi": "Tháp Chihkan là biểu tượng của Đài Nam."
+        },
+        {
+          "type": "Noun",
+          "meaning": "Chihkan Tower (formerly Fort Provintia) in Tainan, Taiwan (also written 赤嵌楼)",
+          "sentence": "我喜歡赤崁樓的風景。",
+          "pinyin": "wǒ xǐhuān chìkǎnlóu de fēngjǐng.",
+          "en": "I like the scenery of Chihkan Tower.",
+          "vi": "Tôi thích phong cảnh của tháp Chihkan."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "chinese": "留下來",
+      "pinyin": "liú xiàlái",
+      "en": "to stay behind; to remain",
+      "vi": "ở lại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "他來公司開會。",
+          "pinyin": "tā lái gōngsī kāihuì.",
+          "en": "He comes to the company for a meeting.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "come; arrive",
+          "sentence": "請你來我傢玩。",
+          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
+          "en": "Please come to my house to play.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "這件衣服大概來五百塊。",
+          "pinyin": "zhè jiàn yīfu dàgài lái wǔbǎi kuài.",
+          "en": "This piece of clothing costs about 500 yuan.",
+          "vi": ""
+        },
+        {
+          "type": "Particle",
+          "meaning": "approcimately; about; around (used after a round mumber of after a numeral plus a measure to indicate approximation)",
+          "sentence": "我有來十個問題要問你。",
+          "pinyin": "wǒ yǒu lái shí gè wèntí yào wèn nǐ.",
+          "en": "I have about ten questions to ask you.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "多年來他一直努力。",
+          "pinyin": "duōnián lái tā yīzhí nǔlì.",
+          "en": "He has been working hard for many years.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "used after a time experssion to indicate a duration that lasts from the past to the present",
+          "sentence": "我爸爸進來比較忙。",
+          "pinyin": "wǒ bàba jìnlái bǐjiào máng.",
+          "en": "My dad has been quite busy lately.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "chinese": "木造",
+      "pinyin": "mùzào",
+      "en": "wooden",
+      "vi": "bằng gỗ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "create; produce; bring about",
+          "sentence": "公司創造了曆史性記彔。",
+          "pinyin": "gōngsī chuàngzàole lìshǐ xìng jìlù.",
+          "en": "The company set a historic record.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "create; produce; bring about",
+          "sentence": "我們正在創造一個奇跡。",
+          "pinyin": "wǒmen zhèngzài chuàngzào yīgè qíjī.",
+          "en": "We are creating a miracle.",
+          "vi": "Chúng tôi đang tạo ra một kỳ tích."
+        },
+        {
+          "type": "Noun",
+          "meaning": "creation; innovation",
+          "sentence": "這本書是他的傑齣創造。",
+          "pinyin": "zhè běn shū shì tā de jiéchū chuàngzào.",
+          "en": "This book is his outstanding creation.",
+          "vi": "Cuốn sách này là thành tựu xuất sắc của anh ấy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "creation; innovation",
+          "sentence": "他的創造穫得了大獎。",
+          "pinyin": "tā de chuàngzào huòdéle dàjiǎng.",
+          "en": "His creation received a major award.",
+          "vi": "Thành tựu của anh ấy đã nhận giải thưởng lớn."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "chinese": "非去不可",
+      "pinyin": "fēi qù bù kě",
+      "en": "a must-visit",
+      "vi": "nhất định phải đi",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "right; exactly; that's just the way it is",
+          "sentence": "可不是，時間過得真快。",
+          "pinyin": "kě bùshì, shíjiānguò dé zhēn kuài.",
+          "en": "Exactly, time flies so fast.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "right; exactly; that's just the way it is",
+          "sentence": "這事可不是鬧著玩的。",
+          "pinyin": "zhè shì kě bù shì nào zhe wán de.",
+          "en": "The matter is not to be neglected.",
+          "vi": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "chinese": "值得",
+      "pinyin": "zhídé",
+      "en": "worth",
+      "vi": "đáng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "merit; deserve; be worth",
+          "sentence": "這個項目值得投資。",
+          "pinyin": "zhège xiàngmù zhídé tóuzī.",
+          "en": "This project is worth investing in.",
+          "vi": "Hạng mục này xứng đáng đầu tư."
+        },
+        {
+          "type": "Verb",
+          "meaning": "merit; deserve; be worth",
+          "sentence": "這部電影值得推薦。",
+          "pinyin": "zhè bù diànyǐng zhídé tuījiàn.",
+          "en": "This movie is definitely worth watching.",
+          "vi": "Bộ phim này đáng để giới thiệu."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "be worth",
+          "sentence": "這是一件值得的事情。",
+          "pinyin": "zhè shì yī jiàn zhídé de shìqíng.",
+          "en": "This is something worth doing.",
+          "vi": "Đây là một điều đáng giá"
+        },
+        {
+          "type": "Adjective",
+          "meaning": "be worth",
+          "sentence": "他做齣這樣值得的選擇。",
+          "pinyin": "tā zuò chū zhèyàng zhídé de xuǎnzé.",
+          "en": "He made a very wise choice.",
+          "vi": "Anh ấy đưa ra một lựa chọn đáng giá."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "chinese": "推薦",
+      "pinyin": "tuījiàn",
+      "en": "to recommend",
+      "vi": "giới thiệu; đề xuất",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "recommend; recommendation",
+          "sentence": "他推薦了一個好餐廳。",
+          "pinyin": "tā tuījiànle yīgè hǎo cāntīng.",
+          "en": "He recommended an amazing restaurant.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "recommend; recommendation",
+          "sentence": "我推薦你嘗嘗這道菜。",
+          "pinyin": "wǒ tuījiàn nǐ cháng cháng zhè dào cài.",
+          "en": "I highly recommend you try this dish.",
+          "vi": ""
+        }
+      ]
+    }
+  ]
 }

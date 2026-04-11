@@ -7,375 +7,1251 @@
       "id": 1,
       "chinese": "坐",
       "pinyin": "zuò",
-      "english": "to take by, to travel by",
-      "sentenceChinese": "我想坐火車去臺南。",
-      "sentencePinyin": "Wǒ xiǎng zuò huǒchē qù Táinán.",
-      "sentenceEnglish": "I want to take the train to Tainan.",
-      "vietnamese": "đi bằng",
-      "sentenceVietnamese": "Tôi muốn đi tàu hỏa đến Đài Nam."
+      "en": "to take by, to travel by",
+      "vi": "đi bằng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "sit; be seated; take a seat",
+          "sentence": "咱們坐下來談。",
+          "pinyin": "zánmen zuò xiàlái tán.",
+          "en": "Let's sit down and talk.",
+          "vi": "Chúng ta ngồi xuống nói chuyện."
+        },
+        {
+          "type": "Verb",
+          "meaning": "sit; be seated; take a seat",
+          "sentence": "他坐在河邊釣魚。",
+          "pinyin": "tā zuò zài hé biān diàoyú.",
+          "en": "He is sitting by the river fishing.",
+          "vi": "Anh ấy ngồi câu cá bên bờ sông."
+        },
+        {
+          "type": "Noun",
+          "meaning": "seat; place",
+          "sentence": "那個坐有人佔了。",
+          "pinyin": "nàgè zuò yǒurén zhànle.",
+          "en": "That seat is already taken.",
+          "vi": "Chỗ đó có người chiếm rồi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "seat; place",
+          "sentence": "這裡/裏還有空坐位。",
+          "pinyin": "zhèlǐ hái yǒu kòng zuòwèi.",
+          "en": "There are still empty seats here.",
+          "vi": "Ở đây vẫn còn chỗ ngồi."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "because; for the reason that",
+          "sentence": "他坐病沒來上班。",
+          "pinyin": "tā zuò bìngméi lái shàngbān.",
+          "en": "He didn’t come to work because he was sick.",
+          "vi": "Vì bị ốm nên anh ấy không đi làm."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "because; for the reason that",
+          "sentence": "她坐憂心情不好。",
+          "pinyin": "tā zuò yōu xīnqíng bù hǎo.",
+          "en": "She was in a bad mood because she was worried.",
+          "vi": "Cô ấy vì lo lắng nên tâm trạng không tốt."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "for no reason at all; without cause or reason",
+          "sentence": "老師，他坐打我。",
+          "pinyin": "lǎoshī, tā zuò dǎ wǒ.",
+          "en": "Teacher, he suddenly hit me.",
+          "vi": "Thầy ơi cậu ấy tự dưng đánh em."
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "for no reason at all; without cause or reason",
+          "sentence": "在吃/喫飯時，他們坐吵架。",
+          "pinyin": "zài chīfàn shí, tāmen zuò chǎojià.",
+          "en": "While eating, they suddenly argued.",
+          "vi": "Đang ăn mà bọn họ tự dưng cãi nhau."
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "火車",
       "pinyin": "huǒchē",
-      "english": "train",
-      "sentenceChinese": "火車快到了。",
-      "sentencePinyin": "Huǒchē kuài dào le.",
-      "sentenceEnglish": "The train is coming soon.",
-      "vietnamese": "tàu hỏa",
-      "sentenceVietnamese": "Tàu hỏa sắp đến rồi."
+      "en": "train",
+      "vi": "tàu hỏa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "train",
+          "sentence": "我喜歡坐火車去旅行。",
+          "pinyin": "wǒ xǐhuan zuò huǒchē qù lǚxíng.",
+          "en": "I like traveling by train.",
+          "vi": "Tôi thích đi du lịch bằng tàu hỏa."
+        },
+        {
+          "type": "Noun",
+          "meaning": "train",
+          "sentence": "這趟火車的車廂很整潔。",
+          "pinyin": "zhè tàng huǒchē de chēxiāng hěn zhěngjié.",
+          "en": "The compartments of this train are very clean and tidy.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "跟",
       "pinyin": "gēn",
-      "english": "with",
-      "sentenceChinese": "他跟我一起去玩。",
-      "sentencePinyin": "Tā gēn wǒ yìqǐ qù wán.",
-      "sentenceEnglish": "He is going out with me.",
-      "vietnamese": "với",
-      "sentenceVietnamese": "Anh ấy đi chơi cùng tôi."
+      "en": "with",
+      "vi": "với",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "heel",
+          "sentence": "她愛穿高跟鞋齣門。",
+          "pinyin": "tā ài chuān gāogēnxié chūmén.",
+          "en": "She likes to wear high heels when going out.",
+          "vi": "Cô ấy thích đi giày cao gót khi ra ngoài."
+        },
+        {
+          "type": "Noun",
+          "meaning": "heel",
+          "sentence": "他的腳跟受傷了。",
+          "pinyin": "tā de jiǎogēn shòushāngle.",
+          "en": "His heel was injured.",
+          "vi": "Gót chân của anh ấy bị thương."
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow",
+          "sentence": "他跑得快，我也跟得上。",
+          "pinyin": "tā pǎo dé kuài, wǒ yě gēn dé shàng.",
+          "en": "He runs fast, but I can keep up.",
+          "vi": "Anh ấy chạy rất nhanh, tôi cũng có thể theo kịp."
+        },
+        {
+          "type": "Verb",
+          "meaning": "follow",
+          "sentence": "他跑得很快，我跟不上。",
+          "pinyin": "tā pǎo dé hěn kuài, wǒ gēn bù shàng.",
+          "en": "He runs very fast, I can’t keep up.",
+          "vi": "Anh ấy chạy nhanh quá, tôi theo không kịp."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with",
+          "sentence": "他跟父母住一塊兒。",
+          "pinyin": "tā gēn fùmǔ zhù yīkuàir.",
+          "en": "He lives together with his parents.",
+          "vi": "Anh ấy sống cùng bố mẹ."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "with",
+          "sentence": "我跟你一起去旅行。",
+          "pinyin": "wǒ gēn nǐ yīqǐ qù lǚxíng.",
+          "en": "I will travel with you.",
+          "vi": "Tôi sẽ đi du lịch cùng bạn."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and",
+          "sentence": "車上裝的是機器跟材料。",
+          "pinyin": "chē shàngzhuāng de shì jīqì gēn cáiliào.",
+          "en": "The vehicle is loaded with machines and materials.",
+          "vi": "Trên xe xếp máy móc và vật liệu."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "and",
+          "sentence": "他跟我都是越南人。",
+          "pinyin": "tā gēn wǒ dōu shì yuènán rén.",
+          "en": "He and I are both Vietnamese.",
+          "vi": "Anh ấy và tôi đều là người Việt Nam."
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "玩",
       "pinyin": "wán",
-      "english": "to have fun",
-      "sentenceChinese": "週末你想去哪裡玩？",
-      "sentencePinyin": "Zhōumò nǐ xiǎng qù nǎlǐ wán?",
-      "sentenceEnglish": "Where do you want to go to have fun this weekend?",
-      "vietnamese": "chơi",
-      "sentenceVietnamese": "Cuối tuần này bạn muốn đi đâu chơi?"
+      "en": "to have fun",
+      "vi": "chơi",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "have fun; entertain oneself",
+          "sentence": "我們一起去公園玩吧。",
+          "pinyin": "wǒmen yīqǐ qù gōngyuán wán ba.",
+          "en": "Let’s go to the park together.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "have fun; entertain oneself",
+          "sentence": "今天我們玩得很開心。",
+          "pinyin": "jīntiān wǒmen wán dé hěn kāixīn.",
+          "en": "We had a great time today.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "object for appreciation",
+          "sentence": "這傢古玩店很有名。",
+          "pinyin": "zhè jiā gǔwán diàn hěn yǒumíng.",
+          "en": "This antique shop is very famous.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "object for appreciation",
+          "sentence": "他對古玩很感興趣。",
+          "pinyin": "tā duì gǔwán hěn gǎn xìngqù.",
+          "en": "He is very interested in antiques.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "怎麼",
       "pinyin": "zěnme",
-      "english": "how",
-      "sentenceChinese": "請問去捷運站怎麼走？",
-      "sentencePinyin": "Qǐngwèn qù jiéyùn zhàn zěnme zǒu?",
-      "sentenceEnglish": "Excuse me, how do I get to the MRT station?",
-      "vietnamese": "làm sao; thế nào",
-      "sentenceVietnamese": "Xin hỏi đi đến trạm tàu điện ngầm như thế nào?"
+      "en": "how",
+      "vi": "làm sao; thế nào",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "how; what; why",
+          "sentence": "這是怎麼迴事?",
+          "pinyin": "zhè shì zěnme huí shì?",
+          "en": "What is this?",
+          "vi": "Việc này là thế nào?"
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "how; what; why",
+          "sentence": "這個問題該怎麼解決?",
+          "pinyin": "zhège wèntí gāi zěnme jiějué?",
+          "en": "How can we solve this problem?",
+          "vi": "Vấn đề này nên giải quyết thế nào?"
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "慢",
       "pinyin": "màn",
-      "english": "slow",
-      "sentenceChinese": "這台公車開得很慢。",
-      "sentencePinyin": "Zhè tái gōngchē kāi de hěn màn.",
-      "sentenceEnglish": "This bus drives very slowly.",
-      "vietnamese": "chậm",
-      "sentenceVietnamese": "Chiếc xe buýt này chạy rất chậm."
+      "en": "slow",
+      "vi": "chậm",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "slow",
+          "sentence": "這輛車開得慢。",
+          "pinyin": "zhè liàng chē kāi de màn.",
+          "en": "This car drives slowly.",
+          "vi": "Chiếc xe này chạy chậm."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "slow",
+          "sentence": "他的速度非常慢。",
+          "pinyin": "tā de sùdù fēicháng màn.",
+          "en": "His speed is very slow.",
+          "vi": "Tốc độ của anh ấy rất chậm."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "slowly",
+          "sentence": "慢慢吃/喫，別噎著了。",
+          "pinyin": "màn màn chī, bié yēzhele.",
+          "en": "Eat slowly, don’t choke.",
+          "vi": "Ăn từ từ, đừng để bị nghẹn."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "slowly",
+          "sentence": "慢慢説，不要著急。",
+          "pinyin": "màn màn shuō, bùyào zháojí.",
+          "en": "Speak slowly, don’t rush.",
+          "vi": "Nói từ từ, không cần vội."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "慢先生是一位醫生。",
+          "pinyin": "màn xiānsheng shì yī wèi yīshēng.",
+          "en": "Mr. Man is a doctor.",
+          "vi": "Ông Mạn là một bác sĩ."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "她的名字是慢玲。",
+          "pinyin": "tā de míngzì shì màn líng.",
+          "en": "Her name is Man Ling.",
+          "vi": "Tên của cô ấy là Mạn Linh."
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "鐘頭",
       "pinyin": "zhōngtóu",
-      "english": "hour",
-      "sentenceChinese": "坐高鐵只要一個鐘頭。",
-      "sentencePinyin": "Zuò gāotiě zhǐyào yí ge zhōngtóu.",
-      "sentenceEnglish": "Taking the HSR only takes one hour.",
-      "vietnamese": "giờ; tiếng",
-      "sentenceVietnamese": "Đi tàu cao tốc chỉ mất một tiếng."
+      "en": "hour",
+      "vi": "giờ; tiếng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hour",
+          "sentence": "四五個鍾頭過去了。",
+          "pinyin": "sìwǔ gè zhōngtóu guòqùle.",
+          "en": "Four or five hours passed.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hour",
+          "sentence": "他們等了大約兩個鍾頭。",
+          "pinyin": "tāmen děngle dàyuē liǎng gè zhōngtóu.",
+          "en": "They waited for about two hours.",
+          "vi": "Họ đợi khoảng hai giờ rồi."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "比較",
       "pinyin": "bǐjiào",
-      "english": "(comparatively) more",
-      "sentenceChinese": "坐高鐵比較快，但是比較貴。",
-      "sentencePinyin": "Zuò gāotiě bǐjiào kuài, dànshì bǐjiào guì.",
-      "sentenceEnglish": "Taking the HSR is faster, but more expensive.",
-      "vietnamese": "hơn; tương đối",
-      "sentenceVietnamese": "Đi tàu cao tốc nhanh hơn, nhưng cũng đắt hơn."
+      "en": "(comparatively) more",
+      "vi": "hơn; tương đối",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "compare; contrast",
+          "sentence": "你比較一下，看哪個更好。",
+          "pinyin": "nǐ bǐjiào yīxià, kàn nǎge gèng hǎo.",
+          "en": "Compare them and see which one is better.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "compare; contrast",
+          "sentence": "你把這兩個方案比較一下。",
+          "pinyin": "nǐ bǎ zhè liǎng gè fāng'àn bǐjiào yīxià.",
+          "en": "Compare these two plans.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "fairly; relatively; quite; rather; comparatively",
+          "sentence": "這篇文章寫得比較好。",
+          "pinyin": "zhè piān wénzhāng xiě de bǐjiào hǎo.",
+          "en": "This essay is written quite well.",
+          "vi": "Bài văn này viết khá hay"
+        },
+        {
+          "type": "Adverb",
+          "meaning": "fairly; relatively; quite; rather; comparatively",
+          "sentence": "這次考試的難度比較大。",
+          "pinyin": "zhè cì kǎoshì de nándù bǐjiào dà.",
+          "en": "The difficulty of this exam is relatively high.",
+          "vi": "Lần thi này khá là khó."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "(used to compare a difference in degree)",
+          "sentence": "今年棉花比較去年長勢更好。",
+          "pinyin": "jīnnián miánhuā bǐjiào qùnián zhǎngshì gèng hǎo.",
+          "en": "This year's cotton growth is better compared to last year's.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "(used to compare a difference in degree)",
+          "sentence": "經濟比較去年有顯著的增長。",
+          "pinyin": "jīngjì bǐjiào qùnián yǒu xiǎnzhù de zēngzhǎng.",
+          "en": "The economy has shown significant growth compared to last year.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "快",
       "pinyin": "kuài",
-      "english": "fast",
-      "sentenceChinese": "他跑得很快。",
-      "sentencePinyin": "Tā pǎo de hěn kuài.",
-      "sentenceEnglish": "He runs very fast.",
-      "vietnamese": "nhanh",
-      "sentenceVietnamese": "Anh ấy chạy rất nhanh."
+      "en": "fast",
+      "vi": "nhanh",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "fast; quick; rapid; swift (opp. 慢)",
+          "sentence": "墨汁快速滲透紙張。",
+          "pinyin": "mòzhī kuàisù shèntòu zhǐzhāng.",
+          "en": "The ink quickly soaks into the paper.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "fast; quick; rapid; swift (opp. 慢)",
+          "sentence": "新車很快就會摺舊。",
+          "pinyin": "Xīn chē hěn kuài jiù huì zhéjiù.",
+          "en": "New cars will depreciate quickly.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "soon; before long; be about to",
+          "sentence": "春節快到了。",
+          "pinyin": "Chūnjié kuài dào le.",
+          "en": "The Spring Festival is drawing near.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "quickly",
+          "sentence": "我們快去車站吧。",
+          "pinyin": "wǒmen kuài qù chēzhàn ba.",
+          "en": "Let’s quickly go to the station.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "constable",
+          "sentence": "那快辦案非常迅速。",
+          "pinyin": "nà kuài bàn'àn fēicháng xùnsù.",
+          "en": "That constable handled the case very swiftly.",
+          "vi": "Lính sai đó xử lý vụ án rất nhanh chóng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我的朋友姓快。",
+          "pinyin": "wǒ de péngyou xìng kuài.",
+          "en": "My friend’s surname is Kuai.",
+          "vi": ""
+        },
+        {
+          "type": "dated",
+          "meaning": "yamen runner or officer charged with making arrests",
+          "sentence": "儘職的調查需要您迴答令人不快的問題。",
+          "pinyin": "jǐnzhí de diàochá xūyào nín húidá lìngrén bùkuài de wèntí",
+          "en": "Due diligence requires some uncomfortable questions.",
+          "vi": ""
+        },
+        {
+          "type": "dated",
+          "meaning": "yamen runner or officer charged with making arrests",
+          "sentence": "這是公差還是愉快的重逢。",
+          "pinyin": "zhèshì gōngchà huánshì yúkuài de zhòngféng",
+          "en": "Is this business or pleasure?",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "車票",
       "pinyin": "chēpiào",
-      "english": "train/bus ticket",
-      "sentenceChinese": "我的車票不見了。",
-      "sentencePinyin": "Wǒ de chēpiào bújiàn le.",
-      "sentenceEnglish": "My ticket is gone.",
-      "vietnamese": "vé xe; vé tàu",
-      "sentenceVietnamese": "Vé của tôi bị mất rồi."
+      "en": "train/bus ticket",
+      "vi": "vé xe; vé tàu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "train or bus ticket; ticket",
+          "sentence": "我買好了迴傢的車票。",
+          "pinyin": "wǒ mǎihǎole huí jiā de chēpiào.",
+          "en": "I have bought the ticket for going home.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "train or bus ticket; ticket",
+          "sentence": "他的車票忘在傢裡/裏了。",
+          "pinyin": "tā de chēpiào wàng zài jiālǐle.",
+          "en": "His ticket was left at home.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "非常",
       "pinyin": "fēicháng",
-      "english": "very",
-      "sentenceChinese": "風景非常好。",
-      "sentencePinyin": "Fěngjǐng fēicháng hǎo.",
-      "sentenceEnglish": "The scenery is very beautiful.",
-      "vietnamese": "rất; vô cùng",
-      "sentenceVietnamese": "Phong cảnh rất đẹp."
+      "en": "very",
+      "vi": "rất; vô cùng",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "extraordinary; unusual; special",
+          "sentence": "這個非常會議很重要。",
+          "pinyin": "zhège fēicháng huìyì hěn zhòngyào.",
+          "en": "This very important meeting is crucial.",
+          "vi": "Cuộc họp đặc biệt này rất quan trọng."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "extraordinary; unusual; special",
+          "sentence": "我們在非常時期要團結。",
+          "pinyin": "wǒmen zài fēicháng shíqí yào tuánjié.",
+          "en": "We must unite during this extraordinary time.",
+          "vi": "Thời điểm đặc biệt chúng ta cần đoàn kết."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely; highly",
+          "sentence": "他的中文非常流利。",
+          "pinyin": "tā de zhōngwén fēicháng liúlì.",
+          "en": "His Chinese is highly fluent.",
+          "vi": "Tiếng Trung của anh ấy rất lưu loát."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "very; extremely; highly",
+          "sentence": "這件衣服非常漂亮。",
+          "pinyin": "zhè jiàn yīfu fēicháng piàoliang.",
+          "en": "This dress is very beautiful.",
+          "vi": "Bộ quần áo này vô cùng đẹp."
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "但是",
       "pinyin": "dànshì",
-      "english": "but, however",
-      "sentenceChinese": "他很有錢，但是不快樂。",
-      "sentencePinyin": "Tā hěn yǒuqián, dànshì bù kuàilè.",
-      "sentenceEnglish": "He is rich, but not happy.",
-      "vietnamese": "nhưng; tuy nhiên",
-      "sentenceVietnamese": "Anh ấy rất giàu, nhưng không vui."
+      "en": "but, however",
+      "vi": "nhưng; tuy nhiên",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "but; yet; nevertheless",
+          "sentence": "他想睡一會兒，但是睡不著。",
+          "pinyin": "tā xiǎng shuì yīhuìr, dànshì shuì bùzháo.",
+          "en": "He wants to sleep for a while, but he can't fall asleep.",
+          "vi": ""
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "but; yet; nevertheless",
+          "sentence": "我喜歡唱歌，但是唱得不好。",
+          "pinyin": "wǒ xǐhuan chànggē, dànshì chàng de bù hǎo.",
+          "en": "I like singing, but I'm not good at it.",
+          "vi": "Tôi thích hát nhưng hát không hay."
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "又",
       "pinyin": "yòu",
-      "english": "both...and...",
-      "sentenceChinese": "這件衣服又漂亮又便宜。",
-      "sentencePinyin": "Zhè jiàn yīfú yòu piàoliang yòu piányí.",
-      "sentenceEnglish": "This dress is both beautiful and cheap.",
-      "vietnamese": "vừa...vừa...",
-      "sentenceVietnamese": "Bộ quần áo này vừa đẹp vừa rẻ."
+      "en": "both...and...",
+      "vi": "vừa...vừa...",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "咱們又見麵了。",
+          "pinyin": "zánmen yòu jiànmiànle.",
+          "en": "We met again.",
+          "vi": "Chúng ta lại gặp nhau rồi."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "indicates repetition or continuation",
+          "sentence": "他們又開始討論了。",
+          "pinyin": "tāmen yòu kāishǐ tǎolùnle.",
+          "en": "They started discussing again.",
+          "vi": "Họ lại bắt đầu thảo luận rồi."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "舒服",
       "pinyin": "shūfú",
-      "english": "comfortable",
-      "sentenceChinese": "這輛火車坐起來很舒服。",
-      "sentencePinyin": "Zhè liàng huǒchē zuò qǐlái hěn shūfú.",
-      "sentenceEnglish": "This train is very comfortable to ride.",
-      "vietnamese": "thoải mái",
-      "sentenceVietnamese": "Đi chiếc tàu hỏa này rất thoải mái."
+      "en": "comfortable",
+      "vi": "thoải mái",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "comfortable",
+          "sentence": "你感覺舒服嗎？",
+          "pinyin": "nǐ gǎnjué shūfu ma?",
+          "en": "Are you comfortable?",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "comfortable",
+          "sentence": "我覺得不舒服。",
+          "pinyin": "wǒ juéde bú shūfu.",
+          "en": "I don't feel well.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "站",
       "pinyin": "zhàn",
-      "english": "station",
-      "sentenceChinese": "捷運站就在前面。",
-      "sentencePinyin": "Jiéyùn zhàn jiù zài qiánmiàn.",
-      "sentenceEnglish": "The MRT station is just ahead.",
-      "vietnamese": "trạm; ga",
-      "sentenceVietnamese": "Trạm tàu điện ngầm ở ngay phía trước."
+      "en": "station",
+      "vi": "trạm; ga",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "stand; be on one's feet",
+          "sentence": "我都站了一天了。",
+          "pinyin": "wǒ dū zhànle yītiānle.",
+          "en": "I have been on my feet all day.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "stand; be on one's feet",
+          "sentence": "她努力站住腳跟。",
+          "pinyin": "tā nǔlì zhànzhùjiǎo gēn.",
+          "en": "She tried hard to gain a foothold.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "stop; station",
+          "sentence": "我要去北京站。",
+          "pinyin": "wǒ yào qù běijīng zhàn.",
+          "en": "I want to go to Beijing Station.",
+          "vi": "Tôi muốn đi đến Ga Bắc Kinh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "stop; station",
+          "sentence": "這裡/裏有個供應站。",
+          "pinyin": "zhè li yǒu gè gōngyìng zhàn.",
+          "en": "There is a supply station here.",
+          "vi": "Ở đây có một trạm cung ứng."
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "或是",
       "pinyin": "huòshì",
-      "english": "or",
-      "sentenceChinese": "你可以坐公車或是計程車。",
-      "sentencePinyin": "Nǐ kěyǐ zuò gōngchē huòshì jìchéngchē.",
-      "sentenceEnglish": "You can take a bus or a taxi.",
-      "vietnamese": "hoặc; hoặc là",
-      "sentenceVietnamese": "Bạn có thể đi xe buýt hoặc taxi."
+      "en": "or",
+      "vi": "hoặc; hoặc là",
+      "samples": [
+        {
+          "type": "Conjunction",
+          "meaning": "or",
+          "sentence": "你坐車或是走路。",
+          "pinyin": "nǐ zuòchē huò shì zǒulù.",
+          "en": "Do you take the bus or walk?",
+          "vi": "Bạn đi xe hoặc là đi bộ."
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "or",
+          "sentence": "他讀書或是看電視。",
+          "pinyin": "tā dúshū huò shì kàn diànshì.",
+          "en": "He could read or watch TV.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "either one; the other",
+          "sentence": "他沒來，或是有事。",
+          "pinyin": "tā méi lái, huò shì yǒushì.",
+          "en": "He either didn't come or was busy.",
+          "vi": "Anh ấy không đến, có lẽ là có việc."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "either one; the other",
+          "sentence": "她不高興，或是生病。",
+          "pinyin": "tā bù gāoxìng, huò shì shēngbìng.",
+          "en": "She's not happy, or maybe she's sick.",
+          "vi": "Cô ấy không vui, có thể là bị ốm."
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "臺南",
       "pinyin": "Táinán",
-      "english": "Tainan (city)",
-      "sentenceChinese": "臺南有很多古蹟。",
-      "sentencePinyin": "Táinán yǒu hěnduō gǔjī.",
-      "sentenceEnglish": "There are many historical sites in Tainan.",
-      "vietnamese": "Đài Nam",
-      "sentenceVietnamese": "Đài Nam có rất nhiều di tích lịch sử."
+      "en": "Tainan (city)",
+      "vi": "Đài Nam",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "Tainan (city and county in Taiwan)",
+          "sentence": "赤崁樓是臺南的標誌。",
+          "pinyin": "chìkǎnlóu shì táinán de biāozhì.",
+          "en": "Chihkan Tower is the symbol of Tainan.",
+          "vi": "Tháp Chihkan là biểu tượng của Đài Nam."
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "高鐵",
       "pinyin": "gāotiě",
-      "english": "High Speed Rail (HSR)",
-      "sentenceChinese": "坐高鐵很方便。",
-      "sentencePinyin": "Zuò gāotiě hěn fāngbiàn.",
-      "sentenceEnglish": "Taking the HSR is very convenient.",
-      "vietnamese": "tàu cao tốc",
-      "sentenceVietnamese": "Đi tàu cao tốc rất tiện lợi."
+      "en": "High Speed Rail (HSR)",
+      "vi": "tàu cao tốc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "high speed rail",
+          "sentence": "高鐵連接了很多大城市。",
+          "pinyin": "gāotiě liánjiēle hěnduō dà chéngshì.",
+          "en": "High-speed rail connects many cities.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "high speed rail",
+          "sentence": "高鐵讓旅行更快捷方便。",
+          "pinyin": "gāotiě ràng lǚxíng gèng kuàijié fāngbiàn.",
+          "en": "High-speed rail makes travel faster.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "網路上",
       "pinyin": "wǎnglù shàng",
-      "english": "on the Internet",
-      "sentenceChinese": "我可以在網路上買車票嗎？",
-      "sentencePinyin": "Wǒ kěyǐ zài wǎnglù shàng mǎi chēpiào ma?",
-      "sentenceEnglish": "Can I buy tickets on the internet?",
-      "vietnamese": "trên mạng",
-      "sentenceVietnamese": "Tôi có thể mua vé trên mạng không?"
+      "en": "on the Internet",
+      "vi": "trên mạng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to go online; to connect to the Internet; to log onto the Internet",
+          "sentence": "我每天上網查資料。",
+          "pinyin": "wǒ měitiān shàngwǎng chá zīliào.",
+          "en": "I go online every day to look up information.",
+          "vi": "Tôi lên mạng mỗi ngày để tra cứu tài liệu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to go online; to connect to the Internet; to log onto the Internet",
+          "sentence": "他喜歡上網玩遊戲。",
+          "pinyin": "tā xǐhuān shàngwǎng wán yóuxì.",
+          "en": "He likes to go online to play games.",
+          "vi": "Anh ấy thích lên mạng chơi game."
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "便利商店",
       "pinyin": "biànlì shāngdiàn",
-      "english": "convenience store",
-      "sentenceChinese": "便利商店就在大樓旁邊。",
-      "sentencePinyin": "Biànlì shāngdiàn jiù zài dàlóu pángbiān.",
-      "sentenceEnglish": "The convenience store is right next to the building.",
-      "vietnamese": "cửa hàng tiện lợi",
-      "sentenceVietnamese": "Cửa hàng tiện lợi nằm ngay bên cạnh tòa nhà."
+      "en": "convenience store",
+      "vi": "cửa hàng tiện lợi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "convenience store (Tw)",
+          "sentence": "威廉斯堡便利商店被搶。",
+          "pinyin": "wēiliánsī bǎo biànlìshāngdiàn bèi qiǎng",
+          "en": "Convenience store robbery in Williamsburg.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "同學",
       "pinyin": "tóngxué",
-      "english": "classmate",
-      "sentenceChinese": "他是我的大學同學。",
-      "sentencePinyin": "Tā shì wǒ de dàxué tóngxué.",
-      "sentenceEnglish": "He is my college classmate.",
-      "vietnamese": "bạn học",
-      "sentenceVietnamese": "Anh ấy là bạn học đại học của tôi."
+      "en": "classmate",
+      "vi": "bạn học",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "schoolmate; classmate; fellow student",
+          "sentence": "我們是衕學。",
+          "pinyin": "wǒmen shì tóngxué.",
+          "en": "We are classmates.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "schoolmate; classmate; fellow student",
+          "sentence": "她是我的一個衕學。",
+          "pinyin": "tā shì wǒ de yīgè tóngxué.",
+          "en": "She is one of my schoolmates.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "參觀",
       "pinyin": "cānguān",
-      "english": "to visit (an institution)",
-      "sentenceChinese": "我們明天要去參觀故宮。",
-      "sentencePinyin": "Wǒmen míngtiān yào qù cānguān Gùgōng.",
-      "sentenceEnglish": "We are going to visit the National Palace Museum tomorrow.",
-      "vietnamese": "tham quan",
-      "sentenceVietnamese": "Ngày mai chúng tôi sẽ đi tham quan Cố Cung."
+      "en": "to visit (an institution)",
+      "vi": "tham quan",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "visit; look around",
+          "sentence": "我喜歡參觀工廠。",
+          "pinyin": "wǒ xǐhuan cānguān gōngchǎng.",
+          "en": "I like to visit factories.",
+          "vi": "Tôi thích tham quan nhà máy."
+        },
+        {
+          "type": "Verb",
+          "meaning": "visit; look around",
+          "sentence": "我跟爸爸去參觀農場。",
+          "pinyin": "wǒ gēn bàba qù cānguān nóngchǎng.",
+          "en": "I went with my dad to visit the farm.",
+          "vi": "Tôi cùng bố đi tham quan nông trường."
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "古代",
       "pinyin": "gǔdài",
-      "english": "ancient times",
-      "sentenceChinese": "我喜歡研究古代的歷史。",
-      "sentencePinyin": "Wǒ xǐhuān yánjiū gǔdài de lìshǐ.",
-      "sentenceEnglish": "I like studying ancient history.",
-      "vietnamese": "cổ đại",
-      "sentenceVietnamese": "Tôi thích nghiên cứu lịch sử cổ đại."
+      "en": "ancient times",
+      "vi": "cổ đại",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ancient times",
+          "sentence": "我想了解古代的文化。",
+          "pinyin": "wǒ xiǎng liǎojiě gǔdài de wénhuà.",
+          "en": "I want to learn about ancient culture.",
+          "vi": "Tôi muốn tìm hiểu về văn hóa cổ đại."
+        },
+        {
+          "type": "Noun",
+          "meaning": "ancient times",
+          "sentence": "古代的建築非常雄偉。",
+          "pinyin": "gǔdài de jiàn zhù fēicháng xióngwěi.",
+          "en": "The architecture of ancient times is very magnificent.",
+          "vi": "Kiến trúc cổ đại rất hùng vĩ."
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "騎",
       "pinyin": "qí",
-      "english": "to ride",
-      "sentenceChinese": "他每天騎機車去學校。",
-      "sentencePinyin": "Tā měitiān qí jīchē qù xuéxiào.",
-      "sentenceEnglish": "He rides a motorcycle to school every day.",
-      "vietnamese": "đi; lái (xe hai bánh)",
-      "sentenceVietnamese": "Anh ấy đi xe máy đến trường mỗi ngày."
+      "en": "to ride",
+      "vi": "đi; lái (xe hai bánh)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "ride (an animal or bicycle); sit on the back of",
+          "sentence": "他騎馬在山上奔跑。",
+          "pinyin": "tā qímǎ zài shānshàng bēnpǎo.",
+          "en": "He rides his horse across the mountain.",
+          "vi": "Anh ấy cưỡi ngựa chạy trên núi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "ride (an animal or bicycle); sit on the back of",
+          "sentence": "她騎自行車去上班。",
+          "pinyin": "tā qí zìxíngchē qù shàngbān.",
+          "en": "She rides a bicycle to work.",
+          "vi": "Cô ấy đi xe đạp đến cơ quan."
+        },
+        {
+          "type": "Noun",
+          "meaning": "horse; horse rider",
+          "sentence": "他有一匹漂亮的坐騎。",
+          "pinyin": "tā yǒuyī pǐ piàoliang de zuòqí.",
+          "en": "He has a beautiful mount.",
+          "vi": "Anh ấy có một con ngựa đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "horse; horse rider",
+          "sentence": "我有一匹優秀的坐騎。",
+          "pinyin": "wǒ yǒuyī pǐ yōuxiù de zuòqí.",
+          "en": "I have an excellent mount.",
+          "vi": "Tôi có một con ngựa xuất sắc cỡ lớn."
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "機車",
       "pinyin": "jīchē",
-      "english": "motorcycle, scooter",
-      "sentenceChinese": "台灣有很多機車。",
-      "sentencePinyin": "Táiwān yǒu hěnduō jīchē.",
-      "sentenceEnglish": "There are many motorcycles in Taiwan.",
-      "vietnamese": "xe máy",
-      "sentenceVietnamese": "Đài Loan có rất nhiều xe máy."
+      "en": "motorcycle, scooter",
+      "vi": "xe máy",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "engine; locomotive",
+          "sentence": "司機正在操作機車。",
+          "pinyin": "sījī zhèngzài cāozuò jīchē.",
+          "en": "The driver is operating the locomotive.",
+          "vi": "Người lái đang điều khiển đầu máy."
+        },
+        {
+          "type": "Noun",
+          "meaning": "engine; locomotive",
+          "sentence": "司機正在駕駛機車。",
+          "pinyin": "sījī zhèngzài jiàshǐ jīchē.",
+          "en": "The driver is operating the locomotive.",
+          "vi": "Tài xế đang lái đầu máy."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "載",
       "pinyin": "zài",
-      "english": "to give someone a ride",
-      "sentenceChinese": "我騎機車載你去車站。",
-      "sentencePinyin": "Wǒ qí jīchē zài nǐ qù chēzhàn.",
-      "sentenceEnglish": "I'll give you a ride to the station on my motorcycle.",
-      "vietnamese": "chở",
-      "sentenceVietnamese": "Tôi sẽ chở bạn đến nhà ga bằng xe máy."
+      "en": "to give someone a ride",
+      "vi": "chở",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "carry; hold; load with",
+          "sentence": "宇宙飛船正把他們載嚮月球。",
+          "pinyin": "Yǔzhòu fēichuán zhèng bǎ tāmen zài xiàng yuèqiú.",
+          "en": "The spaceship was carrying them to the moon.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "all over the road; everywhere along the way",
+          "sentence": "集裝箱船裝載了許多貨物。",
+          "pinyin": "Jízhuāngxiāng chuán zhuāngzài le xǔduō huòwù.",
+          "en": "The container ship loaded many goods.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "我認識一個載姓人。",
+          "pinyin": "wǒ rèn shi yīgè zài xìng rén.",
+          "en": "I know someone with the surname Zai.",
+          "vi": "Tôi quen một người họ Tái."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "[before verbs, indicating two concurrent actions] and; as well as; at the same time",
+          "sentence": "節日裡/裏人們載歌載舞，歡慶佳節。",
+          "pinyin": "jiérì lǐ rénmen zàigēzàiwǔ, huān qìng jiājié.",
+          "en": "During the festival, people sang and danced to celebrate.",
+          "vi": "Trong lễ hội, mọi người ca hát và nhảy múa để chào mừng lễ hội."
+        },
+        {
+          "type": "literary",
+          "meaning": "[before verbs, indicating two concurrent actions] and; as well as; at the same time",
+          "sentence": "艦載飛機被彈射齣去。",
+          "pinyin": "jiàn zài fēi jī bèi tán shè chū qù.",
+          "en": "The carrier-based plane was catapulted out.",
+          "vi": ""
+        },
+        {
+          "type": "literary",
+          "meaning": "[before verbs, indicating two concurrent actions] and; as well as; at the same time",
+          "sentence": "他常載酒問字，求教名師。",
+          "pinyin": "Tā cháng zài jiǔ wèn zì, qiú jiào míng shī.",
+          "en": "He often drinks wine while asking about characters, seeking guidance from famous teachers.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "捷運",
       "pinyin": "jiéyùn",
-      "english": "Mass Rapid Transit (MRT)",
-      "sentenceChinese": "捷運比公車快。",
-      "sentencePinyin": "Jiéyùn bǐ gōngchē kuài.",
-      "sentenceEnglish": "The MRT is faster than the bus.",
-      "vietnamese": "tàu điện ngầm",
-      "sentenceVietnamese": "Tàu điện ngầm nhanh hơn xe buýt."
+      "en": "Mass Rapid Transit (MRT)",
+      "vi": "tàu điện ngầm",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "subway; mass rapid transit (MRT)",
+          "sentence": "我每天都坐捷運上班。",
+          "pinyin": "wǒ měitiān dōu zuò jié yùn shàngbān.",
+          "en": "I take the MRT to work every day.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "subway; mass rapid transit (MRT)",
+          "sentence": "他從捷運站下車。",
+          "pinyin": "tā cóng jié yùn zhàn xià chē.",
+          "en": "He got off at the MRT station.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "比",
       "pinyin": "bǐ",
-      "english": "(more...) than",
-      "sentenceChinese": "這件衣服比那件美。",
-      "sentencePinyin": "Zhè jiàn yīfú bǐ nà jiàn měi.",
-      "sentenceEnglish": "This dress is more beautiful than that one.",
-      "vietnamese": "hơn; so với",
-      "sentenceVietnamese": "Bộ quần áo này đẹp hơn bộ kia."
+      "en": "(more...) than",
+      "vi": "hơn; so với",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ratio; proportion",
+          "sentence": "利潤與成本之比已達1∶3。",
+          "pinyin": "lìrùn yǔ chéngběn zhī bǐ yǐ dá 1∶3.",
+          "en": "The ratio of profit to cost has reached 1:3.",
+          "vi": "Tỉ lệ giữa lợi nhuận và chi phí đã đạt 1∶3."
+        },
+        {
+          "type": "Noun",
+          "meaning": "ratio; proportion",
+          "sentence": "男孩和女孩的比例是3比1。",
+          "pinyin": "nánhái hé nǚhái de bǐlì shì 3 bǐ 1.",
+          "en": "The ratio of boys to girls is 3:1.",
+          "vi": "Tỉ lệ nam và nữ là 3:1."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "specific",
+          "sentence": "該材料的比錶麵積很大。",
+          "pinyin": "gāi cáiliào de bǐ biǎomiànjī hěn dà.",
+          "en": "The material has a large specific surface area.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "specific",
+          "sentence": "該藥物的比錶麵積是最大的。",
+          "pinyin": "gāi yàowù de bǐ biǎomiànjī shì zuìdà de.",
+          "en": "This drug has the largest specific surface area.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "next to; close together",
+          "sentence": "路旁各種建築鱗次櫛比。",
+          "pinyin": "lù páng gè zhǒng jiàn zhù líncìzhìbǐ.",
+          "en": "The various buildings along the road are lined up in succession.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "next to; close together",
+          "sentence": "我們比肩而立，共衕努力。",
+          "pinyin": "wǒmen bǐjiān érlì, gòngtóng nǔlì.",
+          "en": "We stand shoulder to shoulder, working together.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "recently",
+          "sentence": "比來天氣變化很大。",
+          "pinyin": "bǐ lái tiānqì biànhuà hěn dà.",
+          "en": "The weather has changed a lot recently.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "recently",
+          "sentence": "比來他經常加班。",
+          "pinyin": "bǐ lái tā jīngcháng jiābān.",
+          "en": "He has been working overtime frequently recently.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "than",
+          "sentence": "這本書比那本有趣。",
+          "pinyin": "zhè běn shū bǐ nà běn yǒuqù.",
+          "en": "This book is more interesting than that one.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "than",
+          "sentence": "今年比去年熱。",
+          "pinyin": "jīnnián bǐ qùnián rè.",
+          "en": "This year is hotter than last year.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "故宮博物院",
       "pinyin": "Gùgōng Bówùyuàn",
-      "english": "National Palace Museum",
-      "sentenceChinese": "故宮有很多美麗的古物。",
-      "sentencePinyin": "Gùgōng yǒu hěnduō měilì de gǔwù.",
-      "sentenceEnglish": "The National Palace Museum has many beautiful antiquities.",
-      "vietnamese": "Bảo tàng Cố Cung",
-      "sentenceVietnamese": "Bảo tàng Cố Cung có rất nhiều cổ vật đẹp."
+      "en": "National Palace Museum",
+      "vi": "Bảo tàng Cố Cung",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "The Palace Museum",
+          "sentence": "故宮博物院有很多珍藏。",
+          "pinyin": "gùgōng bówùyuàn yǒu hěnduō zhēncáng.",
+          "en": "The Palace Museum has many treasures.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "National Palace Museum, Taipei",
+          "sentence": "我下個月要去故宮博物院。",
+          "pinyin": "Wǒ xià gè yuè yào qù gù gōng bó wù yuàn.",
+          "en": "I'm going to the National Palace Museum next month.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "中國",
       "pinyin": "Zhōngguó",
-      "english": "China",
-      "sentenceChinese": "他下個月去中國旅行。",
-      "sentencePinyin": "Tā xià ge yuè qù Zhōngguó lǚxíng.",
-      "sentenceEnglish": "He is going to travel to China next month.",
-      "vietnamese": "Trung Quốc",
-      "sentenceVietnamese": "Tháng sau anh ấy sẽ đi du lịch Trung Quốc."
+      "en": "China",
+      "vi": "Trung Quốc",
+      "samples": [
+        {
+          "type": "nlocal",
+          "meaning": "China",
+          "sentence": "我打算去中國旅遊。",
+          "pinyin": "wǒ dǎsuàn qù zhōngguó lǚyóu.",
+          "en": "I plan to travel to China.",
+          "vi": ""
+        },
+        {
+          "type": "nlocal",
+          "meaning": "China",
+          "sentence": "我喜歡吃/喫中國菜。",
+          "pinyin": "wǒ xǐhuān chī zhōngguó cài.",
+          "en": "I like Chinese food.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "公共汽車",
       "pinyin": "gōnggòng qìchē",
-      "english": "bus",
-      "sentenceChinese": "我在等公共汽車。",
-      "sentencePinyin": "Wǒ zài děng gōnggòng qìchē.",
-      "sentenceEnglish": "I am waiting for the bus.",
-      "vietnamese": "xe buýt",
-      "sentenceVietnamese": "Tôi đang đợi xe buýt."
+      "en": "bus",
+      "vi": "xe buýt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "bus",
+          "sentence": "公共汽車很快就要來了。",
+          "pinyin": "gōnggòng qìchē hěn kuài jiù yào láile.",
+          "en": "The bus will arrive soon.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "bus",
+          "sentence": "他每天坐公共汽車上班。",
+          "pinyin": "tā měitiān zuò gōnggòng qìchē shàngbān.",
+          "en": "We takes the bus to work every day.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "不行",
       "pinyin": "bù xíng",
-      "english": "will not do",
-      "sentenceChinese": "這樣做不行。",
-      "sentencePinyin": "Zhèyàng zuò bù xíng.",
-      "sentenceEnglish": "Doing it this way will not do.",
-      "vietnamese": "không được",
-      "sentenceVietnamese": "Làm như vậy là không được."
+      "en": "will not do",
+      "vi": "không được",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "won't do; be not allowed; be out of the question",
+          "sentence": "住手！你大人可不行！",
+          "pinyin": "zhùshǒu! nǐ dàrén kě bùxíng!",
+          "en": "Stop! You can't do that!",
+          "vi": "Dừng tay! Bạn không được đánh người đâu!"
+        },
+        {
+          "type": "Verb",
+          "meaning": "won't do; be not allowed; be out of the question",
+          "sentence": "你這麼做可不行，這是犯罪！",
+          "pinyin": "nǐ zhème zuò kě bùxíng, zhè shì fànzuì!",
+          "en": "You can't do this, it's a crime!",
+          "vi": "Bạn làm vậy không được, phạm tội đấy."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "not work; be no good",
+          "sentence": "他們國傢的通信技術不行。",
+          "pinyin": "tāmen guójiā de tōngxìn jìshù bùxíng.",
+          "en": "Their country's communication technology is not good.",
+          "vi": "Kỹ thuật thông tin nước họ không giỏi."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "not work; be no good",
+          "sentence": "我覺得他們的英語都不行。",
+          "pinyin": "wǒ juéde tāmen de yīngyǔ dōu bùxíng.",
+          "en": "I think their English is not good.",
+          "vi": "Tôi thấy tiếng Anh của họ đều không giỏi."
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "計程車",
       "pinyin": "jìchéngchē",
-      "english": "taxi",
-      "sentenceChinese": "坐計程車很貴。",
-      "sentencePinyin": "Zuò jìchéngchē hěn guì.",
-      "sentenceEnglish": "Taking a taxi is expensive.",
-      "vietnamese": "taxi",
-      "sentenceVietnamese": "Đi taxi rất đắt."
+      "en": "taxi",
+      "vi": "taxi",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cab; taxi",
+          "sentence": "計程車費用很貴。",
+          "pinyin": "jìchéngchē fèiyòng hěn guì.",
+          "en": "The taxi fare is expensive.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "cab; taxi",
+          "sentence": "計程車司機非常友善。",
+          "pinyin": "jìchéngchē sījī fēicháng yǒushàn.",
+          "en": "The taxi driver is very friendly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "差不多",
       "pinyin": "chàbùduō",
-      "english": "about the same",
-      "sentenceChinese": "這兩個地方差不多遠。",
-      "sentencePinyin": "Zhè liǎng ge dìfāng chàbùduō yuǎn.",
-      "sentenceEnglish": "These two places are about the same distance.",
-      "vietnamese": "gần như nhau; xấp xỉ",
-      "sentenceVietnamese": "Hai nơi này có khoảng cách gần như nhau."
+      "en": "about the same",
+      "vi": "gần như nhau; xấp xỉ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "similar; about the same",
+          "sentence": "這兩種顏色差不多。",
+          "pinyin": "zhè liǎngzhǒng yánsè chàbuduō.",
+          "en": "These two colors are similar.",
+          "vi": "Hai màu này gần giống nhau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "similar; about the same",
+          "sentence": "我們的意見差不多。",
+          "pinyin": "wǒmen de yìjiàn chàbuduō.",
+          "en": "Our opinions are similar.",
+          "vi": "Ý kiến của chúng tôi tương tự nhau."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "almost; nearly",
+          "sentence": "他比我差不多高一頭。",
+          "pinyin": "tā bǐ wǒ chàbùduō gāo yītóu.",
+          "en": "He is about a head taller than me.",
+          "vi": "Anh ấy cao hơn tôi gần cái đầu."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "almost; nearly",
+          "sentence": "我差不多到達目的地。",
+          "pinyin": "wǒ chàbuduō dàodá mùdì de.",
+          "en": "I'm almost at my destination.",
+          "vi": "Tôi gần đến nơi cần đến rồi."
+        }
+      ]
     }
   ]
 }

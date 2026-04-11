@@ -7,750 +7,2101 @@
       "id": 1,
       "chinese": "住院",
       "pinyin": "zhùyuàn",
-      "english": "to stay in the hospital; to be hospitalized",
-      "sentenceChinese": "他昨天出了車禍，現在還在住院。",
-      "sentencePinyin": "Tā zuótiān chū le chēhuò, xiànzài hái zài zhùyuàn.",
-      "sentenceEnglish": "He was in a car accident yesterday and is still in the hospital.",
-      "vietnamese": "nằm viện",
-      "sentenceVietnamese": "Hôm qua anh ấy bị tai nạn xe và bây giờ vẫn đang nằm viện."
+      "en": "to stay in the hospital; to be hospitalized",
+      "vi": "nằm viện",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be hospitalized; be in hospital",
+          "sentence": "我住院了。",
+          "pinyin": "wǒ zhùyuànle.",
+          "en": "I’m in the hospital.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "be hospitalized; be in hospital",
+          "sentence": "她住院兩天了。",
+          "pinyin": "tā zhùyuàn liǎng tiānle.",
+          "en": "She has been hospitalized for two days.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 2,
       "chinese": "臉",
       "pinyin": "liǎn",
-      "english": "face",
-      "sentenceChinese": "她跌倒的時候傷到了臉。",
-      "sentencePinyin": "Tā diédǎo de shíhou shāng dào le liǎn.",
-      "sentenceEnglish": "She injured her face when she fell down.",
-      "vietnamese": "mặt",
-      "sentenceVietnamese": "Lúc bị ngã cô ấy bị thương ở mặt."
+      "en": "face",
+      "vi": "mặt",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "face (of people or animals)",
+          "sentence": "她有一張漂亮的臉。",
+          "pinyin": "tā yǒuyī zhāng piàoliang de liǎn.",
+          "en": "She has a beautiful face.",
+          "vi": "Cô ấy có một khuôn mặt xinh đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "face (of people or animals)",
+          "sentence": "他的臉圓圓的。",
+          "pinyin": "tā de liǎn yuán yuán de.",
+          "en": "His face is round.",
+          "vi": "Mặt của anh ấy tròn tròn."
+        }
+      ]
     },
     {
       "id": 3,
       "chinese": "受傷",
       "pinyin": "shòushāng",
-      "english": "to be injured",
-      "sentenceChinese": "雖然受傷了，他還是很冷靜。",
-      "sentencePinyin": "Suīrán shòushāng le, tā háishì hěn lěngjìng.",
-      "sentenceEnglish": "Although he was injured, he still stayed calm.",
-      "vietnamese": "bị thương",
-      "sentenceVietnamese": "Tuy bị thương nhưng anh ấy vẫn rất bình tĩnh."
+      "en": "to be injured",
+      "vi": "bị thương",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "be injured; be wounded; sustain an injury",
+          "sentence": "他在比賽中受傷了。",
+          "pinyin": "tā zài bǐsài zhōng shòushāngle.",
+          "en": "He got injured during the game.",
+          "vi": "Anh ấy bị thương trong trận đấu."
+        },
+        {
+          "type": "Verb",
+          "meaning": "be injured; be wounded; sustain an injury",
+          "sentence": "他的手腕受傷了。",
+          "pinyin": "tā de shǒuwàn shòushāngle.",
+          "en": "His wrist was injured.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 4,
       "chinese": "撞",
       "pinyin": "zhuàng",
-      "english": "to hit; to collide with",
-      "sentenceChinese": "那輛機車差一點撞到我。",
-      "sentencePinyin": "Nà liàng jīchē chà yìdiǎn zhuàng dào wǒ.",
-      "sentenceEnglish": "That scooter almost hit me.",
-      "vietnamese": "đụng; va vào",
-      "sentenceVietnamese": "Chiếc xe máy đó suýt nữa tông vào tôi."
+      "en": "to hit; to collide with",
+      "vi": "đụng; va vào",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "bump against; run into; strike; collide",
+          "sentence": "別讓汽車撞上。",
+          "pinyin": "bié ràng qìchē zhuàng shàng.",
+          "en": "Don't let the car hit.",
+          "vi": "Đừng để ô tô đụng phải"
+        },
+        {
+          "type": "verb",
+          "meaning": "bump against; run into; strike; collide",
+          "sentence": "兩個人撞了個滿懷。",
+          "pinyin": "liǎng gèrén zhuàngle gè mǎnhuái.",
+          "en": "The two people bumped into each other.",
+          "vi": "Hai người chạm trán nhau."
+        }
+      ]
     },
     {
       "id": 5,
       "chinese": "遵守",
       "pinyin": "zūnshǒu",
-      "english": "to obey; to comply with",
-      "sentenceChinese": "開車一定要遵守交通規則。",
-      "sentencePinyin": "Kāichē yídìng yào zūnshǒu jiāotōng guīzé.",
-      "sentenceEnglish": "You must obey traffic rules when driving.",
-      "vietnamese": "tuân thủ",
-      "sentenceVietnamese": "Lái xe nhất định phải tuân thủ quy tắc giao thông."
+      "en": "to obey; to comply with",
+      "vi": "tuân thủ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "obey; observe; abide by; comply with",
+          "sentence": "我們要遵守法律。",
+          "pinyin": "wǒmen yào zūnshǒu fǎlǜ.",
+          "en": "We must obey the law.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "obey; observe; abide by; comply with",
+          "sentence": "他特別遵守時間。",
+          "pinyin": "tā tèbié zūnshǒu shíjiān.",
+          "en": "He is very punctual.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 6,
       "chinese": "規則",
       "pinyin": "guīzé",
-      "english": "rule; regulation",
-      "sentenceChinese": "醫院裡有很多規則要注意。",
-      "sentencePinyin": "Yīyuàn lǐ yǒu hěn duō guīzé yào zhùyì.",
-      "sentenceEnglish": "There are many rules to pay attention to in the hospital.",
-      "vietnamese": "quy tắc",
-      "sentenceVietnamese": "Trong bệnh viện có rất nhiều quy tắc cần chú ý."
+      "en": "rule; regulation",
+      "vi": "quy tắc",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "rule; regulation",
+          "sentence": "足球比賽有明確的規則。",
+          "pinyin": "zúqiú bǐsài yǒu míngquè de guīzé.",
+          "en": "The soccer game has clear rules.",
+          "vi": "Trận đấu bóng đá có luật rõ ràng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "rule; regulation",
+          "sentence": "我們要遵守交通的規則。",
+          "pinyin": "wǒmen yào zūnshǒu jiāotōng de guīzé.",
+          "en": "We must follow the traffic rules.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "orderly; regular",
+          "sentence": "工人們把鮮花擺放得很規則。",
+          "pinyin": "gōngrénmen bǎ xiānhuā bǎi fàng de hěn guīzé.",
+          "en": "The workers arranged the flowers in an orderly way.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "orderly; regular",
+          "sentence": "這件衣服的圖案不太規則。",
+          "pinyin": "zhè jiàn yīfu de tú'àn bù tài guīzé.",
+          "en": "The pattern on this shirt is not very regular.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 7,
       "chinese": "報警",
       "pinyin": "bàojǐng",
-      "english": "to report to the police; to call the police",
-      "sentenceChinese": "發生車禍以後最好先報警。",
-      "sentencePinyin": "Fāshēng chēhuò yǐhòu zuìhǎo xiān bàojǐng.",
-      "sentenceEnglish": "After a car accident happens, it is best to call the police first.",
-      "vietnamese": "báo cảnh sát",
-      "sentenceVietnamese": "Sau khi xảy ra tai nạn giao thông thì tốt nhất nên báo cảnh sát trước."
+      "en": "to report to the police; to call the police",
+      "vi": "báo cảnh sát",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "report (an incident) to the police",
+          "sentence": "她的傢人已經報警。",
+          "pinyin": "tā de jiārén yǐjīng bàojǐng.",
+          "en": "Her family has called the police.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "report (an incident) to the police",
+          "sentence": "遇到危險要趕緊報警。",
+          "pinyin": "yù dào wéixiǎn yào gǎnjǐn bàojǐng.",
+          "en": "When facing danger, call the police immediately.",
+          "vi": "Gặp nguy hiểm cần phải nhanh chóng báo cảnh sát."
+        }
+      ]
     },
     {
       "id": 8,
       "chinese": "急診室",
       "pinyin": "jízhěnshì",
-      "english": "emergency room",
-      "sentenceChinese": "他一到醫院就被送進急診室。",
-      "sentencePinyin": "Tā yí dào yīyuàn jiù bèi sòng jìn jízhěnshì.",
-      "sentenceEnglish": "As soon as he arrived at the hospital, he was taken to the emergency room.",
-      "vietnamese": "phòng cấp cứu",
-      "sentenceVietnamese": "Vừa đến bệnh viện là anh ấy được đưa vào phòng cấp cứu."
+      "en": "emergency room",
+      "vi": "phòng cấp cứu",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "emergency room",
+          "sentence": "我們要進急診室。",
+          "pinyin": "wǒmen yàojìn jízhěnshì",
+          "en": "We're going to the emergency room.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "emergency room",
+          "sentence": "急診室裡/裏坐滿了人。",
+          "pinyin": "jízhěn shì lǐ zuò mǎnle rén.",
+          "en": "The emergency room is full of people.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 9,
       "chinese": "骨折",
       "pinyin": "gǔzhé",
-      "english": "to fracture a bone",
-      "sentenceChinese": "醫生說他的手只是骨折，不算太嚴重。",
-      "sentencePinyin": "Yīshēng shuō tā de shǒu zhǐshì gǔzhé, bú suàn tài yánzhòng.",
-      "sentenceEnglish": "The doctor said his hand was only fractured and that it was not too serious.",
-      "vietnamese": "gãy xương",
-      "sentenceVietnamese": "Bác sĩ nói tay anh ấy chỉ bị gãy xương thôi, không quá nghiêm trọng."
+      "en": "to fracture a bone",
+      "vi": "gãy xương",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "suffer a fracture; break (of a bone)",
+          "sentence": "她的腿骨摺了。",
+          "pinyin": "tā de tuǐ gǔzhéle.",
+          "en": "Her leg is fractured.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "suffer a fracture; break (of a bone)",
+          "sentence": "她不小心摔骨摺了。",
+          "pinyin": "tā bù xiǎoxīn shuāi gǔzhéle.",
+          "en": "She accidentally fell and broke a bone.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 10,
       "chinese": "片子",
       "pinyin": "piànzi",
-      "english": "film; X-ray image",
-      "sentenceChinese": "醫生先看了片子才決定怎麼治療。",
-      "sentencePinyin": "Yīshēng xiān kàn le piànzi cái juédìng zěnme zhìliáo.",
-      "sentenceEnglish": "The doctor first looked at the X-ray film before deciding how to treat him.",
-      "vietnamese": "phim chụp; phim X-quang",
-      "sentenceVietnamese": "Bác sĩ xem phim chụp trước rồi mới quyết định điều trị thế nào."
+      "en": "film; X-ray image",
+      "vi": "phim chụp; phim X-quang",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "X-ray image; negative of a roentgenogram",
+          "sentence": "醫院已經處理好片子了。",
+          "pinyin": "Yī yuàn yǐjīng chǔ lǐ hǎo piānzi le.",
+          "en": "The hospital has processed the film.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "X-ray image; negative of a roentgenogram",
+          "sentence": "看片子需要專業的醫生。",
+          "pinyin": "Kàn piānzi xū yào zhuānyè de yī shēng.",
+          "en": "Watching the film requires a professional doctor.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 11,
       "chinese": "開刀",
       "pinyin": "kāidāo",
-      "english": "to have surgery",
-      "sentenceChinese": "醫生說他明天可能要開刀。",
-      "sentencePinyin": "Yīshēng shuō tā míngtiān kěnéng yào kāidāo.",
-      "sentenceEnglish": "The doctor said he might need surgery tomorrow.",
-      "vietnamese": "mổ",
-      "sentenceVietnamese": "Bác sĩ nói ngày mai anh ấy có thể phải mổ."
+      "en": "to have surgery",
+      "vi": "mổ",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "behead; decapitate",
+          "sentence": "開刀問斬",
+          "pinyin": "kāidāo wèn zhǎn",
+          "en": "Execute by decapitation",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "perform (or have) an operation; operate or be operated on",
+          "sentence": "給病人開刀。",
+          "pinyin": "gěi bìngrén kāidāo",
+          "en": "Operate on a patient",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 12,
       "chinese": "病人",
       "pinyin": "bìngrén",
-      "english": "patient",
-      "sentenceChinese": "這位病人今天下午可以出院。",
-      "sentencePinyin": "Zhè wèi bìngrén jīntiān xiàwǔ kěyǐ chūyuàn.",
-      "sentenceEnglish": "This patient can be discharged this afternoon.",
-      "vietnamese": "bệnh nhân",
-      "sentenceVietnamese": "Bệnh nhân này chiều nay có thể xuất viện."
+      "en": "patient",
+      "vi": "bệnh nhân",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "patient; invalid",
+          "sentence": "醫生説這位病人已經完全康復。",
+          "pinyin": "yīshēng shuō zhè wèi bìngrén yǐjīng wánquán kāngfù.",
+          "en": "The doctor reported the patient fully recovered.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "patient; invalid",
+          "sentence": "我們很多病人都有失禁現象。",
+          "pinyin": "wǒmen hěnduō bìngrén dōu yǒu shījìn xiànxiàng.",
+          "en": "Many of our patients are incontinent.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 13,
       "chinese": "情況",
       "pinyin": "qíngkuàng",
-      "english": "situation; condition",
-      "sentenceChinese": "目前他的情況已經穩定多了。",
-      "sentencePinyin": "Mùqián tā de qíngkuàng yǐjīng wěndìng duō le.",
-      "sentenceEnglish": "His condition is much more stable now.",
-      "vietnamese": "tình hình; tình trạng",
-      "sentenceVietnamese": "Tình trạng của anh ấy bây giờ đã ổn định hơn nhiều."
+      "en": "situation; condition",
+      "vi": "tình hình; tình trạng",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "condition; situation; circumstances; state of affairs",
+          "sentence": "醫生檢查了病人的情況。",
+          "pinyin": "yīshēng jiǎnchále bìngrén de qíngkuàng.",
+          "en": "The doctor examined the patient’s condition",
+          "vi": "Bác sĩ đã kiểm tra tình trạng của bệnh nhân."
+        },
+        {
+          "type": "Noun",
+          "meaning": "condition; situation; circumstances; state of affairs",
+          "sentence": "現在的政治情況很復雜。",
+          "pinyin": "xiànzài de zhèngzhì qíngkuàng hěn fùzá.",
+          "en": "The current political situation is very complicated.",
+          "vi": "Tình hình chính trị hiện nay rất phức tạp."
+        }
+      ]
     },
     {
       "id": 14,
       "chinese": "緊急",
       "pinyin": "jǐnjí",
-      "english": "urgent; emergency",
-      "sentenceChinese": "這是很緊急的情況，不能再等了。",
-      "sentencePinyin": "Zhè shì hěn jǐnjí de qíngkuàng, bùnéng zài děng le.",
-      "sentenceEnglish": "This is an emergency situation and we can't wait any longer.",
-      "vietnamese": "khẩn cấp",
-      "sentenceVietnamese": "Đây là tình huống rất khẩn cấp, không thể đợi thêm nữa."
+      "en": "urgent; emergency",
+      "vi": "khẩn cấp",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "urgent; pressing; critical",
+          "sentence": "他接到了一個緊急電話。",
+          "pinyin": "tā jiē dàole yī gè jǐnjí diànhuà.",
+          "en": "He received an urgent call.",
+          "vi": "Anh nhận được một cuộc gọi khẩn cấp."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "urgent; pressing; critical",
+          "sentence": "這種情況得緊急處理。",
+          "pinyin": "zhè zhǒng qíngkuàng děi jǐnjí chǔlǐ.",
+          "en": "This condition requires urgent treatment.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 15,
       "chinese": "病床",
       "pinyin": "bìngchuáng",
-      "english": "hospital bed",
-      "sentenceChinese": "病人現在躺在病床上休息。",
-      "sentencePinyin": "Bìngrén xiànzài tǎng zài bìngchuáng shàng xiūxi.",
-      "sentenceEnglish": "The patient is resting in a hospital bed now.",
-      "vietnamese": "giường bệnh",
-      "sentenceVietnamese": "Bệnh nhân hiện đang nằm nghỉ trên giường bệnh."
+      "en": "hospital bed",
+      "vi": "giường bệnh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hospital bed",
+          "sentence": "這所醫院有三百張病床/牀。",
+          "pinyin": "zhè suǒ yīyuàn yǒu sān bǎi zhāng bìngchuáng.",
+          "en": "The hospital has three hundred beds.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hospital bed",
+          "sentence": "他昏迷不醒地躺在病床/牀上。",
+          "pinyin": "tā hūnmí bù xǐng de tǎng zài bìngchuáng shàng.",
+          "en": "He lay in a coma on the hospital bed.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 16,
       "chinese": "要命",
       "pinyin": "yàomìng",
-      "english": "terrible; unbearable",
-      "sentenceChinese": "他昨天晚上頭痛得要命。",
-      "sentencePinyin": "Tā zuótiān wǎnshang tóutòng de yàomìng.",
-      "sentenceEnglish": "His headache was unbearable last night.",
-      "vietnamese": "khủng khiếp; đến chết đi được",
-      "sentenceVietnamese": "Tối qua anh ấy đau đầu khủng khiếp."
+      "en": "terrible; unbearable",
+      "vi": "khủng khiếp; đến chết đi được",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "kill; drive sb. to his death",
+          "sentence": "吃/喫這種有毒的蘑菇會要命。",
+          "pinyin": "chī zhè zhǒng yǒudú de mógū huì yàomìng.",
+          "en": "Eating this poisonous mushroom could be fatal.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "kill; drive sb. to his death",
+          "sentence": "他因吸毒過量而要命。",
+          "pinyin": "tā yīn xīdú guòliàng ér yàomìng.",
+          "en": "He nearly died from a drug overdose.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 17,
       "chinese": "打針",
       "pinyin": "dǎzhēn",
-      "english": "to get an injection",
-      "sentenceChinese": "小孩最怕打針了。",
-      "sentencePinyin": "Xiǎohái zuì pà dǎzhēn le.",
-      "sentenceEnglish": "Children are most afraid of getting shots.",
-      "vietnamese": "tiêm",
-      "sentenceVietnamese": "Trẻ con sợ bị tiêm nhất."
+      "en": "to get an injection",
+      "vi": "tiêm",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "give or have an injection",
+          "sentence": "我今天要去打針。",
+          "pinyin": "wǒ jīntiān yào qù dǎzhēn.",
+          "en": "I am going to get an injection today.",
+          "vi": ""
+        },
+        {
+          "type": "sv",
+          "meaning": "give or have an injection",
+          "sentence": "打針後要註意休息。",
+          "pinyin": "dǎzhēn hòu yào zhùyì xiūxi.",
+          "en": "You should rest after getting an injection.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 18,
       "chinese": "止痛",
       "pinyin": "zhǐtòng",
-      "english": "to relieve pain",
-      "sentenceChinese": "醫生先幫他打針止痛。",
-      "sentencePinyin": "Yīshēng xiān bāng tā dǎzhēn zhǐtòng.",
-      "sentenceEnglish": "The doctor first gave him an injection to relieve the pain.",
-      "vietnamese": "giảm đau",
-      "sentenceVietnamese": "Bác sĩ tiêm cho anh ấy trước để giảm đau."
+      "en": "to relieve pain",
+      "vi": "giảm đau",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "relieve (or stop) pain",
+          "sentence": "醫生給我止痛藥兩片。",
+          "pinyin": "Yīshēng gěi wǒ zhǐ tòng yào liǎng piàn.",
+          "en": "The doctor gave me two painkillers.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "analgesic",
+          "sentence": "是止痛髮/發熱橡膠貼。",
+          "pinyin": "shì zhǐtòng fārè xiàngxiáo tiē",
+          "en": "It's analgesic heat rub.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 19,
       "chinese": "手術",
       "pinyin": "shǒushù",
-      "english": "surgery; operation",
-      "sentenceChinese": "手術很成功，你不用太擔心。",
-      "sentencePinyin": "Shǒushù hěn chénggōng, nǐ bùyòng tài dānxīn.",
-      "sentenceEnglish": "The surgery was very successful, so you don't need to worry too much.",
-      "vietnamese": "phẫu thuật",
-      "sentenceVietnamese": "Ca phẫu thuật rất thành công, bạn không cần lo lắng quá."
+      "en": "surgery; operation",
+      "vi": "phẫu thuật",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "surgery; (surgical) operation",
+          "sentence": "他需要進行手術。",
+          "pinyin": "tā xūyào jìnxíng shǒushù.",
+          "en": "He needs to undergo surgery.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "surgery; (surgical) operation",
+          "sentence": "這是一項復雜的手術。",
+          "pinyin": "zhè shì yī xiàng fùzá de shǒushù.",
+          "en": "This is a complicated operation.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "perform surgery",
+          "sentence": "醫生正在手術病人。",
+          "pinyin": "yīshēng zhèngzài shǒushù bìngrén.",
+          "en": "The doctor is performing surgery on the patient.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "perform surgery",
+          "sentence": "醫生將在明天為他手術。",
+          "pinyin": "yīshēng jiàng zài míngtiān wèi tā shǒushù.",
+          "en": "The doctor will perform surgery on him tomorrow.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 20,
       "chinese": "警察",
       "pinyin": "jǐngchá",
-      "english": "police",
-      "sentenceChinese": "警察很快就到現場了。",
-      "sentencePinyin": "Jǐngchá hěn kuài jiù dào xiànchǎng le.",
-      "sentenceEnglish": "The police arrived at the scene very quickly.",
-      "vietnamese": "cảnh sát",
-      "sentenceVietnamese": "Cảnh sát đã đến hiện trường rất nhanh."
+      "en": "police",
+      "vi": "cảnh sát",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "police; policeman; police officer",
+          "sentence": "他想成為一名警察。",
+          "pinyin": "tā xiǎng chéngwéi yī míng jǐngchá.",
+          "en": "He wants to be a police officer.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "police; policeman; police officer",
+          "sentence": "警察會保護市民安全。",
+          "pinyin": "jǐngchá huì bǎohù shìmín ānquán.",
+          "en": "The police will protect citizens' safety.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 21,
       "chinese": "危險",
       "pinyin": "wéixiǎn",
-      "english": "dangerous; danger",
-      "sentenceChinese": "這條路晚上開車很危險。",
-      "sentencePinyin": "Zhè tiáo lù wǎnshang kāichē hěn wéixiǎn.",
-      "sentenceEnglish": "It is dangerous to drive on this road at night.",
-      "vietnamese": "nguy hiểm",
-      "sentenceVietnamese": "Lái xe trên con đường này vào ban đêm rất nguy hiểm."
+      "en": "dangerous; danger",
+      "vi": "nguy hiểm",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "peril; dangerous",
+          "sentence": "這條路非常危險。",
+          "pinyin": "zhè tiáo lù fēicháng wéixiǎn.",
+          "en": "This road is very dangerous.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "peril; dangerous",
+          "sentence": "他做了一個危險的決定。",
+          "pinyin": "tā zuòle yīgè wéixiǎn de juédìng.",
+          "en": "He made a dangerous decision.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 22,
       "chinese": "至於",
       "pinyin": "zhìyú",
-      "english": "as for; regarding",
-      "sentenceChinese": "至於什麼時候出院，還要看恢復情況。",
-      "sentencePinyin": "Zhìyú shénme shíhou chūyuàn, hái yào kàn huīfù qíngkuàng.",
-      "sentenceEnglish": "As for when he can leave the hospital, it still depends on his recovery.",
-      "vietnamese": "còn về; còn như",
-      "sentenceVietnamese": "Còn về khi nào xuất viện thì vẫn phải xem tình hình hồi phục."
+      "en": "as for; regarding",
+      "vi": "còn về; còn như",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "as for; to the extent that",
+          "sentence": "你至於生那麼大的氣嗎？",
+          "pinyin": "nǐ zhìyú shēng nàme dà de qì ma?",
+          "en": "Are you really that angry?",
+          "vi": "Cậu tức giận đến nỗi vậy luôn à?"
+        },
+        {
+          "type": "Verb",
+          "meaning": "as for; to the extent that",
+          "sentence": "哪兒至於那麼貴呢？",
+          "pinyin": "nǎr zhìyú nàme guì ne?",
+          "en": "Where is it so expensive?",
+          "vi": "Chỗ nào mà lại đắt tới mức đó chứ?"
+        },
+        {
+          "type": "Preposition",
+          "meaning": "regarding; as for",
+          "sentence": "至於他的計劃，我不太了解。",
+          "pinyin": "zhìyú tā de jìhuà, wǒ bù tài liǎojiě.",
+          "en": "As for his plan, I don't know much.",
+          "vi": ""
+        },
+        {
+          "type": "Preposition",
+          "meaning": "regarding; as for",
+          "sentence": "至於這個問題，我沒有答案。",
+          "pinyin": "zhìyú zhège wèntí, wǒ méiyǒu dá'àn.",
+          "en": "Regarding this question, I have no answer.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 23,
       "chinese": "部位",
       "pinyin": "bùwèi",
-      "english": "part; location (of the body)",
-      "sentenceChinese": "受傷的部位還有點腫。",
-      "sentencePinyin": "Shòushāng de bùwèi hái yǒudiǎn zhǒng.",
-      "sentenceEnglish": "The injured area is still a little swollen.",
-      "vietnamese": "bộ phận; vị trí",
-      "sentenceVietnamese": "Vị trí bị thương vẫn còn hơi sưng."
+      "en": "part; location (of the body)",
+      "vi": "bộ phận; vị trí",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "place; position",
+          "sentence": "她的腰部位有點疼。",
+          "pinyin": "tā de yāobù wèi yǒudiǎn téng.",
+          "en": "Her waist hurts a little.",
+          "vi": "Vị trí lưng của cô ấy hơi đau."
+        },
+        {
+          "type": "Noun",
+          "meaning": "place; position",
+          "sentence": "這部位需要特別小心。",
+          "pinyin": "zhè bùwèi xūyào tèbié xiǎoxīn.",
+          "en": "This part needs special care.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 24,
       "chinese": "恢復",
       "pinyin": "huīfù",
-      "english": "to recover",
-      "sentenceChinese": "他的傷口恢復得很快。",
-      "sentencePinyin": "Tā de shāngkǒu huīfù de hěn kuài.",
-      "sentenceEnglish": "His wound is healing very quickly.",
-      "vietnamese": "hồi phục",
-      "sentenceVietnamese": "Vết thương của anh ấy hồi phục rất nhanh."
+      "en": "to recover",
+      "vi": "hồi phục",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "resume; renew; return to",
+          "sentence": "你的身體還沒有完全恢復。",
+          "pinyin": "nǐ de shēntǐ hái méiyǒu wánquán huīfù.",
+          "en": "Your body has not fully recovered.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "resume; renew; return to",
+          "sentence": "這個工廠又恢復了産生。",
+          "pinyin": "zhège gōngchǎng yòu huīfùle chǎnshēng.",
+          "en": "This factory has resumed production.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 25,
       "chinese": "傷口",
       "pinyin": "shāngkǒu",
-      "english": "wound",
-      "sentenceChinese": "記得不要碰到傷口。",
-      "sentencePinyin": "Jìde bú yào pèng dào shāngkǒu.",
-      "sentenceEnglish": "Remember not to touch the wound.",
-      "vietnamese": "vết thương",
-      "sentenceVietnamese": "Nhớ đừng đụng vào vết thương."
+      "en": "wound",
+      "vi": "vết thương",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "cut; wound",
+          "sentence": "傷口仍在流血。",
+          "pinyin": "shāngkǒu réng zài liúxiě.",
+          "en": "The wound is still bleeding.",
+          "vi": "Vết thương vẫn đang chảy máu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "cut; wound",
+          "sentence": "你不要碰傷口。",
+          "pinyin": "nǐ bùyào pèng shāngkǒu.",
+          "en": "Don't touch the wound.",
+          "vi": "Bạn đừng chạm vào vết thương."
+        }
+      ]
     },
     {
       "id": 26,
       "chinese": "哎呀",
       "pinyin": "āiyā",
-      "english": "oh no; yikes",
-      "sentenceChinese": "哎呀，我忘了帶健保卡。",
-      "sentencePinyin": "Āiyā, wǒ wàng le dài jiànbǎokǎ.",
-      "sentenceEnglish": "Oh no, I forgot to bring my health insurance card.",
-      "vietnamese": "ôi chao; ôi",
-      "sentenceVietnamese": "Ôi chao, tôi quên mang thẻ bảo hiểm y tế rồi."
+      "en": "oh no; yikes",
+      "vi": "ôi chao; ôi",
+      "samples": [
+        {
+          "type": "intj",
+          "meaning": "expressing suprise or amazement",
+          "sentence": "哎呀，這張畫怎麼弄髒了？",
+          "pinyin": "āi yā, zhè zhāng huà zěn me nòng zāng le?",
+          "en": "Oh my! The picture's got dirty!",
+          "vi": ""
+        },
+        {
+          "type": "intj",
+          "meaning": "expressing suprise or amazement",
+          "sentence": "哎呀，這種水果真甜哪！",
+          "pinyin": "āi yā, zhè zhǒng shuǐ guǒ zhēn tián nǎ!",
+          "en": "Ah, this fruit is really sweet!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 27,
       "chinese": "出車禍",
       "pinyin": "chū chēhuò",
-      "english": "to be in a car accident",
-      "sentenceChinese": "他上班的路上出了車禍。",
-      "sentencePinyin": "Tā shàngbān de lùshang chū le chēhuò.",
-      "sentenceEnglish": "He got into a car accident on the way to work.",
-      "vietnamese": "bị tai nạn xe",
-      "sentenceVietnamese": "Anh ấy bị tai nạn xe trên đường đi làm."
+      "en": "to be in a car accident",
+      "vi": "bị tai nạn xe",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "taxi; taxicab; rental car",
+          "sentence": "我想叫輛齣租車。",
+          "pinyin": "wǒ xiǎng jiào liàng chūzū chē.",
+          "en": "I want to call a taxi.",
+          "vi": "Tôi muốn gọi một chiếc taxi."
+        },
+        {
+          "type": "Noun",
+          "meaning": "taxi; taxicab; rental car",
+          "sentence": "我坐齣租車去學校。",
+          "pinyin": "wǒ zuò chūzū chē qù xuéxiào.",
+          "en": "I take a taxi to school.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 28,
       "chinese": "趕時間",
       "pinyin": "gǎn shíjiān",
-      "english": "to be in a hurry",
-      "sentenceChinese": "因為趕時間，他開得太快了。",
-      "sentencePinyin": "Yīnwèi gǎn shíjiān, tā kāi de tài kuài le.",
-      "sentenceEnglish": "Because he was in a hurry, he drove too fast.",
-      "vietnamese": "vội giờ; gấp gáp thời gian",
-      "sentenceVietnamese": "Vì vội giờ nên anh ấy lái quá nhanh."
+      "en": "to be in a hurry",
+      "vi": "vội giờ; gấp gáp thời gian",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "time",
+          "sentence": "我們要珍惜時間。",
+          "pinyin": "wǒmen yào zhēnxī shíjiān.",
+          "en": "We must cherish our time.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "time",
+          "sentence": "對我來説，時間就是金錢。",
+          "pinyin": "duì wǒ lái shuō, shíjiān jiùshì jīnqián.",
+          "en": "To me, time is money.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 29,
       "chinese": "撞倒",
       "pinyin": "zhuàngdǎo",
-      "english": "to knock over; to knock down",
-      "sentenceChinese": "那台車把騎腳踏車的人撞倒了。",
-      "sentencePinyin": "Nà tái chē bǎ qí jiǎotàchē de rén zhuàngdǎo le.",
-      "sentenceEnglish": "That car knocked over the person riding the bicycle.",
-      "vietnamese": "tông ngã",
-      "sentenceVietnamese": "Chiếc xe đó đã tông ngã người đi xe đạp."
+      "en": "to knock over; to knock down",
+      "vi": "tông ngã",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to run over; to knock down; to knock over",
+          "sentence": "我不小心撞倒了花瓶。",
+          "pinyin": "wǒ bù xiǎoxīn zhuàng dǎo le huāpíng.",
+          "en": "I accidentally knocked over the vase.",
+          "vi": "Tôi vô tình làm đổ cái lọ hoa"
+        },
+        {
+          "type": "Verb",
+          "meaning": "to run over; to knock down; to knock over",
+          "sentence": "我差點撞倒了那棵樹。",
+          "pinyin": "wǒ chàdiǎn zhuàng dǎo le nà kē shù.",
+          "en": "I almost knocked down that tree.",
+          "vi": "Tôi suýt đâm vào cây đó."
+        }
+      ]
     },
     {
       "id": 30,
       "chinese": "救護車",
       "pinyin": "jiùhùchē",
-      "english": "ambulance",
-      "sentenceChinese": "救護車五分鐘後就到了。",
-      "sentencePinyin": "Jiùhùchē wǔ fēnzhōng hòu jiù dào le.",
-      "sentenceEnglish": "The ambulance arrived five minutes later.",
-      "vietnamese": "xe cứu thương",
-      "sentenceVietnamese": "Xe cứu thương đến sau năm phút."
+      "en": "ambulance",
+      "vi": "xe cứu thương",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "ambulance",
+          "sentence": "他需要救護車。",
+          "pinyin": "tā xūyào jiùhù chē.",
+          "en": "He needs an ambulance.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "ambulance",
+          "sentence": "救護車很快到達。",
+          "pinyin": "jiùhù chē hěn kuài dàodá.",
+          "en": "The ambulance arrived quickly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 31,
       "chinese": "照X光",
       "pinyin": "zhào X guāng",
-      "english": "to take an X-ray",
-      "sentenceChinese": "醫生要我先去照X光。",
-      "sentencePinyin": "Yīshēng yào wǒ xiān qù zhào X guāng.",
-      "sentenceEnglish": "The doctor wants me to go get an X-ray first.",
-      "vietnamese": "chụp X-quang",
-      "sentenceVietnamese": "Bác sĩ bảo tôi đi chụp X-quang trước."
+      "en": "to take an X-ray",
+      "vi": "chụp X-quang",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "shine; light up; illuminate",
+          "sentence": "陽光正照著大地。",
+          "pinyin": "yángguāng zhèngzhàozhe dàdì.",
+          "en": "The sunlight is shining on the earth.",
+          "vi": "Ánh nắng đang chiếu sáng mặt đất."
+        },
+        {
+          "type": "Verb",
+          "meaning": "shine; light up; illuminate",
+          "sentence": "太陽照著美麗花園。",
+          "pinyin": "tàiyáng zhàozhe měilì huāyuán.",
+          "en": "The sun is shining on the beautiful garden.",
+          "vi": "Mặt trời chiếu sáng khu vườn xinh đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "picture; photograph",
+          "sentence": "這是他拍的照片。",
+          "pinyin": "zhè shì tā pāi de zhàopiàn.",
+          "en": "This is the photo he took.",
+          "vi": "Đây là tấm hình anh ấy chụp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "picture; photograph",
+          "sentence": "請給我看你的近照。",
+          "pinyin": "qǐng gěi wǒ kàn nǐ de jìn zhào.",
+          "en": "Please show me your recent photo.",
+          "vi": "Xin hãy cho tôi xem ảnh gần đây của bạn."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "towards; in the direction of",
+          "sentence": "照臉上一拳打過去。",
+          "pinyin": "zhào liǎn shàng yī quán dǎ guòqù.",
+          "en": "He punched straight at the face.",
+          "vi": "Nhắm vào mặt mà đấm một cú."
+        },
+        {
+          "type": "Preposition",
+          "meaning": "towards; in the direction of",
+          "sentence": "照預定目標前進。",
+          "pinyin": "zhào yùdìng mùbiāo qiánjìn.",
+          "en": "Advance according to the set goal.",
+          "vi": "Nhằm theo mục tiêu đã định."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "follow; according to",
+          "sentence": "我們照原計劃走。",
+          "pinyin": "wǒmen zhào yuán jìhuà zǒu.",
+          "en": "We will follow the original plan.",
+          "vi": "Chúng tôi đi theo kế hoạch ban đầu."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "follow; according to",
+          "sentence": "請照説明書操作。",
+          "pinyin": "qǐng zhào shuōmíngshū cāozuò.",
+          "en": "Please operate according to the manual.",
+          "vi": "Xin hãy thao tác theo hướng dẫn sử dụng."
+        }
+      ]
     },
     {
       "id": 32,
       "chinese": "動手術",
       "pinyin": "dòng shǒushù",
-      "english": "to undergo surgery",
-      "sentenceChinese": "如果恢復得不好，就得動手術。",
-      "sentencePinyin": "Rúguǒ huīfù de bù hǎo, jiù děi dòng shǒushù.",
-      "sentenceEnglish": "If the recovery does not go well, surgery will be necessary.",
-      "vietnamese": "phải phẫu thuật",
-      "sentenceVietnamese": "Nếu hồi phục không tốt thì sẽ phải phẫu thuật."
+      "en": "to undergo surgery",
+      "vi": "phải phẫu thuật",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "(of a surgeon) perform an operation; operate on",
+          "sentence": "明天醫生要為我動手術。",
+          "pinyin": "Míngtiān yīshēng yào wèi wǒ dòng shǒushù.",
+          "en": "The doctor will perform surgery on me tomorrow.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "(of a patient) have an operation; be operated on; have surgery",
+          "sentence": "明天早上我要動手術。",
+          "pinyin": "Míngtiān zǎoshang wǒ yào dòng shǒushù.",
+          "en": "I'm going to have surgery tomorrow morning.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 33,
       "chinese": "醫美",
       "pinyin": "yīměi",
-      "english": "cosmetic medicine",
-      "sentenceChinese": "現在很多外國人來台灣做醫美。",
-      "sentencePinyin": "Xiànzài hěn duō wàiguórén lái Táiwān zuò yīměi.",
-      "sentenceEnglish": "Nowadays many foreigners come to Taiwan for cosmetic procedures.",
-      "vietnamese": "thẩm mỹ y khoa",
-      "sentenceVietnamese": "Bây giờ có rất nhiều người nước ngoài đến Đài Loan làm thẩm mỹ y khoa."
+      "en": "cosmetic medicine",
+      "vi": "thẩm mỹ y khoa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "hospital",
+          "sentence": "我得去醫院看病。",
+          "pinyin": "wǒ děi qù yīyuàn kànbìng.",
+          "en": "I had to go to the hospital.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "hospital",
+          "sentence": "醫院離這兒不遠。",
+          "pinyin": "yīyuàn lí zhèr bù yuǎn.",
+          "en": "The hospital is not far away from here.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 34,
       "chinese": "合理",
       "pinyin": "hélǐ",
-      "english": "reasonable",
-      "sentenceChinese": "這樣的價格算很合理。",
-      "sentencePinyin": "Zhèyàng de jiàgé suàn hěn hélǐ.",
-      "sentenceEnglish": "A price like this is quite reasonable.",
-      "vietnamese": "hợp lý",
-      "sentenceVietnamese": "Mức giá như vậy được xem là khá hợp lý."
+      "en": "reasonable",
+      "vi": "hợp lý",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "rational; reasonable; equitable",
+          "sentence": "他説的話很閤理。",
+          "pinyin": "tā shuō de huà hěn hélǐ.",
+          "en": "What he says is very reasonable.",
+          "vi": "Anh ấy nói rất hợp lý."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "rational; reasonable; equitable",
+          "sentence": "這個計劃非常閤理。",
+          "pinyin": "zhège jìhuà fēicháng hélǐ.",
+          "en": "This plan is very reasonable.",
+          "vi": "Kế hoạch này rất hợp lý."
+        }
+      ]
     },
     {
       "id": 35,
       "chinese": "休假",
       "pinyin": "xiūjià",
-      "english": "to take time off; vacation",
-      "sentenceChinese": "她趁休假來台灣做醫美手術。",
-      "sentencePinyin": "Tā chèn xiūjià lái Táiwān zuò yīměi shǒushù.",
-      "sentenceEnglish": "She took advantage of her vacation to come to Taiwan for cosmetic surgery.",
-      "vietnamese": "nghỉ phép",
-      "sentenceVietnamese": "Cô ấy tranh thủ lúc nghỉ phép để đến Đài Loan làm phẫu thuật thẩm mỹ."
+      "en": "to take time off; vacation",
+      "vi": "nghỉ phép",
+      "samples": [
+        {
+          "type": "sv",
+          "meaning": "have a holiday; take a vacation; go on a vacation",
+          "sentence": "我計劃下個月休假。",
+          "pinyin": "wǒ jìhuà xià gè yuè xiūjià.",
+          "en": "I plan to take a vacation next month.",
+          "vi": "Tôi dự định nghỉ phép vào tháng tới."
+        },
+        {
+          "type": "sv",
+          "meaning": "have a holiday; take a vacation; go on a vacation",
+          "sentence": "她剛結束了她的休假。",
+          "pinyin": "tā gāng jiéshùle tā de xiūjià.",
+          "en": "She just finished her vacation.",
+          "vi": "Cô ấy vừa kết thúc kỳ nghỉ phép của mình."
+        }
+      ]
     },
     {
       "id": 36,
       "chinese": "迷人",
       "pinyin": "mírén",
-      "english": "attractive; charming",
-      "sentenceChinese": "她希望手術後看起來更迷人。",
-      "sentencePinyin": "Tā xīwàng shǒushù hòu kàn qǐlái gèng mírén.",
-      "sentenceEnglish": "She hopes to look more attractive after the procedure.",
-      "vietnamese": "cuốn hút; quyến rũ",
-      "sentenceVietnamese": "Cô ấy hy vọng sau phẫu thuật trông mình sẽ cuốn hút hơn."
+      "en": "attractive; charming",
+      "vi": "cuốn hút; quyến rũ",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "charming; fascinating; enchanting; bewitching",
+          "sentence": "她的笑容非常迷人。",
+          "pinyin": "tā de xiàoróng fēicháng mírén.",
+          "en": "Her smile is very charming.",
+          "vi": "Nụ cười của cô ấy rất quyến rũ."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "charming; fascinating; enchanting; bewitching",
+          "sentence": "這個城市的夜景迷人。",
+          "pinyin": "zhège chéngshì de yèjǐng mírén.",
+          "en": "The night view of this city is captivating.",
+          "vi": "Cảnh đêm của thành phố này rất hấp dẫn."
+        },
+        {
+          "type": "Verb",
+          "meaning": "confuse; puzzle; mislead",
+          "sentence": "他們的計策迷人耳目。",
+          "pinyin": "tāmen de jìcè mírén ěrmù.",
+          "en": "Their strategy perplexes ordinary people.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "confuse; puzzle; mislead",
+          "sentence": "不要讓錶麵現象迷人耳目。",
+          "pinyin": "bùyào ràng biǎomiàn xiànxiàng mírén ěrmù.",
+          "en": "Don't let appearances mislead you.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 37,
       "chinese": "職場",
       "pinyin": "zhíchǎng",
-      "english": "workplace",
-      "sentenceChinese": "很多人覺得外表會影響職場競爭力。",
-      "sentencePinyin": "Hěn duō rén juéde wàibiǎo huì yǐngxiǎng zhíchǎng jìngzhēnglì.",
-      "sentenceEnglish": "Many people think appearance affects competitiveness in the workplace.",
-      "vietnamese": "môi trường công sở",
-      "sentenceVietnamese": "Nhiều người cho rằng ngoại hình sẽ ảnh hưởng đến sức cạnh tranh nơi công sở."
+      "en": "workplace",
+      "vi": "môi trường công sở",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "workplace; office space",
+          "sentence": "良好的職場關繫很重要。",
+          "pinyin": "liánghǎo de zhíchǎng guānxi hěn zhòngyào.",
+          "en": "Good workplace relationships are very important.",
+          "vi": "Mối quan hệ tốt ở nơi làm việc rất quan trọng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "workplace; office space",
+          "sentence": "職場中的競爭非常激烈。",
+          "pinyin": "zhíchǎng zhōng de jìngzhēng fēicháng jīliè.",
+          "en": "The competition in the workplace is very intense.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 38,
       "chinese": "競爭力",
       "pinyin": "jìngzhēnglì",
-      "english": "competitive edge",
-      "sentenceChinese": "語言能力也是一種競爭力。",
-      "sentencePinyin": "Yǔyán nénglì yě shì yì zhǒng jìngzhēnglì.",
-      "sentenceEnglish": "Language ability is also a kind of competitive edge.",
-      "vietnamese": "sức cạnh tranh",
-      "sentenceVietnamese": "Năng lực ngôn ngữ cũng là một loại sức cạnh tranh."
+      "en": "competitive edge",
+      "vi": "sức cạnh tranh",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "competitiveness; competitive strength",
+          "sentence": "公司必須提高它的競爭力。",
+          "pinyin": "gōngsī bìxū tígāo tā de jìngzhēng lì.",
+          "en": "The company must improve its competitiveness.",
+          "vi": "Công ty cần phải tăng cường sức cạnh tranh."
+        },
+        {
+          "type": "Noun",
+          "meaning": "competitiveness; competitive strength",
+          "sentence": "實體店也有自己的競爭力。",
+          "pinyin": "shítǐ diàn yěyǒu zìjǐ de jìngzhēng lì.",
+          "en": "Physical stores have their own competition.",
+          "vi": "Cửa hàng truyền thống vẫn có những lợi thế cạnh tranh riêng."
+        }
+      ]
     },
     {
       "id": 39,
       "chinese": "調查",
       "pinyin": "diàochá",
-      "english": "survey; investigation",
-      "sentenceChinese": "根據最新調查，很多人支持醫美。",
-      "sentencePinyin": "Gēnjù zuìxīn diàochá, hěn duō rén zhīchí yīměi.",
-      "sentenceEnglish": "According to the latest survey, many people support cosmetic medicine.",
-      "vietnamese": "khảo sát; điều tra",
-      "sentenceVietnamese": "Theo khảo sát mới nhất, rất nhiều người ủng hộ thẩm mỹ y khoa."
+      "en": "survey; investigation",
+      "vi": "khảo sát; điều tra",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "investigate; inquire into; look into",
+          "sentence": "他們正在調查問題。",
+          "pinyin": "tāmen zhèngzài diàochá wèntí.",
+          "en": "They are investigating the issue.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "investigate; inquire into; look into",
+          "sentence": "她負責調查這件事。",
+          "pinyin": "tā fùzé diàochá zhè jiàn shì.",
+          "en": "She is responsible for investigating this matter.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "survey; investigation",
+          "sentence": "這是一份關於學生的調查。",
+          "pinyin": "zhè shì yī fèn guānyú xuéshēng de diàochá.",
+          "en": "This is a survey about students.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "survey; investigation",
+          "sentence": "調查顯示，很多人喜歡旅遊。",
+          "pinyin": "diàochá xiǎnshì, hěnduō rén xǐhuan lǚyóu.",
+          "en": "The survey shows that many like traveling.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 40,
       "chinese": "整型",
       "pinyin": "zhěngxíng",
-      "english": "plastic surgery",
-      "sentenceChinese": "有些人整型是為了增加自信。",
-      "sentencePinyin": "Yǒuxiē rén zhěngxíng shì wèile zēngjiā zìxìn.",
-      "sentenceEnglish": "Some people get plastic surgery to increase their self-confidence.",
-      "vietnamese": "phẫu thuật thẩm mỹ",
-      "sentenceVietnamese": "Có người phẫu thuật thẩm mỹ để tăng thêm sự tự tin."
+      "en": "plastic surgery",
+      "vi": "phẫu thuật thẩm mỹ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(computing) integer",
+          "sentence": "整型行業在迅速地髮/發展。",
+          "pinyin": "zhěngxíng hángyè zài xùnsù de fāzhǎn.",
+          "en": "The plastic surgery industry is rapidly developing.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "(computing) integer",
+          "sentence": "她決定去做整型手術。",
+          "pinyin": "tā juédìng qù zuò zhěngxíng shǒushù.",
+          "en": "She decided to undergo cosmetic surgery.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 41,
       "chinese": "增加",
       "pinyin": "zēngjiā",
-      "english": "to increase",
-      "sentenceChinese": "這樣做可以增加自信。",
-      "sentencePinyin": "Zhèyàng zuò kěyǐ zēngjiā zìxìn.",
-      "sentenceEnglish": "Doing this can increase self-confidence.",
-      "vietnamese": "tăng thêm",
-      "sentenceVietnamese": "Làm như vậy có thể tăng thêm sự tự tin."
+      "en": "to increase",
+      "vi": "tăng thêm",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "add; raise; increase",
+          "sentence": "請增加一些細節。",
+          "pinyin": "qǐng zēngjiā yīxiē xìjié.",
+          "en": "Please add some details.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "add; raise; increase",
+          "sentence": "他希望增加收入。",
+          "pinyin": "tā xīwàng zēngjiā shōurù.",
+          "en": "He hopes to increase his income.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 42,
       "chinese": "自信",
       "pinyin": "zìxìn",
-      "english": "self-confidence",
-      "sentenceChinese": "她以前不太有自信。",
-      "sentencePinyin": "Tā yǐqián bú tài yǒu zìxìn.",
-      "sentenceEnglish": "She used to lack self-confidence.",
-      "vietnamese": "tự tin",
-      "sentenceVietnamese": "Trước đây cô ấy không được tự tin lắm."
+      "en": "self-confidence",
+      "vi": "tự tin",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "confident",
+          "sentence": "這次考試，他很自信。",
+          "pinyin": "zhè cì kǎoshì, tā hěn zìxìn.",
+          "en": "In this exam, he is very confident.",
+          "vi": "Trong kỳ thi này, anh ấy rất tự tin."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "confident",
+          "sentence": "他的衣著風格顯得十分自信。",
+          "pinyin": "tā de yīzhuó fēnggé xiǎndé shí fèn zìxìn.",
+          "en": "His clothing style looks very confident.",
+          "vi": "Anh ấy ăn mặc rất tự tin."
+        },
+        {
+          "type": "Verb",
+          "meaning": "believe in oneself",
+          "sentence": "她自信地走上舞臺。",
+          "pinyin": "tā zìxìn de zǒu shàng wǔtái.",
+          "en": "She confidently walks onto the stage.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "believe in oneself",
+          "sentence": "他自信地迴答了問題。",
+          "pinyin": "tā zìxìn de huídále wèntí.",
+          "en": "He answered the question confidently.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "self-confidence",
+          "sentence": "她的自信讓人欽佩。",
+          "pinyin": "tā de zìxìn ràng rén qīnpèi.",
+          "en": "Her confidence is admirable.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "self-confidence",
+          "sentence": "自信是成功的關鍵。",
+          "pinyin": "zìxìn shì chénggōng de guānjiàn.",
+          "en": "Confidence is the key to success.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 43,
       "chinese": "外表",
       "pinyin": "wàibiǎo",
-      "english": "appearance",
-      "sentenceChinese": "有些人很在意自己的外表。",
-      "sentencePinyin": "Yǒuxiē rén hěn zàiyì zìjǐ de wàibiǎo.",
-      "sentenceEnglish": "Some people care a lot about their appearance.",
-      "vietnamese": "ngoại hình",
-      "sentenceVietnamese": "Có người rất để ý đến ngoại hình của mình."
+      "en": "appearance",
+      "vi": "ngoại hình",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "(outward) exterior; surface; appearance",
+          "sentence": "這個房子的外錶非常漂亮。",
+          "pinyin": "zhège fángzi de wàibiǎo fēicháng piàoliang.",
+          "en": "The appearance of this house is very beautiful.",
+          "vi": "Diện mạo của ngôi nhà này rất đẹp."
+        },
+        {
+          "type": "Noun",
+          "meaning": "(outward) exterior; surface; appearance",
+          "sentence": "這個手機的外錶很時尚。",
+          "pinyin": "zhège shǒujī de wàibiǎo hěn shíshàng.",
+          "en": "The appearance of this phone is very stylish.",
+          "vi": "Bên ngoài của chiếc điện thoại này rất thời trang."
+        }
+      ]
     },
     {
       "id": 44,
       "chinese": "普通",
       "pinyin": "pǔtōng",
-      "english": "ordinary; average",
-      "sentenceChinese": "他覺得自己的長相很普通。",
-      "sentencePinyin": "Tā juéde zìjǐ de zhǎngxiàng hěn pǔtōng.",
-      "sentenceEnglish": "He thinks his looks are very ordinary.",
-      "vietnamese": "bình thường",
-      "sentenceVietnamese": "Anh ấy cảm thấy ngoại hình của mình rất bình thường."
+      "en": "ordinary; average",
+      "vi": "bình thường",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "ordinary; common; general; average",
+          "sentence": "這是兩所普通的房子。",
+          "pinyin": "zhè shì liǎng suǒ pǔtōng de fángzi.",
+          "en": "These are just two ordinary houses.",
+          "vi": "Đây là hai ngôi nhà bình thường."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "ordinary; common; general; average",
+          "sentence": "我們都是普通人。",
+          "pinyin": "wǒmen dōu shì pǔtōng rén.",
+          "en": "We are all ordinary people.",
+          "vi": "Chúng ta đều là những người bình thường."
+        }
+      ]
     },
     {
       "id": 45,
       "chinese": "從事",
       "pinyin": "cóngshì",
-      "english": "to engage in; to work in",
-      "sentenceChinese": "她從事醫美工作很多年了。",
-      "sentencePinyin": "Tā cóngshì yīměi gōngzuò hěn duō nián le.",
-      "sentenceEnglish": "She has worked in cosmetic medicine for many years.",
-      "vietnamese": "làm; theo đuổi nghề",
-      "sentenceVietnamese": "Cô ấy làm trong ngành thẩm mỹ y khoa nhiều năm rồi."
+      "en": "to engage in; to work in",
+      "vi": "làm; theo đuổi nghề",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "work; undertake; go in for; be engaged in",
+          "sentence": "她從事醫學研究工作。",
+          "pinyin": "tā cóngshì yīxué yán jiū gōngzuò.",
+          "en": "She works in medical research.",
+          "vi": "Cô ấy làm việc trong nghiên cứu y học."
+        },
+        {
+          "type": "Verb",
+          "meaning": "work; undertake; go in for; be engaged in",
+          "sentence": "他從事藝術創作多年。",
+          "pinyin": "tā cóngshì yìshù chuàngzuò duōnián.",
+          "en": "He has been engaged in artistic creation for many years.",
+          "vi": "Anh ấy đã làm việc trong sáng tạo nghệ thuật nhiều năm."
+        }
+      ]
     },
     {
       "id": 46,
       "chinese": "醫治",
       "pinyin": "yīzhì",
-      "english": "to heal; to cure",
-      "sentenceChinese": "醫生的工作原本是醫治病人。",
-      "sentencePinyin": "Yīshēng de gōngzuò yuánběn shì yīzhì bìngrén.",
-      "sentenceEnglish": "A doctor's job is originally to heal patients.",
-      "vietnamese": "chữa trị",
-      "sentenceVietnamese": "Công việc vốn có của bác sĩ là chữa trị bệnh nhân."
+      "en": "to heal; to cure",
+      "vi": "chữa trị",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "cure; heal; treat",
+          "sentence": "醫生正在醫治病人。",
+          "pinyin": "yīshēng zhèngzài yīzhì bìngrén.",
+          "en": "The doctor is treating the patient.",
+          "vi": "Bác sĩ đang chữa trị cho bệnh nhân."
+        },
+        {
+          "type": "Verb",
+          "meaning": "cure; heal; treat",
+          "sentence": "他需要醫治戰爭創傷。",
+          "pinyin": "tā xūyào yīzhì zhànzhēng chuāngshāng.",
+          "en": "He needs to heal war wounds.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 47,
       "chinese": "一向",
       "pinyin": "yíxiàng",
-      "english": "all along; always",
-      "sentenceChinese": "這家醫院一向很有名。",
-      "sentencePinyin": "Zhè jiā yīyuàn yíxiàng hěn yǒumíng.",
-      "sentenceEnglish": "This hospital has always been well known.",
-      "vietnamese": "xưa nay; từ trước đến nay",
-      "sentenceVietnamese": "Bệnh viện này từ trước đến nay luôn rất nổi tiếng."
+      "en": "all along; always",
+      "vi": "xưa nay; từ trước đến nay",
+      "samples": [
+        {
+          "type": "Adverb",
+          "meaning": "all along",
+          "sentence": "她一嚮喜歡看書。",
+          "pinyin": "tā yīxiàng xǐhuan kànshū.",
+          "en": "She has always liked reading.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "all along",
+          "sentence": "我們一嚮都很友好。",
+          "pinyin": "wǒmen yīxiàng dōu hěn yǒuhǎo.",
+          "en": "We have always been friendly.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 48,
       "chinese": "一般",
       "pinyin": "yìbān",
-      "english": "general; ordinary",
-      "sentenceChinese": "一般人對這個問題了解不多。",
-      "sentencePinyin": "Yìbān rén duì zhège wèntí liǎojiě bù duō.",
-      "sentenceEnglish": "Ordinary people do not know much about this issue.",
-      "vietnamese": "thông thường; bình thường",
-      "sentenceVietnamese": "Người bình thường không hiểu nhiều về vấn đề này."
+      "en": "general; ordinary",
+      "vi": "thông thường; bình thường",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "same as; just like",
+          "sentence": "哥兒倆長得一般高。",
+          "pinyin": "gēr liǎ zhǎng de yībān gāo.",
+          "en": "The two brothers are about the same height.",
+          "vi": "Hai anh em cao như nhau."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "same as; just like",
+          "sentence": "火車飛一般地嚮前馳去。",
+          "pinyin": "huǒchē fēi yībān de xiàng qián chí qù.",
+          "en": "The train sped forward like it was flying.",
+          "vi": "Xe lửa lao về phía trước như bay."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; usually; frequently",
+          "sentence": "他一般六點起床/牀。",
+          "pinyin": "tā yībān liù diǎn qǐchuáng.",
+          "en": "He usually gets up at six o'clock.",
+          "vi": "Anh ấy thường thức dậy lúc sáu giờ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "often; usually; frequently",
+          "sentence": "花兒一般在春天盛開。",
+          "pinyin": "huār yībān zài chūntiān shèngkāi.",
+          "en": "Flowers usually bloom in spring.",
+          "vi": "Hoa thường nở vào mùa xuân."
+        }
+      ]
     },
     {
       "id": 49,
       "chinese": "主要",
       "pinyin": "zhǔyào",
-      "english": "main; primary",
-      "sentenceChinese": "主要原因其實有兩個。",
-      "sentencePinyin": "Zhǔyào yuányīn qíshí yǒu liǎng gè.",
-      "sentenceEnglish": "There are actually two main reasons.",
-      "vietnamese": "chủ yếu",
-      "sentenceVietnamese": "Nguyên nhân chủ yếu thật ra có hai cái."
+      "en": "main; primary",
+      "vi": "chủ yếu",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "main; chief; principal; major",
+          "sentence": "主要問題是時間不夠。",
+          "pinyin": "zhǔyào wèntí shì shíjiān bùgòu.",
+          "en": "The main problem is that there isn't enough time.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "main; chief; principal; major",
+          "sentence": "這件事主要是你的責任。",
+          "pinyin": "zhè jiàn shì zhǔyào shì nǐ de zérèn.",
+          "en": "This matter is mainly your responsibility.",
+          "vi": "Việc này chủ yếu là trách nhiệm của bạn."
+        }
+      ]
     },
     {
       "id": 50,
       "chinese": "待遇",
       "pinyin": "dàiyù",
-      "english": "salary and benefits; treatment",
-      "sentenceChinese": "如果待遇太低，很多人就不想做了。",
-      "sentencePinyin": "Rúguǒ dàiyù tài dī, hěn duō rén jiù bù xiǎng zuò le.",
-      "sentenceEnglish": "If the salary and benefits are too low, many people won't want to do it.",
-      "vietnamese": "đãi ngộ",
-      "sentenceVietnamese": "Nếu đãi ngộ quá thấp thì nhiều người sẽ không muốn làm."
+      "en": "salary and benefits; treatment",
+      "vi": "đãi ngộ",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "treatment",
+          "sentence": "我們的待遇很公平。",
+          "pinyin": "wǒmen de dàiyù hěn gōngpíng.",
+          "en": "Our treatment is equitable.",
+          "vi": "Đãi ngộ của chúng tôi rất công bằng."
+        },
+        {
+          "type": "Noun",
+          "meaning": "treatment",
+          "sentence": "他對自己待遇不滿意。",
+          "pinyin": "tā duì zìjǐ dàiyù bù mǎnyì.",
+          "en": "He is not satisfied with his treatment.",
+          "vi": "Anh ấy không hài lòng với đãi ngộ của mình."
+        }
+      ]
     },
     {
       "id": 51,
       "chinese": "公立",
       "pinyin": "gōnglì",
-      "english": "public; government-run",
-      "sentenceChinese": "他在一家公立醫院上班。",
-      "sentencePinyin": "Tā zài yì jiā gōnglì yīyuàn shàngbān.",
-      "sentenceEnglish": "He works at a public hospital.",
-      "vietnamese": "công lập",
-      "sentenceVietnamese": "Anh ấy làm việc ở một bệnh viện công lập."
+      "en": "public; government-run",
+      "vi": "công lập",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "established and maintained by the government; public (opp. 私立)",
+          "sentence": "我妹妹在一所公立學校讀書。",
+          "pinyin": "Wǒ mèimei zài yì suǒ gōng lì xuéxiào dúshū",
+          "en": "My younger sister studies at a public school",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "public",
+          "sentence": "公立學校",
+          "pinyin": "gōng lì xué xiào",
+          "en": "Public school",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 52,
       "chinese": "外科",
       "pinyin": "wàikē",
-      "english": "surgery department",
-      "sentenceChinese": "她哥哥是外科醫生。",
-      "sentencePinyin": "Tā gēge shì wàikē yīshēng.",
-      "sentenceEnglish": "Her older brother is a surgeon.",
-      "vietnamese": "ngoại khoa",
-      "sentenceVietnamese": "Anh trai cô ấy là bác sĩ ngoại khoa."
+      "en": "surgery department",
+      "vi": "ngoại khoa",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "surgery; surgical department",
+          "sentence": "外科醫生技術高超。",
+          "pinyin": "wàikē yīshēng jìshù gāochāo.",
+          "en": "The surgeon is highly skilled.",
+          "vi": "Bác sĩ ngoại khoa có kỹ thuật cao siêu."
+        },
+        {
+          "type": "Noun",
+          "meaning": "surgery; surgical department",
+          "sentence": "我要去外科看醫生。",
+          "pinyin": "wǒ yào qù wàikē kàn yīshēng.",
+          "en": "I'm going to see a surgeon.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 53,
       "chinese": "超過",
       "pinyin": "chāoguò",
-      "english": "to exceed; more than",
-      "sentenceChinese": "他每週工作超過一百個小時。",
-      "sentencePinyin": "Tā měi zhōu gōngzuò chāoguò yìbǎi gè xiǎoshí.",
-      "sentenceEnglish": "He works more than one hundred hours every week.",
-      "vietnamese": "vượt quá",
-      "sentenceVietnamese": "Mỗi tuần anh ấy làm việc hơn một trăm giờ."
+      "en": "to exceed; more than",
+      "vi": "vượt quá",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "pass; surpass (sb or sth)",
+          "sentence": "我打算超過前麵的卡車。",
+          "pinyin": "wǒ dǎsuàn chāoguò qiánmiàn de kǎchē.",
+          "en": "I intend to pass the truck in front.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "pass; surpass (sb or sth)",
+          "sentence": "我想超過我的對手。",
+          "pinyin": "wǒ xiǎng chāoguò wǒ de duìshǒu.",
+          "en": "I want to surpass my opponent.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 54,
       "chinese": "倍",
       "pinyin": "bèi",
-      "english": "times; -fold",
-      "sentenceChinese": "這裡的薪水是以前的兩倍。",
-      "sentencePinyin": "Zhèlǐ de xīnshuǐ shì yǐqián de liǎng bèi.",
-      "sentenceEnglish": "The salary here is twice what it used to be.",
-      "vietnamese": "gấp; lần",
-      "sentenceVietnamese": "Mức lương ở đây gấp đôi trước đây."
+      "en": "times; -fold",
+      "vi": "gấp; lần",
+      "samples": [
+        {
+          "type": "Measure Word",
+          "meaning": "times; -fold",
+          "sentence": "增長了四倍。",
+          "pinyin": "zēngzhǎngle sì bèi.",
+          "en": "Increased by four times.",
+          "vi": ""
+        },
+        {
+          "type": "Measure Word",
+          "meaning": "times; -fold",
+          "sentence": "三的三倍是九。",
+          "pinyin": "sān de sān bèi shì jiǔ.",
+          "en": "Three times three is nine.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "even more; especially",
+          "sentence": "她今天看起來倍漂亮。",
+          "pinyin": "tā jīntiān kàn qǐlái bèi piàoliang.",
+          "en": "She looks even more beautiful today.",
+          "vi": ""
+        },
+        {
+          "type": "Adverb",
+          "meaning": "even more; especially",
+          "sentence": "我倍喜歡這個禮物。",
+          "pinyin": "wǒ bèi xǐhuan zhège lǐwù.",
+          "en": "I especially like this gift.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 55,
       "chinese": "另",
       "pinyin": "lìng",
-      "english": "another; additional",
-      "sentenceChinese": "另外一個原因是工作壓力太大。",
-      "sentencePinyin": "Lìngwài yí gè yuányīn shì gōngzuò yālì tài dà.",
-      "sentenceEnglish": "Another reason is that the work pressure is too high.",
-      "vietnamese": "khác; thêm",
-      "sentenceVietnamese": "Một nguyên nhân khác là áp lực công việc quá lớn."
+      "en": "another; additional",
+      "vi": "khác; thêm",
+      "samples": [
+        {
+          "type": "Pronoun",
+          "meaning": "[with nouns] other; different",
+          "sentence": "那是另一迴事。",
+          "pinyin": "nà shì lìng yī huí shì.",
+          "en": "That’s a different matter.",
+          "vi": "Đó là một việc khác."
+        },
+        {
+          "type": "Pronoun",
+          "meaning": "[with nouns] other; different",
+          "sentence": "走了另一條路。",
+          "pinyin": "zǒule lìng yītiáo lù.",
+          "en": "Took another path.",
+          "vi": "Đi theo một con đường khác."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "besides; in addition",
+          "sentence": "你要早睡，另要好好吃/喫喝。",
+          "pinyin": "nǐ yào zǎo shuì, lìng yào hǎo hǎo chīhē.",
+          "en": "You should sleep early, in addition, eat and drink well.",
+          "vi": "Bạn nên đi ngủ sớm, ngoài ra nên ăn uống đầy đủ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "besides; in addition",
+          "sentence": "另我們要保護環境。",
+          "pinyin": "lìng wǒmen yào bǎohù huánjìng.",
+          "en": "Besides, we need to protect the environment.",
+          "vi": "Ngoài ra, chúng ta phải bảo vệ môi trường."
+        },
+        {
+          "type": "Noun",
+          "meaning": "a surname",
+          "sentence": "他姓另。",
+          "pinyin": "tā xìng lìng.",
+          "en": "His surname is Ling.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 56,
       "chinese": "價值觀",
       "pinyin": "jiàzhíguān",
-      "english": "values",
-      "sentenceChinese": "每個人的價值觀都不一樣。",
-      "sentencePinyin": "Měi gè rén de jiàzhíguān dōu bù yíyàng.",
-      "sentenceEnglish": "Everyone's values are different.",
-      "vietnamese": "quan niệm giá trị",
-      "sentenceVietnamese": "Quan niệm giá trị của mỗi người đều không giống nhau."
+      "en": "values",
+      "vi": "quan niệm giá trị",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "values",
+          "sentence": "每個人的價值觀不衕。",
+          "pinyin": "měi gèrén de jiàzhíguān bùtóng.",
+          "en": "Everyone has different values.",
+          "vi": "Mỗi người có giá trị quan khác nhau."
+        },
+        {
+          "type": "Noun",
+          "meaning": "values",
+          "sentence": "他的價值觀很傳統。",
+          "pinyin": "tā de jiàzhíguān hěn chuántǒng.",
+          "en": "He has very traditional values.",
+          "vi": "Giá trị quan của anh ấy rất truyền thống."
+        }
+      ]
     },
     {
       "id": 57,
       "chinese": "尊敬",
       "pinyin": "zūnjìng",
-      "english": "to respect",
-      "sentenceChinese": "以前醫生很受人尊敬。",
-      "sentencePinyin": "Yǐqián yīshēng hěn shòu rén zūnjìng.",
-      "sentenceEnglish": "Doctors used to be highly respected.",
-      "vietnamese": "tôn kính; kính trọng",
-      "sentenceVietnamese": "Trước đây bác sĩ rất được mọi người kính trọng."
+      "en": "to respect",
+      "vi": "tôn kính; kính trọng",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "respect; honour; esteem",
+          "sentence": "她尊敬那些老前輩。",
+          "pinyin": "tā zūnjìng nàxiē lǎo qiánbèi.",
+          "en": "She respects those senior predecessors.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "respect; honour; esteem",
+          "sentence": "他尊敬每一位客戶。",
+          "pinyin": "tā zūnjìng měi yī wèi kèhù.",
+          "en": "He respects every customer.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "respectful",
+          "sentence": "妹妹很崇拜併尊敬她的學長。",
+          "pinyin": "mèimei hěn chóngbài bìng zūnjìng tā de xuézhǎng.",
+          "en": "My younger sister greatly admires and respects her senior students.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "respectful",
+          "sentence": "尊敬的各位嘉賓，大傢晚上好！",
+          "pinyin": "zūnjìng de gèwèi jiābīn, dàjiā wǎnshàng hǎo!",
+          "en": "Ladies and gentlemen, good evening!",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 58,
       "chinese": "告",
       "pinyin": "gào",
-      "english": "to sue",
-      "sentenceChinese": "有些病人動不動就告醫生。",
-      "sentencePinyin": "Yǒuxiē bìngrén dòngbudòng jiù gào yīshēng.",
-      "sentenceEnglish": "Some patients sue doctors at the slightest thing.",
-      "vietnamese": "kiện",
-      "sentenceVietnamese": "Có những bệnh nhân hễ một chút là đi kiện bác sĩ."
+      "en": "to sue",
+      "vi": "kiện",
+      "samples": [
+        {
+          "type": "verb",
+          "meaning": "inform; tell; notify",
+          "sentence": "我已經告知老師情況。",
+          "pinyin": "wǒ yǐjīng gàozhī lǎoshī qíngkuàng.",
+          "en": "I have informed the teacher of the situation.",
+          "vi": "Tôi đã báo cáo tình hình với giáo viên."
+        },
+        {
+          "type": "verb",
+          "meaning": "inform; tell; notify",
+          "sentence": "請你告我們會議結果。",
+          "pinyin": "qǐng nǐ gào wǒmen huìyì jiéguǒ.",
+          "en": "Please inform us of the meeting results.",
+          "vi": "Hãy báo cáo kết quả cuộc họp cho chúng tôi."
+        }
+      ]
     },
     {
       "id": 59,
       "chinese": "平均",
       "pinyin": "píngjūn",
-      "english": "average",
-      "sentenceChinese": "平均一天至少有一位醫生被告。",
-      "sentencePinyin": "Píngjūn yì tiān zhìshǎo yǒu yí wèi yīshēng bèi gào.",
-      "sentenceEnglish": "On average, at least one doctor is sued every day.",
-      "vietnamese": "trung bình",
-      "sentenceVietnamese": "Trung bình mỗi ngày ít nhất có một bác sĩ bị kiện."
+      "en": "average",
+      "vi": "trung bình",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "average",
+          "sentence": "我們班平均成績是 80 分。",
+          "pinyin": "wǒmen bān píngjūn chéng jī shì 80 fēn.",
+          "en": "Our class's average score is 80 points.",
+          "vi": "Điểm trung bình của lớp chúng tôi là 80 điểm."
+        },
+        {
+          "type": "Verb",
+          "meaning": "average",
+          "sentence": "請把這些數字平均一下。",
+          "pinyin": "qǐng bǎ zhèxiē shùzì píngjūn yīxià.",
+          "en": "Please average these numbers",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "equal; average",
+          "sentence": "他的成績比平均水平高。",
+          "pinyin": "tā de chéng jī bǐ píngjūn shuǐpíng gāo.",
+          "en": "His score is higher than the average level.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "equal; average",
+          "sentence": "我們班的平均年齡是25歲。",
+          "pinyin": "wǒmen bān de píngjūn niánlíng shì 25 suì.",
+          "en": "The average age of our class is 25 years old.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 60,
       "chinese": "醫療",
       "pinyin": "yīliáo",
-      "english": "medical care",
-      "sentenceChinese": "醫療品質跟每個人都很有關係。",
-      "sentencePinyin": "Yīliáo pǐnzhí gēn měi gè rén dōu hěn yǒu guānxì.",
-      "sentenceEnglish": "Medical care quality is closely related to everyone.",
-      "vietnamese": "y tế; chăm sóc y tế",
-      "sentenceVietnamese": "Chất lượng y tế có liên quan mật thiết đến tất cả mọi người."
+      "en": "medical care",
+      "vi": "y tế; chăm sóc y tế",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "medical treatment",
+          "sentence": "他正在接受醫療治療。",
+          "pinyin": "tā zhèngzài jiēshòu yīliáo zhìliáo.",
+          "en": "He is receiving medical treatment for his condition.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "medical treatment",
+          "sentence": "她需要緊急醫療。",
+          "pinyin": "tā xūyào jǐnjí yīliáo.",
+          "en": "She needs urgent medical treatment.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 61,
       "chinese": "怪",
       "pinyin": "guài",
-      "english": "to blame",
-      "sentenceChinese": "如果環境不好，也不能全怪醫生。",
-      "sentencePinyin": "Rúguǒ huánjìng bù hǎo, yě bùnéng quán guài yīshēng.",
-      "sentenceEnglish": "If the environment is bad, you can't blame the doctors entirely.",
-      "vietnamese": "trách",
-      "sentenceVietnamese": "Nếu môi trường không tốt thì cũng không thể trách hết bác sĩ."
+      "en": "to blame",
+      "vi": "trách",
+      "samples": [
+        {
+          "type": "adjective",
+          "meaning": "strange; odd; queer; bewildering",
+          "sentence": "這個人真怪！",
+          "pinyin": "zhège rén zhēn guài!",
+          "en": "This person is really strange!",
+          "vi": "Người này thật kỳ quái!"
+        },
+        {
+          "type": "adjective",
+          "meaning": "strange; odd; queer; bewildering",
+          "sentence": "你説怪不怪？",
+          "pinyin": "Nǐ shuō guài bù guài？",
+          "en": "Isn’t this strange?",
+          "vi": "Bạn nói xem nó có kỳ lạ không?"
+        },
+        {
+          "type": "verb",
+          "meaning": "blame",
+          "sentence": "不能怪他，隻怪我沒説清楚。",
+          "pinyin": "bùnéng guài tā, zhǐ guàiwǒ méi shuō qīngchǔ.",
+          "en": "It's not his fault; it's just that I didn't explain things clearly.",
+          "vi": "Không thể trách anh ấy, chỉ trách tôi đã không nói rõ ràng."
+        },
+        {
+          "type": "verb",
+          "meaning": "blame",
+          "sentence": "都是你的錯，你還怪他。",
+          "pinyin": "dōu shì nǐ de cuò, nǐ hái guài tā.",
+          "en": "It's all your fault, yet you blame him.",
+          "vi": "Đều là lỗi của bạn, bạn còn trách anh ấy."
+        },
+        {
+          "type": "adverb",
+          "meaning": "very; quite; rather",
+          "sentence": "怪不好意思的。",
+          "pinyin": "guài bù hǎoyìsi de.",
+          "en": "I feel really embarrassed.",
+          "vi": "Thật ngại quá."
+        },
+        {
+          "type": "adverb",
+          "meaning": "very; quite; rather",
+          "sentence": "箱子怪沉的。",
+          "pinyin": "Xiāngzi guài chén de.",
+          "en": "The suitcase is pretty heavy.",
+          "vi": "Chiếc vali rất nặng."
+        },
+        {
+          "type": "noun",
+          "meaning": "monster; demon; freak (superstition)",
+          "sentence": "鬼怪不是真的。",
+          "pinyin": "guǐguài bùshì zhēn de.",
+          "en": "The monsters aren't real.",
+          "vi": "Yêu quái không có thật."
+        }
+      ]
     },
     {
       "id": 62,
       "chinese": "愛林",
       "pinyin": "Àilín",
-      "english": "Ailin (female name)",
-      "sentenceChinese": "愛林是何雅婷的香港朋友。",
-      "sentencePinyin": "Àilín shì Hé Yǎtíng de Xiānggǎng péngyou.",
-      "sentenceEnglish": "Ailin is He Yating's friend from Hong Kong.",
-      "vietnamese": "Ái Lâm (tên nữ)",
-      "sentenceVietnamese": "Ái Lâm là bạn người Hồng Kông của Hà Nhã Đình."
+      "en": "Ailin (female name)",
+      "vi": "Ái Lâm (tên nữ)",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "love",
+          "sentence": "我很愛我的父母。",
+          "pinyin": "wǒ hěn ài wǒ de fùmǔ.",
+          "en": "I love my parents very much.",
+          "vi": "Tôi rất yêu bố mẹ của mình."
+        },
+        {
+          "type": "Verb",
+          "meaning": "love",
+          "sentence": "孩子們都愛老師。",
+          "pinyin": "háizimen dōu ài lǎoshī.",
+          "en": "The children all love their teacher.",
+          "vi": "Các em nhỏ đều yêu quý thầy cô giáo."
+        },
+        {
+          "type": "Noun",
+          "meaning": "love; affection",
+          "sentence": "他們之間的愛很深。",
+          "pinyin": "tāmen zhī jiān de ài hěn shēn.",
+          "en": "The love between them is very deep.",
+          "vi": "Tình cảm giữa họ rất sâu đậm."
+        },
+        {
+          "type": "Noun",
+          "meaning": "love; affection",
+          "sentence": "愛讓世界更美好。",
+          "pinyin": "ài ràng shìjiè gèng měihǎo.",
+          "en": "Love makes the world a better place.",
+          "vi": "Tình yêu làm cho thế giới trở nên tươi đẹp hơn."
+        }
+      ]
     },
     {
       "id": 63,
       "chinese": "微整型",
       "pinyin": "wēi zhěngxíng",
-      "english": "minor cosmetic surgery; minimally invasive cosmetic procedure",
-      "sentenceChinese": "她這次來台灣是想做微整型。",
-      "sentencePinyin": "Tā zhè cì lái Táiwān shì xiǎng zuò wēi zhěngxíng.",
-      "sentenceEnglish": "She came to Taiwan this time to get a minor cosmetic procedure.",
-      "vietnamese": "thẩm mỹ nhẹ; vi chỉnh hình",
-      "sentenceVietnamese": "Lần này cô ấy đến Đài Loan là muốn làm thẩm mỹ nhẹ."
+      "en": "minor cosmetic surgery; minimally invasive cosmetic procedure",
+      "vi": "thẩm mỹ nhẹ; vi chỉnh hình",
+      "samples": [
+        {
+          "type": "Adjective",
+          "meaning": "full; whole; entire; complete",
+          "sentence": "這是一整套設備。",
+          "pinyin": "zhè shì yī zhěngtào shèbèi.",
+          "en": "This is a complete set of equipment.",
+          "vi": ""
+        },
+        {
+          "type": "Adjective",
+          "meaning": "full; whole; entire; complete",
+          "sentence": "他整天都在工作。",
+          "pinyin": "tā zhěng tiān dōu zài gōngzuò.",
+          "en": "He works all day long.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rectify; put in order",
+          "sentence": "我們需要重整旗鼓。",
+          "pinyin": "wǒmen xūyào chóngzhěngqígǔ.",
+          "en": "We need to regroup.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "rectify; put in order",
+          "sentence": "他正在整理房間。",
+          "pinyin": "tā zhèngzài zhěnglǐ fángjiān.",
+          "en": "He is tidying up the room.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "integer",
+          "sentence": "他給我了整的錢。",
+          "pinyin": "tā gěi wǒle zhěng de qián.",
+          "en": "He gave me the exact amount of money.",
+          "vi": ""
+        },
+        {
+          "type": "Noun",
+          "meaning": "integer",
+          "sentence": "他給我一個整數字。",
+          "pinyin": "tā gěi wǒ yīgè zhěng shùzì.",
+          "en": "He gave me an integer.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 64,
       "chinese": "數一數二",
       "pinyin": "shǔ yī shǔ èr",
-      "english": "among the best",
-      "sentenceChinese": "台灣的這項技術在亞洲是數一數二的。",
-      "sentencePinyin": "Táiwān de zhè xiàng jìshù zài Yàzhōu shì shǔ yī shǔ èr de.",
-      "sentenceEnglish": "This technology in Taiwan is among the best in Asia.",
-      "vietnamese": "hàng đầu; thuộc top đầu",
-      "sentenceVietnamese": "Kỹ thuật này của Đài Loan thuộc hàng đầu ở châu Á."
+      "en": "among the best",
+      "vi": "hàng đầu; thuộc top đầu",
+      "samples": [
+        {
+          "type": "idioms",
+          "meaning": "count as one of the very best; rank very high",
+          "sentence": "他是連裡/裏數一數二的射手。",
+          "pinyin": "Tā shì lián lǐ shǔyīshǔ'èr de shèshǒu.",
+          "en": "He is one of the very best marksmen in his company.",
+          "vi": ""
+        },
+        {
+          "type": "idioms",
+          "meaning": "count as one of the very best; rank very high",
+          "sentence": "他在當代山水畫傢中是數一數二的。",
+          "pinyin": "Tā zài dāngdài shānshuǐ huàjiā zhōng shì shǔyīshǔ'èr de.",
+          "en": "He ranks high among contemporary landscape painters.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 65,
       "chinese": "人際關係",
       "pinyin": "rénjì guānxì",
-      "english": "interpersonal relations",
-      "sentenceChinese": "有些人相信外表會影響人際關係。",
-      "sentencePinyin": "Yǒuxiē rén xiāngxìn wàibiǎo huì yǐngxiǎng rénjì guānxì.",
-      "sentenceEnglish": "Some people believe appearance affects interpersonal relations.",
-      "vietnamese": "quan hệ giao tiếp",
-      "sentenceVietnamese": "Có người tin rằng ngoại hình sẽ ảnh hưởng đến các mối quan hệ giao tiếp."
+      "en": "interpersonal relations",
+      "vi": "quan hệ giao tiếp",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "interpersonal relationship",
+          "sentence": "我想建立人際關繫。",
+          "pinyin": "wǒ xiǎng jiànlì rénjì guānxi.",
+          "en": "I want to build interpersonal relationships.",
+          "vi": "Tớ muốn xây dựng quan hệ xã hội."
+        },
+        {
+          "type": "Noun",
+          "meaning": "interpersonal relationship",
+          "sentence": "他的人際關繫處理得很好。",
+          "pinyin": "tā de rénjì guānxi chǔlǐ dé hěn hǎo.",
+          "en": "He has very good social relationships.",
+          "vi": "Anh ấy có quan hệ xã hội rất tốt."
+        }
+      ]
     },
     {
       "id": 66,
       "chinese": "動不動就",
       "pinyin": "dòngbudòng jiù",
-      "english": "at the slightest thing",
-      "sentenceChinese": "你不要動不動就生氣。",
-      "sentencePinyin": "Nǐ bú yào dòngbudòng jiù shēngqì.",
-      "sentenceEnglish": "Don't get angry at the slightest thing.",
-      "vietnamese": "hễ một chút là",
-      "sentenceVietnamese": "Bạn đừng hễ một chút là nổi giận."
+      "en": "at the slightest thing",
+      "vi": "hễ một chút là",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "move; stir",
+          "sentence": "他動了我的書包。",
+          "pinyin": "tā dòngle wǒ de shūbāo.",
+          "en": "He moved my schoolbag.",
+          "vi": "Anh ấy đã động vào cặp sách của tôi."
+        },
+        {
+          "type": "Verb",
+          "meaning": "move; stir",
+          "sentence": "不許動! 否則就開槍了。",
+          "pinyin": "bùxǔ dòng! fǒuzé jiù kāi qiāngle.",
+          "en": "Don’t move! Or I’ll shoot.",
+          "vi": "Đứng yên! Nếu không tôi sẽ bắn!"
+        },
+        {
+          "type": "Noun",
+          "meaning": "action; movement",
+          "sentence": "這個動作非常簡單。",
+          "pinyin": "zhège dòngzuò fēicháng jiǎndān.",
+          "en": "This movement is very simple.",
+          "vi": "Động tác này rất đơn giản."
+        },
+        {
+          "type": "Noun",
+          "meaning": "action; movement",
+          "sentence": "你註意看我的動作。",
+          "pinyin": "nǐ zhùyì kàn wǒ de dòngzuò.",
+          "en": "Watch my movement carefully.",
+          "vi": "Cậu chú ý nhìn động tác của tớ."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "easily; frequently",
+          "sentence": "這人動不動就笑。",
+          "pinyin": "zhè rén dòngbùdòng jiù xiào.",
+          "en": "This person laughs at the slightest thing.",
+          "vi": "Cái người này cứ sơ hở là cười."
+        },
+        {
+          "type": "Adverb",
+          "meaning": "easily; frequently",
+          "sentence": "他動不動就生氣。",
+          "pinyin": "tā dòngbùdòng jiù shēngqì.",
+          "en": "He gets angry very easily.",
+          "vi": "Anh ấy động tí là tức giận."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "nonstationary",
+          "sentence": "市場動態變化無常。",
+          "pinyin": "shìchǎng dòngtài biànhuà wúcháng.",
+          "en": "The market dynamics change unpredictably.",
+          "vi": "Động thái thị trường thay đổi thất thường."
+        },
+        {
+          "type": "Adjective",
+          "meaning": "nonstationary",
+          "sentence": "公園裡/裏有很多動物。",
+          "pinyin": "gōngyuán li yǒu hěnduō dòngwù.",
+          "en": "There are many animals in the park.",
+          "vi": "Trong công viên có rất nhiều động vật."
+        }
+      ]
     },
     {
       "id": 67,
       "chinese": "找回",
       "pinyin": "zhǎohuí",
-      "english": "to regain; to recover",
-      "sentenceChinese": "她希望能找回自己的自信。",
-      "sentencePinyin": "Tā xīwàng néng zhǎohuí zìjǐ de zìxìn.",
-      "sentenceEnglish": "She hopes to regain her confidence.",
-      "vietnamese": "tìm lại; lấy lại",
-      "sentenceVietnamese": "Cô ấy hy vọng có thể lấy lại sự tự tin của mình."
+      "en": "to regain; to recover",
+      "vi": "tìm lại; lấy lại",
+      "samples": [
+        {
+          "type": "Verb",
+          "meaning": "to retrieve",
+          "sentence": "我找迴了丟失的鑰匙。",
+          "pinyin": "wǒ zhǎo huíle diūshī de yàoshi.",
+          "en": "I retrieved the lost keys.",
+          "vi": ""
+        },
+        {
+          "type": "Verb",
+          "meaning": "to retrieve",
+          "sentence": "他找迴了丟失的文件。",
+          "pinyin": "tā zhǎo huíle diūshī de wénjiàn.",
+          "en": "He retrieved the lost document.",
+          "vi": ""
+        }
+      ]
     },
     {
       "id": 68,
       "chinese": "新生活",
       "pinyin": "xīn shēnghuó",
-      "english": "new life",
-      "sentenceChinese": "很多人希望手術後能開始新生活。",
-      "sentencePinyin": "Hěn duō rén xīwàng shǒushù hòu néng kāishǐ xīn shēnghuó.",
-      "sentenceEnglish": "Many people hope to begin a new life after surgery.",
-      "vietnamese": "cuộc sống mới",
-      "sentenceVietnamese": "Nhiều người hy vọng sau phẫu thuật có thể bắt đầu một cuộc sống mới."
+      "en": "new life",
+      "vi": "cuộc sống mới",
+      "samples": [
+        {
+          "type": "Noun",
+          "meaning": "life; livelihood",
+          "sentence": "我不想過這種生活。",
+          "pinyin": "wǒ bùxiǎngguò zhè zhǒng shēnghuó.",
+          "en": "I don't want to live this kind of life.",
+          "vi": "Tôi không muốn trải qua cuộc sống này."
+        },
+        {
+          "type": "Noun",
+          "meaning": "life; livelihood",
+          "sentence": "那段生活讓我終生難忘。",
+          "pinyin": "nà duàn shēnghuó ràng wǒ zhōngshēng nánwàng.",
+          "en": "That period of life left me with unforgettable memories.",
+          "vi": "Cuộc sống đó khiến tôi cả đời không quên."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to live",
+          "sentence": "企鵝生活在南極。",
+          "pinyin": "qì'é shēnghuó zài nánjí.",
+          "en": "Penguins live in Antarctica.",
+          "vi": "Chim cánh cụt sinh sống ở Nam Cực."
+        },
+        {
+          "type": "Verb",
+          "meaning": "to live",
+          "sentence": "我們和父母生活在不衕時代。",
+          "pinyin": "wǒmen hé fùmǔ shēnghuó zài bùtóng shídài.",
+          "en": "We and our parents live in different eras.",
+          "vi": "Chúng ta và cha mẹ sống ở những thời đại khác nhau."
+        }
+      ]
     }
-  ],
-  "theme": "I'm Staying in the Hospital"
+  ]
 }
