@@ -1,5 +1,5 @@
 export default {
-  appTitle: 'Chinese EZ Cards',
+  appTitle: 'Chinese EZ',
   appSubtitle: 'Based on A Course in Contemporary Chinese (Traditional)',
   learn: 'Learn',
   uploadLesson: 'Import Lesson',
@@ -58,6 +58,8 @@ export default {
   addFavorite: 'Save word',
   removeFavorite: 'Remove favorite',
   speakWord: 'Play audio',
+  copyWord: 'Copy word',
+  copiedWord: 'Copied',
   speakSentence: 'Play sentence',
   speakQuizAnswer: 'Play answer',
   tapToFlip: 'Tap or click to flip',

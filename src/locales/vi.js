@@ -1,5 +1,5 @@
 export default {
-  appTitle: 'Chinese EZ Cards',
+  appTitle: 'Chinese EZ',
   appSubtitle: 'Dựa trên giáo trình Đương Đại Ngữ Văn (Phồn thể)',
   learn: 'Học',
   uploadLesson: 'Tạo từ vựng của bạn',
@@ -58,6 +58,8 @@ export default {
   addFavorite: 'Lưu từ',
   removeFavorite: 'Bỏ yêu thích',
   speakWord: 'Phát âm từ',
+  copyWord: 'Sao chép từ',
+  copiedWord: 'Đã sao chép',
   speakSentence: 'Đọc câu',
   speakQuizAnswer: 'Đọc đáp án',
   tapToFlip: 'Chạm hoặc bấm để lật thẻ',

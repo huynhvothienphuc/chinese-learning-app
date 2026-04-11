@@ -23,6 +23,13 @@ function dedupe(items) {
 
 const INITIAL_SCORE = { correct: 0, total: 0 };
 
+function withSectionScopedIds(items, scope) {
+  return items.map((item, index) => ({
+    ...item,
+    id: `${scope}:${item.id || `${item.chinese}-${item.pinyin}-${index}`}`,
+  }));
+}
+
 export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary, onBack, language = 'en', t }) {
   const [selectedBook, setSelectedBook] = useState(books[0]?.id ?? '');
   const [sections, setSections] = useState([]);
@@ -70,9 +77,11 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
 
     const request =
       selectedBook === USER_UPLOAD_BOOK_ID
-        ? Promise.resolve(uploadedLessons.find((l) => l.id === sectionFile)?.items || [])
+        ? Promise.resolve(
+            withSectionScopedIds(uploadedLessons.find((l) => l.id === sectionFile)?.items || [], `${selectedBook}:${sectionFile}`)
+          )
         : fetchJSON(`/data/books/${selectedBook}/${sectionFile}`)
-          .then((data) => normalizeVocabularyItems(data?.items || data));
+          .then((data) => withSectionScopedIds(normalizeVocabularyItems(data?.items || data), `${selectedBook}:${sectionFile}`));
 
     request
       .then((items) => setSectionVocab((prev) => ({ ...prev, [sectionFile]: items })))

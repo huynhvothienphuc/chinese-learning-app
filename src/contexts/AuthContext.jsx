@@ -5,7 +5,7 @@ const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
-  const [role, setRole] = useState(null); // 'teacher' | 'admin' | null
+  const [role, setRole] = useState(null); // 'teacher' | 'admin' | 'superadmin' | null
   const [loading, setLoading] = useState(true);
 
   async function fetchRole(userId) {

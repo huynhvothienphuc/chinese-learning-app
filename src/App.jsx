@@ -1,6 +1,6 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Flame, Heart, Info, LogOut, Moon, Sun, Upload, Wand2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Sun, Upload, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
@@ -24,11 +24,14 @@ const MyQuizPage = lazy(() => import('@/components/MyQuizPage'));
 const WriteMode = lazy(() => import('@/components/WriteMode'));
 const UploadGuide = lazy(() => import('@/components/UploadGuide'));
 const InfoPage = lazy(() => import('@/pages/InfoPage'));
-import { Select } from '@/components/ui/select';
+const FeedbackPage = lazy(() => import('@/pages/FeedbackPage'));
+const FeedbackReviewPage = lazy(() => import('@/pages/FeedbackReviewPage'));
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { Tooltip } from '@/components/ui/tooltip';
 import {
   buildQuizChoices,
+  cn,
   formatSectionName,
   normalizeVocabularyItems,
   parseVocabularyText,
@@ -185,9 +188,9 @@ function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/login' ? 'login' : location.pathname === '/' ? 'learn' : 'notfound';
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/' ? 'learn' : 'notfound';
   const { user, role, signOut, loading: authLoading } = useAuth();
-  const { streak, markStudied } = useStreak();
+  const { markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [score, setScore] = useState(INITIAL_SCORE);
@@ -204,7 +207,6 @@ function AppContent() {
   const [customQuizWords, setCustomQuizWords] = useState(null);
   const [customQuizPool, setCustomQuizPool] = useState(null);
   const [quizSeed, setQuizSeed] = useState(0);
-  const [lastUploadedName, setLastUploadedName] = useState('');
   const [supabaseSets, setSupabaseSets] = useState([]);
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
   const [fontSize, setFontSize] = useLocalStorageState('font-size', 'lg');
@@ -228,11 +230,12 @@ function AppContent() {
 
   const languageOptions = useMemo(
     () => [
-      { id: 'en', label: t.englishOption },
-      { id: 'vi', label: t.vietnameseOption },
+      { id: 'en', label: t.englishOption, flag: '🇺🇸' },
+      { id: 'vi', label: t.vietnameseOption, flag: '🇻🇳' },
     ],
     [t.englishOption, t.vietnameseOption],
   );
+  const selectedFlag = languageOptions.find((l) => l.id === selectedLanguage)?.flag ?? '🌐';
 
   function resetInteractiveState() {
     setCurrentIndex(0);
@@ -570,13 +573,6 @@ function AppContent() {
     trackEvent('start_flashcards', { book_id: selectedBook, section_id: selectedSection, source: 'all' });
   }
 
-  function startQuiz() {
-    navigate('/');
-    setMode('quiz');
-    resetInteractiveState();
-    trackEvent('start_quiz', { source: deckSource, book_id: selectedBook, section_id: selectedSection });
-  }
-
   function startQuizFavorites() {
     if (favorites.length === 0) return;
     setIsFavoritesOpen(false);
@@ -808,6 +804,13 @@ function AppContent() {
 
   if (activeView === 'shared') return <Suspense fallback={pageFallback}><SharedBookPage token={sharedMatch[1]} /></Suspense>;
   if (activeView === 'login') return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
+  if (activeView === 'feedback') return <Suspense fallback={pageFallback}><FeedbackPage onBack={() => navigate(-1)} /></Suspense>;
+  if (activeView === 'feedback-review') {
+    if (authLoading) return pageFallback;
+    if (!user) return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
+    if (role !== 'superadmin') return <NotFoundPage onGoHome={() => navigate('/')} />;
+    return <Suspense fallback={pageFallback}><FeedbackReviewPage onBack={() => navigate(-1)} /></Suspense>;
+  }
 
   // Show spinner while auth is restoring session for protected routes
   if (authLoading && (activeView === 'teacher' || activeView === 'admin')) {
@@ -832,92 +835,117 @@ function AppContent() {
     <SpeedInsights />
     <div className="min-h-screen bg-white px-4 py-4 text-slate-900 dark:bg-slate-950 dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-7xl flex-col gap-6">
-        <Card className="border-[#CAE8BD] bg-[#ECFAE5] shadow-soft animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90">
-          <CardContent className="p-4 sm:p-6">
-            <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-              <button type="button" onClick={() => navigate('/')} className="flex items-center gap-4 text-left">
-                <img src="/logo.png" alt="Logo" className="h-12 w-12 rounded-3xl p-1.5 " />
-                <div>
-                  <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
-                  <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
-                </div>
-              </button>
-              <div className="flex flex-wrap items-end gap-2 lg:justify-end">
-                {/* {streak > 0 && (
-                  <div className="flex items-center gap-1.5 rounded-full bg-orange-100 px-3 py-2 text-sm font-bold text-orange-600 dark:bg-orange-900/30 dark:text-orange-400">
-                    <Flame className="h-4 w-4" />
-                    {streak}
+        <div className="rounded-2xl border border-[#CAE8BD] bg-[#ECFAE5] px-4 py-4 animate-float-in dark:border-slate-700/60 dark:bg-slate-800/90 sm:px-6">
+            <div className="flex flex-col gap-4">
+              {/* Row 1: Logo + guest nav */}
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                <button type="button" onClick={() => navigate('/')} className="flex items-center gap-4 text-left">
+                  <img src="/logo.png" alt="Logo" className="h-12 w-12 rounded-3xl p-1.5" />
+                  <div>
+                    <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white sm:text-2xl">{t.appTitle}</h1>
+                    <p className="mt-1 text-sm leading-6 text-slate-500">{t.appSubtitle}</p>
                   </div>
-                )} */}
-                {!user && (
-                  <Button type="button" variant={activeView === 'info' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/info')}>
-                    <Info className="h-4 w-4" />
-                    <span className="text-xs font-medium sm:text-sm">{t.aboutNavLabel}</span>
+                </button>
+                <div className="flex flex-wrap items-center gap-2 lg:justify-end">
+                  <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
+                    <Wand2 className="h-4 w-4" />
+                    <span className="text-xs font-medium sm:text-sm">{t.myQuizTitle}</span>
                   </Button>
-                )}
-                <Button type="button" variant={activeView === 'myquiz' ? 'default' : 'outline'} className="gap-2" onClick={() => navigate('/quiz')}>
-                  <Wand2 className="h-4 w-4" />
-                  <span className="text-xs font-medium sm:text-sm">{t.myQuizTitle}</span>
-                </Button>
-                <Button type="button" variant="outline" className="gap-2 opacity-60" disabled aria-disabled="true">
-                  <Upload className="h-4 w-4" />
-                  <span className="text-xs font-medium sm:text-sm">{t.uploadLesson}</span>
-                  {(uploadedLessons.length + supabaseSets.length) > 0 && (
-                    <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-green-600 px-1.5 text-xs font-bold text-white">
-                      {uploadedLessons.length + supabaseSets.length}
-                    </span>
-                  )}
-                </Button>
-                <div className="w-[140px]">
-                  <Select value={selectedLanguage} onChange={(event) => setSelectedLanguage(event.target.value)}>
-                    {languageOptions.map((language) => (
-                      <option key={language.id} value={language.id}>{language.label}</option>
-                    ))}
-                  </Select>
-                </div>
-                <div className="relative flex cursor-pointer items-center gap-2 rounded-xl border border-border bg-background px-3 shadow-sm">
-                  <span className="pointer-events-none text-xs font-medium text-slate-500 dark:text-slate-400">{t.fontSizeLabel}</span>
-                  <span className="pointer-events-none text-sm font-medium">{{ sm: 16, md: 18, lg: 20, xl: 22, xll: 24, xxl: 26 }[fontSize]}</span>
-                  <select
-                    ref={fontSizeSelectRef}
-                    value={fontSize}
-                    onChange={(e) => setFontSize(e.target.value)}
-                    aria-label={t.fontSizeLabel}
-                    className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
-                  >
-                    <option value="sm">16</option>
-                    <option value="md">18</option>
-                    <option value="lg">20</option>
-                    <option value="xl">22</option>
-                    <option value="xll">24</option>
-                    <option value="xxl">26</option>
-                  </select>
-                </div>
-                <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
-                  {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-                </Button>
-                {user && (
-                  <>
-                    {role === 'admin' && (
-                      <Button type="button" variant="outline" className="gap-2" onClick={() => navigate('/admin')}>
-                        <span className="text-xs font-medium sm:text-sm">Admin</span>
-                      </Button>
+                  <Button type="button" variant="outline" className="gap-2 opacity-60" disabled aria-disabled="true">
+                    <Upload className="h-4 w-4" />
+                    <span className="text-xs font-medium sm:text-sm">{t.uploadLesson}</span>
+                    {(uploadedLessons.length + supabaseSets.length) > 0 && (
+                      <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-green-600 px-1.5 text-xs font-bold text-white">
+                        {uploadedLessons.length + supabaseSets.length}
+                      </span>
                     )}
-                    {(role === 'teacher' || role === 'admin') && (
-                      <Button type="button" variant="outline" className="gap-2" onClick={() => navigate('/teacher')}>
-                        <span className="text-xs font-medium sm:text-sm">Dashboard</span>
-                      </Button>
-                    )}
-                    <Button type="button" variant="outline" className="gap-2" onClick={handleSignOut}>
-                      <LogOut className="h-4 w-4" />
-                      <span className="text-xs font-medium sm:text-sm">Sign out</span>
+                  </Button>
+                  <Tooltip text="Language">
+                    <div className="relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-border bg-background shadow-sm">
+                      <span className="pointer-events-none text-lg">{selectedFlag}</span>
+                      <select
+                        value={selectedLanguage}
+                        onChange={(e) => setSelectedLanguage(e.target.value)}
+                        aria-label="Language"
+                        className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
+                      >
+                        {languageOptions.map((l) => (
+                          <option key={l.id} value={l.id}>{l.label}</option>
+                        ))}
+                      </select>
+                    </div>
+                  </Tooltip>
+                  <Tooltip text="Font size">
+                  <div className="relative flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl border border-border bg-background shadow-sm">
+                    <span className="pointer-events-none text-sm font-bold leading-none">Aa</span>
+                    <select
+                      ref={fontSizeSelectRef}
+                      value={fontSize}
+                      onChange={(e) => setFontSize(e.target.value)}
+                      aria-label={t.fontSizeLabel}
+                      className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
+                    >
+                      <option value="sm">16</option>
+                      <option value="md">18</option>
+                      <option value="lg">20</option>
+                      <option value="xl">22</option>
+                      <option value="xll">24</option>
+                      <option value="xxl">26</option>
+                    </select>
+                  </div>
+                  </Tooltip>
+                  <Tooltip text={isDarkMode ? 'Light mode' : 'Dark mode'}>
+                    <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
+                      {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                     </Button>
-                  </>
-                )}
+                  </Tooltip>
+                  <Tooltip text="Feedback">
+                    <Button type="button" variant={activeView === 'feedback' ? 'default' : 'outline'} size="icon" onClick={() => navigate('/feedback')} aria-label="Feedback">
+                      <MessageSquare className="h-4 w-4" />
+                    </Button>
+                  </Tooltip>
+                  {!user && (
+                    <Tooltip text="About">
+                      <Button type="button" variant={activeView === 'info' ? 'default' : 'outline'} size="icon" onClick={() => navigate('/info')} aria-label="About">
+                        <Info className="h-4 w-4" />
+                      </Button>
+                    </Tooltip>
+                  )}
+                </div>
               </div>
+
+              {/* Row 2: Admin nav — only for logged-in users */}
+              {user && (
+                <div className="flex flex-wrap items-center justify-between gap-2 border-t border-[#CAE8BD] pt-3 dark:border-slate-700">
+                  {/* Left: identity */}
+                  <span className="truncate text-xs text-slate-400 dark:text-slate-500">{user.email}</span>
+                  {/* Right: role-based actions */}
+                  <div className="flex flex-wrap items-center gap-2">
+                    {role === 'superadmin' && (
+                      <Button type="button" size="sm" variant={activeView === 'feedback-review' ? 'default' : 'outline'} className="gap-1.5" onClick={() => navigate('/feedback-review')}>
+                        <MessageSquare className="h-3.5 w-3.5" />
+                        <span className="text-xs">Feedback Review</span>
+                      </Button>
+                    )}
+                    {role === 'teacher' && (
+                      <Button type="button" size="sm" variant={activeView === 'teacher' ? 'default' : 'outline'} className="gap-1.5" onClick={() => navigate('/teacher')}>
+                        <span className="text-xs">Teacher Dashboard</span>
+                      </Button>
+                    )}
+                    {role === 'admin' && (
+                      <Button type="button" size="sm" variant="outline" className="gap-1.5" onClick={() => navigate('/')}>
+                        <span className="text-xs">Admin Dashboard</span>
+                      </Button>
+                    )}
+                    <Button type="button" size="sm" variant="outline" className="gap-1.5" onClick={handleSignOut}>
+                      <LogOut className="h-3.5 w-3.5" />
+                      <span className="text-xs">Sign out</span>
+                    </Button>
+                  </div>
+                </div>
+              )}
             </div>
-          </CardContent>
-        </Card>
+        </div>
 
         <input ref={fileInputRef} type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" className="hidden" onChange={handleUploadFile} />
 

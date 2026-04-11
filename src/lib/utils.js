@@ -24,8 +24,8 @@ function pickByLanguage(primary, fallback, fallbackLabel) {
 export function getItemMeaning(item, language = 'en') {
   if (!item) return '';
   return language === 'vi'
-    ? pickByLanguage(item.vietnamese || item.meaning?.vi, item.english || item.meaning?.en, 'English')
-    : pickByLanguage(item.english || item.meaning?.en, item.vietnamese || item.meaning?.vi, 'Tiếng Việt');
+    ? pickByLanguage(item.vietnamese || item.vi || item.meaning?.vi, item.english || item.en || item.meaning?.en, 'English')
+    : pickByLanguage(item.english || item.en || item.meaning?.en, item.vietnamese || item.vi || item.meaning?.vi, 'Tiếng Việt');
 }
 
 export function getSentenceMeaning(item, language = 'en') {
@@ -44,17 +44,19 @@ export function normalizeVocabularyItems(items) {
 
       const chinese = String(item.chinese || '').trim();
       const pinyin = String(item.pinyin || '').trim();
-      const english = String(item.english || item.meaning?.en || '').trim();
-      const vietnamese = String(item.vietnamese || item.meaning?.vi || english).trim();
-      const sentenceChinese = String(item.sentenceChinese || '').trim();
-      const sentencePinyin = String(item.sentencePinyin || '').trim();
-      const sentenceEnglish = String(item.sentenceEnglish || item.translation?.en || '').trim();
-      const sentenceVietnamese = String(item.sentenceVietnamese || item.translation?.vi || sentenceEnglish).trim();
+      const english = String(item.english || item.en || item.meaning?.en || '').trim();
+      const vietnamese = String(item.vietnamese || item.vi || item.meaning?.vi || english).trim();
+      const firstSample = Array.isArray(item.samples) && item.samples.length > 0 ? item.samples[0] : null;
+      const sentenceChinese = String(item.sentenceChinese || firstSample?.sentence || '').trim();
+      const sentencePinyin = String(item.sentencePinyin || firstSample?.pinyin || '').trim();
+      const sentenceEnglish = String(item.sentenceEnglish || item.translation?.en || firstSample?.en || '').trim();
+      const sentenceVietnamese = String(item.sentenceVietnamese || item.translation?.vi || firstSample?.vi || sentenceEnglish).trim();
+      const rawId = item.id == null ? '' : String(item.id).trim();
 
       if (!chinese || !pinyin) return null;
 
       return {
-        id: item.id || `${chinese}-${pinyin}-${index}`,
+        id: rawId || `${chinese}-${pinyin}-${index}`,
         chinese,
         pinyin,
         english,

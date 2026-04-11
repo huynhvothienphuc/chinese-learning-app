@@ -1,5 +1,5 @@
-import { ChevronDown, Heart } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { Check, ChevronDown, Copy, Heart } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
 import { Card, CardContent } from '@/components/ui/card';
@@ -10,8 +10,27 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedId, setExpandedId] = useState(null);
   const [showDetails, setShowDetails] = useState(true);
+  const [copiedId, setCopiedId] = useState(null);
   const showPinyin = showDetails;
   const showMeaning = showDetails;
+
+  useEffect(() => {
+    if (!copiedId) return undefined;
+    const timeoutId = window.setTimeout(() => setCopiedId(null), 1200);
+    return () => window.clearTimeout(timeoutId);
+  }, [copiedId]);
+
+  async function handleCopyWord(event, item) {
+    event.stopPropagation();
+    if (!item?.chinese) return;
+
+    try {
+      await navigator.clipboard.writeText(item.chinese);
+      setCopiedId(item.id ?? item.chinese);
+    } catch {
+      setCopiedId(null);
+    }
+  }
 
   const normalizedQuery = searchQuery.trim().toLowerCase();
   const displayed = useMemo(() => {
@@ -85,6 +104,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
               const favorited = isFavorite(item);
               const meaning = getItemMeaning(item, language);
               const id = item.id ?? index;
+              const isCopied = copiedId === id;
               const expanded = expandedId === id;
               const sentenceMeaning = getSentenceMeaning(item, language);
               return (
@@ -99,7 +119,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpandedId(expanded ? null : id); } }}
                     className="grid w-full cursor-pointer items-center gap-x-3 rounded-2xl px-3 py-1.5 transition-colors hover:bg-green-50 dark:hover:bg-slate-700/80
                       grid-cols-[1.5rem_minmax(0,1fr)_auto]
-                      sm:grid-cols-[1.5rem_minmax(4rem,auto)_minmax(0,1fr)_minmax(0,2fr)_auto]"
+                      sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_auto]"
                   >
                     {/* # */}
                     <span className="text-center text-xs font-bold text-slate-400">{index + 1}</span>
@@ -116,7 +136,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                         <span className="block truncate text-xs text-slate-500 dark:text-slate-400 sm:hidden">{item.pinyin}</span>
                       )}
                       {showMeaning && (
-                        <span className="block truncate text-xs text-slate-600 dark:text-slate-300 sm:hidden">{meaning}</span>
+                        <span className={cn('block text-xs text-slate-600 dark:text-slate-300 sm:hidden', !expanded && 'truncate')}>{meaning}</span>
                       )}
                     </div>
 
@@ -124,13 +144,27 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     <span className="hidden truncate text-sm text-slate-500 dark:text-slate-400 sm:block">{showPinyin ? item.pinyin : ''}</span>
 
                     {/* Meaning — desktop only */}
-                    <span className="hidden truncate text-sm text-slate-600 dark:text-slate-300 sm:block">{showMeaning ? meaning : ''}</span>
+                    <span className={cn('hidden text-sm text-slate-600 dark:text-slate-300 sm:block', !expanded && 'truncate')}>{showMeaning ? meaning : ''}</span>
 
                     {/* Actions */}
                     <div className="flex shrink-0 items-center gap-0.5">
                       {(item.sentenceChinese || item.samples?.length > 0) && (
                         <ChevronDown className={cn('h-4 w-4 text-slate-400 transition-transform duration-200', expanded && 'rotate-180')} />
                       )}
+                      <button
+                        type="button"
+                        onClick={(e) => { void handleCopyWord(e, item); }}
+                        aria-label={isCopied ? (t.copiedWord || 'Copied') : (t.copyWord || 'Copy word')}
+                        title={isCopied ? (t.copiedWord || 'Copied') : (t.copyWord || 'Copy word')}
+                        className={cn(
+                          'flex h-8 w-8 items-center justify-center rounded-full transition-colors',
+                          isCopied
+                            ? 'text-emerald-600'
+                            : 'text-slate-300 hover:text-emerald-500 dark:text-slate-500 dark:hover:text-emerald-400',
+                        )}
+                      >
+                        {isCopied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
+                      </button>
                       <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="ghost" className="h-8 w-8" />
                       <button
                         type="button"

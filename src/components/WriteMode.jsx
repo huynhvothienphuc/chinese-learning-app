@@ -4,6 +4,14 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { cn, getItemMeaning, shuffleArray } from '@/lib/utils';
 
+function normalizeWriteAnswer(value) {
+  return String(value || '')
+    .replace(/（[^）]*）/g, '')
+    .replace(/\([^)]*\)/g, '')
+    .replace(/\s+/g, '')
+    .trim();
+}
+
 function Summary({ total, correct, wrongAnswers, onRestart, onRetryWrong, t, language }) {
   const pct = total === 0 ? 0 : Math.round((correct / total) * 100);
   return (
@@ -88,7 +96,7 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
   function handleSubmit(e) {
     e.preventDefault();
     if (submitted || !item) return;
-    const correct = typed.trim() === answer;
+    const correct = normalizeWriteAnswer(typed) === normalizeWriteAnswer(answer);
     setIsCorrect(correct);
     setSubmitted(true);
     setScore((prev) => ({ correct: prev.correct + (correct ? 1 : 0), total: prev.total + 1 }));
