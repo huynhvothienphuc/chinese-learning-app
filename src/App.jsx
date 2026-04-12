@@ -1327,7 +1327,7 @@ function AppContent() {
             <span className="text-slate-400">·</span>
             <span>{APP_VERSION}</span>
           </div>
-          <div className="mt-1 hidden text-xs text-slate-400 sm:block">
+          <div className="mt-1 text-xs text-slate-400">
             {t.contributor}
           </div>
         </footer>
