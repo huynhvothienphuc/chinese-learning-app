@@ -56,6 +56,8 @@ export default {
   incorrect: 'Incorrect',
   viewSummary: 'View Summary',
   nextQuestion: 'Next Question',
+  autoNext: 'Auto next • correct only',
+  autoNextDesc: 'Automatically advance on correct answer',
   addFavorite: 'Save word',
   removeFavorite: 'Remove favorite',
   speakWord: 'Play audio',

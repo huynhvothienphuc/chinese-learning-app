@@ -56,6 +56,8 @@ export default {
   incorrect: 'Chưa đúng',
   viewSummary: 'Xem tổng kết',
   nextQuestion: 'Câu tiếp theo',
+  autoNext: 'Auto next (Chỉ khi đáp án đúng)',
+  autoNextDesc: 'Tự động sang câu tiếp theo khi trả lời đúng',
   addFavorite: 'Lưu từ',
   removeFavorite: 'Bỏ yêu thích',
   speakWord: 'Phát âm từ',

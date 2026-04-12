@@ -1,6 +1,7 @@
-import { memo, useEffect, useRef } from 'react';
+import { memo, useEffect, useRef, useState } from 'react';
 import { CheckCircle2, CircleX, Trophy } from 'lucide-react';
 import SpeakButton from '@/components/SpeakButton';
+import ToggleSwitch from '@/components/ToggleSwitch';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
@@ -122,12 +123,19 @@ export default function Quiz({
   t,
 }) {
   const cardRef = useRef(null);
+  const [autoNext, setAutoNext] = useState(false);
   const currentItem = vocabulary[currentIndex];
   const choices = allChoices?.[currentIndex] ?? [];
 
   useEffect(() => {
     cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, [currentIndex]);
+
+  useEffect(() => {
+    if (!autoNext || !answeredQuestion?.isCorrect) return;
+    const timer = setTimeout(onNext, 800);
+    return () => clearTimeout(timer);
+  }, [answeredQuestion, autoNext, onNext]);
 
   if (isComplete) {
     return <Summary totalQuestions={vocabulary.length} score={score} wrongAnswers={wrongAnswers} onRestart={onRestart} onRetryWrong={onRetryWrong} t={t} language={language} />;
@@ -148,16 +156,24 @@ export default function Quiz({
           <div className="rounded-full bg-primary/20 px-4 py-1.5 text-sm font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">
             {currentIndex + 1} / {vocabulary.length}
           </div>
-          <div className="group relative ml-auto">
-            <button
-              type="button"
-              className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-200 text-xs font-bold text-slate-500 hover:bg-primary/20 hover:text-primary dark:bg-slate-600 dark:text-slate-400 dark:hover:bg-slate-500"
-              aria-label="How to use"
-            >
-              ?
-            </button>
-            <div className="pointer-events-none absolute right-0 top-10 z-10 w-56 rounded-2xl border border-theme-border bg-white p-3 text-xs text-slate-600 opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300">
-              <p className="text-slate-600 dark:text-slate-300">Choose 1 of 4 answers that matches the pinyin &amp; meaning shown.</p>
+          <div className="ml-auto flex items-center gap-2">
+            <ToggleSwitch
+              checked={autoNext}
+              onChange={setAutoNext}
+              label={<><span className="sm:hidden">Auto next</span><span className="hidden sm:inline">{t.autoNext}</span></>}
+              className="text-xs text-slate-500 dark:text-slate-400"
+            />
+            <div className="group relative">
+              <button
+                type="button"
+                className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-200 text-xs font-bold text-slate-500 hover:bg-primary/20 hover:text-primary dark:bg-slate-600 dark:text-slate-400 dark:hover:bg-slate-500"
+                aria-label="How to use"
+              >
+                ?
+              </button>
+              <div className="pointer-events-none absolute right-0 top-10 z-10 w-56 rounded-2xl border border-theme-border bg-white p-3 text-xs text-slate-600 opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                <p className="text-slate-600 dark:text-slate-300">Choose 1 of 4 answers that matches the pinyin &amp; meaning shown.</p>
+              </div>
             </div>
           </div>
         </div>
