@@ -119,7 +119,6 @@ export default function Quiz({
   onRestart,
   onRetryWrong,
   language = 'en',
-  deckLabel,
   t,
 }) {
   const cardRef = useRef(null);
@@ -138,13 +137,11 @@ export default function Quiz({
 
   const selectedAnswer = answeredQuestion?.selectedAnswer ?? null;
   const isAnswered = Boolean(answeredQuestion);
-  const isCorrect = answeredQuestion?.isCorrect;
   const isLastQuestion = currentIndex === vocabulary.length - 1;
 
   return (
     <Card ref={cardRef} className="overflow-hidden border-theme-border bg-theme-surface shadow-lg animate-float-in">
       <CardHeader className="space-y-5 border-b border-theme-border bg-theme-surface">
-        {/* Row 1: status + actions */}
         {/* Row 1: score + counter + ? */}
         <div className="flex items-center gap-2">
           <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">{t.score}: {score.correct}/{score.total}</span>
@@ -165,14 +162,16 @@ export default function Quiz({
           </div>
         </div>
 
-        {/* Row 2: pinyin + speak */}
+        {/* Row 2: pinyin + speak + next */}
         <div className="flex items-center justify-between gap-4">
           <div className="flex min-w-0 items-center gap-2">
             <CardTitle className="truncate text-3xl font-black text-primary md:text-4xl">{currentItem.pinyin}</CardTitle>
             <SpeakButton text={currentItem.chinese} label={t.speakQuizAnswer} size="icon" variant="ghost" />
           </div>
           {isAnswered && (
-            <Button className="hidden shrink-0 sm:flex" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
+            <Button className="shrink-0" onClick={onNext}>
+              {isLastQuestion ? t.viewSummary : t.nextQuestion}
+            </Button>
           )}
         </div>
 
@@ -201,9 +200,6 @@ export default function Quiz({
           })}
         </div>
 
-        {isAnswered && (
-          <Button className="w-full sm:hidden" onClick={onNext}>{isLastQuestion ? t.viewSummary : t.nextQuestion}</Button>
-        )}
       </CardContent>
     </Card>
   );
