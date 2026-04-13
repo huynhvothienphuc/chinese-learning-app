@@ -1,21 +1,15 @@
-import { Check, ChevronDown, Copy, Flag, Heart, Loader2, SendHorizonal } from 'lucide-react';
+import { Check, ChevronDown, Copy, Heart } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
-import { submitWordFeedback } from '@/lib/supabase';
-
-export default function WordListView({ vocabulary, isFavorite, onToggleFavorite, language, t, bookId, sectionId }) {
+export default function WordListView({ vocabulary, isFavorite, onToggleFavorite, language, t }) {
   const [filter, setFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedId, setExpandedId] = useState(null);
   const [showDetails, setShowDetails] = useState(true);
   const [copiedId, setCopiedId] = useState(null);
-  const [reportingId, setReportingId] = useState(null);
-  const [reportMessage, setReportMessage] = useState('');
-  const [reportSubmitting, setReportSubmitting] = useState(false);
-  const [reportDoneId, setReportDoneId] = useState(null);
   const showPinyin = showDetails;
   const showMeaning = showDetails;
 
@@ -37,34 +31,6 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
     }
   }
 
-  function openReport(e, id) {
-    e.stopPropagation();
-    setReportingId((prev) => (prev === id ? null : id));
-    setReportMessage('');
-    setReportDoneId(null);
-  }
-
-  async function handleSubmitReport(e, item) {
-    e.preventDefault();
-    if (reportSubmitting) return;
-    setReportSubmitting(true);
-    try {
-      await submitWordFeedback({
-        message: reportMessage,
-        bookId: bookId ?? '',
-        sectionId: sectionId ?? '',
-        wordId: item.id ?? item.chinese,
-        chinese: item.chinese,
-      });
-      setReportDoneId(item.id ?? item.chinese);
-      setReportingId(null);
-      setReportMessage('');
-    } catch (err) {
-      alert(err.message ?? 'Failed to submit.');
-    } finally {
-      setReportSubmitting(false);
-    }
-  }
 
   const normalizedQuery = searchQuery.trim().toLowerCase();
   const displayed = useMemo(() => {
@@ -225,6 +191,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                       >
                         <Heart className={cn('h-4 w-4', favorited && 'fill-current')} />
                       </button>
+                      {/* Word feedback button hidden temporarily
                       <button
                         type="button"
                         onClick={(e) => openReport(e, id)}
@@ -241,41 +208,10 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                       >
                         <Flag className="h-4 w-4" />
                       </button>
+                      */}
                     </div>
                   </div>
 
-                  {reportingId === id && (
-                    <form
-                      onSubmit={(e) => { void handleSubmitReport(e, item); }}
-                      onClick={(e) => e.stopPropagation()}
-                      className="border-t border-amber-200 bg-amber-50 px-3 py-3 dark:border-amber-800/40 dark:bg-amber-900/10"
-                    >
-                      <p className="mb-2 text-xs font-semibold text-amber-700 dark:text-amber-400">
-                        Report issue for: <span className="font-black">{item.chinese}</span>
-                      </p>
-                      <div className="flex items-center gap-2">
-                        <input
-                          type="text"
-                          value={reportMessage}
-                          onChange={(e) => setReportMessage(e.target.value)}
-                          placeholder="Describe the issue (e.g. wrong translation)…"
-                          maxLength={500}
-                          className="min-w-0 flex-1 rounded-xl border border-amber-200 bg-white px-3 py-1.5 text-sm outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100 dark:border-amber-700 dark:bg-slate-800 dark:text-white"
-                          autoFocus
-                        />
-                        <button
-                          type="submit"
-                          disabled={reportSubmitting || reportMessage.trim().length < 2}
-                          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500 text-white transition-colors hover:bg-amber-600 disabled:opacity-40"
-                          aria-label="Submit report"
-                        >
-                          {reportSubmitting
-                            ? <Loader2 className="h-4 w-4 animate-spin" />
-                            : <SendHorizonal className="h-4 w-4" />}
-                        </button>
-                      </div>
-                    </form>
-                  )}
 
                   {expanded && (item.sentenceChinese || item.samples?.length > 0) && (
                     <div className="border-t border-theme-border bg-theme-surface px-3 py-4 pl-[calc(1.5rem+0.75rem)] dark:border-slate-600 dark:bg-slate-800/60">
