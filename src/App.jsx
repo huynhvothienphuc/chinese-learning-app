@@ -499,9 +499,18 @@ function AppContent() {
     [favorites],
   );
 
-  const activeVocabulary = customQuizWords ?? (deckSource === 'favorites' ? favoriteVocabulary : vocabulary);
+  const testableVocabulary = useMemo(
+    () => vocabulary.filter((item) => !item.notest),
+    [vocabulary],
+  );
 
-  const pool = customQuizPool ?? (deckSource === 'favorites' ? vocabulary : activeVocabulary);
+  const activeVocabulary = customQuizWords ?? (
+    deckSource === 'favorites'
+      ? favoriteVocabulary
+      : mode === 'review' ? vocabulary : testableVocabulary
+  );
+
+  const pool = customQuizPool ?? (deckSource === 'favorites' ? testableVocabulary : activeVocabulary);
   const allChoices = useMemo(
     () => activeVocabulary.map((item) => buildQuizChoices(pool, item)),
     [activeVocabulary, pool, quizSeed],

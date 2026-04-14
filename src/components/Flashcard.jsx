@@ -134,30 +134,34 @@ export default function Flashcard({
                 {item.samples?.length > 0 ? (
                   <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5 dark:bg-card">
                     <div className="space-y-4">
-                      {(() => {
-                        const seen = new Set();
-                        return item.samples.filter((ex) => {
-                          if (seen.has(ex.type)) return false;
-                          seen.add(ex.type);
-                          return true;
-                        }).slice(0, 2).map((ex, i) => (
-                          <div key={i} className={i > 0 ? 'border-t border-theme-border pt-4 dark:border-slate-600' : ''}>
-                            {ex.type && (
-                              <span className="mb-1.5 inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
-                                {ex.type}
-                              </span>
-                            )}
-                            <div className="flex items-start justify-between gap-2">
-                              <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">{ex.sentence}</p>
-                              <SpeakButton text={ex.sentence} label={t.speakSentence} size="icon" variant="outline" />
-                            </div>
-                            {showPinyin && ex.pinyin ? <p className="mt-1 break-words text-slate-500 dark:text-slate-400">{ex.pinyin}</p> : null}
-                            <p className="mt-2 break-words text-slate-600 dark:text-slate-300">
-                              {language === 'vi' ? (ex.vi || ex.en) : (ex.en || ex.vi)}
+                      {item.samples.slice(0, 2).map((ex, i) => (
+                        <div key={i} className={i > 0 ? 'border-t border-theme-border pt-4 dark:border-slate-600' : ''}>
+                          {ex.type && (
+                            <span className="mb-1.5 inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
+                              {ex.type}
+                            </span>
+                          )}
+                          <div className="flex items-start justify-between gap-2">
+                            <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">
+                              {ex.sentence.split(item.chinese).map((part, j, arr) => (
+                                <span key={j}>
+                                  {part}
+                                  {j < arr.length - 1 && (
+                                    <mark className="rounded bg-primary/20 px-0.5 text-primary not-italic dark:bg-primary/30 dark:text-primary-foreground">
+                                      {item.chinese}
+                                    </mark>
+                                  )}
+                                </span>
+                              ))}
                             </p>
+                            <SpeakButton text={ex.sentence} label={t.speakSentence} size="icon" variant="outline" />
                           </div>
-                        ));
-                      })()}
+                          {showPinyin && ex.pinyin ? <p className="mt-1 break-words text-slate-500 dark:text-slate-400">{ex.pinyin}</p> : null}
+                          <p className="mt-2 break-words text-slate-600 dark:text-slate-300">
+                            {language === 'vi' ? (ex.vi || ex.en) : (ex.en || ex.vi)}
+                          </p>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 ) : (

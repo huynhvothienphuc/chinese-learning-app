@@ -118,9 +118,10 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
     enabledSections.forEach((s) => loadSectionVocab(s.file));
   }
 
-  const pool = isFavoritesMode
+  const pool = (isFavoritesMode
     ? favoriteVocabulary
-    : dedupe([...checkedSections].flatMap((f) => sectionVocab[f] || []));
+    : dedupe([...checkedSections].flatMap((f) => sectionVocab[f] || []))
+  ).filter((item) => !item.notest);
 
   const available = pool.length;
   const tooFew = quizMode === 'write' ? available < 1 : available < 4;
@@ -394,7 +395,7 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                             <Loader2 className="h-3 w-3 shrink-0 animate-spin text-slate-400" />
                           ) : vocabItems ? (
                             <span className="shrink-0 rounded-full bg-slate-100 px-1.5 py-0.5 text-xs font-bold text-slate-500 dark:bg-slate-600 dark:text-slate-300">
-                              {vocabItems.length}
+                              {vocabItems.filter((item) => !item.notest).length}
                             </span>
                           ) : null}
                         </button>

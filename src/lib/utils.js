@@ -66,6 +66,7 @@ export function normalizeVocabularyItems(items) {
         sentenceEnglish,
         sentenceVietnamese,
         ...(Array.isArray(item.samples) && item.samples.length > 0 ? { samples: item.samples } : {}),
+        ...(item.notest === true ? { notest: true } : {}),
         meaning: {
           en: english,
           vi: vietnamese,
@@ -121,7 +122,7 @@ export function formatSectionName(filename) {
 }
 
 export function buildQuizChoices(vocabulary, currentItem) {
-  const wrongPool = vocabulary.filter((item) => item.id !== currentItem.id);
+  const wrongPool = vocabulary.filter((item) => item.id !== currentItem.id && item.chinese !== currentItem.chinese);
   const wrongCount = Math.min(3, wrongPool.length);
   const shuffledWrong = shuffleArray(wrongPool).slice(0, wrongCount);
   return shuffleArray([currentItem, ...shuffledWrong]);
