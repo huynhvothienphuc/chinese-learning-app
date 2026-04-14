@@ -25,7 +25,7 @@ export default {
   previous: 'Previous',
   next: 'Next',
   madeBy: 'Made by: Phuc Huynh (Patrick) & Thuc Quyen (Winnie)',
-  contributor: 'Contributors: Bao Phuc & Minh Chau',
+  contributor: 'Contributors: Bao Phuc & Minh Chau & Nhat Tin (AShin)',
   feedbackContact: 'Feedback:',
   feedbackNav: 'Feedback',
   noSections: 'No lessons',

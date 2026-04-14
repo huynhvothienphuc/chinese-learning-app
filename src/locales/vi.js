@@ -25,7 +25,7 @@ export default {
   previous: 'Trước',
   next: 'Tiếp',
   madeBy: 'Tác giả: Phúc Huỳnh (Patrick) & Thục Quyên (Winnie)',
-  contributor: 'Đóng góp: Bảo Phúc & Minh Châu ',
+  contributor: 'Đóng góp: Bảo Phúc & Minh Châu & Nhất Tín (AShin) ',
   feedbackContact: 'Liên hệ góp ý:',
   feedbackNav: 'Góp ý',
   noSections: 'Không có bài học',
