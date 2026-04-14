@@ -147,7 +147,7 @@ export default function Flashcard({
                                 <span key={j}>
                                   {part}
                                   {j < arr.length - 1 && (
-                                    <mark className="rounded bg-primary/20 px-0.5 text-primary not-italic dark:bg-primary/30 dark:text-primary-foreground">
+                                    <mark className="rounded bg-primary/20 px-0.5 text-primary not-italic dark:bg-primary/30 dark:text-white">
                                       {item.chinese}
                                     </mark>
                                   )}
