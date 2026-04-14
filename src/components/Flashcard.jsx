@@ -142,9 +142,11 @@ export default function Flashcard({
                           return true;
                         }).slice(0, 2).map((ex, i) => (
                           <div key={i} className={i > 0 ? 'border-t border-theme-border pt-4 dark:border-slate-600' : ''}>
-                            <span className="mb-1.5 inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
-                              {ex.type}
-                            </span>
+                            {ex.type && (
+                              <span className="mb-1.5 inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
+                                {ex.type}
+                              </span>
+                            )}
                             <div className="flex items-start justify-between gap-2">
                               <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">{ex.sentence}</p>
                               <SpeakButton text={ex.sentence} label={t.speakSentence} size="icon" variant="outline" />

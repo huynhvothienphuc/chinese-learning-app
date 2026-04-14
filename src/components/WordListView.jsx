@@ -220,9 +220,11 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                           {item.samples.map((ex, i) => (
                             <div key={i} className={cn('flex items-start gap-3', i > 0 && 'border-t border-theme-border pt-3 dark:border-slate-600')}>
                               <div className="min-w-0 flex-1 space-y-0.5">
-                                <span className="inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
-                                  {ex.type}
-                                </span>
+                                {ex.type && (
+                                  <span className="inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
+                                    {ex.type}
+                                  </span>
+                                )}
                                 {ex.meaning && <p className="break-words text-xs italic text-slate-400">{ex.meaning}</p>}
                                 <p className="break-words text-xl font-bold text-slate-800 dark:text-slate-100">{ex.sentence}</p>
                                 {showPinyin && ex.pinyin && <p className="break-words text-xs text-slate-400">{ex.pinyin}</p>}
