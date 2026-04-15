@@ -122,8 +122,24 @@ export function formatSectionName(filename) {
 }
 
 export function buildQuizChoices(vocabulary, currentItem) {
-  const wrongPool = vocabulary.filter((item) => item.id !== currentItem.id && item.chinese !== currentItem.chinese);
-  const wrongCount = Math.min(3, wrongPool.length);
-  const shuffledWrong = shuffleArray(wrongPool).slice(0, wrongCount);
-  return shuffleArray([currentItem, ...shuffledWrong]);
+  const targetLen = (currentItem.chinese || '').length;
+
+  // Exclude the correct answer itself, then deduplicate by chinese text
+  const seen = new Set([currentItem.chinese]);
+  const deduped = vocabulary.filter((item) => {
+    if (item.id === currentItem.id) return false;
+    if (seen.has(item.chinese)) return false;
+    seen.add(item.chinese);
+    return true;
+  });
+
+  // Prefer words with the same character count, fall back to full pool
+  const sameLen = deduped.filter((item) => (item.chinese || '').length === targetLen);
+  const fallback = deduped.filter((item) => (item.chinese || '').length !== targetLen);
+
+  const shuffledSame = shuffleArray(sameLen);
+  const shuffledFallback = shuffleArray(fallback);
+  const wrongChoices = [...shuffledSame, ...shuffledFallback].slice(0, 3);
+
+  return shuffleArray([currentItem, ...wrongChoices]);
 }
