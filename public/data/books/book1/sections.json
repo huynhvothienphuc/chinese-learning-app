@@ -5,7 +5,8 @@
     "title": "Welcome to Taiwan!",
     "file": "section1.json",
     "enabled": true,
-    "theme": "Introducing Myself"
+    "theme": "Introducing Myself",
+    "verified": false
   },
   {
     "id": "section2",
@@ -13,7 +14,8 @@
     "title": "My Family",
     "file": "section2.json",
     "enabled": true,
-    "theme": "Family Members"
+    "theme": "Family Members",
+    "verified": false
   },
   {
     "id": "section3",
@@ -21,7 +23,8 @@
     "title": "What Are You Doing Over the Weekend?",
     "file": "section3.json",
     "enabled": true,
-    "theme": "Hobbies"
+    "theme": "Hobbies",
+    "verified": false
   },
   {
     "id": "section4",
@@ -29,7 +32,8 @@
     "title": "Excuse Me. How Much Does That Cost in Total?",
     "file": "section4.json",
     "enabled": true,
-    "theme": "Shopping"
+    "theme": "Shopping",
+    "verified": false
   },
   {
     "id": "section5",
@@ -37,7 +41,8 @@
     "title": "Beef Noodles Are Really Delicious",
     "file": "section5.json",
     "enabled": true,
-    "theme": "Food and Drink"
+    "theme": "Food and Drink",
+    "verified": false
   },
   {
     "id": "section6",
@@ -45,7 +50,8 @@
     "title": "Their School Is Up in the Mountains",
     "file": "section6.json",
     "enabled": true,
-    "theme": "Locations and Positions"
+    "theme": "Locations and Positions",
+    "verified": false
   },
   {
     "id": "section7",
@@ -53,7 +59,8 @@
     "title": "Going to KTV at 9 O’clock in the Morning",
     "file": "section7.json",
     "enabled": true,
-    "theme": "Time (Time-When and Time-Duration)"
+    "theme": "Time (Time-When and Time-Duration)",
+    "verified": false
   },
   {
     "id": "section8",
@@ -61,7 +68,8 @@
     "title": "Taking a Train to Tainan",
     "file": "section8.json",
     "enabled": true,
-    "theme": "Transportation"
+    "theme": "Transportation",
+    "verified": false
   },
   {
     "id": "section9",
@@ -69,7 +77,8 @@
     "title": "Where Will You Go for the Holidays?",
     "file": "section9.json",
     "enabled": true,
-    "theme": "Leisure"
+    "theme": "Leisure",
+    "verified": false
   },
   {
     "id": "section10",
@@ -77,7 +86,8 @@
     "title": "The Fruit in Taiwan Tastes Really Good",
     "file": "section10.json",
     "enabled": true,
-    "theme": "The Appearance of People and Things"
+    "theme": "The Appearance of People and Things",
+    "verified": false
   },
   {
     "id": "section11",
@@ -85,7 +95,8 @@
     "title": "I Would Like to Rent a Place",
     "file": "section11.json",
     "enabled": true,
-    "theme": "Renting a Place"
+    "theme": "Renting a Place",
+    "verified": false
   },
   {
     "id": "section12",
@@ -93,7 +104,8 @@
     "title": "How Long Will You Be Studying Chinese in Taiwan?",
     "file": "section12.json",
     "enabled": true,
-    "theme": "Study, Work"
+    "theme": "Study, Work",
+    "verified": false
   },
   {
     "id": "section13",
@@ -101,7 +113,8 @@
     "title": "Happy Birthday",
     "file": "section13.json",
     "enabled": true,
-    "theme": "Social Life"
+    "theme": "Social Life",
+    "verified": false
   },
   {
     "id": "section14",
@@ -109,7 +122,8 @@
     "title": "It’s So Cold!",
     "file": "section14.json",
     "enabled": true,
-    "theme": "The Weather"
+    "theme": "The Weather",
+    "verified": false
   },
   {
     "id": "section15",
@@ -117,6 +131,7 @@
     "title": "I Don’t Feel Well",
     "file": "section15.json",
     "enabled": true,
-    "theme": "Falling Sick"
+    "theme": "Falling Sick",
+    "verified": false
   }
 ]

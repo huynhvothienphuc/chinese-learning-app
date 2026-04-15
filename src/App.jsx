@@ -54,6 +54,7 @@ const FAVORITES_STORAGE_KEY = 'favorite-vocabulary';
 const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
 const APP_VERSION = 'v2.0.0';
+const SAMPLE_NOTICE_LAST_SEEN_KEY = 'sample-sentence-notice-last-seen';
 
 const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
 
@@ -117,6 +118,14 @@ function MaintenancePage() {
 function formatFileSize(bytes) {
   if (bytes < 1024) return `${bytes} B`;
   return `${(bytes / 1024).toFixed(1)} KB`;
+}
+
+function getTodayKey() {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
 }
 
 function normalizeUploadedLessons(rawValue) {
@@ -211,6 +220,8 @@ function AppContent() {
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
   const [theme, setTheme] = useLocalStorageState('app-theme', 'green');
   const [fontSize, setFontSize] = useLocalStorageState('font-size', 'lg');
+  const [sampleNoticeLastSeen, setSampleNoticeLastSeen] = useLocalStorageState(SAMPLE_NOTICE_LAST_SEEN_KEY, '');
+  const [isSampleNoticeOpen, setIsSampleNoticeOpen] = useState(false);
   const [themeDropdownOpen, setThemeDropdownOpen] = useState(false);
   const themeDropdownRef = useRef(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
@@ -218,6 +229,11 @@ function AppContent() {
   const fileInputRef = useRef(null);
   const fontSizeSelectRef = useRef(null);
   const initialLoadDoneRef = useRef(false);
+
+  const handleDismissSampleNotice = useCallback(() => {
+    setSampleNoticeLastSeen(getTodayKey());
+    setIsSampleNoticeOpen(false);
+  }, [setSampleNoticeLastSeen]);
 
   const t = localeMap[selectedLanguage] || localeMap.en;
 
@@ -550,10 +566,20 @@ function AppContent() {
   const currentItem = activeVocabulary[currentIndex];
   const selectedBookMeta = useMemo(() => books.find((book) => book.id === selectedBook), [books, selectedBook]);
   const currentSectionMeta = useMemo(() => sections.find((section) => section.file === selectedSection), [sections, selectedSection]);
+  const shouldShowSampleNotice = activeView === 'learn' && currentSectionMeta?.verified === false;
   const sectionLabel = currentSectionMeta?.title || formatSectionName(selectedSection || '');
   const bookLabel = selectedBookMeta?.title || t.userUploadBook;
   const showNoData = !isLoading && !error && activeView === 'learn' && activeVocabulary.length === 0;
   const activeTab = mode === 'quiz' ? 'quiz' : mode === 'review' ? 'review' : mode === 'write' ? 'write' : 'flashcard';
+
+  useEffect(() => {
+    if (!shouldShowSampleNotice) {
+      setIsSampleNoticeOpen(false);
+      return;
+    }
+    if (sampleNoticeLastSeen === getTodayKey()) return;
+    setIsSampleNoticeOpen(true);
+  }, [shouldShowSampleNotice, sampleNoticeLastSeen]);
 
   function getFavoriteKey(item, section = selectedSection) {
     return `${selectedBook}__${section}__${item.chinese}__${item.pinyin}`;
@@ -1327,6 +1353,35 @@ function AppContent() {
               </div>
             )}
           </>
+        )}
+
+        {shouldShowSampleNotice && isSampleNoticeOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/55 px-4 py-6">
+            <Card
+              role="dialog"
+              aria-modal="true"
+              className="w-full max-w-md border-theme-border bg-theme-surface shadow-2xl"
+            >
+              <CardContent className="space-y-4 p-5 sm:p-6">
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400">
+                    <Info className="h-4 w-4 shrink-0" />
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em]">
+                      {t.sampleNoticeTitle}
+                    </p>
+                  </div>
+                  <p className="text-sm leading-6 text-slate-600 dark:text-slate-300">
+                    {t.sampleNoticeBody}
+                  </p>
+                </div>
+                <div className="flex justify-end">
+                  <Button type="button" onClick={handleDismissSampleNotice}>
+                    {t.sampleNoticeAction}
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         )}
 
         <footer className="mt-auto border-t border-slate-200/80 py-6 text-center text-sm text-slate-500/80">

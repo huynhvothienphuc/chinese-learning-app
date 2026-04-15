@@ -175,6 +175,9 @@ export default {
   writeModeTypePrompt: 'Type the Chinese characters for this word.',
   writeModeRetry: 'Retry wrong',
   writeModeDisclaimer: 'Some blanks may have multiple valid answers. We mark against the expected word — if yours is correct but marked wrong, that\'s a known gap we\'re working on.',
+  sampleNoticeTitle: 'Content update notice',
+  sampleNoticeBody: 'Some sample sentences may still contain mistakes for now. Thank you for your patience while we continue updating them! 😊',
+  sampleNoticeAction: 'Got it',
   // Upload / sets manager
   browserStorageWarningTitle: 'Saved in your browser only',
   browserStorageWarningBody: 'This set will be lost if you clear your browser cache. Log in to save permanently.',

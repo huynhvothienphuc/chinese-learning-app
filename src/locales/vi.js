@@ -175,6 +175,9 @@ export default {
   writeModeTypePrompt: 'Nhập chữ Hán cho từ này.',
   writeModeRetry: 'Luyện lại từ sai',
   writeModeDisclaimer: 'Một số chỗ trống có thể có nhiều đáp án đúng. Chúng tôi chấm theo từ gốc — nếu câu trả lời của bạn đúng nhưng bị đánh dấu sai, đó là giới hạn chúng tôi đang cải thiện.',
+  sampleNoticeTitle: 'Thông báo cập nhật nội dung',
+  sampleNoticeBody: 'Một số câu ví dụ hiện vẫn có thể chưa thật sự chính xác. Cảm ơn bạn đã kiên nhẫn trong khi chúng tôi tiếp tục cập nhật và cải thiện! 😊',
+  sampleNoticeAction: 'Đã hiểu',
   // Upload / sets manager
   browserStorageWarningTitle: 'Chỉ lưu trong trình duyệt',
   browserStorageWarningBody: 'Bộ từ này sẽ mất nếu bạn xóa bộ nhớ đệm trình duyệt. Đăng nhập để lưu vĩnh viễn.',

@@ -9,6 +9,7 @@
       "pinyin": "zū",
       "en": "to rent",
       "vi": "thuê",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -25,22 +26,6 @@
           "pinyin": "wǒmen zūle yīxiē shèbèi.",
           "en": "We rented some equipment.",
           "vi": "Chúng tôi thuê một vài thiết bị."
-        },
-        {
-          "type": "Noun",
-          "meaning": "rent",
-          "sentence": "我的月租已經交了。",
-          "pinyin": "wǒ de yuè zū yǐjīng jiāole.",
-          "en": "My monthly rent has been paid.",
-          "vi": "Tôi nộp tiền thuê tháng này rồi."
-        },
-        {
-          "type": "Noun",
-          "meaning": "rent",
-          "sentence": "我的房租是3000塊。",
-          "pinyin": "wǒ de fángzū shì 3000 kuài.",
-          "en": "My rent is 3,000 yuan.",
-          "vi": "Tiền phòng của tôi là 3000 tệ."
         }
       ]
     },
@@ -50,6 +35,7 @@
       "pinyin": "fángdōng",
       "en": "landlord",
       "vi": "chủ nhà",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -75,6 +61,7 @@
       "pinyin": "kètīng",
       "en": "living room",
       "vi": "phòng khách",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -100,6 +87,7 @@
       "pinyin": "chúfáng",
       "en": "kitchen",
       "vi": "nhà bếp",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -125,6 +113,7 @@
       "pinyin": "zuǒbiān",
       "en": "left (side)",
       "vi": "bên trái",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -150,6 +139,7 @@
       "pinyin": "yòubiān",
       "en": "right (side)",
       "vi": "bên phải",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -175,6 +165,7 @@
       "pinyin": "yùshì",
       "en": "bathroom",
       "vi": "phòng tắm",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -200,6 +191,7 @@
       "pinyin": "chāoshì",
       "en": "supermarket",
       "vi": "siêu thị",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -225,6 +217,7 @@
       "pinyin": "zǒulù",
       "en": "to walk",
       "vi": "đi bộ",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -250,6 +243,7 @@
       "pinyin": "fēnzhōng",
       "en": "measure word for minutes",
       "vi": "phút",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Measure Word",
@@ -275,6 +269,7 @@
       "pinyin": "jiù",
       "en": "only, merely",
       "vi": "chỉ / đã",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -291,46 +286,6 @@
           "pinyin": "wǒ zǎo jiù zhīdào zhège xiāoxi.",
           "en": "I have known this news for a long time.",
           "vi": ""
-        },
-        {
-          "type": "Preposition",
-          "meaning": "take advantage of someone (something)",
-          "sentence": "就著這個機會，我們去旅行。",
-          "pinyin": "jiùzhe zhège jīhuì, wǒmen qù lǚxíng.",
-          "en": "Taking advantage of this opportunity, let's go on a trip.",
-          "vi": "Nhân cơ hội này, chúng ta đi du lịch,"
-        },
-        {
-          "type": "Preposition",
-          "meaning": "when it comes to someone (something); concerning; with regard to; on",
-          "sentence": "就電影來説，這部很精綵。",
-          "pinyin": "jiù diànyǐng lái shuō, zhè bù hěn jīngcǎi.",
-          "en": "When it comes to movies, this one is excellent.",
-          "vi": ""
-        },
-        {
-          "type": "Verb",
-          "meaning": "be eaten with; go with",
-          "sentence": "她喜歡麵包就果醬。",
-          "pinyin": "tā xǐhuan miànbāo jiù guǒjiàng.",
-          "en": "She likes to eat bread with jam.",
-          "vi": "Cô ấy thích ăn bánh mì kèm với mứt."
-        },
-        {
-          "type": "Verb",
-          "meaning": "come near; move towards",
-          "sentence": "你就著窗口看風景。",
-          "pinyin": "nǐ jiùzhe chuāngkǒu kàn fēngjǐng.",
-          "en": "You look at the scenery by the window.",
-          "vi": ""
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "even if",
-          "sentence": "就算下雨，我們也要去。",
-          "pinyin": "jiùsuàn xià yǔ, wǒmen yě yào qù.",
-          "en": "Even if it rains, we still have to go.",
-          "vi": ""
         }
       ]
     },
@@ -340,6 +295,7 @@
       "pinyin": "dào",
       "en": "arrive",
       "vi": "đến / tới",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -356,46 +312,6 @@
           "pinyin": "wǒmen yào dào yínháng qǔ qián.",
           "en": "We need to go to the bank to withdraw money.",
           "vi": "Chúng ta cần đến ngân hàng rút tiền."
-        },
-        {
-          "type": "Preposition",
-          "meaning": "up until; up to",
-          "sentence": "結果到明天才/纔知道。",
-          "pinyin": "jiéguǒ dào míngtiān cái zhīdào.",
-          "en": "We won't know the result until tomorrow.",
-          "vi": "Kết quả phải đến mai mới biết."
-        },
-        {
-          "type": "Preposition",
-          "meaning": "up until; up to",
-          "sentence": "車票到次日才/纔能拿到手。",
-          "pinyin": "chēpiào dào cì rì cáinéng ná dàoshǒu.",
-          "en": "You can get the bus ticket the next day.",
-          "vi": "Vé xe sẽ được nhận vào ngày hôm sau."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "thoughtful; considerate",
-          "sentence": "她是一個很週到的人。",
-          "pinyin": "tā shì yīgè hěn zhōudào de rén.",
-          "en": "She is a very considerate person.",
-          "vi": "Cô ấy là một người rất chu đáo."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "thoughtful; considerate",
-          "sentence": "這傢酒店的服務非常週到。",
-          "pinyin": "zhè jiā jiǔdiàn de fúwù fēicháng zhōudào.",
-          "en": "The service at this hotel is very attentive.",
-          "vi": "Dịch vụ của khách sạn này rất chu đáo."
-        },
-        {
-          "type": "Noun",
-          "meaning": "a surname",
-          "sentence": "他姓到。",
-          "pinyin": "tā xìng dào.",
-          "en": "His family name is Dao.",
-          "vi": "Anh ấy họ Đáo."
         }
       ]
     },
@@ -405,6 +321,7 @@
       "pinyin": "jiān",
       "en": "measure word for houses, rooms, etc.",
       "vi": "căn / gian (lượng từ cho nhà, phòng)",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "noun",
@@ -421,22 +338,6 @@
           "pinyin": "péngyǒu zhī jiān yào hùxiāng bāngzhù.",
           "en": "Friends should help each other.",
           "vi": "Giữa bạn bè cần giúp đỡ lẫn nhau."
-        },
-        {
-          "type": "measure word",
-          "meaning": "room (the smallest unit of a house)",
-          "sentence": "我傢有三間臥室。",
-          "pinyin": "wǒjiā yǒusān jiān wòshì.",
-          "en": "My house has three bedrooms.",
-          "vi": "Nhà tớ có 3 phòng ngủ."
-        },
-        {
-          "type": "measure word",
-          "meaning": "room (the smallest unit of a house)",
-          "sentence": "這間屋子很幹凈。",
-          "pinyin": "zhè jiān wūzǐ hěn gānjìng.",
-          "en": "This room is very clean.",
-          "vi": "Phòng này rất sạch sẽ."
         }
       ]
     },
@@ -446,6 +347,7 @@
       "pinyin": "kōng",
       "en": "vacant, empty",
       "vi": "trống",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -462,38 +364,6 @@
           "pinyin": "tā de xīnlǐ gǎndào kōngxū.",
           "en": "She feels empty inside.",
           "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "sky; air",
-          "sentence": "今晚的天空很美。",
-          "pinyin": "jīn wǎn de tiānkōng hěn měi.",
-          "en": "The sky is beautiful tonight.",
-          "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "sky; air",
-          "sentence": "他在天空中飛翔。",
-          "pinyin": "tā zài tiānkōng zhōng fēixiáng.",
-          "en": "He is flying in the sky.",
-          "vi": ""
-        },
-        {
-          "type": "Adverb",
-          "meaning": "in vain; for nothing",
-          "sentence": "他空忙了一天。",
-          "pinyin": "tā kōng mángle yītiān.",
-          "en": "He worked in vain all day.",
-          "vi": ""
-        },
-        {
-          "type": "Adverb",
-          "meaning": "in vain; for nothing",
-          "sentence": "別空跑一趟了。",
-          "pinyin": "bié kōng pǎo yī tàngle.",
-          "en": "Don’t make a trip for nothing.",
-          "vi": ""
         }
       ]
     },
@@ -503,6 +373,7 @@
       "pinyin": "fángjiān",
       "en": "room",
       "vi": "phòng",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -528,6 +399,7 @@
       "pinyin": "tàofáng",
       "en": "suite",
       "vi": "phòng khép kín / căn hộ studio",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -553,6 +425,7 @@
       "pinyin": "huíqù",
       "en": "to go back, to return",
       "vi": "đi về / trở về",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -578,6 +451,7 @@
       "pinyin": "xiǎng",
       "en": "to think",
       "vi": "nghĩ",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -603,6 +477,7 @@
       "pinyin": "zài",
       "en": "and then",
       "vi": "lại / rồi mới",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -619,30 +494,6 @@
           "pinyin": "wǒmen zài tīng yībiàn yīnyuè.",
           "en": "Let's listen to the music one more time.",
           "vi": "Chúng ta nghe bản nhạc lại một lần nữa."
-        },
-        {
-          "type": "Verb",
-          "meaning": "come back; continue; return; reappear",
-          "sentence": "他們再一次相聚在一起。",
-          "pinyin": "tāmen zài yīcì xiāngjù zài yīqǐ.",
-          "en": "They reunited once again.",
-          "vi": "Họ lại một lần nữa tụ họp."
-        },
-        {
-          "type": "Verb",
-          "meaning": "come back; continue; return; reappear",
-          "sentence": "春天再來時，花兒綻放。",
-          "pinyin": "chūntiān zàilái shí, huār zhànfàng.",
-          "en": "When spring comes again, flowers will bloom.",
-          "vi": "Mùa xuân lại đến, hoa sẽ nở."
-        },
-        {
-          "type": "Noun",
-          "meaning": "a surname",
-          "sentence": "我的朋友姓再。",
-          "pinyin": "wǒ de péngyou xìng zài.",
-          "en": "My friend's surname is Zai.",
-          "vi": "Bạn của tôi họ Tái."
         }
       ]
     },
@@ -652,6 +503,7 @@
       "pinyin": "diànhuà",
       "en": "telephone",
       "vi": "điện thoại",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -677,6 +529,7 @@
       "pinyin": "gěi",
       "en": "to",
       "vi": "cho",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -693,38 +546,6 @@
           "pinyin": "tā gěi wǒ yī běn shū.",
           "en": "He gave me a book.",
           "vi": "Anh ấy cho tôi một cuốn sách."
-        },
-        {
-          "type": "Preposition",
-          "meaning": "by",
-          "sentence": "我的衣服給淋濕了。",
-          "pinyin": "wǒ de yīfu gěi lín shīle.",
-          "en": "My clothes got soaked.",
-          "vi": "Quần áo tôi bị ướt mất rồi."
-        },
-        {
-          "type": "Preposition",
-          "meaning": "by",
-          "sentence": "盃子給弟弟打碎了。",
-          "pinyin": "bēizǐ gěi dìdi dǎ suìle.",
-          "en": "The cup was broken by my younger brother.",
-          "vi": "Cốc bị em trai làm vỡ rồi."
-        },
-        {
-          "type": "av",
-          "meaning": "used before a verb for emphasis",
-          "sentence": "我把那件事給忘了。",
-          "pinyin": "wǒ bǎ nà jiàn shì gěi wàng le.",
-          "en": "I've forgot the matter.",
-          "vi": "Tôi quên béng mất việc đó rồi."
-        },
-        {
-          "type": "av",
-          "meaning": "used before a verb for emphasis",
-          "sentence": "我把作業給忘了。",
-          "pinyin": "wǒ bǎ zuòyè gěi wàngle.",
-          "en": "I totally forgot the homework.",
-          "vi": "Tôi quên béng mất bài tập rồi."
         }
       ]
     },
@@ -734,6 +555,7 @@
       "pinyin": "Lín",
       "en": "Chinese last name, common in Taiwan",
       "vi": "họ Lâm",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -759,6 +581,7 @@
       "pinyin": "dǎ diànhuà",
       "en": "to make a phone call",
       "vi": "gọi điện thoại",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -784,6 +607,7 @@
       "pinyin": "wéi",
       "en": "particle used in addressing people over the phone",
       "vi": "alo",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "intj",
@@ -800,22 +624,6 @@
           "pinyin": "Wèi, nǐ de wéijīn kuài diào le.",
           "en": "Hey, your scarf is slipping off.",
           "vi": ""
-        },
-        {
-          "type": "Verb",
-          "meaning": "raise; feed (animals)",
-          "sentence": "你能幫我餵狗嗎？",
-          "pinyin": "nǐ néng bāng wǒ wèi gǒu ma?",
-          "en": "Can you help me feed the dog?",
-          "vi": "Bạn có thể giúp tôi cho chó ăn không?"
-        },
-        {
-          "type": "Verb",
-          "meaning": "raise; feed (animals)",
-          "sentence": "她正在餵馬吃/喫草。",
-          "pinyin": "tā zhèngzài wèi mǎ chī cǎo.",
-          "en": "She is feeding grass to the horse.",
-          "vi": ""
         }
       ]
     },
@@ -825,6 +633,7 @@
       "pinyin": "fángzū",
       "en": "rent (for a room or a house)",
       "vi": "tiền thuê nhà",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -850,6 +659,7 @@
       "pinyin": "yǐjīng",
       "en": "already",
       "vi": "đã",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -875,6 +685,7 @@
       "pinyin": "xíguàn",
       "en": "to get settled down, to get used to",
       "vi": "quen / tập quán",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -891,22 +702,6 @@
           "pinyin": "wǒ xíguàn měitiān wǎnshàng dúshū.",
           "en": "I am used to reading books every night.",
           "vi": "Tôi đã quen với việc đọc sách mỗi tối."
-        },
-        {
-          "type": "Noun",
-          "meaning": "habit; custom; usual practice",
-          "sentence": "我要改掉熬夜的習慣。",
-          "pinyin": "wǒ yào gǎi diào áoyè de xíguàn.",
-          "en": "I want to give up the habit of staying up late.",
-          "vi": "Tôi muốn bỏ thói quen thức khuya."
-        },
-        {
-          "type": "Noun",
-          "meaning": "habit; custom; usual practice",
-          "sentence": "沒有改不掉的習慣。",
-          "pinyin": "méiyǒu gǎi bù diào de xíguàn.",
-          "en": "There are no habits that cannot be changed.",
-          "vi": "Không có thói quen nào là không bỏ được."
         }
       ]
     },
@@ -916,6 +711,7 @@
       "pinyin": "wèntí",
       "en": "problem, question",
       "vi": "vấn đề",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -932,22 +728,6 @@
           "pinyin": "zhè cì kǎoshì yīgòng yǒu wǔ gè wèntí.",
           "en": "There are five questions in this exam.",
           "vi": "Lần thi này có tất cả 5 câu hỏi."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "disqualified; undesirable",
-          "sentence": "他是個問題學生。",
-          "pinyin": "tā shìgè wèntí xuéshēng.",
-          "en": "He is a problematic student.",
-          "vi": "Anh ấy là một học sinh không bình thường."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "disqualified; undesirable",
-          "sentence": "這些問題食品對身體有害。",
-          "pinyin": "zhèxiē wèntí shípǐn duì shēntǐ yǒuhài.",
-          "en": "These problematic foods are harmful to the body.",
-          "vi": "Những thực phẩm không bình thường này có hại cho cơ thể."
         }
       ]
     },
@@ -957,6 +737,7 @@
       "pinyin": "rèshuǐqì",
       "en": "water heater",
       "vi": "máy nước nóng",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -982,6 +763,7 @@
       "pinyin": "hǎoxiàng",
       "en": "to seem to be, to appear to be",
       "vi": "hình như / có vẻ như",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -998,22 +780,6 @@
           "pinyin": "tā shuōhuà de yǔqì hǎoxiàng tā māma.",
           "en": "Her tone of voice is very similar to her mother's.",
           "vi": "Ngữ khí nói chuyện của cố ấy giống như mẹ cô ấy."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "likely; as if",
-          "sentence": "她好像在思考什麼問題。",
-          "pinyin": "tā hǎoxiàng zài sīkǎo shénme wèntí.",
-          "en": "She seemed to be thinking about something.",
-          "vi": "Cô ấy dường như đang suy nghĩ về điều gì đó."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "likely; as if",
-          "sentence": "他好像明白我的意思了。",
-          "pinyin": "tā hǎoxiàng míngbái wǒ de yìsile.",
-          "en": "He seems to have understood what I mean.",
-          "vi": ""
         }
       ]
     },
@@ -1023,6 +789,7 @@
       "pinyin": "huì",
       "en": "will",
       "vi": "sẽ",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Measure Word",
@@ -1039,38 +806,6 @@
           "pinyin": "tā yīhuǐr jiù láile.",
           "en": "He will arrive in a little while.",
           "vi": "Một lát nữa anh ấy sẽ đến."
-        },
-        {
-          "type": "Verb",
-          "meaning": "be likely to; be sure to",
-          "sentence": "明天會議會取消。",
-          "pinyin": "míngtiān huìyì huì qǔxiāo.",
-          "en": "Tomorrow's meeting will be canceled.",
-          "vi": "Cuộc họp ngày mai sẽ bị hủy."
-        },
-        {
-          "type": "Verb",
-          "meaning": "be likely to; be sure to",
-          "sentence": "你放心，他一定會來。",
-          "pinyin": "nǐ fàngxīn, tā yīdìng huì lái.",
-          "en": "He will arrive in a little while.",
-          "vi": "Yên tâm, anh ấy chắc chắn sẽ đến."
-        },
-        {
-          "type": "Noun",
-          "meaning": "gathering; party; conference",
-          "sentence": "她今晚要參加舞會。",
-          "pinyin": "tā jīn wǎn yào cānjiā wǔhuì.",
-          "en": "She will attend a dance party tonight.",
-          "vi": "Cô ấy sẽ tham gia buổi khiêu vũ tối nay."
-        },
-        {
-          "type": "Noun",
-          "meaning": "gathering; party; conference",
-          "sentence": "明天我參加一個衕學聚會。",
-          "pinyin": "míngtiān wǒ cānjiā yīgè tóngxué jùhuì.",
-          "en": "Tomorrow I will attend a class reunion.",
-          "vi": "Ngày mai tôi tham gia một buổi họp lớp."
         }
       ]
     },
@@ -1080,6 +815,7 @@
       "pinyin": "děng",
       "en": "to wait for",
       "vi": "đợi / chờ",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1096,86 +832,6 @@
           "pinyin": "wǒ zài ménkǒu děng nǐ.",
           "en": "I'll wait for you at the door.",
           "vi": "Tôi đợi bạn ở cửa."
-        },
-        {
-          "type": "Particle",
-          "meaning": "and so on; and so forth; etc.",
-          "sentence": "動物園有老虎、猴子等等。",
-          "pinyin": "dòngwùyuán yǒu lǎohǔ, hóuzi děng děng.",
-          "en": "The zoo has tigers, monkeys, etc.",
-          "vi": "Vườn thú có hổ, khỉ v.v."
-        },
-        {
-          "type": "Particle",
-          "meaning": "and so on; and so forth; etc.",
-          "sentence": "我喜歡吃/喫蘋果、香蕉、橘子等等。",
-          "pinyin": "wǒ xǐhuān chī píngguǒ, xiāngjiāo, júzi děng děng.",
-          "en": "I like eating apples, bananas, oranges, etc.",
-          "vi": "Tôi thích ăn táo, chuối, cam, v.v."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "equal",
-          "sentence": "他們的成績差不多等。",
-          "pinyin": "tāmen de chéng jī chàbùduō děng.",
-          "en": "Their grades are almost the same.",
-          "vi": "Điểm số của họ gần như bằng nhau."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "equal",
-          "sentence": "他倆的年齡差不多等。",
-          "pinyin": "tā liǎ de niánlíng chā bù duō děng.",
-          "en": "Their ages are about the same.",
-          "vi": ""
-        },
-        {
-          "type": "Measure Word",
-          "meaning": "kind; sort; type",
-          "sentence": "此等人總是自以為是。",
-          "pinyin": "cǐ děng rén zǒng shì zìyǐwéishì.",
-          "en": "People like this always think they're right.",
-          "vi": "Loại người này luôn tự cho mình là đúng."
-        },
-        {
-          "type": "Measure Word",
-          "meaning": "kind; sort; type",
-          "sentence": "這裡/裏有很多等水果。",
-          "pinyin": "zhèlǐ yǒu hěnduō děng shuǐguǒ.",
-          "en": "There are many kinds of fruits here.",
-          "vi": "Ở đây có rất nhiều loại hoa quả."
-        },
-        {
-          "type": "Noun",
-          "meaning": "class; grade; rank",
-          "sentence": "我喜歡坐一等座。",
-          "pinyin": "wǒ xǐhuan zuò yī děng zuò.",
-          "en": "I like to sit in first class.",
-          "vi": "Tôi thích ngồi ghế hạng nhất."
-        },
-        {
-          "type": "Noun",
-          "meaning": "class; grade; rank",
-          "sentence": "他買了一等座車票。",
-          "pinyin": "tā mǎile yī děng zuò chēpiào.",
-          "en": "He bought a first-class ticket.",
-          "vi": "Anh ấy đã mua vé hạng nhất."
-        },
-        {
-          "type": "Pronoun",
-          "meaning": "after a personal pronoun or name to show plurality",
-          "sentence": "我等明天就齣髮/發。",
-          "pinyin": "wǒ děng míngtiān jiù chūfā.",
-          "en": "We will depart tomorrow.",
-          "vi": "Ngày mai chúng tôi sẽ đi."
-        },
-        {
-          "type": "Pronoun",
-          "meaning": "after a personal pronoun or name to show plurality",
-          "sentence": "彼等總是自行其是。",
-          "pinyin": "bǐ děng zǒng shì zìxíngqíshì.",
-          "en": "They always act on their own.",
-          "vi": "Những người ấy luôn làm theo ý mình."
         }
       ]
     },
@@ -1185,6 +841,7 @@
       "pinyin": "nà",
       "en": "then, in that case",
       "vi": "vậy thì",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Pronoun",
@@ -1201,22 +858,6 @@
           "pinyin": "nà bùshì wǒ de shǒujī.",
           "en": "That is not my phone.",
           "vi": ""
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "then; in that case",
-          "sentence": "你沒來，那我就自己去。",
-          "pinyin": "nǐ méi lái, nà wǒ jiù zìjǐ qù.",
-          "en": "You didn’t come, so I’ll go by myself.",
-          "vi": ""
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "then; in that case",
-          "sentence": "這麼冷，那待在傢吧。",
-          "pinyin": "zhème lěng, nà dài zàijiā ba.",
-          "en": "It’s so cold, so stay at home.",
-          "vi": ""
         }
       ]
     },
@@ -1226,6 +867,7 @@
       "pinyin": "zhuāng",
       "en": "to install",
       "vi": "lắp đặt",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1242,22 +884,6 @@
           "pinyin": "zhè jiā diàn mài gè zhǒng fúzhuāng.",
           "en": "This store sells various kinds of clothing.",
           "vi": ""
-        },
-        {
-          "type": "Verb",
-          "meaning": "deck; adorn; attire; decorate; dress up",
-          "sentence": "她喜歡裝扮成公主。",
-          "pinyin": "tā xǐhuan zhuāngbàn chéng gōngzhǔ.",
-          "en": "She likes to dress up as a princess.",
-          "vi": "Cô ấy thích hóa trang thành công chúa."
-        },
-        {
-          "type": "Verb",
-          "meaning": "deck; adorn; attire; decorate; dress up",
-          "sentence": "演員們在後臺裝扮。",
-          "pinyin": "yǎnyuánmen zài hòutái zhuāngbàn.",
-          "en": "The actors are dressing up backstage.",
-          "vi": "Các diễn viên đang trang điểm ở phía sau sân khấu."
         }
       ]
     },
@@ -1267,6 +893,7 @@
       "pinyin": "búguò",
       "en": "however, but",
       "vi": "có điều / nhưng",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -1283,22 +910,6 @@
           "pinyin": "tā bùguò shì kāi gè wánxiào.",
           "en": "He is just making a joke.",
           "vi": "Anh ấy chỉ là đùa chút thôi."
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "but; however; only",
-          "sentence": "他很聰明，不過不夠努力。",
-          "pinyin": "tā hěn cōngmíng, bùguò bu gòu nǔlì.",
-          "en": "He is smart, but not hardworking enough.",
-          "vi": ""
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "but; however; only",
-          "sentence": "天氣很好，不過有點冷。",
-          "pinyin": "tiānqì hěn hǎo, bùguò yǒudiǎn lěng.",
-          "en": "The weather is nice, but a bit cold.",
-          "vi": ""
         }
       ]
     },
@@ -1308,6 +919,7 @@
       "pinyin": "fù",
       "en": "to pay",
       "vi": "trả tiền / thanh toán",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1324,30 +936,6 @@
           "pinyin": "wǒ bǎ zhè xiàng rènwù tuōfù gěi nǐle.",
           "en": "I entrust this task to you.",
           "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "a surname",
-          "sentence": "他爸爸姓付。",
-          "pinyin": "tā bàba xìng fù.",
-          "en": "His father's surname is Fu.",
-          "vi": "Bố anh ấy họ Phó."
-        },
-        {
-          "type": "Measure Word",
-          "meaning": "used for a set of things or for facial expressions",
-          "sentence": "他買了一付茶具。",
-          "pinyin": "tā mǎile yī fù chájù.",
-          "en": "He bought a tea set.",
-          "vi": ""
-        },
-        {
-          "type": "Measure Word",
-          "meaning": "used for a set of things or for facial expressions",
-          "sentence": "她戴著一付耳環。",
-          "pinyin": "tā dàizhe yī fù ěrhuán.",
-          "en": "She is wearing a pair of earrings.",
-          "vi": ""
         }
       ]
     },
@@ -1357,6 +945,7 @@
       "pinyin": "shōudào",
       "en": "to receive",
       "vi": "nhận được",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1382,6 +971,7 @@
       "pinyin": "bùhǎo yìsi",
       "en": "sorry",
       "vi": "ngại quá / xin lỗi",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "phrase",
@@ -1407,6 +997,7 @@
       "pinyin": "méi guānxi",
       "en": "Not a problem.",
       "vi": "không sao đâu / không có gì",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1432,7 +1023,9 @@
       "pinyin": "yǒuxiàn diànshì",
       "en": "cable TV",
       "vi": "truyền hình cáp",
+      "sinoVietnamese": "",
       "samples": []
     }
-  ]
+  ],
+  "verified": false
 }

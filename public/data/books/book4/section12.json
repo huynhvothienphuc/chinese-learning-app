@@ -10,6 +10,7 @@
       "en": "wonderful, beautiful",
       "vi": "đẹp đẽ, tốt đẹp",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -36,6 +37,7 @@
       "en": "to be elected to an office",
       "vi": "trúng cử",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -62,6 +64,7 @@
       "en": "I don't care; does not bother me",
       "vi": "không sao cả, sao cũng được",
       "theme": "Psychology",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -88,6 +91,7 @@
       "en": "sensitive",
       "vi": "nhạy cảm",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -114,6 +118,7 @@
       "en": "chemical, chemistry",
       "vi": "hóa học",
       "theme": "Science",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -140,6 +145,7 @@
       "en": "additives",
       "vi": "chất phụ gia",
       "theme": "Food",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -158,6 +164,7 @@
       "en": "residue",
       "vi": "tàn dư, dư lượng",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -184,6 +191,7 @@
       "en": "to amend, modify",
       "vi": "sửa đổi",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -210,6 +218,7 @@
       "en": "laws and regulations, statutes",
       "vi": "pháp quy, quy định pháp luật",
       "theme": "Law",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -236,6 +245,7 @@
       "en": "to care for, provide nursing care",
       "vi": "an dưỡng, nuôi dưỡng",
       "theme": "Society",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -262,6 +272,7 @@
       "en": "river and stream",
       "vi": "sông ngòi",
       "theme": "Nature",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -288,6 +299,7 @@
       "en": "to be separate oneself from, break away from",
       "vi": "thoát ly, rời khỏi",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -314,6 +326,7 @@
       "en": "background",
       "vi": "bối cảnh",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -340,6 +353,7 @@
       "en": "area (of study), walk of life",
       "vi": "lĩnh vực",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -366,6 +380,7 @@
       "en": "unexpectedly, surprisingly",
       "vi": "vậy mà, bỗng nhiên",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -392,6 +407,7 @@
       "en": "president",
       "vi": "tổng thống",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -418,6 +434,7 @@
       "en": "security, to guarantee",
       "vi": "bảo đảm",
       "theme": "Law",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -434,22 +451,6 @@
           "pinyin": "bǎoxiǎn bǎozhàng nǐ de cáichǎn ānquán.",
           "en": "Insurance ensures the safety of your property.",
           "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "security; guarantee",
-          "sentence": "這項措施是對員工的保障。",
-          "pinyin": "zhè xiàng cuòshī shì duì yuángōng de bǎozhàng.",
-          "en": "This measure is a guarantee for the employees.",
-          "vi": "Biện pháp này là sự bảo vệ cho nhân viên."
-        },
-        {
-          "type": "Noun",
-          "meaning": "security; guarantee",
-          "sentence": "政府已經提供了社會保障。",
-          "pinyin": "zhèngfǔ yǐjīng tígōngle shèhuì bǎozhàng.",
-          "en": "The government has already provided social security.",
-          "vi": ""
         }
       ]
     },
@@ -460,6 +461,7 @@
       "en": "special privileges",
       "vi": "đặc quyền",
       "theme": "Society",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -486,6 +488,7 @@
       "en": "to control, monopolize",
       "vi": "nắm giữ, thao túng",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -512,6 +515,7 @@
       "en": "to oversee, monitor, supervise",
       "vi": "giám sát",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -528,22 +532,6 @@
           "pinyin": "tā fùzé jiāndū gōngdì de ānquán.",
           "en": "He is responsible for supervising the safety of the construction site.",
           "vi": "Anh ấy phụ trách giám sát an toàn tại công trường."
-        },
-        {
-          "type": "Noun",
-          "meaning": "monitoring; supervision",
-          "sentence": "爸爸在劇院做舞臺監督。",
-          "pinyin": "bàba zài jùyuàn zuò wǔtái jiāndū.",
-          "en": "Dad works as a stage supervisor at the theater.",
-          "vi": "Bô làm giám sát viên sân khấu ở sân khấu kịch."
-        },
-        {
-          "type": "Noun",
-          "meaning": "monitoring; supervision",
-          "sentence": "公司在招聘財務監督。",
-          "pinyin": "gōngsī zài zhāopìn cáiwù jiāndū.",
-          "en": "The company is hiring a financial supervisor.",
-          "vi": "Công ty đang tuyển giám sát viên tài chính."
         }
       ]
     },
@@ -554,6 +542,7 @@
       "en": "to recall, remove from office",
       "vi": "bãi miễn, cách chức",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -580,6 +569,7 @@
       "en": "power, authority",
       "vi": "quyền hạn, quyền lực",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "noun",
@@ -596,38 +586,6 @@
           "pinyin": "quán de dàxiǎo yǐngxiǎng chēng zhòng.",
           "en": "The magnitude of the weight affects the weighing.",
           "vi": "Kích thước của quả cân ảnh hưởng đến cân nặng."
-        },
-        {
-          "type": "verb",
-          "meaning": "weigh",
-          "sentence": "他在權衡不衕的選擇。",
-          "pinyin": "tā zài quánhéng bùtóng de xuǎnzé.",
-          "en": "He was weighing the different options.",
-          "vi": "Nh ấy đang cân nhắc các lựa chọn khác nhau."
-        },
-        {
-          "type": "verb",
-          "meaning": "weigh",
-          "sentence": "我正在權衡我的決定。",
-          "pinyin": "wǒ zhèngzài quánhéng wǒ de juédìng.",
-          "en": "I am weighing my decision.",
-          "vi": "Tôi đang suy nghĩ về quyết định của mình."
-        },
-        {
-          "type": "adverb",
-          "meaning": "tentatively; for the time being",
-          "sentence": "我權等一下再做決定。",
-          "pinyin": "wǒ quán děng yīxià zài zuò juédìng.",
-          "en": "I'll wait and make a decision later.",
-          "vi": "Tạm thời tôi sẽ quyết định sau."
-        },
-        {
-          "type": "adverb",
-          "meaning": "tentatively; for the time being",
-          "sentence": "權把任務交給你做。",
-          "pinyin": "quán bǎ rènwù jiāo gěi nǐ zuò.",
-          "en": "I'm entrusting this task to you.",
-          "vi": "Tạm cứ giao nhiệm vụ cho bạn làm."
         }
       ]
     },
@@ -638,6 +596,7 @@
       "en": "clean and capable",
       "vi": "liêm khiết và tài năng",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -654,38 +613,6 @@
           "pinyin": "nǐ bù kěnéng tíchū yīgè bāoluó wànxiàng de jiànyì.",
           "en": "You can not possibly make an all-embracing proposal.",
           "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "ability; capability; skill",
-          "sentence": "無能",
-          "pinyin": "wúnéng",
-          "en": "Incompetent",
-          "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "energy",
-          "sentence": "風能",
-          "pinyin": "fēngnéng",
-          "en": "Wind energy",
-          "vi": ""
-        },
-        {
-          "type": "Adjective",
-          "meaning": "able; capable",
-          "sentence": "有什麼能改變掃地機器人的既定編程路線。",
-          "pinyin": "yǒu shíyāo néng gǎibiàn sǎodì jīqìrén de jìdìng biānchéng lùxiàn",
-          "en": "What might alter a programmable route for a Roomba?",
-          "vi": ""
-        },
-        {
-          "type": "Adjective",
-          "meaning": "able; capable",
-          "sentence": "未能前去拜辭, 敬請見諒。",
-          "pinyin": "Wèinéng qiánqù bàicí, jìngqǐng jiànliàng.",
-          "en": "Please pardon me for not being able to bid you farewell.",
-          "vi": ""
         }
       ]
     },
@@ -696,6 +623,7 @@
       "en": "affluent, abundant",
       "vi": "giàu có, sung túc",
       "theme": "Economy",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -722,6 +650,7 @@
       "en": "to care about",
       "vi": "để tâm, chú trọng",
       "theme": "Psychology",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -748,6 +677,7 @@
       "en": "life",
       "vi": "sinh mạng",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -774,6 +704,7 @@
       "en": "property, assets",
       "vi": "tài sản",
       "theme": "Economy",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -800,6 +731,7 @@
       "en": "volunteer",
       "vi": "tình nguyện viên",
       "theme": "Work",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -826,6 +758,7 @@
       "en": "election campaign",
       "vi": "cuộc chiến bầu cử",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -844,6 +777,7 @@
       "en": "promise; to promise",
       "vi": "cam kết, hứa hẹn",
       "theme": "Communication",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -860,22 +794,6 @@
           "pinyin": "tā chéngnuò měitiān zhǔnshí shàngbān.",
           "en": "He promised to be on time for work every day.",
           "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "pledge; promise; undertaking; commitment",
-          "sentence": "她的承諾對我很重要。",
-          "pinyin": "tā de chéngnuò duì wǒ hěn zhòngyào.",
-          "en": "Her promise means a lot to me.",
-          "vi": "Lời hứa của cô ấy rất quan trọng với tôi."
-        },
-        {
-          "type": "Noun",
-          "meaning": "pledge; promise; undertaking; commitment",
-          "sentence": "承諾是對他人的保證。",
-          "pinyin": "chéngnuò shì duì tārén de bǎozhèng.",
-          "en": "A promise is a pledge made to someone.",
-          "vi": ""
         }
       ]
     },
@@ -886,6 +804,7 @@
       "en": "to lead",
       "vi": "dẫn dắt",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -912,6 +831,7 @@
       "en": "power, strength",
       "vi": "lực lượng, sức mạnh",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -938,6 +858,7 @@
       "en": "to rid of, break away from",
       "vi": "thoát khỏi, vứt bỏ",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -964,6 +885,7 @@
       "en": "dire situation, straits",
       "vi": "khốn cảnh, tình cảnh khó khăn",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -990,6 +912,7 @@
       "en": "real estate",
       "vi": "bất động sản",
       "theme": "Economy",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1016,6 +939,7 @@
       "en": "from such trivialities to such major concerns",
       "vi": "từ việc nhỏ... cho đến việc lớn...",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Preposition",
@@ -1032,54 +956,6 @@
           "pinyin": "wǒ huì děng nǐ zhì tiān hēi.",
           "en": "I will wait for you until it gets dark.",
           "vi": "Tôi sẽ đợi bạn cho đến khi trời tối."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "most; extremely",
-          "sentence": "她對音樂的理解至深。",
-          "pinyin": "tā duì yīnyuè de lǐjiě zhì shēn.",
-          "en": "Her understanding of music is extremely deep.",
-          "vi": "Cô ấy hiểu biết về âm nhạc rất sâu."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "most; extremely",
-          "sentence": "今天的天氣炎熱至極。",
-          "pinyin": "jīntiān de tiānqì yánrè zhìjí.",
-          "en": "Today’s weather is extremely hot.",
-          "vi": "Thời tiết hôm nay vô cùng nóng bức."
-        },
-        {
-          "type": "Verb",
-          "meaning": "arrive; reach",
-          "sentence": "他已至公司。",
-          "pinyin": "tā yǐ zhì gōngsī.",
-          "en": "He has arrived at the company.",
-          "vi": "Anh ấy đã đến công ty."
-        },
-        {
-          "type": "Verb",
-          "meaning": "arrive; reach",
-          "sentence": "我們將至機場。",
-          "pinyin": "wǒmen jiāng zhì jīchǎng.",
-          "en": "We will arrive at the airport.",
-          "vi": "Chúng tôi sẽ đến sân bay."
-        },
-        {
-          "type": "Noun",
-          "meaning": "extreme, utmost",
-          "sentence": "今天是鼕至。",
-          "pinyin": "jīntiān shì dōngzhì.",
-          "en": "Today is the Winter Solstice.",
-          "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "extreme, utmost",
-          "sentence": "夏至的時候白天最長。",
-          "pinyin": "xiàzhì de shíhòu báitiān zuì cháng.",
-          "en": "The daytime is longest at Summer Solstice.",
-          "vi": ""
         }
       ]
     },
@@ -1090,6 +966,7 @@
       "en": "whether or not",
       "vi": "có hay không",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -1116,6 +993,7 @@
       "en": "normally, logically speaking",
       "vi": "theo lý mà nói",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1132,14 +1010,6 @@
           "pinyin": "tā wěiwǎn de shuōmíngle yuányīn.",
           "en": "He tactfully explained the reason.",
           "vi": ""
-        },
-        {
-          "type": "Noun",
-          "meaning": "theory; teachings; doctrine",
-          "sentence": "著書立説",
-          "pinyin": "zhù shū lì shuō",
-          "en": "Write books to expound a theory",
-          "vi": ""
         }
       ]
     },
@@ -1150,6 +1020,7 @@
       "en": "politicians",
       "vi": "nhân vật chính trị",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": []
     },
     {
@@ -1159,6 +1030,7 @@
       "en": "suffering",
       "vi": "chịu khổ",
       "theme": "Emotions",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1185,6 +1057,7 @@
       "en": "rich, affluent",
       "vi": "phú dật, giàu có",
       "theme": "Economy",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1211,6 +1084,7 @@
       "en": "to graft, corruption",
       "vi": "tham ô",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1237,6 +1111,7 @@
       "en": "corruption",
       "vi": "hủ bại, thối nát",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1253,22 +1128,6 @@
           "pinyin": "shuǐguǒ fàng zài tài jiǔ huì fǔbài.",
           "en": "Fruit will rot if left for too long.",
           "vi": "Trái cây để quá lâu sẽ bị thối."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "(of ideas) corrupt; decadent",
-          "sentence": "他的思想非常腐敗。",
-          "pinyin": "tā de sīxiǎng fēicháng fǔbài.",
-          "en": "His thinking is very corrupt.",
-          "vi": ""
-        },
-        {
-          "type": "Adjective",
-          "meaning": "(of ideas) corrupt; decadent",
-          "sentence": "腐敗的觀唸使他無法進步。",
-          "pinyin": "fǔbài de guānniàn shǐ tā wúfǎ jìnbù.",
-          "en": "Corrupt ideas prevent him from progressing.",
-          "vi": ""
         }
       ]
     },
@@ -1279,6 +1138,7 @@
       "en": "political infighting",
       "vi": "tranh chấp chính trị",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1305,6 +1165,7 @@
       "en": "to stagnate, stall",
       "vi": "đình trệ",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1331,6 +1192,7 @@
       "en": "to rise",
       "vi": "tăng lên, đi lên",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1357,6 +1219,7 @@
       "en": "confidence",
       "vi": "tín tâm, lòng tin",
       "theme": "Psychology",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1383,6 +1246,7 @@
       "en": "street people, the homeless",
       "vi": "người vô gia cư",
       "theme": "Society",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1409,6 +1273,7 @@
       "en": "the outside world",
       "vi": "thế giới bên ngoài",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1435,6 +1300,7 @@
       "en": "miserable, tragic",
       "vi": "bi thảm",
       "theme": "Emotions",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1461,6 +1327,7 @@
       "en": "days, life",
       "vi": "ngày tháng, cuộc sống",
       "theme": "Time",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1487,6 +1354,7 @@
       "en": "such, so",
       "vi": "như vậy",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Pronoun",
@@ -1513,6 +1381,7 @@
       "en": "enormous",
       "vi": "to lớn, khổng lồ",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1539,6 +1408,7 @@
       "en": "incompetent",
       "vi": "vô năng, bất tài",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1565,6 +1435,7 @@
       "en": "apathetic",
       "vi": "lãnh đạm, thờ ơ",
       "theme": "Psychology",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1591,6 +1462,7 @@
       "en": "scholars",
       "vi": "học giả",
       "theme": "Work",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1617,6 +1489,7 @@
       "en": "class hierarchy",
       "vi": "tầng lớp, giai cấp",
       "theme": "Society",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1643,6 +1516,7 @@
       "en": "naturally",
       "vi": "tự nhiên",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1659,54 +1533,6 @@
           "pinyin": "wǒmen yīnggāi bǎohù zìrán.",
           "en": "We should protect nature.",
           "vi": "Chúng ta nên bảo vệ thiên nhiên."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "natural; in the ordinary course of events",
-          "sentence": "感情的事得自然髮/發展。",
-          "pinyin": "gǎnqíng de shì děi zìrán fāzhǎn.",
-          "en": "Matters of emotion must develop naturally.",
-          "vi": ""
-        },
-        {
-          "type": "Adjective",
-          "meaning": "natural; in the ordinary course of events",
-          "sentence": "這個小山是自然形成。",
-          "pinyin": "zhège xiǎoshān shì zìrán xíngchéng.",
-          "en": "This small hill was naturally formed.",
-          "vi": ""
-        },
-        {
-          "type": "Adverb",
-          "meaning": "naturally; certainly; of course",
-          "sentence": "認真聽講，自然會懂。",
-          "pinyin": "rènzhēn tīngjiǎng, zìrán huì dǒng.",
-          "en": "Listen attentively, and you will naturally understand.",
-          "vi": "Nghe giảng kỹ, đương nhiên sẽ hiểu."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "naturally; certainly; of course",
-          "sentence": "天氣暖，花自然會開。",
-          "pinyin": "tiānqì nuǎn, huā zìrán huì kāi.",
-          "en": "When the weather warms up, flowers will naturally bloom.",
-          "vi": "Trời ấm, hoa tự nhiên sẽ nở."
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "used to link two clauses or sentences, with the second introducing additional or adversative information",
-          "sentence": "他喝醉了，自然，不能開會。",
-          "pinyin": "tā hē zuìle, zìrán, bùnéng kāihuì.",
-          "en": "He got drunk, so naturally, he can't attend the meeting.",
-          "vi": "Anh ấy say rồi, hiển nhiên không họp được."
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "used to link two clauses or sentences, with the second introducing additional or adversative information",
-          "sentence": "工作忙，自然，沒時間陪傢人。",
-          "pinyin": "gōngzuò máng, zìrán, méi shíjiān péi jiārén.",
-          "en": "Being busy with work, naturally, there's no time to spend with family.",
-          "vi": "Công việc bận, tất nhiên không có thời gian cho gia đình."
         }
       ]
     },
@@ -1717,6 +1543,7 @@
       "en": "to prevent, block",
       "vi": "ngăn chặn",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1743,6 +1570,7 @@
       "en": "remote",
       "vi": "xa xôi",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1769,6 +1597,7 @@
       "en": "no matter, regardless",
       "vi": "bất luận",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Conjunction",
@@ -1795,6 +1624,7 @@
       "en": "clearly, obviously",
       "vi": "rõ ràng là",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adverb",
@@ -1821,6 +1651,7 @@
       "en": "dirty",
       "vi": "bẩn thỉu",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -1847,6 +1678,7 @@
       "en": "to care about",
       "vi": "chăm lo, để ý đến",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1863,38 +1695,6 @@
           "pinyin": "tā xǐhuān huígù tóngnián de shíguāng.",
           "en": "She likes to reminisce about her childhood.",
           "vi": "Cô ấy thích nhìn lại thời thơ ấu."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "instead; on the contrary",
-          "sentence": "你覺得好，我卻顧不喜歡。",
-          "pinyin": "nǐ juéde hǎo, wǒ què gù bù xǐhuān.",
-          "en": "While you like it, I don't care for it.",
-          "vi": "Bạn thấy tốt, nhưng tôi lại không thích."
-        },
-        {
-          "type": "Adverb",
-          "meaning": "instead; on the contrary",
-          "sentence": "大傢都反對，她顧堅持。",
-          "pinyin": "dàjiā dōu fǎnduì, tā gù jiānchí.",
-          "en": "Despite everyone's opposition, she insisted.",
-          "vi": "Mọi người đều phản đối, nhưng cô ấy vẫn kiên trì."
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "but; however",
-          "sentence": "我想去玩，顧沒時間。",
-          "pinyin": "wǒ xiǎng qù wán, gù méi shíjiān.",
-          "en": "I want to go play, however, I don't have time.",
-          "vi": "Tôi muốn đi chơi, nhưng không có thời gian."
-        },
-        {
-          "type": "Conjunction",
-          "meaning": "but; however",
-          "sentence": "她喜歡運動，顧很少鍛煉。",
-          "pinyin": "tā xǐhuān yùndòng, gù hěn shǎo duànliàn.",
-          "en": "She likes sports, but she rarely exercises.",
-          "vi": "Cô ấy thích thể thao, nhưng rất ít tập luyện."
         }
       ]
     },
@@ -1905,6 +1705,7 @@
       "en": "one's own",
       "vi": "tự thân",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Pronoun",
@@ -1931,6 +1732,7 @@
       "en": "politico",
       "vi": "chính khách (nghĩa tiêu cực)",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -1957,6 +1759,7 @@
       "en": "to condone, tolerate",
       "vi": "dung túng",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -1983,6 +1786,7 @@
       "en": "to make, to cause",
       "vi": "làm cho, khiến cho",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -2009,6 +1813,7 @@
       "en": "factory",
       "vi": "công xưởng",
       "theme": "Work",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -2035,6 +1840,7 @@
       "en": "crowded with high density",
       "vi": "dày đặc, tập trung cao",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -2061,6 +1867,7 @@
       "en": "to suffer from, be subjected to",
       "vi": "chịu đựng, gặp phải",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -2087,6 +1894,7 @@
       "en": "distressed",
       "vi": "khốn khổ",
       "theme": "Emotions",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Adjective",
@@ -2113,6 +1921,7 @@
       "en": "annuity payment for senior citizens",
       "vi": "trợ cấp/lương hưu cho người cao tuổi",
       "theme": "Society",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -2139,6 +1948,7 @@
       "en": "homeless",
       "vi": "không nhà để về",
       "theme": "Society",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "idioms",
@@ -2165,6 +1975,7 @@
       "en": "taking... as...",
       "vi": "lấy... làm...",
       "theme": "Grammar",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -2191,6 +2002,7 @@
       "en": "indifferent",
       "vi": "thờ ơ không quan tâm",
       "theme": "Idiom",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "idioms",
@@ -2217,6 +2029,7 @@
       "en": "right to speak, a voice",
       "vi": "quyền phát ngôn",
       "theme": "Politics",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -2243,6 +2056,7 @@
       "en": "influence",
       "vi": "sức ảnh hưởng",
       "theme": "General",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -2269,6 +2083,7 @@
       "en": "collusion between politicians and business",
       "vi": "quan thương cấu kết",
       "theme": "Idiom",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "verb",
@@ -2285,30 +2100,6 @@
           "pinyin": "gōu chū lúnkuò",
           "en": "Draw an outline",
           "vi": ""
-        },
-        {
-          "type": "noun",
-          "meaning": "a surname",
-          "sentence": "勾先生今天在公司嗎。",
-          "pinyin": "gōu xiānshēng jīntiān zài gōngsī ma",
-          "en": "Is Mr. Gou at the company today?",
-          "vi": ""
-        },
-        {
-          "type": "noun",
-          "meaning": "the shorter leg of a right triangle",
-          "sentence": "直角三角形的勾較短。",
-          "pinyin": "zhí jiǎo sān jiǎo xíng de gōu jiào duǎn.",
-          "en": "The right triangle's shorter leg is relatively short.",
-          "vi": ""
-        },
-        {
-          "type": "mathematics",
-          "meaning": "shorter leg of a right triangle",
-          "sentence": "勾的長度是三釐米。",
-          "pinyin": "gōu de chángdù shì sān límǐ.",
-          "en": "The shorter leg is 3 cm long.",
-          "vi": ""
         }
       ]
     },
@@ -2319,6 +2110,7 @@
       "en": "a huge gap between the rich and the poor",
       "vi": "giàu nghèo quá chênh lệch",
       "theme": "Idiom",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Popular idiom, Neutral",
@@ -2345,6 +2137,7 @@
       "en": "inextricably related to",
       "vi": "liên quan mật thiết",
       "theme": "Idiom",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "idioms",
@@ -2371,6 +2164,7 @@
       "en": "Wang Ankang (male name)",
       "vi": "Vương An Khang",
       "theme": "Proper Noun",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Noun",
@@ -2387,22 +2181,6 @@
           "pinyin": "rénmín de jiànkāng hěn zhòngyào.",
           "en": "People's health is very important.",
           "vi": ""
-        },
-        {
-          "type": "Adjective",
-          "meaning": "fit; healthy",
-          "sentence": "她的身體非常健康。",
-          "pinyin": "tā de shēntǐ fēicháng jiànkāng.",
-          "en": "She is very healthy.",
-          "vi": ""
-        },
-        {
-          "type": "Adjective",
-          "meaning": "fit; healthy",
-          "sentence": "早睡才/纔能保持健康。",
-          "pinyin": "zǎo shuì cáinéng bǎochí jiànkāng.",
-          "en": "Going to bed early is essential for maintaining good health.",
-          "vi": ""
         }
       ]
     },
@@ -2413,6 +2191,7 @@
       "en": "Zhang Dingneng (male name)",
       "vi": "Trương Định Năng",
       "theme": "Proper Noun",
+      "sinoVietnamese": "",
       "samples": [
         {
           "type": "Verb",
@@ -2429,56 +2208,9 @@
           "pinyin": "tā zhāng kāile shǒuzhōng de xìnfēng.",
           "en": "She opened the envelope in her hand.",
           "vi": "Cô ấy mở phong bì trong tay ra."
-        },
-        {
-          "type": "Measure Word",
-          "meaning": "used for paper, leather, etc.",
-          "sentence": "這張皮子用途廣氾。",
-          "pinyin": "zhè zhāng pízi yòngtú guǎngfàn.",
-          "en": "This piece of leather is widely used.",
-          "vi": "Tấm da này có nhiều ứng dụng."
-        },
-        {
-          "type": "Measure Word",
-          "meaning": "used for paper, leather, etc.",
-          "sentence": "她買了幾張卡片。",
-          "pinyin": "tā mǎile jǐ zhāng kǎpiàn.",
-          "en": "She bought several cards.",
-          "vi": "Cô ấy đã mua một vài tấm thiệp."
-        },
-        {
-          "type": "Noun",
-          "meaning": "Zhang, one of the lunar mansions",
-          "sentence": "張宿位置難以確定。",
-          "pinyin": "zhāng sù wèizhì nányǐ quèdìng.",
-          "en": "The position of the Zhang star is hard to determine.",
-          "vi": "Vị trí của sao Trương khó xác định."
-        },
-        {
-          "type": "Noun",
-          "meaning": "Zhang, one of the lunar mansions",
-          "sentence": "張宿在夜空很明亮。",
-          "pinyin": "zhāng sù zài yèkōng hěn míngliàng.",
-          "en": "The Zhang star is bright in the night sky.",
-          "vi": "Sao Trương ở bầu trời đêm rất sáng."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "indulge; unbridled; wanton",
-          "sentence": "她在公共場閤張揚個性。",
-          "pinyin": "tā zài gōnggòng chǎnghé zhāngyáng gèxìng.",
-          "en": "She flaunted her personality in public.",
-          "vi": "Cô ấy thể hiện cá tính một cách tùy tiện nơi công cộng."
-        },
-        {
-          "type": "Adjective",
-          "meaning": "indulge; unbridled; wanton",
-          "sentence": "張揚的態度讓人不舒服。",
-          "pinyin": "zhāngyáng de tàidù ràng rén bú shūfu.",
-          "en": "The flamboyant attitude made people uncomfortable.",
-          "vi": "Thái độ thái quá của anh ấy làm người khác không thoải mái."
         }
       ]
     }
-  ]
+  ],
+  "verified": false
 }
