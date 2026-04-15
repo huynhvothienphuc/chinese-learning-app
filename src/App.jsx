@@ -1394,6 +1394,15 @@ function AppContent() {
           <div className="mt-1 text-xs text-slate-400">
             {t.contributor}
           </div>
+          <div className="mt-5 flex items-center justify-center gap-2 text-xs text-slate-400">
+            <span className="font-medium">{t.supportedBy}:</span>
+            <img
+              src="/sponser.png"
+              alt="Sponsor"
+              className="h-14 w-14 rounded-full object-cover"
+              loading="lazy"
+            />
+          </div>
         </footer>
       </div>
 

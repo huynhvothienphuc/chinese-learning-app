@@ -178,6 +178,7 @@ export default {
   sampleNoticeTitle: 'Thông báo cập nhật nội dung',
   sampleNoticeBody: 'Một số câu ví dụ hiện vẫn có thể chưa thật sự chính xác. Cảm ơn bạn đã kiên nhẫn trong khi chúng tôi tiếp tục cập nhật và cải thiện! 😊',
   sampleNoticeAction: 'Đã hiểu',
+  supportedBy: 'Supported by',
   // Upload / sets manager
   browserStorageWarningTitle: 'Chỉ lưu trong trình duyệt',
   browserStorageWarningBody: 'Bộ từ này sẽ mất nếu bạn xóa bộ nhớ đệm trình duyệt. Đăng nhập để lưu vĩnh viễn.',
