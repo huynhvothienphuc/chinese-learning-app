@@ -30,12 +30,32 @@ export function AuthProvider({ children }) {
       setLoading(false);
     });
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
       // INITIAL_SESSION is already handled by getSession above
       if (event === 'INITIAL_SESSION') return;
       if (session?.user) {
+        // Clean up OAuth hash from URL
+        if (window.location.hash.includes('access_token')) {
+          window.history.replaceState(null, '', window.location.pathname);
+        }
         setUser(session.user);
         setLoading(false);
+        // Ensure profile exists — fallback if trigger missed it
+        if (event === 'SIGNED_IN') {
+          const { data: profile } = await supabase
+            .from('profiles')
+            .select('user_id')
+            .eq('user_id', session.user.id)
+            .maybeSingle();
+          if (!profile) {
+            await supabase.from('profiles').insert({
+              user_id: session.user.id,
+              username: session.user.user_metadata?.full_name ?? session.user.email,
+              role: 'member',
+              is_active: true,
+            }).select().maybeSingle();
+          }
+        }
         fetchRole(session.user.id).then((r) => setRole(r)).catch(() => setRole(null));
       } else {
         setUser(null);
@@ -90,6 +110,14 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }
 
+  async function signInWithGoogle() {
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: window.location.origin },
+    });
+    if (error) throw error;
+  }
+
   async function signOut() {
     setUser(null);
     setRole(null);
@@ -100,7 +128,7 @@ export function AuthProvider({ children }) {
   }
 
   return (
-    <AuthContext.Provider value={{ user, role, loading, signIn, signUp, signOut }}>
+    <AuthContext.Provider value={{ user, role, loading, signIn, signUp, signOut, signInWithGoogle }}>
       {children}
     </AuthContext.Provider>
   );

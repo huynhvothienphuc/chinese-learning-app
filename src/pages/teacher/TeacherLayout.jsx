@@ -9,7 +9,7 @@ export default function TeacherLayout({ children, crumbs = [] }) {
 
   async function handleSignOut() {
     await signOut();
-    navigate('/login');
+    navigate('/staff-login');
   }
 
   // crumbs: [{ label, path }]
