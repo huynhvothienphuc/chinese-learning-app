@@ -53,7 +53,6 @@ const SESSION_LANGUAGE_KEY = 'selected-language';
 const FAVORITES_STORAGE_KEY = 'favorite-vocabulary';
 const MAX_UPLOAD_BYTES = 1024 * 1024;
 const USER_UPLOAD_BOOK_ID = 'user-upload';
-const APP_VERSION = 'v2.0.0';
 const SAMPLE_NOTICE_LAST_SEEN_KEY = 'sample-sentence-notice-last-seen';
 
 const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
@@ -1388,20 +1387,24 @@ function AppContent() {
           <div className="flex flex-wrap items-center justify-center gap-2">
             <Heart className="h-4 w-4 fill-green-500 text-green-500" />
             <span className="font-medium">{t.madeBy}</span>
-            <span className="text-slate-400">·</span>
-            <span>{APP_VERSION}</span>
           </div>
-          <div className="mt-1 text-xs text-slate-400">
-            {t.contributor}
+          <div className="mt-1 flex flex-wrap items-center justify-center gap-1 text-xs text-slate-400">
+            <span>{t.contentCompiler.split(':')[0]}:</span>
+            <span className="font-medium text-slate-600 dark:text-slate-300">{t.contentCompiler.split(':')[1]}</span>
+            <span>·</span>
+            <span>{t.contributor.split(':')[0]}:</span>
+            <span className="font-medium text-slate-600 dark:text-slate-300">{t.contributor.split(':')[1]}</span>
           </div>
-          <div className="mt-5 flex items-center justify-center gap-2 text-xs text-slate-400">
+          <div className="mt-2.5 flex items-center justify-center gap-2 text-xs text-slate-400">
             <span className="font-medium">{t.supportedBy}:</span>
-            <img
-              src="/sponser.png"
-              alt="Sponsor"
-              className="h-14 w-14 rounded-full object-cover"
-              loading="lazy"
-            />
+            <a href="https://barkingbears.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/sponser.png"
+                alt="Sponsor"
+                className="h-14 w-14 rounded-full object-cover"
+                loading="lazy"
+              />
+            </a>
           </div>
         </footer>
       </div>
