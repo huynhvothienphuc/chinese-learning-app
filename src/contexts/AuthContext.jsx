@@ -22,8 +22,26 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     // Restore session and fetch role before unblocking — prevents stale role on startup
     supabase.auth.getSession().then(async ({ data: { session } }) => {
+      // Clean up OAuth hash from URL (fires on OAuth callback redirect)
+      if (window.location.hash.includes('access_token')) {
+        window.history.replaceState(null, '', window.location.pathname);
+      }
       if (session?.user) {
         setUser(session.user);
+        // Ensure profile exists — fallback if DB trigger missed it
+        const { data: profile } = await supabase
+          .from('profiles')
+          .select('user_id')
+          .eq('user_id', session.user.id)
+          .maybeSingle();
+        if (!profile) {
+          await supabase.from('profiles').insert({
+            user_id: session.user.id,
+            username: session.user.user_metadata?.full_name ?? session.user.email,
+            role: 'member',
+            is_active: true,
+          });
+        }
         const r = await fetchRole(session.user.id).catch(() => null);
         setRole(r);
       }
