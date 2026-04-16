@@ -4,189 +4,77 @@ import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
-const USERNAME_REGEX = /^[a-zA-Z0-9_]{3,20}$/;
-
-function validateUsername(value) {
-  if (!value) return 'Username is required.';
-  if (value.length < 3) return 'At least 3 characters.';
-  if (value.length > 20) return 'At most 20 characters.';
-  if (!USERNAME_REGEX.test(value)) return 'Letters, numbers and _ only. No spaces.';
-  return '';
-}
-
-function validatePassword(value, isRegister) {
-  if (!value) return 'Password is required.';
-  if (isRegister && value.length < 6) return 'At least 6 characters.';
-  return '';
+function GoogleIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="h-5 w-5">
+      <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
+      <path fill="#FF3D00" d="m6.306 14.691 6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z"/>
+      <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
+      <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002 6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
+    </svg>
+  );
 }
 
 export default function LoginPage() {
-  const { signIn, signUp } = useAuth();
+  const { signInWithGoogle } = useAuth();
   const navigate = useNavigate();
-  const [tab, setTab] = useState('login'); // 'login' | 'register'
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [usernameError, setUsernameError] = useState('');
-  const [passwordError, setPasswordError] = useState('');
-  const [serverError, setServerError] = useState('');
-  const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  function switchTab(next) {
-    setTab(next);
-    setUsernameError('');
-    setPasswordError('');
-    setServerError('');
-    setSuccess('');
-  }
-
-  function handleUsernameChange(e) {
-    const val = e.target.value;
-    setUsername(val);
-    if (usernameError) setUsernameError(validateUsername(val));
-  }
-
-  function handlePasswordChange(e) {
-    const val = e.target.value;
-    setPassword(val);
-    if (passwordError) setPasswordError(validatePassword(val, tab === 'register'));
-  }
-
-  async function handleSubmit(e) {
-    e.preventDefault();
-    setServerError('');
-    setSuccess('');
-
-    // For login tab, allow email too (teachers) — skip username validation if @ present
-    const isEmailLogin = tab === 'login' && username.includes('@');
-    const uErr = isEmailLogin ? '' : validateUsername(username);
-    const pErr = validatePassword(password, tab === 'register');
-    setUsernameError(uErr);
-    setPasswordError(pErr);
-    if (uErr || pErr) return;
-
+  async function handleGoogleLogin() {
+    setError('');
     setLoading(true);
     try {
-      if (tab === 'register') {
-        await signUp(username, password);
-        setSuccess('Account created! You can now sign in.');
-        setPassword('');
-        switchTab('login');
-      } else {
-        const role = await signIn(username, password);
-        if (role === 'admin') navigate('/admin');
-        else if (role === 'teacher') navigate('/teacher');
-        else navigate('/');
-      }
+      await signInWithGoogle();
+      // Supabase will redirect; no navigate needed
     } catch (err) {
-      setServerError(err.message ?? (tab === 'register' ? 'Registration failed.' : 'Login failed.'));
-    } finally {
+      setError(err.message ?? 'Google sign-in failed.');
       setLoading(false);
     }
   }
-
-  const isRegister = tab === 'register';
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-white px-4 dark:bg-slate-950">
       <Card className="w-full max-w-sm border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-6">
-          <div className="mb-6 flex flex-col items-center gap-2">
+          <div className="mb-8 flex flex-col items-center gap-2">
             <img src="/logo.svg" alt="Logo" className="h-14 w-14 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
             <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white">Chinese EZ Cards</h1>
-            <p className="text-sm text-slate-500">{isRegister ? 'Create a free member account' : 'Sign in to continue'}</p>
+            <p className="text-sm text-slate-500">Sign in to track your progress</p>
           </div>
 
-          {/* Tab toggle */}
-          <div className="mb-5 flex rounded-xl border border-theme-border bg-white p-1 dark:border-slate-600 dark:bg-slate-700">
-            {['login', 'register'].map((t) => (
-              <button
-                key={t}
-                type="button"
-                onClick={() => switchTab(t)}
-                className={`flex-1 rounded-lg py-1.5 text-sm font-semibold transition-colors ${
-                  tab === t
-                    ? 'bg-primary text-primary-foreground shadow-sm'
-                    : 'text-slate-500 hover:text-slate-700 dark:hover:text-slate-300'
-                }`}
-              >
-                {t === 'login' ? 'Sign in' : 'Register'}
-              </button>
-            ))}
-          </div>
-
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-            {/* Username field */}
-            <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-slate-700 dark:text-slate-300">
-                {isRegister ? 'Username' : 'Username or email'}
-              </label>
-              <input
-                type="text"
-                required
-                autoComplete="username"
-                value={username}
-                onChange={handleUsernameChange}
-                className={`rounded-lg border bg-white px-3 py-2 text-sm outline-none transition focus:ring-2 dark:bg-slate-700 dark:text-white ${
-                  usernameError
-                    ? 'border-rose-300 focus:border-rose-400 focus:ring-rose-100 dark:border-rose-700'
-                    : 'border-slate-200 focus:border-green-400 focus:ring-green-100 dark:border-slate-600 dark:focus:border-green-500'
-                }`}
-                placeholder={isRegister ? 'e.g. hoa_nguyen' : 'username or teacher@email.com'}
-              />
-              {usernameError && <p className="text-xs text-rose-500">{usernameError}</p>}
-              {isRegister && !usernameError && (
-                <p className="text-xs text-slate-400">3–20 characters · letters, numbers, _ only</p>
-              )}
-            </div>
-
-            {/* Password field */}
-            <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-slate-700 dark:text-slate-300">Password</label>
-              <input
-                type="password"
-                required
-                autoComplete={isRegister ? 'new-password' : 'current-password'}
-                value={password}
-                onChange={handlePasswordChange}
-                className={`rounded-lg border bg-white px-3 py-2 text-sm outline-none transition focus:ring-2 dark:bg-slate-700 dark:text-white ${
-                  passwordError
-                    ? 'border-rose-300 focus:border-rose-400 focus:ring-rose-100 dark:border-rose-700'
-                    : 'border-slate-200 focus:border-green-400 focus:ring-green-100 dark:border-slate-600 dark:focus:border-green-500'
-                }`}
-                placeholder="••••••••"
-              />
-              {passwordError && <p className="text-xs text-rose-500">{passwordError}</p>}
-              {isRegister && !passwordError && (
-                <p className="text-xs text-slate-400">Minimum 6 characters</p>
-              )}
-            </div>
-
-            {serverError && (
-              <p className="rounded-lg bg-rose-50 px-3 py-2 text-sm text-rose-600 dark:bg-rose-900/30 dark:text-rose-400">
-                {serverError}
-              </p>
-            )}
-            {success && (
-              <p className="rounded-lg bg-emerald-50 px-3 py-2 text-sm text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">
-                {success}
-              </p>
-            )}
-
-            <Button type="submit" disabled={loading} className="w-full">
-              {loading
-                ? (isRegister ? 'Creating account…' : 'Signing in…')
-                : (isRegister ? 'Create account' : 'Sign in')}
+          <div className="flex flex-col gap-4">
+            <Button
+              type="button"
+              variant="outline"
+              disabled={loading}
+              onClick={handleGoogleLogin}
+              className="flex w-full items-center justify-center gap-3 border-slate-200 py-5 text-sm font-semibold dark:border-slate-600"
+            >
+              <GoogleIcon />
+              {loading ? 'Redirecting…' : 'Sign in with Google'}
             </Button>
+
+            {error && (
+              <p className="rounded-lg bg-rose-50 px-3 py-2 text-sm text-rose-600 dark:bg-rose-900/30 dark:text-rose-400">
+                {error}
+              </p>
+            )}
+
+            <div className="relative flex items-center gap-3 py-1">
+              <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
+              <span className="text-xs text-slate-400">for students</span>
+              <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
+            </div>
 
             <button
               type="button"
               onClick={() => navigate('/')}
               className="text-center text-sm text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"
             >
-              ← Back to learning
+              ← Continue without signing in
             </button>
-          </form>
+          </div>
         </CardContent>
       </Card>
     </div>

@@ -8,6 +8,7 @@ import { supabase, saveStudentSet, loadStudentSets, deleteStudentSet } from '@/l
 import { fetchJSON } from '@/lib/fetchCache';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
+const StaffLoginPage = lazy(() => import('@/pages/StaffLoginPage'));
 const TeacherDashboard = lazy(() => import('@/pages/teacher/TeacherDashboard'));
 const BookEditor = lazy(() => import('@/pages/teacher/BookEditor'));
 const SectionEditor = lazy(() => import('@/pages/teacher/SectionEditor'));
@@ -196,7 +197,7 @@ function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/' ? 'learn' : 'notfound';
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/staff-login' ? 'staff-login' : location.pathname === '/' ? 'learn' : 'notfound';
   const { user, role, signOut, loading: authLoading } = useAuth();
   const { markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -756,8 +757,9 @@ function AppContent() {
   }
 
   async function handleSignOut() {
+    const wasStaff = role === 'teacher' || role === 'admin' || role === 'superadmin';
     await signOut();
-    navigate('/login');
+    navigate(wasStaff ? '/staff-login' : '/');
   }
 
   async function handleUploadFile(event) {
@@ -852,7 +854,7 @@ function AppContent() {
   useEffect(() => {
     if (authLoading) return;
     if (!user && (activeView === 'teacher' || activeView === 'admin')) {
-      navigate('/login');
+      navigate('/staff-login');
     } else if (user && activeView === 'admin' && role !== 'admin') {
       navigate('/teacher');
     } else if (user && activeView === 'teacher' && role !== 'teacher' && role !== 'admin') {
@@ -869,10 +871,11 @@ function AppContent() {
 
   if (activeView === 'shared') return <Suspense fallback={pageFallback}><SharedBookPage token={sharedMatch[1]} /></Suspense>;
   if (activeView === 'login') return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
+  if (activeView === 'staff-login') return <Suspense fallback={pageFallback}><StaffLoginPage /></Suspense>;
   if (activeView === 'feedback') return <Suspense fallback={pageFallback}><FeedbackPage onBack={() => navigate(-1)} /></Suspense>;
   if (activeView === 'feedback-review') {
     if (authLoading) return pageFallback;
-    if (!user) return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
+    if (!user) return <Suspense fallback={pageFallback}><StaffLoginPage /></Suspense>;
     if (role !== 'superadmin') return <NotFoundPage onGoHome={() => navigate('/')} />;
     return <Suspense fallback={pageFallback}><FeedbackReviewPage onBack={() => navigate(-1)} /></Suspense>;
   }
