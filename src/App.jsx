@@ -853,7 +853,9 @@ function AppContent() {
   // Redirect away from protected routes based on auth + role
   useEffect(() => {
     if (authLoading) return;
-    if (!user && (activeView === 'teacher' || activeView === 'admin')) {
+    if (user && activeView === 'login') {
+      navigate('/');
+    } else if (!user && (activeView === 'teacher' || activeView === 'admin')) {
       navigate('/staff-login');
     } else if (user && activeView === 'admin' && role !== 'admin') {
       navigate('/teacher');
