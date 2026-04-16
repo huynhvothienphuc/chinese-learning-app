@@ -1136,8 +1136,12 @@ function AppContent() {
               {/* Row 2: Admin nav — only for logged-in users */}
               {user && (
                 <div className="-mx-4 -mb-4 flex flex-wrap items-center justify-between gap-2 rounded-b-2xl border-t border-theme-border bg-theme-surface-secondary px-4 pb-3 pt-3 dark:bg-slate-900/40 sm:-mx-6 sm:-mb-4 sm:px-6">
-                  {/* Left: identity */}
-                  <span className="truncate text-xs text-slate-400 dark:text-slate-500">{user.email}</span>
+                  {/* Left: identity — show display name for students, masked email for staff */}
+                  <span className="truncate text-xs text-slate-400 dark:text-slate-500">
+                    {role === 'member'
+                      ? (user.user_metadata?.full_name ?? user.email?.split('@')[0])
+                      : user.email?.replace(/(.{2}).+(@.+)/, '$1***$2')}
+                  </span>
                   {/* Right: role-based actions */}
                   <div className="flex flex-wrap items-center gap-2">
                     {role === 'superadmin' && (
