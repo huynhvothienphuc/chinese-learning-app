@@ -4,11 +4,12 @@ import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Settin
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuth } from '@/contexts/AuthContext';
-import { supabase, saveStudentSet, loadStudentSets, deleteStudentSet } from '@/lib/supabase';
+import { supabase, saveStudentSet, loadStudentSets, deleteStudentSet, trackWordStat, trackLessonStat } from '@/lib/supabase';
 import { fetchJSON } from '@/lib/fetchCache';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
 const StaffLoginPage = lazy(() => import('@/pages/StaffLoginPage'));
+const StudentDashboard = lazy(() => import('@/pages/StudentDashboard'));
 const TeacherDashboard = lazy(() => import('@/pages/teacher/TeacherDashboard'));
 const BookEditor = lazy(() => import('@/pages/teacher/BookEditor'));
 const SectionEditor = lazy(() => import('@/pages/teacher/SectionEditor'));
@@ -197,7 +198,7 @@ function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/staff-login' ? 'staff-login' : location.pathname === '/' ? 'learn' : 'notfound';
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/staff-login' ? 'staff-login' : location.pathname === '/dashboard' ? 'dashboard' : location.pathname === '/' ? 'learn' : 'notfound';
   const { user, role, signOut, loading: authLoading } = useAuth();
   const { markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -706,6 +707,10 @@ function AppContent() {
 
   function handleFlipCard() {
     markStudied();
+    // Track when revealing the back (front→back only, not back→front)
+    if (!isFlipped && user && role === 'member' && currentItem?.id && selectedBook && selectedSection) {
+      trackWordStat(user.id, { bookId: selectedBook, sectionId: selectedSection, itemId: currentItem.id, isCorrect: null }).catch(() => {});
+    }
     setIsFlipped((prev) => !prev);
   }
 
@@ -733,12 +738,26 @@ function AppContent() {
     if (!correct) {
       setWrongAnswers((prev) => [...prev, { item: currentItem, selectedAnswer: choice.chinese }]);
     }
+    // Track word stat for logged-in students
+    if (user && role === 'member' && currentItem?.id && selectedBook && selectedSection) {
+      trackWordStat(user.id, { bookId: selectedBook, sectionId: selectedSection, itemId: currentItem.id, isCorrect: correct }).catch(() => {});
+    }
   }
 
   function handleNextQuestion() {
     if (currentIndex >= activeVocabulary.length - 1) {
       setQuizComplete(true);
       setAnsweredQuestion(null);
+      // Track lesson stat for logged-in students
+      if (user && role === 'member' && selectedBook && selectedSection && score.total > 0) {
+        trackLessonStat(user.id, {
+          bookId: selectedBook,
+          sectionId: selectedSection,
+          sectionTitle: selectedSection,
+          score: score.correct,
+          total: score.total,
+        }).catch(() => {});
+      }
       return;
     }
     setCurrentIndex((prev) => prev + 1);
@@ -874,6 +893,7 @@ function AppContent() {
   if (activeView === 'shared') return <Suspense fallback={pageFallback}><SharedBookPage token={sharedMatch[1]} /></Suspense>;
   if (activeView === 'login') return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
   if (activeView === 'staff-login') return <Suspense fallback={pageFallback}><StaffLoginPage /></Suspense>;
+  if (activeView === 'dashboard') return <Suspense fallback={pageFallback}><StudentDashboard /></Suspense>;
   if (activeView === 'feedback') return <Suspense fallback={pageFallback}><FeedbackPage onBack={() => navigate(-1)} /></Suspense>;
   if (activeView === 'feedback-review') {
     if (authLoading) return pageFallback;
@@ -1148,6 +1168,11 @@ function AppContent() {
                       <Button type="button" size="sm" variant={activeView === 'feedback-review' ? 'default' : 'outline'} className="gap-1.5" onClick={() => navigate('/feedback-review')}>
                         <MessageSquare className="h-3.5 w-3.5" />
                         <span className="text-xs">Feedback Review</span>
+                      </Button>
+                    )}
+                    {role === 'member' && (
+                      <Button type="button" size="sm" variant={activeView === 'dashboard' ? 'default' : 'outline'} className="gap-1.5" onClick={() => navigate('/dashboard')}>
+                        <span className="text-xs">My Dashboard</span>
                       </Button>
                     )}
                     {role === 'teacher' && (

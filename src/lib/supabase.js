@@ -43,6 +43,51 @@ export async function deleteStudentSet(setId) {
   if (error) throw error;
 }
 
+// ── Word & Lesson tracking ────────────────────────────────────────────────────
+
+// Track a word seen in flashcard (isCorrect=null) or answered in quiz (true/false)
+export async function trackWordStat(userId, { bookId, sectionId, itemId, isCorrect }) {
+  await supabase.rpc('increment_word_stat', {
+    p_user_id: userId,
+    p_book_id: bookId,
+    p_section_id: sectionId,
+    p_item_id: itemId,
+    p_correct: isCorrect === true,
+  });
+}
+
+// Track quiz completion for a lesson
+export async function trackLessonStat(userId, { bookId, sectionId, sectionTitle, score, total }) {
+  await supabase.rpc('upsert_lesson_stat', {
+    p_user_id: userId,
+    p_book_id: bookId,
+    p_section_id: sectionId,
+    p_section_title: sectionTitle,
+    p_score: score,
+    p_total: total,
+  });
+}
+
+export async function loadWordStats(userId) {
+  const { data, error } = await supabase
+    .from('user_word_stats')
+    .select('*')
+    .eq('user_id', userId)
+    .order('last_seen', { ascending: false });
+  if (error) throw error;
+  return data ?? [];
+}
+
+export async function loadLessonStats(userId) {
+  const { data, error } = await supabase
+    .from('user_lesson_stats')
+    .select('*')
+    .eq('user_id', userId)
+    .order('last_attempt', { ascending: false });
+  if (error) throw error;
+  return data ?? [];
+}
+
 // ── Feedback ─────────────────────────────────────────────────────────────────
 
 export async function loadFeedback() {
