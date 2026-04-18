@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { LogOut, UserCheck, UserX, UserPlus, Loader2, ShieldCheck } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '@/contexts/AuthContext';
+import { useAuthStore } from '@/store/authStore';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -21,7 +21,7 @@ function TeacherSkeleton() {
 }
 
 export default function AdminDashboard() {
-  const { user, signOut } = useAuth();
+  const { user, signOut } = useAuthStore();
   const navigate = useNavigate();
 
   const [teachers, setTeachers] = useState([]);
@@ -73,7 +73,7 @@ export default function AdminDashboard() {
 
   async function handleSignOut() {
     await signOut();
-    navigate('/staff-login');
+    navigate('/');
   }
 
   return (

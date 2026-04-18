@@ -1,15 +1,15 @@
 import { useNavigate } from 'react-router-dom';
 import { LogOut, ChevronRight, BookOpen, House } from 'lucide-react';
-import { useAuth } from '@/contexts/AuthContext';
+import { useAuthStore } from '@/store/authStore';
 import { Button } from '@/components/ui/button';
 
 export default function TeacherLayout({ children, crumbs = [] }) {
-  const { user, signOut } = useAuth();
+  const { user, signOut } = useAuthStore();
   const navigate = useNavigate();
 
   async function handleSignOut() {
     await signOut();
-    navigate('/staff-login');
+    navigate('/');
   }
 
   // crumbs: [{ label, path }]

@@ -1,14 +1,15 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useQueryClient } from '@tanstack/react-query';
 import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Settings, Sun, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
-import { useAuth } from '@/contexts/AuthContext';
-import { supabase, saveStudentSet, loadStudentSets, deleteStudentSet, trackWordStat, trackLessonStat } from '@/lib/supabase';
-import { fetchJSON } from '@/lib/fetchCache';
+import { useAuthStore } from '@/store/authStore';
+import { useBooks, useSections, useVocabulary, usePrefetchAdjacentSections } from '@/hooks/useVocabData';
+import { useStudentSets } from '@/hooks/useStudentData';
+import { supabase, saveStudentSet, deleteStudentSet, trackLessonStat } from '@/lib/supabase';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
-const StaffLoginPage = lazy(() => import('@/pages/StaffLoginPage'));
 const StudentDashboard = lazy(() => import('@/pages/StudentDashboard'));
 const TeacherDashboard = lazy(() => import('@/pages/teacher/TeacherDashboard'));
 const BookEditor = lazy(() => import('@/pages/teacher/BookEditor'));
@@ -181,9 +182,7 @@ export default function App() {
 }
 
 function AppContent() {
-  const [baseBooks, setBaseBooks] = useState([]);
   const [selectedBook, setSelectedBook] = useState('');
-  const [sections, setSections] = useState([]);
   const [selectedSection, setSelectedSection] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState(() => {
     const saved = localStorage.getItem(SESSION_LANGUAGE_KEY);
@@ -191,15 +190,23 @@ function AppContent() {
   });
   const [vocabulary, setVocabulary] = useState([]);
   const [originalVocabulary, setOriginalVocabulary] = useState([]);
-  const [uploadedLessons, setUploadedLessons] = useState([]);
+  const [uploadedLessons, setUploadedLessons] = useState(() => {
+    try {
+      const raw = localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY);
+      return normalizeUploadedLessons(raw);
+    } catch {
+      return [];
+    }
+  });
   const [isShuffled, setIsShuffled] = useState(false);
   const [mode, setMode] = useState('review');
   const [deckSource, setDeckSource] = useState('all');
   const navigate = useNavigate();
   const location = useLocation();
+  const queryClient = useQueryClient();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/staff-login' ? 'staff-login' : location.pathname === '/dashboard' ? 'dashboard' : location.pathname === '/' ? 'learn' : 'notfound';
-  const { user, role, signOut, loading: authLoading } = useAuth();
+  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/dashboard' ? 'dashboard' : location.pathname === '/' ? 'learn' : 'notfound';
+  const { user, role, signOut, authReady } = useAuthStore();
   const { markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -207,17 +214,13 @@ function AppContent() {
   const [answeredQuestion, setAnsweredQuestion] = useState(null);
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [quizComplete, setQuizComplete] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [booksLoading, setBooksLoading] = useState(false);
-  const [booksError, setBooksError] = useState('');
+  const [uploadParsing, setUploadParsing] = useState(false);
   const [uploadError, setUploadError] = useState('');
   const [favorites, setFavorites] = useLocalStorageState(FAVORITES_STORAGE_KEY, []);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
   const [customQuizWords, setCustomQuizWords] = useState(null);
   const [customQuizPool, setCustomQuizPool] = useState(null);
   const [quizSeed, setQuizSeed] = useState(0);
-  const [supabaseSets, setSupabaseSets] = useState([]);
   const [isDarkMode, setIsDarkMode] = useLocalStorageState('dark-mode', false);
   const [theme, setTheme] = useLocalStorageState('app-theme', 'green');
   const [fontSize, setFontSize] = useLocalStorageState('font-size', 'lg');
@@ -229,7 +232,65 @@ function AppContent() {
   const settingsRef = useRef(null);
   const fileInputRef = useRef(null);
   const fontSizeSelectRef = useRef(null);
-  const initialLoadDoneRef = useRef(false);
+
+  // ── Server state via TanStack Query ──────────────────────────────────────────
+  const booksQuery = useBooks(user?.id, authReady);
+  const booksData = booksQuery.data ?? [];
+  const booksLoading = booksQuery.isLoading;
+  const booksError = booksQuery.error?.message ?? '';
+
+  const { data: supabaseSets = [] } = useStudentSets(user?.id);
+
+  const currentBook = useMemo(() => booksData.find((b) => b.id === selectedBook) ?? null, [booksData, selectedBook]);
+
+  const sectionsQuery = useSections(
+    selectedBook !== USER_UPLOAD_BOOK_ID ? selectedBook : null,
+    currentBook?.source,
+  );
+
+  // Sections: merge query data with local upload-book sections
+  const sections = useMemo(() => {
+    if (selectedBook === USER_UPLOAD_BOOK_ID) {
+      return uploadedLessons
+        .map((lesson) => ({ id: lesson.id, title: lesson.title, file: lesson.id, source: 'upload', enabled: true }))
+        .sort((a, b) => a.title.localeCompare(b.title));
+    }
+    return sectionsQuery.data ?? [];
+  }, [selectedBook, uploadedLessons, sectionsQuery.data]);
+
+  const currentSection = useMemo(
+    () => sections.find((s) => s.file === selectedSection) ?? undefined,
+    [sections, selectedSection],
+  );
+
+  const vocabQuery = useVocabulary(
+    selectedBook !== USER_UPLOAD_BOOK_ID ? selectedBook : null,
+    selectedSection,
+    currentSection,
+  );
+
+  // Derive the raw (canonical) vocab from query or local upload state
+  const rawVocab = useMemo(() => {
+    if (selectedBook === USER_UPLOAD_BOOK_ID) {
+      return uploadedLessons.find((l) => l.id === selectedSection)?.items || [];
+    }
+    return vocabQuery.data ?? [];
+  }, [selectedBook, selectedSection, uploadedLessons, vocabQuery.data]);
+
+  // Sync vocabulary state when raw data changes (resets shuffle)
+  useEffect(() => {
+    setOriginalVocabulary(rawVocab);
+    setVocabulary(rawVocab);
+    resetInteractiveState();
+    setIsShuffled(false);
+  }, [rawVocab]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Prefetch prev/next sections in the background when user picks a section
+  usePrefetchAdjacentSections(selectedBook, selectedSection, sections);
+
+  // Loading and error for the main vocab/sections display
+  const isLoading = sectionsQuery.isLoading || vocabQuery.isFetching || uploadParsing;
+  const error = sectionsQuery.error?.message || vocabQuery.error?.message || '';
 
   const handleDismissSampleNotice = useCallback(() => {
     setSampleNoticeLastSeen(getTodayKey());
@@ -239,7 +300,7 @@ function AppContent() {
   const t = localeMap[selectedLanguage] || localeMap.en;
 
   const books = useMemo(() => {
-    const nextBooks = [...baseBooks];
+    const nextBooks = [...booksData];
     if (uploadedLessons.length > 0) {
       nextBooks.push({
         id: USER_UPLOAD_BOOK_ID,
@@ -248,7 +309,7 @@ function AppContent() {
       });
     }
     return nextBooks;
-  }, [baseBooks, uploadedLessons, t.userUploadBook]);
+  }, [booksData, uploadedLessons, t.userUploadBook]);
 
   const languageOptions = useMemo(
     () => [
@@ -312,63 +373,18 @@ function AppContent() {
     initGoogleAnalytics();
   }, []);
 
+  // Initialize selectedBook from session storage once books are available
+  const booksInitRef = useRef(false);
   useEffect(() => {
-    // Wait for auth to resolve — avoids fetching twice on startup (once unauthenticated, once after session restores)
-    if (authLoading) return;
+    if (!booksData.length) return;
+    if (booksInitRef.current && selectedBook && books.some((b) => b.id === selectedBook)) return;
+    booksInitRef.current = true;
+    const savedBook = sessionStorage.getItem(SESSION_SELECTED_BOOK_KEY);
+    const ids = books.map((b) => b.id);
+    setSelectedBook(savedBook && ids.includes(savedBook) ? savedBook : ids[0] || '');
+  }, [booksData]); // eslint-disable-line react-hooks/exhaustive-deps
 
-    // On logout: strip private teacher books but keep publicly shared ones
-    if (!user && initialLoadDoneRef.current) {
-      setBaseBooks((prev) => prev.filter((b) => b.source !== 'teacher' || b.share_enabled));
-      return;
-    }
-
-    async function loadInitialData() {
-      try {
-        setBooksLoading(true);
-        setBooksError('');
-        initialLoadDoneRef.current = true;
-
-        const [booksData, savedUploadsRaw, teacherBooksResult, studentSetsResult] = await Promise.all([
-          fetchJSON('/data/books.json'),
-          Promise.resolve(localStorage.getItem(UPLOADED_LESSONS_STORAGE_KEY) || sessionStorage.getItem(LEGACY_SESSION_UPLOADS_KEY)),
-          user ? supabase.rpc('list_shared_books') : Promise.resolve({ data: [] }),
-          user ? loadStudentSets(user.id).catch(() => []) : Promise.resolve([]),
-        ]);
-        const normalizedUploads = normalizeUploadedLessons(savedUploadsRaw);
-        const teacherBooks = (teacherBooksResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
-
-        setBaseBooks([...booksData, ...teacherBooks]);
-        setUploadedLessons(normalizedUploads);
-        setSupabaseSets(studentSetsResult);
-        if (normalizedUploads.length > 0) {
-          localStorage.setItem(UPLOADED_LESSONS_STORAGE_KEY, JSON.stringify(normalizedUploads));
-        }
-
-        const savedBook = sessionStorage.getItem(SESSION_SELECTED_BOOK_KEY);
-        const availableBookIds = [
-          ...booksData.map((book) => book.id),
-          ...teacherBooks.map((book) => book.id),
-          ...(normalizedUploads.length > 0 ? [USER_UPLOAD_BOOK_ID] : []),
-        ];
-
-        setSelectedBook(savedBook && availableBookIds.includes(savedBook) ? savedBook : availableBookIds[0] || '');
-      } catch {
-        setBooksError(t.uploadBooksError);
-      } finally {
-        setBooksLoading(false);
-      }
-    }
-
-    loadInitialData();
-
-    if (!('speechSynthesis' in window)) return undefined; // eslint-disable-line consistent-return
-    const loadVoices = () => window.speechSynthesis.getVoices();
-    loadVoices();
-    window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
-    return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
-  }, [t.uploadBooksError, user, authLoading]);
-
-
+  // Fallback: if selectedBook no longer valid (e.g. after logout) reset to first
   useEffect(() => {
     if (!books.length) return;
     if (!selectedBook || !books.some((book) => book.id === selectedBook)) {
@@ -382,73 +398,18 @@ function AppContent() {
     trackEvent('select_book', { book_id: selectedBook });
   }, [selectedBook]);
 
+  // Initialize selectedSection when sections for the current book become available
   useEffect(() => {
-    if (!selectedBook) return;
-
-    async function loadSectionsForBook() {
-      try {
-        setError('');
-        setIsLoading(true);
-
-        let nextSections = [];
-        const currentBook = books.find((b) => b.id === selectedBook);
-
-        if (selectedBook === USER_UPLOAD_BOOK_ID) {
-          nextSections = uploadedLessons
-            .map((lesson) => ({
-              id: lesson.id,
-              title: lesson.title,
-              file: lesson.id,
-              source: 'upload',
-              enabled: true,
-            }))
-            .sort((a, b) => a.title.localeCompare(b.title));
-        } else if (currentBook?.source === 'teacher') {
-          const { data, error } = await supabase
-            .from('user_sections')
-            .select('id, title, order, words')
-            .eq('book_id', selectedBook)
-            .order('order');
-          if (error) throw new Error(error.message);
-          nextSections = (data ?? []).map((sec) => ({
-            id: sec.id,
-            file: sec.id,
-            title: sec.title,
-            source: 'teacher',
-            enabled: true,
-            _words: sec.words ?? [],
-          }));
-        } else {
-          const data = await fetchJSON(`/data/books/${selectedBook}/sections.json`);
-          nextSections = data.map((section) => ({
-            ...section,
-            title: section.title || formatSectionName(section.file),
-            enabled: section.enabled !== false,
-          }));
-        }
-
-        setSections(nextSections);
-
-        const savedByBook = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
-        const savedSection = savedByBook[selectedBook];
-        const firstEnabledSection = nextSections.find((section) => section.enabled !== false)?.file || nextSections[0]?.file || '';
-
-        if (savedSection && nextSections.some((section) => section.file === savedSection && section.enabled !== false)) {
-          setSelectedSection(savedSection);
-        } else {
-          setSelectedSection(firstEnabledSection);
-        }
-      } catch {
-        setSections([]);
-        setSelectedSection('');
-        setError(t.uploadSectionsError);
-      } finally {
-        setIsLoading(false);
-      }
+    if (!sections.length || !selectedBook) return;
+    const savedByBook = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
+    const savedSection = savedByBook[selectedBook];
+    const firstEnabled = sections.find((s) => s.enabled !== false)?.file || sections[0]?.file || '';
+    if (savedSection && sections.some((s) => s.file === savedSection && s.enabled !== false)) {
+      setSelectedSection(savedSection);
+    } else {
+      setSelectedSection(firstEnabled);
     }
-
-    loadSectionsForBook();
-  }, [selectedBook, uploadedLessons, t.uploadSectionsError]);
+  }, [sections, selectedBook]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!selectedBook || !selectedSection) return;
@@ -458,44 +419,14 @@ function AppContent() {
     trackEvent('select_section', { book_id: selectedBook, section_id: selectedSection });
   }, [selectedBook, selectedSection]);
 
+  // Speech synthesis voice list — independent of data loading
   useEffect(() => {
-    if (!selectedBook || !selectedSection) return;
-    const isTeacherBook = books.find((b) => b.id === selectedBook)?.source === 'teacher';
-    if (selectedBook !== USER_UPLOAD_BOOK_ID && !isTeacherBook && !sections.some((section) => section.file === selectedSection)) return;
-
-    async function loadVocabulary() {
-      try {
-        setIsLoading(true);
-        setError('');
-
-        let parsed = [];
-        const currentSection = sections.find((s) => s.file === selectedSection);
-
-        if (selectedBook === USER_UPLOAD_BOOK_ID) {
-          parsed = uploadedLessons.find((lesson) => lesson.id === selectedSection)?.items || [];
-        } else if (currentSection?.source === 'teacher') {
-          parsed = normalizeVocabularyItems(currentSection._words ?? []);
-        } else {
-          const data = await fetchJSON(`/data/books/${selectedBook}/${selectedSection}`);
-          parsed = normalizeVocabularyItems(data?.items || data);
-        }
-
-        setOriginalVocabulary(parsed);
-        setVocabulary(parsed);
-        resetInteractiveState();
-        setIsShuffled(false);
-      } catch {
-        setError(t.uploadVocabularyError);
-        setOriginalVocabulary([]);
-        setVocabulary([]);
-        resetInteractiveState();
-      } finally {
-        setIsLoading(false);
-      }
-    }
-
-    loadVocabulary();
-  }, [selectedBook, selectedSection, uploadedLessons, sections, t.uploadVocabularyError]);
+    if (!('speechSynthesis' in window)) return undefined;
+    const loadVoices = () => window.speechSynthesis.getVoices();
+    loadVoices();
+    window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+    return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+  }, []);
 
   // O(1) lookup set — avoids O(n) favorites.some() per item per render
   const favoriteKeySet = useMemo(() => new Set(favorites.map((f) => f.favoriteKey)), [favorites]);
@@ -566,9 +497,8 @@ function AppContent() {
 
   const currentItem = activeVocabulary[currentIndex];
   const selectedBookMeta = useMemo(() => books.find((book) => book.id === selectedBook), [books, selectedBook]);
-  const currentSectionMeta = useMemo(() => sections.find((section) => section.file === selectedSection), [sections, selectedSection]);
-  const shouldShowSampleNotice = activeView === 'learn' && currentSectionMeta?.verified === false;
-  const sectionLabel = currentSectionMeta?.title || formatSectionName(selectedSection || '');
+  const shouldShowSampleNotice = activeView === 'learn' && currentSection?.verified === false;
+  const sectionLabel = currentSection?.title || formatSectionName(selectedSection || '');
   const bookLabel = selectedBookMeta?.title || t.userUploadBook;
   const showNoData = !isLoading && !error && activeView === 'learn' && activeVocabulary.length === 0;
   const activeTab = mode === 'quiz' ? 'quiz' : mode === 'review' ? 'review' : mode === 'write' ? 'write' : 'flashcard';
@@ -707,10 +637,6 @@ function AppContent() {
 
   function handleFlipCard() {
     markStudied();
-    // Track when revealing the back (front→back only, not back→front)
-    if (!isFlipped && user && role === 'member' && currentItem?.id && selectedBook && selectedSection) {
-      trackWordStat(user.id, { bookId: selectedBook, sectionId: selectedSection, itemId: currentItem.id, isCorrect: null }).catch(() => {});
-    }
     setIsFlipped((prev) => !prev);
   }
 
@@ -738,10 +664,6 @@ function AppContent() {
     if (!correct) {
       setWrongAnswers((prev) => [...prev, { item: currentItem, selectedAnswer: choice.chinese }]);
     }
-    // Track word stat for logged-in students
-    if (user && role === 'member' && currentItem?.id && selectedBook && selectedSection) {
-      trackWordStat(user.id, { bookId: selectedBook, sectionId: selectedSection, itemId: currentItem.id, isCorrect: correct }).catch(() => {});
-    }
   }
 
   function handleNextQuestion() {
@@ -753,10 +675,13 @@ function AppContent() {
         trackLessonStat(user.id, {
           bookId: selectedBook,
           sectionId: selectedSection,
-          sectionTitle: selectedSection,
+          sectionTitle: sectionLabel,
           score: score.correct,
           total: score.total,
-        }).catch(() => {});
+        }).catch(() => {}).finally(() => {
+          queryClient.invalidateQueries({ queryKey: ['lessonStats', user.id] });
+          queryClient.invalidateQueries({ queryKey: ['wordStats', user.id] });
+        });
       }
       return;
     }
@@ -778,7 +703,7 @@ function AppContent() {
   async function handleSignOut() {
     const wasStaff = role === 'teacher' || role === 'admin' || role === 'superadmin';
     await signOut();
-    navigate(wasStaff ? '/staff-login' : '/');
+    navigate('/');
   }
 
   async function handleUploadFile(event) {
@@ -786,7 +711,6 @@ function AppContent() {
 
     try {
       setUploadError('');
-      setError('');
       if (!file) return;
 
       if (!file.name.toLowerCase().endsWith('.xlsx')) {
@@ -799,7 +723,7 @@ function AppContent() {
         return;
       }
 
-      setIsLoading(true);
+      setUploadParsing(true);
       const rawItems = await parseVocabularyWorkbook(file);
 
       if (!rawItems.length) {
@@ -816,8 +740,8 @@ function AppContent() {
       // Logged-in student: try to save to Supabase first (max 3 slots)
       if (user && supabaseSets.length < 3) {
         try {
-          const saved = await saveStudentSet(user.id, { title, items });
-          setSupabaseSets((prev) => [saved, ...prev]);
+          await saveStudentSet(user.id, { title, items });
+          queryClient.invalidateQueries({ queryKey: ['studentSets', user.id] });
           if (wasTrimmed) {
             setUploadError(t.uploadTrimmedWarning.replace('{max}', MAX_WORDS).replace('{total}', rawItems.length));
             return; // stay on upload page so user sees the warning
@@ -860,28 +784,25 @@ function AppContent() {
       trackEvent('upload_lesson', { file_name: file.name, size: file.size, rows: items.length, format: 'xlsx', storage: 'localstorage' });
     } catch {
       setUploadError(t.uploadReadError);
-      setOriginalVocabulary([]);
-      setVocabulary([]);
-      resetInteractiveState();
     } finally {
-      setIsLoading(false);
+      setUploadParsing(false);
       if (fileInputRef.current) fileInputRef.current.value = '';
     }
   }
 
   // Redirect away from protected routes based on auth + role
   useEffect(() => {
-    if (authLoading) return;
+    if (!authReady) return;
     if (user && activeView === 'login') {
       navigate('/');
     } else if (!user && (activeView === 'teacher' || activeView === 'admin')) {
-      navigate('/staff-login');
+      navigate('/login');
     } else if (user && activeView === 'admin' && role !== 'admin') {
       navigate('/teacher');
     } else if (user && activeView === 'teacher' && role !== 'teacher' && role !== 'admin') {
       navigate('/');
     }
-  }, [authLoading, user, role, activeView]);
+  }, [authReady, user, role, activeView]);
 
 
   const pageFallback = (
@@ -892,18 +813,17 @@ function AppContent() {
 
   if (activeView === 'shared') return <Suspense fallback={pageFallback}><SharedBookPage token={sharedMatch[1]} /></Suspense>;
   if (activeView === 'login') return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
-  if (activeView === 'staff-login') return <Suspense fallback={pageFallback}><StaffLoginPage /></Suspense>;
   if (activeView === 'dashboard') return <Suspense fallback={pageFallback}><StudentDashboard /></Suspense>;
   if (activeView === 'feedback') return <Suspense fallback={pageFallback}><FeedbackPage onBack={() => navigate(-1)} /></Suspense>;
   if (activeView === 'feedback-review') {
-    if (authLoading) return pageFallback;
-    if (!user) return <Suspense fallback={pageFallback}><StaffLoginPage /></Suspense>;
+    if (!authReady) return pageFallback;
+    if (!user) return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
     if (role !== 'superadmin') return <NotFoundPage onGoHome={() => navigate('/')} />;
     return <Suspense fallback={pageFallback}><FeedbackReviewPage onBack={() => navigate(-1)} /></Suspense>;
   }
 
   // Show spinner while auth is restoring session for protected routes
-  if (authLoading && (activeView === 'teacher' || activeView === 'admin')) {
+  if (!authReady && (activeView === 'teacher' || activeView === 'admin')) {
     return pageFallback;
   }
 
@@ -915,7 +835,7 @@ function AppContent() {
     const sectionMatch = path.match(/^\/teacher\/books\/([^/]+)\/sections\/([^/]+)/);
     const bookMatch = path.match(/^\/teacher\/books\/([^/]+)/);
     if (sectionMatch) return <Suspense fallback={pageFallback}><SectionEditor bookId={sectionMatch[1]} sectionId={sectionMatch[2]} /></Suspense>;
-    if (bookMatch) return <Suspense fallback={pageFallback}><BookEditor bookId={bookMatch[1]} onShareChange={(updated) => setBaseBooks((prev) => updated.share_enabled ? prev.map((b) => b.id === updated.id ? { ...b, ...updated, source: 'teacher' } : b) : prev.filter((b) => b.id !== updated.id))} /></Suspense>;
+    if (bookMatch) return <Suspense fallback={pageFallback}><BookEditor bookId={bookMatch[1]} onShareChange={() => queryClient.invalidateQueries({ queryKey: ['books', user?.id] })} /></Suspense>;
     return <Suspense fallback={pageFallback}><TeacherDashboard /></Suspense>;
   }
 
@@ -1153,15 +1073,20 @@ function AppContent() {
                 </div>
               </div>
 
-              {/* Row 2: Admin nav — only for logged-in users */}
+              {/* Row 2: sub-nav — only for logged-in users */}
               {user && (
                 <div className="-mx-4 -mb-4 flex flex-wrap items-center justify-between gap-2 rounded-b-2xl border-t border-theme-border bg-theme-surface-secondary px-4 pb-3 pt-3 dark:bg-slate-900/40 sm:-mx-6 sm:-mb-4 sm:px-6">
-                  {/* Left: identity — show display name for students, masked email for staff */}
-                  <span className="truncate text-xs text-slate-400 dark:text-slate-500">
-                    {role === 'member'
-                      ? (user.user_metadata?.full_name ?? user.email?.split('@')[0])
-                      : user.email?.replace(/(.{2}).+(@.+)/, '$1***$2')}
-                  </span>
+                  {/* Left: identity */}
+                  <div className="flex items-center gap-2 min-w-0">
+                    {user.user_metadata?.avatar_url && (
+                      <img src={user.user_metadata.avatar_url} alt="" className="h-6 w-6 rounded-full shrink-0" />
+                    )}
+                    <span className="truncate text-xs font-medium text-slate-600 dark:text-slate-300">
+                      {role === 'member' || user.app_metadata?.provider === 'google'
+                        ? (user.user_metadata?.full_name ?? user.email?.split('@')[0])
+                        : user.email?.replace(/(.{2}).+(@.+)/, '$1***$2')}
+                    </span>
+                  </div>
                   {/* Right: role-based actions */}
                   <div className="flex flex-wrap items-center gap-2">
                     {role === 'superadmin' && (
@@ -1170,9 +1095,9 @@ function AppContent() {
                         <span className="text-xs">Feedback Review</span>
                       </Button>
                     )}
-                    {role === 'member' && (
+                    {(role === 'member' || user.app_metadata?.provider === 'google') && (
                       <Button type="button" size="sm" variant={activeView === 'dashboard' ? 'default' : 'outline'} className="gap-1.5" onClick={() => navigate('/dashboard')}>
-                        <span className="text-xs">My Dashboard</span>
+                        <span className="text-xs">📊 My Dashboard</span>
                       </Button>
                     )}
                     {role === 'teacher' && (
@@ -1181,7 +1106,7 @@ function AppContent() {
                       </Button>
                     )}
                     {role === 'admin' && (
-                      <Button type="button" size="sm" variant="outline" className="gap-1.5" onClick={() => navigate('/')}>
+                      <Button type="button" size="sm" variant="outline" className="gap-1.5" onClick={() => navigate('/admin')}>
                         <span className="text-xs">Admin Dashboard</span>
                       </Button>
                     )}
@@ -1229,7 +1154,7 @@ function AppContent() {
               supabaseSlotsUsed={supabaseSets.length}
               onDeleteSupabaseSet={async (id) => {
                 await deleteStudentSet(id);
-                setSupabaseSets((prev) => prev.filter((s) => s.id !== id));
+                queryClient.invalidateQueries({ queryKey: ['studentSets', user?.id] });
               }}
               t={t}
             />
