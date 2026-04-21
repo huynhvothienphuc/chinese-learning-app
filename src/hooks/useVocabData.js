@@ -2,11 +2,7 @@ import { useEffect } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { supabase } from '@/lib/supabase';
 import { formatSectionName, normalizeVocabularyItems } from '@/lib/utils';
-
-// Session storage keys — must match App.jsx constants
-const SESSION_SELECTED_BOOK_KEY = 'selected-book';
-const SESSION_SELECTED_SECTION_KEY = 'selected-sections-by-book';
-const USER_UPLOAD_BOOK_ID = 'user-upload';
+import { USER_UPLOAD_BOOK_ID, SESSION_SELECTED_BOOK_KEY, SESSION_SELECTED_SECTION_KEY } from '@/lib/constants';
 
 // ── Internal fetch helpers ────────────────────────────────────────────────────
 // Direct fetch — bypasses fetchCache's in-memory Map so TanStack Query's

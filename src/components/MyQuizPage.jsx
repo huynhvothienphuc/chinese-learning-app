@@ -4,10 +4,9 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { buildQuizChoices, cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
 import { fetchJSON } from '@/lib/fetchCache';
+import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 import Quiz from './Quiz';
 import WriteMode from './WriteMode';
-
-const USER_UPLOAD_BOOK_ID = 'user-upload';
 const FAVORITES_ID = 'favorites';
 
 function dedupe(items) {

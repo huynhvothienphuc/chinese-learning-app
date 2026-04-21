@@ -8,6 +8,7 @@ import { useAuthStore } from '@/store/authStore';
 import { useBooks, useSections, useVocabulary, usePrefetchAdjacentSections } from '@/hooks/useVocabData';
 import { useStudentSets } from '@/hooks/useStudentData';
 import { supabase, saveStudentSet, deleteStudentSet, trackLessonStat } from '@/lib/supabase';
+import { USER_UPLOAD_BOOK_ID, SESSION_SELECTED_BOOK_KEY, SESSION_SELECTED_SECTION_KEY } from '@/lib/constants';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
 const StudentDashboard = lazy(() => import('@/pages/StudentDashboard'));
@@ -50,12 +51,9 @@ import './App.css';
 const INITIAL_SCORE = { correct: 0, total: 0 };
 const UPLOADED_LESSONS_STORAGE_KEY = 'uploaded-lessons-json';
 const LEGACY_SESSION_UPLOADS_KEY = 'uploaded-sections';
-const SESSION_SELECTED_BOOK_KEY = 'selected-book';
-const SESSION_SELECTED_SECTION_KEY = 'selected-sections-by-book';
 const SESSION_LANGUAGE_KEY = 'selected-language';
 const FAVORITES_STORAGE_KEY = 'favorite-vocabulary';
 const MAX_UPLOAD_BYTES = 1024 * 1024;
-const USER_UPLOAD_BOOK_ID = 'user-upload';
 const SAMPLE_NOTICE_LAST_SEEN_KEY = 'sample-sentence-notice-last-seen';
 
 const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
@@ -205,7 +203,21 @@ function AppContent() {
   const location = useLocation();
   const queryClient = useQueryClient();
   const sharedMatch = location.pathname.match(/^\/shared\/([^/]+)/);
-  const activeView = sharedMatch ? 'shared' : location.pathname === '/admin' ? 'admin' : location.pathname.startsWith('/teacher') ? 'teacher' : location.pathname === '/quiz' ? 'myquiz' : location.pathname === '/upload-word' ? 'upload' : location.pathname === '/info' ? 'info' : location.pathname === '/feedback' ? 'feedback' : location.pathname === '/feedback-review' ? 'feedback-review' : location.pathname === '/login' ? 'login' : location.pathname === '/dashboard' ? 'dashboard' : location.pathname === '/' ? 'learn' : 'notfound';
+  const activeView = useMemo(() => {
+    if (sharedMatch) return 'shared';
+    const path = location.pathname;
+    if (path === '/admin') return 'admin';
+    if (path.startsWith('/teacher')) return 'teacher';
+    if (path === '/quiz') return 'myquiz';
+    if (path === '/upload-word') return 'upload';
+    if (path === '/info') return 'info';
+    if (path === '/feedback') return 'feedback';
+    if (path === '/feedback-review') return 'feedback-review';
+    if (path === '/login') return 'login';
+    if (path === '/dashboard') return 'dashboard';
+    if (path === '/') return 'learn';
+    return 'notfound';
+  }, [sharedMatch, location.pathname]);
   const { user, role, signOut, authReady } = useAuthStore();
   const { markStudied } = useStreak();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -459,9 +471,10 @@ function AppContent() {
   );
 
   const pool = customQuizPool ?? (deckSource === 'favorites' ? testableVocabulary : activeVocabulary);
+  // quizSeed forces a rebuild on quiz restart even when the vocabulary hasn't changed
   const allChoices = useMemo(
     () => activeVocabulary.map((item) => buildQuizChoices(pool, item)),
-    [activeVocabulary, pool, quizSeed],
+    [activeVocabulary, pool, quizSeed], // eslint-disable-line react-hooks/exhaustive-deps
   );
 
   useEffect(() => {
@@ -701,7 +714,6 @@ function AppContent() {
   }
 
   async function handleSignOut() {
-    const wasStaff = role === 'teacher' || role === 'admin' || role === 'superadmin';
     await signOut();
     navigate('/');
   }
