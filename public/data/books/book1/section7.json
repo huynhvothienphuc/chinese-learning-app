@@ -7,22 +7,22 @@
       "id": 1,
       "chinese": "垃圾",
       "pinyin": "lèsè",
-      "en": "garbage, trash",
-      "vi": "rác",
-      "sinoVietnamese": "",
+      "en": "trash; garbage",
+      "vi": "Rác",
+      "sinoVietnamese": "Lạp sắc",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "rubbish; garbage; refuse; breeze",
           "sentence": "街上有許多垃圾桶。",
+          "simplified": "",
           "pinyin": "jiē shàng yǒu xǔduō lājī tǒng.",
           "en": "There are many trash cans on the street.",
           "vi": "Có rất nhiều thùng rác trên đường phố."
         },
         {
-          "type": "Noun",
           "meaning": "rubbish; garbage; refuse; breeze",
           "sentence": "不要在公共場所扔垃圾。",
+          "simplified": "",
           "pinyin": "bùyào zài gōnggòng chǎngsuǒ rēng lājī.",
           "en": "Don't throw rubbish in public places.",
           "vi": ""
@@ -33,22 +33,22 @@
       "id": 2,
       "chinese": "倒",
       "pinyin": "dào",
-      "en": "to throw out (garbage)",
-      "vi": "đổ (rác)",
-      "sinoVietnamese": "",
+      "en": "to throw away (trash)",
+      "vi": "Vứt (Rác)",
+      "sinoVietnamese": "Đảo",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "to be inverse; to be inverted; to be upside down",
           "sentence": "你把畫貼倒了。",
+          "simplified": "",
           "pinyin": "nǐ bǎ huà tiē dàole.",
           "en": "You put the picture upside down.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "to be inverse; to be inverted; to be upside down",
           "sentence": "他把書拿倒了。",
+          "simplified": "",
           "pinyin": "tā bǎ shū ná dàole.",
           "en": "He held the book upside down.",
           "vi": ""
@@ -59,22 +59,22 @@
       "id": 3,
       "chinese": "丟",
       "pinyin": "diū",
-      "en": "to throw, to throw away",
-      "vi": "vứt, ném",
-      "sinoVietnamese": "",
+      "en": "to throw; to toss away",
+      "vi": "Ném, vứt",
+      "sinoVietnamese": "Đâu",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "lose; mislay; be missing",
           "sentence": "我的錢包丟了。",
+          "simplified": "",
           "pinyin": "wǒ de qián bāo diū le.",
           "en": "I've lost my purse.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "lose; mislay; be missing",
           "sentence": "這套書丟了一本。",
+          "simplified": "",
           "pinyin": "zhè tào shū diū le yī běn.",
           "en": "There's a book missing from the set.",
           "vi": ""
@@ -85,22 +85,22 @@
       "id": 4,
       "chinese": "收",
       "pinyin": "shōu",
-      "en": "to collect",
-      "vi": "thu, nhận, gom",
-      "sinoVietnamese": "",
+      "en": "to receive; to collect",
+      "vi": "Thu, nhận",
+      "sinoVietnamese": "Thu",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "put back; put together",
           "sentence": "洗的衣服收了沒有?",
+          "simplified": "",
           "pinyin": "xǐ de yīfu shōule méiyǒu?",
           "en": "Have you brought in the washing?",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "put back; put together",
           "sentence": "你把這些東西收一收吧。",
+          "simplified": "",
           "pinyin": "nǐ bǎ zhèxiē dōngxi shōu yī shōu ba.",
           "en": "Put these things away.",
           "vi": ""
@@ -111,22 +111,22 @@
       "id": 5,
       "chinese": "以為",
       "pinyin": "yǐwéi",
-      "en": "to assume wrongly",
-      "vi": "tưởng rằng (nhầm lẫn)",
-      "sinoVietnamese": "",
+      "en": "to think; to suppose mistakenly",
+      "vi": "Nghĩ rằng, tưởng rằng",
+      "sinoVietnamese": "Dĩ vi",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "think; believe; consider (usually erroneously)",
           "sentence": "我以為是誰呢，原來是你。",
+          "simplified": "",
           "pinyin": "wǒ yǐwéi shì shéi ne, yuánlái shì nǐ.",
           "en": "I thought it was someone else, but it turns out it's you.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "think; believe; consider (usually erroneously)",
           "sentence": "我以為你已經走了。",
+          "simplified": "",
           "pinyin": "wǒ yǐwéi nǐ yǐjīng zǒule.",
           "en": "I thought you had already left.",
           "vi": ""
@@ -138,21 +138,21 @@
       "chinese": "回收",
       "pinyin": "huíshōu",
       "en": "to recycle",
-      "vi": "tái chế",
-      "sinoVietnamese": "",
+      "vi": "Tái chế",
+      "sinoVietnamese": "Hồi thu",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "recycle",
           "sentence": "這些都是可迴收垃圾。",
+          "simplified": "",
           "pinyin": "zhèxiē dōu shì kě huíshōu lājī.",
           "en": "These are all recyclable garbage.",
           "vi": "Những thứ này đều là rác có thể tái chế được."
         },
         {
-          "type": "Verb",
           "meaning": "recycle",
           "sentence": "舊書是可以迴收的。",
+          "simplified": "",
           "pinyin": "jiùshū shì kěyǐ huíshōu de.",
           "en": "Old books can be recycled.",
           "vi": "Sách cũ có thể tái chế được."
@@ -163,22 +163,22 @@
       "id": 7,
       "chinese": "規定",
       "pinyin": "guīdìng",
-      "en": "rules, regulation",
-      "vi": "quy định",
-      "sinoVietnamese": "",
+      "en": "rule; regulation",
+      "vi": "Quy định",
+      "sinoVietnamese": "Quy định",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "rule; regulation; stipulation",
           "sentence": "公司有新的規定齣臺。",
+          "simplified": "",
           "pinyin": "gōngsī yǒu xīn de guīdìng chūtái.",
           "en": "The company has issued new regulations.",
           "vi": ""
         },
         {
-          "type": "Noun",
           "meaning": "rule; regulation; stipulation",
           "sentence": "學生不許違反學校規定。",
+          "simplified": "",
           "pinyin": "xuéshēng bùxǔ wéifǎn xuéxiào guīdìng.",
           "en": "Students are not allowed to violate school rules.",
           "vi": ""
@@ -188,23 +188,23 @@
     {
       "id": 8,
       "chinese": "要不然",
-      "pinyin": "yàobùrán",
-      "en": "otherwise",
-      "vi": "nếu không thì",
-      "sinoVietnamese": "",
+      "pinyin": "yào bùrán",
+      "en": "otherwise; if not",
+      "vi": "Nếu không thì",
+      "sinoVietnamese": "Yếu bất nhiên",
       "samples": [
         {
-          "type": "Conjunction",
           "meaning": "otherwise; or else",
           "sentence": "他得走，要不然會晚了。",
+          "simplified": "",
           "pinyin": "tā dé zǒu, yào bùrán huì wǎnle.",
           "en": "He has to go, otherwise he'll be late.",
           "vi": "Anh ấy phải đi, nếu không sẽ muộn mất."
         },
         {
-          "type": "Conjunction",
           "meaning": "otherwise; or else",
           "sentence": "我們快跑，要不然趕不上了。",
+          "simplified": "",
           "pinyin": "wǒmen kuài pǎo, yào bùrán gǎnbushàngle.",
           "en": "We need to hurry up, or we'll be late.",
           "vi": "Chúng ta chạy nhanh lên, nếu không sẽ không kịp đâu."
@@ -215,22 +215,22 @@
       "id": 9,
       "chinese": "皮包",
       "pinyin": "píbāo",
-      "en": "purse, handbag",
-      "vi": "túi xách, ví da",
-      "sinoVietnamese": "",
+      "en": "leather bag; purse",
+      "vi": "Túi da",
+      "sinoVietnamese": "Bì bao",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "handbag; briefcase",
           "sentence": "爸爸的皮包很舊了。",
+          "simplified": "",
           "pinyin": "bàba de píbāo hěn jiùle.",
           "en": "Dad's bag is very old.",
           "vi": "Túi da của bố rất cũ rồi."
         },
         {
-          "type": "Noun",
           "meaning": "handbag; briefcase",
           "sentence": "姐姐的皮包是粉色的。",
+          "simplified": "",
           "pinyin": "jiějiě de píbāo shì fěnsè de.",
           "en": "My sister's bag is pink.",
           "vi": ""
@@ -242,21 +242,21 @@
       "chinese": "跑",
       "pinyin": "pǎo",
       "en": "to run",
-      "vi": "chạy",
-      "sinoVietnamese": "",
+      "vi": "Chạy",
+      "sinoVietnamese": "Bào",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "run",
           "sentence": "他每天早上跑步。",
+          "simplified": "",
           "pinyin": "tā měitiān zǎoshang pǎobù.",
           "en": "He runs every morning.",
           "vi": "Anh ấy chạy bộ mỗi sáng."
         },
         {
-          "type": "Verb",
           "meaning": "run",
           "sentence": "他們在操場上跑步。",
+          "simplified": "",
           "pinyin": "tāmen zài cāochǎng shàng pǎobù.",
           "en": "They are running on the playground.",
           "vi": "Họ đang chạy bộ trên sân tập."
@@ -267,22 +267,22 @@
       "id": 11,
       "chinese": "追",
       "pinyin": "zhuī",
-      "en": "to run after, to chase",
-      "vi": "đuổi theo",
-      "sinoVietnamese": "",
+      "en": "to chase; to run after",
+      "vi": "Đuổi theo, chạy theo",
+      "sinoVietnamese": "Truy",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "pursue; chase (or run) after",
           "sentence": "她追著前麵的衕學。",
+          "simplified": "",
           "pinyin": "tā zhuīzhe qiánmiàn de tóngxué.",
           "en": "She is chasing the classmate in front.",
           "vi": "Cô ấy đuổi theo bạn học phía trước."
         },
         {
-          "type": "Verb",
           "meaning": "pursue; chase (or run) after",
           "sentence": "孩子們追著風箏。",
+          "simplified": "",
           "pinyin": "háizimen zhuīzhe fēngzhēng.",
           "en": "The children are chasing the kite.",
           "vi": "Những đứa trẻ đuổi theo con diều."
@@ -293,22 +293,22 @@
       "id": 12,
       "chinese": "有趣",
       "pinyin": "yǒuqù",
-      "en": "interesting",
-      "vi": "thú vị",
-      "sinoVietnamese": "",
+      "en": "interesting; fun",
+      "vi": "Thú vị",
+      "sinoVietnamese": "Hữu thú",
       "samples": [
         {
-          "type": "Adjective",
           "meaning": "interesting; fascinating; amusing",
           "sentence": "這本書很有趣。",
+          "simplified": "",
           "pinyin": "zhè běn shū hěn yǒuqù.",
           "en": "This book is very interesting.",
           "vi": ""
         },
         {
-          "type": "Adjective",
           "meaning": "interesting; fascinating; amusing",
           "sentence": "他是個有趣的人。",
+          "simplified": "",
           "pinyin": "tā shìgè yǒuqù de rén.",
           "en": "He is an interesting person.",
           "vi": ""
@@ -318,23 +318,23 @@
     {
       "id": 13,
       "chinese": "不壞",
-      "pinyin": "bú huài",
+      "pinyin": "bù huài",
       "en": "not too bad",
-      "vi": "không tệ",
-      "sinoVietnamese": "",
+      "vi": "Không quá tệ",
+      "sinoVietnamese": "Bất hoại",
       "samples": [
         {
-          "type": "Adjective",
           "meaning": "bad; harmful",
           "sentence": "他有抽煙的壞習慣。",
+          "simplified": "",
           "pinyin": "tā yǒu chōuyān de huài xíguàn.",
           "en": "He has the bad habit of smoking.",
           "vi": "Anh ấy có thói quen xấu là hút thuốc."
         },
         {
-          "type": "Adjective",
           "meaning": "bad; harmful",
           "sentence": "他有熬夜的壞習慣。",
+          "simplified": "",
           "pinyin": "tā yǒu áoyè de huài xíguàn.",
           "en": "He has the bad habit of staying up late.",
           "vi": "Anh ấy có thói quen xấu là thức khuya."
@@ -345,22 +345,22 @@
       "id": 14,
       "chinese": "聊",
       "pinyin": "liáo",
-      "en": "to chat (about)",
-      "vi": "tán gẫu",
-      "sinoVietnamese": "",
+      "en": "to chat; to talk",
+      "vi": "Nói chuyện, tán gẫu",
+      "sinoVietnamese": "Liêu",
       "samples": [
         {
-          "type": "Adverb",
           "meaning": "just; merely; tentatively",
           "sentence": "這事咱們聊且不論。",
+          "simplified": "",
           "pinyin": "zhè shì zánmen liáo qiě bùlùn.",
           "en": "Let's not discuss this matter for now.",
           "vi": "Chuyện này tạm thời chúng ta không bàn."
         },
         {
-          "type": "Adverb",
           "meaning": "just; merely; tentatively",
           "sentence": "我們聊且休息一會兒再説。",
+          "simplified": "",
           "pinyin": "wǒmen liáo qiě xiūxi yīhuìr zàishuō.",
           "en": "Let's take a break and talk about it later.",
           "vi": "Chúng ta tạm thời nghỉ một lát rồi nói tiếp."
@@ -371,22 +371,22 @@
       "id": 15,
       "chinese": "忽然",
       "pinyin": "hūrán",
-      "en": "suddenly",
-      "vi": "đột nhiên",
-      "sinoVietnamese": "",
+      "en": "suddenly; all of a sudden",
+      "vi": "Đột nhiên, bất thình lình",
+      "sinoVietnamese": "Hốt nhiên",
       "samples": [
         {
-          "type": "Adverb",
           "meaning": "suddenly; all of a sudden",
           "sentence": "他説著説著，忽然停住了。",
+          "simplified": "",
           "pinyin": "tā shuōzhe shuōzhe, hūrán tíng zhùle.",
           "en": "He was talking when he suddenly stopped.",
           "vi": "Anh ấy đang nói rồi bỗng nhiên dừng lại."
         },
         {
-          "type": "Adverb",
           "meaning": "suddenly; all of a sudden",
           "sentence": "忽然，陽臺上掉下一個花盆來。",
+          "simplified": "",
           "pinyin": "hūrán, yángtái shàng diào xià yīgè huā pén lái.",
           "en": "Suddenly, a flower pot fell down from the balcony.",
           "vi": ""
@@ -397,22 +397,22 @@
       "id": 16,
       "chinese": "聲音",
       "pinyin": "shēngyīn",
-      "en": "sound",
-      "vi": "âm thanh, tiếng",
-      "sinoVietnamese": "",
+      "en": "sound; noise",
+      "vi": "Âm thanh, tiếng động",
+      "sinoVietnamese": "Thanh âm",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "sound; voice",
           "sentence": "她的聲音很溫柔。",
+          "simplified": "",
           "pinyin": "tā de shēngyīn hěn wēnróu.",
           "en": "Her voice is very gentle.",
           "vi": "Giọng nói của cô ấy rất mềm mại."
         },
         {
-          "type": "Noun",
           "meaning": "sound; voice",
           "sentence": "這個聲音太吵了。",
+          "simplified": "",
           "pinyin": "zhège shēngyīn tài chǎole.",
           "en": "This sound is too loud.",
           "vi": "Âm thanh này quá ồn ào."
@@ -423,22 +423,22 @@
       "id": 17,
       "chinese": "奇怪",
       "pinyin": "qíguài",
-      "en": "strange, odd",
-      "vi": "kỳ lạ",
-      "sinoVietnamese": "",
+      "en": "strange; odd",
+      "vi": "Kì lạ, quái lạ",
+      "sinoVietnamese": "Kì quái",
       "samples": [
         {
-          "type": "Adjective",
           "meaning": "strange",
           "sentence": "這個人真奇怪。",
+          "simplified": "",
           "pinyin": "zhège rén zhēn qíguài.",
           "en": "This person is so strange.",
           "vi": ""
         },
         {
-          "type": "Adjective",
           "meaning": "strange",
           "sentence": "這件事情很奇怪。",
+          "simplified": "",
           "pinyin": "zhè jiàn shìqing hěn qíguài.",
           "en": "This matter is so strange.",
           "vi": ""
@@ -450,21 +450,21 @@
       "chinese": "袋子",
       "pinyin": "dàizi",
       "en": "bag",
-      "vi": "túi",
-      "sinoVietnamese": "",
+      "vi": "Túi",
+      "sinoVietnamese": "Đại tử",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "bag; sack",
           "sentence": "她把衣服塞進袋子。",
+          "simplified": "",
           "pinyin": "tā bǎ yīfu sāi jìn dàizǐ.",
           "en": "She stuffed the clothes into the bag.",
           "vi": ""
         },
         {
-          "type": "Noun",
           "meaning": "bag; sack",
           "sentence": "我把東西放進袋子裡/裏。",
+          "simplified": "",
           "pinyin": "wǒ bǎ dōngxi fàng jìn dàizǐ lǐ.",
           "en": "I put the things into the bag.",
           "vi": "Tôi bỏ đổ vào trong túi."
@@ -476,21 +476,21 @@
       "chinese": "輛",
       "pinyin": "liàng",
       "en": "measure word for vehicles",
-      "vi": "chiếc (lượng từ xe cộ)",
-      "sinoVietnamese": "",
+      "vi": "Chiếc (Lượng từ cho xe)",
+      "sinoVietnamese": "Lượng",
       "samples": [
         {
-          "type": "measure word",
           "meaning": "measure word for vehicles",
           "sentence": "我有一輛汽車。",
+          "simplified": "",
           "pinyin": "wǒ yǒuyī liàng qìchē.",
           "en": "I have a car.",
           "vi": "Tôi có một chiếc xe hơi."
         },
         {
-          "type": "measure word",
           "meaning": "measure word for vehicles",
           "sentence": "那邊停著一輛齣租車。",
+          "simplified": "",
           "pinyin": "nà biān tíngzhe yī liàng chūzū chē.",
           "en": "There is a taxi parked over there.",
           "vi": "Có một chiếc taxi đỗ ở đằng kia."
@@ -501,22 +501,22 @@
       "id": 20,
       "chinese": "一定",
       "pinyin": "yídìng",
-      "en": "fixed, set, at a certain...",
-      "vi": "nhất định, cụ thể",
-      "sinoVietnamese": "",
+      "en": "certainly; definitely",
+      "vi": "Nhất định",
+      "sinoVietnamese": "Nhất định",
       "samples": [
         {
-          "type": "Adverb",
           "meaning": "surely; certainly; necessarily",
           "sentence": "他一定會來參加會議。",
+          "simplified": "",
           "pinyin": "tā yīdìng huì lái cānjiā huìyì.",
           "en": "He will certainly come to the meeting.",
           "vi": "Anh ấy nhất định tham dự cuộc họp."
         },
         {
-          "type": "Adverb",
           "meaning": "surely; certainly; necessarily",
           "sentence": "這本書一定很有趣。",
+          "simplified": "",
           "pinyin": "zhè běn shū yīdìng hěn yǒuqù.",
           "en": "This book must surely be very interesting.",
           "vi": ""
@@ -527,22 +527,22 @@
       "id": 21,
       "chinese": "地點",
       "pinyin": "dìdiǎn",
-      "en": "location",
-      "vi": "địa điểm",
-      "sinoVietnamese": "",
+      "en": "place; location",
+      "vi": "Địa điểm, nơi",
+      "sinoVietnamese": "Địa điểm",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "place; site; locale",
           "sentence": "開會地點在大禮堂。",
+          "simplified": "",
           "pinyin": "kāihuì dìdiǎn zài dà lǐtáng.",
           "en": "The meeting place is in the auditorium.",
           "vi": ""
         },
         {
-          "type": "Noun",
           "meaning": "place; site; locale",
           "sentence": "接頭地點在哪兒？",
+          "simplified": "",
           "pinyin": "jiētóu dìdiǎn zài nǎr?",
           "en": "Where is the contact point?",
           "vi": ""
@@ -553,22 +553,22 @@
       "id": 22,
       "chinese": "為了",
       "pinyin": "wèile",
-      "en": "to, for the sake of",
-      "vi": "vì, để",
-      "sinoVietnamese": "",
+      "en": "for; because of",
+      "vi": "Vì, bởi vì",
+      "sinoVietnamese": "Vị liễu",
       "samples": [
         {
-          "type": "Preposition",
           "meaning": "for; for the sake of",
           "sentence": "他努力工作是為了買房子。",
+          "simplified": "",
           "pinyin": "tā nǔlì gōngzuò shì wèile mǎi fángzi.",
           "en": "\"He works hard in order to buy a house.",
           "vi": "Anh ấy làm việc chăm chỉ để mua nhà."
         },
         {
-          "type": "Preposition",
           "meaning": "for; for the sake of",
           "sentence": "為了健康，我每天跑步。",
+          "simplified": "",
           "pinyin": "wèile jiànkāng, wǒ měitiān pǎobù.",
           "en": "He works hard in order to buy a house.",
           "vi": "Để có sức khỏe, tôi chạy bộ mỗi ngày."
@@ -580,21 +580,21 @@
       "chinese": "保護",
       "pinyin": "bǎohù",
       "en": "to protect",
-      "vi": "bảo vệ",
-      "sinoVietnamese": "",
+      "vi": "Bảo vệ",
+      "sinoVietnamese": "Bảo hộ",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "protect; safeguard",
           "sentence": "父母保護孩子安全。",
+          "simplified": "",
           "pinyin": "fùmǔ bǎohù háizi ānquán.",
           "en": "Parents protect the safety of their children.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "protect; safeguard",
           "sentence": "我們必須保護環境。",
+          "simplified": "",
           "pinyin": "wǒmen bìxū bǎohù huánjìng.",
           "en": "We must protect the environment.",
           "vi": "Chúng ta phải bảo vệ môi trường."
@@ -605,22 +605,22 @@
       "id": 24,
       "chinese": "分類",
       "pinyin": "fēnlèi",
-      "en": "classification",
-      "vi": "phân loại",
-      "sinoVietnamese": "",
+      "en": "to classify; classification",
+      "vi": "Phân loại",
+      "sinoVietnamese": "Phân loại",
       "samples": [
         {
-          "type": "sv",
           "meaning": "sort; classify; categorize",
           "sentence": "這些容器按大小分類。",
+          "simplified": "",
           "pinyin": "zhèxiē róngqì àn dàxiǎo fēnlèi.",
           "en": "The containers are graded according to size.",
           "vi": ""
         },
         {
-          "type": "sv",
           "meaning": "sort; classify; categorize",
           "sentence": "這些書按科目分類。",
+          "simplified": "",
           "pinyin": "zhèxiē shū àn kēmù fēnlèi.",
           "en": "The books are grouped together by subject.",
           "vi": ""
@@ -631,22 +631,22 @@
       "id": 25,
       "chinese": "利用",
       "pinyin": "lìyòng",
-      "en": "to make use of",
-      "vi": "tận dụng",
-      "sinoVietnamese": "",
+      "en": "to make use of; to utilize",
+      "vi": "Tận dụng",
+      "sinoVietnamese": "Lợi dụng",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "use; utilize; make use of",
           "sentence": "她利用休息時間去健身。",
+          "simplified": "",
           "pinyin": "tā lìyòng xiūxi shíjiān qù jiànshēn.",
           "en": "She used her break time to go to the gym.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "use; utilize; make use of",
           "sentence": "我們要有效地利用風力。",
+          "simplified": "",
           "pinyin": "wǒmen yào yǒuxiào de lìyòng fēnglì.",
           "en": "We need to effectively utilize wind power.",
           "vi": ""
@@ -658,21 +658,21 @@
       "chinese": "紙",
       "pinyin": "zhǐ",
       "en": "paper",
-      "vi": "giấy",
-      "sinoVietnamese": "",
+      "vi": "Giấy",
+      "sinoVietnamese": "Chỉ",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "paper",
           "sentence": "學生們用紙畫畫。",
+          "simplified": "",
           "pinyin": "xuéshēngmen yòng zhǐ huà huà.",
           "en": "The students draw with paper.",
           "vi": "Học sinh sử dụng giấy để vẽ tranh."
         },
         {
-          "type": "Noun",
           "meaning": "paper",
           "sentence": "我把這張紙撕了。",
+          "simplified": "",
           "pinyin": "wǒ bǎ zhè zhāng zhǐ sīle.",
           "en": "I tore this piece of paper.",
           "vi": "Tôi đã xé tờ giấy này."
@@ -683,22 +683,22 @@
       "id": 27,
       "chinese": "瓶子",
       "pinyin": "píngzi",
-      "en": "bottle",
-      "vi": "cái chai, bình",
-      "sinoVietnamese": "",
+      "en": "bottle; jar",
+      "vi": "Chai, lọ, bình",
+      "sinoVietnamese": "Bình tử",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "bottle",
           "sentence": "瓶子裡/裏還有水嗎？",
+          "simplified": "",
           "pinyin": "píngzi lǐ hái yǒu shuǐ ma?",
           "en": "Is there still water in the bottle?",
           "vi": "Trong bình còn nước không?"
         },
         {
-          "type": "Noun",
           "meaning": "bottle",
           "sentence": "我買了一個新瓶子。",
+          "simplified": "",
           "pinyin": "wǒ mǎile yīgè xīn píngzi.",
           "en": "I bought a new bottle.",
           "vi": "Tôi đã mua một cái lọ mới."
@@ -710,21 +710,21 @@
       "chinese": "塑膠",
       "pinyin": "sùjiāo",
       "en": "plastic",
-      "vi": "nhựa, nilon",
-      "sinoVietnamese": "",
+      "vi": "Nhựa",
+      "sinoVietnamese": "Tố giao",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "plastic; plastic cement",
           "sentence": "塑膠製品很耐用。",
+          "simplified": "",
           "pinyin": "sùjiāo zhìpǐn hěn nàiyòng.",
           "en": "Plastic products are very durable.",
           "vi": "Sản phẩm nhựa rất bền."
         },
         {
-          "type": "Noun",
           "meaning": "plastic; plastic cement",
           "sentence": "我喜歡塑膠玩具。",
+          "simplified": "",
           "pinyin": "wǒ xǐhuān sùjiāo wánjù.",
           "en": "I enjoy playing with plastic toys.",
           "vi": "Tôi thích đồ chơi bằng nhựa."
@@ -736,21 +736,21 @@
       "chinese": "資源",
       "pinyin": "zīyuán",
       "en": "resource",
-      "vi": "tài nguyên",
-      "sinoVietnamese": "",
+      "vi": "Tài nguyên",
+      "sinoVietnamese": "Tư nguyên",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "resource",
           "sentence": "我們的資源極端緊缺。",
+          "simplified": "",
           "pinyin": "wǒmen de zīyuán jíduān jǐnquē.",
           "en": "Our resources are strained to the utmost.",
           "vi": ""
         },
         {
-          "type": "Noun",
           "meaning": "resource",
           "sentence": "教育資源不足。",
+          "simplified": "",
           "pinyin": "jiàoyùzīyuánbùzú.",
           "en": "The education resources are not sufficient.",
           "vi": ""
@@ -760,23 +760,23 @@
     {
       "id": 30,
       "chinese": "回收桶",
-      "pinyin": "huíshōutǒng",
+      "pinyin": "huíshōu tǒng",
       "en": "recycling bin",
-      "vi": "thùng rác tái chế",
-      "sinoVietnamese": "",
+      "vi": "Thùng rác tái chế",
+      "sinoVietnamese": "Hồi thu dũng",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "keg; tub; pail; barrel; bucket; commode",
           "sentence": "桶裡/裏裝滿了水。",
+          "simplified": "",
           "pinyin": "tǒng lǐ zhuāng mǎnle shuǐ.",
           "en": "The bucket is full of water.",
           "vi": ""
         },
         {
-          "type": "Noun",
           "meaning": "keg; tub; pail; barrel; bucket; commode",
           "sentence": "他提著一個木桶。",
+          "simplified": "",
           "pinyin": "tā tízhe yīgè mù tǒng.",
           "en": "He is carrying a wooden bucket.",
           "vi": ""
@@ -788,21 +788,21 @@
       "chinese": "城市",
       "pinyin": "chéngshì",
       "en": "city",
-      "vi": "thành phố",
-      "sinoVietnamese": "",
+      "vi": "Thành phố",
+      "sinoVietnamese": "Thành thị",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "city; town",
           "sentence": "這座城市非常繁華。",
+          "simplified": "",
           "pinyin": "zhè zuò chéngshì fēicháng fánhuá.",
           "en": "This city is very bustling.",
           "vi": "Thành phố này rất sầm uất."
         },
         {
-          "type": "Noun",
           "meaning": "city; town",
           "sentence": "我愛這座城市的氛圍。",
+          "simplified": "",
           "pinyin": "wǒ ài zhè zuò chéngshì de fēnwéi.",
           "en": "I love the atmosphere of this city.",
           "vi": ""
@@ -813,22 +813,22 @@
       "id": 32,
       "chinese": "聽見",
       "pinyin": "tīngjiàn",
-      "en": "to hear, to have heard",
-      "vi": "nghe thấy",
-      "sinoVietnamese": "",
+      "en": "to hear",
+      "vi": "Nghe thấy",
+      "sinoVietnamese": "Thính kiến",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "hear",
           "sentence": "他聽見學校的鈴響了。",
+          "simplified": "",
           "pinyin": "tā tīngjiàn xuéxiào de líng xiǎngle.",
           "en": "He heard the school bell ring.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "hear",
           "sentence": "我仿彿聽見有人在呼喊。",
+          "simplified": "",
           "pinyin": "wǒ fǎngfú tīngjiàn yǒurén zài hūhǎn.",
           "en": "I thought I heard someone calling.",
           "vi": ""
@@ -839,22 +839,22 @@
       "id": 33,
       "chinese": "開過來",
       "pinyin": "kāi guòlái",
-      "en": "to drive over",
-      "vi": "lái xe qua đây",
-      "sinoVietnamese": "",
+      "en": "to come running/driving over",
+      "vi": "Chạy tới",
+      "sinoVietnamese": "Khai quá lai",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "come; arrive",
           "sentence": "他來公司開會。",
+          "simplified": "",
           "pinyin": "tā lái gōngsī kāihuì.",
           "en": "He comes to the company for a meeting.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "come; arrive",
           "sentence": "請你來我傢玩。",
+          "simplified": "",
           "pinyin": "qǐng nǐ lái wǒ jiā wán.",
           "en": "Please come to my house to play.",
           "vi": ""
@@ -866,21 +866,21 @@
       "chinese": "走過去",
       "pinyin": "zǒu guòqù",
       "en": "to walk over",
-      "vi": "đi bộ qua đó",
-      "sinoVietnamese": "",
+      "vi": "Đi tới",
+      "sinoVietnamese": "Tẩu quá khứ",
       "samples": [
         {
-          "type": "v, time, n, adv",
           "meaning": "(in the) past",
           "sentence": "過去呢",
+          "simplified": "",
           "pinyin": "guòqù ní",
           "en": "What about past complaints?",
           "vi": ""
         },
         {
-          "type": "v, time, n, adv",
           "meaning": "former",
           "sentence": "她隻是個過去的朋友。",
+          "simplified": "",
           "pinyin": "tā zhǐshì gè guòqù de péngyǒu",
           "en": "She's just a former friend.",
           "vi": ""
@@ -891,22 +891,22 @@
       "id": 35,
       "chinese": "丟進去",
       "pinyin": "diū jìnqù",
-      "en": "to throw into",
-      "vi": "vứt vào trong",
-      "sinoVietnamese": "",
+      "en": "to throw into; to put into",
+      "vi": "Bỏ vào, quăng vào",
+      "sinoVietnamese": "Đâu tiến khứ",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "go; leave",
           "sentence": "他吃/喫完飯就去了。",
+          "simplified": "",
           "pinyin": "tā chī wán fàn jiù qùle.",
           "en": "He left right after finishing the meal.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "go; leave",
           "sentence": "朋友沒打招呼就去了。",
+          "simplified": "",
           "pinyin": "péngyǒu méi dǎzhāohū jiù qùle.",
           "en": "My friend left without saying goodbye.",
           "vi": ""
@@ -917,22 +917,22 @@
       "id": 36,
       "chinese": "路上",
       "pinyin": "lùshàng",
-      "en": "on the street / on the way",
-      "vi": "trên đường",
-      "sinoVietnamese": "",
+      "en": "on the road; on the way",
+      "vi": "Trên đường",
+      "sinoVietnamese": "Lộ thượng",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "on the road",
           "sentence": "路上有很多行人。",
+          "simplified": "",
           "pinyin": "lùshàng yǒu hěnduō xíngrén.",
           "en": "There are many pedestrians on the road.",
           "vi": "Trên đường có nhiều người đi bộ."
         },
         {
-          "type": "Noun",
           "meaning": "on the road",
           "sentence": "路上停著一輛車。",
+          "simplified": "",
           "pinyin": "lùshàng tíngzhe yī liàng chē.",
           "en": "There is a car parked on the road.",
           "vi": ""
@@ -943,22 +943,22 @@
       "id": 37,
       "chinese": "天天",
       "pinyin": "tiāntiān",
-      "en": "every day",
-      "vi": "hàng ngày",
-      "sinoVietnamese": "",
+      "en": "every day; day after day",
+      "vi": "Mỗi ngày, ngày ngày",
+      "sinoVietnamese": "Thiên thiên",
       "samples": [
         {
-          "type": "Pronoun",
           "meaning": "daily; every day; day in, day out",
           "sentence": "我們天天學習中文。",
+          "simplified": "",
           "pinyin": "wǒmen tiāntiān xuéxí zhōngwén.",
           "en": "We study Chinese every day.",
           "vi": "Chúng tôi học tiếng Trung mỗi ngày."
         },
         {
-          "type": "Pronoun",
           "meaning": "daily; every day; day in, day out",
           "sentence": "我天天都看新聞。",
+          "simplified": "",
           "pinyin": "wǒ tiāntiān dōu kàn xīnwén.",
           "en": "I watch the news every day.",
           "vi": "Tôi xem tin tức mỗi ngày."
@@ -970,21 +970,21 @@
       "chinese": "汽水罐",
       "pinyin": "qìshuǐ guàn",
       "en": "soda can",
-      "vi": "lon nước ngọt",
-      "sinoVietnamese": "",
+      "vi": "Lon nước ngọt",
+      "sinoVietnamese": "Khí thủy quán",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "tin; jar; jug; pot; tank",
           "sentence": "這個鐵罐十分堅固。",
+          "simplified": "",
           "pinyin": "zhègè tiě guàn shífēn jiāngù.",
           "en": "This tin can is very sturdy.",
           "vi": "Chiếc bình sắt này rất chắc chắn."
         },
         {
-          "type": "Noun",
           "meaning": "tin; jar; jug; pot; tank",
           "sentence": "那隻陶罐造型精美。",
+          "simplified": "",
           "pinyin": "nà zhī táo guàn zàoxíng jīngměi.",
           "en": "That ceramic pot has a fine design.",
           "vi": "Chiếc bình gốm đó có hình dáng tinh xảo."
@@ -996,16 +996,24 @@
       "chinese": "紙杯",
       "pinyin": "zhǐbēi",
       "en": "paper cup",
-      "vi": "cốc giấy",
-      "sinoVietnamese": "",
+      "vi": "Ly giấy",
+      "sinoVietnamese": "Chỉ bôi",
       "samples": [
         {
-          "type": "Noun",
           "meaning": "paper cup",
           "sentence": "你不需要再用紙盃喝水了。",
+          "simplified": "",
           "pinyin": "nǐ bù xūyào zàiyòng zhǐbēi hēshǔi le",
           "en": "You never have to drink out of a paper cup again.",
           "vi": "Bạn không bao giờ phải uống từ cốc giấy nữa."
+        },
+        {
+          "meaning": "",
+          "sentence": "",
+          "simplified": "",
+          "pinyin": "",
+          "en": "",
+          "vi": ""
         }
       ]
     },
@@ -1013,22 +1021,22 @@
       "id": 40,
       "chinese": "放下",
       "pinyin": "fàngxià",
-      "en": "put down",
-      "vi": "đặt xuống",
-      "sinoVietnamese": "",
+      "en": "to put down; to set down",
+      "vi": "Đặt xuống, bỏ xuống",
+      "sinoVietnamese": "Phóng hạ",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "lay down; put down",
           "sentence": "請放下手中的筆。",
+          "simplified": "",
           "pinyin": "qǐng fàngxià shǒuzhōng de bǐ.",
           "en": "Please put down the pen in your hand.",
           "vi": "Hãy đặt bút xuống."
         },
         {
-          "type": "Verb",
           "meaning": "lay down; put down",
           "sentence": "他放下了行李。",
+          "simplified": "",
           "pinyin": "tā fàngxiàle xínglǐ.",
           "en": "He put down the luggage.",
           "vi": "Anh ấy đã đặt hành lý xuống."
@@ -1039,22 +1047,22 @@
       "id": 41,
       "chinese": "走出來",
       "pinyin": "zǒu chūlái",
-      "en": "to walk out of",
-      "vi": "đi ra ngoài",
-      "sinoVietnamese": "",
+      "en": "to walk out; to come out",
+      "vi": "Đi ra",
+      "sinoVietnamese": "Tẩu xuất lai",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "come; arrive",
           "sentence": "他來公司開會。",
+          "simplified": "",
           "pinyin": "tā lái gōngsī kāihuì.",
           "en": "He comes to the company for a meeting.",
           "vi": ""
         },
         {
-          "type": "Verb",
           "meaning": "come; arrive",
           "sentence": "請你來我傢玩。",
+          "simplified": "",
           "pinyin": "qǐng nǐ lái wǒ jiā wán.",
           "en": "Please come to my house to play.",
           "vi": ""
@@ -1064,23 +1072,23 @@
     {
       "id": 42,
       "chinese": "怎麼辦",
-      "pinyin": "zěnmebàn",
-      "en": "What now? / What to do?",
-      "vi": "phải làm sao đây",
-      "sinoVietnamese": "",
+      "pinyin": "zěnme bàn",
+      "en": "what should I do?; what now?",
+      "vi": "Làm sao đây",
+      "sinoVietnamese": "Chẩm ma biện",
       "samples": [
         {
-          "type": "Verb",
           "meaning": "what to do; what's to be done",
           "sentence": "沒有他我該怎麼辦？",
+          "simplified": "",
           "pinyin": "méiyǒu tā wǒ gāi zěnme bàn?",
           "en": "What should I do without him?",
           "vi": "Không có anh ấy tôi phải làm sao?"
         },
         {
-          "type": "Verb",
           "meaning": "what to do; what's to be done",
           "sentence": "我現在該怎麼辦呢？",
+          "simplified": "",
           "pinyin": "wǒ xiànzài gāi zěnme bàn ne?",
           "en": "What should I do now?",
           "vi": "Bây giờ tôi phải làm sao đây chứ?"
