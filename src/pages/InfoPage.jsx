@@ -1,3 +1,4 @@
+import { useOutletContext } from 'react-router-dom';
 import { FlipHorizontal, Upload, Users, Zap } from 'lucide-react';
 
 const ABOUT_QUOTES = ['每天进步一点点。', '千里之行，始于足下。', '学而时习之，不亦说乎？'];
@@ -25,7 +26,8 @@ const getFeatures = (t) => [
   },
 ];
 
-export default function InfoPage({ t }) {
+export default function InfoPage() {
+  const { t } = useOutletContext();
   const features = getFeatures(t);
   const activeQuote = ABOUT_QUOTES[0];
 
@@ -35,11 +37,11 @@ export default function InfoPage({ t }) {
         <div className="px-5 py-4 sm:px-6 sm:py-5 lg:px-8">
           <div className="space-y-2.5">
             <div className="flex flex-col gap-3">
-              <h1 className="min-w-0 flex-1 text-[1.55rem] font-black tracking-tight text-slate-900 dark:text-white sm:text-[1.85rem]">
+              <h1 className="min-w-0 flex-1 text-[1.55rem] font-black tracking-tight text-foreground sm:text-[1.85rem]">
                 {t.aboutTitle}
               </h1>
             </div>
-            <p className="w-full text-sm leading-6 text-slate-600 dark:text-slate-300 sm:text-[15px]">
+            <p className="w-full text-sm leading-6 text-muted-foreground sm:text-[15px]">
               {t.aboutSubtitle} {t.aboutBasedOnLabel}: {t.bookSeriesName}
             </p>
           </div>
@@ -49,13 +51,13 @@ export default function InfoPage({ t }) {
       <section className="px-2 py-1 text-center">
         <blockquote className="relative mx-auto inline-block max-w-3xl px-5 text-center">
           <span className="absolute left-1 top-[-0.35rem] text-3xl leading-none text-primary/60">
-            “
+            "
           </span>
-          <p className="text-lg font-medium italic leading-8 text-slate-800 dark:text-slate-100 sm:text-[1.12rem]">
+          <p className="text-lg font-medium italic leading-8 text-foreground sm:text-[1.12rem]">
             {activeQuote}
           </p>
           <span className="absolute bottom-[-0.7rem] right-1 text-3xl leading-none text-primary/60">
-            ”
+            "
           </span>
         </blockquote>
       </section>
@@ -64,19 +66,19 @@ export default function InfoPage({ t }) {
         {features.map(({ icon: Icon, title, desc }) => (
           <div
             key={title}
-            className="rounded-3xl border border-theme-border bg-white p-5 shadow-soft dark:bg-card"
+            className="rounded-3xl border border-border bg-card p-5 shadow-soft"
           >
             <div className="mb-3 inline-flex rounded-2xl bg-primary/20 p-2.5 text-primary">
               <Icon className="h-4 w-4" />
             </div>
-            <p className="text-lg font-bold text-slate-900 dark:text-white">{title}</p>
-            <p className="mt-2 text-sm leading-6 text-slate-500 dark:text-slate-400">{desc}</p>
+            <p className="text-lg font-bold text-foreground">{title}</p>
+            <p className="mt-2 text-sm leading-6 text-muted-foreground">{desc}</p>
           </div>
         ))}
       </section>
 
-      <section className="rounded-3xl border border-theme-border bg-theme-surface px-5 py-4 text-sm leading-6 text-slate-700 shadow-soft dark:text-slate-200">
-        <p className="font-semibold text-slate-900 dark:text-white">{t.madeBy}</p>
+      <section className="rounded-3xl border border-theme-border bg-theme-surface px-5 py-4 text-sm leading-6 text-muted-foreground shadow-soft">
+        <p className="font-semibold text-foreground">{t.madeBy}</p>
         <p className="mt-1">{t.contributor}</p>
         <p className="mt-2">
           {t.feedbackContact}{' '}

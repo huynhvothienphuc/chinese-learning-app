@@ -16,15 +16,15 @@ function Summary({ total, correct, wrongAnswers, onRestart, onRetryWrong, t, lan
   const pct = total === 0 ? 0 : Math.round((correct / total) * 100);
   return (
     <div className="grid gap-6 xl:grid-cols-[280px_minmax(0,1fr)] animate-float-in">
-      <Card className="self-start border-theme-border bg-theme-surface shadow-lg">
+      <Card className="self-start border-border bg-card shadow-lg">
         <CardHeader className="items-center text-center">
-          <div className="rounded-full bg-amber-100 p-3 text-amber-500"><Trophy className="h-6 w-6" /></div>
+          <div className="rounded-full bg-amber-100 p-3 text-amber-500 dark:bg-amber-900/30"><Trophy className="h-6 w-6" /></div>
           <CardTitle className="mt-3 text-2xl font-black">{t.quizSummary}</CardTitle>
           <CardDescription>{t.greatWork}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="rounded-3xl bg-primary/10 p-5 text-center dark:bg-slate-700">
-            <p className="text-4xl font-black text-slate-900 dark:text-slate-100">{correct} / {total}</p>
+          <div className="rounded-3xl bg-primary/10 p-5 text-center">
+            <p className="text-4xl font-black text-foreground">{correct} / {total}</p>
             <p className="mt-2 text-lg font-semibold text-primary">{pct}% {t.correct}</p>
           </div>
           {wrongAnswers.length > 0 && (
@@ -38,18 +38,18 @@ function Summary({ total, correct, wrongAnswers, onRestart, onRetryWrong, t, lan
         </CardContent>
       </Card>
 
-      <Card className="border-theme-border bg-theme-surface shadow-lg">
+      <Card className="border-border bg-card shadow-lg">
         <CardHeader>
           <CardTitle className="text-xl font-black">{t.reviewWrongAnswers} ({wrongAnswers.length})</CardTitle>
         </CardHeader>
         <CardContent>
           {wrongAnswers.length === 0 ? (
-            <div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-10 text-center text-emerald-800">{t.perfectScore}</div>
+            <div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-10 text-center text-emerald-800 dark:border-emerald-800 dark:bg-emerald-900/20 dark:text-emerald-300">{t.perfectScore}</div>
           ) : (
             <div className="max-h-96 space-y-3 overflow-y-auto pr-1">
               {wrongAnswers.map(({ item, typed }) => (
-                <div key={item.id} className="rounded-3xl border border-theme-border bg-white p-4 dark:border-slate-600 dark:bg-slate-700">
-                  <p className="text-sm font-semibold text-slate-600 dark:text-slate-300">
+                <div key={item.id} className="rounded-3xl border border-border bg-background p-4">
+                  <p className="text-sm font-semibold text-muted-foreground">
                     {item.pinyin} · {getItemMeaning(item, language)}
                   </p>
                   <div className="mt-2 grid gap-1 text-sm">
@@ -161,28 +161,28 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
 
         {/* Status bar */}
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">
+          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">
             {t.writeTab}
           </span>
-          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">
+          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">
             {t.score}: {score.correct}/{score.total}
           </span>
-          <span className="rounded-full bg-primary/20 px-4 py-1 text-sm font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">
+          <span className="rounded-full bg-primary/20 px-4 py-1 text-sm font-semibold text-primary">
             {index + 1} / {activeQuestions.length}
           </span>
           <div className="group relative ml-auto">
             <button
               type="button"
-              className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-200 text-xs font-bold text-slate-500 hover:bg-primary/20 hover:text-primary dark:bg-slate-600 dark:text-slate-400 dark:hover:bg-slate-500"
+              className="flex h-5 w-5 items-center justify-center rounded-full bg-muted text-xs font-bold text-muted-foreground hover:bg-primary/20 hover:text-primary"
               aria-label="How to use"
             >
               ?
             </button>
-            <div className="pointer-events-none absolute right-0 top-7 z-10 w-56 rounded-2xl border border-theme-border bg-white p-3 text-xs text-slate-600 opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300">
-              <p className="font-bold text-primary dark:text-primary">How to use</p>
+            <div className="pointer-events-none absolute right-0 top-7 z-10 w-56 rounded-2xl border border-border bg-card p-3 text-xs text-muted-foreground opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
+              <p className="font-bold text-primary">How to use</p>
               <ul className="mt-1.5 space-y-1">
                 <li>1. Read the meaning shown</li>
-                <li>2. Type pinyin → converts to Chinese<br/><span className="text-slate-400">e.g. Hello: type <span className="font-semibold text-slate-600 dark:text-slate-200">nihao</span> → 你好</span></li>
+                <li>2. Type pinyin → converts to Chinese<br/><span className="text-muted-foreground/60">e.g. Hello: type <span className="font-semibold text-foreground">nihao</span> → 你好</span></li>
                 <li>3. Press <span className="font-semibold">Check</span> to submit</li>
               </ul>
             </div>
@@ -201,7 +201,7 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
           {/* Answer row */}
           <div className={cn(
             'flex items-center gap-3 rounded-2xl border-2 px-4 py-3 transition-colors',
-            !submitted && 'border-theme-border bg-white dark:border-slate-600 dark:bg-slate-700',
+            !submitted && 'border-border bg-background',
             submitted && isCorrect && 'border-emerald-300 bg-emerald-50 dark:border-emerald-700 dark:bg-emerald-900/20',
             submitted && !isCorrect && 'border-rose-300 bg-rose-50 dark:border-rose-700 dark:bg-rose-900/20',
           )}>
@@ -212,8 +212,8 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
                   : <CircleX className="h-5 w-5 shrink-0 text-rose-500 dark:text-rose-400" />
                 }
                 <div>
-                  <p className="text-2xl font-black text-slate-900 dark:text-white">{isCorrect ? typed : answer}</p>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">{item.pinyin}</p>
+                  <p className="text-2xl font-black text-foreground">{isCorrect ? typed : answer}</p>
+                  <p className="text-sm text-muted-foreground">{item.pinyin}</p>
                   {!isCorrect && (
                     <p className="mt-1 text-sm text-rose-500 line-through dark:text-rose-400">{typed || '—'}</p>
                   )}
@@ -226,7 +226,7 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
                 value={typed}
                 onChange={(e) => setTyped(e.target.value)}
                 placeholder="Type pinyin..."
-                className="flex-1 bg-transparent text-xl font-bold text-slate-900 outline-none placeholder:font-normal placeholder:text-slate-400 dark:text-white"
+                className="flex-1 bg-transparent text-xl font-bold text-foreground outline-none placeholder:font-normal placeholder:text-muted-foreground"
               />
             )}
           </div>

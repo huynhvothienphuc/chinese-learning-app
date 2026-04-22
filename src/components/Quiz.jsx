@@ -16,23 +16,23 @@ const ChoiceButton = memo(function ChoiceButton({ choice, label, isAnswered, isC
       onClick={onSelect}
       className={cn(
         'w-full rounded-2xl border px-3 py-2 text-left transition-all duration-200 sm:px-4',
-        'bg-white hover:-translate-y-0.5 hover:shadow-md dark:bg-slate-700 dark:border-slate-600',
+        'bg-card hover:-translate-y-0.5 hover:shadow-md',
         isAnswered && 'cursor-default hover:translate-y-0 hover:shadow-none',
-        !isAnswered && 'border-slate-200 dark:border-slate-600',
-        isCorrect && 'border-emerald-300 bg-emerald-50 ring-2 ring-emerald-200',
+        !isAnswered && 'border-border',
+        isCorrect && 'border-emerald-300 bg-emerald-50 ring-2 ring-emerald-200 dark:bg-emerald-900/20 dark:ring-emerald-800',
         isWrongSelection && 'border-rose-300 bg-rose-50 ring-2 ring-rose-200 dark:border-rose-700 dark:bg-rose-900/30 dark:ring-rose-800',
       )}
     >
       <div className="flex items-center gap-3">
-        <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/20 text-xs font-black text-primary dark:bg-slate-600 dark:text-slate-100">
+        <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/20 text-xs font-black text-primary">
           {label}
         </div>
 
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between gap-2">
             <div className="min-w-0">
-              <p className="break-words text-slate-900 dark:text-white" style={{ fontSize: 'var(--app-font-size, 1.125rem)' }}>{choice.chinese}</p>
-              {isAnswered ? <p className="text-sm text-slate-500">{getItemMeaning(choice, language)}</p> : null}
+              <p className="break-words text-foreground" style={{ fontSize: 'var(--app-font-size, 1.125rem)' }}>{choice.chinese}</p>
+              {isAnswered ? <p className="text-sm text-muted-foreground">{getItemMeaning(choice, language)}</p> : null}
             </div>
             {isCorrect ? <CheckCircle2 className="h-5 w-5 shrink-0 text-emerald-600" /> : null}
             {isWrongSelection ? <CircleX className="h-5 w-5 shrink-0 text-rose-600" /> : null}
@@ -48,17 +48,17 @@ function Summary({ totalQuestions, score, wrongAnswers, onRestart, onRetryWrong,
 
   return (
     <div className="grid gap-6 xl:grid-cols-[280px_minmax(0,1fr)] animate-float-in">
-      <Card className="self-start overflow-hidden border-white/60 bg-white/95 shadow-lg">
+      <Card className="self-start overflow-hidden border-border bg-card shadow-lg">
         <CardHeader className="items-center text-center">
-          <div className="rounded-full bg-amber-100 p-3 text-amber-500">
+          <div className="rounded-full bg-amber-100 p-3 text-amber-500 dark:bg-amber-900/30">
             <Trophy className="h-6 w-6" />
           </div>
           <CardTitle className="mt-3 text-2xl font-black">{t.quizSummary}</CardTitle>
           <CardDescription>{t.greatWork}</CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
-          <div className="rounded-3xl bg-primary/10 p-5 text-center dark:bg-slate-700">
-            <p className="text-4xl font-black text-slate-900 dark:text-slate-100">{score.correct} / {totalQuestions}</p>
+          <div className="rounded-3xl bg-primary/10 p-5 text-center">
+            <p className="text-4xl font-black text-foreground">{score.correct} / {totalQuestions}</p>
             <p className="mt-2 text-lg font-semibold text-primary">{percentage}% {t.correct}</p>
           </div>
           {wrongAnswers.length > 0 && (
@@ -72,30 +72,30 @@ function Summary({ totalQuestions, score, wrongAnswers, onRestart, onRetryWrong,
         </CardContent>
       </Card>
 
-      <Card className="overflow-hidden border-white/60 bg-white/95 shadow-lg">
+      <Card className="overflow-hidden border-border bg-card shadow-lg">
         <CardHeader>
           <CardTitle className="text-2xl font-black">{t.reviewWrongAnswers} ({wrongAnswers.length})</CardTitle>
           <CardDescription>{t.revisitWords}</CardDescription>
         </CardHeader>
         <CardContent>
           {wrongAnswers.length === 0 ? (
-            <div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-10 text-center text-emerald-800">
+            <div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-10 text-center text-emerald-800 dark:border-emerald-800 dark:bg-emerald-900/20 dark:text-emerald-300">
               {t.perfectScore}
             </div>
           ) : (
             <div className="max-h-96 space-y-4 overflow-y-auto pr-1">
               {wrongAnswers.map(({ item, selectedAnswer }) => (
-                <div key={`${item.id}-${selectedAnswer}`} className="rounded-3xl border border-theme-border bg-primary/5 p-4 dark:border-slate-600 dark:bg-slate-700">
-                  <p className="text-lg font-bold text-slate-900 dark:text-slate-100">
-                    {item.pinyin} <span className="font-medium text-slate-500">({getItemMeaning(item, language)})</span>
+                <div key={`${item.id}-${selectedAnswer}`} className="rounded-3xl border border-theme-border bg-primary/5 p-4">
+                  <p className="text-lg font-bold text-foreground">
+                    {item.pinyin} <span className="font-medium text-muted-foreground">({getItemMeaning(item, language)})</span>
                   </p>
                   <div className="mt-3 grid gap-2 text-sm sm:text-base">
                     <p className="text-rose-600 line-through dark:text-rose-400">{t.wrongAnswer}: {selectedAnswer}</p>
                     <p className="font-bold text-emerald-700 dark:text-emerald-400">{t.correctAnswer}: {item.chinese}</p>
                   </div>
-                  <div className="mt-4 rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-600 dark:bg-slate-600">
-                    <p className="font-semibold text-slate-900 dark:text-slate-100">{item.sentenceChinese}</p>
-                    <p className="text-sm text-slate-500 dark:text-slate-400">{getSentenceMeaning(item, language)}</p>
+                  <div className="mt-4 rounded-2xl border border-border bg-background p-4">
+                    <p className="font-semibold text-foreground">{item.sentenceChinese}</p>
+                    <p className="text-sm text-muted-foreground">{getSentenceMeaning(item, language)}</p>
                   </div>
                 </div>
               ))}
@@ -151,8 +151,8 @@ export default function Quiz({
       <CardHeader className="space-y-5 border-b border-theme-border bg-theme-surface">
         {/* Row 1: score + counter + ? */}
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">{t.score}: {score.correct}/{score.total}</span>
-          <div className="rounded-full bg-primary/20 px-4 py-1.5 text-sm font-semibold text-primary dark:bg-slate-700 dark:text-slate-300">
+          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">{t.score}: {score.correct}/{score.total}</span>
+          <div className="rounded-full bg-primary/20 px-4 py-1.5 text-sm font-semibold text-primary">
             {currentIndex + 1} / {vocabulary.length}
           </div>
           <div className="ml-auto flex items-center gap-2">
@@ -160,18 +160,18 @@ export default function Quiz({
               checked={autoNext}
               onChange={setAutoNext}
               label={<><span className="sm:hidden">Auto next</span><span className="hidden sm:inline">{t.autoNext}</span></>}
-              className="text-xs text-slate-500 dark:text-slate-400"
+              className="text-xs text-muted-foreground"
             />
             <div className="group relative">
               <button
                 type="button"
-                className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-200 text-xs font-bold text-slate-500 hover:bg-primary/20 hover:text-primary dark:bg-slate-600 dark:text-slate-400 dark:hover:bg-slate-500"
+                className="flex h-8 w-8 items-center justify-center rounded-full bg-muted text-xs font-bold text-muted-foreground hover:bg-primary/20 hover:text-primary"
                 aria-label="How to use"
               >
                 ?
               </button>
-              <div className="pointer-events-none absolute right-0 top-10 z-10 w-56 rounded-2xl border border-theme-border bg-white p-3 text-xs text-slate-600 opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300">
-                <p className="text-slate-600 dark:text-slate-300">Choose 1 of 4 answers that matches the pinyin &amp; meaning shown.</p>
+              <div className="pointer-events-none absolute right-0 top-10 z-10 w-56 rounded-2xl border border-border bg-card p-3 text-xs text-muted-foreground opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
+                <p>Choose 1 of 4 answers that matches the pinyin &amp; meaning shown.</p>
               </div>
             </div>
           </div>
@@ -214,7 +214,6 @@ export default function Quiz({
             );
           })}
         </div>
-
       </CardContent>
     </Card>
   );

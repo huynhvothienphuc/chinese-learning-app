@@ -30,6 +30,7 @@ export function useStudentSets(userId) {
     queryKey: ['studentSets', userId],
     queryFn: () => loadStudentSets(userId),
     enabled: !!userId,
+    staleTime: 1000 * 60 * 10, // rarely changes; cut Supabase hits on tab refocus
   });
 }
 

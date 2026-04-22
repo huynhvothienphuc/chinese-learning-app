@@ -80,7 +80,7 @@ export function useBooks(userId, authReady) {
       return [...booksData, ...teacherBooks];
     },
     enabled: authReady,
-    staleTime: 1000 * 60 * 5, // books change rarely — avoid refetch on every focus
+    staleTime: 1000 * 60 * 30, // books change rarely — long cache to protect Supabase free-plan quota
   });
 }
 
