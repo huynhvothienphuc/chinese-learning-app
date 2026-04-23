@@ -66,6 +66,13 @@ export default function MyQuizPage() {
 
   const isQuizActive = quizQuestions !== null;
 
+  // ── auto-select first book once books load ───────────────────────────────
+  useEffect(() => {
+    if (!activeBrowseBook && books.length > 0) {
+      setActiveBrowseBook(books[0].id);
+    }
+  }, [books, activeBrowseBook]);
+
   // ── load sections when activeBrowseBook changes ──────────────────────────
   useEffect(() => {
     if (!activeBrowseBook) return;
@@ -284,81 +291,93 @@ export default function MyQuizPage() {
           {/* Book + mode row */}
           <Card className="border-theme-border bg-theme-surface shadow-soft">
             <CardContent className="p-4 sm:p-5">
-              <p className="inline-block rounded-2xl bg-primary/20 px-4 py-2 text-base font-medium text-primary">
-                {t.myQuizSubtitle}
-              </p>
-
-              {/* Book tabs */}
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                {books.map((book) => (
-                  <button
-                    key={book.id}
-                    type="button"
-                    onClick={() => setActiveBrowseBook(book.id)}
-                    className={cn(
-                      'rounded-2xl px-4 py-2 text-sm font-semibold transition-colors',
-                      activeBrowseBook === book.id
-                        ? 'bg-primary text-primary-foreground'
-                        : 'bg-white text-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
-                    )}
-                  >
-                    {book.title}
-                    {/* badge: count of selected sections from this book */}
-                    {(() => {
-                      const n = [...selection.values()].filter((e) => e.bookId === book.id).length;
-                      return n > 0 ? (
-                        <span className="ml-1.5 rounded-full bg-primary-foreground/20 px-1.5 py-0.5 text-xs font-bold">
-                          {n}
-                        </span>
-                      ) : null;
-                    })()}
-                  </button>
-                ))}
+              <div className="flex flex-wrap items-center gap-2 border-b border-theme-border pb-3">
+                <p className="hidden sm:inline-flex items-center rounded-full bg-primary px-3.5 py-1 text-xs font-bold text-primary-foreground shadow-sm">
+                  {t.myQuizSubtitle}
+                </p>
+                <p className="inline-flex items-center rounded-full bg-primary px-3.5 py-1 text-xs font-bold text-primary-foreground shadow-sm">
+                  ✨ Có thể chọn nhiều bài từ nhiều sách!
+                </p>
               </div>
 
-              {/* Mode + count row */}
-              <div className="mt-2 flex flex-wrap items-center gap-2 border-t border-theme-border pt-2">
-                <span className="text-xs font-semibold text-muted-foreground">{t.quizInstructionLabel}:</span>
-                {[
-                  { key: 'multiple-choice', label: t.multipleChoice, icon: <ListChecks className="h-4 w-4" /> },
-                  { key: 'write', label: t.writeTab, icon: <PencilLine className="h-4 w-4" /> },
-                ].map((opt) => (
-                  <button
-                    key={opt.key}
-                    type="button"
-                    onClick={() => setQuizMode(opt.key)}
-                    className={cn(
-                      'flex items-center gap-1.5 rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors',
-                      quizMode === opt.key
-                        ? 'bg-primary text-primary-foreground'
-                        : 'bg-white text-muted-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
-                    )}
-                  >
-                    {opt.icon}
-                    {opt.label}
-                  </button>
-                ))}
+              <div className="mt-3 flex flex-col gap-2">
 
-                <span className="text-xs font-semibold text-muted-foreground sm:ml-2">{t.myQuizCountLabel}:</span>
-                {['all', 20, 40, 60].map((opt) => {
-                  const notEnough = opt !== 'all' && available < opt;
-                  return (
+                {/* Row 1: Chọn sách + Số câu hỏi */}
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-xs font-semibold text-muted-foreground">Chọn sách:</span>
+                  {books.map((book) => (
                     <button
-                      key={opt}
+                      key={book.id}
                       type="button"
-                      disabled={notEnough}
-                      onClick={() => { if (!notEnough) setCount(opt); }}
+                      onClick={() => setActiveBrowseBook(book.id)}
                       className={cn(
-                        'rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-40',
-                        count === opt
+                        'rounded-full px-3 py-1 text-xs font-semibold transition-colors',
+                        activeBrowseBook === book.id
+                          ? 'bg-primary text-primary-foreground'
+                          : 'bg-white text-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                      )}
+                    >
+                      {book.title}
+                      {(() => {
+                        const n = [...selection.values()].filter((e) => e.bookId === book.id).length;
+                        return n > 0 ? (
+                          <span className="ml-1.5 rounded-full bg-primary-foreground/20 px-1.5 py-0.5 text-xs font-bold">
+                            {n}
+                          </span>
+                        ) : null;
+                      })()}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Row 2: Số câu hỏi */}
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-xs font-semibold text-muted-foreground">{t.myQuizCountLabel}:</span>
+                  {['all', 20, 40, 60].map((opt) => {
+                    const notEnough = opt !== 'all' && available < opt;
+                    return (
+                      <button
+                        key={opt}
+                        type="button"
+                        disabled={notEnough}
+                        onClick={() => { if (!notEnough) setCount(opt); }}
+                        className={cn(
+                          'rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-40',
+                          count === opt
+                            ? 'bg-primary text-primary-foreground'
+                            : 'bg-white text-muted-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                        )}
+                      >
+                        {opt === 'all' ? t.myQuizCountAll : opt}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Row 3: Phương pháp kiểm tra */}
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-xs font-semibold text-muted-foreground">{t.quizInstructionLabel}:</span>
+                  {[
+                    { key: 'multiple-choice', label: t.multipleChoice, icon: <ListChecks className="h-4 w-4" /> },
+                    { key: 'write', label: t.writeTab, icon: <PencilLine className="h-4 w-4" /> },
+                  ].map((opt) => (
+                    <button
+                      key={opt.key}
+                      type="button"
+                      onClick={() => setQuizMode(opt.key)}
+                      className={cn(
+                        'flex items-center gap-1.5 rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors',
+                        quizMode === opt.key
                           ? 'bg-primary text-primary-foreground'
                           : 'bg-white text-muted-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                       )}
                     >
-                      {opt === 'all' ? t.myQuizCountAll : opt}
+                      {opt.icon}
+                      {opt.label}
                     </button>
-                  );
-                })}
+                  ))}
+                </div>
+
               </div>
             </CardContent>
           </Card>
