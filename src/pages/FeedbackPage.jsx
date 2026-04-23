@@ -7,7 +7,7 @@ import { submitFeedback } from '@/lib/supabase';
 const MAX_LENGTH = 1000;
 const MIN_LENGTH = 5;
 
-export default function FeedbackPage({ onBack }) {
+export default function FeedbackPage({ onBack, t }) {
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
   const [errorMsg, setErrorMsg] = useState('');
@@ -29,7 +29,7 @@ export default function FeedbackPage({ onBack }) {
       setMessage('');
     } catch (err) {
       setStatus('error');
-      setErrorMsg(err.message ?? 'Something went wrong. Please try again.');
+      setErrorMsg(err.message ?? t.feedbackSubmitError);
     }
   }
 
@@ -42,16 +42,16 @@ export default function FeedbackPage({ onBack }) {
           className="mb-6 flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
         >
           <ArrowLeft className="h-4 w-4" />
-          Back
+          {t.back}
         </button>
 
         <Card className="border-theme-border bg-white shadow-lg dark:bg-slate-800">
           <CardHeader className="space-y-1 border-b border-theme-border pb-4">
             <CardTitle className="text-2xl font-black text-slate-900 dark:text-white">
-              Send Feedback
+              {t.feedbackTitle}
             </CardTitle>
             <CardDescription>
-              Share a bug, suggestion, or anything on your mind. No account needed.
+              {t.feedbackDescription}
             </CardDescription>
           </CardHeader>
 
@@ -59,10 +59,10 @@ export default function FeedbackPage({ onBack }) {
             {status === 'success' ? (
               <div className="flex flex-col items-center gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 px-6 py-10 text-center dark:border-emerald-800 dark:bg-emerald-900/20">
                 <span className="text-4xl">🎉</span>
-                <p className="text-lg font-bold text-emerald-700 dark:text-emerald-400">Thank you!</p>
-                <p className="text-sm text-slate-500 dark:text-slate-400">Your feedback has been received. We really appreciate it.</p>
+                <p className="text-lg font-bold text-emerald-700 dark:text-emerald-400">{t.feedbackSuccessTitle}</p>
+                <p className="text-sm text-slate-500 dark:text-slate-400">{t.feedbackSuccessBody}</p>
                 <Button variant="outline" className="mt-2" onClick={() => setStatus('idle')}>
-                  Send another
+                  {t.feedbackSendAnother}
                 </Button>
               </div>
             ) : (
@@ -74,7 +74,7 @@ export default function FeedbackPage({ onBack }) {
                       setMessage(e.target.value.slice(0, MAX_LENGTH));
                       if (status === 'error') setStatus('idle');
                     }}
-                    placeholder="What's on your mind? Report a bug, suggest a feature, or just say hi..."
+                    placeholder={t.feedbackPlaceholder}
                     rows={6}
                     maxLength={MAX_LENGTH}
                     className="w-full resize-none rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 outline-none transition-all focus:border-green-400 focus:bg-white focus:ring-2 focus:ring-green-100 dark:border-slate-600 dark:bg-slate-700/60 dark:text-white dark:placeholder-slate-400 dark:focus:border-green-500 dark:focus:bg-slate-700"
@@ -82,7 +82,7 @@ export default function FeedbackPage({ onBack }) {
                   <div className="flex items-center justify-between px-1">
                     <span className={`text-xs ${trimmed.length < MIN_LENGTH && trimmed.length > 0 ? 'text-rose-400' : 'text-slate-400'}`}>
                       {trimmed.length < MIN_LENGTH && trimmed.length > 0
-                        ? `At least ${MIN_LENGTH} characters required`
+                        ? t.feedbackMinLength.replace('{count}', MIN_LENGTH)
                         : ' '}
                     </span>
                     <span className={`text-xs ${remaining < 100 ? 'text-amber-500' : 'text-slate-400'}`}>
@@ -103,7 +103,7 @@ export default function FeedbackPage({ onBack }) {
                   className="w-full gap-2"
                 >
                   <Send className="h-4 w-4" />
-                  {status === 'loading' ? 'Submitting…' : 'Submit Feedback'}
+                  {status === 'loading' ? t.feedbackSubmitting : t.feedbackSubmit}
                 </Button>
               </form>
             )}
@@ -111,7 +111,7 @@ export default function FeedbackPage({ onBack }) {
         </Card>
 
         <p className="mt-4 text-center text-xs text-slate-400">
-          Feedback is anonymous. We do not collect any personal information.
+          {t.feedbackAnonymous}
         </p>
       </div>
     </div>

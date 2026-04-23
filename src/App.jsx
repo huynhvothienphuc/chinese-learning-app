@@ -1,7 +1,7 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useQueryClient } from '@tanstack/react-query';
-import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Settings, Sun, Wand2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Heart, Info, LogOut, MessageSquare, Moon, Search, Settings, Sun, Wand2 } from 'lucide-react';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { useStreak } from '@/hooks/useStreak';
 import { useAuthStore } from '@/store/authStore';
@@ -21,6 +21,7 @@ import StudyDeckPanel from '@/components/StudyDeckPanel';
 import NotFoundPage from '@/pages/NotFoundPage';
 
 const FavoritesPanel = lazy(() => import('@/components/FavoritesPanel'));
+const GlobalSearchModal = lazy(() => import('@/components/GlobalSearchModal'));
 const Flashcard = lazy(() => import('@/components/Flashcard'));
 const Quiz = lazy(() => import('@/components/Quiz'));
 const WordListView = lazy(() => import('@/components/WordListView'));
@@ -230,6 +231,7 @@ function AppContent() {
   const [uploadError, setUploadError] = useState('');
   const [favorites, setFavorites] = useLocalStorageState(FAVORITES_STORAGE_KEY, []);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [customQuizWords, setCustomQuizWords] = useState(null);
   const [customQuizPool, setCustomQuizPool] = useState(null);
   const [quizSeed, setQuizSeed] = useState(0);
@@ -826,7 +828,7 @@ function AppContent() {
   if (activeView === 'shared') return <Suspense fallback={pageFallback}><SharedBookPage token={sharedMatch[1]} /></Suspense>;
   if (activeView === 'login') return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
   if (activeView === 'dashboard') return <Suspense fallback={pageFallback}><StudentDashboard /></Suspense>;
-  if (activeView === 'feedback') return <Suspense fallback={pageFallback}><FeedbackPage onBack={() => navigate(-1)} /></Suspense>;
+  if (activeView === 'feedback') return <Suspense fallback={pageFallback}><FeedbackPage onBack={() => navigate(-1)} t={t} /></Suspense>;
   if (activeView === 'feedback-review') {
     if (!authReady) return pageFallback;
     if (!user) return <Suspense fallback={pageFallback}><LoginPage /></Suspense>;
@@ -964,6 +966,12 @@ function AppContent() {
                   </div>
 
                   {/* Dark mode — always visible */}
+                  <Tooltip text="Search all lessons">
+                    <Button type="button" variant="outline" size="icon" onClick={() => setIsSearchOpen(true)} aria-label="Search all lessons">
+                      <Search className="h-4 w-4" />
+                    </Button>
+                  </Tooltip>
+
                   <Tooltip text={isDarkMode ? 'Light mode' : 'Dark mode'}>
                     <Button type="button" variant="outline" size="icon" onClick={() => setIsDarkMode((prev) => !prev)} aria-label="Toggle dark mode">
                       {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
@@ -1379,6 +1387,27 @@ function AppContent() {
           </div>
         </footer>
       </div>
+
+      <Suspense fallback={null}>
+        <GlobalSearchModal
+          isOpen={isSearchOpen}
+          onClose={() => setIsSearchOpen(false)}
+          onNavigate={(bookId, sectionFile) => {
+            const savedByBook = JSON.parse(sessionStorage.getItem('selected-sections-by-book') || '{}');
+            savedByBook[bookId] = sectionFile;
+            sessionStorage.setItem('selected-sections-by-book', JSON.stringify(savedByBook));
+            sessionStorage.setItem('selected-book', bookId);
+            if (bookId === selectedBook) {
+              setSelectedSection(sectionFile);
+            } else {
+              setSelectedBook(bookId);
+            }
+            navigate('/');
+          }}
+          language={selectedLanguage}
+          t={t}
+        />
+      </Suspense>
 
       <Suspense fallback={null}>
       <FavoritesPanel
