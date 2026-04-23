@@ -225,7 +225,7 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
                 type="text"
                 value={typed}
                 onChange={(e) => setTyped(e.target.value)}
-                placeholder="Type pinyin..."
+                placeholder={t.writeModeInputPlaceholder}
                 className="flex-1 bg-transparent text-xl font-bold text-slate-900 outline-none placeholder:font-normal placeholder:text-slate-400 dark:text-white"
               />
             )}

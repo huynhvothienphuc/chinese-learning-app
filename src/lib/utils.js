@@ -21,6 +21,22 @@ function pickByLanguage(primary, fallback, fallbackLabel) {
   return f ? `${fallbackLabel}: ${f}` : '';
 }
 
+export function matchesVocabQuery(item, query) {
+  if (!item || !query) return true;
+  const q = query.trim().toLowerCase();
+  if (!q) return true;
+  return [
+    item.chinese,
+    item.pinyin,
+    item.english,
+    item.vietnamese || item.vi || item.meaning?.vi,
+    item.sentenceChinese,
+    item.sentencePinyin,
+    item.sentenceEnglish,
+    item.sentenceVietnamese,
+  ].some((v) => (v ?? '').toLowerCase().includes(q));
+}
+
 export function getItemMeaning(item, language = 'en') {
   if (!item) return '';
   return language === 'vi'

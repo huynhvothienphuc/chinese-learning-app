@@ -1,1089 +1,1019 @@
 {
   "bookId": "book1",
   "sectionId": "section7",
-  "sectionTitle": "The Garbage Truck Is Here!",
+  "sectionTitle": "Going to KTV at 9 O’clock in the Morning",
   "items": [
     {
       "id": 1,
-      "chinese": "垃圾",
-      "pinyin": "lèsè",
-      "en": "garbage, trash",
-      "vi": "rác",
-      "sinoVietnamese": "",
+      "chinese": "點[点]",
+      "pinyin": "diǎn",
+      "en": "o’clock; hour",
+      "vi": "Giờ",
+      "sinoVietnamese": "Điểm",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "rubbish; garbage; refuse; breeze",
-          "sentence": "街上有許多垃圾桶。",
-          "pinyin": "jiē shàng yǒu xǔduō lājī tǒng.",
-          "en": "There are many trash cans on the street.",
-          "vi": "Có rất nhiều thùng rác trên đường phố."
+          "meaning": "",
+          "sentence": "請問明天我們幾點上課？",
+          "simplified": "请问明天我们几点上课？",
+          "pinyin": "Qǐngwèn míngtiān wǒmen jǐ diǎn shàngkè.",
+          "en": "What time do we have class tomorrow?",
+          "vi": "Xin hỏi ngày mai chúng ta mấy giờ lên lớp?"
         },
         {
-          "type": "Noun",
-          "meaning": "rubbish; garbage; refuse; breeze",
-          "sentence": "不要在公共場所扔垃圾。",
-          "pinyin": "bùyào zài gōnggòng chǎngsuǒ rēng lājī.",
-          "en": "Don't throw rubbish in public places.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "你知道現在幾點了嗎？怎麼還沒回家？",
+          "simplified": "你知道现在几点了吗？怎么还没回家？",
+          "pinyin": "Nǐ zhīdào xiànzài jǐ diǎn le ma? Zěnme hái méi huí jiā.",
+          "en": "Do you know what time it is now? Why haven’t you gone home yet?",
+          "vi": "Bạn biết bây giờ mấy giờ rồi không? Sao vẫn chưa về nhà?"
         }
       ]
     },
     {
       "id": 2,
-      "chinese": "倒",
-      "pinyin": "dào",
-      "en": "to throw out (garbage)",
-      "vi": "đổ (rác)",
+      "chinese": "KTV",
+      "pinyin": "",
+      "en": "karaoke place; KTV",
+      "vi": "Quán karaoke",
       "sinoVietnamese": "",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "to be inverse; to be inverted; to be upside down",
-          "sentence": "你把畫貼倒了。",
-          "pinyin": "nǐ bǎ huà tiē dàole.",
-          "en": "You put the picture upside down.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "週末我常和朋友去KTV唱歌。",
+          "simplified": "周末我常和朋友去KTV唱歌。",
+          "pinyin": "Zhōumò wǒ cháng hé péngyǒu qù KTV chànggē.",
+          "en": "On weekends I often go to KTV with friends to sing.",
+          "vi": "Cuối tuần tôi thường đi KTV hát với bạn bè."
         },
         {
-          "type": "Verb",
-          "meaning": "to be inverse; to be inverted; to be upside down",
-          "sentence": "他把書拿倒了。",
-          "pinyin": "tā bǎ shū ná dàole.",
-          "en": "He held the book upside down.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "今天我們下午六點去KTV嗎？",
+          "simplified": "今天我们下午六点去KTV吗？",
+          "pinyin": "Jīntiān wǒmen xiàwǔ liù diǎn qù KTV ma?",
+          "en": "Are we going to KTV at six this afternoon?",
+          "vi": "Hôm nay chúng ta đi KTV lúc sáu giờ chiều phải không?"
         }
       ]
     },
     {
       "id": 3,
-      "chinese": "丟",
-      "pinyin": "diū",
-      "en": "to throw, to throw away",
-      "vi": "vứt, ném",
-      "sinoVietnamese": "",
+      "chinese": "唱歌",
+      "pinyin": "chànggē",
+      "en": "to sing",
+      "vi": "Ca hát",
+      "sinoVietnamese": "Xướng ca",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "lose; mislay; be missing",
-          "sentence": "我的錢包丟了。",
-          "pinyin": "wǒ de qián bāo diū le.",
-          "en": "I've lost my purse.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "你也喜歡唱歌嗎？太好了，明天一起去唱歌吧。",
+          "simplified": "你也喜欢唱歌吗？太好了，明天一起去唱歌吧。",
+          "pinyin": "Nǐ yě xǐhuān chànggē ma? Tài hǎo le, míngtiān yìqǐ qù chànggē ba.",
+          "en": "Do you also like singing? Great, let’s go sing together tomorrow.",
+          "vi": "Bạn cũng thích hát à? Tuyệt quá, ngày mai cùng đi hát nhé."
         },
         {
-          "type": "Verb",
-          "meaning": "lose; mislay; be missing",
-          "sentence": "這套書丟了一本。",
-          "pinyin": "zhè tào shū diū le yī běn.",
-          "en": "There's a book missing from the set.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "他很喜歡聽音樂，可是不太喜歡唱歌。",
+          "simplified": "他很喜欢听音乐，可是不太喜欢唱歌。",
+          "pinyin": "Tā hěn xǐhuān tīng yīnyuè, kěshì bù tài xǐhuān chànggē.",
+          "en": "He really likes listening to music, but he does not really like singing.",
+          "vi": "Anh ấy rất thích nghe nhạc, nhưng không thích hát lắm."
         }
       ]
     },
     {
       "id": 4,
-      "chinese": "收",
-      "pinyin": "shōu",
-      "en": "to collect",
-      "vi": "thu, nhận, gom",
-      "sinoVietnamese": "",
+      "chinese": "分",
+      "pinyin": "fēn",
+      "en": "minute",
+      "vi": "Phút",
+      "sinoVietnamese": "Phân",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "put back; put together",
-          "sentence": "洗的衣服收了沒有?",
-          "pinyin": "xǐ de yīfu shōule méiyǒu?",
-          "en": "Have you brought in the washing?",
-          "vi": ""
+          "meaning": "",
+          "sentence": "今天九點三十五分我有中文課。",
+          "simplified": "今天九点三十五分我有中文课。",
+          "pinyin": "Jīntiān jiǔ diǎn sānshíwǔ fēn wǒ yǒu zhōngwén kè.",
+          "en": "I have Chinese class today at 9:35.",
+          "vi": "Hôm nay lúc 9 giờ 35 tôi có lớp tiếng Trung."
         },
         {
-          "type": "Verb",
-          "meaning": "put back; put together",
-          "sentence": "你把這些東西收一收吧。",
-          "pinyin": "nǐ bǎ zhèxiē dōngxi shōu yī shōu ba.",
-          "en": "Put these things away.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "請問現在幾點幾分？",
+          "simplified": "请问现在几点几分？",
+          "pinyin": "Qǐngwèn xiànzài jǐ diǎn jǐ fēn?",
+          "en": "Excuse me, what time is it now?",
+          "vi": "Xin hỏi bây giờ là mấy giờ mấy phút?"
         }
       ]
     },
     {
       "id": 5,
-      "chinese": "以為",
-      "pinyin": "yǐwéi",
-      "en": "to assume wrongly",
-      "vi": "tưởng rằng (nhầm lẫn)",
-      "sinoVietnamese": "",
+      "chinese": "見面[见面]",
+      "pinyin": "jiànmiàn",
+      "en": "to meet; meeting",
+      "vi": "Gặp mặt",
+      "sinoVietnamese": "KIến diện",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "think; believe; consider (usually erroneously)",
-          "sentence": "我以為是誰呢，原來是你。",
-          "pinyin": "wǒ yǐwéi shì shéi ne, yuánlái shì nǐ.",
-          "en": "I thought it was someone else, but it turns out it's you.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "明天我們在哪裡見面呢？",
+          "simplified": "明天我们在哪里见面呢？",
+          "pinyin": "Míngtiān wǒmen zài nǎlǐ jiànmiàn ne?",
+          "en": "Where shall we meet tomorrow?",
+          "vi": "Ngày mai chúng ta gặp nhau ở đâu?"
         },
         {
-          "type": "Verb",
-          "meaning": "think; believe; consider (usually erroneously)",
-          "sentence": "我以為你已經走了。",
-          "pinyin": "wǒ yǐwéi nǐ yǐjīng zǒule.",
-          "en": "I thought you had already left.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "我們九點在學校見面吧。",
+          "simplified": "我们九点在学校见面吧。",
+          "pinyin": "Wǒmen jiǔ diǎn zài xuéxiào jiànmiàn ba.",
+          "en": "Let’s meet at school at nine.",
+          "vi": "Chúng ta gặp nhau ở trường lúc chín giờ nhé."
         }
       ]
     },
     {
       "id": 6,
-      "chinese": "回收",
-      "pinyin": "huíshōu",
-      "en": "to recycle",
-      "vi": "tái chế",
-      "sinoVietnamese": "",
+      "chinese": "從[从]",
+      "pinyin": "cóng",
+      "en": "from",
+      "vi": "Từ",
+      "sinoVietnamese": "Hồi thu",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "recycle",
-          "sentence": "這些都是可迴收垃圾。",
-          "pinyin": "zhèxiē dōu shì kě huíshōu lājī.",
-          "en": "These are all recyclable garbage.",
-          "vi": "Những thứ này đều là rác có thể tái chế được."
+          "meaning": "",
+          "sentence": "今天從上午九點到中午十二點我有課。",
+          "simplified": "今天从上午九点到中午十二点我有课。",
+          "pinyin": "Jīntiān cóng shàngwǔ jiǔ diǎn dào zhōngwǔ shí'èr diǎn wǒ yǒu kè.",
+          "en": "Today I have class from 9 a.m. to noon.",
+          "vi": "Hôm nay từ 9 giờ sáng đến 12 giờ trưa tôi có lớp."
         },
         {
-          "type": "Verb",
-          "meaning": "recycle",
-          "sentence": "舊書是可以迴收的。",
-          "pinyin": "jiùshū shì kěyǐ huíshōu de.",
-          "en": "Old books can be recycled.",
-          "vi": "Sách cũ có thể tái chế được."
+          "meaning": "",
+          "sentence": "從下午六點到晚上九點我們在唱歌。",
+          "simplified": "从下午六点到晚上九点我们在唱歌。",
+          "pinyin": "Cóng xiàwǔ liù diǎn dào wǎnshàng jiǔ diǎn wǒmen zài chànggē.",
+          "en": "We are singing from six in the afternoon to nine at night.",
+          "vi": "Từ 6 giờ chiều đến 9 giờ tối chúng tôi đang hát."
         }
       ]
     },
     {
       "id": 7,
-      "chinese": "規定",
-      "pinyin": "guīdìng",
-      "en": "rules, regulation",
-      "vi": "quy định",
-      "sinoVietnamese": "",
+      "chinese": "中午",
+      "pinyin": "zhōngwǔ",
+      "en": "noon",
+      "vi": "Buổi trưa",
+      "sinoVietnamese": "Trung ngọ",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "rule; regulation; stipulation",
-          "sentence": "公司有新的規定齣臺。",
-          "pinyin": "gōngsī yǒu xīn de guīdìng chūtái.",
-          "en": "The company has issued new regulations.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "今天中午我們在哪裡吃飯？",
+          "simplified": "今天中午我们在哪里吃饭？",
+          "pinyin": "Jīntiān zhōngwǔ wǒmen zài nǎlǐ chīfàn?",
+          "en": "Where are we eating at noon today?",
+          "vi": "Trưa nay chúng ta ăn cơm ở đâu?"
         },
         {
-          "type": "Noun",
-          "meaning": "rule; regulation; stipulation",
-          "sentence": "學生不許違反學校規定。",
-          "pinyin": "xuéshēng bùxǔ wéifǎn xuéxiào guīdìng.",
-          "en": "Students are not allowed to violate school rules.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "中午我要去書店買書，想一起去嗎？",
+          "simplified": "中午我要去书店买书，想一起去吗？",
+          "pinyin": "Zhōngwǔ wǒ yào qù shūdiàn mǎi shū, xiǎng yìqǐ qù ma?",
+          "en": "At noon I’m going to the bookstore to buy books. Want to go together?",
+          "vi": "Buổi trưa tôi muốn đi nhà sách mua sách, bạn muốn đi cùng không?"
         }
       ]
     },
     {
       "id": 8,
-      "chinese": "要不然",
-      "pinyin": "yàobùrán",
-      "en": "otherwise",
-      "vi": "nếu không thì",
-      "sinoVietnamese": "",
+      "chinese": "得",
+      "pinyin": "děi",
+      "en": "must; have to",
+      "vi": "Phải",
+      "sinoVietnamese": "Đắc",
       "samples": [
         {
-          "type": "Conjunction",
-          "meaning": "otherwise; or else",
-          "sentence": "他得走，要不然會晚了。",
-          "pinyin": "tā dé zǒu, yào bùrán huì wǎnle.",
-          "en": "He has to go, otherwise he'll be late.",
-          "vi": "Anh ấy phải đi, nếu không sẽ muộn mất."
+          "meaning": "",
+          "sentence": "現在十點了，我得回家了。",
+          "simplified": "现在十点了，我得回家了。",
+          "pinyin": "Xiànzài shí diǎn le, wǒ děi huí jiā le.",
+          "en": "It is ten o’clock now. I have to go home.",
+          "vi": "Bây giờ 10 giờ rồi, tôi phải về nhà."
         },
         {
-          "type": "Conjunction",
-          "meaning": "otherwise; or else",
-          "sentence": "我們快跑，要不然趕不上了。",
-          "pinyin": "wǒmen kuài pǎo, yào bùrán gǎnbushàngle.",
-          "en": "We need to hurry up, or we'll be late.",
-          "vi": "Chúng ta chạy nhanh lên, nếu không sẽ không kịp đâu."
+          "meaning": "",
+          "sentence": "明天早上我得上課，現在不去唱歌了。",
+          "simplified": "明天早上我得上课，现在不去唱歌了。",
+          "pinyin": "Míngtiān zǎoshang wǒ děi shàngkè xiànzài bù qù chànggē le.",
+          "en": "I have to go to class tomorrow morning, so I’m not going singing now.",
+          "vi": "Sáng mai tôi phải lên lớp, bây giờ không đi hát nữa."
         }
       ]
     },
     {
       "id": 9,
-      "chinese": "皮包",
-      "pinyin": "píbāo",
-      "en": "purse, handbag",
-      "vi": "túi xách, ví da",
-      "sinoVietnamese": "",
+      "chinese": "銀行[银行]",
+      "pinyin": "yínháng",
+      "en": "bank",
+      "vi": "Ngân hàng",
+      "sinoVietnamese": "Ngân hàng",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "handbag; briefcase",
-          "sentence": "爸爸的皮包很舊了。",
-          "pinyin": "bàba de píbāo hěn jiùle.",
-          "en": "Dad's bag is very old.",
-          "vi": "Túi da của bố rất cũ rồi."
+          "meaning": "",
+          "sentence": "請問這裡附近有沒有銀行？",
+          "simplified": "请问这里附近有没有银行？",
+          "pinyin": "Qǐngwèn zhèlǐ fùjìn yǒu méiyǒu yínháng?",
+          "en": "Excuse me, is there a bank near here?",
+          "vi": "Xin hỏi gần đây có ngân hàng không?"
         },
         {
-          "type": "Noun",
-          "meaning": "handbag; briefcase",
-          "sentence": "姐姐的皮包是粉色的。",
-          "pinyin": "jiějiě de píbāo shì fěnsè de.",
-          "en": "My sister's bag is pink.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "中午我要去銀行，不能和你去吃飯了。",
+          "simplified": "中午我要去银行，不能和你去吃饭了。",
+          "pinyin": "Zhōngwǔ wǒ yào qù yínháng bù néng hé nǐ qù chīfàn le.",
+          "en": "At noon I have to go to the bank, so I can’t eat with you.",
+          "vi": "Buổi trưa tôi phải đi ngân hàng, không thể đi ăn với bạn nữa."
         }
       ]
     },
     {
       "id": 10,
-      "chinese": "跑",
-      "pinyin": "pǎo",
-      "en": "to run",
-      "vi": "chạy",
-      "sinoVietnamese": "",
+      "chinese": "時候[时候]",
+      "pinyin": "shíhou",
+      "en": "when; time",
+      "vi": "Khi",
+      "sinoVietnamese": "Thời hậu",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "run",
-          "sentence": "他每天早上跑步。",
-          "pinyin": "tā měitiān zǎoshang pǎobù.",
-          "en": "He runs every morning.",
-          "vi": "Anh ấy chạy bộ mỗi sáng."
+          "meaning": "",
+          "sentence": "我學中文的時候，他在看電影。",
+          "simplified": "我学中文的时候，他在看电影。",
+          "pinyin": "Wǒ xué zhōngwén de shíhou, tā zài kàn diànyǐng.",
+          "en": "When I was studying Chinese, he was watching a movie.",
+          "vi": "Khi tôi học tiếng Trung, anh ấy đang xem phim."
         },
         {
-          "type": "Verb",
-          "meaning": "run",
-          "sentence": "他們在操場上跑步。",
-          "pinyin": "tāmen zài cāochǎng shàng pǎobù.",
-          "en": "They are running on the playground.",
-          "vi": "Họ đang chạy bộ trên sân tập."
+          "meaning": "",
+          "sentence": "我媽媽做飯的時候，我在看書。",
+          "simplified": "我妈妈做饭的时候，我在看书。",
+          "pinyin": "Wǒ māma zuòfàn de shíhou, wǒ zài kàn shū.",
+          "en": "When my mom was cooking, I was reading.",
+          "vi": "Khi mẹ tôi nấu cơm, tôi đang đọc sách."
         }
       ]
     },
     {
       "id": 11,
-      "chinese": "追",
-      "pinyin": "zhuī",
-      "en": "to run after, to chase",
-      "vi": "đuổi theo",
-      "sinoVietnamese": "",
+      "chinese": "後天[后天]",
+      "pinyin": "hòutiān",
+      "en": "the day after tomorrow",
+      "vi": "Ngày mốt",
+      "sinoVietnamese": "Hậu thiên",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "pursue; chase (or run) after",
-          "sentence": "她追著前麵的衕學。",
-          "pinyin": "tā zhuīzhe qiánmiàn de tóngxué.",
-          "en": "She is chasing the classmate in front.",
-          "vi": "Cô ấy đuổi theo bạn học phía trước."
+          "meaning": "",
+          "sentence": "陳月美說後天他來我家玩，你也一起來吧。",
+          "simplified": "陈月美说后天他来我家玩，你也一起来吧。",
+          "pinyin": "Chén Yuèměi shuō hòutiān tā lái wǒ jiā wán, nǐ yě yìqǐ lái ba.",
+          "en": "Chen Yuemei said she will come to my house the day after tomorrow. You should come too.",
+          "vi": "Trần Nguyệt Mỹ nói ngày mốt cô ấy đến nhà tôi chơi, bạn cũng đến cùng nhé."
         },
         {
-          "type": "Verb",
-          "meaning": "pursue; chase (or run) after",
-          "sentence": "孩子們追著風箏。",
-          "pinyin": "háizimen zhuīzhe fēngzhēng.",
-          "en": "The children are chasing the kite.",
-          "vi": "Những đứa trẻ đuổi theo con diều."
+          "meaning": "",
+          "sentence": "後天我想去看電影，要一起去嗎？",
+          "simplified": "后天我想去看电影，要一起去吗？",
+          "pinyin": "Hòutiān wǒ xiǎng qù kàn diànyǐng, yào yìqǐ qù ma?",
+          "en": "The day after tomorrow I want to go watch a movie. Want to go together?",
+          "vi": "Ngày mốt tôi muốn đi xem phim, bạn muốn đi cùng không?"
         }
       ]
     },
     {
       "id": 12,
-      "chinese": "有趣",
-      "pinyin": "yǒuqù",
-      "en": "interesting",
-      "vi": "thú vị",
-      "sinoVietnamese": "",
+      "chinese": "大安",
+      "pinyin": "Dà'ān",
+      "en": "name of a KTV in Taipei",
+      "vi": "Tên một quán KTV ở Đài Bắc",
+      "sinoVietnamese": "Đại An",
       "samples": [
         {
-          "type": "Adjective",
-          "meaning": "interesting; fascinating; amusing",
-          "sentence": "這本書很有趣。",
-          "pinyin": "zhè běn shū hěn yǒuqù.",
-          "en": "This book is very interesting.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "明天我們在大安KTV見面。",
+          "simplified": "明天我们在大安KTV见面。",
+          "pinyin": "Míngtiān wǒmen zài Dà'ān KTV jiànmiàn.",
+          "en": "Tomorrow we will meet at Da’an KTV.",
+          "vi": "Ngày mai chúng ta gặp nhau ở KTV Đại An."
         },
         {
-          "type": "Adjective",
-          "meaning": "interesting; fascinating; amusing",
-          "sentence": "他是個有趣的人。",
-          "pinyin": "tā shìgè yǒuqù de rén.",
-          "en": "He is an interesting person.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "請問你知道大安KTV在哪裡嗎？",
+          "simplified": "请问你知道大安KTV在哪里吗？",
+          "pinyin": "Qǐngwèn nǐ zhīdào Dà'ān KTV zài nǎlǐ ma.",
+          "en": "Excuse me, do you know where Da’an KTV is?",
+          "vi": "Xin hỏi bạn biết KTV Đại An ở đâu không?"
         }
       ]
     },
     {
       "id": 13,
-      "chinese": "不壞",
-      "pinyin": "bú huài",
-      "en": "not too bad",
-      "vi": "không tệ",
-      "sinoVietnamese": "",
+      "chinese": "下次",
+      "pinyin": "xiàcì",
+      "en": "next time",
+      "vi": "Lần sau",
+      "sinoVietnamese": "Hạ thứ",
       "samples": [
         {
-          "type": "Adjective",
-          "meaning": "bad; harmful",
-          "sentence": "他有抽煙的壞習慣。",
-          "pinyin": "tā yǒu chōuyān de huài xíguàn.",
-          "en": "He has the bad habit of smoking.",
-          "vi": "Anh ấy có thói quen xấu là hút thuốc."
+          "meaning": "",
+          "sentence": "這次我不能去，下次吧。",
+          "simplified": "这次我不能去，下次吧。",
+          "pinyin": "Zhè cì wǒ bù néng qù xià cì ba.",
+          "en": "I can’t go this time. Next time, then.",
+          "vi": "Lần này tôi không thể đi, để lần sau nhé."
         },
         {
-          "type": "Adjective",
-          "meaning": "bad; harmful",
-          "sentence": "他有熬夜的壞習慣。",
-          "pinyin": "tā yǒu áoyè de huài xíguàn.",
-          "en": "He has the bad habit of staying up late.",
-          "vi": "Anh ấy có thói quen xấu là thức khuya."
+          "meaning": "",
+          "sentence": "下次我一定點大碗的牛肉麵。",
+          "simplified": "下次我一定点大碗的牛肉面。",
+          "pinyin": "Xià cì wǒ yídìng diǎn dà wǎn de niúròu miàn.",
+          "en": "Next time I will definitely order a large bowl of beef noodles.",
+          "vi": "Lần sau tôi nhất định gọi tô mì bò lớn."
         }
       ]
     },
     {
       "id": 14,
-      "chinese": "聊",
-      "pinyin": "liáo",
-      "en": "to chat (about)",
-      "vi": "tán gẫu",
-      "sinoVietnamese": "",
+      "chinese": "沒問題[没问题]",
+      "pinyin": "méiwèntí",
+      "en": "no problem; it’s okay",
+      "vi": "Không sao",
+      "sinoVietnamese": "Một vấn đề",
       "samples": [
         {
-          "type": "Adverb",
-          "meaning": "just; merely; tentatively",
-          "sentence": "這事咱們聊且不論。",
-          "pinyin": "zhè shì zánmen liáo qiě bùlùn.",
-          "en": "Let's not discuss this matter for now.",
-          "vi": "Chuyện này tạm thời chúng ta không bàn."
+          "meaning": "",
+          "sentence": "沒問題，下次見。",
+          "simplified": "没问题，下次见。",
+          "pinyin": "Méi wèntí xià cì jiàn.",
+          "en": "No problem. See you next time.",
+          "vi": "Không vấn đề gì, lần sau gặp nhé."
         },
         {
-          "type": "Adverb",
-          "meaning": "just; merely; tentatively",
-          "sentence": "我們聊且休息一會兒再説。",
-          "pinyin": "wǒmen liáo qiě xiūxi yīhuìr zàishuō.",
-          "en": "Let's take a break and talk about it later.",
-          "vi": "Chúng ta tạm thời nghỉ một lát rồi nói tiếp."
+          "meaning": "",
+          "sentence": "沒問題，後天再去吧。",
+          "simplified": "没问题，后天再去吧。",
+          "pinyin": "Méi wèntí hòutiān zài qù ba.",
+          "en": "No problem. Let’s go the day after tomorrow.",
+          "vi": "Không sao, ngày mốt lại đi nhé."
         }
       ]
     },
     {
       "id": 15,
-      "chinese": "忽然",
-      "pinyin": "hūrán",
-      "en": "suddenly",
-      "vi": "đột nhiên",
-      "sinoVietnamese": "",
+      "chinese": "對了[对了]",
+      "pinyin": "duìle",
+      "en": "that’s right; by the way",
+      "vi": "Đúng rồi",
+      "sinoVietnamese": "Đối liễu",
       "samples": [
         {
-          "type": "Adverb",
-          "meaning": "suddenly; all of a sudden",
-          "sentence": "他説著説著，忽然停住了。",
-          "pinyin": "tā shuōzhe shuōzhe, hūrán tíng zhùle.",
-          "en": "He was talking when he suddenly stopped.",
-          "vi": "Anh ấy đang nói rồi bỗng nhiên dừng lại."
+          "meaning": "",
+          "sentence": "對了，明天你有課嗎？我想和你一起去看電影。",
+          "simplified": "对了，明天你有课吗？我想和你一起去看电影。",
+          "pinyin": "Duìle míngtiān nǐ yǒu kè ma? Wǒ xiǎng hé nǐ yìqǐ qù kàn diànyǐng.",
+          "en": "By the way, do you have class tomorrow? I want to go watch a movie with you.",
+          "vi": "Đúng rồi, ngày mai bạn có lớp không? Tôi muốn đi xem phim cùng bạn."
         },
         {
-          "type": "Adverb",
-          "meaning": "suddenly; all of a sudden",
-          "sentence": "忽然，陽臺上掉下一個花盆來。",
-          "pinyin": "hūrán, yángtái shàng diào xià yīgè huā pén lái.",
-          "en": "Suddenly, a flower pot fell down from the balcony.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "對了，我不能去了，現在得去銀行。",
+          "simplified": "对了，我不能去了，现在得去银行。",
+          "pinyin": "Duìle wǒ bù néng qù le, xiànzài děi qù yínháng.",
+          "en": "By the way, I can’t go anymore. I have to go to the bank now.",
+          "vi": "À đúng rồi, tôi không đi được nữa, bây giờ phải đi ngân hàng."
         }
       ]
     },
     {
       "id": 16,
-      "chinese": "聲音",
-      "pinyin": "shēngyīn",
-      "en": "sound",
-      "vi": "âm thanh, tiếng",
-      "sinoVietnamese": "",
+      "chinese": "有空",
+      "pinyin": "yǒukòng",
+      "en": "free; available",
+      "vi": "Rảnh, có thời gian",
+      "sinoVietnamese": "Hữu không",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "sound; voice",
-          "sentence": "她的聲音很溫柔。",
-          "pinyin": "tā de shēngyīn hěn wēnróu.",
-          "en": "Her voice is very gentle.",
-          "vi": "Giọng nói của cô ấy rất mềm mại."
+          "meaning": "",
+          "sentence": "這個週末你有空嗎？要去花蓮玩嗎？",
+          "simplified": "这个周末你有空吗？要去花莲玩吗？",
+          "pinyin": "Zhège zhōumò nǐ yǒu kòng ma? yào qù Huālián wán ma?",
+          "en": "Are you free this weekend? Want to go to Hualien?",
+          "vi": "Cuối tuần này bạn rảnh không? Muốn đi Hoa Liên chơi không?"
         },
         {
-          "type": "Noun",
-          "meaning": "sound; voice",
-          "sentence": "這個聲音太吵了。",
-          "pinyin": "zhège shēngyīn tài chǎole.",
-          "en": "This sound is too loud.",
-          "vi": "Âm thanh này quá ồn ào."
+          "meaning": "",
+          "sentence": "明天我沒有空，後天吧。",
+          "simplified": "明天我没有空，后天吧。",
+          "pinyin": "Míngtiān wǒ méiyǒu kòng, hòutiān ba.",
+          "en": "I’m not free tomorrow. Let’s do the day after tomorrow.",
+          "vi": "Ngày mai tôi không rảnh, để ngày mốt nhé."
         }
       ]
     },
     {
       "id": 17,
-      "chinese": "奇怪",
-      "pinyin": "qíguài",
-      "en": "strange, odd",
-      "vi": "kỳ lạ",
-      "sinoVietnamese": "",
+      "chinese": "再見[再见]",
+      "pinyin": "zàijiàn",
+      "en": "goodbye; see you again",
+      "vi": "Tạm biệt, hẹn gặp lại",
+      "sinoVietnamese": "Tái kiến",
       "samples": [
         {
-          "type": "Adjective",
-          "meaning": "strange",
-          "sentence": "這個人真奇怪。",
-          "pinyin": "zhège rén zhēn qíguài.",
-          "en": "This person is so strange.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "再見。",
+          "simplified": "再见。",
+          "pinyin": "Zàijiàn.",
+          "en": "Goodbye.",
+          "vi": "Tạm biệt."
         },
         {
-          "type": "Adjective",
-          "meaning": "strange",
-          "sentence": "這件事情很奇怪。",
-          "pinyin": "zhè jiàn shìqing hěn qíguài.",
-          "en": "This matter is so strange.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "明天見。",
+          "simplified": "明天见。",
+          "pinyin": "Míngtiān jiàn.",
+          "en": "See you tomorrow.",
+          "vi": "Ngày mai gặp."
         }
       ]
     },
     {
       "id": 18,
-      "chinese": "袋子",
-      "pinyin": "dàizi",
-      "en": "bag",
-      "vi": "túi",
-      "sinoVietnamese": "",
+      "chinese": "在",
+      "pinyin": "zài",
+      "en": "at; in; on; currently doing",
+      "vi": "Đang",
+      "sinoVietnamese": "Tại",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "bag; sack",
-          "sentence": "她把衣服塞進袋子。",
-          "pinyin": "tā bǎ yīfu sāi jìn dàizǐ.",
-          "en": "She stuffed the clothes into the bag.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "你在找什麼呢？",
+          "simplified": "你在找什么呢？",
+          "pinyin": "Nǐ zài zhǎo shénme ne?",
+          "en": "What are you looking for?",
+          "vi": "Bạn đang tìm gì vậy?"
         },
         {
-          "type": "Noun",
-          "meaning": "bag; sack",
-          "sentence": "我把東西放進袋子裡/裏。",
-          "pinyin": "wǒ bǎ dōngxi fàng jìn dàizǐ lǐ.",
-          "en": "I put the things into the bag.",
-          "vi": "Tôi bỏ đổ vào trong túi."
+          "meaning": "",
+          "sentence": "我在上網看電影，他在看書。",
+          "simplified": "我在上网看电影，他在看书。",
+          "pinyin": "Wǒ zài shàngwǎng kàn diànyǐng, tā zài kàn shū.",
+          "en": "I am watching a movie online, and he is reading.",
+          "vi": "Tôi đang xem phim trên mạng, còn anh ấy đang đọc sách."
         }
       ]
     },
     {
       "id": 19,
-      "chinese": "輛",
-      "pinyin": "liàng",
-      "en": "measure word for vehicles",
-      "vi": "chiếc (lượng từ xe cộ)",
-      "sinoVietnamese": "",
+      "chinese": "午餐",
+      "pinyin": "wǔcān",
+      "en": "lunch",
+      "vi": "Bữa trưa",
+      "sinoVietnamese": "Ngọ xan",
       "samples": [
         {
-          "type": "measure word",
-          "meaning": "measure word for vehicles",
-          "sentence": "我有一輛汽車。",
-          "pinyin": "wǒ yǒuyī liàng qìchē.",
-          "en": "I have a car.",
-          "vi": "Tôi có một chiếc xe hơi."
+          "meaning": "",
+          "sentence": "要不要一起去吃午餐？",
+          "simplified": "要不要一起去吃午餐？",
+          "pinyin": "Yào bú yào yìqǐ qù chī wǔcān?",
+          "en": "Do you want to go eat lunch together?",
+          "vi": "Bạn có muốn cùng đi ăn trưa không?"
         },
         {
-          "type": "measure word",
-          "meaning": "measure word for vehicles",
-          "sentence": "那邊停著一輛齣租車。",
-          "pinyin": "nà biān tíngzhe yī liàng chūzū chē.",
-          "en": "There is a taxi parked over there.",
-          "vi": "Có một chiếc taxi đỗ ở đằng kia."
+          "meaning": "",
+          "sentence": "今天你想在哪裡吃午餐？我知道一家很有名的午餐店，一起去吧。",
+          "simplified": "今天你想在哪里吃午餐？我知道一家很有名的午餐店，一起去吧。",
+          "pinyin": "Jīntiān nǐ xiǎng zài nǎlǐ chī wǔcān? Wǒ zhīdào yì jiā hěn yǒumíng de wǔcān diàn, yìqǐ qù ba.",
+          "en": "Where do you want to eat lunch today? I know a famous lunch place. Let’s go together.",
+          "vi": "Hôm nay bạn muốn ăn trưa ở đâu? Tôi biết một quán ăn trưa rất nổi tiếng, cùng đi nhé."
         }
       ]
     },
     {
       "id": 20,
-      "chinese": "一定",
-      "pinyin": "yídìng",
-      "en": "fixed, set, at a certain...",
-      "vi": "nhất định, cụ thể",
-      "sinoVietnamese": "",
+      "chinese": "剛[刚]",
+      "pinyin": "gāng",
+      "en": "just; just now",
+      "vi": "Vừa mới",
+      "sinoVietnamese": "Cương",
       "samples": [
         {
-          "type": "Adverb",
-          "meaning": "surely; certainly; necessarily",
-          "sentence": "他一定會來參加會議。",
-          "pinyin": "tā yīdìng huì lái cānjiā huìyì.",
-          "en": "He will certainly come to the meeting.",
-          "vi": "Anh ấy nhất định tham dự cuộc họp."
+          "meaning": "",
+          "sentence": "我剛下課回來，不想去玩了。",
+          "simplified": "我刚下课回来，不想去玩了。",
+          "pinyin": "Wǒ gāng xiàkè huílái bù xiǎng qù wán le.",
+          "en": "I just came back from class and don’t want to go out anymore.",
+          "vi": "Tôi vừa tan học về, không muốn đi chơi nữa."
         },
         {
-          "type": "Adverb",
-          "meaning": "surely; certainly; necessarily",
-          "sentence": "這本書一定很有趣。",
-          "pinyin": "zhè běn shū yīdìng hěn yǒuqù.",
-          "en": "This book must surely be very interesting.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "他剛出去了，你找他有什麼事嗎？",
+          "simplified": "他刚出去了，你找他有什么事吗？",
+          "pinyin": "Tā gāng chūqù le, nǐ zhǎo tā yǒu shénme shì ma?",
+          "en": "He just went out. Do you need him for something?",
+          "vi": "Anh ấy vừa ra ngoài rồi, bạn tìm anh ấy có việc gì không?"
         }
       ]
     },
     {
       "id": 21,
-      "chinese": "地點",
-      "pinyin": "dìdiǎn",
-      "en": "location",
-      "vi": "địa điểm",
-      "sinoVietnamese": "",
+      "chinese": "下課[下课]",
+      "pinyin": "xiàkè",
+      "en": "to finish class; after class",
+      "vi": "Tan học",
+      "sinoVietnamese": "Hạ khóa",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "place; site; locale",
-          "sentence": "開會地點在大禮堂。",
-          "pinyin": "kāihuì dìdiǎn zài dà lǐtáng.",
-          "en": "The meeting place is in the auditorium.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "今天你幾點上課，幾點下課？",
+          "simplified": "今天你几点上课，几点下课？",
+          "pinyin": "Jīntiān nǐ jǐ diǎn shàngkè, jǐ diǎn xiàkè?",
+          "en": "What time do you start class and finish class today?",
+          "vi": "Hôm nay bạn mấy giờ lên lớp, mấy giờ tan học?"
         },
         {
-          "type": "Noun",
-          "meaning": "place; site; locale",
-          "sentence": "接頭地點在哪兒？",
-          "pinyin": "jiētóu dìdiǎn zài nǎr?",
-          "en": "Where is the contact point?",
-          "vi": ""
+          "meaning": "",
+          "sentence": "今天我五點下課，五點半一起去吃晚餐吧。",
+          "simplified": "今天我五点下课，五点半一起去吃晚餐吧。",
+          "pinyin": "Jīntiān wǒ wǔ diǎn xiàkè, wǔ diǎn bàn yìqǐ qù chī wǎncān ba.",
+          "en": "I finish class at five today. Let’s eat dinner together at five thirty.",
+          "vi": "Hôm nay tôi tan học lúc 5 giờ, 5 giờ rưỡi cùng đi ăn tối nhé."
         }
       ]
     },
     {
       "id": 22,
-      "chinese": "為了",
-      "pinyin": "wèile",
-      "en": "to, for the sake of",
-      "vi": "vì, để",
-      "sinoVietnamese": "",
+      "chinese": "下午",
+      "pinyin": "xiàwǔ",
+      "en": "afternoon",
+      "vi": "Buổi chiều",
+      "sinoVietnamese": "Hạ ngọ",
       "samples": [
         {
-          "type": "Preposition",
-          "meaning": "for; for the sake of",
-          "sentence": "他努力工作是為了買房子。",
-          "pinyin": "tā nǔlì gōngzuò shì wèile mǎi fángzi.",
-          "en": "\"He works hard in order to buy a house.",
-          "vi": "Anh ấy làm việc chăm chỉ để mua nhà."
+          "meaning": "",
+          "sentence": "今天下午你有空嗎？來我家玩吧。",
+          "simplified": "今天下午你有空吗？来我家玩吧。",
+          "pinyin": "Jīntiān xiàwǔ nǐ yǒu kòng ma? Lái wǒ jiā wán ba.",
+          "en": "Are you free this afternoon? Come to my house.",
+          "vi": "Chiều nay bạn rảnh không? Đến nhà tôi chơi nhé."
         },
         {
-          "type": "Preposition",
-          "meaning": "for; for the sake of",
-          "sentence": "為了健康，我每天跑步。",
-          "pinyin": "wèile jiànkāng, wǒ měitiān pǎobù.",
-          "en": "He works hard in order to buy a house.",
-          "vi": "Để có sức khỏe, tôi chạy bộ mỗi ngày."
+          "meaning": "",
+          "sentence": "你下午幾點要上中文課？",
+          "simplified": "你下午几点要上中文课？",
+          "pinyin": "Nǐ xiàwǔ jǐ diǎn yào shàng zhōngwén kè?",
+          "en": "What time do you have Chinese class this afternoon?",
+          "vi": "Chiều nay bạn mấy giờ phải học tiếng Trung?"
         }
       ]
     },
     {
       "id": 23,
-      "chinese": "保護",
-      "pinyin": "bǎohù",
-      "en": "to protect",
-      "vi": "bảo vệ",
-      "sinoVietnamese": "",
+      "chinese": "半",
+      "pinyin": "bàn",
+      "en": "half; thirty minutes past",
+      "vi": "Một nửa, rưỡi",
+      "sinoVietnamese": "Bán",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "protect; safeguard",
-          "sentence": "父母保護孩子安全。",
-          "pinyin": "fùmǔ bǎohù háizi ānquán.",
-          "en": "Parents protect the safety of their children.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "從五點半到七點半我要上英語課。",
+          "simplified": "从五点半到七点半我要上英语课。",
+          "pinyin": "Cóng wǔ diǎn bàn dào qī diǎn bàn wǒ yào shàng yīngyǔ kè.",
+          "en": "I have English class from 5:30 to 7:30.",
+          "vi": "Từ 5 giờ rưỡi đến 7 giờ rưỡi tôi phải học tiếng Anh."
         },
         {
-          "type": "Verb",
-          "meaning": "protect; safeguard",
-          "sentence": "我們必須保護環境。",
-          "pinyin": "wǒmen bìxū bǎohù huánjìng.",
-          "en": "We must protect the environment.",
-          "vi": "Chúng ta phải bảo vệ môi trường."
+          "meaning": "",
+          "sentence": "你明天七點半上課嗎？",
+          "simplified": "你明天七点半上课吗？",
+          "pinyin": "Nǐ míngtiān qī diǎn bàn shàngkè ma?",
+          "en": "Do you have class at 7:30 tomorrow?",
+          "vi": "Ngày mai bạn học lúc 7 giờ rưỡi à?"
         }
       ]
     },
     {
       "id": 24,
-      "chinese": "分類",
-      "pinyin": "fēnlèi",
-      "en": "classification",
-      "vi": "phân loại",
-      "sinoVietnamese": "",
+      "chinese": "比賽[比赛]",
+      "pinyin": "bǐsài",
+      "en": "match; competition",
+      "vi": "Trận đấu, thi đấu",
+      "sinoVietnamese": "Tỉ tái",
       "samples": [
         {
-          "type": "sv",
-          "meaning": "sort; classify; categorize",
-          "sentence": "這些容器按大小分類。",
-          "pinyin": "zhèxiē róngqì àn dàxiǎo fēnlèi.",
-          "en": "The containers are graded according to size.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "昨天的足球比賽你看了嗎？",
+          "simplified": "昨天的足球比赛你看了吗？",
+          "pinyin": "Zuótiān de zúqiú bǐsài nǐ kàn le ma?",
+          "en": "Did you watch yesterday’s soccer match?",
+          "vi": "Bạn đã xem trận bóng đá hôm qua chưa?"
         },
         {
-          "type": "sv",
-          "meaning": "sort; classify; categorize",
-          "sentence": "這些書按科目分類。",
-          "pinyin": "zhèxiē shū àn kēmù fēnlèi.",
-          "en": "The books are grouped together by subject.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "今天學校有籃球比賽，想去看嗎？",
+          "simplified": "今天学校有篮球比赛，想去看吗？",
+          "pinyin": "Jīntiān xuéxiào yǒu lánqiú bǐsài, xiǎng qù kàn ma?",
+          "en": "There is a basketball game at school today. Want to watch it?",
+          "vi": "Hôm nay trường có trận bóng rổ, bạn muốn đi xem không?"
         }
       ]
     },
     {
       "id": 25,
-      "chinese": "利用",
-      "pinyin": "lìyòng",
-      "en": "to make use of",
-      "vi": "tận dụng",
-      "sinoVietnamese": "",
+      "chinese": "結束[结束]",
+      "pinyin": "jiéshù",
+      "en": "to end; to finish",
+      "vi": "Kết thúc",
+      "sinoVietnamese": "Kết thúc",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "use; utilize; make use of",
-          "sentence": "她利用休息時間去健身。",
-          "pinyin": "tā lìyòng xiūxi shíjiān qù jiànshēn.",
-          "en": "She used her break time to go to the gym.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "明天的棒球比賽幾點結束？",
+          "simplified": "明天的棒球比赛几点结束？",
+          "pinyin": "Míngtiān de bàngqiú bǐsài jǐ diǎn jiéshù?",
+          "en": "What time does tomorrow’s baseball game end?",
+          "vi": "Trận bóng chày ngày mai mấy giờ kết thúc?"
         },
         {
-          "type": "Verb",
-          "meaning": "use; utilize; make use of",
-          "sentence": "我們要有效地利用風力。",
-          "pinyin": "wǒmen yào yǒuxiào de lìyòng fēnglì.",
-          "en": "We need to effectively utilize wind power.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "足球比賽結束了嗎？",
+          "simplified": "足球比赛结束了吗？",
+          "pinyin": "Zúqiú bǐsài jiéshù le ma?",
+          "en": "Has the soccer match ended?",
+          "vi": "Trận bóng đá kết thúc rồi à?"
         }
       ]
     },
     {
       "id": 26,
-      "chinese": "紙",
-      "pinyin": "zhǐ",
-      "en": "paper",
-      "vi": "giấy",
-      "sinoVietnamese": "",
+      "chinese": "最近",
+      "pinyin": "zuìjìn",
+      "en": "recently; lately",
+      "vi": "Gần đây, dạo này",
+      "sinoVietnamese": "Tối cận",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "paper",
-          "sentence": "學生們用紙畫畫。",
-          "pinyin": "xuéshēngmen yòng zhǐ huà huà.",
-          "en": "The students draw with paper.",
-          "vi": "Học sinh sử dụng giấy để vẽ tranh."
+          "meaning": "",
+          "sentence": "最近我很忙，不能和你去玩了。",
+          "simplified": "最近我很忙，不能和你去玩了。",
+          "pinyin": "Zuìjìn wǒ hěn máng, bù néng hé nǐ qù wán le.",
+          "en": "I have been very busy lately and can’t go out with you.",
+          "vi": "Gần đây tôi rất bận, không thể đi chơi với bạn nữa."
         },
         {
-          "type": "Noun",
-          "meaning": "paper",
-          "sentence": "我把這張紙撕了。",
-          "pinyin": "wǒ bǎ zhè zhāng zhǐ sīle.",
-          "en": "I tore this piece of paper.",
-          "vi": "Tôi đã xé tờ giấy này."
+          "meaning": "",
+          "sentence": "你最近有沒有去那裡吃飯？",
+          "simplified": "你最近有没有去那里吃饭？",
+          "pinyin": "Nǐ zuìjìn yǒu méiyǒu qù nàlǐ chīfàn.",
+          "en": "Have you eaten there recently?",
+          "vi": "Gần đây bạn có đến đó ăn cơm không?"
         }
       ]
     },
     {
       "id": 27,
-      "chinese": "瓶子",
-      "pinyin": "píngzi",
-      "en": "bottle",
-      "vi": "cái chai, bình",
-      "sinoVietnamese": "",
+      "chinese": "忙",
+      "pinyin": "máng",
+      "en": "busy",
+      "vi": "Bận",
+      "sinoVietnamese": "Mang",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "bottle",
-          "sentence": "瓶子裡/裏還有水嗎？",
-          "pinyin": "píngzi lǐ hái yǒu shuǐ ma?",
-          "en": "Is there still water in the bottle?",
-          "vi": "Trong bình còn nước không?"
+          "meaning": "",
+          "sentence": "最近你在忙什麼呢？都沒有看見你。",
+          "simplified": "最近你在忙什么呢？都没有看见你。",
+          "pinyin": "Zuìjìn nǐ zài máng shénme ne? Dōu méiyǒu kànjiàn nǐ.",
+          "en": "What have you been busy with lately? I haven’t seen you at all.",
+          "vi": "Gần đây bạn bận gì vậy? Tôi không thấy bạn luôn."
         },
         {
-          "type": "Noun",
-          "meaning": "bottle",
-          "sentence": "我買了一個新瓶子。",
-          "pinyin": "wǒ mǎile yīgè xīn píngzi.",
-          "en": "I bought a new bottle.",
-          "vi": "Tôi đã mua một cái lọ mới."
+          "meaning": "",
+          "sentence": "這個週末我忙了，下個星期再去吧。",
+          "simplified": "这个周末我忙了，下个星期再去吧。",
+          "pinyin": "Zhège zhōumò wǒ máng le, xià ge xīngqī zài qù ba.",
+          "en": "I’m busy this weekend. Let’s go next week.",
+          "vi": "Cuối tuần này tôi bận rồi, tuần sau hãy đi nhé."
         }
       ]
     },
     {
       "id": 28,
-      "chinese": "塑膠",
-      "pinyin": "sùjiāo",
-      "en": "plastic",
-      "vi": "nhựa, nilon",
-      "sinoVietnamese": "",
+      "chinese": "每",
+      "pinyin": "měi",
+      "en": "every; each",
+      "vi": "Mỗi",
+      "sinoVietnamese": "Mỗi",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "plastic; plastic cement",
-          "sentence": "塑膠製品很耐用。",
-          "pinyin": "sùjiāo zhìpǐn hěn nàiyòng.",
-          "en": "Plastic products are very durable.",
-          "vi": "Sản phẩm nhựa rất bền."
+          "meaning": "",
+          "sentence": "他每天都要上中文課。",
+          "simplified": "他每天都要上中文课。",
+          "pinyin": "Tā měitiān dōu yào shàng zhōngwén kè.",
+          "en": "He has Chinese class every day.",
+          "vi": "Anh ấy ngày nào cũng phải học tiếng Trung."
         },
         {
-          "type": "Noun",
-          "meaning": "plastic; plastic cement",
-          "sentence": "我喜歡塑膠玩具。",
-          "pinyin": "wǒ xǐhuān sùjiāo wánjù.",
-          "en": "I enjoy playing with plastic toys.",
-          "vi": "Tôi thích đồ chơi bằng nhựa."
+          "meaning": "",
+          "sentence": "每個週末我都去學校游泳池游泳。",
+          "simplified": "每个周末我都去学校游泳池游泳。",
+          "pinyin": "Měi ge zhōumò wǒ dōu qù xuéxiào yóuyǒngchí yóuyǒng.",
+          "en": "Every weekend I go swimming at the school swimming pool.",
+          "vi": "Mỗi cuối tuần tôi đều đến hồ bơi của trường để bơi."
         }
       ]
     },
     {
       "id": 29,
-      "chinese": "資源",
-      "pinyin": "zīyuán",
-      "en": "resource",
-      "vi": "tài nguyên",
-      "sinoVietnamese": "",
+      "chinese": "天",
+      "pinyin": "tiān",
+      "en": "day",
+      "vi": "Ngày",
+      "sinoVietnamese": "Thiên",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "resource",
-          "sentence": "我們的資源極端緊缺。",
-          "pinyin": "wǒmen de zīyuán jíduān jǐnquē.",
-          "en": "Our resources are strained to the utmost.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "他每天都去那裡打網球。",
+          "simplified": "他每天都去那里打网球。",
+          "pinyin": "Tā měitiān dōu qù nàlǐ dǎ wǎngqiú.",
+          "en": "He goes there to play tennis every day.",
+          "vi": "Anh ấy ngày nào cũng đến đó chơi quần vợt."
         },
         {
-          "type": "Noun",
-          "meaning": "resource",
-          "sentence": "教育資源不足。",
-          "pinyin": "jiàoyùzīyuánbùzú.",
-          "en": "The education resources are not sufficient.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "我每天都和朋友去踢足球。",
+          "simplified": "我每天都和朋友去踢足球。",
+          "pinyin": "Wǒ měitiān dōu hé péngyǒu qù tī zúqiú.",
+          "en": "I go play soccer with friends every day.",
+          "vi": "Tôi ngày nào cũng đi đá bóng với bạn bè."
         }
       ]
     },
     {
       "id": 30,
-      "chinese": "回收桶",
-      "pinyin": "huíshōutǒng",
-      "en": "recycling bin",
-      "vi": "thùng rác tái chế",
-      "sinoVietnamese": "",
+      "chinese": "書法[书法]",
+      "pinyin": "shūfǎ",
+      "en": "calligraphy",
+      "vi": "Thư pháp",
+      "sinoVietnamese": "Thư pháp",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "keg; tub; pail; barrel; bucket; commode",
-          "sentence": "桶裡/裏裝滿了水。",
-          "pinyin": "tǒng lǐ zhuāng mǎnle shuǐ.",
-          "en": "The bucket is full of water.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "他很喜歡學書法。",
+          "simplified": "他很喜欢学书法。",
+          "pinyin": "Tā hěn xǐhuān xué shūfǎ.",
+          "en": "He really likes learning calligraphy.",
+          "vi": "Anh ấy rất thích học thư pháp."
         },
         {
-          "type": "Noun",
-          "meaning": "keg; tub; pail; barrel; bucket; commode",
-          "sentence": "他提著一個木桶。",
-          "pinyin": "tā tízhe yīgè mù tǒng.",
-          "en": "He is carrying a wooden bucket.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "你每天都有書法課嗎？",
+          "simplified": "你每天都有书法课吗？",
+          "pinyin": "Nǐ měitiān dōu yǒu shūfǎ kè ma?",
+          "en": "Do you have calligraphy class every day?",
+          "vi": "Bạn ngày nào cũng có lớp thư pháp à?"
         }
       ]
     },
     {
       "id": 31,
-      "chinese": "城市",
-      "pinyin": "chéngshì",
-      "en": "city",
-      "vi": "thành phố",
-      "sinoVietnamese": "",
+      "chinese": "課[课]",
+      "pinyin": "kè",
+      "en": "class; lesson",
+      "vi": "Tiết học",
+      "sinoVietnamese": "Khóa",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "city; town",
-          "sentence": "這座城市非常繁華。",
-          "pinyin": "zhè zuò chéngshì fēicháng fánhuá.",
-          "en": "This city is very bustling.",
-          "vi": "Thành phố này rất sầm uất."
+          "meaning": "",
+          "sentence": "今天我沒有課，想去打籃球嗎？",
+          "simplified": "今天我没有课，想去打篮球吗？",
+          "pinyin": "Jīntiān wǒ méiyǒu kè xiǎng qù dǎ lánqiú ma?",
+          "en": "I don’t have class today. Do you want to go play basketball?",
+          "vi": "Hôm nay tôi không có lớp, bạn muốn đi chơi bóng rổ không?"
         },
         {
-          "type": "Noun",
-          "meaning": "city; town",
-          "sentence": "我愛這座城市的氛圍。",
-          "pinyin": "wǒ ài zhè zuò chéngshì de fēnwéi.",
-          "en": "I love the atmosphere of this city.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "明天我有課，不能去唱歌了。",
+          "simplified": "明天我有课，不能去唱歌了。",
+          "pinyin": "Míngtiān wǒ yǒu kè bù néng qù chànggē le.",
+          "en": "I have class tomorrow, so I can’t go singing.",
+          "vi": "Ngày mai tôi có lớp, không thể đi hát nữa."
         }
       ]
     },
     {
       "id": 32,
-      "chinese": "聽見",
-      "pinyin": "tīngjiàn",
-      "en": "to hear, to have heard",
-      "vi": "nghe thấy",
-      "sinoVietnamese": "",
+      "chinese": "開始[开始]",
+      "pinyin": "kāishǐ",
+      "en": "to begin; to start",
+      "vi": "Bắt đầu",
+      "sinoVietnamese": "Khai thủy",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "hear",
-          "sentence": "他聽見學校的鈴響了。",
-          "pinyin": "tā tīngjiàn xuéxiào de líng xiǎngle.",
-          "en": "He heard the school bell ring.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "那個足球比賽幾點開始幾點結束？",
+          "simplified": "那个足球比赛几点开始几点结束？",
+          "pinyin": "Nà ge zúqiú bǐsài jǐ diǎn kāishǐ jǐ diǎn jiéshù?",
+          "en": "What time does that soccer match start and end?",
+          "vi": "Trận bóng đá đó mấy giờ bắt đầu, mấy giờ kết thúc?"
         },
         {
-          "type": "Verb",
-          "meaning": "hear",
-          "sentence": "我仿彿聽見有人在呼喊。",
-          "pinyin": "wǒ fǎngfú tīngjiàn yǒurén zài hūhǎn.",
-          "en": "I thought I heard someone calling.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "我從上個星期開始學寫書法。",
+          "simplified": "我从上个星期开始学写书法。",
+          "pinyin": "Wǒ cóng shàng ge xīngqī kāishǐ xué xiě shūfǎ.",
+          "en": "I started learning to write calligraphy last week.",
+          "vi": "Tôi bắt đầu học viết thư pháp từ tuần trước."
         }
       ]
     },
     {
       "id": 33,
-      "chinese": "開過來",
-      "pinyin": "kāi guòlái",
-      "en": "to drive over",
-      "vi": "lái xe qua đây",
-      "sinoVietnamese": "",
+      "chinese": "字",
+      "pinyin": "zì",
+      "en": "character; word",
+      "vi": "Chữ",
+      "sinoVietnamese": "Tự",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "come; arrive",
-          "sentence": "他來公司開會。",
-          "pinyin": "tā lái gōngsī kāihuì.",
-          "en": "He comes to the company for a meeting.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "請問你知道這個漢字怎麼讀嗎？",
+          "simplified": "请问你知道这个汉子怎么读吗？",
+          "pinyin": "Qǐngwèn nǐ zhīdào zhège hànzì zěnme dú ma?",
+          "en": "Excuse me, do you know how to read this Chinese character?",
+          "vi": "Xin hỏi bạn biết chữ Hán này đọc thế nào không?"
         },
         {
-          "type": "Verb",
-          "meaning": "come; arrive",
-          "sentence": "請你來我傢玩。",
-          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
-          "en": "Please come to my house to play.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "這個字我不知道。",
+          "simplified": "这个字我不知道。",
+          "pinyin": "Zhège zì wǒ bù zhīdào.",
+          "en": "I don’t know this character.",
+          "vi": "Chữ này tôi không biết."
         }
       ]
     },
     {
       "id": 34,
-      "chinese": "走過去",
-      "pinyin": "zǒu guòqù",
-      "en": "to walk over",
-      "vi": "đi bộ qua đó",
-      "sinoVietnamese": "",
+      "chinese": "寫[写]",
+      "pinyin": "xiě",
+      "en": "to write",
+      "vi": "Viết",
+      "sinoVietnamese": "Tả",
       "samples": [
         {
-          "type": "v, time, n, adv",
-          "meaning": "(in the) past",
-          "sentence": "過去呢",
-          "pinyin": "guòqù ní",
-          "en": "What about past complaints?",
-          "vi": ""
+          "meaning": "",
+          "sentence": "這個漢字我不知道怎麼寫，你可以教我嗎？",
+          "simplified": "这个汉子我不知道怎么写，你可以教我吗？",
+          "pinyin": "Zhège hànzì wǒ bù zhīdào zěnme xiě nǐ kěyǐ jiāo wǒ ma?",
+          "en": "I don’t know how to write this Chinese character. Can you teach me?",
+          "vi": "Tôi không biết viết chữ Hán này thế nào, bạn có thể dạy tôi không?"
         },
         {
-          "type": "v, time, n, adv",
-          "meaning": "former",
-          "sentence": "她隻是個過去的朋友。",
-          "pinyin": "tā zhǐshì gè guòqù de péngyǒu",
-          "en": "She's just a former friend.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "我也不知道怎麼寫，你去問老師吧。",
+          "simplified": "我也不知道怎么写，你去问老师吧。",
+          "pinyin": "Wǒ yě bù zhīdào zěnme xiě nǐ qù wèn lǎoshī ba.",
+          "en": "I also don’t know how to write it. Go ask the teacher.",
+          "vi": "Tôi cũng không biết viết thế nào, bạn đi hỏi thầy/cô đi."
         }
       ]
     },
     {
       "id": 35,
-      "chinese": "丟進去",
-      "pinyin": "diū jìnqù",
-      "en": "to throw into",
-      "vi": "vứt vào trong",
-      "sinoVietnamese": "",
+      "chinese": "可以",
+      "pinyin": "kěyǐ",
+      "en": "can; may",
+      "vi": "Có thể",
+      "sinoVietnamese": "Khả dĩ",
       "samples": [
         {
-          "type": "Verb",
-          "meaning": "go; leave",
-          "sentence": "他吃/喫完飯就去了。",
-          "pinyin": "tā chī wán fàn jiù qùle.",
-          "en": "He left right after finishing the meal.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "請問這裡可以照相嗎？",
+          "simplified": "请问这里可以照相吗？",
+          "pinyin": "Qǐngwèn zhèlǐ kěyǐ zhàoxiàng ma?",
+          "en": "Excuse me, can we take photos here?",
+          "vi": "Xin hỏi ở đây có thể chụp ảnh không?"
         },
         {
-          "type": "Verb",
-          "meaning": "go; leave",
-          "sentence": "朋友沒打招呼就去了。",
-          "pinyin": "péngyǒu méi dǎzhāohū jiù qùle.",
-          "en": "My friend left without saying goodbye.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "這裡不可以踢足球，你們去那裡玩吧。",
+          "simplified": "这里不可以踢足球，你们去那里玩吧。",
+          "pinyin": "Zhèlǐ bù kěyǐ tī zúqiú nǐmen qù nàlǐ wán ba.",
+          "en": "You can’t play soccer here. Go play over there.",
+          "vi": "Ở đây không được đá bóng, các bạn qua đó chơi đi."
         }
       ]
     },
     {
       "id": 36,
-      "chinese": "路上",
-      "pinyin": "lùshàng",
-      "en": "on the street / on the way",
-      "vi": "trên đường",
-      "sinoVietnamese": "",
+      "chinese": "問[问]",
+      "pinyin": "wèn",
+      "en": "to ask",
+      "vi": "Hỏi",
+      "sinoVietnamese": "Vấn",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "on the road",
-          "sentence": "路上有很多行人。",
-          "pinyin": "lùshàng yǒu hěnduō xíngrén.",
-          "en": "There are many pedestrians on the road.",
-          "vi": "Trên đường có nhiều người đi bộ."
+          "meaning": "",
+          "sentence": "這個問題你去問他吧。",
+          "simplified": "这个问题你去问他吧。",
+          "pinyin": "Zhège wèntí nǐ qù wèn tā ba.",
+          "en": "Go ask him this question.",
+          "vi": "Vấn đề này bạn đi hỏi anh ấy đi."
         },
         {
-          "type": "Noun",
-          "meaning": "on the road",
-          "sentence": "路上停著一輛車。",
-          "pinyin": "lùshàng tíngzhe yī liàng chē.",
-          "en": "There is a car parked on the road.",
-          "vi": ""
+          "meaning": "",
+          "sentence": "請問你知道王老師在哪裡嗎？",
+          "simplified": "请问你知道王老师在哪里吗？",
+          "pinyin": "Qǐngwèn nǐ zhīdào Wáng lǎoshī zài nǎlǐ ma?",
+          "en": "Excuse me, do you know where Teacher Wang is?",
+          "vi": "Xin hỏi bạn biết thầy/cô Vương ở đâu không?"
         }
       ]
     },
     {
       "id": 37,
-      "chinese": "天天",
-      "pinyin": "tiāntiān",
-      "en": "every day",
-      "vi": "hàng ngày",
-      "sinoVietnamese": "",
+      "chinese": "等一下",
+      "pinyin": "děngyíxià",
+      "en": "wait a moment",
+      "vi": "Đợi một chút",
+      "sinoVietnamese": "Đẳng nhất hạ",
       "samples": [
         {
-          "type": "Pronoun",
-          "meaning": "daily; every day; day in, day out",
-          "sentence": "我們天天學習中文。",
-          "pinyin": "wǒmen tiāntiān xuéxí zhōngwén.",
-          "en": "We study Chinese every day.",
-          "vi": "Chúng tôi học tiếng Trung mỗi ngày."
+          "meaning": "",
+          "sentence": "我剛下課，等一下要去書店買書。",
+          "simplified": "我刚下课，等一下要去书店买书。",
+          "pinyin": "Wǒ gāng xiàkè děng yíxià yào qù shūdiàn mǎi shū.",
+          "en": "I just finished class and will go to the bookstore in a bit to buy books.",
+          "vi": "Tôi vừa tan học, lát nữa sẽ đi nhà sách mua sách."
         },
         {
-          "type": "Pronoun",
-          "meaning": "daily; every day; day in, day out",
-          "sentence": "我天天都看新聞。",
-          "pinyin": "wǒ tiāntiān dōu kàn xīnwén.",
-          "en": "I watch the news every day.",
-          "vi": "Tôi xem tin tức mỗi ngày."
+          "meaning": "",
+          "sentence": "你在這裡等我一下。",
+          "simplified": "你在这里等我一下。",
+          "pinyin": "Nǐ zài zhèlǐ děng wǒ yíxià.",
+          "en": "Wait for me here for a moment.",
+          "vi": "Bạn đợi tôi ở đây một chút."
         }
       ]
     },
     {
       "id": 38,
-      "chinese": "汽水罐",
-      "pinyin": "qìshuǐ guàn",
-      "en": "soda can",
-      "vi": "lon nước ngọt",
-      "sinoVietnamese": "",
+      "chinese": "有事",
+      "pinyin": "yǒushì",
+      "en": "to have something to do",
+      "vi": "Có việc",
+      "sinoVietnamese": "Hữu sự",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "tin; jar; jug; pot; tank",
-          "sentence": "這個鐵罐十分堅固。",
-          "pinyin": "zhègè tiě guàn shífēn jiāngù.",
-          "en": "This tin can is very sturdy.",
-          "vi": "Chiếc bình sắt này rất chắc chắn."
+          "meaning": "",
+          "sentence": "今天下午你有事嗎？要一起去吃飯嗎？",
+          "simplified": "今天下午你有事吗？要一起去吃饭吗？",
+          "pinyin": "Jīntiān xiàwǔ nǐ yǒu shì ma yào yìqǐ qù chīfàn ma?",
+          "en": "Do you have something to do this afternoon? Want to eat together?",
+          "vi": "Chiều nay bạn có việc không? Muốn đi ăn cùng không?"
         },
         {
-          "type": "Noun",
-          "meaning": "tin; jar; jug; pot; tank",
-          "sentence": "那隻陶罐造型精美。",
-          "pinyin": "nà zhī táo guàn zàoxíng jīngměi.",
-          "en": "That ceramic pot has a fine design.",
-          "vi": "Chiếc bình gốm đó có hình dáng tinh xảo."
+          "meaning": "",
+          "sentence": "這個週末我沒有事，我們去唱歌吧。",
+          "simplified": "这个周末我没有事，我们去唱歌吧。",
+          "pinyin": "Zhège zhōumò wǒ méiyǒu shì wǒmen qù chànggē ba.",
+          "en": "I don’t have anything to do this weekend. Let’s go sing.",
+          "vi": "Cuối tuần này tôi không có việc, chúng ta đi hát nhé."
         }
       ]
     },
     {
       "id": 39,
-      "chinese": "紙杯",
-      "pinyin": "zhǐbēi",
-      "en": "paper cup",
-      "vi": "cốc giấy",
-      "sinoVietnamese": "",
+      "chinese": "有意思",
+      "pinyin": "yǒuyìsi",
+      "en": "interesting; meaningful",
+      "vi": "Thú vị",
+      "sinoVietnamese": "Hữu ý tư",
       "samples": [
         {
-          "type": "Noun",
-          "meaning": "paper cup",
-          "sentence": "你不需要再用紙盃喝水了。",
-          "pinyin": "nǐ bù xūyào zàiyòng zhǐbēi hēshǔi le",
-          "en": "You never have to drink out of a paper cup again.",
-          "vi": "Bạn không bao giờ phải uống từ cốc giấy nữa."
-        }
-      ]
-    },
-    {
-      "id": 40,
-      "chinese": "放下",
-      "pinyin": "fàngxià",
-      "en": "put down",
-      "vi": "đặt xuống",
-      "sinoVietnamese": "",
-      "samples": [
-        {
-          "type": "Verb",
-          "meaning": "lay down; put down",
-          "sentence": "請放下手中的筆。",
-          "pinyin": "qǐng fàngxià shǒuzhōng de bǐ.",
-          "en": "Please put down the pen in your hand.",
-          "vi": "Hãy đặt bút xuống."
+          "meaning": "",
+          "sentence": "我覺得這個電影很有意思，你看看吧。",
+          "simplified": "我觉得这个电影很有意思，你看看吧。",
+          "pinyin": "Wǒ juéde zhège diànyǐng hěn yǒuyìsi nǐ kànkan ba.",
+          "en": "I think this movie is very interesting. Watch it.",
+          "vi": "Tôi thấy bộ phim này rất thú vị, bạn xem thử đi."
         },
         {
-          "type": "Verb",
-          "meaning": "lay down; put down",
-          "sentence": "他放下了行李。",
-          "pinyin": "tā fàngxiàle xínglǐ.",
-          "en": "He put down the luggage.",
-          "vi": "Anh ấy đã đặt hành lý xuống."
-        }
-      ]
-    },
-    {
-      "id": 41,
-      "chinese": "走出來",
-      "pinyin": "zǒu chūlái",
-      "en": "to walk out of",
-      "vi": "đi ra ngoài",
-      "sinoVietnamese": "",
-      "samples": [
-        {
-          "type": "Verb",
-          "meaning": "come; arrive",
-          "sentence": "他來公司開會。",
-          "pinyin": "tā lái gōngsī kāihuì.",
-          "en": "He comes to the company for a meeting.",
-          "vi": ""
-        },
-        {
-          "type": "Verb",
-          "meaning": "come; arrive",
-          "sentence": "請你來我傢玩。",
-          "pinyin": "qǐng nǐ lái wǒ jiā wán.",
-          "en": "Please come to my house to play.",
-          "vi": ""
-        }
-      ]
-    },
-    {
-      "id": 42,
-      "chinese": "怎麼辦",
-      "pinyin": "zěnmebàn",
-      "en": "What now? / What to do?",
-      "vi": "phải làm sao đây",
-      "sinoVietnamese": "",
-      "samples": [
-        {
-          "type": "Verb",
-          "meaning": "what to do; what's to be done",
-          "sentence": "沒有他我該怎麼辦？",
-          "pinyin": "méiyǒu tā wǒ gāi zěnme bàn?",
-          "en": "What should I do without him?",
-          "vi": "Không có anh ấy tôi phải làm sao?"
-        },
-        {
-          "type": "Verb",
-          "meaning": "what to do; what's to be done",
-          "sentence": "我現在該怎麼辦呢？",
-          "pinyin": "wǒ xiànzài gāi zěnme bàn ne?",
-          "en": "What should I do now?",
-          "vi": "Bây giờ tôi phải làm sao đây chứ?"
+          "meaning": "",
+          "sentence": "這本書真的沒有意思，我不喜歡。",
+          "simplified": "这本书真的没有意思，我不喜欢。",
+          "pinyin": "Zhè běn shū zhēn de méiyǒu yìsi wǒ bù xǐhuān.",
+          "en": "This book is really not interesting. I don’t like it.",
+          "vi": "Quyển sách này thật sự không thú vị, tôi không thích."
         }
       ]
     }
