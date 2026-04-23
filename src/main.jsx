@@ -6,6 +6,7 @@ import { initAuth } from '@/store/authStore';
 import { prefetchFromSession } from '@/hooks/useVocabData';
 import App from './App';
 import './index.css';
+import './App.css';
 
 class ErrorBoundary extends Component {
   constructor(props) {

@@ -24,7 +24,7 @@
     --border: 120 8% 88%;
     --input: 120 8% 88%;
     --ring: 101 47% 74%;
-    --radius: 1rem;
+    --radius: 0.5rem;
     /* Fallbacks — overridden by [data-theme] once applied */
     --theme-surface:           107 72% 94%;
     --theme-border:            107 42% 83%;

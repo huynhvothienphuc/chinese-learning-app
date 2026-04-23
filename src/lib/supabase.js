@@ -1,13 +1,43 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const env = import.meta.env ?? {};
+const supabaseUrl = env.VITE_SUPABASE_URL;
+const supabaseAnonKey = env.VITE_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.warn('[Supabase] Missing env vars — teacher features will be unavailable.');
 }
 
-export const supabase = createClient(supabaseUrl ?? '', supabaseAnonKey ?? '');
+function unavailableResult() {
+  return Promise.resolve({ data: null, error: new Error('Supabase is not configured.') });
+}
+
+function unavailableQuery() {
+  const result = unavailableResult();
+  const query = {};
+  ['select', 'eq', 'order', 'insert', 'delete', 'update', 'single', 'maybeSingle'].forEach((method) => {
+    query[method] = () => query;
+  });
+  query.then = result.then.bind(result);
+  query.catch = result.catch.bind(result);
+  query.finally = result.finally.bind(result);
+  return query;
+}
+
+const unavailableSupabase = {
+  auth: {
+    getSession: () => Promise.resolve({ data: { session: null }, error: null }),
+    onAuthStateChange: () => ({ data: { subscription: { unsubscribe: () => {} } } }),
+    signInWithOAuth: () => unavailableResult(),
+    signOut: () => Promise.resolve({ error: null }),
+  },
+  from: () => unavailableQuery(),
+  rpc: () => unavailableResult(),
+};
+
+export const supabase = supabaseUrl && supabaseAnonKey
+  ? createClient(supabaseUrl, supabaseAnonKey)
+  : unavailableSupabase;
 
 // ── Student vocab sets (max 3 per user, 100 words each) ──────────────────────
 

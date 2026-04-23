@@ -64,8 +64,8 @@ export function useStudySession({ rawVocab = [], favoriteVocabulary = [], onQuiz
 
   const pool = useMemo(() => {
     if (overrideVocab !== null) return overrideVocab;
-    return deckSource === 'favorites' ? testableVocabulary : activeVocabulary;
-  }, [overrideVocab, deckSource, testableVocabulary, activeVocabulary]);
+    return activeVocabulary;
+  }, [overrideVocab, activeVocabulary]);
 
   const allChoices = useMemo(
     () => activeVocabulary.map((item) => buildQuizChoices(pool, item)),
@@ -73,6 +73,12 @@ export function useStudySession({ rawVocab = [], favoriteVocabulary = [], onQuiz
   );
 
   const currentItem = activeVocabulary[currentIndex] ?? null;
+
+  useEffect(() => {
+    if (currentIndex < activeVocabulary.length) return;
+    setCurrentIndex(Math.max(activeVocabulary.length - 1, 0));
+    setAnsweredQuestion(null);
+  }, [activeVocabulary.length, currentIndex]);
 
   // ── public setters ────────────────────────────────────────────────────────
 

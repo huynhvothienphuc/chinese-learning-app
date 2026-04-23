@@ -26,6 +26,15 @@ const WordListView  = lazy(() => import('@/components/WordListView'));
 
 const SAMPLE_NOTICE_KEY = 'sample-sentence-notice-last-seen';
 
+function readSavedSectionsByBook() {
+  try {
+    return JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
+  } catch {
+    sessionStorage.removeItem(SESSION_SELECTED_SECTION_KEY);
+    return {};
+  }
+}
+
 function getTodayKey() {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -150,7 +159,7 @@ export default function LearnPage() {
   // ── initialize selectedSection when sections load ──
   useEffect(() => {
     if (!sections.length || !selectedBook) return;
-    const savedByBook = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
+    const savedByBook = readSavedSectionsByBook();
     const saved = savedByBook[selectedBook];
     const firstEnabled = sections.find((s) => s.enabled !== false)?.file || sections[0]?.file || '';
     setSelectedSection(saved && sections.some((s) => s.file === saved && s.enabled !== false) ? saved : firstEnabled);
@@ -158,7 +167,7 @@ export default function LearnPage() {
 
   useEffect(() => {
     if (!selectedBook || !selectedSection) return;
-    const savedByBook = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
+    const savedByBook = readSavedSectionsByBook();
     savedByBook[selectedBook] = selectedSection;
     sessionStorage.setItem(SESSION_SELECTED_SECTION_KEY, JSON.stringify(savedByBook));
     trackEvent('select_section', { book_id: selectedBook, section_id: selectedSection });
