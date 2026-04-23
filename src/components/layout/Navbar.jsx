@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Info, LogOut, MessageSquare, Moon, Settings, Sun, Wand2 } from 'lucide-react';
+import { Info, LogOut, MessageSquare, Moon, Search, Settings, Sun, Wand2 } from 'lucide-react';
 import { useAuthStore } from '@/store/authStore';
 import { Button } from '@/components/ui/button';
 import { Tooltip } from '@/components/ui/tooltip';
@@ -20,6 +20,7 @@ export default function Navbar({
   selectedFlag,
   isDarkMode,
   onDarkModeToggle,
+  onSearchOpen,
   theme,
   onThemeChange,
   fontSize,
@@ -126,6 +127,13 @@ export default function Navbar({
                 </div>
               )}
             </div>
+
+            {/* Global search */}
+            <Tooltip text="Search all lessons">
+              <Button type="button" variant="outline" size="icon" onClick={onSearchOpen} aria-label="Search all lessons">
+                <Search className="h-4 w-4" />
+              </Button>
+            </Tooltip>
 
             {/* Dark mode */}
             <Tooltip text={isDarkMode ? 'Light mode' : 'Dark mode'}>

@@ -4,8 +4,7 @@ import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
-
+import { cn, getItemMeaning, getSentenceMeaning, matchesVocabQuery } from '@/lib/utils';
 export default function WordListView({ vocabulary, isFavorite, onToggleFavorite, language, t }) {
   const [filter, setFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
@@ -34,13 +33,11 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
   }
 
   const normalizedQuery = searchQuery.trim().toLowerCase();
+
   const displayed = useMemo(() => {
     const base = filter === 'favorites' ? vocabulary.filter((item) => isFavorite(item)) : vocabulary;
-    if (!normalizedQuery) return base;
-    return base.filter((item) =>
-      [item.chinese, item.english].some((value) => (value ?? '').toLowerCase().includes(normalizedQuery))
-    );
-  }, [vocabulary, filter, normalizedQuery, isFavorite]);
+    return base.filter((item) => matchesVocabQuery(item, searchQuery));
+  }, [vocabulary, filter, searchQuery, isFavorite]);
 
   if (!vocabulary || vocabulary.length === 0) {
     return (

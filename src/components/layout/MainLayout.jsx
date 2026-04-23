@@ -18,6 +18,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const FavoritesPanel = lazy(() => import('@/components/FavoritesPanel'));
+const GlobalSearchModal = lazy(() => import('@/components/GlobalSearchModal'));
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -80,6 +81,7 @@ export default function MainLayout() {
   // ── favorites ──
   const [favorites, setFavorites] = useLocalStorageState(FAVORITES_KEY, []);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   // ── uploaded lessons (localStorage) ──
   const [uploadedLessons, setUploadedLessons] = useState(() => {
@@ -211,6 +213,7 @@ export default function MainLayout() {
             selectedFlag={selectedFlag}
             isDarkMode={isDarkMode}
             onDarkModeToggle={() => setIsDarkMode((p) => !p)}
+            onSearchOpen={() => setIsSearchOpen(true)}
             theme={theme}
             onThemeChange={setTheme}
             fontSize={fontSize}
@@ -241,6 +244,16 @@ export default function MainLayout() {
           </footer>
         </div>
       </div>
+
+      <Suspense fallback={null}>
+        <GlobalSearchModal
+          isOpen={isSearchOpen}
+          onClose={() => setIsSearchOpen(false)}
+          onNavigate={(bookId, sectionFile) => navigate('/', { state: { selectBook: bookId, selectSection: sectionFile } })}
+          language={selectedLanguage}
+          t={t}
+        />
+      </Suspense>
 
       <Suspense fallback={null}>
         <FavoritesPanel
