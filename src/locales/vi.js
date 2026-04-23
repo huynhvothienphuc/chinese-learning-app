@@ -63,6 +63,8 @@ export default {
   exampleSentence: 'Câu ví dụ',
   showExampleDetails: 'Hiện chi tiết câu ví dụ',
   hideExampleDetails: 'Ẩn chi tiết câu ví dụ',
+  seeMoreDetails: 'Xem thêm',
+  collapseDetails: 'Thu gọn',
   quizSummary: 'Tổng kết bài kiểm tra',
   greatWork: 'Bạn đã hoàn thành bộ thẻ rất tốt.',
   perfectScore: 'Điểm tuyệt đối! Không có đáp án sai!',

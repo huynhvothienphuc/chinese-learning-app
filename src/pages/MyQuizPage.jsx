@@ -257,7 +257,7 @@ export default function MyQuizPage() {
               <div className="min-w-0 space-y-2">
                 {Object.values(selectionByBook).map((group) => (
                   <div key={group.bookTitle} className="flex flex-wrap items-center gap-1.5">
-                    <span className="shrink-0 text-xs font-semibold text-slate-400">{group.bookTitle}:</span>
+                    <span className="shrink-0 text-xs font-semibold text-muted-foreground">{group.bookTitle}:</span>
                     {group.entries.map((e) => (
                       <span key={e.key} className="rounded-2xl bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">
                         {e.sectionTitle}
@@ -269,7 +269,7 @@ export default function MyQuizPage() {
               <button
                 type="button"
                 onClick={handleRestart}
-                className="shrink-0 rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-500 transition-colors hover:border-slate-300 hover:text-slate-700 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-400 dark:hover:text-slate-200"
+                className="shrink-0 rounded-xl border border-border bg-white px-3 py-1.5 text-xs font-semibold text-muted-foreground transition-colors hover:border-slate-300 hover:text-foreground dark:border-slate-600 dark:bg-slate-700 dark:text-muted-foreground dark:hover:text-slate-200"
               >
                 New Quiz
               </button>
@@ -299,7 +299,7 @@ export default function MyQuizPage() {
                       'rounded-2xl px-4 py-2 text-sm font-semibold transition-colors',
                       activeBrowseBook === book.id
                         ? 'bg-primary text-primary-foreground'
-                        : 'bg-white text-slate-700 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                        : 'bg-white text-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                     )}
                   >
                     {book.title}
@@ -318,7 +318,7 @@ export default function MyQuizPage() {
 
               {/* Mode + count row */}
               <div className="mt-2 flex flex-wrap items-center gap-2 border-t border-theme-border pt-2">
-                <span className="text-xs font-semibold text-slate-400">{t.quizInstructionLabel}:</span>
+                <span className="text-xs font-semibold text-muted-foreground">{t.quizInstructionLabel}:</span>
                 {[
                   { key: 'multiple-choice', label: t.multipleChoice, icon: <ListChecks className="h-4 w-4" /> },
                   { key: 'write', label: t.writeTab, icon: <PencilLine className="h-4 w-4" /> },
@@ -331,7 +331,7 @@ export default function MyQuizPage() {
                       'flex items-center gap-1.5 rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors',
                       quizMode === opt.key
                         ? 'bg-primary text-primary-foreground'
-                        : 'bg-white text-slate-600 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                        : 'bg-white text-muted-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                     )}
                   >
                     {opt.icon}
@@ -339,7 +339,7 @@ export default function MyQuizPage() {
                   </button>
                 ))}
 
-                <span className="text-xs font-semibold text-slate-400 sm:ml-2">{t.myQuizCountLabel}:</span>
+                <span className="text-xs font-semibold text-muted-foreground sm:ml-2">{t.myQuizCountLabel}:</span>
                 {['all', 20, 40, 60].map((opt) => {
                   const notEnough = opt !== 'all' && available < opt;
                   return (
@@ -352,7 +352,7 @@ export default function MyQuizPage() {
                         'rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-40',
                         count === opt
                           ? 'bg-primary text-primary-foreground'
-                          : 'bg-white text-slate-600 hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
+                          : 'bg-white text-muted-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
                       )}
                     >
                       {opt === 'all' ? t.myQuizCountAll : opt}
@@ -368,7 +368,7 @@ export default function MyQuizPage() {
             <Card className="border-theme-border bg-theme-surface shadow-soft">
               <CardContent className="p-4 sm:p-5">
                 <div className="mb-2 flex items-center justify-between gap-3">
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                     Selected — {available} {available === 1 ? 'word' : 'words'}
                     {isLoadingAny && <Loader2 className="ml-2 inline h-3 w-3 animate-spin" />}
                   </p>
@@ -383,7 +383,7 @@ export default function MyQuizPage() {
                 <div className="space-y-2">
                   {Object.values(selectionByBook).map((group) => (
                     <div key={group.bookTitle} className="flex flex-wrap items-center gap-1.5">
-                      <span className="shrink-0 text-xs font-semibold text-slate-500 dark:text-slate-400">
+                      <span className="shrink-0 text-xs font-semibold text-muted-foreground">
                         {group.bookTitle}:
                       </span>
                       {group.entries.map((e) => {
@@ -419,7 +419,7 @@ export default function MyQuizPage() {
           <Card className="border-theme-border bg-theme-surface shadow-soft">
             <CardContent className="p-4 sm:p-5">
               <div className="mb-3 flex items-center justify-between gap-3">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                   {t.myQuizLessonsLabel}
                 </p>
                 {enabledSections.length > 0 && (
@@ -434,12 +434,12 @@ export default function MyQuizPage() {
               </div>
 
               {loadingSections ? (
-                <div className="flex items-center gap-2 py-6 text-sm text-slate-500">
+                <div className="flex items-center gap-2 py-6 text-sm text-muted-foreground">
                   <Loader2 className="h-4 w-4 animate-spin" />
                   {t.myQuizLoadingSections}
                 </div>
               ) : enabledSections.length === 0 ? (
-                <p className="py-6 text-sm text-slate-500">{t.myQuizNoLessons}</p>
+                <p className="py-6 text-sm text-muted-foreground">{t.myQuizNoLessons}</p>
               ) : (
                 <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                   {enabledSections.map((section) => {
@@ -461,14 +461,14 @@ export default function MyQuizPage() {
                       >
                         {checked
                           ? <CheckSquare2 className="h-4 w-4 shrink-0 text-primary" />
-                          : <Square className="h-4 w-4 shrink-0 text-slate-300 dark:text-slate-500" />}
-                        <span className="flex-1 truncate text-sm font-medium text-slate-800 dark:text-slate-200">
+                          : <Square className="h-4 w-4 shrink-0 text-muted-foreground" />}
+                        <span className="flex-1 truncate text-sm font-medium text-foreground">
                           {section.title}
                         </span>
                         {isLoading ? (
-                          <Loader2 className="h-3 w-3 shrink-0 animate-spin text-slate-400" />
+                          <Loader2 className="h-3 w-3 shrink-0 animate-spin text-muted-foreground" />
                         ) : vocabItems ? (
-                          <span className="shrink-0 rounded-full bg-slate-100 px-1.5 py-0.5 text-xs font-bold text-slate-500 dark:bg-slate-600 dark:text-slate-300">
+                          <span className="shrink-0 rounded-full bg-slate-100 px-1.5 py-0.5 text-xs font-bold text-muted-foreground dark:bg-slate-600 dark:text-slate-300">
                             {vocabItems.filter((item) => !item.notest).length}
                           </span>
                         ) : null}

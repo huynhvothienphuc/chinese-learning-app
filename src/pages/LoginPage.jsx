@@ -38,9 +38,9 @@ export default function LoginPage() {
       <Card className="w-full max-w-sm border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-6">
           <div className="mb-8 flex flex-col items-center gap-2">
-            <img src="/logo.svg" alt="Logo" className="h-14 w-14 rounded-3xl border border-slate-200 bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
-            <h1 className="text-xl font-black tracking-tight text-slate-900 dark:text-white">Chinese EZ Cards</h1>
-            <p className="text-sm text-slate-500">Sign in to track your progress</p>
+            <img src="/logo.svg" alt="Logo" className="h-14 w-14 rounded-3xl border border-border bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
+            <h1 className="text-xl font-black tracking-tight text-foreground">Chinese EZ Cards</h1>
+            <p className="text-sm text-muted-foreground">Sign in to track your progress</p>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -49,7 +49,7 @@ export default function LoginPage() {
               variant="outline"
               disabled={loading}
               onClick={handleGoogleLogin}
-              className="flex w-full items-center justify-center gap-3 border-slate-200 py-5 text-sm font-semibold dark:border-slate-600"
+              className="flex w-full items-center justify-center gap-3 border-border py-5 text-sm font-semibold dark:border-slate-600"
             >
               <GoogleIcon />
               {loading ? 'Redirecting…' : 'Sign in with Google'}
@@ -62,15 +62,15 @@ export default function LoginPage() {
             )}
 
             <div className="relative flex items-center gap-3 py-1">
-              <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
-              <span className="text-xs text-slate-400">for students</span>
-              <div className="h-px flex-1 bg-slate-200 dark:bg-slate-700" />
+              <div className="h-px flex-1 bg-muted" />
+              <span className="text-xs text-muted-foreground">for students</span>
+              <div className="h-px flex-1 bg-muted" />
             </div>
 
             <button
               type="button"
               onClick={() => navigate('/')}
-              className="text-center text-sm text-slate-500 hover:text-slate-700 dark:hover:text-slate-300"
+              className="text-center text-sm text-muted-foreground hover:text-foreground dark:hover:text-slate-300"
             >
               ← Continue without signing in
             </button>

@@ -14,14 +14,14 @@ function BookSkeleton() {
         <div className="space-y-4">
           <div className="flex items-start justify-between gap-4">
             <div className="flex-1 space-y-2">
-              <div className="h-4 w-48 animate-pulse rounded bg-slate-200 dark:bg-slate-700" />
-              <div className="h-3 w-32 animate-pulse rounded bg-slate-100 dark:bg-slate-800" />
+              <div className="h-4 w-48 animate-pulse rounded bg-muted" />
+              <div className="h-3 w-32 animate-pulse rounded bg-muted" />
             </div>
-            <div className="h-8 w-24 animate-pulse rounded-xl bg-slate-100 dark:bg-slate-800" />
+            <div className="h-8 w-24 animate-pulse rounded-xl bg-muted" />
           </div>
           <div className="flex gap-2">
-            <div className="h-8 w-24 animate-pulse rounded-full bg-slate-100 dark:bg-slate-800" />
-            <div className="h-8 w-28 animate-pulse rounded-full bg-slate-100 dark:bg-slate-800" />
+            <div className="h-8 w-24 animate-pulse rounded-full bg-muted" />
+            <div className="h-8 w-28 animate-pulse rounded-full bg-muted" />
           </div>
         </div>
       </CardContent>
@@ -81,18 +81,18 @@ export default function TeacherDashboard() {
 
   return (
     <TeacherLayout>
-      <Card className="overflow-hidden border-theme-border bg-gradient-to-br from-[#ECFAE5] via-white to-[#F8FFF5] shadow-soft dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
+      <Card className="overflow-hidden border-theme-border bg-gradient-to-br from-theme-surface via-background to-background shadow-soft">
         <CardContent className="flex flex-col gap-6 p-6 sm:p-7">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
             <div className="max-w-2xl space-y-2">
-              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-green-700 dark:text-green-400">
+              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
                 Teacher Workspace
               </p>
               <div className="space-y-2">
-                <h2 className="text-3xl font-black tracking-tight text-slate-900 dark:text-white">
+                <h2 className="text-3xl font-black tracking-tight text-foreground">
                   Build books, lessons, and vocabulary sets
                 </h2>
-                <p className="text-sm leading-6 text-slate-600 dark:text-slate-300 sm:text-base">
+                <p className="text-sm leading-6 text-muted-foreground sm:text-base">
                   Start with a book, add lessons, then import or edit words. This space is designed for
                   fast lesson setup without changing your existing data workflow.
                 </p>
@@ -105,43 +105,43 @@ export default function TeacherDashboard() {
           </div>
 
           <div className="grid gap-3 sm:grid-cols-3">
-            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60">
-              <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                <Library className="h-4 w-4 text-green-600 dark:text-green-400" />
+            <div className="rounded-2xl border border-border bg-background/80 p-4 shadow-sm backdrop-blur">
+              <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                <Library className="h-4 w-4 text-primary" />
                 Books
               </div>
-              <p className="mt-3 text-3xl font-black text-slate-900 dark:text-white">{books.length}</p>
-              <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Teaching books in your workspace</p>
+              <p className="mt-3 text-3xl font-black text-foreground">{books.length}</p>
+              <p className="mt-1 text-sm text-muted-foreground">Teaching books in your workspace</p>
             </div>
 
-            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60">
-              <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                <BookOpen className="h-4 w-4 text-green-600 dark:text-green-400" />
+            <div className="rounded-2xl border border-border bg-background/80 p-4 shadow-sm backdrop-blur">
+              <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                <BookOpen className="h-4 w-4 text-primary" />
                 Workflow
               </div>
-              <p className="mt-3 text-base font-semibold text-slate-900 dark:text-white">Book → Lesson → Words</p>
-              <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Create structure first, then fill content</p>
+              <p className="mt-3 text-base font-semibold text-foreground">Book → Lesson → Words</p>
+              <p className="mt-1 text-sm text-muted-foreground">Create structure first, then fill content</p>
             </div>
 
-            <div className="rounded-2xl border border-white/70 bg-white/75 p-4 shadow-sm backdrop-blur dark:bg-slate-900/60">
-              <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                <FileText className="h-4 w-4 text-green-600 dark:text-green-400" />
+            <div className="rounded-2xl border border-border bg-background/80 p-4 shadow-sm backdrop-blur">
+              <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                <FileText className="h-4 w-4 text-primary" />
                 Best Next Step
               </div>
-              <p className="mt-3 text-base font-semibold text-slate-900 dark:text-white">Import lessons faster</p>
-              <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Use Excel for bulk upload, then edit rows</p>
+              <p className="mt-3 text-base font-semibold text-foreground">Import lessons faster</p>
+              <p className="mt-1 text-sm text-muted-foreground">Use Excel for bulk upload, then edit rows</p>
             </div>
           </div>
         </CardContent>
       </Card>
 
       {creating && (
-        <Card className="border-green-200 bg-green-50/80 shadow-soft dark:border-green-800/40 dark:bg-green-900/10">
+        <Card className="border-primary/20 bg-primary/5 shadow-soft">
           <CardContent className="p-5 sm:p-6">
             <form onSubmit={createBook} className="flex flex-col gap-4">
               <div className="space-y-1">
-                <h3 className="text-lg font-bold text-slate-800 dark:text-white">Create a new book</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-300">
+                <h3 className="text-lg font-bold text-foreground">Create a new book</h3>
+                <p className="text-sm text-muted-foreground">
                   Set up the book first. You can add lessons and words after it is created.
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default function TeacherDashboard() {
                 value={newTitle}
                 onChange={(e) => setNewTitle(e.target.value)}
                 placeholder="Book title"
-                className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 disabled:opacity-50 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 disabled:opacity-50"
               />
               <textarea
                 disabled={submitting}
@@ -160,7 +160,7 @@ export default function TeacherDashboard() {
                 onChange={(e) => setNewDesc(e.target.value)}
                 placeholder="Description (optional)"
                 rows={3}
-                className="resize-y rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 disabled:opacity-50 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                className="resize-y rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 disabled:opacity-50"
               />
               {error && <p className="text-sm text-rose-500">{error}</p>}
               <div className="flex flex-wrap gap-2">
@@ -187,8 +187,8 @@ export default function TeacherDashboard() {
           <CardContent className="flex flex-col items-center gap-3 p-12 text-center">
             <BookOpen className="h-12 w-12 text-slate-300" />
             <div className="space-y-1">
-              <p className="text-lg font-semibold text-slate-700 dark:text-slate-200">No books yet</p>
-              <p className="text-slate-500">Create your first teaching book to start adding lessons.</p>
+              <p className="text-lg font-semibold text-foreground">No books yet</p>
+              <p className="text-muted-foreground">Create your first teaching book to start adding lessons.</p>
             </div>
             <Button onClick={() => setCreating(true)} className="gap-2">
               <Plus className="h-4 w-4" />
@@ -199,12 +199,12 @@ export default function TeacherDashboard() {
       ) : (
         <div className="grid gap-4 lg:grid-cols-2">
           {books.map((book) => (
-            <Card key={book.id} className="group overflow-hidden border-slate-200/80 transition-shadow hover:shadow-md/70">
+            <Card key={book.id} className="group overflow-hidden border-border/80 transition-shadow hover:shadow-md/70">
               <CardContent className="flex h-full flex-col gap-5 p-5">
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0 flex-1">
-                    <p className="truncate text-lg font-bold text-slate-800 dark:text-white">{book.title}</p>
-                    <p className="mt-1 text-xs font-medium uppercase tracking-[0.14em] text-slate-400 dark:text-slate-500">
+                    <p className="truncate text-lg font-bold text-foreground">{book.title}</p>
+                    <p className="mt-1 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
                       Created {new Date(book.created_at).toLocaleDateString()}
                     </p>
                   </div>
@@ -223,20 +223,20 @@ export default function TeacherDashboard() {
 
                 <div className="min-h-[44px]">
                   {book.description && (
-                    <p className="line-clamp-2 text-sm leading-6 text-slate-500 dark:text-slate-400">{book.description}</p>
+                    <p className="line-clamp-2 text-sm leading-6 text-muted-foreground">{book.description}</p>
                   )}
                   {!book.description && (
-                    <p className="text-sm italic text-slate-400 dark:text-slate-500">No description yet</p>
+                    <p className="text-sm italic text-muted-foreground">No description yet</p>
                   )}
                 </div>
 
-                <div className="flex flex-wrap gap-2 text-xs font-medium text-slate-500 dark:text-slate-400">
-                  <span className="rounded-full bg-slate-100 px-3 py-1 dark:bg-slate-800">Book workspace</span>
-                  <span className="rounded-full bg-slate-100 px-3 py-1 dark:bg-slate-800">Lessons inside</span>
+                <div className="flex flex-wrap gap-2 text-xs font-medium text-muted-foreground">
+                  <span className="rounded-full bg-muted px-3 py-1">Book workspace</span>
+                  <span className="rounded-full bg-muted px-3 py-1">Lessons inside</span>
                 </div>
 
                 <div className="mt-auto flex items-center justify-between gap-3">
-                  <p className="text-sm text-slate-500 dark:text-slate-400">Open to manage lessons and sharing</p>
+                  <p className="text-sm text-muted-foreground">Open to manage lessons and sharing</p>
                   <Button variant="outline" size="sm" className="gap-1" onClick={() => navigate(`/teacher/books/${book.id}`)}>
                     Open book <ChevronRight className="h-3.5 w-3.5" />
                   </Button>

@@ -239,14 +239,14 @@ export default function SectionEditor({ bookId, sectionId }) {
   function field(label, key, required = false, placeholder = '', values = form, setValues = setForm) {
     return (
       <div className="flex flex-col gap-1">
-        <label className="text-xs font-medium text-slate-600 dark:text-slate-400">
+        <label className="text-xs font-medium text-muted-foreground">
           {label}{required && <span className="ml-0.5 text-rose-500">*</span>}
         </label>
         <input
           value={values[key]}
           onChange={(e) => setValues((current) => ({ ...current, [key]: e.target.value }))}
           placeholder={placeholder || label}
-          className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+          className="rounded-lg border border-border bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
         />
       </div>
     );
@@ -271,7 +271,7 @@ export default function SectionEditor({ bookId, sectionId }) {
       <div className="flex flex-col gap-3">
         {[1, 2, 3].map((i) => (
           <Card key={i}><CardContent className="p-4">
-            <div className="h-4 w-48 animate-pulse rounded bg-slate-200 dark:bg-slate-700" />
+            <div className="h-4 w-48 animate-pulse rounded bg-muted" />
           </CardContent></Card>
         ))}
       </div>
@@ -293,7 +293,7 @@ export default function SectionEditor({ bookId, sectionId }) {
                   autoFocus
                   value={editSectionTitle}
                   onChange={(e) => setEditSectionTitle(e.target.value)}
-                  className="flex-1 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold outline-none focus:border-green-400 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                  className="flex-1 rounded-lg border border-border bg-white px-3 py-2 text-sm font-semibold outline-none focus:border-green-400 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
                 />
                 <div className="flex flex-wrap gap-2">
                   <Button type="submit" size="sm" variant="outline" disabled={savingTitle} className="gap-1.5 min-w-[100px]">
@@ -330,8 +330,8 @@ export default function SectionEditor({ bookId, sectionId }) {
 
       {/* Words header */}
       <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-        <h3 className="text-lg font-bold text-slate-800 dark:text-white">
-          Words <span className="ml-1 text-base font-normal text-slate-400">({filteredWords.length}/{words.length})</span>
+        <h3 className="text-lg font-bold text-foreground">
+          Words <span className="ml-1 text-base font-normal text-muted-foreground">({filteredWords.length}/{words.length})</span>
         </h3>
         <div className="flex flex-col gap-2 sm:flex-row">
           <input
@@ -339,7 +339,7 @@ export default function SectionEditor({ bookId, sectionId }) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search words"
-            className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 sm:w-[220px] dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+            className="w-full rounded-lg border border-border bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 sm:w-[220px] dark:border-slate-600 dark:bg-slate-700 dark:text-white"
           />
 
           {/* Excel upload */}
@@ -383,11 +383,11 @@ export default function SectionEditor({ bookId, sectionId }) {
               <p className="text-sm text-green-700 dark:text-green-400">
                 <span className="font-semibold">{uploadResult.added} words added</span>
                 {uploadResult.skipped > 0 && (
-                  <span className="ml-2 text-slate-500">· {uploadResult.skipped} skipped (already in this section)</span>
+                  <span className="ml-2 text-muted-foreground">· {uploadResult.skipped} skipped (already in this section)</span>
                 )}
               </p>
             )}
-            <button type="button" onClick={() => setUploadResult(null)} className="text-slate-400 hover:text-slate-600">✕</button>
+            <button type="button" onClick={() => setUploadResult(null)} className="text-muted-foreground hover:text-muted-foreground">✕</button>
           </CardContent>
         </Card>
       )}
@@ -397,7 +397,7 @@ export default function SectionEditor({ bookId, sectionId }) {
         <Card className="border-green-200 bg-green-50 dark:border-green-800/40 dark:bg-green-900/10">
           <CardContent className="p-5">
             <form onSubmit={addWord} className="flex flex-col gap-4">
-              <h4 className="font-semibold text-slate-700 dark:text-slate-200">New Word</h4>
+              <h4 className="font-semibold text-foreground">New Word</h4>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {field('Chinese', 'chinese', true, '学')}
                 {field('Pinyin', 'pinyin', true, 'xué')}
@@ -405,7 +405,7 @@ export default function SectionEditor({ bookId, sectionId }) {
                 {field('Vietnamese', 'vietnamese', false, 'học (optional)')}
               </div>
               <details className="text-sm">
-                <summary className="cursor-pointer font-medium text-slate-500 hover:text-slate-700">
+                <summary className="cursor-pointer font-medium text-muted-foreground hover:text-foreground">
                   + Example sentence (optional)
                 </summary>
                 <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -435,55 +435,55 @@ export default function SectionEditor({ bookId, sectionId }) {
         <Card>
           <CardContent className="flex flex-col items-center gap-3 p-10 text-center">
             <Upload className="h-10 w-10 text-slate-300" />
-            <p className="text-slate-500">No words yet.</p>
-            <p className="text-sm text-slate-400">Add words manually or upload an Excel file.</p>
+            <p className="text-muted-foreground">No words yet.</p>
+            <p className="text-sm text-muted-foreground">Add words manually or upload an Excel file.</p>
           </CardContent>
         </Card>
       ) : filteredWords.length === 0 ? (
         <Card>
           <CardContent className="flex flex-col items-center gap-3 p-10 text-center">
-            <p className="text-slate-500">No matching words.</p>
-            <p className="text-sm text-slate-400">Try another keyword or clear the search box.</p>
+            <p className="text-muted-foreground">No matching words.</p>
+            <p className="text-sm text-muted-foreground">Try another keyword or clear the search box.</p>
           </CardContent>
         </Card>
       ) : (
         <Card className="overflow-hidden">
           <div className="overflow-x-auto">
             <table className="min-w-[1400px] text-sm">
-              <thead className="bg-slate-50 dark:bg-slate-800/80">
-                <tr className="border-b border-slate-200">
-                  <th className="w-12 px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">#</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Chinese</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Pinyin</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">English</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Vietnamese</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Sentence Chinese</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Sentence Pinyin</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Sentence English</th>
-                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Sentence Vietnamese</th>
-                  <th className="w-28 px-4 py-3 text-right text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Action</th>
+              <thead className="bg-muted">
+                <tr className="border-b border-border">
+                  <th className="w-12 px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">#</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Chinese</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Pinyin</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">English</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Vietnamese</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Sentence Chinese</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Sentence Pinyin</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Sentence English</th>
+                  <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Sentence Vietnamese</th>
+                  <th className="w-28 px-4 py-3 text-right text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">Action</th>
                 </tr>
               </thead>
               <tbody>
                 {filteredWords.map((word, i) => (
-                  <tr key={word.id} className="border-b border-slate-100 last:border-b-0 dark:border-slate-800">
-                    <td className="px-4 py-3 align-top text-xs font-bold text-slate-400">{i + 1}</td>
-                    <td className="px-4 py-3 align-top font-semibold text-slate-800 dark:text-white">{word.chinese}</td>
-                    <td className="px-4 py-3 align-top text-slate-500 dark:text-slate-400">{word.pinyin}</td>
-                    <td className="px-4 py-3 align-top text-slate-700 dark:text-slate-300">{word.english}</td>
-                    <td className="px-4 py-3 align-top text-slate-500 dark:text-slate-400">
+                  <tr key={word.id} className="border-b border-border last:border-b-0 dark:border-slate-800">
+                    <td className="px-4 py-3 align-top text-xs font-bold text-muted-foreground">{i + 1}</td>
+                    <td className="px-4 py-3 align-top font-semibold text-foreground">{word.chinese}</td>
+                    <td className="px-4 py-3 align-top text-muted-foreground">{word.pinyin}</td>
+                    <td className="px-4 py-3 align-top text-muted-foreground">{word.english}</td>
+                    <td className="px-4 py-3 align-top text-muted-foreground">
                       {word.vietnamese || '—'}
                     </td>
-                    <td className="px-4 py-3 align-top text-slate-600 dark:text-slate-300">
+                    <td className="px-4 py-3 align-top text-muted-foreground">
                       {word.sentenceChinese || '—'}
                     </td>
-                    <td className="px-4 py-3 align-top text-slate-500 dark:text-slate-400">
+                    <td className="px-4 py-3 align-top text-muted-foreground">
                       {word.sentencePinyin || '—'}
                     </td>
-                    <td className="px-4 py-3 align-top text-slate-600 dark:text-slate-300">
+                    <td className="px-4 py-3 align-top text-muted-foreground">
                       {word.sentenceEnglish || '—'}
                     </td>
-                    <td className="px-4 py-3 align-top text-slate-500 dark:text-slate-400">
+                    <td className="px-4 py-3 align-top text-muted-foreground">
                       {word.sentenceVietnamese || '—'}
                     </td>
                     <td className="px-4 py-3 text-right align-top">
@@ -492,7 +492,7 @@ export default function SectionEditor({ bookId, sectionId }) {
                           variant="ghost"
                           size="icon"
                           onClick={() => openEditWordModal(word)}
-                          className="text-slate-500 hover:bg-slate-100 hover:text-slate-700 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                          className="text-muted-foreground hover:bg-accent hover:text-muted-foreground dark:hover:bg-slate-800 dark:hover:text-slate-200"
                           title="Edit word"
                         >
                           <Pencil className="h-4 w-4" />
@@ -525,14 +525,14 @@ export default function SectionEditor({ bookId, sectionId }) {
           onClick={closeEditWordModal}
         >
           <Card
-            className="w-full max-w-4xl border-slate-200 shadow-2xl"
+            className="w-full max-w-4xl border-border shadow-2xl"
             onClick={(event) => event.stopPropagation()}
           >
             <CardContent className="p-5 sm:p-6">
               <form onSubmit={saveEditedWord} className="flex flex-col gap-4">
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold text-slate-800 dark:text-white">Edit word</h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <h3 className="text-lg font-bold text-foreground">Edit word</h3>
+                  <p className="text-sm text-muted-foreground">
                     Update the full vocabulary record for this lesson.
                   </p>
                 </div>

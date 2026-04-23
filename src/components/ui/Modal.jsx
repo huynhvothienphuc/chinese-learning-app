@@ -41,7 +41,7 @@ export function ModalHeader({ children, onClose }) {
         <button
           type="button"
           onClick={onClose}
-          className="shrink-0 rounded-full p-1 text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-600 dark:hover:bg-slate-700 dark:hover:text-slate-300"
+          className="shrink-0 rounded-full p-1 text-muted-foreground transition-colors hover:bg-accent hover:text-muted-foreground dark:hover:bg-accent dark:hover:text-accent-foreground"
           aria-label="Close"
         >
           <X className="h-4 w-4" />

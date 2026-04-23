@@ -102,17 +102,18 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
               const favorited = isFavorite(item);
               const meaning = getItemMeaning(item, language);
               const id = item.id ?? index;
-              const isCopied = copiedId === id;
+              const copyId = item.id ?? item.chinese;
+              const isCopied = copiedId === copyId;
               const expanded = expandedId === id;
               const sentenceMeaning = getSentenceMeaning(item, language);
               return (
                 <div
                   key={id}
                   className={cn(
-                    'overflow-hidden rounded-2xl border transition-colors',
+                    'overflow-hidden rounded-2xl border-2 transition-colors',
                     expanded
-                      ? 'border-2 border-primary/40 bg-card shadow-sm'
-                      : 'border border-border bg-card',
+                      ? 'border-primary/40 bg-card shadow-sm'
+                      : 'border-transparent bg-card ring-1 ring-border',
                   )}
                 >
                   <div
@@ -150,18 +151,28 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     <span className={cn('hidden text-sm text-foreground/80 sm:block', !expanded && 'truncate')}>{showMeaning ? meaning : ''}</span>
 
                     {/* Actions */}
-                    <div className="flex shrink-0 items-center gap-0.5">
-                      {(item.sentenceChinese || item.samples?.length > 0) && (
-                        <span className={cn(
-                          'flex items-center gap-0.5 rounded-lg px-1.5 py-0.5 text-xs font-medium transition-colors',
-                          expanded
-                            ? 'text-primary'
-                            : 'text-muted-foreground',
-                        )}>
-                          <span className="hidden sm:inline">{expanded ? 'Collapse' : 'See more'}</span>
+                    <div className="grid shrink-0 grid-cols-[2rem_2rem_2rem_2rem] items-center justify-end gap-0.5 sm:grid-cols-[5.75rem_2rem_2rem_2rem]">
+                      <span className="hidden h-8 items-center justify-end sm:flex">
+                        {(item.sentenceChinese || item.samples?.length > 0) && (
+                          <span className={cn(
+                            'flex items-center justify-end gap-0.5 rounded-lg px-1.5 py-0.5 text-xs font-medium transition-colors',
+                            expanded
+                              ? 'text-primary'
+                              : 'text-muted-foreground',
+                          )}>
+                            <span>{expanded ? (t.collapseDetails || 'Collapse') : (t.seeMoreDetails || 'See more')}</span>
+                            <ChevronDown className={cn('h-4 w-4 transition-transform duration-200', expanded && 'rotate-180')} />
+                          </span>
+                        )}
+                      </span>
+                      <span className={cn(
+                        'flex h-8 items-center justify-center rounded-lg text-muted-foreground transition-colors sm:hidden',
+                        expanded && 'text-primary',
+                      )}>
+                        {(item.sentenceChinese || item.samples?.length > 0) && (
                           <ChevronDown className={cn('h-4 w-4 transition-transform duration-200', expanded && 'rotate-180')} />
-                        </span>
-                      )}
+                        )}
+                      </span>
                       <button
                         type="button"
                         onClick={(e) => { void handleCopyWord(e, item); }}

@@ -63,6 +63,8 @@ export default {
   exampleSentence: 'Example sentence',
   showExampleDetails: 'Show example details',
   hideExampleDetails: 'Hide example details',
+  seeMoreDetails: 'See more',
+  collapseDetails: 'Collapse',
   quizSummary: 'Quiz Summary',
   greatWork: 'Great work finishing the deck.',
   perfectScore: 'Perfect score! No wrong answers!',

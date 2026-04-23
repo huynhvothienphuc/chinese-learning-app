@@ -258,11 +258,11 @@ export default function LearnPage() {
         </Card>
       ) : isLoading ? (
         <Card className="shadow-soft">
-          <CardContent className="p-8 text-center text-slate-600">{t.loadingVocabulary}</CardContent>
+          <CardContent className="p-8 text-center text-muted-foreground">{t.loadingVocabulary}</CardContent>
         </Card>
       ) : showNoData ? (
         <Card className="shadow-soft">
-          <CardContent className="p-8 text-center text-slate-500">{t.noData}</CardContent>
+          <CardContent className="p-8 text-center text-muted-foreground">{t.noData}</CardContent>
         </Card>
       ) : (
         <div className="space-y-5">
@@ -378,7 +378,7 @@ export default function LearnPage() {
                   <Info className="h-4 w-4 shrink-0" />
                   <p className="text-sm font-semibold uppercase tracking-[0.18em]">{t.sampleNoticeTitle}</p>
                 </div>
-                <p className="text-sm leading-6 text-slate-600 dark:text-slate-300">{t.sampleNoticeBody}</p>
+                <p className="text-sm leading-6 text-muted-foreground">{t.sampleNoticeBody}</p>
               </div>
               <div className="flex justify-end">
                 <Button type="button" onClick={dismissSampleNotice}>{t.sampleNoticeAction}</Button>

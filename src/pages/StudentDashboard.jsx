@@ -8,7 +8,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 function Spinner() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-white dark:bg-slate-950">
+    <div className="flex min-h-screen items-center justify-center bg-background">
       <div className="h-8 w-8 animate-spin rounded-full border-4 border-green-500 border-t-transparent" />
     </div>
   );
@@ -37,14 +37,14 @@ export default function StudentDashboard() {
     .slice(0, 10);
 
   return (
-    <div className="min-h-screen bg-white px-4 py-6 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div className="min-h-screen bg-white px-4 py-6 text-foreground dark:bg-slate-950 dark:text-slate-100">
       <div className="mx-auto max-w-2xl flex flex-col gap-6">
 
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-black tracking-tight">My Dashboard</h1>
-            <p className="text-sm text-slate-500 mt-0.5">
+            <p className="text-sm text-muted-foreground mt-0.5">
               {user?.user_metadata?.full_name ?? user?.email ?? 'Student'}
             </p>
           </div>
@@ -62,8 +62,8 @@ export default function StudentDashboard() {
             {[...Array(2)].map((_, i) => (
               <Card key={i}>
                 <CardContent className="p-4">
-                  <div className="h-7 w-12 animate-pulse rounded bg-slate-200 dark:bg-slate-700 mb-2" />
-                  <div className="h-3 w-20 animate-pulse rounded bg-slate-100 dark:bg-slate-800" />
+                  <div className="h-7 w-12 animate-pulse rounded bg-muted mb-2" />
+                  <div className="h-3 w-20 animate-pulse rounded bg-muted" />
                 </CardContent>
               </Card>
             ))}
@@ -72,14 +72,14 @@ export default function StudentDashboard() {
           <div className="grid grid-cols-2 gap-3">
             <Card>
               <CardContent className="flex flex-col gap-1 p-4">
-                <p className="text-2xl font-black text-slate-900 dark:text-white">{completedLessons}</p>
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-400">Quizzes done</p>
+                <p className="text-2xl font-black text-foreground">{completedLessons}</p>
+                <p className="text-sm font-medium text-muted-foreground">Quizzes done</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="flex flex-col gap-1 p-4">
-                <p className="text-2xl font-black text-slate-900 dark:text-white">{avgScore}%</p>
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-400">Average score</p>
+                <p className="text-2xl font-black text-foreground">{avgScore}%</p>
+                <p className="text-sm font-medium text-muted-foreground">Average score</p>
               </CardContent>
             </Card>
           </div>
@@ -97,14 +97,14 @@ export default function StudentDashboard() {
               {[...Array(3)].map((_, i) => (
                 <Card key={i}>
                   <CardContent className="p-4">
-                    <div className="h-4 w-48 animate-pulse rounded bg-slate-200 dark:bg-slate-700 mb-2" />
-                    <div className="h-3 w-32 animate-pulse rounded bg-slate-100 dark:bg-slate-800" />
+                    <div className="h-4 w-48 animate-pulse rounded bg-muted mb-2" />
+                    <div className="h-3 w-32 animate-pulse rounded bg-muted" />
                   </CardContent>
                 </Card>
               ))}
             </div>
           ) : recentLessons.length === 0 ? (
-            <p className="text-sm text-slate-400">No quizzes completed yet. Try a quiz in any lesson!</p>
+            <p className="text-sm text-muted-foreground">No quizzes completed yet. Try a quiz in any lesson!</p>
           ) : (
             <div className="flex flex-col gap-2">
               {recentLessons.map((ls) => {
@@ -115,7 +115,7 @@ export default function StudentDashboard() {
                     <CardContent className="flex items-center justify-between gap-3 p-4">
                       <div className="flex-1 min-w-0">
                         <p className="text-sm font-semibold truncate">{ls.section_title || ls.section_id}</p>
-                        <p className="text-xs text-slate-400 flex items-center gap-1 mt-0.5">
+                        <p className="text-xs text-muted-foreground flex items-center gap-1 mt-0.5">
                           <Clock className="h-3 w-3" />
                           {new Date(ls.last_attempt).toLocaleDateString()}
                         </p>
@@ -128,7 +128,7 @@ export default function StudentDashboard() {
                         <span className={`text-sm font-bold ${passed ? 'text-green-600' : 'text-rose-500'}`}>
                           {pct}%
                         </span>
-                        <span className="text-xs text-slate-400">
+                        <span className="text-xs text-muted-foreground">
                           ({ls.best_score}/{ls.total})
                         </span>
                       </div>

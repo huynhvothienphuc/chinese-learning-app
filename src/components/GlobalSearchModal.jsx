@@ -104,7 +104,7 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
       <div className="w-full max-w-xl rounded-2xl border border-theme-border bg-theme-surface shadow-2xl overflow-hidden">
         {/* Search input */}
         <div className="flex items-center gap-2 px-4 py-3 border-b border-theme-border">
-          <Search className="h-4 w-4 shrink-0 text-slate-400" />
+          <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
           <input
             ref={inputRef}
             type="search"
@@ -112,9 +112,9 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={t.globalSearchPlaceholder}
-            className="flex-1 bg-transparent text-sm outline-none placeholder:text-slate-400 dark:text-white"
+            className="flex-1 bg-transparent text-sm outline-none placeholder:text-muted-foreground"
           />
-          <button type="button" onClick={onClose} aria-label={t.globalSearchClose} className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+          <button type="button" onClick={onClose} aria-label={t.globalSearchClose} className="text-muted-foreground hover:text-muted-foreground dark:hover:text-slate-200">
             <X className="h-4 w-4" />
           </button>
         </div>
@@ -122,15 +122,15 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
         {/* Results */}
         <div className="max-h-[60vh] overflow-y-auto">
           {isLoading && (
-            <p className="px-4 py-6 text-center text-sm text-slate-400">{t.globalSearchLoading}</p>
+            <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchLoading}</p>
           )}
 
           {!isLoading && query.trim() && results.length === 0 && (
-            <p className="px-4 py-6 text-center text-sm text-slate-400">{t.globalSearchNoResults}</p>
+            <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchNoResults}</p>
           )}
 
           {!isLoading && !query.trim() && (
-            <p className="px-4 py-6 text-center text-sm text-slate-400">{t.globalSearchEmptyState}</p>
+            <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchEmptyState}</p>
           )}
 
           {results.map((item) => {
@@ -143,15 +143,15 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
                   onNavigate(item.bookId, item.sectionFile);
                   onClose();
                 }}
-                className="w-full px-4 py-2.5 text-left hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors border-b border-slate-100 dark:border-slate-700/40 last:border-0"
+                className="w-full px-4 py-2.5 text-left hover:bg-accent transition-colors border-b border-border/40 last:border-0"
               >
                 <div className="flex items-baseline gap-2">
-                  <span className="text-base font-bold text-slate-800 dark:text-slate-100">{item.chinese}</span>
-                  <span className="text-xs text-slate-400">{item.pinyin}</span>
+                  <span className="text-base font-bold text-foreground">{item.chinese}</span>
+                  <span className="text-xs text-muted-foreground">{item.pinyin}</span>
                 </div>
                 <div className="flex items-center justify-between gap-2 mt-0.5">
-                  <span className="text-sm text-slate-500 dark:text-slate-400 truncate">{meaning}</span>
-                  <span className="shrink-0 text-xs text-slate-400 dark:text-slate-500">
+                  <span className="text-sm text-muted-foreground truncate">{meaning}</span>
+                  <span className="shrink-0 text-xs text-muted-foreground">
                     {item.bookLabel} · {item.sectionTitle}
                   </span>
                 </div>
