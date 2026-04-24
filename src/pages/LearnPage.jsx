@@ -308,7 +308,7 @@ export default function LearnPage() {
                       <ArrowRight className="h-4 w-4" />
                     </Button>
                     <Button onClick={handleFlipCard} size="sm" className="order-2 flex-1" variant="secondary">{t.flipCardAction}</Button>
-                    <div className="order-1 shrink-0 rounded-full bg-green-100 px-3 py-1.5 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+                    <div className="order-1 shrink-0 rounded-full bg-primary/20 px-3 py-1.5 text-sm font-semibold text-primary">
                       {session.activeVocabulary.length === 0 ? 0 : session.currentIndex + 1} / {session.activeVocabulary.length}
                     </div>
                   </div>
@@ -317,7 +317,7 @@ export default function LearnPage() {
                     <Button onClick={session.handlePrevious} disabled={session.currentIndex === 0} variant="outline" className="gap-2">
                       <ArrowLeft className="h-4 w-4" />{t.previous}
                     </Button>
-                    <div className="rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700 dark:bg-slate-700 dark:text-slate-300">
+                    <div className="rounded-full bg-primary/20 px-4 py-2 text-sm font-semibold text-primary">
                       {session.activeVocabulary.length === 0 ? 0 : session.currentIndex + 1} / {session.activeVocabulary.length}
                     </div>
                     <div className="flex gap-3">

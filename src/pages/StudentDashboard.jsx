@@ -9,7 +9,42 @@ import { Card, CardContent } from '@/components/ui/card';
 function Spinner() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="h-8 w-8 animate-spin rounded-full border-4 border-green-500 border-t-transparent" />
+      <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" />
+    </div>
+  );
+}
+
+function HistoryList({ lessons }) {
+  return (
+    <div className="flex flex-col gap-2">
+      {lessons.map((ls) => {
+        const recent = Array.isArray(ls.recent_scores) ? ls.recent_scores : [];
+        const latest = recent.length > 0 ? recent[0] : (ls.quiz_best_score ?? 0);
+        const passed = latest >= 70;
+        return (
+          <Card key={ls.section_id}>
+            <CardContent className="flex items-center justify-between gap-3 p-4">
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-semibold truncate">{ls.section_title || ls.section_id}</p>
+                <p className="text-xs text-muted-foreground flex items-center gap-1 mt-0.5">
+                  <Clock className="h-3 w-3" />
+                  {new Date(ls.last_attempt).toLocaleDateString()}
+                  <span>· {ls.quiz_attempts} attempt{ls.quiz_attempts !== 1 ? 's' : ''}</span>
+                </p>
+              </div>
+              <div className="flex items-center gap-1 shrink-0">
+                {passed
+                  ? <CheckCircle2 className="h-4 w-4 text-green-500" />
+                  : <XCircle className="h-4 w-4 text-rose-400" />
+                }
+                <span className={`text-sm font-bold ${passed ? 'text-green-600' : 'text-rose-500'}`}>
+                  {latest}%
+                </span>
+              </div>
+            </CardContent>
+          </Card>
+        );
+      })}
     </div>
   );
 }
@@ -29,7 +64,7 @@ export default function StudentDashboard() {
 
   const completedLessons = lessonStats.length;
   const avgScore = completedLessons > 0
-    ? Math.round(lessonStats.reduce((sum, l) => sum + (l.total > 0 ? l.best_score / l.total : 0), 0) / completedLessons * 100)
+    ? Math.round(lessonStats.reduce((sum, l) => sum + (l.quiz_best_score ?? 0), 0) / completedLessons)
     : 0;
 
   const recentLessons = [...lessonStats]
@@ -37,7 +72,7 @@ export default function StudentDashboard() {
     .slice(0, 10);
 
   return (
-    <div className="min-h-screen bg-white px-4 py-6 text-foreground dark:bg-slate-950 dark:text-slate-100">
+    <div className="min-h-screen bg-background px-4 py-6 text-foreground">
       <div className="mx-auto max-w-2xl flex flex-col gap-6">
 
         {/* Header */}
@@ -88,7 +123,7 @@ export default function StudentDashboard() {
         {/* Quiz history */}
         <section className="flex flex-col gap-3">
           <h2 className="text-base font-bold flex items-center gap-2">
-            <BookOpen className="h-4 w-4 text-green-500" />
+            <BookOpen className="h-4 w-4 text-primary" />
             Quiz History
           </h2>
 
@@ -106,37 +141,7 @@ export default function StudentDashboard() {
           ) : recentLessons.length === 0 ? (
             <p className="text-sm text-muted-foreground">No quizzes completed yet. Try a quiz in any lesson!</p>
           ) : (
-            <div className="flex flex-col gap-2">
-              {recentLessons.map((ls) => {
-                const pct = ls.total > 0 ? Math.round((ls.best_score / ls.total) * 100) : 0;
-                const passed = pct >= 70;
-                return (
-                  <Card key={ls.section_id}>
-                    <CardContent className="flex items-center justify-between gap-3 p-4">
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm font-semibold truncate">{ls.section_title || ls.section_id}</p>
-                        <p className="text-xs text-muted-foreground flex items-center gap-1 mt-0.5">
-                          <Clock className="h-3 w-3" />
-                          {new Date(ls.last_attempt).toLocaleDateString()}
-                        </p>
-                      </div>
-                      <div className="flex items-center gap-2 shrink-0">
-                        {passed
-                          ? <CheckCircle2 className="h-4 w-4 text-green-500" />
-                          : <XCircle className="h-4 w-4 text-rose-400" />
-                        }
-                        <span className={`text-sm font-bold ${passed ? 'text-green-600' : 'text-rose-500'}`}>
-                          {pct}%
-                        </span>
-                        <span className="text-xs text-muted-foreground">
-                          ({ls.best_score}/{ls.total})
-                        </span>
-                      </div>
-                    </CardContent>
-                  </Card>
-                );
-              })}
-            </div>
+            <HistoryList lessons={recentLessons} />
           )}
         </section>
 

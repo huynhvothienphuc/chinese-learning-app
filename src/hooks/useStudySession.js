@@ -140,7 +140,10 @@ export function useStudySession({ rawVocab = [], favoriteVocabulary = [], onQuiz
     if (currentIndex >= activeVocabulary.length - 1) {
       setQuizComplete(true);
       setAnsweredQuestion(null);
-      onQuizComplete?.(scoreRef.current);
+      // only track full deck quizzes, not retry-wrong-words runs
+      if (overrideVocab === null && deckSource !== 'favorites') {
+        onQuizComplete?.(scoreRef.current);
+      }
       return;
     }
     setCurrentIndex((prev) => prev + 1);
