@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { BookOpen, CheckCircle2, XCircle, Clock, RefreshCw } from 'lucide-react';
 import { useAuthStore } from '@/store/authStore';
 import { useLessonStats } from '@/hooks/useStudentData';
+import { useStreak } from '@/hooks/useStreak';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -54,6 +55,7 @@ export default function StudentDashboard() {
   const navigate = useNavigate();
 
   const { data: lessonStats = [], isLoading, isFetching, refetch } = useLessonStats(user?.id);
+  const { streak } = useStreak({ userId: user?.id, isMember: role === 'member' });
 
   useEffect(() => {
     if (!roleReady) return;
@@ -93,8 +95,8 @@ export default function StudentDashboard() {
 
         {/* Summary */}
         {isLoading ? (
-          <div className="grid grid-cols-2 gap-3">
-            {[...Array(2)].map((_, i) => (
+          <div className="grid grid-cols-3 gap-3">
+            {[...Array(3)].map((_, i) => (
               <Card key={i}>
                 <CardContent className="p-4">
                   <div className="h-7 w-12 animate-pulse rounded bg-muted mb-2" />
@@ -104,7 +106,7 @@ export default function StudentDashboard() {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-3 gap-3">
             <Card>
               <CardContent className="flex flex-col gap-1 p-4">
                 <p className="text-2xl font-black text-foreground">{completedLessons}</p>
@@ -114,7 +116,15 @@ export default function StudentDashboard() {
             <Card>
               <CardContent className="flex flex-col gap-1 p-4">
                 <p className="text-2xl font-black text-foreground">{avgScore}%</p>
-                <p className="text-sm font-medium text-muted-foreground">Average score</p>
+                <p className="text-sm font-medium text-muted-foreground">Avg score</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="flex flex-col gap-1 p-4">
+                <p className="text-2xl font-black text-foreground">
+                  {streak > 0 ? `🔥 ${streak}` : '—'}
+                </p>
+                <p className="text-sm font-medium text-muted-foreground">Day streak</p>
               </CardContent>
             </Card>
           </div>

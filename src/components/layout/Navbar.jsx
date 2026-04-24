@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { LogOut, MessageSquare, Moon, Search, Settings, Sun, Wand2 } from 'lucide-react';
 import { useAuthStore } from '@/store/authStore';
+import { useStreak } from '@/hooks/useStreak';
 import { Button } from '@/components/ui/button';
 import { Tooltip } from '@/components/ui/tooltip';
 import ToggleSwitch from '@/components/ToggleSwitch';
@@ -29,6 +30,8 @@ export default function Navbar({
   onSignOut,
 }) {
   const { user, role } = useAuthStore();
+  const isMember = role === 'member' || user?.app_metadata?.provider === 'google';
+  const { streak } = useStreak({ userId: user?.id, isMember });
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
@@ -183,10 +186,13 @@ export default function Navbar({
                 <img src={user.user_metadata.avatar_url} alt="" className="h-6 w-6 shrink-0 rounded-full" />
               )}
               <span className="truncate text-xs font-medium text-muted-foreground">
-                {role === 'member' || user.app_metadata?.provider === 'google'
+                {isMember
                   ? (user.user_metadata?.full_name ?? user.email?.split('@')[0])
                   : user.email?.replace(/(.{2}).+(@.+)/, '$1***$2')}
               </span>
+              {isMember && streak > 0 && (
+                <span className="shrink-0 rounded-full bg-orange-100 px-2 py-0.5 text-sm font-bold text-orange-600 dark:bg-orange-900/30 dark:text-orange-400">🔥 {streak}</span>
+              )}
             </div>
             <div className="flex flex-wrap items-center gap-2">
               {role === 'superadmin' && (

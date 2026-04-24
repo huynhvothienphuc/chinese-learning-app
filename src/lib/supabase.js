@@ -86,6 +86,16 @@ export async function trackWordStat(userId, { bookId, sectionId, itemId, isCorre
   });
 }
 
+export async function updateStreak(userId) {
+  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD local date
+  const { data, error } = await supabase.rpc('update_streak', {
+    p_user_id: userId,
+    p_today: today,
+  });
+  if (error) throw error;
+  return data; // { current_streak, longest_streak, updated }
+}
+
 // Track quiz completion for a lesson
 export async function trackLessonStat(userId, { bookId, sectionId, sectionTitle, score, total }) {
   await supabase.rpc('upsert_lesson_stat', {

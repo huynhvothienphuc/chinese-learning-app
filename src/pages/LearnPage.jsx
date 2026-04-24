@@ -8,6 +8,7 @@ import { useStudySession } from '@/hooks/useStudySession';
 import { useStreak } from '@/hooks/useStreak';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { trackLessonStat } from '@/lib/supabase';
+import StreakToast from '@/components/StreakToast';
 import { trackEvent, initGoogleAnalytics } from '@/lib/analytics';
 import { formatSectionName } from '@/lib/utils';
 import {
@@ -53,7 +54,8 @@ export default function LearnPage() {
   const navigate = useNavigate();
   const location = useLocation();
   const queryClient = useQueryClient();
-  const { markStudied } = useStreak();
+  const isMember = role === 'member';
+  const { trackFlip, triggerStreak, resetCardTracking, toast: streakToast, dismissToast } = useStreak({ userId: user?.id, isMember });
 
   // ── book / section selection ──
   const [selectedBook, setSelectedBook] = useState('');
@@ -101,6 +103,7 @@ export default function LearnPage() {
     rawVocab,
     favoriteVocabulary,
     onQuizComplete: (finalScore) => {
+      triggerStreak();
       if (!user || role !== 'member' || !selectedBook || !selectedSection || finalScore.total === 0) return;
       const sectionTitle = currentSection?.title || formatSectionName(selectedSection);
       trackLessonStat(user.id, {
@@ -182,7 +185,7 @@ export default function LearnPage() {
       const k = e.key;
       if ([' ', 'ArrowUp', 'ArrowLeft', 'ArrowRight', ',', '.', '<', '>'].includes(k)) e.preventDefault();
       if ((k === ' ' || k === 'ArrowUp') && session.activeVocabulary.length > 0) {
-        markStudied(); session.handleFlipCard();
+        handleFlipCard();
       }
       if ((k === 'ArrowLeft' || k === ',' || k === '<') && session.currentIndex > 0) session.handlePrevious();
       if ((k === 'ArrowRight' || k === '.' || k === '>') && session.currentIndex < session.activeVocabulary.length - 1) session.handleNextFlashcard();
@@ -195,6 +198,8 @@ export default function LearnPage() {
   const [sampleNoticeLastSeen, setSampleNoticeLastSeen] = useLocalStorageState(SAMPLE_NOTICE_KEY, '');
   const [isSampleNoticeOpen, setIsSampleNoticeOpen] = useState(false);
   const shouldShowSampleNotice = currentSection?.verified === false;
+
+  useEffect(() => { resetCardTracking(); }, [selectedSection]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!shouldShowSampleNotice) { setIsSampleNoticeOpen(false); return; }
@@ -233,8 +238,11 @@ export default function LearnPage() {
   }
 
   // ── wrapped handlers that also mark streak ──
-  function handleFlipCard() { markStudied(); session.handleFlipCard(); }
-  function handleAnswer(choice) { markStudied(); session.handleAnswer(choice); }
+  function handleFlipCard() {
+    trackFlip(session.currentItem?.id);
+    session.handleFlipCard();
+  }
+  function handleAnswer(choice) { session.handleAnswer(choice); }
 
   // ── render ──
   return (
@@ -387,6 +395,7 @@ export default function LearnPage() {
           </Card>
         </div>
       )}
+      {streakToast && <StreakToast streak={streakToast.streak} onDismiss={dismissToast} />}
     </>
   );
 }
