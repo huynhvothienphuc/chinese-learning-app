@@ -111,7 +111,7 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
 
           {results.map((item) => (
             <button
-              key={`${item.bookId}-${item.sectionFile}-${item.id}`}
+              key={`${item.bookId}-${item.sectionFile}-${item.chinese}`}
               type="button"
               onClick={() => {
                 onNavigate(item.bookId, item.sectionFile);
