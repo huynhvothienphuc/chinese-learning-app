@@ -1,55 +1,26 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Search, X } from 'lucide-react';
 import { fetchJSON } from '@/lib/fetchCache';
-import { normalizeVocabularyItems, matchesVocabQuery, getItemMeaning } from '@/lib/utils';
 
-const indexState = { items: null, promise: null };
+const indexCache = {};
+const indexPromise = {};
 
-async function loadIndex() {
-  if (indexState.items) return indexState.items;
-  if (indexState.promise) return indexState.promise;
+async function loadIndex(language) {
+  const lang = language === 'vi' ? 'vi' : 'en';
+  if (indexCache[lang]) return indexCache[lang];
+  if (indexPromise[lang]) return indexPromise[lang];
 
-  indexState.promise = (async () => {
-    const books = await fetchJSON('/data/books.json');
-    const all = [];
+  indexPromise[lang] = fetchJSON(`/data/search-index-${lang}.json`)
+    .then((items) => {
+      indexCache[lang] = items;
+      return items;
+    })
+    .catch((err) => {
+      indexPromise[lang] = null;
+      throw err;
+    });
 
-    for (const book of books) {
-      let sections;
-      try {
-        sections = await fetchJSON(`/data/books/${book.folder}/sections.json`);
-      } catch {
-        continue;
-      }
-
-      for (const section of sections.filter((s) => s.enabled !== false)) {
-        let data;
-        try {
-          data = await fetchJSON(`/data/books/${book.folder}/${section.file}`);
-        } catch {
-          continue;
-        }
-
-        const items = normalizeVocabularyItems(data.items || []);
-        for (const item of items) {
-          all.push({
-            ...item,
-            bookId: book.id,
-            bookLabel: book.shortTitle || book.title,
-            sectionFile: section.file,
-            sectionTitle: section.title,
-          });
-        }
-      }
-    }
-
-    indexState.items = all;
-    return all;
-  })().catch((err) => {
-    indexState.promise = null;
-    throw err;
-  });
-
-  return indexState.promise;
+  return indexPromise[lang];
 }
 
 const MAX_RESULTS = 60;
@@ -63,18 +34,17 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
   useEffect(() => {
     if (!isOpen) return;
     inputRef.current?.focus();
-    if (indexState.items) {
-      setIndex(indexState.items);
+    const lang = language === 'vi' ? 'vi' : 'en';
+    if (indexCache[lang]) {
+      setIndex(indexCache[lang]);
       return;
     }
     setIsLoading(true);
-    loadIndex()
-      .then((items) => {
-        setIndex(items);
-      })
+    loadIndex(language)
+      .then((items) => setIndex(items))
       .catch(() => {})
       .finally(() => setIsLoading(false));
-  }, [isOpen]);
+  }, [isOpen, language]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -91,7 +61,13 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
 
   const results = useMemo(() => {
     if (!index || !query.trim()) return [];
-    return index.filter((item) => matchesVocabQuery(item, query)).slice(0, MAX_RESULTS);
+    const q = query.trim().toLowerCase();
+    return index.filter(
+      (item) =>
+        item.chinese.includes(query.trim()) ||
+        item.pinyinPlain.includes(q) ||
+        item.meaning.toLowerCase().includes(q)
+    ).slice(0, MAX_RESULTS);
   }, [index, query]);
 
   if (!isOpen) return null;
@@ -133,31 +109,28 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
             <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchEmptyState}</p>
           )}
 
-          {results.map((item) => {
-            const meaning = getItemMeaning(item, language);
-            return (
-              <button
-                key={`${item.bookId}-${item.sectionFile}-${item.id}`}
-                type="button"
-                onClick={() => {
-                  onNavigate(item.bookId, item.sectionFile);
-                  onClose();
-                }}
-                className="w-full px-4 py-2.5 text-left hover:bg-accent transition-colors border-b border-border/40 last:border-0"
-              >
-                <div className="flex items-baseline gap-2">
-                  <span className="text-base font-bold text-foreground">{item.chinese}</span>
-                  <span className="text-xs text-muted-foreground">{item.pinyin}</span>
-                </div>
-                <div className="flex items-center justify-between gap-2 mt-0.5">
-                  <span className="text-sm text-muted-foreground truncate">{meaning}</span>
-                  <span className="shrink-0 text-xs text-muted-foreground">
-                    {item.bookLabel} · {item.sectionTitle}
-                  </span>
-                </div>
-              </button>
-            );
-          })}
+          {results.map((item) => (
+            <button
+              key={`${item.bookId}-${item.sectionFile}-${item.chinese}`}
+              type="button"
+              onClick={() => {
+                onNavigate(item.bookId, item.sectionFile);
+                onClose();
+              }}
+              className="w-full px-4 py-2.5 text-left hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors border-b border-slate-100 dark:border-slate-700/40 last:border-0"
+            >
+              <div className="flex items-baseline gap-2">
+                <span className="text-base font-bold text-slate-800 dark:text-slate-100">{item.chinese}</span>
+                <span className="text-xs text-slate-400">{item.pinyin}</span>
+              </div>
+              <div className="flex items-center justify-between gap-2 mt-0.5">
+                <span className="text-sm text-slate-500 dark:text-slate-400 truncate">{item.meaning}</span>
+                <span className="shrink-0 text-xs text-slate-400 dark:text-slate-500">
+                  {item.book} · {item.lesson}
+                </span>
+              </div>
+            </button>
+          ))}
         </div>
       </div>
     </div>

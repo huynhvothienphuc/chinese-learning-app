@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/build-search-index.mjs && vite build",
     "preview": "vite preview",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:data": "node scripts/validate-data.mjs",
+    "build:index": "node scripts/build-search-index.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.101.1",
