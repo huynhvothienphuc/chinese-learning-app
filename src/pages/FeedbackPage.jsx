@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useOutletContext } from 'react-router-dom';
 import { ArrowLeft, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -9,7 +9,9 @@ import { submitFeedback } from '@/lib/supabase';
 const MAX_LENGTH = 1000;
 const MIN_LENGTH = 5;
 
-export default function FeedbackPage({ onBack, t }) {
+export default function FeedbackPage() {
+  const { t } = useOutletContext();
+  const navigate = useNavigate();
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
   const [errorMsg, setErrorMsg] = useState('');
@@ -40,7 +42,7 @@ export default function FeedbackPage({ onBack, t }) {
       <div className="w-full max-w-lg">
         <button
           type="button"
-          onClick={onBack}
+          onClick={() => navigate(-1)}
           className="mb-6 flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-muted-foreground dark:hover:text-slate-200"
         >
           <ArrowLeft className="h-4 w-4" />

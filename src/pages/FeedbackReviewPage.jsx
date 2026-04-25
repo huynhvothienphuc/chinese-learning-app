@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, BookOpen, CheckCircle2, Circle, Loader2, MessageSquare, RefreshCw, Trash2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -205,7 +206,8 @@ function useFeedbackTab(loadFn, resolveFn, deleteFn) {
   return { items, loading, error, fetch, handleToggleResolved, handleDelete, togglingId, deletingId, counts };
 }
 
-export default function FeedbackReviewPage({ onBack }) {
+export default function FeedbackReviewPage() {
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('general');
   const [filter, setFilter] = useState('unresolved');
 
@@ -226,7 +228,7 @@ export default function FeedbackReviewPage({ onBack }) {
         <div className="flex items-center justify-between">
           <button
             type="button"
-            onClick={onBack}
+            onClick={() => navigate(-1)}
             className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-muted-foreground dark:hover:text-slate-200"
           >
             <ArrowLeft className="h-4 w-4" />
