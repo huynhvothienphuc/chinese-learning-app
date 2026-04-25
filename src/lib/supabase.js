@@ -123,7 +123,8 @@ export async function loadLessonStats(userId) {
     .from('user_lesson_stats')
     .select('*')
     .eq('user_id', userId)
-    .order('last_attempt', { ascending: false });
+    .order('last_attempt', { ascending: false })
+    .limit(50);
   if (error) throw error;
   return data ?? [];
 }

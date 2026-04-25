@@ -133,7 +133,8 @@ export default function Quiz({
 
   useEffect(() => {
     if (!autoNext || !answeredQuestion?.isCorrect) return;
-    onNext();
+    const t = setTimeout(onNext, 600);
+    return () => clearTimeout(t);
   }, [answeredQuestion, autoNext, onNext]);
 
   if (isComplete) {

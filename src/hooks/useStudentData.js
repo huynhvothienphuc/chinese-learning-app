@@ -8,7 +8,7 @@ export function useLessonStats(userId) {
     queryKey: ['lessonStats', userId],
     queryFn: () => loadLessonStats(userId),
     enabled: !!userId,
-    staleTime: 0, // always re-fetch so dashboard reflects latest quiz results
+    staleTime: 1000 * 30, // 30s — fresh enough after a quiz, avoids re-fetch on every tab focus
   });
 }
 

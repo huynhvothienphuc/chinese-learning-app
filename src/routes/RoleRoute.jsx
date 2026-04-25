@@ -14,8 +14,8 @@ function Spinner() {
  * Redirects to /login if not signed in, or to / if signed in but wrong role.
  */
 export default function RoleRoute({ allowed = [] }) {
-  const { user, role, authReady } = useAuthStore();
-  if (!authReady) return <Spinner />;
+  const { user, role, roleReady } = useAuthStore();
+  if (!roleReady) return <Spinner />;
   if (!user) return <Navigate to="/login" replace />;
   if (!allowed.includes(role)) return <Navigate to="/" replace />;
   return <Outlet />;

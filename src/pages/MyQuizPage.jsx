@@ -242,7 +242,7 @@ export default function MyQuizPage() {
   function handleRetryWrong() {
     const words = wrongAnswers.map((w) => w.item);
     resetQuizState();
-    setQuizQuestions(buildQuestions(words, words));
+    setQuizQuestions(buildQuestions(words, pool));
   }
 
   // ── group selected entries by book for display ────────────────────────────

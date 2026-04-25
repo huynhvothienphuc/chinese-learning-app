@@ -68,7 +68,7 @@ function Summary({ total, correct, wrongAnswers, onRestart, onRetryWrong, t, lan
 
 const INITIAL_SCORE = { correct: 0, total: 0 };
 
-export default function WriteMode({ vocabulary, language = 'en', t }) {
+export default function WriteMode({ vocabulary, language = 'en', t, onComplete }) {
   const [questions] = useState(() => shuffleArray([...vocabulary]));
   const [index, setIndex] = useState(0);
   const [typed, setTyped] = useState('');
@@ -106,6 +106,7 @@ export default function WriteMode({ vocabulary, language = 'en', t }) {
   function handleNext() {
     if (index >= activeQuestions.length - 1) {
       setIsComplete(true);
+      onComplete?.({ correct: score.correct, total: score.total });
       return;
     }
     setIndex((prev) => prev + 1);

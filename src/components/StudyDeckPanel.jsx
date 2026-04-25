@@ -29,6 +29,7 @@ export default function StudyDeckPanel({
   activeTab,
   onTabChange,
   booksLoading,
+  disabledTabs = [],
 }) {
   return (
     <Card className="animate-float-in border-theme-border bg-theme-surface shadow-soft">
@@ -59,7 +60,7 @@ export default function StudyDeckPanel({
             />
           </div>
         </div>
-        <StudyModeTabs t={t} activeTab={activeTab} onChange={onTabChange} embedded />
+        <StudyModeTabs t={t} activeTab={activeTab} onChange={onTabChange} embedded disabledTabs={disabledTabs} />
       </CardContent>
     </Card>
   );

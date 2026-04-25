@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Lock, Loader2 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { normalizeVocabularyItems, buildQuizChoices, shuffleArray } from '@/lib/utils';
@@ -12,7 +12,8 @@ import { localeMap } from '@/locales';
 const SESSION_LANGUAGE_KEY = 'selected-language';
 const INITIAL_SCORE = { correct: 0, total: 0 };
 
-export default function SharedBookPage({ token }) {
+export default function SharedBookPage() {
+  const { token } = useParams();
   const navigate = useNavigate();
   const language = (() => {
     const saved = localStorage.getItem(SESSION_LANGUAGE_KEY);
@@ -225,20 +226,25 @@ export default function SharedBookPage({ token }) {
 
             {/* Mode tabs */}
             <div className="flex gap-2 shrink-0">
-              {['flashcard', 'quiz'].map((m) => (
-                <button
-                  key={m}
-                  type="button"
-                  onClick={() => handleModeChange(m)}
-                  className={`rounded-xl px-4 py-2 text-sm font-semibold capitalize transition-all ${
-                    mode === m
-                      ? 'bg-primary text-primary-foreground shadow-sm'
-                      : 'border border-border bg-background text-muted-foreground hover:bg-accent'
-                  }`}
-                >
-                  {m === 'flashcard' ? t.learn ?? 'Flashcard' : t.test ?? 'Quiz'}
-                </button>
-              ))}
+              {['flashcard', 'quiz'].map((m) => {
+                const disabled = m === 'quiz' && vocabulary.length < 4;
+                return (
+                  <button
+                    key={m}
+                    type="button"
+                    disabled={disabled}
+                    onClick={() => !disabled && handleModeChange(m)}
+                    title={disabled ? 'Need at least 4 words for quiz' : undefined}
+                    className={`rounded-xl px-4 py-2 text-sm font-semibold capitalize transition-all ${
+                      mode === m
+                        ? 'bg-primary text-primary-foreground shadow-sm'
+                        : 'border border-border bg-background text-muted-foreground hover:bg-accent'
+                    } ${disabled ? 'cursor-not-allowed opacity-40' : ''}`}
+                  >
+                    {m === 'flashcard' ? t.learn ?? 'Flashcard' : t.test ?? 'Quiz'}
+                  </button>
+                );
+              })}
             </div>
           </CardContent>
         </Card>

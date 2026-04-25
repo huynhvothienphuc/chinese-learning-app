@@ -219,6 +219,7 @@ export default function LearnPage() {
   const sectionLabel = currentSection?.title || formatSectionName(selectedSection || '');
   const showNoData = !isLoading && !error && session.activeVocabulary.length === 0;
   const activeTab = session.mode === 'quiz' ? 'quiz' : session.mode === 'review' ? 'review' : session.mode === 'write' ? 'write' : 'flashcard';
+  const disabledTabs = rawVocab.length < 4 ? ['quiz', 'write'] : [];
 
   const isFavItem = useCallback(
     (item) => isFavorite(item, selectedBook, selectedSection),
@@ -258,6 +259,7 @@ export default function LearnPage() {
         activeTab={activeTab}
         onTabChange={handleModeTabChange}
         booksLoading={booksLoading}
+        disabledTabs={disabledTabs}
       />
 
       {error ? (
@@ -347,6 +349,20 @@ export default function LearnPage() {
                 vocabulary={session.activeVocabulary}
                 language={selectedLanguage}
                 t={t}
+                onComplete={(finalScore) => {
+                  triggerStreak();
+                  if (!user || role !== 'member' || !selectedBook || !selectedSection || finalScore.total === 0) return;
+                  const sectionTitle = currentSection?.title || formatSectionName(selectedSection);
+                  trackLessonStat(user.id, {
+                    bookId: selectedBook,
+                    sectionId: selectedSection,
+                    sectionTitle,
+                    score: finalScore.correct,
+                    total: finalScore.total,
+                  }).catch(() => {}).finally(() => {
+                    queryClient.invalidateQueries({ queryKey: ['lessonStats', user.id] });
+                  });
+                }}
               />
             </Suspense>
           )}

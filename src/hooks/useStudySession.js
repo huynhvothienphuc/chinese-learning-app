@@ -109,14 +109,14 @@ export function useStudySession({ rawVocab = [], favoriteVocabulary = [], onQuiz
 
   function handleShuffleToggle() {
     if (originalVocabulary.length === 0 || mode !== 'flashcard' || deckSource === 'favorites') return;
-    if (isShuffled) {
-      setVocabulary(originalVocabulary);
-      setIsShuffled(false);
-    } else {
-      setVocabulary(shuffleArray([...originalVocabulary]));
-      setIsShuffled(true);
-    }
-    resetState();
+    const currentItemId = currentItem?.id;
+    const newVocab = isShuffled ? originalVocabulary : shuffleArray([...originalVocabulary]);
+    setVocabulary(newVocab);
+    setIsShuffled(!isShuffled);
+    // Keep the same card visible after shuffle/unshuffle
+    const newIndex = currentItemId ? Math.max(0, newVocab.findIndex((i) => i.id === currentItemId)) : 0;
+    setCurrentIndex(newIndex);
+    setIsFlipped(false);
   }
 
   // ── quiz handlers ─────────────────────────────────────────────────────────

@@ -116,7 +116,7 @@ export default function StudentDashboard() {
             <Card>
               <CardContent className="flex flex-col gap-1 p-4">
                 <p className="text-2xl font-black text-foreground">{avgScore}%</p>
-                <p className="text-sm font-medium text-muted-foreground">Avg score</p>
+                <p className="text-sm font-medium text-muted-foreground">Avg best score</p>
               </CardContent>
             </Card>
             <Card>

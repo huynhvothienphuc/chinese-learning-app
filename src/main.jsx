@@ -1,41 +1,58 @@
 import React, { Component, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, useLocation, useNavigationType, createRoutesFromChildren, matchRoutes } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import * as Sentry from '@sentry/react';
 import { initAuth } from '@/store/authStore';
 import { prefetchFromSession } from '@/hooks/useVocabData';
 import App from './App';
 import './index.css';
 import './App.css';
 
-class ErrorBoundary extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { error: null };
-  }
-  static getDerivedStateFromError(error) {
-    return { error };
-  }
-  render() {
-    if (this.state.error) {
-      return (
-        <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4 text-center">
-          <p className="text-4xl">⚠️</p>
-          <h1 className="text-xl font-bold text-foreground">Something went wrong</h1>
-          <p className="max-w-sm text-sm text-muted-foreground">{this.state.error?.message ?? 'An unexpected error occurred.'}</p>
-          <button
-            type="button"
-            onClick={() => window.location.reload()}
-            className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:brightness-110"
-          >
-            Reload page
-          </button>
-        </div>
-      );
-    }
-    return this.props.children;
-  }
+Sentry.init({
+  dsn: import.meta.env.VITE_SENTRY_DSN,
+  enabled: import.meta.env.PROD,
+  environment: import.meta.env.MODE,
+  integrations: [
+    Sentry.reactRouterV6BrowserTracingIntegration({
+      useEffect,
+      useLocation,
+      useNavigationType,
+      createRoutesFromChildren,
+      matchRoutes,
+    }),
+    Sentry.replayIntegration({
+      maskAllText: false,
+      blockAllMedia: false,
+    }),
+  ],
+  tracesSampleRate: 0.2,
+  replaysSessionSampleRate: 0,
+  replaysOnErrorSampleRate: 1.0,
+});
+
+function ErrorFallback({ error }) {
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4 text-center">
+      <p className="text-4xl">⚠️</p>
+      <h1 className="text-xl font-bold text-foreground">Something went wrong</h1>
+      <p className="max-w-sm text-sm text-muted-foreground">{error?.message ?? 'An unexpected error occurred.'}</p>
+      <button
+        type="button"
+        onClick={() => window.location.reload()}
+        className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:brightness-110"
+      >
+        Reload page
+      </button>
+    </div>
+  );
 }
+
+const ErrorBoundary = ({ children }) => (
+  <Sentry.ErrorBoundary fallback={ErrorFallback}>
+    {children}
+  </Sentry.ErrorBoundary>
+);
 
 const queryClient = new QueryClient({
   defaultOptions: {

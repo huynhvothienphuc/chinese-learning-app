@@ -15,7 +15,7 @@ export default function FeedbackPage({ onBack, t }) {
   const [errorMsg, setErrorMsg] = useState('');
 
   const trimmed = message.trim();
-  const remaining = MAX_LENGTH - message.length;
+  const remaining = MAX_LENGTH - trimmed.length;
   const canSubmit = trimmed.length >= MIN_LENGTH && status !== 'loading';
 
   async function handleSubmit(e) {
