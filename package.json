@@ -11,6 +11,7 @@
     "build:index": "node scripts/build-search-index.mjs"
   },
   "dependencies": {
+    "@sentry/react": "^10.50.0",
     "@supabase/supabase-js": "^2.101.1",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
