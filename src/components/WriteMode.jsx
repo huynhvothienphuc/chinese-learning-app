@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { CheckCircle2, CircleX, Trophy } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { cn, getItemMeaning, shuffleArray } from '@/lib/utils';
@@ -162,15 +163,9 @@ export default function WriteMode({ vocabulary, language = 'en', t, onComplete }
 
         {/* Status bar */}
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">
-            {t.writeTab}
-          </span>
-          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">
-            {t.score}: {score.correct}/{score.total}
-          </span>
-          <span className="rounded-full bg-primary/20 px-4 py-1 text-sm font-semibold text-primary">
-            {index + 1} / {activeQuestions.length}
-          </span>
+          <Badge variant="badge-01">{t.writeTab}</Badge>
+          <Badge variant="badge-01">{t.score}: {score.correct}/{score.total}</Badge>
+          <Badge variant="badge-01">{index + 1} / {activeQuestions.length}</Badge>
           <div className="group relative ml-auto">
             <button
               type="button"

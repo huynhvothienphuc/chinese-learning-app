@@ -1,4 +1,4 @@
-import { Navigate, Outlet } from 'react-router-dom';
+import { Navigate, Outlet, useOutletContext } from 'react-router-dom';
 import { useAuthStore } from '@/store/authStore';
 
 function Spinner() {
@@ -12,6 +12,7 @@ function Spinner() {
 /** Requires any authenticated user. Redirects to /login if not signed in. */
 export default function ProtectedRoute() {
   const { user, authReady } = useAuthStore();
+  const context = useOutletContext();
   if (!authReady) return <Spinner />;
-  return user ? <Outlet /> : <Navigate to="/login" replace />;
+  return user ? <Outlet context={context} /> : <Navigate to="/login" replace />;
 }

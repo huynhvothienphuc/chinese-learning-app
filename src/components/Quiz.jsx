@@ -2,6 +2,7 @@ import { memo, useEffect, useRef, useState } from 'react';
 import { CheckCircle2, CircleX, Trophy } from 'lucide-react';
 import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
@@ -150,12 +151,9 @@ export default function Quiz({
   return (
     <Card ref={cardRef} className="overflow-hidden border-theme-border bg-theme-surface shadow-lg animate-float-in">
       <CardHeader className="space-y-5 border-b border-theme-border bg-theme-surface">
-        {/* Row 1: score + counter + ? */}
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">{t.score}: {score.correct}/{score.total}</span>
-          <div className="rounded-full bg-primary/20 px-4 py-1.5 text-sm font-semibold text-primary">
-            {currentIndex + 1} / {vocabulary.length}
-          </div>
+          <Badge variant="badge-01">{t.score}: {score.correct}/{score.total}</Badge>
+          <Badge variant="badge-01">{currentIndex + 1} / {vocabulary.length}</Badge>
           <div className="ml-auto flex items-center gap-2">
             <ToggleSwitch
               checked={autoNext}
@@ -178,7 +176,6 @@ export default function Quiz({
           </div>
         </div>
 
-        {/* Row 2: pinyin + speak + next */}
         <div className="flex items-center justify-between gap-4">
           <div className="flex min-w-0 items-center gap-2">
             <CardTitle className="truncate text-3xl font-black text-primary md:text-4xl">{currentItem.pinyin}</CardTitle>

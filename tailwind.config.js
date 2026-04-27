@@ -28,6 +28,9 @@ export default {
         'theme-surface':           'hsl(var(--theme-surface))',
         'theme-border':            'hsl(var(--theme-border))',
         'theme-surface-secondary': 'hsl(var(--theme-surface-secondary))',
+        /* ── CTA tokens — always deep bg + contrasting text ── */
+        'cta':                     'hsl(var(--cta))',
+        'cta-foreground':          'hsl(var(--cta-foreground))',
       },
       borderRadius: {
         lg: 'var(--radius)',

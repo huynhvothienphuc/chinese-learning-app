@@ -129,6 +129,20 @@ export async function loadLessonStats(userId) {
   return data ?? [];
 }
 
+// ── Leaderboard ───────────────────────────────────────────────────────────────
+
+export async function loadLeaderboard() {
+  const { data, error } = await supabase.rpc('get_leaderboard', { p_limit: 20 });
+  if (error) throw error;
+  return data ?? [];
+}
+
+export async function loadMyRank() {
+  const { data, error } = await supabase.rpc('get_my_rank');
+  if (error) throw error;
+  return data; // { username, current_streak, longest_streak, current_rank, alltime_rank }
+}
+
 // ── Feedback ─────────────────────────────────────────────────────────────────
 
 export async function loadFeedback() {

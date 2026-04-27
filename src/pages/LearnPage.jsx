@@ -17,6 +17,7 @@ import {
   SESSION_SELECTED_SECTION_KEY,
 } from '@/lib/constants';
 import StudyDeckPanel from '@/components/StudyDeckPanel';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -309,7 +310,6 @@ export default function LearnPage() {
 
               <Card className="border-theme-border bg-theme-surface shadow-soft">
                 <CardContent className="p-4 sm:p-5">
-                  {/* mobile nav */}
                   <div className="flex items-center gap-2 md:hidden">
                     <Button onClick={session.handlePrevious} disabled={session.currentIndex === 0} size="sm" variant="outline" className="order-3 min-w-0 px-3" aria-label={t.previous}>
                       <ArrowLeft className="h-4 w-4" />
@@ -318,18 +318,17 @@ export default function LearnPage() {
                       <ArrowRight className="h-4 w-4" />
                     </Button>
                     <Button onClick={handleFlipCard} size="sm" className="order-2 flex-1" variant="secondary">{t.flipCardAction}</Button>
-                    <div className="order-1 shrink-0 rounded-full bg-primary/20 px-3 py-1.5 text-sm font-semibold text-primary">
+                    <Badge variant="badge-01" className="order-1 shrink-0">
                       {session.activeVocabulary.length === 0 ? 0 : session.currentIndex + 1} / {session.activeVocabulary.length}
-                    </div>
+                    </Badge>
                   </div>
-                  {/* desktop nav */}
                   <div className="hidden md:flex md:items-center md:justify-between md:gap-4">
                     <Button onClick={session.handlePrevious} disabled={session.currentIndex === 0} variant="outline" className="gap-2">
                       <ArrowLeft className="h-4 w-4" />{t.previous}
                     </Button>
-                    <div className="rounded-full bg-primary/20 px-4 py-2 text-sm font-semibold text-primary">
+                    <Badge variant="badge-01">
                       {session.activeVocabulary.length === 0 ? 0 : session.currentIndex + 1} / {session.activeVocabulary.length}
-                    </div>
+                    </Badge>
                     <div className="flex gap-3">
                       <Button onClick={handleFlipCard} variant="secondary" className="gap-2">{t.flipCardAction}</Button>
                       <Button onClick={session.handleNextFlashcard} disabled={session.currentIndex >= session.activeVocabulary.length - 1} variant="default" className="gap-2">

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useOutletContext } from 'react-router-dom';
 import { CheckSquare2, PencilLine, ListChecks, Loader2, Square, X } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { buildQuizChoices, cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
@@ -292,26 +293,22 @@ export default function MyQuizPage() {
           <Card className="border-theme-border bg-theme-surface shadow-soft">
             <CardContent className="p-4 sm:p-5">
               <div className="flex flex-wrap items-center gap-2 border-b border-theme-border pb-3">
-                <p className="hidden sm:inline-flex items-center rounded-full bg-primary px-3.5 py-1 text-xs font-bold text-primary-foreground shadow-sm">
-                  {t.myQuizSubtitle}
-                </p>
-                <p className="inline-flex items-center rounded-full bg-primary px-3.5 py-1 text-xs font-bold text-primary-foreground shadow-sm">
-                  ✨ Có thể chọn nhiều bài từ nhiều sách!
-                </p>
+                <Badge variant="badge-01" className="hidden sm:inline-flex">{t.myQuizSubtitle}</Badge>
+                <Badge variant="badge-01">{t.myQuizMultiBook}</Badge>
               </div>
 
-              <div className="mt-3 flex flex-col gap-2">
+              <div className="mt-3 flex flex-col gap-4">
 
                 {/* Row 1: Chọn sách + Số câu hỏi */}
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-xs font-semibold text-muted-foreground">Chọn sách:</span>
+                <div className="flex flex-wrap items-center gap-2 ">
+                  <span className="text-xs font-semibold text-muted-foreground">{t.myQuizSelectBook}</span>
                   {books.map((book) => (
                     <button
                       key={book.id}
                       type="button"
                       onClick={() => setActiveBrowseBook(book.id)}
                       className={cn(
-                        'rounded-full px-3 py-1 text-xs font-semibold transition-colors',
+                        'rounded-2xl px-3 py-1.5 text-sm font-semibold transition-colors',
                         activeBrowseBook === book.id
                           ? 'bg-primary text-primary-foreground'
                           : 'bg-white text-foreground hover:bg-primary/10 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600',
@@ -330,10 +327,10 @@ export default function MyQuizPage() {
                   ))}
                 </div>
 
-                {/* Row 2: Số câu hỏi */}
+                {/* Row 2+3: Số câu hỏi + Phương pháp */}
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-xs font-semibold text-muted-foreground">{t.myQuizCountLabel}:</span>
-                  {['all', 20, 40, 60].map((opt) => {
+                  {['all', 20, 40, 60, 100, 150].map((opt) => {
                     const notEnough = opt !== 'all' && available < opt;
                     return (
                       <button
@@ -352,10 +349,7 @@ export default function MyQuizPage() {
                       </button>
                     );
                   })}
-                </div>
-
-                {/* Row 3: Phương pháp kiểm tra */}
-                <div className="flex flex-wrap items-center gap-2">
+                  <span className="mx-1 h-4 w-px bg-border" />
                   <span className="text-xs font-semibold text-muted-foreground">{t.quizInstructionLabel}:</span>
                   {[
                     { key: 'multiple-choice', label: t.multipleChoice, icon: <ListChecks className="h-4 w-4" /> },
@@ -388,7 +382,7 @@ export default function MyQuizPage() {
               <CardContent className="p-4 sm:p-5">
                 <div className="mb-2 flex items-center justify-between gap-3">
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-                    Selected — {available} {available === 1 ? 'word' : 'words'}
+                    {t.myQuizSelectedWords.replace('{count}', available).replace('{unit}', available === 1 ? t.myQuizWordUnit : t.myQuizWordsUnit)}
                     {isLoadingAny && <Loader2 className="ml-2 inline h-3 w-3 animate-spin" />}
                   </p>
                   <button
@@ -396,7 +390,7 @@ export default function MyQuizPage() {
                     onClick={clearAll}
                     className="text-xs font-semibold text-rose-500 hover:opacity-80"
                   >
-                    Clear all
+                    {t.myQuizClearAll}
                   </button>
                 </div>
                 <div className="space-y-2">

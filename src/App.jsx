@@ -21,6 +21,8 @@ const MyQuizPage  = lazy(() => import('@/pages/MyQuizPage'));
 const UploadPage  = lazy(() => import('@/pages/UploadPage'));
 const InfoPage    = lazy(() => import('@/pages/InfoPage'));
 const FeedbackPage = lazy(() => import('@/pages/FeedbackPage'));
+const LeaderboardPage    = lazy(() => import('@/pages/LeaderboardPage'));
+const DesignSystemPage   = lazy(() => import('@/pages/DesignSystemPage'));
 
 const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
 
@@ -56,11 +58,6 @@ export default function App() {
         <Route path="/login"          element={<LoginPage />} />
         <Route path="/shared/:token"  element={<SharedBookPage />} />
 
-        {/* ── Protected standalone (own layout each) ── */}
-        <Route element={<ProtectedRoute />}>
-          <Route path="/dashboard" element={<StudentDashboard />} />
-        </Route>
-
         <Route element={<RoleRoute allowed={['teacher', 'admin']} />}>
           <Route path="/teacher"                                       element={<TeacherDashboard />} />
           <Route path="/teacher/books/:bookId"                         element={<BookEditor />} />
@@ -82,6 +79,11 @@ export default function App() {
           <Route path="/upload-word" element={<UploadPage />} />
           <Route path="/info"        element={<InfoPage />} />
           <Route path="/feedback"    element={<FeedbackPage />} />
+          <Route path="/leaderboard" element={<LeaderboardPage />} />
+          <Route path="/design"      element={<DesignSystemPage />} />
+          <Route element={<ProtectedRoute />}>
+            <Route path="/dashboard" element={<StudentDashboard />} />
+          </Route>
         </Route>
 
         <Route path="*" element={<NotFoundPage />} />
