@@ -33,6 +33,7 @@ export default function Navbar({
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
+  const [showSignIn] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef(null);
   const [avatarOpen, setAvatarOpen] = useState(false);
@@ -296,11 +297,11 @@ export default function Navbar({
                   </div>
                 )}
               </div>
-            ) : (
+            ) : showSignIn ? (
               <Button type="button" size="sm" onClick={() => navigate('/login')}>
                 Sign In
               </Button>
-            )}
+            ) : null}
 
           </div>
         </div>

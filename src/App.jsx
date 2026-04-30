@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import MainLayout from '@/components/layout/MainLayout';
 import ProtectedRoute from '@/routes/ProtectedRoute';
 import RoleRoute from '@/routes/RoleRoute';
@@ -56,6 +56,7 @@ export default function App() {
       <Routes>
         {/* ── Standalone full-page layouts ── */}
         <Route path="/login"          element={<LoginPage />} />
+        <Route path="/thisisadmin"    element={<LoginPage />} />
         <Route path="/shared/:token"  element={<SharedBookPage />} />
 
         <Route element={<RoleRoute allowed={['teacher', 'admin']} />}>
