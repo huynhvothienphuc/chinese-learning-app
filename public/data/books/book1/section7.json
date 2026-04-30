@@ -5,7 +5,7 @@
   "items": [
     {
       "id": 1,
-      "chinese": "點[点]",
+      "chinese": "點",
       "pinyin": "diǎn",
       "en": "o’clock; hour",
       "vi": "Giờ",
@@ -27,7 +27,8 @@
           "en": "Do you know what time it is now? Why haven’t you gone home yet?",
           "vi": "Bạn biết bây giờ mấy giờ rồi không? Sao vẫn chưa về nhà?"
         }
-      ]
+      ],
+      "simplified": "点"
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
           "en": "Are we going to KTV at six this afternoon?",
           "vi": "Hôm nay chúng ta đi KTV lúc sáu giờ chiều phải không?"
         }
-      ]
+      ],
+      "simplified": "KTV"
     },
     {
       "id": 3,
@@ -79,7 +81,8 @@
           "en": "He really likes listening to music, but he does not really like singing.",
           "vi": "Anh ấy rất thích nghe nhạc, nhưng không thích hát lắm."
         }
-      ]
+      ],
+      "simplified": "唱歌"
     },
     {
       "id": 4,
@@ -105,11 +108,12 @@
           "en": "Excuse me, what time is it now?",
           "vi": "Xin hỏi bây giờ là mấy giờ mấy phút?"
         }
-      ]
+      ],
+      "simplified": "分"
     },
     {
       "id": 5,
-      "chinese": "見面[见面]",
+      "chinese": "見面",
       "pinyin": "jiànmiàn",
       "en": "to meet; meeting",
       "vi": "Gặp mặt",
@@ -131,11 +135,12 @@
           "en": "Let’s meet at school at nine.",
           "vi": "Chúng ta gặp nhau ở trường lúc chín giờ nhé."
         }
-      ]
+      ],
+      "simplified": "见面"
     },
     {
       "id": 6,
-      "chinese": "從[从]",
+      "chinese": "從",
       "pinyin": "cóng",
       "en": "from",
       "vi": "Từ",
@@ -157,7 +162,8 @@
           "en": "We are singing from six in the afternoon to nine at night.",
           "vi": "Từ 6 giờ chiều đến 9 giờ tối chúng tôi đang hát."
         }
-      ]
+      ],
+      "simplified": "从"
     },
     {
       "id": 7,
@@ -183,7 +189,8 @@
           "en": "At noon I’m going to the bookstore to buy books. Want to go together?",
           "vi": "Buổi trưa tôi muốn đi nhà sách mua sách, bạn muốn đi cùng không?"
         }
-      ]
+      ],
+      "simplified": "中午"
     },
     {
       "id": 8,
@@ -209,11 +216,12 @@
           "en": "I have to go to class tomorrow morning, so I’m not going singing now.",
           "vi": "Sáng mai tôi phải lên lớp, bây giờ không đi hát nữa."
         }
-      ]
+      ],
+      "simplified": "得"
     },
     {
       "id": 9,
-      "chinese": "銀行[银行]",
+      "chinese": "銀行",
       "pinyin": "yínháng",
       "en": "bank",
       "vi": "Ngân hàng",
@@ -235,11 +243,12 @@
           "en": "At noon I have to go to the bank, so I can’t eat with you.",
           "vi": "Buổi trưa tôi phải đi ngân hàng, không thể đi ăn với bạn nữa."
         }
-      ]
+      ],
+      "simplified": "银行"
     },
     {
       "id": 10,
-      "chinese": "時候[时候]",
+      "chinese": "時候",
       "pinyin": "shíhou",
       "en": "when; time",
       "vi": "Khi",
@@ -261,11 +270,12 @@
           "en": "When my mom was cooking, I was reading.",
           "vi": "Khi mẹ tôi nấu cơm, tôi đang đọc sách."
         }
-      ]
+      ],
+      "simplified": "时候"
     },
     {
       "id": 11,
-      "chinese": "後天[后天]",
+      "chinese": "後天",
       "pinyin": "hòutiān",
       "en": "the day after tomorrow",
       "vi": "Ngày mốt",
@@ -287,7 +297,8 @@
           "en": "The day after tomorrow I want to go watch a movie. Want to go together?",
           "vi": "Ngày mốt tôi muốn đi xem phim, bạn muốn đi cùng không?"
         }
-      ]
+      ],
+      "simplified": "后天"
     },
     {
       "id": 12,
@@ -313,7 +324,8 @@
           "en": "Excuse me, do you know where Da’an KTV is?",
           "vi": "Xin hỏi bạn biết KTV Đại An ở đâu không?"
         }
-      ]
+      ],
+      "simplified": "大安"
     },
     {
       "id": 13,
@@ -339,11 +351,12 @@
           "en": "Next time I will definitely order a large bowl of beef noodles.",
           "vi": "Lần sau tôi nhất định gọi tô mì bò lớn."
         }
-      ]
+      ],
+      "simplified": "下次"
     },
     {
       "id": 14,
-      "chinese": "沒問題[没问题]",
+      "chinese": "沒問題",
       "pinyin": "méiwèntí",
       "en": "no problem; it’s okay",
       "vi": "Không sao",
@@ -365,11 +378,12 @@
           "en": "No problem. Let’s go the day after tomorrow.",
           "vi": "Không sao, ngày mốt lại đi nhé."
         }
-      ]
+      ],
+      "simplified": "没问题"
     },
     {
       "id": 15,
-      "chinese": "對了[对了]",
+      "chinese": "對了",
       "pinyin": "duìle",
       "en": "that’s right; by the way",
       "vi": "Đúng rồi",
@@ -391,7 +405,8 @@
           "en": "By the way, I can’t go anymore. I have to go to the bank now.",
           "vi": "À đúng rồi, tôi không đi được nữa, bây giờ phải đi ngân hàng."
         }
-      ]
+      ],
+      "simplified": "对了"
     },
     {
       "id": 16,
@@ -417,11 +432,12 @@
           "en": "I’m not free tomorrow. Let’s do the day after tomorrow.",
           "vi": "Ngày mai tôi không rảnh, để ngày mốt nhé."
         }
-      ]
+      ],
+      "simplified": "有空"
     },
     {
       "id": 17,
-      "chinese": "再見[再见]",
+      "chinese": "再見",
       "pinyin": "zàijiàn",
       "en": "goodbye; see you again",
       "vi": "Tạm biệt, hẹn gặp lại",
@@ -443,7 +459,8 @@
           "en": "See you tomorrow.",
           "vi": "Ngày mai gặp."
         }
-      ]
+      ],
+      "simplified": "再见"
     },
     {
       "id": 18,
@@ -469,7 +486,8 @@
           "en": "I am watching a movie online, and he is reading.",
           "vi": "Tôi đang xem phim trên mạng, còn anh ấy đang đọc sách."
         }
-      ]
+      ],
+      "simplified": "在"
     },
     {
       "id": 19,
@@ -495,11 +513,12 @@
           "en": "Where do you want to eat lunch today? I know a famous lunch place. Let’s go together.",
           "vi": "Hôm nay bạn muốn ăn trưa ở đâu? Tôi biết một quán ăn trưa rất nổi tiếng, cùng đi nhé."
         }
-      ]
+      ],
+      "simplified": "午餐"
     },
     {
       "id": 20,
-      "chinese": "剛[刚]",
+      "chinese": "剛",
       "pinyin": "gāng",
       "en": "just; just now",
       "vi": "Vừa mới",
@@ -521,11 +540,12 @@
           "en": "He just went out. Do you need him for something?",
           "vi": "Anh ấy vừa ra ngoài rồi, bạn tìm anh ấy có việc gì không?"
         }
-      ]
+      ],
+      "simplified": "刚"
     },
     {
       "id": 21,
-      "chinese": "下課[下课]",
+      "chinese": "下課",
       "pinyin": "xiàkè",
       "en": "to finish class; after class",
       "vi": "Tan học",
@@ -547,7 +567,8 @@
           "en": "I finish class at five today. Let’s eat dinner together at five thirty.",
           "vi": "Hôm nay tôi tan học lúc 5 giờ, 5 giờ rưỡi cùng đi ăn tối nhé."
         }
-      ]
+      ],
+      "simplified": "下课"
     },
     {
       "id": 22,
@@ -573,7 +594,8 @@
           "en": "What time do you have Chinese class this afternoon?",
           "vi": "Chiều nay bạn mấy giờ phải học tiếng Trung?"
         }
-      ]
+      ],
+      "simplified": "下午"
     },
     {
       "id": 23,
@@ -599,11 +621,12 @@
           "en": "Do you have class at 7:30 tomorrow?",
           "vi": "Ngày mai bạn học lúc 7 giờ rưỡi à?"
         }
-      ]
+      ],
+      "simplified": "半"
     },
     {
       "id": 24,
-      "chinese": "比賽[比赛]",
+      "chinese": "比賽",
       "pinyin": "bǐsài",
       "en": "match; competition",
       "vi": "Trận đấu, thi đấu",
@@ -625,11 +648,12 @@
           "en": "There is a basketball game at school today. Want to watch it?",
           "vi": "Hôm nay trường có trận bóng rổ, bạn muốn đi xem không?"
         }
-      ]
+      ],
+      "simplified": "比赛"
     },
     {
       "id": 25,
-      "chinese": "結束[结束]",
+      "chinese": "結束",
       "pinyin": "jiéshù",
       "en": "to end; to finish",
       "vi": "Kết thúc",
@@ -651,7 +675,8 @@
           "en": "Has the soccer match ended?",
           "vi": "Trận bóng đá kết thúc rồi à?"
         }
-      ]
+      ],
+      "simplified": "结束"
     },
     {
       "id": 26,
@@ -677,7 +702,8 @@
           "en": "Have you eaten there recently?",
           "vi": "Gần đây bạn có đến đó ăn cơm không?"
         }
-      ]
+      ],
+      "simplified": "最近"
     },
     {
       "id": 27,
@@ -703,7 +729,8 @@
           "en": "I’m busy this weekend. Let’s go next week.",
           "vi": "Cuối tuần này tôi bận rồi, tuần sau hãy đi nhé."
         }
-      ]
+      ],
+      "simplified": "忙"
     },
     {
       "id": 28,
@@ -729,7 +756,8 @@
           "en": "Every weekend I go swimming at the school swimming pool.",
           "vi": "Mỗi cuối tuần tôi đều đến hồ bơi của trường để bơi."
         }
-      ]
+      ],
+      "simplified": "每"
     },
     {
       "id": 29,
@@ -755,11 +783,12 @@
           "en": "I go play soccer with friends every day.",
           "vi": "Tôi ngày nào cũng đi đá bóng với bạn bè."
         }
-      ]
+      ],
+      "simplified": "天"
     },
     {
       "id": 30,
-      "chinese": "書法[书法]",
+      "chinese": "書法",
       "pinyin": "shūfǎ",
       "en": "calligraphy",
       "vi": "Thư pháp",
@@ -781,11 +810,12 @@
           "en": "Do you have calligraphy class every day?",
           "vi": "Bạn ngày nào cũng có lớp thư pháp à?"
         }
-      ]
+      ],
+      "simplified": "书法"
     },
     {
       "id": 31,
-      "chinese": "課[课]",
+      "chinese": "課",
       "pinyin": "kè",
       "en": "class; lesson",
       "vi": "Tiết học",
@@ -807,11 +837,12 @@
           "en": "I have class tomorrow, so I can’t go singing.",
           "vi": "Ngày mai tôi có lớp, không thể đi hát nữa."
         }
-      ]
+      ],
+      "simplified": "课"
     },
     {
       "id": 32,
-      "chinese": "開始[开始]",
+      "chinese": "開始",
       "pinyin": "kāishǐ",
       "en": "to begin; to start",
       "vi": "Bắt đầu",
@@ -833,7 +864,8 @@
           "en": "I started learning to write calligraphy last week.",
           "vi": "Tôi bắt đầu học viết thư pháp từ tuần trước."
         }
-      ]
+      ],
+      "simplified": "开始"
     },
     {
       "id": 33,
@@ -859,11 +891,12 @@
           "en": "I don’t know this character.",
           "vi": "Chữ này tôi không biết."
         }
-      ]
+      ],
+      "simplified": "字"
     },
     {
       "id": 34,
-      "chinese": "寫[写]",
+      "chinese": "寫",
       "pinyin": "xiě",
       "en": "to write",
       "vi": "Viết",
@@ -885,7 +918,8 @@
           "en": "I also don’t know how to write it. Go ask the teacher.",
           "vi": "Tôi cũng không biết viết thế nào, bạn đi hỏi thầy/cô đi."
         }
-      ]
+      ],
+      "simplified": "写"
     },
     {
       "id": 35,
@@ -911,11 +945,12 @@
           "en": "You can’t play soccer here. Go play over there.",
           "vi": "Ở đây không được đá bóng, các bạn qua đó chơi đi."
         }
-      ]
+      ],
+      "simplified": "可以"
     },
     {
       "id": 36,
-      "chinese": "問[问]",
+      "chinese": "問",
       "pinyin": "wèn",
       "en": "to ask",
       "vi": "Hỏi",
@@ -937,7 +972,8 @@
           "en": "Excuse me, do you know where Teacher Wang is?",
           "vi": "Xin hỏi bạn biết thầy/cô Vương ở đâu không?"
         }
-      ]
+      ],
+      "simplified": "问"
     },
     {
       "id": 37,
@@ -963,7 +999,8 @@
           "en": "Wait for me here for a moment.",
           "vi": "Bạn đợi tôi ở đây một chút."
         }
-      ]
+      ],
+      "simplified": "等一下"
     },
     {
       "id": 38,
@@ -989,7 +1026,8 @@
           "en": "I don’t have anything to do this weekend. Let’s go sing.",
           "vi": "Cuối tuần này tôi không có việc, chúng ta đi hát nhé."
         }
-      ]
+      ],
+      "simplified": "有事"
     },
     {
       "id": 39,
@@ -1015,8 +1053,9 @@
           "en": "This book is really not interesting. I don’t like it.",
           "vi": "Quyển sách này thật sự không thú vị, tôi không thích."
         }
-      ]
+      ],
+      "simplified": "有意思"
     }
   ],
-  "verified": false
+  "verified": true
 }
