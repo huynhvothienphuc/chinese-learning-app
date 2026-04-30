@@ -15,7 +15,23 @@
       "Bash(find . -name '*.jsx' -exec sed -i '' 's/bg-\\\\[#ECFAE5\\\\]/bg-theme-surface/g' '{}' ';')",
       "Bash(find . -name '*.jsx' -exec sed -i '' 's/border-\\\\[#CAE8BD\\\\] dark:border-slate-700\\\\/60/border-theme-border/g' '{}' ';')",
       "Bash(find . -name '*.jsx' -exec sed -i '' 's/border-\\\\[#CAE8BD\\\\] dark:border-slate-600/border-theme-border/g' '{}' ';')",
-      "Bash(find . -name '*.jsx' -exec sed -i '' 's/ dark:bg-slate-800\\\\/90//g; s/ dark:border-slate-700\\\\/60//g; s/ dark:bg-slate-800\\\\/70//g; s/ dark:border-slate-700//g' '{}' ';')"
+      "Bash(find . -name '*.jsx' -exec sed -i '' 's/ dark:bg-slate-800\\\\/90//g; s/ dark:border-slate-700\\\\/60//g; s/ dark:bg-slate-800\\\\/70//g; s/ dark:border-slate-700//g' '{}' ';')",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); items=d.get\\('items',d\\); print\\(f'{len\\(items\\)} items, sample:', json.dumps\\(items[0], ensure_ascii=False\\)\\)\")",
+      "Bash(python3 -c 'import json; d=json.load\\(open\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\); items=d.get\\('\\\\''items'\\\\'',d\\) if isinstance\\(d,dict\\) else d; print\\(len\\(items\\) if isinstance\\(items,list\\) else 0\\)')",
+      "Bash(awk '{s+=$1; c++} END {print \"Total words:\", s, \"Files:\", c}')",
+      "Bash(du -sh /Users/phuchuynh/Desktop/chinese-learning-app/public/data/books/book*/section*.json)",
+      "Bash(ls -la /Users/phuchuynh/Desktop/chinese-learning-app/public/data/books/book*/section*.json)",
+      "Bash(awk '{s+=$5} END {print \"Total raw:\", s/1024 \"KB\"}')",
+      "Bash(python3 -c ':*)",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app log --all --oneline --grep=\"supabase\\\\|auth\\\\|role\")",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app show feat/supabase-setup:supabase-setup.sql)",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app log --all --name-status --oneline)",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app show HEAD:supabase-setup.sql)",
+      "Bash(git merge:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(node -e \"require\\('./node_modules/zustand'\\); require\\('./node_modules/@tanstack/react-query'\\); console.log\\('both installed ok'\\)\")",
+      "Bash(wc -l /Users/phuchuynh/Desktop/chinese-learning-app/src/**/*.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/**/*.js)"
     ]
   }
 }

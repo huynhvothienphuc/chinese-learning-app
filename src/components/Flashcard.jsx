@@ -28,7 +28,7 @@ export default function Flashcard({
 
   if (!item) {
     return (
-      <div className="rounded-3xl border bg-white p-10 text-center shadow-md dark:bg-slate-800">
+      <div className="rounded-3xl border border-border bg-card p-10 text-center shadow-md">
         <p className="text-muted-foreground">—</p>
       </div>
     );
@@ -39,13 +39,13 @@ export default function Flashcard({
 
   return (
     <div className="mx-auto w-full max-w-5xl">
-      <div className="mb-4 rounded-3xl border border-theme-border bg-theme-surface px-3 py-3 shadow-soft dark:bg-slate-800/85 sm:px-4">
+      <div className="mb-4 rounded-3xl border border-theme-border bg-theme-surface px-3 py-3 shadow-soft sm:px-4">
         <div className="flex flex-wrap items-center gap-2">
           <ToggleSwitch
             checked={showDetails}
             onChange={setShowDetails}
             label={t.showPinyin}
-            className="h-10 rounded-2xl border border-slate-200 bg-white px-3 text-sm font-semibold text-slate-600 hover:bg-green-50 dark:bg-slate-800 dark:text-slate-300 md:h-9"
+            className="h-10 rounded-2xl border border-border bg-background px-3 text-sm font-semibold text-foreground hover:bg-accent md:h-9"
           />
           <Button
             type="button"
@@ -73,7 +73,7 @@ export default function Flashcard({
             disabled={!canShuffle}
             className={cn(
               'h-10 gap-2 px-3 md:h-9',
-              isShuffled && 'border-emerald-200 bg-emerald-50 text-emerald-700',
+              isShuffled && 'border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400',
             )}
             aria-label={isShuffled ? t.resetOrder : t.mix}
             title={isShuffled ? t.resetOrder : t.mix}
@@ -106,11 +106,11 @@ export default function Flashcard({
           <Card className="flashcard-face flashcard-front rounded-[2rem] border-theme-border bg-background shadow-xl">
             <div className="relative flex h-full flex-col items-center justify-center px-4 text-center sm:px-8">
               <div className="flex max-w-full flex-wrap items-center justify-center gap-3">
-                <div className={cn('break-words text-5xl font-black text-slate-900 dark:text-slate-100 sm:text-7xl md:text-8xl', !flipped && 'animate-text-zoom')}>{item.chinese}</div>
+                <div className={cn('break-words text-5xl font-black text-foreground sm:text-7xl md:text-8xl', !flipped && 'animate-text-zoom')}>{item.chinese}</div>
                 <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="outline" className="shrink-0" />
               </div>
-              <p className="mt-6 text-sm text-slate-500 dark:text-slate-400">{t.tapToFlip}</p>
-              <p className="mt-3 hidden text-xs font-medium tracking-[0.02em] text-slate-400 dark:text-slate-500 md:block">
+              <p className="mt-6 text-sm text-muted-foreground">{t.tapToFlip}</p>
+              <p className="mt-3 hidden text-xs font-medium tracking-[0.02em] text-muted-foreground/70 md:block">
                 {t.keyboardHintPrefix}{' '}
                 <span>[{t.previous} <span className="px-1 font-semibold">←</span>]</span>{' '}
                 <span>[{t.next} <span className="px-1 font-semibold">→</span>]</span>{' '}
@@ -124,30 +124,30 @@ export default function Flashcard({
               <div className="min-h-0 flex-1 space-y-5 overflow-y-auto pr-1">
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-3">
-                    <h3 className="break-words text-3xl font-black text-slate-800 sm:text-5xl dark:text-slate-100">{item.chinese}</h3>
+                    <h3 className="break-words text-3xl font-black text-foreground sm:text-5xl">{item.chinese}</h3>
                     <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="outline" className="shrink-0" />
                   </div>
-                  {showPinyin ? <p className="mt-2 break-words text-lg font-medium text-slate-600 sm:text-xl dark:text-slate-300">{item.pinyin}</p> : null}
-                  {showMeaning ? <p className="mt-3 break-words text-lg font-medium text-slate-700 sm:text-xl dark:text-slate-200">{meaning}</p> : null}
+                  {showPinyin ? <p className="mt-2 break-words text-lg font-medium text-muted-foreground sm:text-xl">{item.pinyin}</p> : null}
+                  {showMeaning ? <p className="mt-3 break-words text-lg font-medium text-foreground sm:text-xl">{meaning}</p> : null}
                 </div>
 
                 {item.samples?.length > 0 ? (
-                  <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5 dark:bg-card">
+                  <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5">
                     <div className="space-y-4">
                       {item.samples.slice(0, 2).map((ex, i) => (
-                        <div key={i} className={i > 0 ? 'border-t border-theme-border pt-4 dark:border-slate-600' : ''}>
+                        <div key={i} className={i > 0 ? 'border-t border-theme-border pt-4' : ''}>
                           {ex.type && (
                             <span className="mb-1.5 inline-block rounded-full bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
                               {ex.type}
                             </span>
                           )}
                           <div className="flex items-start justify-between gap-2">
-                            <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">
+                            <p className="break-words text-2xl font-black text-foreground sm:text-3xl">
                               {ex.sentence.split(item.chinese).map((part, j, arr) => (
                                 <span key={j}>
                                   {part}
                                   {j < arr.length - 1 && (
-                                    <mark className="rounded bg-primary/20 px-0.5 text-primary not-italic dark:bg-primary/30 dark:text-white">
+                                    <mark className="rounded bg-primary/20 px-0.5 text-primary not-italic dark:bg-primary/30">
                                       {item.chinese}
                                     </mark>
                                   )}
@@ -156,8 +156,8 @@ export default function Flashcard({
                             </p>
                             <SpeakButton text={ex.sentence} label={t.speakSentence} size="icon" variant="outline" />
                           </div>
-                          {showPinyin && ex.pinyin ? <p className="mt-1 break-words text-slate-500 dark:text-slate-400">{ex.pinyin}</p> : null}
-                          <p className="mt-2 break-words text-slate-600 dark:text-slate-300">
+                          {showPinyin && ex.pinyin ? <p className="mt-1 break-words text-muted-foreground">{ex.pinyin}</p> : null}
+                          <p className="mt-2 break-words text-muted-foreground">
                             {language === 'vi' ? (ex.vi || ex.en) : (ex.en || ex.vi)}
                           </p>
                         </div>
@@ -165,22 +165,22 @@ export default function Flashcard({
                     </div>
                   </div>
                 ) : (
-                  <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5 dark:bg-card">
+                  <div className="rounded-3xl border border-theme-border bg-background p-4 sm:p-5">
                     <div className="space-y-3 text-sm sm:text-base md:text-lg">
                       <div className="flex items-start justify-between gap-2">
-                        <p className="break-words text-2xl font-black text-slate-800 sm:text-3xl dark:text-slate-100">{item.sentenceChinese}</p>
+                        <p className="break-words text-2xl font-black text-foreground sm:text-3xl">{item.sentenceChinese}</p>
                         <SpeakButton text={item.sentenceChinese} label={t.speakSentence} size="icon" variant="outline" />
                       </div>
-                      {item.sentencePinyin && showPinyin ? <p className="break-words text-slate-500 dark:text-slate-400">{item.sentencePinyin}</p> : null}
-                      <p className="break-words border-t border-theme-border pt-3 text-slate-600 dark:border-slate-600 dark:text-slate-300">{sentenceMeaning}</p>
+                      {item.sentencePinyin && showPinyin ? <p className="break-words text-muted-foreground">{item.sentencePinyin}</p> : null}
+                      <p className="break-words border-t border-theme-border pt-3 text-muted-foreground">{sentenceMeaning}</p>
                     </div>
                   </div>
                 )}
               </div>
 
               <div className="space-y-2 text-center">
-                <p className="mx-auto max-w-full px-2 text-xs leading-5 text-slate-500 dark:text-slate-400">{t.tapAgainToFlipBack}</p>
-                <p className="hidden text-xs font-medium tracking-[0.02em] text-slate-400 dark:text-slate-500 md:block">
+                <p className="mx-auto max-w-full px-2 text-xs leading-5 text-muted-foreground">{t.tapAgainToFlipBack}</p>
+                <p className="hidden text-xs font-medium tracking-[0.02em] text-muted-foreground/70 md:block">
                   {t.keyboardHintPrefix}{' '}
                   <span>[{t.previous} <span className="px-1 font-semibold">←</span>]</span>{' '}
                   <span>[{t.next} <span className="px-1 font-semibold">→</span>]</span>{' '}

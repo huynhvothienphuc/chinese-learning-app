@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, useLocation, useNavigationType, createRoutesFromChildren, matchRoutes } from 'react-router-dom';
-import { AuthProvider } from '@/contexts/AuthContext';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import * as Sentry from '@sentry/react';
+import { initAuth } from '@/store/authStore';
+import { prefetchFromSession } from '@/hooks/useVocabData';
 import App from './App';
 import './index.css';
+import './App.css';
 
 Sentry.init({
   dsn: import.meta.env.VITE_SENTRY_DSN,
@@ -30,14 +33,14 @@ Sentry.init({
 
 function ErrorFallback({ error }) {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-white px-4 text-center dark:bg-slate-950">
+    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4 text-center">
       <p className="text-4xl">⚠️</p>
-      <h1 className="text-xl font-bold text-slate-900 dark:text-white">Something went wrong</h1>
-      <p className="max-w-sm text-sm text-slate-500">{error?.message ?? 'An unexpected error occurred.'}</p>
+      <h1 className="text-xl font-bold text-foreground">Something went wrong</h1>
+      <p className="max-w-sm text-sm text-muted-foreground">{error?.message ?? 'An unexpected error occurred.'}</p>
       <button
         type="button"
         onClick={() => window.location.reload()}
-        className="rounded-xl bg-green-600 px-4 py-2 text-sm font-semibold text-white hover:brightness-110"
+        className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:brightness-110"
       >
         Reload page
       </button>
@@ -45,14 +48,44 @@ function ErrorFallback({ error }) {
   );
 }
 
+const ErrorBoundary = ({ children }) => (
+  <Sentry.ErrorBoundary fallback={ErrorFallback}>
+    {children}
+  </Sentry.ErrorBoundary>
+);
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5,
+      retry: 1,
+      refetchOnWindowFocus: false,
+    },
+  },
+});
+
+// Warm cache from last session immediately — runs before React mounts,
+// in parallel with auth. Eliminates the books→sections→vocab waterfall
+// for returning users.
+prefetchFromSession(queryClient);
+
+function Root() {
+  useEffect(() => {
+    const cleanup = initAuth();
+    return cleanup;
+  }, []);
+
+  return <App />;
+}
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Sentry.ErrorBoundary fallback={ErrorFallback}>
+    <ErrorBoundary>
       <BrowserRouter>
-        <AuthProvider>
-          <App />
-        </AuthProvider>
+        <QueryClientProvider client={queryClient}>
+          <Root />
+        </QueryClientProvider>
       </BrowserRouter>
-    </Sentry.ErrorBoundary>
+    </ErrorBoundary>
   </React.StrictMode>,
 );

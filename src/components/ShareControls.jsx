@@ -68,7 +68,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
     <div className="flex items-center justify-between gap-3">
       <div className="flex min-w-0 items-center gap-2">
         <Link className="h-4 w-4 shrink-0 text-green-600" />
-        <span className="truncate font-semibold text-slate-800 dark:text-white">Share this book</span>
+        <span className="truncate font-semibold text-foreground">Share this book</span>
         {isEnabled && (
           <span className="rounded-full bg-green-100 px-2 py-0.5 text-xs font-bold text-green-700 dark:bg-green-900/40 dark:text-green-400">
             Active
@@ -98,7 +98,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
           className={`flex flex-1 items-center justify-center gap-2 rounded-xl border py-2 text-sm font-medium transition-all ${
             !isPrivate
               ? 'border-green-400 bg-green-600 text-white'
-              : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300'
+              : 'border-border bg-white text-muted-foreground hover:bg-accent dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300'
           }`}
         >
           <Globe className="h-3.5 w-3.5" /> Public
@@ -109,7 +109,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
           className={`flex flex-1 items-center justify-center gap-2 rounded-xl border py-2 text-sm font-medium transition-all ${
             isPrivate
               ? 'border-green-400 bg-green-600 text-white'
-              : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300'
+              : 'border-border bg-white text-muted-foreground hover:bg-accent dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300'
           }`}
         >
           <Lock className="h-3.5 w-3.5" /> Private
@@ -118,14 +118,14 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
 
       {isPrivate && (
         <form onSubmit={savePassword} className="flex flex-col gap-2">
-          <p className="text-xs text-slate-500">Set a password — guests must enter it to access.</p>
+          <p className="text-xs text-muted-foreground">Set a password — guests must enter it to access.</p>
           <div className="flex gap-2">
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="New password"
-              className="flex-1 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+              className="flex-1 rounded-lg border border-border bg-white px-3 py-2 text-sm outline-none focus:border-green-400 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
             />
             <Button type="submit" size="sm" disabled={savingPassword || !password.trim()} className="gap-1.5 min-w-[90px]">
               {savingPassword
@@ -140,12 +140,12 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
         </form>
       )}
 
-      <div className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 dark:border-slate-600 dark:bg-slate-800">
-        <span className="flex-1 truncate text-xs text-slate-500">{shareUrl}</span>
+      <div className="flex items-center gap-2 rounded-xl border border-border bg-white px-3 py-2 dark:border-slate-600 dark:bg-slate-800">
+        <span className="flex-1 truncate text-xs text-muted-foreground">{shareUrl}</span>
         <button
           type="button"
           onClick={copyLink}
-          className="shrink-0 text-slate-400 transition-colors hover:text-green-600"
+          className="shrink-0 text-muted-foreground transition-colors hover:text-green-600"
           title="Copy link"
         >
           {copied ? <Check className="h-4 w-4 text-green-600" /> : <Copy className="h-4 w-4" />}
@@ -198,7 +198,7 @@ export default function ShareControls({ book, onBookChange, embedded = false, in
   return (
     <Card className={isEnabled
       ? 'border-green-200 bg-green-50 dark:border-green-800/40 dark:bg-green-900/10'
-      : 'border-slate-200'
+      : 'border-border'
     }>
       <CardContent className="p-5">{content}</CardContent>
     </Card>

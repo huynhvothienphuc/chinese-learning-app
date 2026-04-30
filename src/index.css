@@ -24,12 +24,14 @@
     --border: 120 8% 88%;
     --input: 120 8% 88%;
     --ring: 101 47% 74%;
-    --radius: 1rem;
+    --radius: 0.5rem;
     /* Fallbacks — overridden by [data-theme] once applied */
     --theme-surface:           107 72% 94%;
     --theme-border:            107 42% 83%;
     --theme-surface-secondary: 107 55% 90%;
     --theme-shadow-rgb:        80, 160, 100;
+    --cta:                     101 45% 62%;
+    --cta-foreground:          0 0% 98%;
   }
 
   /* ─── GREEN DARK ────────────────────────────────────────────────────────────── */
@@ -58,6 +60,8 @@
     --theme-border:            220 18% 22%;
     --theme-surface-secondary: 222 25% 10%;
     --theme-shadow-rgb:        30, 60, 40;
+    --cta:                     101 45% 62%;
+    --cta-foreground:          0 0% 100%;
   }
 
   /* ─── THEME SURFACE TOKENS ──────────────────────────────────────────────────
@@ -72,6 +76,8 @@
     --theme-border:            107 42% 83%;   /* #CAE8BD */
     --theme-surface-secondary: 107 55% 90%;   /* #e4f5d8 */
     --theme-shadow-rgb:        80, 160, 100;
+    --cta:                     101 45% 62%;
+    --cta-foreground:          0 0% 98%;
   }
 
   /* GREEN dark */
@@ -80,6 +86,8 @@
     --theme-border:            220 18% 22%;
     --theme-surface-secondary: 222 25% 10%;
     --theme-shadow-rgb:        30, 60, 40;
+    --cta:                     101 45% 62%;
+    --cta-foreground:          0 0% 100%;
   }
 
   /* ── ORANGE (warm pastel) ── */
@@ -99,6 +107,8 @@
     --theme-border:            0  100% 88%;   /* #FFD1D1-ish */
     --theme-surface-secondary: 3  100% 93%;   /* #FFE3E1 */
     --theme-shadow-rgb:        255, 148, 148;
+    --cta:                     0 90% 75%;
+    --cta-foreground:          0 0% 98%;
   }
 
   /* ORANGE dark */
@@ -126,6 +136,8 @@
     --theme-border:            20 35% 22%;
     --theme-surface-secondary: 20 38% 10%;
     --theme-shadow-rgb:        200, 100, 80;
+    --cta:                     0 90% 75%;
+    --cta-foreground:          0 0% 100%;
   }
 
   /* ── TEAL (cool pastel) ── */
@@ -145,6 +157,8 @@
     --theme-border:            173 45% 78%;   /* softer #30E3CA */
     --theme-surface-secondary: 168 55% 88%;
     --theme-shadow-rgb:        17, 153, 158;
+    --cta:                     183 75% 38%;
+    --cta-foreground:          0 0% 100%;
   }
 
   /* TEAL dark */
@@ -172,6 +186,8 @@
     --theme-border:            183 25% 22%;
     --theme-surface-secondary: 183 38% 10%;
     --theme-shadow-rgb:        48, 227, 202;
+    --cta:                     183 80% 34%;
+    --cta-foreground:          0 0% 100%;
   }
 
   * {
@@ -241,4 +257,23 @@
 
 .animate-text-zoom {
   animation: text-zoom 2.4s ease-in-out infinite;
+}
+
+/* ── Reusable pretty scrollbar ─────────────────────────────────────────────── */
+.scrollbar-pretty {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--border)) transparent;
+}
+.scrollbar-pretty::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollbar-pretty::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-pretty::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 99px;
+}
+.scrollbar-pretty::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.4);
 }

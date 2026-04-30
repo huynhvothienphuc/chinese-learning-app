@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useEffect, useMemo, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Lock, Loader2 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { normalizeVocabularyItems, buildQuizChoices, shuffleArray } from '@/lib/utils';
@@ -12,7 +12,8 @@ import { localeMap } from '@/locales';
 const SESSION_LANGUAGE_KEY = 'selected-language';
 const INITIAL_SCORE = { correct: 0, total: 0 };
 
-export default function SharedBookPage({ token }) {
+export default function SharedBookPage() {
+  const { token } = useParams();
   const navigate = useNavigate();
   const language = (() => {
     const saved = localStorage.getItem(SESSION_LANGUAGE_KEY);
@@ -120,30 +121,35 @@ export default function SharedBookPage({ token }) {
     resetStudy();
   }
 
+  const allChoices = useMemo(
+    () => vocabulary.map((item) => buildQuizChoices(vocabulary, item)),
+    [vocabulary],
+  );
+
   // ── Render states ──────────────────────────────────────────────
   if (status === 'loading') return (
-    <div className="flex min-h-screen items-center justify-center bg-white dark:bg-slate-950">
-      <Loader2 className="h-8 w-8 animate-spin text-green-500" />
+    <div className="flex min-h-screen items-center justify-center bg-background">
+      <Loader2 className="h-8 w-8 animate-spin text-primary" />
     </div>
   );
 
   if (status === 'error') return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-white px-4 dark:bg-slate-950">
-      <p className="text-slate-600">{errorMsg}</p>
+    <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4">
+      <p className="text-muted-foreground">{errorMsg}</p>
       <Button variant="outline" onClick={() => navigate('/')}>← Back to home</Button>
     </div>
   );
 
   if (status === 'password') return (
-    <div className="flex min-h-screen items-center justify-center bg-white px-4 dark:bg-slate-950">
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <Card className="w-full max-w-sm border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-6">
           <div className="mb-5 flex flex-col items-center gap-2">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-green-100 dark:bg-green-900/40">
-              <Lock className="h-6 w-6 text-green-600" />
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10">
+              <Lock className="h-6 w-6 text-primary" />
             </div>
-            <h1 className="text-lg font-black text-slate-900 dark:text-white">Private Book</h1>
-            <p className="text-center text-sm text-slate-500">Enter the password to access this shared book.</p>
+            <h1 className="text-lg font-black text-foreground">Private Book</h1>
+            <p className="text-center text-sm text-muted-foreground">Enter the password to access this shared book.</p>
           </div>
           <form onSubmit={tryPassword} className="flex flex-col gap-3">
             <input
@@ -153,14 +159,14 @@ export default function SharedBookPage({ token }) {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
-              className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+              className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
             />
             {passwordError && <p className="text-sm text-rose-500">{passwordError}</p>}
             <Button type="submit" disabled={verifying} className="gap-2">
               {verifying && <Loader2 className="h-3.5 w-3.5 animate-spin" />}
               {verifying ? 'Verifying…' : 'Access book'}
             </Button>
-            <button type="button" onClick={() => navigate('/')} className="text-center text-sm text-slate-500 hover:text-slate-700">
+            <button type="button" onClick={() => navigate('/')} className="text-center text-sm text-muted-foreground hover:text-foreground">
               ← Back to home
             </button>
           </form>
@@ -174,7 +180,7 @@ export default function SharedBookPage({ token }) {
   const wordCount = vocabulary.length;
 
   return (
-    <div className="min-h-screen bg-white px-4 py-4 text-slate-900 dark:bg-slate-950 dark:text-slate-100 sm:px-6 sm:py-6 lg:px-8">
+    <div className="min-h-screen bg-background px-4 py-4 text-foreground sm:px-6 sm:py-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] max-w-4xl flex-col gap-6">
 
         {/* Header */}
@@ -183,14 +189,14 @@ export default function SharedBookPage({ token }) {
             <div className="flex items-center justify-between gap-4">
               <div className="flex items-center gap-3">
                 <button type="button" onClick={() => navigate('/')}>
-                  <img src="/logo.svg" alt="Logo" className="h-10 w-10 rounded-2xl border border-slate-200 bg-white p-1 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
+                  <img src="/logo.svg" alt="Logo" className="h-10 w-10 rounded-2xl border border-border bg-background p-1 shadow-sm" />
                 </button>
                 <div>
-                  <h1 className="font-black text-slate-900 dark:text-white">{bookData.title}</h1>
-                  {bookData.description && <p className="text-sm text-slate-500">{bookData.description}</p>}
+                  <h1 className="font-black text-foreground">{bookData.title}</h1>
+                  {bookData.description && <p className="text-sm text-muted-foreground">{bookData.description}</p>}
                   {bookData.teacher_email && (
-                    <p className="mt-0.5 text-xs text-slate-400">
-                      by <span className="font-medium text-green-700 dark:text-green-400">{bookData.teacher_email.split('@')[0]}</span>
+                    <p className="mt-0.5 text-xs text-muted-foreground">
+                      by <span className="font-medium text-primary">{bookData.teacher_email.split('@')[0]}</span>
                     </p>
                   )}
                 </div>
@@ -210,7 +216,7 @@ export default function SharedBookPage({ token }) {
               <select
                 value={selectedSection?.id ?? ''}
                 onChange={(e) => handleSectionChange(sections.find((s) => s.id === e.target.value))}
-                className="flex-1 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                className="flex-1 rounded-xl border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary"
               >
                 {sections.map((s) => (
                   <option key={s.id} value={s.id}>{s.title} ({(s.words ?? []).length} words)</option>
@@ -220,27 +226,32 @@ export default function SharedBookPage({ token }) {
 
             {/* Mode tabs */}
             <div className="flex gap-2 shrink-0">
-              {['flashcard', 'quiz'].map((m) => (
-                <button
-                  key={m}
-                  type="button"
-                  onClick={() => handleModeChange(m)}
-                  className={`rounded-xl px-4 py-2 text-sm font-semibold capitalize transition-all ${
-                    mode === m
-                      ? 'bg-green-600 text-white shadow-sm'
-                      : 'border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-300'
-                  }`}
-                >
-                  {m === 'flashcard' ? t.learn ?? 'Flashcard' : t.test ?? 'Quiz'}
-                </button>
-              ))}
+              {['flashcard', 'quiz'].map((m) => {
+                const disabled = m === 'quiz' && vocabulary.length < 4;
+                return (
+                  <button
+                    key={m}
+                    type="button"
+                    disabled={disabled}
+                    onClick={() => !disabled && handleModeChange(m)}
+                    title={disabled ? 'Need at least 4 words for quiz' : undefined}
+                    className={`rounded-xl px-4 py-2 text-sm font-semibold capitalize transition-all ${
+                      mode === m
+                        ? 'bg-primary text-primary-foreground shadow-sm'
+                        : 'border border-border bg-background text-muted-foreground hover:bg-accent'
+                    } ${disabled ? 'cursor-not-allowed opacity-40' : ''}`}
+                  >
+                    {m === 'flashcard' ? t.learn ?? 'Flashcard' : t.test ?? 'Quiz'}
+                  </button>
+                );
+              })}
             </div>
           </CardContent>
         </Card>
 
         {/* Study area */}
         {wordCount === 0 ? (
-          <Card><CardContent className="p-10 text-center text-slate-500">No words in this section yet.</CardContent></Card>
+          <Card><CardContent className="p-10 text-center text-muted-foreground">No words in this section yet.</CardContent></Card>
         ) : mode === 'flashcard' ? (
           <>
             <Flashcard
@@ -254,7 +265,7 @@ export default function SharedBookPage({ token }) {
               <Button variant="outline" onClick={handlePrev} disabled={currentIndex === 0} className="gap-2">
                 <ArrowLeft className="h-4 w-4" /> {t.prev ?? 'Prev'}
               </Button>
-              <span className="text-sm text-slate-500">{currentIndex + 1} / {wordCount}</span>
+              <span className="text-sm text-muted-foreground">{currentIndex + 1} / {wordCount}</span>
               <Button variant="outline" onClick={handleNext} disabled={currentIndex === wordCount - 1} className="gap-2">
                 {t.next ?? 'Next'} <ArrowRight className="h-4 w-4" />
               </Button>
@@ -263,7 +274,7 @@ export default function SharedBookPage({ token }) {
         ) : (
           <Quiz
             vocabulary={vocabulary}
-            choicePool={vocabulary}
+            allChoices={allChoices}
             currentIndex={currentIndex}
             answeredQuestion={answeredQuestion}
             onAnswer={handleAnswer}

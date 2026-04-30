@@ -9,7 +9,10 @@
       "Bash(git add:*)",
       "Bash(git commit -m ':*)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d['items'][0], ensure_ascii=False, indent=2\\)\\)\")",
-      "Bash(node scripts/build-search-index.mjs)"
+      "Bash(node scripts/build-search-index.mjs)",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app show --stat 54e156a)",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app show 17010fd -- src/pages/StudentDashboard.jsx)",
+      "Bash(git -C /Users/phuchuynh/Desktop/chinese-learning-app diff --stat HEAD)"
     ]
   }
 }

@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Plus, Trash2, ChevronRight, Save, Loader2, Layers3, FileText, Pencil } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '@/contexts/AuthContext';
+import { useAuthStore } from '@/store/authStore';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import ShareControls from '@/components/ShareControls';
 import TeacherLayout from './TeacherLayout';
 
 export default function BookEditor({ bookId, onShareChange }) {
-  const { user } = useAuth();
+  const { user } = useAuthStore();
   const navigate = useNavigate();
 
   const [book, setBook] = useState(null);
@@ -119,7 +119,7 @@ export default function BookEditor({ bookId, onShareChange }) {
       <div className="flex flex-col gap-3">
         {[1,2].map((i) => (
           <Card key={i}><CardContent className="p-5">
-            <div className="h-4 w-48 animate-pulse rounded bg-slate-200 dark:bg-slate-700" />
+            <div className="h-4 w-48 animate-pulse rounded bg-muted" />
           </CardContent></Card>
         ))}
       </div>
@@ -128,19 +128,19 @@ export default function BookEditor({ bookId, onShareChange }) {
 
   return (
     <TeacherLayout crumbs={[{ label: book?.title ?? 'Book', path: `/teacher/books/${bookId}` }]}>
-      <Card className="overflow-hidden border-theme-border bg-gradient-to-br from-[#ECFAE5] via-white to-[#F8FFF5] shadow-soft dark:from-slate-900 dark:via-slate-900 dark:to-slate-800">
+      <Card className="overflow-hidden border-theme-border bg-gradient-to-br from-theme-surface via-background to-background shadow-soft">
         <CardContent className="p-4 sm:p-5">
           <div className="flex flex-col gap-3">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
               <div className="max-w-2xl space-y-3">
                 <div className="flex flex-wrap items-center gap-3">
-                  <h2 className="text-2xl font-semibold text-green-700 dark:text-green-400">
+                  <h2 className="text-2xl font-semibold text-primary">
                     {book?.title || 'Book details'}
                   </h2>
                   <button
                     type="button"
                     onClick={startEditingBookDetails}
-                    className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-green-200 bg-white text-green-700 transition-colors hover:bg-green-50 dark:border-slate-600 dark:bg-slate-800 dark:text-green-400 dark:hover:bg-slate-700"
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-border bg-background text-primary transition-colors hover:bg-accent"
                     aria-label="Edit book title and description"
                     title="Edit book title and description"
                   >
@@ -148,18 +148,18 @@ export default function BookEditor({ bookId, onShareChange }) {
                   </button>
                 </div>
                 <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-                  <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                    <Layers3 className="h-4 w-4 text-green-600 dark:text-green-400" />
+                  <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                    <Layers3 className="h-4 w-4 text-primary" />
                     <span>Lessons: {sections.length}</span>
                   </div>
-                  <div className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
-                    <FileText className="h-4 w-4 text-green-600 dark:text-green-400" />
+                  <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                    <FileText className="h-4 w-4 text-primary" />
                     <span>
                       Words: {sections.reduce((total, section) => total + (section.words?.length ?? 0), 0)}
                     </span>
                   </div>
                 </div>
-                <p className="max-w-2xl text-sm leading-6 text-slate-600 dark:text-slate-300">
+                <p className="max-w-2xl text-sm leading-6 text-muted-foreground">
                   {book?.description?.trim() || 'No description yet'}
                 </p>
               </div>
@@ -174,8 +174,8 @@ export default function BookEditor({ bookId, onShareChange }) {
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div className="space-y-1">
-          <h3 className="text-xl font-black tracking-tight text-slate-900 dark:text-white">Lessons in this book</h3>
-          <p className="text-sm text-slate-500 dark:text-slate-400">
+          <h3 className="text-xl font-black tracking-tight text-foreground">Lessons in this book</h3>
+          <p className="text-sm text-muted-foreground">
             Create lessons here, then open each one to manage words, Excel import, and editing.
           </p>
         </div>
@@ -185,12 +185,12 @@ export default function BookEditor({ bookId, onShareChange }) {
       </div>
 
       {addingSection && (
-        <Card className="border-green-200 bg-green-50/80 shadow-soft dark:border-green-800/40 dark:bg-green-900/10">
+        <Card className="border-primary/20 bg-primary/5 shadow-soft">
           <CardContent className="p-5">
             <form onSubmit={addSection} className="flex flex-col gap-4">
               <div className="space-y-1">
-                <h4 className="text-base font-bold text-slate-800 dark:text-white">Create a new lesson</h4>
-                <p className="text-sm text-slate-600 dark:text-slate-300">
+                <h4 className="text-base font-bold text-foreground">Create a new lesson</h4>
+                <p className="text-sm text-muted-foreground">
                   Use a clear lesson name such as `Lesson 1`, `Unit 2`, or a topic title.
                 </p>
               </div>
@@ -201,7 +201,7 @@ export default function BookEditor({ bookId, onShareChange }) {
                 value={newSectionTitle}
                 onChange={(e) => setNewSectionTitle(e.target.value)}
                 placeholder="Section title (e.g. Unit 1)"
-                className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 disabled:opacity-50 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                className="w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary disabled:opacity-50"
               />
               <div className="flex flex-wrap gap-2">
                 <Button type="submit" size="sm" disabled={submittingSection} className="gap-1.5 min-w-[70px]">
@@ -219,10 +219,10 @@ export default function BookEditor({ bookId, onShareChange }) {
         <Card>
           <CardContent className="p-10 text-center">
             <div className="mx-auto flex max-w-md flex-col items-center gap-3">
-              <Layers3 className="h-10 w-10 text-slate-300 dark:text-slate-600" />
+              <Layers3 className="h-10 w-10 text-muted-foreground" />
               <div className="space-y-1">
-                <p className="text-lg font-semibold text-slate-700 dark:text-slate-200">No lessons yet</p>
-                <p className="text-sm text-slate-500 dark:text-slate-400">
+                <p className="text-lg font-semibold text-foreground">No lessons yet</p>
+                <p className="text-sm text-muted-foreground">
                   Add the first lesson in this book, then open it to import or edit vocabulary.
                 </p>
               </div>
@@ -233,12 +233,12 @@ export default function BookEditor({ bookId, onShareChange }) {
         <div className="max-h-[70vh] overflow-y-auto pr-1 sm:max-h-[620px]">
           <div className="flex flex-col gap-3">
           {sections.map((section) => (
-            <Card key={section.id} className="group overflow-hidden border-slate-200/80 transition-shadow hover:shadow-md/70">
+            <Card key={section.id} className="group overflow-hidden border-border/80 transition-shadow hover:shadow-md/70">
               <CardContent className="flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between">
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
-                    <p className="text-lg font-bold text-slate-800 dark:text-white">{section.title}</p>
-                    <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+                    <p className="text-lg font-bold text-foreground">{section.title}</p>
+                    <span className="rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground">
                       {section.words?.length ?? 0} words
                     </span>
                   </div>
@@ -273,18 +273,18 @@ export default function BookEditor({ bookId, onShareChange }) {
 
       {editingBookDetails && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/50 px-4 py-6 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-background/60 px-4 py-6 backdrop-blur-sm"
           onClick={cancelEditingBookDetails}
         >
           <Card
-            className="w-full max-w-lg border-slate-200 shadow-2xl"
+            className="w-full max-w-lg border-border shadow-2xl"
             onClick={(event) => event.stopPropagation()}
           >
             <CardContent className="p-5 sm:p-6">
               <form onSubmit={saveBook} className="flex flex-col gap-4">
                 <div className="space-y-1">
-                  <h3 className="text-lg font-bold text-slate-800 dark:text-white">Edit book details</h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <h3 className="text-lg font-bold text-foreground">Edit book details</h3>
+                  <p className="text-sm text-muted-foreground">
                     Update the title and description shown on this book page.
                   </p>
                 </div>
@@ -294,14 +294,14 @@ export default function BookEditor({ bookId, onShareChange }) {
                   value={editTitle}
                   onChange={(e) => setEditTitle(e.target.value)}
                   placeholder="Book title"
-                  className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                  className="rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
                 />
                 <textarea
                   rows={4}
                   value={editDesc}
                   onChange={(e) => setEditDesc(e.target.value)}
                   placeholder="Description (optional)"
-                  className="resize-y rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 dark:border-slate-600 dark:bg-slate-700 dark:text-white"
+                  className="resize-y rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
                 />
                 {bookError && <p className="text-sm text-rose-500">{bookError}</p>}
                 <div className="flex flex-wrap justify-end gap-2">

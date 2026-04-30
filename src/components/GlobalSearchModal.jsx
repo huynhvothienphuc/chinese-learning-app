@@ -80,7 +80,7 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
       <div className="w-full max-w-xl rounded-2xl border border-theme-border bg-theme-surface shadow-2xl overflow-hidden">
         {/* Search input */}
         <div className="flex items-center gap-2 px-4 py-3 border-b border-theme-border">
-          <Search className="h-4 w-4 shrink-0 text-slate-400" />
+          <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
           <input
             ref={inputRef}
             type="search"
@@ -88,9 +88,9 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={t.globalSearchPlaceholder}
-            className="flex-1 bg-transparent text-sm outline-none placeholder:text-slate-400 dark:text-white"
+            className="flex-1 bg-transparent text-sm outline-none placeholder:text-muted-foreground"
           />
-          <button type="button" onClick={onClose} aria-label={t.globalSearchClose} className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+          <button type="button" onClick={onClose} aria-label={t.globalSearchClose} className="text-muted-foreground hover:text-muted-foreground dark:hover:text-slate-200">
             <X className="h-4 w-4" />
           </button>
         </div>
@@ -98,15 +98,15 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
         {/* Results */}
         <div className="max-h-[60vh] overflow-y-auto">
           {isLoading && (
-            <p className="px-4 py-6 text-center text-sm text-slate-400">{t.globalSearchLoading}</p>
+            <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchLoading}</p>
           )}
 
           {!isLoading && query.trim() && results.length === 0 && (
-            <p className="px-4 py-6 text-center text-sm text-slate-400">{t.globalSearchNoResults}</p>
+            <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchNoResults}</p>
           )}
 
           {!isLoading && !query.trim() && (
-            <p className="px-4 py-6 text-center text-sm text-slate-400">{t.globalSearchEmptyState}</p>
+            <p className="px-4 py-6 text-center text-sm text-muted-foreground">{t.globalSearchEmptyState}</p>
           )}
 
           {results.map((item) => (

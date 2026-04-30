@@ -29,6 +29,7 @@ export default function StudyDeckPanel({
   activeTab,
   onTabChange,
   booksLoading,
+  disabledTabs = [],
 }) {
   return (
     <Card className="animate-float-in border-theme-border bg-theme-surface shadow-soft">
@@ -36,7 +37,7 @@ export default function StudyDeckPanel({
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
           <div className="space-y-1 min-w-0">
             <div className="flex h-5 items-center gap-2">
-              <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.bookLabel}</label>
+              <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">{t.bookLabel}</label>
               {booksLoading && <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-green-400 border-t-transparent" />}
             </div>
             <Select className="min-w-0 w-full" value={selectedBook} onChange={(event) => onBookChange(event.target.value)} disabled={booksLoading && books.length === 0}>
@@ -47,7 +48,7 @@ export default function StudyDeckPanel({
           </div>
           <div className="space-y-1 min-w-0">
             <div className="flex h-5 items-center">
-              <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{t.lessonLabel}</label>
+              <label className="px-1 text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">{t.lessonLabel}</label>
             </div>
             <SectionSelector
               sections={sections}
@@ -59,7 +60,7 @@ export default function StudyDeckPanel({
             />
           </div>
         </div>
-        <StudyModeTabs t={t} activeTab={activeTab} onChange={onTabChange} embedded />
+        <StudyModeTabs t={t} activeTab={activeTab} onChange={onTabChange} embedded disabledTabs={disabledTabs} />
       </CardContent>
     </Card>
   );

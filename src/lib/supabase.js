@@ -1,13 +1,43 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const env = import.meta.env ?? {};
+const supabaseUrl = env.VITE_SUPABASE_URL;
+const supabaseAnonKey = env.VITE_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.warn('[Supabase] Missing env vars — teacher features will be unavailable.');
 }
 
-export const supabase = createClient(supabaseUrl ?? '', supabaseAnonKey ?? '');
+function unavailableResult() {
+  return Promise.resolve({ data: null, error: new Error('Supabase is not configured.') });
+}
+
+function unavailableQuery() {
+  const result = unavailableResult();
+  const query = {};
+  ['select', 'eq', 'order', 'insert', 'delete', 'update', 'single', 'maybeSingle'].forEach((method) => {
+    query[method] = () => query;
+  });
+  query.then = result.then.bind(result);
+  query.catch = result.catch.bind(result);
+  query.finally = result.finally.bind(result);
+  return query;
+}
+
+const unavailableSupabase = {
+  auth: {
+    getSession: () => Promise.resolve({ data: { session: null }, error: null }),
+    onAuthStateChange: () => ({ data: { subscription: { unsubscribe: () => {} } } }),
+    signInWithOAuth: () => unavailableResult(),
+    signOut: () => Promise.resolve({ error: null }),
+  },
+  from: () => unavailableQuery(),
+  rpc: () => unavailableResult(),
+};
+
+export const supabase = supabaseUrl && supabaseAnonKey
+  ? createClient(supabaseUrl, supabaseAnonKey)
+  : unavailableSupabase;
 
 // ── Student vocab sets (max 3 per user, 100 words each) ──────────────────────
 
@@ -56,6 +86,16 @@ export async function trackWordStat(userId, { bookId, sectionId, itemId, isCorre
   });
 }
 
+export async function updateStreak(userId) {
+  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD local date
+  const { data, error } = await supabase.rpc('update_streak', {
+    p_user_id: userId,
+    p_today: today,
+  });
+  if (error) throw error;
+  return data; // { current_streak, longest_streak, updated }
+}
+
 // Track quiz completion for a lesson
 export async function trackLessonStat(userId, { bookId, sectionId, sectionTitle, score, total }) {
   await supabase.rpc('upsert_lesson_stat', {
@@ -83,9 +123,24 @@ export async function loadLessonStats(userId) {
     .from('user_lesson_stats')
     .select('*')
     .eq('user_id', userId)
-    .order('last_attempt', { ascending: false });
+    .order('last_attempt', { ascending: false })
+    .limit(50);
   if (error) throw error;
   return data ?? [];
+}
+
+// ── Leaderboard ───────────────────────────────────────────────────────────────
+
+export async function loadLeaderboard() {
+  const { data, error } = await supabase.rpc('get_leaderboard', { p_limit: 20 });
+  if (error) throw error;
+  return data ?? [];
+}
+
+export async function loadMyRank() {
+  const { data, error } = await supabase.rpc('get_my_rank');
+  if (error) throw error;
+  return data; // { username, current_streak, longest_streak, current_rank, alltime_rank }
 }
 
 // ── Feedback ─────────────────────────────────────────────────────────────────

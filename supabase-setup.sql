@@ -149,6 +149,59 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute function handle_new_user();
 
+-- ============================================================
+-- Leaderboard: top N members ranked by current streak
+-- SECURITY DEFINER so it can read auth.users metadata
+-- ============================================================
+create or replace function get_leaderboard(p_limit int default 20)
+returns json language plpgsql security definer as $$
+begin
+  return (
+    select json_agg(row_to_json(t))
+    from (
+      select
+        p.username,
+        u.raw_user_meta_data->>'avatar_url' as avatar_url,
+        coalesce(p.current_streak, 0) as current_streak
+      from profiles p
+      join auth.users u on u.id = p.user_id
+      where p.is_active = true
+        and p.role = 'member'
+        and coalesce(p.current_streak, 0) > 0
+      order by p.current_streak desc
+      limit p_limit
+    ) t
+  );
+end;
+$$;
+
+-- Returns the calling user's global rank and current streak
+create or replace function get_my_rank()
+returns json language plpgsql security definer as $$
+declare
+  v_result json;
+begin
+  select json_build_object(
+    'username',       p.username,
+    'current_streak', coalesce(p.current_streak, 0),
+    'current_rank',   ranked.rn
+  ) into v_result
+  from profiles p
+  join (
+    select
+      user_id,
+      row_number() over (order by coalesce(current_streak, 0) desc) as rn
+    from profiles
+    where is_active = true
+      and role = 'member'
+      and coalesce(current_streak, 0) > 0
+  ) ranked on ranked.user_id = p.user_id
+  where p.user_id = auth.uid();
+
+  return v_result;
+end;
+$$;
+
 create or replace function set_share_password(p_book_id uuid, p_password text)
 returns void language plpgsql security definer as $$
 begin
