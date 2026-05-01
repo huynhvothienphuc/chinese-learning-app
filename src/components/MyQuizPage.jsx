@@ -404,7 +404,14 @@ export default function MyQuizPage({ books, uploadedLessons, favoriteVocabulary,
                 )}
               </>
             )}
-            <div className="mt-4 flex justify-end">
+            <div className="mt-4 flex items-center justify-end gap-3">
+              {tooFew && !isLoadingAny && (
+                <p className="text-sm text-muted-foreground">
+                  {checkedSections.size === 0 && !isFavoritesMode
+                    ? t.myQuizNoLessons
+                    : t.myQuizTooFew}
+                </p>
+              )}
               <Button
                 type="button"
                 disabled={tooFew || isLoadingAny}
