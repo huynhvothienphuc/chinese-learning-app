@@ -34,6 +34,8 @@ export default function Navbar({
   const { pathname } = useLocation();
 
   const [showSignIn] = useState(false);
+  const [showLeaderboard] = useState(false);
+  const [showFeedback] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef(null);
   const [avatarOpen, setAvatarOpen] = useState(false);
@@ -114,20 +116,24 @@ export default function Navbar({
             </Tooltip>
 
             {/* Leaderboard */}
-            <Tooltip text={t.labelLeaderboard}>
-              <Button type="button" variant={pathname === '/leaderboard' ? 'default' : 'outline'} size="icon" className="w-auto gap-1.5 px-3" onClick={() => navigate('/leaderboard')}>
-                <Trophy className="h-4 w-4 shrink-0" />
-                <span className="hidden text-xs sm:inline">{t.labelLeaderboard}</span>
-              </Button>
-            </Tooltip>
+            {showLeaderboard && (
+              <Tooltip text={t.labelLeaderboard}>
+                <Button type="button" variant={pathname === '/leaderboard' ? 'default' : 'outline'} size="icon" className="w-auto gap-1.5 px-3" onClick={() => navigate('/leaderboard')}>
+                  <Trophy className="h-4 w-4 shrink-0" />
+                  <span className="hidden text-xs sm:inline">{t.labelLeaderboard}</span>
+                </Button>
+              </Tooltip>
+            )}
 
             {/* Feedback */}
-            <Tooltip text={t.feedbackNav}>
-              <Button type="button" variant={pathname === '/feedback' ? 'default' : 'outline'} size="icon" className="w-auto gap-1.5 px-3" onClick={() => navigate('/feedback')}>
-                <MessageSquare className="h-4 w-4 shrink-0" />
-                <span className="hidden text-xs sm:inline">{t.feedbackNav}</span>
-              </Button>
-            </Tooltip>
+            {showFeedback && (
+              <Tooltip text={t.feedbackNav}>
+                <Button type="button" variant={pathname === '/feedback' ? 'default' : 'outline'} size="icon" className="w-auto gap-1.5 px-3" onClick={() => navigate('/feedback')}>
+                  <MessageSquare className="h-4 w-4 shrink-0" />
+                  <span className="hidden text-xs sm:inline">{t.feedbackNav}</span>
+                </Button>
+              </Tooltip>
+            )}
 
             {/* Settings */}
             <div className="relative" ref={settingsRef}>
