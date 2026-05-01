@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
 import { submitFeedback } from '@/lib/supabase';
+import { useAuthStore } from '@/store/authStore';
 
 const MAX_LENGTH = 1000;
 const MIN_LENGTH = 5;
@@ -12,6 +13,7 @@ const MIN_LENGTH = 5;
 export default function FeedbackPage() {
   const { t } = useOutletContext();
   const navigate = useNavigate();
+  const { user } = useAuthStore();
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
   const [errorMsg, setErrorMsg] = useState('');
@@ -60,7 +62,12 @@ export default function FeedbackPage() {
           </CardHeader>
 
           <CardContent className="pt-6">
-            {status === 'success' ? (
+            {!user ? (
+              <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-border bg-muted/40 px-6 py-10 text-center">
+                <p className="text-sm text-muted-foreground">{t.feedbackLoginRequired}</p>
+                <Button onClick={() => navigate('/thisisadmin')}>{t.signIn ?? 'Sign In'}</Button>
+              </div>
+            ) : status === 'success' ? (
               <div className="flex flex-col items-center gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 px-6 py-10 text-center dark:border-emerald-800 dark:bg-emerald-900/20">
                 <span className="text-4xl">🎉</span>
                 <p className="text-lg font-bold text-emerald-700 dark:text-emerald-400">{t.feedbackSuccessTitle}</p>

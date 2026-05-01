@@ -7,7 +7,7 @@ async function fetchRole(userId) {
     .select('role, is_active')
     .eq('user_id', userId)
     .single();
-  if (data?.is_active) return data.role;
+  if (data?.is_active) return data.role === 'admin' ? 'superadmin' : data.role;
   return null;
 }
 
