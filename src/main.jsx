@@ -32,6 +32,19 @@ Sentry.init({
 });
 
 function ErrorFallback({ error }) {
+  const isChunkError = error?.message?.includes('Failed to fetch dynamically imported module')
+    || error?.message?.includes('Loading chunk')
+    || error?.message?.includes('is not a valid JavaScript MIME type');
+
+  if (isChunkError) {
+    const reloaded = sessionStorage.getItem('chunk_reload');
+    if (!reloaded) {
+      sessionStorage.setItem('chunk_reload', '1');
+      window.location.reload();
+      return null;
+    }
+  }
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4 text-center">
       <p className="text-4xl">⚠️</p>
@@ -39,7 +52,7 @@ function ErrorFallback({ error }) {
       <p className="max-w-sm text-sm text-muted-foreground">{error?.message ?? 'An unexpected error occurred.'}</p>
       <button
         type="button"
-        onClick={() => window.location.reload()}
+        onClick={() => { sessionStorage.removeItem('chunk_reload'); window.location.reload(); }}
         className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:brightness-110"
       >
         Reload page

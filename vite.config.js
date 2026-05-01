@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   build: {
-    sourcemap: 'hidden',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {
