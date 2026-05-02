@@ -110,9 +110,7 @@ export default function UploadGuide({
   return (
     <div className="space-y-6 animate-float-in">
       <Card className="overflow-hidden border-border bg-card shadow-soft">
-        <CardHeader className="space-y-3">
-          <CardTitle className="text-3xl font-black">{t.uploadTitle}</CardTitle>
-        </CardHeader>
+
         <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {steps.map(({ icon: Icon, title, description }) => (
             <div key={title} className="rounded-3xl border border-border bg-muted/40 p-5">
