@@ -89,8 +89,6 @@ export default function UploadGuide({
   uploadError,
   uploadDisabled = false,
   cooldownSecondsLeft = 0,
-  uploadedLessons = [],
-  onDeleteLesson,
   supabaseSets = [],
   onDeleteSupabaseSet,
   supabaseSlotsUsed = 0,
@@ -103,10 +101,8 @@ export default function UploadGuide({
     { icon: Upload, title: t.step4Title, description: t.step4Description },
   ];
 
-  const allSets = [
-    ...supabaseSets.map((s) => ({ ...s, source: 'supabase', items: s.items ?? [] })),
-    ...uploadedLessons.map((l) => ({ ...l, source: 'browser' })),
-  ];
+  const allSets = [...supabaseSets].reverse()
+    .map((s, i) => ({ ...s, title: `Word Bank ${i + 1}`, source: 'supabase', items: s.items ?? [] }));
 
   const SUPABASE_LIMIT = 3;
   const supabaseFull = supabaseSlotsUsed >= SUPABASE_LIMIT;
@@ -115,9 +111,7 @@ export default function UploadGuide({
     <div className="space-y-6 animate-float-in">
       <Card className="overflow-hidden border-border bg-card shadow-soft">
         <CardHeader className="space-y-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">{t.uploadLesson}</p>
           <CardTitle className="text-3xl font-black">{t.uploadTitle}</CardTitle>
-          <CardDescription className="max-w-3xl text-base leading-7">{t.uploadDescription}</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {steps.map(({ icon: Icon, title, description }) => (
@@ -258,7 +252,7 @@ export default function UploadGuide({
                     key={set.id}
                     lesson={set}
                     t={t}
-                    onDelete={set.source === 'supabase' ? onDeleteSupabaseSet : onDeleteLesson}
+                    onDelete={onDeleteSupabaseSet}
                   />
                 ))}
               </CardContent>

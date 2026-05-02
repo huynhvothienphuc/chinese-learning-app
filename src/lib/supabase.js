@@ -73,6 +73,35 @@ export async function deleteStudentSet(setId) {
   if (error) throw error;
 }
 
+// ── Country detection ────────────────────────────────────────────────────────
+
+export async function syncUserCountry(userId) {
+  if (!userId) return;
+  try {
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('country')
+      .eq('user_id', userId)
+      .single();
+    if (profile?.country) return; // already set
+    const res = await fetch('/api/geo');
+    const { country } = await res.json();
+    if (!country) return;
+    await supabase.from('profiles').update({ country }).eq('user_id', userId);
+  } catch {
+    // non-critical — silently ignore
+  }
+}
+
+// ── Analytics events ─────────────────────────────────────────────────────────
+
+export async function trackAnalyticsEvent(userId, { event, bookId, sectionId, value }) {
+  if (!userId || !event) return;
+  await supabase.from('analytics_events').insert({
+    user_id: userId, event, book_id: bookId, section_id: sectionId, value: value ?? null,
+  });
+}
+
 // ── Word & Lesson tracking ────────────────────────────────────────────────────
 
 // Track a word seen in flashcard (isCorrect=null) or answered in quiz (true/false)
@@ -212,6 +241,18 @@ function sanitizeMessage(raw) {
     .slice(0, FEEDBACK_MAX_LENGTH);
 }
 
+export async function getTodayFeedbackCount(userId) {
+  if (!userId) return 0;
+  const since = new Date();
+  since.setHours(0, 0, 0, 0);
+  const { count } = await supabase
+    .from('feedback')
+    .select('*', { count: 'exact', head: true })
+    .eq('user_id', userId)
+    .gte('created_at', since.toISOString());
+  return count ?? 0;
+}
+
 export async function submitFeedback(rawMessage) {
   const message = sanitizeMessage(rawMessage);
 
@@ -219,14 +260,18 @@ export async function submitFeedback(rawMessage) {
     throw new Error(`Message must be at least ${FEEDBACK_MIN_LENGTH} characters.`);
   }
 
-  // Client-side rate limit
+  // Client-side rate limit (UX guard — DB RLS enforces the real limit)
   const last = Number(localStorage.getItem(FEEDBACK_COOLDOWN_KEY) ?? 0);
   if (Date.now() - last < FEEDBACK_COOLDOWN_MS) {
     const wait = Math.ceil((FEEDBACK_COOLDOWN_MS - (Date.now() - last)) / 1000);
     throw new Error(`Please wait ${wait}s before submitting again.`);
   }
 
-  const { error } = await supabase.from('feedback').insert({ message });
+  const { data: { session } } = await supabase.auth.getSession();
+  const userId = session?.user?.id;
+  if (!userId) throw new Error('You must be signed in to submit feedback.');
+
+  const { error } = await supabase.from('feedback').insert({ message, user_id: userId });
   if (error) throw error;
 
   localStorage.setItem(FEEDBACK_COOLDOWN_KEY, String(Date.now()));

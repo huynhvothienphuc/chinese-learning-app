@@ -1,20 +1,18 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, useOutletContext } from 'react-router-dom';
-import { BookOpen, CheckCircle2, XCircle, Clock, RefreshCw, Trash2, Library } from 'lucide-react';
+import { useQueryClient } from '@tanstack/react-query';
+import { BookOpen, CheckCircle2, XCircle, Clock, RefreshCw, Trash2, Library, Eye, Download, Loader2 } from 'lucide-react';
 import { useAuthStore } from '@/store/authStore';
-import { useLessonStats } from '@/hooks/useStudentData';
+import { useLessonStats, useStudentSets } from '@/hooks/useStudentData';
 import { useStreak } from '@/hooks/useStreak';
 import { useBooks } from '@/hooks/useVocabData';
+import { deleteStudentSet } from '@/lib/supabase';
+import { exportVocabularyToExcel } from '@/lib/excel';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { Modal, ModalHeader, ModalBody, ModalFooter } from '@/components/ui/Modal';
 import { cn } from '@/lib/utils';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
-
-const MOCK_BANKS = [
-  { id: 1, title: 'HSK 1 Vocabulary', count: 50 },
-  { id: 2, title: 'Food & Drinks', count: 30 },
-  { id: 3, title: 'My Custom Words', count: 18 },
-];
 
 
 function SectionHeader({ icon: Icon, title, action }) {
@@ -32,11 +30,13 @@ function SectionHeader({ icon: Icon, title, action }) {
 export default function StudentDashboard() {
   const { user, role, roleReady, authReady } = useAuthStore();
   const navigate = useNavigate();
+  const queryClient = useQueryClient();
   const { books: contextBooks = [], t } = useOutletContext() ?? {};
   const { data: booksData = [] } = useBooks(user?.id, authReady);
   const books = booksData.length > 0 ? booksData : contextBooks;
   const { data: lessonStats = [], isLoading, isFetching, refetch } = useLessonStats(user?.id);
-  const { streak } = useStreak({ userId: user?.id, isMember: role === 'member' });
+  const { data: wordBanks = [], isLoading: banksLoading } = useStudentSets(user?.id);
+  const { streak } = useStreak({ userId: user?.id, isMember: ['member', 'teacher', 'admin', 'superadmin'].includes(role) });
 
   function getBookTitle(bookId) {
     if (!bookId) return '';
@@ -48,8 +48,26 @@ export default function StudentDashboard() {
   }
 
   useEffect(() => {
-    if (roleReady && role && role !== 'member') navigate('/');
+    if (roleReady && role && !['member', 'teacher', 'admin', 'superadmin'].includes(role)) navigate('/');
   }, [roleReady, role, navigate]);
+
+  const [viewingBank, setViewingBank] = useState(null);
+  const [exporting, setExporting] = useState(false);
+
+  async function handleExportBank() {
+    if (!viewingBank) return;
+    setExporting(true);
+    try {
+      await exportVocabularyToExcel(viewingBank.items, viewingBank.label);
+    } finally {
+      setExporting(false);
+    }
+  }
+
+  async function handleDeleteWordBank(id) {
+    await deleteStudentSet(id);
+    queryClient.invalidateQueries({ queryKey: ['studentSets', user?.id] });
+  }
 
   if (!roleReady) return (
     <div className="flex items-center justify-center py-24">
@@ -119,25 +137,48 @@ export default function StudentDashboard() {
               icon={Library}
               title={t.dashboardWordBank}
               action={
-                <Button variant="outline" size="sm" className="h-7 gap-1 text-xs px-2" disabled={MOCK_BANKS.length >= 3}>
+                <Button variant="outline" size="sm" className="h-7 gap-1 text-xs px-2" onClick={() => navigate('/upload-word')} disabled={wordBanks.length >= 3}>
                   {t.dashboardNewBank}
                 </Button>
               }
             />
-            <div className="flex flex-col gap-2">
-              {MOCK_BANKS.map((bank) => (
-                <div key={bank.id} className="flex items-center justify-between gap-3 rounded-xl border border-border px-3 py-2.5 hover:bg-muted/50 transition-colors">
-                  <div className="min-w-0">
-                    <p className="text-sm font-semibold truncate">{bank.title}</p>
-                    <p className="text-xs text-muted-foreground">{bank.count} {t.dashboardWords}</p>
+            {banksLoading ? (
+              <div className="flex flex-col gap-2">
+                {[...Array(2)].map((_, i) => (
+                  <div key={i} className="h-12 animate-pulse rounded-xl bg-muted" />
+                ))}
+              </div>
+            ) : wordBanks.length === 0 ? (
+              <p className="text-sm text-muted-foreground">{t.dashboardNoWordBanks ?? 'No word banks yet. Upload an Excel file to get started.'}</p>
+            ) : (
+              <div className="flex flex-col gap-2">
+                {[...wordBanks].reverse().map((bank, i) => (
+                  <div key={bank.id} className="flex items-center justify-between gap-3 rounded-xl border border-border px-3 py-2.5 hover:bg-muted/50 transition-colors">
+                    <div className="min-w-0">
+                      <p className="text-sm font-semibold truncate">{`Word Bank ${i + 1}`}</p>
+                      <p className="text-xs text-muted-foreground">{bank.items?.length ?? 0} {t.dashboardWords}</p>
+                    </div>
+                    <div className="flex shrink-0 items-center gap-1">
+                      <button
+                        type="button"
+                        onClick={() => setViewingBank({ ...bank, label: `Word Bank ${i + 1}` })}
+                        className="rounded-lg p-1.5 text-muted-foreground hover:bg-primary/10 hover:text-primary transition-colors"
+                      >
+                        <Eye className="h-3.5 w-3.5" />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleDeleteWordBank(bank.id)}
+                        className="rounded-lg p-1.5 text-muted-foreground hover:bg-rose-50 hover:text-rose-500 dark:hover:bg-rose-950/30 transition-colors"
+                      >
+                        <Trash2 className="h-3.5 w-3.5" />
+                      </button>
+                    </div>
                   </div>
-                  <button type="button" className="shrink-0 rounded-lg p-1.5 text-muted-foreground hover:bg-rose-50 hover:text-rose-500 dark:hover:bg-rose-950/30 transition-colors">
-                    <Trash2 className="h-3.5 w-3.5" />
-                  </button>
-                </div>
-              ))}
-            </div>
-            <p className="mt-3 text-xs text-muted-foreground">{t.dashboardSlotsUsed?.replace('{used}', MOCK_BANKS.length).replace('{max}', 3)}</p>
+                ))}
+              </div>
+            )}
+            <p className="mt-3 text-xs text-muted-foreground">{t.dashboardSlotsUsed?.replace('{used}', wordBanks.length).replace('{max}', 3)}</p>
           </CardContent>
         </Card>
 
@@ -193,6 +234,41 @@ export default function StudentDashboard() {
         </Card>
 
       </div>
+
+      <Modal open={!!viewingBank} onClose={() => setViewingBank(null)} className="max-w-lg">
+        <ModalHeader onClose={() => setViewingBank(null)}>
+          <h2 className="text-base font-bold">{viewingBank?.label}</h2>
+          <p className="text-xs text-muted-foreground">{viewingBank?.items?.length ?? 0} {t.dashboardWords}</p>
+        </ModalHeader>
+        <ModalBody className="p-0">
+          <div className="max-h-[60vh] overflow-y-auto">
+            <table className="w-full text-sm">
+              <thead className="sticky top-0 bg-muted text-xs uppercase tracking-wide text-muted-foreground">
+                <tr>
+                  <th className="px-4 py-2.5 text-left">Chinese</th>
+                  <th className="px-4 py-2.5 text-left">Pinyin</th>
+                  <th className="px-4 py-2.5 text-left">Meaning</th>
+                </tr>
+              </thead>
+              <tbody>
+                {(viewingBank?.items ?? []).map((item, i) => (
+                  <tr key={item.id ?? i} className="border-t border-border hover:bg-muted/40 transition-colors">
+                    <td className="px-4 py-2.5 font-bold">{item.chinese}</td>
+                    <td className="px-4 py-2.5 text-muted-foreground">{item.pinyin}</td>
+                    <td className="px-4 py-2.5 text-muted-foreground">{item.vietnamese || item.english}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </ModalBody>
+        <ModalFooter>
+          <Button variant="outline" className="gap-2" onClick={handleExportBank} disabled={exporting}>
+            {exporting ? <Loader2 className="h-4 w-4 animate-spin" /> : <Download className="h-4 w-4" />}
+            Download .xlsx
+          </Button>
+        </ModalFooter>
+      </Modal>
     </div>
   );
 }
