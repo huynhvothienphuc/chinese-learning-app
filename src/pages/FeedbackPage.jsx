@@ -56,7 +56,7 @@ export default function FeedbackPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-theme-surface to-background px-4 py-12">
+    <div className="flex flex-col items-center px-4 py-8">
       <div className="w-full max-w-lg">
         <button
           type="button"
