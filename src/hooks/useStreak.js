@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { updateStreak } from '@/lib/supabase';
+import { updateStreak, loadMyRank } from '@/lib/supabase';
 
 const STREAK_KEY = 'study-streak';
 
@@ -44,6 +44,26 @@ export function useStreak({ userId, isMember } = {}) {
     window.addEventListener('streak-updated', onStreakUpdated);
     return () => window.removeEventListener('streak-updated', onStreakUpdated);
   }, []);
+
+  // Sync DB streak to localStorage on mount (fixes new device / cleared cache)
+  useEffect(() => {
+    if (!userId || !isMember) return;
+    loadMyRank().then((rank) => {
+      if (!rank) return;
+      const dbStreak = rank.current_streak ?? 0;
+      const { lastDate } = readLocal();
+      const today = getTodayStr();
+      const yesterday = getYesterdayStr();
+      if (lastDate === today || lastDate === yesterday) {
+        // localStorage is fresh — trust it but correct the count
+        writeLocal(dbStreak, lastDate);
+      } else {
+        // stale or missing — use DB value
+        writeLocal(dbStreak, lastDate ?? '');
+      }
+      setStreak(dbStreak);
+    }).catch(() => {});
+  }, [userId, isMember]);
 
   function dismissToast() { setToast(null); }
 
