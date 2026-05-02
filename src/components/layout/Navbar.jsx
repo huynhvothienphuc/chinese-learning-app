@@ -33,9 +33,9 @@ export default function Navbar({
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
-  const [showSignIn] = useState(false);
+  const [showSignIn] = useState(true);
   const [showLeaderboard] = useState(false);
-  const showFeedback = !!user;
+  const showFeedback = true;
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef(null);
   const [avatarOpen, setAvatarOpen] = useState(false);
