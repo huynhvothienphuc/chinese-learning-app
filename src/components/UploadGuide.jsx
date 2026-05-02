@@ -205,10 +205,6 @@ export default function UploadGuide({
                 {cooldownSecondsLeft > 0 ? `${t.uploadLesson} (${cooldownSecondsLeft}s)` : t.uploadLesson}
               </Button>
 
-              <div className="rounded-3xl bg-amber-50 p-4 text-sm text-amber-800 dark:bg-amber-900/20 dark:text-amber-300">
-                <p className="font-semibold">{t.browserStorageWarningTitle}</p>
-                <p className="mt-1 text-amber-700 dark:text-amber-400">{t.browserStorageWarningBody}</p>
-              </div>
 
               <div className="rounded-3xl bg-primary/10 p-4 text-sm text-primary">
                 <p className="font-semibold">{t.uploadRules}</p>
