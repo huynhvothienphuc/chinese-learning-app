@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate, useOutletContext } from 'react-router-dom';
 import { ArrowLeft, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
-import { submitFeedback } from '@/lib/supabase';
+import { submitFeedback, getTodayFeedbackCount } from '@/lib/supabase';
 import { useAuthStore } from '@/store/authStore';
 
 const MAX_LENGTH = 1000;
@@ -17,10 +17,24 @@ export default function FeedbackPage() {
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
   const [errorMsg, setErrorMsg] = useState('');
+  const [cooldown, setCooldown] = useState(0);
+  const [todayCount, setTodayCount] = useState(0);
+  const DAILY_LIMIT = 3;
+
+  useEffect(() => {
+    if (user?.id) getTodayFeedbackCount(user.id).then(setTodayCount);
+  }, [user?.id]);
+
+  useEffect(() => {
+    if (cooldown <= 0) return undefined;
+    const id = setInterval(() => setCooldown((c) => Math.max(0, c - 1)), 1000);
+    return () => clearInterval(id);
+  }, [cooldown]);
 
   const trimmed = message.trim();
   const remaining = MAX_LENGTH - trimmed.length;
-  const canSubmit = trimmed.length >= MIN_LENGTH && status !== 'loading';
+  const limitReached = todayCount >= DAILY_LIMIT;
+  const canSubmit = trimmed.length >= MIN_LENGTH && status !== 'loading' && cooldown === 0 && !limitReached;
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -33,6 +47,8 @@ export default function FeedbackPage() {
       await submitFeedback(message);
       setStatus('success');
       setMessage('');
+      setCooldown(30);
+      setTodayCount((c) => c + 1);
     } catch (err) {
       setStatus('error');
       setErrorMsg(err.message ?? t.feedbackSubmitError);
@@ -40,7 +56,7 @@ export default function FeedbackPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-theme-surface to-background px-4 py-12">
+    <div className="flex flex-col items-center px-4 py-8">
       <div className="w-full max-w-lg">
         <button
           type="button"
@@ -108,13 +124,19 @@ export default function FeedbackPage() {
                 </p>
               )}
 
+              {limitReached && (
+                <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm text-amber-700 dark:border-amber-800 dark:bg-amber-900/20 dark:text-amber-400">
+                  You've reached the daily limit ({DAILY_LIMIT} feedbacks). Come back tomorrow!
+                </p>
+              )}
+
                 <Button
                   type="submit"
                   disabled={!canSubmit}
                   className="w-full gap-2"
                 >
                   <Send className="h-4 w-4" />
-                  {status === 'loading' ? t.feedbackSubmitting : t.feedbackSubmit}
+                  {status === 'loading' ? t.feedbackSubmitting : cooldown > 0 ? `${t.feedbackSubmit} (${cooldown}s)` : t.feedbackSubmit}
                 </Button>
               </form>
             )}

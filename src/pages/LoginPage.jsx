@@ -4,6 +4,11 @@ import { useAuthStore } from '@/store/authStore';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
+function isInAppBrowser() {
+  const ua = navigator.userAgent || '';
+  return /FBAN|FBAV|FB_IAB|Instagram|ZaloApp|Line\/|MicroMessenger|Twitter|TikTok/.test(ua);
+}
+
 function GoogleIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="h-5 w-5">
@@ -33,10 +38,20 @@ export default function LoginPage() {
     }
   }
 
+  const inApp = isInAppBrowser();
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <Card className="w-full max-w-sm border-theme-border bg-theme-surface shadow-soft">
         <CardContent className="p-6">
+          {inApp && (
+            <div className="mb-5 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm dark:border-amber-800 dark:bg-amber-900/20">
+              <p className="font-semibold text-amber-800 dark:text-amber-300">⚠️ In-app browser detected</p>
+              <p className="mt-1 text-amber-700 dark:text-amber-400">
+                Google sign-in doesn't work inside Messenger, Zalo, or Instagram. Please open this page in <strong>Safari</strong> or <strong>Chrome</strong> to sign in.
+              </p>
+            </div>
+          )}
           <div className="mb-8 flex flex-col items-center gap-2">
             <img src="/logo.svg" alt="Logo" className="h-14 w-14 rounded-3xl border border-border bg-white p-1.5 shadow-sm dark:border-slate-600 dark:bg-slate-700" />
             <h1 className="text-xl font-black tracking-tight text-foreground">Chinese EZ Cards</h1>

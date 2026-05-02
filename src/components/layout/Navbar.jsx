@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { LogOut, MessageSquare, Moon, Search, Settings, Sun, Trophy, Wand2 } from 'lucide-react';
+import { LogOut, MessageSquare, Moon, Search, Settings, Sun, Trophy, Wand2, BarChart2 } from 'lucide-react';
 import { useAuthStore } from '@/store/authStore';
 import { useStreak } from '@/hooks/useStreak';
 import { Button } from '@/components/ui/button';
@@ -28,14 +28,14 @@ export default function Navbar({
   onSignOut,
 }) {
   const { user, role } = useAuthStore();
-  const isMember = role === 'member' || user?.app_metadata?.provider === 'google';
+  const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
   const { streak } = useStreak({ userId: user?.id, isMember });
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
-  const [showSignIn] = useState(false);
-  const [showLeaderboard] = useState(false);
-  const [showFeedback] = useState(false);
+  const [showSignIn] = useState(true);
+  const [showLeaderboard] = useState(true);
+  const showFeedback = true;
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef(null);
   const [avatarOpen, setAvatarOpen] = useState(false);
@@ -289,10 +289,16 @@ export default function Navbar({
                         </button>
                       )}
                       {role === 'superadmin' && (
-                        <button type="button" onClick={() => { navigate('/feedback-review'); setAvatarOpen(false); }}
-                          className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium text-foreground hover:bg-muted transition-colors text-left">
-                          <MessageSquare className="h-3.5 w-3.5" /> Feedback Review
-                        </button>
+                        <>
+                          <button type="button" onClick={() => { navigate('/feedback-review'); setAvatarOpen(false); }}
+                            className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium text-foreground hover:bg-muted transition-colors text-left">
+                            <MessageSquare className="h-3.5 w-3.5" /> Feedback Review
+                          </button>
+                          <button type="button" onClick={() => { navigate('/superadmin'); setAvatarOpen(false); }}
+                            className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium text-foreground hover:bg-muted transition-colors text-left">
+                            <BarChart2 className="h-3.5 w-3.5" /> Analytics Dashboard
+                          </button>
+                        </>
                       )}
                       <div className="my-1 border-t border-border" />
                       <button type="button" onClick={() => { onSignOut(); setAvatarOpen(false); }}

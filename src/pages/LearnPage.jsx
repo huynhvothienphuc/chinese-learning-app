@@ -7,7 +7,7 @@ import { useSections, useVocabulary, usePrefetchAdjacentSections } from '@/hooks
 import { useStudySession } from '@/hooks/useStudySession';
 import { useStreak } from '@/hooks/useStreak';
 import { useLocalStorageState } from '@/hooks/useLocalStorageState';
-import { trackLessonStat } from '@/lib/supabase';
+import { trackLessonStat, trackAnalyticsEvent } from '@/lib/supabase';
 import StreakToast from '@/components/StreakToast';
 import { trackEvent, initGoogleAnalytics } from '@/lib/analytics';
 import { formatSectionName } from '@/lib/utils';
@@ -48,14 +48,14 @@ export default function LearnPage() {
     books, booksLoading,
     favoriteVocabulary, favoriteKeySet,
     toggleFavorite, isFavorite,
-    uploadedLessons,
+    supabaseSets,
   } = useOutletContext();
 
   const { user, role } = useAuthStore();
   const navigate = useNavigate();
   const location = useLocation();
   const queryClient = useQueryClient();
-  const isMember = role === 'member';
+  const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
   const { trackFlip, triggerStreak, resetCardTracking, toast: streakToast, dismissToast } = useStreak({ userId: user?.id, isMember });
 
   // ── book / section selection ──
@@ -72,12 +72,11 @@ export default function LearnPage() {
 
   const sections = useMemo(() => {
     if (selectedBook === USER_UPLOAD_BOOK_ID) {
-      return uploadedLessons
-        .map((l) => ({ id: l.id, title: l.title, file: l.id, source: 'upload', enabled: true }))
-        .sort((a, b) => a.title.localeCompare(b.title));
+      return [...(supabaseSets ?? [])].reverse()
+        .map((s, i) => ({ id: s.id, title: `Word Bank ${i + 1}`, file: s.id, source: 'supabase', enabled: true }));
     }
     return sectionsQuery.data ?? [];
-  }, [selectedBook, uploadedLessons, sectionsQuery.data]);
+  }, [selectedBook, supabaseSets, sectionsQuery.data]);
 
   const currentSection = useMemo(
     () => sections.find((s) => s.file === selectedSection) ?? undefined,
@@ -92,10 +91,10 @@ export default function LearnPage() {
 
   const rawVocab = useMemo(() => {
     if (selectedBook === USER_UPLOAD_BOOK_ID) {
-      return uploadedLessons.find((l) => l.id === selectedSection)?.items || [];
+      return (supabaseSets ?? []).find((s) => s.id === selectedSection)?.items || [];
     }
     return vocabQuery.data ?? [];
-  }, [selectedBook, selectedSection, uploadedLessons, vocabQuery.data]);
+  }, [selectedBook, selectedSection, supabaseSets, vocabQuery.data]);
 
   usePrefetchAdjacentSections(selectedBook, selectedSection, sections);
 
@@ -107,6 +106,7 @@ export default function LearnPage() {
       triggerStreak();
       if (!user || role !== 'member' || !selectedBook || !selectedSection || finalScore.total === 0) return;
       const sectionTitle = currentSection?.title || formatSectionName(selectedSection);
+      const scorePct = Math.round((finalScore.correct / finalScore.total) * 100);
       trackLessonStat(user.id, {
         bookId: selectedBook,
         sectionId: selectedSection,
@@ -117,6 +117,8 @@ export default function LearnPage() {
         queryClient.invalidateQueries({ queryKey: ['lessonStats', user.id] });
         queryClient.invalidateQueries({ queryKey: ['wordStats', user.id] });
       });
+      fireEngagement();
+      trackAnalyticsEvent(user.id, { event: 'quiz_complete', bookId: selectedBook, sectionId: selectedSection, value: scorePct }).catch(() => {});
     },
   });
 
@@ -142,8 +144,11 @@ export default function LearnPage() {
     if (booksInitRef.current && selectedBook && books.some((b) => b.id === selectedBook)) return;
     booksInitRef.current = true;
     const saved = sessionStorage.getItem(SESSION_SELECTED_BOOK_KEY);
+    // Never restore USER_UPLOAD_BOOK_ID — Supabase sets may not be loaded yet or may not exist
+    if (saved === USER_UPLOAD_BOOK_ID) sessionStorage.removeItem(SESSION_SELECTED_BOOK_KEY);
     const ids = books.map((b) => b.id);
-    setSelectedBook(saved && ids.includes(saved) ? saved : ids[0] || '');
+    const validSaved = saved && saved !== USER_UPLOAD_BOOK_ID && ids.includes(saved) ? saved : null;
+    setSelectedBook(validSaved ?? ids[0] ?? '');
   }, [books]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // fallback: if selectedBook becomes invalid (e.g. after logout), reset
@@ -156,7 +161,10 @@ export default function LearnPage() {
 
   useEffect(() => {
     if (!selectedBook) return;
-    sessionStorage.setItem(SESSION_SELECTED_BOOK_KEY, selectedBook);
+    // Don't persist the upload book — it requires Supabase sets to exist on load
+    if (selectedBook !== USER_UPLOAD_BOOK_ID) {
+      sessionStorage.setItem(SESSION_SELECTED_BOOK_KEY, selectedBook);
+    }
     trackEvent('select_book', { book_id: selectedBook });
   }, [selectedBook]);
 
@@ -176,6 +184,28 @@ export default function LearnPage() {
     sessionStorage.setItem(SESSION_SELECTED_SECTION_KEY, JSON.stringify(savedByBook));
     trackEvent('select_section', { book_id: selectedBook, section_id: selectedSection });
   }, [selectedBook, selectedSection]);
+
+  // ── engagement tracking — fire lesson_open once per section when threshold met ──
+  const engagedRef = useRef(false);
+  useEffect(() => { engagedRef.current = false; }, [selectedBook, selectedSection]);
+
+  function fireEngagement() {
+    if (engagedRef.current || !user?.id || !selectedBook || !selectedSection) return;
+    engagedRef.current = true;
+    trackAnalyticsEvent(user.id, { event: 'lesson_open', bookId: selectedBook, sectionId: selectedSection }).catch(() => {});
+  }
+
+  // Threshold 1: 3 minutes active on lesson
+  useEffect(() => {
+    if (!selectedBook || !selectedSection || !user?.id) return undefined;
+    const id = setTimeout(fireEngagement, 5 * 60 * 1000);
+    return () => clearTimeout(id);
+  }, [selectedBook, selectedSection, user?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Threshold 2: 10 flashcard items viewed
+  useEffect(() => {
+    if (session.mode === 'flashcard' && session.currentIndex >= 9) fireEngagement();
+  }, [session.mode, session.currentIndex]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── keyboard shortcuts (flashcard mode) ──
   useEffect(() => {
@@ -401,7 +431,7 @@ export default function LearnPage() {
                   <Info className="h-4 w-4 shrink-0" />
                   <p className="text-sm font-semibold uppercase tracking-[0.18em]">{t.sampleNoticeTitle}</p>
                 </div>
-                <p className="text-sm leading-6 text-muted-foreground">{t.sampleNoticeBody}</p>
+                <p className="whitespace-pre-line text-sm leading-6 text-muted-foreground">{t.sampleNoticeBody}</p>
               </div>
               <div className="flex justify-end">
                 <Button type="button" onClick={dismissSampleNotice}>{t.sampleNoticeAction}</Button>

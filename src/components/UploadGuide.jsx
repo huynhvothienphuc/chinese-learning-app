@@ -89,8 +89,6 @@ export default function UploadGuide({
   uploadError,
   uploadDisabled = false,
   cooldownSecondsLeft = 0,
-  uploadedLessons = [],
-  onDeleteLesson,
   supabaseSets = [],
   onDeleteSupabaseSet,
   supabaseSlotsUsed = 0,
@@ -103,137 +101,94 @@ export default function UploadGuide({
     { icon: Upload, title: t.step4Title, description: t.step4Description },
   ];
 
-  const allSets = [
-    ...supabaseSets.map((s) => ({ ...s, source: 'supabase', items: s.items ?? [] })),
-    ...uploadedLessons.map((l) => ({ ...l, source: 'browser' })),
-  ];
+  const allSets = [...supabaseSets].reverse()
+    .map((s, i) => ({ ...s, title: `Word Bank ${i + 1}`, source: 'supabase', items: s.items ?? [] }));
 
   const SUPABASE_LIMIT = 3;
   const supabaseFull = supabaseSlotsUsed >= SUPABASE_LIMIT;
 
   return (
     <div className="space-y-6 animate-float-in">
-      <Card className="overflow-hidden border-border bg-card shadow-soft">
-        <CardHeader className="space-y-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">{t.uploadLesson}</p>
-          <CardTitle className="text-3xl font-black">{t.uploadTitle}</CardTitle>
-          <CardDescription className="max-w-3xl text-base leading-7">{t.uploadDescription}</CardDescription>
-        </CardHeader>
-        <CardContent className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-          {steps.map(({ icon: Icon, title, description }) => (
-            <div key={title} className="rounded-3xl border border-border bg-muted/40 p-5">
-              <div className="mb-4 inline-flex rounded-2xl bg-primary/20 p-3 text-primary">
-                <Icon className="h-5 w-5" />
-              </div>
-              <h3 className="text-base font-bold text-foreground">{title}</h3>
-              <p className="mt-2 text-sm leading-6 text-muted-foreground">{description}</p>
-            </div>
-          ))}
-        </CardContent>
-      </Card>
-
-      <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <Card className="border-border bg-card shadow-soft">
-          <CardHeader>
-            <CardTitle className="text-2xl font-black">{t.templateFormat}</CardTitle>
-            <CardDescription>{t.requiredColumnsHelp}</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-5">
-            <div className="rounded-3xl border border-border bg-muted/40 p-4 sm:p-5">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-primary">{t.columnHeaderLabel}</p>
-              <div className="flex flex-wrap gap-2">
-                {columns.map((column) => (
-                  <span
-                    key={column.key}
-                    className={cn(
-                      'rounded-full px-3 py-2 text-xs font-semibold',
-                      column.required
-                        ? 'bg-primary/20 text-primary'
-                        : 'bg-muted text-muted-foreground',
-                    )}
-                  >
-                    {column.key}
-                    {column.required ? ` · ${t.requiredTag}` : ` · ${t.optionalTag}`}
-                  </span>
+      <div className="space-y-6">
+          <Card className="border-border bg-card shadow-soft">
+            <CardContent className="space-y-6 pt-6">
+              <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+                {steps.map(({ icon: Icon, title, description }) => (
+                  <div key={title} className="rounded-2xl border border-border bg-muted/30 p-4">
+                    <div className="mb-3 inline-flex rounded-xl bg-primary/15 p-2.5 text-primary">
+                      <Icon className="h-4 w-4" />
+                    </div>
+                    <h3 className="text-sm font-bold text-foreground">{title}</h3>
+                    <p className="mt-1 text-xs leading-5 text-muted-foreground">{description}</p>
+                  </div>
                 ))}
               </div>
-            </div>
+              <div className="border-t border-border" />
+              <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                {/* Left: sample table */}
+                <div className="overflow-hidden rounded-2xl border border-border">
+                  <p className="border-b border-border bg-muted/50 px-4 py-2.5 text-xs font-semibold text-muted-foreground">{t.sampleRows}</p>
+                  <div className="overflow-x-auto bg-background">
+                    <table className="min-w-full text-left text-sm text-foreground">
+                      <thead className="bg-muted text-xs uppercase tracking-wide text-muted-foreground">
+                        <tr>
+                          <th className="px-4 py-3">chinese</th>
+                          <th className="px-4 py-3">pinyin</th>
+                          <th className="px-4 py-3">vietnamese</th>
+                          <th className="px-4 py-3">english</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {sampleRows.map((row) => (
+                          <tr key={`${row.chinese}-${row.pinyin}`} className="border-t border-border">
+                            <td className="px-4 py-3 font-semibold">{row.chinese}</td>
+                            <td className="px-4 py-3">{row.pinyin}</td>
+                            <td className="px-4 py-3">{row.vietnamese}</td>
+                            <td className="px-4 py-3">{row.english}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
 
-            <div className="rounded-3xl border border-border bg-muted/40 p-4 sm:p-5">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-primary">{t.sampleRows}</p>
-              <div className="overflow-x-auto rounded-2xl border border-border bg-background">
-                <table className="min-w-full text-left text-sm text-foreground">
-                  <thead className="bg-muted text-xs uppercase tracking-wide text-muted-foreground">
-                    <tr>
-                      <th className="px-4 py-3">chinese</th>
-                      <th className="px-4 py-3">pinyin</th>
-                      <th className="px-4 py-3">vietnamese</th>
-                      <th className="px-4 py-3">english</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {sampleRows.map((row) => (
-                      <tr key={`${row.chinese}-${row.pinyin}`} className="border-t border-border">
-                        <td className="px-4 py-3 font-semibold">{row.chinese}</td>
-                        <td className="px-4 py-3">{row.pinyin}</td>
-                        <td className="px-4 py-3">{row.vietnamese}</td>
-                        <td className="px-4 py-3">{row.english}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                {/* Right: buttons + notes */}
+                <div className="flex flex-col gap-4">
+                  <div className="grid grid-cols-2 gap-3">
+                    <a
+                      href="/data/templates/upload-template.xlsx"
+                      download="upload-template.xlsx"
+                      className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-muted/40 px-3 py-5 text-center text-sm font-semibold text-foreground transition hover:bg-muted"
+                    >
+                      <Download className="h-5 w-5 text-primary" />
+                      {t.downloadTemplate}
+                    </a>
+
+                    <button
+                      type="button"
+                      className="flex flex-col items-center justify-center gap-2 rounded-2xl bg-primary px-3 py-5 text-center text-sm font-semibold text-primary-foreground transition hover:opacity-90 disabled:opacity-40"
+                      onClick={onOpenPicker}
+                      disabled={uploadDisabled}
+                    >
+                      <Upload className="h-5 w-5" />
+                      {cooldownSecondsLeft > 0 ? `${t.uploadLesson} (${cooldownSecondsLeft}s)` : t.uploadLesson}
+                    </button>
+                  </div>
+
+                  <div className="rounded-2xl border-l-4 border-primary bg-muted/40 px-4 py-3 text-sm">
+                    <p className="font-semibold text-foreground">{t.uploadRules}</p>
+                    <ul className="mt-1.5 space-y-1 text-muted-foreground">
+                      <li>• {t.xlsxOnly}</li>
+                      <li>• {t.maxWordsPerSet}: 100</li>
+                      <li>• {t.requiredColumnsHelp}</li>
+                    </ul>
+                  </div>
+
+                  {uploadError && (
+                    <div className="rounded-2xl border border-destructive/30 bg-destructive/10 px-4 py-3 text-sm text-destructive">{uploadError}</div>
+                  )}
+                </div>
               </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        <div className="space-y-6">
-          <Card className="border-border bg-card shadow-soft">
-            <CardHeader>
-              <CardTitle className="text-2xl font-black">{t.downloadAndUpload}</CardTitle>
-              <CardDescription>{t.templateTools}</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <a
-                href="/data/templates/upload-template.xlsx"
-                download="upload-template.xlsx"
-                className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-2xl border border-border bg-background px-4 text-sm font-semibold text-foreground shadow-sm transition hover:bg-accent hover:text-accent-foreground"
-              >
-                <Download className="h-4 w-4" />
-                {t.downloadTemplate}
-              </a>
-
-              <Button
-                type="button"
-                className="h-11 w-full gap-2"
-                onClick={onOpenPicker}
-                disabled={uploadDisabled}
-              >
-                <Upload className="h-4 w-4" />
-                {cooldownSecondsLeft > 0 ? `${t.uploadLesson} (${cooldownSecondsLeft}s)` : t.uploadLesson}
-              </Button>
-
-              <div className="rounded-3xl bg-amber-50 p-4 text-sm text-amber-800 dark:bg-amber-900/20 dark:text-amber-300">
-                <p className="font-semibold">{t.browserStorageWarningTitle}</p>
-                <p className="mt-1 text-amber-700 dark:text-amber-400">{t.browserStorageWarningBody}</p>
-              </div>
-
-              <div className="rounded-3xl bg-primary/10 p-4 text-sm text-primary">
-                <p className="font-semibold">{t.uploadRules}</p>
-                <ul className="mt-2 space-y-2 text-primary/80">
-                  <li>• {t.xlsxOnly}</li>
-                  <li>• {t.maxSize}: {maxUploadLabel}</li>
-                  <li>• {t.maxWordsPerSet}: 100</li>
-                </ul>
-              </div>
-
-              {uploadError ? (
-                <div className="rounded-3xl border border-destructive/30 bg-destructive/10 p-4 text-sm text-destructive">{uploadError}</div>
-              ) : null}
-
-              <Button type="button" variant="secondary" className="w-full" onClick={onBackToLearn}>
-                {t.backToLearningPage}
-              </Button>
             </CardContent>
           </Card>
 
@@ -258,23 +213,13 @@ export default function UploadGuide({
                     key={set.id}
                     lesson={set}
                     t={t}
-                    onDelete={set.source === 'supabase' ? onDeleteSupabaseSet : onDeleteLesson}
+                    onDelete={onDeleteSupabaseSet}
                   />
                 ))}
               </CardContent>
             </Card>
           )}
 
-          <Card className="border-border bg-card shadow-soft">
-            <CardHeader>
-              <CardTitle className="text-xl font-black">{t.helpfulNote}</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3 text-sm leading-7 text-muted-foreground">
-              <p>{t.xlsxRequiredHelp}</p>
-              <p>{t.invalidRowsHelp}</p>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </div>
   );

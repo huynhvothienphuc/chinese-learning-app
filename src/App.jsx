@@ -12,7 +12,8 @@ const TeacherDashboard   = lazy(() => import('@/pages/teacher/TeacherDashboard')
 const BookEditor         = lazy(() => import('@/pages/teacher/BookEditor'));
 const SectionEditor      = lazy(() => import('@/pages/teacher/SectionEditor'));
 const AdminDashboard     = lazy(() => import('@/pages/AdminDashboard'));
-const FeedbackReviewPage = lazy(() => import('@/pages/FeedbackReviewPage'));
+const FeedbackReviewPage    = lazy(() => import('@/pages/FeedbackReviewPage'));
+const SuperadminDashboard   = lazy(() => import('@/pages/SuperadminDashboard'));
 const NotFoundPage       = lazy(() => import('@/pages/NotFoundPage'));
 
 // ── main-layout pages (rendered inside MainLayout with navbar) ─────────────
@@ -70,7 +71,8 @@ export default function App() {
         </Route>
 
         <Route element={<RoleRoute allowed={['superadmin']} />}>
-          <Route path="/feedback-review" element={<FeedbackReviewPage />} />
+          <Route path="/feedback-review"  element={<FeedbackReviewPage />} />
+          <Route path="/superadmin"       element={<SuperadminDashboard />} />
         </Route>
 
         {/* ── Main layout (navbar + footer) ── */}

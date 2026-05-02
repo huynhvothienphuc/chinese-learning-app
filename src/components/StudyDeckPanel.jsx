@@ -41,9 +41,34 @@ export default function StudyDeckPanel({
               {booksLoading && <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-green-400 border-t-transparent" />}
             </div>
             <Select className="min-w-0 w-full" value={selectedBook} onChange={(event) => onBookChange(event.target.value)} disabled={booksLoading && books.length === 0}>
-              {books.map((book) => (
-                <option key={book.id} value={book.id}>{getBookOptionLabel(book, t)}</option>
-              ))}
+              {(() => {
+                const regularBooks = books.filter((b) => b.id !== 'user-upload' && b.source !== 'teacher');
+                const sharedBooks = books.filter((b) => b.source === 'teacher');
+                const uploadBook = books.find((b) => b.id === 'user-upload');
+                const groupCount = [regularBooks.length > 0, sharedBooks.length > 0, !!uploadBook].filter(Boolean).length;
+                const useGroups = groupCount > 2;
+
+                const regularOptions = regularBooks.map((book) => (
+                  <option key={book.id} value={book.id}>{getBookOptionLabel(book, t)}</option>
+                ));
+                const sharedOptions = sharedBooks.map((book) => (
+                  <option key={book.id} value={book.id}>{book.title}</option>
+                ));
+                const uploadOption = uploadBook
+                  ? <option key={uploadBook.id} value={uploadBook.id}>{uploadBook.title}</option>
+                  : null;
+
+                if (!useGroups) {
+                  return <>{regularOptions}{sharedOptions}{uploadOption}</>;
+                }
+                return (
+                  <>
+                    {regularBooks.length > 0 && <optgroup label={t.bookGroupBooks}>{regularOptions}</optgroup>}
+                    {sharedBooks.length > 0 && <optgroup label={t.bookGroupShared}>{sharedOptions}</optgroup>}
+                    {uploadBook && <optgroup label={t.bookGroupPersonal}>{uploadOption}</optgroup>}
+                  </>
+                );
+              })()}
             </Select>
           </div>
           <div className="space-y-1 min-w-0">

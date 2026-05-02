@@ -39,7 +39,7 @@ const INITIAL_SCORE = { correct: 0, total: 0 };
 // ─── component ──────────────────────────────────────────────────────────────
 
 export default function MyQuizPage() {
-  const { books, uploadedLessons, selectedLanguage: language = 'vi', t } = useOutletContext();
+  const { books, supabaseSets, selectedLanguage: language = 'vi', t } = useOutletContext();
   // Which book's sections are currently being browsed
   const [activeBrowseBook, setActiveBrowseBook] = useState(books[0]?.id ?? '');
 
@@ -79,7 +79,10 @@ export default function MyQuizPage() {
     if (!activeBrowseBook) return;
 
     if (activeBrowseBook === USER_UPLOAD_BOOK_ID) {
-      setSections(uploadedLessons.map((l) => ({ file: l.id, title: l.title, enabled: true })));
+      setSections(
+        [...(supabaseSets ?? [])].reverse()
+          .map((s, i) => ({ file: s.id, title: `Word Bank ${i + 1}`, enabled: true })),
+      );
       return;
     }
 
@@ -88,7 +91,7 @@ export default function MyQuizPage() {
       .then((data) => setSections(Array.isArray(data) ? data.filter((s) => s.enabled !== false) : []))
       .catch(() => setSections([]))
       .finally(() => setLoadingSections(false));
-  }, [activeBrowseBook, uploadedLessons]);
+  }, [activeBrowseBook, supabaseSets]);
 
   // ── fetch vocab for a scope when a section is checked ────────────────────
   function loadVocabForScope(bookId, sectionFile) {
@@ -101,7 +104,7 @@ export default function MyQuizPage() {
       bookId === USER_UPLOAD_BOOK_ID
         ? Promise.resolve(
             withScopedIds(
-              uploadedLessons.find((l) => l.id === sectionFile)?.items ?? [],
+              (supabaseSets ?? []).find((s) => s.id === sectionFile)?.items ?? [],
               bookId,
               sectionFile,
             ),
