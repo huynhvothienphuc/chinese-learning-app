@@ -116,11 +116,7 @@ export async function trackWordStat(userId, { bookId, sectionId, itemId, isCorre
 }
 
 export async function updateStreak(userId) {
-  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD local date
-  const { data, error } = await supabase.rpc('update_streak', {
-    p_user_id: userId,
-    p_today: today,
-  });
+  const { data, error } = await supabase.rpc('update_streak', { p_user_id: userId });
   if (error) throw error;
   return data; // { current_streak, longest_streak, updated }
 }

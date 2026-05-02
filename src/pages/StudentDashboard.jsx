@@ -102,14 +102,17 @@ export default function StudentDashboard() {
         )) : (
           <>
             <Card className={cn('overflow-hidden', streak > 0 && 'border-orange-300 dark:border-orange-700')}>
-              <CardContent className={cn('relative flex items-center gap-4 p-4', streak > 0 && 'bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-950/40 dark:to-amber-950/40')}>
-                <div className={cn('flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-2xl', streak > 0 ? 'bg-orange-100 dark:bg-orange-900/50' : 'bg-muted')}>
-                  {streak > 0 ? '🔥' : '💤'}
+              <CardContent className={cn('relative flex flex-col gap-3 p-4', streak > 0 && 'bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-950/40 dark:to-amber-950/40')}>
+                <div className="flex items-center gap-4">
+                  <div className={cn('flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-2xl', streak > 0 ? 'bg-orange-100 dark:bg-orange-900/50' : 'bg-muted')}>
+                    {streak > 0 ? '🔥' : '💤'}
+                  </div>
+                  <div className="flex items-baseline gap-1.5">
+                    <p className="text-2xl font-black leading-none">{streak > 0 ? streak : '—'}</p>
+                    <p className="text-xs font-medium text-muted-foreground">{t.dashboardDayStreak}</p>
+                  </div>
                 </div>
-                <div className="flex items-baseline gap-1.5">
-                  <p className="text-2xl font-black leading-none">{streak > 0 ? streak : '—'}</p>
-                  <p className="text-xs font-medium text-muted-foreground">{t.dashboardDayStreak}</p>
-                </div>
+                <p className="text-xs text-muted-foreground">{t.dashboardStreakHint ?? '💡 Do a quiz every day to build your streak!'}</p>
               </CardContent>
             </Card>
             <Card>

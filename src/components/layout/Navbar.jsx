@@ -34,7 +34,7 @@ export default function Navbar({
   const { pathname } = useLocation();
 
   const [showSignIn] = useState(true);
-  const [showLeaderboard] = useState(false);
+  const [showLeaderboard] = useState(true);
   const showFeedback = true;
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef(null);

@@ -1,6 +1,14 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
-import { Heart } from 'lucide-react';
+import { Heart, X } from 'lucide-react';
+
+const BANNER_DISMISSED_KEY = 'banner-dismissed-date';
+const ANNOUNCEMENTS = [
+  {
+    vi: '✨ Chúng mình đang cập nhật từ vựng! Quyển 1 ✅ · Quyển 2 → 6: đang cập nhật ⏳ Chờ tụi mình xíu nhé 🙏',
+    en: '✨ We\'re updating the vocabulary for you! Book 1 is done ✅ — Books 2–6 are on the way, stay tuned 🙏',
+  },
+];
 import { useAuthStore } from '@/store/authStore';
 import { useBooks } from '@/hooks/useVocabData';
 import { useStudentSets } from '@/hooks/useStudentData';
@@ -35,6 +43,15 @@ export default function MainLayout() {
   const [favorites, setFavorites] = useLocalStorageState(FAVORITES_KEY, []);
   const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const today = new Date().toISOString().split('T')[0];
+  const [bannerOpen, setBannerOpen] = useState(() => {
+    return localStorage.getItem(BANNER_DISMISSED_KEY) !== today;
+  });
+
+  function dismissBanner() {
+    localStorage.setItem(BANNER_DISMISSED_KEY, today);
+    setBannerOpen(false);
+  }
 
   // ── server state ──
   const booksQuery = useBooks(user?.id, authReady);
@@ -170,6 +187,17 @@ export default function MainLayout() {
             onFontSizeChange={setFontSize}
             onSignOut={handleSignOut}
           />
+
+          {bannerOpen && ANNOUNCEMENTS.length > 0 && (
+            <div className="hidden sm:flex items-center gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-2.5 dark:border-amber-800 dark:bg-amber-900/20">
+              <p className="flex-1 text-sm font-medium text-amber-800 dark:text-amber-300">
+                {selectedLanguage === 'vi' ? ANNOUNCEMENTS[0].vi : ANNOUNCEMENTS[0].en}
+              </p>
+              <button type="button" onClick={dismissBanner} className="shrink-0 text-amber-500 hover:text-amber-700 dark:hover:text-amber-300">
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+          )}
 
           <Outlet context={ctx} />
 

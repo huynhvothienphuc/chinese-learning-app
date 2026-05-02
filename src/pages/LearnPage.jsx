@@ -431,7 +431,7 @@ export default function LearnPage() {
                   <Info className="h-4 w-4 shrink-0" />
                   <p className="text-sm font-semibold uppercase tracking-[0.18em]">{t.sampleNoticeTitle}</p>
                 </div>
-                <p className="text-sm leading-6 text-muted-foreground">{t.sampleNoticeBody}</p>
+                <p className="whitespace-pre-line text-sm leading-6 text-muted-foreground">{t.sampleNoticeBody}</p>
               </div>
               <div className="flex justify-end">
                 <Button type="button" onClick={dismissSampleNotice}>{t.sampleNoticeAction}</Button>
