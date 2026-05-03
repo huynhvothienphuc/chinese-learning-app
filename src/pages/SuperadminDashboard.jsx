@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Users, Globe, BookOpen, BarChart2, Loader2, RefreshCw, Home } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuthStore } from '@/store/authStore';
+import { useLocale } from '@/hooks/useLocale';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -42,14 +43,15 @@ function Skeleton({ rows = 4 }) {
 export default function SuperadminDashboard() {
   const { role, roleReady } = useAuthStore();
   const navigate = useNavigate();
+  const t = useLocale();
 
-  const [stats, setStats]           = useState(null);
-  const [locales, setLocales]       = useState([]);
-  const [bookPop, setBookPop]       = useState([]);
-  const [lessonPop, setLessonPop]   = useState([]);
-  const [loading, setLoading]       = useState(true);
-  const [lessonTab, setLessonTab]   = useState('all');
-  const [bookNameMap, setBookNameMap]     = useState({});  // { bookId: shortTitle }
+  const [stats, setStats] = useState(null);
+  const [locales, setLocales] = useState([]);
+  const [bookPop, setBookPop] = useState([]);
+  const [lessonPop, setLessonPop] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [lessonTab, setLessonTab] = useState('all');
+  const [bookNameMap, setBookNameMap] = useState({});  // { bookId: shortTitle }
   const [sectionNameMap, setSectionNameMap] = useState({}); // { bookId: { file: { order, title } } }
 
   useEffect(() => {
@@ -115,27 +117,31 @@ export default function SuperadminDashboard() {
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary">Superadmin</p>
-            <h1 className="text-3xl font-black">Analytics Dashboard</h1>
+            <p className="text-xs font-semibold uppercase tracking-widest text-primary">{t.superadminLabel}</p>
+            <h1 className="text-3xl font-black">{t.superadminDashboardTitle}</h1>
           </div>
           <div className="flex items-center gap-2">
             <Button variant="outline" size="sm" className="gap-2" onClick={() => navigate('/')}>
               <Home className="h-4 w-4" />
               Home
             </Button>
+            <Button variant="outline" size="sm" className="gap-2" onClick={() => navigate('/superadmin/curriculum')}>
+              <BookOpen className="h-4 w-4" />
+              {t.superadminCurriculumBtn}
+            </Button>
             <Button variant="outline" size="sm" className="gap-2" onClick={load} disabled={loading}>
               <RefreshCw className={`h-4 w-4 ${loading ? 'animate-spin' : ''}`} />
-              Refresh
+              {t.superadminRefreshBtn}
             </Button>
           </div>
         </div>
 
         {/* Overview cards */}
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-          <StatCard icon={Users}     label="Total Users"        value={stats?.total} />
-          <StatCard icon={Users}     label="New This Month"     value={stats?.new_this_month} />
-          <StatCard icon={Users}     label="Active (7 days)"    value={stats?.active_last_7_days} />
-          <StatCard icon={Globe}     label="Countries / Locales" value={locales.length} />
+          <StatCard icon={Users} label={t.superadminTotalUsers} value={stats?.total} />
+          <StatCard icon={Users} label={t.superadminNewThisMonth} value={stats?.new_this_month} />
+          <StatCard icon={Users} label={t.superadminActiveLast7} value={stats?.active_last_7_days} />
+          <StatCard icon={Globe} label={t.superadminCountries} value={locales.length} />
         </div>
 
         <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
@@ -144,19 +150,19 @@ export default function SuperadminDashboard() {
             {/* Lesson popularity */}
             <Card>
               <CardHeader className="pb-2">
-                <CardTitle className="text-lg font-black">Top Lessons</CardTitle>
+                <CardTitle className="text-lg font-black">{t.superadminTopLessons}</CardTitle>
                 <div className="mt-2 flex flex-wrap gap-2">
                   <span className="inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-2.5 py-1 text-xs font-medium text-primary">
-                    <span className="font-bold">Opens</span>
-                    <span className="opacity-70">· unique users (quiz / 5min / 10 cards)</span>
+                    <span className="font-bold">{t.superadminOpens}</span>
+                    <span className="opacity-70">{t.superadminOpensDesc}</span>
                   </span>
                   <span className="inline-flex items-center gap-1.5 rounded-lg bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-600 dark:bg-blue-900/20 dark:text-blue-400">
-                    <span className="font-bold">Quizzes</span>
-                    <span className="opacity-70">· unique users who quizzed</span>
+                    <span className="font-bold">{t.superadminQuizzes}</span>
+                    <span className="opacity-70">{t.superadminQuizzesDesc}</span>
                   </span>
                   <span className="inline-flex items-center gap-1.5 rounded-lg bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground">
-                    <span className="font-bold text-foreground">Avg Score</span>
-                    <span>· avg across all attempts</span>
+                    <span className="font-bold text-foreground">{t.superadminAvgScore}</span>
+                    <span>{t.superadminAvgScoreDesc}</span>
                   </span>
                 </div>
               </CardHeader>
@@ -164,7 +170,7 @@ export default function SuperadminDashboard() {
                 {loading ? (
                   <div className="p-4"><Skeleton rows={5} /></div>
                 ) : lessonPop.length === 0 ? (
-                  <p className="px-4 pb-4 text-sm text-muted-foreground">No data yet — tracking starts now.</p>
+                  <p className="px-4 pb-4 text-sm text-muted-foreground">{t.superadminNoLessonData}</p>
                 ) : (() => {
                   const bookIds = ['all', ...new Set(lessonPop.map((r) => r.book_id).filter(Boolean))];
                   const filtered = lessonTab === 'all' ? lessonPop : lessonPop.filter((r) => r.book_id === lessonTab);
@@ -177,13 +183,12 @@ export default function SuperadminDashboard() {
                             key={id}
                             type="button"
                             onClick={() => setLessonTab(id)}
-                            className={`shrink-0 rounded-t-lg px-3 py-2 text-xs font-semibold transition-colors ${
-                              lessonTab === id
+                            className={`shrink-0 rounded-t-lg px-3 py-2 text-xs font-semibold transition-colors ${lessonTab === id
                                 ? 'border-b-2 border-primary text-primary'
                                 : 'text-muted-foreground hover:text-foreground'
-                            }`}
+                              }`}
                           >
-                            {id === 'all' ? 'All' : (bookNameMap[id] ?? id)}
+                            {id === 'all' ? t.superadminAllTab : (bookNameMap[id] ?? id)}
                           </button>
                         ))}
                       </div>
@@ -193,11 +198,11 @@ export default function SuperadminDashboard() {
                         <table className="w-full text-sm">
                           <thead className="sticky top-0 bg-muted text-xs uppercase tracking-wide text-muted-foreground">
                             <tr>
-                              {lessonTab === 'all' && <th className="px-4 py-3 text-left">Book</th>}
-                              <th className="px-4 py-3 text-left">Section</th>
-                              <th className="px-4 py-3 text-right">Opens</th>
-                              <th className="px-4 py-3 text-right">Quizzes</th>
-                              <th className="px-4 py-3 text-right">Avg Score</th>
+                              {lessonTab === 'all' && <th className="px-4 py-3 text-left">{t.superadminColBook}</th>}
+                              <th className="px-4 py-3 text-left">{t.superadminColSection}</th>
+                              <th className="px-4 py-3 text-right">{t.superadminColOpens}</th>
+                              <th className="px-4 py-3 text-right">{t.superadminColQuizzes}</th>
+                              <th className="px-4 py-3 text-right">{t.superadminColAvgScore}</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -233,14 +238,14 @@ export default function SuperadminDashboard() {
               <CardHeader className="pb-3">
                 <CardTitle className="text-lg font-black flex items-center gap-2">
                   <BookOpen className="h-4 w-4 text-primary" />
-                  Book Popularity
+                  {t.superadminBookPopularity}
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-0">
                 {loading ? (
                   <div className="p-4"><Skeleton rows={3} /></div>
                 ) : bookPop.length === 0 ? (
-                  <p className="px-4 pb-4 text-sm text-muted-foreground">No data yet.</p>
+                  <p className="px-4 pb-4 text-sm text-muted-foreground">{t.superadminNoBookData}</p>
                 ) : (
                   <div className="max-h-[280px] overflow-y-auto px-4 py-3 space-y-3">
                     {bookPop.map((b, i) => {
@@ -269,7 +274,7 @@ export default function SuperadminDashboard() {
                 <CardHeader className="pb-3">
                   <CardTitle className="text-lg font-black flex items-center gap-2">
                     <Globe className="h-4 w-4 text-primary" />
-                    User Locales
+                    {t.superadminUserLocales}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

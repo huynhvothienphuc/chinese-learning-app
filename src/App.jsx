@@ -14,6 +14,7 @@ const SectionEditor      = lazy(() => import('@/pages/teacher/SectionEditor'));
 const AdminDashboard     = lazy(() => import('@/pages/AdminDashboard'));
 const FeedbackReviewPage    = lazy(() => import('@/pages/FeedbackReviewPage'));
 const SuperadminDashboard   = lazy(() => import('@/pages/SuperadminDashboard'));
+const CurriculumEditorPage  = lazy(() => import('@/pages/CurriculumEditorPage'));
 const NotFoundPage       = lazy(() => import('@/pages/NotFoundPage'));
 
 // ── main-layout pages (rendered inside MainLayout with navbar) ─────────────
@@ -71,8 +72,9 @@ export default function App() {
         </Route>
 
         <Route element={<RoleRoute allowed={['superadmin']} />}>
-          <Route path="/feedback-review"  element={<FeedbackReviewPage />} />
-          <Route path="/superadmin"       element={<SuperadminDashboard />} />
+          <Route path="/feedback-review"       element={<FeedbackReviewPage />} />
+          <Route path="/superadmin"            element={<SuperadminDashboard />} />
+          <Route path="/superadmin/curriculum" element={<CurriculumEditorPage />} />
         </Route>
 
         {/* ── Main layout (navbar + footer) ── */}

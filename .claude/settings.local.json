@@ -20,7 +20,8 @@
       "Bash(curl -sL https://chinese-ez.vercel.app/admin)",
       "Bash(curl -sL https://chinese-ez.vercel.app/thisisadmin)",
       "Bash(curl -s 'https://klrgxtiiozwjcjmurwjn.supabase.co/rest/v1/user_lesson_stats?select=*&limit=5' -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtscmd4dGlpb3p3amNqbXVyd2puIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyODI5NzUsImV4cCI6MjA5MDg1ODk3NX0.Yh1bk-sABbO2FkDIbnPaGU1s6b3xw9dZ52Z-7oGKA7g' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtscmd4dGlpb3p3amNqbXVyd2puIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyODI5NzUsImV4cCI6MjA5MDg1ODk3NX0.Yh1bk-sABbO2FkDIbnPaGU1s6b3xw9dZ52Z-7oGKA7g')",
-      "Bash(curl -s 'https://klrgxtiiozwjcjmurwjn.supabase.co/rest/v1/profiles?select=*&limit=5' -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtscmd4dGlpb3p3amNqbXVyd2puIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyODI5NzUsImV4cCI6MjA5MDg1ODk3NX0.Yh1bk-sABbO2FkDIbnPaGU1s6b3xw9dZ52Z-7oGKA7g' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtscmd4dGlpb3p3amNqbXVyd2puIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyODI5NzUsImV4cCI6MjA5MDg1ODk3NX0.Yh1bk-sABbO2FkDIbnPaGU1s6b3xw9dZ52Z-7oGKA7g')"
+      "Bash(curl -s 'https://klrgxtiiozwjcjmurwjn.supabase.co/rest/v1/profiles?select=*&limit=5' -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtscmd4dGlpb3p3amNqbXVyd2puIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyODI5NzUsImV4cCI6MjA5MDg1ODk3NX0.Yh1bk-sABbO2FkDIbnPaGU1s6b3xw9dZ52Z-7oGKA7g' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtscmd4dGlpb3p3amNqbXVyd2puIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyODI5NzUsImV4cCI6MjA5MDg1ODk3NX0.Yh1bk-sABbO2FkDIbnPaGU1s6b3xw9dZ52Z-7oGKA7g')",
+      "Bash(xxd)"
     ]
   }
 }

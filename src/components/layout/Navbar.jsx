@@ -33,9 +33,9 @@ export default function Navbar({
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
-  const [showSignIn] = useState(true);
-  const [showLeaderboard] = useState(true);
-  const showFeedback = true;
+  const [showSignIn] = useState(false);
+  const [showLeaderboard] = useState(false);
+  const showFeedback = false;
   const [settingsOpen, setSettingsOpen] = useState(false);
   const settingsRef = useRef(null);
   const [avatarOpen, setAvatarOpen] = useState(false);
@@ -296,7 +296,7 @@ export default function Navbar({
                           </button>
                           <button type="button" onClick={() => { navigate('/superadmin'); setAvatarOpen(false); }}
                             className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium text-foreground hover:bg-muted transition-colors text-left">
-                            <BarChart2 className="h-3.5 w-3.5" /> Analytics Dashboard
+                            <BarChart2 className="h-3.5 w-3.5" /> Admin Dashboard
                           </button>
                         </>
                       )}

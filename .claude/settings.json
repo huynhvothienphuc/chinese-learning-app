@@ -31,7 +31,8 @@
       "Bash(git pull:*)",
       "Bash(git stash:*)",
       "Bash(node -e \"require\\('./node_modules/zustand'\\); require\\('./node_modules/@tanstack/react-query'\\); console.log\\('both installed ok'\\)\")",
-      "Bash(wc -l /Users/phuchuynh/Desktop/chinese-learning-app/src/**/*.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/**/*.js)"
+      "Bash(wc -l /Users/phuchuynh/Desktop/chinese-learning-app/src/**/*.jsx /Users/phuchuynh/Desktop/chinese-learning-app/src/**/*.js)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

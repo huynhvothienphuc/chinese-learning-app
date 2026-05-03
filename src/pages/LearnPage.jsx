@@ -90,6 +90,7 @@ export default function LearnPage() {
   );
 
   const rawVocab = useMemo(() => {
+    if (!selectedSection) return [];
     if (selectedBook === USER_UPLOAD_BOOK_ID) {
       return (supabaseSets ?? []).find((s) => s.id === selectedSection)?.items || [];
     }
@@ -170,7 +171,8 @@ export default function LearnPage() {
 
   // ── initialize selectedSection when sections load ──
   useEffect(() => {
-    if (!sections.length || !selectedBook) return;
+    if (!selectedBook) return;
+    if (!sections.length) { setSelectedSection(''); return; }
     const savedByBook = readSavedSectionsByBook();
     const saved = savedByBook[selectedBook];
     const firstEnabled = sections.find((s) => s.enabled !== false)?.file || sections[0]?.file || '';
