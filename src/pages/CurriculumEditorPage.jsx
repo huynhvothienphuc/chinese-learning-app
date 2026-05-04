@@ -1,13 +1,14 @@
 import { Fragment, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQueryClient } from '@tanstack/react-query';
-import { ArrowLeft, BookOpen, ChevronDown, ChevronRight, Lock, Unlock, Loader2, Plus, Save, Trash2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, ChevronDown, ChevronRight, Lock, Unlock, Loader2, Plus, Save, Trash2, Download } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuthStore } from '@/store/authStore';
 import { useLocale } from '@/hooks/useLocale';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Modal, ModalHeader, ModalBody, ModalFooter } from '@/components/ui/Modal';
+import { exportLessonToExcel, exportBookToExcel } from '@/lib/excel';
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -66,6 +67,8 @@ export default function CurriculumEditorPage() {
   const [booksLoading, setBooksLoading]     = useState(true);
   const [lessonsLoading, setLessonsLoading] = useState(false);
   const [wordsLoading, setWordsLoading]     = useState(false);
+  const [downloadingId, setDownloadingId]   = useState(null);
+  const [downloadingBook, setDownloadingBook] = useState(false);
 
   useEffect(() => {
     if (roleReady && role !== 'superadmin') navigate('/');
@@ -205,6 +208,31 @@ export default function CurriculumEditorPage() {
     setDirty(true);
   }
 
+  // ── download lesson ───────────────────────────────────────────────────────
+
+  async function downloadBook() {
+    if (!selectedBookId || lessons.length === 0) return;
+    setDownloadingBook(true);
+    const { data } = await supabase
+      .from('lessons')
+      .select('id, order, title, words')
+      .eq('book_id', selectedBookId)
+      .order('order');
+    const lessonData = (data ?? []).map((l) => ({ lesson: l, words: l.words ?? [] }));
+    const bookTitle = selectedBook?.short_title ?? selectedBook?.title ?? 'book';
+    await exportBookToExcel(lessonData, bookTitle).catch(() => {});
+    setDownloadingBook(false);
+  }
+
+  async function downloadLesson(lesson) {
+    setDownloadingId(lesson.id);
+    const { data } = await supabase.from('lessons').select('words').eq('id', lesson.id).single();
+    const bookShort = selectedBook?.short_title ?? selectedBook?.title ?? 'book';
+    const fileName = `${bookShort} - Lesson ${lesson.order} - ${lesson.title}`;
+    await exportLessonToExcel(data?.words ?? [], fileName).catch(() => {});
+    setDownloadingId(null);
+  }
+
   // ── save all ──────────────────────────────────────────────────────────────
 
   async function saveAll() {
@@ -287,7 +315,7 @@ export default function CurriculumEditorPage() {
                   {selectedBook ? `${selectedBook.short_title ?? selectedBook.title} — ${t.curriculumLessonsHeader}` : t.curriculumLessonsHeader}
                 </CardTitle>
                 {lessons.length > 0 && (
-                  <div className="flex gap-1">
+                  <div className="flex items-center gap-1">
                     <button type="button" onClick={() => setBulkFreeConfirm({ is_free: true })}
                       className="rounded px-2 py-0.5 text-xs font-medium text-primary hover:bg-primary/10 transition-colors">
                       {t.curriculumAllFree}
@@ -295,6 +323,18 @@ export default function CurriculumEditorPage() {
                     <button type="button" onClick={() => setBulkFreeConfirm({ is_free: false })}
                       className="rounded px-2 py-0.5 text-xs font-medium text-muted-foreground hover:bg-muted transition-colors">
                       {t.curriculumAllLocked}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={downloadBook}
+                      disabled={downloadingBook}
+                      title="Download all lessons as XLSX"
+                      className="ml-1 flex items-center gap-1 rounded px-2 py-0.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground disabled:opacity-40"
+                    >
+                      {downloadingBook
+                        ? <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                        : <Download className="h-3.5 w-3.5" />}
+                      XLSX
                     </button>
                   </div>
                 )}
@@ -312,6 +352,7 @@ export default function CurriculumEditorPage() {
                       <th className="px-4 py-2 text-left">{t.curriculumColTitle}</th>
                       <th className="w-20 px-4 py-2 text-center">{t.curriculumColEnabled}</th>
                       <th className="w-16 px-4 py-2 text-center">{t.curriculumColFree}</th>
+                      <th className="w-10 px-2 py-2" />
                       <th className="w-20 px-4 py-2" />
                     </tr>
                   </thead>
@@ -331,8 +372,21 @@ export default function CurriculumEditorPage() {
                             className="text-muted-foreground transition-colors hover:text-foreground"
                           >
                             {lesson.is_free
-                              ? <Unlock className="h-4 w-4 text-primary" />
-                              : <Lock className="h-4 w-4" />}
+                              ? <Unlock className="h-4 w-4 text-green-500" />
+                              : <Lock className="h-4 w-4 text-red-500" />}
+                          </button>
+                        </td>
+                        <td className="px-2 py-2 text-center">
+                          <button
+                            type="button"
+                            onClick={() => downloadLesson(lesson)}
+                            disabled={downloadingId === lesson.id}
+                            title="Download XLSX"
+                            className="text-muted-foreground transition-colors hover:text-foreground disabled:opacity-40"
+                          >
+                            {downloadingId === lesson.id
+                              ? <Loader2 className="h-4 w-4 animate-spin" />
+                              : <Download className="h-4 w-4" />}
                           </button>
                         </td>
                         <td className="px-4 py-2 text-right">

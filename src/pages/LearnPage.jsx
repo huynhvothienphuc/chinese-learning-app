@@ -173,10 +173,12 @@ export default function LearnPage() {
   useEffect(() => {
     if (!selectedBook) return;
     if (!sections.length) { setSelectedSection(''); return; }
+    const isGuest = !user;
+    const accessible = (s) => s.enabled !== false && (!isGuest || s.source !== 'official' || s.is_free);
     const savedByBook = readSavedSectionsByBook();
     const saved = savedByBook[selectedBook];
-    const firstEnabled = sections.find((s) => s.enabled !== false)?.file || sections[0]?.file || '';
-    setSelectedSection(saved && sections.some((s) => s.file === saved && s.enabled !== false) ? saved : firstEnabled);
+    const firstAccessible = sections.find(accessible)?.file || sections[0]?.file || '';
+    setSelectedSection(saved && sections.some((s) => s.file === saved && accessible(s)) ? saved : firstAccessible);
   }, [sections, selectedBook]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -287,6 +289,7 @@ export default function LearnPage() {
         selectedBook={selectedBook}
         onBookChange={setSelectedBook}
         sections={sections}
+        sectionsLoading={sectionsQuery.isLoading}
         selectedSection={selectedSection}
         onSectionChange={setSelectedSection}
         activeTab={activeTab}

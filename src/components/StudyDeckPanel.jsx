@@ -24,6 +24,7 @@ export default function StudyDeckPanel({
   selectedBook,
   onBookChange,
   sections,
+  sectionsLoading,
   selectedSection,
   onSectionChange,
   activeTab,
@@ -49,7 +50,9 @@ export default function StudyDeckPanel({
                 const useGroups = groupCount > 2;
 
                 const regularOptions = regularBooks.map((book) => (
-                  <option key={book.id} value={book.id}>{getBookOptionLabel(book, t)}</option>
+                  <option key={book.id} value={book.id} disabled={book.enabled === false}>
+                    {getBookOptionLabel(book, t)}{book.enabled === false ? ' 🔒' : ''}
+                  </option>
                 ));
                 const sharedOptions = sharedBooks.map((book) => (
                   <option key={book.id} value={book.id}>{book.title}</option>
@@ -77,6 +80,7 @@ export default function StudyDeckPanel({
             </div>
             <SectionSelector
               sections={sections}
+              sectionsLoading={sectionsLoading}
               selectedSection={selectedSection}
               onChange={onSectionChange}
               noSectionsLabel={t.noSections}
