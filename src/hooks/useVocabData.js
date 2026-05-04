@@ -84,8 +84,10 @@ export function useBooks(userId, authReady) {
         userId ? supabase.rpc('list_shared_books') : Promise.resolve({ data: [] }),
         supabase.from('books').select('id,title,short_title,description,language,order,enabled'),
       ]);
-      const teacherBooks  = (teacherResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
-      const officialBooks = (officialResult.data ?? [])
+      const teacherBooks   = (teacherResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
+      const allOfficial   = officialResult.data ?? [];
+      const officialIds   = new Set(allOfficial.map((b) => b.id));
+      const officialBooks = allOfficial
         .sort((a, b) => a.order - b.order)
         .map((b) => ({
           id:          b.id,
@@ -95,8 +97,8 @@ export function useBooks(userId, authReady) {
           language:    b.language,
           folder:      b.id,
           source:      'official',
+          enabled:     b.enabled,
         }));
-      const officialIds = new Set(officialBooks.map((b) => b.id));
       const staticBooks = booksData.filter((b) => !officialIds.has(b.id));
       return [...officialBooks, ...staticBooks, ...teacherBooks];
     },
@@ -129,7 +131,7 @@ export function useSections(bookId, bookSource) {
       }
       if (bookSource === 'official') {
         const { data, error } = await supabase
-          .from('lessons')
+          .from('lessons_preview')
           .select('id,book_id,title,order,theme,verified,enabled,is_free,updated_at')
           .eq('book_id', bookId);
         if (error) throw new Error(error.message);

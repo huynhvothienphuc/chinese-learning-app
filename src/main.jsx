@@ -34,7 +34,8 @@ Sentry.init({
 function ErrorFallback({ error }) {
   const isChunkError = error?.message?.includes('Failed to fetch dynamically imported module')
     || error?.message?.includes('Loading chunk')
-    || error?.message?.includes('is not a valid JavaScript MIME type');
+    || error?.message?.includes('is not a valid JavaScript MIME type')
+    || error?.message?.includes('Importing a module script failed');
 
   if (isChunkError) {
     const reloaded = sessionStorage.getItem('chunk_reload');

@@ -38,7 +38,7 @@ export default function Flashcard({
   const sentenceMeaning = getSentenceMeaning(item, language);
 
   return (
-    <div className="mx-auto w-full max-w-5xl">
+    <div className="mx-auto w-full max-w-5xl" translate="no">
       <div className="mb-4 rounded-3xl border border-theme-border bg-theme-surface px-3 py-3 shadow-soft sm:px-4">
         <div className="flex flex-wrap items-center gap-2">
           <ToggleSwitch
