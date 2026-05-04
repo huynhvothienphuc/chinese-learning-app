@@ -74,17 +74,20 @@ export default function SuperadminDashboard() {
       const lessonData = ls.data ?? [];
       setLessonPop(lessonData);
 
-      // Build name maps from static JSON files
-      const books = await fetch('/data/books.json').then((r) => r.json()).catch(() => []);
-      const bMap = Object.fromEntries(books.map((b) => [b.id, b.shortTitle ?? b.title]));
+      // Build name maps from Supabase
+      const { data: booksData } = await supabase.from('books').select('id,short_title,title');
+      const bMap = Object.fromEntries((booksData ?? []).map((b) => [b.id, b.short_title ?? b.title]));
       setBookNameMap(bMap);
 
       const uniqueBookIds = [...new Set(lessonData.map((r) => r.book_id).filter(Boolean))];
       const sMap = {};
       await Promise.all(
         uniqueBookIds.map(async (bookId) => {
-          const sections = await fetch(`/data/books/${bookId}/sections.json`).then((r) => r.json()).catch(() => []);
-          sMap[bookId] = Object.fromEntries(sections.map((s) => [s.file, { order: s.order, title: s.title }]));
+          const { data: lessons } = await supabase
+            .from('lessons_preview')
+            .select('id,order,title')
+            .eq('book_id', bookId);
+          sMap[bookId] = Object.fromEntries((lessons ?? []).map((l) => [l.id, { order: l.order, title: l.title }]));
         }),
       );
       setSectionNameMap(sMap);

@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { buildQuizChoices, cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
-import { fetchJSON } from '@/lib/fetchCache';
+import { supabase } from '@/lib/supabase';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 import Quiz from '@/components/Quiz';
 import WriteMode from '@/components/WriteMode';
@@ -87,10 +87,22 @@ export default function MyQuizPage() {
     }
 
     setLoadingSections(true);
-    fetchJSON(`/data/books/${activeBrowseBook}/sections.json`)
-      .then((data) => setSections(Array.isArray(data) ? data.filter((s) => s.enabled !== false) : []))
-      .catch(() => setSections([]))
-      .finally(() => setLoadingSections(false));
+    const book = books.find((b) => b.id === activeBrowseBook);
+    if (book?.source === 'teacher') {
+      supabase.from('user_sections').select('id,title,order').eq('book_id', activeBrowseBook).order('order')
+        .then(({ data }) => setSections((data ?? []).map((s) => ({ file: s.id, title: s.title, order: s.order, enabled: true, source: 'teacher' }))))
+        .catch(() => setSections([]))
+        .finally(() => setLoadingSections(false));
+    } else {
+      supabase.from('lessons_preview').select('id,title,order,enabled,is_free').eq('book_id', activeBrowseBook)
+        .then(({ data }) => setSections(
+          (data ?? []).sort((a, b) => a.order - b.order)
+            .filter((l) => l.enabled !== false)
+            .map((l) => ({ file: l.id, title: l.title, order: l.order, enabled: l.enabled, is_free: l.is_free, source: 'official' })),
+        ))
+        .catch(() => setSections([]))
+        .finally(() => setLoadingSections(false));
+    }
   }, [activeBrowseBook, supabaseSets]);
 
   // ── fetch vocab for a scope when a section is checked ────────────────────
@@ -109,9 +121,12 @@ export default function MyQuizPage() {
               sectionFile,
             ),
           )
-        : fetchJSON(`/data/books/${bookId}/${sectionFile}`).then((data) =>
-            withScopedIds(normalizeVocabularyItems(data?.items ?? data), bookId, sectionFile),
-          );
+        : (() => {
+            const book = books.find((b) => b.id === bookId);
+            const table = book?.source === 'teacher' ? 'user_sections' : 'lessons';
+            return supabase.from(table).select('words').eq('id', sectionFile).single()
+              .then(({ data }) => withScopedIds(normalizeVocabularyItems(data?.words ?? []), bookId, sectionFile));
+          })();
 
     request
       .then((items) => setVocabByScope((prev) => ({ ...prev, [key]: items })))
