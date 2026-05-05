@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Users, Globe, BookOpen, BarChart2, Loader2, RefreshCw, Home } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuthStore } from '@/store/authStore';
+import { useCatalogStore } from '@/store/catalogStore';
 import { useLocale } from '@/hooks/useLocale';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -45,14 +46,14 @@ export default function SuperadminDashboard() {
   const navigate = useNavigate();
   const t = useLocale();
 
+  const catalog = useCatalogStore();
+
   const [stats, setStats] = useState(null);
   const [locales, setLocales] = useState([]);
   const [bookPop, setBookPop] = useState([]);
   const [lessonPop, setLessonPop] = useState([]);
   const [loading, setLoading] = useState(true);
   const [lessonTab, setLessonTab] = useState('all');
-  const [bookNameMap, setBookNameMap] = useState({});  // { bookId: shortTitle }
-  const [sectionNameMap, setSectionNameMap] = useState({}); // { bookId: { file: { order, title } } }
 
   useEffect(() => {
     if (roleReady && role !== 'superadmin') navigate('/');
@@ -61,11 +62,14 @@ export default function SuperadminDashboard() {
   async function load() {
     setLoading(true);
     try {
-      const [s, l, b, ls] = await Promise.all([
-        supabase.rpc('get_user_stats'),
-        supabase.rpc('get_locale_breakdown'),
-        supabase.rpc('get_book_popularity'),
-        supabase.rpc('get_lesson_popularity'),
+      const [[s, l, b, ls]] = await Promise.all([
+        Promise.all([
+          supabase.rpc('get_user_stats'),
+          supabase.rpc('get_locale_breakdown'),
+          supabase.rpc('get_book_popularity'),
+          supabase.rpc('get_lesson_popularity'),
+        ]),
+        catalog.loadBooks(),
       ]);
       setStats(s.data);
       setLocales(l.data ?? []);
@@ -74,20 +78,9 @@ export default function SuperadminDashboard() {
       const lessonData = ls.data ?? [];
       setLessonPop(lessonData);
 
-      // Build name maps from static JSON files
-      const books = await fetch('/data/books.json').then((r) => r.json()).catch(() => []);
-      const bMap = Object.fromEntries(books.map((b) => [b.id, b.shortTitle ?? b.title]));
-      setBookNameMap(bMap);
-
+      // Ensure sections are cached for every book that appears in lesson data
       const uniqueBookIds = [...new Set(lessonData.map((r) => r.book_id).filter(Boolean))];
-      const sMap = {};
-      await Promise.all(
-        uniqueBookIds.map(async (bookId) => {
-          const sections = await fetch(`/data/books/${bookId}/sections.json`).then((r) => r.json()).catch(() => []);
-          sMap[bookId] = Object.fromEntries(sections.map((s) => [s.file, { order: s.order, title: s.title }]));
-        }),
-      );
-      setSectionNameMap(sMap);
+      await Promise.all(uniqueBookIds.map((id) => catalog.ensureSections(id)));
     } finally {
       setLoading(false);
     }
@@ -95,12 +88,6 @@ export default function SuperadminDashboard() {
 
   useEffect(() => { load(); }, []);
 
-  function sectionLabel(bookId, sectionId) {
-
-    const s = sectionNameMap[bookId]?.[sectionId];
-    if (!s) return sectionId;
-    return `Lesson ${s.order}: ${s.title}`;
-  }
 
   if (!roleReady) {
     return (
@@ -188,7 +175,7 @@ export default function SuperadminDashboard() {
                                 : 'text-muted-foreground hover:text-foreground'
                               }`}
                           >
-                            {id === 'all' ? t.superadminAllTab : (bookNameMap[id] ?? id)}
+                            {id === 'all' ? t.superadminAllTab : catalog.bookName(id)}
                           </button>
                         ))}
                       </div>
@@ -208,8 +195,8 @@ export default function SuperadminDashboard() {
                           <tbody>
                             {filtered.map((row, i) => (
                               <tr key={i} className="border-t border-border hover:bg-muted/40 transition-colors">
-                                {lessonTab === 'all' && <td className="px-4 py-3 font-medium">{bookNameMap[row.book_id] ?? row.book_id}</td>}
-                                <td className="px-4 py-3 text-muted-foreground">{sectionLabel(row.book_id, row.section_id)}</td>
+                                {lessonTab === 'all' && <td className="px-4 py-3 font-medium">{catalog.bookName(row.book_id)}</td>}
+                                <td className="px-4 py-3 text-muted-foreground">{catalog.sectionLabel(row.book_id, row.section_id)}</td>
                                 <td className="px-4 py-3 text-right font-semibold">{row.opens}</td>
                                 <td className="px-4 py-3 text-right">{row.quizzes}</td>
                                 <td className="px-4 py-3 text-right">
@@ -254,7 +241,7 @@ export default function SuperadminDashboard() {
                       return (
                         <div key={i}>
                           <div className="mb-1 flex items-center justify-between text-xs">
-                            <span className="font-semibold truncate">{bookNameMap[b.book_id] ?? b.book_id}</span>
+                            <span className="font-semibold truncate">{catalog.bookName(b.book_id)}</span>
                             <span className="text-muted-foreground shrink-0 ml-2">{b.opens} opens</span>
                           </div>
                           <div className="h-2 rounded-full bg-muted overflow-hidden">

@@ -9,6 +9,26 @@ import App from './App';
 import './index.css';
 import './App.css';
 
+const CHUNK_ERROR_PATTERNS = [
+  'Failed to fetch dynamically imported module',
+  'Loading chunk',
+  'is not a valid JavaScript MIME type',
+  'Importing a module script failed',
+];
+
+// Third-party in-app browser variables that are not our code
+const THIRD_PARTY_VARS = ['zaloJSV2', 'zaloJS', '__ZaloSDK'];
+
+function isChunkLoadError(error) {
+  const msg = error?.message ?? '';
+  return CHUNK_ERROR_PATTERNS.some((p) => msg.includes(p));
+}
+
+function isThirdPartyBrowserNoise(error) {
+  const msg = error?.message ?? '';
+  return THIRD_PARTY_VARS.some((v) => msg.includes(v));
+}
+
 Sentry.init({
   dsn: import.meta.env.VITE_SENTRY_DSN,
   enabled: import.meta.env.PROD,
@@ -29,15 +49,16 @@ Sentry.init({
   tracesSampleRate: 0.2,
   replaysSessionSampleRate: 0,
   replaysOnErrorSampleRate: 1.0,
+  beforeSend(event, hint) {
+    const err = hint?.originalException;
+    if (isChunkLoadError(err)) return null;
+    if (isThirdPartyBrowserNoise(err)) return null;
+    return event;
+  },
 });
 
 function ErrorFallback({ error }) {
-  const isChunkError = error?.message?.includes('Failed to fetch dynamically imported module')
-    || error?.message?.includes('Loading chunk')
-    || error?.message?.includes('is not a valid JavaScript MIME type')
-    || error?.message?.includes('Importing a module script failed');
-
-  if (isChunkError) {
+  if (isChunkLoadError(error)) {
     const reloaded = sessionStorage.getItem('chunk_reload');
     if (!reloaded) {
       sessionStorage.setItem('chunk_reload', '1');

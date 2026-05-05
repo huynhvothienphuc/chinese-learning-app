@@ -33,3 +33,7 @@ coverage/
 
 # local AI tool settings
 .claude/settings.json
+
+# book data (local files, served via Supabase in production)
+public/data/books/
+public/data/booksxxx/
