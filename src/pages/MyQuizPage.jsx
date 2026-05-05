@@ -1,12 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { CheckSquare2, PencilLine, ListChecks, Loader2, Square, X } from 'lucide-react';
+import { useQueryClient } from '@tanstack/react-query';
+import { CheckSquare2, PencilLine, ListChecks, Loader2, Square, X, Lock } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { buildQuizChoices, cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
 import { supabase } from '@/lib/supabase';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
+import { useAuthStore } from '@/store/authStore';
+import { useSections } from '@/hooks/useVocabData';
 import Quiz from '@/components/Quiz';
 import WriteMode from '@/components/WriteMode';
 
@@ -40,12 +43,31 @@ const INITIAL_SCORE = { correct: 0, total: 0 };
 
 export default function MyQuizPage() {
   const { books, supabaseSets, selectedLanguage: language = 'vi', t } = useOutletContext();
+  const { user, role } = useAuthStore();
+  const isGuest = !user;
+  const isSuperadmin = role === 'superadmin';
+  const queryClient = useQueryClient();
+  const userId = user?.id ?? null;
+
   // Which book's sections are currently being browsed
   const [activeBrowseBook, setActiveBrowseBook] = useState(books[0]?.id ?? '');
+  const activeBook = books.find((b) => b.id === activeBrowseBook);
 
-  // Sections for the actively-browsed book
-  const [sections, setSections] = useState([]);
-  const [loadingSections, setLoadingSections] = useState(false);
+  // Sections via TanStack Query — cached per book, no re-fetch within 5 min
+  const sectionsQuery = useSections(
+    activeBrowseBook !== USER_UPLOAD_BOOK_ID ? activeBrowseBook : null,
+    activeBook?.source,
+  );
+
+  const sections = useMemo(() => {
+    if (activeBrowseBook === USER_UPLOAD_BOOK_ID) {
+      return [...(supabaseSets ?? [])].reverse()
+        .map((s, i) => ({ file: s.id, title: `Word Bank ${i + 1}`, enabled: true }));
+    }
+    return (sectionsQuery.data ?? []).filter((s) => s.enabled !== false);
+  }, [activeBrowseBook, supabaseSets, sectionsQuery.data]);
+
+  const loadingSections = sectionsQuery.isLoading;
 
   // Multi-book selection: Map<scopeKey, { bookId, bookTitle, sectionFile, sectionTitle }>
   const [selection, setSelection] = useState(new Map());
@@ -74,70 +96,44 @@ export default function MyQuizPage() {
     }
   }, [books, activeBrowseBook]);
 
-  // ── load sections when activeBrowseBook changes ──────────────────────────
-  useEffect(() => {
-    if (!activeBrowseBook) return;
-
-    if (activeBrowseBook === USER_UPLOAD_BOOK_ID) {
-      setSections(
-        [...(supabaseSets ?? [])].reverse()
-          .map((s, i) => ({ file: s.id, title: `Word Bank ${i + 1}`, enabled: true })),
-      );
-      return;
-    }
-
-    setLoadingSections(true);
-    const book = books.find((b) => b.id === activeBrowseBook);
-    if (book?.source === 'teacher') {
-      supabase.from('user_sections').select('id,title,order').eq('book_id', activeBrowseBook).order('order')
-        .then(({ data }) => setSections((data ?? []).map((s) => ({ file: s.id, title: s.title, order: s.order, enabled: true, source: 'teacher' }))))
-        .catch(() => setSections([]))
-        .finally(() => setLoadingSections(false));
-    } else {
-      supabase.from('lessons_preview').select('id,title,order,enabled,is_free').eq('book_id', activeBrowseBook)
-        .then(({ data }) => setSections(
-          (data ?? []).sort((a, b) => a.order - b.order)
-            .filter((l) => l.enabled !== false)
-            .map((l) => ({ file: l.id, title: l.title, order: l.order, enabled: l.enabled, is_free: l.is_free, source: 'official' })),
-        ))
-        .catch(() => setSections([]))
-        .finally(() => setLoadingSections(false));
-    }
-  }, [activeBrowseBook, supabaseSets]);
-
   // ── fetch vocab for a scope when a section is checked ────────────────────
-  function loadVocabForScope(bookId, sectionFile) {
+  // Uses queryClient.ensureQueryData — returns from TanStack cache if fresh,
+  // otherwise fetches from Supabase. Vocab visited in the Learn page is reused.
+  async function loadVocabForScope(bookId, sectionFile) {
     const key = scopeKey(bookId, sectionFile);
     if (vocabByScope[key] !== undefined || loadingScopes.has(key)) return;
 
     setLoadingScopes((prev) => new Set([...prev, key]));
-
-    const request =
-      bookId === USER_UPLOAD_BOOK_ID
-        ? Promise.resolve(
-            withScopedIds(
-              (supabaseSets ?? []).find((s) => s.id === sectionFile)?.items ?? [],
-              bookId,
-              sectionFile,
-            ),
-          )
-        : (() => {
-            const book = books.find((b) => b.id === bookId);
+    try {
+      let items;
+      if (bookId === USER_UPLOAD_BOOK_ID) {
+        items = withScopedIds(
+          (supabaseSets ?? []).find((s) => s.id === sectionFile)?.items ?? [],
+          bookId, sectionFile,
+        );
+      } else {
+        const book = books.find((b) => b.id === bookId);
+        const raw = await queryClient.ensureQueryData({
+          queryKey: ['vocab', bookId, sectionFile, userId],
+          queryFn: async () => {
             const table = book?.source === 'teacher' ? 'user_sections' : 'lessons';
-            return supabase.from(table).select('words').eq('id', sectionFile).single()
-              .then(({ data }) => withScopedIds(normalizeVocabularyItems(data?.words ?? []), bookId, sectionFile));
-          })();
-
-    request
-      .then((items) => setVocabByScope((prev) => ({ ...prev, [key]: items })))
-      .catch(() => setVocabByScope((prev) => ({ ...prev, [key]: [] })))
-      .finally(() =>
-        setLoadingScopes((prev) => {
-          const next = new Set(prev);
-          next.delete(key);
-          return next;
-        }),
-      );
+            const { data } = await supabase.from(table).select('words').eq('id', sectionFile).single();
+            return normalizeVocabularyItems(data?.words ?? []);
+          },
+          staleTime: 1000 * 60 * 5,
+        });
+        items = withScopedIds(raw, bookId, sectionFile);
+      }
+      setVocabByScope((prev) => ({ ...prev, [key]: items }));
+    } catch {
+      setVocabByScope((prev) => ({ ...prev, [key]: [] }));
+    } finally {
+      setLoadingScopes((prev) => {
+        const next = new Set(prev);
+        next.delete(key);
+        return next;
+      });
+    }
   }
 
   function toggleSection(sectionFile, sectionTitle) {
@@ -169,22 +165,26 @@ export default function MyQuizPage() {
 
   // ── select-all for current book ───────────────────────────────────────────
   const enabledSections = sections.filter((s) => s.enabled !== false);
+  const selectableSections = enabledSections.filter((s) => {
+    const isLocked = s.source === 'official' && !s.is_free;
+    return !isLocked || isSuperadmin;
+  });
   const allCheckedForCurrentBook =
-    enabledSections.length > 0 &&
-    enabledSections.every((s) => selection.has(scopeKey(activeBrowseBook, s.file)));
+    selectableSections.length > 0 &&
+    selectableSections.every((s) => selection.has(scopeKey(activeBrowseBook, s.file)));
 
   function toggleAllCurrentBook() {
     if (allCheckedForCurrentBook) {
       setSelection((prev) => {
         const next = new Map(prev);
-        enabledSections.forEach((s) => next.delete(scopeKey(activeBrowseBook, s.file)));
+        selectableSections.forEach((s) => next.delete(scopeKey(activeBrowseBook, s.file)));
         return next;
       });
     } else {
       setSelection((prev) => {
         const next = new Map(prev);
         const bookTitle = books.find((b) => b.id === activeBrowseBook)?.title ?? activeBrowseBook;
-        enabledSections.forEach((s) => {
+        selectableSections.forEach((s) => {
           const key = scopeKey(activeBrowseBook, s.file);
           if (!next.has(key)) {
             next.set(key, { bookId: activeBrowseBook, bookTitle, sectionFile: s.file, sectionTitle: s.title });
@@ -320,7 +320,7 @@ export default function MyQuizPage() {
                 {/* Row 1: Chọn sách + Số câu hỏi */}
                 <div className="flex flex-wrap items-center gap-2 ">
                   <span className="text-xs font-semibold text-muted-foreground">{t.myQuizSelectBook}</span>
-                  {books.map((book) => (
+                  {books.filter((b) => b.enabled !== false || isSuperadmin).map((book) => (
                     <button
                       key={book.id}
                       type="button"
@@ -453,7 +453,7 @@ export default function MyQuizPage() {
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                   {t.myQuizLessonsLabel}
                 </p>
-                {enabledSections.length > 0 && (
+                {selectableSections.length > 0 && (
                   <button
                     type="button"
                     onClick={toggleAllCurrentBook}
@@ -475,6 +475,8 @@ export default function MyQuizPage() {
                 <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                   {enabledSections.map((section) => {
                     const key = scopeKey(activeBrowseBook, section.file);
+                    const isLocked = section.source === 'official' && !section.is_free;
+                    const locked = isLocked && !isSuperadmin;
                     const checked = selection.has(key);
                     const vocabItems = vocabByScope[key];
                     const isLoading = loadingScopes.has(key);
@@ -482,17 +484,22 @@ export default function MyQuizPage() {
                       <button
                         key={section.file}
                         type="button"
-                        onClick={() => toggleSection(section.file, section.title)}
+                        disabled={locked}
+                        onClick={() => !locked && toggleSection(section.file, section.title)}
                         className={cn(
                           'flex w-full items-center gap-3 rounded-2xl border px-3 py-2.5 text-left transition-colors',
-                          checked
-                            ? 'border-primary/40 bg-primary/10 dark:border-primary/30 dark:bg-primary/10'
-                            : 'border-theme-border bg-white hover:bg-primary/5 dark:border-slate-600 dark:bg-slate-700/60 dark:hover:bg-slate-700',
+                          locked
+                            ? 'cursor-not-allowed border-theme-border bg-muted/40 opacity-60 dark:border-slate-600 dark:bg-slate-800/40'
+                            : checked
+                              ? 'border-primary/40 bg-primary/10 dark:border-primary/30 dark:bg-primary/10'
+                              : 'border-theme-border bg-white hover:bg-primary/5 dark:border-slate-600 dark:bg-slate-700/60 dark:hover:bg-slate-700',
                         )}
                       >
-                        {checked
-                          ? <CheckSquare2 className="h-4 w-4 shrink-0 text-primary" />
-                          : <Square className="h-4 w-4 shrink-0 text-muted-foreground" />}
+                        {locked
+                          ? <Lock className="h-4 w-4 shrink-0 text-muted-foreground" />
+                          : checked
+                            ? <CheckSquare2 className="h-4 w-4 shrink-0 text-primary" />
+                            : <Square className="h-4 w-4 shrink-0 text-muted-foreground" />}
                         <span className="flex-1 truncate text-sm font-medium text-foreground">
                           {section.title}
                         </span>

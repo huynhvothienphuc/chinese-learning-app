@@ -2,52 +2,39 @@ import { useEffect } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { supabase } from '@/lib/supabase';
 import { useAuthStore } from '@/store/authStore';
-import { formatSectionName, normalizeVocabularyItems } from '@/lib/utils';
+import { normalizeVocabularyItems } from '@/lib/utils';
 import { USER_UPLOAD_BOOK_ID, SESSION_SELECTED_BOOK_KEY, SESSION_SELECTED_SECTION_KEY } from '@/lib/constants';
-
-// ── Internal fetch helpers ────────────────────────────────────────────────────
-// Direct fetch — bypasses fetchCache's in-memory Map so TanStack Query's
-// stale-while-revalidate can hit the network and pick up daily JSON updates.
-// Browser HTTP cache still handles 304 Not Modified for unchanged files.
-async function fetchDirect(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch ${url}`);
-  return res.json();
-}
-
-function parseSections(raw) {
-  return raw.map((s) => ({
-    ...s,
-    title: s.title || formatSectionName(s.file),
-    enabled: s.enabled !== false,
-  }));
-}
-
-function parseVocab(raw) {
-  return normalizeVocabularyItems(raw?.items || raw);
-}
 
 // ── Prefetch utilities (callable outside React) ───────────────────────────────
 
 export function prefetchSections(queryClient, bookId) {
   return queryClient.prefetchQuery({
     queryKey: ['sections', bookId],
-    queryFn: () => fetchDirect(`/data/books/${bookId}/sections.json`).then(parseSections),
-    staleTime: 0,
+    queryFn: async () => {
+      const { data } = await supabase
+        .from('lessons_preview')
+        .select('id,book_id,title,order,theme,verified,enabled,is_free,updated_at')
+        .eq('book_id', bookId);
+      return (data ?? [])
+        .sort((a, b) => a.order - b.order)
+        .map((l) => ({
+          id: l.id, file: l.id, title: l.title, order: l.order,
+          theme: l.theme, verified: l.verified, enabled: l.enabled,
+          is_free: l.is_free, source: 'official',
+        }));
+    },
+    staleTime: 1000 * 60 * 5,
   });
 }
 
-export function prefetchVocab(queryClient, bookId, sectionFile, source) {
+export function prefetchVocab(queryClient, bookId, sectionFile, userId = null) {
   return queryClient.prefetchQuery({
-    queryKey: ['vocab', bookId, sectionFile],
+    queryKey: ['vocab', bookId, sectionFile, userId],
     queryFn: async () => {
-      if (source === 'official') {
-        const { data } = await supabase.from('lessons').select('words').eq('id', sectionFile).single();
-        return normalizeVocabularyItems(data?.words ?? []);
-      }
-      return fetchDirect(`/data/books/${bookId}/${sectionFile}`).then(parseVocab);
+      const { data } = await supabase.from('lessons').select('words').eq('id', sectionFile).single();
+      return normalizeVocabularyItems(data?.words ?? []);
     },
-    staleTime: 0,
+    staleTime: 1000 * 60 * 5,
     gcTime: 1000 * 60 * 30,
   });
 }
@@ -60,15 +47,12 @@ export function prefetchFromSession(queryClient) {
 
   let savedSection;
   try {
-    const savedSectionsByBook = JSON.parse(
-      sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}',
-    );
-    savedSection = savedSectionsByBook[savedBook];
+    const saved = JSON.parse(sessionStorage.getItem(SESSION_SELECTED_SECTION_KEY) || '{}');
+    savedSection = saved[savedBook];
   } catch {
     // corrupted sessionStorage — skip vocab prefetch
   }
 
-  // Fire sections + vocab in parallel — don't await, fire-and-forget
   prefetchSections(queryClient, savedBook);
   if (savedSection) prefetchVocab(queryClient, savedBook, savedSection);
 }
@@ -79,15 +63,12 @@ export function useBooks(userId, authReady) {
   return useQuery({
     queryKey: ['books', userId ?? null],
     queryFn: async () => {
-      const [booksData, teacherResult, officialResult] = await Promise.all([
-        fetchDirect('/data/books.json'),
+      const [teacherResult, officialResult] = await Promise.all([
         userId ? supabase.rpc('list_shared_books') : Promise.resolve({ data: [] }),
         supabase.from('books').select('id,title,short_title,description,language,order,enabled'),
       ]);
-      const teacherBooks   = (teacherResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
-      const allOfficial   = officialResult.data ?? [];
-      const officialIds   = new Set(allOfficial.map((b) => b.id));
-      const officialBooks = allOfficial
+      const teacherBooks = (teacherResult.data ?? []).map((b) => ({ ...b, source: 'teacher' }));
+      const officialBooks = (officialResult.data ?? [])
         .sort((a, b) => a.order - b.order)
         .map((b) => ({
           id:          b.id,
@@ -99,8 +80,7 @@ export function useBooks(userId, authReady) {
           source:      'official',
           enabled:     b.enabled,
         }));
-      const staticBooks = booksData.filter((b) => !officialIds.has(b.id));
-      return [...officialBooks, ...staticBooks, ...teacherBooks];
+      return [...officialBooks, ...teacherBooks];
     },
     enabled: authReady,
     staleTime: 1000 * 60 * 30,
@@ -129,43 +109,37 @@ export function useSections(bookId, bookSource) {
           _words:  sec.words ?? [],
         }));
       }
-      if (bookSource === 'official') {
-        const { data, error } = await supabase
-          .from('lessons_preview')
-          .select('id,book_id,title,order,theme,verified,enabled,is_free,updated_at')
-          .eq('book_id', bookId);
-        if (error) throw new Error(error.message);
-        return (data ?? [])
-          .sort((a, b) => a.order - b.order)
-          .map((lesson) => ({
-            id:       lesson.id,
-            file:     lesson.id,
-            title:    lesson.title,
-            order:    lesson.order,
-            theme:    lesson.theme,
-            verified: lesson.verified,
-            enabled:  lesson.enabled,
-            is_free:  lesson.is_free,
-            source:   'official',
-          }));
-      }
-      return fetchDirect(`/data/books/${bookId}/sections.json`).then(parseSections);
+      const { data, error } = await supabase
+        .from('lessons_preview')
+        .select('id,book_id,title,order,theme,verified,enabled,is_free,updated_at')
+        .eq('book_id', bookId);
+      if (error) throw new Error(error.message);
+      return (data ?? [])
+        .sort((a, b) => a.order - b.order)
+        .map((l) => ({
+          id:       l.id,
+          file:     l.id,
+          title:    l.title,
+          order:    l.order,
+          theme:    l.theme,
+          verified: l.verified,
+          enabled:  l.enabled,
+          is_free:  l.is_free,
+          source:   'official',
+        }));
     },
     enabled: !!bookId && bookSource !== 'upload',
-    staleTime: 0,
+    staleTime: 1000 * 60 * 5,
   });
 }
 
 // ── Vocabulary ────────────────────────────────────────────────────────────────
-// staleTime: 0 → stale-while-revalidate. Content updates daily so we always
-// re-fetch in background. placeholderData prevents any blank flash.
-// gcTime: 30 min → keeps visited sections in memory for the full session.
+// staleTime: 5 min — content doesn't change mid-session.
+// gcTime: 30 min — keeps visited lessons in memory for the full session.
 
 export function useVocabulary(bookId, sectionFile, section) {
   const { user } = useAuthStore();
   const userId = user?.id ?? null;
-  // Guests cannot access locked official lessons — disable the query entirely
-  // so no stale data leaks through after logout.
   const guestBlocked = section?.source === 'official' && !section.is_free && !userId;
 
   return useQuery({
@@ -174,19 +148,16 @@ export function useVocabulary(bookId, sectionFile, section) {
       if (section?.source === 'teacher') {
         return normalizeVocabularyItems(section._words ?? []);
       }
-      if (section?.source === 'official') {
-        const { data, error } = await supabase
-          .from('lessons')
-          .select('words')
-          .eq('id', sectionFile)
-          .single();
-        if (error) throw new Error(error.message);
-        return normalizeVocabularyItems(data?.words ?? []);
-      }
-      return fetchDirect(`/data/books/${bookId}/${sectionFile}`).then(parseVocab);
+      const { data, error } = await supabase
+        .from('lessons')
+        .select('words')
+        .eq('id', sectionFile)
+        .single();
+      if (error) throw new Error(error.message);
+      return normalizeVocabularyItems(data?.words ?? []);
     },
     enabled: !!bookId && !!sectionFile && !!section && section.source !== 'upload' && !guestBlocked,
-    staleTime: 0,
+    staleTime: 1000 * 60 * 5,
     gcTime: 1000 * 60 * 30,
     placeholderData: guestBlocked ? undefined : (prev) => prev,
   });
@@ -198,6 +169,8 @@ export function useVocabulary(bookId, sectionFile, section) {
 
 export function usePrefetchAdjacentSections(bookId, sectionFile, sections) {
   const queryClient = useQueryClient();
+  const { user } = useAuthStore();
+  const userId = user?.id ?? null;
 
   useEffect(() => {
     if (!bookId || !sectionFile || !sections.length || bookId === USER_UPLOAD_BOOK_ID) return;
@@ -205,6 +178,6 @@ export function usePrefetchAdjacentSections(bookId, sectionFile, sections) {
     const idx = sections.findIndex((s) => s.file === sectionFile);
     [sections[idx - 1], sections[idx + 1]]
       .filter((s) => s && s.source !== 'teacher' && s.source !== 'upload')
-      .forEach((s) => prefetchVocab(queryClient, bookId, s.file, s.source));
-  }, [bookId, sectionFile, sections, queryClient]);
+      .forEach((s) => prefetchVocab(queryClient, bookId, s.file, userId));
+  }, [bookId, sectionFile, sections, queryClient, userId]);
 }
