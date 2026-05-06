@@ -16,17 +16,28 @@ const CHUNK_ERROR_PATTERNS = [
   'Importing a module script failed',
 ];
 
-// Third-party in-app browser variables that are not our code
 const THIRD_PARTY_VARS = ['zaloJSV2', 'zaloJS', '__ZaloSDK'];
 
-function isChunkLoadError(error) {
-  const msg = error?.message ?? '';
+const BROWSER_NOISE_PATTERNS = [
+  'ResizeObserver loop limit exceeded',
+  'ResizeObserver loop completed with undelivered notifications',
+  'Non-Error exception captured',
+  'Script error',           // cross-origin script errors with no useful info
+  'Object captured as exception', // Sentry catches non-Error throws
+];
+
+// Accepts both a JS Error (.message) and a Sentry exception value (.value)
+function getMsg(e) { return e?.message ?? e?.value ?? ''; }
+
+function isChunkLoadError(e) {
+  const msg = getMsg(e);
   return CHUNK_ERROR_PATTERNS.some((p) => msg.includes(p));
 }
 
-function isThirdPartyBrowserNoise(error) {
-  const msg = error?.message ?? '';
-  return THIRD_PARTY_VARS.some((v) => msg.includes(v));
+function isThirdPartyBrowserNoise(e) {
+  const msg = getMsg(e);
+  return THIRD_PARTY_VARS.some((v) => msg.includes(v))
+    || BROWSER_NOISE_PATTERNS.some((p) => msg.includes(p));
 }
 
 Sentry.init({
@@ -51,8 +62,9 @@ Sentry.init({
   replaysOnErrorSampleRate: 1.0,
   beforeSend(event, hint) {
     const err = hint?.originalException;
-    if (isChunkLoadError(err)) return null;
-    if (isThirdPartyBrowserNoise(err)) return null;
+    const values = event?.exception?.values ?? [];
+    if (isChunkLoadError(err) || values.some(isChunkLoadError)) return null;
+    if (isThirdPartyBrowserNoise(err) || values.some(isThirdPartyBrowserNoise)) return null;
     return event;
   },
 });
@@ -65,6 +77,23 @@ function ErrorFallback({ error }) {
       window.location.reload();
       return null;
     }
+    // Already tried reloading — show a friendly update message instead of the raw module URL
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background px-4 text-center">
+        <p className="text-4xl">🔄</p>
+        <h1 className="text-xl font-bold text-foreground">App updated</h1>
+        <p className="max-w-sm text-sm text-muted-foreground">
+          A new version is available. Please reload to get the latest version.
+        </p>
+        <button
+          type="button"
+          onClick={() => { sessionStorage.removeItem('chunk_reload'); window.location.reload(); }}
+          className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:brightness-110"
+        >
+          Reload page
+        </button>
+      </div>
+    );
   }
 
   return (
@@ -93,7 +122,10 @@ const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       staleTime: 1000 * 60 * 5,
-      retry: 1,
+      retry: (failureCount, error) => {
+        if (error?.status >= 400 && error?.status < 500) return false;
+        return failureCount < 1;
+      },
       refetchOnWindowFocus: false,
     },
   },
@@ -106,6 +138,7 @@ prefetchFromSession(queryClient);
 
 function Root() {
   useEffect(() => {
+    sessionStorage.removeItem('chunk_reload');
     const cleanup = initAuth();
     return cleanup;
   }, []);
