@@ -5,6 +5,9 @@ import { useAuthStore } from '@/store/authStore';
 import { normalizeVocabularyItems } from '@/lib/utils';
 import { USER_UPLOAD_BOOK_ID, SESSION_SELECTED_BOOK_KEY, SESSION_SELECTED_SECTION_KEY } from '@/lib/constants';
 
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const isUuid = (s) => UUID_RE.test(s);
+
 // ── Prefetch utilities (callable outside React) ───────────────────────────────
 
 export function prefetchSections(queryClient, bookId) {
@@ -31,8 +34,9 @@ export function prefetchVocab(queryClient, bookId, sectionFile, userId = null) {
   return queryClient.prefetchQuery({
     queryKey: ['vocab', bookId, sectionFile, userId],
     queryFn: async () => {
-      const { data } = await supabase.from('lessons').select('words').eq('id', sectionFile).single();
-      return normalizeVocabularyItems(data?.words ?? []);
+      if (!isUuid(sectionFile)) return [];
+      const { data } = await supabase.rpc('get_lesson_words', { p_lesson_id: sectionFile });
+      return normalizeVocabularyItems(data ?? []);
     },
     staleTime: 1000 * 60 * 5,
     gcTime: 1000 * 60 * 30,
@@ -148,13 +152,10 @@ export function useVocabulary(bookId, sectionFile, section) {
       if (section?.source === 'teacher') {
         return normalizeVocabularyItems(section._words ?? []);
       }
-      const { data, error } = await supabase
-        .from('lessons')
-        .select('words')
-        .eq('id', sectionFile)
-        .single();
+      if (!isUuid(sectionFile)) return [];
+      const { data, error } = await supabase.rpc('get_lesson_words', { p_lesson_id: sectionFile });
       if (error) throw new Error(error.message);
-      return normalizeVocabularyItems(data?.words ?? []);
+      return normalizeVocabularyItems(data ?? []);
     },
     enabled: !!bookId && !!sectionFile && !!section && section.source !== 'upload' && !guestBlocked,
     staleTime: 1000 * 60 * 5,

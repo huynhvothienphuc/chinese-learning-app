@@ -116,9 +116,12 @@ export default function MyQuizPage() {
         const raw = await queryClient.ensureQueryData({
           queryKey: ['vocab', bookId, sectionFile, userId],
           queryFn: async () => {
-            const table = book?.source === 'teacher' ? 'user_sections' : 'lessons';
-            const { data } = await supabase.from(table).select('words').eq('id', sectionFile).single();
-            return normalizeVocabularyItems(data?.words ?? []);
+            if (book?.source === 'teacher') {
+              const { data } = await supabase.from('user_sections').select('words').eq('id', sectionFile).single();
+              return normalizeVocabularyItems(data?.words ?? []);
+            }
+            const { data } = await supabase.rpc('get_lesson_words', { p_lesson_id: sectionFile });
+            return normalizeVocabularyItems(data ?? []);
           },
           staleTime: 1000 * 60 * 5,
         });

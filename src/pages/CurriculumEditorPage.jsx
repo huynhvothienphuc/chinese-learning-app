@@ -107,8 +107,8 @@ export default function CurriculumEditorPage() {
     setDirty(false);
     setDirtyWordIds(new Set());
     setExpandedIdx(null);
-    supabase.from('lessons').select('words').eq('id', editingLessonId).single()
-      .then(({ data }) => setWords(data?.words ?? []))
+    supabase.rpc('get_lesson_words', { p_lesson_id: editingLessonId })
+      .then(({ data }) => setWords(data ?? []))
       .finally(() => setWordsLoading(false));
   }, [editingLessonId]);
 
@@ -215,10 +215,13 @@ export default function CurriculumEditorPage() {
     setDownloadingBook(true);
     const { data } = await supabase
       .from('lessons')
-      .select('id, order, title, words')
+      .select('id, order, title')
       .eq('book_id', selectedBookId)
       .order('order');
-    const lessonData = (data ?? []).map((l) => ({ lesson: l, words: l.words ?? [] }));
+    const wordsResults = await Promise.all(
+      (data ?? []).map((l) => supabase.rpc('get_lesson_words', { p_lesson_id: l.id }))
+    );
+    const lessonData = (data ?? []).map((l, i) => ({ lesson: l, words: wordsResults[i].data ?? [] }));
     const bookTitle = selectedBook?.short_title ?? selectedBook?.title ?? 'book';
     await exportBookToExcel(lessonData, bookTitle).catch(() => {});
     setDownloadingBook(false);
@@ -226,10 +229,10 @@ export default function CurriculumEditorPage() {
 
   async function downloadLesson(lesson) {
     setDownloadingId(lesson.id);
-    const { data } = await supabase.from('lessons').select('words').eq('id', lesson.id).single();
+    const { data } = await supabase.rpc('get_lesson_words', { p_lesson_id: lesson.id });
     const bookShort = selectedBook?.short_title ?? selectedBook?.title ?? 'book';
     const fileName = `${bookShort} - Lesson ${lesson.order} - ${lesson.title}`;
-    await exportLessonToExcel(data?.words ?? [], fileName).catch(() => {});
+    await exportLessonToExcel(data ?? [], fileName).catch(() => {});
     setDownloadingId(null);
   }
 

@@ -53,8 +53,8 @@ Sentry.init({
       matchRoutes,
     }),
     Sentry.replayIntegration({
-      maskAllText: false,
-      blockAllMedia: false,
+      maskAllText: true,
+      blockAllMedia: true,
     }),
   ],
   tracesSampleRate: 0.2,

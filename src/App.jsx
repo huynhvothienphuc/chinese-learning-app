@@ -58,7 +58,6 @@ export default function App() {
       <Routes>
         {/* ── Standalone full-page layouts ── */}
         <Route path="/login"          element={<LoginPage />} />
-        <Route path="/thisisadmin"    element={<LoginPage />} />
         <Route path="/shared/:token"  element={<SharedBookPage />} />
 
         <Route element={<RoleRoute allowed={['teacher', 'admin']} />}>
