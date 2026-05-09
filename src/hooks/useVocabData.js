@@ -31,8 +31,8 @@ export function prefetchVocab(queryClient, bookId, sectionFile, userId = null) {
   return queryClient.prefetchQuery({
     queryKey: ['vocab', bookId, sectionFile, userId],
     queryFn: async () => {
-      const { data } = await supabase.from('lessons').select('words').eq('id', sectionFile).single();
-      return normalizeVocabularyItems(data?.words ?? []);
+      const { data } = await supabase.rpc('get_lesson_words', { p_lesson_id: sectionFile });
+      return normalizeVocabularyItems(data ?? []);
     },
     staleTime: 1000 * 60 * 5,
     gcTime: 1000 * 60 * 30,
@@ -148,13 +148,9 @@ export function useVocabulary(bookId, sectionFile, section) {
       if (section?.source === 'teacher') {
         return normalizeVocabularyItems(section._words ?? []);
       }
-      const { data, error } = await supabase
-        .from('lessons')
-        .select('words')
-        .eq('id', sectionFile)
-        .single();
+      const { data, error } = await supabase.rpc('get_lesson_words', { p_lesson_id: sectionFile });
       if (error) throw new Error(error.message);
-      return normalizeVocabularyItems(data?.words ?? []);
+      return normalizeVocabularyItems(data ?? []);
     },
     enabled: !!bookId && !!sectionFile && !!section && section.source !== 'upload' && !guestBlocked,
     staleTime: 1000 * 60 * 5,

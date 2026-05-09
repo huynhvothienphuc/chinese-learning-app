@@ -10,6 +10,7 @@ import { supabase } from '@/lib/supabase';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 import { useAuthStore } from '@/store/authStore';
 import { useSections } from '@/hooks/useVocabData';
+import LoginPrompt from '@/components/LoginPrompt';
 import Quiz from '@/components/Quiz';
 import WriteMode from '@/components/WriteMode';
 
@@ -43,7 +44,7 @@ const INITIAL_SCORE = { correct: 0, total: 0 };
 
 export default function MyQuizPage() {
   const { books, supabaseSets, selectedLanguage: language = 'vi', t } = useOutletContext();
-  const { user, role } = useAuthStore();
+  const { user, role, authReady } = useAuthStore();
   const isGuest = !user;
   const isSuperadmin = role === 'superadmin';
   const queryClient = useQueryClient();
@@ -116,9 +117,12 @@ export default function MyQuizPage() {
         const raw = await queryClient.ensureQueryData({
           queryKey: ['vocab', bookId, sectionFile, userId],
           queryFn: async () => {
-            const table = book?.source === 'teacher' ? 'user_sections' : 'lessons';
-            const { data } = await supabase.from(table).select('words').eq('id', sectionFile).single();
-            return normalizeVocabularyItems(data?.words ?? []);
+            if (book?.source === 'teacher') {
+              const { data } = await supabase.from('user_sections').select('words').eq('id', sectionFile).single();
+              return normalizeVocabularyItems(data?.words ?? []);
+            }
+            const { data } = await supabase.rpc('get_lesson_words', { p_lesson_id: sectionFile });
+            return normalizeVocabularyItems(data ?? []);
           },
           staleTime: 1000 * 60 * 5,
         });
@@ -272,6 +276,8 @@ export default function MyQuizPage() {
   }, {});
 
   // ── render ────────────────────────────────────────────────────────────────
+  if (authReady && !user) return <LoginPrompt icon={ListChecks} />;
+
   return (
     <div className="mx-auto w-full max-w-5xl space-y-5">
 

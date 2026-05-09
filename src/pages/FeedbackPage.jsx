@@ -81,7 +81,7 @@ export default function FeedbackPage() {
             {!user ? (
               <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-border bg-muted/40 px-6 py-10 text-center">
                 <p className="text-sm text-muted-foreground">{t.feedbackLoginRequired}</p>
-                <Button onClick={() => navigate('/thisisadmin')}>{t.signIn ?? 'Sign In'}</Button>
+                <Button onClick={() => navigate('/login')}>{t.signIn ?? 'Sign In'}</Button>
               </div>
             ) : status === 'success' ? (
               <div className="flex flex-col items-center gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 px-6 py-10 text-center dark:border-emerald-800 dark:bg-emerald-900/20">
