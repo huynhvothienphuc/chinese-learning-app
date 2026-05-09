@@ -16,7 +16,9 @@ import {
   SESSION_SELECTED_BOOK_KEY,
   SESSION_SELECTED_SECTION_KEY,
 } from '@/lib/constants';
+import { PencilLine, ScrollText } from 'lucide-react';
 import StudyDeckPanel from '@/components/StudyDeckPanel';
+import LoginPrompt from '@/components/LoginPrompt';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -376,7 +378,9 @@ export default function LearnPage() {
             </>
           )}
 
-          {session.mode === 'write' && (
+          {session.mode === 'write' && !user && <LoginPrompt icon={PencilLine} />}
+
+          {session.mode === 'write' && !!user && (
             <Suspense fallback={null}>
               <WriteMode
                 key={session.activeVocabulary.map((i) => i.id).join(',')}
@@ -401,7 +405,9 @@ export default function LearnPage() {
             </Suspense>
           )}
 
-          {session.mode === 'quiz' && (
+          {session.mode === 'quiz' && !user && <LoginPrompt icon={ScrollText} />}
+
+          {session.mode === 'quiz' && !!user && (
             <Suspense fallback={null}>
               <Quiz
                 vocabulary={session.activeVocabulary}

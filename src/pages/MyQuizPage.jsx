@@ -10,6 +10,7 @@ import { supabase } from '@/lib/supabase';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 import { useAuthStore } from '@/store/authStore';
 import { useSections } from '@/hooks/useVocabData';
+import LoginPrompt from '@/components/LoginPrompt';
 import Quiz from '@/components/Quiz';
 import WriteMode from '@/components/WriteMode';
 
@@ -43,7 +44,7 @@ const INITIAL_SCORE = { correct: 0, total: 0 };
 
 export default function MyQuizPage() {
   const { books, supabaseSets, selectedLanguage: language = 'vi', t } = useOutletContext();
-  const { user, role } = useAuthStore();
+  const { user, role, authReady } = useAuthStore();
   const isGuest = !user;
   const isSuperadmin = role === 'superadmin';
   const queryClient = useQueryClient();
@@ -275,6 +276,8 @@ export default function MyQuizPage() {
   }, {});
 
   // ── render ────────────────────────────────────────────────────────────────
+  if (authReady && !user) return <LoginPrompt icon={ListChecks} />;
+
   return (
     <div className="mx-auto w-full max-w-5xl space-y-5">
 

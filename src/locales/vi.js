@@ -49,6 +49,7 @@ export default {
   feedbackSendAnother: 'Gửi góp ý khác',
   feedbackAnonymous: 'Góp ý được gắn với tài khoản của bạn.',
   feedbackLoginRequired: 'Bạn cần đăng nhập để gửi góp ý.',
+  loginToLearnBody: 'Vui lòng đăng nhập để truy cập nội dung học',
   noSections: 'Không có bài học',
   comingSoon: 'Sắp có',
   multipleChoice: 'Trắc nghiệm',

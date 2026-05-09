@@ -49,6 +49,7 @@ export default {
   feedbackSendAnother: 'Send another',
   feedbackAnonymous: 'Your feedback is linked to your account.',
   feedbackLoginRequired: 'You need to sign in to submit feedback.',
+  loginToLearnBody: 'Please sign in to access the learning content',
   noSections: 'No lessons',
   comingSoon: 'Coming soon',
   multipleChoice: 'Multiple choice',
