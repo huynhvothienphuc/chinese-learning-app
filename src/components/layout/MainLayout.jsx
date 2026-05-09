@@ -8,6 +8,10 @@ const ANNOUNCEMENTS = [
     vi: '✨ Chúng mình đang cập nhật từ vựng! Quyển 1 ✅ · Quyển 2 → 6: đang cập nhật ⏳ Chờ tụi mình xíu nhé 🙏',
     en: '✨ We\'re updating the vocabulary for you! Book 1 is done ✅ — Books 2–6 are on the way, stay tuned 🙏',
   },
+  {
+    vi: '🔥 Đăng nhập để giữ streak! Làm quiz hoặc học và xem 10 thẻ mỗi ngày là đủ rồi 💪',
+    en: '🔥 Log in to keep your streak! Complete a Quiz or study and view 10 flashcards each day and you\'re good 💪',
+  },
 ];
 import { useAuthStore } from '@/store/authStore';
 import { useBooks } from '@/hooks/useVocabData';
@@ -189,13 +193,15 @@ export default function MainLayout() {
           />
 
           {bannerOpen && ANNOUNCEMENTS.length > 0 && (
-            <div className="hidden sm:flex items-center gap-3 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-2.5 dark:border-amber-800 dark:bg-amber-900/20">
-              <p className="flex-1 text-sm font-medium text-amber-800 dark:text-amber-300">
-                {selectedLanguage === 'vi' ? ANNOUNCEMENTS[0].vi : ANNOUNCEMENTS[0].en}
-              </p>
-              <button type="button" onClick={dismissBanner} className="shrink-0 text-amber-500 hover:text-amber-700 dark:hover:text-amber-300">
-                <X className="h-4 w-4" />
-              </button>
+            <div className="animate-gradient-border hidden sm:block rounded-2xl p-[3px]">
+              <div className="flex items-center gap-3 rounded-[14px] bg-amber-50 px-4 py-2.5 dark:bg-slate-900">
+                <p className="flex-1 text-sm font-medium text-amber-800 dark:text-amber-300">
+                  {(() => { const a = ANNOUNCEMENTS[new Date().getDate() % ANNOUNCEMENTS.length]; return selectedLanguage === 'vi' ? a.vi : a.en; })()}
+                </p>
+                <button type="button" onClick={dismissBanner} className="shrink-0 text-amber-500 hover:text-amber-700 dark:hover:text-amber-300">
+                  <X className="h-4 w-4" />
+                </button>
+              </div>
             </div>
           )}
 

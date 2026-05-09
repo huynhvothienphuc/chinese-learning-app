@@ -259,6 +259,18 @@
   animation: text-zoom 2.4s ease-in-out infinite;
 }
 
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-border {
+  background: linear-gradient(270deg, #f59e0b, #ec4899, #8b5cf6, #06b6d4, #f59e0b);
+  background-size: 300% 300%;
+  animation: gradient-shift 6s ease infinite;
+}
+
 /* ── Reusable pretty scrollbar ─────────────────────────────────────────────── */
 .scrollbar-pretty {
   scrollbar-width: thin;
