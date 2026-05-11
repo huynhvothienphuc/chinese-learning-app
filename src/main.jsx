@@ -14,6 +14,7 @@ const CHUNK_ERROR_PATTERNS = [
   'Loading chunk',
   'is not a valid JavaScript MIME type',
   'Importing a module script failed',
+  'Load failed',  // Mobile Safari
 ];
 
 const THIRD_PARTY_VARS = ['zaloJSV2', 'zaloJS', '__ZaloSDK'];
@@ -129,6 +130,18 @@ const queryClient = new QueryClient({
       refetchOnWindowFocus: false,
     },
   },
+});
+
+// Catch chunk load failures that bypass the React ErrorBoundary (e.g. Vite
+// modulepreload link errors on Mobile Safari after a new deployment).
+window.addEventListener('unhandledrejection', (event) => {
+  if (isChunkLoadError(event.reason)) {
+    const reloaded = sessionStorage.getItem('chunk_reload');
+    if (!reloaded) {
+      sessionStorage.setItem('chunk_reload', '1');
+      window.location.reload();
+    }
+  }
 });
 
 // Warm cache from last session immediately — runs before React mounts,

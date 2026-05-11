@@ -116,7 +116,9 @@ export async function trackWordStat(userId, { bookId, sectionId, itemId, isCorre
 }
 
 export async function updateStreak(userId) {
-  const { data, error } = await supabase.rpc('update_streak', { p_user_id: userId });
+  const d = new Date();
+  const p_today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const { data, error } = await supabase.rpc('update_streak', { p_user_id: userId, p_today });
   if (error) throw error;
   return data; // { current_streak, longest_streak, updated }
 }
@@ -166,6 +168,14 @@ export async function loadMyRank() {
   const { data, error } = await supabase.rpc('get_my_rank');
   if (error) throw error;
   return data; // { username, current_streak, longest_streak, current_rank, alltime_rank }
+}
+
+export async function loadStreakProfile() {
+  const { data } = await supabase
+    .from('profiles')
+    .select('current_streak, last_streak_date')
+    .single();
+  return data ?? null; // { current_streak, last_streak_date }
 }
 
 // ── Feedback ─────────────────────────────────────────────────────────────────

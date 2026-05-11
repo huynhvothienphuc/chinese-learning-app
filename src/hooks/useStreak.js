@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { updateStreak, loadMyRank } from '@/lib/supabase';
+import { updateStreak, loadStreakProfile } from '@/lib/supabase';
 
 const STREAK_KEY = 'study-streak';
 
@@ -48,20 +48,24 @@ export function useStreak({ userId, isMember } = {}) {
   // Sync DB streak to localStorage on mount (fixes new device / cleared cache)
   useEffect(() => {
     if (!userId || !isMember) return;
-    loadMyRank().then((rank) => {
-      if (!rank) return;
-      const dbStreak = rank.current_streak ?? 0;
-      const { lastDate } = readLocal();
+    loadStreakProfile().then((profile) => {
+      if (!profile) return;
+      const dbStreak = profile.current_streak ?? 0;
+      const dbLastDate = profile.last_streak_date ?? '';
+      const { streak: localStreak, lastDate } = readLocal();
       const today = getTodayStr();
-      const yesterday = getYesterdayStr();
-      if (lastDate === today || lastDate === yesterday) {
-        // localStorage is fresh — trust it but correct the count
-        writeLocal(dbStreak, lastDate);
+      if (lastDate === today) {
+        // triggerStreak() already ran today on this device — local count is
+        // ahead of DB (updateStreak is async). Keep the higher value.
+        const best = Math.max(localStreak, dbStreak);
+        writeLocal(best, today);
+        setStreak(best);
       } else {
-        // stale or missing — use DB value
-        writeLocal(dbStreak, lastDate ?? '');
+        // DB is the source of truth — sync both streak count AND lastDate
+        // so triggerStreak() knows whether to increment or reset.
+        writeLocal(dbStreak, dbLastDate);
+        setStreak(dbStreak);
       }
-      setStreak(dbStreak);
     }).catch(() => {});
   }, [userId, isMember]);
 

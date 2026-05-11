@@ -52,6 +52,11 @@ for (const book of books) {
   }
 }
 
+if (viItems.length === 0) {
+  console.log('No items found — skipping index write (keeping existing files).');
+  process.exit(0);
+}
+
 const outVi = join(dataDir, 'search-index-vi.json');
 const outEn = join(dataDir, 'search-index-en.json');
 
