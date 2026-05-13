@@ -5,7 +5,9 @@ import ToggleSwitch from '@/components/ToggleSwitch';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { cn, getItemMeaning, getSentenceMeaning, matchesVocabQuery } from '@/lib/utils';
+import { useSettingsStore } from '@/store/settingsStore';
 export default function WordListView({ vocabulary, isFavorite, onToggleFavorite, language, t }) {
+  const { showSimplified } = useSettingsStore();
   const [filter, setFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [expandedId, setExpandedId] = useState(null);
@@ -97,6 +99,22 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
             {normalizedQuery ? t.noLessonWordsMatch : t.noFavorites}
           </div>
         ) : (
+          <div>
+            {/* Header — desktop only */}
+            <div className={cn(
+              'mb-1 hidden sm:grid items-center gap-x-3 px-3 py-1',
+              'text-xs font-semibold uppercase tracking-wide text-muted-foreground border-b border-border',
+              showSimplified
+                ? 'sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_minmax(4rem,8rem)_auto]'
+                : 'sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_auto]',
+            )}>
+              <span className="text-center">#</span>
+              <span>{t.curriculumColChinese ?? 'Chinese'}</span>
+              <span>{t.curriculumColPinyin ?? 'Pinyin'}</span>
+              <span>{language === 'vi' ? (t.curriculumColVietnamese ?? 'Vietnamese') : (t.curriculumColEnglish ?? 'English')}</span>
+              {showSimplified && <span>Simplified</span>}
+              <span className="shrink-0 w-[11.75rem]" />
+            </div>
           <div className="space-y-2">
             {displayed.map((item, index) => {
               const favorited = isFavorite(item);
@@ -121,9 +139,13 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                     tabIndex={0}
                     onClick={() => setExpandedId(expanded ? null : id)}
                     onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpandedId(expanded ? null : id); } }}
-                    className="grid w-full cursor-pointer items-center gap-x-3 px-3 py-1.5 transition-colors hover:bg-primary/10
-                      grid-cols-[1.5rem_minmax(0,1fr)_auto]
-                      sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_auto]"
+                    className={cn(
+                      'grid w-full cursor-pointer items-center gap-x-3 px-3 py-1.5 transition-colors hover:bg-primary/10',
+                      'grid-cols-[1.5rem_minmax(0,1fr)_auto]',
+                      showSimplified
+                        ? 'sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_minmax(4rem,8rem)_auto]'
+                        : 'sm:grid-cols-[1.5rem_minmax(4rem,10rem)_minmax(0,1fr)_minmax(0,3fr)_auto]',
+                    )}
                   >
                     {/* # */}
                     <span className="text-center text-xs font-bold text-muted-foreground">{index + 1}</span>
@@ -142,6 +164,9 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                       {showMeaning && (
                         <span className={cn('block text-xs text-muted-foreground sm:hidden', !expanded && 'truncate')}>{meaning}</span>
                       )}
+                      {showSimplified && item.simplified && (
+                        <span className="block truncate text-xs text-muted-foreground sm:hidden">{item.simplified}</span>
+                      )}
                     </div>
 
                     {/* Pinyin — desktop only */}
@@ -149,6 +174,11 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
 
                     {/* Meaning — desktop only */}
                     <span className={cn('hidden text-sm text-foreground/80 sm:block', !expanded && 'truncate')}>{showMeaning ? meaning : ''}</span>
+
+                    {/* Simplified — desktop only */}
+                    {showSimplified && (
+                      <span className="hidden truncate text-sm text-muted-foreground sm:block">{item.simplified ?? ''}</span>
+                    )}
 
                     {/* Actions */}
                     <div className="grid shrink-0 grid-cols-[2rem_2rem_2rem_2rem] items-center justify-end gap-0.5 sm:grid-cols-[5.75rem_2rem_2rem_2rem]">
@@ -216,7 +246,12 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                                   </span>
                                 )}
                                 {ex.meaning && <p className="break-words text-xs italic text-muted-foreground">{ex.meaning}</p>}
-                                <p className="break-words text-xl font-bold text-foreground">{ex.sentence}</p>
+                                <p className="break-words text-xl font-bold text-foreground">
+                                  {ex.sentence}
+                                  {showSimplified && ex.simplified && (
+                                    <span className="ml-2 text-base font-normal text-muted-foreground">[{ex.simplified}]</span>
+                                  )}
+                                </p>
                                 {showPinyin && ex.pinyin && <p className="break-words text-xs text-muted-foreground">{ex.pinyin}</p>}
                                 <p className="break-words text-sm text-muted-foreground">
                                   {language === 'vi' ? (ex.vi || ex.en) : (ex.en || ex.vi)}
@@ -241,6 +276,7 @@ export default function WordListView({ vocabulary, isFavorite, onToggleFavorite,
                 </div>
               );
             })}
+          </div>
           </div>
         )}
       </CardContent>

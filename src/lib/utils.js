@@ -81,6 +81,7 @@ export function normalizeVocabularyItems(items) {
         sentencePinyin,
         sentenceEnglish,
         sentenceVietnamese,
+        ...(item.simplified ? { simplified: String(item.simplified).trim() } : {}),
         ...(Array.isArray(item.samples) && item.samples.length > 0 ? { samples: item.samples } : {}),
         ...(item.notest === true ? { notest: true } : {}),
         meaning: {

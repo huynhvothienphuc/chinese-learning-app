@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { LogOut, MessageSquare, Moon, Search, Settings, Sun, Trophy, Wand2, BarChart2 } from 'lucide-react';
 import { useAuthStore } from '@/store/authStore';
+import { useSettingsStore } from '@/store/settingsStore';
 import { useStreak } from '@/hooks/useStreak';
 import { Button } from '@/components/ui/button';
 import { Tooltip } from '@/components/ui/tooltip';
@@ -28,6 +29,7 @@ export default function Navbar({
   onSignOut,
 }) {
   const { user, role } = useAuthStore();
+  const { showSimplified, setShowSimplified } = useSettingsStore();
   const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
   const { streak } = useStreak({ userId: user?.id, isMember });
   const navigate = useNavigate();
@@ -214,13 +216,21 @@ export default function Navbar({
                     </div>
 
                     {/* Dark mode */}
-                    <div className="flex items-center justify-between px-4 py-3.5">
+                    <div className={cn('flex items-center justify-between px-4 py-3.5', role === 'superadmin' && 'border-b border-border')}>
                       <div className="flex items-center gap-2 text-sm font-medium text-foreground">
                         {isDarkMode ? <Moon className="h-4 w-4 text-primary" /> : <Sun className="h-4 w-4 text-primary" />}
                         <span>Dark mode</span>
                       </div>
                       <ToggleSwitch checked={isDarkMode} onChange={onDarkModeToggle} />
                     </div>
+
+                    {/* Show Simplified (superadmin only) */}
+                    {role === 'superadmin' && (
+                      <div className="flex items-center justify-between px-4 py-3.5">
+                        <span className="text-sm font-medium text-foreground">Show Simplified</span>
+                        <ToggleSwitch checked={showSimplified} onChange={setShowSimplified} />
+                      </div>
+                    )}
 
                   </div>
                 </>

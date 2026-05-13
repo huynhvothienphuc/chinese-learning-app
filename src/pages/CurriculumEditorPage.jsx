@@ -13,7 +13,7 @@ import { exportLessonToExcel, exportBookToExcel } from '@/lib/excel';
 // ── helpers ───────────────────────────────────────────────────────────────────
 
 function emptyWord(id) {
-  return { id, chinese: '', pinyin: '', en: '', vi: '', sinoVietnamese: '', notest: false, samples: [] };
+  return { id, chinese: '', simplified: '', pinyin: '', en: '', vi: '', sinoVietnamese: '', notest: false, samples: [] };
 }
 
 function emptySample() {
@@ -438,7 +438,9 @@ export default function CurriculumEditorPage() {
                       <thead>
                         <tr className="border-b border-border text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                           <th className="w-8 px-2 py-2 text-center" />
+                          <th className="w-12 px-2 py-2 text-center">ID</th>
                           <th className="px-2 py-2 text-left min-w-[90px]">{t.curriculumColChinese}</th>
+                          <th className="px-2 py-2 text-left min-w-[90px]">Simplified</th>
                           <th className="px-2 py-2 text-left min-w-[110px]">{t.curriculumColPinyin}</th>
                           <th className="px-2 py-2 text-left min-w-[140px]">{t.curriculumColEnglish}</th>
                           <th className="px-2 py-2 text-left min-w-[140px]">{t.curriculumColVietnamese}</th>
@@ -468,12 +470,13 @@ export default function CurriculumEditorPage() {
                                     : <ChevronRight className="h-3.5 w-3.5" />}
                                 </button>
                               </td>
-                              {['chinese', 'pinyin', 'en', 'vi', 'sinoVietnamese'].map((field) => (
+                              <td className="px-2 py-1 text-center text-xs text-muted-foreground tabular-nums">{word.id}</td>
+                              {['chinese', 'simplified', 'pinyin', 'en', 'vi', 'sinoVietnamese'].map((field) => (
                                 <td key={field} className="px-2 py-1">
                                   <input
                                     value={word[field] ?? ''}
                                     onChange={(e) => updateWord(idx, field, e.target.value)}
-                                    className="w-full rounded border border-transparent bg-transparent px-1 py-0.5 transition-colors hover:border-border focus:border-primary focus:bg-background focus:outline-none"
+                                    className="w-full rounded border border-border bg-transparent px-1 py-0.5 transition-colors hover:border-primary/50 focus:border-primary focus:bg-background focus:outline-none"
                                   />
                                 </td>
                               ))}
@@ -499,7 +502,7 @@ export default function CurriculumEditorPage() {
                             {/* Samples expanded row */}
                             {expandedIdx === idx && (
                               <tr className="border-b border-border bg-muted/20">
-                                <td colSpan={8} className="px-6 py-3">
+                                <td colSpan={10} className="px-6 py-3">
                                   <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                                     {t.curriculumSamples}
                                   </p>
@@ -508,6 +511,7 @@ export default function CurriculumEditorPage() {
                                       <thead>
                                         <tr className="text-muted-foreground">
                                           <th className="pb-1 pr-2 text-left min-w-[130px]">{t.curriculumColSentence}</th>
+                                          <th className="pb-1 pr-2 text-left min-w-[120px]">Simplified</th>
                                           <th className="pb-1 pr-2 text-left min-w-[110px]">{t.curriculumColPinyin}</th>
                                           <th className="pb-1 pr-2 text-left min-w-[120px]">{t.curriculumColEnglish}</th>
                                           <th className="pb-1 pr-2 text-left min-w-[120px]">{t.curriculumColVietnamese}</th>
@@ -517,12 +521,12 @@ export default function CurriculumEditorPage() {
                                       <tbody>
                                         {word.samples.map((sample, sIdx) => (
                                           <tr key={sIdx}>
-                                            {['sentence', 'pinyin', 'en', 'vi'].map((field) => (
+                                            {['sentence', 'simplified', 'pinyin', 'en', 'vi'].map((field) => (
                                               <td key={field} className="py-0.5 pr-2">
                                                 <input
                                                   value={sample[field] ?? ''}
                                                   onChange={(e) => updateSample(idx, sIdx, field, e.target.value)}
-                                                  className="w-full rounded border border-transparent bg-background px-1 py-0.5 transition-colors hover:border-border focus:border-primary focus:outline-none"
+                                                  className="w-full rounded border border-border bg-background px-1 py-0.5 transition-colors hover:border-primary/50 focus:border-primary focus:outline-none"
                                                 />
                                               </td>
                                             ))}
