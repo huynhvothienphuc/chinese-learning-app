@@ -54,14 +54,14 @@ export function useStreak({ userId, isMember } = {}) {
       const dbLastDate = profile.last_streak_date ?? '';
       const today = getTodayStr();
       if (dbLastDate === today) {
-        // DB confirms today already done — safe to overwrite (authoritative)
         triggeredToday.current = true;
         writeLocal(dbStreak, today);
         setStreak(dbStreak);
+        window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: dbStreak } }));
       } else if (!triggeredToday.current) {
-        // triggerStreak hasn't fired yet — safe to sync DB values
         writeLocal(dbStreak, dbLastDate);
         setStreak(dbStreak);
+        window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: dbStreak } }));
       }
       // If triggeredToday is true but dbLastDate !== today: triggerStreak is
       // in-flight or just completed — don't overwrite its result
