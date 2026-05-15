@@ -116,9 +116,7 @@ export async function trackWordStat(userId, { bookId, sectionId, itemId, isCorre
 }
 
 export async function updateStreak(userId) {
-  const d = new Date();
-  const p_today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-  const { data, error } = await supabase.rpc('update_streak', { p_user_id: userId, p_today });
+  const { data, error } = await supabase.rpc('update_streak', { p_user_id: userId });
   if (error) throw error;
   return data; // { current_streak, longest_streak, updated }
 }

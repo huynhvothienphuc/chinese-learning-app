@@ -52,20 +52,19 @@ export function useStreak({ userId, isMember } = {}) {
       if (!profile) return;
       const dbStreak = profile.current_streak ?? 0;
       const dbLastDate = profile.last_streak_date ?? '';
-      const { streak: localStreak, lastDate } = readLocal();
       const today = getTodayStr();
-      if (lastDate === today) {
-        // triggerStreak() already ran today on this device — local count is
-        // ahead of DB (updateStreak is async). Keep the higher value.
-        const best = Math.max(localStreak, dbStreak);
-        writeLocal(best, today);
-        setStreak(best);
-      } else {
-        // DB is the source of truth — sync both streak count AND lastDate
-        // so triggerStreak() knows whether to increment or reset.
+      if (dbLastDate === today) {
+        // DB confirms today already done — safe to overwrite (authoritative)
+        triggeredToday.current = true;
+        writeLocal(dbStreak, today);
+        setStreak(dbStreak);
+      } else if (!triggeredToday.current) {
+        // triggerStreak hasn't fired yet — safe to sync DB values
         writeLocal(dbStreak, dbLastDate);
         setStreak(dbStreak);
       }
+      // If triggeredToday is true but dbLastDate !== today: triggerStreak is
+      // in-flight or just completed — don't overwrite its result
     }).catch(() => {});
   }, [userId, isMember]);
 
@@ -85,21 +84,31 @@ export function useStreak({ userId, isMember } = {}) {
     }
   }
 
-  // Core: update streak locally + Supabase (members only), show toast once per day
+  // Core: update streak — DB is the source of truth for members
   const triggerStreak = useCallback(async () => {
     if (triggeredToday.current) return;
     triggeredToday.current = true;
 
-    const today = getTodayStr();
-    const { streak: s, lastDate } = readLocal();
-    const next = lastDate === getYesterdayStr() ? s + 1 : 1;
-    writeLocal(next, today);
-    setStreak(next);
-    setToast({ streak: next });
-    window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: next } }));
-
     if (userId && isMember) {
-      updateStreak(userId).catch(() => {});
+      const result = await updateStreak(userId).catch(() => null);
+      if (!result) {
+        triggeredToday.current = false; // allow retry on next flip
+        return;
+      }
+      const today = getTodayStr();
+      writeLocal(result.current_streak, today);
+      setStreak(result.current_streak);
+      setToast({ streak: result.current_streak });
+      window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: result.current_streak } }));
+    } else {
+      // Guest: local-only calculation (no DB to validate against)
+      const today = getTodayStr();
+      const { streak: s, lastDate } = readLocal();
+      const next = lastDate === getYesterdayStr() ? s + 1 : 1;
+      writeLocal(next, today);
+      setStreak(next);
+      setToast({ streak: next });
+      window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: next } }));
     }
   }, [userId, isMember]);
 

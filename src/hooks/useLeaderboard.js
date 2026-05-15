@@ -5,7 +5,7 @@ export function useLeaderboard() {
   return useQuery({
     queryKey: ['leaderboard'],
     queryFn: loadLeaderboard,
-    staleTime: 1000 * 60 * 10,
+    staleTime: 0,
   });
 }
 
@@ -14,6 +14,6 @@ export function useMyRank({ enabled = false } = {}) {
     queryKey: ['myRank'],
     queryFn: loadMyRank,
     enabled,
-    staleTime: 1000 * 60 * 10,
+    staleTime: 0,
   });
 }

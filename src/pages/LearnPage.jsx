@@ -231,18 +231,16 @@ export default function LearnPage() {
     return () => window.removeEventListener('keydown', onKey);
   }, [session.mode, session.activeVocabulary.length, session.currentIndex]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // ── sample-notice modal ──
+  // ── sample-notice modal (once per day on app entry) ──
   const [sampleNoticeLastSeen, setSampleNoticeLastSeen] = useLocalStorageState(SAMPLE_NOTICE_KEY, '');
   const [isSampleNoticeOpen, setIsSampleNoticeOpen] = useState(false);
-  const shouldShowSampleNotice = currentSection?.verified === false;
 
   useEffect(() => { resetCardTracking(); }, [selectedSection]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    if (!shouldShowSampleNotice) { setIsSampleNoticeOpen(false); return; }
     if (sampleNoticeLastSeen === getTodayKey()) return;
     setIsSampleNoticeOpen(true);
-  }, [shouldShowSampleNotice, sampleNoticeLastSeen]);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function dismissSampleNotice() {
     setSampleNoticeLastSeen(getTodayKey());
