@@ -431,7 +431,7 @@ export default function LearnPage() {
       )}
 
       {/* Verified notice modal */}
-      {shouldShowSampleNotice && isSampleNoticeOpen && (
+      {isSampleNoticeOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/55 px-4 py-6">
           <Card role="dialog" aria-modal="true" className="w-full max-w-md border-theme-border bg-theme-surface shadow-2xl">
             <CardContent className="space-y-4 p-5 sm:p-6">
