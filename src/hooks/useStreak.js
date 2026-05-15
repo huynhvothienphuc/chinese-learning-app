@@ -56,13 +56,12 @@ export function useStreak({ userId, isMember } = {}) {
       if (dbLastDate === today) {
         triggeredToday.current = true;
         writeLocal(dbStreak, today);
-        setStreak(dbStreak);
-        window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: dbStreak } }));
       } else if (!triggeredToday.current) {
         writeLocal(dbStreak, dbLastDate);
-        setStreak(dbStreak);
-        window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: dbStreak } }));
       }
+      // Always sync display from DB regardless of local state
+      setStreak(dbStreak);
+      window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: dbStreak } }));
       // If triggeredToday is true but dbLastDate !== today: triggerStreak is
       // in-flight or just completed — don't overwrite its result
     }).catch(() => {});
