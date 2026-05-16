@@ -5,10 +5,7 @@ import { Heart, X } from 'lucide-react';
 const BANNER_DISMISSED_KEY = 'banner-dismissed-date';
 const ANNOUNCEMENTS = [
   {
-    vi: '✨ Chúng mình đang cập nhật từ vựng! Quyển 1 ✅ · Quyển 2 → 6: đang cập nhật ⏳ Chờ tụi mình xíu nhé 🙏',
-    en: '✨ We\'re updating the vocabulary for you! Book 1 is done ✅ — Books 2–6 are on the way, stay tuned 🙏',
-  },
-  {
+    guestOnly: true,
     vi: '🔥 Đăng nhập để giữ streak! Làm quiz hoặc học và xem 10 thẻ mỗi ngày là đủ rồi 💪',
     en: '🔥 Log in to keep your streak! Complete a Quiz or study and view 10 flashcards each day and you\'re good 💪',
   },
@@ -56,6 +53,11 @@ export default function MainLayout() {
     localStorage.setItem(BANNER_DISMISSED_KEY, today);
     setBannerOpen(false);
   }
+
+  const visibleAnnouncements = ANNOUNCEMENTS.filter(a => !a.guestOnly || !user);
+  const activeBanner = bannerOpen && visibleAnnouncements.length > 0
+    ? visibleAnnouncements[new Date().getDate() % visibleAnnouncements.length]
+    : null;
 
   // ── server state ──
   const booksQuery = useBooks(user?.id, authReady);
@@ -192,11 +194,11 @@ export default function MainLayout() {
             onSignOut={handleSignOut}
           />
 
-          {bannerOpen && ANNOUNCEMENTS.length > 0 && (
+          {activeBanner && (
             <div className="animate-gradient-border hidden sm:block rounded-2xl p-[3px]">
               <div className="flex items-center gap-3 rounded-[14px] bg-amber-50 px-4 py-2.5 dark:bg-slate-900">
                 <p className="flex-1 text-sm font-medium text-amber-800 dark:text-amber-300">
-                  {(() => { const a = ANNOUNCEMENTS[new Date().getDate() % ANNOUNCEMENTS.length]; return selectedLanguage === 'vi' ? a.vi : a.en; })()}
+                  {selectedLanguage === 'vi' ? activeBanner.vi : activeBanner.en}
                 </p>
                 <button type="button" onClick={dismissBanner} className="shrink-0 text-amber-500 hover:text-amber-700 dark:hover:text-amber-300">
                   <X className="h-4 w-4" />
@@ -233,7 +235,7 @@ export default function MainLayout() {
         <GlobalSearchModal
           isOpen={isSearchOpen}
           onClose={() => setIsSearchOpen(false)}
-          onNavigate={(bookId, sectionFile) => navigate('/', { state: { selectBook: bookId, selectSection: sectionFile } })}
+          onNavigate={(bookId, lessonTitle) => navigate('/', { state: { selectBook: bookId, selectSectionTitle: lessonTitle } })}
           language={selectedLanguage}
           t={t}
         />

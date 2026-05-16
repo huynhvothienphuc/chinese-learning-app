@@ -168,6 +168,7 @@ begin
       where p.is_active = true
         and p.role = 'member'
         and coalesce(p.current_streak, 0) > 0
+        and p.last_streak_date >= (current_date - interval '1 day')
       order by p.current_streak desc
       limit p_limit
     ) t
@@ -195,6 +196,7 @@ begin
     where is_active = true
       and role = 'member'
       and coalesce(current_streak, 0) > 0
+      and last_streak_date >= (current_date - interval '1 day')
   ) ranked on ranked.user_id = p.user_id
   where p.user_id = auth.uid();
 

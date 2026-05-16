@@ -64,6 +64,7 @@ export default function LearnPage() {
   const [selectedBook, setSelectedBook] = useState('');
   const [selectedSection, setSelectedSection] = useState('');
   const booksInitRef = useRef(false);
+  const pendingSectionTitleRef = useRef(null);
 
   const currentBook = useMemo(() => books.find((b) => b.id === selectedBook) ?? null, [books, selectedBook]);
 
@@ -135,8 +136,18 @@ export default function LearnPage() {
       session.startFavorites();
     }
     if (location.state.selectBook) {
-      setSelectedBook(location.state.selectBook);
-      if (location.state.selectSection) setSelectedSection(location.state.selectSection);
+      const targetTitle = location.state.selectSectionTitle ?? null;
+      if (targetTitle) {
+        const match = sections.find((s) => s.title === targetTitle);
+        if (location.state.selectBook === selectedBook && match) {
+          setSelectedSection(match.file);
+        } else {
+          pendingSectionTitleRef.current = targetTitle;
+          setSelectedBook(location.state.selectBook);
+        }
+      } else {
+        setSelectedBook(location.state.selectBook);
+      }
     }
     navigate('/', { replace: true });
   }, [location.state]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -180,7 +191,15 @@ export default function LearnPage() {
     const savedByBook = readSavedSectionsByBook();
     const saved = savedByBook[selectedBook];
     const firstAccessible = sections.find(accessible)?.file || sections[0]?.file || '';
-    setSelectedSection(saved && sections.some((s) => s.file === saved && accessible(s)) ? saved : firstAccessible);
+    const pendingMatch = pendingSectionTitleRef.current
+      ? sections.find((s) => s.title === pendingSectionTitleRef.current)
+      : null;
+    if (pendingMatch) {
+      setSelectedSection(pendingMatch.file);
+      pendingSectionTitleRef.current = null;
+    } else {
+      setSelectedSection(saved && sections.some((s) => s.file === saved && accessible(s)) ? saved : firstAccessible);
+    }
   }, [sections, selectedBook]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {

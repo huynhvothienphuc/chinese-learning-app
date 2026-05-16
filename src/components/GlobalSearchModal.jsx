@@ -114,7 +114,7 @@ export default function GlobalSearchModal({ isOpen, onClose, onNavigate, languag
               key={`${item.bookId}-${item.sectionFile}-${item.chinese}`}
               type="button"
               onClick={() => {
-                onNavigate(item.bookId, item.sectionFile);
+                onNavigate(item.bookId, item.lesson);
                 onClose();
               }}
               className="w-full px-4 py-2.5 text-left hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors border-b border-slate-100 dark:border-slate-700/40 last:border-0"
