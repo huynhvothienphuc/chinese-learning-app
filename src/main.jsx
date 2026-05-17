@@ -17,7 +17,7 @@ const CHUNK_ERROR_PATTERNS = [
   'Load failed',  // Mobile Safari
 ];
 
-const THIRD_PARTY_VARS = ['zaloJSV2', 'zaloJS', '__ZaloSDK'];
+const THIRD_PARTY_VARS = ['zaloJSV2', 'zaloJS', '__ZaloSDK', 'isReCreate'];
 
 const BROWSER_NOISE_PATTERNS = [
   'ResizeObserver loop limit exceeded',
