@@ -83,8 +83,11 @@ export default function MainLayout() {
     if (!('speechSynthesis' in window)) return undefined;
     const load = () => window.speechSynthesis.getVoices();
     load();
-    window.speechSynthesis.addEventListener('voiceschanged', load);
-    return () => window.speechSynthesis.removeEventListener('voiceschanged', load);
+    if (typeof window.speechSynthesis.addEventListener === 'function') {
+      window.speechSynthesis.addEventListener('voiceschanged', load);
+      return () => window.speechSynthesis.removeEventListener('voiceschanged', load);
+    }
+    return undefined;
   }, []);
 
   // ── derived ──
