@@ -10,9 +10,11 @@ import { supabase } from '@/lib/supabase';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 import { useAuthStore } from '@/store/authStore';
 import { useSections } from '@/hooks/useVocabData';
+import { useStreak } from '@/hooks/useStreak';
 import LoginPrompt from '@/components/LoginPrompt';
 import Quiz from '@/components/Quiz';
 import WriteMode from '@/components/WriteMode';
+import StreakToast from '@/components/StreakToast';
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
@@ -47,8 +49,10 @@ export default function MyQuizPage() {
   const { user, role, authReady } = useAuthStore();
   const isGuest = !user;
   const isSuperadmin = role === 'superadmin';
+  const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
   const queryClient = useQueryClient();
   const userId = user?.id ?? null;
+  const { triggerStreak, toast: streakToast, dismissToast } = useStreak({ userId, isMember });
 
   // Which book's sections are currently being browsed
   const [activeBrowseBook, setActiveBrowseBook] = useState(books[0]?.id ?? '');
@@ -251,6 +255,7 @@ export default function MyQuizPage() {
     if (currentIndex >= quizQuestions.length - 1) {
       setQuizComplete(true);
       setAnsweredQuestion(null);
+      triggerStreak();
       return;
     }
     setCurrentIndex((prev) => prev + 1);
@@ -545,6 +550,7 @@ export default function MyQuizPage() {
             vocabulary={quizQuestions.map((q) => q.item)}
             language={language}
             t={t}
+            onPracticeThreshold={triggerStreak}
           />
         ) : (
           <Quiz
@@ -567,6 +573,8 @@ export default function MyQuizPage() {
           />
         )
       )}
+
+      {streakToast && <StreakToast streak={streakToast.streak} onDismiss={dismissToast} />}
     </div>
   );
 }

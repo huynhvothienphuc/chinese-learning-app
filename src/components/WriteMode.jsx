@@ -69,7 +69,7 @@ function Summary({ total, correct, wrongAnswers, onRestart, onRetryWrong, t, lan
 
 const INITIAL_SCORE = { correct: 0, total: 0 };
 
-export default function WriteMode({ vocabulary, language = 'en', t, onComplete }) {
+export default function WriteMode({ vocabulary, language = 'en', t, onComplete, onPracticeThreshold }) {
   const [questions] = useState(() => shuffleArray([...vocabulary]));
   const [index, setIndex] = useState(0);
   const [typed, setTyped] = useState('');
@@ -81,6 +81,8 @@ export default function WriteMode({ vocabulary, language = 'en', t, onComplete }
   const [retryWords, setRetryWords] = useState(null);
   const inputRef = useRef(null);
   const cardRef = useRef(null);
+  const practicedIdsRef = useRef(new Set());
+  const thresholdFiredRef = useRef(false);
 
   const activeQuestions = retryWords ?? questions;
   const item = activeQuestions[index];
@@ -102,6 +104,13 @@ export default function WriteMode({ vocabulary, language = 'en', t, onComplete }
     setSubmitted(true);
     setScore((prev) => ({ correct: prev.correct + (correct ? 1 : 0), total: prev.total + 1 }));
     if (!correct) setWrongAnswers((prev) => [...prev, { item, typed: typed.trim() }]);
+
+    // Streak credit is based on practice effort, not correctness or full completion
+    practicedIdsRef.current.add(item.id);
+    if (!thresholdFiredRef.current && practicedIdsRef.current.size >= 10) {
+      thresholdFiredRef.current = true;
+      onPracticeThreshold?.();
+    }
   }
 
   function handleNext() {

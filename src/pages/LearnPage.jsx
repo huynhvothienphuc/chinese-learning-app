@@ -404,8 +404,8 @@ export default function LearnPage() {
                 vocabulary={session.activeVocabulary}
                 language={selectedLanguage}
                 t={t}
+                onPracticeThreshold={triggerStreak}
                 onComplete={(finalScore) => {
-                  triggerStreak();
                   if (!user || role !== 'member' || !selectedBook || !selectedSection || finalScore.total === 0) return;
                   const sectionTitle = currentSection?.title || formatSectionName(selectedSection);
                   trackLessonStat(user.id, {
