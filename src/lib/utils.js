@@ -138,6 +138,21 @@ export function formatSectionName(filename) {
     .join(' ');
 }
 
+// Word bank for fill-in-the-blank: correct word + up to `count` other words
+// from the same pool, sized down when the pool itself is small.
+export function buildFillBlankChoices(vocabulary, currentItem, count = 14) {
+  const seen = new Set([currentItem.chinese]);
+  const deduped = vocabulary.filter((item) => {
+    if (item.id === currentItem.id) return false;
+    if (seen.has(item.chinese)) return false;
+    seen.add(item.chinese);
+    return true;
+  });
+
+  const wrongChoices = shuffleArray(deduped).slice(0, Math.min(count, deduped.length));
+  return shuffleArray([currentItem, ...wrongChoices]);
+}
+
 export function buildQuizChoices(vocabulary, currentItem) {
   const targetLen = (currentItem.chinese || '').length;
 

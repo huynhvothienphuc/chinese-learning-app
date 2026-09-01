@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Users, Globe, BookOpen, BarChart2, Loader2, RefreshCw, Home } from 'lucide-react';
+import { Users, Globe, BookOpen, ListChecks, BarChart2, Loader2, RefreshCw, Home } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuthStore } from '@/store/authStore';
 import { useCatalogStore } from '@/store/catalogStore';
@@ -115,6 +115,10 @@ export default function SuperadminDashboard() {
             <Button variant="outline" size="sm" className="gap-2" onClick={() => navigate('/superadmin/curriculum')}>
               <BookOpen className="h-4 w-4" />
               {t.superadminCurriculumBtn}
+            </Button>
+            <Button variant="outline" size="sm" className="gap-2" onClick={() => navigate('/superadmin/exercises')}>
+              <ListChecks className="h-4 w-4" />
+              {t.superadminExercisesBtn}
             </Button>
             <Button variant="outline" size="sm" className="gap-2" onClick={load} disabled={loading}>
               <RefreshCw className={`h-4 w-4 ${loading ? 'animate-spin' : ''}`} />
