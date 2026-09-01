@@ -3,10 +3,11 @@ import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { updateStreak, loadStreakProfile } from '@/lib/supabase';
 
 const STREAK_KEY = 'study-streak';
-// DB streak only changes once/day, and the active user's own updates patch
-// the cache directly — so a long staleTime just avoids redundant Supabase
-// reads across every page (Navbar/Dashboard/Learn/MyQuiz) sharing this query.
-const STREAK_PROFILE_STALE_TIME = 1000 * 60 * 60 * 24;
+// Matches the app's global default staleTime (src/main.jsx) — long enough to
+// avoid every Navbar/Dashboard/Learn/MyQuiz mount re-fetching within the same
+// browsing session, short enough that a streak changed in another tab/device
+// self-heals within minutes instead of staying stale for up to a full day.
+const STREAK_PROFILE_STALE_TIME = 1000 * 60 * 5;
 
 function getTodayStr() {
   const d = new Date();
@@ -103,15 +104,16 @@ export function useStreak({ userId, isMember } = {}) {
         triggeredToday.current = false; // allow retry on next flip
         return;
       }
-      const today = getTodayStr();
-      writeLocal(result.current_streak, today);
-      setStreak(result.current_streak);
       setToast({ streak: result.current_streak });
-      window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: result.current_streak } }));
+      // Patch the shared cache rather than also calling writeLocal/setStreak/
+      // dispatchEvent directly here — the [dbProfile] effect below already
+      // reacts to this and is the single place that syncs localStorage,
+      // local state, and the cross-instance event. Doing both was firing
+      // every mounted useStreak instance twice per trigger.
       queryClient.setQueryData(['streakProfile', userId], (old) => ({
         ...old,
         current_streak: result.current_streak,
-        last_streak_date: today,
+        last_streak_date: getTodayStr(),
       }));
     } else {
       // Guest: local-only calculation (no DB to validate against)
