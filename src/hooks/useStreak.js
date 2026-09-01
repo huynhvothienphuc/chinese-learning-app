@@ -1,7 +1,13 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { updateStreak, loadStreakProfile } from '@/lib/supabase';
 
 const STREAK_KEY = 'study-streak';
+// Matches the app's global default staleTime (src/main.jsx) — long enough to
+// avoid every Navbar/Dashboard/Learn/MyQuiz mount re-fetching within the same
+// browsing session, short enough that a streak changed in another tab/device
+// self-heals within minutes instead of staying stale for up to a full day.
+const STREAK_PROFILE_STALE_TIME = 1000 * 60 * 5;
 
 function getTodayStr() {
   const d = new Date();
@@ -29,6 +35,7 @@ function writeLocal(streak, lastDate) {
 }
 
 export function useStreak({ userId, isMember } = {}) {
+  const queryClient = useQueryClient();
   const [streak, setStreak] = useState(() => {
     const { streak: s, lastDate } = readLocal();
     if (!lastDate || lastDate < getYesterdayStr()) return 0;
@@ -45,28 +52,30 @@ export function useStreak({ userId, isMember } = {}) {
     return () => window.removeEventListener('streak-updated', onStreakUpdated);
   }, []);
 
-  // Sync DB streak to localStorage on mount (fixes new device / cleared cache)
+  // Shared across every useStreak instance (Navbar/Dashboard/Learn/MyQuiz) via
+  // the same query key — fetched once per staleTime window, not once per mount.
+  const { data: dbProfile } = useQuery({
+    queryKey: ['streakProfile', userId],
+    queryFn: loadStreakProfile,
+    enabled: !!userId && !!isMember,
+    staleTime: STREAK_PROFILE_STALE_TIME,
+  });
+
+  // Sync DB streak to localStorage (fixes new device / cleared cache)
   useEffect(() => {
-    if (!userId || !isMember) return;
-    loadStreakProfile().then((profile) => {
-      if (!profile) return;
-      const dbStreak = profile.current_streak ?? 0;
-      const dbLastDate = profile.last_streak_date ?? '';
-      const today = getTodayStr();
-      if (dbLastDate === today) {
-        triggeredToday.current = true;
-      } else {
-        triggeredToday.current = false;
-      }
-      const isExpired = dbLastDate < getYesterdayStr();
-      const displayStreak = isExpired ? 0 : dbStreak;
-      writeLocal(displayStreak, dbLastDate);
-      setStreak(displayStreak);
-      window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: displayStreak } }));
-      // If triggeredToday is true but dbLastDate !== today: triggerStreak is
-      // in-flight or just completed — don't overwrite its result
-    }).catch(() => {});
-  }, [userId, isMember]);
+    if (!dbProfile) return;
+    const dbStreak = dbProfile.current_streak ?? 0;
+    const dbLastDate = dbProfile.last_streak_date ?? '';
+    const today = getTodayStr();
+    triggeredToday.current = dbLastDate === today;
+    const isExpired = dbLastDate < getYesterdayStr();
+    const displayStreak = isExpired ? 0 : dbStreak;
+    writeLocal(displayStreak, dbLastDate);
+    setStreak(displayStreak);
+    window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: displayStreak } }));
+    // If triggeredToday is true but dbLastDate !== today: triggerStreak is
+    // in-flight or just completed — don't overwrite its result
+  }, [dbProfile]);
 
   function dismissToast() { setToast(null); }
 
@@ -95,11 +104,17 @@ export function useStreak({ userId, isMember } = {}) {
         triggeredToday.current = false; // allow retry on next flip
         return;
       }
-      const today = getTodayStr();
-      writeLocal(result.current_streak, today);
-      setStreak(result.current_streak);
       setToast({ streak: result.current_streak });
-      window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: result.current_streak } }));
+      // Patch the shared cache rather than also calling writeLocal/setStreak/
+      // dispatchEvent directly here — the [dbProfile] effect below already
+      // reacts to this and is the single place that syncs localStorage,
+      // local state, and the cross-instance event. Doing both was firing
+      // every mounted useStreak instance twice per trigger.
+      queryClient.setQueryData(['streakProfile', userId], (old) => ({
+        ...old,
+        current_streak: result.current_streak,
+        last_streak_date: getTodayStr(),
+      }));
     } else {
       // Guest: local-only calculation (no DB to validate against)
       const today = getTodayStr();
@@ -110,7 +125,7 @@ export function useStreak({ userId, isMember } = {}) {
       setToast({ streak: next });
       window.dispatchEvent(new CustomEvent('streak-updated', { detail: { streak: next } }));
     }
-  }, [userId, isMember]);
+  }, [userId, isMember, queryClient]);
 
   return { streak, trackFlip, triggerStreak, resetCardTracking, toast, dismissToast };
 }
