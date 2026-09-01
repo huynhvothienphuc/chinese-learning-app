@@ -15,11 +15,14 @@ const AdminDashboard     = lazy(() => import('@/pages/AdminDashboard'));
 const FeedbackReviewPage    = lazy(() => import('@/pages/FeedbackReviewPage'));
 const SuperadminDashboard   = lazy(() => import('@/pages/SuperadminDashboard'));
 const CurriculumEditorPage  = lazy(() => import('@/pages/CurriculumEditorPage'));
+const ExercisesAdminPage    = lazy(() => import('@/pages/ExercisesAdminPage'));
 const NotFoundPage       = lazy(() => import('@/pages/NotFoundPage'));
 
 // ── main-layout pages (rendered inside MainLayout with navbar) ─────────────
 const LearnPage   = lazy(() => import('@/pages/LearnPage'));
 const MyQuizPage  = lazy(() => import('@/pages/MyQuizPage'));
+const ExerciseHubPage = lazy(() => import('@/pages/ExerciseHubPage'));
+const ExercisePage = lazy(() => import('@/pages/ExercisePage'));
 const UploadPage  = lazy(() => import('@/pages/UploadPage'));
 const InfoPage    = lazy(() => import('@/pages/InfoPage'));
 const FeedbackPage = lazy(() => import('@/pages/FeedbackPage'));
@@ -74,12 +77,15 @@ export default function App() {
           <Route path="/feedback-review"       element={<FeedbackReviewPage />} />
           <Route path="/superadmin"            element={<SuperadminDashboard />} />
           <Route path="/superadmin/curriculum" element={<CurriculumEditorPage />} />
+          <Route path="/superadmin/exercises"  element={<ExercisesAdminPage />} />
         </Route>
 
         {/* ── Main layout (navbar + footer) ── */}
         <Route element={<MainLayout />}>
           <Route path="/"            element={<LearnPage />} />
           <Route path="/quiz"        element={<MyQuizPage />} />
+          <Route path="/exercise"       element={<ExerciseHubPage />} />
+          <Route path="/exercise/:mode" element={<ExercisePage />} />
           <Route path="/upload-word" element={<UploadPage />} />
           <Route path="/info"        element={<InfoPage />} />
           <Route path="/feedback"    element={<FeedbackPage />} />
