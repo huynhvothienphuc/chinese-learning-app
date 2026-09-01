@@ -14,6 +14,19 @@ export function shuffleArray(items) {
   return next;
 }
 
+// Index of the Nth (1-based) occurrence of `needle` in `haystack`, or -1.
+// Used to disambiguate a repeated word so blanking/bracket-redisplay logic
+// targets the specific occurrence an admin marked, not always the first.
+export function nthIndexOf(haystack, needle, n) {
+  if (!needle) return -1;
+  let idx = -1;
+  for (let i = 0; i < n; i += 1) {
+    idx = haystack.indexOf(needle, idx + 1);
+    if (idx === -1) return -1;
+  }
+  return idx;
+}
+
 function pickByLanguage(primary, fallback, fallbackLabel) {
   const p = String(primary || '').trim();
   if (p) return p;

@@ -3,7 +3,7 @@ import { CheckCircle2, CircleX, RotateCcw, Trophy } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { buildFillBlankChoices, cn } from '@/lib/utils';
+import { buildFillBlankChoices, cn, nthIndexOf } from '@/lib/utils';
 
 function BlankChoice({ choice, isAnswered, isCorrect, isWrongSelection, onSelect }) {
   return (
@@ -118,7 +118,9 @@ export default function FillBlankQuiz({
   if (!currentEntry) return null;
 
   const { word, sample } = currentEntry;
-  const blankIndex = sample.sentence.indexOf(word.chinese);
+  // Nth occurrence (admin-marked), not always the first — a repeated target
+  // word/pinyin token would otherwise always blank the wrong instance.
+  const blankIndex = nthIndexOf(sample.sentence, word.chinese, word.occurrence || 1);
   const before = blankIndex >= 0 ? sample.sentence.slice(0, blankIndex) : sample.sentence;
   const after = blankIndex >= 0 ? sample.sentence.slice(blankIndex + word.chinese.length) : '';
 

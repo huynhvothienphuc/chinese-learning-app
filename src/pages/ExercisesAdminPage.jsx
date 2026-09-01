@@ -6,7 +6,7 @@ import { useAuthStore } from '@/store/authStore';
 import { useLocale } from '@/hooks/useLocale';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
+import { cn, nthIndexOf } from '@/lib/utils';
 
 // ── segment helpers (Sentence Order) ────────────────────────────────────────
 // Segments are their own field, never embedded in `sentence`/`pinyin` — those
@@ -50,15 +50,29 @@ function deriveSentenceFields(segments) {
 // Admin marks the blank inline with [ ] in both the Sentence and Pinyin
 // inputs instead of retyping the target word/pinyin as separate fields.
 
+// `occurrence` (1-based) disambiguates a repeated target word/pinyin token —
+// storing only the text would make both this redisplay AND the student-facing
+// blank in FillBlankQuiz always land on the *first* occurrence.
 function extractBracketTarget(text) {
   const raw = text || '';
   const match = raw.match(/\[([^\]]*)\]/);
-  return { clean: raw.replace(/[[\]]/g, ''), target: match ? match[1] : '' };
+  if (!match) return { clean: raw.replace(/[[\]]/g, ''), target: '', occurrence: 1 };
+  const target = match[1];
+  const clean = raw.replace(/[[\]]/g, '');
+  const bracketPos = match.index; // '[' sits at the same offset in `clean`, since text before it is untouched
+  let occurrence = 1;
+  let searchFrom = 0;
+  let found;
+  while ((found = clean.indexOf(target, searchFrom)) !== -1 && found < bracketPos) {
+    occurrence += 1;
+    searchFrom = found + 1;
+  }
+  return { clean, target, occurrence };
 }
 
-function withBracket(clean, target) {
+function withBracket(clean, target, occurrence = 1) {
   if (!clean || !target) return clean || '';
-  const idx = clean.indexOf(target);
+  const idx = nthIndexOf(clean, target, occurrence || 1);
   if (idx < 0) return clean;
   return `${clean.slice(0, idx)}[${target}]${clean.slice(idx + target.length)}`;
 }
@@ -213,7 +227,7 @@ export default function ExercisesAdminPage() {
   }, [selectedLessonId]);
 
   const sentenceCrud = makeRowCrud('lesson_sentence_exercises', { sentence: '', pinyin: '', segments: [] }, setSentenceRows);
-  const fillBlankCrud = makeRowCrud('lesson_fill_blank_exercises', { sentence: '', pinyin: '', target_chinese: '', target_pinyin: '', target_meaning: '' }, setFillBlankRows);
+  const fillBlankCrud = makeRowCrud('lesson_fill_blank_exercises', { sentence: '', pinyin: '', target_chinese: '', target_pinyin: '', target_meaning: '', target_occurrence: 1 }, setFillBlankRows);
   const grammarCrud = makeRowCrud('lesson_grammar_qa', { question_chinese: '', question_pinyin: '', answer_chinese: '', answer_pinyin: '' }, setGrammarRows);
 
   function flashSaved(key) {
@@ -408,10 +422,11 @@ export default function ExercisesAdminPage() {
                         <tbody>
                           {fillBlankRows.map((row) => {
                             function commitSentence(rawText) {
-                              const { clean, target } = extractBracketTarget(rawText);
+                              const { clean, target, occurrence } = extractBracketTarget(rawText);
                               fillBlankCrud.updateLocal(row.id, 'sentence', clean);
                               fillBlankCrud.updateLocal(row.id, 'target_chinese', target);
-                              fillBlankCrud.commitFields(row.id, { sentence: clean, target_chinese: target }, () => flashSaved(`fillblank-${row.id}`));
+                              fillBlankCrud.updateLocal(row.id, 'target_occurrence', occurrence);
+                              fillBlankCrud.commitFields(row.id, { sentence: clean, target_chinese: target, target_occurrence: occurrence }, () => flashSaved(`fillblank-${row.id}`));
                             }
                             function commitPinyin(rawText) {
                               const { clean, target } = extractBracketTarget(rawText);
@@ -424,8 +439,8 @@ export default function ExercisesAdminPage() {
                                 <tr className={cn('transition-colors duration-700', flashRowKey === `fillblank-${row.id}` && 'bg-emerald-50 dark:bg-emerald-900/20')}>
                                   <td className="py-0.5 pr-2">
                                     <input
-                                      defaultValue={withBracket(row.sentence, row.target_chinese)}
-                                      key={`sentence-${row.id}-${row.sentence}`}
+                                      defaultValue={withBracket(row.sentence, row.target_chinese, row.target_occurrence)}
+                                      key={`sentence-${row.id}-${row.sentence}-${row.target_occurrence}`}
                                       placeholder="你[好]嗎？"
                                       onBlur={(e) => commitSentence(e.target.value)}
                                       className={inputClass}

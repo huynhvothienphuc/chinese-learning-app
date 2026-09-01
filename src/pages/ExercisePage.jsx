@@ -106,7 +106,7 @@ export default function ExercisePage() {
     sample: { sentence: r.sentence, pinyin: r.pinyin, segments: r.segments },
   })) : [];
   const fillBlankEntries = mode === 'fill-blank' ? (rows ?? []).map((r) => ({
-    word: { id: r.id, chinese: r.target_chinese, pinyin: r.target_pinyin, vi: r.target_meaning, en: r.target_meaning },
+    word: { id: r.id, chinese: r.target_chinese, pinyin: r.target_pinyin, vi: r.target_meaning, en: r.target_meaning, occurrence: r.target_occurrence ?? 1 },
     sample: { sentence: r.sentence, pinyin: r.pinyin },
   })) : [];
   const matchingPairs = mode === 'matching' ? (rows ?? []).map((r) => ({
