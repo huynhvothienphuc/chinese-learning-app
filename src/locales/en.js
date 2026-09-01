@@ -344,4 +344,8 @@ export default {
   exercisesBackToHub: 'Exercises',
   exercisesTryAgain: 'Try again',
   exercisesSelectedQuestion: 'Selected',
+  myQuizSentenceOrderHint: 'Tap the chunks below in order to rebuild the sentence. Tap a placed chunk to take it back.',
+  myQuizSentenceOrderPlaceholder: 'Tap the chunks below to build the sentence',
+  myQuizMatchingHint: 'Tap a question, then tap its matching answer.',
+  myQuizMatchingMistakes: 'mistake(s)',
 };

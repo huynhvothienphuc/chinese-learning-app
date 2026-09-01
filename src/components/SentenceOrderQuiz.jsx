@@ -120,9 +120,16 @@ export default function SentenceOrderQuiz({
   const currentEntry = entries[currentIndex];
   const segments = currentEntry?.sample?.segments ?? [];
 
-  const [renderedIndex, setRenderedIndex] = useState(currentIndex);
-  if (renderedIndex !== currentIndex) {
-    setRenderedIndex(currentIndex);
+  // Reset on a *new question instance*, not on `currentIndex` — retrying a
+  // wrong-answers set always restarts at index 0, so if the previous session
+  // was also on index 0 (e.g. a single-question retry set), an index-only
+  // comparison never fires and stale `placed` soft-locks the build area.
+  // `currentEntry` is a fresh object every time ExercisePage builds a new
+  // `quizQuestions` array (handleStart/handleRetryWrong), so it's a reliable
+  // per-question identity even when the index repeats.
+  const [renderedEntry, setRenderedEntry] = useState(currentEntry);
+  if (renderedEntry !== currentEntry) {
+    setRenderedEntry(currentEntry);
     setPlaced([]);
   }
 
@@ -132,7 +139,7 @@ export default function SentenceOrderQuiz({
     if (next.every((v, i) => v === i)) next = shuffleArray(next);
     return next;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex]);
+  }, [currentEntry]);
 
   useEffect(() => {
     cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });

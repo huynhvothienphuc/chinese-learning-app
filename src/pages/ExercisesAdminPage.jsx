@@ -111,22 +111,29 @@ function makeRowCrud(table, emptyFields, setRows) {
         .insert({ lesson_id: lessonId, ...emptyFields })
         .select()
         .single();
-      if (!error && data) setRows((prev) => [...prev, data]);
+      if (error) { alert('Add failed: ' + error.message); return; }
+      setRows((prev) => [...prev, data]);
     },
     updateLocal(id, field, value) {
       setRows((prev) => prev.map((r) => (r.id === id ? { ...r, [field]: value } : r)));
     },
     async commit(id, field, value, onSaved) {
-      await supabase.from(table).update({ [field]: value, updated_at: new Date().toISOString() }).eq('id', id);
+      const { error } = await supabase.from(table).update({ [field]: value, updated_at: new Date().toISOString() }).eq('id', id);
+      if (error) { alert('Save failed: ' + error.message); return; }
       onSaved?.();
     },
     async commitFields(id, fields, onSaved) {
-      await supabase.from(table).update({ ...fields, updated_at: new Date().toISOString() }).eq('id', id);
+      const { error } = await supabase.from(table).update({ ...fields, updated_at: new Date().toISOString() }).eq('id', id);
+      if (error) { alert('Save failed: ' + error.message); return; }
       onSaved?.();
     },
-    async remove(id) {
+    async remove(id, previousRow) {
       setRows((prev) => prev.filter((r) => r.id !== id));
-      await supabase.from(table).delete().eq('id', id);
+      const { error } = await supabase.from(table).delete().eq('id', id);
+      if (error) {
+        alert('Delete failed: ' + error.message);
+        if (previousRow) setRows((prev) => [...prev, previousRow]);
+      }
     },
   };
 }
@@ -354,7 +361,7 @@ export default function ExercisesAdminPage() {
                                   </td>
                                   <td className="py-0.5 text-center"><StatusIcon validation={segmentsValidation(row)} /></td>
                                   <td className="py-0.5">
-                                    <button type="button" onClick={() => sentenceCrud.remove(row.id)} className="text-muted-foreground transition-colors hover:text-destructive">
+                                    <button type="button" onClick={() => sentenceCrud.remove(row.id, row)} className="text-muted-foreground transition-colors hover:text-destructive">
                                       <Trash2 className="h-3 w-3" />
                                     </button>
                                   </td>
@@ -443,7 +450,7 @@ export default function ExercisesAdminPage() {
                                   </td>
                                   <td className="py-0.5 text-center"><StatusIcon validation={fillBlankValidation(row)} /></td>
                                   <td className="py-0.5">
-                                    <button type="button" onClick={() => fillBlankCrud.remove(row.id)} className="text-muted-foreground transition-colors hover:text-destructive">
+                                    <button type="button" onClick={() => fillBlankCrud.remove(row.id, row)} className="text-muted-foreground transition-colors hover:text-destructive">
                                       <Trash2 className="h-3 w-3" />
                                     </button>
                                   </td>
@@ -500,7 +507,7 @@ export default function ExercisesAdminPage() {
                                 </td>
                               ))}
                               <td className="py-0.5">
-                                <button type="button" onClick={() => grammarCrud.remove(row.id)} className="text-muted-foreground transition-colors hover:text-destructive">
+                                <button type="button" onClick={() => grammarCrud.remove(row.id, row)} className="text-muted-foreground transition-colors hover:text-destructive">
                                   <Trash2 className="h-3 w-3" />
                                 </button>
                               </td>

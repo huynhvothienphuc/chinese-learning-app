@@ -344,4 +344,8 @@ export default {
   exercisesBackToHub: 'Bài tập',
   exercisesTryAgain: 'Làm lại',
   exercisesSelectedQuestion: 'Đã chọn',
+  myQuizSentenceOrderHint: 'Nhấp vào từ ở dưới để đưa lên câu. Nhấp vào từ trên câu để thu hồi.',
+  myQuizSentenceOrderPlaceholder: 'Nhấp vào các cụm từ bên dưới để ghép câu',
+  myQuizMatchingHint: 'Nhấp chọn 1 câu hỏi ở cột trái, sau đó chọn câu trả lời tương ứng ở cột phải.',
+  myQuizMatchingMistakes: 'lần bấm sai',
 };
