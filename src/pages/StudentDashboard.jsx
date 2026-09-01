@@ -11,7 +11,7 @@ import { exportVocabularyToExcel } from '@/lib/excel';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Modal, ModalHeader, ModalBody, ModalFooter } from '@/components/ui/Modal';
-import { cn } from '@/lib/utils';
+import { cn, isMemberRole } from '@/lib/utils';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 
 
@@ -36,7 +36,7 @@ export default function StudentDashboard() {
   const books = booksData.length > 0 ? booksData : contextBooks;
   const { data: lessonStats = [], isLoading, isFetching, refetch } = useLessonStats(user?.id);
   const { data: wordBanks = [], isLoading: banksLoading } = useStudentSets(user?.id);
-  const { streak } = useStreak({ userId: user?.id, isMember: ['member', 'teacher', 'admin', 'superadmin'].includes(role) });
+  const { streak } = useStreak({ userId: user?.id, isMember: isMemberRole(role) });
 
   function getBookTitle(bookId) {
     if (!bookId) return '';
@@ -48,7 +48,7 @@ export default function StudentDashboard() {
   }
 
   useEffect(() => {
-    if (roleReady && role && !['member', 'teacher', 'admin', 'superadmin'].includes(role)) navigate('/');
+    if (roleReady && role && !isMemberRole(role)) navigate('/');
   }, [roleReady, role, navigate]);
 
   const [viewingBank, setViewingBank] = useState(null);

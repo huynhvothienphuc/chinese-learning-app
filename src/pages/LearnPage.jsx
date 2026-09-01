@@ -10,7 +10,7 @@ import { useLocalStorageState } from '@/hooks/useLocalStorageState';
 import { trackLessonStat, trackAnalyticsEvent } from '@/lib/supabase';
 import StreakToast from '@/components/StreakToast';
 import { trackEvent, initGoogleAnalytics } from '@/lib/analytics';
-import { formatSectionName } from '@/lib/utils';
+import { formatSectionName, isMemberRole } from '@/lib/utils';
 import {
   USER_UPLOAD_BOOK_ID,
   SESSION_SELECTED_BOOK_KEY,
@@ -57,7 +57,7 @@ export default function LearnPage() {
   const navigate = useNavigate();
   const location = useLocation();
   const queryClient = useQueryClient();
-  const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
+  const isMember = isMemberRole(role);
   const { trackFlip, triggerStreak, resetCardTracking, toast: streakToast, dismissToast } = useStreak({ userId: user?.id, isMember });
 
   // ── book / section selection ──

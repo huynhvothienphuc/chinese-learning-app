@@ -5,6 +5,16 @@ export function cn(...inputs) {
   return twMerge(clsx(inputs));
 }
 
+// Roles that count as a logged-in member for gating purposes (streak/write
+// mode eligibility, dashboard access, etc.) — kept in one place since this
+// exact check was independently copy-pasted across Navbar/LearnPage/
+// StudentDashboard/MyQuizPage.
+const MEMBER_ROLES = ['member', 'teacher', 'admin', 'superadmin'];
+
+export function isMemberRole(role) {
+  return MEMBER_ROLES.includes(role);
+}
+
 export function shuffleArray(items) {
   const next = [...items];
   for (let index = next.length - 1; index > 0; index -= 1) {

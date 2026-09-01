@@ -5,7 +5,7 @@ import { CheckSquare2, PencilLine, ListChecks, Loader2, Square, X, Lock } from '
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { buildQuizChoices, cn, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
+import { buildQuizChoices, cn, isMemberRole, normalizeVocabularyItems, shuffleArray } from '@/lib/utils';
 import { supabase } from '@/lib/supabase';
 import { USER_UPLOAD_BOOK_ID } from '@/lib/constants';
 import { useAuthStore } from '@/store/authStore';
@@ -49,7 +49,7 @@ export default function MyQuizPage() {
   const { user, role, authReady } = useAuthStore();
   const isGuest = !user;
   const isSuperadmin = role === 'superadmin';
-  const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
+  const isMember = isMemberRole(role);
   const queryClient = useQueryClient();
   const userId = user?.id ?? null;
   const { triggerStreak, toast: streakToast, dismissToast } = useStreak({ userId, isMember });

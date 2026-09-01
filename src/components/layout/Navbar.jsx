@@ -7,7 +7,7 @@ import { useStreak } from '@/hooks/useStreak';
 import { Button } from '@/components/ui/button';
 import { Tooltip } from '@/components/ui/tooltip';
 import ToggleSwitch from '@/components/ToggleSwitch';
-import { cn } from '@/lib/utils';
+import { cn, isMemberRole } from '@/lib/utils';
 
 const THEMES = [
   { key: 'green',  label: 'Green',  color: '#ECFAE5', border: '#CAE8BD', accent: '#a8d5a2' },
@@ -30,7 +30,7 @@ export default function Navbar({
 }) {
   const { user, role } = useAuthStore();
   const { showSimplified, setShowSimplified } = useSettingsStore();
-  const isMember = ['member', 'teacher', 'admin', 'superadmin'].includes(role);
+  const isMember = isMemberRole(role);
   const { streak } = useStreak({ userId: user?.id, isMember });
   const navigate = useNavigate();
   const { pathname } = useLocation();
