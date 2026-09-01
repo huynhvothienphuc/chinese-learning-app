@@ -252,7 +252,7 @@ export default {
   superadminLabel: 'Superadmin',
   superadminDashboardTitle: 'Analytics Dashboard',
   superadminCurriculumBtn: 'Curriculum',
-  superadminExercisesBtn: 'Exercises',
+  superadminExercisesBtn: 'Practice Curriculum',
   superadminRefreshBtn: 'Refresh',
   superadminTotalUsers: 'Total Users',
   superadminNewThisMonth: 'New This Month',

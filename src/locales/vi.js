@@ -252,7 +252,7 @@ export default {
   superadminLabel: 'Superadmin',
   superadminDashboardTitle: 'Bảng phân tích',
   superadminCurriculumBtn: 'Giáo trình',
-  superadminExercisesBtn: 'Bài tập',
+  superadminExercisesBtn: 'Giáo trình luyện tập',
   superadminRefreshBtn: 'Làm mới',
   superadminTotalUsers: 'Tổng người dùng',
   superadminNewThisMonth: 'Mới tháng này',
