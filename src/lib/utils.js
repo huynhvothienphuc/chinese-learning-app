@@ -14,6 +14,19 @@ export function shuffleArray(items) {
   return next;
 }
 
+// Index of the Nth (1-based) occurrence of `needle` in `haystack`, or -1.
+// Used to disambiguate a repeated word so blanking/bracket-redisplay logic
+// targets the specific occurrence an admin marked, not always the first.
+export function nthIndexOf(haystack, needle, n) {
+  if (!needle) return -1;
+  let idx = -1;
+  for (let i = 0; i < n; i += 1) {
+    idx = haystack.indexOf(needle, idx + 1);
+    if (idx === -1) return -1;
+  }
+  return idx;
+}
+
 function pickByLanguage(primary, fallback, fallbackLabel) {
   const p = String(primary || '').trim();
   if (p) return p;
@@ -136,6 +149,21 @@ export function formatSectionName(filename) {
     .split(/[-_]/)
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
+}
+
+// Word bank for fill-in-the-blank: correct word + up to `count` other words
+// from the same pool, sized down when the pool itself is small.
+export function buildFillBlankChoices(vocabulary, currentItem, count = 14) {
+  const seen = new Set([currentItem.chinese]);
+  const deduped = vocabulary.filter((item) => {
+    if (item.id === currentItem.id) return false;
+    if (seen.has(item.chinese)) return false;
+    seen.add(item.chinese);
+    return true;
+  });
+
+  const wrongChoices = shuffleArray(deduped).slice(0, Math.min(count, deduped.length));
+  return shuffleArray([currentItem, ...wrongChoices]);
 }
 
 export function buildQuizChoices(vocabulary, currentItem) {
