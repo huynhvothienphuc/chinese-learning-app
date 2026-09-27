@@ -4,6 +4,7 @@ import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { useSettingsStore } from '@/store/settingsStore';
 import { cn, getItemMeaning, getSentenceMeaning } from '@/lib/utils';
 
 export default function Flashcard({
@@ -18,13 +19,21 @@ export default function Flashcard({
   onShuffle,
   t,
 }) {
-  const [showDetails, setShowDetails] = useState(false);
-  const showPinyin = showDetails;
-  const showMeaning = showDetails;
+  // Two independent ways to reveal pinyin/meaning, not one replacing the
+  // other: `showDetails` is local and per-card (resets on the next card,
+  // for "just let me peek at this one"), `showAllPinyin` is global + persisted
+  // (src/store/settingsStore.js — applies to every card, this session and
+  // future ones). Either one being on reveals the current card.
+  const showAllPinyin = useSettingsStore((s) => s.showAllPinyin);
+  const setShowAllPinyin = useSettingsStore((s) => s.setShowAllPinyin);
+  const [showDetails, setShowDetails] = useState(showAllPinyin);
 
   useEffect(() => {
-    setShowDetails(false);
-  }, [item?.id]);
+    setShowDetails(showAllPinyin);
+  }, [item?.id, showAllPinyin]);
+
+  const showPinyin = showDetails || showAllPinyin;
+  const showMeaning = showDetails || showAllPinyin;
 
   if (!item) {
     return (
@@ -45,6 +54,12 @@ export default function Flashcard({
             checked={showDetails}
             onChange={setShowDetails}
             label={t.showPinyin}
+            className="h-10 rounded-2xl border border-border bg-background px-3 text-sm font-semibold text-foreground hover:bg-accent md:h-9"
+          />
+          <ToggleSwitch
+            checked={showAllPinyin}
+            onChange={setShowAllPinyin}
+            label={t.showAllPinyin}
             className="h-10 rounded-2xl border border-border bg-background px-3 text-sm font-semibold text-foreground hover:bg-accent md:h-9"
           />
           <Button

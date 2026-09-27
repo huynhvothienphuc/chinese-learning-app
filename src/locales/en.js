@@ -198,6 +198,7 @@ export default {
   quizAllFavorites: 'Quiz all favorites',
   flashcardFocusHint: 'Keep the card area calm and focused. Reveal extra help only when you need it.',
   showPinyin: 'Show pinyin',
+  showAllPinyin: 'Show all',
   hidePinyin: 'Hide pinyin',
   showMeaning: 'Show meaning',
   hideMeaning: 'Hide meaning',
@@ -211,7 +212,7 @@ export default {
   writeModeRetry: 'Retry wrong',
   writeModeDisclaimer: 'Some blanks may have multiple valid answers. We mark against the expected word — if yours is correct but marked wrong, that\'s a known gap we\'re working on.',
   sampleNoticeTitle: 'Content update notice',
-  sampleNoticeBody: 'Some sample sentences may still contain mistakes for now. Thank you for your patience while we continue updating them! 😊\n\n✨ Vocabulary update in progress! Book 1 ✅ · Books 2 → 6: updating ⏳ Stay tuned 🙏',
+  sampleNoticeBody: '✨ Updated through Lesson 3 of Book 3 ✅ · The rest is still being finished ⏳ Thanks for your patience 🙏\n\n📖 Books 4, 5, 6 are open again — heads up that vocabulary in these books may still have some mix-ups, we\'ll update them soon 🙏',
   sampleNoticeAction: 'Got it',
   supportedBy: 'Supported by',
   // Upload / sets manager

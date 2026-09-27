@@ -197,7 +197,8 @@ export default {
   studyAllFavorites: 'Học tất cả từ yêu thích',
   quizAllFavorites: 'Kiểm tra tất cả từ yêu thích',
   flashcardFocusHint: 'Giữ khu vực học thật gọn gàng. Chỉ hiện thêm gợi ý khi bạn cần.',
-  showPinyin: 'Hiện pinyin',
+  showPinyin: 'Hiện pinyin từng thẻ',
+  showAllPinyin: 'Hiện pinyin tất cả flashcard',
   hidePinyin: 'Ẩn pinyin',
   showMeaning: 'Hiện nghĩa',
   hideMeaning: 'Ẩn nghĩa',
@@ -211,7 +212,7 @@ export default {
   writeModeRetry: 'Luyện lại từ sai',
   writeModeDisclaimer: 'Một số chỗ trống có thể có nhiều đáp án đúng. Chúng tôi chấm theo từ gốc — nếu câu trả lời của bạn đúng nhưng bị đánh dấu sai, đó là giới hạn chúng tôi đang cải thiện.',
   sampleNoticeTitle: 'Thông báo cập nhật nội dung',
-  sampleNoticeBody: 'Một số câu ví dụ hiện vẫn có thể chưa thật sự chính xác. Cảm ơn bạn đã kiên nhẫn trong khi chúng tôi tiếp tục cập nhật và cải thiện! 😊\n\n✨ Chúng mình đang cập nhật từ vựng! Quyển 1 ✅ · Quyển 2 → 6: đang cập nhật ⏳ Chờ tụi mình xíu nhé 🙏',
+  sampleNoticeBody: '✨ Đã cập nhật đến Bài 3 - Quyển 3 ✅ · Các phần còn lại đang tiếp tục hoàn thiện ⏳ Cảm ơn bạn đã kiên nhẫn chờ đợi nhé 🙏\n\n📖 Đã mở lại Quyển 4, 5, 6 — lưu ý từ vựng ở các quyển này có thể sẽ có nhầm lẫn, tụi mình sẽ update sớm nhé 🙏',
   sampleNoticeAction: 'Đã hiểu',
   supportedBy: 'Supported by',
   // Upload / sets manager
