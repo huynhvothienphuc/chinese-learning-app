@@ -1,5 +1,4 @@
 import { Heart, Shuffle } from 'lucide-react';
-import { useEffect, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
 import ToggleSwitch from '@/components/ToggleSwitch';
 import { Button } from '@/components/ui/button';
@@ -19,21 +18,11 @@ export default function Flashcard({
   onShuffle,
   t,
 }) {
-  // Two independent ways to reveal pinyin/meaning, not one replacing the
-  // other: `showDetails` is local and per-card (resets on the next card,
-  // for "just let me peek at this one"), `showAllPinyin` is global + persisted
-  // (src/store/settingsStore.js — applies to every card, this session and
-  // future ones). Either one being on reveals the current card.
-  const showAllPinyin = useSettingsStore((s) => s.showAllPinyin);
-  const setShowAllPinyin = useSettingsStore((s) => s.setShowAllPinyin);
-  const [showDetails, setShowDetails] = useState(showAllPinyin);
-
-  useEffect(() => {
-    setShowDetails(showAllPinyin);
-  }, [item?.id, showAllPinyin]);
-
-  const showPinyin = showDetails || showAllPinyin;
-  const showMeaning = showDetails || showAllPinyin;
+  // Single persisted toggle (src/store/settingsStore.js): reveals pinyin and
+  // meaning on every card and is remembered across sessions.
+  const showPinyin = useSettingsStore((s) => s.showAllPinyin);
+  const setShowPinyin = useSettingsStore((s) => s.setShowAllPinyin);
+  const showMeaning = showPinyin;
 
   if (!item) {
     return (
@@ -51,15 +40,9 @@ export default function Flashcard({
       <div className="mb-4 rounded-3xl border border-theme-border bg-theme-surface px-3 py-3 shadow-soft sm:px-4">
         <div className="flex flex-wrap items-center gap-2">
           <ToggleSwitch
-            checked={showDetails}
-            onChange={setShowDetails}
+            checked={showPinyin}
+            onChange={setShowPinyin}
             label={t.showPinyin}
-            className="h-10 rounded-2xl border border-border bg-background px-3 text-sm font-semibold text-foreground hover:bg-accent md:h-9"
-          />
-          <ToggleSwitch
-            checked={showAllPinyin}
-            onChange={setShowAllPinyin}
-            label={t.showAllPinyin}
             className="h-10 rounded-2xl border border-border bg-background px-3 text-sm font-semibold text-foreground hover:bg-accent md:h-9"
           />
           <Button

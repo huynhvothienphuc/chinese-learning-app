@@ -198,7 +198,6 @@ export default {
   quizAllFavorites: 'Quiz all favorites',
   flashcardFocusHint: 'Keep the card area calm and focused. Reveal extra help only when you need it.',
   showPinyin: 'Show pinyin',
-  showAllPinyin: 'Show all',
   hidePinyin: 'Hide pinyin',
   showMeaning: 'Show meaning',
   hideMeaning: 'Hide meaning',
