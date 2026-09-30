@@ -1,6 +1,6 @@
 import { Heart, Shuffle } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import SpeakButton from '@/components/SpeakButton';
-import ToggleSwitch from '@/components/ToggleSwitch';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { useSettingsStore } from '@/store/settingsStore';
@@ -18,11 +18,23 @@ export default function Flashcard({
   onShuffle,
   t,
 }) {
-  // Single persisted toggle (src/store/settingsStore.js): reveals pinyin and
-  // meaning on every card and is remembered across sessions.
-  const showPinyin = useSettingsStore((s) => s.showAllPinyin);
-  const setShowPinyin = useSettingsStore((s) => s.setShowAllPinyin);
+  // Pinyin/meaning mode is persisted (src/store/settingsStore.js). In 'card'
+  // mode the learner reveals the current card; it hides again on the next one.
+  const pinyinMode = useSettingsStore((s) => s.pinyinMode);
+  const setPinyinMode = useSettingsStore((s) => s.setPinyinMode);
+  const [revealed, setRevealed] = useState(false);
+
+  useEffect(() => {
+    setRevealed(false);
+  }, [item?.id, pinyinMode]);
+
+  const showPinyin = pinyinMode === 'all' || (pinyinMode === 'card' && revealed);
   const showMeaning = showPinyin;
+  const pinyinOptions = [
+    { value: 'off', label: t.pinyinOff },
+    { value: 'card', label: t.pinyinPerCard },
+    { value: 'all', label: t.pinyinAll },
+  ];
 
   if (!item) {
     return (
@@ -39,12 +51,31 @@ export default function Flashcard({
     <div className="mx-auto w-full max-w-5xl" translate="no">
       <div className="mb-4 rounded-3xl border border-theme-border bg-theme-surface px-3 py-3 shadow-soft sm:px-4">
         <div className="flex flex-wrap items-center gap-2">
-          <ToggleSwitch
-            checked={showPinyin}
-            onChange={setShowPinyin}
-            label={t.showPinyin}
-            className="h-10 rounded-2xl border border-border bg-background px-3 text-sm font-semibold text-foreground hover:bg-accent md:h-9"
-          />
+          <div
+            role="radiogroup"
+            aria-label={t.pinyinLabel}
+            className="flex h-10 items-center gap-1 rounded-2xl border border-border bg-background p-1 text-sm font-semibold md:h-9"
+          >
+            {pinyinOptions.map((opt) => (
+              <button
+                key={opt.value}
+                type="button"
+                role="radio"
+                aria-checked={pinyinMode === opt.value}
+                className={cn(
+                  'h-full rounded-xl px-3 transition-colors',
+                  pinyinMode === opt.value ? 'bg-primary text-primary-foreground' : 'text-foreground hover:bg-accent',
+                )}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  setPinyinMode(opt.value);
+                  event.currentTarget.blur();
+                }}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
           <Button
             type="button"
             variant="outline"
@@ -126,6 +157,20 @@ export default function Flashcard({
                     <SpeakButton text={item.chinese} label={t.speakWord} size="icon" variant="outline" className="shrink-0" />
                   </div>
                   {showPinyin ? <p className="mt-2 break-words text-lg font-medium text-muted-foreground sm:text-xl">{item.pinyin}</p> : null}
+                  {pinyinMode === 'card' && !revealed ? (
+                    <Button
+                      type="button"
+                      variant="outline"
+                      size="sm"
+                      className="mt-3"
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        setRevealed(true);
+                      }}
+                    >
+                      {t.revealPinyin}
+                    </Button>
+                  ) : null}
                   {showMeaning ? <p className="mt-3 break-words text-lg font-medium text-foreground sm:text-xl">{meaning}</p> : null}
                 </div>
 

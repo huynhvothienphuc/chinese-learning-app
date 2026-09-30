@@ -6,13 +6,24 @@ export const useSettingsStore = create(
     (set) => ({
       showSimplified: false,
       setShowSimplified: (v) => set({ showSimplified: v }),
-      // Default true — Flashcard mode used to hide pinyin/meaning on every
-      // single card until manually re-revealed each time, which was pure
-      // friction for beginners who don't know the reading yet. This makes
-      // the card's own toggle a persisted, global default instead.
-      showAllPinyin: true,
-      setShowAllPinyin: (v) => set({ showAllPinyin: v }),
+      // Flashcard pinyin/meaning mode:
+      //   'off'  — always hidden
+      //   'card' — hidden until revealed on the current card (resets per card)
+      //   'all'  — always shown (default; beginners don't know the reading yet)
+      pinyinMode: 'all',
+      setPinyinMode: (v) => set({ pinyinMode: v }),
     }),
-    { name: 'app-settings' },
+    {
+      name: 'app-settings',
+      version: 1,
+      // v0 stored a boolean `showAllPinyin`; map it onto the new mode.
+      migrate: (state, version) => {
+        if (version < 1 && state) {
+          const { showAllPinyin, ...rest } = state;
+          return { ...rest, pinyinMode: showAllPinyin === false ? 'off' : 'all' };
+        }
+        return state;
+      },
+    },
   ),
 );
