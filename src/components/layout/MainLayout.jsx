@@ -230,6 +230,9 @@ export default function MainLayout() {
                 <img src="/sponser.png" alt="Sponsor" className="h-14 w-14 rounded-full object-cover" loading="lazy" />
               </a>
             </div>
+            <div className="mt-2 text-xs text-muted-foreground/70">
+              v{__APP_VERSION__.split('.').slice(0, 2).join('.')}
+            </div>
           </footer>
         </div>
       </div>
