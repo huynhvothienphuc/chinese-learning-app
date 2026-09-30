@@ -211,9 +211,9 @@ export default {
   writeModeInputPlaceholder: 'Nhập chữ Hán còn thiếu…',
   writeModeRetry: 'Luyện lại từ sai',
   writeModeDisclaimer: 'Một số chỗ trống có thể có nhiều đáp án đúng. Chúng tôi chấm theo từ gốc — nếu câu trả lời của bạn đúng nhưng bị đánh dấu sai, đó là giới hạn chúng tôi đang cải thiện.',
-  sampleNoticeTitle: 'Thông báo cập nhật nội dung',
-  sampleNoticeBody: '✨ Đã cập nhật đến Bài 3 - Quyển 3 ✅ · Các phần còn lại đang tiếp tục hoàn thiện ⏳ Cảm ơn bạn đã kiên nhẫn chờ đợi nhé 🙏\n\n📖 Đã mở lại Quyển 4, 5, 6 — lưu ý từ vựng ở các quyển này có thể sẽ có nhầm lẫn, tụi mình sẽ update sớm nhé 🙏',
-  sampleNoticeAction: 'Đã hiểu',
+  sampleNoticeTitle: 'Tin mới từ tụi mình 💌',
+  sampleNoticeBody: '🎉 Quyển 4, 5, 6 đã mở rồi nè! Nội dung hiện tại phần lớn vẫn do AI soạn, tụi mình sẽ cập nhật sớm nha ⏳\n\n✅ Còn Quyển 1, 2, 3 thì đã được tụi mình chỉnh sửa kỹ càng từ chính kinh nghiệm học của tụi mình rồi đó.\n\nCảm ơn bạn vẫn ở đây học cùng tụi mình :D\nFrom Quyên & Tín with love 💛',
+  sampleNoticeAction: 'Okie, học thôi!',
   supportedBy: 'Supported by',
   // Upload / sets manager
   browserStorageWarningTitle: 'Chỉ lưu trong trình duyệt',

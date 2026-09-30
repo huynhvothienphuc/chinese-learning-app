@@ -211,9 +211,9 @@ export default {
   writeModeInputPlaceholder: 'Type the missing characters…',
   writeModeRetry: 'Retry wrong',
   writeModeDisclaimer: 'Some blanks may have multiple valid answers. We mark against the expected word — if yours is correct but marked wrong, that\'s a known gap we\'re working on.',
-  sampleNoticeTitle: 'Content update notice',
-  sampleNoticeBody: '✨ Updated through Lesson 3 of Book 3 ✅ · The rest is still being finished ⏳ Thanks for your patience 🙏\n\n📖 Books 4, 5, 6 are open again — heads up that vocabulary in these books may still have some mix-ups, we\'ll update them soon 🙏',
-  sampleNoticeAction: 'Got it',
+  sampleNoticeTitle: 'A little update from us 💌',
+  sampleNoticeBody: '🎉 Books 4, 5, 6 are open! Most of their content is still AI-written for now, we\'ll update them soon ⏳\n\n✅ Books 1, 2, 3 have already been carefully reworked from our own learning experience.\n\nThank you for still being here learning with us :D\nFrom Quyên & Tín with love 💛',
+  sampleNoticeAction: 'Okay, let\'s study!',
   supportedBy: 'Supported by',
   // Upload / sets manager
   browserStorageWarningTitle: 'Saved in your browser only',
