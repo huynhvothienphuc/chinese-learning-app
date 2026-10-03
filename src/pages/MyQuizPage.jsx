@@ -574,7 +574,7 @@ export default function MyQuizPage() {
         )
       )}
 
-      {streakToast && <StreakToast streak={streakToast.streak} onDismiss={dismissToast} />}
+      {streakToast && <StreakToast streak={streakToast.streak} onDismiss={dismissToast} t={t} />}
     </div>
   );
 }

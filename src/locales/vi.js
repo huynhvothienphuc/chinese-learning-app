@@ -234,6 +234,8 @@ export default {
   downloadSet: 'Tải bộ từ về Excel',
   deleteSet: 'Xóa bộ từ',
   streakLabel: '{n} ngày học liên tiếp!',
+  streakToastTitle: 'Chuỗi {n} ngày!',
+  streakToastHint: 'Giữ vững phong độ nhé',
   dashboardDayStreak: 'ngày học liên tiếp',
   dashboardStreakHint: '💡 Làm quiz hoặc lật 10 flashcard mỗi ngày để duy trì streak!',
   dashboardQuizzesDone: 'bài quiz đã làm',

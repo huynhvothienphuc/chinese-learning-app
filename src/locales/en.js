@@ -234,6 +234,8 @@ export default {
   downloadSet: 'Download set as Excel',
   deleteSet: 'Delete set',
   streakLabel: '{n} day learning streak!',
+  streakToastTitle: '{n} day streak!',
+  streakToastHint: 'Keep it up',
   dashboardDayStreak: 'days in a row',
   dashboardStreakHint: '💡 Do a quiz or flip 10 flashcards every day to build your streak!',
   dashboardQuizzesDone: 'quizzes completed',

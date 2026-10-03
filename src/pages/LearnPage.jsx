@@ -58,7 +58,7 @@ export default function LearnPage() {
   const location = useLocation();
   const queryClient = useQueryClient();
   const isMember = isMemberRole(role);
-  const { trackFlip, triggerStreak, resetCardTracking, toast: streakToast, dismissToast } = useStreak({ userId: user?.id, isMember });
+  const { trackFlip, triggerStreak, toast: streakToast, dismissToast } = useStreak({ userId: user?.id, isMember });
 
   // ── book / section selection ──
   const [selectedBook, setSelectedBook] = useState('');
@@ -254,8 +254,6 @@ export default function LearnPage() {
   const [sampleNoticeLastSeen, setSampleNoticeLastSeen] = useLocalStorageState(SAMPLE_NOTICE_KEY, '');
   const [isSampleNoticeOpen, setIsSampleNoticeOpen] = useState(false);
 
-  useEffect(() => { resetCardTracking(); }, [selectedSection]); // eslint-disable-line react-hooks/exhaustive-deps
-
   useEffect(() => {
     if (sampleNoticeLastSeen === getTodayKey()) return;
     setIsSampleNoticeOpen(true);
@@ -294,7 +292,8 @@ export default function LearnPage() {
 
   // ── wrapped handlers that also mark streak ──
   function handleFlipCard() {
-    trackFlip(session.currentItem?.id);
+    const itemId = session.currentItem?.id;
+    if (itemId) trackFlip(`${selectedBook}/${selectedSection}/${itemId}`);
     session.handleFlipCard();
   }
   function handleAnswer(choice) { session.handleAnswer(choice); }
@@ -468,7 +467,7 @@ export default function LearnPage() {
           </Card>
         </div>
       )}
-      {streakToast && <StreakToast streak={streakToast.streak} onDismiss={dismissToast} />}
+      {streakToast && <StreakToast streak={streakToast.streak} onDismiss={dismissToast} t={t} />}
     </>
   );
 }
